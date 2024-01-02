@@ -3,15 +3,15 @@
 <head>
   {{ partial "head.html" . }}
 </head>
-<body>
-  <header>
+<body class="flex items-center justify-center h-screen bg-gray-800 text-white">
+  {{/*  <header>
     {{ partial "header.html" . }}
-  </header>
+  </header>  */}}
   <main>
     {{ block "main" . }}{{ end }}
   </main>
-  <footer>
+  {{/*  <footer>
     {{ partial "footer.html" . }}
-  </footer>
+  </footer>  */}}
 </body>
 </html>

@@ -1,6 +1,6 @@
 baseURL = 'https://www.benstrawbridge.com/'
 languageCode = 'en-us'
-title = 'email soft landing page'
+title = 'benstrawbridge.com'
 theme = 'benstraw'
 
 [module]

@@ -4,4 +4,17 @@
 
 ## Installation
 
+[resource for setting up hugo with tailwindcss](https://www.unsungnovelty.org/posts/03/2022/how-to-add-tailwind-css-3-to-a-hugo-website-in-2022/)
+
+Make sure to update `tailwind.config.js`, `package.json`, `main.css` and the css include link.
+
+```bash
+cd themes/benstraw
+npm init -y
+npm install --save-dev tailwindcss
+npx tailwindcss init
+touch assets/css/style.css
+npm run build-tw
+```
+
 ## Configuration

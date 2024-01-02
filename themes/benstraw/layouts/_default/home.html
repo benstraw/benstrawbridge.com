@@ -1,7 +1,16 @@
 {{ define "main" }}
-  {{ .Content }}
-  {{ range site.RegularPages }}
+
+  <div class="p-6 max-w-sm mx-auto rounded-xl shadow-lg flex items-center space-x-4 bg-gray-700 text-gray-200">
+    <div>
+      <div class="text-xl text-center font-medium text-slate-500">{{ .Title }}</div>
+      <div class="text-slate-500 text-center m-5">
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+  
+  {{/*  {{ range site.RegularPages }}
     <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
     {{ .Summary }}
-  {{ end }}
+  {{ end }}  */}}
 {{ end }}
