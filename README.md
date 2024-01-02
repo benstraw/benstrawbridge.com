@@ -1,3 +1,7 @@
+# benstrawbridge.com landing page  
+
+## setup  
+
 ```bash
 hugo new site benstrawbridge.com
 cd benstrawbridge.com
