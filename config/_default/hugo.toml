@@ -1,0 +1,9 @@
+baseURL = 'https://www.benstrawbridge.com/'
+languageCode = 'en-us'
+title = 'email soft landing page'
+theme = 'benstraw'
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.116.0"
