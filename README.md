@@ -30,3 +30,5 @@ npx tailwindcss init
 touch assets/css/style.css
 npm run build-tw
 ```
+
+While working on css, make sure to run `npm run watch-tw`.
