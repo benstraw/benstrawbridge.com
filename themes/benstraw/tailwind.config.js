@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'maui-sunset': " url('/images/maui-sunset.jpg')",
+        'maui-sunset': " url('/images/maui-sunset.webp')",
       },},
   },
   plugins: [require("@tailwindcss/typography")],
