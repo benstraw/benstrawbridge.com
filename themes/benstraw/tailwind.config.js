@@ -2,8 +2,11 @@
 module.exports = {
   content: ["content/**/*.md", "layouts/**/*.html"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'maui-sunset': " url('/images/20231229_172436.jpg')",
+      },},
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 }
 

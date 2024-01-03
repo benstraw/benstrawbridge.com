@@ -1,13 +1,13 @@
 {{ define "main" }}
 
-  <div class="p-6 max-w-sm mx-auto rounded-xl shadow-lg flex items-center space-x-4 bg-gray-700 text-gray-200">
-    <div>
-      <div class="text-xl text-center font-medium text-slate-500">{{ .Title }}</div>
-      <div class="text-slate-500 text-center m-5">
-        {{ .Content }}
+<div class="max-w-sm mx-auto shadow-lg flex items-center space-x-4 px-4 py-8">
+  <div class="p-4 rounded-xl bg-gray-800/75 text-gray-200">
+      <div class="text-xl text-center font-bold text-slate-500">{{ .Title }}</div>
+      <div class=" text-slate-500 m-1">
+          {{ .Content }}
       </div>
-    </div>
   </div>
+</div>
   
   {{/*  {{ range site.RegularPages }}
     <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>

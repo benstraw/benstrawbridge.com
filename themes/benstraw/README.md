@@ -15,6 +15,8 @@ npm install --save-dev tailwindcss
 npx tailwindcss init
 touch assets/css/style.css
 npm run build-tw
+# npm run watch-tw # use when working on css
 ```
+
 
 ## Configuration
