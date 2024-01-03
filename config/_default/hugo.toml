@@ -16,7 +16,6 @@ timeZone = "America/New_York"
   url   = "https://www.github.com/benstraw"
   target= "_blank"
 
-
 [module]
   [module.hugoVersion]
     extended = false

@@ -1,0 +1,6 @@
+[params]
+  env = "production"
+
+[services]
+  [services.googleAnalytics]
+    ID = 'G-6ZYXDDEJQW'
