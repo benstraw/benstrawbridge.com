@@ -13,7 +13,6 @@
 {{ partialCached "head/js.html" . }}
 
 {{- if hugo.IsProduction | or (eq site.Params.env "production") }}
-Hi!
 {{ template "_internal/google_analytics.html" . }}
 {{ partialCached "head/opengraph.html" . }}
 {{- end -}}
