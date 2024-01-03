@@ -12,7 +12,7 @@
         {{ range sort . "weight" }}
           {{ if .faClasses}} {{ if .url }}
           <li class="px-2">
-            <a href="{{ .url | safeURL }}" aria-label="{{ .title }}" {{ if .rel }}rel="{{ .rel }}"{{ end }} {{ if .target }}target="{{ .target }}"{{ end }} {{ if .type }}type="{{ .type }}"{{ end }}>
+            <a class="hover:underline cursor-pointer" href="{{ .url | safeURL }}" aria-label="{{ .title }}" {{ if .rel }}rel="{{ .rel }}"{{ end }} {{ if .target }}target="{{ .target }}"{{ end }} {{ if .type }}type="{{ .type }}"{{ end }}>
               <span class="{{ .faClasses }}"></span>
             </a>
           </li>
