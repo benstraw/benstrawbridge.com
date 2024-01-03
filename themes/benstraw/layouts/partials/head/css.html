@@ -1,3 +1,5 @@
+{{/*  {{ $css := resources.Get "/css/styles.css" | resources.PostCSS (dict "inlineImports" true) }}  */}}
+
 {{- with resources.Get "css/style.css" }}
   {{- if eq hugo.Environment "development" }}
     <link rel="stylesheet" href="{{ .RelPermalink }}">
@@ -9,7 +11,5 @@
 {{- end }}
 
 <style>
-  a {
-    text-decoration: underline;
-  }
+  
 </style>

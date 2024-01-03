@@ -1,2 +1,4 @@
-<h1 class="text-3xl text-blue-700 font-bold underline">{{ site.Title }}</h1>
-{{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+{{ if not .IsHome }}
+  <h1 class="text-3xl font-bold">{{ site.Title }}</h1>
+  {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+{{ end }}

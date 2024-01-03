@@ -3,15 +3,16 @@
 <head>
   {{ partial "head.html" . }}
 </head>
-<body class="bg-maui-sunset bg-cover h-screen flex items-center justify-center h-screen bg-gray-800 text-white">
-  {{/*  <header>
+<body class="bg-maui-sunset bg-cover h-screen flex flex-col items-center justify-center bg-gray-800 text-white">
+
+  <header class="mb-8">
     {{ partial "header.html" . }}
-  </header>  */}}
+  </header>
   <main>
     {{ block "main" . }}{{ end }}
   </main>
-  {{/*  <footer>
+  <footer class="mt-8">
     {{ partial "footer.html" . }}
-  </footer>  */}}
+  </footer>
 </body>
 </html>

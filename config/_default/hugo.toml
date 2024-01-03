@@ -2,8 +2,30 @@ baseURL = 'https://www.benstrawbridge.com/'
 languageCode = 'en-us'
 title = 'benstrawbridge.com'
 theme = 'benstraw'
+enableRobotsTXT = true
+timeZone = "America/New_York"
+
+[[params.social]]
+  faClasses = "fa-solid fa-envelope"
+  title = "Email me"
+  url   = "mailto:ben@benstrawbridge.com?subject=web"
+  target= "_blank"
+[[params.social]]
+  faClasses = "fa-brands fa-github"
+  title = "GitHub"
+  url   = "https://www.github.com/benstraw"
+  target= "_blank"
+
 
 [module]
   [module.hugoVersion]
     extended = false
     min = "0.116.0"
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+
+
+defaultContentLanguage = 'fr'
+
+

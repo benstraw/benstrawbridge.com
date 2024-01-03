@@ -18,5 +18,9 @@ npm run build-tw
 # npm run watch-tw # use when working on css
 ```
 
+Fontawesome
+
+- Rabbithole!
+https://gohugo.io/content-management/multilingual/
 
 ## Configuration

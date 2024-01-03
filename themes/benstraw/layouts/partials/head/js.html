@@ -10,3 +10,9 @@
     {{- end }}
   {{- end }}
 {{- end }}
+{{ $brands := resources.Get "fontawesome/js/brands.min.js"}}
+{{ $solid := resources.Get "fontawesome/js/solid.min.js"}}
+{{ $fontawesome := resources.Get "fontawesome/js/fontawesome.min.js"}}
+<script defer src="{{ $brands.RelPermalink }}"></script>
+<script defer src="{{ $solid.RelPermalink }}"></script>
+<script defer src="{{ $fontawesome.RelPermalink }}"></script>

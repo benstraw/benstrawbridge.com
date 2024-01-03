@@ -32,3 +32,7 @@ npm run build-tw
 ```
 
 While working on css, make sure to run `npm run watch-tw`.
+
+### Links  
+
+- https://www.markusantonwolf.com/blog/guide-for-different-ways-to-access-your-image-resources/
