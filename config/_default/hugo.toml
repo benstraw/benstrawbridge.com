@@ -10,11 +10,13 @@ timeZone = "America/New_York"
   title = "Email me"
   url   = "mailto:ben@benstrawbridge.com?subject=web"
   target= "_blank"
+  weight = 1
 [[params.social]]
   faClasses = "fa-brands fa-github"
   title = "GitHub"
   url   = "https://www.github.com/benstraw"
   target= "_blank"
+  weight = 2
 
 [module]
   [module.hugoVersion]
