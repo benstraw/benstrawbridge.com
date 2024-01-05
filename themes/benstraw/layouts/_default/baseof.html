@@ -3,15 +3,15 @@
 <head>
   {{ partial "head.html" . }}
 </head>
-<body class="bg-maui-sunset bg-cover h-screen flex flex-col items-center justify-center bg-gray-800 text-white">
+<body class="bg-maui-sunset bg-cover min-h-screen flex flex-col items-center justify-center text-white">
 
-  <header class="mb-8">
+  <header class="fixed top-0 left-0 right-0 p-4">
     {{ partial "header.html" . }}
   </header>
-  <main>
+  <main class="flex-1 overflow-y-auto pt-16 pb-16">
     {{ block "main" . }}{{ end }}
   </main>
-  <footer class="mt-8">
+  <footer class="fixed bottom-0 left-0 right-0 p-4">
     {{ partial "footer.html" . }}
   </footer>
 </body>
