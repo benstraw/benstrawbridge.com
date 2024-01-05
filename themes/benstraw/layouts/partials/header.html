@@ -1,4 +1,4 @@
 {{ if not .IsHome }}
-  <h1 class="text-3xl font-bold">{{ site.Title }}</h1>
+  <h1 class="text-3xl font-bold"><a href="/">{{ site.Title }}</a></h1>
   {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
 {{ end }}

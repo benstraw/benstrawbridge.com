@@ -19,6 +19,7 @@ echo "theme = benstraw" >> config/_default/hugo.toml
 ## adding tailwindcss to the theme  
 
 [resource for setting up hugo with tailwindcss](https://www.unsungnovelty.org/posts/03/2022/how-to-add-tailwind-css-3-to-a-hugo-website-in-2022/)
+[hugo pipes stuff for postProcess](https://gohugo.io/hugo-pipes/postprocess/)
 
 Make sure to update `tailwind.config.js`, `package.json`, `main.css` and the css include link.
 
