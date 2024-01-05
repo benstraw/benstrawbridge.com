@@ -31,7 +31,10 @@ touch assets/css/style.css
 npm run build-tw
 ```
 
-While working on css, make sure to run `npm run watch-tw`.
+make sure you update the build to install the stuff that is needed 
+```bash 
+npm install -D postcss-cli tailwindcss postcss autoprefixer @tailwindcss/typography
+```
 
 ### Links  
 
