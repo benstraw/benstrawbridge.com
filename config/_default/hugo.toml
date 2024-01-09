@@ -1,5 +1,6 @@
 baseURL = 'https://www.benstrawbridge.com/'
 languageCode = 'en-us'
+defaultContentLanguage = 'en'
 title = 'benstrawbridge.com'
 theme = 'benstraw'
 enableRobotsTXT = true
@@ -27,6 +28,5 @@ timeZone = "America/New_York"
     target = "assets"
 
 
-defaultContentLanguage = 'fr'
 
 
