@@ -2,7 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-a {
-  text-decoration: underline;
-  cursor: pointer;
+@layer base {
+  h1 {
+    @apply text-3xl font-bold;
+  }
+  h2 {
+    @apply text-2xl;
+  }
+  a {
+    @apply underline;
+  }
+  /* ... */
 }

@@ -27,6 +27,14 @@ timeZone = "America/New_York"
     source = "assets"
     target = "assets"
 
-
+[menu]
+[[menu.recipes]]
+    name = 'Why?'
+    url = '/recipes/about/'
+    weight = 40
+[[menu.recipes]]
+    name = 'Index'
+    url = '/recipes/'
+    weight = 30
 
 
