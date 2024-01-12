@@ -5,6 +5,7 @@ title = 'benstrawbridge.com'
 theme = 'benstraw'
 enableRobotsTXT = true
 timeZone = "America/New_York"
+summaryLength = 25
 
 [[params.social]]
   faClasses = "fa-solid fa-envelope"
@@ -33,7 +34,7 @@ timeZone = "America/New_York"
     url = '/recipes/about/'
     weight = 40
 [[menu.recipes]]
-    name = 'Index'
+    name = 'Recipe Index'
     url = '/recipes/'
     weight = 30
 

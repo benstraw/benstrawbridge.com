@@ -1,4 +1,5 @@
-{{ if not .IsHome }}
+{{/*  {{ if not .IsHome }}  */}}
+{{ if false }}
   <h1 class="mx-auto"><a href="/"><i class="fa-solid fa-user-secret"></i></a></h1>
   {{ if .Params.subMenu }}
     {{ $submenu := .Params.subMenu }}
@@ -6,4 +7,52 @@
   {{ else }}
     {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
   {{ end }}
+
+{{ end }}
+
+{{ if not .IsHome }}
+
+<nav class="bg-blue-500 dark:bg-slate-900 p-4 w-screen">
+  <div class="flex items-center justify-between">
+    <div class="hidden sm:flex">
+      <a class="text-gray-100 dark:text-gray-500 text-xl font-bold" href="/">Ben Strawbridge</a>
+    </div>
+
+    <div class="hidden md:flex">
+      <ul class="flex space-x-4">
+        {{ if .Params.subMenu }}
+          {{ $submenu := .Params.subMenu }}
+          {{ partial "justlimenu.html" (dict "menuID" $submenu "page" .) }}
+        {{ else }}
+          {{ partial "justlimenu.html" (dict "menuID" "main" "page" .) }}
+        {{ end }}
+        <li>
+          <a class="text-gray-100 dark:text-gray-500" title="GitHub" href="https://github.com/benstraw/"><i class="text-4xl fa-brands fa-square-github"></i></a>
+        </li>
+        <li>
+          <a class="text-gray-100 dark:text-gray-500" title="LinkedIn" href="https://www.linkedin.com/in/benstraw/"><i class="text-4xl fa-brands fa-linkedin"></i></a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="md:hidden">
+      <!-- Mobile menu button -->
+      <button class="text-gray-100 dark:text-gray-800">
+        <span class="sr-only">Toggle navigation</span>
+        <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+        </svg>
+      </button>
+    </div>
+
+    <div class="absolute left-1/2 transform -translate-x-1/2 flex items-center">
+
+      <div class="avatar-img-border">
+          <a title="Ben Strawbridge" href="/"><i class="text-4xl dark:text-gray-800 fa-solid fa-user-secret"></i></a>
+      </div>
+    </div>
+    
+  </div>
+</nav>
+
 {{ end }}
