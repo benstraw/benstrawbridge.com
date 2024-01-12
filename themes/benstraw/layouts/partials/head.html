@@ -9,10 +9,10 @@
 {{- else }}
 <meta name="robots" content="noindex, nofollow">
 {{- end }}
-{{ partialCached "head/css.html" . }}
-{{ partialCached "head/js.html" . }}
+{{ partial "head/css.html" . }}
+{{ partial "head/js.html" . }}
 
 {{- if hugo.IsProduction | or (eq site.Params.env "production") }}
 {{ template "_internal/google_analytics.html" . }}
-{{ partialCached "head/opengraph.html" . }}
 {{- end -}}
+{{ partial "head/opengraph.html" . }}
