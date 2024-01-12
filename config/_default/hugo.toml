@@ -1,4 +1,4 @@
-baseURL = 'https://www.benstrawbridge.com/'
+baseURL = 'https://www.benstrawbridge.com'
 languageCode = 'en-us'
 defaultContentLanguage = 'en'
 title = 'benstrawbridge.com'

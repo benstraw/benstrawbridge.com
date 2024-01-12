@@ -1,13 +1,14 @@
 +++
 title = 'Tarragon Beets Salad'
-date = 2024-01-11T11:56:15-08:00
+date = 2023-08-04T11:56:15-08:00
 # draft = true
 subMenu = 'recipes'
 categories = ['recipe']
 +++
 
 This was an attempt to copy a salad from [Bristol Farms](https://www.bristolfarms.com/). I ended up modifying it quite a bit from the initial ingredients.
-{{< figure src="/recipes/2024-01-06 21.58.08.jpg" title="With some green tomatoes on top" >}}
+
+![With some green tomatoes on top](/images/recipes/taragon-beets-salad/beets-salad.jpg)
 
 Makes about 4 qts. Lasts for over a week in the fridge.
 
@@ -30,7 +31,7 @@ Makes about 4 qts. Lasts for over a week in the fridge.
 - Fresh Tarragon to taste
 
 ## For Beets (can be done the day before):
-{{< figure src="/recipes/2024-01-06 20.24.28.jpg" title="Slice em up and cook them on parchment paper" >}}
+![Slice em up and cook em on parchment paper](/images/recipes/taragon-beets-salad/beets-on-parchment.jpg)
 - Preheat oven to 425
 - Cut (optionally peeled) beets into medium thin slices
 - Cut mushrooms into medium pieces. Any mushroom is fine but I like crimini or portobello
@@ -42,7 +43,7 @@ Makes about 4 qts. Lasts for over a week in the fridge.
 - Shake it up before using
 
 ## For Salad Preperation:
-{{< figure src="/recipes/2024-01-06 21.44.32.jpg" title="Slice em up and cook them on parchment paper" >}}
+![Chop up all the veggies nice and small](/images/recipes/taragon-beets-salad/chopped-veggies.jpg)
 
 - Prepare farro as directed, I use Bob’s Red Mill, and it takes about 1hr, chill by rinsing in cold water or just stick it in the fridge for a bit (this could be done the day before if you do the beets the day before)
 - Dice celery, apple and onion into small pieces
