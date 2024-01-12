@@ -4,25 +4,27 @@
   <div class="container mx-auto">
     <div class="grid grid-cols-3 gap-4">
       {{ if .Params.listWhere }}
-      {{ range where .Pages "Params.categories" "intersect" (slice "recipe") }}
-      <div class="bg-white p-4 rounded-md min-w-72">
-        <h2 class="text-lg font-semibold"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-        <p class="text-gray-600">{{ .Summary }}</p>
-        {{ if .Truncated }}
-        <a href="{{ .RelPermalink }}">Read more...</a>
+        {{ range where .Pages "Params.categories" "intersect" (slice "recipe") }}
+          {{- partial "inline/list/itemCover.html" . }}
         {{ end }}
-      </div>
-      {{ end }}
       {{ else }}
-      {{ range .Pages }}
-      <div class="bg-white p-4 rounded-md">
-        <h2 class="text-lg font-semibold"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-        <p class="text-gray-600">{{ .Summary }}</p>
-      </div>
-      {{ end }}
+        {{ range .Pages }}
+          {{- partial "inline/list/itemCover.html" . }}
+        {{ end }}
       {{ end }}
 
       
     </div>
   </div>
 {{ end }}
+
+{{- define "partials/inline/list/itemCover.html" }}
+  <a href="{{ .RelPermalink }}">
+    <div class="bg-white p-4 rounded-md min-w-72">
+      <h2 class="text-lg font-semibold">{{ .LinkTitle }}</h2>
+      <p class="text-gray-600">{{ .Summary }}</p>
+      {{ if .Truncated }}
+      Read more...
+      {{ end }}
+  </div></a>
+  {{- end }}
