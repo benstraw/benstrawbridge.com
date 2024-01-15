@@ -1,0 +1,39 @@
+#####################################################################################
+#
+# Based on this fun idea ::
+# https://open-recipe-format.readthedocs.io/en/latest/topics/reference/orf.html
+#
+# Or should i use this??
+# https://developers.google.com/search/docs/appearance/structured-data/recipe
+#
+#
+#####################################################################################
+
+recipe_name: Basic Fruit Salad
+yields:
+    - servings: 6
+ingredients:
+    - apple:
+      amounts:
+          - amount: 1
+            unit: each
+    - banana:
+        amounts:
+            - amount: 1
+              unit: each
+    - orange:
+        amounts:
+            - amount: 1
+              unit: each
+    - grapes:
+        amounts:
+            - amount: 1
+              unit: cup
+steps:
+    - step: Cut the apple into cubes.
+    - step: Cut the banana into slices.
+    - step: Peel the orange, and divide into segments.
+    - step: Combine all ingredients in a bowl.
+    - step: Mix to combine.
+
+
