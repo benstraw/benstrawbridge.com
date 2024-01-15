@@ -3,15 +3,14 @@
 <head>
   {{ partial "head.html" . }}
 </head>
-<body class="bg-maui-sunset bg-cover min-h-screen flex flex-col items-center justify-center">
-
+<body class="bg-green-200">
   <header class="flex flex-col justify-center">
     {{ partial "header.html" . }}
   </header>
-  <main class="flex-1 p-4">
+  <main class="">
     {{ block "main" . }}{{ end }}
   </main>
-  <footer class="p-4">
+  <footer class="flex flex-col justify-center">
     {{ partial "footer.html" . }}
   </footer>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>

@@ -19,6 +19,12 @@ summaryLength = 25
   url   = "https://www.github.com/benstraw"
   target= "_blank"
   weight = 2
+[[params.social]]
+  faClasses = "fa-brands fa-linkedin"
+  title = "LinkedIn"
+  url   = "https://www.linkedin.com/benstraw"
+  target= "_blank"
+  weight = 3
 
 [module]
   [module.hugoVersion]

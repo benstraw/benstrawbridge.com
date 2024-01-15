@@ -1,8 +1,10 @@
 +++
 title = 'Hugo Helpers'
 date = 2024-01-12T11:22:17-08:00
-draft = true
+# draft = true
 description = "Hugo helpers will help your hugo, make a great hugo!"
+category = "web development"
+tags = ["hugo","partials","images","responsive"]
 +++
 
 Here are some useful partials I use in this theme.  

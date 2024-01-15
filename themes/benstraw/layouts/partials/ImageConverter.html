@@ -7,7 +7,7 @@
 
 {{ if $image_url }} 
     {{/* Resize and convert the image  */}}
-    {{ $image_url = $image_url.Resize  $img_param }}
+    {{ $image_url = $image_url.Process $img_param }}
     {{ $image = $image_url.RelPermalink }}             
 {{end}}
 

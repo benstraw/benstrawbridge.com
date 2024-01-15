@@ -5,7 +5,7 @@
 {{ if .Params.featured_image }}
 {{ $image := resources.Get .Params.featured_image }}
 {{ if $image }}
-{{- $post_image_webp := partial "ImageConverter.html" (dict "ImageSrc" .Params.featured_image "ImgParam" (printf "%dx%d webp q100" $image.Width $image.Height)) -}}
+{{- $post_image_webp := partial "ImageConverter.html" (dict "ImageSrc" .Params.featured_image "ImgParam" "resize 1200x webp q80") -}}
 <meta property="og:image" content="{{ .Site.BaseURL }}{{ $post_image_webp }}" />
 {{ end }}
 {{ end }}
