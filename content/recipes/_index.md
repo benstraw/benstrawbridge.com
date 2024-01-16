@@ -6,5 +6,5 @@ subMenu = "recipes"
 listWhere = "recipe"
 description = "An attempt at making recipe data open and free so it may flutter around like a butterfly."
 [[cascade]]
-  featured_image = "/images/recipes/taragon-beets-salad/beets-salad.jpg"
+  featured_image = "/images/recipes/tarragon-beets-salad/beets-salad.jpg"
 +++
