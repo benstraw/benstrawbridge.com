@@ -42,3 +42,5 @@ npm install -D postcss-cli tailwindcss postcss autoprefixer @tailwindcss/typogra
 - https://www.markusantonwolf.com/blog/guide-for-different-ways-to-access-your-image-resources/
 - https://devnodes.in/blog/hugo/image-convert-to-webp/
 - https://martijnvanvreeden.nl/hugo-shortcode-to-serve-images-in-next-gen-formats/
+- this is how to make a good resume: https://mertbakir.gitlab.io/resume/
+-- https://gitlab.com/mertbakir/resume-a4
