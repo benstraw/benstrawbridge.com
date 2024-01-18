@@ -7,22 +7,6 @@ showTOC = true
 +++
 
 A page where I save links that I find myself returning to or really helped me out at times.
-## Art  
-
-### Portfolio sites
-
-- https://www.matthewharriscloth.co.uk/see/
-- https://www.louisestrawbridge.com/
-
-## Code
-
-### css  
-
-- [Tailwindcss docs](https://tailwindcss.com/docs/installation)
-
-### image gallery resources
-
-- [Photo Swipe plugin](https://github.com/dimsemenov/PhotoSwipe)
 
 ## Hugo  
 
@@ -53,6 +37,23 @@ A clean starter theme that has a lot of functionality built in. Translated into 
 
 - [Gallery Deluxe Theme](https://github.com/bep/gallerydeluxe)
 - [Gallery Theme](https://github.com/nicokaiser/hugo-theme-gallery)
+
+## Art  
+
+### Portfolio sites
+
+- https://www.matthewharriscloth.co.uk/see/
+- https://www.louisestrawbridge.com/
+
+## Code
+
+### css  
+
+- [Tailwindcss docs](https://tailwindcss.com/docs/installation)
+
+### image gallery resources
+
+- [Photo Swipe plugin](https://github.com/dimsemenov/PhotoSwipe)
 
 ## Services  
 
