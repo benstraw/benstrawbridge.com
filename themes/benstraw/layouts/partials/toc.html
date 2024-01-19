@@ -1,7 +1,8 @@
 {{- $headers := findRE "<h[1-6].*?>(.|\n])+?</h[1-6]>" .Content -}}
 {{- $has_headers := ge (len $headers) 1 -}}
 {{- if $has_headers -}}
-<div class="toc">
+<div class="md:fixed md:z-20 md:top-[4.3rem] md:bottom-0 md:left-[40.69rem] lg:left-[50.69rem] md:w-[18.5rem] md:py-5 md:overflow-y-auto  md:block bg-gray-800/75">
+<div class="toc pl-4">
     <details {{if (.Param "TocOpen") }} open{{ end }}>
         <summary accesskey="c" title="(Alt + C)">
             <span class="details">{{- i18n "toc" | default "Table of Contents" }}</span>
@@ -23,9 +24,9 @@
             {{- $firstHeaderLevel := len (seq (index (findRE "[1-6]" (index $headers 0) 1) 0)) -}}
 
             {{- $.Scratch.Set "bareul" slice -}}
-            <ul>
+            <ul class="text-slate-700 text-sm leading-6">
                 {{- range seq (sub $firstHeaderLevel $largest) -}}
-                <ul>
+                <ul class="text-slate-700 text-sm leading-6">
                     {{- $.Scratch.Add "bareul" (sub (add $largest .) 1) -}}
                     {{- end -}}
                     {{- range $i, $header := $headers -}}
@@ -44,7 +45,7 @@
                     {{- $prevHeaderLevel := len (seq $prevHeaderLevel) -}}
                     {{- if gt $headerLevel $prevHeaderLevel -}}
                     {{- range seq $prevHeaderLevel (sub $headerLevel 1) -}}
-                    <ul>
+                    <ul class="text-slate-700 text-sm leading-6">
                         {{/* the first should not be recorded */}}
                         {{- if ne $prevHeaderLevel . -}}
                         {{- $.Scratch.Add "bareul" . -}}
@@ -93,5 +94,6 @@
             {{- end }}
         </div>
     </details>
+</div>
 </div>
 {{- end }}

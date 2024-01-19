@@ -50,6 +50,7 @@ A clean starter theme that has a lot of functionality built in. Translated into 
 ### css  
 
 - [Tailwindcss docs](https://tailwindcss.com/docs/installation)
+- [Tailwindcss default color palette](https://tailwindcss.com/docs/customizing-colors)
 
 ### image gallery resources
 

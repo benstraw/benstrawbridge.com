@@ -5,6 +5,7 @@ date = 2023-08-04T11:56:15-08:00
 subMenu = 'recipes'
 categories = ['recipe']
 aliases = ['/recipes/taragon-beets-salad/']
+showTOC = true
 +++
 
 This was an attempt to copy a salad from [Bristol Farms](https://www.bristolfarms.com/). I ended up modifying it quite a bit from the initial ingredients.
