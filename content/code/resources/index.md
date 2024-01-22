@@ -55,6 +55,7 @@ A clean starter theme that has a lot of functionality built in. Translated into 
 ### image gallery resources
 
 - [Photo Swipe plugin](https://github.com/dimsemenov/PhotoSwipe)
+- [PIG.js progressive image gallery](https://github.com/schlosser/pig.js)
 
 ## Services  
 
