@@ -1,11 +1,11 @@
 baseURL = 'https://www.benstrawbridge.com'
-languageCode = 'en-us'
 defaultContentLanguage = 'en'
-title = 'benstrawbridge.com'
-theme = 'benstraw'
 enableRobotsTXT = true
-timeZone = "America/New_York"
+languageCode = 'en-us'
 summaryLength = 25
+theme = 'benstraw'
+timeZone = "America/New_York"
+title = 'benstrawbridge.com'
 
 [[params.social]]
   faClasses = "fa-solid fa-envelope"

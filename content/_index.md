@@ -4,6 +4,7 @@ description = 'the domain to email me at would just so happen to be benstrawbrid
 featured_image = '/images/maui-sunset.webp'
 # date = 2024-01-02T11:58:15-08:00
 draft = false 
+layout = 'hidden-home'
 +++
 
 This domain is used primarily for email. There is nothing to see here.  
