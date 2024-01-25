@@ -10,6 +10,10 @@ A page where I save links that I find myself returning to or really helped me ou
 
 ## Hugo  
 
+### General
+
+[Hugo Survival Guide](https://janert.me/guides/hugo-survival-guide/)
+
 ### Setup
 
 [resource for setting up hugo with tailwindcss](https://www.unsungnovelty.org/posts/03/2022/how-to-add-tailwind-css-3-to-a-hugo-website-in-2022/)
