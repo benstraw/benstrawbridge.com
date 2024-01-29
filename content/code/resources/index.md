@@ -13,6 +13,7 @@ A page where I save links that I find myself returning to or really helped me ou
 ### General
 
 [Hugo Survival Guide](https://janert.me/guides/hugo-survival-guide/)
+[Directory Structure Explained](https://www.jakewiesler.com/blog/hugo-directory-structure)
 
 ### Setup
 
@@ -55,6 +56,8 @@ A clean starter theme that has a lot of functionality built in. Translated into 
 
 - [Tailwindcss docs](https://tailwindcss.com/docs/installation)
 - [Tailwindcss default color palette](https://tailwindcss.com/docs/customizing-colors)
+- [Tailwind components CSS gradient generator](https://tailwindcomponents.com/gradient-generator/)
+- [Tailwind Starter Kit](https://www.creative-tim.com/learning-lab/tailwind-starter-kit/documentation/download)
 
 ### image gallery resources
 
