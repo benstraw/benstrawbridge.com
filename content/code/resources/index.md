@@ -30,6 +30,9 @@ A page where I save links that I find myself returning to or really helped me ou
 - [Tailwindcss default color palette](https://tailwindcss.com/docs/customizing-colors)
 - [Tailwind components CSS gradient generator](https://tailwindcomponents.com/gradient-generator/)
 - [Tailwind Starter Kit](https://www.creative-tim.com/learning-lab/tailwind-starter-kit/documentation/download)
+### fonts
+
+- [fontawesome](https://fontawesome.com/search?q=moon&o=r&m=free)
 
 ### Hugo  
 
@@ -77,7 +80,7 @@ A clean starter theme that has a lot of functionality built in. Translated into 
 
 ### Payments
 
-- https://interledger.org/
+- [interledger](https://interledger.org/)
 
 ### Newsletter platforms  
 
