@@ -1,6 +1,6 @@
 +++
 title = 'Resources'
-# date = 2024-01-18T11:50:06-08:00
+date = 2024-01-18T11:50:06-08:00
 # draft = true
 tags = ["hugo","themes","css","images"]
 showTOC = true
@@ -18,6 +18,7 @@ A page where I save links that I find myself returning to or really helped me ou
 ### Setup
 
 [resource for setting up hugo with tailwindcss](https://www.unsungnovelty.org/posts/03/2022/how-to-add-tailwind-css-3-to-a-hugo-website-in-2022/)
+[hugo official docs all configuration options page](https://gohugo.io/getting-started/configuration/)
 
 ### image processing  
 
