@@ -12,12 +12,15 @@ A page where I save links that I find myself returning to or really helped me ou
 
 ### Art tech services companies
 
+- [arts-link.com](https://www.arts-link.com/)
 - [format magazine](https://www.format.com/)
 
 ### Portfolio sites
 
 - [Matthew W Harris](https://www.matthewharriscloth.co.uk/see/)
 - [Louise Strawbridge](https://www.louisestrawbridge.com/)
+- [The second version arts-link.com, circa 2002]((https://web.archive.org/web/20020220112908/http://www.arts-link.com:80/)  
+
 
 ## Code
 
