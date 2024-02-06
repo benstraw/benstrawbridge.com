@@ -35,6 +35,7 @@ A page where I save links that I find myself returning to or really helped me ou
 
 - [fontawesome](https://fontawesome.com/search?q=moon&o=r&m=free)
 - [Lexend+Zetta font](https://fonts.google.com/specimen/Lexend+Zetta)
+- [Themify Icons](https://themify.me/themify-icons)
 
 ### Hugo  
 
@@ -53,6 +54,11 @@ A page where I save links that I find myself returning to or really helped me ou
 - [Markus Wolf Image resource guide](https://www.markusantonwolf.com/blog/guide-for-different-ways-to-access-your-image-resources/)
 - [devnodes image convert guide](https://devnodes.in/blog/hugo/image-convert-to-webp/)
 - [Matin van Vreeden image shortcode](https://martijnvanvreeden.nl/hugo-shortcode-to-serve-images-in-next-gen-formats/)
+
+#### modules  
+
+- [a nice collection of partials and shortcodes from gethugothemes, available as individual modules](https://github.com/gethugothemes/hugo-modules/tree/master)
+
 
 #### themes
 
