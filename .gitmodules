@@ -1,0 +1,3 @@
+[submodule "themes/ryder"]
+	path = themes/ryder
+	url = https://github.com/arts-link/ryder.git

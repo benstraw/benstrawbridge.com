@@ -1,9 +1,13 @@
 +++
-title = 'Resources'
+title = 'Links'
 date = 2024-01-18T11:50:06-08:00
 # draft = true
 tags = ["hugo","themes","css","images"]
 showTOC = true
+[menu]
+ [menu.main]
+  weight = 32
+  identifier = 'links'
 +++
 
 A page where I save links that I find myself returning to or really helped me out at times.

@@ -2,6 +2,7 @@
 /public/
 /resources/
 /themes/*/exampleSite/
+/themes/ryder-dev
 *.log
 /_ignore/
 /node_modules

@@ -1,10 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./layouts/**/*.html", "./themes/benstraw/layouts/**/*.html"],
+  content: [
+    "./layouts/**/*.html",
+    "./themes/benstraw/layouts/**/*.html",
+    "./themes/ryder-dev/layouts/**/*.html"
+  ],
   theme: {
     extend: {
       backgroundImage: {
-        'maui-sunset': " url('/images/maui-sunset.webp')",
+        'hidden-home': " url('/images/maui-sunset.webp')",
       },},
   },
   plugins: [require("@tailwindcss/typography")],

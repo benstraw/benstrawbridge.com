@@ -3,9 +3,11 @@ defaultContentLanguage = 'en'
 enableRobotsTXT = true
 languageCode = 'en-us'
 summaryLength = 25
-theme = 'benstraw'
+theme = 'ryder'
+# theme = 'ryder-dev'
 timeZone = "America/New_York"
 title = 'benstrawbridge.com'
+copyright = '© 2024 benstrawbridge.com'
 
 [[params.social]]
   faClasses = "fa-solid fa-envelope"
