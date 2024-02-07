@@ -2,7 +2,8 @@
 module.exports = {
   content: [
     "./layouts/**/*.html",
-    "./themes/benstraw/layouts/**/*.html",
+    // "./themes/benstraw/layouts/**/*.html",
+    "./themes/ryder/layouts/**/*.html",
     "./themes/ryder-dev/layouts/**/*.html"
   ],
   theme: {
