@@ -34,12 +34,17 @@ A page where I save links that I find myself returning to or really helped me ou
 - [Tailwindcss default color palette](https://tailwindcss.com/docs/customizing-colors)
 - [Tailwind components CSS gradient generator](https://tailwindcomponents.com/gradient-generator/)
 - [Tailwind Starter Kit](https://www.creative-tim.com/learning-lab/tailwind-starter-kit/documentation/download)
+- [How to use google fonts in tailwind css](https://hatchet.com.au/blog/how-to-use-google-fonts-in-tailwind-css/)
 
 ### fonts
 
 - [fontawesome](https://fontawesome.com/search?q=moon&o=r&m=free)
 - [Lexend+Zetta font](https://fonts.google.com/specimen/Lexend+Zetta)
 - [Themify Icons](https://themify.me/themify-icons)
+- [Titillium Web](https://fonts.google.com/specimen/Titillium+Web?preview.text=ben%20strawbridge&preview.size=80&classification=Display&stroke=Sans+Serif) 
+- [Ruda](https://fonts.google.com/specimen/Ruda?preview.text=ben%20strawbridge&preview.size=80&classification=Display&stroke=Sans+Serif) 
+- [Tauri](https://fonts.google.com/specimen/Tauri?preview.text=ben%20strawbridge&preview.size=80&classification=Display&stroke=Sans+Serif
+) 
 
 ### Hugo  
 

@@ -3,31 +3,12 @@ defaultContentLanguage = 'en'
 enableRobotsTXT = true
 languageCode = 'en-us'
 summaryLength = 25
-theme = 'ryder'
-# theme = 'ryder-dev'
+theme = 'ryder-dev'
 timeZone = "America/New_York"
 title = 'benstrawbridge.com'
 copyright = '© 2024 benstrawbridge.com'
-
-[[params.social]]
-  faClasses = "fa-solid fa-envelope"
-  title = "Email me"
-  url   = "mailto:ben@benstrawbridge.com?subject=web"
-  target= "_blank"
-  weight = 1
-[[params.social]]
-  faClasses = "fa-brands fa-github"
-  title = "GitHub"
-  url   = "https://www.github.com/benstraw"
-  target= "_blank"
-  weight = 2
-[[params.social]]
-  faClasses = "fa-brands fa-linkedin"
-  title = "LinkedIn"
-  url   = "https://www.linkedin.com/benstraw"
-  target= "_blank"
-  weight = 3
-
+[params]
+  headerTWClasses = "bg-gradient-to-r from-emerald-500 to-emerald-700 text-neutral-100"
 [module]
   [module.hugoVersion]
     extended = false
