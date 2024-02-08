@@ -4,6 +4,13 @@ date = 2024-01-18T11:50:06-08:00
 # draft = true
 tags = ["hugo","themes","css","images"]
 showTOC = true
+TocOpen = true
+homeFeature = true
+homeFeatureIcon = "fa-solid fa-link"
+headerTWClasses = "bg-gradient-to-r from-rose-500 to-rose-700 text-neutral-100"
+# enabledebugpanel = true
+
+
 [menu]
  [menu.main]
   weight = 32
@@ -38,13 +45,17 @@ A page where I save links that I find myself returning to or really helped me ou
 
 ### fonts
 
-- [fontawesome](https://fontawesome.com/search?q=moon&o=r&m=free)
 - [Lexend+Zetta font](https://fonts.google.com/specimen/Lexend+Zetta)
-- [Themify Icons](https://themify.me/themify-icons)
 - [Titillium Web](https://fonts.google.com/specimen/Titillium+Web?preview.text=ben%20strawbridge&preview.size=80&classification=Display&stroke=Sans+Serif) 
 - [Ruda](https://fonts.google.com/specimen/Ruda?preview.text=ben%20strawbridge&preview.size=80&classification=Display&stroke=Sans+Serif) 
 - [Tauri](https://fonts.google.com/specimen/Tauri?preview.text=ben%20strawbridge&preview.size=80&classification=Display&stroke=Sans+Serif
 ) 
+
+#### icons
+
+- [fontawesome](https://fontawesome.com/search?q=moon&o=r&m=free)
+- [Themify Icons](https://themify.me/themify-icons)
+- [heroicons](https://heroicons.com/)
 
 ### Hugo  
 

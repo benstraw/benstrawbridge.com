@@ -12,8 +12,13 @@
     },
     {
       "name": "email",
-      "icon": "fa-regular fa-envelope",
+      "icon": "fa-solid fa-envelope",
       "link": "mailto:ben@benstrawbridge.com.com?subject=web"
+    },
+    {
+      "name": "feed",
+      "icon": "fa-solid fa-rss",
+      "link": "/index.xml"
     }
   ]
 }

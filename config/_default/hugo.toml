@@ -9,14 +9,9 @@ title = 'benstrawbridge.com'
 copyright = '© 2024 benstrawbridge.com'
 [params]
   headerTWClasses = "bg-gradient-to-r from-emerald-500 to-emerald-700 text-neutral-100"
-[module]
-  [module.hugoVersion]
-    extended = false
-    min = "0.116.0"
-  [[module.mounts]]
-    source = "assets"
-    target = "assets"
-
+  TocOpen = true
+  # UseHugoToc = true
+  enabledebugpanel = false
 [menu]
 [[menu.recipes]]
     name = 'Why?'
