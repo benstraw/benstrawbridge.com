@@ -6,7 +6,7 @@ summaryLength = 25
 theme = 'ryder-dev'
 # theme = 'benstraw'
 timeZone = "America/New_York"
-title = 'benstrawbridge.com'
+title = "benstrawbridge.com consulting, it's the best Jerry, The Best!"
 description = 'Dot Com Consulting'
 copyright = '© 2024 benstrawbridge.com'
 [params]

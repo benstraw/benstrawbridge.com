@@ -1,18 +1,28 @@
-<a href="{{ .Site.Home.RelPermalink }}"><div class="max-w-max inline-block not-prose bg-neutral-200 rounded-full sm:rounded-lg p-3 sm:p-3 font-titillium">
-  
+{{- $fontClass := "font-titillium" -}}
+{{ with .Param "logo_fontClass" }}
+{{ $fontClass = . }}
+{{ end }}
+<a href="{{ .Site.Home.RelPermalink }}"><div class="{{ $fontClass }}  max-w-max inline-block not-prose bg-neutral-200 rounded-full sm:rounded-lg p-3 sm:p-3">
   <div class="flex flex-col">
-    {{- $fw := .Param "logo_firstWord" }}
-    {{- $fw = split $fw "" -}}
+    {{ $fw := "" }}
     {{- $lw := .Param "logo_lastWord" }}
-    {{- $lw = split $lw "" -}}
+    {{- with .Param "logo_firstWord" -}}
+        {{- $fw = . -}}
+    {{- else -}}
+        {{ $titSpl := split site.Title " " }}
+        {{- $fw = index $titSpl 0 -}}
+        {{- $lw = index $titSpl 1 -}}
+    {{- end -}}
     {{ if $fw }}
+    {{- $fw = split $fw "" -}}
+    {{$fwLen := len $fw}}
+    {{- $lw = split $lw "" -}}
     <h1 class="text-4xl nowrap">
       <span class="text-[#17729C]">
-        {{- range $k, $v := $fw }}{{- $v }}{{- if (eq $k 0) }}<span class="hidden sm:inline">{{- end }}{{- if (eq $k 2) }}</span>{{- end }}{{- end -}}
+        {{- range $k, $v := $fw }}{{- $v }}{{- if (eq $k 0) }}<span class="hidden sm:inline">{{- end }}{{- if (eq $k $fwLen) }}</span>{{- end }}{{- end -}}
       </span><span class="hidden sm:inline">&nbsp;</span><span class="text-[#81B622]">
         {{- range $k, $v := $lw }}{{- $v }}{{- if (eq $k 0) }}<span class="hidden sm:inline">{{- end }}{{- if (eq $k 10) }}</span>{{- end }}{{- end -}}
       </span>
-        {{/*  <span class="text-[#17729C]">b<span class="hidden sm:inline">en</span></span><span class="hidden sm:inline">&nbsp;</span><span class="text-[#81B622]">s<span class="hidden sm:inline">trawbridge</span></span>  */}}
     </h1>
     {{ end }}
     {{ with .Param "logo_tagline" }}
