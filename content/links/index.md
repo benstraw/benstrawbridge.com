@@ -53,7 +53,8 @@ A page where I save links that I find myself returning to or really helped me ou
 
 #### icons
 
-- [fontawesome](https://fontawesome.com/search?q=moon&o=r&m=free)
+- 
+https://www.reshot.com/free-svg-icons/- [fontawesome](https://fontawesome.com/search?q=moon&o=r&m=free)
 - [Themify Icons](https://themify.me/themify-icons)
 - [heroicons](https://heroicons.com/)
 
