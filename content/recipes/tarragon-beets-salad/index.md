@@ -4,6 +4,7 @@ date = 2023-08-04T11:56:15-08:00
 # draft = true
 subMenu = 'recipes'
 categories = ['recipe']
+tags = ['healthy','vegan']
 aliases = ['/recipes/taragon-beets-salad/']
 showTOC = true
 homeFeature = true

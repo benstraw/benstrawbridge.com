@@ -4,14 +4,21 @@ enableRobotsTXT = true
 languageCode = 'en-us'
 summaryLength = 25
 theme = 'ryder-dev'
+# theme = 'benstraw'
 timeZone = "America/New_York"
 title = 'benstrawbridge.com'
+description = 'Dot Com Consulting'
 copyright = '© 2024 benstrawbridge.com'
 [params]
   headerTWClasses = "bg-gradient-to-r from-emerald-500 to-emerald-700 text-neutral-100"
   TocOpen = true
   # UseHugoToc = true
-  enabledebugpanel = false
+  # enabledebugpanel = true 
+  logo_firstWord = 'Ben'
+  logo_lastWord = 'Strawbridge'
+  logo_tagline = "DOT COM CONSULTING"
+  logo_fontClass = 'font-titillium'
+
 [menu]
 [[menu.recipes]]
     name = 'Why?'

@@ -9,7 +9,7 @@ module.exports = {
     "./layouts/**/*.html",
     "./config/**/*.toml",
     "./content/**/*.md",
-    // "./themes/benstraw/layouts/**/*.html",
+    "./themes/benstraw/layouts/**/*.html",
     "./themes/ryder/layouts/**/*.html",
     "./themes/ryder-dev/layouts/**/*.html"
   ],
