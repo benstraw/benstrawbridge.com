@@ -39,6 +39,10 @@ A page where I save links that I find myself returning to or really helped me ou
 
 ## Code
 
+### the web
+
+- https://frankchimero.com/blog/2015/the-webs-grain/
+
 ### css  
 
 - [Tailwindcss docs](https://tailwindcss.com/docs/installation)
@@ -55,7 +59,7 @@ A page where I save links that I find myself returning to or really helped me ou
 - [Tauri](https://fonts.google.com/specimen/Tauri?preview.text=ben%20strawbridge&preview.size=80&classification=Display&stroke=Sans+Serif
 ) 
 
-#### icons
+### icons
 
 - https://www.reshot.com/free-svg-icons/  
 - [fontawesome](https://fontawesome.com/search?q=moon&o=r&m=free)
@@ -68,6 +72,7 @@ A page where I save links that I find myself returning to or really helped me ou
 
 - [Hugo Survival Guide](https://janert.me/guides/hugo-survival-guide/)  
 - [Directory Structure Explained](https://www.jakewiesler.com/blog/hugo-directory-structure)
+- [Hugo Pipes Revolution](https://www.regisphilibert.com/blog/2018/07/hugo-pipes-and-asset-processing-pipeline/)
 
 #### Setup
 
