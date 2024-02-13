@@ -3,6 +3,7 @@
 /resources/
 /themes/*/exampleSite/
 /themes/ryder-dev
+/themes/art-collection-theme
 *.log
 /_ignore/
 /node_modules

@@ -1,7 +1,7 @@
 +++
 title = 'Pick a Square Game'
 date = 2024-02-13T10:51:24-08:00
-draft = true
+# draft = true
 [cascade]
 logo_tagline = 'PICK A SQUARE GAME'
 +++
