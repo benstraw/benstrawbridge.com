@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="{{ or site.Language.LanguageCode site.Language.Lang }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
+<head>
+  
+  {{- if .Params.randomizeBackground }}
+  <!-- Include the backgroundChanger.js file -->
+  {{- with resources.Get "/js/backgroundChanger.js" }}
+    {{- if eq hugo.Environment "development" }}
+      {{- with . | js.Build }}
+    <script defer src="{{ .RelPermalink }}"></script>
+      {{- end }}
+    {{- else }}
+      {{- $opts := dict "minify" true }}
+      {{- with . | js.Build $opts | fingerprint }}
+    <script defer src="{{ .RelPermalink }}" integrity="{{- .Data.Integrity }}" crossorigin="anonymous"></script>
+      {{- end }}
+    {{- end }}
+  {{- end }}
+  {{- end }}
+  {{ partial "head.html" . }}
+  <style>
+    .squares-outer-grid > div {
+      border-width:1px;
+    }
+    .home-team {
+      .border-width:1px;
+      background-color: green;
+    }
+    .away-team {
+      .border-width:1px;
+      background-color: gold;
+    }
+  </style>
+</head>
+<body class="h-lvh flex flex-col text-neutral-900 dark:text-neutral-100">
+  {{ if not hugo.IsProduction }}
+  <!-- tailwind size indicator -->
+    {{ partial "tw-size-indicator.html" . }}
+  {{ end }}
+  <header class="mb-auto">
+    {{- partial "logo.html" . }}
+  </header>
+  <main>
+    <div class="squares-outer-grid grid grid-cols-12 gap-4">
+      
+      {{/*  THE FIRST ROW  */}}
+      <div class="col-span-2 row-span-2 flex items-center justify-center" id="0-0">The top left corner brah</div>
+      <div class="col-span-10 home-team flex"><h2 class="mx-auto text-3xl">The home Team</h2></div>
+      {{ $htNums := shuffle (seq 1 10) }}
+      {{/*  {{ range $index, $num := seq 10 }}  */}}
+      {{ range $htNums }}
+        <div class="home-team h-full flex justify-center items-center text-5xl">{{ . }}</div>
+      {{ end }}
+      <div class="row-span-10 away-team flex items-center justify-center"><h1 class="-rotate-90 whitespace-nowrap text-3xl">The visiting Team</h1></div>
+      <div class="row-span-10">
+        <div class="grid grid-rows-10 gap-4 h-full">
+          {{ $atNums := shuffle (seq 1 10) }}
+          {{/*  {{ range $index, $num := seq 10 }}  */}}
+          {{ range $atNums }}
+            <div class="away-team h-full flex items-center justify-center text-5xl">{{ . }}</div>
+          {{ end }}
+        </div>
+      </div>
+
+      {{ $row := 0 }}
+      {{ $col := 0 }}
+      {{ $gridx := 10 }}
+      {{ range $index, $num := (seq ( mul $gridx $gridx )) }}
+      {{ $row = add (div $index $gridx) 1 }}
+      {{ $col = add (mod $index $gridx) 1 }}
+      <div class="" id='{{ $row }}-{{ $col }}'>
+        <div> [{{ $index }}] </div>
+        <div> row: {{ $row }} </div>
+        <div> col: {{ $col }} </div>
+      </div>
+      {{ end }} 
+    </div>
+  </main>
+  <footer class="mt-auto">
+    <div class=" text-center max-w-none">
+      {{- partial "socialslist.html" . }}
+    </div>
+  </footer>
+{{- if or (.Params.enabledebugpanel) (and (not .Params.enabledebugpanel) (site.Params.enabledebugpanel)) }}
+{{ partial "debug-panel.html" . }}
+{{- end }}
+</body>
+
+</html>
