@@ -23,11 +23,11 @@
       border-width:1px;
     }
     .home-team {
-      .border-width:1px;
+      border-width: 1px;
       background-color: green;
     }
     .away-team {
-      .border-width:1px;
+      border-width: 1px;
       background-color: gold;
     }
   </style>
@@ -40,12 +40,14 @@
   <header class="mb-auto">
     {{- partial "logo.html" . }}
   </header>
-  <main>
-    <div class="squares-outer-grid grid grid-cols-12 gap-4">
+  <main class="flex justify-center">
+    <div class="w-4/5 squares-outer-grid grid grid-cols-12 gap-2">
       
       {{/*  THE FIRST ROW  */}}
-      <div class="col-span-2 row-span-2 flex items-center justify-center" id="0-0">The top left corner brah</div>
-      <div class="col-span-10 home-team flex"><h2 class="mx-auto text-3xl">The home Team</h2></div>
+      <div class="aspect-square col-span-2 row-span-2 flex items-center justify-center h-full w-full" id="0-0">
+        <div class="flex items-center justify-center text-center "><i class="text-5xl fa-solid fa-football"></i></div>
+      </div>
+      <div class="col-span-10 home-team flex items-center"><h2 class="mx-auto text-3xl">The home Team</h2></div>
       {{ $htNums := shuffle (seq 1 10) }}
       {{/*  {{ range $index, $num := seq 10 }}  */}}
       {{ range $htNums }}
@@ -53,7 +55,7 @@
       {{ end }}
       <div class="row-span-10 away-team flex items-center justify-center"><h1 class="-rotate-90 whitespace-nowrap text-3xl">The visiting Team</h1></div>
       <div class="row-span-10">
-        <div class="grid grid-rows-10 gap-4 h-full">
+        <div class="grid grid-rows-10 gap-2 h-full">
           {{ $atNums := shuffle (seq 1 10) }}
           {{/*  {{ range $index, $num := seq 10 }}  */}}
           {{ range $atNums }}
@@ -65,13 +67,17 @@
       {{ $row := 0 }}
       {{ $col := 0 }}
       {{ $gridx := 10 }}
+      {{ $ppl := slice "p-david" "bruce" "adrian" "pooky" "kara" "dao" "ben" }}
+      {{ $randomIndex := 0 }}
       {{ range $index, $num := (seq ( mul $gridx $gridx )) }}
       {{ $row = add (div $index $gridx) 1 }}
       {{ $col = add (mod $index $gridx) 1 }}
-      <div class="" id='{{ $row }}-{{ $col }}'>
-        <div> [{{ $index }}] </div>
-        <div> row: {{ $row }} </div>
-        <div> col: {{ $col }} </div>
+      <div class="flex items-center justify-center" id='{{ $row }}-{{ $col }}'>
+        {{/*  {{ $randomIndex = math.Rand | mul 6 | math.Ceil }}  */}}
+        {{ $randomIndex = index (seq 6 | shuffle) 0 }}
+        {{ $randomIndex = sub $randomIndex 1 }}
+
+        {{ index $ppl $randomIndex }}
       </div>
       {{ end }} 
     </div>
