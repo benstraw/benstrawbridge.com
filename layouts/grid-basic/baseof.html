@@ -19,7 +19,10 @@
   {{- end }}
   {{ partial "head.html" . }}
   <style>
-    .squares-outer-grid > div {
+    {{/*  .squares-outer-grid > div {
+      border-width:1px;
+    }  */}}
+    .player-square {
       border-width:1px;
     }
     .home-team {
@@ -29,34 +32,38 @@
     .away-team {
       border-width: 1px;
       background-color: gold;
+      color: rgb(23 23 23)
     }
   </style>
 </head>
-<body class="h-lvh flex flex-col text-neutral-900 dark:text-neutral-100">
+<body class="h-lvh flex flex-col text-neutral-900 dark:text-neutral-100 dark:bg-neutral-900 bg-neutral-100">
   {{ if not hugo.IsProduction }}
   <!-- tailwind size indicator -->
     {{ partial "tw-size-indicator.html" . }}
   {{ end }}
-  <header class="mb-auto">
+  <header class="fixed bottom-0 right-0 z-50 mb-auto">
     {{- partial "logo.html" . }}
   </header>
   <main class="flex justify-center">
-    <div class="w-4/5 squares-outer-grid grid grid-cols-12 gap-2">
+    <div class="w-full m-10 squares-outer-grid grid grid-cols-12 gap-2">
       
-      {{/*  THE FIRST ROW  */}}
-      <div class="aspect-square col-span-2 row-span-2 flex items-center justify-center h-full w-full" id="0-0">
-        <div class="flex items-center justify-center text-center "><i class="text-5xl fa-solid fa-football"></i></div>
-      </div>
+      {{/*  THE Double Square Top Left */}}
+      <div class=" col-span-2 row-span-2 flex items-center justify-center h-full w-full" id="0-0"><i class="text-8xl fa-solid fa-football"></i></div>
+      {{/*  TOP ROW HEADER - Spans 10 cols  */}}
       <div class="col-span-10 home-team flex items-center"><h2 class="mx-auto text-3xl">The home Team</h2></div>
-      {{ $htNums := shuffle (seq 1 10) }}
+      {{/*  THE SECOND ROW 10 Numbers Squares  */}}
+      {{ $htNums := shuffle (seq 0 9) }}
       {{/*  {{ range $index, $num := seq 10 }}  */}}
       {{ range $htNums }}
         <div class="home-team h-full flex justify-center items-center text-5xl">{{ . }}</div>
       {{ end }}
+
+      {{/*  LEFT SIDE HEADER - Spans 10 Rows */}}
       <div class="row-span-10 away-team flex items-center justify-center"><h1 class="-rotate-90 whitespace-nowrap text-3xl">The visiting Team</h1></div>
+
       <div class="row-span-10">
         <div class="grid grid-rows-10 gap-2 h-full">
-          {{ $atNums := shuffle (seq 1 10) }}
+          {{ $atNums := shuffle (seq 0 9) }}
           {{/*  {{ range $index, $num := seq 10 }}  */}}
           {{ range $atNums }}
             <div class="away-team h-full flex items-center justify-center text-5xl">{{ . }}</div>
@@ -66,18 +73,21 @@
 
       {{ $row := 0 }}
       {{ $col := 0 }}
+      {{ $awayPic := 0 }}
+      {{ $homePic := 0 }}
       {{ $gridx := 10 }}
-      {{ $ppl := slice "p-david" "bruce" "adrian" "pooky" "kara" "dao" "ben" }}
+      {{ $ppl := slice "p-david" "bruce" "adrian" "pooky" "kara" "dao" "ben" "bank" "winnie" "book" "dr paul" "carl" "stacey" }}
       {{ $randomIndex := 0 }}
       {{ range $index, $num := (seq ( mul $gridx $gridx )) }}
       {{ $row = add (div $index $gridx) 1 }}
       {{ $col = add (mod $index $gridx) 1 }}
-      <div class="flex items-center justify-center" id='{{ $row }}-{{ $col }}'>
-        {{/*  {{ $randomIndex = math.Rand | mul 6 | math.Ceil }}  */}}
-        {{ $randomIndex = index (seq 6 | shuffle) 0 }}
-        {{ $randomIndex = sub $randomIndex 1 }}
-
-        {{ index $ppl $randomIndex }}
+      {{ $homePic = index $htNums ( sub $col 1 ) }}
+      {{ $awayPic = index $atNums ( sub $row 1 ) }}
+      <div class="hs{{ $homePic }}-as{{ $awayPic }} player-square flex items-center justify-center" id='{{ $row }}-{{ $col }}'>
+        {{/*  {{ len $ppl }}  */}}
+        {{ $randomIndex = index (seq 0 (sub (len $ppl) 1) | shuffle) 0 }}
+        {{/*  {{ $randomIndex = sub $randomIndex 1 }}  */}}
+        <div class="player-name">{{ index $ppl $randomIndex }}</div>
       </div>
       {{ end }} 
     </div>
