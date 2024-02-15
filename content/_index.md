@@ -6,6 +6,7 @@ featured_image = '/images/maui-sunset.webp'
 draft = false 
 type = 'hidden-home'
 randomizeBackground = true
+logo_collapse = true
 +++
 
 This domain is used primarily for email. There is nothing to see here.  
