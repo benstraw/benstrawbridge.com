@@ -1,12 +1,13 @@
 +++
-title = 'Tunnel Localhost Server Through Trycloudflare'
-date = 2024-02-14T15:06:29-08:00
-draft = true
+title = 'Tunnel Localhost Server Through Cloudflare'
+date = 2024-02-14T14:06:29-08:00
+# draft = true
 +++
 
 This post is an update to this post -- https://nathancraddock.com/blog/hugo-server-on-local-and-public-networks
 
 To run hugo on the local network on localhost AND bind to your local network IP address you can use - 
+
 ```
 $ hugo server --bind 0.0.0.0
 ```

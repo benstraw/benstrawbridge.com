@@ -80,7 +80,7 @@
       {{ $col = add (mod $index $gridx) 1 }}
       {{ $homePic = index $htNums ( sub $col 1 ) }}
       {{ $awayPic = index $atNums ( sub $row 1 ) }}
-      <div class="hs{{ $homePic }}-as{{ $awayPic }} player-square flex items-center justify-center" id='{{ $row }}-{{ $col }}'>
+      <div class="hs{{ $homePic }}-as{{ $awayPic }} player-square aspect-square flex items-center justify-center" id='{{ $row }}-{{ $col }}'>
         {{/*  {{ len $ppl }}  */}}
         {{ $randomIndex = index (seq 0 (sub (len $ppl) 1) | shuffle) 0 }}
         {{/*  {{ $randomIndex = sub $randomIndex 1 }}  */}}
