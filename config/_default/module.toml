@@ -1,8 +1,0 @@
-[module.hugoVersion]
-    extended = false
-    min = "0.116.0"
-  [[module.mounts]]
-    source = "assets"
-    target = "assets"
-  # [[imports]]
-    # path = "github.com/gethugothemes/hugo-modules/tab"

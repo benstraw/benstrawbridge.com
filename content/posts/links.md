@@ -5,23 +5,19 @@ date = 2024-01-18T11:50:06-08:00
 tags = ["hugo","themes","css","images"]
 showTOC = true
 TocOpen = true
-homeFeature = true
-homeFeatureIcon = "fa-solid fa-link"
-headerTWClasses = "bg-gradient-to-r from-rose-500 to-rose-700 text-neutral-100"
+# headerTWClasses = "bg-gradient-to-r from-rose-500 to-rose-700 text-neutral-100"
 # enabledebugpanel = true
 
+homeFeature = true
+homeFeatureIcon = "fa-solid fa-link"
 
-[menu]
- [menu.main]
-  weight = 32
-  identifier = 'links'
+# [menu]
+#  [menu.main]
+#   weight = 32
+#   identifier = 'links'
 +++
 
 A page where I save links that I find myself returning to or really helped me out at times.
-
-"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
-
-
 
 ## Art  
 
@@ -34,10 +30,16 @@ A page where I save links that I find myself returning to or really helped me ou
 
 - [Matthew W Harris](https://www.matthewharriscloth.co.uk/see/)
 - [Louise Strawbridge](https://www.louisestrawbridge.com/)
+- [Matthew Cassman](https://danielcassman.com/portfolio/)
+- (https://pixelfed.org/)
 - [The second version arts-link.com, circa 2002](https://web.archive.org/web/20020220112908/http://www.arts-link.com:80/)  
 
 
 ## Code
+
+### tools
+
+- [transform anything](https://transform.tools/)
 
 ### the web
 
@@ -45,6 +47,7 @@ A page where I save links that I find myself returning to or really helped me ou
 
 ### css  
 
+- [Deep dive into dev tools](https://css-tricks.com/some-cross-browser-devtools-features-you-might-not-know/)
 - [Tailwindcss docs](https://tailwindcss.com/docs/installation)
 - [Tailwindcss default color palette](https://tailwindcss.com/docs/customizing-colors)
 - [Tailwind components CSS gradient generator](https://tailwindcomponents.com/gradient-generator/)
@@ -73,6 +76,7 @@ A page where I save links that I find myself returning to or really helped me ou
 - [Hugo Survival Guide](https://janert.me/guides/hugo-survival-guide/)  
 - [Directory Structure Explained](https://www.jakewiesler.com/blog/hugo-directory-structure)
 - [Hugo Pipes Revolution](https://www.regisphilibert.com/blog/2018/07/hugo-pipes-and-asset-processing-pipeline/)
+- [Hugo In Action by Atishay Jain](https://livebook.manning.com/book/hugo-in-action/)
 
 #### Setup
 

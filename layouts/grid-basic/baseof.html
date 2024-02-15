@@ -19,9 +19,6 @@
   {{- end }}
   {{ partial "head.html" . }}
   <style>
-    {{/*  .squares-outer-grid > div {
-      border-width:1px;
-    }  */}}
     .player-square {
       border-width:1px;
     }
@@ -41,7 +38,7 @@
   <!-- tailwind size indicator -->
     {{ partial "tw-size-indicator.html" . }}
   {{ end }}
-  <header class="fixed bottom-0 right-0 z-50 mb-auto">
+  <header class="fixed bottom-0 right-0 z-50 mb-auto print:hidden">
     {{- partial "logo.html" . }}
   </header>
   <main class="flex justify-center">
@@ -65,8 +62,8 @@
         <div class="grid grid-rows-10 gap-2 h-full">
           {{ $atNums := shuffle (seq 0 9) }}
           {{/*  {{ range $index, $num := seq 10 }}  */}}
-          {{ range $atNums }}
-            <div class="away-team h-full flex items-center justify-center text-5xl">{{ . }}</div>
+          {{ range $index, $num := $atNums }}
+            <div class="away-team h-full flex items-center justify-center text-5xl">{{ $num }}</div>
           {{ end }}
         </div>
       </div>
@@ -92,10 +89,8 @@
       {{ end }} 
     </div>
   </main>
-  <footer class="mt-auto">
-    <div class=" text-center max-w-none">
+  <footer class="mt-auto print:hidden text-center max-w-none">
       {{- partial "socialslist.html" . }}
-    </div>
   </footer>
 {{- if or (.Params.enabledebugpanel) (and (not .Params.enabledebugpanel) (site.Params.enabledebugpanel)) }}
 {{ partial "debug-panel.html" . }}

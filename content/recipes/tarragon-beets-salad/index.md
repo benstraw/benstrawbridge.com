@@ -9,6 +9,14 @@ aliases = ['/recipes/taragon-beets-salad/']
 showTOC = true
 homeFeature = true
 homeFeatureIcon = "fa-solid fa-carrot"
+
+[[resources]]
+src = "/images/recipes/tarragon-beets-salad/beets-salad.jpg"
+
+  [resources.params]
+  licence = "MIT"
+  caption = "Some more information about this image"
+
 +++
 
 This was an attempt to copy a salad from [Bristol Farms](https://www.bristolfarms.com/). I ended up modifying it quite a bit from the initial ingredients.

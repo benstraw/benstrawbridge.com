@@ -2,13 +2,13 @@ baseURL = 'https://www.benstrawbridge.com'
 defaultContentLanguage = 'en'
 enableRobotsTXT = true
 languageCode = 'en-us'
-summaryLength = 25
-paginate = 5
+summaryLength = 5
+# paginate = 3
 # theme = "art-collection-theme"
 theme = 'ryder-dev'
 # theme = 'benstraw'
-timeZone = "America/New_York"
-title = "benstrawbridge.com consulting, it's the best Jerry, The Best!"
+timeZone = "America/Los_Angeles"
+title = "benstrawbridge.com consulting - It's the best Jerry, The Best!"
 description = 'Dot Com Consulting'
 copyright = '© 2024 benstrawbridge.com'
 [params]
@@ -20,6 +20,10 @@ copyright = '© 2024 benstrawbridge.com'
   logo_lastWord = 'Strawbridge'
   logo_tagline = "DOT COM CONSULTING"
   logo_fontClass = 'font-titillium'
+
+[markup]
+  [markup.highlight]
+    linenos = false
 
 [menu]
 [[menu.recipes]]
