@@ -18,52 +18,71 @@
   {{- end }}
   {{- end }}
   {{ partial "head.html" . }}
+  
   <style>
+    /*  print styles  
+    @page {
+      size: 18in 24in;
+    }
+    */
+
     .player-square {
       border-width:1px;
+      background-color: #f5f5f5;
     }
     .home-team {
-      border-width: 1px;
-      background-color: green;
+      border-width: 2px;
+      border-color: white;
+      background-color: #004953;
+      color: #f5f5f5;
     }
     .away-team {
-      border-width: 1px;
-      background-color: gold;
-      color: rgb(23 23 23)
+      border-width: 2px;
+      border-color: #FFB81C;
+      background-color: #002244;
+      color: #f5f5f5
     }
   </style>
 </head>
-<body class="h-lvh flex flex-col text-neutral-900 dark:text-neutral-100 dark:bg-neutral-900 bg-neutral-100">
+<body class=" flex flex-col text-neutral-900 dark:text-neutral-100 dark:bg-neutral-900 bg-neutral-100">
   {{ if not hugo.IsProduction }}
   <!-- tailwind size indicator -->
     {{ partial "tw-size-indicator.html" . }}
   {{ end }}
-  <header class="fixed bottom-0 right-0 z-50 mb-auto print:hidden">
+  <header class="fixed bottom-0 right-0 z-50 mb-auto print:mx-auto print:block print:top-0">
+  {{/*  <header class="mx-auto mb-auto print:hidden">  */}}
     {{- partial "logo.html" . }}
   </header>
-  <main class="flex justify-center">
-    <div class="w-full m-10 squares-outer-grid grid grid-cols-12 gap-2">
-      
+  <main class="flex h-full flex-col border justify-center">
+    <div class=" sm:hidden text-center print:hidden">
+      <i class="fa-solid fa-recycle text-9xl m-5"></i><br/>
+      rotate your screen for best viewing
+    </div>
+    <div class="fixed top-0 right-0 m-2  print:hidden ">
+      <a href="#" id="printPage"><i class="fa-solid fa-print rounded-full p-3 text-xl bg-neutral-900 dark:bg-neutral-100 dark:text-neutral-900 text-neutral-100"></i></a>
+    </div>
+    <div class="  w-11/12 sm:w-11/12 md:w-5/6 lg:w-4/5 print:w-full print:h-lvh aspect-square mx-auto squares-outer-grid grid grid-cols-12 gap-2">
       {{/*  THE Double Square Top Left */}}
-      <div class=" col-span-2 row-span-2 flex items-center justify-center h-full w-full" id="0-0"><i class="text-8xl fa-solid fa-football"></i></div>
+      <div class=" col-span-2 row-span-2 flex items-center justify-center h-full w-full" id="0-0"><i class="text-8xl print:text-3xl fa-solid fa-football"></i></div>
       {{/*  TOP ROW HEADER - Spans 10 cols  */}}
       <div class="col-span-10 home-team flex items-center"><h2 class="mx-auto text-3xl">The home Team</h2></div>
       {{/*  THE SECOND ROW 10 Numbers Squares  */}}
       {{ $htNums := shuffle (seq 0 9) }}
       {{/*  {{ range $index, $num := seq 10 }}  */}}
       {{ range $htNums }}
-        <div class="home-team h-full flex justify-center items-center text-5xl">{{ . }}</div>
+        <div class="home-team h-full flex justify-center items-center text-4xl">{{ . }}</div>
       {{ end }}
 
       {{/*  LEFT SIDE HEADER - Spans 10 Rows */}}
-      <div class="row-span-10 away-team flex items-center justify-center"><h1 class="-rotate-90 whitespace-nowrap text-3xl">The visiting Team</h1></div>
+      <div class="row-span-10 away-team flex items-center justify-center"><h2 class="-rotate-90 whitespace-nowrap text-3xl">The visiting Team</h2></div>
 
       <div class="row-span-10">
+        {{/*  make sure this is kept in sync with the main grid spacing etc  */}}
         <div class="grid grid-rows-10 gap-2 h-full">
           {{ $atNums := shuffle (seq 0 9) }}
           {{/*  {{ range $index, $num := seq 10 }}  */}}
           {{ range $index, $num := $atNums }}
-            <div class="away-team h-full flex items-center justify-center text-5xl">{{ $num }}</div>
+            <div class="away-team h-full flex items-center justify-center text-4xl">{{ $num }}</div>
           {{ end }}
         </div>
       </div>
@@ -80,11 +99,11 @@
       {{ $col = add (mod $index $gridx) 1 }}
       {{ $homePic = index $htNums ( sub $col 1 ) }}
       {{ $awayPic = index $atNums ( sub $row 1 ) }}
-      <div class="hs{{ $homePic }}-as{{ $awayPic }} player-square aspect-square flex items-center justify-center" id='{{ $row }}-{{ $col }}'>
+      <div class="hs-{{ $homePic }} as-{{ $awayPic }} player-square flex items-center justify-center" id='{{ $row }}-{{ $col }}'>
         {{/*  {{ len $ppl }}  */}}
         {{ $randomIndex = index (seq 0 (sub (len $ppl) 1) | shuffle) 0 }}
         {{/*  {{ $randomIndex = sub $randomIndex 1 }}  */}}
-        <div class="player-name">{{ index $ppl $randomIndex }}</div>
+        <div class="player-name break-words overflow-hidden">{{ index $ppl $randomIndex }}</div>
       </div>
       {{ end }} 
     </div>
@@ -95,6 +114,18 @@
 {{- if or (.Params.enabledebugpanel) (and (not .Params.enabledebugpanel) (site.Params.enabledebugpanel)) }}
 {{ partial "debug-panel.html" . }}
 {{- end }}
+<script>
+  // Function to print the current page
+  function printCurrentPage() {
+      window.print();
+  }
+
+  // Add click event listener to the print link
+  document.getElementById('printPage').addEventListener('click', function(event) {
+      event.preventDefault(); // Prevent default link behavior
+      printCurrentPage(); // Call print function
+  });
+</script>
 </body>
 
 </html>
