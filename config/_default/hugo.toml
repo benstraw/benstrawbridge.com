@@ -1,4 +1,4 @@
-baseURL = 'https://www.benstrawbridge.com'
+baseURL = 'https://www.benstrawbridge.com/'
 defaultContentLanguage = 'en'
 enableRobotsTXT = true
 languageCode = 'en-us'
@@ -12,7 +12,6 @@ title = "benstrawbridge.com consulting - It's the best Jerry, The Best!"
 description = 'Dot Com Consulting'
 copyright = '© 2024 benstrawbridge.com'
 [params]
-  headerTWClasses = "bg-gradient-to-r from-emerald-500 to-emerald-700 text-neutral-100"
   TocOpen = true
   # UseHugoToc = true
   # enabledebugpanel = true 
@@ -21,6 +20,9 @@ copyright = '© 2024 benstrawbridge.com'
   logo_tagline = "DOT COM CONSULTING"
   logo_fontClass = 'font-titillium'
 
+  [params.twClasses]
+    headerBackground = "bg-gradient-to-r from-emerald-500 to-emerald-700 text-neutral-100"
+    footerBackground = "bg-gradient-to-l from-emerald-500 to-emerald-700 text-neutral-100" 
 [markup]
   [markup.highlight]
     linenos = false

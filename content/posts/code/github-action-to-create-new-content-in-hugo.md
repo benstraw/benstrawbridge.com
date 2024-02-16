@@ -2,6 +2,7 @@
 title = 'Github Action to Create New Content in Hugo'
 date = 2024-01-19T21:54:43-08:00
 # draft = true
+showToc = true
 tags = ["headless","hugo","git"]
 +++
 

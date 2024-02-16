@@ -17,6 +17,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'hidden-home': " url('/images/hidden-home-cover.webp')",
+        'header-sunset': " url('/images/header-bg/sunset-playa-1.jpg')",
       },
       fontFamily: {
         'titillium': ['Titillium Web', ...defaultTheme.fontFamily.sans],

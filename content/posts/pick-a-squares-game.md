@@ -1,7 +1,7 @@
 +++
 title = 'Pick a Squares Game'
 date = 2024-02-14T11:30:43-08:00
-draft = true
+# draft = true
 +++
 
 I created a pick-a-squares game template, aka the Super Bowl squares. It is still a work in progress, but I hope to have it snazzy in time for next year. [Take a look at the template](/pick-a-square-game/grid-basic/).
@@ -16,3 +16,5 @@ I created a pick-a-squares game template, aka the Super Bowl squares. It is stil
 ### Project Timeline
 
 - Launch in time for SB LIX
+
+{{< alert-wrapper alertType="danger" alertTitle="Pick a Square" alertMessage="[Head on over to the project page](/projects/pick-a-square)" >}}
