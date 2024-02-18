@@ -42,6 +42,10 @@
       background-color: #A5ACAF;
       color: #000
     }
+    input.scores {
+      border-width: 1px;
+      border-color: #000;
+    }
     .q1-winner {
       background-color: aquamarine;
     }
@@ -76,24 +80,24 @@
     <div class="fixed top-0 right-0 m-2  print:hidden ">
       <a href="#" id="printPage"><i class="fa-solid fa-print rounded-full p-3 text-xl bg-neutral-900 dark:bg-neutral-100 dark:text-neutral-900 text-neutral-100"></i></a>
     </div>
-    <header class="flex h-full mx-auto p-2 border">
-      <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
-      <div class="grid grid-cols-10">
+    <header class="flex h-full mx-auto p-2 print:hidden ">
+      <form class="shadow-md rounded">
+      <div class="w-full grid grid-cols-10 gap-1 border">
         <div class="col-span-2 flex items-center justify-center h-full w-full"><i class="text-2xl p-3 fa-solid fa-trophy"></i></div>
-        <div class="col-span-2 flex items-center justify-center "><label for="asq1">1st Quarter</label></div>
-        <div class="col-span-2 flex items-center justify-center "><label for="asq2">2nd Quarter</label></div>
-        <div class="col-span-2 flex items-center justify-center "><label for="asq3">3rd Quarter</label></div>
-        <div class="col-span-2 flex items-center justify-center "><label for="asfin">Final Score</label></div>
-        <div class="col-span-2 flex items-center justify-center  away-team">Away Team</div>
-        <div class="col-span-2" id="as-q1"><input class="scores" type="number" name="as-q1" id="asq1" tabindex="1" /></div>
-        <div class="col-span-2" id="as-q2"><input class="scores" type="number" name="as-q2" id="asq2" tabindex="3"/></div>
-        <div class="col-span-2" id="as-q3"><input class="scores" type="number" name="as-q3" id="asq3" tabindex="5"/></div>
-        <div class="col-span-2" id="as-fin"><input class="scores" type="number" name="as-fin" id="asfin" tabindex="7"/></div>
+        <div class="col-span-2 flex items-center justify-center "><label for="asq1">1st</label></div>
+        <div class="col-span-2 flex items-center justify-center "><label for="asq2">2nd</label></div>
+        <div class="col-span-2 flex items-center justify-center "><label for="asq3">3rd</label></div>
+        <div class="col-span-2 flex items-center justify-center "><label for="asfin">Final</label></div>
+        <div class="col-span-2 flex items-center justify-center away-team">Away Team</div>
+        <div class="col-span-2 flex items-center justify-center" id="as-q1"><input class="scores" type="number" name="as-q1" id="asq1" tabindex="1" /></div>
+        <div class="col-span-2 flex items-center justify-center" id="as-q2"><input class="scores" type="number" name="as-q2" id="asq2" tabindex="3"/></div>
+        <div class="col-span-2 flex items-center justify-center" id="as-q3"><input class="scores" type="number" name="as-q3" id="asq3" tabindex="5"/></div>
+        <div class="col-span-2 flex items-center justify-center" id="as-fin"><input class="scores" type="number" name="as-fin" id="asfin" tabindex="7"/></div>
         <div class="col-span-2 flex items-center justify-center  home-team">Home Team</div>
-        <div class="col-span-2" id="hs-q1"><input class="scores" type="number" name="hs-q1" tabindex="2"/></div>
-        <div class="col-span-2" id="hs-q2"><input class="scores" type="number" name="hs-q2" tabindex="4"/></div>
-        <div class="col-span-2" id="hs-q3"><input class="scores" type="number" name="hs-q3" tabindex="6"/></div>
-        <div class="col-span-2" id="hs-fin"><input class="scores" type="number" name="hs-fin" tabindex="8"/></div>
+        <div class="col-span-2 flex items-center justify-center" id="hs-q1"><input class="scores" type="number" name="hs-q1" tabindex="2"/></div>
+        <div class="col-span-2 flex items-center justify-center" id="hs-q2"><input class="scores" type="number" name="hs-q2" tabindex="4"/></div>
+        <div class="col-span-2 flex items-center justify-center" id="hs-q3"><input class="scores" type="number" name="hs-q3" tabindex="6"/></div>
+        <div class="col-span-2 flex items-center justify-center" id="hs-fin"><input class="scores" type="number" name="hs-fin" tabindex="8"/></div>
       </div>
       </form>
     </header>
@@ -200,51 +204,35 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // Function to update the display
   function updateDisplay(scores, quarter) {
-    // alert(quarter);
-    // alert(JSON.stringify(scores, null, 2));
     const winnerSquare = '.as-' + scores[quarter]['as'] + '.hs-' + scores[quarter]['hs'];
-    //const winnerSquare = '.as-1.hs-0';
     const displayDiv = document.querySelector(winnerSquare);
     // Remove existing classes from all player-square divs
     const playerSquares = document.querySelectorAll('.player-square');
-    // Convert scores object to a string and display it
-    // displayDiv.textContent = JSON.stringify(scores, null, 2);
-    // Update the display div
-    // displayDiv.textContent = displayText;
     // Set background color based on the scores
     if (quarter == 'q1') {
-      // Home team wins
-      // displayDiv.style.backgroundColor = 'green'; // You can set any color you prefer
       playerSquares.forEach(square => {
         square.classList.remove('q1-winner');
       });
       displayDiv.classList.add('q1-winner');
     } else if (quarter == 'q2') {
-      // Away team wins
-      // displayDiv.style.backgroundColor = 'red'; // You can set any color you prefer
       playerSquares.forEach(square => {
         square.classList.remove('q2-winner');
       });
       displayDiv.classList.add('q2-winner');
     } else if (quarter == 'q3') {
-      // displayDiv.style.backgroundColor = 'blue'; // You can set any color you prefer
       playerSquares.forEach(square => {
         square.classList.remove('q3-winner');
       });
       displayDiv.classList.add('q3-winner');
     } else {
-      // Tie
-      // displayDiv.style.backgroundColor = 'yellow'; // You can set any color you prefer
       playerSquares.forEach(square => {
         square.classList.remove('fin-winner');
       });
       displayDiv.classList.add('fin-winner');
     }
-
   }
 });
   </script>
-  { "q1": { "as": 1, "hs": 2 }, "q2": { "as": 4, "hs": null }, "q3": { "as": null }, "fin": {} }
 </body>
 
 </html>

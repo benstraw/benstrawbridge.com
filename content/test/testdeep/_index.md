@@ -12,5 +12,4 @@ homeFeatureIcon = "fa-solid fa-drum"
   parent = "test"
 +++
 
-
 A sub-section exists in this directory structure and this is it. It has a lot of things to do with AI, obviously.

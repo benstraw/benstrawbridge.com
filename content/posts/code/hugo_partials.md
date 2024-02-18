@@ -7,9 +7,9 @@ category = "web development"
 tags = ["hugo","partials","images","responsive"]
 +++
 
-Here are some useful partials I use in this theme.  
+Here are some useful partials I use in this theme.
 
-### layouts/_default/_markup/render-image.html 
+### layouts/\_default/\_markup/render-image.html
 
 This replaces the default markup template for rendering an image when the markdown code `![Alt Text](/path/to/img.jpg)` is used. It calls another partial you have to add to your theme or layout directory in your site called ImageConverter.
 
@@ -34,29 +34,29 @@ This uses the power of [hugo image processing](https://gohugo.io/content-managem
 
 ```go
 {{/* Step 1: A default image as fallback */}}
-{{ $image := "/images/placeholder.png" }} 
+{{ $image := "/images/placeholder.png" }}
 
 {{/* Step 2: now check if passed image exists with same as title */}}
 {{ $image_url := resources.Get .ImageSrc }}
 {{ $img_param := .ImgParam }}
 
-{{ if $image_url }} 
+{{ if $image_url }}
     {{/* Resize and convert the image  */}}
     {{ $image_url = $image_url.Resize  $img_param }}
-    {{ $image = $image_url.RelPermalink }}             
+    {{ $image = $image_url.RelPermalink }}
 {{end}}
 
 {{return $image}}
 ```
 
-### partials/alert.html  
+### partials/alert.html
 
 This one passes the variables within the page context by using `.Scratch.set "var1" "val1"` in the calling template. It is used to create alert boxes in various different styles.
 
 ```go
-{{/*  
-  Based on: https://flowbite.com/docs/components/alerts/  
-    
+{{/*
+  Based on: https://flowbite.com/docs/components/alerts/
+
   Usage::
     {{- .Scratch.Set "alertType" "success"}}
     {{- .Scratch.Set "alertTitle" "Alpha Release" }}
@@ -87,5 +87,3 @@ This one passes the variables within the page context by using `.Scratch.set "va
   </div>
 </div>
 ```
-
-

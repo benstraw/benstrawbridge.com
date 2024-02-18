@@ -7,6 +7,7 @@ date = 2024-02-12T12:46:55-08:00
 ## Get the first of something in a collection
 
 For example the first jpg image in the current directory starting with the word `feature`.
+
 ```
 {{ $first := index (.Page.Resources.Match "feature*.jpg") 0 }}
 ```

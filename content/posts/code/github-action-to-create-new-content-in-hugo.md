@@ -6,17 +6,17 @@ showToc = true
 tags = ["headless","hugo","git"]
 +++
 
-I am using [Hugo](https://www.gohugo.io) for some of the websites I have made for people, and I think it is great so far.  The one problem with it for many non-technical people I work with is that there is no CMS feature, they want a website administration page where they can do the usual. I know there are some open source headless CMS systems built for Hugo out there, but I have not had the chance to explore them yet and I don't like throwing a client on new software just to decide I don't like it in a few months, so I wanted to do something automated, but avoid having to install vscode, git, ssh-keys and etc in order to make simple edits I decided to do something with [GitHub actions](https://github.com/features/actions).
+I am using [Hugo](https://www.gohugo.io) for some of the websites I have made for people, and I think it is great so far. The one problem with it for many non-technical people I work with is that there is no CMS feature, they want a website administration page where they can do the usual. I know there are some open source headless CMS systems built for Hugo out there, but I have not had the chance to explore them yet and I don't like throwing a client on new software just to decide I don't like it in a few months, so I wanted to do something automated, but avoid having to install vscode, git, ssh-keys and etc in order to make simple edits I decided to do something with [GitHub actions](https://github.com/features/actions).
 
-Github actions have been around since around 2020 and they added a lot of bang to the CI/CD side of GitHub's offering. For this project specifically I was already using a github action to build my hugo website, and deploy it to the free [Github Pages](https://pages.github.com/) hosting. Looking at the `hugo.yaml` file for that action, I realized it was just making calls to the `hugo` executable in a container to build and deploy my site, so I thought why not try to do a new work flow that runs the `hugo new content` command. Here is my workflow file - 
+Github actions have been around since around 2020 and they added a lot of bang to the CI/CD side of GitHub's offering. For this project specifically I was already using a github action to build my hugo website, and deploy it to the free [Github Pages](https://pages.github.com/) hosting. Looking at the `hugo.yaml` file for that action, I realized it was just making calls to the `hugo` executable in a container to build and deploy my site, so I thought why not try to do a new work flow that runs the `hugo new content` command. Here is my workflow file -
 
 ```yaml
 name: Add a new rescue or shelter to the directory
-on:  
+on:
   workflow_dispatch:
     inputs:
       shelterName:
-        description: 'Rescue or shelter Name, seperating any spaces with a `-` and no other punctuation.'     
+        description: "Rescue or shelter Name, seperating any spaces with a `-` and no other punctuation."
         required: true
 jobs:
   build:
@@ -25,7 +25,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
         with:
-          ref: 'main'
+          ref: "main"
       - name: Setup hugo
         uses: peaceiris/actions-hugo@v2
         with:
@@ -46,14 +46,14 @@ The purpose of this is the allow the user to go to the actions tab for their rep
 
 ### workflow_dispatch
 
-First you will notice a different `on:` than you may be used to seeing - 
+First you will notice a different `on:` than you may be used to seeing -
 
 ```yaml
-on:  
+on:
   workflow_dispatch:
     inputs:
       shelterName:
-        description: 'Rescue or shelter Name, seperating any spaces with a `-` and no other punctuation.'     
+        description: "Rescue or shelter Name, seperating any spaces with a `-` and no other punctuation."
         required: true
 ```
 
@@ -63,14 +63,14 @@ The `workflow_dispatch` creates a button in the github ui that enables the actio
 
 Clicking on the button opens the form you configured in `workflow_dispatch` in a popup window. ![workflow form](/images/posts/code/workflow-screenshot.png)
 
-The user just enters the name of the new directory in the form field `shelterName`, and the github action takes that and stitches into the hugo new command like so - 
+The user just enters the name of the new directory in the form field `shelterName`, and the github action takes that and stitches into the hugo new command like so -
 
 ```yaml
 run: |
-          CONTENT = ${{ github.event.inputs.shelterName }}
-          NO_SPACES = ${CONTENT// /-}
-          echo $NO_SPACES
-          hugo new content rescue-shelter-directory/$NO_SPACES/index.md
+  CONTENT = ${{ github.event.inputs.shelterName }}
+  NO_SPACES = ${CONTENT// /-}
+  echo $NO_SPACES
+  hugo new content rescue-shelter-directory/$NO_SPACES/index.md
 ```
 
 The `|` right after `run:` allows your command to be spread over multiple lines. So what this does, is replaces any spaces with a `-`, then runs `hugo new content` on the rescue-shelter-directory content directory (which already existed in this Hugo project, but Hugo would create it).

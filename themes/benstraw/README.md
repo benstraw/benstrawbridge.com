@@ -21,6 +21,6 @@ npm run build-tw
 Fontawesome
 
 - Rabbithole!
-https://gohugo.io/content-management/multilingual/
+  https://gohugo.io/content-management/multilingual/
 
 ## Configuration

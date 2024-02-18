@@ -19,7 +19,7 @@ homeFeatureIcon = "fa-solid fa-link"
 
 A page where I save links that I find myself returning to or really helped me out at times.
 
-## Art  
+## Art
 
 ### Art tech services companies
 
@@ -32,8 +32,7 @@ A page where I save links that I find myself returning to or really helped me ou
 - [Louise Strawbridge](https://www.louisestrawbridge.com/)
 - [Matthew Cassman](https://danielcassman.com/portfolio/)
 - (https://pixelfed.org/)
-- [The second version arts-link.com, circa 2002](https://web.archive.org/web/20020220112908/http://www.arts-link.com:80/)  
-
+- [The second version arts-link.com, circa 2002](https://web.archive.org/web/20020220112908/http://www.arts-link.com:80/)
 
 ## Code
 
@@ -45,7 +44,7 @@ A page where I save links that I find myself returning to or really helped me ou
 
 - https://frankchimero.com/blog/2015/the-webs-grain/
 
-### css  
+### css
 
 - [Deep dive into dev tools](https://css-tricks.com/some-cross-browser-devtools-features-you-might-not-know/)
 - [Tailwindcss docs](https://tailwindcss.com/docs/installation)
@@ -57,23 +56,22 @@ A page where I save links that I find myself returning to or really helped me ou
 ### fonts
 
 - [Lexend+Zetta font](https://fonts.google.com/specimen/Lexend+Zetta)
-- [Titillium Web](https://fonts.google.com/specimen/Titillium+Web?preview.text=ben%20strawbridge&preview.size=80&classification=Display&stroke=Sans+Serif) 
-- [Ruda](https://fonts.google.com/specimen/Ruda?preview.text=ben%20strawbridge&preview.size=80&classification=Display&stroke=Sans+Serif) 
-- [Tauri](https://fonts.google.com/specimen/Tauri?preview.text=ben%20strawbridge&preview.size=80&classification=Display&stroke=Sans+Serif
-) 
+- [Titillium Web](https://fonts.google.com/specimen/Titillium+Web?preview.text=ben%20strawbridge&preview.size=80&classification=Display&stroke=Sans+Serif)
+- [Ruda](https://fonts.google.com/specimen/Ruda?preview.text=ben%20strawbridge&preview.size=80&classification=Display&stroke=Sans+Serif)
+- [Tauri](https://fonts.google.com/specimen/Tauri?preview.text=ben%20strawbridge&preview.size=80&classification=Display&stroke=Sans+Serif)
 
 ### icons
 
-- https://www.reshot.com/free-svg-icons/  
+- https://www.reshot.com/free-svg-icons/
 - [fontawesome](https://fontawesome.com/search?q=moon&o=r&m=free)
 - [Themify Icons](https://themify.me/themify-icons)
 - [heroicons](https://heroicons.com/)
 
-### Hugo  
+### Hugo
 
 #### General
 
-- [Hugo Survival Guide](https://janert.me/guides/hugo-survival-guide/)  
+- [Hugo Survival Guide](https://janert.me/guides/hugo-survival-guide/)
 - [Directory Structure Explained](https://www.jakewiesler.com/blog/hugo-directory-structure)
 - [Hugo Pipes Revolution](https://www.regisphilibert.com/blog/2018/07/hugo-pipes-and-asset-processing-pipeline/)
 - [Hugo In Action by Atishay Jain](https://livebook.manning.com/book/hugo-in-action/)
@@ -83,25 +81,23 @@ A page where I save links that I find myself returning to or really helped me ou
 - [resource for setting up hugo with tailwindcss](https://www.unsungnovelty.org/posts/03/2022/how-to-add-tailwind-css-3-to-a-hugo-website-in-2022/)
 - [hugo official docs all configuration options page](https://gohugo.io/getting-started/configuration/)
 
-#### image processing  
+#### image processing
 
 - [Markus Wolf Image resource guide](https://www.markusantonwolf.com/blog/guide-for-different-ways-to-access-your-image-resources/)
 - [devnodes image convert guide](https://devnodes.in/blog/hugo/image-convert-to-webp/)
 - [Matin van Vreeden image shortcode](https://martijnvanvreeden.nl/hugo-shortcode-to-serve-images-in-next-gen-formats/)
 
-#### modules  
+#### modules
 
 - [a nice collection of partials and shortcodes from gethugothemes, available as individual modules](https://github.com/gethugothemes/hugo-modules/tree/master)
 
-
 #### themes
 
-##### resume  
+##### resume
 
 - [Very clean and printable resume theme](https://gitlab.com/mertbakir/resume-a4)
 
-- https://gitlab.com/mertbakir/art-collection-theme/ 
- 
+- https://gitlab.com/mertbakir/art-collection-theme/
 
 ##### PaperMod
 
@@ -115,20 +111,19 @@ A clean starter theme that has a lot of functionality built in. Translated into 
 - [Gallery Deluxe Theme](https://github.com/bep/gallerydeluxe)
 - [Gallery Theme](https://github.com/nicokaiser/hugo-theme-gallery)
 
-
 #### image gallery resources
 
 - [Photo Swipe plugin](https://github.com/dimsemenov/PhotoSwipe)
 - [PIG.js progressive image gallery](https://github.com/schlosser/pig.js)
 
-## Services  
+## Services
 
 ### Payments
 
 - [interledger](https://interledger.org/)
 
-### Newsletter platforms  
+### Newsletter platforms
 
-- [buttondown email](https://buttondown.email/)  
+- [buttondown email](https://buttondown.email/)
 - [mailchimp (by intuit)](https://mailchimp.com/)
 - [ConvertKit](https://convertkit.com/)

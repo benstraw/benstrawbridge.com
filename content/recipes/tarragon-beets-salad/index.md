@@ -36,6 +36,7 @@ Makes about 4 qts. Lasts for over a week in the fridge.
 ## For Beets (can be done the day before)
 
 ![Slice em up and cook em on parchment paper](/images/recipes/tarragon-beets-salad/beets-on-parchment.jpg)
+
 - Preheat oven to 425
 - Cut (optionally peeled) beets into medium thin slices
 - Cut mushrooms into medium pieces. Any mushroom is fine but I like crimini or portobello

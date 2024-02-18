@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-const defaultTheme = require('tailwindcss/defaultTheme');
+const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
   // content: ['./hugo_stats.json'],
@@ -11,19 +11,18 @@ module.exports = {
     "./content/**/*.md",
     "./themes/benstraw/layouts/**/*.html",
     "./themes/ryder/layouts/**/*.html",
-    "./themes/ryder-dev/layouts/**/*.html"
+    "./themes/ryder-dev/layouts/**/*.html",
   ],
   theme: {
     extend: {
       backgroundImage: {
-        'hidden-home': " url('/images/hidden-home-cover.webp')",
-        'header-sunset': " url('/images/header-bg/sunset-playa-1.jpg')",
+        "hidden-home": " url('/images/hidden-home-cover.webp')",
+        "header-sunset": " url('/images/header-bg/sunset-playa-1.jpg')",
       },
       fontFamily: {
-        'titillium': ['Titillium Web', ...defaultTheme.fontFamily.sans],
+        titillium: ["Titillium Web", ...defaultTheme.fontFamily.sans],
       },
     },
   },
   plugins: [require("@tailwindcss/typography")],
-}
-
+};

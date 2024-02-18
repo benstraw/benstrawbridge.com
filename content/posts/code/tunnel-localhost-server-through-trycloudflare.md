@@ -6,7 +6,7 @@ date = 2024-02-14T14:06:29-08:00
 
 This post is an update to this post -- https://nathancraddock.com/blog/hugo-server-on-local-and-public-networks
 
-To run hugo on the local network on localhost AND bind to your local network IP address you can use - 
+To run hugo on the local network on localhost AND bind to your local network IP address you can use -
 
 ```
 $ hugo server --bind 0.0.0.0
