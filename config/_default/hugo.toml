@@ -15,14 +15,17 @@ copyright = '© 2024 benstrawbridge.com'
   TocOpen = true
   # UseHugoToc = true
   # enabledebugpanel = true 
-  logo_firstWord = 'Ben'
-  logo_lastWord = 'Strawbridge'
+  # navbar_fixed = true
+  showDarkToggle = true
+  logo_firstWord = 'ben'
+  logo_lastWord = 'strawbridge'
   logo_tagline = "DOT COM CONSULTING"
   logo_fontClass = 'font-titillium'
-
   [params.twClasses]
-    headerBackground = "bg-gradient-to-r from-emerald-500 to-emerald-700 text-neutral-100"
-    footerBackground = "bg-gradient-to-l from-emerald-500 to-emerald-700 text-neutral-100" 
+    headerBackgroundFrameOuter = "bg-gradient-to-r from-violet-950 to-rose-950 border-b border-fuchsia-600"
+    headerBackgroundFrameInner = "bg-header-sunset-mb h-[420px] bg-cover bg-center"
+    footerBackground = "bg-gradient-to-r from-violet-950 to-rose-950 border-b border-fuchsia-600" 
+    # navbar_fixed = "sticky top-0"
 [markup]
   [markup.highlight]
     linenos = false

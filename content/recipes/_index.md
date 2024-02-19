@@ -6,12 +6,12 @@ description = "An attempt at making recipe data open and free so it may flutter 
   featured_image = "/images/recipes/tarragon-beets-salad/beets-salad.jpg"
   logo_tagline = "RECIPE COLLECTION"
   [cascade.twClasses]
-    headerBackground = "bg-[url('/images/header-bg/beets-on-parchment.jpg')] bg-cover h-[250px]"
+    headerBackground = "bg-[url('/images/header-bg/beets-on-parchment.jpg')] bg-cover h-[550px]"
     # headerBackground = "bg-rose-500"
 [menu]
  [menu.main]
   weight = 52
-  parent = 'Projects'
+  parent = 'projects'
 +++
 
 Recipes I have collected, created or modified over the years.

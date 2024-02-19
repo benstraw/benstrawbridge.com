@@ -7,6 +7,8 @@ draft = false
 type = 'hidden-home'
 randomizeBackground = true
 # logo_collapse = true
+# [twClasses]
+    # headerBackgroundFrame = "bg-gradient-to-r from-violet-950 to-rose-950 text-neutral-100  border-b border-fuchsia-600"
 +++
 
 This domain is used primarily for email. There is nothing to see here.

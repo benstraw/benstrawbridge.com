@@ -12,7 +12,7 @@ logo_tagline = 'PICK A SQUARE GAME'
 [menu]
  [menu.main]
   weight = 802
-  parent = 'Projects'
+  parent = 'projects'
 +++
 
 > Pick a Square, any Square! Only $_n_ a square! Step right up folks and get your lucky square.
