@@ -3,18 +3,15 @@ title = 'Links'
 date = 2024-01-18T11:50:06-08:00
 # draft = true
 tags = ["hugo","themes","css","images"]
+weight = 1
 showTOC = true
 TocOpen = true
-# headerTWClasses = "bg-gradient-to-r from-rose-500 to-rose-700 text-neutral-100"
 # enabledebugpanel = true
-
 homeFeature = true
 homeFeatureIcon = "fa-solid fa-link"
-
-# [menu]
-#  [menu.main]
-#   weight = 32
-#   identifier = 'links'
+[twClasses]
+  headerBackgroundFrameOuter = "bg-gradient-to-r from-rose-500 to-rose-700 text-neutral-100"
+  headerBackgroundFrameInner = ""
 +++
 
 A page where I save links that I find myself returning to or really helped me out at times.

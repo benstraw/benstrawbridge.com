@@ -21,6 +21,9 @@ copyright = '© 2024 benstrawbridge.com'
   logo_lastWord = 'strawbridge'
   logo_tagline = "DOT COM CONSULTING"
   logo_fontClass = 'font-titillium'
+  [params.author]
+    email = 'ben@benstrawbridge.com'
+    name = 'Ben Strawbridge'
   [params.twClasses]
     headerBackgroundFrameOuter = "bg-gradient-to-r from-violet-950 to-rose-950 border-b border-fuchsia-600"
     headerBackgroundFrameInner = "bg-header-sunset-mb h-[420px] bg-cover bg-center"

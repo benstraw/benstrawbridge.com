@@ -5,11 +5,11 @@ draft = true
 category = "testing depth"
 homeFeature = true
 homeFeatureIcon = "fa-solid fa-drum"
-[menu]
- [menu.main]
-  weight = 32
-  identifier = "testdeep"
-  parent = "test"
+# [menu]
+#  [menu.main]
+#   weight = 32
+#   identifier = "testdeep"
+#   parent = "test"
 +++
 
 A sub-section exists in this directory structure and this is it. It has a lot of things to do with AI, obviously.

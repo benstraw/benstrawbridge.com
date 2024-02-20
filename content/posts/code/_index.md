@@ -9,5 +9,3 @@ date = 2024-01-12T11:22:26-08:00
   weight = 12
   parent = 'posts'
 +++
-
-Notes and musing about code.

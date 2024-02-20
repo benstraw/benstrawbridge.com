@@ -2,17 +2,22 @@
 title = 'Tunnel Localhost Server Through Cloudflare'
 date = 2024-02-14T14:06:29-08:00
 # draft = true
+tags = ["guides", "hugo", "networking"]
 +++
 
-This post is an update to this post -- https://nathancraddock.com/blog/hugo-server-on-local-and-public-networks
+This is something I have done in the past and it usually involved pretty in-depth knowledge of the shell and networking, but now there is a free service that makes it oh-so-easy to spin up a tunnel with a public human readable domain name for temporary viewing of your local network development environment on the internet. This is very useful for presentations, working with colleagues, or just briefly sharing your work.  I first found out about this from [Nathan Craddock's blog](https://nathancraddock.com/blog/hugo-server-on-local-and-public-networks), which you should read if you want more details, but I made a few significant changes to his workflow worth a short writeup.
 
-To run hugo on the local network on localhost AND bind to your local network IP address you can use -
+### 0.0.0.0 trick
 
-```
+You don't have to choose between binding hugo, or any local server, to just localhost/127.0.0.1 or an ip in the 192.168 range, you can bind to all all IP addresses available in your network stack with 0.0.0.0. To run hugo on the local network on localhost AND bind to your local network IP address you can use -
+
+```bash
 $ hugo server --bind 0.0.0.0
 ```
 
-I use zsh so I didn't use the fish script but instaed added a function to `~/.zshrc` called `hugo_with_tunnel`
+### The zsh script
+
+I use zsh so I didn't use his fish script but instead wrote this function which I added to `~/.zshrc` and called `hugo_with_tunnel`.
 
 ```zsh
 # Function to run Hugo through Cloudflare tunnel

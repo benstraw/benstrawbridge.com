@@ -7,5 +7,3 @@ date = 2024-02-11T22:54:22-08:00
   weight = 12
   identifier = 'posts'
 +++
-
-Occasional posts will appear in this section.

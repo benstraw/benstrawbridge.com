@@ -6,6 +6,7 @@ draft = true
  [menu.main]
   weight = 32
   identifier = 'test'
+  parent = "Projects"
 [cascade]
 logo_tagline = ""
 +++
