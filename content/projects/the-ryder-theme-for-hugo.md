@@ -1,7 +1,7 @@
 +++
 title = 'The Ryder Theme for Hugo'
 date = 2024-02-19T22:19:09-08:00
-draft = true
+# draft = true
 tags = ["hugo","development","themes","open source"]
 homeFeature = true
 homeFeatureIcon = "fa-solid fa-dog"
