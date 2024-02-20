@@ -2,7 +2,6 @@ theme = "ryder"
 
 [params]
   env = "production"
-  showDarkToggle = false
 
 [services]
   [services.googleAnalytics]

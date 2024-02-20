@@ -19,6 +19,7 @@
       "link": "mailto:ben@benstrawbridge.com.com?subject=web"
     },
     {
+      "title": "RSS Feed",
       "name": "feed",
       "icon": "fa-solid fa-rss",
       "link": "/index.xml"
