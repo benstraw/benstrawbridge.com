@@ -24,7 +24,9 @@ This is an open source project, licensed under the MIT software license. Being a
 
 ### Features
 
-- Tailwind CSS utility framework installed and configured.
+- Tailwind CSS utility framework installed and configured
+- FontAwesome integrated, with shortcode
+- Alert / Notification / Banner partial and shortcode
 - Breadcrumb navigation
 - Table of Contents navigation for articles
 - Dark Theme and custom toggler
