@@ -12,6 +12,7 @@ title = "benstrawbridge.com consulting - It's the best Jerry, The Best!"
 description = 'Dot Com Consulting'
 copyright = '© 2024 benstrawbridge.com'
 [params]
+  description = 'Dot Com Consulting'
   TocOpen = true
   # UseHugoToc = true
   # enabledebugpanel = true 
