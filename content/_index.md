@@ -4,7 +4,7 @@ description = 'the domain to email me at would just so happen to be benstrawbrid
 featured_image = '/images/maui-sunset.webp'
 # date = 2024-01-02T11:58:15-08:00
 draft = false 
-# type = 'hidden-home'
+type = 'hidden-home'
 randomizeBackground = true
 # logo_collapse = true
 # [twClasses]
