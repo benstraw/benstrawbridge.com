@@ -113,6 +113,10 @@ A clean starter theme that has a lot of functionality built in. Translated into 
 - [Photo Swipe plugin](https://github.com/dimsemenov/PhotoSwipe)
 - [PIG.js progressive image gallery](https://github.com/schlosser/pig.js)
 
+## Product Management
+
+- [Steve Francia workshop slides "Product Management for everyone"](https://spf13.com/presentation/product-management-for-everyone/)
+
 ## Services
 
 ### Payments
