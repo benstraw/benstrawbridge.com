@@ -9,12 +9,16 @@ TocOpen = true
 # enabledebugpanel = true
 homeFeature = true
 homeFeatureIcon = "fa-solid fa-link"
+# [menu]
+#  [menu.footer]
+#   weight = 1
+#   identifier = 'links'
 [twClasses]
-  headerBackgroundFrameOuter = "bg-gradient-to-r from-rose-500 to-rose-700 text-neutral-100"
+  headerBackgroundFrameOuter = "bg-gradient-to-r from-rose-500 to-rose-800 text-neutral-100"
   headerBackgroundFrameInner = ""
-+++
 
-A page where I save links that I find myself returning to or really helped me out at times.
+
++++
 
 ## Art
 
@@ -36,6 +40,8 @@ A page where I save links that I find myself returning to or really helped me ou
 ### tools
 
 - [transform anything](https://transform.tools/)
+- [page speed checklist](https://pagespeedchecklist.com/)
+- [page speed insights](https://pagespeed.web.dev/)
 
 ### the web
 

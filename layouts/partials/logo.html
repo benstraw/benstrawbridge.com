@@ -14,13 +14,14 @@ $fontClass = . }} {{- end }} {{- $lettersClass := "inline" -}} {{- $roundedClass
       -}} {{- end -}} {{ if $fw }} {{- $fw = split $fw "" -}} {{$fwLen := len
       $fw}} {{- $lw = split $lw "" -}}
       <h1 class="text-4xl nowrap">
-        <span class="text-[#17729C]">
+        {{/*  <span class="text-[#17729C]">  */}}
+        <span class="text-sky-800">
           {{- range $k, $v := $fw }}{{- $v }}{{- if (eq $k 0) }}<span
             class="{{- $lettersClass }}"
             >{{- end }}{{- if (eq $k $fwLen) }}</span
           >{{- end }}{{- end -}} </span
         ><span class="{{- $lettersClass }}">&nbsp;</span
-        ><span class="text-[#81B622]">
+        ><span class="text-lime-800">
           {{- range $k, $v := $lw }}{{- $v }}{{- if (eq $k 0) }}<span
             class="{{- $lettersClass }}"
             >{{- end }}{{- if (eq $k 10) }}</span
@@ -29,7 +30,7 @@ $fontClass = . }} {{- end }} {{- $lettersClass := "inline" -}} {{- $roundedClass
       </h1>
       {{ end }} {{ with .Param "logo_tagline" }}
       <span
-        class="{{- $lettersClass }} text-stone-600 font-bold text-xs mt-[-0.25em] tracking-[0.4em]"
+        class="{{- $lettersClass }} text-stone-900 font-bold text-xs mt-[-0.25em] tracking-[0.4em]"
         >{{ . }}</span
       >
       {{ end }}

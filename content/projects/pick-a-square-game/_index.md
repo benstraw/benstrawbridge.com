@@ -3,7 +3,7 @@ title = 'Pick a Square Game'
 date = 2024-02-13T10:51:24-08:00
 aliases = ['/pick-a-square-game/']
 homeFeature = true
-homeFeatureIcon = "fa-solid fa-carrot"
+homeFeatureIcon = "fa-solid fa-table-cells"
 [twClasses]
     headerBackground = "bg-header-sunset h-[825px] bg-cover bg-center" 
 # draft = true
