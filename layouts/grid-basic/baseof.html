@@ -42,10 +42,6 @@
       background-color: #A5ACAF;
       color: #000
     }
-    input.scores {
-      border-width: 1px;
-      border-color: #000;
-    }
     .q1-winner {
       background-color: aquamarine;
     }
@@ -88,27 +84,27 @@
         <div class="col-span-2 flex items-center justify-center "><label for="asq2">2nd</label></div>
         <div class="col-span-2 flex items-center justify-center "><label for="asq3">3rd</label></div>
         <div class="col-span-2 flex items-center justify-center "><label for="asfin">Final</label></div>
-        <div class="col-span-2 flex items-center justify-center away-team">Away Team</div>
-        <div class="col-span-2 flex items-center justify-center" id="as-q1"><input class="scores" type="number" name="as-q1" id="asq1" tabindex="1" /></div>
-        <div class="col-span-2 flex items-center justify-center" id="as-q2"><input class="scores" type="number" name="as-q2" id="asq2" tabindex="3"/></div>
-        <div class="col-span-2 flex items-center justify-center" id="as-q3"><input class="scores" type="number" name="as-q3" id="asq3" tabindex="5"/></div>
-        <div class="col-span-2 flex items-center justify-center" id="as-fin"><input class="scores" type="number" name="as-fin" id="asfin" tabindex="7"/></div>
-        <div class="col-span-2 flex items-center justify-center  home-team">Home Team</div>
-        <div class="col-span-2 flex items-center justify-center" id="hs-q1"><input class="scores" type="number" name="hs-q1" tabindex="2"/></div>
-        <div class="col-span-2 flex items-center justify-center" id="hs-q2"><input class="scores" type="number" name="hs-q2" tabindex="4"/></div>
-        <div class="col-span-2 flex items-center justify-center" id="hs-q3"><input class="scores" type="number" name="hs-q3" tabindex="6"/></div>
-        <div class="col-span-2 flex items-center justify-center" id="hs-fin"><input class="scores" type="number" name="hs-fin" tabindex="8"/></div>
+        <div class="col-span-2 p-2 flex items-center justify-center away-team">Away Team</div>
+        <div class="col-span-2 flex items-center justify-center" id="as-q1"><input class="scores border w-10" type="text" name="as-q1" id="asq1" tabindex="1" /></div>
+        <div class="col-span-2 flex items-center justify-center" id="as-q2"><input class="scores border w-10" type="text" name="as-q2" id="asq2" tabindex="3"/></div>
+        <div class="col-span-2 flex items-center justify-center" id="as-q3"><input class="scores border w-10" type="text" name="as-q3" id="asq3" tabindex="5"/></div>
+        <div class="col-span-2 flex items-center justify-center" id="as-fin"><input class="scores border w-10" type="text" name="as-fin" id="asfin" tabindex="7"/></div>
+        <div class="col-span-2 p-2 flex items-center justify-center  home-team">Home Team</div>
+        <div class="col-span-2 flex items-center justify-center" id="hs-q1"><input class="scores border w-10" type="text" name="hs-q1" tabindex="2"/></div>
+        <div class="col-span-2 flex items-center justify-center" id="hs-q2"><input class="scores border w-10" type="text" name="hs-q2" tabindex="4"/></div>
+        <div class="col-span-2 flex items-center justify-center" id="hs-q3"><input class="scores border w-10" type="text" name="hs-q3" tabindex="6"/></div>
+        <div class="col-span-2 flex items-center justify-center" id="hs-fin"><input class="scores border w-10" type="text" name="hs-fin" tabindex="8"/></div>
       </div>
       </form>
     </header>
-    <div class="  w-full md:w-5/6 lg:w-4/5 xl:w-7/12 2xl:w-7/12 print:w-full print:h-lvh aspect-square mx-auto squares-outer-grid grid grid-cols-12 gap-1">
+    <div class="  w-full md:w-10/6 lg:w-4/5 xl:w-10/12 2xl:w-10/12 print:w-full print:h-lvh aspect-square mx-auto squares-outer-grid grid grid-cols-12 gap-1">
       {{/*  THE Double Square Top Left */}}
       <div class=" col-span-2 row-span-2 flex items-center justify-center h-full w-full" id="0-0">
         <i class="text-5xl md:text-8xl print:text-3xl fa-solid fa-football"></i>
       </div>
       {{/*  TOP ROW HEADER - Spans 10 cols  */}}
       <div class="col-span-10 home-team flex items-center"><h2 class="mx-auto text-3xl">The Home Team</h2></div>
-      {{/*  THE SECOND ROW 10 Numbers Squares  */}}
+      {{/*  THE SECOND ROW 10 umtextSquares  */}}
       {{ $htNums := shuffle (seq 0 9) }}
       {{/*  {{ range $index, $num := seq 10 }}  */}}
       {{ range $htNums }}
@@ -183,7 +179,7 @@ document.addEventListener('DOMContentLoaded', function() {
   };
   
   // Get all input fields
-  const inputFields = document.querySelectorAll('input[type="number"]');
+  const inputFields = document.querySelectorAll('input[type="text"]');
   
   // Add blur event listener to each input field
   inputFields.forEach(inputField => {
@@ -204,7 +200,11 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // Function to update the display
   function updateDisplay(scores, quarter) {
-    const winnerSquare = '.as-' + scores[quarter]['as'] + '.hs-' + scores[quarter]['hs'];
+    let asScore = scores[quarter]['as'].toString();
+    let asLastNum = asScore[asScore.length - 1];
+    let hsScore = scores[quarter]['hs'].toString();
+    let hsLastNum = hsScore[hsScore.length - 1];
+    const winnerSquare = '.as-' + asLastNum + '.hs-' + hsLastNum;
     const displayDiv = document.querySelector(winnerSquare);
     // Remove existing classes from all player-square divs
     const playerSquares = document.querySelectorAll('.player-square');

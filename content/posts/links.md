@@ -6,6 +6,7 @@ tags = ["hugo","themes","css","images"]
 weight = 1
 showTOC = true
 TocOpen = true
+logo_tagline = "LINK GRAVEYARD"
 # enabledebugpanel = true
 homeFeature = true
 homeFeatureIcon = "fa-solid fa-link"
