@@ -5,7 +5,7 @@ module.exports = {
   // content: ['./hugo_stats.json'],
 
   content: [
-    "'./hugo_stats.json'",
+    "./hugo_stats.json",
     "./layouts/**/*.html",
     "./config/**/*.toml",
     "./content/**/*.md",

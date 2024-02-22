@@ -47,7 +47,7 @@ copyright = '© 2024 benstrawbridge.com'
 [module]
   [module.hugoVersion]
     extended = false
-    min = "0.116.0"
+    min = "0.121.1"
   [[module.mounts]]
     source = "assets"
     target = "assets"
