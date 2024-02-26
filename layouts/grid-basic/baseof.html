@@ -2,21 +2,6 @@
 <html lang="{{ or site.Language.LanguageCode site.Language.Lang }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
 <head>
   
-  {{- if .Params.randomizeBackground }}
-  <!-- Include the backgroundChanger.js file -->
-  {{- with resources.Get "/js/backgroundChanger.js" }}
-    {{- if eq hugo.Environment "development" }}
-      {{- with . | js.Build }}
-    <script defer src="{{ .RelPermalink }}"></script>
-      {{- end }}
-    {{- else }}
-      {{- $opts := dict "minify" true }}
-      {{- with . | js.Build $opts | fingerprint }}
-    <script defer src="{{ .RelPermalink }}" integrity="{{- .Data.Integrity }}" crossorigin="anonymous"></script>
-      {{- end }}
-    {{- end }}
-  {{- end }}
-  {{- end }}
   {{ partial "head.html" . }}
   
   <style>
@@ -63,41 +48,49 @@
   <!-- tailwind size indicator -->
     {{ partial "tw-size-indicator.html" . }}
   {{ end }}
-  <header class="fixed bottom-0 right-0 z-50 mb-auto print:mx-auto print:block print:top-0">
+  <header class="fixed bottom-0 right-0 z-50 mb-auto print:mx-auto print:block print:top-0 print:left-0">
   {{/*  <header class="mx-auto mb-auto print:hidden">  */}}
     {{- partial "logo.html" . }}
   </header>
   <main class="flex h-full flex-col justify-center">
-    
+    {{/* ROTATE SCREEN WARNING */}}
     <div class=" sm:hidden text-center print:hidden">
       <i class="fa-solid fa-rotate text-9xl m-5"></i><br/>
       rotate your screen for best viewing
     </div>
-    <div class="fixed top-0 right-0 m-2  print:hidden ">
+    {{/*  MENU  */}}
+    <div class="fixed top-0 right-0 m-2 flex flex-col print:hidden ">
       <a href="#" id="printPage"><i class="fa-solid fa-print rounded-full p-3 text-xl bg-neutral-900 dark:bg-neutral-100 dark:text-neutral-900 text-neutral-100"></i></a>
+      <a href="#" id="scoreBoardController"><i class="fa-solid fa-trophy rounded-full p-3 text-xl bg-neutral-900 dark:bg-neutral-100 dark:text-neutral-900 text-neutral-100"></i></a>
     </div>
-    <header class="flex h-full mx-auto p-2 print:hidden ">
-      <form class="shadow-md rounded">
-      <div class="w-full grid grid-cols-10 gap-1 border">
+    <div id="score-board" class="fixed bg-white top-0 hidden z-50 print:hidden w-64 ">
+      <div class="bg-neutral-900 w-full h-10 text-right"><a href="#" id="minimizeScoreboard"><i class="text-xl text-neutral-100 p-3 fa-solid fa-minimize"></i></a></div>
+      <form name="score-board" class="shadow-md rounded">
+      <div class="w-full p-2 grid grid-cols-10 gap-1 border">
         <div class="col-span-2 flex items-center justify-center h-full w-full"><i class="text-2xl p-3 fa-solid fa-trophy"></i></div>
         <div class="col-span-2 flex items-center justify-center "><label for="asq1">1st</label></div>
         <div class="col-span-2 flex items-center justify-center "><label for="asq2">2nd</label></div>
         <div class="col-span-2 flex items-center justify-center "><label for="asq3">3rd</label></div>
         <div class="col-span-2 flex items-center justify-center "><label for="asfin">Final</label></div>
-        <div class="col-span-2 p-2 flex items-center justify-center away-team">Away Team</div>
+        <div class="col-span-2 p-3 flex items-center justify-center away-team">Away Team</div>
         <div class="col-span-2 flex items-center justify-center" id="as-q1"><input class="scores border w-10" type="text" name="as-q1" id="asq1" tabindex="1" /></div>
         <div class="col-span-2 flex items-center justify-center" id="as-q2"><input class="scores border w-10" type="text" name="as-q2" id="asq2" tabindex="3"/></div>
         <div class="col-span-2 flex items-center justify-center" id="as-q3"><input class="scores border w-10" type="text" name="as-q3" id="asq3" tabindex="5"/></div>
         <div class="col-span-2 flex items-center justify-center" id="as-fin"><input class="scores border w-10" type="text" name="as-fin" id="asfin" tabindex="7"/></div>
-        <div class="col-span-2 p-2 flex items-center justify-center  home-team">Home Team</div>
+        <div class="col-span-2 p-3 flex items-center justify-center  home-team">Home Team</div>
         <div class="col-span-2 flex items-center justify-center" id="hs-q1"><input class="scores border w-10" type="text" name="hs-q1" tabindex="2"/></div>
         <div class="col-span-2 flex items-center justify-center" id="hs-q2"><input class="scores border w-10" type="text" name="hs-q2" tabindex="4"/></div>
         <div class="col-span-2 flex items-center justify-center" id="hs-q3"><input class="scores border w-10" type="text" name="hs-q3" tabindex="6"/></div>
         <div class="col-span-2 flex items-center justify-center" id="hs-fin"><input class="scores border w-10" type="text" name="hs-fin" tabindex="8"/></div>
+        <div class="col-span-2 p-3 flex items-center justify-center">Winner</div>
+        <div class="col-span-2 flex items-center justify-center" id="win-q1"></div>
+        <div class="col-span-2 flex items-center justify-center" id="win-q2"></div>
+        <div class="col-span-2 flex items-center justify-center" id="win-q3"></div>
+        <div class="col-span-2 flex items-center justify-center" id="win-fin"></div>
       </div>
       </form>
-    </header>
-    <div class="  w-full md:w-10/6 lg:w-4/5 xl:w-10/12 2xl:w-10/12 print:w-full print:h-lvh aspect-square mx-auto squares-outer-grid grid grid-cols-12 gap-1">
+    </div>
+    <div class="w-full max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg print:w-full print:h-lvh aspect-square mx-auto squares-outer-grid grid grid-cols-12 gap-1">
       {{/*  THE Double Square Top Left */}}
       <div class=" col-span-2 row-span-2 flex items-center justify-center h-full w-full" id="0-0">
         <i class="text-5xl md:text-8xl print:text-3xl fa-solid fa-football"></i>
@@ -179,7 +172,9 @@ document.addEventListener('DOMContentLoaded', function() {
   };
   
   // Get all input fields
-  const inputFields = document.querySelectorAll('input[type="text"]');
+  // const inputFields = document.querySelectorAll('input[type="text"]');
+  const inputFields = document.querySelectorAll('form[name="score-board"] input[type="text"]');
+
   
   // Add blur event listener to each input field
   inputFields.forEach(inputField => {
@@ -214,25 +209,47 @@ document.addEventListener('DOMContentLoaded', function() {
         square.classList.remove('q1-winner');
       });
       displayDiv.classList.add('q1-winner');
+      document.getElementById('win-q1').classList.add('q1-winner');
+      document.getElementById('win-q1').textContent = displayDiv.textContent;
+
     } else if (quarter == 'q2') {
       playerSquares.forEach(square => {
         square.classList.remove('q2-winner');
       });
       displayDiv.classList.add('q2-winner');
+      document.getElementById('win-q2').classList.add('q2-winner');
+      document.getElementById('win-q2').textContent = displayDiv.textContent;
     } else if (quarter == 'q3') {
       playerSquares.forEach(square => {
         square.classList.remove('q3-winner');
       });
       displayDiv.classList.add('q3-winner');
+      document.getElementById('win-q3').classList.add('q3-winner');
+      document.getElementById('win-q3').textContent = displayDiv.textContent;
     } else {
       playerSquares.forEach(square => {
         square.classList.remove('fin-winner');
       });
       displayDiv.classList.add('fin-winner');
+      document.getElementById('win-fin').classList.add('fin-winner');
+      document.getElementById('win-fin').textContent = displayDiv.textContent;
     }
   }
 });
   </script>
+
+  <script>
+    // Find the score-board div
+    const scoreBoard = document.getElementById('score-board');
+    document.getElementById('scoreBoardController').addEventListener('click', function(event) {
+      scoreBoard.classList.toggle('hidden');
+    });
+    document.getElementById('minimizeScoreboard').addEventListener('click', function(event) {
+      // Toggle the hidden class on the score-board div
+      scoreBoard.classList.toggle('hidden');
+    });
+  </script>
+  
 </body>
 
 </html>
