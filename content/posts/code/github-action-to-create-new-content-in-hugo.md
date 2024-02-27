@@ -59,9 +59,11 @@ on:
 
 After the action completes setting up hugo and checking out the repository, it is ready to create your new content.
 
-The `workflow_dispatch` creates a button in the github ui that enables the action to run vs the usual run on commit or merge from a PR. ![This is what it looks like](/images/posts/code/github-actions-workflow-button.png).
+The `workflow_dispatch` creates a button in the github ui that enables the action to run vs the usual run on commit or merge from a PR. 
+![This is what it looks like](/images/posts/code/github-actions-workflow-button.png)
 
-Clicking on the button opens the form you configured in `workflow_dispatch` in a popup window. ![workflow form](/images/posts/code/workflow-screenshot.png)
+Clicking on the button opens the form you configured in `workflow_dispatch` in a popup window. 
+![workflow form](/images/posts/code/workflow-screenshot.png)
 
 The user just enters the name of the new directory in the form field `shelterName`, and the github action takes that and stitches into the hugo new command like so -
 
