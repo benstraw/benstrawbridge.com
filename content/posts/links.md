@@ -70,6 +70,7 @@ homeFeatureIcon = "fa-solid fa-link"
 - [fontawesome](https://fontawesome.com/search?q=moon&o=r&m=free)
 - [Themify Icons](https://themify.me/themify-icons)
 - [heroicons](https://heroicons.com/)
+- [favicon generator](https://realfavicongenerator.net/)
 
 ### Hugo
 
