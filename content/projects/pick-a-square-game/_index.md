@@ -11,7 +11,7 @@ homeFeatureIcon = "fa-solid fa-table-cells"
 logo_tagline = 'PICK A SQUARE GAME'
 [menu]
  [menu.main]
-  weight = 802
+  weight = 42
   parent = 'Projects'
 +++
 
