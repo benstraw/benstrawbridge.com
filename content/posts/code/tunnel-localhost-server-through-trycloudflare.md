@@ -58,3 +58,7 @@ So now you can run -
 ```
 $ hugo_with_tunnel -D
 ```
+
+### Alternative - NGROK
+
+https://ngrok.com/

@@ -38,11 +38,19 @@ homeFeatureIcon = "fa-solid fa-link"
 
 ## Code
 
+### ml datasets
+
+- [kaggle datasets](https://www.kaggle.com/datasets)
+
+### LLM tools
+
+- [langchain](https://www.langchain.com/)
 ### tools
 
 - [transform anything](https://transform.tools/)
 - [page speed checklist](https://pagespeedchecklist.com/)
 - [page speed insights](https://pagespeed.web.dev/)
+- [does your page support rich results?](https://search.google.com/test/rich-results)
 
 ### the web
 
@@ -56,6 +64,7 @@ homeFeatureIcon = "fa-solid fa-link"
 - [Tailwind components CSS gradient generator](https://tailwindcomponents.com/gradient-generator/)
 - [Tailwind Starter Kit](https://www.creative-tim.com/learning-lab/tailwind-starter-kit/documentation/download)
 - [How to use google fonts in tailwind css](https://hatchet.com.au/blog/how-to-use-google-fonts-in-tailwind-css/)
+- [tailwindcss bg-color gradient guide](https://blog.logrocket.com/guide-adding-gradients-tailwind-css/)
 
 ### fonts
 
