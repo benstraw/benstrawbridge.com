@@ -6,4 +6,5 @@ logo_lastword = 'Bowl'
 aliases = ['/super-bowl-squares']
 # draft = true
 type = 'grid-basic'
+# showDarkToggle = false
 +++

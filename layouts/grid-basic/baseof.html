@@ -13,7 +13,6 @@
 
     .player-square {
       border-width:1px;
-      background-color: #f5f5f5;
     }
     .home-team {
       border-width: 1px;
@@ -25,30 +24,37 @@
       border-width: 1px;
       border-color: #000;
       background-color: #A5ACAF;
-      color: #000
+      color: #000;
+    }
+    .scores {
+      color: #000000;
     }
     .q1-winner {
       background-color: aquamarine;
+      color: #000000;
     }
     .q2-winner {
       background-color: chartreuse;
+      color: #000000;
     }
     .q3-winner {
       background-color: pink;
+      color: #000000;
     }
     .fin-winner {
       background-color: darkgoldenrod; 
+      color: #000000;
     }
 
     
   </style>
 </head>
-<body class=" flex flex-col text-neutral-900 dark:text-neutral-100 dark:bg-neutral-900 bg-neutral-100">
+<body class="min-h-lvh flex flex-col text-neutral-900 dark:text-neutral-100 dark:bg-neutral-900 bg-neutral-100">
   {{ if not hugo.IsProduction }}
   <!-- tailwind size indicator -->
     {{ partial "tw-size-indicator.html" . }}
   {{ end }}
-  <header class="fixed bottom-0 right-0 z-50 mb-auto print:mx-auto print:block print:top-0 print:left-0">
+  <header class="fixed top-0 left-0 z-50 mb-auto print:mx-auto print:block print:top-0 print:left-0">
   {{/*  <header class="mx-auto mb-auto print:hidden">  */}}
     {{- partial "logo.html" . }}
   </header>
@@ -64,8 +70,10 @@
       <a href="#" id="scoreBoardToggler"><i class="fa-solid fa-trophy rounded-full p-3 text-xl bg-neutral-900 dark:bg-neutral-100 dark:text-neutral-900 text-neutral-100"></i></a>
       <a href="#" id="configToggler"><i class="fa-solid fa-cog rounded-full p-3 text-xl bg-neutral-900 dark:bg-neutral-100 dark:text-neutral-900 text-neutral-100"></i></a>
     </div>
-    <div id="scoreBoard" class="fixed bg-white top-0 m-2 hidden z-50 print:hidden w-64 ">
-      <div class="bg-neutral-900 w-full h-10 text-right"><a href="#" id="minimizeScoreboard"><i class="text-xl text-neutral-100 p-3 fa-solid fa-minimize"></i></a></div>
+    <div id="scoreBoard" class="fixed text-neutral-900 dark:text-neutral-100 dark:bg-neutral-900 bg-neutral-100 top-0 m-2 hidden z-50 print:hidden w-64 ">
+      <div class="bg-neutral-900 dark:bg-neutral-100 text-neutral-100 dark:text-neutral-900 w-full h-10 text-right">
+        <a href="#" id="minimizeScoreboard"><i class="text-xl  p-3 fa-solid fa-minimize"></i></a>
+      </div>
       <form name="scoreBoard" class="shadow-md rounded">
       <div class="w-full p-2 grid grid-cols-10 gap-1">
         <div class="col-span-2 flex items-center justify-center h-full w-full"><i class="text-2xl p-3 fa-solid fa-trophy"></i></div>
@@ -91,15 +99,15 @@
       </div>
       </form>
     </div>
-    <div id="configForm" class="fixed bg-white bottom-0 m-2 hidden z-50 print:hidden w-64">
-      <div class="bg-neutral-900 text-neutral-100 w-full h-10 text-right">
-        <a href="#" id="configMinimizer"><i class="text-xl text-neutral-100 p-3 fa-solid fa-minimize"></i></a>
+    <div id="configForm" class="fixed text-neutral-900 dark:text-neutral-100 dark:bg-neutral-900 bg-neutral-100 bottom-0 m-2 hidden z-50 print:hidden w-64">
+      <div class="bg-neutral-900 dark:bg-neutral-100 text-neutral-100 dark:text-neutral-900 w-full h-10 text-right">
+        <a href="#" id="configMinimizer"><i class="text-xl p-3 fa-solid fa-minimize"></i></a>
       </div>
       <form name="configForm" class="shadow-md rounded">
-      <div class="w-full p-2 grid grid-cols-2 gap-1">
-        <div class="col-span-2"><h2 class="text-xl">Sport</h2></div>
-        <div><label for="ht-color">Sport Icon</label></div>
-        <div class="flex flex-wrap items-center space-x-1">
+      <div class="w-full p-2 grid grid-cols-4 gap-1">
+        <div class="col-span-4"><h2 class="text-xl">Sport</h2></div>
+        <div class="col-span-2"><label for="ht-color">Sport Icon</label></div>
+        <div class="col-span-2 flex flex-wrap items-center space-x-1">
           <input type="radio" id="football" name="sport" value="football" class="">
           <label for="football" class="cursor-pointer">
             <i class="fa-solid fa-football text-xl p-2"></i>
@@ -117,16 +125,21 @@
               <i class="fa-solid fa-hockey-puck text-xl p-2"></i>
           </label>
         </div>
-        <div class="col-span-2"><h2 class="text-xl">Colors</h2></div>
-        <div><label for="ht-color">Home Background Color</label></div>
-        <div class=""> <input id="ht-color" type="color" value="#004953" name="ht-color" /> </div>
-        <div><label for="ht-font-color">Home Font Color</label></div>
-        <div class=""> <input id="ht-font-color" type="color" value="#f5f5f5" name="ht-text-color" /> </div>
-        <div><label for="at-color">Away Background Color</label></div>
-        <div class=""> <input id="at-color" type="color" value="#A5ACAF" name="at-color" /> </div>
-        <div><label for="at-font-color">Away Font Color</label></div>
-        <div class=""> <input id="at-font-color" type="color" value="#000000" name="at-text-color" /> </div>
-        <div class="col-span-2">
+        <div class="col-span-4"><h2 class="text-xl">Home Team</h2></div>
+        <div class="col-span-4"> <input id="ht-name" type="text" placeholder="The Home Team" name="ht-name" value="The Home Team"/> </div>
+        <div class="col-span-4"><h2 class="text-xl">Colors</h2></div>
+        <div class="col-span-2"><label for="ht-color">Background</label></div>
+        <div class="col-span-2"><label for="ht-font-color">Font</label></div>
+        <div class="col-span-2"> <input id="ht-color" type="color" value="#004953" name="ht-color" /> </div>
+        <div class="col-span-2"> <input id="ht-font-color" type="color" value="#f5f5f5" name="ht-text-color" /> </div>
+        <div class="col-span-4"><h2 class="text-xl">Away Team</h2></div>
+        <div class="col-span-4"> <input id="at-name" type="text" placeholder="The Away Team" name="at-name" value="The Away Team"/> </div>
+        <div class="col-span-4"><h2 class="text-xl">Colors</h2></div>
+        <div class="col-span-2"><label for="at-color">Background</label></div>
+        <div class="col-span-2"><label for="at-font-color">Font</label></div>
+        <div class="col-span-2"> <input id="at-color" type="color" value="#A5ACAF" name="at-color" /> </div>
+        <div class="col-span-2"> <input id="at-font-color" type="color" value="#000000" name="at-text-color" /> </div>
+        <div class="col-span-4">
           <button id="configFormButton" class="mx-auto inline-block rounded bg-blue-600 px-6 py-2.5 text-xs font-medium uppercase leading-tight text-white shadow-md transition duration-150 ease-in-out hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg">Update</button>
         </div>
       </div>
@@ -185,7 +198,7 @@
     </div>
   </main>
   <footer class="mt-auto print:hidden text-center max-w-none">
-      {{- partial "socialslist.html" . }}
+      {{- partial "footer.html" . }}
   </footer>
 {{- if or (.Params.enabledebugpanel) (and (not .Params.enabledebugpanel) (site.Params.enabledebugpanel)) }}
 {{ partial "debug-panel.html" . }}

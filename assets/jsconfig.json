@@ -3,7 +3,8 @@
   "baseUrl": ".",
   "paths": {
    "*": [
-    "*"
+    "*",
+    "../themes/ryder-dev/assets/*"
    ]
   }
  }
