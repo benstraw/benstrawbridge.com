@@ -54,10 +54,9 @@
   <!-- tailwind size indicator -->
     {{ partial "tw-size-indicator.html" . }}
   {{ end }}
-  <header class="fixed top-0 left-0 z-50 mb-auto print:mx-auto print:block print:top-0 print:left-0">
-  {{/*  <header class="mx-auto mb-auto print:hidden">  */}}
+  {{/*  <header class="fixed top-0 left-0 z-50 mb-auto print:mx-auto print:hidden">
     {{- partial "logo.html" . }}
-  </header>
+  </header>  */}}
   <main class="flex h-full flex-col justify-center">
     {{/* ROTATE SCREEN WARNING */}}
     <div class=" sm:hidden text-center print:hidden">
@@ -70,7 +69,7 @@
       <a href="#" id="scoreBoardToggler"><i class="fa-solid fa-trophy rounded-full p-3 text-xl bg-neutral-900 dark:bg-neutral-100 dark:text-neutral-900 text-neutral-100"></i></a>
       <a href="#" id="configToggler"><i class="fa-solid fa-cog rounded-full p-3 text-xl bg-neutral-900 dark:bg-neutral-100 dark:text-neutral-900 text-neutral-100"></i></a>
     </div>
-    <div id="scoreBoard" class="fixed text-neutral-900 dark:text-neutral-100 dark:bg-neutral-900 bg-neutral-100 top-0 m-2 hidden z-50 print:hidden w-64 ">
+    <div id="scoreBoard" class="fixed overflow-y-scroll max-h-screen text-neutral-900 dark:text-neutral-100 dark:bg-neutral-900 bg-neutral-100 top-0 m-2 hidden z-50 print:hidden w-64 ">
       <div class="bg-neutral-900 dark:bg-neutral-100 text-neutral-100 dark:text-neutral-900 w-full h-10 text-right">
         <a href="#" id="minimizeScoreboard"><i class="text-xl  p-3 fa-solid fa-minimize"></i></a>
       </div>
@@ -99,7 +98,7 @@
       </div>
       </form>
     </div>
-    <div id="configForm" class="fixed text-neutral-900 dark:text-neutral-100 dark:bg-neutral-900 bg-neutral-100 bottom-0 m-2 hidden z-50 print:hidden w-64">
+    <div id="configForm" class="fixed overflow-y-scroll max-h-screen text-neutral-900 dark:text-neutral-100 dark:bg-neutral-900 bg-neutral-100 bottom-0 m-2 hidden z-50 print:hidden w-64">
       <div class="bg-neutral-900 dark:bg-neutral-100 text-neutral-100 dark:text-neutral-900 w-full h-10 text-right">
         <a href="#" id="configMinimizer"><i class="text-xl p-3 fa-solid fa-minimize"></i></a>
       </div>
@@ -125,20 +124,28 @@
               <i class="fa-solid fa-hockey-puck text-xl p-2"></i>
           </label>
         </div>
-        <div class="col-span-4"><h2 class="text-xl">Home Team</h2></div>
-        <div class="col-span-4"> <input id="ht-name" type="text" placeholder="The Home Team" name="ht-name" value="The Home Team"/> </div>
+        <div class="col-span-4"><h2 class="text-xl home-team">Home Team</h2></div>
+        <div class="col-span-4"> <input id="ht-name" class="text-black" type="text" placeholder="The Home Team" name="ht-name" value="The Home Team"/> </div>
         <div class="col-span-4"><h2 class="text-xl">Colors</h2></div>
         <div class="col-span-2"><label for="ht-color">Background</label></div>
         <div class="col-span-2"><label for="ht-font-color">Font</label></div>
         <div class="col-span-2"> <input id="ht-color" type="color" value="#004953" name="ht-color" /> </div>
         <div class="col-span-2"> <input id="ht-font-color" type="color" value="#f5f5f5" name="ht-text-color" /> </div>
-        <div class="col-span-4"><h2 class="text-xl">Away Team</h2></div>
-        <div class="col-span-4"> <input id="at-name" type="text" placeholder="The Away Team" name="at-name" value="The Away Team"/> </div>
+        <div class="col-span-4"><h2 class="text-xl away-team">Away Team</h2></div>
+        <div class="col-span-4"> <input id="at-name" class="text-black" type="text" placeholder="The Away Team" name="at-name" value="The Visiting Team"/> </div>
         <div class="col-span-4"><h2 class="text-xl">Colors</h2></div>
         <div class="col-span-2"><label for="at-color">Background</label></div>
         <div class="col-span-2"><label for="at-font-color">Font</label></div>
         <div class="col-span-2"> <input id="at-color" type="color" value="#A5ACAF" name="at-color" /> </div>
         <div class="col-span-2"> <input id="at-font-color" type="color" value="#000000" name="at-text-color" /> </div>
+        <div class="col-span-4"><h2 class="text-xl"><i class="fa-solid fa-coins"></i>Coins Info</h2></div>
+        <div class="col-span-2">Coins / Square</div>
+        <div class="col-span-2"><input id="coin-cost" class="text-black" type="text" placeholder="25"/></div>
+        <div class="col-span-4">Total Coins available - <i class="fa-solid fa-cruzeiro-sign"></i><span id="coins-avail"></span></div>
+        <div>Q1 payout</div>
+        <div>Q2 payout</div>
+        <div>Q3 payout</div>
+        <div>Final payout</div>
         <div class="col-span-4">
           <button id="configFormButton" class="mx-auto inline-block rounded bg-blue-600 px-6 py-2.5 text-xs font-medium uppercase leading-tight text-white shadow-md transition duration-150 ease-in-out hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg">Update</button>
         </div>
@@ -155,7 +162,7 @@
         <i id="hockey-puckIcon" class="text-5xl md:text-8xl print:text-3xl fa-solid fa-hockey-puck hidden"></i>
       </div>
       {{/*  TOP ROW HEADER - Spans 10 cols  */}}
-      <div class="col-span-10 home-team flex items-center"><h2 class="mx-auto text-3xl">The Home Team</h2></div>
+      <div class="col-span-10 home-team flex items-center"><h2 id="ht-title" class="mx-auto text-3xl">The Home Team</h2></div>
       {{/*  THE SECOND ROW 10 #s */}}
       {{ $htNums := shuffle (seq 0 9) }}
       {{/*  {{ range $index, $num := seq 10 }}  */}}
@@ -163,7 +170,7 @@
         <div class="home-team h-full flex justify-center items-center text-4xl">{{ . }}</div>
       {{ end }}
       {{/*  LEFT SIDE HEADER - Spans 10 Rows */}}
-      <div class="row-span-10 away-team flex items-center justify-center"><h2 class="-rotate-90 whitespace-nowrap text-3xl">The Visiting Team</h2></div>
+      <div class="row-span-10 away-team flex items-center justify-center"><h2 id="at-title" class="-rotate-90 whitespace-nowrap text-3xl">The Visiting Team</h2></div>
       {{/*  LEFT SIDE SECOND COLUMN 10 #s  */}}
       <div class="row-span-10">
         {{/*  make sure this is kept in sync with the main grid spacing etc  */}}
@@ -290,13 +297,17 @@
     document.addEventListener("DOMContentLoaded", function() {
       const configFormButton = document.getElementById('configFormButton');
       const mainSportIcons = document.querySelectorAll('#mainSportIcon i');
+      const atTitle = document.getElementById('at-title');
+      const awayTeamElements = document.querySelectorAll('.away-team');
+      const htTitle = document.getElementById('ht-title');
+      const homeTeamElements = document.querySelectorAll('.home-team');
 
+      const atName = document.getElementById('at-name');
       const atcolorPicker = document.getElementById('at-color');
       const atFontcolorPicker = document.getElementById('at-font-color');
+      const htName = document.getElementById('ht-name');
       const htcolorPicker = document.getElementById('ht-color');
       const htFontcolorPicker = document.getElementById('ht-font-color');
-      const awayTeamElements = document.querySelectorAll('.away-team');
-      const homeTeamElements = document.querySelectorAll('.home-team');
   
       // Update color when button is clicked
       configFormButton.addEventListener("click", function(event) {
@@ -310,31 +321,27 @@
           console.log(mainSportIcons);
           let faId = `${selectedSport.value}Icon`;
           // Hide all icons
-  document.querySelectorAll('#mainSportIcon .svg-inline--fa').forEach(function(icon) {
-      icon.style.display = 'none';
-  });
-
-  // Show the specified icon
-  var iconToShow = document.getElementById(faId);
-  console.log(iconToShow);
-  if (iconToShow) {
-      iconToShow.classList.remove('hidden');
-      iconToShow.style.display = '';
-  }
-          // Replace the class 'fa-football' with the selected sport value
-          // let faClass = `fa-${selectedSport.value}`;
-          //mainSportIcon.classList.remove('fa-football');
-          // Access the value of the selected radio button
+          document.querySelectorAll('#mainSportIcon .svg-inline--fa').forEach(function(icon) {
+              icon.style.display = 'none';
+          });
+          // Show the specified icon
+          var iconToShow = document.getElementById(faId);
+          // console.log(iconToShow);
+          if (iconToShow) {
+              iconToShow.classList.remove('hidden');
+              iconToShow.style.display = '';
+          }
           // console.log("Selected sport icon:", faClass);
         } else {
             // Handle the case where no radio button is selected
             console.log("No sport selected");
         }
-
+        atTitle.textContent = atName.value;
         awayTeamElements.forEach(function(element) {
           element.style.backgroundColor = atcolorPicker.value;
           element.style.color = atFontcolorPicker.value;
         });
+        htTitle.textContent = htName.value;
         homeTeamElements.forEach(function(element) {
           element.style.backgroundColor = htcolorPicker.value;
           element.style.color = htFontcolorPicker.value;
