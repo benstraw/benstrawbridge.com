@@ -8,8 +8,8 @@ showTOC = true
 TocOpen = true
 logo_tagline = "LINK GRAVEYARD"
 # enabledebugpanel = true
-homeFeature = true
-homeFeatureIcon = "fa-solid fa-link"
+# homeFeature = true
+# homeFeatureIcon = "fa-solid fa-link"
 # [menu]
 #  [menu.footer]
 #   weight = 1
@@ -106,6 +106,8 @@ homeFeatureIcon = "fa-solid fa-link"
 - [a nice collection of partials and shortcodes from gethugothemes, available as individual modules](https://github.com/gethugothemes/hugo-modules/tree/master)
 
 #### themes
+
+- [hugo learn theme](https://github.com/matcornic/hugo-theme-learn)
 
 ##### resume
 
