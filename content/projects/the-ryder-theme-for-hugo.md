@@ -5,6 +5,7 @@ date = 2024-02-19T22:19:09-08:00
 tags = ["hugo","development","themes","open source"]
 homeFeature = true
 homeFeatureIcon = "fa-solid fa-dog"
+homeFeatureSummary = "Introducing Ryder: an open-source Hugo theme boasting Tailwind CSS, FontAwesome integration, and customizable features. Perfect for beginners and seasoned developers alike, kickstart your website with this versatile theme."
 [menu]
  [menu.main]
   name = "The Ryder Theme"

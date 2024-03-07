@@ -4,6 +4,9 @@ date = 2024-03-05T14:00:47-08:00
 # draft = true
 homeFeature = true
 homeFeatureIcon = "fas fa-code-compare"
+homeFeatureTitle = "IronCove OE"
+homeFeatureSummary = "Ironcove Solutions’ Orchestration Engine revolutionizes workforce onboarding with seamless API integration, customizable forms, and automated processes, enhancing efficiency and user experience in collaboration with Ironcove Solutions."
+showTOC = true
 [menu]
  [menu.main]
   parent = 'Projects'
