@@ -10,7 +10,7 @@ showTOC = true
 [menu]
  [menu.main]
   parent = 'Projects'
-  name = 'ICS OE'
+  name = 'IronCove OE'
   weight = 12
 +++
 
