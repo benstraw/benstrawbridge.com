@@ -3,7 +3,7 @@ title = 'Links'
 date = 2024-01-18T11:50:06-08:00
 # draft = true
 tags = ["hugo","themes","css","images"]
-weight = 1
+weight = 10000
 showTOC = true
 TocOpen = true
 logo_tagline = "LINK GRAVEYARD"
@@ -131,6 +131,10 @@ A clean starter theme that has a lot of functionality built in. Translated into 
 
 - [Photo Swipe plugin](https://github.com/dimsemenov/PhotoSwipe)
 - [PIG.js progressive image gallery](https://github.com/schlosser/pig.js)
+
+## Testing
+
+- [Cypress io](https://www.cypress.io/)
 
 ## Product Management
 

@@ -28,10 +28,10 @@ The project began with the integration of the Zendesk API, where we developed a 
 
 Central to the Orchestration Engine's functionality is its flexibility. By dynamically configuring form fields and values based on parameters retrieved from Zendesk, administrators could tailor the onboarding experience to their specific needs. Additionally, seamless communication with the Okta API enabled real-time validation of user emails and deployment of the end-user application suite, enhancing user experience and security.
 
-To ensure data integrity, we implemented an email validation tool that cross-referenced company email addresses with Okta's database, guaranteeing uniqueness and mitigating potential conflicts. Administrators were empowered to select and configure applications for automatic deployment via Okta, streamlining the onboarding process further.
+To ensure data integrity, we implemented an email validation tool that cross-referenced company email addresses with Okta's database, guaranteeing uniqueness and mitigating potential conflicts. Administrators were empowered to select and configure applications for automatic deployment via Okta, further streamlining the onboarding process.
 
 Upon submission of the Orchestration Engine form, the application orchestrated a series of actions behind the scenes. Each user's onboarding triggered the creation of individual tracking tickets in Zendesk and the provisioning of a new user in Okta. Subsequently, Okta's automated welcome email signaled successful onboarding, closing the loop in a seamless, efficient manner.
 
 ### Conclusion:
 
-In conclusion, our collaboration with Ironcove Solutions on the Orchestration Engine exemplifies the transformative potential of innovative technology solutions. By leveraging the power of APIs and cutting-edge development techniques, we have created a tool which simplifies the workflow and eases the tedious task of employee onboarding and offboarding.
+Our collaboration with Ironcove Solutions on the Orchestration Engine exemplifies the transformative potential of innovative technology solutions. By leveraging the power of APIs and cutting-edge development techniques, we have created a tool which simplifies the workflow and eases the tedious task of employee onboarding and offboarding.
