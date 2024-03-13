@@ -3,7 +3,6 @@ title = 'Links'
 date = 2024-01-18T11:50:06-08:00
 # draft = true
 tags = ["hugo","themes","css","images"]
-weight = 10000
 showTOC = true
 TocOpen = true
 logo_tagline = "LINK GRAVEYARD"

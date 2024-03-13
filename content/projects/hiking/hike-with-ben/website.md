@@ -5,4 +5,5 @@ draft = true
 logo_firstWord = 'Dog'
 logo_lastWord = 'Walking'
 logo_tagline = 'HIKES WITH BEN'
+type = 'hike-with-ben'
 +++
