@@ -253,7 +253,7 @@
       "lg:bg-green-200",
       "lg:block",
       "lg:grid-cols-3",
-      "lg:grid-cols-5",
+      "lg:grid-cols-4",
       "lg:hidden",
       "lg:max-w-screen-lg",
       "lg:prose-lg",
