@@ -2,16 +2,12 @@
 title = 'Ironcove Solutions Orchestration Engine'
 date = 2024-03-05T14:00:47-08:00
 # draft = true
+tags = ["product management","development","API integration"]
 homeFeature = true
 homeFeatureIcon = "fas fa-code-compare"
 homeFeatureTitle = "IronCove OE"
 homeFeatureSummary = "Ironcove Solutions’ Orchestration Engine revolutionizes workforce onboarding with seamless API integration, customizable forms, and automated processes, enhancing efficiency and user experience in collaboration with Ironcove Solutions."
 showTOC = true
-[menu]
- [menu.main]
-  parent = 'Projects'
-  name = 'IronCove OE'
-  weight = 12
 +++
 
 ## Workforce Onboarding: A Case Study of Ironcove Solutions' Orchestration Engine

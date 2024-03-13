@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{ or site.Language.LanguageCode site.Language.Lang }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
+<head>
+  
+  {{ partial "head.html" . }}
+
+</head>
+<body class="min-h-lvh flex flex-col text-neutral-900 dark:text-neutral-100 dark:bg-neutral-900 bg-neutral-100">
+  {{ if not hugo.IsProduction }}
+  <!-- tailwind size indicator -->
+    {{ partial "tw-size-indicator.html" . }}
+  {{ end }}
+  <div class="grid grid-cols-2 grid-rows-6 gap-4 max-w-screen-xl mx-auto border">
+    <div class="col-span-2 flex justify-center"> {{- partial "logo.html" . }}</div>
+    <div class="col-span-2 border bg-slate-800 text-white">Picture</div>
+    <div>Picture</div>
+    <div><ul>
+      <li>Long and Energetic Hikes in Nature</li>
+      <li>Let your dog explore The Natural World</li>
+      <li>Insured and Bonded</li>
+    </ul></div>
+    <div><h1>Upcoming Hikes</h1>
+      <div>Join a crew!</div>
+    </div>
+    <div>Picture</div>
+    <div>Picture</div>
+    <div><h1>Payment</h1>
+      <div>We accept Venmo, Zelle, PayPal or COD.</div>
+    </div>
+    <div class="col-span-2">{{- partial "dark-toggle.html" . }}</div>
+  </div>
+</body>
+</html>

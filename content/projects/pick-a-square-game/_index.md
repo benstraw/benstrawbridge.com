@@ -9,10 +9,6 @@ homeFeatureIcon = "fa-solid fa-table-cells"
 # draft = true
 [cascade]
 logo_tagline = 'PICK A SQUARE GAME'
-[menu]
- [menu.main]
-  weight = 42
-  parent = 'Projects'
 +++
 
 > Pick a Square, any Square! Only $_n_ a square! Step right up folks and get your lucky square.
