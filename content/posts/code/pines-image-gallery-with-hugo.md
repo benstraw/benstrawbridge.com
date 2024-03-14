@@ -2,7 +2,7 @@
 title = 'Pines Image Gallery With Hugo'
 date = 2024-03-13T12:15:57-07:00
 tags = ["alpinejs","hugo"]
-draft = true
+# draft = true
 +++
 
 The first place I used this is on the recipe page about my mom's [family recipe cookbook]({{< ref "/projects/recipes/moms-family-recipes-cookbook" >}} "About Us")
@@ -75,3 +75,9 @@ Finally, I called saved it as `page_gallery.html` in the partials direcotry, and
 Thats it for now. In the future I will make more adjustments to this code to add captions, and suit my needs as the website progresses.
 
 If you like it, try it out in my theme for Hugo - the [Ryder Theme](https://github.com/arts-link/ryder).
+
+## TODO
+
+- make images directly linkable
+- use hugo to optimize images for responsive formats
+- add captions
