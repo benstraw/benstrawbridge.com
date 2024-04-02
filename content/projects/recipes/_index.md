@@ -4,6 +4,7 @@ date = 2024-01-11T11:56:38-08:00
 description = "An attempt at making recipe data open and free so it may flutter around like a butterfly."
 homeFeatureIcon = "fa-solid fa-carrot"
 tags = ["recipes"]
+aliases = ['/recipes/']
 [[cascade]]
   featured_image = "/images/recipes/tarragon-beets-salad/beets-salad.jpg"
   logo_tagline = "RECIPE COLLECTION"
