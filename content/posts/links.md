@@ -44,6 +44,7 @@ logo_tagline = "LINK GRAVEYARD"
 ### LLM tools
 
 - [langchain](https://www.langchain.com/)
+
 ### tools
 
 - [transform anything](https://transform.tools/)
@@ -54,6 +55,10 @@ logo_tagline = "LINK GRAVEYARD"
 ### the web
 
 - https://frankchimero.com/blog/2015/the-webs-grain/
+
+### cloud based application 
+
+https://12factor.net/
 
 ### css
 
