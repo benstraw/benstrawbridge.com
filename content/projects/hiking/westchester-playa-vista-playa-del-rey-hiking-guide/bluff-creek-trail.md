@@ -1,7 +1,7 @@
 +++
 title = 'Bluff Creek Trail'
 date = 2024-04-15T14:20:02-07:00
-draft = true
+# draft = true
 weight = 1
 +++
 
