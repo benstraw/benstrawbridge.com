@@ -3,6 +3,7 @@ title = 'Tarragon Beets Salad'
 date = 2023-08-04T11:56:15-08:00
 # draft = true
 tags = ['healthy','vegan']
+categories = ['recipes']
 aliases = ['/recipes/taragon-beets-salad/']
 showTOC = true
 +++
