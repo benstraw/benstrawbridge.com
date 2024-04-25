@@ -7,6 +7,7 @@ tags = ["family"]
 weight = 10
 +++
 
+My mom had a huge mint garden outside of our kitchen growing up and we would have fresh lemonmint beverage all summer long as it grew like a weed.
 
 {{< figure src="../family_recipes_03.jpg" link="../family_recipes_03.jpg" title="Aunt Mary Kreider's Lemonmint recipe" >}}
 
