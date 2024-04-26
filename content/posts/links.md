@@ -6,6 +6,7 @@ tags = ["hugo","themes","css","images"]
 showTOC = true
 TocOpen = true
 logo_tagline = "LINK GRAVEYARD"
+aliases = ['/links/']
 summary = "The link graveyard is my page for remembering where I found stuff – whether it's something I learned, something cool I stumbled upon, or maybe just a friend's site."
 # enabledebugpanel = true
 # homeFeature = true
