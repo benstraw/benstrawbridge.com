@@ -3,6 +3,7 @@ title = 'Ironcove Solutions Orchestration Engine'
 date = 2024-03-05T14:00:47-08:00
 # draft = true
 tags = ["product management","development","API integration"]
+weight = 10
 homeFeature = true
 homeFeatureIcon = "fas fa-code-compare"
 homeFeatureTitle = "IronCove OE"
