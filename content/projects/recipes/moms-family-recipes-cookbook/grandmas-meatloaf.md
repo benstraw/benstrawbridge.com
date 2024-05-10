@@ -9,7 +9,7 @@ weight = 30
 
 Simple easy meatloaf recipe
 
-{{< figure src="../family_recipes_06.jpg" link="../family_recipes_06.jpg" title="Grandma Kreider's meatloaf" >}}
+{{< figure src="../family_recipes_06.webp" link="../family_recipes_06.webp" title="Grandma Kreider's meatloaf" >}}
 
 There are no fixed amounts here!
 

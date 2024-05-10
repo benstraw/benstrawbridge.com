@@ -7,10 +7,10 @@ featured_image = "family_recipes_0.jpg"
 categories = "recipes"
 photoGalleryTitle = 'Every Page of the Cookbook'
 [[cascade]]
-  featured_image = "/projects/recipes/moms-family-recipes-cookbook/family_recipes_0.jpg"
+  featured_image = "/projects/recipes/moms-family-recipes-cookbook/family_recipes_0.webp"
   logo_tagline = "FAMILY RECIPES"
   [cascade.twClasses]
-    headerBackgroundFrameInner = "bg-[url('/projects/recipes/moms-family-recipes-cookbook/family_recipes_0.jpg')] bg-cover h-[250px]"
+    headerBackgroundFrameInner = "bg-[url('/projects/recipes/moms-family-recipes-cookbook/family_recipes_0.webp')] bg-cover h-[250px]"
 +++
 
 [My mom](https://www.louisestrawbridge.com/) made this book by hand and filled it with recipes handed down from her family and from my Dad's family as well as the recipes we had most often when I was growing up. It is one of my more frequently used reference cookbooks :smile:.

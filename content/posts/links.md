@@ -57,6 +57,7 @@ summary = "The link graveyard is my page for remembering where I found stuff –
 ### the web
 
 - https://frankchimero.com/blog/2015/the-webs-grain/
+- https://www.cronyxdigital.com/blog/the-ultimate-website-image-guide
 
 ### cloud based application 
 

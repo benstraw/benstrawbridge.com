@@ -9,7 +9,7 @@ enableEmoji = true
 theme = 'ryder-dev'
 # theme = 'benstraw'
 timeZone = "America/Los_Angeles"
-title = "benstrawbridge.com consulting - It's the best Jerry, The Best!"
+title = "benstrawbridge.com consulting"
 description = 'Dot Com Consulting'
 copyright = '© 2024 benstrawbridge.com'
 [params]

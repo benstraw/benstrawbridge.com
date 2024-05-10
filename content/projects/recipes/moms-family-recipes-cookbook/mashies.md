@@ -11,7 +11,7 @@ My mom loved to call mashed potatos "Mashies"
 
 despite what cookbooks say, really any potatoes work, with or without peeling the skin. some skins are thick-peel those.
 
-{{< figure src="../family_recipes_07.jpg" link="../family_recipes_07.jpg" title="Mashies" >}}
+{{< figure src="../family_recipes_07.webp" link="../family_recipes_07.webp" title="Mashies" >}}
 
 ## Ingredients
 - 1 potato / person

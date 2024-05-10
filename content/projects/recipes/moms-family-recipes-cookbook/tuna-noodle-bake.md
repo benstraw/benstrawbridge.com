@@ -9,7 +9,7 @@ weight = 20
 
 I love this recipe because it is so simple, can be made for under $5 and is really tasty. We used to eat this quite often when I was growing up.
 
-{{< figure src="../family_recipes_04.jpg" link="../family_recipes_04.jpg" title="Tuna Noodle Bake recipe" >}}
+{{< figure src="../family_recipes_04.webp" link="../family_recipes_04.webp" title="Tuna Noodle Bake recipe" >}}
 
 ## Ingredients
 

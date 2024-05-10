@@ -9,7 +9,7 @@ weight = 40
 
 My dad would make these for big family breakfasts on the weekend
 
-{{< figure src="../family_recipes_07.jpg" link="../family_recipes_07.jpg" title="Dad's Home Fried Potatoes" >}}
+{{< figure src="../family_recipes_07.webp" link="../family_recipes_07.webp" title="Dad's Home Fried Potatoes" >}}
 
 ## Ingredients
 - 4-6 potatos
