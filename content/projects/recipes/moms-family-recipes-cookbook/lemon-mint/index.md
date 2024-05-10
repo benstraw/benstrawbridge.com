@@ -33,3 +33,5 @@ In summer when mint grows like a ton it will weed (ALWAYS grow it in a pot or it
 ## Make beverage
 
 - Mix 1/2 ice water and 1/2 concentrate.
+
+{{< figure src="lemon-mint-concentrate.webp" link="lemon-mint-concentrate.webp" title="The final lemon mint concentrate" >}}

@@ -1,9 +1,10 @@
----
-title: "Nitecore Headlamp"
-date: 2024-04-02T02:28:06-04:00
-asin: "B0CGT394SJ"
-lists: ["edc","day-pack","best-of-2024"]
----
++++
+title = "Nitecore Headlamp"
+date = 2024-04-02T02:28:06-04:00
+asin = "B0CGT394SJ"
+lists = ["every-day-carry","day-pack","best-of-2024"]
+aliases = ['/projects/hiking/gear/nitecore-headlamp/']
++++
 
 The mighty [little headlamp that could](https://amzn.to/49qmrVD) is the super lightweight, versatile design of the NiteCore NU25 400 UL Ultra Lightweight Headlamp featuring USB-C charging and easy access to emergency features.
 

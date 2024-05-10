@@ -3,6 +3,7 @@ title = 'Granola'
 date = 2024-04-29T13:44:16-07:00
 # draft = true
 +++
+{{< figure src="granola-prep.webp" class="float-right w-1/3" title="Granola Prep" >}}
 
 This recipe is very flexible and allows you to flex your creativity, change up the seeds and dried fruits you use. 
 - Add a table spoon or cacao powder or chia seeds after baking
@@ -25,3 +26,5 @@ Here is the base:
 - stir quite a bit to cover every piece with syrup and spread over 2 lg. sided cookie trays
 - bake at 300 20 min. stir and bake for another 10 - 15 min.
 - put back in mixing bowl and add a cup of any dried fruits.  mix.
+
+{{< figure src="granola-final.webp" class="float-left w-1/3" title="Granola Final" >}}
