@@ -39,6 +39,10 @@ summary = "The link graveyard is my page for remembering where I found stuff –
 
 ## Code
 
+### mapping / gis
+
+- [postholer.com website with great examples of integrated interactive maps](https://www.postholer.com/)
+
 ### ml datasets
 
 - [kaggle datasets](https://www.kaggle.com/datasets)
