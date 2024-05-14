@@ -100,6 +100,9 @@ https://12factor.net/
 - [Directory Structure Explained](https://www.jakewiesler.com/blog/hugo-directory-structure)
 - [Hugo Pipes Revolution](https://www.regisphilibert.com/blog/2018/07/hugo-pipes-and-asset-processing-pipeline/)
 - [Hugo In Action by Atishay Jain](https://livebook.manning.com/book/hugo-in-action/)
+- [A simple javascript search function](https://discourse.gohugo.io/t/a-simple-javascript-based-full-text-search-function/29119)
+- [Hugo Nerd](https://kollitsch.dev/)
+
 
 #### Setup
 
@@ -111,6 +114,7 @@ https://12factor.net/
 - [Markus Wolf Image resource guide](https://www.markusantonwolf.com/blog/guide-for-different-ways-to-access-your-image-resources/)
 - [devnodes image convert guide](https://devnodes.in/blog/hugo/image-convert-to-webp/)
 - [Matin van Vreeden image shortcode](https://martijnvanvreeden.nl/hugo-shortcode-to-serve-images-in-next-gen-formats/)
+- [dnb pictures](https://kollitsch.dev/gohugo/pictures/)
 
 #### modules
 
@@ -143,9 +147,17 @@ A clean starter theme that has a lot of functionality built in. Translated into 
 - [Photo Swipe plugin](https://github.com/dimsemenov/PhotoSwipe)
 - [PIG.js progressive image gallery](https://github.com/schlosser/pig.js)
 
+## Recipes
+
+### Hugo recipe websites
+
+- [YummyRecipes.uk](https://yummyrecipes.uk/about/)
+
 ## Testing
 
 - [Cypress io](https://www.cypress.io/)
+- [website grader](https://website.grader.com/tests)
+- [GTMetrics website reports](https://gtmetrix.com/reports/)
 
 ## Product Management
 
