@@ -5,7 +5,7 @@ date = 2024-04-29T13:44:16-07:00
 categories = ['recipes']
 tags = ['healthy', 'seeds']
 +++
-{{< figure src="../images/granola_pre_bake.webp" title="Granola Prep" >}}
+{{< figure src="granola_post_bake_honey_olive_oil.webp" title="Granola Prep" >}}
 
 
 ## Ingredients
@@ -34,4 +34,4 @@ tags = ['healthy', 'seeds']
 
 enjoy alone, or with fruit and yogurt, or milk as cereal
 
-{{< figure src="../granola_fini_lemon_chia_seed.webp" title="Lemon Chia Granola Final" >}}
+{{< figure src="granola_fini_lemon_chia_seed.webp" title="Lemon Chia Granola Final" >}}
