@@ -2,7 +2,7 @@
 title = 'Tuna Noodle Bake'
 date = 2024-04-24T23:41:16-07:00
 # draft = true
-categories = 'recipes'
+categories = ['recipes']
 tags = ["family"]
 weight = 20
 +++

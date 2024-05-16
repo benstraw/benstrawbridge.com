@@ -2,7 +2,7 @@
 title = "Mom's Carrots and Onions"
 date = 2024-05-14T15:50:33-07:00
 draft = true
-categories = 'recipes'
+categories = ['recipes']
 tags = ["family"]
 weight = 60
 +++

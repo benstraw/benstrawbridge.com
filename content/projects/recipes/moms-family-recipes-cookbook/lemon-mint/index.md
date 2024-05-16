@@ -2,7 +2,7 @@
 title = "Aunt Mary Kreider's LemonMint"
 date = 2024-04-24T23:15:52-07:00
 # draft = true
-categories = 'recipes'
+categories = ['recipes']
 tags = ["family"]
 weight = 10
 +++

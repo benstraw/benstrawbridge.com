@@ -5,9 +5,9 @@ description = "An attempt at making recipe data open and free so it may flutter 
 homeFeatureIcon = "fa-solid fa-carrot"
 weight = 30
 tags = ["recipes"]
+categories = ["recipes"]
 aliases = ['/recipes/']
 [[cascade]]
-  featured_image = "/images/recipes/tarragon-beets-salad/beets-salad.jpg"
   logo_tagline = "RECIPE COLLECTION"
   [cascade.twClasses]
     headerBackgroundFrameInner = "bg-[url('/images/header-bg/beets-on-parchment.jpg')] bg-cover h-[250px]"

@@ -4,7 +4,7 @@ date = 2024-02-22T00:39:21-08:00
 # draft = true
 featured_image = "family_recipes_0.jpg"
 # type = 'photo-gallery'
-categories = "recipes"
+categories = ["recipes"]
 photoGalleryTitle = 'Every Page of the Cookbook'
 [[cascade]]
   featured_image = "/projects/recipes/moms-family-recipes-cookbook/family_recipes_0.webp"

@@ -2,7 +2,7 @@
 title = "Grandma Kreider's Meatloaf"
 date = 2024-05-06T14:24:29-07:00
 # draft = true
-categories = 'recipes'
+categories = ['recipes']
 tags = ["family"]
 weight = 30
 +++
