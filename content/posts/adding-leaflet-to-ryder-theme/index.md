@@ -1,9 +1,46 @@
 +++
 title = 'Adding Leaflet to Ryder Theme'
 date = 2024-05-10T14:19:38-07:00
-draft = true
+homeFeatureIcon = "fa-solid fa-map-location-dot"
+# draft = true
 +++
+
+I made this quick and easy shortcode to get started using leaflet, as I add more features supported by leaflet to the shortcode I might update this page. :)
+
+## Steps taken
 
 - found this blog post over at [osgav.run](https://osgav.run/lab/hugo-leaflet-integration.html) which reminded me of [leafletjs](https://leafletjs.com/). I had worked on a mapping project years ago and used leaflet for it, but hadn't checked it out since around 2018.
 - downloaded leaflet.js from their [downloads page](https://leafletjs.com/download.html)
 - copied the extracted zip to the `/static` directory of the ryder theme.
+- added the needed files to the head of the doc TODO, only include them in leaflet is being used
+{{< highlight go-html-template >}}
+<link rel="stylesheet" href="{{ site.BaseURL}}/leaflet/leaflet.css" />
+<script src="{{ site.BaseURL}}/leaflet/leaflet.js"></script>
+{{< /highlight >}}
+
+- created the shortcode `leaflet.js`
+```go-html-template
+{{- $id := .Get "id" | default "map1" }}
+{{- $lat := .Get "lat" | default "51.505" }} 
+{{- $lon := .Get "lon" | default "-0.09" }} 
+{{- $zoom := .Get "zoom" | default "13" }} 
+{{- $markerLat := .Get "markerLat" | default "51.5" }} 
+{{- $markerLon := .Get "markerLon" | default "-0.09" }} 
+{{- $markerPopup := .Get "markerPopup" | default "hi" }}
+
+<div id="{{ $id }}" style="height: 400px;"></div>
+<script>
+  var map = L.map('{{ $id }}').setView([{{ $lat }}, {{ $lon }}], {{ $zoom }});
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+
+  {{ with $markerLat }}
+  L.marker([{{ $markerLat }}, {{ $markerLon }}]).addTo(map)
+    .bindPopup('{{ $markerPopup }}');
+  {{ end }}
+</script>
+<div>Debug Info: ID={{ .Get "id" }}, Lat={{ .Get "lat" }}, Lon={{ .Get "lon" }}, Zoom={{ .Get "zoom" }}</div>
+```
+- add the shortcode to my post about [westchester hiking]({{< ref "/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/" >}})
