@@ -1,0 +1,61 @@
+{{ define "main" }}
+<div class="max-w-screen-lg mx-auto">
+  {{- partial "breadcrumb.html" . }}
+</div>
+<div class="p-4 max-w-screen-lg mx-auto">
+  <header class="max-w-screen-lg prose lg:prose-xl dark:prose-invert">
+    <h1  class=" flex items-center">{{- if .Params.homeFeatureIcon }}
+    <i class="{{ .Params.homeFeatureIcon }} mr-2 text-4xl"></i>
+    {{- end }}
+    {{ .Title }}</h1>
+    {{ .Content }}
+  </header>
+  <div class="grid grid-cols-1 gap-6 p-2 sm:p-4 sm:grid-cols-2 lg:grid-cols-3">
+  {{ $myCollection := .Pages }}
+  {{ if eq .Section "posts" }}
+  {{ $myCollection = .RegularPagesRecursive }}
+  {{ end }}
+  {{ $paginator := .Paginate ($myCollection) }}
+  {{ $headerClass := "bg-gradient-to-r from-cyan-500 to-cyan-800 text-neutral-100" }} 
+  {{ $headerBackgroundFrameInner := "" }}
+  {{ with .Param "twClasses.headerBackgroundFrameOuter" }}
+  {{ $headerClass = . }}
+  {{ end }}
+  {{ range $paginator.Pages }}
+  <div class=" rounded-2xl bg-sky-50 transition-[filter] hover:brightness-90 dark:bg-sky-800 dark:hover:brightness-110 w-full"> 
+    <a href="{{ .RelPermalink }}" title="{{ .Title }}" class="flex items-center">
+    {{ $bgImgClass := "bg-magazine-cover-ryder-bay" }} 
+    {{ with .Param "twClasses.magazineCover" }}
+    {{ $bgImgClass = . }}
+    {{ $bgImgClass = printf "%s %s" $bgImgClass " w-full aspect-[17/22] bg-cover"}}
+    {{ end }}
+    <div>
+        <div class="{{ $bgImgClass }}">
+          <h2 class=" p-3 flex items-center capitalize {{ $headerClass }}">
+            {{- if .Params.homeFeatureIcon }}
+              <i class="{{ .Params.homeFeatureIcon }} mr-2 text-3xl"></i>
+            {{- end }}
+            {{ .Title }}
+          </h2>
+          {{ if .Summary }}
+          <p class="p-5">
+            {{ .Summary | safeHTML }}
+          </p>
+          {{ end }}
+          
+        </div>
+    </div>
+  </a> 
+  <a href="https://www.amazon.com/s?k={{ .Params.isbn }}&tag=grrquarterly-20" class="inline bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+    Buy it Now 
+  </a> </div>
+  {{ end }}
+  </div>
+  {{ template "_internal/pagination.html" . }}
+  {{ if .Param "photoGalleryTitle" }}
+    <h2 class=" rounded-t-lg mb-1 p-3 flex items-center {{ $headerClass }}">{{ .Param "photoGalleryTitle" }}</h2>
+    {{- partial "page_gallery.html" . -}}
+  {{ end }}
+</div>
+
+{{ end }}

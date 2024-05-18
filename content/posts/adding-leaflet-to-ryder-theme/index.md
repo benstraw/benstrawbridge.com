@@ -50,3 +50,7 @@ I made this quick and easy shortcode to get started using leaflet.js in the [Ryd
 {{< highlight go-html-template >}}
 {{</* leaflet id="map1" lat="33.966613" lon="-118.426178" zoom="13.5" markerLat="33.9716" markerLon="-118.4363" markerPopup="Green Space right by LAX!" */>}}
 {{< /highlight >}}
+
+### Resources
+
+- [openstreetmaps copyright and attribution rules](https://www.openstreetmap.org/copyright)

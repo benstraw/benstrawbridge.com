@@ -1,0 +1,40 @@
+{{ define "main" }}
+<div class="max-w-screen-lg mx-auto">
+  {{- partial "breadcrumb.html" . }}
+</div>
+<div class="p-4 max-w-screen-lg mx-auto ">
+  <div class=" grid grid-cols-1 md:grid-cols-12 gap-x-1 ">
+    <header class=" w-full md:col-span-12 prose lg:prose-xl max-w-screen-lg  dark:prose-invert">
+      <div class="">
+
+  <h1>{{ .Title }}</h1>
+
+      </div>
+    </header>
+    <div class="p-4 md:col-span-10 prose max-w-max lg:prose-lg dark:prose-invert ">
+  {{ with .Resources.GetMatch "cover.*" }}
+    <img class="float-right" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ .Params.alt }}">
+  {{ end }}
+  {{ $isbn := .Params.isbn }}
+      <p><b>Author: </b>{{ .Params.author }}<br>
+        <b>ISBN:</b> {{ $isbn }}<br>
+        <b>Rating:</b> {{ .Params.rating }}<br>
+        <b>Review date:</b> {{ .Date | time.Format ":date_long" }}
+      </p>
+<a href="https://www.amazon.com/s?k={{ $isbn }}&tag=grrquarterly-20" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+  Buy it Now 
+</a>
+      {{ .Content }}
+    </div>
+    <aside class=" max-w-max md:col-span-2 relative">
+
+
+      {{ if .Params.tags }}
+      <div class="not-prose">
+        {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+      </div>
+      {{ end }}
+
+</aside>
+</div>
+{{ end }}

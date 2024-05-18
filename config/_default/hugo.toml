@@ -4,6 +4,7 @@ enableRobotsTXT = true
 languageCode = 'en-us'
 summaryLength = 30
 enableEmoji = true
+enableGitInfo = true
 # paginate = 3
 # theme = "art-collection-theme"
 theme = 'ryder-dev'
@@ -29,9 +30,9 @@ copyright = '© 2024 benstrawbridge.com'
     email = 'ben@benstrawbridge.com'
     name = 'Ben Strawbridge'
   [params.twClasses]
-    headerBackgroundFrameOuter = "bg-gradient-to-r from-violet-950 to-rose-950 border-b border-fuchsia-600 text-neutral-100"
-    headerBackgroundFrameInner = "bg-header-sunset-mb h-[300px] bg-cover bg-left"
-    footerBackground = "bg-gradient-to-r from-violet-950 to-rose-950 border-fuchsia-600" 
+    headerBackgroundFrameOuter = "bg-gradient-to-r to-sky-300 from-indigo-300 dark:from-violet-950 dark:to-rose-950 border-b border-fuchsia-600 text-neutral-100"
+    headerBackgroundFrameInner = "bg-header-mdr-channel dark:bg-header-artist-date-two h-[400px] bg-cover bg-left bg-top"
+    # footerBackground = "bg-gradient-to-r from-violet-950 to-rose-950 border-fuchsia-600" 
     # navbar_fixed = "sticky top-0"
 [markup]
   [markup.highlight]
@@ -48,6 +49,8 @@ copyright = '© 2024 benstrawbridge.com'
     weight = 30
 
 [module]
+  # [[module.imports]]
+  #   path = 'github.com/davidsneighbour/hugo-modules/modules/sitemap'
   [module.hugoVersion]
     extended = false
     min = "0.121.1"

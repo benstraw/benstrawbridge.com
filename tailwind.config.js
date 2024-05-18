@@ -18,6 +18,9 @@ module.exports = {
     extend: {
       backgroundImage: {
         "hidden-home": " url('/images/hidden-home-cover.webp')",
+        "header-artist-date-one": " url('/images/header-bg/artist-date-one-night.jpg')",
+        "header-artist-date-two": " url('/images/header-bg/artist-date-two-night.jpg')",
+        "header-mdr-channel": " url('/images/header-bg/mdr-channel.jpg')",
         "header-sunset": " url('/images/header-bg/sunset-playa-1.jpg')",
         "header-sunset-italy": " url('/images/header-bg/sunset-italy.jpg')",
         // "header-sunset-mb": " url('/images/header-bg/sunset-mission-bay.jpg')",

@@ -1,5 +1,5 @@
 +++
-title = "Aunt Mary Kreider's LemonMint"
+title = "Aunt Mary's LemonMint"
 date = 2024-04-24T23:15:52-07:00
 # draft = true
 categories = ['recipes']
@@ -9,9 +9,9 @@ weight = 10
 
 My mom had a huge mint garden outside of our kitchen growing up and we would have fresh lemonmint beverage all summer long as it grew like a weed.
 
-{{< figure src="../family_recipes_03.webp" link="../family_recipes_03.webp" title="Aunt Mary Kreider's Lemonmint recipe" >}}
+{{< figure src="../family_recipes_03.webp" link="../family_recipes_03.webp" title="Aunt Mary's Lemonmint recipe" >}}
 
-## Aunt Mary Kreider's Recipe
+## Aunt Mary's Recipe
 
 In summer when mint grows like a ton it will weed (ALWAYS grow it in a pot or it will overtake everything)
 
