@@ -12,7 +12,7 @@
       </div>
     </header>
     <div class="p-4 md:col-span-10 prose max-w-max lg:prose-lg dark:prose-invert ">
-  {{ with .Resources.GetMatch "cover.*" }}
+  {{ with .Resources.GetMatch "feature_cover.*" }}
     <img class="float-right" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ .Params.alt }}">
   {{ end }}
   {{ $isbn := .Params.isbn }}

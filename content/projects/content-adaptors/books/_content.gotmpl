@@ -41,7 +41,7 @@
         {{ $resource := dict
           "content" $content
           "params" $params
-          "path" (printf "%s/cover.%s" $item.title .MediaType.SubType)
+          "path" (printf "%s/feature_cover.%s" $item.title .MediaType.SubType)
         }}
         {{ $.AddResource $resource }}
       {{ end }}
