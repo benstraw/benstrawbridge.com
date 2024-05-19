@@ -26,6 +26,7 @@ copyright = '© 2024 benstrawbridge.com'
   logo_lastWord = 'strawbridge'
   logo_tagline = "DOT COM CONSULTING"
   logo_fontClass = 'font-titillium'
+  repository = "https://github.com/benstraw/benstrawbridge.com"
   [params.author]
     email = 'ben@benstrawbridge.com'
     name = 'Ben Strawbridge'
