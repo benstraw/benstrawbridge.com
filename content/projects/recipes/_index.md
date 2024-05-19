@@ -7,6 +7,7 @@ weight = 30
 tags = ["recipes"]
 categories = ["recipes"]
 aliases = ['/recipes/']
+listRecursive = true
 [[cascade]]
   logo_tagline = "RECIPE COLLECTION"
   [cascade.twClasses]
