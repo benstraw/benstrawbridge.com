@@ -16,8 +16,8 @@ I made this quick and easy shortcode to get started using leaflet.js in the [Ryd
   - TODO: only include them in when leaflet is being used.
 
 {{< highlight go-html-template >}}
-<link rel="stylesheet" href="{{ site.BaseURL}}/leaflet/leaflet.css" />
-<script src="{{ site.BaseURL}}/leaflet/leaflet.js"></script>
+<link rel="stylesheet" href="{{ site.BaseURL}}leaflet/leaflet.css" />
+<script src="{{ site.BaseURL}}leaflet/leaflet.js"></script>
 {{< /highlight >}}
 
 - created the shortcode `leaflet.js`
