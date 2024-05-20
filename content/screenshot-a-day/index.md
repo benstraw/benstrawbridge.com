@@ -7,7 +7,7 @@ summary = "screenshotaday service. takes a screen shot every _n_ units of time a
 
 > You can’t automate an SLO for look and feel. Or can you?
 
-Screenshot-a-day is a SaaS application which will be configurable with 3 options, url and interval and dimensions. It will open open a web browser in a headless environment (configurable to be a browser or device) running puppateer or similar and load the url at time and take a screenshot of the windowf at the set dimensions. It will then save this screenshot as 1 image with the timestamp attached the the filename, and add it to a frame at the end of a perpetual animated gif showing the progression of the change over time.
+Screenshot-a-day is a SaaS application which will be configurable with 3 options: url, interval and dimensions. It will open a web browser in a headless environment (configurable to be a browser or device) running puppateer or similar and load the url at time and take a screenshot of the window at the set dimensions. It will then save this screenshot as 1 image with the timestamp attached the the filename, and add it to a frame at the end of a perpetual animated gif showing the progression of the change over time.
 
 **Price**: $10/year
 
