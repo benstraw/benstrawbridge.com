@@ -11,7 +11,7 @@ tags = ["aws","product-marketing"]
 
 ### Disclaimer
 
-**Affiliate Disclosure **
+**Affiliate Disclosure**
 
 Our site participates in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. This means that if you click on an Amazon link on our site and make a purchase, we may earn a small commission at no additional cost to you. These commissions help support the ongoing maintenance and development of our site.  
 
