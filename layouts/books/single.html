@@ -19,11 +19,12 @@
       <p><b>Author: </b>{{ .Params.author }}<br>
         <b>ISBN:</b> {{ $isbn }}<br>
         <b>Rating:</b> {{ .Params.rating }}<br>
-        <b>Review date:</b> {{ .Date | time.Format ":date_long" }}
-      </p>
-<a href="https://www.amazon.com/s?k={{ $isbn }}&tag=grrquarterly-20" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+        <b>Review date:</b> {{ .Date | time.Format ":date_long" }}<br/>
+        {{ $associate_id := site.Params.amazon_associate_id}}
+
+    <a href="https://www.amazon.com/dp/{{ .Params.asin }}/ref=nosim?tag={{ $associate_id }}" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
   Buy it Now 
-</a>
+</a></p>
       {{ .Content }}
     </div>
     <aside class=" max-w-max md:col-span-2 relative">

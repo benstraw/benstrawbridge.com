@@ -11,13 +11,16 @@
   {{ errorf "Unable to get remote resource %s" $url }}
 {{ end }}
 
+{{ $data = site.Data.books.example }}
+
+
 {{/* Add pages and page resources. */}}
 {{ range $data }}
 
   {{/* Add page. */}}
   {{ $content := dict "mediaType" "text/markdown" "value" .summary }}
   {{ $dates := dict "date" (time.AsTime .date) }}
-  {{ $params := dict "author" .author "isbn" .isbn "rating" .rating "tags" .tags }}
+  {{ $params := dict "author" .author "isbn" .isbn "asin" .asin "rating" .rating "tags" .tags }}
   {{ $page := dict
     "content" $content
     "dates" $dates

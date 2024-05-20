@@ -17,6 +17,7 @@
   {{ end }}
   {{ $paginator := .Paginate ($myCollection) }}
   {{ $headerClass := "bg-gradient-to-r from-cyan-500 to-cyan-800 text-neutral-100" }} 
+  {{ $associate_id := site.Params.amazon_associate_id}}
   {{ $headerBackgroundFrameInner := "" }}
   {{ with .Param "twClasses.headerBackgroundFrameOuter" }}
   {{ $headerClass = . }}
@@ -46,7 +47,7 @@
         </div>
     </div>
   </a> 
-  <a href="https://www.amazon.com/s?k={{ .Params.isbn }}&tag=grrquarterly-20" class="inline bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+  <a href="https://www.amazon.com/dp/{{ .Params.asin }}/ref=nosim?tag={{ $associate_id }}" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
     Buy it Now 
   </a> </div>
   {{ end }}

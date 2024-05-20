@@ -27,6 +27,7 @@ copyright = '© 2024 benstrawbridge.com'
   logo_tagline = "DOT COM CONSULTING"
   logo_fontClass = 'font-titillium'
   repository = "https://github.com/benstraw/benstrawbridge.com"
+  amazon_associate_id = "benstrawbridge-20"
   [params.author]
     email = 'ben@benstrawbridge.com'
     name = 'Ben Strawbridge'
