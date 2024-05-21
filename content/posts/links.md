@@ -58,6 +58,7 @@ summary = "The link graveyard is my page for remembering where I found stuff –
 - [page speed insights](https://pagespeed.web.dev/)
 - [does your page support rich results?](https://search.google.com/test/rich-results)
 - [schema checker](https://search.google.com/test/rich-results)
+- [color contrast checker](https://dequeuniversity.com/color-contrast)
 
 ### the web
 

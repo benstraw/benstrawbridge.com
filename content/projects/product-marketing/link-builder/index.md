@@ -7,7 +7,6 @@ summary = "A tool to build links for affiliate marketing programs."
 
 ## Amazon associates program link builder.
 
-<!-- {{< figure src="nitecore-nu25-400ul.jpg" title="The nitecore headlamp" link="https://amzn.to/49qmrVD" >}} -->
 {{< affiliate-link-builder-form  >}}
 
 ### Disclaimer
