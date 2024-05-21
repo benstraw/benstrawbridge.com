@@ -1,7 +1,7 @@
 +++
 title = 'Screenshot-a-Day'
 date = 2024-05-20T13:50:27-07:00
-# draft = true
+draft = true
 summary = "screenshotaday service. takes a screen shot every _n_ units of time and adds a frame to a gif which you can host"
 +++
 
