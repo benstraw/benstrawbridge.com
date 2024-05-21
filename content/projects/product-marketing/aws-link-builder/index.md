@@ -3,11 +3,17 @@ title = "Referral links tool kit"
 date = 2024-05-19T12:28:06-04:00
 tags = ["aws","product-marketing"]
 summary = "A tool to build links for affiliate marketing programs."
+alias = ["/link-builder"]
 +++
 
 ## Amazon associates program link builder.
 
 {{< affiliate-link-builder-form  >}}
+
+### To find the ASIN to use for this form, look at the url in the product page on amazon and look for `/dp/xxxxxxxxxx/` the 10 x's are the ASIN number.
+
+ {{< figure src="amazon-asin-location.webp" title="Find the ASIN in the URL bar" >}}
+
 
 ### Disclaimer
 
