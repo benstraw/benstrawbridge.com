@@ -17,4 +17,4 @@ On [May 10 2024](https://www.spaceweather.com/archive.php?view=1&day=10&month=05
  {{< figure src="artist-date-6.webp" title="Reflection" >}}
  {{< figure src="artist-date-7.webp" title="Inspiration" >}}
  {{< figure src="artist-date-8.webp" title="Selfie Silhouette" >}}
- {{< figure src="artist-date-10.webp" title="A Lone Fisherman" >}}
+ {{< figure src="artist-date-10.webp" title="Lone Fisherman" >}}
