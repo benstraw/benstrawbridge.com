@@ -1,8 +1,8 @@
 +++
 title = 'Extreme Geomagnetic Storm Photography'
 date = 2024-05-20T17:02:40-07:00
-draft = true
-tags = ["space-weather"]
+# draft = true
+tags = ["space-weather","photography","nature"]
 sumary = ""
 +++
 
