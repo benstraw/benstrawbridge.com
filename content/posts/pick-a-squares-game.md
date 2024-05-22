@@ -22,4 +22,4 @@ I created a pick-a-squares game template, aka the Super Bowl squares. It is stil
 
 - Launch in time for SB LIX
 
-{{< alert-wrapper alertType="danger" alertTitle="Pick a Square" alertMessage="<a href=< ref '/projects/pick-a-square-game/'>>Head on over to the project page</a>" >}}
+{{< alert-wrapper alertType="success" alertIconClass="fa-solid fa-dice" alertTitle="Pick a Square" alertMessage="<a href=\"/projects/pick-a-square-game/\">Head on over to the project page</a>" >}}
