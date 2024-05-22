@@ -8,6 +8,7 @@ TocOpen = true
 logo_tagline = "LINK GRAVEYARD"
 aliases = ['/links/']
 summary = "The link graveyard is my page for remembering where I found stuff – whether it's something I learned, something cool I stumbled upon, or maybe just a friend's site."
+homeFeatureIcon = "fa-solid fa-link"
 # enabledebugpanel = true
 # homeFeature = true
 # homeFeatureIcon = "fa-solid fa-link"
@@ -98,6 +99,7 @@ https://12factor.net/
 
 #### General
 
+- [Joe Mooring writes about Hugo](https://www.veriphor.com/articles/)
 - [Hugo Survival Guide](https://janert.me/guides/hugo-survival-guide/)
 - [Directory Structure Explained](https://www.jakewiesler.com/blog/hugo-directory-structure)
 - [Hugo Pipes Revolution](https://www.regisphilibert.com/blog/2018/07/hugo-pipes-and-asset-processing-pipeline/)
@@ -179,3 +181,7 @@ A clean starter theme that has a lot of functionality built in. Translated into 
 - [buttondown email](https://buttondown.email/)
 - [mailchimp (by intuit)](https://mailchimp.com/)
 - [ConvertKit](https://convertkit.com/)
+
+## OBLARGH
+
+- [What can't everyone have a dog?](https://www.whispered.com/career/prepare-search/Company-stages)

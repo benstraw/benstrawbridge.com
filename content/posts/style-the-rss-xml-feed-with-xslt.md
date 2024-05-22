@@ -3,6 +3,7 @@ title = 'Styling a RSS feed With XSL'
 date = 2024-02-18T23:14:08-08:00
 # draft = true
 tags = ["guides","development","hugo","rss","xsl"]
+homeFeatureIcon = "fa-solid fa-code-merge"
 +++
 
 When you put a link to your rss / atom feed on your website it is a link to a raw xml file designed for feed readers such as feedly to import them and provide the reader with all their internet in one place.

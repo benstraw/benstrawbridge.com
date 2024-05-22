@@ -3,6 +3,8 @@ title = 'Tunnel Localhost Server Through Cloudflare'
 date = 2024-02-14T14:06:29-08:00
 # draft = true
 tags = ["guides", "hugo", "networking"]
+homeFeatureIcon = "fa-solid fa-car-tunnel"
+
 +++
 
 This is something I have done in the past and it usually involved pretty in-depth knowledge of the shell and networking, but now there is a free service that makes it oh-so-easy to spin up a tunnel with a public human readable domain name for temporary viewing of your local network development environment on the internet. This is very useful for presentations, working with colleagues, or just briefly sharing your work.  I first found out about this from [Nathan Craddock's blog](https://nathancraddock.com/blog/hugo-server-on-local-and-public-networks), which you should read if you want more details, but I made a few significant changes to his workflow worth a short writeup.

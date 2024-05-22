@@ -3,6 +3,7 @@ title = 'Pines Image Gallery With Hugo'
 date = 2024-03-13T12:15:57-07:00
 tags = ["alpinejs","hugo"]
 # draft = true
+homeFeatureIcon = "fa-solid fa-images"
 +++
 
 The first place I used this is on the recipe page about my mom's [family recipe cookbook]({{< ref "/projects/recipes/moms-family-recipes-cookbook" >}} "About Us")

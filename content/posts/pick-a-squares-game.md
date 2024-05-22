@@ -2,6 +2,7 @@
 title = 'Pick a Squares Game'
 date = 2024-02-14T11:30:43-08:00
 # draft = true
+homeFeatureIcon = "fa-solid fa-dice"
 # [menu]
 #  [menu.footer]
 #   weight = 13

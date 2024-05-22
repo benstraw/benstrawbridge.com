@@ -2,6 +2,7 @@
 title = 'Hugo Snippets'
 date = 2024-02-12T12:46:55-08:00
 # draft = true
+homeFeatureIcon = "fa-solid fa-scissors"
 +++
 
 ## Get the first of something in a collection
