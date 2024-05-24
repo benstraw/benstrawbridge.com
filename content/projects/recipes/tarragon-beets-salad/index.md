@@ -33,8 +33,7 @@ recipeIngredient = [
     "Fresh Tarragon to taste"
   ]
 recipeInstructions = [
-  "Chop up the goodies",
-  "add the peanuts"
+  "Still working on this part!"
   ]
 +++
 
