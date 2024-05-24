@@ -3,7 +3,7 @@ title = "Referral links tool kit"
 date = 2024-05-19T12:28:06-04:00
 tags = ["aws","product-marketing"]
 summary = "A tool to build links for affiliate marketing programs."
-aliases = ["/link-builder"]
+url = ["/link-builder"]
 +++
 
 ## Amazon associates program link builder.

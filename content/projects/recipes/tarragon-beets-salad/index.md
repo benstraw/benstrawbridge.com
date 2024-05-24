@@ -7,6 +7,35 @@ categories = ['recipes']
 aliases = ['/recipes/taragon-beets-salad/']
 featured_image = "beets-salad.jpg"
 showTOC = true
+
+recipe = true
+recipeCuisine = "American"
+prepTime = "PT20M"
+cookTime = "PT20M"
+totalTime = "PT20M"
+recipeYield = "4 Quarts"
+# calories = 270
+recipeIngredient = [
+    "5 Beets",
+    "½ heart of celery",
+    "½ lg onion",
+    "¼ cup crushed walnuts",
+    "1 cup mushrooms",
+    "1 apple",
+    "1 tbsp chia seeds",
+    "Salt",
+    "Pepper",
+    "1 cup Farro",
+    "**FOR DRESSING",
+    "¼ cup Olive Oil",
+    "¼ cup Balsamic Vinegar",
+    "1 tbsp Spicy mustard",
+    "Fresh Tarragon to taste"
+  ]
+recipeInstructions = [
+  "Chop up the goodies",
+  "add the peanuts"
+  ]
 +++
 
 This was an attempt to copy a salad from [Bristol Farms](https://www.bristolfarms.com/). I ended up modifying it quite a bit from the initial ingredients.
@@ -15,25 +44,10 @@ This was an attempt to copy a salad from [Bristol Farms](https://www.bristolfarm
 
 Makes about 4 qts. Lasts for over a week in the fridge.
 
-## Salad Ingredients
+## Ingredients
+{{< recipe-ingredients-list >}}
 
-- 5 Beets
-- ½ heart of celery
-- ½ lg onion
-- ¼ cup crushed walnuts
-- 1 cup mushrooms
-- 1 apple
-- 1 tbsp chia seeds
-- Salt
-- Pepper
-- 1 cup Farro
 
-## Dressing Ingredients
-
-- ¼ cup Olive Oil
-- ¼ cup Balsamic Vinegar
-- 1 tbsp Spicy mustard
-- Fresh Tarragon to taste
 
 ## For Beets (can be done the day before)
 

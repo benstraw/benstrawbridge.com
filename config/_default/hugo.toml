@@ -5,14 +5,14 @@ languageCode = 'en-us'
 summaryLength = 30
 enableEmoji = true
 enableGitInfo = true
-# paginate = 3
+paginate = 12
 # theme = "art-collection-theme"
 theme = 'ryder-dev'
 # theme = 'benstraw'
 timeZone = "America/Los_Angeles"
 title = "Ben Strawbridge Dot Com Consulting"
 description = 'My place to work on my online projects and experiment with the web.'
-copyright = '© 2024 benstrawbridge.com'
+copyright = '<i class="fa-regular fa-copyright"></i>  2024 benstrawbridge.com'
 [params]
   description = 'Dot Com Consulting'
   TocOpen = true
@@ -33,7 +33,7 @@ copyright = '© 2024 benstrawbridge.com'
     name = 'Ben Strawbridge'
   [params.twClasses]
     headerBackgroundFrameOuter = "bg-gradient-to-r to-sky-300 from-indigo-300 dark:from-violet-950 dark:to-rose-950 border-b border-fuchsia-600 text-violet-950 dark:text-neutral-100"
-    headerBackgroundFrameInner = "bg-header-mdr-channel dark:bg-header-artist-date-two h-[400px] bg-cover bg-left bg-top"
+    headerBackgroundFrameInner = "bg-header-mdr-channel dark:bg-header-artist-date-two h-[400px] sm:h-[250px] bg-cover bg-left bg-center dark:bg-top"
     # footerBackground = "bg-gradient-to-r from-violet-950 to-rose-950 border-fuchsia-600" 
     # navbar_fixed = "sticky top-0"
 [markup]

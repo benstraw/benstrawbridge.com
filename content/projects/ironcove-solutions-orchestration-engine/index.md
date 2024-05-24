@@ -3,6 +3,9 @@ title = 'Ironcove Solutions Orchestration Engine'
 date = 2024-03-05T14:00:47-08:00
 # draft = true
 tags = ["product management","development","API integration"]
+# https://www.benstrawbridge.com/projects/ironcove-orchestration-engine/
+url = "/projects/ironcove-orchestration-engine/"
+aliases = ["/projects/ironcove-orchestration-engine/"]
 weight = 10
 homeFeature = true
 homeFeatureIcon = "fas fa-code-compare"
