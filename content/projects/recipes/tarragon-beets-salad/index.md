@@ -16,6 +16,7 @@ totalTime = "PT20M"
 recipeYield = "4 Quarts"
 calories = 70
 recipeIngredient = [
+    "**FOR SALAD",
     "5 Beets",
     "½ heart of celery",
     "½ lg onion",
