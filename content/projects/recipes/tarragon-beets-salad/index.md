@@ -14,7 +14,7 @@ prepTime = "PT20M"
 cookTime = "PT20M"
 totalTime = "PT20M"
 recipeYield = "4 Quarts"
-# calories = 270
+calories = 70
 recipeIngredient = [
     "5 Beets",
     "½ heart of celery",

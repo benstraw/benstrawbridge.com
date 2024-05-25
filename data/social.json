@@ -23,6 +23,12 @@
       "name": "feed",
       "icon": "fa-solid fa-rss",
       "link": "/index.xml"
+    },
+    {
+      "title": "Tags",
+      "name": "tags",
+      "icon": "fa-solid fa-tag",
+      "link": "/tags"
     }
   ]
 }
