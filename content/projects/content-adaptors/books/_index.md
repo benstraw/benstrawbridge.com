@@ -4,6 +4,14 @@ date = 2024-05-17T13:36:56-07:00
 # draft = true
 weight = 25
 type = 'books'
+tags = [
+  "Content Adaptors",
+  "Hugo",
+  "Static Site Generator",
+  "API Integration",
+  "Dynamic Content"
+]
+
 +++
 
 ## Content Adaptors come to Hugo!

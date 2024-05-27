@@ -2,6 +2,18 @@
 title = 'Adding Leaflet to Ryder Theme'
 date = 2024-05-10T14:19:38-07:00
 homeFeatureIcon = "fa-solid fa-map-location-dot"
+tags = [
+  "Hugo",
+  "Leaflet.js",
+  "Mapping",
+  "Web Development",
+  "Shortcodes",
+  "OpenStreetMap",
+  "JavaScript",
+  "Ryder Theme",
+  "Interactive Maps",
+  "Open Source"
+]
 # draft = true
 +++
 

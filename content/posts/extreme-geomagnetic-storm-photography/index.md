@@ -2,7 +2,19 @@
 title = 'Extreme Geomagnetic Storm Photography'
 date = 2024-05-20T17:02:40-07:00
 # draft = true
-tags = ["space-weather","photography","nature","artists-date"]
+tags = [
+  "Geomagnetic Storm",
+  "Space Weather",
+  "Night Photography",
+  "Aurora",
+  "Astronomy",
+  "Landscape Photography",
+  "Marina Del Rey",
+  "Light Pollution",
+  "Astrophotography",
+  "Inspiration",
+  "Selfie Silhouette"
+]
 hideAsideBar = true
 homeFeatureIcon = "fa-solid fa-compass"
 +++

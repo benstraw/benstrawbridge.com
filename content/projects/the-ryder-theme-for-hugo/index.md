@@ -2,7 +2,13 @@
 title = 'The Ryder Theme for Hugo'
 date = 2024-02-19T22:19:09-08:00
 # draft = true
-tags = ["hugo","development","open source"]
+tags = [
+  "Ryder Theme",
+  "Hugo",
+  "Tailwind CSS",
+  "Open Source",
+  "Web Development"
+]
 weight = 20
 featured_image = "ryder-theme-og.jpg"
 homeFeature = true

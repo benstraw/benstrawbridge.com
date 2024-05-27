@@ -1,7 +1,18 @@
 +++
 title = 'Pines Image Gallery With Hugo'
 date = 2024-03-13T12:15:57-07:00
-tags = ["alpinejs","hugo"]
+tags = [
+  "Hugo",
+  "Image Gallery",
+  "Pines",
+  "Alpine.js",
+  "Tailwind CSS",
+  "Web Development",
+  "Open Source",
+  "Templates",
+  "State Management",
+  "Accessibility"
+]
 # draft = true
 homeFeatureIcon = "fa-solid fa-images"
 +++

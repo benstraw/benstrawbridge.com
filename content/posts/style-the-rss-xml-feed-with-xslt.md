@@ -2,7 +2,18 @@
 title = 'Styling a RSS feed With XSL'
 date = 2024-02-18T23:14:08-08:00
 # draft = true
-tags = ["guides","development","hugo","rss","xsl"]
+tags = [
+  "RSS",
+  "XSLT",
+  "XML",
+  "Hugo",
+  "Web Development",
+  "Styling Feeds",
+  "Feed Readers",
+  "Blogging",
+  "Templates",
+  "Tutorial"
+]
 homeFeatureIcon = "fa-solid fa-code-merge"
 +++
 

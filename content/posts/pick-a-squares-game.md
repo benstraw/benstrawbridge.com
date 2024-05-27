@@ -2,6 +2,15 @@
 title = 'Pick a Squares Game'
 date = 2024-02-14T11:30:43-08:00
 # draft = true
+tags = [
+    "pick-a-squares",
+    "Super Bowl squares",
+    "game template",
+    "random score generation",
+    "big screen presentation",
+    "SB LIX",
+    "work in progress"
+]
 homeFeatureIcon = "fa-solid fa-dice"
 # [menu]
 #  [menu.footer]

@@ -2,7 +2,18 @@
 title = 'Ironcove Solutions Orchestration Engine'
 date = 2024-03-05T14:00:47-08:00
 # draft = true
-tags = ["product management","development","API integration"]
+tags = [
+  "Workforce Onboarding",
+  "Orchestration Engine",
+  "Ironcove Solutions",
+  "API Integration",
+  "Okta",
+  "Zendesk",
+  "Product Development",
+  "Automation",
+  "Employee Management",
+  "Technical Implementation"
+]
 # https://www.benstrawbridge.com/projects/ironcove-orchestration-engine/
 url = "/projects/ironcove-orchestration-engine/"
 aliases = ["/projects/ironcove-orchestration-engine/"]
