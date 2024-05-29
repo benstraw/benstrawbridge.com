@@ -6,7 +6,6 @@ summaryLength = 30
 enableEmoji = true
 enableGitInfo = true
 paginate = 12
-# theme = "art-collection-theme"
 theme = 'ryder-dev'
 # theme = 'benstraw'
 timeZone = "America/Los_Angeles"
@@ -51,17 +50,15 @@ copyright = '<i class="fa-regular fa-copyright"></i>  2024 benstrawbridge.com'
     weight = 30
 
 [module]
-  # [[module.imports]]
-  #   path = 'github.com/davidsneighbour/hugo-modules/modules/sitemap'
   [module.hugoVersion]
     extended = false
     min = "0.121.1"
   [[module.mounts]]
     source = "assets"
     target = "assets"
-  [[module.mounts]]
-    source = "hugo_stats.json"
-    target = "assets/watching/hugo_stats.json"
+  # [[module.mounts]]
+  #   source = "hugo_stats.json"
+  #   target = "assets/watching/hugo_stats.json"
 
 [build]
   writeStats = true

@@ -19,7 +19,7 @@ totalTime = PT20M
 recipeYield = [""]
 calories = 270
 recipeIngredient = [""]
-recipeInstructions: "..."
+recipeInstructions = ["..."]
 +++
 
 ## Ingredients
