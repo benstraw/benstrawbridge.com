@@ -24,7 +24,7 @@ recipeIngredient = [
     "½ heart of celery",
     "½ lg onion",
     "¼ cup crushed walnuts",
-    "1 cup mushrooms",
+    "1 cup mushrooms (Any mushroom is fine but I like crimini or portobello)",
     "1 apple",
     "1 tbsp chia seeds",
     "Salt",
@@ -36,42 +36,54 @@ recipeIngredient = [
     "1 tbsp Spicy mustard",
     "Fresh Tarragon to taste"
   ]
-recipeInstructions = [
-  "Still working on this part!"
-  ]
+[[recipeInstructions]]
+  name = "**For Beets (Can be done the day before)"
+[[recipeInstructions]]
+  name = "preheat"
+  text = "Preheat oven to 425."
+[[recipeInstructions]]
+  name = "slice"
+  text = "Cut (optionally peeled) beets into medium thin slices."
+[[recipeInstructions]]
+  name = "prepare"
+  text = "On parchment paper covered baking sheet layout beet slices in single layer and pour some EEVO over them and some salt and pepper (too taste, or not)"
+  image = "beets-on-parchment.jpg"
+[[recipeInstructions]]
+  name = "bake"
+  text = "Bake for 30 minutes, and let cool in refrigerator."
+[[recipeInstructions]]
+  name = "**For Salad Dressing (can be done the day before)"
+[[recipeInstructions]]
+  name = "shake"
+  text = "In a tupperware with a lid mix all the salad dressing ingredients. Dice the tarragon into smallish pieces, use as much or little as you like, I use about 1 tbsp"
+[[recipeInstructions]]
+  name = "**For Salad Preperation"
+[[recipeInstructions]]
+  name = "farro"
+  text = "Prepare farro as directed, I use Bob’s Red Mill, and it takes about 1hr, chill by rinsing in cold water or just stick it in the fridge for a bit (this could be done the day before if you do the beets the day before)"
+[[recipeInstructions]]
+  name = "dice"
+  text = "Dice celery, apple and onion into small pieces, Cut mushrooms into medium pieces. Slice the beets into smaller pieces, but larger than the others."
+  image = "chopped-veggies.jpg"
+[[recipeInstructions]]
+  name = "toss"
+  text = "In a large bowl combine all the ingredients and toss vigorously, adding the dressing slowly as the beets are the main ingredient you don’t want to overpower them."
 +++
 
 This was an attempt to copy a salad from [Bristol Farms](https://www.bristolfarms.com/). I ended up modifying it quite a bit from the initial ingredients.
 
-![With some green tomatoes on top](beets-salad.jpg)
+  {{< picture
+    alt="With some green tomatoes on top"
+    overlay="images/bs_full_wordmark.png"
+    src="beets-salad.jpg"
+    title="With some green tomatoes on top"
+  >}}
 
 Makes about 4 qts. Lasts for over a week in the fridge.
 
 ## Ingredients
 {{< recipe-ingredients-list >}}
 
+## Method
+{{< recipe-howto-steps-list >}}
 
-
-## For Beets (can be done the day before)
-
-![Slice em up and cook em on parchment paper](beets-on-parchment.jpg)
-
-- Preheat oven to 425
-- Cut (optionally peeled) beets into medium thin slices
-- Cut mushrooms into medium pieces. Any mushroom is fine but I like crimini or portobello
-- On parchment paper covered baking sheet layout beet slices in single layer and pour some EVO over them and some salt and pepper (too taste, or not)
-- Let cool in refrigerator
-
-## For Salad Dressing (can be done the day before)
-
-- In a tupperware with a lid mix all the salad dressing ingredients. Dice the tarragon into smallish pieces, use as much or little as you like, I use about 1 tbsp
-- Shake it up before using
-
-## For Salad Preperation
-
-![Chop up all the veggies nice and small](chopped-veggies.jpg)
-
-- Prepare farro as directed, I use Bob’s Red Mill, and it takes about 1hr, chill by rinsing in cold water or just stick it in the fridge for a bit (this could be done the day before if you do the beets the day before)
-- Dice celery, apple and onion into small pieces
-- Slice the beets into smaller pieces, but larger than the others
-- In a large bowl combine all the ingredients and toss vigorously, adding the dressing slowly as the beets are the main ingredient you don’t want to overpower them
