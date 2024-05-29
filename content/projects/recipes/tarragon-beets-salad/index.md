@@ -18,7 +18,14 @@ cookTime = "PT20M"
 totalTime = "PT20M"
 recipeYield = "4 Quarts"
 calories = 70
-recipeIngredient = [
+ingredients = [
+  "beets",
+  "mushrooms",
+  "chia seeds",
+  "nuts",
+  "fruit"
+]
+recipeIngredients = [
     "**FOR SALAD",
     "5 Beets",
     "½ heart of celery",

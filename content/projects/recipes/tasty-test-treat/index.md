@@ -11,12 +11,12 @@ homeFeatureIcon = "fa-solid fa-kitchen-set"
 
 recipe = true
 recipeCuisine = "American"
-prepTime = "PT20M"
-cookTime = "PT20M"
-totalTime = "PT20M"
+prepTime = "PT30M"
+cookTime = "PT45M"
+totalTime = "PT1H15M"
 recipeYield = "2 Servings"
 calories = 270
-recipeIngredient = [
+recipeIngredients = [
   "Some Goodie",
   "Peanuts",
   "Butter",

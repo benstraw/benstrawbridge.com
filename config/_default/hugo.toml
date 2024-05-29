@@ -38,6 +38,8 @@ copyright = '<i class="fa-regular fa-copyright"></i>  2024 benstrawbridge.com'
 [markup]
   [markup.highlight]
     linenos = false
+[taxonomies]
+  ingredient = 'ingredients'
 
 [menu]
 [[menu.recipes]]
