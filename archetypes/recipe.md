@@ -3,12 +3,12 @@ title = '{{ replace .File.ContentBaseName "-" " " | title }}'
 date = {{ .Date }}
 draft = true
 # summary = ""
-categories = [""]
+categories = ["recipe"]
 tags = [
   ""
   ]
 # featured_image = ""
-homeFeatureIcon = "fa-solid fa-kitchen-set"
+# homeFeatureIcon = "fa-solid fa-kitchen-set"
 # showTOC = true
 
 recipe = true

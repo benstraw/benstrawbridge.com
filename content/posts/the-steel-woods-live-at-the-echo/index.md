@@ -11,10 +11,10 @@ tags = [
 # showTOC = tru
 type = "music"
 [band]
-name = "The Steel Woods"
-website = "https://www.thesteelwoods.com/"
+  name = "The Steel Woods"
+  website = "https://www.thesteelwoods.com/"
 [venue]
-name = "The Echo"
-website = "https://theecho.com/"
-location = "34.07780718893762 N, 118.26007871366767 W"
+  name = "The Echo"
+  website = "https://theecho.com/"
+  location = "34.07780718893762 N, 118.26007871366767 W"
 +++

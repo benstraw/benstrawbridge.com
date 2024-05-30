@@ -13,6 +13,7 @@ weight = 20
 featured_image = "ryder-theme-og.jpg"
 homeFeature = true
 homeFeatureIcon = "fa-solid fa-dog"
+homeFeatureTitle = "The Ryder Theme"
 homeFeatureSummary = "Introducing Ryder: an open-source Hugo theme boasting Tailwind CSS, FontAwesome integration, and customizable features. Perfect for beginners and seasoned developers alike, kickstart your website with this versatile theme."
 +++
 ![In honor of this old guy](ryder-theme-og.jpg)
