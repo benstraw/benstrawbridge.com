@@ -20,10 +20,15 @@ recipeYield = "4 Quarts"
 calories = 70
 ingredients = [
   "beets",
+  "celery",
   "mushrooms",
   "chia seeds",
   "nuts",
-  "fruit"
+  "fruit",
+  "farro",
+  "olive oil",
+  "balsamic vinegar",
+  "herbs"
 ]
 recipeIngredients = [
     "**FOR SALAD",

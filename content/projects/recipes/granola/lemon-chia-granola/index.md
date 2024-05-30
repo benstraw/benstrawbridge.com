@@ -20,10 +20,11 @@ ingredients = [
   "chia seeds",
   "fruit",
   "nuts",
-  "seeds"
+  "seeds",
+  "cinnamon"
   ]
 recipeIngredients = [
-  "2 C. oats",
+  "2 C. [oats](/ingredients/oats/)",
   "1 C. filled with any combination of pepitas, sunflower seeds and crushed walnuts",
   "3 tablespoons olive oil",
   "1/4 cup honey",
@@ -43,7 +44,7 @@ recipeIngredients = [
   text = "Spread over large baking pan with parchment paper."
 [[recipeInstructions]]
   name = "bake"
-  text = "Bake at 290 30 min. Do not stir."
+  text = "Bake at 290 50 min. Do not stir."
 [[recipeInstructions]]
   name = "press"
   text = "Remove from oven, put dried fruit on top and cover with another sheet of parchment paper and another pan on top to add weight (if desired for a more clumpy result)."

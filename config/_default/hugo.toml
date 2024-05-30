@@ -42,7 +42,9 @@ copyright = '<i class="fa-regular fa-copyright"></i>  2024 benstrawbridge.com'
   ingredient = 'ingredients'
   tag = 'tags'
   category = 'categories'
-
+[permalinks]
+  post = "/:year/:month/:title/"
+  
 [menu]
 [[menu.recipes]]
     name = 'Why?'

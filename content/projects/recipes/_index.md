@@ -20,3 +20,5 @@ I get very frustrated by the recipe websites out there today. The ones that domi
 
 This is a search for a solution to easily sharable, open recipe format / protocol / api. The data and recipes here are real, but I am experimenting with the display and the data formatting and it is all bound to change over time, eventually it may become a recipe database website.
 
+You also may want to take a look at my [ingredients]({{% relref "/ingredients" %}}) section to learn about the best quality ingredients to use in your cooking.
+

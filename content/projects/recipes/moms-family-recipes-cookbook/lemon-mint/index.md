@@ -5,33 +5,59 @@ date = 2024-04-24T23:15:52-07:00
 categories = ['recipes']
 tags = ["family"]
 weight = 10
+
+recipe = true
+recipeCuisine = "Beverage"
+prepTime = "PT10M"
+cookTime = "PT45M"
+totalTime = "PT55M"
+recipeYield = "4 Pitchers"
+calories = 70
+ingredients = [
+  "herbs",
+  "fruit",
+  "sugar"
+]
+recipeIngredients = [
+  "Fresh mint",
+  "Fresh lemons",
+  "1 cup sugar"
+]
+[[recipeInstructions]]
+  name = "cut"
+  text = "Cut a good handful mint stems. Run the them under a fancet to wash. Put in a large container."
+[[recipeInstructions]]
+  name = "slice"
+  text = "Cut up fresh lemons 4+ and add to same container in a large bowl."
+[[recipeInstructions]]
+  name = "boil"
+  text = "Boil approx. 6+ Cups water with 1 cup sugar." 
+[[recipeInstructions]]
+  name = "pour"
+  text = "When sugar dissolves, pour it over the mint (stems & all) and lemons (skin, seeds and all)."
+[[recipeInstructions]]
+  name = "wait"
+  text = "LET it SIT overnight or 3 hrs."
+[[recipeInstructions]]
+  name = "strain"
+  text = "Put through colander on sieve." 
 +++
 
 My mom had a huge mint garden outside of our kitchen growing up and we would have fresh lemonmint beverage all summer long as it grew like a weed.
 
-{{< figure src="../family_recipes_03.webp" link="../family_recipes_03.webp" title="Aunt Mary's Lemonmint recipe" >}}
+{{< figure src="../family_recipes_03.webp" title="Aunt Mary's Lemonmint recipe" >}}
 
 ## Aunt Mary's Recipe
 
 In summer when mint grows like a ton it will weed (ALWAYS grow it in a pot or it will overtake everything)
 
 ## Ingredients
-- Fresh mint
-- Fresh lemons
-- 1 cup sugar
+{{< recipe-ingredients-list >}}
 
 ## Make concentrate syrup
-
-- Cut a good handful mint stems. Run the them under a fancet to wash. Put in a large container.
-- Cut up fresh lemons 4+ and add to same container in a large bowl.
-- Boil approx. 6+ Cups water with 1 cup sugar. 
-- When sugar dissolves, pour it over the mint (stems & all) and lemons (skin, seeds and all). 
-- LET it SIT overnight or 3 hrs. 
-- Put through colander on sieve. 
-- This is the syrup. 
+{{< recipe-howto-steps-list >}}
 
 ## Make beverage
+Now you can make your tasty refreshing beverage anytime with 1/2 concentrate and 1/2 ice water.
 
-- Mix 1/2 ice water and 1/2 concentrate.
-
-{{< figure src="lemon-mint-concentrate.webp" link="lemon-mint-concentrate.webp" title="The final lemon mint concentrate" >}}
+{{< picture src="lemon-mint-concentrate.webp" title="The final lemon mint concentrate" >}}
