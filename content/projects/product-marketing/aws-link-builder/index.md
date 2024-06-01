@@ -9,7 +9,7 @@ tags = [
   "Amazon.com"
 ]
 summary = "A tool to build links for affiliate marketing programs."
-url = ["/link-builder"]
+url = "/link-builder"
 +++
 
 ## Amazon associates program link builder.
