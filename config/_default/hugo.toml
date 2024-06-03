@@ -7,7 +7,6 @@ enableEmoji = true
 enableGitInfo = true
 paginate = 12
 theme = 'ryder-dev'
-# theme = 'benstraw'
 timeZone = "America/Los_Angeles"
 title = "Ben Strawbridge Dot Com Consulting"
 description = 'My place to work on my online projects and experiment with the web.'

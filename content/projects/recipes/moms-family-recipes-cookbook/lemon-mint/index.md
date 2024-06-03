@@ -2,6 +2,7 @@
 title = "Aunt Mary's LemonMint"
 date = 2024-04-24T23:15:52-07:00
 # draft = true
+homeFeatureIcon = "fa-brands fa-pagelines"
 categories = ['recipes']
 tags = ["family"]
 weight = 10
@@ -9,8 +10,8 @@ weight = 10
 recipe = true
 recipeCuisine = "Beverage"
 prepTime = "PT10M"
-cookTime = "PT45M"
-totalTime = "PT55M"
+cookTime = "PT15M"
+totalTime = "PT25M"
 recipeYield = "4 Pitchers"
 calories = 70
 ingredients = [
@@ -45,7 +46,7 @@ recipeIngredients = [
 
 My mom had a huge mint garden outside of our kitchen growing up and we would have fresh lemonmint beverage all summer long as it grew like a weed.
 
-{{< figure src="../family_recipes_03.webp" title="Aunt Mary's Lemonmint recipe" >}}
+{{< picture src="images/moms-family-recipes-cookbook/family_recipes_03.webp" title="Aunt Mary's Lemon Mint" overlay="images/bs_full_wordmark.png" >}}
 
 ## Aunt Mary's Recipe
 

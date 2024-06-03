@@ -8,6 +8,8 @@ aliases = ['/projects/hiking/gear/nitecore-headlamp/']
 
 The mighty [little headlamp that could](https://amzn.to/49qmrVD) is the super lightweight, versatile design of the NiteCore NU25 400 UL Ultra Lightweight Headlamp featuring USB-C charging and easy access to emergency features.
 
+{{< amazon-associate-link button_label="Nitecore Headlamp">}}
+
 {{< figure src="nitecore-nu25-400ul.jpg" title="The nitecore headlamp" link="https://amzn.to/49qmrVD" >}}
 
 ### Tips:

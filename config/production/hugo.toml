@@ -1,4 +1,4 @@
-theme = "ryder"
+# theme = "ryder"
 
 [params]
   env = "production"
