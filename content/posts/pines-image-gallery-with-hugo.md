@@ -17,7 +17,7 @@ tags = [
 homeFeatureIcon = "fa-solid fa-images"
 +++
 
-The first place I used this is on the recipe page about my mom's [family recipe cookbook]({{< ref "/projects/recipes/moms-family-recipes-cookbook" >}} "About Us")
+The first place I used this is on the recipe page about my mom's [family recipe cookbook]({{< ref "/posts/moms-family-recipes-cookbook" >}} "About Us")
 
 ## Setting up the pines open source image gallery to work with Hugo
 
