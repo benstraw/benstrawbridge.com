@@ -75,7 +75,7 @@ then, in the alpinejs section, you just drop that in -
 
 ### Adding it to a template 
 
-Finally, I called saved it as `page_gallery.html` in the partials direcotry, and added it to my template by detecting a param that triggers it.
+Finally, I saved it as `page_gallery.html` in the partials direcotry, and added it to my template by detecting a param that triggers it.
 
 ```hugo
 {{ if .Param "photoGalleryTitle" }}

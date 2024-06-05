@@ -43,6 +43,7 @@ You add ingredients to the taxonomy by including them in the front matter of you
       repo=benstrawbridge.com
       path=content/ingredients/mushrooms/_index.md
       lang=hugo-html-template
+      showlink=false
 >}}
 
 These taxonomy pages will ultimately lead to being able to create related content features and pull in lists of content or products with similar taxonomic themes.

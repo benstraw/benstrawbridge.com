@@ -5,9 +5,9 @@ date = 2024-05-29T23:24:31-07:00
 # summary = ""
 categories = [""]
 tags = [
-  ""
-  ]
-# featured_image = ""
+  "Photography"
+]
+featured_image = "oyster_feature.jpg"
 # showTOC = true
 +++
 

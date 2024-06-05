@@ -34,6 +34,8 @@ copyright = '<i class="fa-regular fa-copyright"></i>  2024 benstrawbridge.com'
     headerBackgroundFrameInner = "bg-header-mdr-channel dark:bg-header-artist-date-two h-[400px] sm:h-[250px] bg-cover bg-left bg-center dark:bg-top"
     # footerBackground = "bg-gradient-to-r from-violet-950 to-rose-950 border-fuchsia-600" 
     # navbar_fixed = "sticky top-0"
+  [params.footer]
+    tagCloud = true
 [markup]
   [markup.highlight]
     linenos = false

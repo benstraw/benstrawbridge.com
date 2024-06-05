@@ -16,9 +16,9 @@ homeFeatureIcon = "fa-solid fa-cloud-meatball"
 ## Cloudy days a hoy
 I found this partial to create a tag cloud on [Mert Bakir's personal website](https://mertbakir.gitlab.io/hugo/tag-cloud-in-hugo/) and I have been adapting the code to suit my needs for this project, for now I'm just leaving it under this project page until I can decide what to do with it.
 
-{{< tag-cloud >}}
+{{< taxonomy-cloud >}}
 
-## Shortcode
-{{< highlight-github owner=arts-link repo=ryder path=layouts/partials/tag-cloud.html  >}}
+## Partial 
+{{< highlight-github owner=arts-link repo=ryder path=layouts/partials/tag-cloud.html showlink=false  >}}
 
-The next update to come to this tag-cloud shortcode is the ability to pass in a taxonomy name, since it is currently setup for only tags.
+The next update to come to this tag-cloud partial is the ability to pass in a taxonomy name, since it is currently setup for only tags.

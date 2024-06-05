@@ -61,10 +61,10 @@ recipeIngredients = [
 Here are the shortcode which are included as part of the [Ryder Theme](https://github.com/arts-link/ryder) from [arts-link.com](https://www.arts-link.com/).
 
 ### recipe-ingredients-list.html
-{{< highlight-github owner=arts-link repo=ryder path=layouts/shortcodes/recipe-ingredients-list.html  >}}
+{{< highlight-github owner=arts-link repo=ryder path=layouts/shortcodes/recipe-ingredients-list.html showlink=false >}}
 
 ### recipe-howto-steps-list.html
-{{< highlight-github owner=arts-link repo=ryder path=layouts/shortcodes/recipe-howto-steps-list.html  >}}
+{{< highlight-github owner=arts-link repo=ryder path=layouts/shortcodes/recipe-howto-steps-list.html showlink=false  >}}
 
 
 ## Test results
