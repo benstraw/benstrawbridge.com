@@ -11,8 +11,6 @@ tags = [
 # showTOC = true
 +++
 
-  Follwing the images will be all the recipes marked as having mushrooms as an important ingredient.
-
   {{< picture
     alt="Beautiful Oyster Mushrooms"
     overlay="images/bs_full_wordmark.png"

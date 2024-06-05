@@ -20,3 +20,5 @@ I found this partial to create a tag cloud on [Mert Bakir's personal website](ht
 
 ## Shortcode
 {{< highlight-github owner=arts-link repo=ryder path=layouts/partials/tag-cloud.html  >}}
+
+The next update to come to this tag-cloud shortcode is the ability to pass in a taxonomy name, since it is currently setup for only tags.
