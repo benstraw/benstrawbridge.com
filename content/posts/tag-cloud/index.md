@@ -19,6 +19,6 @@ I found this partial to create a tag cloud on [Mert Bakir's personal website](ht
 {{< taxonomy-cloud >}}
 
 ## Partial 
-{{< highlight-github owner=arts-link repo=ryder path=layouts/partials/tag-cloud.html showlink=false  >}}
+{{< highlight-github owner=arts-link repo=ryder path=layouts/partials/taxonomy-cloud.html showlink=false  >}}
 
 The next update to come to this tag-cloud partial is the ability to pass in a taxonomy name, since it is currently setup for only tags.
