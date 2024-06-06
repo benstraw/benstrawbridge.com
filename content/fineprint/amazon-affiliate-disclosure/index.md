@@ -8,7 +8,7 @@ tags = [
   "Amazon"
   ]
 # featured_image = ""
-# homeFeatureIcon = ""
+homeFeatureIcon = "fa-solid fa-door-open"
 # showTOC = true
 +++
 
