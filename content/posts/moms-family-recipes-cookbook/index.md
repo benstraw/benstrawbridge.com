@@ -18,3 +18,5 @@ photoGalleryTitle = 'Every Page of the Cookbook'
 [My mom](https://www.louisestrawbridge.com/) made this book by hand and filled it with recipes handed down from her family and from my Dad's family as well as the recipes we had most often when I was growing up. It is one of my more frequently used reference cookbooks :smile:.
 
 {{< photo-gallery >}}
+
+<!--more-->

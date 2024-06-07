@@ -12,6 +12,3 @@ draft = false
     # headerBackgroundFrame = "bg-gradient-to-r from-violet-950 to-rose-950 text-neutral-100  border-b border-fuchsia-600"
 +++
 
-## Welcome
-
-Take a look at this - [Louise Strawbridge's Art](https://www.louisestrawbridge.com) - It was a real joy for me to create this website for my mom as the first website in the rebranded (in progress) and relaunched [Arts-Link.com website](https://www.arts-link.com).

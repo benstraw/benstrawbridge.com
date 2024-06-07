@@ -19,6 +19,8 @@ homeFeatureIcon = "fa-solid fa-images"
 
 The first place I used this is on the recipe page about my mom's [family recipe cookbook]({{< ref "/posts/moms-family-recipes-cookbook" >}} "About Us")
 
+<!--more-->
+
 ## Setting up the pines open source image gallery to work with Hugo
 
 [Open source image-gallery from devdojo pines project](https://devdojo.com/pines/docs/image-gallery) integrated with hugo as a partial that loads and optimizes the images.
@@ -76,6 +78,7 @@ then, in the alpinejs section, you just drop that in -
 ### Adding it to a template 
 
 Finally, I saved it as `page_gallery.html` in the partials direcotry, and added it to my template by detecting a param that triggers it.
+
 
 ```hugo
 {{ if .Param "photoGalleryTitle" }}

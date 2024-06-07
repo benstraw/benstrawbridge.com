@@ -18,6 +18,8 @@ Ben Strawbridge Dot Com Consulting takes your privacy very seriously. This Priva
 
 Ben Strawbridge Dot Com Consulting does not collect any personal information that you do not expressly provide and will not disclose personally identifiable information to any third party without your consent.
 
+<!--more-->
+
 ## Non-Personal Information
 
 I may also request non-personally identifiable information known as demographic and profile data, though this information is optional. I may use this data to improve my site; showing you content that I think you might be interested in. I may also share this information with others, such as advertisers interested in advertising on my site, in aggregate, anonymous form, which means that the information will not contain any personally identifiable information about you or any other person.

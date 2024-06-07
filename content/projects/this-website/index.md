@@ -8,6 +8,8 @@ This website is built as a personal `dog fooding` project. I use it as the test 
 
 I also try to publish brief how-to guides when I find myself stumped and have one of those ah-ha moments finding a solution.
 
+<!--more-->
+
 One of the ongoing projects I am working on here is figuring out optimal, minimalist ways to integrate content marketing techniques such as affiliate links into the project. You will see some links spread throughout the site. [Read the full disclosure statement]({{< relref "/amazon-affiliate-disclosure" >}}).
 
 ## Screenshot history

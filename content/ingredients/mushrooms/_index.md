@@ -8,6 +8,7 @@ tags = [
   "Photography"
 ]
 featured_image = "oyster_feature.jpg"
+homeFeatureIcon = "fa-solid fa-dragon"
 # showTOC = true
 +++
 
@@ -17,3 +18,5 @@ featured_image = "oyster_feature.jpg"
     src="oyster_feature.jpg"
     title="Beautiful Oyster Mushrooms"
   >}}
+
+<!--more-->

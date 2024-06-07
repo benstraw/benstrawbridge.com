@@ -18,7 +18,11 @@ tags = [
 
 > Check out the [Ingredients Taxonomy pages]({{< relref "/ingredients" >}})
 
+## Using Taxonomy effectively
+
 As part of the recipe template configuration being developed for The Ryder Theme for Hugo websites, a new taxonomy is created for ingredients. Ingredients are not the same as recipeIngredients; they are defined as an array in the front matter. I didn’t want a taxonomy page generated for every single recipe ingredient, so I created a separate variable. The recipeIngredients are used to display the ingredients on the page and for the recipe schema, ensuring the pages are properly displayed as recipe rich results in Google and other search engines.
+
+<!--more-->
 
 From my regular sample data recipe of [Tarragon Beets Salad]({{< relref "/projects/recipes/tarragon-beets-salad" >}}), you can see how they are different. One is for general items, and the other specifies the exact amount and details. It is a duplication of data, but it allows the many features of Hugo taxonomies to be fully utilized.
 

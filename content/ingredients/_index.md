@@ -10,6 +10,9 @@ tags = [
   ]
 # featured_image = ""
 # showTOC = true
+
+[cascade]
+  homeFeatureIcon = "fa-solid fa-dragon"
 +++
 
 Here's a little story I got to tell, about three fly brothers you know so well. It started way back in history, with Ad-Rock, MCA and me, Mike D.
