@@ -2,8 +2,8 @@
 title = "Aunt Mary's Creamed Corn"
 date = 2024-05-14T15:58:00-07:00
 # draft = true
-categories = ["recipe","side"]
-
+categories = ["recipes"]
+tags = ["family recipes"]
 recipe = true
 recipeCuisine = "Side"
 prepTime = "PT10M"
@@ -12,7 +12,7 @@ totalTime = "PT20M"
 recipeYield = "4 Pitchers"
 calories = 70
 ingredients = [
-  "Potatoes"
+  "Corn"
 ]
 recipeIngredients = [
   "Frozen *FRESH* corn",

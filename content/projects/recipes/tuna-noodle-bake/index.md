@@ -4,7 +4,7 @@ date = 2024-04-24T23:41:16-07:00
 # draft = true
 homeFeatureIcon = "fa-solid fa-fish-fins"
 categories = ['recipes']
-tags = ["family", "budget"]
+tags = ["family recipes", "budget"]
 weight = 20
 
 recipe = true

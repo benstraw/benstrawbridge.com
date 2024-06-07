@@ -12,6 +12,7 @@ tags = [
 # showTOC = true
 
 [cascade]
+  sectionTitle = "Recipe Ingredients on BenStrawbridge.com"
   homeFeatureIcon = "fa-solid fa-dragon"
 +++
 

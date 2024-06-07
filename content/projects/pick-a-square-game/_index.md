@@ -15,6 +15,8 @@ logo_tagline = 'PICK A SQUARE GAME'
 
 This was kind of a challenge from a friend of mine. He wanted squares for an event that was a website - html, not an image, that could be used on a big screen at a venue AND printed out on a poster OR standard paper all in one url, just works for all of those.
 
+<!--more-->
+
 ## Features
 
 - Dynamic Scoreboard updates squares with winner

@@ -5,9 +5,7 @@ date = 2024-02-12T12:46:55-08:00
 tags = [
   "Hugo",
   "templates",
-  "Go templates",
   "front matter",
-  "site parameters",
   "resource management",
   "string manipulation",
   "configuration",

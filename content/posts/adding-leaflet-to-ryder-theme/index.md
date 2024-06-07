@@ -16,6 +16,10 @@ tags = [
 ]
 # draft = true
 +++
+<!-- Latitude: 39.9057° N
+Longitude: 75.1665° W -->
+
+{{< leaflet id="bankit" lat="39.9057" lon="-75.1665" zoom="16.5" markerLat="39.9057" markerLon="-75.1665" markerPopup="Life at the Bank!" >}}
 
 I made this quick and easy shortcode to get started using leaflet.js in the [Ryder Theme for Hugo Websites](https://arts-link.github.io/ryder/), as I add more features supported by leaflet to the shortcode I might update this page. 
 

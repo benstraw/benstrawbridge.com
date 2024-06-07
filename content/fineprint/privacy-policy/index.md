@@ -1,7 +1,7 @@
 +++
 title = 'Privacy Policy'
 date = 2024-06-05T22:20:28-07:00
-draft = true
+# draft = true
 # summary = ""
 categories = [""]
 tags = [
@@ -12,7 +12,7 @@ homeFeatureIcon = "fa-solid fa-fingerprint"
 # showTOC = true
 +++
 
-Ben Strawbridge Dot Com Consulting takes your privacy very seriously. This Privacy Policy describes how I treat the information I collect when you visit my web site.
+**Ben Strawbridge Dot Com Consulting takes your privacy very seriously**. This Privacy Policy describes how I treat the information I collect when you visit my web site.
 
 ## Personal Information
 

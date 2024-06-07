@@ -1,5 +1,5 @@
 +++
-title = 'Links'
+title = 'Link Graveyard'
 date = 2024-01-18T11:50:06-08:00
 # draft = true
 tags = ["hugo","themes","css","images"]
@@ -7,8 +7,9 @@ showTOC = true
 TocOpen = true
 logo_tagline = "LINK GRAVEYARD"
 aliases = ['/links/']
-summary = "The link graveyard is my page for remembering where I found stuff – whether it's something I learned, something cool I stumbled upon, or maybe just a friend's site."
+# summary = "The link graveyard is my page for remembering where I found stuff – whether it's something I learned, something cool I stumbled upon, or maybe just a friend's site."
 homeFeatureIcon = "fa-solid fa-link"
+sectionTitle = "Link Graveyard on BenStrawbridge.com"
 # enabledebugpanel = true
 # homeFeature = true
 # homeFeatureIcon = "fa-solid fa-link"
@@ -22,6 +23,12 @@ homeFeatureIcon = "fa-solid fa-link"
 
 
 +++
+
+## Links to help you build and work on the Internet
+
+> Where I bury my favorite resources
+
+<!--more-->
 
 ## Art
 
@@ -52,6 +59,12 @@ homeFeatureIcon = "fa-solid fa-link"
 
 - [langchain](https://www.langchain.com/)
 
+### Testing
+
+- [Cypress io](https://www.cypress.io/)
+- [website grader](https://website.grader.com/tests)
+- [GTMetrics website reports](https://gtmetrix.com/reports/)
+
 ### tools
 
 - [transform anything](https://transform.tools/)
@@ -60,15 +73,16 @@ homeFeatureIcon = "fa-solid fa-link"
 - [does your page support rich results?](https://search.google.com/test/rich-results)
 - [schema checker](https://search.google.com/test/rich-results)
 - [color contrast checker](https://dequeuniversity.com/color-contrast)
+- [random data generator API](https://random-data-api.com/documentation)
 
 ### the web
 
-- https://frankchimero.com/blog/2015/the-webs-grain/
-- https://www.cronyxdigital.com/blog/the-ultimate-website-image-guide
+- [The webs grain](https://frankchimero.com/blog/2015/the-webs-grain/)
+- [website image guide](https://www.cronyxdigital.com/blog/the-ultimate-website-image-guide)
 
 ### cloud based application 
 
-https://12factor.net/
+- [the 12 factors](https://12factor.net/). To build solid web applications start with the fundamentals
 
 ### css
 
@@ -79,6 +93,7 @@ https://12factor.net/
 - [Tailwind Starter Kit](https://www.creative-tim.com/learning-lab/tailwind-starter-kit/documentation/download)
 - [How to use google fonts in tailwind css](https://hatchet.com.au/blog/how-to-use-google-fonts-in-tailwind-css/)
 - [tailwindcss bg-color gradient guide](https://blog.logrocket.com/guide-adding-gradients-tailwind-css/)
+- [CSS Default Values Reference](https://www.w3schools.com/cssref/css_default_values.php)
 
 ### fonts
 
@@ -107,42 +122,29 @@ https://12factor.net/
 - [A simple javascript search function](https://discourse.gohugo.io/t/a-simple-javascript-based-full-text-search-function/29119)
 - [Hugo Nerd](https://kollitsch.dev/)
 
-
 #### Setup
 
 - [resource for setting up hugo with tailwindcss](https://www.unsungnovelty.org/posts/03/2022/how-to-add-tailwind-css-3-to-a-hugo-website-in-2022/)
 - [hugo official docs all configuration options page](https://gohugo.io/getting-started/configuration/)
 
-#### image processing
+#### Hugo image processing
 
 - [Markus Wolf Image resource guide](https://www.markusantonwolf.com/blog/guide-for-different-ways-to-access-your-image-resources/)
 - [devnodes image convert guide](https://devnodes.in/blog/hugo/image-convert-to-webp/)
 - [Matin van Vreeden image shortcode](https://martijnvanvreeden.nl/hugo-shortcode-to-serve-images-in-next-gen-formats/)
 - [dnb pictures](https://kollitsch.dev/gohugo/pictures/)
 
-#### modules
+#### Hugo modules
 
 - [a nice collection of partials and shortcodes from gethugothemes, available as individual modules](https://github.com/gethugothemes/hugo-modules/tree/master)
 
-#### themes
+#### Hugo themes
 
 - [hugo learn theme](https://github.com/matcornic/hugo-theme-learn)
-
-##### resume
-
 - [Very clean and printable resume theme](https://gitlab.com/mertbakir/resume-a4)
-
-- https://gitlab.com/mertbakir/art-collection-theme/
-
-##### PaperMod
-
-A clean starter theme that has a lot of functionality built in. Translated into 4 languages with i18n functions.
-
 - [PaperMod theme](https://github.com/adityatelange/hugo-PaperMod/wiki/Installation)
 - [PaperMod variables](https://github.com/adityatelange/hugo-PaperMod/wiki/Variables)
-
-##### Image Gallery themes
-
+> A clean starter theme that has a lot of functionality built in. Translated into 4 languages with i18n functions.
 - [Gallery Deluxe Theme](https://github.com/bep/gallerydeluxe)
 - [Gallery Theme](https://github.com/nicokaiser/hugo-theme-gallery)
 
@@ -157,11 +159,6 @@ A clean starter theme that has a lot of functionality built in. Translated into 
 
 - [YummyRecipes.uk](https://yummyrecipes.uk/about/)
 
-## Testing
-
-- [Cypress io](https://www.cypress.io/)
-- [website grader](https://website.grader.com/tests)
-- [GTMetrics website reports](https://gtmetrix.com/reports/)
 
 ## Product Management
 
@@ -172,6 +169,7 @@ A clean starter theme that has a lot of functionality built in. Translated into 
 ### Finance
 
  - [ramp spend management](https://ramp.com/)
+ 
 ### Payments
 
 - [interledger](https://interledger.org/)

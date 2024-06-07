@@ -20,3 +20,4 @@ This notebook has a flexible and strong spine and extra smooth paper that feels 
 {{< amazon-associate-link button_label="Midori Notebook">}}
 
 {{< picture src="dot-notebook.jpeg" title="Midori Dot Square Notebook" >}}
+<!--more-->

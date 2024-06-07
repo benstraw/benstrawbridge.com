@@ -3,7 +3,7 @@ title = 'Dads Home Fried Potatoes'
 date = 2024-05-06T14:38:54-07:00
 # draft = true
 categories = ['recipes']
-tags = ["family"]
+tags = ["family recipes"]
 weight = 40
 
 recipe = true

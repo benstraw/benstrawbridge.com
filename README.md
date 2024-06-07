@@ -45,3 +45,39 @@ npm install -D postcss-cli tailwindcss postcss autoprefixer @tailwindcss/typogra
 - https://martijnvanvreeden.nl/hugo-shortcode-to-serve-images-in-next-gen-formats/
 - this is how to make a good resume: https://mertbakir.gitlab.io/resume/
   -- https://gitlab.com/mertbakir/resume-a4
+
+### Page Title
+
+The title was being formatted like this:
+
+```
+  <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
+```
+
+Very standard stuff, probably straight from the default template. I am updating it to use "SectionTitle" param as follows
+
+```
+[cascade]
+  sectionTitle = "Recipes on BenStrawbridge.com"
+```
+
+```bash
+➜  content git:(main) ✗ tree -d
+.
+├── consulting
+|   |__ **Section Title: Ben Strawbridge Dot Com Consulting**
+├── fineprint
+|   |__ **Section Title: The Fineprint on Ben Strawbridge Dot Com**
+├── ingredients
+|   |__ **Section Title: Recipe Ingredients on Ben Strawbridge Dot Com**
+├── portfolio
+├── posts
+│   ├── links
+|   |__ **Section Title: Link Graveyard on Ben Strawbridge Dot Com**
+├── projects
+|   |__ **Section Title: Projects on Ben Strawbridge Dot Com**
+│   ├── hiking
+|   |__ **Section Title: Hikes on Ben Strawbridge Dot Com**
+│   ├── recipes
+|   |__ **Section Title: Recipes on Ben Strawbridge Dot Com**
+```

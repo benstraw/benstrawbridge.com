@@ -14,11 +14,12 @@ featured_image = "ryder-theme-og.jpg"
 homeFeature = true
 homeFeatureIcon = "fa-solid fa-dog"
 homeFeatureTitle = "The Ryder Theme"
-homeFeatureSummary = "Introducing Ryder: an open-source Hugo theme boasting Tailwind CSS, FontAwesome integration, and customizable features. Perfect for beginners and seasoned developers alike, kickstart your website with this versatile theme."
 +++
 ![In honor of this old guy](ryder-theme-og.jpg)
 
-Introducing the [Ryder theme](https://www.github.com/arts-link/ryder), a theme for the [hugo static website generator](https://www.gohugo.io).
+Introducing the [Ryder theme](https://www.github.com/arts-link/ryder), a theme for the [hugo static website generator](https://www.gohugo.io). This is an open-source Hugo theme boasting Tailwind CSS, FontAwesome integration, and customizable features. Perfect for beginners and seasoned developers alike, kickstart your website with this versatile theme.
+
+<!--more-->
 
 This is the first hugo theme I have written from scratch, and it has been a lot of fun doing it. My goal for this theme is to include all of the website features I needed for this website, plus a bunch of extras I need for client websites or for other users of this theme.
 

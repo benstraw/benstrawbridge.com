@@ -4,7 +4,7 @@ date = 2024-04-24T23:15:52-07:00
 # draft = true
 homeFeatureIcon = "fa-brands fa-pagelines"
 categories = ['recipes']
-tags = ["family"]
+tags = ["family recipes"]
 weight = 10
 
 recipe = true

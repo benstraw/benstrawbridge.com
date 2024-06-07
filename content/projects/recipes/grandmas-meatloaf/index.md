@@ -4,7 +4,7 @@ date = 2024-05-06T14:24:29-07:00
 # draft = true
 homeFeatureIcon = "fa-solid fa-bread-slice"
 categories = ['recipes']
-tags = ["family", "cheap"]
+tags = ["family recipes", "budget"]
 weight = 30
 
 recipe = true

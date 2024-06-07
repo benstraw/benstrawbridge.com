@@ -5,7 +5,7 @@ date = 2024-06-05T15:45:41-07:00
 # summary = ""
 categories = [""]
 tags = [
-  "Amazon"
+  "Amazon Associates Program"
   ]
 # featured_image = ""
 homeFeatureIcon = "fa-solid fa-door-open"

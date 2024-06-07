@@ -3,13 +3,14 @@ title = 'Catalog'
 date = 2024-06-04T00:44:22-07:00
 # draft = true
 # summary = ""
-categories = ["product-catalog"]
+categories = ["product catalog"]
 tags = [
   ""
   ]
 # featured_image = ""
 # showTOC = true
 [cascade]
+  categories = ["product catalog"]
   logo_tagline = "PRODUCT CATALOG"
   homeFeatureIcon = "fa-solid fa-cash-register" 
   [[cascade.alphaAlert]]

@@ -16,7 +16,7 @@ aliases = ["/projects/ironcove-orchestration-engine/"]
 homeFeature = true
 homeFeatureIcon = "fas fa-code-compare"
 homeFeatureTitle = "IronCove OE"
-homeFeatureSummary = "Ironcove Solutions’ Orchestration Engine revolutionizes workforce onboarding with seamless API integration, customizable forms, and automated processes, enhancing efficiency and user experience in collaboration with Ironcove Solutions."
+# homeFeatureSummary = "Ironcove Solutions’ Orchestration Engine revolutionizes workforce onboarding with seamless API integration, customizable forms, and automated processes, enhancing efficiency and user experience in collaboration with Ironcove Solutions."
 showTOC = true
 +++
 
@@ -24,10 +24,13 @@ showTOC = true
 
 I was hired by [Ironcove Solutions](https://ironcovesolutions.com/) to lead product development for a new application they were developing called the [Orchestration Engine](https://ironcovesolutions.com/blog/zendesk-to-okta-as-an-onboarding-process/), an application designed to streamline workforce onboarding processes. We collaborated closely with the team from Ironcove Solutions to bring their vision to life.
 
+<!--more-->
+
 ### Project Overview:
 
 The Orchestration Engine was conceptualized as a comprehensive solution to simplify the onboarding and offboarding of employees and contractors for diverse projects. Integrating seamlessly with three key APIs - Okta, Zendesk, and our internal OE API - the application aimed to empower company administrators with control and efficiency.
 
+![Orchestration Engine Infographic](orchestration-engine-okta-zendesk-zoom-microsoft-google-workspace-slack-cloud-application-workflow.png)
 ### Technical Implementation
 
 The project began with the integration of the Zendesk API, where we developed a custom JWT client to manage client-side tokens, ensuring secure authentication. Leveraging this integration, administrators gained access to a versatile form within the Orchestration Engine, facilitating the onboarding process for individual employees or entire teams through a convenient CSV upload tool.

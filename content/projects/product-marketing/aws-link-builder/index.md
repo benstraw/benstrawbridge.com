@@ -3,10 +3,8 @@ title = "Referral links tool kit"
 date = 2024-05-19T12:28:06-04:00
 tags = [
   "Referral Links",
-  "Amazon Associates",
+  "Amazon Associates Program",
   "Affiliate Marketing",
-  "ASIN",
-  "Amazon.com"
 ]
 summary = "A tool to build links for affiliate marketing programs."
 url = "/link-builder"

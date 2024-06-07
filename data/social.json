@@ -29,6 +29,18 @@
       "name": "tags",
       "icon": "fa-solid fa-tag",
       "link": "/tags"
+    },
+    {
+      "title": "Ingredients",
+      "name": "ingredients",
+      "icon": "fa-solid fa-kitchen-set",
+      "link": "/ingredients"
+    },
+    {
+      "title": "The Fine Print",
+      "name": "fineprint",
+      "icon": "fa-solid fa-fingerprint",
+      "link": "/fineprint"
     }
   ]
 }
