@@ -9,4 +9,6 @@ tags = ["product management","development","open source"]
 
 https://www.arts-link.com is the first domain I ever purchased. I believe it was around 2001. It has been various different websites throughout the years, including not a web-site at all. In this rendition it is an organization which is set up to support artists in their technical needs, to free them from the discratction of such things as self-promotion and websites.  
 
+<!--more-->
+
 The [github organization](https://www.github.com/arts-link/) is where I post such things as [this theme](https://www.github.com/arts-link/ryder), and other tools. I am currently building out some services for gallery owners built on top of open-source projects for managing the back office functions of the gallery.

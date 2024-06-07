@@ -2,6 +2,7 @@
 title = 'Extreme Geomagnetic Storm Photography'
 date = 2024-05-20T17:02:40-07:00
 # draft = true
+foo = 'bar'
 tags = [
   "Photography",
   "Geomagnetic Storm",

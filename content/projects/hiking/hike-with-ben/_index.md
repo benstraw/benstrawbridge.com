@@ -8,6 +8,8 @@ type = '_default'
 Idea:
 Dog hiking service with 1/2 day outings, 4ish hrs. for $60.
 
+<!--more-->
+
 Todo:
 - Insurance
 - Scheduling with calendly?
