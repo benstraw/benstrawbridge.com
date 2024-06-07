@@ -13,6 +13,8 @@ The exact GPS coordinates for Jet Pets in Westchester, Los Angeles are:
 Latitude: 33.9575° N  
 Longitude: 118.4340° W
 
+<!--more-->
+
 Jet Pets is located at 9111 Falmouth Avenue, Playa del Rey, CA 90293.
 
 {{< leaflet id="jetpets" lat="33.95295632099991" lon="-118.4365881451951" zoom="16.5" markerLat="33.95373035244248" markerLon="-118.43425235484004" markerPopup="Jet Pets entrance" >}}

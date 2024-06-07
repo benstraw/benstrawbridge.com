@@ -20,6 +20,9 @@ homeFeatureIcon = "fa-brands fa-github"
 
 I am using [Hugo](https://www.gohugo.io) for some of the websites I have made, and I think it is pretty great. The one problem with it for many non-technical people I work with is that there is no CMS feature, they want a website administration page where they can do the usual. There are some open source headless CMS systems built for Hugo out there, but I have not had the chance to explore them yet and I don't like throwing a client on new software just to decide I don't like it in a few months, so I wanted to do something automated, but avoid having to install vscode, git, ssh-keys and etc in order to make simple edits I decided to do something with [GitHub actions](https://github.com/features/actions).
 
+
+<!--more-->
+
 Github actions have been around since around 2020 and they added a lot of bang to the CI/CD side of GitHub's offering. For this project specifically I was already using a github action to build my hugo website, and deploy it to the free [Github Pages](https://pages.github.com/) hosting. Looking at the `hugo.yaml` file for that action, I realized it was just making calls to the `hugo` executable in a container to build and deploy my site, so I thought why not try to do a new workflow that runs the `hugo new content` command. Here is my workflow file -
 
 ```yaml

@@ -13,6 +13,8 @@ The exact GPS coordinates for Del Rey Lagoon in Playa del Rey, Los Angeles are:
 Latitude: 33.9600° N
 Longitude: 118.4500° W
 
+<!--more-->
+
 These coordinates place you at Del Rey Lagoon, which is located at 6660 Esplanade Place, Playa del Rey, CA 90293
 
 {{< leaflet id="ballona-wetlands" lat="33.9600" lon="-118.4500" zoom="16.5" markerLat="33.95373035244248" markerLon="-118.43425235484004" markerPopup="Del Rey Lagoon" >}}

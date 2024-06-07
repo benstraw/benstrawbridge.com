@@ -20,6 +20,9 @@ Here are some useful partials I use in this theme.
 
 This replaces the default markup template for rendering an image when the markdown code `![Alt Text](/path/to/img.jpg)` is used. It calls another partial you have to add to your theme or layout directory in your site called ImageConverter.
 
+<!--more-->
+
+
 ```go
 {{ $image := resources.Get .Destination }}
 {{- if $image -}}

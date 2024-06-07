@@ -19,6 +19,9 @@ tags = [
 
 I made this quick and easy shortcode to get started using leaflet.js in the [Ryder Theme for Hugo Websites](https://arts-link.github.io/ryder/), as I add more features supported by leaflet to the shortcode I might update this page. 
 
+
+<!--more-->
+
 ## Steps taken
 
 - found this blog post over at [osgav.run](https://osgav.run/lab/hugo-leaflet-integration.html) which reminded me of [leafletjs](https://leafletjs.com/). I had worked on a mapping project years ago and used leaflet for it, but hadn't checked it out since around 2018.

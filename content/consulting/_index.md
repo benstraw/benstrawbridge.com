@@ -18,6 +18,8 @@ weight = 1
 
 Do you have a complex problem that can be solved by pulling data from a wide variety of public and private APIs? Do you need to create a secure and scalable internal or public API? I can help you create the best API integration for the solution you need.
 
+<!--more-->
+
 Popular solutions I love working with include -
 
 - [Auth0](https://auth0.com/), [Okta](https://developer.okta.com/docs/reference/core-okta-api/) and [AWS](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html),  for securing access to your infrastructure

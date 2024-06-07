@@ -23,17 +23,9 @@ recipeInstructions = ["..."]
 +++
 
 ## Ingredients
+{{< recipe-ingredients-list >}}
 
-- ...
+<!--more-->
 
-or 
-### Base 
-- ...
-
-## Method
-
-...
-
-## Tips
-
-... (optional)
+## Instructions
+{{< recipe-howto-steps-list >}}
