@@ -19,9 +19,12 @@ homeFeatureIcon = "fa-solid fa-scissors"
 
 For example the first jpg image in the current directory starting with the word `feature`.
 
+<!--more-->
+
 ```
 {{ $first := index (.Page.Resources.Match "feature*.jpg") 0 }}
 ```
+
 
 ## Get a param from either hugo.toml or front matter
 

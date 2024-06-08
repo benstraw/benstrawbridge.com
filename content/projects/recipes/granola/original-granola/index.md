@@ -40,12 +40,14 @@ recipeIngredients = [
   text = "put back in mixing bowl and add a cup of any dried fruits. remix"
 +++
 
+{{< picture src="granola_pre_bake.webp" title="Granola Prep" overlay="images/bs_full_wordmark.png" >}}
+
+<!--more-->
+
 ## Ingredients
 {{< recipe-ingredients-list >}}
-
-{{< picture src="granola_pre_bake.webp" title="Granola Prep" >}}
 
 ## Instructions
 {{< recipe-howto-steps-list >}}
 
-{{< picture src="granola_post_bake.webp" title="Granola Final" >}}
+{{< picture src="granola_post_bake.webp" title="Granola Final" overlay="images/bs_full_wordmark.png" >}}

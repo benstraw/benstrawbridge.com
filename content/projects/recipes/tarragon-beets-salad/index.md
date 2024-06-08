@@ -82,14 +82,16 @@ recipeIngredients = [
   text = "In a large bowl combine all the ingredients and toss vigorously, adding the dressing slowly as the beets are the main ingredient you don’t want to overpower them."
 +++
 
-This was an attempt to copy a salad from [Bristol Farms](https://www.bristolfarms.com/). I ended up modifying it quite a bit from the initial ingredients.
-
   {{< picture
     alt="With some green tomatoes on top"
     overlay="images/bs_full_wordmark.png"
     src="beets-salad.jpg"
     title="With some green tomatoes on top"
   >}}
+
+This was an attempt to copy a salad from [Bristol Farms](https://www.bristolfarms.com/). I ended up modifying it quite a bit from the initial ingredients.
+
+<!--more-->
 
 Makes about 4 qts. Lasts for over a week in the fridge.
 

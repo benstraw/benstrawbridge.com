@@ -34,13 +34,14 @@ recipeIngredients = [
   text = "Open a can of good tuna fish (best you can afford), and a can of Cream of Mushroom Soup. Combine cooked noodles, tuna, breadcrumbs in casserole. bake 30 min at 350"
 +++
 
+{{< picture src="images/moms-family-recipes-cookbook/family_recipes_04.webp" title="Tuna Noodle Bake recipe" overlay="images/bs_full_wordmark.png" >}}
+
 I love this recipe because it is so simple, can be made for under $5 and is really tasty. We used to eat this quite often when I was growing up.
+
+<!--more-->
 
 ## Ingredients
 {{< recipe-ingredients-list >}}
 
 ## Recipe
 {{< recipe-howto-steps-list >}}
-
-## The cookbook page.
-{{< picture src="images/moms-family-recipes-cookbook/family_recipes_04.webp" title="Tuna Noodle Bake recipe" >}}

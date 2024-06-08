@@ -31,11 +31,14 @@ recipeIngredients = [
   text = "Add ½ Stick butter and enough milk to mash. Use elec. beater & hand masher. Add salt & pepper."
 +++
 
+{{< picture src="images/moms-family-recipes-cookbook/family_recipes_07.webp" title="Mashies" >}}
+
 My mom loved to call mashed potatos "Mashies"
+
+<!--more-->
 
 Despite what cookbooks say, really any potatoes work, with or without peeling the skin. Some skins are thick-peel those.
 
-{{< picture src="images/moms-family-recipes-cookbook/family_recipes_07.webp" title="Mashies" >}}
 
 ## Ingredients
 {{< recipe-ingredients-list >}}

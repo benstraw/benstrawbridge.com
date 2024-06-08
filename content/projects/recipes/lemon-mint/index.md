@@ -44,9 +44,11 @@ recipeIngredients = [
   text = "Put through colander on sieve." 
 +++
 
+{{< picture src="images/moms-family-recipes-cookbook/family_recipes_03.webp" title="Aunt Mary's Lemon Mint" overlay="images/bs_full_wordmark.png" >}}
+
 My mom had a huge mint garden outside of our kitchen growing up and we would have fresh lemonmint beverage all summer long as it grew like a weed.
 
-{{< picture src="images/moms-family-recipes-cookbook/family_recipes_03.webp" title="Aunt Mary's Lemon Mint" overlay="images/bs_full_wordmark.png" >}}
+<!--more-->
 
 ## Aunt Mary's Recipe
 

@@ -1,7 +1,6 @@
 +++
 title = "All Purpose Epoxy Putty Stick"
 date = 2024-04-02T02:28:06-04:00
-categories = ["product-catalog"]
 asin = "B0B7BF3GWS"
 +++
 {{< amazon-associate-link button_label="All Purpose Epoxy Putty Stick">}}

@@ -41,11 +41,11 @@ recipeIngredients = [
   text = "Put into a Loaf pan and bake about 30 min. @ 350 degrees."
 +++
 
-Simple easy meatloaf recipe
-
 {{< picture src="images/moms-family-recipes-cookbook/family_recipes_06.webp" title="Grandma Kreider's meatloaf" >}}
 
-There are no fixed amounts here!
+Simple easy meatloaf recipe.  There are no fixed amounts here!
+
+<!--more-->
 
 ## Ingredients
 {{< recipe-ingredients-list >}}

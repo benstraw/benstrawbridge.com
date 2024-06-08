@@ -57,7 +57,8 @@ recipeIngredients = [
   text = "Let cool in pan and break apart in to clumps."
 +++
 <!-- {{< figure src="granola_post_bake_honey_olive_oil.webp" title="Granola Prep" >}} -->
-
+{{< picture src="granola_fini_lemon_chia_seed.webp" overlay="images/bs_full_wordmark.png" title="Lemon Chia Granola Final" >}}
+<!--more-->
 
 ## Ingredients
 {{< recipe-ingredients-list >}}
@@ -71,4 +72,3 @@ recipeIngredients = [
 
 Enjoy alone, or mixed with fruit and yogurt, or milk as cereal
 
-{{< picture src="granola_fini_lemon_chia_seed.webp" overlay="images/bs_full_wordmark.png" title="Lemon Chia Granola Final" >}}

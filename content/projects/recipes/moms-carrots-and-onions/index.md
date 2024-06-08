@@ -29,7 +29,9 @@ recipeIngredients = [
   text = "Put oil in the same pan (now empty). Add ½ thin sliced onion. Saute until Soft & browning. Add cooked carrots to onion pan. Cook together briefly."
 +++
 
-{{< figure src="images/moms-family-recipes-cookbook/family_recipes_08.webp" title="Mom's Carrots and Onions" >}}
+{{< picture src="images/moms-family-recipes-cookbook/family_recipes_08.webp" title="Mom's Carrots and Onions" overlay="images/bs_full_wordmark.png" >}}
+
+<!--more-->
 
 ## Ingredients
 {{< recipe-ingredients-list >}}

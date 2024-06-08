@@ -29,6 +29,8 @@ recipeIngredients = [
 
 {{< recipe-ingredients-list >}}
 
+<!--more-->
+
 ## Instructions 
 
 {{< recipe-howto-steps-list >}}

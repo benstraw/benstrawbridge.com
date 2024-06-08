@@ -30,10 +30,11 @@ recipeIngredients = [
   name = "heat"
   text = "Heat oil in fry pan then add onions + potatos, smash with spatula. add lots & pepper & some salt last."
 +++
+{{< picture src="images/moms-family-recipes-cookbook/family_recipes_07.webp" title="Dad's Home Fried Potatoes" >}}
 
 My dad would make these for big family breakfasts on the weekend
 
-{{< picture src="images/moms-family-recipes-cookbook/family_recipes_07.webp" title="Dad's Home Fried Potatoes" >}}
+<!--more-->
 
 ## Ingredients
 {{< recipe-ingredients-list >}}

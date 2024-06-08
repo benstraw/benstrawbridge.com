@@ -28,6 +28,8 @@ recipeIngredients = [
 
 For best results use **FRESH CORN**
 
+<!--more-->
+
 Of course, in July and Angust fresh corn from a field is best just off the cob, boiled about 3 min.
 
 BUT, if you buy extra, cut the corn off the cob, put directly into plastic containers or freezer bags & FREEZE. Come Thanksgiving, Christmas, or other festive occasion - Make **CREAMED CORN**:
