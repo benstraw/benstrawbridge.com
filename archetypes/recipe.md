@@ -4,9 +4,9 @@ date = {{ .Date }}
 draft = true
 # summary = ""
 categories = ["recipe"]
-tags = [
-  ""
-  ]
+# tags = [
+#   ""
+#   ]
 # featured_image = ""
 # homeFeatureIcon = "fa-solid fa-kitchen-set"
 # showTOC = true
