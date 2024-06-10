@@ -5,7 +5,7 @@ languageCode = 'en-us'
 summaryLength = 100
 enableEmoji = true
 enableGitInfo = true
-paginate = 12
+paginate = 36 
 theme = 'ryder-dev'
 timeZone = "America/Los_Angeles"
 title = "Ben Strawbridge Dot Com Consulting"
@@ -31,7 +31,7 @@ copyright = '<i class="fa-regular fa-copyright"></i>  2024 benstrawbridge.com'
     name = 'Ben Strawbridge'
   [params.twClasses]
     headerBackgroundFrameOuter = "bg-gradient-to-r to-sky-300 from-indigo-300 dark:from-violet-950 dark:to-rose-950 border-b border-fuchsia-600 text-violet-950 dark:text-neutral-100"
-    headerBackgroundFrameInner = "bg-header-mdr-channel dark:bg-header-artist-date-two h-[600px] sm:h-[250px] bg-cover bg-left bg-center dark:bg-top"
+    headerBackgroundFrameInner = "bg-header-mdr-channel dark:bg-header-artist-date-two h-[200px] sm:h-[250px] bg-cover bg-left bg-center dark:bg-top"
     # footerBackground = "bg-gradient-to-r from-violet-950 to-rose-950 border-fuchsia-600" 
     # navbar_fixed = "sticky top-0"
   [params.footer]

@@ -4,7 +4,6 @@ date = 2024-05-06T14:38:54-07:00
 # draft = true
 categories = ['recipes']
 tags = ["family recipes"]
-weight = 40
 
 recipe = true
 recipeCuisine = "American"
@@ -30,7 +29,11 @@ recipeIngredients = [
   name = "heat"
   text = "Heat oil in fry pan then add onions + potatos, smash with spatula. add lots & pepper & some salt last."
 +++
-{{< picture src="images/moms-family-recipes-cookbook/family_recipes_07.webp" title="Dad's Home Fried Potatoes" >}}
+{{< picture 
+  alt="Dad's Home Fried Potatoes"
+  src="images/moms-family-recipes-cookbook/family_recipes_07.webp"
+  title="Dad's Home Fried Potatoes"
+>}}
 
 My dad would make these for big family breakfasts on the weekend
 

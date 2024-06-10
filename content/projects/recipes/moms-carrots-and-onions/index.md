@@ -3,8 +3,7 @@ title = "Mom's Carrots and Onions"
 date = 2024-05-14T15:50:33-07:00
 # draft = true
 categories = ['recipes']
-tags = ["family recipes"]
-weight = 60
+tags = ["family recipes","budget"]
 
 recipe = true
 recipeCuisine = "Side"
@@ -14,7 +13,8 @@ totalTime = "PT20M"
 recipeYield = "4"
 calories = 70
 ingredients = [
-  "Carrots"
+  "Carrots",
+  "Onions"
 ]
 recipeIngredients = [
   "3 carrots",
@@ -29,9 +29,15 @@ recipeIngredients = [
   text = "Put oil in the same pan (now empty). Add ½ thin sliced onion. Saute until Soft & browning. Add cooked carrots to onion pan. Cook together briefly."
 +++
 
-{{< picture src="images/moms-family-recipes-cookbook/family_recipes_08.webp" title="Mom's Carrots and Onions" overlay="images/bs_full_wordmark.png" >}}
+{{< picture 
+  alt="Mom's Carrots and Onions" 
+  src="images/moms-family-recipes-cookbook/family_recipes_08.webp" 
+  title="Mom's Carrots and Onions" 
+  overlay="images/bs_full_wordmark.png" 
+>}}
 
 <!--more-->
+
 
 ## Ingredients
 {{< recipe-ingredients-list >}}

@@ -5,7 +5,12 @@ date = 2024-04-15T14:21:28-07:00
 +++
 
 ## Private open space that allows dogs
-{{< picture src="jet-pets_featured.webp" title="The Jet Pets sign by the entrance" overlay="images/bs_full_wordmark.png" >}}
+{{< picture 
+  alt="The Jet Pets sign by the entrance"
+  src="jet-pets_featured.webp"
+  title="The Jet Pets sign by the entrance"
+  overlay="images/bs_full_wordmark.png"
+ >}}
 
 Jet Pets is an animal transportation company located in Playa Del Rey very close to LAX. They have a large field on their property that is fenced in and they keep it open most days and allow you to walk your dog there.
 

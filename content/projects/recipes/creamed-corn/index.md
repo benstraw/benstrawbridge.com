@@ -24,7 +24,11 @@ recipeIngredients = [
   text = "Put your frozen corn in a pot with 2-3 Tblsp butter with a little cream or Half is Half to moisten. Heat to to just bubbling & serve."
 +++
 
-{{< picture src="images/moms-family-recipes-cookbook/family_recipes_09.webp" title="Aunt Mary's Creamed Corn" >}}
+{{< picture 
+  alt="Aunt Mary's Creamed Corn"
+  src="images/moms-family-recipes-cookbook/family_recipes_09.webp"
+  title="Aunt Mary's Creamed Corn"
+ >}}
 
 For best results use **FRESH CORN**
 

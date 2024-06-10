@@ -12,6 +12,12 @@ cookTime = "PT5M"
 totalTime = "PT10M"
 recipeYield = "1 Cup"
 calories = 70
+ingredients = [
+  "beets",
+  "apple",
+  "mango",
+  "banana"
+]
 recipeIngredients = [
   "1 medium beet cut into 1 inch cubes",
   "1 apple cut into 1 inch cubes",

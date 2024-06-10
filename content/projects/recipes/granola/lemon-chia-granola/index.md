@@ -48,7 +48,7 @@ recipeIngredients = [
 [[recipeInstructions]]
   name = "press"
   text = "Remove from oven, put dried fruit on top and cover with another sheet of parchment paper and another pan on top to add weight (if desired for a more clumpy result)."
-  image = "granola_post_bake_honey_olive_oil.webp"
+  image = "images/recipes/granola/granola_post_bake_honey_olive_oil.webp"
 [[recipeInstructions]]
   name = "zest"
   text = "Add zest from second lemon."
@@ -57,7 +57,11 @@ recipeIngredients = [
   text = "Let cool in pan and break apart in to clumps."
 +++
 <!-- {{< figure src="granola_post_bake_honey_olive_oil.webp" title="Granola Prep" >}} -->
-{{< picture src="granola_fini_lemon_chia_seed.webp" overlay="images/bs_full_wordmark.png" title="Lemon Chia Granola Final" >}}
+{{< picture 
+  src="images/recipes/granola/granola_fini_lemon_chia_seed.webp"
+  overlay="images/bs_full_wordmark.png"
+  title="Lemon Chia Granola Final"
+>}}
 <!--more-->
 
 ## Ingredients

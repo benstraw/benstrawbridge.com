@@ -15,9 +15,8 @@ totalTime = "PT25M"
 recipeYield = "4 Pitchers"
 calories = 70
 ingredients = [
-  "herbs",
-  "fruit",
-  "sugar"
+  "mint",
+  "lemon"
 ]
 recipeIngredients = [
   "Fresh mint",
@@ -44,7 +43,12 @@ recipeIngredients = [
   text = "Put through colander on sieve." 
 +++
 
-{{< picture src="images/moms-family-recipes-cookbook/family_recipes_03.webp" title="Aunt Mary's Lemon Mint" overlay="images/bs_full_wordmark.png" >}}
+{{< picture 
+  alt="Aunt Mary's Lemon Mint" 
+  src="images/moms-family-recipes-cookbook/family_recipes_03.webp"
+  title="Aunt Mary's Lemon Mint" 
+  overlay="images/bs_full_wordmark.png" 
+>}}
 
 My mom had a huge mint garden outside of our kitchen growing up and we would have fresh lemonmint beverage all summer long as it grew like a weed.
 
@@ -63,4 +67,9 @@ In summer when mint grows like a ton it will weed (ALWAYS grow it in a pot or it
 ## Make beverage
 Now you can make your tasty refreshing beverage anytime with 1/2 concentrate and 1/2 ice water.
 
-{{< picture src="lemon-mint-concentrate.webp" title="The final lemon mint concentrate" >}}
+{{< picture 
+  alt="The final lemon mint concentrate" 
+  overlay="images/bs_full_wordmark.png" 
+  src="lemon-mint-concentrate.webp" 
+  title="The final lemon mint concentrate" 
+>}}

@@ -5,7 +5,6 @@ date = 2024-05-06T14:24:29-07:00
 homeFeatureIcon = "fa-solid fa-bread-slice"
 categories = ['recipes']
 tags = ["family recipes", "budget"]
-weight = 30
 
 recipe = true
 recipeCuisine = "American"
@@ -16,7 +15,10 @@ recipeYield = "4 Servings"
 calories = 550 
 ingredients = [
   "beef",
-  "eggs"
+  "eggs",
+  "oats",
+  "mushrooms",
+  "onions"
 ]
 recipeIngredients = [
 "1 1/2lb+ ground beef",
@@ -41,7 +43,11 @@ recipeIngredients = [
   text = "Put into a Loaf pan and bake about 30 min. @ 350 degrees."
 +++
 
-{{< picture src="images/moms-family-recipes-cookbook/family_recipes_06.webp" title="Grandma Kreider's meatloaf" >}}
+{{< picture 
+  alt="Grandma Kreider's meatloaf" 
+  src="images/moms-family-recipes-cookbook/family_recipes_06.webp"
+  title="Grandma Kreider's meatloaf" 
+>}}
 
 Simple easy meatloaf recipe.  There are no fixed amounts here!
 

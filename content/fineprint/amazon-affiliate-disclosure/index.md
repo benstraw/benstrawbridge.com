@@ -54,3 +54,7 @@ If you have any questions or concerns about our use of affiliate links or our re
 ## Conclusion
 
 Thank you for visiting Ben Strawbridge Dot Com Consulting. Your trust and support are vital to us, and we are dedicated to maintaining a high standard of transparency and integrity. By using our affiliate links, you are directly contributing to the growth and sustainability of our website. We appreciate your readership and support.
+
+## In Addition
+
+Amazon and the Amazon logo are trademarks of Amazon.com, Inc. or its affiliates.

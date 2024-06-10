@@ -31,7 +31,12 @@ recipeIngredients = [
   text = "Add ½ Stick butter and enough milk to mash. Use elec. beater & hand masher. Add salt & pepper."
 +++
 
-{{< picture src="images/moms-family-recipes-cookbook/family_recipes_07.webp" title="Mashies" >}}
+{{< picture 
+  alt="Mashies" 
+  overlay="images/bs_full_wordmark.png" 
+  src="images/moms-family-recipes-cookbook/family_recipes_07.webp" 
+  title="Mashies" 
+>}}
 
 My mom loved to call mashed potatos "Mashies"
 
