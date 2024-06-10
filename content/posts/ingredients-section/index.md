@@ -3,7 +3,7 @@ title = 'Ingredients Section'
 date = 2024-06-05T00:11:09-07:00
 # draft = true
 # summary = ""
-categories = [""]
+# categories = [""]
 tags = [
   "Hugo",
   "Recipe Template",

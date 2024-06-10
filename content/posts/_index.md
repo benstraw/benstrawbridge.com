@@ -7,6 +7,7 @@ listRecursive = true
   categories = ["posts"]
   homeFeatureIcon = "fa-solid fa-signs-post"
   showToc = true
+  cardCategoryColorsDefault = "bg-blue-300"
 [menu]
  [menu.main]
   weight = 12

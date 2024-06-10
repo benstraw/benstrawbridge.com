@@ -3,7 +3,7 @@ title = 'Mushrooms'
 date = 2024-05-29T23:24:31-07:00
 # draft = true
 # summary = ""
-categories = [""]
+# categories = [""]
 tags = [
   "Photography"
 ]

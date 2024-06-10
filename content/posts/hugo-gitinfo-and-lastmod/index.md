@@ -3,7 +3,7 @@ title = 'Hugo Gitinfo and Lastmod'
 date = 2024-06-07T09:43:00-07:00
 draft = true
 # summary = ""
-categories = [""]
+# categories = [""]
 tags = [
   "Hugo",
   "GitInfo"

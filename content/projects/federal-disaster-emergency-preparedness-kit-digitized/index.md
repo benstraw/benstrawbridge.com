@@ -3,7 +3,7 @@ title = 'Federal Disaster Emergency Preparedness Kit Digitized'
 date = 2024-06-08T11:57:29-07:00
 draft = true
 # summary = ""
-categories = [""]
+# categories = [""]
 tags = [
   ""
   ]

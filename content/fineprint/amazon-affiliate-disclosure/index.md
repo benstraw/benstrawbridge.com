@@ -3,7 +3,7 @@ title = 'Amazon Affiliate Disclosure'
 date = 2024-06-05T15:45:41-07:00
 # draft = true
 # summary = ""
-categories = [""]
+# categories = [""]
 tags = [
   "Amazon Associates Program"
   ]

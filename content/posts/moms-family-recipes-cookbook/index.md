@@ -12,9 +12,8 @@ photoGalleryTitle = 'Every Page of the Cookbook'
 [[cascade]]
   featured_image = "images/moms-family-recipes-cookbook/family_recipes_0.webp"
   logo_tagline = "FAMILY RECIPES"
-  [cascade.twClasses]
-    # headerBackgroundFrameInner = "bg-[url('/projects/recipes/moms-family-recipes-cookbook/family_recipes_0.webp')] bg-cover h-[250px]"
 +++
+
 {{< picture 
   src="images/moms-family-recipes-cookbook/family_recipes_12.webp"
   title="Be Inspired"
