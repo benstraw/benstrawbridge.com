@@ -2,6 +2,8 @@
 title = '{{ replace .File.ContentBaseName "-" " " | title }}'
 date = {{ .Date }}
 draft = true
+# I like this by default now... keeps the page full width with tags below.
+hideAsideBar = true
 # summary = ""
 categories = ["recipe"]
 # tags = [
@@ -29,3 +31,5 @@ recipeInstructions = ["..."]
 
 ## Instructions
 {{< recipe-howto-steps-list >}}
+
+{{< alert-wrapper alertType="info" alertTitle="View the Full Book" alertMessage="Check out every page of the cookbook over at the original post." alertCTA="/posts/moms-family-recipes-cookbook/" >}}

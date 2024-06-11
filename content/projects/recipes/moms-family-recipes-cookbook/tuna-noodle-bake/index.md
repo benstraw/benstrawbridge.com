@@ -2,6 +2,7 @@
 title = 'Tuna Noodle Bake'
 date = 2024-04-24T23:41:16-07:00
 # draft = true
+hideAsideBar = true
 homeFeatureIcon = "fa-solid fa-fish-fins"
 categories = ['recipes']
 tags = ["family recipes", "budget"]
@@ -49,3 +50,5 @@ I love this recipe because it is so simple, can be made for under $5 and is real
 
 ## Recipe
 {{< recipe-howto-steps-list >}}
+
+{{< alert-wrapper alertType="info" alertTitle="View the Full Book" alertMessage="Check out every page of the cookbook over at the original post." alertCTA="/posts/moms-family-recipes-cookbook/" >}}

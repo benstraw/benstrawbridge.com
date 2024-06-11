@@ -2,6 +2,7 @@
 title = "Aunt Mary's Creamed Corn"
 date = 2024-05-14T15:58:00-07:00
 # draft = true
+hideAsideBar = true
 categories = ["recipes"]
 tags = ["family recipes"]
 recipe = true
@@ -43,3 +44,6 @@ BUT, if you buy extra, cut the corn off the cob, put directly into plastic conta
 
 ## Instructions
 {{< recipe-howto-steps-list >}}
+
+{{< alert-wrapper alertType="info" alertTitle="View the Full Book" alertMessage="Check out every page of the cookbook over at the original post." alertCTA="/posts/moms-family-recipes-cookbook/" >}}
+

@@ -5,7 +5,8 @@ date = 2024-05-29T23:24:31-07:00
 # summary = ""
 # categories = [""]
 tags = [
-  "Photography"
+  "Photography",
+  "ingredients"
 ]
 featured_image = "oyster_feature.jpg"
 homeFeatureIcon = "fa-solid fa-dragon"

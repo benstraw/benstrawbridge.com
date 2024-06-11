@@ -1,24 +1,29 @@
 +++
-title = 'Ingredients'
+title = 'Featured Ingredients'
 date = 2024-05-29T22:58:56-07:00
 paginate = 72
 # draft = true
 # summary = ""
 # categories = [""]
 tags = [
-  ""
+  "ingredients"
   ]
 # featured_image = ""
 # showTOC = true
 
 [cascade]
   sectionTitle = "Recipe Ingredients on BenStrawbridge.com"
-  homeFeatureIcon = "fa-solid fa-dragon"
+  homeFeatureIcon = "fa-solid fa-wheat-awn"
 +++
 
-Here's a little story I got to tell, about three fly brothers you know so well. It started way back in history, with Ad-Rock, MCA and me, Mike D.
+  {{< picture
+    alt="A Summer Bounty"
+    overlay="images/bs_full_wordmark.png"
+    src="smorgasboard_feature.jpg"
+    title="A Summer Bounty"
+  >}}
 
-This section will list all of the ingredients that were tagged in the recipes as main, or featured ingredients. Each page will some details about the ingredient and some of my photos of the best examples I could find.
+Ingredients that have been tagged in recipes as featured ingredients are listed below. Find all of the recipes using these ingredients on each page. See photographs and learn more about these items.
 
 <!--more-->
 

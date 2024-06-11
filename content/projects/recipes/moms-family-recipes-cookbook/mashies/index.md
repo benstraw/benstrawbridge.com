@@ -2,6 +2,7 @@
 title = 'Mashies'
 date = 2024-05-06T14:43:16-07:00
 # draft = true
+hideAsideBar = true
 categories = ['recipes']
 tags = ["family recipes"]
 weight = 50
@@ -50,3 +51,5 @@ Despite what cookbooks say, really any potatoes work, with or without peeling th
 
 ## Instructions
 {{< recipe-howto-steps-list >}}
+
+{{< alert-wrapper alertType="info" alertTitle="View the Full Book" alertMessage="Check out every page of the cookbook over at the original post." alertCTA="/posts/moms-family-recipes-cookbook/" >}}

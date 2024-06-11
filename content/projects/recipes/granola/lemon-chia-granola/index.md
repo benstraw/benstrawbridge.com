@@ -71,6 +71,8 @@ recipeIngredients = [
 ## Instructions
 {{< recipe-howto-steps-list >}}
 
+{{< alert-wrapper alertType="info" alertTitle="View the Full Book" alertMessage="Check out every page of the cookbook over at the original post." alertCTA="/posts/moms-family-recipes-cookbook/" >}}
+
 
 ## Enjoy
 

@@ -2,6 +2,7 @@
 title = 'Dads Home Fried Potatoes'
 date = 2024-05-06T14:38:54-07:00
 # draft = true
+hideAsideBar = true
 categories = ['recipes']
 tags = ["family recipes"]
 
@@ -44,3 +45,5 @@ My dad would make these for big family breakfasts on the weekend
 
 ## Recipe
 {{< recipe-howto-steps-list >}}
+
+{{< alert-wrapper alertType="info" alertTitle="View the Full Book" alertMessage="Check out every page of the cookbook over at the original post." alertCTA="/posts/moms-family-recipes-cookbook/" >}}

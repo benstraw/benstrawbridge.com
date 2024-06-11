@@ -2,6 +2,7 @@
 title = "Grandma Kreider's Meatloaf"
 date = 2024-05-06T14:24:29-07:00
 # draft = true
+hideAsideBar = true
 homeFeatureIcon = "fa-solid fa-bread-slice"
 categories = ['recipes']
 tags = ["family recipes", "budget"]
@@ -58,3 +59,5 @@ Simple easy meatloaf recipe.  There are no fixed amounts here!
 
 ## Recipe
 {{< recipe-howto-steps-list >}}
+
+{{< alert-wrapper alertType="info" alertTitle="View the Full Book" alertMessage="Check out every page of the cookbook over at the original post." alertCTA="/posts/moms-family-recipes-cookbook/" >}}

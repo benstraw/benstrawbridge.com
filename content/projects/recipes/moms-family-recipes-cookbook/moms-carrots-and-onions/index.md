@@ -2,6 +2,7 @@
 title = "Mom's Carrots and Onions"
 date = 2024-05-14T15:50:33-07:00
 # draft = true
+hideAsideBar = true
 categories = ['recipes']
 tags = ["family recipes","budget"]
 
@@ -44,3 +45,5 @@ recipeIngredients = [
 
 ## Instructions
 {{< recipe-howto-steps-list >}}
+
+{{< alert-wrapper alertType="info" alertTitle="View the Full Book" alertMessage="Check out every page of the cookbook over at the original post." alertCTA="/posts/moms-family-recipes-cookbook/" >}}

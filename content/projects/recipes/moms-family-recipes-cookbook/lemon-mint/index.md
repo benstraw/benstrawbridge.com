@@ -2,6 +2,7 @@
 title = "Aunt Mary's LemonMint"
 date = 2024-04-24T23:15:52-07:00
 # draft = true
+hideAsideBar = true
 homeFeatureIcon = "fa-brands fa-pagelines"
 categories = ['recipes']
 tags = ["family recipes"]
@@ -73,3 +74,5 @@ Now you can make your tasty refreshing beverage anytime with 1/2 concentrate and
   src="lemon-mint-concentrate.webp" 
   title="The final lemon mint concentrate" 
 >}}
+
+{{< alert-wrapper alertType="info" alertTitle="View the Full Book" alertMessage="Check out every page of the cookbook over at the original post." alertCTA="/posts/moms-family-recipes-cookbook/" >}}

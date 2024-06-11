@@ -36,14 +36,21 @@ sectionTitle = "Link Graveyard on BenStrawbridge.com"
 
 - [arts-link.com](https://www.arts-link.com/)
 - [format magazine](https://www.format.com/)
+- [bestand.org](https://bestand.org/)
+> ASSOCIATION FOR THE MEDIATION AND PROMOTION OF MUSIC, ART AND CULTURE
+
 
 ### Portfolio sites
 
-- [Matthew W Harris](https://www.matthewharriscloth.co.uk/see/)
+> A changing list of artist portfolio sites I enjoy
+
 - [Louise Strawbridge](https://www.louisestrawbridge.com/)
+- [Matthew W Harris](https://www.matthewharriscloth.co.uk/see/)
 - [Matthew Cassman](https://danielcassman.com/portfolio/)
-- (https://pixelfed.org/)
+- [pixelfed](https://pixelfed.org/)
 - [The second version arts-link.com, circa 2002](https://web.archive.org/web/20020220112908/http://www.arts-link.com:80/)
+- [Olsson Barbieri](https://olssonbarbieri.com/studio)
+- [seungmee lee](https://www.seungmee-lee.com/)
 
 ## Code
 
