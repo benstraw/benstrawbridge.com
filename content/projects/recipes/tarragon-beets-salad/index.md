@@ -7,7 +7,7 @@ tags = [
   'vegan'
   ]
 categories = ['recipes']
-aliases = ['/recipes/taragon-beets-salad/']
+# aliases = ['/recipes/taragon-beets-salad/']
 featured_image = "beets-salad.jpg"
 showTOC = true
 
