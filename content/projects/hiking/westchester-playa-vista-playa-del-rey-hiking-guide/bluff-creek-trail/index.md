@@ -3,17 +3,18 @@ title = 'Bluff Creek Trail'
 date = 2024-04-15T14:20:02-07:00
 # draft = true
 # hideAsideBar = true
-latitude = "123.4567890"
-longitude = "98.7654321"
-+++
 
-{{< lat-long-box >}}
+latitude = "33.975355717523726"
+longitude = "-118.4119859814751"
++++
 
 ## AKA LMU Trail, AKA Westchester fireroad trail.
 
+{{< lat-long-box >}}
+
 The Bluff Creek trail is a nice mostly flat partially paved/dirt path that traverses the bluff just under LMU. Recommended as a loop with a couple mile trail and then couple miles walking in Playa Vista through Oberrieder park.
 
-{{< leaflet id="bluff-creek-trail" lat="33.95295632099991" lon="-118.4365881451951" zoom="16.5" markerLat="33.95373035244248" markerLon="-118.43425235484004" markerPopup="Jet Pets entrance" >}}
+{{< leaflet id="bluff-creek-trail" lat="33.97400732775669" lon="-118.41691532108625" zoom="14.5"  markerPopup="Bluff Creek Trail" >}}
 
 <!--more-->
 
