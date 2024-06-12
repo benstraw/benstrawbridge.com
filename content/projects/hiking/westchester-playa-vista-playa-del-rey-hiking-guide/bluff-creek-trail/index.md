@@ -14,11 +14,11 @@ zoom = "14.5"
 
 {{< lat-long-box >}}
 
+{{< leaflet id="bluff-creek-trail" lat="33.97200" lon="-118.41291" zoom="14.5"  markerLat="33.97400" markerLon="-118.4105"  markerPopup="Dunbarton entrance to the Bluff Creek Trail" divHeight="450px" >}}
+
 The Bluff Creek trail is a nice mostly flat partially paved/dirt path that traverses the bluff just under LMU. Recommended as a loop with a couple mile trail and then couple miles walking in Playa Vista through Oberrieder park.
 
 <!--more-->
-
-{{< leaflet id="bluff-creek-trail" lat="33.97200" lon="-118.41291" zoom="14.5"  markerLat="33.97400" markerLon="-118.4105"  markerPopup="Dunbarton entrance to the Bluff Creek Trail" divHeight="450px" >}}
 
 The Bluff Creek Trail is a 4-mile loop that can be accessed from three locations:
 
