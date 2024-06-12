@@ -19,6 +19,6 @@ This part of Los Angeles has a lot of surprisingly remote feeling hikes. Located
 Join alltrails using this link and they will plant 2 trees after you join.  
 {{< alltrails-referral-link >}}
 
-{{< leaflet id="map1" lat="33.966613" lon="-118.426178" zoom="13.5" markerLat="33.9716" markerLon="-118.4363" markerPopup="Green Space right by LAX!" >}}
-
 <!--more-->
+
+{{< leaflet id="map1" lat="33.966613" lon="-118.426178" zoom="13.5" markerLat="33.9716" markerLon="-118.4363" markerPopup="Green Space right by LAX!" >}}

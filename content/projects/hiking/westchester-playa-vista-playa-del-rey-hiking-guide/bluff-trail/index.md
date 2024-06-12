@@ -11,8 +11,8 @@ zoom = "14.5"
 
 {{< lat-long-box >}}
 
-{{< leaflet id="bluff-trail" lat="33.9658" lon="-118.42729" zoom="16.5" divHeight="350px" >}}
-
 A short 1.5 mile trail located just west of LMU along the bluff beside the One Westbluff neighborhood. This trail has views of the ocean, the marina and the Ballonas Ecological Preserve.
 
 <!--more-->
+
+{{< leaflet id="bluff-trail" lat="33.9658" lon="-118.42729" zoom="16.5" divHeight="350px" >}}
