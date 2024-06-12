@@ -1,7 +1,7 @@
 +++
 title = 'Federal Disaster Emergency Preparedness Kit Digitized'
 date = 2024-06-08T11:57:29-07:00
-draft = true
+# draft = true
 # summary = ""
 # categories = [""]
 tags = [
@@ -54,7 +54,7 @@ Options:
   <span class="text-6xl text-indigo-300">https://</span><i class="block text-6xl text-indigo-300 fa-regular fa-folder-open"></i>
 </div>
 {{< /pass >}}
-- [256-Bit Hardware-Encrypted USB 3.2 Type C Flash Drive, FIPS 140-3 Level 3 Validated]({{< relref "/projects/product-marketing/catalog/apricorn-128gb-aegis-secure-key-3-nxc" >}})
+- [256-Bit Hardware-Encrypted USB 3.2 Type C Flash Drive, FIPS 140-3 Level 3 Validated]({{< relref "/projects/product-marketing/catalog/Apricorn-128GB-Aegis-Secure-Key-3-NXC" >}})
 
 ## Digital Wallet
 

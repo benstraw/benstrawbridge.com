@@ -3,6 +3,7 @@ defaultContentLanguage = 'en'
 enableRobotsTXT = true
 languageCode = 'en-us'
 summaryLength = 100
+timeout = "60s"
 enableEmoji = true
 enableGitInfo = true
 paginate = 36 
