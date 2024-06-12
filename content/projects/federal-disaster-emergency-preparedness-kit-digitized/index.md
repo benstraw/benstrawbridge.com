@@ -14,7 +14,7 @@ tags = [
 
 ## Digital Federal Financial First Aid Kit (EFFAK)
 
-{{< figure class="w-1/4" src="https://www.fema.gov/profiles/femad8_gov/themes/fema_uswds/images/fema-logo-blue.svg"  title="Digital Federal Financial First Aid Kit" alt="Digital Federal Financial First Aid Kit" >}}
+{{< figure class="md:w-1/4" src="https://www.fema.gov/profiles/femad8_gov/themes/fema_uswds/images/fema-logo-blue.svg"  title="Digital Federal Financial First Aid Kit" alt="Digital Federal Financial First Aid Kit" >}}
 
 Be prepared for the worst case scenario with an encrypted grab and go device the size of bic lighter.
 
