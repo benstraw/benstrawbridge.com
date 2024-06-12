@@ -3,7 +3,7 @@ title = 'Oberrieder Park'
 date = 2024-04-16T10:58:27-07:00
 # draft = true
 [maps]
-lat = "33.97186"
+lat = "33.9718"
 lon = "-118.42061"
 zoom = "14.5"
 +++
