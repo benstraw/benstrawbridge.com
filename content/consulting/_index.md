@@ -2,7 +2,7 @@
 title = 'Consulting'
 date = 2024-02-14T15:16:41-08:00
 # draft = true
-homeFeature = true
+# homeFeature = true
 homeFeatureIcon = "fa-solid fa-jedi"
 homeFeatureSummary = "Offering comprehensive consulting services including API integration projects, product management, and full stack application development, tailored to solve complex problems and enhance business operations efficiently and effectively."
 weight = 1

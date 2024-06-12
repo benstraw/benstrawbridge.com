@@ -2,19 +2,21 @@
 title = 'Bluff Creek Trail'
 date = 2024-04-15T14:20:02-07:00
 # draft = true
-# hideAsideBar = true
+hideAsideBar = true
 
-latitude = "33.975355717523726"
-longitude = "-118.4119859814751"
+[maps]
+lat = "33.9753"
+lon = "-118.4119"
+zoom = "14.5"
 +++
 
 ## AKA LMU Trail, AKA Westchester fireroad trail.
 
 {{< lat-long-box >}}
 
-The Bluff Creek trail is a nice mostly flat partially paved/dirt path that traverses the bluff just under LMU. Recommended as a loop with a couple mile trail and then couple miles walking in Playa Vista through Oberrieder park.
+{{< leaflet id="bluff-creek-trail" lat="33.97200" lon="-118.41291" zoom="14.5"  markerLat="33.97400" markerLon="-118.4105"  markerPopup="Dunbarton entrance to the Bluff Creek Trail" divHeight="450px" >}}
 
-{{< leaflet id="bluff-creek-trail" lat="33.97400732775669" lon="-118.41691532108625" zoom="14.5"  markerPopup="Bluff Creek Trail" >}}
+The Bluff Creek trail is a nice mostly flat partially paved/dirt path that traverses the bluff just under LMU. Recommended as a loop with a couple mile trail and then couple miles walking in Playa Vista through Oberrieder park.
 
 <!--more-->
 
@@ -37,10 +39,9 @@ There is a lower trail that is closed due to the bird migration season. While it
 ## Scenic Highlights
 
 This is a classic Southern California trail with diverse scenic views:
-- **Snow-Covered Mountains**: Visible on one side.
-- **The Ocean**: Visible on the other side.
+- **Snow-Covered Mountains**: Visible on one side with **The Ocean** visible on the other side.
 - **Hollywood Sign**: Can be seen at one point.
-- **Mount Wilson and Towers**: Possibly visible with a zoom lens or very good eyesight.
+- **Mount Wilson and the Radio Towers**: Possibly visible with a zoom lens or very good eyesight.
 - **Landmarks**: Various parts of Miracle Mile, Santa Monica, Marina del Rey, and even Downtown Los Angeles (though Playa Vista is very close by).
 
 Along the trail, you will pass by notable sites such as:

@@ -13,9 +13,9 @@ tags = [
 # https://www.benstrawbridge.com/projects/ironcove-orchestration-engine/
 aliases = ["/projects/ironcove-orchestration-engine/"]
 # weight = 10
-homeFeature = true
+# homeFeature = true
 homeFeatureIcon = "fas fa-code-compare"
-homeFeatureTitle = "IronCove OE"
+homeFeatureTitle = "IronCove Solutions OE"
 # homeFeatureSummary = "Ironcove Solutions’ Orchestration Engine revolutionizes workforce onboarding with seamless API integration, customizable forms, and automated processes, enhancing efficiency and user experience in collaboration with Ironcove Solutions."
 showTOC = true
 +++

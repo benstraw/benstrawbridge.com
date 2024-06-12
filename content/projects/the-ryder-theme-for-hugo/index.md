@@ -11,7 +11,7 @@ tags = [
 ]
 weight = 20
 featured_image = "ryder-theme-og.jpg"
-homeFeature = true
+# homeFeature = true
 homeFeatureIcon = "fa-solid fa-dog"
 homeFeatureTitle = "The Ryder Theme"
 +++

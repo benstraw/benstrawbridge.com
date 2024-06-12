@@ -23,7 +23,6 @@ Longitude: 75.1665° W -->
 
 I made this quick and easy shortcode to get started using leaflet.js in the [Ryder Theme for Hugo Websites](https://arts-link.github.io/ryder/), as I add more features supported by leaflet to the shortcode I might update this page. 
 
-
 <!--more-->
 
 ## Steps taken
