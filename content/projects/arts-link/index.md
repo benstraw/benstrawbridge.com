@@ -8,7 +8,7 @@ tags = [
 ]
 +++
 
-{{< alert-wrapper alertType="info" alertIconClass="fa-solid fa-heart-pulse" alertTitle="In Active Development" alertMessage="Is arts-link.com a business?, a collective?, a gallery?... we're not sure, but we are going to try to find out!" >}}
+{{< alert-wrapper alertType="info" alertIconClass="fa-solid fa-heart-pulse" alertTitle="In Active Development" alertMessage="Is arts-link.com a business?, a collective?, a gallery?... we're not sure, but we are trying hard to get that figured out!" >}}
 
 https://www.arts-link.com is the first domain I ever purchased. I believe it was around 2001. It has been various different websites throughout the years, including not a web-site at all. In this rendition it is an organization which is set up to support artists in their technical needs, to free them from the discratction of such things as self-promotion and websites.  
 

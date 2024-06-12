@@ -10,7 +10,7 @@ lon = "-118.4119"
 zoom = "14.5"
 +++
 
-## AKA LMU Trail, AKA Westchester fireroad trail.
+## AKA LMU Trail, AKA Westchester fireroad trail
 
 {{< lat-long-box >}}
 

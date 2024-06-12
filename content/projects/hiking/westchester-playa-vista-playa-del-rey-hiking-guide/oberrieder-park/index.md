@@ -15,6 +15,3 @@ lon = "-118.42061"
 Oberrieder Park includes a dog park, a basketball court, a paddle tennis court, picnic tables with grills, and a beautiful walking path along a wetland with views of the bluffs under LMU.
 
 <!--more-->
-
-## This map shows the dog park.
- 

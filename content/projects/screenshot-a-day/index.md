@@ -1,12 +1,18 @@
 +++
 title = 'Screenshot-a-Day'
 date = 2024-05-20T13:50:27-07:00
-draft = true
-summary = "screenshotaday service. takes a screen shot every _n_ units of time and adds a frame to a gif which you can host"
+# draft = true
+# summary = "screenshotaday service. takes a screen shot every _n_ units of time and adds a frame to a gif which you can host"
 homeFeatureIcon = "fa-solid fa-mobile-screen"
 +++
 
-> You can’t automate an SLO for look and feel. Or can you?
+## S.A.D. :weary:
+
+> You can’t automate a SLO for look and feel. Or can you?
+
+Screenshot-a-day service. takes a screen shot every _n_ units of time and adds a frame to a gif which you can host.
+
+<!--more-->
 
 Screenshot-a-day is a SaaS application which will be configurable with 3 options: url, interval and dimensions. It will open a web browser in a headless environment (configurable to be a browser or device) running puppateer or similar and load the url at time and take a screenshot of the window at the set dimensions. It will then save this screenshot as 1 image with the timestamp attached the the filename, and add it to a frame at the end of a perpetual animated gif showing the progression of the change over time.
 

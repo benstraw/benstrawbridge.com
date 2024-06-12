@@ -16,7 +16,7 @@ homeFeatureIcon = "fa-solid fa-burst"
 # showTOC = true
 +++
 
-## Optimize your recipe content with the Schema
+## Optimize Recipe Content with the Schema
 
 The recipe templates for The Ryder Theme for Hugo websites are progressing well. Today I released an update that creates the [schema.org json-ld specification tags for a recipe](https://schema.org/Recipe). This allows your recipe content to show up as "rich content" in search engines and social media platforms.
 

@@ -17,7 +17,11 @@ tags = [
 homeFeatureIcon = "fa-solid fa-code-merge"
 +++
 
+> A styled RSS feed makes your site more usable
+
 When you put a link to your rss / atom feed on your website it is a link to a raw xml file designed for feed readers such as feedly to import them and provide the reader with all their internet in one place.
+
+<!--more-->
 
 XML is code, and doesn't look great. If you unsuspectingly click on that {{< font-awesome fa-solid fa-rss >}} Feed icon, and land on a blob of XML you will probably be confused. To fix that, you can use a tool called XSLT to style the XML so it looks like a webpage in your browser.
 

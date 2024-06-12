@@ -16,7 +16,7 @@ tags = [
 # showTOC = true
 +++
 
-> Check out the [Ingredients Taxonomy pages]({{< relref "/ingredients" >}})
+> Check out the new [Ingredients Taxonomy pages]({{< relref "/ingredients" >}})
 
 ## Using Taxonomy effectively
 

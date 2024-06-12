@@ -14,15 +14,15 @@ tags = [
 
 ## Digital Federal Financial First Aid Kit (EFFAK)
 
-{{< figure class="w-1/4" src="https://www.fema.gov/profiles/femad8_gov/themes/fema_uswds/images/fema-logo-blue.svg" titl="Digital Federal Financial First Aid Kit" >}}
+{{< figure class="w-1/4" src="https://www.fema.gov/profiles/femad8_gov/themes/fema_uswds/images/fema-logo-blue.svg"  title="Digital Federal Financial First Aid Kit" alt="Digital Federal Financial First Aid Kit" >}}
 
 Be prepared for the worst case scenario with an encrypted grab and go device the size of bic lighter.
+
+<!--more-->
 
 Our team can come to your location with scanners and secure digital keys for each of your participants to use. Our scanners are not connected to the internet and we ensure privacy across all process that all scanned documents are only permanently stored on the encrypted secure key provided.
 
 Participants fill out the [EFFAK fillable form PDF](fema_effak-toolkit-checklists-forms.pdf){:target="_blank"} directly on the storage in the digital key, and upon saving the form the data from the form is built into an entirely static website on the key with an index page and a beutiful easy to use interface connecting the participant to all of their most important financial documents directly and securely.
-
-<!--more-->
 
 ## Security
 

@@ -11,6 +11,7 @@ tags = [
 # homeFeatureIcon = ""
 # showTOC = true
 +++
+{{< picture class="w-1/4" src="apricorn-128GB-aegis-secure-key.jpg" >}}
 {{< amazon-associate-link button_label="Aegis Secure Key" >}}
 
 <!--more-->

@@ -24,13 +24,12 @@ Longitude: 75.1665° W -->
 I made this quick and easy shortcode to get started using leaflet.js in the [Ryder Theme for Hugo Websites](https://arts-link.github.io/ryder/), as I add more features supported by leaflet to the shortcode I might update this page. 
 
 <!--more-->
-
 ## Steps taken
 
-- found this blog post over at [osgav.run](https://osgav.run/lab/hugo-leaflet-integration.html) which reminded me of [leafletjs](https://leafletjs.com/). I had worked on a mapping project years ago and used leaflet for it, but hadn't checked it out since around 2018.
-- downloaded leaflet.js from their [downloads page](https://leafletjs.com/download.html)
-- copied the extracted zip to the `/static` directory of the ryder theme.
-- added the needed files to the head. 
+- I found this blog post over at [osgav.run](https://osgav.run/lab/hugo-leaflet-integration.html) which reminded me of [leafletjs](https://leafletjs.com/). I had worked on a mapping project years ago and used leaflet for it, but hadn't checked it out since around 2018.
+- I downloaded leaflet.js from their [downloads page](https://leafletjs.com/download.html)
+- I copied the extracted zip to the `/static` directory of the ryder theme.
+- I added the needed files to the head. 
   - TODO: only include them in when leaflet is being used.
 
 {{< highlight go-html-template >}}
@@ -38,7 +37,7 @@ I made this quick and easy shortcode to get started using leaflet.js in the [Ryd
 <script src="{{ site.BaseURL}}leaflet/leaflet.js"></script>
 {{< /highlight >}}
 
-- created the shortcode `leaflet.js`
+- I created the shortcode `leaflet.js`
 ```go-html-template
 {{- $id := .Get "id" | default "map1" }}
 {{- $lat := .Get "lat" | default "51.505" }} 
@@ -63,7 +62,7 @@ I made this quick and easy shortcode to get started using leaflet.js in the [Ryd
 </script>
 <div>Debug Info: ID={{ .Get "id" }}, Lat={{ .Get "lat" }}, Lon={{ .Get "lon" }}, Zoom={{ .Get "zoom" }}</div>
 ```
-- add the shortcode to my post about [westchester hiking]({{< ref "/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/" >}})
+- I added the shortcode to my post about [westchester hiking]({{< ref "/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/" >}})
 
 {{< highlight go-html-template >}}
 {{</* leaflet id="map1" lat="33.966613" lon="-118.426178" zoom="13.5" markerLat="33.9716" markerLon="-118.4363" markerPopup="Green Space right by LAX!" */>}}

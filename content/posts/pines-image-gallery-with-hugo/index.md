@@ -17,6 +17,8 @@ tags = [
 homeFeatureIcon = "fa-solid fa-images"
 +++
 
+> A super simple alpinjs image gallery
+
 The first place I used this is on the recipe page about my mom's [family recipe cookbook]({{< ref "/posts/moms-family-recipes-cookbook" >}} "About Us")
 
 <!--more-->

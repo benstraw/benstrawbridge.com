@@ -4,7 +4,7 @@ date = 2024-06-10T20:41:19-07:00
 # draft = true
 # summary = ""
 # categories = [""]
-hideAsideBar = true
+# hideAsideBar = true
 tags = [
   "Hugo",
   "Ryder Theme",
@@ -32,6 +32,51 @@ You can now set params in your `hugo.toml` file to keep any pesky pages off your
 ### How does it work?
 
 > {{< font-awesome "text-neutral-900 dark:text-neutral-100 fa-solid fa-wand-magic-sparkles" >}} Magic 
+
+Here is how my `home.html` page loop works to deal with these exclusions.
+
+{{< highlight go-html-template >}}
+<div class="lg:grid-cols-2  p-4 mx-auto grid grid-cols-1 gap-12  mb-5">
+    <h2 class="lg:col-span-2 flex p-3 items-center mb-2 text-3xl uppercase">Latest stuff</h2>
+      
+    {{ $excludedSections := site.Params.excludedSections | default slice }}
+    {{ $excludedCategories := site.Params.excludedCategories | default slice }}
+    {{ $excludedTags := site.Params.excludedTags | default slice }}
+    {{- $filteredPages := slice -}}
+    {{- range $pages.ByLastmod.Reverse }}
+      {{- $excludePage := false -}}
+      {{- range .Params.categories }}
+        {{- if in $excludedCategories . }}
+          {{- $excludePage = true -}}
+          {{- break -}}
+        {{- end }}
+      {{- end }}
+      {{- range .Params.tags }}
+        {{- if in $excludedTags . }}
+          {{- $excludePage = true -}}
+          {{- break -}}
+        {{- end }}
+      {{- end }}
+      {{- if $excludePage }}
+        {{- continue -}}
+      {{- end }}
+      
+      {{- if in $excludedSections .Section }}
+        {{- continue }}
+      {{- end }}
+      {{- if eq .Summary "" }}
+        {{- continue }}
+      {{- end }}
+      {{- $filteredPages = $filteredPages | append . -}}
+    {{- end }}
+
+    {{ range (.Paginate $filteredPages 18).Pages }}
+    {{/*  {{- range $filteredPages.Limit 18 }}  */}}
+      {{- partial "card-category-color.html" . }}
+    {{- end }}
+    {{ template "_internal/pagination.html" . }}
+  </div>
+{{< /highlight >}}
 
 ## Express yourself with colorful cards
 

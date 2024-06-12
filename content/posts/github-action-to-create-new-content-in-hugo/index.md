@@ -20,7 +20,7 @@ homeFeatureIcon = "fa-brands fa-github"
 
 ![This is what it looks like](github-actions-workflow-button_feature.png)
 
-I am using [Hugo](https://www.gohugo.io) for some of the websites I have made, and I think it is pretty great. The one problem with it for many non-technical people I work with is that there is no CMS feature, they want a website administration page where they can do the usual. There are some open source headless CMS systems built for Hugo out there, but I have not had the chance to explore them yet and I don't like throwing a client on new software just to decide I don't like it in a few months, so I wanted to do something automated, but avoid having to install vscode, git, ssh-keys and etc in order to make simple edits I decided to do something with [GitHub actions](https://github.com/features/actions).
+I use [Hugo](https://www.gohugo.io) a lot for my web development work, and I think it is pretty great. The one problem with it for many non-technical people I work with is that there is no CMS feature, they want a website administration page where they can do the usual. There are some open source headless CMS systems built for Hugo out there, but I have not had the chance to explore them yet and I don't like throwing a client on new software just to decide I don't like it in a few months, so I wanted to do something automated, but avoid having to install vscode, git, ssh-keys and etc in order to make simple edits I decided to do something with [GitHub actions](https://github.com/features/actions).
 
 
 <!--more-->

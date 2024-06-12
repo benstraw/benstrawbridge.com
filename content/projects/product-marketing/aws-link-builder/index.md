@@ -6,11 +6,14 @@ tags = [
   "Amazon Associates Program",
   "Affiliate Marketing",
 ]
-summary = "A tool to build links for affiliate marketing programs."
 url = "/link-builder"
 +++
 
 ## Amazon associates program link builder.
+
+> A tool to build links for affiliate marketing programs.
+
+<!--more-->
 
 {{< affiliate-link-builder-form  >}}
 

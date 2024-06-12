@@ -4,6 +4,8 @@ date = 2024-03-06T21:54:31-08:00
 draft = true
 +++
 
+## If you build it they will come
+
 This website is built as a personal `dog fooding` project. I use it as the test bed for features that I build for other sites and clients, so some of the projects on here may seem somewhat strange. 
 
 I also try to publish brief how-to guides when I find myself stumped and have one of those ah-ha moments finding a solution.
