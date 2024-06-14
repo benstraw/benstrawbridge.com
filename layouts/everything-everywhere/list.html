@@ -1,0 +1,53 @@
+{{- define "main" }}
+{{- $featured := false }}
+{{- $byLength := false }}
+{{- $byDate := true }}
+{{- $paged := true }}
+{{- $pages := .Site.Pages }}
+
+{{ if $featured }}
+  {{- $pages = where $pages "Params.homeFeature" "eq" true }}
+{{ end }}
+
+{{ if $byLength }}
+  {{- $pages = $pages.ByLength.Reverse }}
+{{ end }}
+{{ if $byDate }}
+  {{- $pages = $pages.ByDate.Reverse }}
+{{ end }}
+
+<div class="lg:grid-cols-2 xl:grid-cols-4 p-4 mx-auto grid grid-cols-1 gap-12 xl:gap-6 mb-5">
+  <h2 class="text-3xl uppercase lg:col-span-2 xl:col-span-4">{{ .Title }}</h2>
+  <div class="lg:col-span-2 xl:col-span-4">
+    <h3>Page Meta</h3>
+    <div> Number of Records: {{ $pages.Len }} </div>
+    {{ if $byDate}}
+    <div> Order: <b>Date</b> </div>
+    {{ end }}
+    {{ if $byLength }}
+    <div> Order: <b>Length</b> </div>
+    {{ end }}
+    {{ if $paged }}
+      {{ $paginator := .Paginate $pages }}
+      <div> Paging: <b>On</b> - <b>{{ $paginator.PageSize }}</b> records / page</div>
+      {{ template "_internal/pagination.html" . }}
+    {{ end }}
+  </div>
+  
+  {{ if $paged }}
+    {{ $paginator := .Paginate $pages }}
+    {{ range $paginator.Pages }}
+      {{- partial "card-category-color.html" . }}
+    {{- end }}
+    <div class="lg:col-span-2 xl:col-span-4">
+      {{ template "_internal/pagination.html" . }}
+    </div>
+  {{ else }}
+    {{ range $pages }}
+      {{- partial "card-category-color.html" . }}
+    {{- end }}
+  {{- end }}
+</div>
+
+
+{{ end }}
