@@ -20,7 +20,7 @@ copyright = '<i class="fa-regular fa-copyright"></i>  2024 benstrawbridge.com'
   # navbar_fixed = true
   # homepage list exclusion... 
   excludedSections = ["fineprint", "portfolio", "goals", "consulting", "everything-everywhere"]
-  excludedCategories = ["catalog","recipes"]
+  excludedCategories = ["catalog"]
   showDarkToggle = true
   og_image_default = '/images/og/og_image_default.jpg'
   logo_png = '/images/bs_full_wordmark.png'
