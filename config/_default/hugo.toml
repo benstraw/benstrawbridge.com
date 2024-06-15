@@ -41,6 +41,14 @@ copyright = '<i class="fa-regular fa-copyright"></i>  2024 benstrawbridge.com'
     # navbar_fixed = "sticky top-0"
   [params.footer]
     tagCloud = true
+# [[params.alphaAlert]]
+#   weight = 1
+#   alertType = "success"
+#   alertTitle = "Ryder Theme for Hugo"
+#   alertMessage = "Learn more about the theme by checking out the README on <a href='https://github.com/arts-link/ryder' class='underline'>on github.com</a>."
+#   dismissable = true 
+#   alertIconClass = "fa-solid fa-camera-retro"
+
 [markup]
   [markup.highlight]
     linenos = false

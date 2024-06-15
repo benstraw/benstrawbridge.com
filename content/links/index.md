@@ -2,11 +2,10 @@
 title = 'Link Graveyard'
 date = 2024-01-18T11:50:06-08:00
 # draft = true
-tags = ["hugo","themes","css","images"]
+tags = ["hugo","themes","css","images","blogroll"]
 showTOC = true
 TocOpen = true
 logo_tagline = "LINK GRAVEYARD"
-aliases = ['/links/']
 # summary = "The link graveyard is my page for remembering where I found stuff – whether it's something I learned, something cool I stumbled upon, or maybe just a friend's site."
 homeFeatureIcon = "fa-solid fa-link"
 sectionTitle = "Link Graveyard on BenStrawbridge.com"
@@ -27,6 +26,8 @@ sectionTitle = "Link Graveyard on BenStrawbridge.com"
 ## Links to help you build and work on the Internet
 
 > Where I bury my favorite resources
+
+The link graveyard is my page for remembering where I found stuff – whether it's something I learned, something cool I stumbled upon, or maybe just a friend's site.
 
 <!--more-->
 
@@ -51,6 +52,15 @@ sectionTitle = "Link Graveyard on BenStrawbridge.com"
 - [The second version arts-link.com, circa 2002](https://web.archive.org/web/20020220112908/http://www.arts-link.com:80/)
 - [Olsson Barbieri](https://olssonbarbieri.com/studio)
 - [seungmee lee](https://www.seungmee-lee.com/)
+- [A Website is a room](https://a-website-is-a-room.net/)
+
+## Indieweb  
+
+### Blogroll  
+
+> It's back baby!
+
+- [ShellSharks](https://shellsharks.com/)
 
 ## Code
 

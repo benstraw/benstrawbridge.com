@@ -42,6 +42,8 @@ recipeIngredients = [
 
 You add ingredients to the taxonomy by including them in the front matter of your pages. Alternatively, you can create pages in the directory path where they land to add intro text, images, or additional parameters in the front matter. For instance, the page about [mushrooms]({{< relref "/ingredients/mushrooms" >}}) is created automatically without anything added to your content directory. However, if you wish to add to it, simply create a list page in the correct location. In this instance, the following page is in the content directory: ./content/ingredients/mushrooms/_index.md.
 
+The documentation does cover this at the tail end of the [taxonomy section](https://gohugo.io/content-management/taxonomies/#add-custom-metadata-to-a-taxonomy-or-term).
+
 {{< highlight-github
       owner=benstraw
       repo=benstrawbridge.com

@@ -18,7 +18,9 @@
 {{ range $data }}
 
   {{/* Add page. */}}
-  {{ $content := dict "mediaType" "text/markdown" "value" .summary }}
+  {{ $buttonLabel := .title }}
+  {{ $extContent := add (printf "{{< amazon-associate-link button_label=\"%s\" >}} <!--more-->" $buttonLabel) .content }}
+  {{ $content := dict "mediaType" "text/markdown" "value" $extContent }}
   {{ $dates := dict "date" (time.AsTime .date) }}
   {{ $params := dict "author" .author "isbn" .isbn "asin" .asin "rating" .rating "tags" .tags }}
   {{ $page := dict

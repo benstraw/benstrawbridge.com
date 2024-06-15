@@ -23,33 +23,8 @@
   {{ $headerClass = . }}
   {{ end }}
   {{ range $paginator.Pages }}
-  <div class=" rounded-2xl bg-sky-50 transition-[filter] hover:brightness-90 dark:bg-sky-800 dark:hover:brightness-110 w-full"> 
-    <a href="{{ .RelPermalink }}" title="{{ .Title }}" class="flex items-center">
-    {{ $bgImgClass := "bg-magazine-cover-ryder-bay" }} 
-    {{ with .Param "twClasses.magazineCover" }}
-    {{ $bgImgClass = . }}
-    {{ $bgImgClass = printf "%s %s" $bgImgClass " w-full aspect-[17/22] bg-cover"}}
-    {{ end }}
-    <div>
-        <div class="{{ $bgImgClass }}">
-          <h2 class=" p-3 flex items-center capitalize {{ $headerClass }}">
-            {{- if .Params.homeFeatureIcon }}
-              <i class="{{ .Params.homeFeatureIcon }} mr-2 text-3xl"></i>
-            {{- end }}
-            {{ .Title }}
-          </h2>
-          {{ if .Summary }}
-          <p class="p-5">
-            {{ .Summary | safeHTML }}
-          </p>
-          {{ end }}
-          
-        </div>
-    </div>
-  </a> 
-  <a href="https://www.amazon.com/dp/{{ .Params.asin }}/ref=nosim?tag={{ $associate_id }}" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-    Buy it Now 
-  </a> </div>
+  {{ partial "card-category-color.html" . }}
+  
   {{ end }}
   </div>
   {{ template "_internal/pagination.html" . }}

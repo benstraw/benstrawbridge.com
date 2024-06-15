@@ -5,7 +5,12 @@ date = 2024-06-08T11:57:29-07:00
 # summary = ""
 # categories = [""]
 tags = [
-  ""
+  "Digital Security",
+  "Disaster Preparedness",
+  "Encrypted Storage",
+  "Financial Planning",
+  "Hugo",
+  "Digital Wallet"
   ]
 # featured_image = ""
 # homeFeatureIcon = ""
@@ -24,13 +29,6 @@ Our team can come to your location with scanners and secure digital keys for eac
 
 Participants fill out the [EFFAK fillable form PDF](fema_effak-toolkit-checklists-forms.pdf){:target="_blank"} directly on the storage in the digital key, and upon saving the form the data from the form is built into an entirely static website on the key with an index page and a beutiful easy to use interface connecting the participant to all of their most important financial documents directly and securely.
 
-## Security
-
-In modern software security we also try to engage in multiple factors of authentication to ensure that only the authorized person access information. For best practices have the factors come from 2 seperate of the following 3 areas. More and more using what you know (passwords) is being frowned upon and too clunky and antiquainted.
-
-1. What you know.
-2. What you are.
-3. What you have.
 
 ## User Interface
 

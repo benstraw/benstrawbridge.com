@@ -42,5 +42,12 @@
       "icon": "fa-solid fa-fingerprint",
       "link": "/fineprint"
     }
+,
+    {
+      "title": "Links",
+      "name": "links",
+      "icon": "fa-solid fa-link",
+      "link": "/links"
+    }
   ]
 }
