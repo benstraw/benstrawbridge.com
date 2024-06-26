@@ -6,12 +6,12 @@ paginate = 720
 tags = [
   "musical genres"
   ]
-featured_image = "musical-genre_featured.webp"
 # showTOC = true
 
 [cascade]
   sectionTitle = "Musical Genres on BenStrawbridge.com"
   homeFeatureIcon = "fa-solid fa-headphones"
+  featured_image = "musical-genre_featured.webp"
 +++
   {{< picture
     alt="Lights coming up"
