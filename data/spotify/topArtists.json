@@ -1,1 +1,709 @@
-{"items":[{"external_urls":{"spotify":"https://open.spotify.com/artist/0kbYTNQb4Pb1rPbbaF0pT4"},"followers":{"href":null,"total":2532261},"genres":["cool jazz","hard bop","jazz","jazz fusion","jazz trumpet","soul","vocal jazz"],"href":"https://api.spotify.com/v1/artists/0kbYTNQb4Pb1rPbbaF0pT4","id":"0kbYTNQb4Pb1rPbbaF0pT4","images":[{"height":1000,"url":"https://i.scdn.co/image/423e826b3c1b23930a255d7cbc2daf733f795507","width":1000},{"height":640,"url":"https://i.scdn.co/image/a318c54208af38364d131a54ced2416423696018","width":640},{"height":200,"url":"https://i.scdn.co/image/8496e6ea230dd47311d85dcf860015792f5ada42","width":200},{"height":64,"url":"https://i.scdn.co/image/b1af952a7fb8ac2c4467868d61b5752fc1a01cf0","width":64}],"name":"Miles Davis","popularity":60,"type":"artist","uri":"spotify:artist:0kbYTNQb4Pb1rPbbaF0pT4"},{"external_urls":{"spotify":"https://open.spotify.com/artist/6gc6oo3u2f7SqTd4mhe81O"},"followers":{"href":null,"total":157389},"genres":["bebop","cool jazz","jazz","jazz piano"],"href":"https://api.spotify.com/v1/artists/6gc6oo3u2f7SqTd4mhe81O","id":"6gc6oo3u2f7SqTd4mhe81O","images":[{"height":640,"url":"https://i.scdn.co/image/ab6761610000e5eb272e70fd5f5f4d76666a110f","width":640},{"height":320,"url":"https://i.scdn.co/image/ab67616100005174272e70fd5f5f4d76666a110f","width":320},{"height":160,"url":"https://i.scdn.co/image/ab6761610000f178272e70fd5f5f4d76666a110f","width":160}],"name":"Ahmad Jamal","popularity":43,"type":"artist","uri":"spotify:artist:6gc6oo3u2f7SqTd4mhe81O"},{"external_urls":{"spotify":"https://open.spotify.com/artist/6WoTvA9qinpHtSRJuldYh6"},"followers":{"href":null,"total":195183},"genres":["alternative rock","art punk","madchester","post-punk","shoegaze","uk post-punk"],"href":"https://api.spotify.com/v1/artists/6WoTvA9qinpHtSRJuldYh6","id":"6WoTvA9qinpHtSRJuldYh6","images":[{"height":640,"url":"https://i.scdn.co/image/ab6761610000e5eb9f414fc8dc3f76cb637f8f11","width":640},{"height":320,"url":"https://i.scdn.co/image/ab676161000051749f414fc8dc3f76cb637f8f11","width":320},{"height":160,"url":"https://i.scdn.co/image/ab6761610000f1789f414fc8dc3f76cb637f8f11","width":160}],"name":"The Fall","popularity":41,"type":"artist","uri":"spotify:artist:6WoTvA9qinpHtSRJuldYh6"},{"external_urls":{"spotify":"https://open.spotify.com/artist/0EdvGhlC1FkGItLOWQzG4J"},"followers":{"href":null,"total":2832458},"genres":["rap rock","reggae fusion","ska mexicano","ska punk"],"href":"https://api.spotify.com/v1/artists/0EdvGhlC1FkGItLOWQzG4J","id":"0EdvGhlC1FkGItLOWQzG4J","images":[{"height":640,"url":"https://i.scdn.co/image/ab6761610000e5ebe726280500259dbdb97a8be4","width":640},{"height":320,"url":"https://i.scdn.co/image/ab67616100005174e726280500259dbdb97a8be4","width":320},{"height":160,"url":"https://i.scdn.co/image/ab6761610000f178e726280500259dbdb97a8be4","width":160}],"name":"Sublime","popularity":73,"type":"artist","uri":"spotify:artist:0EdvGhlC1FkGItLOWQzG4J"},{"external_urls":{"spotify":"https://open.spotify.com/artist/13dkPjqmbcchm8cXjEJQeP"},"followers":{"href":null,"total":250375},"genres":["canadian classical piano","canadian contemporary r&b","classical","classical piano"],"href":"https://api.spotify.com/v1/artists/13dkPjqmbcchm8cXjEJQeP","id":"13dkPjqmbcchm8cXjEJQeP","images":[{"height":640,"url":"https://i.scdn.co/image/ab6761610000e5ebae1364cd7533a53776d8ae43","width":640},{"height":320,"url":"https://i.scdn.co/image/ab67616100005174ae1364cd7533a53776d8ae43","width":320},{"height":160,"url":"https://i.scdn.co/image/ab6761610000f178ae1364cd7533a53776d8ae43","width":160}],"name":"Glenn Gould","popularity":55,"type":"artist","uri":"spotify:artist:13dkPjqmbcchm8cXjEJQeP"},{"external_urls":{"spotify":"https://open.spotify.com/artist/0Wxy5Qka8BN9crcFkiAxSR"},"followers":{"href":null,"total":515628},"genres":["acoustic blues","blues","chicago blues","delta blues","harmonica blues","memphis blues","traditional blues"],"href":"https://api.spotify.com/v1/artists/0Wxy5Qka8BN9crcFkiAxSR","id":"0Wxy5Qka8BN9crcFkiAxSR","images":[{"height":1100,"url":"https://i.scdn.co/image/c2408f7f93e582b422af47aa72904a24397029d9","width":818},{"height":861,"url":"https://i.scdn.co/image/42a40543d2bde12565d33ee74a2566fd85b0c9f5","width":640},{"height":269,"url":"https://i.scdn.co/image/d436651ba6b691a4b1bf631e1020d04967c16089","width":200},{"height":86,"url":"https://i.scdn.co/image/2e43a2813672ed781d2395808c46957ae566197d","width":64}],"name":"Howlin' Wolf","popularity":51,"type":"artist","uri":"spotify:artist:0Wxy5Qka8BN9crcFkiAxSR"},{"external_urls":{"spotify":"https://open.spotify.com/artist/6G69CndLxnRxLdy8MVLNmG"},"followers":{"href":null,"total":13040},"genres":["jazz boom bap"],"href":"https://api.spotify.com/v1/artists/6G69CndLxnRxLdy8MVLNmG","id":"6G69CndLxnRxLdy8MVLNmG","images":[{"height":640,"url":"https://i.scdn.co/image/ab6761610000e5eb48c9d1dad52a974a92c2015e","width":640},{"height":320,"url":"https://i.scdn.co/image/ab6761610000517448c9d1dad52a974a92c2015e","width":320},{"height":160,"url":"https://i.scdn.co/image/ab6761610000f17848c9d1dad52a974a92c2015e","width":160}],"name":"Thes One","popularity":33,"type":"artist","uri":"spotify:artist:6G69CndLxnRxLdy8MVLNmG"},{"external_urls":{"spotify":"https://open.spotify.com/artist/2QsynagSdAqZj3U9HgDzjD"},"followers":{"href":null,"total":12315198},"genres":["reggae","roots reggae"],"href":"https://api.spotify.com/v1/artists/2QsynagSdAqZj3U9HgDzjD","id":"2QsynagSdAqZj3U9HgDzjD","images":[{"height":858,"url":"https://i.scdn.co/image/b5aae2067db80f694a980e596e7f49618c1206c9","width":1000},{"height":549,"url":"https://i.scdn.co/image/4cd57e5e12ea2c24644c40886d65a9b22eca9802","width":640},{"height":172,"url":"https://i.scdn.co/image/02fd758d9805ef44d1caafc35ff17a47f9dff098","width":200},{"height":55,"url":"https://i.scdn.co/image/357fe6ef3655b1b33855e33546e3c174a38a1a36","width":64}],"name":"Bob Marley & The Wailers","popularity":80,"type":"artist","uri":"spotify:artist:2QsynagSdAqZj3U9HgDzjD"},{"external_urls":{"spotify":"https://open.spotify.com/artist/0Oslq5zLftqRVwKseBJ7MV"},"followers":{"href":null,"total":17416},"genres":["baltimore indie","crank wave","experimental indie rock","math rock","microtonal","totalism"],"href":"https://api.spotify.com/v1/artists/0Oslq5zLftqRVwKseBJ7MV","id":"0Oslq5zLftqRVwKseBJ7MV","images":[{"height":640,"url":"https://i.scdn.co/image/ab6761610000e5eb3891ccfc53fcb373dabddca4","width":640},{"height":320,"url":"https://i.scdn.co/image/ab676161000051743891ccfc53fcb373dabddca4","width":320},{"height":160,"url":"https://i.scdn.co/image/ab6761610000f1783891ccfc53fcb373dabddca4","width":160}],"name":"Horse Lords","popularity":18,"type":"artist","uri":"spotify:artist:0Oslq5zLftqRVwKseBJ7MV"},{"external_urls":{"spotify":"https://open.spotify.com/artist/4TMHGUX5WI7OOm53PqSDAT"},"followers":{"href":null,"total":1829235},"genres":["cosmic american","jam band","psychedelic rock"],"href":"https://api.spotify.com/v1/artists/4TMHGUX5WI7OOm53PqSDAT","id":"4TMHGUX5WI7OOm53PqSDAT","images":[{"height":697,"url":"https://i.scdn.co/image/bba340d0c2aa4c9cbcbab0a4c3259d8f8e27f0d7","width":1000},{"height":446,"url":"https://i.scdn.co/image/4c000d838221db17a95ec272d79c06560829ab11","width":640},{"height":139,"url":"https://i.scdn.co/image/055f1232a2588ace9747002f972be62ecbb74e92","width":199},{"height":45,"url":"https://i.scdn.co/image/264413e72f38c521bb90e5c5cc3d5c6b5097efdb","width":64}],"name":"Grateful Dead","popularity":66,"type":"artist","uri":"spotify:artist:4TMHGUX5WI7OOm53PqSDAT"},{"external_urls":{"spotify":"https://open.spotify.com/artist/30pF2pv50VXX6TgiMmKKjc"},"followers":{"href":null,"total":26655},"genres":[],"href":"https://api.spotify.com/v1/artists/30pF2pv50VXX6TgiMmKKjc","id":"30pF2pv50VXX6TgiMmKKjc","images":[{"height":640,"url":"https://i.scdn.co/image/ab6761610000e5ebc6329888bdc19e92b1388865","width":640},{"height":320,"url":"https://i.scdn.co/image/ab67616100005174c6329888bdc19e92b1388865","width":320},{"height":160,"url":"https://i.scdn.co/image/ab6761610000f178c6329888bdc19e92b1388865","width":160}],"name":"lonelyboy","popularity":51,"type":"artist","uri":"spotify:artist:30pF2pv50VXX6TgiMmKKjc"},{"external_urls":{"spotify":"https://open.spotify.com/artist/2hGh5VOeeqimQFxqXvfCUf"},"followers":{"href":null,"total":1653227},"genres":["bebop","free jazz","jazz","jazz saxophone","vocal jazz"],"href":"https://api.spotify.com/v1/artists/2hGh5VOeeqimQFxqXvfCUf","id":"2hGh5VOeeqimQFxqXvfCUf","images":[{"height":640,"url":"https://i.scdn.co/image/ab6761610000e5eb73c7f7505c1af82929ec41df","width":640},{"height":320,"url":"https://i.scdn.co/image/ab6761610000517473c7f7505c1af82929ec41df","width":320},{"height":160,"url":"https://i.scdn.co/image/ab6761610000f17873c7f7505c1af82929ec41df","width":160}],"name":"John Coltrane","popularity":62,"type":"artist","uri":"spotify:artist:2hGh5VOeeqimQFxqXvfCUf"},{"external_urls":{"spotify":"https://open.spotify.com/artist/4iRZAbYvBqnxrbs6K25aJ7"},"followers":{"href":null,"total":292837},"genres":["bebop","jazz","jazz quartet"],"href":"https://api.spotify.com/v1/artists/4iRZAbYvBqnxrbs6K25aJ7","id":"4iRZAbYvBqnxrbs6K25aJ7","images":[{"height":865,"url":"https://i.scdn.co/image/b6f7dc3c16f95e6df120af205d4007f518b01e0e","width":873},{"height":634,"url":"https://i.scdn.co/image/842f5ac6934f8c1bc783a3b344f008dfa919b692","width":640},{"height":198,"url":"https://i.scdn.co/image/291e690bbe1ca00d9190d23d1c579a6e9c85ed60","width":200},{"height":63,"url":"https://i.scdn.co/image/9aeee9c29f033e2e9a684e37816ddc3df2521692","width":64}],"name":"The Dave Brubeck Quartet","popularity":55,"type":"artist","uri":"spotify:artist:4iRZAbYvBqnxrbs6K25aJ7"},{"external_urls":{"spotify":"https://open.spotify.com/artist/1Z8ODXyhEBi3WynYw0Rya6"},"followers":{"href":null,"total":1014669},"genres":["east coast hip hop","golden age hip hop","hip hop","jazz rap"],"href":"https://api.spotify.com/v1/artists/1Z8ODXyhEBi3WynYw0Rya6","id":"1Z8ODXyhEBi3WynYw0Rya6","images":[{"height":640,"url":"https://i.scdn.co/image/ab6761610000e5ebc443011311dcf7f6eeaf507d","width":640},{"height":320,"url":"https://i.scdn.co/image/ab67616100005174c443011311dcf7f6eeaf507d","width":320},{"height":160,"url":"https://i.scdn.co/image/ab6761610000f178c443011311dcf7f6eeaf507d","width":160}],"name":"De La Soul","popularity":59,"type":"artist","uri":"spotify:artist:1Z8ODXyhEBi3WynYw0Rya6"},{"external_urls":{"spotify":"https://open.spotify.com/artist/2H5elA2mJKrHmqkN9GSfkz"},"followers":{"href":null,"total":228928},"genres":["alternative country","canadian singer-songwriter","folk","melancholia","nashville singer-songwriter","new americana","progressive bluegrass","singer-songwriter"],"href":"https://api.spotify.com/v1/artists/2H5elA2mJKrHmqkN9GSfkz","id":"2H5elA2mJKrHmqkN9GSfkz","images":[{"height":640,"url":"https://i.scdn.co/image/ab6761610000e5ebbf3ed488c6ff47a5b3a980ac","width":640},{"height":320,"url":"https://i.scdn.co/image/ab67616100005174bf3ed488c6ff47a5b3a980ac","width":320},{"height":160,"url":"https://i.scdn.co/image/ab6761610000f178bf3ed488c6ff47a5b3a980ac","width":160}],"name":"Gillian Welch","popularity":48,"type":"artist","uri":"spotify:artist:2H5elA2mJKrHmqkN9GSfkz"},{"external_urls":{"spotify":"https://open.spotify.com/artist/2i8ynmFv4qgRksyDlBgi6d"},"followers":{"href":null,"total":202820},"genres":["alternative rock","art punk","experimental rock","post-punk","punk","uk post-punk"],"href":"https://api.spotify.com/v1/artists/2i8ynmFv4qgRksyDlBgi6d","id":"2i8ynmFv4qgRksyDlBgi6d","images":[{"height":640,"url":"https://i.scdn.co/image/ab6761610000e5eb00807c5b63087591ca240643","width":640},{"height":320,"url":"https://i.scdn.co/image/ab6761610000517400807c5b63087591ca240643","width":320},{"height":160,"url":"https://i.scdn.co/image/ab6761610000f17800807c5b63087591ca240643","width":160}],"name":"Wire","popularity":49,"type":"artist","uri":"spotify:artist:2i8ynmFv4qgRksyDlBgi6d"},{"external_urls":{"spotify":"https://open.spotify.com/artist/62BcWP4fzR8axESibNQEhs"},"followers":{"href":null,"total":358693},"genres":["alternative rock","experimental rock","grunge","noise rock","psychedelic punk","punk"],"href":"https://api.spotify.com/v1/artists/62BcWP4fzR8axESibNQEhs","id":"62BcWP4fzR8axESibNQEhs","images":[{"height":665,"url":"https://i.scdn.co/image/dabd2920676f2ae15862ed8dfcf89a8ddb9d11ee","width":1000},{"height":425,"url":"https://i.scdn.co/image/4136eafc38bb9a7e6db382c5e027380e6a527be1","width":639},{"height":133,"url":"https://i.scdn.co/image/13fb78d8c965a8a3637a659442fead75890e1c07","width":200},{"height":43,"url":"https://i.scdn.co/image/b18f1417a0d867c8af95ec56c810e02176d86500","width":64}],"name":"Butthole Surfers","popularity":50,"type":"artist","uri":"spotify:artist:62BcWP4fzR8axESibNQEhs"},{"external_urls":{"spotify":"https://open.spotify.com/artist/4PDpGtF16XpqvXxsrFwQnN"},"followers":{"href":null,"total":659146},"genres":["bebop","contemporary post-bop","jazz","jazz piano","jazz trio"],"href":"https://api.spotify.com/v1/artists/4PDpGtF16XpqvXxsrFwQnN","id":"4PDpGtF16XpqvXxsrFwQnN","images":[{"height":640,"url":"https://i.scdn.co/image/ab6761610000e5eb8238a10406dfbd483d13f908","width":640},{"height":320,"url":"https://i.scdn.co/image/ab676161000051748238a10406dfbd483d13f908","width":320},{"height":160,"url":"https://i.scdn.co/image/ab6761610000f1788238a10406dfbd483d13f908","width":160}],"name":"Thelonious Monk","popularity":50,"type":"artist","uri":"spotify:artist:4PDpGtF16XpqvXxsrFwQnN"},{"external_urls":{"spotify":"https://open.spotify.com/artist/13nrWU0iAugxOj586gGfaw"},"followers":{"href":null,"total":3352},"genres":["classical flute"],"href":"https://api.spotify.com/v1/artists/13nrWU0iAugxOj586gGfaw","id":"13nrWU0iAugxOj586gGfaw","images":[{"height":480,"url":"https://i.scdn.co/image/aca3970909905d32f9caf946fbb27a3ee6f996bf","width":319},{"height":301,"url":"https://i.scdn.co/image/1f61f9960f294f5b6e24501d878fca7b4c129e31","width":200},{"height":96,"url":"https://i.scdn.co/image/ef9b3a98b2f8b334ed05dfc4a6e576cf1871b095","width":64}],"name":"Patrick Gallois","popularity":32,"type":"artist","uri":"spotify:artist:13nrWU0iAugxOj586gGfaw"},{"external_urls":{"spotify":"https://open.spotify.com/artist/2P03Aan9wfgwkxTwGch2g1"},"followers":{"href":null,"total":46978},"genres":["chanson","laboratorio"],"href":"https://api.spotify.com/v1/artists/2P03Aan9wfgwkxTwGch2g1","id":"2P03Aan9wfgwkxTwGch2g1","images":[{"height":331,"url":"https://i.scdn.co/image/72aafd2ca1a8e1d03f29dfaea8a521d1ca9fc1fe","width":416},{"height":159,"url":"https://i.scdn.co/image/565771f04ca346d68442b8e5bd7e2495de6dc28c","width":200},{"height":51,"url":"https://i.scdn.co/image/80bc6fe9804e711a11555e3d17506464da38006c","width":64}],"name":"Brigitte Fontaine","popularity":35,"type":"artist","uri":"spotify:artist:2P03Aan9wfgwkxTwGch2g1"}],"total":424,"limit":20,"offset":0,"href":"https://api.spotify.com/v1/me/top/artists?locale=en-US,en;q%3D0.9","next":"https://api.spotify.com/v1/me/top/artists?offset=20&limit=20&locale=en-US,en;q%3D0.9","previous":null}
+{
+  "items": [
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/0kbYTNQb4Pb1rPbbaF0pT4"
+      },
+      "followers": { "href": null, "total": 2532261 },
+      "genres": [
+        "cool jazz",
+        "hard bop",
+        "jazz",
+        "jazz fusion",
+        "jazz trumpet",
+        "soul",
+        "vocal jazz"
+      ],
+      "href": "https://api.spotify.com/v1/artists/0kbYTNQb4Pb1rPbbaF0pT4",
+      "id": "0kbYTNQb4Pb1rPbbaF0pT4",
+      "images": [
+        {
+          "height": 1000,
+          "url": "https://i.scdn.co/image/423e826b3c1b23930a255d7cbc2daf733f795507",
+          "width": 1000
+        },
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/a318c54208af38364d131a54ced2416423696018",
+          "width": 640
+        },
+        {
+          "height": 200,
+          "url": "https://i.scdn.co/image/8496e6ea230dd47311d85dcf860015792f5ada42",
+          "width": 200
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/b1af952a7fb8ac2c4467868d61b5752fc1a01cf0",
+          "width": 64
+        }
+      ],
+      "name": "Miles Davis",
+      "popularity": 60,
+      "type": "artist",
+      "uri": "spotify:artist:0kbYTNQb4Pb1rPbbaF0pT4"
+    },
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/6gc6oo3u2f7SqTd4mhe81O"
+      },
+      "followers": { "href": null, "total": 157389 },
+      "genres": ["bebop", "cool jazz", "jazz", "jazz piano"],
+      "href": "https://api.spotify.com/v1/artists/6gc6oo3u2f7SqTd4mhe81O",
+      "id": "6gc6oo3u2f7SqTd4mhe81O",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb272e70fd5f5f4d76666a110f",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174272e70fd5f5f4d76666a110f",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178272e70fd5f5f4d76666a110f",
+          "width": 160
+        }
+      ],
+      "name": "Ahmad Jamal",
+      "popularity": 43,
+      "type": "artist",
+      "uri": "spotify:artist:6gc6oo3u2f7SqTd4mhe81O"
+    },
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/6WoTvA9qinpHtSRJuldYh6"
+      },
+      "followers": { "href": null, "total": 195183 },
+      "genres": [
+        "alternative rock",
+        "art punk",
+        "madchester",
+        "post-punk",
+        "shoegaze",
+        "uk post-punk"
+      ],
+      "href": "https://api.spotify.com/v1/artists/6WoTvA9qinpHtSRJuldYh6",
+      "id": "6WoTvA9qinpHtSRJuldYh6",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb9f414fc8dc3f76cb637f8f11",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab676161000051749f414fc8dc3f76cb637f8f11",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f1789f414fc8dc3f76cb637f8f11",
+          "width": 160
+        }
+      ],
+      "name": "The Fall",
+      "popularity": 41,
+      "type": "artist",
+      "uri": "spotify:artist:6WoTvA9qinpHtSRJuldYh6"
+    },
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/0EdvGhlC1FkGItLOWQzG4J"
+      },
+      "followers": { "href": null, "total": 2832458 },
+      "genres": ["rap rock", "reggae fusion", "ska mexicano", "ska punk"],
+      "href": "https://api.spotify.com/v1/artists/0EdvGhlC1FkGItLOWQzG4J",
+      "id": "0EdvGhlC1FkGItLOWQzG4J",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebe726280500259dbdb97a8be4",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174e726280500259dbdb97a8be4",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178e726280500259dbdb97a8be4",
+          "width": 160
+        }
+      ],
+      "name": "Sublime",
+      "popularity": 73,
+      "type": "artist",
+      "uri": "spotify:artist:0EdvGhlC1FkGItLOWQzG4J"
+    },
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/13dkPjqmbcchm8cXjEJQeP"
+      },
+      "followers": { "href": null, "total": 250375 },
+      "genres": [
+        "canadian classical piano",
+        "canadian contemporary r&b",
+        "classical",
+        "classical piano"
+      ],
+      "href": "https://api.spotify.com/v1/artists/13dkPjqmbcchm8cXjEJQeP",
+      "id": "13dkPjqmbcchm8cXjEJQeP",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebae1364cd7533a53776d8ae43",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174ae1364cd7533a53776d8ae43",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178ae1364cd7533a53776d8ae43",
+          "width": 160
+        }
+      ],
+      "name": "Glenn Gould",
+      "popularity": 55,
+      "type": "artist",
+      "uri": "spotify:artist:13dkPjqmbcchm8cXjEJQeP"
+    },
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/0Wxy5Qka8BN9crcFkiAxSR"
+      },
+      "followers": { "href": null, "total": 515628 },
+      "genres": [
+        "acoustic blues",
+        "blues",
+        "chicago blues",
+        "delta blues",
+        "harmonica blues",
+        "memphis blues",
+        "traditional blues"
+      ],
+      "href": "https://api.spotify.com/v1/artists/0Wxy5Qka8BN9crcFkiAxSR",
+      "id": "0Wxy5Qka8BN9crcFkiAxSR",
+      "images": [
+        {
+          "height": 1100,
+          "url": "https://i.scdn.co/image/c2408f7f93e582b422af47aa72904a24397029d9",
+          "width": 818
+        },
+        {
+          "height": 861,
+          "url": "https://i.scdn.co/image/42a40543d2bde12565d33ee74a2566fd85b0c9f5",
+          "width": 640
+        },
+        {
+          "height": 269,
+          "url": "https://i.scdn.co/image/d436651ba6b691a4b1bf631e1020d04967c16089",
+          "width": 200
+        },
+        {
+          "height": 86,
+          "url": "https://i.scdn.co/image/2e43a2813672ed781d2395808c46957ae566197d",
+          "width": 64
+        }
+      ],
+      "name": "Howlin' Wolf",
+      "popularity": 51,
+      "type": "artist",
+      "uri": "spotify:artist:0Wxy5Qka8BN9crcFkiAxSR"
+    },
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/6G69CndLxnRxLdy8MVLNmG"
+      },
+      "followers": { "href": null, "total": 13040 },
+      "genres": ["jazz boom bap"],
+      "href": "https://api.spotify.com/v1/artists/6G69CndLxnRxLdy8MVLNmG",
+      "id": "6G69CndLxnRxLdy8MVLNmG",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb48c9d1dad52a974a92c2015e",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab6761610000517448c9d1dad52a974a92c2015e",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f17848c9d1dad52a974a92c2015e",
+          "width": 160
+        }
+      ],
+      "name": "Thes One",
+      "popularity": 33,
+      "type": "artist",
+      "uri": "spotify:artist:6G69CndLxnRxLdy8MVLNmG"
+    },
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2QsynagSdAqZj3U9HgDzjD"
+      },
+      "followers": { "href": null, "total": 12315198 },
+      "genres": ["reggae", "roots reggae"],
+      "href": "https://api.spotify.com/v1/artists/2QsynagSdAqZj3U9HgDzjD",
+      "id": "2QsynagSdAqZj3U9HgDzjD",
+      "images": [
+        {
+          "height": 858,
+          "url": "https://i.scdn.co/image/b5aae2067db80f694a980e596e7f49618c1206c9",
+          "width": 1000
+        },
+        {
+          "height": 549,
+          "url": "https://i.scdn.co/image/4cd57e5e12ea2c24644c40886d65a9b22eca9802",
+          "width": 640
+        },
+        {
+          "height": 172,
+          "url": "https://i.scdn.co/image/02fd758d9805ef44d1caafc35ff17a47f9dff098",
+          "width": 200
+        },
+        {
+          "height": 55,
+          "url": "https://i.scdn.co/image/357fe6ef3655b1b33855e33546e3c174a38a1a36",
+          "width": 64
+        }
+      ],
+      "name": "Bob Marley & The Wailers",
+      "popularity": 80,
+      "type": "artist",
+      "uri": "spotify:artist:2QsynagSdAqZj3U9HgDzjD"
+    },
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/0Oslq5zLftqRVwKseBJ7MV"
+      },
+      "followers": { "href": null, "total": 17416 },
+      "genres": [
+        "baltimore indie",
+        "crank wave",
+        "experimental indie rock",
+        "math rock",
+        "microtonal",
+        "totalism"
+      ],
+      "href": "https://api.spotify.com/v1/artists/0Oslq5zLftqRVwKseBJ7MV",
+      "id": "0Oslq5zLftqRVwKseBJ7MV",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb3891ccfc53fcb373dabddca4",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab676161000051743891ccfc53fcb373dabddca4",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f1783891ccfc53fcb373dabddca4",
+          "width": 160
+        }
+      ],
+      "name": "Horse Lords",
+      "popularity": 18,
+      "type": "artist",
+      "uri": "spotify:artist:0Oslq5zLftqRVwKseBJ7MV"
+    },
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/4TMHGUX5WI7OOm53PqSDAT"
+      },
+      "followers": { "href": null, "total": 1829235 },
+      "genres": ["cosmic american", "jam band", "psychedelic rock"],
+      "href": "https://api.spotify.com/v1/artists/4TMHGUX5WI7OOm53PqSDAT",
+      "id": "4TMHGUX5WI7OOm53PqSDAT",
+      "images": [
+        {
+          "height": 697,
+          "url": "https://i.scdn.co/image/bba340d0c2aa4c9cbcbab0a4c3259d8f8e27f0d7",
+          "width": 1000
+        },
+        {
+          "height": 446,
+          "url": "https://i.scdn.co/image/4c000d838221db17a95ec272d79c06560829ab11",
+          "width": 640
+        },
+        {
+          "height": 139,
+          "url": "https://i.scdn.co/image/055f1232a2588ace9747002f972be62ecbb74e92",
+          "width": 199
+        },
+        {
+          "height": 45,
+          "url": "https://i.scdn.co/image/264413e72f38c521bb90e5c5cc3d5c6b5097efdb",
+          "width": 64
+        }
+      ],
+      "name": "Grateful Dead",
+      "popularity": 66,
+      "type": "artist",
+      "uri": "spotify:artist:4TMHGUX5WI7OOm53PqSDAT"
+    },
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/30pF2pv50VXX6TgiMmKKjc"
+      },
+      "followers": { "href": null, "total": 26655 },
+      "genres": [],
+      "href": "https://api.spotify.com/v1/artists/30pF2pv50VXX6TgiMmKKjc",
+      "id": "30pF2pv50VXX6TgiMmKKjc",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebc6329888bdc19e92b1388865",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174c6329888bdc19e92b1388865",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178c6329888bdc19e92b1388865",
+          "width": 160
+        }
+      ],
+      "name": "lonelyboy",
+      "popularity": 51,
+      "type": "artist",
+      "uri": "spotify:artist:30pF2pv50VXX6TgiMmKKjc"
+    },
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2hGh5VOeeqimQFxqXvfCUf"
+      },
+      "followers": { "href": null, "total": 1653227 },
+      "genres": ["bebop", "free jazz", "jazz", "jazz saxophone", "vocal jazz"],
+      "href": "https://api.spotify.com/v1/artists/2hGh5VOeeqimQFxqXvfCUf",
+      "id": "2hGh5VOeeqimQFxqXvfCUf",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb73c7f7505c1af82929ec41df",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab6761610000517473c7f7505c1af82929ec41df",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f17873c7f7505c1af82929ec41df",
+          "width": 160
+        }
+      ],
+      "name": "John Coltrane",
+      "popularity": 62,
+      "type": "artist",
+      "uri": "spotify:artist:2hGh5VOeeqimQFxqXvfCUf"
+    },
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/4iRZAbYvBqnxrbs6K25aJ7"
+      },
+      "followers": { "href": null, "total": 292837 },
+      "genres": ["bebop", "jazz", "jazz quartet"],
+      "href": "https://api.spotify.com/v1/artists/4iRZAbYvBqnxrbs6K25aJ7",
+      "id": "4iRZAbYvBqnxrbs6K25aJ7",
+      "images": [
+        {
+          "height": 865,
+          "url": "https://i.scdn.co/image/b6f7dc3c16f95e6df120af205d4007f518b01e0e",
+          "width": 873
+        },
+        {
+          "height": 634,
+          "url": "https://i.scdn.co/image/842f5ac6934f8c1bc783a3b344f008dfa919b692",
+          "width": 640
+        },
+        {
+          "height": 198,
+          "url": "https://i.scdn.co/image/291e690bbe1ca00d9190d23d1c579a6e9c85ed60",
+          "width": 200
+        },
+        {
+          "height": 63,
+          "url": "https://i.scdn.co/image/9aeee9c29f033e2e9a684e37816ddc3df2521692",
+          "width": 64
+        }
+      ],
+      "name": "The Dave Brubeck Quartet",
+      "popularity": 55,
+      "type": "artist",
+      "uri": "spotify:artist:4iRZAbYvBqnxrbs6K25aJ7"
+    },
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1Z8ODXyhEBi3WynYw0Rya6"
+      },
+      "followers": { "href": null, "total": 1014669 },
+      "genres": [
+        "east coast hip hop",
+        "golden age hip hop",
+        "hip hop",
+        "jazz rap"
+      ],
+      "href": "https://api.spotify.com/v1/artists/1Z8ODXyhEBi3WynYw0Rya6",
+      "id": "1Z8ODXyhEBi3WynYw0Rya6",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebc443011311dcf7f6eeaf507d",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174c443011311dcf7f6eeaf507d",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178c443011311dcf7f6eeaf507d",
+          "width": 160
+        }
+      ],
+      "name": "De La Soul",
+      "popularity": 59,
+      "type": "artist",
+      "uri": "spotify:artist:1Z8ODXyhEBi3WynYw0Rya6"
+    },
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2H5elA2mJKrHmqkN9GSfkz"
+      },
+      "followers": { "href": null, "total": 228928 },
+      "genres": [
+        "alternative country",
+        "canadian singer-songwriter",
+        "folk",
+        "melancholia",
+        "nashville singer-songwriter",
+        "new americana",
+        "progressive bluegrass",
+        "singer-songwriter"
+      ],
+      "href": "https://api.spotify.com/v1/artists/2H5elA2mJKrHmqkN9GSfkz",
+      "id": "2H5elA2mJKrHmqkN9GSfkz",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebbf3ed488c6ff47a5b3a980ac",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174bf3ed488c6ff47a5b3a980ac",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178bf3ed488c6ff47a5b3a980ac",
+          "width": 160
+        }
+      ],
+      "name": "Gillian Welch",
+      "popularity": 48,
+      "type": "artist",
+      "uri": "spotify:artist:2H5elA2mJKrHmqkN9GSfkz"
+    },
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2i8ynmFv4qgRksyDlBgi6d"
+      },
+      "followers": { "href": null, "total": 202820 },
+      "genres": [
+        "alternative rock",
+        "art punk",
+        "experimental rock",
+        "post-punk",
+        "punk",
+        "uk post-punk"
+      ],
+      "href": "https://api.spotify.com/v1/artists/2i8ynmFv4qgRksyDlBgi6d",
+      "id": "2i8ynmFv4qgRksyDlBgi6d",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb00807c5b63087591ca240643",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab6761610000517400807c5b63087591ca240643",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f17800807c5b63087591ca240643",
+          "width": 160
+        }
+      ],
+      "name": "Wire",
+      "popularity": 49,
+      "type": "artist",
+      "uri": "spotify:artist:2i8ynmFv4qgRksyDlBgi6d"
+    },
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/62BcWP4fzR8axESibNQEhs"
+      },
+      "followers": { "href": null, "total": 358693 },
+      "genres": [
+        "alternative rock",
+        "experimental rock",
+        "grunge",
+        "noise rock",
+        "psychedelic punk",
+        "punk"
+      ],
+      "href": "https://api.spotify.com/v1/artists/62BcWP4fzR8axESibNQEhs",
+      "id": "62BcWP4fzR8axESibNQEhs",
+      "images": [
+        {
+          "height": 665,
+          "url": "https://i.scdn.co/image/dabd2920676f2ae15862ed8dfcf89a8ddb9d11ee",
+          "width": 1000
+        },
+        {
+          "height": 425,
+          "url": "https://i.scdn.co/image/4136eafc38bb9a7e6db382c5e027380e6a527be1",
+          "width": 639
+        },
+        {
+          "height": 133,
+          "url": "https://i.scdn.co/image/13fb78d8c965a8a3637a659442fead75890e1c07",
+          "width": 200
+        },
+        {
+          "height": 43,
+          "url": "https://i.scdn.co/image/b18f1417a0d867c8af95ec56c810e02176d86500",
+          "width": 64
+        }
+      ],
+      "name": "Butthole Surfers",
+      "popularity": 50,
+      "type": "artist",
+      "uri": "spotify:artist:62BcWP4fzR8axESibNQEhs"
+    },
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/4PDpGtF16XpqvXxsrFwQnN"
+      },
+      "followers": { "href": null, "total": 659146 },
+      "genres": [
+        "bebop",
+        "contemporary post-bop",
+        "jazz",
+        "jazz piano",
+        "jazz trio"
+      ],
+      "href": "https://api.spotify.com/v1/artists/4PDpGtF16XpqvXxsrFwQnN",
+      "id": "4PDpGtF16XpqvXxsrFwQnN",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb8238a10406dfbd483d13f908",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab676161000051748238a10406dfbd483d13f908",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f1788238a10406dfbd483d13f908",
+          "width": 160
+        }
+      ],
+      "name": "Thelonious Monk",
+      "popularity": 50,
+      "type": "artist",
+      "uri": "spotify:artist:4PDpGtF16XpqvXxsrFwQnN"
+    },
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/13nrWU0iAugxOj586gGfaw"
+      },
+      "followers": { "href": null, "total": 3352 },
+      "genres": ["classical flute"],
+      "href": "https://api.spotify.com/v1/artists/13nrWU0iAugxOj586gGfaw",
+      "id": "13nrWU0iAugxOj586gGfaw",
+      "images": [
+        {
+          "height": 480,
+          "url": "https://i.scdn.co/image/aca3970909905d32f9caf946fbb27a3ee6f996bf",
+          "width": 319
+        },
+        {
+          "height": 301,
+          "url": "https://i.scdn.co/image/1f61f9960f294f5b6e24501d878fca7b4c129e31",
+          "width": 200
+        },
+        {
+          "height": 96,
+          "url": "https://i.scdn.co/image/ef9b3a98b2f8b334ed05dfc4a6e576cf1871b095",
+          "width": 64
+        }
+      ],
+      "name": "Patrick Gallois",
+      "popularity": 32,
+      "type": "artist",
+      "uri": "spotify:artist:13nrWU0iAugxOj586gGfaw"
+    },
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2P03Aan9wfgwkxTwGch2g1"
+      },
+      "followers": { "href": null, "total": 46978 },
+      "genres": ["chanson", "laboratorio"],
+      "href": "https://api.spotify.com/v1/artists/2P03Aan9wfgwkxTwGch2g1",
+      "id": "2P03Aan9wfgwkxTwGch2g1",
+      "images": [
+        {
+          "height": 331,
+          "url": "https://i.scdn.co/image/72aafd2ca1a8e1d03f29dfaea8a521d1ca9fc1fe",
+          "width": 416
+        },
+        {
+          "height": 159,
+          "url": "https://i.scdn.co/image/565771f04ca346d68442b8e5bd7e2495de6dc28c",
+          "width": 200
+        },
+        {
+          "height": 51,
+          "url": "https://i.scdn.co/image/80bc6fe9804e711a11555e3d17506464da38006c",
+          "width": 64
+        }
+      ],
+      "name": "Brigitte Fontaine",
+      "popularity": 35,
+      "type": "artist",
+      "uri": "spotify:artist:2P03Aan9wfgwkxTwGch2g1"
+    }
+  ],
+  "total": 424,
+  "limit": 20,
+  "offset": 0,
+  "href": "https://api.spotify.com/v1/me/top/artists?locale=en-US,en;q%3D0.9",
+  "next": "https://api.spotify.com/v1/me/top/artists?offset=20&limit=20&locale=en-US,en;q%3D0.9",
+  "previous": null
+}

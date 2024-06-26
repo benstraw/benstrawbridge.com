@@ -15,6 +15,7 @@ copyright = '<i class="fa-regular fa-copyright"></i>  2024 benstrawbridge.com'
 [params]
   description = 'Dot Com Consulting'
   TocOpen = true
+  loadLeaflet = true 
   # UseHugoToc = true
   # enabledebugpanel = true 
   # navbar_fixed = true
