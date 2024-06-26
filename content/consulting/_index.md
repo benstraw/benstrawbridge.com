@@ -6,6 +6,7 @@ date = 2024-02-14T15:16:41-08:00
   categories = ["consulting"]
   homeFeatureIcon = "fa-solid fa-jedi"
   cardCategoryColorsDefault = "bg-gradient-to-r from-emerald-500 to-emerald-700"
+homeFeatureWide = true
 homeFeature = true
 # homeFeatureSummary = "Offering comprehensive consulting services including API integration projects, product management, and full stack application development, tailored to solve complex problems and enhance business operations efficiently and effectively."
 weight = 1
@@ -15,13 +16,13 @@ weight = 1
   identifier = "consulting"
 +++
 
-Offering comprehensive consulting services including API integration projects, product management, and full stack application development, tailored to solve complex problems and enhance business operations efficiently and effectively.
-
 ## API Integration projects
 
-Do you have a complex problem that can be solved by pulling data from a wide variety of public and private APIs? Do you need to create a secure and scalable internal or public API? I can help you create the best API integration for the solution you need.
+Offering comprehensive consulting services including API integration projects, product management, and full stack application development, tailored to solve complex problems and enhance business operations efficiently and effectively.
 
 <!--more-->
+
+Do you have a complex problem that can be solved by pulling data from a wide variety of public and private APIs? Do you need to create a secure and scalable internal or public API? I can help you create the best API integration for the solution you need.
 
 ### Popular solutions I love working with include
 
