@@ -20,6 +20,6 @@ tags = [
     title="Lights coming up"
   >}}
 
-  Every musical genre in my recent tracks.
+  Every musical genre in my recent tracks. This page was generated with the Spotify API {{< font-awesome "fab fa-spotify text-7xl float-left mr-2 text-emerald-500" >}}, please read our [full disclosure on our use of this data]({{< relref "/fineprint/spotify-data-use-disclosure" >}}).
 <!--more-->
 
