@@ -1,0 +1,64 @@
+{{ $data := site.Data.books.example }}
+{{ $data = slice }}
+{{ $artistsData := site.Data.spotify.topArtists.items }}
+{{ $tracksData := site.Data.spotify.topTracks }}
+
+{{ range $artistsData }}
+  {{ $genreStr := delimit .genres ", " }}
+  {{ $extContent := add "Genres:" $genreStr }}
+
+  {{ $content := dict "mediaType" "text/markdown" "value" $extContent }}
+  {{ $params := dict "categories" (slice "music" "spotify" "catalog") "tags" .genres }}
+  {{ $page := dict
+    "content" $content
+    "title" .name
+    "type" "spotify-artist"
+    "params" $params
+    "tags" (slice "spotify" "catalog")
+    "path" .href 
+  }}
+    {{ $.AddPage $page }}
+{{ end }}
+
+{{/* Add pages and page resources. */}}
+{{ range $data }}
+
+  {{/* Add page. */}}
+  {{ $buttonLabel := .title }}
+  {{ $extContent := add (printf "{{< amazon-associate-link button_label=\"%s\" >}} <!--more-->" $buttonLabel) .content }}
+  {{ $content := dict "mediaType" "text/markdown" "value" $extContent }}
+  {{ $dates := dict "date" (time.AsTime .date) }}
+  {{ $params := dict "author" .author "isbn" .isbn "asin" .asin "rating" .rating "tags" .tags }}
+  {{ $page := dict
+    "content" $content
+    "dates" $dates
+    "kind" "page"
+    "type" "books"
+    "params" $params
+    "path" .title
+    "title" .title
+  }}
+  {{ $.AddPage $page }}
+
+  {{/* Add page resource. */}}
+  {{ $item := . }}
+  {{ with $url := $item.cover }}
+    {{ with resources.GetRemote $url }}
+      {{ with .Err }}
+        {{ errorf "Unable to get remote resource %s: %s" $url . }}
+      {{ else }}
+        {{ $content := dict "mediaType" .MediaType.Type "value" .Content }}
+        {{ $params := dict "alt" $item.title }}
+        {{ $resource := dict
+          "content" $content
+          "params" $params
+          "path" (printf "%s/feature_cover.%s" $item.title .MediaType.SubType)
+        }}
+        {{ $.AddResource $resource }}
+      {{ end }}
+    {{ else }}
+      {{ errorf "Unable to get remote resource %s" $url }}
+    {{ end }}
+  {{ end }}
+
+{{ end }}

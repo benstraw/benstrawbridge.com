@@ -1,5 +1,5 @@
 +++
-title = 'Content Adaptors'
+title = 'Book Store Sample Data'
 date = 2024-05-17T13:36:56-07:00
 # draft = true
 tags = [
@@ -12,15 +12,13 @@ tags = [
 
 +++
 
-## Content Adaptors come to Hugo!
 
-A long anticipated release has come to the hugo static site generator that will be a real game changer. This is part of [release v0.126.0](https://github.com/gohugoio/hugo/releases/tag/v0.126.0). The new feature, called Content Adaptors allows you to generate static pages in your public directory at build time from a remote resource, such as an api.
 
-<!--more-->
-
-### Example
+## Example
 
 I just followed [the example here on the hugo docs](https://gohugo.io/content-management/content-adapters/#example) to set up the simple books demo, but I intend to use this new feature to build out some great new dynamic content for content marketing purposes, such as lists of top products.
+
+<!--more-->
 
 ### Small changes to my single.html
 
