@@ -16,11 +16,15 @@
   {{ $extContent := add "### Genres\n" $genreStr }}
   {{ $extContent = add $extContent ("{{< picture src=\"feature_cover.jpeg\" >}} <!--more-->")  }}
   {{ $extContent = add $extContent "\n#### Spotify ID  \n" $artistSpotifyId }}
-  {{ $extContent = add $extContent "\n#### Top Tracks  \n" }}
+  {{ $showTrackHeader := true }}
   {{ range $tracksData }}
     {{ $track := . }}
     {{ range $track.artists }}
       {{ if eq .id $artistSpotifyId }}
+        {{ if $showTrackHeader }}
+          {{ $extContent = add $extContent "\n#### Top Tracks  \n" }}
+          {{ $showTrackHeader = false }}
+        {{ end }}
         {{ $extContent = add $extContent "\n- " $track.name " off " $track.album.name }}
       {{ end }}
     {{ end }}
