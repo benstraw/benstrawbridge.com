@@ -16,7 +16,7 @@ featured_image = "musical-genre_featured.webp"
   {{< picture
     alt="Lights coming up"
     overlay="images/bs_full_wordmark.png"
-    src="musical-genre_feature.webp"
+    src="musical-genre_featured.webp"
     title="Lights coming up"
   >}}
 
