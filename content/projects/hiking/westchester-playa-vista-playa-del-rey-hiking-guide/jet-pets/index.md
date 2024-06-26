@@ -7,7 +7,7 @@ hideAsideBar = true
 lat = "33.9575"
 lon = "-118.4340"
 +++
-## Private dog friendly open space that allows hikers
+## Private dog friendly open space that allows dogs 
 
 {{< lat-long-box >}}
 

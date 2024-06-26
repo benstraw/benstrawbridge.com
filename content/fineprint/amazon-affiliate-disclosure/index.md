@@ -2,20 +2,20 @@
 title = 'Amazon Affiliate Disclosure'
 date = 2024-06-05T15:45:41-07:00
 # draft = true
-# summary = ""
 # categories = [""]
 tags = [
-  "Amazon Associates Program"
+  "Amazon Associates Program",
+  "disclosure"
   ]
 # featured_image = ""
-homeFeatureIcon = "fa-solid fa-door-open"
-# showTOC = true
+homeFeatureIcon = "fab fa-amazon"
+showTOC = true
 +++
 
 
 ## Disclosure Statement
 
-Ben Strawbridge Dot Com Consulting is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. This means that some of the links on our site are affiliate links, and at no additional cost to you, we will earn a commission if you decide to make a purchase after clicking through the link.
+{{< font-awesome "fab fa-amazon text-7xl float-left mr-2 text-orange-500" >}} Ben Strawbridge Dot Com Consulting is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. This means that some of the links on our site are affiliate links, and at no additional cost to you, we will earn a commission if you decide to make a purchase after clicking through the link.
 
 <!--more-->
 

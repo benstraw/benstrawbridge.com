@@ -55,6 +55,7 @@ copyright = '<i class="fa-regular fa-copyright"></i>  2024 benstrawbridge.com'
     linenos = false
 [taxonomies]
   ingredient = 'ingredients'
+  musical-genre = 'musical-genres'
   tag = 'tags'
   category = 'categories'
 [permalinks]

@@ -31,6 +31,12 @@
       "link": "/tags"
     },
     {
+      "title": "Musical Genres",
+      "name": "musical-genres",
+      "icon": "fa-solid fa-headphones",
+      "link": "/musical-genres"
+    },
+    {
       "title": "Ingredients",
       "name": "ingredients",
       "icon": "fa-solid fa-kitchen-set",
