@@ -120,6 +120,13 @@ The link graveyard is my page for remembering where I found stuff – whether it
 - [Titillium Web](https://fonts.google.com/specimen/Titillium+Web?preview.text=ben%20strawbridge&preview.size=80&classification=Display&stroke=Sans+Serif)
 - [Ruda](https://fonts.google.com/specimen/Ruda?preview.text=ben%20strawbridge&preview.size=80&classification=Display&stroke=Sans+Serif)
 - [Tauri](https://fonts.google.com/specimen/Tauri?preview.text=ben%20strawbridge&preview.size=80&classification=Display&stroke=Sans+Serif)
+- [Cormorant Garamond](https://fonts.google.com/specimen/Cormorant+Garamond)
+- [Bodoni](https://fonts.google.com/specimen/Libre+Bodoni)
+  > Magazine cover font
+- [Baskerville](https://fonts.google.com/specimen/Libre+Baskerville)
+- [Inter](https://fonts.google.com/specimen/Inter)
+  > One of the original digital Fonts
+- [Roboto](https://fonts.google.com/specimen/Roboto)
 
 ### icons
 
