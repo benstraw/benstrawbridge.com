@@ -18,6 +18,6 @@ hideAsideBar = true
 
 ## Spotify API feed
 
-These are some of the recent artists from Spotify. I made a taxonomy of `musical genres` so each genre has a page on this site now which you may explore from the [musical genres page]({{< relref "/musical-genres/" >}}).
+{{< font-awesome "fab fa-spotify text-7xl mr-2 text-emerald-500 inline-block align-middle max-w-16 fill-current" >}}  These are some of the recent artists from Spotify. I made a taxonomy of `musical genres` so each genre has a page on this site now which you may explore from the [musical genres page]({{< relref "/musical-genres/" >}}).
 
 <!--more-->

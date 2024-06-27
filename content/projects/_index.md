@@ -6,7 +6,7 @@ date = 2024-02-12T15:16:41-08:00
   sectionTitle = "Projects on BenStrawbridge.com"
   showToc = true
   homeFeatureIcon = "fa-solid fa-diagram-project"
-  cardCategoryColorsDefault = "bg-emerald-700"
+  cardCategoryColorsDefault = "bg-gradient-to-r from-green-300 to-sky-300 dark:text-neutral-900"
 [menu]
  [menu.main]
   weight = 2

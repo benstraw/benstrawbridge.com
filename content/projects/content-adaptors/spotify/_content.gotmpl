@@ -14,7 +14,7 @@
   {{ end }}
 
   {{ $extContent := add "### Genres\n" $genreStr }}
-  {{ $extContent = add $extContent ("{{< picture src=\"feature_cover.jpeg\" >}} <!--more-->")  }}
+  {{ $extContent = add $extContent ("{{< picture src=\"feature_cover.jpeg\" width=640 >}} <!--more-->")  }}
   {{ $extContent = add $extContent "\n#### Spotify ID  \n" $artistSpotifyId }}
   {{ $showTrackHeader := true }}
   {{ range $tracksData }}
