@@ -1,44 +1,39 @@
 {{ $artistsData := site.Data.spotify.topArtists.items }}
 {{ $tracksData := site.Data.spotify.topTracks.items }}
 
+
 {{ range $artistsData }}
-  {{ $genreStr := "" }}
-  {{ $sep := ", " }}
-  {{ $totalGenres := len .genres }}
+  {{ $matchingTracks := slice }}
   {{ $artistSpotifyId := .id }}
-  {{ $artistSpotifyHref := .external_urls.spotify }}
-{{ $artistName := .name | urlquery }}
-  {{ range $index, $genre := .genres }}
-    {{ if eq (add $index 1) $totalGenres }}
-      {{ $sep = "" }}
-    {{ end }}
-    {{ $genreStr = printf "%s[%s]({{< relref \"/musical-genres/%s\" >}})%s" $genreStr $genre $genre $sep }}
-  {{ end }}
+
+
   {{ $extContent := "" }}
-  {{ $extContent = add $extContent ("{{< picture src=\"feature_cover.jpeg\" width=640 >}} <!--more-->")  }}
-  {{ $extContent = add $extContent "\n### Spotify Page \n" }}
-{{ $extContent = printf "%s{{< cta-button button_icon=\"fab fa-spotify text-2xl align-middle pr-2\" button_label=\"%s\" button_href=\"%s\">}}" $extContent $artistName $artistSpotifyHref | safeHTML }}
-  {{ $showTrackHeader := true }}
+  {{ $imgHref := (index .images 0).url }}
+  {{ $extContent = add $extContent "{{< picture src=\"feature_cover.jpeg\" width=640 >}} <!--more-->"  }}
+
   {{ range $tracksData }}
     {{ $track := . }}
     {{ range $track.artists }}
       {{ if eq .id $artistSpotifyId }}
-        {{ if $showTrackHeader }}
-          {{ $extContent = add $extContent "\n#### Top Tracks  \n" }}
-          {{ $showTrackHeader = false }}
-        {{ end }}
-        {{ $extContent = add $extContent "\n- " $track.name " off " $track.album.name }}
+        {{ $matchingTracks = $matchingTracks | append $track }}
       {{ end }}
     {{ end }}
   {{ end }}
-  {{ $extContent = add $extContent "\n\n### Genres\n" $genreStr }}
+  {{ $numTracks := len $matchingTracks }}
 
-  {{ with false }}
-  {{ $extContent = printf "%s // %s" $extContent $tracksData }}
-  {{ end }}
 
   {{ $content := dict "mediaType" "text/markdown" "value" $extContent }}
-  {{ $params := dict "categories" (slice "music" "spotify" "catalog") "musical-genres" .genres }}
+  {{ $params := dict 
+    "categories" (slice "music" "spotify") 
+    "hideAsideBar" true
+    "musical-genres" .genres 
+    "numfollowers" .followers.total
+    "images" .images
+    "popularity" .popularity
+    "spotifyUrl" .external_urls.spotify
+    "numTracks" $numTracks
+    "tracks" $matchingTracks
+  }}
   {{ $page := dict
     "content" $content
     "title" .name

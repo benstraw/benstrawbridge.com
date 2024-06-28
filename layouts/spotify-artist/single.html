@@ -1,0 +1,43 @@
+{{ define "main" }}
+<div class=" mx-auto">
+  {{- partial "breadcrumb.html" . }}
+</div>
+<div class="p-4  mx-auto ">
+  <div class=" grid grid-cols-1 md:grid-cols-12 gap-x-1 ">
+    <header class=" w-full md:col-span-12 prose lg:prose-xl max-w-screen-lg  dark:prose-invert">
+      <h1><i class="fab fa-spotify text-7xl text-green-500 align-middle pr-2"></i>{{ .Title }}</h1>
+    </header>
+    <div class="p-4 md:col-span-10 prose max-w-max lg:prose-lg dark:prose-invert ">
+          Followers:: {{ (lang.FormatNumberCustom 0 .Params.numFollowers) }} | Spotify Popularity Score:: {{ (lang.FormatNumberCustom 0 .Params.popularity) }} | Tracks Played:: {{ .Params.numTracks }}<br/>
+          {{ $imgHref := (index .Params.images 0).url }}
+          {{- partial "picture.html" (dict "page" . "src" $imgHref "width" 640) }}
+          <h3>Spotify Artist Page</h3>
+          {{- partial "cta-button.html" (dict 
+            "button_icon" "fab fa-spotify text-2xl align-middle pr-2"
+            "button_class" "text-white bg-gradient-to-r from-green-500 to-green-600 hover:bg-gradient-to-r hover:from-green-600 hover:to-green-700 py-2 px-4 rounded-lg transition duration-300 no-underline inline-block text-center break-words"
+            "button_label" .Title
+            "button_href" .Params.spotifyUrl)
+          }}
+          <h3>Top Tracks</h3>
+          {{ $seen := slice }}
+          <ol>
+          {{ range .Params.tracks }}
+            {{ if not (in $seen .id) }}
+              {{ $seen = $seen | append .id }}
+              {{/* Render your track information here */}}
+              <li>{{ .name }} on {{ .album.name }}
+              <audio controls>
+                <source src="{{ .preview_url }}" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio></li>
+            {{ end }}
+          {{ end }}
+          </ol>
+
+    </div>
+    <aside class=" max-w-max md:col-span-2 relative">
+
+    {{/*  deside if the aside shall reside  */}}
+    </aside>
+</div>
+{{ end }}
