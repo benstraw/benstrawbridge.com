@@ -6,6 +6,8 @@
   {{ $sep := ", " }}
   {{ $totalGenres := len .genres }}
   {{ $artistSpotifyId := .id }}
+  {{ $artistSpotifyHref := .external_urls.spotify }}
+{{ $artistName := .name | urlquery }}
   {{ range $index, $genre := .genres }}
     {{ if eq (add $index 1) $totalGenres }}
       {{ $sep = "" }}
@@ -15,7 +17,8 @@
 
   {{ $extContent := add "### Genres\n" $genreStr }}
   {{ $extContent = add $extContent ("{{< picture src=\"feature_cover.jpeg\" width=640 >}} <!--more-->")  }}
-  {{ $extContent = add $extContent "\n#### Spotify ID  \n" $artistSpotifyId }}
+  {{ $extContent = add $extContent "\n### Spotify Page \n" }}
+{{ $extContent = printf "%s{{< cta-button button_icon=\"fab fa-spotify text-2xl align-middle pr-2\" button_label=\"%s\" button_href=\"%s\">}}" $extContent $artistName $artistSpotifyHref | safeHTML }}
   {{ $showTrackHeader := true }}
   {{ range $tracksData }}
     {{ $track := . }}
