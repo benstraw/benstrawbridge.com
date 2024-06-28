@@ -14,8 +14,7 @@
     {{ end }}
     {{ $genreStr = printf "%s[%s]({{< relref \"/musical-genres/%s\" >}})%s" $genreStr $genre $genre $sep }}
   {{ end }}
-
-  {{ $extContent := add "### Genres\n" $genreStr }}
+  {{ $extContent := "" }}
   {{ $extContent = add $extContent ("{{< picture src=\"feature_cover.jpeg\" width=640 >}} <!--more-->")  }}
   {{ $extContent = add $extContent "\n### Spotify Page \n" }}
 {{ $extContent = printf "%s{{< cta-button button_icon=\"fab fa-spotify text-2xl align-middle pr-2\" button_label=\"%s\" button_href=\"%s\">}}" $extContent $artistName $artistSpotifyHref | safeHTML }}
@@ -32,6 +31,7 @@
       {{ end }}
     {{ end }}
   {{ end }}
+  {{ $extContent = add $extContent "\n\n### Genres\n" $genreStr }}
 
   {{ with false }}
   {{ $extContent = printf "%s // %s" $extContent $tracksData }}
