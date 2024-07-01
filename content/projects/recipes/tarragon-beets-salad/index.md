@@ -2,6 +2,7 @@
 title = 'Tarragon Beets Salad'
 date = 2023-08-04T11:56:15-08:00
 # draft = true
+homeFeature = true
 tags = [
   'healthy',
   'vegan'
