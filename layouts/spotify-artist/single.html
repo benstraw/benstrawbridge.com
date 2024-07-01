@@ -18,6 +18,22 @@
             "button_label" .Title
             "button_href" .Params.spotifyUrl)
           }}
+        
+        {{ if .Params.musicalGenres }}
+          <h3>Genres</h3>
+          <ul class="inline-flex">
+            {{ $genreCount := len .Params.musicalGenres }}
+            {{ range $index, $genre := .Params.musicalGenres }}
+              {{ $link := relURL (print "/musical-genres/" $genre ) }}
+              <li>
+                <a href="{{ $link }}" class="hover:underline">{{ $genre }}</a>{{ if ne $index (sub $genreCount 1) }}, {{ end }}
+              </li>
+            {{ end }}
+          </ul>
+        {{ end }}
+        
+          
+          
           <h3>Top Tracks</h3>
           {{ $seen := slice }}
           <ol>

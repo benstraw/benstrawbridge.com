@@ -134,6 +134,7 @@ The link graveyard is my page for remembering where I found stuff – whether it
 - [fontawesome](https://fontawesome.com/search?q=moon&o=r&m=free)
 - [Themify Icons](https://themify.me/themify-icons)
 - [heroicons](https://heroicons.com/)
+- [phosphoricons](https://phosphoricons.com/)
 - [favicon generator](https://realfavicongenerator.net/)
 
 ### Hugo
