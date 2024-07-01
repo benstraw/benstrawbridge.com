@@ -24,9 +24,9 @@
 
   {{ $content := dict "mediaType" "text/markdown" "value" $extContent }}
   {{ $params := dict 
-    "categories" (slice "spotify-artist") 
     "hideAsideBar" true
     "musicalGenres" .genres 
+    "musical-genres" .genres 
     "numfollowers" .followers.total
     "images" .images
     "popularity" .popularity
