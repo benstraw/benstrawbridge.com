@@ -1,6 +1,6 @@
 +++
-title = 'Spotify Top Artists'
-date = 2024-06-25T13:31:10-07:00
+title = 'Spotify Top Artists for June 2024'
+date = 2024-06-30T13:31:10-07:00
 # draft = true
 paginate = 50
 type = "spotify-artist"

@@ -6,7 +6,6 @@
   {{ $matchingTracks := slice }}
   {{ $artistSpotifyId := .id }}
 
-
   {{ $extContent := "" }}
   {{ $imgHref := (index .images 0).url }}
   {{ $extContent = add $extContent "{{< picture src=\"feature_cover.jpeg\" width=640 >}} <!--more-->"  }}
