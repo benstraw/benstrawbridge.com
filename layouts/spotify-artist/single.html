@@ -24,7 +24,7 @@
           <ul class="inline-flex">
             {{ $genreCount := len .Params.musicalGenres }}
             {{ range $index, $genre := .Params.musicalGenres }}
-              {{ $link := relURL (print "/musical-genres/" $genre ) }}
+              {{ $link := relURL (print "/musical-genres/" ($genre | urlize) ) }}
               <li>
                 <a href="{{ $link }}" class="hover:underline">{{ $genre }}</a>{{ if ne $index (sub $genreCount 1) }}, {{ end }}
               </li>
