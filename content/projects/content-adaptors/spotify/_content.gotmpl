@@ -6,10 +6,6 @@
   {{ $matchingTracks := slice }}
   {{ $artistSpotifyId := .id }}
 
-  {{ $extContent := "" }}
-  {{ $imgHref := (index .images 0).url }}
-  {{ $extContent = add $extContent "{{< picture src=\"feature_cover.jpeg\" width=640 >}} <!--more-->"  }}
-
   {{ range $tracksData }}
     {{ $track := . }}
     {{ range $track.artists }}
@@ -20,6 +16,20 @@
   {{ end }}
   {{ $numTracks := len $matchingTracks }}
 
+  {{/*  $extContent is only used for summary, list page content  */}}
+  {{ $extContent := "" }}
+  {{ $introStr := "" }}
+  {{ $introStr = printf "I played %s %d times on spotify this month.\n{{< cta-button button_type=\"%s\" button_label=\"%s\" button_href=\"%s\">}}\n\n" .name $numTracks "spotify" "Spotify Artist Page" .external_urls.spotify }}
+  {{ $imgHref := (index .images 0).url }}
+  {{ $genreLinks := "" }}
+  {{ range $index, $element := .genres }}
+    {{/*  yes, this is a janky way to do this */}}
+    {{ if gt $index 0 }}
+      {{ $genreLinks = add $genreLinks " | " }}
+    {{ end }}
+    {{ $genreLinks = printf "%s{{< pass >}}<a class=\"relative z-10\" href=\"%s%s\">%s</a>{{</ pass >}}" $genreLinks "/musical-genres/" ($element | urlize) $element }}
+  {{ end }}
+  {{ $extContent = printf "%s%s![%s](%s)\n### Genres\n\n%s <!--more-->" $extContent $introStr .name $imgHref $genreLinks }}
 
   {{ $content := dict "mediaType" "text/markdown" "value" $extContent }}
   {{ $params := dict 
@@ -43,7 +53,7 @@
   {{ $.AddPage $page }}
 
   {{/* Add page resource. */}}
-  {{ $item := . }}
+  {{/*  {{ $item := . }}
   {{ with $item.images }}
   {{ with $url := index . 0 "url" }}
     {{ with resources.GetRemote $url }}
@@ -63,5 +73,5 @@
       {{ errorf "Unable to get remote resource %s" $url }}
     {{ end }}
   {{ end }}
-  {{ end }}
+  {{ end }}  */}}
 {{ end }}

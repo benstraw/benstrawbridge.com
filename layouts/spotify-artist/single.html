@@ -9,12 +9,21 @@
     </header>
     <div class="p-4 md:col-span-10 prose max-w-max lg:prose-lg dark:prose-invert ">
           Followers:: {{ (lang.FormatNumberCustom 0 .Params.numFollowers) }} | Spotify Popularity Score:: {{ (lang.FormatNumberCustom 0 .Params.popularity) }} | Tracks Played:: {{ .Params.numTracks }}<br/>
-          {{ $imgHref := (index .Params.images 0).url }}
-          {{- partial "picture.html" (dict "page" . "src" $imgHref "width" 640) }}
+          {{ $caption := .Title }}
+          {{ range .Params.images }}
+            {{ if lt .width 1000 }}
+              <figure>
+                <img src="{{ .url }}" width="{{ .width }}" height="{{ .height }}">
+                <figcaption><h4>{{ $caption }}</h4></figcaption>
+              </figure>
+              {{/*  show the first image less that 1000 here */}}
+              {{ break }}
+            {{ end }}
+          {{ end }}
+          {{/*  {{- partial "picture.html" (dict "page" . "src" $imgHref "width" 640) }}  */}}
           <h3>Spotify Artist Page</h3>
           {{- partial "cta-button.html" (dict 
-            "button_icon" "fab fa-spotify text-2xl align-middle pr-2"
-            "button_class" "text-white bg-gradient-to-r from-green-500 to-green-600 hover:bg-gradient-to-r hover:from-green-600 hover:to-green-700 py-2 px-4 rounded-lg transition duration-300 no-underline inline-block text-center break-words"
+            "button_type" "spotify"
             "button_label" .Title
             "button_href" .Params.spotifyUrl)
           }}
