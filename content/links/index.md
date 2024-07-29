@@ -62,12 +62,15 @@ The link graveyard is my page for remembering where I found stuff – whether it
 > It's back baby!
 
 - [ShellSharks](https://shellsharks.com/)
+- [The Jolly Teapot](https://thejollyteapot.com/)
+- [Johannes Wienke Photography](https://www.johanneswienke.de/)
 
 ## Code
 
 ### mapping / gis
 
 - [postholer.com website with great examples of integrated interactive maps](https://www.postholer.com/)
+- [hugo split theme for maps with photos](https://themes.gohugo.io/themes/hugo-split-gallery/)
 
 ### ml datasets
 
@@ -141,6 +144,7 @@ The link graveyard is my page for remembering where I found stuff – whether it
 
 #### General
 
+- [Deploying a Hugo site to AWS S3 and Cloudfront](https://jeromethibaud.com/en/blog/deploy-hugo-site-to-s3/)
 - [Joe Mooring writes about Hugo](https://www.veriphor.com/articles/)
 - [Hugo Survival Guide](https://janert.me/guides/hugo-survival-guide/)
 - [Directory Structure Explained](https://www.jakewiesler.com/blog/hugo-directory-structure)
@@ -179,6 +183,7 @@ The link graveyard is my page for remembering where I found stuff – whether it
 
 - [Photo Swipe plugin](https://github.com/dimsemenov/PhotoSwipe)
 - [PIG.js progressive image gallery](https://github.com/schlosser/pig.js)
+- [Flickity - Touch, responsive, flickable carousels](https://flickity.metafizzy.co/)
 
 ## Recipes
 
