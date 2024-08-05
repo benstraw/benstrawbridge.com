@@ -145,6 +145,7 @@ The link graveyard is my page for remembering where I found stuff – whether it
 #### General
 
 - [Deploying a Hugo site to AWS S3 and Cloudfront](https://jeromethibaud.com/en/blog/deploy-hugo-site-to-s3/)
+- [Hugo deploy with cloudfront](https://loganmarchione.com/2023/11/deploying-hugo-with-cloudfront-and-s3-for-real-this-time/)
 - [Joe Mooring writes about Hugo](https://www.veriphor.com/articles/)
 - [Hugo Survival Guide](https://janert.me/guides/hugo-survival-guide/)
 - [Directory Structure Explained](https://www.jakewiesler.com/blog/hugo-directory-structure)
@@ -195,6 +196,10 @@ The link graveyard is my page for remembering where I found stuff – whether it
 ## Product Management
 
 - [Steve Francia workshop slides "Product Management for everyone"](https://spf13.com/presentation/product-management-for-everyone/)
+
+## Privacy  
+
+- [OSInt and privacy Experts](https://inteltechniques.com/index.html)
 
 ## Services
 
