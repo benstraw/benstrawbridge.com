@@ -1,17 +1,10 @@
-/** @type {import('tailwindcss').Config} */
 const defaultTheme = require("tailwindcss/defaultTheme");
+const typography = require('@tailwindcss/typography');
 
 module.exports = {
-  // content: ['./hugo_stats.json'],
-
-  content: [
+  content: [ 
     "./hugo_stats.json",
-    "./layouts/**/*.html",
-    "./config/**/*.toml",
-    "./content/**/*.md",
-    "./themes/benstraw/layouts/**/*.html",
-    "./themes/ryder/layouts/**/*.html",
-    "./themes/ryder-dev/layouts/**/*.html",
+    "./config/**/*.toml"
   ],
   darkMode: 'class',
   theme: {
@@ -29,11 +22,6 @@ module.exports = {
       fontFamily: {
         titillium: ["Titillium Web", ...defaultTheme.fontFamily.sans],
       },
-      // screens: {
-      //   // 'xs': '475px',
-      //   ...defaultTheme.screens,
-      //   // '3xl': '1600px',
-      // },
       screens: {
         'sm': '640px',
         'md': '768px',

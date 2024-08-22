@@ -36,7 +36,7 @@ copyright = '<i class="fa-regular fa-copyright"></i>  2024 benstrawbridge.com'
     email = 'ben@benstrawbridge.com'
     name = 'Ben Strawbridge'
   [params.twClasses]
-    headerBackgroundFrameOuter = "bg-gradient-to-r to-sky-300 from-indigo-300 dark:from-violet-950 dark:to-rose-950 border-b border-fuchsia-600 text-violet-950 dark:text-neutral-100"
+    headerBackgroundFrameOuter = "bg-gradient-to-r to-sky-300 from-indigo-300 dark:from-violet-950 dark:to-gray-900 border-b border-fuchsia-600 text-violet-950 dark:text-neutral-100"
     headerBackgroundFrameInner = "bg-header-mdr-channel dark:bg-header-artist-date-two h-[200px] sm:h-[250px] bg-cover bg-left bg-center dark:bg-top"
     # footerBackground = "bg-gradient-to-r from-violet-950 to-rose-950 border-fuchsia-600" 
     # navbar_fixed = "sticky top-0"
@@ -70,29 +70,3 @@ copyright = '<i class="fa-regular fa-copyright"></i>  2024 benstrawbridge.com'
     name = 'Recipe Index'
     url = '/recipes/'
     weight = 30
-
-[module]
-  [module.hugoVersion]
-    extended = false
-    min = "0.121.1"
-  [[module.mounts]]
-    source = "assets"
-    target = "assets"
-  # [[module.mounts]]
-  #   source = "hugo_stats.json"
-  #   target = "assets/watching/hugo_stats.json"
-
-[build]
-  writeStats = true
-  [[build.cachebusters]]
-    source = "assets/watching/hugo_stats\\.json"
-    target = "styles\\.css"
-  [[build.cachebusters]]
-    source = "(postcss|tailwind)\\.config\\.js"
-    target = "css"
-  [[build.cachebusters]]
-    source = "assets/.*\\.(js|ts|jsx|tsx)"
-    target = "js"
-  [[build.cachebusters]]
-    source = "assets/.*\\.(.*)$"
-    target = "$1"

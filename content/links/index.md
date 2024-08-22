@@ -101,6 +101,8 @@ The link graveyard is my page for remembering where I found stuff – whether it
 
 - [The webs grain](https://frankchimero.com/blog/2015/the-webs-grain/)
 - [website image guide](https://www.cronyxdigital.com/blog/the-ultimate-website-image-guide)
+- [The techno-optimist manifesto](https://a16z.com/the-techno-optimist-manifesto/)
+
 
 ### cloud based application 
 
