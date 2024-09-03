@@ -2,7 +2,9 @@ theme = "ryder"
 
 [params]
   env = "production"
+  plausible_domain = "benstrawbridge.com"
+  plausible_advanced = true
 
-[services]
-  [services.googleAnalytics]
-    ID = 'G-6ZYXDDEJQW'
+# [services]
+#   [services.googleAnalytics]
+#     ID = 'G-6ZYXDDEJQW'

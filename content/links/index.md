@@ -96,6 +96,7 @@ The link graveyard is my page for remembering where I found stuff – whether it
 - [schema checker](https://search.google.com/test/rich-results)
 - [color contrast checker](https://dequeuniversity.com/color-contrast)
 - [random data generator API](https://random-data-api.com/documentation)
+- [GS Quant](https://developer.gs.com/docs/gsquant/)
 
 ### the web
 

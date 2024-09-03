@@ -5,10 +5,10 @@ draft = true
 # I like this by default now... keeps the page full width with tags below.
 hideAsideBar = true
 # summary = ""
-# # categories = [""]
-# tags = [
-  # ""
-  # ]
+categories = ["posts"]
+tags = [
+  "nature"
+  ]
 # featured_image = ""
 # homeFeatureIcon = ""
 # showTOC = true
@@ -21,9 +21,9 @@ Bees escaping from a Datura Moonflower, a toxic and hallucinogenic plant related
 <!--more-->
 
 {{<pass >}}
-<div style="width:100%;height:480px;background-color:black;text-align:center;">
-  <video style="height:100%;" controls>
-    <source src="https://lh3.googleusercontent.com/pw/AP1GczNxIV9vSPJbdl2J7PrPI6urfiP1K6TJEp1I5zhic2VW3bxA0btUnmtA38ijrNwEmTcAxik5S2Pzoui8ivsxMyFKeXtTo5rzcTohxWZ9cHDX13qIPnfj=m37" type="video/mp4">
+<div style="text-align:center;margin: 0 auto;">
+  <video style="width:540px;height:960px;" controls>
+    <source src="2024-07-16 20.02.15.mp4" type="video/mp4">
   </video>
 </div>
 {{</ pass >}}
