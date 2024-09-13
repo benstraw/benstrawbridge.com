@@ -68,6 +68,13 @@ The link graveyard is my page for remembering where I found stuff – whether it
 
 ## Code
 
+### analytics
+
+> Privacry first, GDPR and CCPA Compliant google analytics alternatives.
+
+- [plausible](https://plausible.io)
+- [umami](https://umami.is/features)
+
 ### mapping / gis
 
 - [postholer.com website with great examples of integrated interactive maps](https://www.postholer.com/)
@@ -80,6 +87,35 @@ The link graveyard is my page for remembering where I found stuff – whether it
 ### LLM tools
 
 - [langchain](https://www.langchain.com/)
+
+### LLM Testing tools
+
+#### Model Backtesting and Simulation Tools
+- [QuantConnect](https://www.quantconnect.com/)
+- [Backtrader](https://www.backtrader.com/)
+- [Zipline](https://www.zipline.io/)
+
+#### Model Evaluation & Validation Tools
+- [Alibi](https://github.com/SeldonIO/alibi)
+- [Yellowbrick](https://www.scikit-yb.org/en/latest/)
+- [MLflow](https://mlflow.org/)
+
+#### Testing Bias & Fairness
+- [Fairlearn](https://fairlearn.org/)
+- [Aequitas](http://aequitas.dssg.io/)
+
+#### Stress Testing and Edge Case Testing
+- [TensorFlow Model Analysis (TFMA)](https://www.tensorflow.org/tfx/guide/tfma)
+- [Deepchecks](https://github.com/deepchecks/deepchecks)
+
+#### Performance and Monitoring Tools
+- [Seldon](https://www.seldon.io/)
+- [WhyLabs](https://whylabs.ai/)
+
+#### Unit Testing for Machine Learning
+- [Great Expectations](https://greatexpectations.io/)
+- [DeepMind Lab](https://github.com/deepmind/lab)
+
 
 ### Testing
 
