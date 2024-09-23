@@ -12,7 +12,8 @@ listRecursive = true
   logo_tagline = "RECIPE COLLECTION"
   homeFeatureIcon = "fa-solid fa-carrot"
   [cascade.twClasses]
-    headerBackgroundFrameInner = "bg-[url('/images/header-bg/beets-on-parchment.jpg')] bg-cover h-[250px]"
+    headerBackgroundFrameInner = "bg-[url('/images/header-bg/beets-on-parchment.webp')] bg-cover h-[250px]"
+    # headerBackgroundFrameOuter = "bg-gradient-to-r from-red-500 to-orange-500"
 +++
 
 ## Recipes I have collected, created or modified over the years. 

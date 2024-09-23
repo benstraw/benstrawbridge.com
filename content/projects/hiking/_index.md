@@ -5,7 +5,11 @@ listRecursive = true
 [cascade]
   categories = ["hiking"]
   sectionTitle = "Hiking on BenStrawbridge.com"
+  logo_tagline = "HIKING MAPS AND GUIDES"
   homeFeatureIcon = "fas fa-person-hiking"
+  [cascade.twClasses]
+    headerBackgroundFrameInner = "bg-[url('/images/header-bg/ben-mt-wilson-summit-by-thomas.webp')] bg-cover bg-bottom h-[300px]"
+    # headerBackgroundFrameOuter = "bg-gradient-to-r from-blue-600 to-violet-600 text-neutral-200"
 +++
 
   {{< picture

@@ -1,6 +1,6 @@
 {{/* Get remote data. */}}
 {{ $data := dict }}
-{{ $url := "https://gohugo.io/shared/examples/data/books.json" }}
+{{/*  {{ $url := "https://gohugo.io/shared/examples/data/books.json" }}
 {{ with resources.GetRemote $url }}
   {{ with .Err }}
     {{ errorf "Unable to get remote resource %s: %s" $url . }}
@@ -9,7 +9,7 @@
   {{ end }}
 {{ else }}
   {{ errorf "Unable to get remote resource %s" $url }}
-{{ end }}
+{{ end }}  */}}
 
 {{ $data = site.Data.books.example }}
 

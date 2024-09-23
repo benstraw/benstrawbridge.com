@@ -4,6 +4,9 @@ date = 2024-09-14T23:40:27-07:00
 # draft = true
 # I like this by default now... keeps the page full width with tags below.
 hideAsideBar = true
+# homeFeatureWide = true
+homeFeature = true
+homeFeatureIcon = "fa-solid fa-code-merge"
 # summary = ""
 # # categories = [""]
 tags = [
@@ -14,7 +17,6 @@ tags = [
   "s3"
   ]
 # featured_image = ""
-# homeFeatureIcon = ""
 # showTOC = true
 +++
 
@@ -22,11 +24,11 @@ tags = [
 
 > A simple and cost-effective approach to deploying Hugo projects to AWS CloudFront.
 
-<!--more-->
-
-I have used services like AWS Amplify and Netlify to automate my CI/CD pipeline for many of my projects, triggered by a GitHub check-in and running in GitHub Actions. However, for a recent photography project that involved deploying a large number of files, storing everything in GitHub wasn't feasible. I needed a solution that was simple, affordable, and delivered high performance. That's when I decided to use AWS CloudFront with an S3 bucket, integrated with an SSL certificate generated through CloudFront.
+I have and still do use services like AWS Amplify and Netlify to automate my CI/CD pipeline for many of my projects, triggered by a GitHub check-in and running in GitHub Actions. However, for a recent photography project that involved deploying a large number of files, storing everything in GitHub wasn't feasible. I needed a solution that was simple, affordable, and delivered high performance. That's when I decided to use AWS CloudFront with an S3 bucket, integrated with an SSL certificate generated through CloudFront.
 
 ### Why AWS CloudFront?
+
+<!--more-->
 
 AWS CloudFront with S3 allows you to host and serve static files at scale while benefiting from fast, globally distributed content delivery. By using CloudFront's built-in SSL support and caching mechanisms, you can ensure that your Hugo site is both secure and lightning fast for visitors across the globe.
 

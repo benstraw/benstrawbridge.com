@@ -1,4 +1,5 @@
 theme = "ryder"
+enableGitInfo = true
 
 [params]
   env = "production"

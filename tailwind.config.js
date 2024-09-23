@@ -16,6 +16,7 @@ module.exports = {
         "header-mdr-channel": " url('/images/header-bg/mdr-channel-md.webp')",
         "header-sunset": " url('/images/header-bg/sunset-playa-1.jpg')",
         "header-sunset-italy": " url('/images/header-bg/sunset-italy.webp')",
+        "header-sunset-sf-coke": " url('/images/header-bg/sf-sunset-coke-sign.webp')",
         // "header-sunset-mb": " url('/images/header-bg/sunset-mission-bay.jpg')",
         "header-sunset-mb": " url('/images/header-bg/sunset-mission-bay_hu6f04b8530673b6e2cc009e9b6d51ea4d_1824404_1024x768_resize_q100_h2_box.webp')",
       },
