@@ -55,6 +55,7 @@ The link graveyard is my page for remembering where I found stuff – whether it
 - [Olsson Barbieri](https://olssonbarbieri.com/studio)
 - [seungmee lee](https://www.seungmee-lee.com/)
 - [A Website is a room](https://a-website-is-a-room.net/)
+- [Walker Fine Art](https://www.walkerfineart.com/)
 
 ## Indieweb  
 
@@ -62,6 +63,7 @@ The link graveyard is my page for remembering where I found stuff – whether it
 
 > It's back baby!
 
+- [KOLLITSCH.dev*](https://kollitsch.dev/)
 - [ShellSharks](https://shellsharks.com/)
 - [The Jolly Teapot](https://thejollyteapot.com/)
 - [Johannes Wienke Photography](https://www.johanneswienke.de/)
@@ -83,6 +85,7 @@ The link graveyard is my page for remembering where I found stuff – whether it
 ### ml datasets
 
 - [kaggle datasets](https://www.kaggle.com/datasets)
+- [espn nfl apis](https://gist.github.com/nntrn/ee26cb2a0716de0947a0a4e9a157bc1c)
 
 ### LLM tools
 
@@ -157,6 +160,10 @@ The link graveyard is my page for remembering where I found stuff – whether it
 - [tailwindcss bg-color gradient guide](https://blog.logrocket.com/guide-adding-gradients-tailwind-css/)
 - [CSS Default Values Reference](https://www.w3schools.com/cssref/css_default_values.php)
 
+### crypto
+
+- [the arkham computer](https://platform.arkhamintelligence.com/)
+- [advanced charting](https://beta.bitcoinwisdom.io/)
 ### fonts
 
 - [Lexend+Zetta font](https://fonts.google.com/specimen/Lexend+Zetta)
@@ -255,6 +262,9 @@ The link graveyard is my page for remembering where I found stuff – whether it
 
 - https://headlessdropshipping.com/
 
+### Email forwarding
+
+- [improvMX - free mx record forwarding for receiving email](https://improvmx.com/)
 ### Newsletter platforms
 
 - [buttondown email](https://buttondown.email/)
