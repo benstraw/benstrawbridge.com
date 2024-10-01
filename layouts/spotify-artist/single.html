@@ -1,7 +1,4 @@
 {{ define "main" }}
-<div class=" mx-auto">
-  {{- partial "breadcrumb.html" . }}
-</div>
 <div class="p-4  mx-auto ">
   <div class=" grid grid-cols-1 md:grid-cols-12 gap-x-1 ">
     <header class=" w-full md:col-span-12 prose lg:prose-xl max-w-screen-lg  dark:prose-invert">
@@ -10,7 +7,7 @@
     <div class="p-4 md:col-span-10 prose max-w-max lg:prose-lg dark:prose-invert ">
           Followers:: {{ (lang.FormatNumberCustom 0 .Params.numFollowers) }} | Spotify Popularity Score:: {{ (lang.FormatNumberCustom 0 .Params.popularity) }} | Tracks Played:: {{ .Params.numTracks }}<br/>
           {{ $caption := .Title }}
-          {{ range .Params.images }}
+          {{ range .Params.spotifyImages }}
             {{ if lt .width 1000 }}
               <figure>
                 <img src="{{ .url }}" width="{{ .width }}" height="{{ .height }}">
