@@ -24,6 +24,16 @@
             "button_label" .Title
             "button_href" .Params.spotifyUrl)
           }}
+          <h3>Amazon Artist Page</h3>
+          {{- $amazonUrl := printf "https://www.amazon.com/s?k=%s" .Title -}}
+          {{- $amazonUrl =  add $amazonUrl "&rh=p_lbr_music_artists_browse-bin%3A" -}}
+          {{- $amazonUrl =  add $amazonUrl .Title -}}
+          {{- $amazonUrl =  add $amazonUrl "%2Cp_n_availability%3A-1&tag=benstrawbridge-spot-20&linkCode=osi" -}}
+          {{- partial "cta-button.html" (dict 
+            "button_icon" "fab fa-amazon mr-2"
+            "button_label" (printf "Research %s on Amazon Artist page." .Title )
+            "button_href" $amazonUrl) 
+          }}
         
         {{ if .Params.musicalGenres }}
           <h3>Genres</h3>

@@ -19,6 +19,7 @@
   {{/*  $extContent is only used for summary, list page content  */}}
   {{ $extContent := "" }}
   {{ $introStr := "" }}
+  
   {{ $introStr = printf "I played %s %d times on spotify this month.\n{{< cta-button button_type=\"%s\" button_label=\"%s\" button_href=\"%s\">}}\n\n" .name $numTracks "spotify" "Spotify Artist Page" .external_urls.spotify }}
   {{ $imgHref := (index .images 0).url }}
   {{ $genreLinks := "" }}
