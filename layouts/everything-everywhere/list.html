@@ -16,9 +16,9 @@
   {{- $pages = $pages.ByDate.Reverse }}
 {{ end }}
 
+{{- partial "content-header.html" . -}}
 <div class="lg:grid-cols-2 xl:grid-cols-4 p-4 mx-auto grid grid-cols-1 gap-12 xl:gap-6 mb-5">
-  <h2 class="text-3xl uppercase lg:col-span-2 xl:col-span-4">{{ .Title }}</h2>
-  <div class="lg:col-span-2 xl:col-span-4">
+    <div class="lg:col-span-2 xl:col-span-4">
     <h3>Page Meta</h3>
     <div> Number of Records: {{ $pages.Len }} </div>
     {{ if $byDate}}

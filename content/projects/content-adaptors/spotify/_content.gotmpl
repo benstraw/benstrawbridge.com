@@ -19,7 +19,11 @@
   {{/*  $extContent is only used for summary, list page content  */}}
   {{ $extContent := "" }}
   {{ $introStr := "" }}
-  
+  {{- $amazonUrl := printf "https://www.amazon.com/s?k=%s" .name -}}
+  {{- $amazonUrl =  add $amazonUrl "&rh=p_lbr_music_artists_browse-bin%3A" -}}
+  {{- $amazonUrl =  add $amazonUrl .name -}}
+  {{- $amazonUrl =  add $amazonUrl "%2Cp_n_availability%3A-1&tag=benstrawbridge-spot-20&linkCode=osi" -}}
+         
   {{ $introStr = printf "I played %s %d times on spotify this month.\n{{< cta-button button_type=\"%s\" button_label=\"%s\" button_href=\"%s\">}}\n\n" .name $numTracks "spotify" "Spotify Artist Page" .external_urls.spotify }}
   {{ $imgHref := (index .images 0).url }}
   {{ $genreLinks := "" }}
