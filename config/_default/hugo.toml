@@ -6,7 +6,7 @@ summaryLength = 100
 timeout = "60s"
 enableEmoji = true
 # enableGitInfo = true
-paginate = 36 
+paginate = 24 
 theme = 'ryder-dev'
 timeZone = "America/Los_Angeles"
 title = "Ben Strawbridge Dot Com Consulting"
@@ -24,6 +24,7 @@ copyright = '<i class="fa-regular fa-copyright"></i>  2024 benstrawbridge.com'
   excludedCategories = ["catalog"]
   showDarkToggle = true
   showShareButtons = true
+  showSummaryMeta = false
   og_image_default = '/images/og/og_image_default.jpg'
   logo_png = '/images/bs_full_wordmark.png'
   logo_firstWord = 'ben'
