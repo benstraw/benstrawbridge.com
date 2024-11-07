@@ -19,12 +19,12 @@
   {{/*  $extContent is only used for summary, list page content  */}}
   {{ $extContent := "" }}
   {{ $introStr := "" }}
-  {{- $amazonUrl := printf "https://www.amazon.com/s?k=%s" .name -}}
-  {{- $amazonUrl =  add $amazonUrl "&rh=p_lbr_music_artists_browse-bin%3A" -}}
-  {{- $amazonUrl =  add $amazonUrl .name -}}
-  {{- $amazonUrl =  add $amazonUrl "%2Cp_n_availability%3A-1&tag=benstrawbridge-spot-20&linkCode=osi" -}}
+  {{- $amazonUrl := printf "https://www.amazon.com/s?k=%s&rh=p_lbr_music_artists_browse-bin%3AA%s%2Cp_n_availability%3A-1&tag=benstrawbridge-spot-20&linkCode=osi" .name .name -}}
          
   {{ $introStr = printf "I played %s %d times on spotify this month.\n{{< cta-button button_type=\"%s\" button_label=\"%s\" button_href=\"%s\">}}\n\n" .name $numTracks "spotify" "Spotify Artist Page" .external_urls.spotify }}
+
+  {{ $introStr = add $introStr (printf "{{< pass >}}<a class=\"bg-yellow-400 text-black font-medium py-2 mt-4 px-4 rounded-full border-2 border-yellow-500 hover:bg-yellow-500 hover:border-yellow-600 focus:outline-none focus:ring-2 focus:ring-yellow-300 no-underline inline-block text-center break-words relative z-10\" href=\"%s\"><i class=\"fab fa-amazon\"></i> Check them out on Amazon Music</a>{{</ pass >}}\n\n" $amazonUrl) }}
+
   {{ $imgHref := (index .images 0).url }}
   {{ $genreLinks := "" }}
   {{ range $index, $element := .genres }}
