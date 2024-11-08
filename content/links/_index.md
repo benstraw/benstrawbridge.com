@@ -8,9 +8,11 @@ TocOpen = true
 # summary = "The link graveyard is my page for remembering where I found stuff – whether it's something I learned, something cool I stumbled upon, or maybe just a friend's site."
 [menu]
  [menu.main]
+  name = "Links"
   weight = 100
   identifier = 'links'
 [cascade]
+  showCardLinkOverlay = false
   homeFeatureIcon = "fa-solid fa-link"
   sectionTitle = "Link Graveyard on BenStrawbridge.com"
   logo_tagline = "LINK GRAVEYARD"

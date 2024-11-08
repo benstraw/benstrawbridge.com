@@ -6,7 +6,6 @@ summaryLength = 100
 timeout = "60s"
 enableEmoji = true
 # enableGitInfo = true
-paginate = 24 
 theme = 'ryder-dev'
 timeZone = "America/Los_Angeles"
 title = "Ben Strawbridge Dot Com Consulting"
@@ -53,6 +52,8 @@ copyright = '<i class="fa-regular fa-copyright"></i>  2024 benstrawbridge.com'
 #   alertMessage = "Learn more about the theme by checking out the README on <a href='https://github.com/arts-link/ryder' class='underline'>on github.com</a>."
 #   dismissable = true 
 #   alertIconClass = "fa-solid fa-camera-retro"
+[pagination]
+  pagerSize = 24 
 
 [markup]
   [markup.highlight]
