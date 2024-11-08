@@ -9,7 +9,7 @@ listRecursive = true
   homeFeatureIcon = "fas fa-person-hiking"
   [cascade.twClasses]
     headerBackgroundFrameInner = "bg-[url('/images/header-bg/ben-mt-wilson-summit-by-thomas.webp')] bg-cover bg-bottom h-[300px]"
-    # headerBackgroundFrameOuter = "bg-gradient-to-r from-blue-600 to-violet-600 text-neutral-200"
+    headerBackgroundFrameOuter = "bg-gradient-to-r from-blue-600 to-violet-600 text-neutral-200"
 +++
 
   {{< picture
