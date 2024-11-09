@@ -3,7 +3,7 @@
   {{- partial "content-header.html" . -}}
   <div class="mt-2 prose w-full max-w-max-screen-xl min-w-full lg:prose-lg dark:prose-invert">
     {{- .Content -}}
-    {{- if and (eq .Section "musical-genres") (eq .Kind "term") -}}
+    {{- if eq .Kind "term" -}}
     <blockquote>To learn more about {{ .Title }} music, you can search for CD's and Vinyl on Amazon Music. </blockquote>
     {{- $button_href := (printf "https://www.amazon.com/s?k=%s" .Title) -}}
     {{- $button_href = add $button_href "&rh=n%3A301668%2Cp_n_availability%3A-1&tag=benstrawbridge-spot-20&linkCode=osi" -}}
@@ -15,6 +15,11 @@
     {{- partial "cta-button.html" $cta_opts }}
     {{- end -}}
   </div>
+  {{- if eq .Kind "taxonomy" -}}
+  <div class="m-2">
+    {{- partial "taxonomy-cloud.html" . -}}
+  </div>
+  {{- else }}
   <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6 m-2">
     {{- $myCollection := .Pages -}}
     {{- if eq .Params.listRecursive true -}}
@@ -26,5 +31,6 @@
     {{- end -}}
   </div>
   {{- template "_internal/pagination.html" . -}}
+  {{- end -}}
 </div>
 {{- end -}}

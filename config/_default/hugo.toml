@@ -32,6 +32,7 @@ copyright = '<i class="fa-regular fa-copyright"></i>  2024 benstrawbridge.com'
   logo_fontClass = 'font-titillium'
   repository = "https://github.com/benstraw/benstrawbridge.com"
   amazon_associate_id = "benstrawbridge-20"
+  footerLayout = "stacked"
   # cardCategoryColorsDefault = "bg-indigo-200"
   [params.shareButtons]
     networks = [ "email", "linkedin" ]
