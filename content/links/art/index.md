@@ -26,6 +26,7 @@ hideAsideBar = true
 
 > A changing list of artist portfolio sites I enjoy
 
+- [Noah Purifoy](https://www.noahpurifoy.com/)  
 - [Louise Strawbridge](https://www.louisestrawbridge.com/)
 - [Matthew W Harris](https://www.matthewharriscloth.co.uk/see/)
 - [Matthew Cassman](https://danielcassman.com/portfolio/)

@@ -14,10 +14,10 @@ hideAsideBar = true
 # showTOC = true
 +++
 
+- [What screens want](https://frankchimero.com/blog/2013/what-screens-want/)
 - [The webs grain](https://frankchimero.com/blog/2015/the-webs-grain/)
-- [website image guide](https://www.cronyxdigital.com/blog/the-ultimate-website-image-guide)
-- [The techno-optimist manifesto](https://a16z.com/the-techno-optimist-manifesto/)
 - [the 12 factors](https://12factor.net/). To build solid web applications start with the fundamentals
+- [The techno-optimist manifesto](https://a16z.com/the-techno-optimist-manifesto/)
 - [Steve Francia workshop slides "Product Management for everyone"](https://spf13.com/presentation/product-management-for-everyone/)
 
 - [OSInt and privacy Experts](https://inteltechniques.com/index.html)

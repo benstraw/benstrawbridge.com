@@ -29,7 +29,7 @@
     {{ end }}
     {{ if $paged }}
       {{ $paginator := .Paginate $pages }}
-      <div> Paging: <b>On</b> - <b>{{ $paginator.PageSize }}</b> records / page</div>
+      <div> Paging: <b>On</b> - <b>{{ $paginator.PagerSize }}</b> records / page</div>
       {{ template "_internal/pagination.html" . }}
     {{ end }}
   </div>
