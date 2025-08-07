@@ -13,7 +13,10 @@ hideAsideBar = true
 # homeFeatureIcon = ""
 # showTOC = true
 +++
+### on automation
 
+- [Ironies of Automation](https://www.complexcognition.co.uk/2021/06/ironies-of-automation.html)
+  
 ### ml datasets
 
 - [kaggle datasets](https://www.kaggle.com/datasets)
