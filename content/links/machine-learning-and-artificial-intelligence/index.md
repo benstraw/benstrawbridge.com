@@ -21,7 +21,8 @@ hideAsideBar = true
 
 - [kaggle datasets](https://www.kaggle.com/datasets)
 - [espn nfl apis](https://gist.github.com/nntrn/ee26cb2a0716de0947a0a4e9a157bc1c)
-
+- [AI Training Datasets: the Books1+Books2 that Big AI eats for breakfast](https://gregoreite.com/drilling-down-details-on-the-ai-training-datasets/#Books1_Books2_15)
+  
 ### LLM tools
 
 - [langchain](https://www.langchain.com/)
