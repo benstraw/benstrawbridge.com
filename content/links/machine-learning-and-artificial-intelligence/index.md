@@ -13,6 +13,10 @@ hideAsideBar = true
 # homeFeatureIcon = ""
 # showTOC = true
 +++
+
+### general
+- [TheFocus/AI Distill the signal from the noise](https://thefocus.ai/)
+
 ### on automation
 
 - [Ironies of Automation](https://www.complexcognition.co.uk/2021/06/ironies-of-automation.html)
