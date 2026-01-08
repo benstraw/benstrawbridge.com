@@ -1,0 +1,32 @@
+<footer class="mt-8 border-t border-gray-200 dark:border-gray-700">
+  <div class="container mx-auto px-4 py-6">
+    <div class="flex flex-col items-center space-y-4">
+      <!-- Copyright Info -->
+      <div class="text-sm text-center">
+        {{ with .Site.Copyright }}
+          {{ . | safeHTML }}
+        {{ end }}
+      </div>
+
+      <!-- Git/Repository Info -->
+      {{ with .Site.Params.repository }}
+      <div class="text-sm">
+        <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="hover:underline">
+          <i class="fa-brands fa-github"></i> View Source
+        </a>
+      </div>
+      {{ end }}
+
+      <!-- Social/Icon Links -->
+      {{ with .Site.Data.social }}
+      <div class="flex space-x-4">
+        {{ range . }}
+          <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .name }}" class="text-xl hover:opacity-75 transition-opacity">
+            <i class="{{ .icon }}"></i>
+          </a>
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</footer>
