@@ -7,7 +7,6 @@
 *.log
 /_ignore/
 /node_modules
-hugo_stats.json
 
 # frontmatter
 .frontmatter/
