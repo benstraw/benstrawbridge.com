@@ -10,7 +10,7 @@ theme = 'ryder-dev'
 timeZone = "America/Los_Angeles"
 title = "Ben Strawbridge Dot Com Consulting"
 description = 'My place to work on my online projects and experiment with the web.'
-copyright = '<i class="fa-regular fa-copyright"></i>  2024 benstrawbridge.com'
+copyright = '<i class="fa-regular fa-copyright"></i>  2026 benstrawbridge.com'
 [params]
   description = 'Dot Com Consulting'
   TocOpen = true
