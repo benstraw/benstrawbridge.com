@@ -17,6 +17,9 @@ hideAsideBar = true
 ### general
 - [TheFocus/AI Distill the signal from the noise](https://thefocus.ai/)
 
+### coding agents
+- [Claude Code](https://claude.com/product/claude-code)
+
 ### on automation
 
 - [Ironies of Automation](https://www.complexcognition.co.uk/2021/06/ironies-of-automation.html)
