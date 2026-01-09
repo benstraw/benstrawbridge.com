@@ -1,5 +1,5 @@
 theme = "ryder"
-enableGitInfo = true
+# enableGitInfo = true  # Disabled for 40-50% faster builds. See theme docs for details.
 
 [params]
   env = "production"
