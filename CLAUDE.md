@@ -33,6 +33,8 @@ hugo new content projects/recipes/my-recipe.md
 hugo new content --kind recipe projects/recipes/recipe-name.md
 ```
 
+**Link ordering convention**: When adding new links to any section (e.g., `/links/the-web/`), always add them to the **top** of the list, not the bottom. This keeps the most recent additions visible first.
+
 ### Theme & Submodules
 ```bash
 # Initialize theme submodule (first-time setup)

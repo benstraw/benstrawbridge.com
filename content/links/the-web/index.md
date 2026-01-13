@@ -14,6 +14,7 @@ hideAsideBar = true
 # showTOC = true
 +++
 
+- [How Sequoia Capital measures product health](https://articles.sequoiacap.com/measuring-product-health)
 - [What screens want](https://frankchimero.com/blog/2013/what-screens-want/)
 - [The webs grain](https://frankchimero.com/blog/2015/the-webs-grain/)
 - [the 12 factors](https://12factor.net/). To build solid web applications start with the fundamentals
@@ -21,6 +22,5 @@ hideAsideBar = true
 - [Steve Francia workshop slides "Product Management for everyone"](https://spf13.com/presentation/product-management-for-everyone/)
 - [Steve Yegge Portrait of n00b](https://steve-yegge.blogspot.com/2008/02/portrait-of-n00b.html?m=1)
 - [OSInt and privacy Experts](https://inteltechniques.com/index.html)
-- [How Sequoia Capital measures product health](https://articles.sequoiacap.com/measuring-product-health)
 
 <!--more-->
