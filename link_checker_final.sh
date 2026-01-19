@@ -70,7 +70,9 @@ process_section() {
 
     # Add section header to report
     echo "" >> "$OUTPUT_FILE"
-    echo "## ${section_name^}" >> "$OUTPUT_FILE"
+    # Capitalize first letter (bash 3.2 compatible)
+    section_title="$(echo "${section_name:0:1}" | tr '[:lower:]' '[:upper:]')${section_name:1}"
+    echo "## $section_title" >> "$OUTPUT_FILE"
     echo "" >> "$OUTPUT_FILE"
     echo "| Status | Link | URL | HTTP Code | Notes |" >> "$OUTPUT_FILE"
     echo "|--------|------|-----|-----------|-------|" >> "$OUTPUT_FILE"
@@ -97,7 +99,8 @@ process_section() {
         fi
 
         # Extract markdown links: [text](url)
-        if [[ $line =~ \[([^\]]+)\]\(([^)]+)\) ]]; then
+        link_regex='\[([^\]]+)\]\(([^)]+)\)'
+        if [[ $line =~ $link_regex ]]; then
             link_text="${BASH_REMATCH[1]}"
             url="${BASH_REMATCH[2]}"
 
@@ -224,7 +227,8 @@ summary="
 "
 
 # Insert summary into the report
-sed -i "/## Summary/a\\$summary" "$OUTPUT_FILE"
+# Use perl for reliable multi-line insertion on macOS
+perl -i -pe '$_ .= "'"$summary"'\n" if /^## Summary$/' "$OUTPUT_FILE"
 
 # Print summary to console
 echo ""
