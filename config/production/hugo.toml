@@ -1,5 +1,5 @@
 theme = "ryder"
-# enableGitInfo = true  # Disabled for 40-50% faster builds. See theme docs for details.
+enableGitInfo = true  # Enabled for proper lastmod-based sorting on homepage
 
 [params]
   env = "production"
