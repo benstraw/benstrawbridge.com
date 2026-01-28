@@ -68,7 +68,3 @@ As these systems mature, the line between "tool" and "team member" will continue
 
 - [Welcome to Gas Town](https://steve-yegge.medium.com/welcome-to-gas-town-4f25ee16dd04) by Steve Yegge
 - [Introducing Beads: A Coding Agent Memory System](https://steve-yegge.medium.com/introducing-beads-a-coding-agent-memory-system-637d7d92514a) by Steve Yegge
-
----
-
-*Have you experienced the frustration of context loss with AI coding assistants? How do you think persistent memory might change your workflow? Let me know your thoughts.*
