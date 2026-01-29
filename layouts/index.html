@@ -1,0 +1,81 @@
+{{- define "main" }}
+
+{{- $excludedSections := site.Params.excludedSections | default slice }}
+{{- $excludedCategories := site.Params.excludedCategories | default slice }}
+{{- $excludedTags := site.Params.excludedTags | default slice }}
+
+{{- $allPages := site.RegularPages -}}
+
+{{- /* Filter pages based on exclusions */ -}}
+{{- $filteredPages := slice -}}
+{{- range $allPages.ByLastmod.Reverse }}
+  {{- $excludePage := false -}}
+
+  {{- /* Check if page category is excluded */ -}}
+  {{- range .Params.categories }}
+    {{- if in $excludedCategories . }}
+      {{- $excludePage = true -}}
+      {{- break -}}
+    {{- end }}
+  {{- end }}
+
+  {{- /* Check if page tag is excluded */ -}}
+  {{- range .Params.tags }}
+    {{- if in $excludedTags . }}
+      {{- $excludePage = true -}}
+      {{- break -}}
+    {{- end }}
+  {{- end }}
+
+  {{- /* Skip excluded pages */ -}}
+  {{- if $excludePage }}
+    {{- continue -}}
+  {{- end }}
+
+  {{- /* Check if page section is excluded */ -}}
+  {{- if in $excludedSections .Section }}
+    {{- continue }}
+  {{- end }}
+
+  {{- /* Skip pages without summary */ -}}
+  {{- if eq .Summary "" }}
+    {{- continue }}
+  {{- end }}
+
+  {{- $filteredPages = $filteredPages | append . -}}
+{{- end }}
+
+{{- /* Create paginator */ -}}
+{{- $paginator := .Paginate $filteredPages -}}
+
+<div class="lg:grid-cols-2 p-4 mx-auto grid grid-cols-1 gap-12 mb-5">
+
+  {{- /* Show featured sections only on first page */ -}}
+  {{- if eq $paginator.PageNumber 1 }}
+    {{- /* Get featured pages */ -}}
+    {{- $featuredPages := where $allPages "Params.homeFeature" "eq" true -}}
+
+    {{- if gt (len $featuredPages) 0 }}
+      <h2 class="lg:col-span-2 flex p-3 items-center mb-2 text-3xl uppercase">Featured</h2>
+
+      {{- range $featuredPages }}
+        {{- partial "card-category-color.html" . }}
+      {{- end }}
+    {{- end }}
+  {{- end }}
+
+  {{- /* Show latest content heading */ -}}
+  <h2 class="lg:col-span-2 flex p-3 items-center mb-2 text-3xl uppercase">Latest stuff</h2>
+
+  {{- /* Show paginated content */ -}}
+  {{- range $paginator.Pages }}
+    {{- partial "card-category-color.html" . }}
+  {{- end }}
+
+  {{- /* Show pagination controls */ -}}
+  <div class="lg:col-span-2">
+    {{ template "_internal/pagination.html" . }}
+  </div>
+</div>
+
+{{- end }}
