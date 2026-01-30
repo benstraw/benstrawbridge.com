@@ -18,6 +18,8 @@ hideAsideBar = true
 - [TheFocus/AI Distill the signal from the noise](https://thefocus.ai/)
 
 ### coding agents
+- [Beads: A Coding Agent Memory System](https://steve-yegge.medium.com/introducing-beads-a-coding-agent-memory-system-637d7d92514a)
+- [Welcome to Gas Town](https://steve-yegge.medium.com/welcome-to-gas-town-4f25ee16dd04)
 - [Claude Code](https://claude.com/product/claude-code)
 
 ### on automation

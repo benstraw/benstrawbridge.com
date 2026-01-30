@@ -5,7 +5,6 @@ date = 2024-05-06T14:43:16-07:00
 hideAsideBar = true
 categories = ['recipes']
 tags = ["family recipes"]
-weight = 50
 
 recipe = true
 recipeCuisine = "Side"
