@@ -6,7 +6,6 @@ hideAsideBar = true
 homeFeatureIcon = "fa-brands fa-pagelines"
 categories = ['recipes']
 tags = ["family recipes"]
-weight = 10
 
 recipe = true
 recipeCuisine = "Beverage"
