@@ -3,9 +3,7 @@ title = 'Catalog'
 date = 2024-06-04T00:44:22-07:00
 # draft = true
 # summary = ""
-tags = [
-  ""
-  ]
+tags = []
 # featured_image = ""
 # showTOC = true
 [cascade]

@@ -4,9 +4,14 @@ date = 2023-08-04T11:56:15-08:00
 # draft = true
 homeFeature = true
 tags = [
-  'healthy',
-  'vegan'
-  ]
+  "healthy",
+  "vegan",
+  "side",
+  "quick-30min",
+  "no-cook",
+  "meal-prep",
+  "american"
+]
 categories = ['recipes']
 # aliases = ['/recipes/taragon-beets-salad/']
 featured_image = "beets-salad.jpg"

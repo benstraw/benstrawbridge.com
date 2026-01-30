@@ -1,11 +1,7 @@
 +++
 title = "Referral links tool kit"
 date = 2024-05-19T12:28:06-04:00
-tags = [
-  "Referral Links",
-  "Amazon Associates Program",
-  "Affiliate Marketing",
-]
+tags = ["referral-links", "amazon-associates-program", "affiliate-marketing"]
 url = "/link-builder"
 +++
 

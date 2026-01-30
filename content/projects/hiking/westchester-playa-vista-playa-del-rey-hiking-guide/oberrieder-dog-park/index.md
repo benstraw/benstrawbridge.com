@@ -1,6 +1,13 @@
 +++
 title = 'Oberrieder Dog Park'
 date = 2024-04-16T10:58:27-07:00
+tags = [
+  "playa-vista",
+  "easy",
+  "short-under-2mi",
+  "dog-park",
+  "dog-friendly"
+]
 # draft = true
 [maps]
 lat = "33.9718"

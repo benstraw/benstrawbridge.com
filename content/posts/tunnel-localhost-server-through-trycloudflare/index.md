@@ -3,14 +3,14 @@ title = 'Tunnel Localhost Server Through Cloudflare'
 date = 2024-02-14T14:06:29-08:00
 # draft = true
 tags = [
-    "localhost server",
-    "networking",
-    "shell scripting",
-    "development environment",
-    "workflow optimization",
-    "zsh script",
-    "Cloudflare tunneling service",
-    "NGROK"
+  "localhost-server",
+  "networking",
+  "shell-scripting",
+  "development-environment",
+  "workflow-optimization",
+  "zsh-script",
+  "cloudflare-tunneling-service",
+  "ngrok"
 ]
 homeFeatureIcon = "fa-solid fa-car-tunnel"
 

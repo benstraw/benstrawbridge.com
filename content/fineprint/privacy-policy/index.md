@@ -4,9 +4,7 @@ date = 2024-06-05T22:20:28-07:00
 # draft = true
 # summary = ""
 # categories = [""]
-tags = [
-  "privacy"
-  ]
+tags = ["privacy"]
 # featured_image = ""
 homeFeatureIcon = "fa-solid fa-fingerprint"
 # showTOC = true
