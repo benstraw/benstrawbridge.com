@@ -9,7 +9,6 @@ tags = [
   "Open Source",
   "Web Development"
 ]
-weight = 20
 featured_image = "ryder-theme-og.jpg"
 # homeFeature = true
 homeFeatureIcon = "fa-solid fa-dog"
