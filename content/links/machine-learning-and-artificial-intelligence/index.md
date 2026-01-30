@@ -1,6 +1,6 @@
 +++
 title = 'Machine Learning and Artificial Intelligence'
-date = 2024-11-08T11:38:36-08:00
+date = 2026-01-28T20:29:32-08:00
 # draft = true
 # I like this by default now... keeps the page full width with tags below.
 hideAsideBar = true
