@@ -4,10 +4,7 @@ date = 2024-05-30T00:19:52-07:00
 # draft = true
 # summary = ""
 # # categories = [""]
-tags = [
-  "Hugo",
-  "Tag Cloud"
-  ]
+tags = ["hugo", "tag-cloud"]
 # featured_image = ""
 homeFeatureIcon = "fa-solid fa-cloud-meatball"
 # showTOC = true

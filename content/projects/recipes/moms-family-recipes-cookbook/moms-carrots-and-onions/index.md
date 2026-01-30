@@ -4,7 +4,15 @@ date = 2024-05-14T15:50:33-07:00
 # draft = true
 hideAsideBar = true
 categories = ['recipes']
-tags = ["family recipes","budget"]
+tags = [
+  "family-recipes",
+  "budget",
+  "vegetarian",
+  "side",
+  "quick-30min",
+  "stovetop",
+  "american"
+]
 
 recipe = true
 recipeCuisine = "Side"

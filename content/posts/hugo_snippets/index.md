@@ -3,14 +3,14 @@ title = 'Hugo Snippets'
 date = 2024-02-12T12:46:55-08:00
 # draft = true
 tags = [
-  "Hugo",
+  "hugo",
   "templates",
-  "front matter",
-  "resource management",
-  "string manipulation",
+  "front-matter",
+  "resource-management",
+  "string-manipulation",
   "configuration",
-  "website development",
-  "static site generator"
+  "website-development",
+  "static-site-generator"
 ]
 homeFeatureIcon = "fa-solid fa-scissors"
 +++

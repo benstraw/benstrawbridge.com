@@ -1,6 +1,14 @@
 +++
 title = 'Del Rey Lagoon'
 date = 2024-04-15T14:25:45-07:00
+tags = [
+  "playa-del-rey",
+  "easy",
+  "short-under-2mi",
+  "nature",
+  "paved",
+  "dog-friendly"
+]
 # draft = true
 [maps]
 lat = "33.9600"

@@ -2,7 +2,15 @@
 title = 'Golden Beet, Apple, Mango, Banana Smoothie'
 date = 2024-04-24T22:51:44-07:00
 # draft = true
-tags = ['smoothie', 'healthy']
+tags = [
+  "smoothie",
+  "healthy",
+  "vegan",
+  "breakfast",
+  "quick-30min",
+  "no-cook",
+  "beverage"
+]
 categories = ['recipes']
 
 recipe = true

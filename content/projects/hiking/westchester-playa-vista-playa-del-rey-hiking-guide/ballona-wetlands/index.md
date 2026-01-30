@@ -1,6 +1,15 @@
 +++
 title = 'Ballona Wetlands'
 date = 2024-04-15T14:23:44-07:00
+tags = [
+  "playa-del-rey",
+  "easy",
+  "short-under-2mi",
+  "wetlands",
+  "nature",
+  "birdwatching",
+  "paved"
+]
 # draft = true
 [maps]
 lat = "33.9656"
