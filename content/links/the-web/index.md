@@ -1,6 +1,6 @@
 +++
 title = 'The Web'
-date = 2024-11-08T11:39:53-08:00
+date = 2026-01-13T22:38:49+00:00
 # draft = true
 # I like this by default now... keeps the page full width with tags below.
 hideAsideBar = true

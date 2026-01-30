@@ -1,6 +1,6 @@
 +++
 title = 'Mapping'
-date = 2024-11-08T11:38:06-08:00
+date = 2024-11-08T12:05:31-08:00
 # draft = true
 # I like this by default now... keeps the page full width with tags below.
 hideAsideBar = true
