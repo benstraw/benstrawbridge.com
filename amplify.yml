@@ -1,0 +1,26 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        # - echo "Installing Hugo v0.126.1".
+        # - wget https://github.com/gohugoio/hugo/releases/download/v0.126.1/hugo_extended_0.126.1_Linux-64bit.tar.gz
+        # - mkdir -p hugo_src
+        # - tar -xf hugo_extended_0.126.1_Linux-64bit.tar.gz -C hugo_src
+        # - mv hugo_src/hugo /usr/bin/hugo
+        # - mv hugo_src/hugo /usr/local/bin/hugo
+        # - rm -rf hugo_extended_0.126.1_Linux-64bit.tar.gz
+        - hugo version
+        - npm install
+    # IMPORTANT - Please verify your build commands
+    build:
+      commands:
+        - npm install
+        - hugo --minify
+  artifacts:
+    # IMPORTANT - Please verify your build output directory
+    baseDirectory: public
+    files:
+      - '**/*'
+  cache:
+    paths: []
