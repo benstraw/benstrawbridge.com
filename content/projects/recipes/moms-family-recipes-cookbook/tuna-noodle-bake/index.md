@@ -6,7 +6,7 @@ hideAsideBar = true
 homeFeatureIcon = "fa-solid fa-fish-fins"
 categories = ['recipes']
 tags = [
-  "family-recipes",
+  "moms-family-recipes",
   "budget",
   "main",
   "medium-60min",

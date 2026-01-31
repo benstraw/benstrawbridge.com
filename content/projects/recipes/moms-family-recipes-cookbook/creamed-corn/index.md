@@ -5,7 +5,7 @@ date = 2024-05-14T15:58:00-07:00
 hideAsideBar = true
 categories = ["recipes"]
 tags = [
-  "family-recipes",
+  "moms-family-recipes",
   "vegetarian",
   "side",
   "quick-30min",
