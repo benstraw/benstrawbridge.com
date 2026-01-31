@@ -5,7 +5,7 @@ date = 2024-05-06T14:24:29-07:00
 hideAsideBar = true
 homeFeatureIcon = "fa-solid fa-bread-slice"
 categories = ['recipes']
-tags = ["family recipes", "budget"]
+tags = ["moms-family-recipes", "main", "medium-60min", "baked", "comfort-food", "american"]
 
 recipe = true
 recipeCuisine = "American"

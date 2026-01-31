@@ -5,7 +5,7 @@ date = 2024-04-24T23:41:16-07:00
 hideAsideBar = true
 homeFeatureIcon = "fa-solid fa-fish-fins"
 categories = ['recipes']
-tags = ["family recipes", "budget"]
+tags = ["moms-family-recipes", "main", "medium-60min", "baked", "weeknight", "comfort-food", "american"]
 
 recipe = true
 recipeCuisine = "American"
