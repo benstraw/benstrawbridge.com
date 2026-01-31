@@ -1,6 +1,14 @@
 +++
 title = 'Bluff Trail'
 date = 2024-04-15T14:20:45-07:00
+tags = [
+  "playa-del-rey",
+  "moderate",
+  "medium-2-4mi",
+  "trail",
+  "beach",
+  "dog-friendly"
+]
 # draft = true
 [maps]
 lat = "33.9648"

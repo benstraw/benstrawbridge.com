@@ -5,13 +5,13 @@ date = 2024-06-08T11:57:29-07:00
 # summary = ""
 # categories = [""]
 tags = [
-  "Digital Security",
-  "Disaster Preparedness",
-  "Encrypted Storage",
-  "Financial Planning",
-  "Hugo",
-  "Digital Wallet"
-  ]
+  "digital-security",
+  "disaster-preparedness",
+  "encrypted-storage",
+  "financial-planning",
+  "hugo",
+  "digital-wallet"
+]
 # featured_image = ""
 # homeFeatureIcon = ""
 # showTOC = true

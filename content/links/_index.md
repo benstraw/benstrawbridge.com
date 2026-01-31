@@ -2,7 +2,13 @@
 title = 'Link Graveyard'
 date = 2024-01-18T11:50:06-08:00
 # draft = true
-tags = ["hugo","themes","css","images","blogroll"]
+tags = [
+  "hugo",
+  "themes",
+  "css",
+  "images",
+  "blogroll"
+]
 showTOC = true
 TocOpen = true
 # summary = "The link graveyard is my page for remembering where I found stuff – whether it's something I learned, something cool I stumbled upon, or maybe just a friend's site."

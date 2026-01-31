@@ -3,7 +3,14 @@ title = 'Lemon Chia Granola'
 date = 2024-04-29T13:44:16-07:00
 # draft = true
 categories = ['recipes']
-tags = ['healthy', 'seeds']
+tags = [
+  "healthy",
+  "vegetarian",
+  "breakfast",
+  "medium-60min",
+  "baked",
+  "meal-prep"
+]
 
 
 recipe = true

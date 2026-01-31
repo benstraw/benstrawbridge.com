@@ -5,12 +5,12 @@ date = 2024-01-12T11:22:17-08:00
 description = "Hugo helpers will help your hugo, make a great hugo!"
 # category = "web development"
 tags = [
-  "Hugo",
+  "hugo",
   "partials",
-  "image processing",
+  "image-processing",
   "alerts",
   "responsive",
-  "web development"
+  "web-development"
 ]
 +++
 

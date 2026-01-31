@@ -1,6 +1,13 @@
 +++
 title = 'Jet Pets'
 date = 2024-04-15T14:21:28-07:00
+tags = [
+  "westchester",
+  "easy",
+  "short-under-2mi",
+  "dog-park",
+  "dog-friendly"
+]
 hideAsideBar = true
 # draft = true
 [maps]

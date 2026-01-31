@@ -4,14 +4,14 @@ date = 2024-05-20T17:02:40-07:00
 # draft = true
 foo = 'bar'
 tags = [
-  "Photography",
-  "Space",
-  "Night Photography",
-  "Aurora",
-  "Astronomy",
-  "Landscape Photography",
-  "Marina Del Rey",
-  "Inspiration"
+  "photography",
+  "space",
+  "night-photography",
+  "aurora",
+  "astronomy",
+  "landscape-photography",
+  "marina-del-rey",
+  "inspiration"
 ]
 hideAsideBar = true
 homeFeatureIcon = "fa-solid fa-compass"

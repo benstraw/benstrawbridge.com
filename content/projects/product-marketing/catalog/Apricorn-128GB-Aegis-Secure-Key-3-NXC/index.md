@@ -5,8 +5,12 @@ date = 2024-06-08T15:27:45-07:00
 # summary = ""
 asin = "B08D332395"
 tags = [
-  ""
-  ]
+  "electronics",
+  "security",
+  "storage",
+  "portable",
+  "100-200"
+]
 # featured_image = ""
 # homeFeatureIcon = ""
 # showTOC = true

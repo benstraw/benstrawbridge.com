@@ -5,12 +5,12 @@ date = 2024-05-29T23:37:29-07:00
 # summary = ""
 # categories = [""]
 tags = [
-  "Ryder Theme",
-  "Recipe Schema",
-  "Structured Data",
-  "Hugo",
-  "SEO"
-  ]
+  "ryder-theme",
+  "recipe-schema",
+  "structured-data",
+  "hugo",
+  "seo"
+]
 # featured_image = ""
 homeFeatureIcon = "fa-solid fa-burst"
 # showTOC = true

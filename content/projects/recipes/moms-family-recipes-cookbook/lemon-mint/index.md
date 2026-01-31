@@ -5,7 +5,13 @@ date = 2024-04-24T23:15:52-07:00
 hideAsideBar = true
 homeFeatureIcon = "fa-brands fa-pagelines"
 categories = ['recipes']
-tags = ["family recipes"]
+tags = [
+  "moms-family-recipes",
+  "vegetarian",
+  "beverage",
+  "quick-30min",
+  "no-cook"
+]
 
 recipe = true
 recipeCuisine = "Beverage"

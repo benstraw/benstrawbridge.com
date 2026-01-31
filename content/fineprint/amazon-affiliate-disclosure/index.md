@@ -3,10 +3,7 @@ title = 'Amazon Affiliate Disclosure'
 date = 2024-06-05T15:45:41-07:00
 # draft = true
 # categories = [""]
-tags = [
-  "Amazon Associates Program",
-  "disclosure"
-  ]
+tags = ["amazon-associates-program", "disclosure"]
 # featured_image = ""
 homeFeatureIcon = "fab fa-amazon"
 showTOC = true

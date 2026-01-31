@@ -4,16 +4,16 @@ date = 2024-01-19T21:54:43-08:00
 # draft = true
 showToc = true
 tags = [
-    "Hugo",
-    "GitHub Actions",
-    "CI/CD",
-    "Static Site Generator",
-    "Automation",
-    "GitHub Pages",
-    "Workflow Dispatch",
-    "Content Management",
-    "Web Development",
-    "DevOps"
+  "hugo",
+  "github-actions",
+  "ci/cd",
+  "static-site-generator",
+  "automation",
+  "github-pages",
+  "workflow-dispatch",
+  "content-management",
+  "web-development",
+  "devops"
 ]
 homeFeatureIcon = "fa-brands fa-github"
 +++

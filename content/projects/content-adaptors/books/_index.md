@@ -3,11 +3,11 @@ title = 'Book Store Sample Data'
 date = 2024-05-17T13:36:56-07:00
 # draft = true
 tags = [
-  "Content Adaptors",
-  "Hugo",
-  "Static Site Generator",
-  "API Integration",
-  "Dynamic Content"
+  "content-adaptors",
+  "hugo",
+  "static-site-generator",
+  "api-integration",
+  "dynamic-content"
 ]
 
 +++

@@ -6,9 +6,7 @@ draft = true
 hideAsideBar = true
 # summary = ""
 categories = ["posts"]
-tags = [
-  "nature"
-  ]
+tags = ["nature"]
 # featured_image = ""
 # homeFeatureIcon = ""
 # showTOC = true

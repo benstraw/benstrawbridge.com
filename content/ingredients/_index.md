@@ -5,9 +5,7 @@ paginate = 72
 # draft = true
 # summary = ""
 # categories = [""]
-tags = [
-  "ingredients"
-  ]
+tags = ["ingredients"]
 # featured_image = ""
 # showTOC = true
 

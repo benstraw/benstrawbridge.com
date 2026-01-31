@@ -1,6 +1,14 @@
 +++
 title = "Nitecore Headlamp"
 date = 2024-04-02T02:28:06-04:00
+tags = [
+  "outdoor",
+  "fitness",
+  "emergency-prep",
+  "rechargeable",
+  "under-50",
+  "portable"
+]
 asin = "B0CGT394SJ"
 lists = ["every-day-carry","day-pack","best-of-2024"]
 aliases = ['/projects/hiking/gear/nitecore-headlamp/']

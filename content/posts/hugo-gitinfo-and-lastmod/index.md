@@ -4,10 +4,7 @@ date = 2024-06-07T09:43:00-07:00
 draft = true
 # summary = ""
 # categories = [""]
-tags = [
-  "Hugo",
-  "GitInfo"
-  ]
+tags = ["hugo", "gitinfo"]
 # featured_image = ""
 # homeFeatureIcon = ""
 # showTOC = true

@@ -9,11 +9,7 @@ paginate = 72
 # hideAsideBar = true
 # summary = ""
 # # categories = [""]
-tags = [
-  "Everything",
-  "Everywhere",
-  "All at Once"
-  ]
+tags = ["everything", "everywhere", "all-at-once"]
 groupBy = ""
 sortBy = ""
 # featured_image = ""

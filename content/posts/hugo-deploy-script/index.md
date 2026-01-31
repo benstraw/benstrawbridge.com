@@ -13,9 +13,9 @@ tags = [
   "hugo",
   "aws",
   "cloudfront",
-  "static site deployment",
+  "static-site-deployment",
   "s3"
-  ]
+]
 # featured_image = ""
 # showTOC = true
 +++
