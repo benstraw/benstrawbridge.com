@@ -4,10 +4,7 @@ date = 2024-06-03T10:25:04-07:00
 # draft = true
 # summary = ""
 # # categories = [""]
-tags = [
-  "writing",
-  "notebook"
-  ]
+tags = ["writing", "notebook", "stationery", "productivity", "under-50"]
 # featured_image = ""
 # homeFeatureIcon = ""
 # showTOC = true

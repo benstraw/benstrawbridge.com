@@ -4,9 +4,7 @@ date = 2024-05-26T21:28:38-07:00
 draft = true
 # summary = ""
 categories = ["live music"]
-tags = [
-  ""
-  ]
+tags = []
 # featured_image = ""
 # showTOC = tru
 type = "music"

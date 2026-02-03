@@ -5,12 +5,12 @@ date = 2024-06-05T00:11:09-07:00
 # summary = ""
 # categories = [""]
 tags = [
-  "Hugo",
-  "Recipe Template",
-  "Taxonomy",
-  "Ingredients",
-  "Content Management",
-  "Recipe Schema"
+  "hugo",
+  "recipe-template",
+  "taxonomy",
+  "ingredients",
+  "content-management",
+  "recipe-schema"
 ]
 # featured_image = ""
 # showTOC = true

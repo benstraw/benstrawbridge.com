@@ -6,11 +6,11 @@ date = 2024-06-10T20:41:19-07:00
 # categories = [""]
 # hideAsideBar = true
 tags = [
-  "Hugo",
-  "Ryder Theme",
+  "hugo",
+  "ryder-theme",
   "filtering",
   "feed"
-  ]
+]
 # featured_image = ""
 homeFeatureIcon = "fa-solid fa-house"
 # showTOC = true

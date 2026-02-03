@@ -6,7 +6,7 @@ featured_image = "family_recipes_0.jpg"
 # type = 'photo-gallery'
 hideAsideBar = true
 categories = ["recipes"]
-tags = ["family recipes"]
+tags = ["family-recipes"]
 tags_weight = 1
 photoGalleryTitle = 'Every Page of the Cookbook'
 [[cascade]]

@@ -3,15 +3,15 @@ title = 'Beads and Gas Town: The Evolution of Coding Agent Memory'
 date = 2026-01-27T15:30:00-08:00
 homeFeatureIcon = "fa-solid fa-robot"
 tags = [
-  "AI",
-  "Machine Learning",
-  "Coding Agents",
-  "Developer Tools",
-  "Automation",
-  "LLM",
-  "Agent Memory",
-  "Gas Town",
-  "Beads"
+  "ai",
+  "machine-learning",
+  "coding-agents",
+  "developer-tools",
+  "automation",
+  "llm",
+  "agent-memory",
+  "gas-town",
+  "beads"
 ]
 +++
 

@@ -2,10 +2,7 @@
 title = 'Arts-Link.com'
 date = 2024-01-26T23:28:00-08:00
 homeFeatureIcon = "fa-solid fa-palette"
-tags = [
-  "product management",
-  "open source"
-]
+tags = ["product-management", "open-source"]
 +++
 
 {{< alert-wrapper alertType="info" alertIconClass="fa-solid fa-heart-pulse" alertTitle="In Active Development" alertMessage="Is arts-link.com a business?, a collective?, a gallery?... we're not sure, but we are trying hard to get that figured out!" >}}

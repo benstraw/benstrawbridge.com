@@ -3,7 +3,7 @@ title = 'Granola!'
 date = 2024-04-29T13:44:16-07:00
 # draft = true
 # categories = ['recipes']
-tags = ['healthy', 'seeds']
+tags = ["healthy"]
 +++
 
 {{< picture 
