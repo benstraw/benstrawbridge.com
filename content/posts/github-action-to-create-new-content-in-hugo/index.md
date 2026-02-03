@@ -6,7 +6,7 @@ showToc = true
 tags = [
   "hugo",
   "github-actions",
-  "ci/cd",
+  "ci-cd",
   "static-site-generator",
   "automation",
   "github-pages",

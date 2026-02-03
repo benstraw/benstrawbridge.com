@@ -7,7 +7,7 @@ tags = [
   "healthy",
   "vegan",
   "side",
-  "quick-30min",
+  "long-over-60min",
   "no-cook",
   "meal-prep",
   "american"

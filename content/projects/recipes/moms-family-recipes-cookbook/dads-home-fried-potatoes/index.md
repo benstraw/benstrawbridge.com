@@ -8,7 +8,7 @@ tags = [
   "moms-family-recipes",
   "vegetarian",
   "side",
-  "quick-30min",
+  "medium-60min",
   "stovetop",
   "american"
 ]
