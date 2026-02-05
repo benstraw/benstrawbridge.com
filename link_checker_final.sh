@@ -99,7 +99,7 @@ process_section() {
         fi
 
         # Extract markdown links: [text](url)
-        link_regex='\[([^\]]+)\]\(([^)]+)\)'
+        link_regex='\[([^]]+)\]\(([^)]+)\)'
         if [[ $line =~ $link_regex ]]; then
             link_text="${BASH_REMATCH[1]}"
             url="${BASH_REMATCH[2]}"
