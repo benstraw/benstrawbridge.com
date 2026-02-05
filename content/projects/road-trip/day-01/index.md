@@ -39,7 +39,7 @@ Add your photos here using the picture shortcode:
 
 {{< picture
   alt="Description of photo"
-  src="day-01-photo.jpg"
+  src="01_mom-goodbye.webp"
   title="Photo Title"
 >}}
 
