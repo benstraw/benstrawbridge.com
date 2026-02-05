@@ -3,9 +3,7 @@ title = 'Musical Genres'
 date = 2024-06-26T12:50:56-07:00
 paginate = 720
 # categories = [""]
-tags = [
-  "musical genres"
-  ]
+tags = ["musical-genres"]
 # showTOC = true
 
 [cascade]

@@ -1,6 +1,14 @@
 +++
 title = 'Bluff Creek Trail'
 date = 2024-04-15T14:20:02-07:00
+tags = [
+  "playa-del-rey",
+  "moderate",
+  "medium-2-4mi",
+  "trail",
+  "beach",
+  "dog-friendly"
+]
 # draft = true
 hideAsideBar = true
 

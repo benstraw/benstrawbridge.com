@@ -1,6 +1,6 @@
 +++
 title = 'Tools'
-date = 2024-11-08T11:39:30-08:00
+date = 2024-12-09T14:54:08-08:00
 # draft = true
 # I like this by default now... keeps the page full width with tags below.
 hideAsideBar = true

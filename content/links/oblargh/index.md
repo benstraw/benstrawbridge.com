@@ -1,6 +1,6 @@
 +++
 title = 'Oblargh'
-date = 2024-11-08T10:48:23-08:00
+date = 2026-01-27T05:58:18+00:00
 # draft = true
 # I like this by default now... keeps the page full width with tags below.
 hideAsideBar = true

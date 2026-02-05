@@ -6,10 +6,7 @@ date = 2024-06-26T12:01:36-07:00
 # hideAsideBar = true
 # summary = ""
 # # categories = [""]
-tags = [
-  "spotify",
-  "disclosure"
-  ]
+tags = ["spotify", "disclosure"]
 # featured_image = ""
 homeFeatureIcon = "fab fa-spotify"
 showTOC = true
