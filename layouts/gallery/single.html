@@ -1,0 +1,18 @@
+{{ define "main" }}
+<article class="prose dark:prose-invert max-w-none">
+  <header>
+    <h1>{{ .Title }}</h1>
+    {{ if .Content }}
+      <div class="lead">
+        {{ .Content }}
+      </div>
+    {{ end }}
+  </header>
+
+  {{ partial "photoswipe-gallery.html" . }}
+</article>
+{{ end }}
+
+{{ define "footer" }}
+  {{ partial "photoswipe-init.html" . }}
+{{ end }}

@@ -1,0 +1,23 @@
+{{- $images := .Resources.ByType "image" -}}
+{{- if $images -}}
+<div class="pswp-gallery not-prose" id="gallery--{{ .File.UniqueID }}">
+  <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+    {{- range $index, $image := $images -}}
+      {{- $thumb := $image.Resize "400x400" -}}
+      {{- $full := $image.Resize "1920x" -}}
+      <a href="{{ $full.RelPermalink }}"
+         data-pswp-width="{{ $full.Width }}"
+         data-pswp-height="{{ $full.Height }}"
+         target="_blank"
+         class="block overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+        <img src="{{ $thumb.RelPermalink }}"
+             alt="{{ $image.Title | default $image.Name }}"
+             class="w-full h-full object-cover"
+             loading="lazy" />
+      </a>
+    {{- end -}}
+  </div>
+</div>
+{{- else -}}
+<p class="text-gray-500 italic">No photos found in this gallery.</p>
+{{- end -}}

@@ -1,0 +1,32 @@
+<!-- PhotoSwipe CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@5.4.3/dist/photoswipe.css">
+
+<!-- PhotoSwipe JavaScript -->
+<script type="module">
+  import PhotoSwipeLightbox from 'https://cdn.jsdelivr.net/npm/photoswipe@5.4.3/dist/photoswipe-lightbox.esm.min.js';
+  import PhotoSwipe from 'https://cdn.jsdelivr.net/npm/photoswipe@5.4.3/dist/photoswipe.esm.min.js';
+
+  // Initialize PhotoSwipe for all galleries on the page
+  const galleries = document.querySelectorAll('.pswp-gallery');
+
+  galleries.forEach((gallery) => {
+    const lightbox = new PhotoSwipeLightbox({
+      gallery: '#' + gallery.id,
+      children: 'a',
+      pswpModule: PhotoSwipe,
+      // Options
+      bgOpacity: 0.9,
+      spacing: 0.12,
+      allowPanToNext: true,
+      loop: true,
+      pinchToClose: true,
+      closeOnVerticalDrag: true,
+      // UI
+      showHideAnimationType: 'zoom',
+      // Responsive images
+      preload: [1, 2],
+    });
+
+    lightbox.init();
+  });
+</script>
