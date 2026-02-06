@@ -14,6 +14,7 @@ hideAsideBar = true
 # showTOC = true
 +++
 
+- [Aperture - Lightning Network Authentication & Paid APIs](https://docs.lightning.engineering/lightning-network-tools/aperture/get-aperture)
 - [the arkham computer](https://platform.arkhamintelligence.com/)
 - [advanced charting](https://beta.bitcoinwisdom.io/)
 <!--more-->
