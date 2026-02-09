@@ -17,6 +17,10 @@ hideAsideBar = true
 ### general
 - [TheFocus/AI Distill the signal from the noise](https://thefocus.ai/)
 
+### OCR
+- [Streamlit OCR comparator on Hugging Face](https://huggingface.co/spaces/Loren/Streamlit_OCR_comparator?source=post_page-----a362d9c79e66---------------------------------------)
+- [OCR comparison: Tesseract vs EasyOCR vs PaddleOCR vs MMOCR](https://toon-beerten.medium.com/ocr-comparison-tesseract-versus-easyocr-vs-paddleocr-vs-mmocr-a362d9c79e66)
+
 ### coding agents
 - [Beads: A Coding Agent Memory System](https://steve-yegge.medium.com/introducing-beads-a-coding-agent-memory-system-637d7d92514a)
 - [Welcome to Gas Town](https://steve-yegge.medium.com/welcome-to-gas-town-4f25ee16dd04)
