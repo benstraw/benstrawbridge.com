@@ -24,9 +24,7 @@ tags = [
 # draft = true
 +++
 
-The technical journey of adding search to 3,400+ scanned photo album pages.
-
-[View the live search](https://gordon-landreth-photography.arts-link.com/search/)
+I built a search engine for 3,400+ scanned family photo album pages using OCR and client-side JavaScript. The [Gordon Landreth Photography](https://gordon-landreth-photography.arts-link.com/) site now has a [working search interface](https://gordon-landreth-photography.arts-link.com/search/) that lets family members find photos by names, places, and dates from typed captions on album pages spanning 1931-1990s.
 
 <!--more-->
 
@@ -57,7 +55,7 @@ I wanted family members to search for names ("Show me all photos of Louise"), pl
 
 **Privacy & Copyright:** These are family photos, not public domain. The site uses `noindex, nofollow` robots tags and privacy-focused Plausible analytics.
 
-**OCR Quality:** These are 1940s-1980s photos with typed captions. Quality varies from crisp typewriter text to faded, skewed, or low-contrast text. Perfect transcription wasn't realistic—I needed "searchable enough."
+**OCR Quality:** These are 1940s-1980s photos with typed captions. Quality varies from crisp typewriter text to faded, skewed, or low-contrast text. Perfect transcription wasn't realistic. I needed "searchable enough."
 
 ### Architecture Decision: Client-Side Search
 
@@ -146,7 +144,7 @@ Line breaks indicate natural reading flow and continuation. The structured `capt
 
 ### Development Workflow: Fast Rebuilds
 
-Processing 3,416 images takes time. My **separate index rebuild script** (`rebuild_search_index.py`) reads existing OCR JSONs and regenerates the search index in 3-5 seconds—invaluable for testing search functionality and fixing metadata bugs without rerunning OCR.
+Processing 3,416 images takes time. My **separate index rebuild script** (`rebuild_search_index.py`) reads existing OCR JSONs and regenerates the search index in 3-5 seconds. This was invaluable for testing search functionality and fixing metadata bugs without rerunning OCR.
 
 ### Vision Model for Final Production
 
@@ -213,7 +211,7 @@ Initial search results showed album title, page filename, and caption text. Func
 
 ### PhotoSwipe Integration
 
-The gallery already used PhotoSwipe for album pages. Reusing it for search results meant consistent UX with full keyboard navigation, swipe gestures, and caption display—no new dependencies.
+The gallery already used PhotoSwipe for album pages. Reusing it for search results meant consistent UX with full keyboard navigation, swipe gestures, and caption display. No new dependencies.
 
 **Implementation challenge:** PhotoSwipe needs image dimensions, but search results don't include them. I dynamically load dimensions when building the PhotoSwipe data source.
 
@@ -223,7 +221,7 @@ Now clicking a thumbnail opens a full-screen lightbox where you can browse searc
 
 ### Grouped Search Results
 
-When searching for an album name, both the album and individual pages appeared in results—confusing. I split results into two groups:
+When searching for an album name, both the album and individual pages appeared in results. Confusing. I split results into two groups:
 
 1. **Album Title Matches** - The album name itself matched
 2. **Caption Matches** - The OCR caption text matched
@@ -254,7 +252,7 @@ I used [LM Studio](https://lmstudio.ai/) to run **MiniCPM-V 2.6** vision model l
 2. Search for "MiniCPM-V 2.6" and download (~8GB)
 3. Start server (defaults to `http://localhost:1234`)
 
-Within 10 minutes, I had a local vision model server. No API keys, no cloud services, full privacy—just a simple HTTP endpoint.
+Within 10 minutes, I had a local vision model server. No API keys, no cloud services, full privacy. Just a simple HTTP endpoint.
 
 ### Implementation
 
@@ -338,7 +336,7 @@ I used **Tesseract during development** for fast iteration and testing, then re-
 
 **Add Thumbnails Earlier:** Visual previews should have been in the initial design.
 
-**Test with Real Use Cases:** I tested with hypothetical queries. Real use revealed I needed grouping, thumbnails, and lightbox—not better query parsing.
+**Test with Real Use Cases:** I tested with hypothetical queries. Real use revealed I needed grouping, thumbnails, and lightbox, not better query parsing.
 
 **Trust Simplicity:** I planned complex features I never needed. Fuzzy matching + good UX won.
 
@@ -381,7 +379,7 @@ Building search for 3,400+ scanned photo album pages taught me that "good enough
 
 The system shipped with features I didn't plan (PhotoSwipe lightbox, thumbnails, grouped results) and without features I thought essential (Boolean AND, phrase search). Real use revealed what mattered.
 
-Family members are now finding photos they forgot existed. Click a thumbnail, browse results in full-screen lightbox, navigate with arrow keys, see high-quality captions from the vision model. Search isn't just functional—it's delightful.
+Family members are now finding photos they forgot existed. Click a thumbnail, browse results in full-screen lightbox, navigate with arrow keys, see high-quality captions from the vision model.
 
 ---
 
