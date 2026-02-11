@@ -5,7 +5,6 @@ date = 2024-09-14T23:40:27-07:00
 # I like this by default now... keeps the page full width with tags below.
 hideAsideBar = true
 # homeFeatureWide = true
-homeFeature = true
 homeFeatureIcon = "fa-solid fa-code-merge"
 # summary = ""
 # # categories = [""]
