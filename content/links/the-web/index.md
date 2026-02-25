@@ -1,6 +1,6 @@
 +++
 title = 'The Web'
-date = 2026-01-13T22:38:49+00:00
+date = 2026-02-25T18:28:49+00:00
 # draft = true
 # I like this by default now... keeps the page full width with tags below.
 hideAsideBar = true
@@ -14,6 +14,7 @@ hideAsideBar = true
 # showTOC = true
 +++
 
+- [Citrini Research: 2028 GIC](https://www.citriniresearch.com/p/2028gic)
 - [Mozilla State of the Internet](https://stateof.mozilla.org/)
 - [How Sequoia Capital measures product health](https://articles.sequoiacap.com/measuring-product-health)
 - [What screens want](https://frankchimero.com/blog/2013/what-screens-want/)
