@@ -14,6 +14,7 @@ hideAsideBar = true
 # showTOC = true
 +++
 
+- [Fictive Kin Web Systems](https://fictivekin.com/websystems)
 - [Citrini Research: 2028 GIC](https://www.citriniresearch.com/p/2028gic)
 - [Mozilla State of the Internet](https://stateof.mozilla.org/)
 - [How Sequoia Capital measures product health](https://articles.sequoiacap.com/measuring-product-health)
