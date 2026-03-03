@@ -14,6 +14,7 @@ hideAsideBar = true
 # showTOC = true
 +++
 
+- [Obsidian CLI](https://help.obsidian.md/cli)
 - [website image guide](https://www.cronyxdigital.com/blog/the-ultimate-website-image-guide)
 - [transform anything](https://transform.tools/)
 - [page speed checklist](https://pagespeedchecklist.com/)
