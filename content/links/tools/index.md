@@ -14,10 +14,6 @@ hideAsideBar = true
 # showTOC = true
 +++
 
-- [Obsidian CLI](https://help.obsidian.md/cli)
-
-The Obsidian CLI opens up exciting possibilities for automation in open project management — imagine scripting vault operations, triggering note creation from CI pipelines, or syncing tasks directly from the command line without ever touching the GUI.
-
 - [website image guide](https://www.cronyxdigital.com/blog/the-ultimate-website-image-guide)
 - [transform anything](https://transform.tools/)
 - [page speed checklist](https://pagespeedchecklist.com/)
