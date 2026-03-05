@@ -4,7 +4,7 @@
 {{- $links := slice -}}
 {{- $categoryPages := slice -}}
 {{- range .RegularPages -}}
-  {{- if .Params.url -}}
+  {{- if .Params.link_url -}}
     {{- $links = $links | append . -}}
   {{- else -}}
     {{- $categoryPages = $categoryPages | append . -}}
@@ -12,19 +12,19 @@
 {{- end -}}
 {{- $links = sort $links "Date" "desc" -}}
 
-{{- /* Collect all unique tags and categories from individual links */ -}}
+{{- /* Collect all unique tags and link sections from individual links */ -}}
 {{- $allTags := slice -}}
-{{- $allCategories := slice -}}
+{{- $allLinkSections := slice -}}
 {{- range $links -}}
   {{- range .Params.tags -}}
     {{- $allTags = $allTags | append . -}}
   {{- end -}}
-  {{- range .Params.categories -}}
-    {{- $allCategories = $allCategories | append . -}}
+  {{- range .Params.link_sections -}}
+    {{- $allLinkSections = $allLinkSections | append . -}}
   {{- end -}}
 {{- end -}}
 {{- $allTags = $allTags | uniq | sort -}}
-{{- $allCategories = $allCategories | uniq | sort -}}
+{{- $allLinkSections = $allLinkSections | uniq | sort -}}
 
 <div class="p-4 max-w-screen-xl mx-auto">
   {{- partial "content-header.html" . -}}
@@ -35,19 +35,20 @@
 
   {{- if $links -}}
 
+  {{- /* Internal UI links should stay relative; reserve absolute URLs for metadata only. */ -}}
   {{- /* Inline link data as JSON for Alpine.js */ -}}
   <script>
   const linkData = [
     {{- range $links -}}
     {
-      title: {{ .Title | jsonify }},
-      url: {{ .Params.url | jsonify }},
-      date: {{ .Date.Format "2006-01-02" | jsonify }},
-      dateFormatted: {{ .Date.Format "Jan 2, 2006" | jsonify }},
-      description: {{ .Params.description | default "" | jsonify }},
-      tags: {{ if .Params.tags }}{{ .Params.tags | jsonify }}{{ else }}[]{{ end }},
-      categories: {{ if .Params.categories }}{{ .Params.categories | jsonify }}{{ else }}[]{{ end }},
-      permalink: {{ .Permalink | jsonify }},
+      title: {{ .Title | jsonify | safeJS }},
+      link_url: {{ .Params.link_url | jsonify | safeJS }},
+      date: {{ .Date.Format "2006-01-02" | jsonify | safeJS }},
+      dateFormatted: {{ .Date.Format "Jan 2, 2006" | jsonify | safeJS }},
+      description: {{ .Params.description | default "" | jsonify | safeJS }},
+      tags: {{ if .Params.tags }}{{ .Params.tags | jsonify | safeJS }}{{ else }}[]{{ end }},
+      link_sections: {{ if .Params.link_sections }}{{ .Params.link_sections | jsonify | safeJS }}{{ else }}[]{{ end }},
+      permalink: {{ .RelPermalink | jsonify | safeJS }},
     },
     {{- end -}}
   ];
@@ -57,13 +58,29 @@
     x-data="{
       search: '',
       selectedTag: '',
-      selectedCategory: '',
+      selectedSection: '',
       links: linkData,
+      init() {
+        const params = new URLSearchParams(window.location.search);
+        this.search = params.get('search') || '';
+        this.selectedTag = params.get('tag') || '';
+        this.selectedSection = params.get('section') || '';
+        if (this.selectedTag && !this.availableTags.includes(this.selectedTag)) {
+          this.selectedTag = '';
+        }
+      },
+      get sectionScopedLinks() {
+        if (!this.selectedSection) return this.links;
+        return this.links.filter(link => link.link_sections.includes(this.selectedSection));
+      },
+      get availableTags() {
+        return [...new Set(this.sectionScopedLinks.flatMap(link => link.tags))].sort();
+      },
       get filteredLinks() {
         const q = this.search.toLowerCase().trim();
         return this.links.filter(link => {
           if (this.selectedTag && !link.tags.includes(this.selectedTag)) return false;
-          if (this.selectedCategory && !link.categories.includes(this.selectedCategory)) return false;
+          if (this.selectedSection && !link.link_sections.includes(this.selectedSection)) return false;
           if (q && !link.title.toLowerCase().includes(q) && !link.description.toLowerCase().includes(q)) return false;
           return true;
         });
@@ -83,32 +100,32 @@
           class="w-full px-3 py-2 border border-neutral-300 dark:border-neutral-600 rounded-md bg-white dark:bg-neutral-700 dark:text-neutral-100 text-sm"
         >
       </div>
-      {{- if $allCategories -}}
+      {{- if $allLinkSections -}}
       <div>
-        <label class="block text-xs text-neutral-500 dark:text-neutral-400 mb-1">Category</label>
-        <select x-model="selectedCategory" class="px-3 py-2 border border-neutral-300 dark:border-neutral-600 rounded-md bg-white dark:bg-neutral-700 dark:text-neutral-100 text-sm">
-          <option value="">All Categories</option>
-          {{- range $allCategories -}}
+        <label class="block text-xs text-neutral-500 dark:text-neutral-400 mb-1">Link Section</label>
+        <select x-model="selectedSection" class="px-3 py-2 border border-neutral-300 dark:border-neutral-600 rounded-md bg-white dark:bg-neutral-700 dark:text-neutral-100 text-sm">
+          <option value="">All Link Sections</option>
+          {{- range $allLinkSections -}}
           <option value="{{ . }}">{{ . | humanize | title }}</option>
           {{- end -}}
         </select>
       </div>
       {{- end -}}
       {{- if $allTags -}}
-      <div>
+      <div x-effect="if (selectedTag && !availableTags.includes(selectedTag)) selectedTag = ''">
         <label class="block text-xs text-neutral-500 dark:text-neutral-400 mb-1">Tag</label>
         <select x-model="selectedTag" class="px-3 py-2 border border-neutral-300 dark:border-neutral-600 rounded-md bg-white dark:bg-neutral-700 dark:text-neutral-100 text-sm">
           <option value="">All Tags</option>
-          {{- range $allTags -}}
-          <option value="{{ . }}">{{ . }}</option>
-          {{- end -}}
+          <template x-for="tag in availableTags" :key="tag">
+            <option :value="tag" x-text="tag"></option>
+          </template>
         </select>
       </div>
       {{- end -}}
       <div class="flex items-end">
         <button
-          @click="search = ''; selectedTag = ''; selectedCategory = ''"
-          x-show="search || selectedTag || selectedCategory"
+          @click="search = ''; selectedTag = ''; selectedSection = ''"
+          x-show="search || selectedTag || selectedSection"
           style="display:none"
           class="px-4 py-2 bg-rose-600 text-white rounded-md hover:bg-rose-700 text-sm"
         >
@@ -130,7 +147,7 @@
             <div class="flex-1 min-w-0">
               <div class="flex items-center gap-2 flex-wrap">
                 <a
-                  :href="link.url"
+                  :href="link.link_url"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="font-semibold text-rose-600 hover:text-rose-800 dark:text-rose-400 dark:hover:text-rose-200"
@@ -144,10 +161,10 @@
                   <i class="fa-regular fa-calendar mr-1"></i>
                   <span x-text="link.dateFormatted"></span>
                 </span>
-                <template x-for="cat in link.categories" :key="cat">
+                <template x-for="linkSection in link.link_sections" :key="linkSection">
                   <span
                     class="px-2 py-0.5 bg-rose-100 text-rose-700 dark:bg-rose-900 dark:text-rose-300 rounded"
-                    x-text="cat.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase())"
+                    x-text="linkSection.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase())"
                   ></span>
                 </template>
                 <template x-for="tag in link.tags" :key="tag">
@@ -168,7 +185,7 @@
       <i class="fa-solid fa-magnifying-glass text-4xl mb-4 block"></i>
       <p class="text-lg">No links match your filters.</p>
       <button
-        @click="search = ''; selectedTag = ''; selectedCategory = ''"
+        @click="search = ''; selectedTag = ''; selectedSection = ''"
         class="mt-4 text-rose-600 hover:underline text-sm"
       >Clear filters</button>
     </div>
@@ -179,11 +196,11 @@
   {{- /* Existing category pages shown as card grid */ -}}
   {{- if $categoryPages -}}
   <div class="mt-12">
-    <h2 class="text-xl font-bold mb-4 text-neutral-700 dark:text-neutral-300">Browse by Category</h2>
+    <h2 class="text-xl font-bold mb-4 text-neutral-700 dark:text-neutral-300">Browse by Link Section</h2>
     <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
       {{- range $categoryPages -}}
       <a
-        href="{{ .Permalink }}"
+        href="{{ .RelPermalink }}"
         class="p-4 border border-neutral-200 dark:border-neutral-700 rounded-lg hover:bg-neutral-50 dark:hover:bg-neutral-800 hover:border-rose-400 dark:hover:border-rose-500 transition-colors"
       >
         <span class="font-medium text-neutral-700 dark:text-neutral-300">{{ .Title }}</span>

@@ -12,18 +12,11 @@ hideAsideBar = true
 # featured_image = ""
 # homeFeatureIcon = ""
 # showTOC = true
+link_section_landing = true
 +++
 
-- [Fictive Kin Web Systems](https://fictivekin.com/websystems)
-- [Citrini Research: 2028 GIC](https://www.citriniresearch.com/p/2028gic)
-- [Mozilla State of the Internet](https://stateof.mozilla.org/)
-- [How Sequoia Capital measures product health](https://articles.sequoiacap.com/measuring-product-health)
-- [What screens want](https://frankchimero.com/blog/2013/what-screens-want/)
-- [The webs grain](https://frankchimero.com/blog/2015/the-webs-grain/)
-- [the 12 factors](https://12factor.net/). To build solid web applications start with the fundamentals
-- [The techno-optimist manifesto](https://a16z.com/the-techno-optimist-manifesto/)
-- [Steve Francia workshop slides "Product Management for everyone"](https://spf13.com/presentation/product-management-for-everyone/)
-- [Steve Yegge Portrait of n00b](https://steve-yegge.blogspot.com/2008/02/portrait-of-n00b.html?m=1)
-- [OSInt and privacy Experts](https://inteltechniques.com/index.html)
+This link section now lives in the individual link archive. Browse the filtered [Link Graveyard](/links/?section=the-web) to see every `the-web` link.
+
+Use the main [Link Graveyard](/links/) page for search, tag filters, and cross-category browsing.
 
 <!--more-->

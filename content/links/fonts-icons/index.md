@@ -12,28 +12,11 @@ hideAsideBar = true
 # featured_image = ""
 # homeFeatureIcon = ""
 # showTOC = true
+link_section_landing = true
 +++
-### fonts
 
-- [Chalkduster Font](https://font.download/)
-- [Lexend+Zetta font](https://fonts.google.com/specimen/Lexend+Zetta)
-- [Titillium Web](https://fonts.google.com/specimen/Titillium+Web?preview.text=ben%20strawbridge&preview.size=80&classification=Display&stroke=Sans+Serif)
-- [Ruda](https://fonts.google.com/specimen/Ruda?preview.text=ben%20strawbridge&preview.size=80&classification=Display&stroke=Sans+Serif)
-- [Tauri](https://fonts.google.com/specimen/Tauri?preview.text=ben%20strawbridge&preview.size=80&classification=Display&stroke=Sans+Serif)
-- [Cormorant Garamond](https://fonts.google.com/specimen/Cormorant+Garamond)
-- [Bodoni](https://fonts.google.com/specimen/Libre+Bodoni)
-  > Magazine cover font
-- [Baskerville](https://fonts.google.com/specimen/Libre+Baskerville)
-- [Inter](https://fonts.google.com/specimen/Inter)
-  > One of the original digital Fonts
-- [Roboto](https://fonts.google.com/specimen/Roboto)
+This link section now lives in the individual link archive. Browse the filtered [Link Graveyard](/links/?section=fonts-icons) to see every `fonts-icons` link.
 
-### icons
+Use the main [Link Graveyard](/links/) page for search, tag filters, and cross-category browsing.
 
-- https://www.reshot.com/free-svg-icons/
-- [fontawesome](https://fontawesome.com/search?q=moon&o=r&m=free)
-- [Themify Icons](https://themify.me/themify-icons)
-- [heroicons](https://heroicons.com/)
-- [phosphoricons](https://phosphoricons.com/)
-- [favicon generator](https://realfavicongenerator.net/)
 <!--more-->

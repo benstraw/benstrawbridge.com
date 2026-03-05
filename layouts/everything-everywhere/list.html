@@ -9,6 +9,15 @@
   {{- $pages = where $pages "Params.homeFeature" "eq" true }}
 {{ end }}
 
+{{- $visiblePages := slice -}}
+{{- range $pages -}}
+  {{- if and (eq .Section "links") (not (index .Params "link_url")) -}}
+    {{- continue -}}
+  {{- end -}}
+  {{- $visiblePages = $visiblePages | append . -}}
+{{- end -}}
+{{- $pages = $visiblePages -}}
+
 {{ if $byLength }}
   {{- $pages = $pages.ByLength.Reverse }}
 {{ end }}

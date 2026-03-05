@@ -12,30 +12,11 @@ hideAsideBar = true
 # featured_image = ""
 # homeFeatureIcon = ""
 # showTOC = true
+link_section_landing = true
 +++
 
-### Art tech services companies
+This link section now lives in the individual link archive. Browse the filtered [Link Graveyard](/links/?section=art) to see every `art` link.
 
-- [arts-link.com](https://www.arts-link.com/)
-- [format magazine](https://www.format.com/)
-- [bestand.org](https://bestand.org/)
-> ASSOCIATION FOR THE MEDIATION AND PROMOTION OF MUSIC, ART AND CULTURE
-
-
-### Portfolio sites
-
-> A changing list of artist portfolio sites I enjoy
-
-- [Noah Purifoy](https://www.noahpurifoy.com/)  
-- [Louise Strawbridge](https://www.louisestrawbridge.com/)
-- [Matthew W Harris](https://www.matthewharriscloth.co.uk/see/)
-- [Matthew Cassman](https://danielcassman.com/portfolio/)
-- [pixelfed](https://pixelfed.org/)
-- [Charlotte Strawbridge](https://www.charlottestrawbridge.co.uk/)
-- [The second version arts-link.com, circa 2002](https://web.archive.org/web/20020220112908/http://www.arts-link.com:80/)
-- [Olsson Barbieri](https://olssonbarbieri.com/studio)
-- [seungmee lee](https://www.seungmee-lee.com/)
-- [A Website is a room](https://a-website-is-a-room.net/)
-- [Walker Fine Art](https://www.walkerfineart.com/)
+Use the main [Link Graveyard](/links/) page for search, tag filters, and cross-category browsing.
 
 <!--more-->

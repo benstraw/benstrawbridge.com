@@ -12,18 +12,11 @@ draft = true
 # featured_image = ""
 # homeFeatureIcon = ""
 # showTOC = true
+link_section_landing = true
 +++
 
-### Finance
+This link section now lives in the individual link archive. Browse the filtered [Link Graveyard](/links/?section=services) to see every `services` link.
 
- - [ramp spend management](https://ramp.com/)
- 
-### Payments
-
-- [interledger](https://interledger.org/)
-
-### Ecommerce
-
-- https://headlessdropshipping.com/
+Use the main [Link Graveyard](/links/) page for search, tag filters, and cross-category browsing.
 
 <!--more-->

@@ -12,14 +12,11 @@ hideAsideBar = true
 # featured_image = ""
 # homeFeatureIcon = ""
 # showTOC = true
+link_section_landing = true
 +++
-### Email forwarding
 
-- [improvMX - free mx record forwarding for receiving email](https://improvmx.com/)
-### Newsletter platforms
+This link section now lives in the individual link archive. Browse the filtered [Link Graveyard](/links/?section=email) to see every `email` link.
 
-- [buttondown email](https://buttondown.email/)
-- [mailchimp (by intuit)](https://mailchimp.com/)
-- [ConvertKit](https://convertkit.com/)
+Use the main [Link Graveyard](/links/) page for search, tag filters, and cross-category browsing.
 
 <!--more-->

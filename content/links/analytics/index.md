@@ -12,9 +12,11 @@ hideAsideBar = true
 # featured_image = ""
 # homeFeatureIcon = ""
 # showTOC = true
+link_section_landing = true
 +++
-> Privacry first, GDPR and CCPA Compliant google analytics alternatives.
 
-- [plausible](https://plausible.io)
-- [umami](https://umami.is/features)
+This link section now lives in the individual link archive. Browse the filtered [Link Graveyard](/links/?section=analytics) to see every `analytics` link.
+
+Use the main [Link Graveyard](/links/) page for search, tag filters, and cross-category browsing.
+
 <!--more-->

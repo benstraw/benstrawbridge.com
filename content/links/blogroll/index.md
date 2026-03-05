@@ -12,11 +12,11 @@ hideAsideBar = true
 # featured_image = ""
 # homeFeatureIcon = ""
 # showTOC = true
+link_section_landing = true
 +++
-> It's back baby!
 
-- [KOLLITSCH.dev*](https://kollitsch.dev/)
-- [ShellSharks](https://shellsharks.com/)
-- [The Jolly Teapot](https://thejollyteapot.com/)
-- [Johannes Wienke Photography](https://www.johanneswienke.de/)
+This link section now lives in the individual link archive. Browse the filtered [Link Graveyard](/links/?section=blogroll) to see every `blogroll` link.
+
+Use the main [Link Graveyard](/links/) page for search, tag filters, and cross-category browsing.
+
 <!--more-->

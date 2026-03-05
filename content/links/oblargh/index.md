@@ -12,9 +12,11 @@ hideAsideBar = true
 # featured_image = ""
 # homeFeatureIcon = ""
 # showTOC = true
+link_section_landing = true
 +++
-- [Mushroom causes fairytale-like hallucinations](https://attheu.utah.edu/science-technology/mushroom-causes-fairytale-like-hallucinations/)
-- [Dangerous Roads](https://www.dangerousroads.org/)
-- [What can't everyone have a dog?](https://www.whispered.com/career/prepare-search/Company-stages)
+
+This link section now lives in the individual link archive. Browse the filtered [Link Graveyard](/links/?section=oblargh) to see every `oblargh` link.
+
+Use the main [Link Graveyard](/links/) page for search, tag filters, and cross-category browsing.
 
 <!--more-->

@@ -3,10 +3,10 @@
   {{- partial "content-header.html" . -}}
 
   <div class="mt-6 max-w-2xl">
-    {{- if .Params.url -}}
+    {{- if .Params.link_url -}}
     <div class="p-6 border border-neutral-200 dark:border-neutral-700 rounded-xl bg-white dark:bg-neutral-900 shadow-sm">
       <a
-        href="{{ .Params.url }}"
+        href="{{ .Params.link_url }}"
         target="_blank"
         rel="noopener noreferrer"
         class="inline-flex items-center gap-2 text-xl font-bold text-rose-600 hover:text-rose-800 dark:text-rose-400 dark:hover:text-rose-200 break-all"
@@ -15,7 +15,7 @@
         <i class="fa-solid fa-arrow-up-right-from-square text-base flex-shrink-0"></i>
       </a>
       <div class="mt-2 text-sm text-neutral-400 break-all">
-        <i class="fa-solid fa-link mr-1"></i>{{ .Params.url }}
+        <i class="fa-solid fa-link mr-1"></i>{{ .Params.link_url }}
       </div>
       {{- if .Params.description -}}
       <p class="mt-3 text-neutral-600 dark:text-neutral-400">{{ .Params.description }}</p>
@@ -23,17 +23,17 @@
       <div class="mt-4 text-sm text-neutral-500">
         <i class="fa-regular fa-calendar mr-2"></i>Added {{ .Date.Format "January 2, 2006" }}
       </div>
-      {{- if or .Params.categories .Params.tags -}}
+      {{- if or .Params.link_sections .Params.tags -}}
       <div class="mt-4 flex flex-wrap gap-2">
-        {{- range .Params.categories -}}
+        {{- range .Params.link_sections -}}
         <a
-          href="{{ "/categories/" | relURL }}{{ . | urlize }}/"
+          href="{{ "/links/" | relURL }}?section={{ . | urlquery }}"
           class="px-3 py-1 bg-rose-100 text-rose-700 dark:bg-rose-900 dark:text-rose-300 rounded text-sm hover:bg-rose-200 dark:hover:bg-rose-800"
         >{{ . | humanize | title }}</a>
         {{- end -}}
         {{- range .Params.tags -}}
         <a
-          href="{{ "/tags/" | relURL }}{{ . | urlize }}/"
+          href="{{ "/links/" | relURL }}?tag={{ . | urlquery }}"
           class="px-3 py-1 bg-neutral-100 text-neutral-600 dark:bg-neutral-800 dark:text-neutral-400 rounded text-sm hover:bg-neutral-200 dark:hover:bg-neutral-700"
         >#{{ . }}</a>
         {{- end -}}
