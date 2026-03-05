@@ -88,7 +88,7 @@ I specifically skipped MapLibre GL and deck.gl for this project because their pa
 
 ## Tile provider experiments
 
-A dedicated style comparison page was built to evaluate tile providers against the same route geometry. The test case was Day 1 at multi-state zoom levels where readability is difficult.
+A dedicated [style comparison page](https://rt2026.benstrawbridge.com/tilestyles) was built to evaluate tile providers against the same route geometry. The test case was Day 1 at multi-state zoom levels where readability is difficult.
 
 {{< figure src="tile-comparison-voyager-darkmatter.png" alt="Side-by-side comparison of Carto Voyager and Dark Matter tile styles" >}}
 
@@ -161,7 +161,7 @@ LTTB reduced large track series to around 480 points per profile while retaining
 
 ## Full trip map: multi-layer architecture and interaction
 
-The full overview map renders each day as its own polyline layer with a consistent theme color. This design choice was essential: day-level interactivity is impossible if everything is merged into a single polyline.
+The [full overview map](https://rt2026.benstrawbridge.com/maptrip) renders each day as its own polyline layer with a consistent theme color. This design choice was essential: day-level interactivity is impossible if everything is merged into a single polyline.
 
 Interaction model:
 
@@ -183,7 +183,7 @@ The map itself is not analytically deep, but it became the control surface for t
 
 ## Elevation page: linked map + profile system
 
-The elevation page uses a split layout: map on the left, nine profile cards on the right. This was a UX decision driven by analysis flow.
+The [elevation page](https://rt2026.benstrawbridge.com/mapelevation) uses a split layout: map on the left, nine profile cards on the right. This was a UX decision driven by analysis flow.
 
 Stacked vertical layouts force the user to scroll between geography and profile context. Side-by-side keeps both visible, which makes pattern recognition much faster.
 
@@ -214,7 +214,7 @@ This required a shared active-state system so both map layers and DOM cards coul
 
 ## Speed painting: segment-level classification
 
-The speed experiment discards day-level aggregation and classifies individual segments by estimated mph. It parses points directly and computes segment speed from distance and time delta.
+The [speed experiment](https://rt2026.benstrawbridge.com/mapexp-speed) discards day-level aggregation and classifies individual segments by estimated mph. It parses points directly and computes segment speed from distance and time delta.
 
 Speed buckets used:
 
@@ -239,7 +239,7 @@ This is one of the few experiments where a map-native representation is clearly 
 
 ## Replay experiment: performance bottleneck and fix
 
-The replay page animates trip progression point-by-point with a moving truck marker. Initial implementation rebuilt polylines every frame by removing and recreating layers.
+The [replay page](https://rt2026.benstrawbridge.com/mapexp-replay) animates trip progression point-by-point with a moving truck marker. Initial implementation rebuilt polylines every frame by removing and recreating layers.
 
 That approach failed at scale.
 
@@ -284,7 +284,7 @@ Under the hood, Map Book also supports deep-linking: selecting a day writes `?da
 
 ## Ridge plot: two bugs that changed the implementation
 
-The ridge visualization was directly inspired by Joy Division's *Unknown Pleasures* cover and its stacked waveform/ridgeline aesthetic. It looked straightforward in concept and was deceptively tricky in execution.
+The [ridge visualization](https://rt2026.benstrawbridge.com/mapridge) was directly inspired by Joy Division's *Unknown Pleasures* cover and its stacked waveform/ridgeline aesthetic. It looked straightforward in concept and was deceptively tricky in execution.
 
 ### Bug 1: row fill masking all lower rows
 
