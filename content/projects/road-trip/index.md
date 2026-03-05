@@ -14,6 +14,8 @@ tags = [
 homeFeatureIcon = "fa-solid fa-map"
 +++
 
+**[Explore the interactive maps and visualizations at rt2026.benstrawbridge.com](https://rt2026.benstrawbridge.com)**
+
 In late January and early February 2026, my dad and I drove my 2008 Toyota Tacoma from Philadelphia to Los Angeles. The trip took 9 days. The odometer read 3,753 miles at the end; the day-by-day mapped dataset sums to 3,572 miles. I started this as a journal project, but as soon as I imported the GPX tracks it became a data project: route structure, speed regimes, and elevation signatures that are hard to capture in prose alone.
 
 <!--more-->
