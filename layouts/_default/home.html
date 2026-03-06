@@ -1,0 +1,118 @@
+{{/* Override of themes/ryder/layouts/_default/home.html
+     Copied from theme commit 9578fc1.
+     Only change: inserted home-links-module partial between Featured and Latest Stuff. */}}
+{{- define "main" }}
+<div class="p-2 max-w-screen-lg mx-auto ">
+  {{- if or .Title .Content }}
+    {{- if and .Title site.Params.showHomeTitle}}
+    <h2 itemprop="headline" class="text-2xl p-3 ">
+      {{- if .Params.homeFeatureIcon }} <i class="{{ .Params.homeFeatureIcon }} mr-2 text-3xl"></i> {{- end }}
+      {{- .Title }}
+    </h2>
+    {{- end }}
+    {{- if .Content }}
+    <div itemprop="articleBody" class="articleBody max-w-xl mx-auto prose dark:prose-invert px-3 pb-4">
+      {{- .Content }}
+    </div>
+    {{- end }}
+  {{- end }}
+
+  {{/*  Set up the content loop  */}}
+  {{- $current := .Page.Permalink }}
+  {{- $pages := slice }}
+  {{- $pages = .Site.Pages }}
+  {{/*  remove the current page b/c it was displayed at the top of the page.  */}}
+  {{- $pages = where $pages "Permalink" "ne" $current }}
+
+  {{/*  Prepare feed. Do not call .Paginator before filtering because Hugo caches the first paginator.  */}}
+  {{- $showHomeFeed := site.Params.showHomeFeed | default true }}
+  {{- $paginator := false }}
+  {{- if $showHomeFeed }}
+    {{- $feed := where $pages "Params.homeFeature" "ne" true }}
+    {{- $excludedSections := site.Params.excludedSections | default slice }}
+    {{- $excludedCategories := site.Params.excludedCategories | default slice }}
+    {{- $excludedTags := site.Params.excludedTags | default slice }}
+    {{- $filteredPages := slice -}}
+    {{- range $feed.ByLastmod.Reverse }}
+      {{- $excludePage := false -}}
+      {{- range (.GetTerms "categories") }}
+        {{- if in $excludedCategories . }}
+          {{- $excludePage = true -}}
+          {{- break -}}
+        {{- end }}
+      {{- end }}
+      {{- range (.GetTerms "tags") }}
+        {{- if in $excludedTags . }}
+          {{- $excludePage = true -}}
+          {{- break -}}
+        {{- end }}
+      {{- end }}
+      {{- if $excludePage }}
+        {{- continue -}}
+      {{- end }}
+      {{- if in $excludedSections .Section }}
+        {{- continue }}
+      {{- end }}
+      {{- if and (eq .Section "links") (not (index .Params "link_url")) }}
+        {{- continue }}
+      {{- end }}
+      {{- if and (not (index .Params "link_url")) (eq .Summary "") }}
+        {{- continue }}
+      {{- end }}
+      {{- $filteredPages = $filteredPages | append . -}}
+    {{- end }}
+    {{- $sortBy := .Param "listSortBy" | default "Date" }}
+    {{- $sortOrder := .Param "listSortOrder" | default "desc" }}
+    {{- $paginator = .Paginate (sort $filteredPages $sortBy $sortOrder) }}
+  {{- end }}
+
+  {{- $pageNumber := 1 }}
+  {{- if $paginator }}
+    {{- $pageNumber = $paginator.PageNumber }}
+  {{- end }}
+
+  {{/*  Featured content loop - only show on page 1  */}}
+  {{- if eq $pageNumber 1 }}
+    {{- $features := where $pages "Params.homeFeature" "eq" true }}
+    {{- $visibleFeatures := slice -}}
+    {{- range $features -}}
+      {{- if and (eq .Section "links") (not (index .Params "link_url")) -}}
+        {{- continue -}}
+      {{- end -}}
+      {{- $visibleFeatures = $visibleFeatures | append . -}}
+    {{- end -}}
+    {{- if $visibleFeatures }}
+    {{- $featureHeader := site.Params.homePageFeatureHeader }}
+    {{- if $featureHeader }}
+      <h2 class="flex p-3 items-center mb-2 text-3xl uppercase">{{ $featureHeader }}</h2>
+    {{- end }}
+    <div class="p-2 mx-auto grid md:grid-cols-2 gap-6 mb-5">
+    {{ $homeFeatureListCardType := .Param "homeFeatureListCardType" | default "-category-color" }}
+    {{- range $visibleFeatures }}
+      {{- partial (printf "card%s.html" $homeFeatureListCardType) . -}}
+    {{- end }}
+    </div>
+    {{- end }}
+  {{- end }}
+
+  {{/*  Links module - only show on page 1  */}}
+  {{- if eq $pageNumber 1 }}
+    {{- partial "home-links-module.html" . }}
+  {{- end }}
+
+  {{/*  Home page feed loop  */}}
+  {{- if $showHomeFeed }}
+    {{- $feedHeader := default "Latest stuff" (site.Params.homePageFeedHeader) }}
+    <div class="md:grid-cols-2 p-2 mx-auto grid grid-cols-1 gap-6 mb-5">
+      <h2 class="md:col-span-2 flex my-2 items-center mb-2 text-3xl uppercase">{{ $feedHeader }}</h2>
+      {{ $homeListCardType := .Param "homeListCardType" | default "-category-color" }}
+      {{- range $paginator.Pages -}}
+        {{- partial (printf "card%s.html" $homeListCardType) . -}}
+      {{- end }}
+        <div class="md:col-span-2 flex p-3 justify-center items-center">
+          {{- template "_internal/pagination.html" . }}
+        </div>
+    </div>
+  {{- end }}
+</div>
+{{- end }}
