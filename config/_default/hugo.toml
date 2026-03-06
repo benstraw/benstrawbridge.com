@@ -5,9 +5,12 @@ languageCode = 'en-us'
 summaryLength = 100
 timeout = "60s"
 enableEmoji = true
-enableGitInfo = true  # Disabled in default/local to avoid slower builds
+enableGitInfo = false
 theme = 'ryder'
 timeZone = "America/Los_Angeles"
+[frontmatter]
+  lastmod = ["lastmod", "date"]
+  date = ["date"]
 refLinksErrorLevel = "WARNING"
 title = "Ben Strawbridge Dot Com Consulting"
 description = 'My place to work on my online projects and experiment with the web.'
