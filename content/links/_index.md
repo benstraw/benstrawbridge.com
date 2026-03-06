@@ -31,6 +31,4 @@ TocOpen = true
 
 The link graveyard is my page for remembering where I found stuff – whether it's something I learned, something cool I stumbled upon, or maybe just a friend's site.
 
-Use the filters below to browse links by category, tag, or keyword. Links are sorted newest-first. The classic category pages are listed at the bottom.
-
 <!--more-->

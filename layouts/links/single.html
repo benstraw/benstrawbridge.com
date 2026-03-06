@@ -23,14 +23,8 @@
       <div class="mt-4 text-sm text-neutral-500">
         <i class="fa-regular fa-calendar mr-2"></i>Added {{ .Date.Format "January 2, 2006" }}
       </div>
-      {{- if or .Params.link_sections .Params.tags -}}
+      {{- if .Params.tags -}}
       <div class="mt-4 flex flex-wrap gap-2">
-        {{- range .Params.link_sections -}}
-        <a
-          href="{{ "/links/" | relURL }}?section={{ . | urlquery }}"
-          class="px-3 py-1 bg-rose-100 text-rose-700 dark:bg-rose-900 dark:text-rose-300 rounded text-sm hover:bg-rose-200 dark:hover:bg-rose-800"
-        >{{ . | humanize | title }}</a>
-        {{- end -}}
         {{- range .Params.tags -}}
         <a
           href="{{ "/links/" | relURL }}?tag={{ . | urlquery }}"

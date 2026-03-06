@@ -4,7 +4,6 @@ date = 2026-02-23T22:56:50-08:00
 draft = false
 link_url = "https://stateof.mozilla.org/"
 description = ""
-link_sections = ["the-web"]
 tags = ["web"]
 legacy_source = "content/links/the-web/index.md"
 +++

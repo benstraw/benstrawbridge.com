@@ -8,13 +8,13 @@ enableEmoji = true
 enableGitInfo = false
 theme = 'ryder'
 timeZone = "America/Los_Angeles"
-[frontmatter]
-  lastmod = ["lastmod", "date"]
-  date = ["date"]
 refLinksErrorLevel = "WARNING"
 title = "Ben Strawbridge Dot Com Consulting"
 description = 'My place to work on my online projects and experiment with the web.'
 copyright = '<i class="fa-regular fa-copyright"></i>  2026 benstrawbridge.com'
+[frontmatter]
+  lastmod = ["lastmod", "date"]
+  date = ["date"]
 [params]
   description = 'Dot Com Consulting'
   TocOpen = true
@@ -23,7 +23,7 @@ copyright = '<i class="fa-regular fa-copyright"></i>  2026 benstrawbridge.com'
   # enabledebugpanel = true 
   # navbar_fixed = true
   # homepage list exclusion... 
-  excludedSections = ["fineprint", "portfolio", "goals", "consulting", "everything-everywhere"]
+  excludedSections = ["fineprint", "portfolio", "goals", "consulting", "everything-everywhere", "links"]
   excludedCategories = ["catalog"]
   showDarkToggle = true
   showShareButtons = true

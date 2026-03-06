@@ -58,11 +58,6 @@
             {{- .Title -}}
           </a>
           <i class="fa-solid fa-arrow-up-right-from-square text-xs text-neutral-400 shrink-0"></i>
-          {{- with .Params.link_sections }}
-          <span class="hidden sm:inline px-1.5 py-0.5 bg-rose-100 text-rose-700 dark:bg-rose-900 dark:text-rose-300 rounded text-xs whitespace-nowrap">
-            {{- index . 0 | humanize | title -}}
-          </span>
-          {{- end }}
           <span class="text-xs text-neutral-400 whitespace-nowrap shrink-0">{{ .Date.Format "Jan 2" }}</span>
         </div>
         {{- end }}
@@ -75,11 +70,6 @@
             {{- .Title -}}
           </a>
           <i class="fa-solid fa-arrow-up-right-from-square text-xs text-neutral-400 shrink-0"></i>
-          {{- with .Params.link_sections }}
-          <span class="hidden sm:inline px-1.5 py-0.5 bg-rose-100 text-rose-700 dark:bg-rose-900 dark:text-rose-300 rounded text-xs whitespace-nowrap">
-            {{- index . 0 | humanize | title -}}
-          </span>
-          {{- end }}
           <span class="text-xs text-neutral-400 whitespace-nowrap shrink-0">{{ .Date.Format "Jan 2" }}</span>
         </div>
         {{- end }}

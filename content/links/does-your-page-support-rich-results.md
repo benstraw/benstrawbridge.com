@@ -4,7 +4,6 @@ date = 2024-02-29T14:36:38-08:00
 draft = false
 link_url = "https://search.google.com/test/rich-results"
 description = ""
-link_sections = ["tools"]
-tags = ["developer-tools"]
+tags = ["developer-tools", "tools"]
 legacy_source = "content/links/tools/index.md"
 +++
