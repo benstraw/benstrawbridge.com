@@ -38,6 +38,15 @@ make sure you update the build to install the stuff that is needed
 npm install -D postcss-cli tailwindcss postcss autoprefixer @tailwindcss/typography
 ```
 
+### Creating Link Content
+
+```bash
+# Create a new link entry (uses links archetype)
+hugo new content links/my-link-name.md
+```
+
+Then fill in the `link_url`, `description`, and `tags` fields in the frontmatter.
+
 ### Links
 
 - https://www.markusantonwolf.com/blog/guide-for-different-ways-to-access-your-image-resources/

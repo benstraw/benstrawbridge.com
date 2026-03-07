@@ -28,6 +28,7 @@ npm install
 # Create new content (uses archetypes)
 hugo new content posts/my-post.md
 hugo new content projects/recipes/my-recipe.md
+hugo new content links/my-link-name.md
 
 # Create new recipe (uses recipe.md archetype)
 hugo new content --kind recipe projects/recipes/recipe-name.md
