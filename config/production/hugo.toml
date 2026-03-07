@@ -1,5 +1,5 @@
 theme = "ryder"
-enableGitInfo = true  # Enabled for proper lastmod-based sorting on homepage
+enableGitInfo = false
 
 [params]
   env = "production"

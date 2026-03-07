@@ -12,10 +12,11 @@ hideAsideBar = true
 # featured_image = ""
 # homeFeatureIcon = ""
 # showTOC = true
+link_section_landing = true
 +++
 
-- [axe-core](https://github.com/dequelabs/axe-core) - Axe is an accessibility testing engine for websites and other HTML-based user interfaces. 
-- [Cypress io](https://www.cypress.io/)
-- [website grader](https://website.grader.com/tests)
-- [GTMetrics website reports](https://gtmetrix.com/reports/)
+This link section now lives in the individual link archive. Browse the filtered [Link Graveyard](/links/?section=testing) to see every `testing` link.
+
+Use the main [Link Graveyard](/links/) page for search, tag filters, and cross-category browsing.
+
 <!--more-->

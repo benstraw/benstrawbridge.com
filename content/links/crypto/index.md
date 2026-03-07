@@ -12,9 +12,11 @@ hideAsideBar = true
 # featured_image = ""
 # homeFeatureIcon = ""
 # showTOC = true
+link_section_landing = true
 +++
 
-- [Aperture - Lightning Network Authentication & Paid APIs](https://docs.lightning.engineering/lightning-network-tools/aperture/get-aperture)
-- [the arkham computer](https://platform.arkhamintelligence.com/)
-- [advanced charting](https://beta.bitcoinwisdom.io/)
+This link section now lives in the individual link archive. Browse the filtered [Link Graveyard](/links/?section=crypto) to see every `crypto` link.
+
+Use the main [Link Graveyard](/links/) page for search, tag filters, and cross-category browsing.
+
 <!--more-->

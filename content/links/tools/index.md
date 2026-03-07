@@ -12,16 +12,11 @@ hideAsideBar = true
 # featured_image = ""
 # homeFeatureIcon = ""
 # showTOC = true
+link_section_landing = true
 +++
 
-- [Obsidian CLI](https://help.obsidian.md/cli)
-- [website image guide](https://www.cronyxdigital.com/blog/the-ultimate-website-image-guide)
-- [transform anything](https://transform.tools/)
-- [page speed checklist](https://pagespeedchecklist.com/)
-- [page speed insights](https://pagespeed.web.dev/)
-- [does your page support rich results?](https://search.google.com/test/rich-results)
-- [schema checker](https://search.google.com/test/rich-results)
-- [color contrast checker](https://dequeuniversity.com/color-contrast)
-- [random data generator API](https://random-data-api.com/documentation)
-- [GS Quant](https://developer.gs.com/docs/gsquant/)
+This link section now lives in the individual link archive. Browse the filtered [Link Graveyard](/links/?section=tools) to see every `tools` link.
+
+Use the main [Link Graveyard](/links/) page for search, tag filters, and cross-category browsing.
+
 <!--more-->

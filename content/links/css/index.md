@@ -12,14 +12,11 @@ hideAsideBar = true
 # featured_image = ""
 # homeFeatureIcon = ""
 # showTOC = true
+link_section_landing = true
 +++
-- [Deep dive into dev tools](https://css-tricks.com/some-cross-browser-devtools-features-you-might-not-know/)
-- [Tailwindcss docs](https://tailwindcss.com/docs/installation)
-- [Tailwindcss default color palette](https://tailwindcss.com/docs/customizing-colors)
-- [Tailwind components CSS gradient generator](https://tailwindcomponents.com/gradient-generator/)
-- [Tailwind Starter Kit](https://www.creative-tim.com/learning-lab/tailwind-starter-kit/documentation/download)
-- [How to use google fonts in tailwind css](https://hatchet.com.au/blog/how-to-use-google-fonts-in-tailwind-css/)
-- [tailwindcss bg-color gradient guide](https://blog.logrocket.com/guide-adding-gradients-tailwind-css/)
-- [CSS Default Values Reference](https://www.w3schools.com/cssref/css_default_values.php)
+
+This link section now lives in the individual link archive. Browse the filtered [Link Graveyard](/links/?section=css) to see every `css` link.
+
+Use the main [Link Graveyard](/links/) page for search, tag filters, and cross-category browsing.
 
 <!--more-->

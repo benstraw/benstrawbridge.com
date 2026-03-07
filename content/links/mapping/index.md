@@ -12,8 +12,11 @@ hideAsideBar = true
 # featured_image = ""
 # homeFeatureIcon = ""
 # showTOC = true
+link_section_landing = true
 +++
-- [postholer.com website with great examples of integrated interactive maps](https://www.postholer.com/)
-- [hugo split theme for maps with photos](https://themes.gohugo.io/themes/hugo-split-gallery/)
+
+This link section now lives in the individual link archive. Browse the filtered [Link Graveyard](/links/?section=mapping) to see every `mapping` link.
+
+Use the main [Link Graveyard](/links/) page for search, tag filters, and cross-category browsing.
 
 <!--more-->
