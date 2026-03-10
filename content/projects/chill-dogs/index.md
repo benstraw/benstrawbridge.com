@@ -1,5 +1,5 @@
 +++
-title = 'Chill Dogs'
+title = 'chill-dogs'
 date = 2026-03-09T00:00:00-08:00
 tags = [
   "astro",
@@ -10,10 +10,10 @@ tags = [
   "static-site"
 ]
 homeFeatureIcon = "fa-solid fa-dog"
-homeFeatureTitle = "Chill Dogs"
+homeFeatureTitle = "chill-dogs"
 +++
 
-[Chill Dogs](https://chill-dogs.com) is a curated product site that helps dog owners find cooling and calming gear that actually works — from summer heat relief to anxiety-friendly comfort products.
+[chill-dogs](https://chill-dogs.com) is a curated product site that helps dog owners find cooling and calming gear — from summer heat relief to anxiety-friendly comfort products.
 
 <!--more-->
 
