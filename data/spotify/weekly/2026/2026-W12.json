@@ -6,7 +6,7 @@
   "date_start": "2026-03-16",
   "date_end": "2026-03-22",
   "total_plays": 17,
-  "unique_artists": 11,
+  "unique_artists": 10,
   "topArtistName": "Miles Davis",
   "topArtistImages": [
     {
@@ -144,28 +144,6 @@
         },
         {
           "url": "https://i.scdn.co/image/ab6761610000f178f109851845669becdc5c63f6",
-          "height": 160,
-          "width": 160
-        }
-      ]
-    },
-    {
-      "slug": "spotify",
-      "name": "Spotify",
-      "plays": 2,
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5ebbb458c8a11ba55b1acd968d4",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab67616100005174bb458c8a11ba55b1acd968d4",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f178bb458c8a11ba55b1acd968d4",
           "height": 160,
           "width": 160
         }
@@ -363,12 +341,6 @@
       "plays": 1
     },
     {
-      "name": "It's Tuesday",
-      "artist": "Spotify",
-      "artist_slug": "spotify",
-      "plays": 1
-    },
-    {
       "name": "Sweet Evil",
       "artist": "Gnarls Barkley",
       "artist_slug": "gnarls-barkley",
@@ -390,12 +362,6 @@
       "name": "Jump Nyabinghi",
       "artist": "Bob Marley & The Wailers",
       "artist_slug": "bob-marley-the-wailers",
-      "plays": 1
-    },
-    {
-      "name": "It's Monday",
-      "artist": "Spotify",
-      "artist_slug": "spotify",
       "plays": 1
     },
     {

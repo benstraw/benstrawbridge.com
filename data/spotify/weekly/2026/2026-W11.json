@@ -6,7 +6,7 @@
   "date_start": "2026-03-09",
   "date_end": "2026-03-15",
   "total_plays": 104,
-  "unique_artists": 49,
+  "unique_artists": 48,
   "topArtistName": "John Prine",
   "topArtistImages": [
     {
@@ -211,28 +211,6 @@
         {
           "height": 160,
           "url": "https://i.scdn.co/image/ab6761610000f178bae8276dffd864ebac759b76",
-          "width": 160
-        }
-      ]
-    },
-    {
-      "slug": "spotify",
-      "name": "Spotify",
-      "plays": 4,
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5ebbb458c8a11ba55b1acd968d4",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab67616100005174bb458c8a11ba55b1acd968d4",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f178bb458c8a11ba55b1acd968d4",
-          "height": 160,
           "width": 160
         }
       ]
@@ -1290,12 +1268,6 @@
       "plays": 2
     },
     {
-      "name": "Up Next: News",
-      "artist": "Spotify",
-      "artist_slug": "spotify",
-      "plays": 2
-    },
-    {
       "name": "Lot Lizard",
       "artist": "Joshua Ray Walker",
       "artist_slug": "joshua-ray-walker",
@@ -1371,12 +1343,6 @@
       "name": "When the Shit Goes Down",
       "artist": "Cypress Hill",
       "artist_slug": "cypress-hill",
-      "plays": 1
-    },
-    {
-      "name": "It's Wednesday",
-      "artist": "Spotify",
-      "artist_slug": "spotify",
       "plays": 1
     },
     {
@@ -1641,12 +1607,6 @@
       "name": "Lucky You (feat. Joyner Lucas)",
       "artist": "Eminem",
       "artist_slug": "eminem",
-      "plays": 1
-    },
-    {
-      "name": "It's Tuesday",
-      "artist": "Spotify",
-      "artist_slug": "spotify",
       "plays": 1
     },
     {

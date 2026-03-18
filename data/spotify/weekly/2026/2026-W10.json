@@ -6,7 +6,7 @@
   "date_start": "2026-03-02",
   "date_end": "2026-03-08",
   "total_plays": 323,
-  "unique_artists": 108,
+  "unique_artists": 107,
   "topArtistName": "A Tribe Called Quest",
   "topArtistImages": [
     {
@@ -706,28 +706,6 @@
           "url": "https://i.scdn.co/image/33ca6ea06f6e989cf1fbcef11549a1f17eea99ef",
           "height": 75,
           "width": 64
-        }
-      ]
-    },
-    {
-      "slug": "spotify",
-      "name": "Spotify",
-      "plays": 3,
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5ebbb458c8a11ba55b1acd968d4",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab67616100005174bb458c8a11ba55b1acd968d4",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f178bb458c8a11ba55b1acd968d4",
-          "height": 160,
-          "width": 160
         }
       ]
     },
@@ -3142,12 +3120,6 @@
       "plays": 1
     },
     {
-      "name": "It's Friday",
-      "artist": "Spotify",
-      "artist_slug": "spotify",
-      "plays": 1
-    },
-    {
       "name": "What's Golden",
       "artist": "Jurassic 5",
       "artist_slug": "jurassic-5",
@@ -3394,12 +3366,6 @@
       "plays": 1
     },
     {
-      "name": "It's Thursday",
-      "artist": "Spotify",
-      "artist_slug": "spotify",
-      "plays": 1
-    },
-    {
       "name": "Miles",
       "artist": "Zach Bryan",
       "artist_slug": "zach-bryan",
@@ -3415,12 +3381,6 @@
       "name": "Here Comes The Sun - Remastered 2009",
       "artist": "The Beatles",
       "artist_slug": "the-beatles",
-      "plays": 1
-    },
-    {
-      "name": "It's Wednesday",
-      "artist": "Spotify",
-      "artist_slug": "spotify",
       "plays": 1
     },
     {

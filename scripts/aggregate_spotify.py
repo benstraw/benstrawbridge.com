@@ -100,6 +100,9 @@ def aggregate():
         print(f"ERROR: No plays directory found at {plays_dir}", file=sys.stderr)
         sys.exit(1)
 
+    # Artists to exclude entirely (Spotify filler tracks, not real artists)
+    EXCLUDED_SLUGS = {"spotify"}
+
     # artist slug → aggregated data
     artists: dict = {}
     # artist slug → {track_key → {name, spotify_url, plays}}
@@ -133,6 +136,8 @@ def aggregate():
                 if not artist_name:
                     continue
                 slug = slugify(artist_name)
+                if slug in EXCLUDED_SLUGS:
+                    continue
                 play_date = play.get("played_at", "")[:10]
 
                 # Initialise artist entry
@@ -258,6 +263,8 @@ def aggregate():
             if not snap_genres:
                 continue
             slug = slugify(item["name"])
+            if slug in EXCLUDED_SLUGS:
+                continue
             if slug not in artists:
                 entry: dict = {
                     "id": item["id"],
@@ -284,6 +291,8 @@ def aggregate():
             if not ta_genres:
                 continue
             slug = slugify(item["name"])
+            if slug in EXCLUDED_SLUGS:
+                continue
             if slug not in artists:
                 entry: dict = {
                     "id": item.get("id", ""),
