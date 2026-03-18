@@ -10,23 +10,6 @@
       "classic rock",
       "psychedelic rock"
     ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5ebe9348cc01ff5d55971b22433",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616100005174e9348cc01ff5d55971b22433",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f178e9348cc01ff5d55971b22433",
-        "height": 160,
-        "width": 160
-      }
-    ],
     "top_tracks": [
       {
         "name": "Michelle - Remastered 2009",
@@ -91,26 +74,7 @@
     "total_plays": 2,
     "first_seen": "2026-02-13",
     "last_seen": "2026-03-03",
-    "genres": [
-      "devotional"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5ebc0a4dc41d478531ff7eaed7a",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616100005174c0a4dc41d478531ff7eaed7a",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f178c0a4dc41d478531ff7eaed7a",
-        "height": 160,
-        "width": 160
-      }
-    ],
+    "genres": [],
     "top_tracks": [
       {
         "name": "Om",
@@ -136,23 +100,6 @@
     "genres": [
       "folk rock",
       "classic rock"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5eb4e5018dad07ee004f171d7d3",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab676161000051744e5018dad07ee004f171d7d3",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f1784e5018dad07ee004f171d7d3",
-        "height": 160,
-        "width": 160
-      }
     ],
     "top_tracks": [
       {
@@ -243,23 +190,6 @@
     "first_seen": "2026-02-13",
     "last_seen": "2026-03-15",
     "genres": [],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5eb0d0690ba8e1516afad52f24f",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab676161000051740d0690ba8e1516afad52f24f",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f1780d0690ba8e1516afad52f24f",
-        "height": 160,
-        "width": 160
-      }
-    ],
     "top_tracks": [
       {
         "name": "Meditation for Removing Financial Blocks (Har)",
@@ -281,23 +211,6 @@
       "folk",
       "singer-songwriter",
       "alt country"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5ebf109851845669becdc5c63f6",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616100005174f109851845669becdc5c63f6",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f178f109851845669becdc5c63f6",
-        "height": 160,
-        "width": 160
-      }
     ],
     "top_tracks": [
       {
@@ -382,11 +295,14 @@
     "first_seen": "2026-02-13",
     "last_seen": "2026-02-13",
     "genres": [
-      "americana",
-      "bluegrass",
-      "alt country",
+      "alternative country",
+      "canadian singer-songwriter",
       "folk",
-      "southern gothic"
+      "melancholia",
+      "nashville singer-songwriter",
+      "new americana",
+      "progressive bluegrass",
+      "singer-songwriter"
     ],
     "images": [
       {
@@ -823,29 +739,7 @@
     "total_plays": 2,
     "first_seen": "2026-02-13",
     "last_seen": "2026-02-26",
-    "genres": [
-      "country christian",
-      "christian bluegrass",
-      "bluegrass",
-      "classic country"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5ebb8fded421c1914dad20d2c26",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616100005174b8fded421c1914dad20d2c26",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f178b8fded421c1914dad20d2c26",
-        "height": 160,
-        "width": 160
-      }
-    ],
+    "genres": [],
     "top_tracks": [
       {
         "name": "Easy Loving - Live",
@@ -862,28 +756,7 @@
     "total_plays": 1,
     "first_seen": "2026-02-13",
     "last_seen": "2026-02-13",
-    "genres": [
-      "classic country",
-      "traditional country",
-      "honky tonk"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab67616d0000b273cdbebccbc5d57c13134792a5",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616d00001e02cdbebccbc5d57c13134792a5",
-        "height": 300,
-        "width": 300
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616d00004851cdbebccbc5d57c13134792a5",
-        "height": 64,
-        "width": 64
-      }
-    ],
+    "genres": [],
     "top_tracks": [
       {
         "name": "The Lord Knows I'm Drinking",
@@ -1108,9 +981,9 @@
     "first_seen": "2026-02-13",
     "last_seen": "2026-02-16",
     "genres": [
+      "cosmic american",
       "jam band",
-      "psychedelic rock",
-      "acid rock"
+      "psychedelic rock"
     ],
     "images": [
       {
@@ -1481,23 +1354,6 @@
     "first_seen": "2026-02-22",
     "last_seen": "2026-02-22",
     "genres": [],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5eb02e4e47e711e07e363ecc6e0",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000517402e4e47e711e07e363ecc6e0",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f17802e4e47e711e07e363ecc6e0",
-        "height": 160,
-        "width": 160
-      }
-    ],
     "top_tracks": [
       {
         "name": "HEY TONY!",
@@ -1520,26 +1376,7 @@
     "total_plays": 4,
     "first_seen": "2026-02-21",
     "last_seen": "2026-02-26",
-    "genres": [
-      "g-funk"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5eb5225e1e29d85e2d55ca1390e",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab676161000051745225e1e29d85e2d55ca1390e",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f1785225e1e29d85e2d55ca1390e",
-        "height": 160,
-        "width": 160
-      }
-    ],
+    "genres": [],
     "top_tracks": [
       {
         "name": "Livin the Thug Life",
@@ -1568,26 +1405,7 @@
     "total_plays": 7,
     "first_seen": "2026-02-16",
     "last_seen": "2026-02-17",
-    "genres": [
-      "singer-songwriter"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5ebd09c1295779cfb71683cee99",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616100005174d09c1295779cfb71683cee99",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f178d09c1295779cfb71683cee99",
-        "height": 160,
-        "width": 160
-      }
-    ],
+    "genres": [],
     "top_tracks": [
       {
         "name": "A Thousand Kisses Deep",
@@ -1635,28 +1453,33 @@
     "first_seen": "2026-02-16",
     "last_seen": "2026-02-26",
     "genres": [
+      "classic rock",
+      "folk",
       "folk rock",
-      "folk"
+      "melancholia",
+      "mellow gold",
+      "rock",
+      "soft rock"
     ],
     "images": [
       {
-        "url": "https://i.scdn.co/image/afde2fdd14f8c8ca23393f257e3a369a234a24b6",
         "height": 1241,
+        "url": "https://i.scdn.co/image/afde2fdd14f8c8ca23393f257e3a369a234a24b6",
         "width": 1000
       },
       {
-        "url": "https://i.scdn.co/image/3bffe5e67788e9e64a4f8368f1010f20c269d518",
         "height": 794,
+        "url": "https://i.scdn.co/image/3bffe5e67788e9e64a4f8368f1010f20c269d518",
         "width": 640
       },
       {
-        "url": "https://i.scdn.co/image/852145f3972cb8b6c431ca7b1c9d5bc839a8a06a",
         "height": 248,
+        "url": "https://i.scdn.co/image/852145f3972cb8b6c431ca7b1c9d5bc839a8a06a",
         "width": 200
       },
       {
-        "url": "https://i.scdn.co/image/b32f349333d0710b002b0439fc504558e46bcb07",
         "height": 79,
+        "url": "https://i.scdn.co/image/b32f349333d0710b002b0439fc504558e46bcb07",
         "width": 64
       }
     ],
@@ -1724,26 +1547,7 @@
     "total_plays": 3,
     "first_seen": "2026-02-16",
     "last_seen": "2026-02-16",
-    "genres": [
-      "soft rock"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5eb94b957255b1e4d4ddcc470ce",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000517494b957255b1e4d4ddcc470ce",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f17894b957255b1e4d4ddcc470ce",
-        "height": 160,
-        "width": 160
-      }
-    ],
+    "genres": [],
     "top_tracks": [
       {
         "name": "Beyond My Wildest Dreams",
@@ -2372,32 +2176,7 @@
     "total_plays": 3,
     "first_seen": "2026-02-16",
     "last_seen": "2026-03-03",
-    "genres": [
-      "country rock",
-      "americana",
-      "folk",
-      "alt country",
-      "bluegrass",
-      "classic country",
-      "singer-songwriter"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/41d9dddfce358cc92f8c1285ba1174c05e68af5b",
-        "height": 252,
-        "width": 338
-      },
-      {
-        "url": "https://i.scdn.co/image/4977208df13cec764b40cedb99d3c1ec16c62b15",
-        "height": 149,
-        "width": 200
-      },
-      {
-        "url": "https://i.scdn.co/image/d94dd0319fd89900c586aeed7e22b485e91b12e2",
-        "height": 48,
-        "width": 64
-      }
-    ],
+    "genres": [],
     "top_tracks": [
       {
         "name": "One of These Days",
@@ -2432,30 +2211,7 @@
     "total_plays": 1,
     "first_seen": "2026-03-01",
     "last_seen": "2026-03-01",
-    "genres": [
-      "southern gothic",
-      "americana",
-      "bluegrass",
-      "newgrass",
-      "alt country"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5ebdd96ff754c568a505cf33c5b",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616100005174dd96ff754c568a505cf33c5b",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f178dd96ff754c568a505cf33c5b",
-        "height": 160,
-        "width": 160
-      }
-    ],
+    "genres": [],
     "top_tracks": [
       {
         "name": "Country Blues",
@@ -2472,36 +2228,7 @@
     "total_plays": 2,
     "first_seen": "2026-03-01",
     "last_seen": "2026-03-01",
-    "genres": [
-      "progressive rock",
-      "psychedelic rock",
-      "art rock",
-      "jazz fusion",
-      "avant-garde",
-      "experimental"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/e1c04d8144371d6a6ac39c7f15a1c2a9f67a0c50",
-        "height": 1028,
-        "width": 1000
-      },
-      {
-        "url": "https://i.scdn.co/image/f2c74b01414e5d40b07baea7e5a2e7dd00b85c5b",
-        "height": 658,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/4b7ce8ea46a12071667f7ca393da0b509bb62af8",
-        "height": 206,
-        "width": 200
-      },
-      {
-        "url": "https://i.scdn.co/image/5476aad521baecb4a2c03ebcf67699d15a949af7",
-        "height": 66,
-        "width": 64
-      }
-    ],
+    "genres": [],
     "top_tracks": [
       {
         "name": "Peaches En Regalia",
@@ -2519,28 +2246,6 @@
     "first_seen": "2026-03-01",
     "last_seen": "2026-03-01",
     "genres": [],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/7811a1e80b838569427b817331c3687ea2c1ad96",
-        "height": 1503,
-        "width": 1000
-      },
-      {
-        "url": "https://i.scdn.co/image/c957d92249b6fa5262c6e66143ac69edbc432499",
-        "height": 962,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/20c966f1459dd665b51b8cfe364213b53e773357",
-        "height": 301,
-        "width": 200
-      },
-      {
-        "url": "https://i.scdn.co/image/b2ee518b4e154a6e2f06abff8e815ba95ba8ffef",
-        "height": 96,
-        "width": 64
-      }
-    ],
     "top_tracks": [
       {
         "name": "Funky Thithee",
@@ -2572,23 +2277,6 @@
     "genres": [
       "soul"
     ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab67616d0000b2739ed801be1a9fb100f815afb1",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616d00001e029ed801be1a9fb100f815afb1",
-        "height": 300,
-        "width": 300
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616d000048519ed801be1a9fb100f815afb1",
-        "height": 64,
-        "width": 64
-      }
-    ],
     "top_tracks": [
       {
         "name": "Hard Times",
@@ -2618,29 +2306,32 @@
     "first_seen": "2026-03-01",
     "last_seen": "2026-03-01",
     "genres": [
+      "classic soul",
       "funk",
       "funk rock",
-      "psychedelic rock"
+      "p funk",
+      "psychedelic soul",
+      "soul"
     ],
     "images": [
       {
-        "url": "https://i.scdn.co/image/dfd7b11d97bc9159e9d085c5fd925b70cd192178",
         "height": 740,
+        "url": "https://i.scdn.co/image/dfd7b11d97bc9159e9d085c5fd925b70cd192178",
         "width": 1000
       },
       {
-        "url": "https://i.scdn.co/image/62458dad056210b6511d375b8a590ac52d551d3f",
         "height": 474,
+        "url": "https://i.scdn.co/image/62458dad056210b6511d375b8a590ac52d551d3f",
         "width": 640
       },
       {
-        "url": "https://i.scdn.co/image/6aeb0becd14d0a37bb63a4885ac6dc69267f17d5",
         "height": 148,
+        "url": "https://i.scdn.co/image/6aeb0becd14d0a37bb63a4885ac6dc69267f17d5",
         "width": 200
       },
       {
-        "url": "https://i.scdn.co/image/cde417911c59c87190b352f549f76f99d8bdcb18",
         "height": 47,
+        "url": "https://i.scdn.co/image/cde417911c59c87190b352f549f76f99d8bdcb18",
         "width": 64
       }
     ],
@@ -2903,23 +2594,6 @@
       "art rock",
       "proto-punk"
     ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5eb5cf2f3f47eceb202e7166078",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab676161000051745cf2f3f47eceb202e7166078",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f1785cf2f3f47eceb202e7166078",
-        "height": 160,
-        "width": 160
-      }
-    ],
     "top_tracks": [
       {
         "name": "Vitamin C - 2004 Remastered Version",
@@ -2937,8 +2611,15 @@
     "first_seen": "2026-03-01",
     "last_seen": "2026-03-03",
     "genres": [
+      "alternative rock",
+      "art punk",
+      "dance rock",
+      "funk rock",
       "new wave",
-      "post-punk"
+      "permanent wave",
+      "post-punk",
+      "rock",
+      "zolo"
     ],
     "images": [
       {
@@ -3294,7 +2975,7 @@
     "id": "0kbYTNQb4Pb1rPbbaF0pT4",
     "name": "Miles Davis",
     "spotify_url": "https://open.spotify.com/artist/0kbYTNQb4Pb1rPbbaF0pT4",
-    "total_plays": 11,
+    "total_plays": 12,
     "first_seen": "2026-02-26",
     "last_seen": "2026-03-18",
     "genres": [
@@ -3339,7 +3020,7 @@
         "name": "In a Silent Way",
         "album": "In A Silent Way",
         "spotify_url": "https://open.spotify.com/track/54a3lHJAwce1dOKrsDPEHv",
-        "plays": 3
+        "plays": 4
       },
       {
         "name": "Red China Blues",
@@ -4040,23 +3721,6 @@
       "motown",
       "funk"
     ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5ebeea0f2f51d7969bbb4000f92",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616100005174eea0f2f51d7969bbb4000f92",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f178eea0f2f51d7969bbb4000f92",
-        "height": 160,
-        "width": 160
-      }
-    ],
     "top_tracks": [
       {
         "name": "Pusherman",
@@ -4091,27 +3755,7 @@
     "total_plays": 2,
     "first_seen": "2026-03-01",
     "last_seen": "2026-03-03",
-    "genres": [
-      "spoken word",
-      "jazz funk"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/68e093d4aec6cc8f0d00dbec6d441364c5a3b3b6",
-        "height": 404,
-        "width": 590
-      },
-      {
-        "url": "https://i.scdn.co/image/44edd73499cb003c4682b4c4374dc4488be43f1f",
-        "height": 137,
-        "width": 200
-      },
-      {
-        "url": "https://i.scdn.co/image/1ec573c4a819708f84302f3742899f649911ab35",
-        "height": 44,
-        "width": 64
-      }
-    ],
+    "genres": [],
     "top_tracks": [
       {
         "name": "The Revolution Will Not Be Televised",
@@ -4134,32 +3778,7 @@
     "total_plays": 1,
     "first_seen": "2026-03-01",
     "last_seen": "2026-03-01",
-    "genres": [
-      "jazz funk",
-      "funk"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/e8d218b73489320783ea81c3716ab8abadb0862b",
-        "height": 745,
-        "width": 853
-      },
-      {
-        "url": "https://i.scdn.co/image/7ee26bb12a0a30cc2c47a89b6a1527dc5e41ec99",
-        "height": 559,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/1494d1dfc30339835a280ef88f16bcff541adfc2",
-        "height": 175,
-        "width": 200
-      },
-      {
-        "url": "https://i.scdn.co/image/467fe6797593a2db22b2914741a5c701abfa8bc1",
-        "height": 56,
-        "width": 64
-      }
-    ],
+    "genres": [],
     "top_tracks": [
       {
         "name": "Darkest Light - Remastered",
@@ -4176,31 +3795,7 @@
     "total_plays": 1,
     "first_seen": "2026-03-01",
     "last_seen": "2026-03-01",
-    "genres": [
-      "cajun"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6772690000c46c61a6c79755b7a5e51db409f8",
-        "height": 1000,
-        "width": 1000
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6772690000dd2261a6c79755b7a5e51db409f8",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6772690000bac361a6c79755b7a5e51db409f8",
-        "height": 200,
-        "width": 200
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67726900008f7461a6c79755b7a5e51db409f8",
-        "height": 64,
-        "width": 64
-      }
-    ],
+    "genres": [],
     "top_tracks": [
       {
         "name": "Southern Nights - 2003 Remaster",
@@ -4218,24 +3813,31 @@
     "first_seen": "2026-03-01",
     "last_seen": "2026-03-01",
     "genres": [
-      "southern rock",
+      "blues rock",
+      "country rock",
+      "electric blues",
+      "folk",
+      "folk rock",
       "jam band",
-      "country rock"
+      "mellow gold",
+      "roots rock",
+      "southern rock",
+      "swamp rock"
     ],
     "images": [
       {
-        "url": "https://i.scdn.co/image/ab6761610000e5eb5fb6a968ac72e41ed40a3f9e",
         "height": 640,
+        "url": "https://i.scdn.co/image/ab6761610000e5eb3de0198740050980dbf91087",
         "width": 640
       },
       {
-        "url": "https://i.scdn.co/image/ab676161000051745fb6a968ac72e41ed40a3f9e",
         "height": 320,
+        "url": "https://i.scdn.co/image/ab676161000051743de0198740050980dbf91087",
         "width": 320
       },
       {
-        "url": "https://i.scdn.co/image/ab6761610000f1785fb6a968ac72e41ed40a3f9e",
         "height": 160,
+        "url": "https://i.scdn.co/image/ab6761610000f1783de0198740050980dbf91087",
         "width": 160
       }
     ],
@@ -4267,26 +3869,7 @@
     "total_plays": 6,
     "first_seen": "2026-03-01",
     "last_seen": "2026-03-03",
-    "genres": [
-      "rap"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5eb6e835a500e791bf9c27a422a",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab676161000051746e835a500e791bf9c27a422a",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f1786e835a500e791bf9c27a422a",
-        "height": 160,
-        "width": 160
-      }
-    ],
+    "genres": [],
     "top_tracks": [
       {
         "name": "I'll Fly Away",
@@ -4353,24 +3936,23 @@
     "last_seen": "2026-03-01",
     "genres": [
       "classical",
-      "classical piano",
-      "chamber music",
-      "orchestral"
+      "german romanticism",
+      "late romantic era"
     ],
     "images": [
       {
-        "url": "https://i.scdn.co/image/d5c6af18beb1411ab49c2976647e0d370bf66a88",
         "height": 752,
+        "url": "https://i.scdn.co/image/d5c6af18beb1411ab49c2976647e0d370bf66a88",
         "width": 514
       },
       {
-        "url": "https://i.scdn.co/image/841b4adc1a4e66906d99229aaaec26306d6aed92",
         "height": 293,
+        "url": "https://i.scdn.co/image/841b4adc1a4e66906d99229aaaec26306d6aed92",
         "width": 200
       },
       {
-        "url": "https://i.scdn.co/image/39d3c79df7fed6b4c597babaa24586d40fa44a45",
         "height": 94,
+        "url": "https://i.scdn.co/image/39d3c79df7fed6b4c597babaa24586d40fa44a45",
         "width": 64
       }
     ],
@@ -4462,23 +4044,7 @@
     "total_plays": 1,
     "first_seen": "2026-03-01",
     "last_seen": "2026-03-01",
-    "genres": [
-      "classical",
-      "baroque",
-      "classical piano"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/a7f58bb72ec822ff375bff4003b60fa781250306",
-        "height": 272,
-        "width": 200
-      },
-      {
-        "url": "https://i.scdn.co/image/8b21f12c9359c39cf0ed40ec269ee694ffade88e",
-        "height": 87,
-        "width": 64
-      }
-    ],
+    "genres": [],
     "top_tracks": [
       {
         "name": "Sonata in A Minor No. 1, Wq. 49 \" Württembergische Sonate\": II. Andante - Remastered",
@@ -4597,23 +4163,6 @@
       "classical piano",
       "concerto",
       "early music"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/a2ec08fe69ecec2748fbc764aede8f1b03ae8f88",
-        "height": 479,
-        "width": 479
-      },
-      {
-        "url": "https://i.scdn.co/image/53ec9642cf116eca56d88284c40bb1497585e28e",
-        "height": 200,
-        "width": 200
-      },
-      {
-        "url": "https://i.scdn.co/image/438b280a22e63f994fd39feb031683fb861a31cb",
-        "height": 64,
-        "width": 64
-      }
     ],
     "top_tracks": [
       {
@@ -5674,28 +5223,6 @@
       "hip hop",
       "oakland hip hop"
     ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/37ddb345143488175cef180b553253a467ec5362",
-        "height": 1000,
-        "width": 1000
-      },
-      {
-        "url": "https://i.scdn.co/image/4b0bb08b599af55d127be75a923f5629dc99c561",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/c17abb2f575908935df656f84dd76da819aad814",
-        "height": 200,
-        "width": 200
-      },
-      {
-        "url": "https://i.scdn.co/image/6130249da83481926006ffa955d14071daba3833",
-        "height": 64,
-        "width": 64
-      }
-    ],
     "top_tracks": [
       {
         "name": "Mistadobalina",
@@ -6028,23 +5555,6 @@
       "rap",
       "hip hop"
     ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5eba00b11c129b27a88fc72f36b",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616100005174a00b11c129b27a88fc72f36b",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f178a00b11c129b27a88fc72f36b",
-        "height": 160,
-        "width": 160
-      }
-    ],
     "top_tracks": [
       {
         "name": "Houdini",
@@ -6186,23 +5696,6 @@
       "east coast hip hop",
       "hip hop"
     ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5eb153198caeef9e3bda92f9285",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616100005174153198caeef9e3bda92f9285",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f178153198caeef9e3bda92f9285",
-        "height": 160,
-        "width": 160
-      }
-    ],
     "top_tracks": [
       {
         "name": "The Message",
@@ -6291,28 +5784,6 @@
       "east coast hip hop",
       "hip hop"
     ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/1b4858fbd24046a81cace5ee18d19c868262b91f",
-        "height": 1250,
-        "width": 1000
-      },
-      {
-        "url": "https://i.scdn.co/image/9bb42de208edcb69653a8e7951fa93b13f598cdd",
-        "height": 800,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/e56612ae56c9007e99ab36b83efd4faf6401260d",
-        "height": 250,
-        "width": 200
-      },
-      {
-        "url": "https://i.scdn.co/image/fc074d287739cca12a89c76fd338ff7d4aa4acee",
-        "height": 80,
-        "width": 64
-      }
-    ],
     "top_tracks": [
       {
         "name": "Machine Gun Funk - 2005 Remaster",
@@ -6389,23 +5860,6 @@
       "hip hop",
       "gangster rap",
       "hardcore hip hop"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5ebe60866298962b71792b2bf1a",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616100005174e60866298962b71792b2bf1a",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f178e60866298962b71792b2bf1a",
-        "height": 160,
-        "width": 160
-      }
     ],
     "top_tracks": [
       {
@@ -6495,28 +5949,6 @@
       "jazz rap",
       "old school hip hop"
     ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6772690000c46c4fb3d1d728a560f53532b687",
-        "height": 1000,
-        "width": 1000
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6772690000dd224fb3d1d728a560f53532b687",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6772690000bac34fb3d1d728a560f53532b687",
-        "height": 200,
-        "width": 200
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67726900008f744fb3d1d728a560f53532b687",
-        "height": 64,
-        "width": 64
-      }
-    ],
     "top_tracks": [
       {
         "name": "Respiration",
@@ -6571,23 +6003,6 @@
     "last_seen": "2026-03-11",
     "genres": [
       "hip hop"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5eb2b867caebf8d276cfed1a62d",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab676161000051742b867caebf8d276cfed1a62d",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f1782b867caebf8d276cfed1a62d",
-        "height": 160,
-        "width": 160
-      }
     ],
     "top_tracks": [
       {
@@ -6998,23 +6413,6 @@
     "first_seen": "2026-02-26",
     "last_seen": "2026-02-26",
     "genres": [],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5eba22264dfbad2d96ffc6ee2e0",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616100005174a22264dfbad2d96ffc6ee2e0",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f178a22264dfbad2d96ffc6ee2e0",
-        "height": 160,
-        "width": 160
-      }
-    ],
     "top_tracks": [
       {
         "name": "Young",
@@ -7635,26 +7033,7 @@
     "total_plays": 1,
     "first_seen": "2026-02-26",
     "last_seen": "2026-02-26",
-    "genres": [
-      "jazz"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5eb8a5f809b0901e8744ed157ce",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab676161000051748a5f809b0901e8744ed157ce",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f1788a5f809b0901e8744ed157ce",
-        "height": 160,
-        "width": 160
-      }
-    ],
+    "genres": [],
     "top_tracks": [
       {
         "name": "Mind Free",
@@ -7673,23 +7052,6 @@
     "last_seen": "2026-03-09",
     "genres": [
       "country christian"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5eb528897883c90a0b8f678c954",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616100005174528897883c90a0b8f678c954",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f178528897883c90a0b8f678c954",
-        "height": 160,
-        "width": 160
-      }
     ],
     "top_tracks": [
       {
@@ -7798,23 +7160,6 @@
     "first_seen": "2026-03-08",
     "last_seen": "2026-03-08",
     "genres": [],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5eb531e3b503ee067d9806c8b72",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616100005174531e3b503ee067d9806c8b72",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f178531e3b503ee067d9806c8b72",
-        "height": 160,
-        "width": 160
-      }
-    ],
     "top_tracks": [
       {
         "name": "Another Life",
@@ -7836,28 +7181,6 @@
       "jazz rap",
       "jazz funk"
     ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6772690000c46c6481bb1cde00b92b5ff01487",
-        "height": 1000,
-        "width": 1000
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6772690000dd226481bb1cde00b92b5ff01487",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6772690000bac36481bb1cde00b92b5ff01487",
-        "height": 200,
-        "width": 200
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67726900008f746481bb1cde00b92b5ff01487",
-        "height": 64,
-        "width": 64
-      }
-    ],
     "top_tracks": [
       {
         "name": "Cantaloop (Flip Fantasia)",
@@ -7875,23 +7198,6 @@
     "first_seen": "2026-03-08",
     "last_seen": "2026-03-11",
     "genres": [],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5eb02b986f57904bca3190d8f2b",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000517402b986f57904bca3190d8f2b",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f17802b986f57904bca3190d8f2b",
-        "height": 160,
-        "width": 160
-      }
-    ],
     "top_tracks": [
       {
         "name": "The Only One",
@@ -7957,23 +7263,6 @@
     "first_seen": "2026-03-08",
     "last_seen": "2026-03-17",
     "genres": [],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5ebbfe9d94ced31fa45bdca0222",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616100005174bfe9d94ced31fa45bdca0222",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f178bfe9d94ced31fa45bdca0222",
-        "height": 160,
-        "width": 160
-      }
-    ],
     "top_tracks": [
       {
         "name": "Sweet Evil",
@@ -8095,28 +7384,6 @@
     "genres": [
       "soul"
     ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/96b85aec6907206572527e1eeec6569d5e977a38",
-        "height": 1143,
-        "width": 834
-      },
-      {
-        "url": "https://i.scdn.co/image/71f81180fa488ceb52df664faadb1d7acf20658e",
-        "height": 877,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/7d544b8f4344ec6f206e612d0207ffeb5386b571",
-        "height": 274,
-        "width": 200
-      },
-      {
-        "url": "https://i.scdn.co/image/2ac716bdcc95f3639d6cf3cea19e2c9bde5ed509",
-        "height": 88,
-        "width": 64
-      }
-    ],
     "top_tracks": [
       {
         "name": "Use Me",
@@ -8181,28 +7448,6 @@
       "classic soul",
       "soul blues"
     ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/4ad89c805aff0fb76b01b6b62b39e21fcd8943c3",
-        "height": 751,
-        "width": 1000
-      },
-      {
-        "url": "https://i.scdn.co/image/a5897eff01844c42d894a586e618ebc4aa0b9d2f",
-        "height": 481,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/49d904a0628ef52dc280b5320bb6538b1c9e6877",
-        "height": 150,
-        "width": 200
-      },
-      {
-        "url": "https://i.scdn.co/image/7f1d2125c3968d0f631f4995ec51a76f2206ecff",
-        "height": 48,
-        "width": 64
-      }
-    ],
     "top_tracks": [
       {
         "name": "Hard to Handle",
@@ -8264,23 +7509,6 @@
     "genres": [
       "plunderphonics"
     ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5eb348fb7d638c8f86c675122e2",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616100005174348fb7d638c8f86c675122e2",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f178348fb7d638c8f86c675122e2",
-        "height": 160,
-        "width": 160
-      }
-    ],
     "top_tracks": [
       {
         "name": "Frontier Psychiatrist",
@@ -8314,23 +7542,6 @@
       "motown",
       "classic soul"
     ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5ebf12270128127ba170f90097d",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616100005174f12270128127ba170f90097d",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f178f12270128127ba170f90097d",
-        "height": 160,
-        "width": 160
-      }
-    ],
     "top_tracks": [
       {
         "name": "Rock Steady",
@@ -8349,23 +7560,6 @@
     "last_seen": "2026-03-08",
     "genres": [
       "neo-psychedelic"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5eb81fb61484553c2a921f8a8c6",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000517481fb61484553c2a921f8a8c6",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f17881fb61484553c2a921f8a8c6",
-        "height": 160,
-        "width": 160
-      }
     ],
     "top_tracks": [
       {
@@ -8387,23 +7581,6 @@
       "soul",
       "retro soul",
       "funk"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5eb5b855b0ad3f90d4addabf7f2",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab676161000051745b855b0ad3f90d4addabf7f2",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f1785b855b0ad3f90d4addabf7f2",
-        "height": 160,
-        "width": 160
-      }
     ],
     "top_tracks": [
       {
@@ -8437,23 +7614,6 @@
       "psychedelic rock",
       "classic rock",
       "acid rock"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5eb440959e022afc20e819050bd",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616100005174440959e022afc20e819050bd",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f178440959e022afc20e819050bd",
-        "height": 160,
-        "width": 160
-      }
     ],
     "top_tracks": [
       {
@@ -8489,23 +7649,6 @@
       "hardcore hip hop",
       "hip hop",
       "boom bap"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5ebd922d993d9c110580d51f724",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616100005174d922d993d9c110580d51f724",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f178d922d993d9c110580d51f724",
-        "height": 160,
-        "width": 160
-      }
     ],
     "top_tracks": [
       {
@@ -8675,23 +7818,6 @@
     "first_seen": "2026-03-04",
     "last_seen": "2026-03-06",
     "genres": [],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab67616d0000b2737cf59857d00e1d447b7ec2ea",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616d00001e02657ad2b24fc39399ea95a490",
-        "height": 300,
-        "width": 300
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616d000048517cf59857d00e1d447b7ec2ea",
-        "height": 64,
-        "width": 64
-      }
-    ],
     "top_tracks": [
       {
         "name": "Creation",
@@ -8714,23 +7840,6 @@
       "alt country",
       "red dirt",
       "country blues"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5ebe3b8a90282a972f5edabb2b2",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616100005174e3b8a90282a972f5edabb2b2",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f178e3b8a90282a972f5edabb2b2",
-        "height": 160,
-        "width": 160
-      }
     ],
     "top_tracks": [
       {
@@ -8759,28 +7868,6 @@
       "classic country",
       "country",
       "honky tonk"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/5b4c5ca6ea4b423fe62b8207127d2f18537d8846",
-        "height": 1172,
-        "width": 1000
-      },
-      {
-        "url": "https://i.scdn.co/image/4ec65dc73269d01433d6eb4e7db05128b8406981",
-        "height": 750,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/09910d38de3cc8e3c70d70ae8d360f4d637e8b63",
-        "height": 234,
-        "width": 200
-      },
-      {
-        "url": "https://i.scdn.co/image/33ca6ea06f6e989cf1fbcef11549a1f17eea99ef",
-        "height": 75,
-        "width": 64
-      }
     ],
     "top_tracks": [
       {
@@ -9201,23 +8288,6 @@
       "rap rock",
       "hip hop"
     ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5eb38df3e7ad0a284eec89ffb33",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000517438df3e7ad0a284eec89ffb33",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f17838df3e7ad0a284eec89ffb33",
-        "height": 160,
-        "width": 160
-      }
-    ],
     "top_tracks": [
       {
         "name": "When the Shit Goes Down",
@@ -9277,23 +8347,6 @@
       "old school hip hop",
       "hip hop",
       "rap"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5ebc19a88576ebe6fcbb325c297",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616100005174c19a88576ebe6fcbb325c297",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f178c19a88576ebe6fcbb325c297",
-        "height": 160,
-        "width": 160
-      }
     ],
     "top_tracks": [
       {
@@ -9382,23 +8435,6 @@
       "jazz rap",
       "neo soul"
     ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5eb6354c88f58d8a99b91e0d965",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab676161000051746354c88f58d8a99b91e0d965",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f1786354c88f58d8a99b91e0d965",
-        "height": 160,
-        "width": 160
-      }
-    ],
     "top_tracks": [
       {
         "name": "The Light",
@@ -9460,23 +8496,6 @@
     "genres": [
       "east coast hip hop"
     ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5eb7b31aba081ef084510cde4e3",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab676161000051747b31aba081ef084510cde4e3",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f1787b31aba081ef084510cde4e3",
-        "height": 160,
-        "width": 160
-      }
-    ],
     "top_tracks": [
       {
         "name": "Gimme Some More",
@@ -9518,28 +8537,6 @@
       "west coast hip hop",
       "hip hop",
       "rap"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6772690000c46c250b3af4b06e1fcf538d398b",
-        "height": 1000,
-        "width": 1000
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6772690000dd22250b3af4b06e1fcf538d398b",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6772690000bac3250b3af4b06e1fcf538d398b",
-        "height": 200,
-        "width": 200
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67726900008f74250b3af4b06e1fcf538d398b",
-        "height": 64,
-        "width": 64
-      }
     ],
     "top_tracks": [
       {
@@ -9587,23 +8584,6 @@
       "hip hop",
       "boom bap"
     ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5eb808e85831b545cca75e179ab",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616100005174808e85831b545cca75e179ab",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f178808e85831b545cca75e179ab",
-        "height": 160,
-        "width": 160
-      }
-    ],
     "top_tracks": [
       {
         "name": "Liquid Swords",
@@ -9631,23 +8611,6 @@
       "east coast hip hop",
       "hip hop",
       "hardcore hip hop"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5ebbec3cbe75ac982c675655e88",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616100005174bec3cbe75ac982c675655e88",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f178bec3cbe75ac982c675655e88",
-        "height": 160,
-        "width": 160
-      }
     ],
     "top_tracks": [
       {
@@ -9792,23 +8755,6 @@
     "first_seen": "2026-03-06",
     "last_seen": "2026-03-06",
     "genres": [],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5eb3f9b6ba687bc60385c7c34b5",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab676161000051743f9b6ba687bc60385c7c34b5",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f1783f9b6ba687bc60385c7c34b5",
-        "height": 160,
-        "width": 160
-      }
-    ],
     "top_tracks": [
       {
         "name": "abcdefu (angrier)",
@@ -9829,23 +8775,6 @@
       "country",
       "red dirt"
     ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5ebc742fbc057bdbc64834a6cdc",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616100005174c742fbc057bdbc64834a6cdc",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f178c742fbc057bdbc64834a6cdc",
-        "height": 160,
-        "width": 160
-      }
-    ],
     "top_tracks": [
       {
         "name": "Miles",
@@ -9865,28 +8794,6 @@
     "genres": [
       "folk rock",
       "country rock"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/b701ba75981d0b9aeef036b9fab4e3c96609e364",
-        "height": 1000,
-        "width": 1000
-      },
-      {
-        "url": "https://i.scdn.co/image/52e254506bdba02418c836d1272f8de58933d7c6",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/f4ea5031036120db540cf8efdf24a8bace04f475",
-        "height": 200,
-        "width": 200
-      },
-      {
-        "url": "https://i.scdn.co/image/a42b8b61115ab656d136976e32cc1b67448aae60",
-        "height": 64,
-        "width": 64
-      }
     ],
     "top_tracks": [
       {
@@ -9928,23 +8835,6 @@
       "classic rock",
       "art rock",
       "rock"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5eb97885ce689d644c91dfba05c",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000517497885ce689d644c91dfba05c",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f17897885ce689d644c91dfba05c",
-        "height": 160,
-        "width": 160
-      }
     ],
     "top_tracks": [
       {
@@ -11030,23 +9920,6 @@
     "genres": [
       "east coast hip hop"
     ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab67616d0000b273bcb142272cf0b0033b88e5bb",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616d00001e02bcb142272cf0b0033b88e5bb",
-        "height": 300,
-        "width": 300
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616d00004851bcb142272cf0b0033b88e5bb",
-        "height": 64,
-        "width": 64
-      }
-    ],
     "top_tracks": [
       {
         "name": "Get Money",
@@ -11064,23 +9937,6 @@
     "first_seen": "2026-03-03",
     "last_seen": "2026-03-04",
     "genres": [],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab67616d0000b273b6468146ac875d16f3df40a7",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616d00001e02b6468146ac875d16f3df40a7",
-        "height": 300,
-        "width": 300
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616d00004851b6468146ac875d16f3df40a7",
-        "height": 64,
-        "width": 64
-      }
-    ],
     "top_tracks": [
       {
         "name": "Songs of Disappearance",
@@ -11158,23 +10014,6 @@
     "first_seen": "2026-03-04",
     "last_seen": "2026-03-04",
     "genres": [],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5ebbbfa796484d4fdc57cefd2d1",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616100005174bbfa796484d4fdc57cefd2d1",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f178bbfa796484d4fdc57cefd2d1",
-        "height": 160,
-        "width": 160
-      }
-    ],
     "top_tracks": [
       {
         "name": "Santa Anas",
@@ -11198,23 +10037,6 @@
     "first_seen": "2026-03-04",
     "last_seen": "2026-03-04",
     "genres": [],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab67616d0000b273a4d8f72608e3652413aa77cc",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616d00001e02a4d8f72608e3652413aa77cc",
-        "height": 300,
-        "width": 300
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616d00004851a4d8f72608e3652413aa77cc",
-        "height": 64,
-        "width": 64
-      }
-    ],
     "top_tracks": [
       {
         "name": "Alfred Hitchcock Presents",
@@ -11232,23 +10054,6 @@
     "first_seen": "2026-03-04",
     "last_seen": "2026-03-04",
     "genres": [],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5ebde60b08f940ddb3430300da2",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616100005174de60b08f940ddb3430300da2",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f178de60b08f940ddb3430300da2",
-        "height": 160,
-        "width": 160
-      }
-    ],
     "top_tracks": [
       {
         "name": "Bayragi 1",
@@ -11266,23 +10071,23 @@
     "first_seen": "2026-03-04",
     "last_seen": "2026-03-04",
     "genres": [
-      "east coast hip hop",
-      "old school hip hop"
+      "hardcore hip hop",
+      "hip hop"
     ],
     "images": [
       {
-        "url": "https://i.scdn.co/image/ab6761610000e5ebbefe81411481dc554cb3aa74",
         "height": 640,
+        "url": "https://i.scdn.co/image/ab6761610000e5ebbefe81411481dc554cb3aa74",
         "width": 640
       },
       {
-        "url": "https://i.scdn.co/image/ab67616100005174befe81411481dc554cb3aa74",
         "height": 320,
+        "url": "https://i.scdn.co/image/ab67616100005174befe81411481dc554cb3aa74",
         "width": 320
       },
       {
-        "url": "https://i.scdn.co/image/ab6761610000f178befe81411481dc554cb3aa74",
         "height": 160,
+        "url": "https://i.scdn.co/image/ab6761610000f178befe81411481dc554cb3aa74",
         "width": 160
       }
     ],
@@ -11314,30 +10119,7 @@
     "total_plays": 1,
     "first_seen": "2026-03-03",
     "last_seen": "2026-03-03",
-    "genres": [
-      "reggae",
-      "roots reggae",
-      "ragga",
-      "rocksteady",
-      "dub"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5eb7b0863ab8d24bc7c167e572a",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab676161000051747b0863ab8d24bc7c167e572a",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f1787b0863ab8d24bc7c167e572a",
-        "height": 160,
-        "width": 160
-      }
-    ],
+    "genres": [],
     "top_tracks": [
       {
         "name": "Steppin' Out",
@@ -11373,18 +10155,18 @@
     ],
     "images": [
       {
-        "url": "https://i.scdn.co/image/ab6761610000e5eb2c8adcc618320814f0c551ec",
         "height": 640,
+        "url": "https://i.scdn.co/image/ab6761610000e5eb2c8adcc618320814f0c551ec",
         "width": 640
       },
       {
-        "url": "https://i.scdn.co/image/ab676161000051742c8adcc618320814f0c551ec",
         "height": 320,
+        "url": "https://i.scdn.co/image/ab676161000051742c8adcc618320814f0c551ec",
         "width": 320
       },
       {
-        "url": "https://i.scdn.co/image/ab6761610000f1782c8adcc618320814f0c551ec",
         "height": 160,
+        "url": "https://i.scdn.co/image/ab6761610000f1782c8adcc618320814f0c551ec",
         "width": 160
       }
     ],
@@ -11699,28 +10481,34 @@
     "first_seen": "2026-03-03",
     "last_seen": "2026-03-03",
     "genres": [
-      "yacht rock",
-      "classic rock"
+      "album rock",
+      "classic rock",
+      "country rock",
+      "folk rock",
+      "mellow gold",
+      "rock",
+      "soft rock",
+      "yacht rock"
     ],
     "images": [
       {
-        "url": "https://i.scdn.co/image/9d01e4e9aac39b891d684d3d1a5b3a451d7c72bd",
         "height": 1242,
+        "url": "https://i.scdn.co/image/9d01e4e9aac39b891d684d3d1a5b3a451d7c72bd",
         "width": 1000
       },
       {
-        "url": "https://i.scdn.co/image/067bf3caa525edb4e97e19b2a630ccf361897350",
         "height": 795,
+        "url": "https://i.scdn.co/image/067bf3caa525edb4e97e19b2a630ccf361897350",
         "width": 640
       },
       {
-        "url": "https://i.scdn.co/image/c930cc3599a165211fa20c3ec0d70d1a3cbe4778",
         "height": 248,
+        "url": "https://i.scdn.co/image/c930cc3599a165211fa20c3ec0d70d1a3cbe4778",
         "width": 200
       },
       {
-        "url": "https://i.scdn.co/image/85996811ba349faa5a467296baee6c7cd7518476",
         "height": 79,
+        "url": "https://i.scdn.co/image/85996811ba349faa5a467296baee6c7cd7518476",
         "width": 64
       }
     ],
@@ -11776,27 +10564,7 @@
     "total_plays": 1,
     "first_seen": "2026-03-03",
     "last_seen": "2026-03-03",
-    "genres": [
-      "rap",
-      "hip hop"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5eb998010cd1075921b5faf16b2",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616100005174998010cd1075921b5faf16b2",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f178998010cd1075921b5faf16b2",
-        "height": 160,
-        "width": 160
-      }
-    ],
+    "genres": [],
     "top_tracks": [
       {
         "name": "Gunwalk",
@@ -11819,31 +10587,7 @@
     "total_plays": 1,
     "first_seen": "2026-03-03",
     "last_seen": "2026-03-03",
-    "genres": [
-      "americana",
-      "folk",
-      "outlaw country",
-      "alt country",
-      "singer-songwriter",
-      "southern gothic"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5eb4cf1d6f98f7f63b344337db2",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab676161000051744cf1d6f98f7f63b344337db2",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f1784cf1d6f98f7f63b344337db2",
-        "height": 160,
-        "width": 160
-      }
-    ],
+    "genres": [],
     "top_tracks": [
       {
         "name": "I'll Be Here in the Morning",
@@ -11860,26 +10604,7 @@
     "total_plays": 1,
     "first_seen": "2026-03-03",
     "last_seen": "2026-03-03",
-    "genres": [
-      "spoken word"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5ebf2c9de1507ce32cee4b85386",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616100005174f2c9de1507ce32cee4b85386",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f178f2c9de1507ce32cee4b85386",
-        "height": 160,
-        "width": 160
-      }
-    ],
+    "genres": [],
     "top_tracks": [
       {
         "name": "What You Say",
@@ -11897,23 +10622,6 @@
     "first_seen": "2026-03-03",
     "last_seen": "2026-03-03",
     "genres": [],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5eb5cd540c49c6a718961e72340",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab676161000051745cd540c49c6a718961e72340",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f1785cd540c49c6a718961e72340",
-        "height": 160,
-        "width": 160
-      }
-    ],
     "top_tracks": [
       {
         "name": "Icaro del Silbido (Whistling Icaro)",
@@ -11931,8 +10639,9 @@
     "first_seen": "2026-03-03",
     "last_seen": "2026-03-03",
     "genres": [
+      "bebop",
       "jazz",
-      "cool jazz"
+      "jazz quartet"
     ],
     "images": [
       {
@@ -12219,23 +10928,6 @@
     "first_seen": "2026-03-03",
     "last_seen": "2026-03-03",
     "genres": [],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5eb74a4ef35e7b5e10a9672f2eb",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000517474a4ef35e7b5e10a9672f2eb",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f17874a4ef35e7b5e10a9672f2eb",
-        "height": 160,
-        "width": 160
-      }
-    ],
     "top_tracks": [
       {
         "name": "Lakota",
@@ -12254,27 +10946,28 @@
     "last_seen": "2026-03-03",
     "genres": [
       "classical",
-      "classical piano"
+      "late romantic era",
+      "norwegian classical"
     ],
     "images": [
       {
-        "url": "https://i.scdn.co/image/a5dc4df4f87b534afc7b21116bc7680492210656",
         "height": 1000,
+        "url": "https://i.scdn.co/image/a5dc4df4f87b534afc7b21116bc7680492210656",
         "width": 1000
       },
       {
-        "url": "https://i.scdn.co/image/d9d8fdedfd9e68b36e0028d9997f6a9065c09481",
         "height": 640,
+        "url": "https://i.scdn.co/image/d9d8fdedfd9e68b36e0028d9997f6a9065c09481",
         "width": 640
       },
       {
-        "url": "https://i.scdn.co/image/9dc1d187b3c797c0f36258faacbc1e723e7c2858",
         "height": 315,
+        "url": "https://i.scdn.co/image/9dc1d187b3c797c0f36258faacbc1e723e7c2858",
         "width": 200
       },
       {
-        "url": "https://i.scdn.co/image/3a1c45a348e4f7115f10f2df6d553e2203882722",
         "height": 101,
+        "url": "https://i.scdn.co/image/3a1c45a348e4f7115f10f2df6d553e2203882722",
         "width": 64
       }
     ],
@@ -12402,31 +11095,7 @@
     "total_plays": 2,
     "first_seen": "2026-03-03",
     "last_seen": "2026-03-03",
-    "genres": [
-      "celtic"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/40fbc318227dbfdf897721ee0604d066554aac24",
-        "height": 731,
-        "width": 1000
-      },
-      {
-        "url": "https://i.scdn.co/image/b944ab38416906d9a5a9730bb6edc00d404d2bea",
-        "height": 468,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/40354e32f8f5e5518fa938eb18b2fd521089a797",
-        "height": 146,
-        "width": 200
-      },
-      {
-        "url": "https://i.scdn.co/image/c46e7107db925315541e4dfffec74819bf417136",
-        "height": 47,
-        "width": 64
-      }
-    ],
+    "genres": [],
     "top_tracks": [
       {
         "name": "Amazing Grace",
@@ -12449,35 +11118,7 @@
     "total_plays": 1,
     "first_seen": "2026-03-03",
     "last_seen": "2026-03-03",
-    "genres": [
-      "plunderphonics",
-      "spoken word",
-      "experimental",
-      "avant-garde",
-      "musique concrète"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6772690000c46c7f351f815797b68f002cc037",
-        "height": 1000,
-        "width": 1000
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6772690000dd227f351f815797b68f002cc037",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6772690000bac37f351f815797b68f002cc037",
-        "height": 200,
-        "width": 200
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67726900008f747f351f815797b68f002cc037",
-        "height": 64,
-        "width": 64
-      }
-    ],
+    "genres": [],
     "top_tracks": [
       {
         "name": "Endscape",
@@ -12501,23 +11142,6 @@
     "first_seen": "2026-03-03",
     "last_seen": "2026-03-03",
     "genres": [],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab67616d0000b273b187a7b6ca261c71ccf8dcc3",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616d00001e02b187a7b6ca261c71ccf8dcc3",
-        "height": 300,
-        "width": 300
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616d00004851b187a7b6ca261c71ccf8dcc3",
-        "height": 64,
-        "width": 64
-      }
-    ],
     "top_tracks": [
       {
         "name": "Blessing",
@@ -12534,36 +11158,7 @@
     "total_plays": 1,
     "first_seen": "2026-03-03",
     "last_seen": "2026-03-03",
-    "genres": [
-      "classical",
-      "neoclassical",
-      "expressionism",
-      "ballet",
-      "orchestral",
-      "impressionism"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6772690000c46c455eacd26b14e75fcbe9a2fb",
-        "height": 1000,
-        "width": 1000
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6772690000dd22455eacd26b14e75fcbe9a2fb",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6772690000bac3455eacd26b14e75fcbe9a2fb",
-        "height": 200,
-        "width": 200
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67726900008f74455eacd26b14e75fcbe9a2fb",
-        "height": 64,
-        "width": 64
-      }
-    ],
+    "genres": [],
     "top_tracks": [
       {
         "name": "The Rite of Spring (Scenes of Pagan Russia in Two Parts): Part One - Adoration of the Earth. Introduction. Lento (1921 Version)",
@@ -12712,28 +11307,7 @@
     "total_plays": 1,
     "first_seen": "2026-03-03",
     "last_seen": "2026-03-03",
-    "genres": [
-      "indie rock",
-      "indie",
-      "alternative rock"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5eb427980f0533109de79ee0a05",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616100005174427980f0533109de79ee0a05",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f178427980f0533109de79ee0a05",
-        "height": 160,
-        "width": 160
-      }
-    ],
+    "genres": [],
     "top_tracks": [
       {
         "name": "Float On",
@@ -12751,23 +11325,6 @@
     "first_seen": "2026-03-03",
     "last_seen": "2026-03-03",
     "genres": [],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5ebee12e6771607433caee705a3",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616100005174ee12e6771607433caee705a3",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f178ee12e6771607433caee705a3",
-        "height": 160,
-        "width": 160
-      }
-    ],
     "top_tracks": [
       {
         "name": "Bobby Bitch",
@@ -12790,26 +11347,7 @@
     "total_plays": 1,
     "first_seen": "2026-03-03",
     "last_seen": "2026-03-03",
-    "genres": [
-      "brazilian jazz"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5eb59ec00eeab754ca262bbcd9f",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000517459ec00eeab754ca262bbcd9f",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f17859ec00eeab754ca262bbcd9f",
-        "height": 160,
-        "width": 160
-      }
-    ],
+    "genres": [],
     "top_tracks": [
       {
         "name": "Ilha da Luz",
@@ -12827,23 +11365,6 @@
     "first_seen": "2026-03-03",
     "last_seen": "2026-03-03",
     "genres": [],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab67616d0000b2735cae4d353ae3aad3a06802cb",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616d00001e025cae4d353ae3aad3a06802cb",
-        "height": 300,
-        "width": 300
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616d000048515cae4d353ae3aad3a06802cb",
-        "height": 64,
-        "width": 64
-      }
-    ],
     "top_tracks": [
       {
         "name": "Untitled",
@@ -12860,27 +11381,7 @@
     "total_plays": 1,
     "first_seen": "2026-03-03",
     "last_seen": "2026-03-03",
-    "genres": [
-      "country",
-      "country rock"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5ebadb491eaa6cf3f9c95790e42",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616100005174adb491eaa6cf3f9c95790e42",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f178adb491eaa6cf3f9c95790e42",
-        "height": 160,
-        "width": 160
-      }
-    ],
+    "genres": [],
     "top_tracks": [
       {
         "name": "Younger Me",
@@ -12904,23 +11405,6 @@
     "first_seen": "2026-03-03",
     "last_seen": "2026-03-03",
     "genres": [],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5eb2a2ced96a8df71b0dca06a19",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab676161000051742a2ced96a8df71b0dca06a19",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f1782a2ced96a8df71b0dca06a19",
-        "height": 160,
-        "width": 160
-      }
-    ],
     "top_tracks": [
       {
         "name": "Stop Making This Hurt",
@@ -12937,28 +11421,7 @@
     "total_plays": 1,
     "first_seen": "2026-03-03",
     "last_seen": "2026-03-03",
-    "genres": [
-      "ambient jazz",
-      "indie jazz",
-      "experimental jazz"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5eb33331998b6facb1b2e44e781",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000517433331998b6facb1b2e44e781",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f17833331998b6facb1b2e44e781",
-        "height": 160,
-        "width": 160
-      }
-    ],
+    "genres": [],
     "top_tracks": [
       {
         "name": "Black meditation",
@@ -12975,26 +11438,7 @@
     "total_plays": 1,
     "first_seen": "2026-03-03",
     "last_seen": "2026-03-03",
-    "genres": [
-      "classic rock"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5eb3ce1e2a99cffc7c662938b01",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab676161000051743ce1e2a99cffc7c662938b01",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f1783ce1e2a99cffc7c662938b01",
-        "height": 160,
-        "width": 160
-      }
-    ],
+    "genres": [],
     "top_tracks": [
       {
         "name": "Don't Let Me Be Misunderstood",
@@ -13023,27 +11467,7 @@
     "total_plays": 1,
     "first_seen": "2026-03-03",
     "last_seen": "2026-03-03",
-    "genres": [
-      "old school hip hop",
-      "east coast hip hop"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5eb62e114bb9cc9dc8f85aa6f53",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000517462e114bb9cc9dc8f85aa6f53",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f17862e114bb9cc9dc8f85aa6f53",
-        "height": 160,
-        "width": 160
-      }
-    ],
+    "genres": [],
     "top_tracks": [
       {
         "name": "Children's Story",
@@ -13060,26 +11484,7 @@
     "total_plays": 2,
     "first_seen": "2026-03-03",
     "last_seen": "2026-03-03",
-    "genres": [
-      "musicals"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab67616d0000b273faf0b73672565b1ed2c3542c",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616d00001e02a8022560c280216f299e2622",
-        "height": 300,
-        "width": 300
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616d00004851a8022560c280216f299e2622",
-        "height": 64,
-        "width": 64
-      }
-    ],
+    "genres": [],
     "top_tracks": [
       {
         "name": "Historian's Introduction to Act II - From \"Spamalot\" Original Broadway Cast Recording",
@@ -13102,32 +11507,7 @@
     "total_plays": 1,
     "first_seen": "2026-03-03",
     "last_seen": "2026-03-03",
-    "genres": [
-      "old school hip hop",
-      "east coast hip hop"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/dd031b9c5d1b6eba4a691cd89c954255aae787f2",
-        "height": 977,
-        "width": 781
-      },
-      {
-        "url": "https://i.scdn.co/image/6f0da41419b31d9d2ba55d2df212f59ad0668118",
-        "height": 801,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/df73c0cebe56cafe705ffdba5085ccbd5680bd16",
-        "height": 250,
-        "width": 200
-      },
-      {
-        "url": "https://i.scdn.co/image/1a44043542c997ef835c89e185f0cf79d7402153",
-        "height": 80,
-        "width": 64
-      }
-    ],
+    "genres": [],
     "top_tracks": [
       {
         "name": "We Up",
@@ -13151,23 +11531,6 @@
     "first_seen": "2026-03-03",
     "last_seen": "2026-03-03",
     "genres": [],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab67616d0000b2735f870ba3f2071b4b6d8ea899",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616d00001e02c82b0a5e8c8360ba35ef2f6e",
-        "height": 300,
-        "width": 300
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616d00004851a9c29cb467a2e0a2a8055e25",
-        "height": 64,
-        "width": 64
-      }
-    ],
     "top_tracks": [
       {
         "name": "Gypsy: Everything's Coming Up Roses",
@@ -13185,23 +11548,6 @@
     "first_seen": "2026-03-03",
     "last_seen": "2026-03-03",
     "genres": [],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5eb3fc9e8c5cdce8f902069ae50",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab676161000051743fc9e8c5cdce8f902069ae50",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f1783fc9e8c5cdce8f902069ae50",
-        "height": 160,
-        "width": 160
-      }
-    ],
     "top_tracks": [
       {
         "name": "Erde - Gnome",
@@ -13219,28 +11565,6 @@
     "first_seen": "2026-03-03",
     "last_seen": "2026-03-03",
     "genres": [],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/da0230fee43c37b98acfa16c0c32ecc14dcdc1ad",
-        "height": 1146,
-        "width": 1000
-      },
-      {
-        "url": "https://i.scdn.co/image/0da68f7ff014e93c58b59f0a852e8ff1db29314d",
-        "height": 733,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/fec09231cd8aa3719083cddfdc7c63158e429f15",
-        "height": 229,
-        "width": 200
-      },
-      {
-        "url": "https://i.scdn.co/image/9f10bb6186fbf3abd3d19e7732a909017fc06618",
-        "height": 73,
-        "width": 64
-      }
-    ],
     "top_tracks": [
       {
         "name": "I Wish",
@@ -13257,28 +11581,7 @@
     "total_plays": 1,
     "first_seen": "2026-03-03",
     "last_seen": "2026-03-03",
-    "genres": [
-      "samba",
-      "brazilian jazz",
-      "bossa nova"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab67616d0000b27343f24970fcc374daa0c35dcd",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616d00001e0243f24970fcc374daa0c35dcd",
-        "height": 300,
-        "width": 300
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616d0000485143f24970fcc374daa0c35dcd",
-        "height": 64,
-        "width": 64
-      }
-    ],
+    "genres": [],
     "top_tracks": [
       {
         "name": "Swinga Sambaby",
@@ -13307,18 +11610,18 @@
     ],
     "images": [
       {
-        "url": "https://i.scdn.co/image/ab6761610000e5eb449bb7c30ee9b59e79a89f99",
         "height": 640,
+        "url": "https://i.scdn.co/image/ab6761610000e5eb449bb7c30ee9b59e79a89f99",
         "width": 640
       },
       {
-        "url": "https://i.scdn.co/image/ab67616100005174449bb7c30ee9b59e79a89f99",
         "height": 320,
+        "url": "https://i.scdn.co/image/ab67616100005174449bb7c30ee9b59e79a89f99",
         "width": 320
       },
       {
-        "url": "https://i.scdn.co/image/ab6761610000f178449bb7c30ee9b59e79a89f99",
         "height": 160,
+        "url": "https://i.scdn.co/image/ab6761610000f178449bb7c30ee9b59e79a89f99",
         "width": 160
       }
     ],
@@ -13350,35 +11653,7 @@
     "total_plays": 1,
     "first_seen": "2026-03-03",
     "last_seen": "2026-03-03",
-    "genres": [
-      "jazz",
-      "cool jazz",
-      "jazz ballads",
-      "bebop",
-      "hard bop"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6772690000c46c3b629f4118d018321c44f88f",
-        "height": 1000,
-        "width": 1000
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6772690000dd223b629f4118d018321c44f88f",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6772690000bac33b629f4118d018321c44f88f",
-        "height": 200,
-        "width": 200
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67726900008f743b629f4118d018321c44f88f",
-        "height": 64,
-        "width": 64
-      }
-    ],
+    "genres": [],
     "top_tracks": [
       {
         "name": "Gary's Theme - Remastered 2003",
@@ -13420,25 +11695,29 @@
     "first_seen": "2026-03-03",
     "last_seen": "2026-03-03",
     "genres": [
-      "psychedelic rock",
-      "classic rock",
       "acid rock",
-      "blues rock"
+      "album rock",
+      "alternative rock",
+      "classic rock",
+      "hard rock",
+      "proto-metal",
+      "psychedelic rock",
+      "rock"
     ],
     "images": [
       {
-        "url": "https://i.scdn.co/image/ab6761610000e5eb90c8b988fa6e6b40e0d0bf81",
         "height": 640,
+        "url": "https://i.scdn.co/image/ab6761610000e5eb31f6ab67e6025de876475814",
         "width": 640
       },
       {
-        "url": "https://i.scdn.co/image/ab6761610000517490c8b988fa6e6b40e0d0bf81",
         "height": 320,
+        "url": "https://i.scdn.co/image/ab6761610000517431f6ab67e6025de876475814",
         "width": 320
       },
       {
-        "url": "https://i.scdn.co/image/ab6761610000f17890c8b988fa6e6b40e0d0bf81",
         "height": 160,
+        "url": "https://i.scdn.co/image/ab6761610000f17831f6ab67e6025de876475814",
         "width": 160
       }
     ],
@@ -13485,23 +11764,6 @@
     "genres": [
       "gnawa"
     ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5eba0396e7e39f87667eddf75b9",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616100005174a0396e7e39f87667eddf75b9",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f178a0396e7e39f87667eddf75b9",
-        "height": 160,
-        "width": 160
-      }
-    ],
     "top_tracks": [
       {
         "name": "Make Me Down A Pallet On Your Floor",
@@ -13518,27 +11780,7 @@
     "total_plays": 1,
     "first_seen": "2026-03-03",
     "last_seen": "2026-03-03",
-    "genres": [
-      "glam rock",
-      "art rock"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5ebb78f77c5583ae99472dd4a49",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616100005174b78f77c5583ae99472dd4a49",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f178b78f77c5583ae99472dd4a49",
-        "height": 160,
-        "width": 160
-      }
-    ],
+    "genres": [],
     "top_tracks": [
       {
         "name": "Fame - 2016 Remaster",
@@ -13561,30 +11803,7 @@
     "total_plays": 1,
     "first_seen": "2026-03-03",
     "last_seen": "2026-03-03",
-    "genres": [
-      "east coast hip hop",
-      "old school hip hop",
-      "hardcore hip hop",
-      "boom bap",
-      "hip hop"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5eba4f78bbc847304a2bc118e10",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616100005174a4f78bbc847304a2bc118e10",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f178a4f78bbc847304a2bc118e10",
-        "height": 160,
-        "width": 160
-      }
-    ],
+    "genres": [],
     "top_tracks": [
       {
         "name": "MVP",
@@ -13601,27 +11820,7 @@
     "total_plays": 1,
     "first_seen": "2026-03-03",
     "last_seen": "2026-03-03",
-    "genres": [
-      "christmas",
-      "adult standards"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ed45f575339b044d7168780a15ff457b85be851a",
-        "height": 493,
-        "width": 500
-      },
-      {
-        "url": "https://i.scdn.co/image/6d1f554e76304a29b8baa3f61213a88702c0f599",
-        "height": 197,
-        "width": 200
-      },
-      {
-        "url": "https://i.scdn.co/image/53a2c2a3d9f4c61f20b04d95936fadc83b7b08b5",
-        "height": 63,
-        "width": 64
-      }
-    ],
+    "genres": [],
     "top_tracks": [
       {
         "name": "(They Long To Be) Close To You",
@@ -13638,34 +11837,7 @@
     "total_plays": 1,
     "first_seen": "2026-03-03",
     "last_seen": "2026-03-03",
-    "genres": [
-      "red dirt",
-      "texas country",
-      "outlaw country",
-      "alt country"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/df1bd6ac140f82f55724edbaff5cb7adbb9d7a80",
-        "height": 1000,
-        "width": 1000
-      },
-      {
-        "url": "https://i.scdn.co/image/b84ada378f56e20c525cde9c922d197eb81235e4",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/e6c73008cfb84bea984fc0f57e49984626be16f5",
-        "height": 200,
-        "width": 200
-      },
-      {
-        "url": "https://i.scdn.co/image/615463b4a9ddabb4890483939412e746b63667a7",
-        "height": 64,
-        "width": 64
-      }
-    ],
+    "genres": [],
     "top_tracks": [
       {
         "name": "Boys From Oklahoma",
@@ -13685,22 +11857,24 @@
     "genres": [
       "blues",
       "blues rock",
-      "roots rock"
+      "folk rock",
+      "roots rock",
+      "singer-songwriter"
     ],
     "images": [
       {
-        "url": "https://i.scdn.co/image/ab6761610000e5ebbe1b2ad861e0148a1540b107",
         "height": 640,
+        "url": "https://i.scdn.co/image/ab6761610000e5ebbe1b2ad861e0148a1540b107",
         "width": 640
       },
       {
-        "url": "https://i.scdn.co/image/ab67616100005174be1b2ad861e0148a1540b107",
         "height": 320,
+        "url": "https://i.scdn.co/image/ab67616100005174be1b2ad861e0148a1540b107",
         "width": 320
       },
       {
-        "url": "https://i.scdn.co/image/ab6761610000f178be1b2ad861e0148a1540b107",
         "height": 160,
+        "url": "https://i.scdn.co/image/ab6761610000f178be1b2ad861e0148a1540b107",
         "width": 160
       }
     ],
@@ -13780,28 +11954,7 @@
     "total_plays": 1,
     "first_seen": "2026-03-03",
     "last_seen": "2026-03-03",
-    "genres": [
-      "texas country",
-      "red dirt",
-      "country"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5eb9cc3d15a6faca6dc785649fc",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab676161000051749cc3d15a6faca6dc785649fc",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f1789cc3d15a6faca6dc785649fc",
-        "height": 160,
-        "width": 160
-      }
-    ],
+    "genres": [],
     "top_tracks": [
       {
         "name": "Humble Folks",
@@ -13818,28 +11971,7 @@
     "total_plays": 1,
     "first_seen": "2026-03-03",
     "last_seen": "2026-03-03",
-    "genres": [
-      "folk",
-      "indie folk",
-      "folk rock"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5eb00fe341805b27976b4302be0",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000517400fe341805b27976b4302be0",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f17800fe341805b27976b4302be0",
-        "height": 160,
-        "width": 160
-      }
-    ],
+    "genres": [],
     "top_tracks": [
       {
         "name": "Forever",
@@ -13856,31 +11988,7 @@
     "total_plays": 1,
     "first_seen": "2026-03-03",
     "last_seen": "2026-03-03",
-    "genres": [
-      "afrobeats",
-      "afrobeat",
-      "afropop",
-      "afroswing",
-      "dancehall",
-      "afropiano"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5ebb4e44d0f4e3e47af2cf06f3f",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616100005174b4e44d0f4e3e47af2cf06f3f",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f178b4e44d0f4e3e47af2cf06f3f",
-        "height": 160,
-        "width": 160
-      }
-    ],
+    "genres": [],
     "top_tracks": [
       {
         "name": "Gbona",
@@ -13897,27 +12005,7 @@
     "total_plays": 1,
     "first_seen": "2026-03-03",
     "last_seen": "2026-03-03",
-    "genres": [
-      "baroque pop",
-      "singer-songwriter"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5eb18da36ab937c35a16339ebec",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000517418da36ab937c35a16339ebec",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f17818da36ab937c35a16339ebec",
-        "height": 160,
-        "width": 160
-      }
-    ],
+    "genres": [],
     "top_tracks": [
       {
         "name": "Everybody's Talkin' - From \"Midnight Cowboy\"",
@@ -13935,24 +12023,26 @@
     "first_seen": "2026-03-03",
     "last_seen": "2026-03-03",
     "genres": [
-      "yacht rock",
+      "album rock",
       "classic rock",
-      "soft rock"
+      "rock",
+      "soft rock",
+      "yacht rock"
     ],
     "images": [
       {
-        "url": "https://i.scdn.co/image/ab6761610000e5ebc8752dd511cda8c31e9daee8",
         "height": 640,
+        "url": "https://i.scdn.co/image/ab6761610000e5ebc8752dd511cda8c31e9daee8",
         "width": 640
       },
       {
-        "url": "https://i.scdn.co/image/ab67616100005174c8752dd511cda8c31e9daee8",
         "height": 320,
+        "url": "https://i.scdn.co/image/ab67616100005174c8752dd511cda8c31e9daee8",
         "width": 320
       },
       {
-        "url": "https://i.scdn.co/image/ab6761610000f178c8752dd511cda8c31e9daee8",
         "height": 160,
+        "url": "https://i.scdn.co/image/ab6761610000f178c8752dd511cda8c31e9daee8",
         "width": 160
       }
     ],
@@ -13997,10 +12087,13 @@
     "first_seen": "2026-03-03",
     "last_seen": "2026-03-03",
     "genres": [
-      "folk rock",
+      "classic rock",
+      "country rock",
       "folk",
-      "singer-songwriter",
-      "roots rock"
+      "folk rock",
+      "rock",
+      "roots rock",
+      "singer-songwriter"
     ],
     "images": [
       {
@@ -14250,26 +12343,7 @@
     "total_plays": 1,
     "first_seen": "2026-03-03",
     "last_seen": "2026-03-03",
-    "genres": [
-      "country"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5ebc98f2b2e51b8b42a525942e5",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616100005174c98f2b2e51b8b42a525942e5",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f178c98f2b2e51b8b42a525942e5",
-        "height": 160,
-        "width": 160
-      }
-    ],
+    "genres": [],
     "top_tracks": [
       {
         "name": "Rich Men North of Richmond",
@@ -14287,27 +12361,27 @@
     "first_seen": "2026-03-03",
     "last_seen": "2026-03-03",
     "genres": [
-      "bluegrass",
-      "newgrass",
-      "americana",
-      "alt country",
-      "folk",
-      "indie folk"
+      "indie folk",
+      "modern old-time",
+      "new americana",
+      "old-time",
+      "progressive bluegrass",
+      "stomp and holler"
     ],
     "images": [
       {
-        "url": "https://i.scdn.co/image/ab6761610000e5eba055968bc8c4b9d8901b1e1e",
         "height": 640,
+        "url": "https://i.scdn.co/image/ab6761610000e5eb6b81cdf4c7c60551f584f740",
         "width": 640
       },
       {
-        "url": "https://i.scdn.co/image/ab67616100005174a055968bc8c4b9d8901b1e1e",
         "height": 320,
+        "url": "https://i.scdn.co/image/ab676161000051746b81cdf4c7c60551f584f740",
         "width": 320
       },
       {
-        "url": "https://i.scdn.co/image/ab6761610000f178a055968bc8c4b9d8901b1e1e",
         "height": 160,
+        "url": "https://i.scdn.co/image/ab6761610000f1786b81cdf4c7c60551f584f740",
         "width": 160
       }
     ],
@@ -14477,23 +12551,6 @@
       "red dirt",
       "outlaw country"
     ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5eb458bd0821f53b36929cf2178",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616100005174458bd0821f53b36929cf2178",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f178458bd0821f53b36929cf2178",
-        "height": 160,
-        "width": 160
-      }
-    ],
     "top_tracks": [
       {
         "name": "Lot Lizard",
@@ -14515,23 +12572,6 @@
       "old school hip hop",
       "quiet storm"
     ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/2229d6b66e3b40ea46266c1c9ad6f588bf53960e",
-        "height": 479,
-        "width": 400
-      },
-      {
-        "url": "https://i.scdn.co/image/4a34605a490d96dd562d5ba0e92bf5b6881be87e",
-        "height": 240,
-        "width": 200
-      },
-      {
-        "url": "https://i.scdn.co/image/b1dc926e2159f625fc1bc2a71186e0c90b99fcc4",
-        "height": 77,
-        "width": 64
-      }
-    ],
     "top_tracks": [
       {
         "name": "Surgery (Dr. Dre)",
@@ -14552,23 +12592,6 @@
       "soundtrack",
       "score"
     ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5eb371632043a8c12bb7eeeaf9d",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616100005174371632043a8c12bb7eeeaf9d",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f178371632043a8c12bb7eeeaf9d",
-        "height": 160,
-        "width": 160
-      }
-    ],
     "top_tracks": [
       {
         "name": "Beneath Alrischa",
@@ -14587,28 +12610,6 @@
     "last_seen": "2026-03-14",
     "genres": [
       "devotional"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6772690000c46c15c633dcdbc4b8763e84e38a",
-        "height": 1000,
-        "width": 1000
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6772690000dd2215c633dcdbc4b8763e84e38a",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6772690000bac315c633dcdbc4b8763e84e38a",
-        "height": 200,
-        "width": 200
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67726900008f7415c633dcdbc4b8763e84e38a",
-        "height": 64,
-        "width": 64
-      }
     ],
     "top_tracks": [
       {
@@ -14629,28 +12630,6 @@
     "genres": [
       "new wave",
       "power pop"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6772690000c46c29483131546114b6fe07b0b5",
-        "height": 1000,
-        "width": 1000
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6772690000dd2229483131546114b6fe07b0b5",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6772690000bac329483131546114b6fe07b0b5",
-        "height": 200,
-        "width": 200
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67726900008f7429483131546114b6fe07b0b5",
-        "height": 64,
-        "width": 64
-      }
     ],
     "top_tracks": [
       {
@@ -14675,23 +12654,6 @@
     "first_seen": "2026-03-13",
     "last_seen": "2026-03-13",
     "genres": [],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5eb752049948af1ebdec2c5184c",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616100005174752049948af1ebdec2c5184c",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f178752049948af1ebdec2c5184c",
-        "height": 160,
-        "width": 160
-      }
-    ],
     "top_tracks": [
       {
         "name": "Speak sweet and low",
@@ -14712,23 +12674,6 @@
       "jazz rap",
       "underground hip hop",
       "alternative hip hop"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/bf9be990f581592fad856fd135926686c516b869",
-        "height": 285,
-        "width": 380
-      },
-      {
-        "url": "https://i.scdn.co/image/18ee81441b168c8864add15d97f0b243aa0766fa",
-        "height": 150,
-        "width": 200
-      },
-      {
-        "url": "https://i.scdn.co/image/b95c7fe573c82590884a2e7a80a02947c12d9b69",
-        "height": 48,
-        "width": 64
-      }
     ],
     "top_tracks": [
       {
@@ -14765,28 +12710,6 @@
     "first_seen": "2026-03-13",
     "last_seen": "2026-03-13",
     "genres": [],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/135934b2b384817e7727d303c23a22dfe84ace90",
-        "height": 1337,
-        "width": 1000
-      },
-      {
-        "url": "https://i.scdn.co/image/03e3c1a62c1e4a9dfac7128f3a4a487fd2027ca9",
-        "height": 856,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/0fe2fa0d70f965b2389cf6f658ee29950a9fbf17",
-        "height": 267,
-        "width": 200
-      },
-      {
-        "url": "https://i.scdn.co/image/cfc55b0abc8e0c88b985fe71c8928d3e885e0b4b",
-        "height": 86,
-        "width": 64
-      }
-    ],
     "top_tracks": [
       {
         "name": "Old School Rules",
@@ -14822,28 +12745,6 @@
       "contemporary classical",
       "expressionism"
     ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ef177fded28596e581ccb70aac4d6a11d93fd387",
-        "height": 1000,
-        "width": 1000
-      },
-      {
-        "url": "https://i.scdn.co/image/6907ea554a85f3f9ab34b9fd4df95a92c2fc54ac",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/0c3a733af22fe7c41db90ba0d97514fdf75eaefb",
-        "height": 200,
-        "width": 200
-      },
-      {
-        "url": "https://i.scdn.co/image/42bfcd14aa6cb1649b542c970689456bc09b7e99",
-        "height": 64,
-        "width": 64
-      }
-    ],
     "top_tracks": [
       {
         "name": "Match für 3 Spieler - Pt. 1",
@@ -14861,23 +12762,6 @@
     "first_seen": "2026-03-11",
     "last_seen": "2026-03-11",
     "genres": [],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5eb9a08cd5d8997331acc191e7d",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab676161000051749a08cd5d8997331acc191e7d",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f1789a08cd5d8997331acc191e7d",
-        "height": 160,
-        "width": 160
-      }
-    ],
     "top_tracks": [
       {
         "name": "October",
@@ -14899,23 +12783,6 @@
       "ambient",
       "experimental jazz",
       "nu jazz"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5ebaa48ab9a666e9778faa002da",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616100005174aa48ab9a666e9778faa002da",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f178aa48ab9a666e9778faa002da",
-        "height": 160,
-        "width": 160
-      }
     ],
     "top_tracks": [
       {
@@ -14941,23 +12808,6 @@
     "last_seen": "2026-03-11",
     "genres": [
       "ambient jazz"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5eb3d4e529331e396b79792cf1f",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab676161000051743d4e529331e396b79792cf1f",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f1783d4e529331e396b79792cf1f",
-        "height": 160,
-        "width": 160
-      }
     ],
     "top_tracks": [
       {
@@ -15016,23 +12866,6 @@
       "east coast hip hop",
       "rap"
     ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5eb219724d177787df4dc9d8614",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616100005174219724d177787df4dc9d8614",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f178219724d177787df4dc9d8614",
-        "height": 160,
-        "width": 160
-      }
-    ],
     "top_tracks": [
       {
         "name": "DEAD PRESIDENTS (ALBUM VERSION)",
@@ -15071,23 +12904,6 @@
       "southern hip hop",
       "old school hip hop"
     ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ab6761610000e5eba372b528d76727f3cda88198",
-        "height": 640,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/ab67616100005174a372b528d76727f3cda88198",
-        "height": 320,
-        "width": 320
-      },
-      {
-        "url": "https://i.scdn.co/image/ab6761610000f178a372b528d76727f3cda88198",
-        "height": 160,
-        "width": 160
-      }
-    ],
     "top_tracks": [
       {
         "name": "Blood",
@@ -15110,28 +12926,6 @@
       "swing music",
       "cool jazz",
       "jazz ballads"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/1e24691a352233bbe989a311d921f17e7892a87e",
-        "height": 1154,
-        "width": 1000
-      },
-      {
-        "url": "https://i.scdn.co/image/c169af91bf56ac7d3962000f6ab237e1586d9732",
-        "height": 739,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/b6a297e56436a75ffcab7f594dafc46c9872f793",
-        "height": 231,
-        "width": 200
-      },
-      {
-        "url": "https://i.scdn.co/image/2ac71fb8c2ff235d2484d40d274473767eaf07b5",
-        "height": 74,
-        "width": 64
-      }
     ],
     "top_tracks": [
       {
@@ -15689,28 +13483,6 @@
       "avant-garde",
       "hard bop"
     ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/66bf46ec1bfc2c72b97986f84af1a69f07531329",
-        "height": 1133,
-        "width": 1000
-      },
-      {
-        "url": "https://i.scdn.co/image/fbf28470d6dca463c2bcb3f428ef76cdb6e9a21d",
-        "height": 725,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/a4aac2a9b1aa4b9ec8f1a020ca53f51ea2a7fbaf",
-        "height": 227,
-        "width": 200
-      },
-      {
-        "url": "https://i.scdn.co/image/131591ffd27a240c284f8fbf8f016d3d68ef123d",
-        "height": 72,
-        "width": 64
-      }
-    ],
     "top_tracks": [
       {
         "name": "Tapestry from an Asteroid",
@@ -15794,28 +13566,6 @@
       "bebop",
       "jazz ballads"
     ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/7e2b6815b5973d47cccbad1d834089231d9b737e",
-        "height": 723,
-        "width": 999
-      },
-      {
-        "url": "https://i.scdn.co/image/399ee45e619648be6ce992228b79354f31b69999",
-        "height": 463,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/9c69550b77ce6f3d040f32122bff0325e0dddd3c",
-        "height": 145,
-        "width": 200
-      },
-      {
-        "url": "https://i.scdn.co/image/5b89bd24901e2d12347296e753027b70e0bfeacd",
-        "height": 46,
-        "width": 64
-      }
-    ],
     "top_tracks": [
       {
         "name": "Nature Boy",
@@ -15868,28 +13618,6 @@
       "big band",
       "hard bop",
       "bebop"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/5478892a222291e3e78ede3c72196a415732a93f",
-        "height": 1441,
-        "width": 1000
-      },
-      {
-        "url": "https://i.scdn.co/image/67ff1f7e15d8a3d0bed96b94902596dee19d4b7b",
-        "height": 922,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/c457f6c2208feffeac95f30138ce2f86372dbca9",
-        "height": 288,
-        "width": 200
-      },
-      {
-        "url": "https://i.scdn.co/image/fe9ad479e4cc7a6e5817a10caedf37a7490801c3",
-        "height": 92,
-        "width": 64
-      }
     ],
     "top_tracks": [
       {
@@ -16005,28 +13733,6 @@
       "hard bop",
       "bebop"
     ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/ac30c28c9ba640db9c901cf45b5d429ca1ca0ead",
-        "height": 652,
-        "width": 1000
-      },
-      {
-        "url": "https://i.scdn.co/image/72d8babc708508903ecba158cbd884e4395648a8",
-        "height": 417,
-        "width": 639
-      },
-      {
-        "url": "https://i.scdn.co/image/3a173052efd916d1599747ee54d763f5efb9e79b",
-        "height": 130,
-        "width": 199
-      },
-      {
-        "url": "https://i.scdn.co/image/24e20707215173d5cc6399a451ef2c18a720fdcb",
-        "height": 42,
-        "width": 64
-      }
-    ],
     "top_tracks": [
       {
         "name": "Lonely Woman",
@@ -16051,28 +13757,6 @@
     "last_seen": "2026-03-16",
     "genres": [
       "aor"
-    ],
-    "images": [
-      {
-        "url": "https://i.scdn.co/image/79fad2b2a30f696dbe5aeb57b6838f418adf07d7",
-        "height": 1199,
-        "width": 1000
-      },
-      {
-        "url": "https://i.scdn.co/image/eb9f0f4cd0df4ca366ab6878e4964ef56a31fafc",
-        "height": 767,
-        "width": 640
-      },
-      {
-        "url": "https://i.scdn.co/image/e0212b2635133f4c4401b4fcf5e8129f0284754c",
-        "height": 240,
-        "width": 200
-      },
-      {
-        "url": "https://i.scdn.co/image/b98db83d79827b20a07b5354491a3354d3bb32fd",
-        "height": 77,
-        "width": 64
-      }
     ],
     "top_tracks": [
       {

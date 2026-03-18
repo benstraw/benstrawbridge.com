@@ -8,26 +8,14 @@
   "total_plays": 10,
   "unique_artists": 10,
   "topArtistName": "The Beatles",
-  "topArtistImages": [
-    {
-      "url": "https://i.scdn.co/image/ab6761610000e5ebe9348cc01ff5d55971b22433",
-      "height": 640,
-      "width": 640
-    },
-    {
-      "url": "https://i.scdn.co/image/ab67616100005174e9348cc01ff5d55971b22433",
-      "height": 320,
-      "width": 320
-    },
-    {
-      "url": "https://i.scdn.co/image/ab6761610000f178e9348cc01ff5d55971b22433",
-      "height": 160,
-      "width": 160
-    }
-  ],
+  "topArtistImages": [],
   "top_genres": [
     {
       "name": "classic rock",
+      "plays": 3
+    },
+    {
+      "name": "singer-songwriter",
       "plays": 3
     },
     {
@@ -39,31 +27,27 @@
       "plays": 2
     },
     {
-      "name": "americana",
-      "plays": 2
-    },
-    {
       "name": "folk",
       "plays": 2
     },
     {
-      "name": "singer-songwriter",
-      "plays": 2
+      "name": "americana",
+      "plays": 1
     },
     {
       "name": "alt country",
-      "plays": 2
+      "plays": 1
     },
     {
-      "name": "bluegrass",
-      "plays": 2
+      "name": "alternative country",
+      "plays": 1
     },
     {
-      "name": "classic country",
-      "plays": 2
+      "name": "canadian singer-songwriter",
+      "plays": 1
     },
     {
-      "name": "devotional",
+      "name": "melancholia",
       "plays": 1
     }
   ],
@@ -72,111 +56,31 @@
       "slug": "the-beatles",
       "name": "The Beatles",
       "plays": 1,
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5ebe9348cc01ff5d55971b22433",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab67616100005174e9348cc01ff5d55971b22433",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f178e9348cc01ff5d55971b22433",
-          "height": 160,
-          "width": 160
-        }
-      ]
+      "images": []
     },
     {
       "slug": "gaiea-sanskrit",
       "name": "Gaiea Sanskrit",
       "plays": 1,
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5ebc0a4dc41d478531ff7eaed7a",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab67616100005174c0a4dc41d478531ff7eaed7a",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f178c0a4dc41d478531ff7eaed7a",
-          "height": 160,
-          "width": 160
-        }
-      ]
+      "images": []
     },
     {
       "slug": "crosby-stills-nash-young",
       "name": "Crosby, Stills, Nash & Young",
       "plays": 1,
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb4e5018dad07ee004f171d7d3",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab676161000051744e5018dad07ee004f171d7d3",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f1784e5018dad07ee004f171d7d3",
-          "height": 160,
-          "width": 160
-        }
-      ]
+      "images": []
     },
     {
       "slug": "harnam",
       "name": "Harnam",
       "plays": 1,
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb0d0690ba8e1516afad52f24f",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab676161000051740d0690ba8e1516afad52f24f",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f1780d0690ba8e1516afad52f24f",
-          "height": 160,
-          "width": 160
-        }
-      ]
+      "images": []
     },
     {
       "slug": "john-prine",
       "name": "John Prine",
       "plays": 1,
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5ebf109851845669becdc5c63f6",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab67616100005174f109851845669becdc5c63f6",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f178f109851845669becdc5c63f6",
-          "height": 160,
-          "width": 160
-        }
-      ]
+      "images": []
     },
     {
       "slug": "gillian-welch",
@@ -204,45 +108,13 @@
       "slug": "countrys-family-reunion",
       "name": "Country's Family Reunion",
       "plays": 1,
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5ebb8fded421c1914dad20d2c26",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab67616100005174b8fded421c1914dad20d2c26",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f178b8fded421c1914dad20d2c26",
-          "height": 160,
-          "width": 160
-        }
-      ]
+      "images": []
     },
     {
       "slug": "cal-smith",
       "name": "Cal Smith",
       "plays": 1,
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab67616d0000b273cdbebccbc5d57c13134792a5",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab67616d00001e02cdbebccbc5d57c13134792a5",
-          "height": 300,
-          "width": 300
-        },
-        {
-          "url": "https://i.scdn.co/image/ab67616d00004851cdbebccbc5d57c13134792a5",
-          "height": 64,
-          "width": 64
-        }
-      ]
+      "images": []
     },
     {
       "slug": "neil-young",

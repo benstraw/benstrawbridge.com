@@ -8,63 +8,47 @@
   "total_plays": 44,
   "unique_artists": 12,
   "topArtistName": "Crosby, Stills, Nash & Young",
-  "topArtistImages": [
-    {
-      "url": "https://i.scdn.co/image/ab6761610000e5eb4e5018dad07ee004f171d7d3",
-      "height": 640,
-      "width": 640
-    },
-    {
-      "url": "https://i.scdn.co/image/ab676161000051744e5018dad07ee004f171d7d3",
-      "height": 320,
-      "width": 320
-    },
-    {
-      "url": "https://i.scdn.co/image/ab6761610000f1784e5018dad07ee004f171d7d3",
-      "height": 160,
-      "width": 160
-    }
-  ],
+  "topArtistImages": [],
   "top_genres": [
+    {
+      "name": "classic rock",
+      "plays": 18
+    },
     {
       "name": "folk rock",
       "plays": 15
     },
     {
-      "name": "singer-songwriter",
-      "plays": 15
-    },
-    {
-      "name": "classic rock",
-      "plays": 14
-    },
-    {
       "name": "folk",
-      "plays": 9
+      "plays": 8
+    },
+    {
+      "name": "singer-songwriter",
+      "plays": 7
     },
     {
       "name": "psychedelic rock",
       "plays": 6
     },
     {
+      "name": "melancholia",
+      "plays": 4
+    },
+    {
+      "name": "mellow gold",
+      "plays": 4
+    },
+    {
+      "name": "rock",
+      "plays": 4
+    },
+    {
+      "name": "soft rock",
+      "plays": 4
+    },
+    {
       "name": "americana",
-      "plays": 5
-    },
-    {
-      "name": "alt country",
-      "plays": 5
-    },
-    {
-      "name": "reggae",
       "plays": 4
-    },
-    {
-      "name": "roots reggae",
-      "plays": 4
-    },
-    {
-      "name": "g-funk",
-      "plays": 3
     }
   ],
   "top_artists": [
@@ -72,45 +56,13 @@
       "slug": "crosby-stills-nash-young",
       "name": "Crosby, Stills, Nash & Young",
       "plays": 8,
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb4e5018dad07ee004f171d7d3",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab676161000051744e5018dad07ee004f171d7d3",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f1784e5018dad07ee004f171d7d3",
-          "height": 160,
-          "width": 160
-        }
-      ]
+      "images": []
     },
     {
       "slug": "leonard-cohen",
       "name": "Leonard Cohen",
       "plays": 7,
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5ebd09c1295779cfb71683cee99",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab67616100005174d09c1295779cfb71683cee99",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f178d09c1295779cfb71683cee99",
-          "height": 160,
-          "width": 160
-        }
-      ]
+      "images": []
     },
     {
       "slug": "simon-garfunkel",
@@ -118,23 +70,23 @@
       "plays": 4,
       "images": [
         {
-          "url": "https://i.scdn.co/image/afde2fdd14f8c8ca23393f257e3a369a234a24b6",
           "height": 1241,
+          "url": "https://i.scdn.co/image/afde2fdd14f8c8ca23393f257e3a369a234a24b6",
           "width": 1000
         },
         {
-          "url": "https://i.scdn.co/image/3bffe5e67788e9e64a4f8368f1010f20c269d518",
           "height": 794,
+          "url": "https://i.scdn.co/image/3bffe5e67788e9e64a4f8368f1010f20c269d518",
           "width": 640
         },
         {
-          "url": "https://i.scdn.co/image/852145f3972cb8b6c431ca7b1c9d5bc839a8a06a",
           "height": 248,
+          "url": "https://i.scdn.co/image/852145f3972cb8b6c431ca7b1c9d5bc839a8a06a",
           "width": 200
         },
         {
-          "url": "https://i.scdn.co/image/b32f349333d0710b002b0439fc504558e46bcb07",
           "height": 79,
+          "url": "https://i.scdn.co/image/b32f349333d0710b002b0439fc504558e46bcb07",
           "width": 64
         }
       ]
@@ -143,23 +95,7 @@
       "slug": "john-prine",
       "name": "John Prine",
       "plays": 4,
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5ebf109851845669becdc5c63f6",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab67616100005174f109851845669becdc5c63f6",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f178f109851845669becdc5c63f6",
-          "height": 160,
-          "width": 160
-        }
-      ]
+      "images": []
     },
     {
       "slug": "bob-marley-the-wailers",
@@ -192,45 +128,13 @@
       "slug": "dj-king-assassin",
       "name": "DJ King Assassin",
       "plays": 3,
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb5225e1e29d85e2d55ca1390e",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab676161000051745225e1e29d85e2d55ca1390e",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f1785225e1e29d85e2d55ca1390e",
-          "height": 160,
-          "width": 160
-        }
-      ]
+      "images": []
     },
     {
       "slug": "mark-knopfler",
       "name": "Mark Knopfler",
       "plays": 3,
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb94b957255b1e4d4ddcc470ce",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000517494b957255b1e4d4ddcc470ce",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f17894b957255b1e4d4ddcc470ce",
-          "height": 160,
-          "width": 160
-        }
-      ]
+      "images": []
     },
     {
       "slug": "grateful-dead",
@@ -285,67 +189,19 @@
       "slug": "the-beatles",
       "name": "The Beatles",
       "plays": 3,
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5ebe9348cc01ff5d55971b22433",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab67616100005174e9348cc01ff5d55971b22433",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f178e9348cc01ff5d55971b22433",
-          "height": 160,
-          "width": 160
-        }
-      ]
+      "images": []
     },
     {
       "slug": "jid",
       "name": "JID",
       "plays": 1,
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb02e4e47e711e07e363ecc6e0",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000517402e4e47e711e07e363ecc6e0",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f17802e4e47e711e07e363ecc6e0",
-          "height": 160,
-          "width": 160
-        }
-      ]
+      "images": []
     },
     {
       "slug": "emmylou-harris",
       "name": "Emmylou Harris",
       "plays": 1,
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/41d9dddfce358cc92f8c1285ba1174c05e68af5b",
-          "height": 252,
-          "width": 338
-        },
-        {
-          "url": "https://i.scdn.co/image/4977208df13cec764b40cedb99d3c1ec16c62b15",
-          "height": 149,
-          "width": 200
-        },
-        {
-          "url": "https://i.scdn.co/image/d94dd0319fd89900c586aeed7e22b485e91b12e2",
-          "height": 48,
-          "width": 64
-        }
-      ]
+      "images": []
     }
   ],
   "top_tracks": [

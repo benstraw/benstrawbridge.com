@@ -10,41 +10,53 @@
   "topArtistName": "Funkadelic",
   "topArtistImages": [
     {
-      "url": "https://i.scdn.co/image/dfd7b11d97bc9159e9d085c5fd925b70cd192178",
       "height": 740,
+      "url": "https://i.scdn.co/image/dfd7b11d97bc9159e9d085c5fd925b70cd192178",
       "width": 1000
     },
     {
-      "url": "https://i.scdn.co/image/62458dad056210b6511d375b8a590ac52d551d3f",
       "height": 474,
+      "url": "https://i.scdn.co/image/62458dad056210b6511d375b8a590ac52d551d3f",
       "width": 640
     },
     {
-      "url": "https://i.scdn.co/image/6aeb0becd14d0a37bb63a4885ac6dc69267f17d5",
       "height": 148,
+      "url": "https://i.scdn.co/image/6aeb0becd14d0a37bb63a4885ac6dc69267f17d5",
       "width": 200
     },
     {
-      "url": "https://i.scdn.co/image/cde417911c59c87190b352f549f76f99d8bdcb18",
       "height": 47,
+      "url": "https://i.scdn.co/image/cde417911c59c87190b352f549f76f99d8bdcb18",
       "width": 64
     }
   ],
   "top_genres": [
     {
-      "name": "psychedelic rock",
+      "name": "soul",
       "plays": 14
-    },
-    {
-      "name": "funk",
-      "plays": 12
     },
     {
       "name": "hip hop",
       "plays": 12
     },
     {
+      "name": "classic soul",
+      "plays": 11
+    },
+    {
+      "name": "funk",
+      "plays": 11
+    },
+    {
       "name": "funk rock",
+      "plays": 11
+    },
+    {
+      "name": "p funk",
+      "plays": 10
+    },
+    {
+      "name": "psychedelic soul",
       "plays": 10
     },
     {
@@ -56,20 +68,8 @@
       "plays": 9
     },
     {
-      "name": "rap",
-      "plays": 6
-    },
-    {
       "name": "folk rock",
-      "plays": 6
-    },
-    {
-      "name": "classic rock",
-      "plays": 5
-    },
-    {
-      "name": "classical",
-      "plays": 5
+      "plays": 7
     }
   ],
   "top_artists": [
@@ -79,23 +79,23 @@
       "plays": 10,
       "images": [
         {
-          "url": "https://i.scdn.co/image/dfd7b11d97bc9159e9d085c5fd925b70cd192178",
           "height": 740,
+          "url": "https://i.scdn.co/image/dfd7b11d97bc9159e9d085c5fd925b70cd192178",
           "width": 1000
         },
         {
-          "url": "https://i.scdn.co/image/62458dad056210b6511d375b8a590ac52d551d3f",
           "height": 474,
+          "url": "https://i.scdn.co/image/62458dad056210b6511d375b8a590ac52d551d3f",
           "width": 640
         },
         {
-          "url": "https://i.scdn.co/image/6aeb0becd14d0a37bb63a4885ac6dc69267f17d5",
           "height": 148,
+          "url": "https://i.scdn.co/image/6aeb0becd14d0a37bb63a4885ac6dc69267f17d5",
           "width": 200
         },
         {
-          "url": "https://i.scdn.co/image/cde417911c59c87190b352f549f76f99d8bdcb18",
           "height": 47,
+          "url": "https://i.scdn.co/image/cde417911c59c87190b352f549f76f99d8bdcb18",
           "width": 64
         }
       ]
@@ -104,143 +104,37 @@
       "slug": "kanye-west",
       "name": "Kanye West",
       "plays": 5,
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb6e835a500e791bf9c27a422a",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab676161000051746e835a500e791bf9c27a422a",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f1786e835a500e791bf9c27a422a",
-          "height": 160,
-          "width": 160
-        }
-      ]
+      "images": []
     },
     {
       "slug": "shuggie-otis",
       "name": "Shuggie Otis",
       "plays": 4,
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/7811a1e80b838569427b817331c3687ea2c1ad96",
-          "height": 1503,
-          "width": 1000
-        },
-        {
-          "url": "https://i.scdn.co/image/c957d92249b6fa5262c6e66143ac69edbc432499",
-          "height": 962,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/20c966f1459dd665b51b8cfe364213b53e773357",
-          "height": 301,
-          "width": 200
-        },
-        {
-          "url": "https://i.scdn.co/image/b2ee518b4e154a6e2f06abff8e815ba95ba8ffef",
-          "height": 96,
-          "width": 64
-        }
-      ]
+      "images": []
     },
     {
       "slug": "baby-huey",
       "name": "Baby Huey",
       "plays": 3,
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab67616d0000b2739ed801be1a9fb100f815afb1",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab67616d00001e029ed801be1a9fb100f815afb1",
-          "height": 300,
-          "width": 300
-        },
-        {
-          "url": "https://i.scdn.co/image/ab67616d000048519ed801be1a9fb100f815afb1",
-          "height": 64,
-          "width": 64
-        }
-      ]
+      "images": []
     },
     {
       "slug": "crosby-stills-nash-young",
       "name": "Crosby, Stills, Nash & Young",
       "plays": 3,
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb4e5018dad07ee004f171d7d3",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab676161000051744e5018dad07ee004f171d7d3",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f1784e5018dad07ee004f171d7d3",
-          "height": 160,
-          "width": 160
-        }
-      ]
+      "images": []
     },
     {
       "slug": "johann-sebastian-bach",
       "name": "Johann Sebastian Bach",
       "plays": 3,
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/a2ec08fe69ecec2748fbc764aede8f1b03ae8f88",
-          "height": 479,
-          "width": 479
-        },
-        {
-          "url": "https://i.scdn.co/image/53ec9642cf116eca56d88284c40bb1497585e28e",
-          "height": 200,
-          "width": 200
-        },
-        {
-          "url": "https://i.scdn.co/image/438b280a22e63f994fd39feb031683fb861a31cb",
-          "height": 64,
-          "width": 64
-        }
-      ]
+      "images": []
     },
     {
       "slug": "frank-zappa",
       "name": "Frank Zappa",
       "plays": 2,
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/e1c04d8144371d6a6ac39c7f15a1c2a9f67a0c50",
-          "height": 1028,
-          "width": 1000
-        },
-        {
-          "url": "https://i.scdn.co/image/f2c74b01414e5d40b07baea7e5a2e7dd00b85c5b",
-          "height": 658,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/4b7ce8ea46a12071667f7ca393da0b509bb62af8",
-          "height": 206,
-          "width": 200
-        },
-        {
-          "url": "https://i.scdn.co/image/5476aad521baecb4a2c03ebcf67699d15a949af7",
-          "height": 66,
-          "width": 64
-        }
-      ]
+      "images": []
     },
     {
       "slug": "miles-davis",
@@ -273,50 +167,13 @@
       "slug": "wu-tang-clan",
       "name": "Wu-Tang Clan",
       "plays": 2,
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5ebe60866298962b71792b2bf1a",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab67616100005174e60866298962b71792b2bf1a",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f178e60866298962b71792b2bf1a",
-          "height": 160,
-          "width": 160
-        }
-      ]
+      "images": []
     },
     {
       "slug": "black-star",
       "name": "Black Star",
       "plays": 2,
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6772690000c46c4fb3d1d728a560f53532b687",
-          "height": 1000,
-          "width": 1000
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6772690000dd224fb3d1d728a560f53532b687",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6772690000bac34fb3d1d728a560f53532b687",
-          "height": 200,
-          "width": 200
-        },
-        {
-          "url": "https://i.scdn.co/image/ab67726900008f744fb3d1d728a560f53532b687",
-          "height": 64,
-          "width": 64
-        }
-      ]
+      "images": []
     },
     {
       "slug": "beastie-boys",
@@ -351,23 +208,23 @@
       "plays": 2,
       "images": [
         {
-          "url": "https://i.scdn.co/image/afde2fdd14f8c8ca23393f257e3a369a234a24b6",
           "height": 1241,
+          "url": "https://i.scdn.co/image/afde2fdd14f8c8ca23393f257e3a369a234a24b6",
           "width": 1000
         },
         {
-          "url": "https://i.scdn.co/image/3bffe5e67788e9e64a4f8368f1010f20c269d518",
           "height": 794,
+          "url": "https://i.scdn.co/image/3bffe5e67788e9e64a4f8368f1010f20c269d518",
           "width": 640
         },
         {
-          "url": "https://i.scdn.co/image/852145f3972cb8b6c431ca7b1c9d5bc839a8a06a",
           "height": 248,
+          "url": "https://i.scdn.co/image/852145f3972cb8b6c431ca7b1c9d5bc839a8a06a",
           "width": 200
         },
         {
-          "url": "https://i.scdn.co/image/b32f349333d0710b002b0439fc504558e46bcb07",
           "height": 79,
+          "url": "https://i.scdn.co/image/b32f349333d0710b002b0439fc504558e46bcb07",
           "width": 64
         }
       ]
@@ -376,45 +233,13 @@
       "slug": "roses-pawn-shop",
       "name": "Rose's Pawn Shop",
       "plays": 1,
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5ebdd96ff754c568a505cf33c5b",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab67616100005174dd96ff754c568a505cf33c5b",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f178dd96ff754c568a505cf33c5b",
-          "height": 160,
-          "width": 160
-        }
-      ]
+      "images": []
     },
     {
       "slug": "can",
       "name": "CAN",
       "plays": 1,
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb5cf2f3f47eceb202e7166078",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab676161000051745cf2f3f47eceb202e7166078",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f1785cf2f3f47eceb202e7166078",
-          "height": 160,
-          "width": 160
-        }
-      ]
+      "images": []
     },
     {
       "slug": "talking-heads",
@@ -442,99 +267,25 @@
       "slug": "curtis-mayfield",
       "name": "Curtis Mayfield",
       "plays": 1,
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5ebeea0f2f51d7969bbb4000f92",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab67616100005174eea0f2f51d7969bbb4000f92",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f178eea0f2f51d7969bbb4000f92",
-          "height": 160,
-          "width": 160
-        }
-      ]
+      "images": []
     },
     {
       "slug": "gil-scott-heron",
       "name": "Gil Scott-Heron",
       "plays": 1,
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/68e093d4aec6cc8f0d00dbec6d441364c5a3b3b6",
-          "height": 404,
-          "width": 590
-        },
-        {
-          "url": "https://i.scdn.co/image/44edd73499cb003c4682b4c4374dc4488be43f1f",
-          "height": 137,
-          "width": 200
-        },
-        {
-          "url": "https://i.scdn.co/image/1ec573c4a819708f84302f3742899f649911ab35",
-          "height": 44,
-          "width": 64
-        }
-      ]
+      "images": []
     },
     {
       "slug": "lafayette-afro-rock-band",
       "name": "Lafayette Afro Rock Band",
       "plays": 1,
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/e8d218b73489320783ea81c3716ab8abadb0862b",
-          "height": 745,
-          "width": 853
-        },
-        {
-          "url": "https://i.scdn.co/image/7ee26bb12a0a30cc2c47a89b6a1527dc5e41ec99",
-          "height": 559,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/1494d1dfc30339835a280ef88f16bcff541adfc2",
-          "height": 175,
-          "width": 200
-        },
-        {
-          "url": "https://i.scdn.co/image/467fe6797593a2db22b2914741a5c701abfa8bc1",
-          "height": 56,
-          "width": 64
-        }
-      ]
+      "images": []
     },
     {
       "slug": "allen-toussaint",
       "name": "Allen Toussaint",
       "plays": 1,
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6772690000c46c61a6c79755b7a5e51db409f8",
-          "height": 1000,
-          "width": 1000
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6772690000dd2261a6c79755b7a5e51db409f8",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6772690000bac361a6c79755b7a5e51db409f8",
-          "height": 200,
-          "width": 200
-        },
-        {
-          "url": "https://i.scdn.co/image/ab67726900008f7461a6c79755b7a5e51db409f8",
-          "height": 64,
-          "width": 64
-        }
-      ]
+      "images": []
     },
     {
       "slug": "little-feat",
@@ -542,18 +293,18 @@
       "plays": 1,
       "images": [
         {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb5fb6a968ac72e41ed40a3f9e",
           "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb3de0198740050980dbf91087",
           "width": 640
         },
         {
-          "url": "https://i.scdn.co/image/ab676161000051745fb6a968ac72e41ed40a3f9e",
           "height": 320,
+          "url": "https://i.scdn.co/image/ab676161000051743de0198740050980dbf91087",
           "width": 320
         },
         {
-          "url": "https://i.scdn.co/image/ab6761610000f1785fb6a968ac72e41ed40a3f9e",
           "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f1783de0198740050980dbf91087",
           "width": 160
         }
       ]
@@ -564,18 +315,18 @@
       "plays": 1,
       "images": [
         {
-          "url": "https://i.scdn.co/image/d5c6af18beb1411ab49c2976647e0d370bf66a88",
           "height": 752,
+          "url": "https://i.scdn.co/image/d5c6af18beb1411ab49c2976647e0d370bf66a88",
           "width": 514
         },
         {
-          "url": "https://i.scdn.co/image/841b4adc1a4e66906d99229aaaec26306d6aed92",
           "height": 293,
+          "url": "https://i.scdn.co/image/841b4adc1a4e66906d99229aaaec26306d6aed92",
           "width": 200
         },
         {
-          "url": "https://i.scdn.co/image/39d3c79df7fed6b4c597babaa24586d40fa44a45",
           "height": 94,
+          "url": "https://i.scdn.co/image/39d3c79df7fed6b4c597babaa24586d40fa44a45",
           "width": 64
         }
       ]
@@ -584,160 +335,43 @@
       "slug": "carl-philipp-emanuel-bach",
       "name": "Carl Philipp Emanuel Bach",
       "plays": 1,
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/a7f58bb72ec822ff375bff4003b60fa781250306",
-          "height": 272,
-          "width": 200
-        },
-        {
-          "url": "https://i.scdn.co/image/8b21f12c9359c39cf0ed40ec269ee694ffade88e",
-          "height": 87,
-          "width": 64
-        }
-      ]
+      "images": []
     },
     {
       "slug": "del-the-funky-homosapien",
       "name": "Del The Funky Homosapien",
       "plays": 1,
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/37ddb345143488175cef180b553253a467ec5362",
-          "height": 1000,
-          "width": 1000
-        },
-        {
-          "url": "https://i.scdn.co/image/4b0bb08b599af55d127be75a923f5629dc99c561",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/c17abb2f575908935df656f84dd76da819aad814",
-          "height": 200,
-          "width": 200
-        },
-        {
-          "url": "https://i.scdn.co/image/6130249da83481926006ffa955d14071daba3833",
-          "height": 64,
-          "width": 64
-        }
-      ]
+      "images": []
     },
     {
       "slug": "eminem",
       "name": "Eminem",
       "plays": 1,
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5eba00b11c129b27a88fc72f36b",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab67616100005174a00b11c129b27a88fc72f36b",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f178a00b11c129b27a88fc72f36b",
-          "height": 160,
-          "width": 160
-        }
-      ]
+      "images": []
     },
     {
       "slug": "nas",
       "name": "Nas",
       "plays": 1,
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb153198caeef9e3bda92f9285",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab67616100005174153198caeef9e3bda92f9285",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f178153198caeef9e3bda92f9285",
-          "height": 160,
-          "width": 160
-        }
-      ]
+      "images": []
     },
     {
       "slug": "the-notorious-big",
       "name": "The Notorious B.I.G.",
       "plays": 1,
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/1b4858fbd24046a81cace5ee18d19c868262b91f",
-          "height": 1250,
-          "width": 1000
-        },
-        {
-          "url": "https://i.scdn.co/image/9bb42de208edcb69653a8e7951fa93b13f598cdd",
-          "height": 800,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/e56612ae56c9007e99ab36b83efd4faf6401260d",
-          "height": 250,
-          "width": 200
-        },
-        {
-          "url": "https://i.scdn.co/image/fc074d287739cca12a89c76fd338ff7d4aa4acee",
-          "height": 80,
-          "width": 64
-        }
-      ]
+      "images": []
     },
     {
       "slug": "jurassic-5",
       "name": "Jurassic 5",
       "plays": 1,
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb2b867caebf8d276cfed1a62d",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab676161000051742b867caebf8d276cfed1a62d",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f1782b867caebf8d276cfed1a62d",
-          "height": 160,
-          "width": 160
-        }
-      ]
+      "images": []
     },
     {
       "slug": "little-simz",
       "name": "Little Simz",
       "plays": 1,
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5eba22264dfbad2d96ffc6ee2e0",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab67616100005174a22264dfbad2d96ffc6ee2e0",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f178a22264dfbad2d96ffc6ee2e0",
-          "height": 160,
-          "width": 160
-        }
-      ]
+      "images": []
     },
     {
       "slug": "de-la-soul",
@@ -787,89 +421,25 @@
       "slug": "dj-king-assassin",
       "name": "DJ King Assassin",
       "plays": 1,
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb5225e1e29d85e2d55ca1390e",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab676161000051745225e1e29d85e2d55ca1390e",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f1785225e1e29d85e2d55ca1390e",
-          "height": 160,
-          "width": 160
-        }
-      ]
+      "images": []
     },
     {
       "slug": "harnam",
       "name": "Harnam",
       "plays": 1,
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb0d0690ba8e1516afad52f24f",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab676161000051740d0690ba8e1516afad52f24f",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f1780d0690ba8e1516afad52f24f",
-          "height": 160,
-          "width": 160
-        }
-      ]
+      "images": []
     },
     {
       "slug": "logan-richardson",
       "name": "Logan Richardson",
       "plays": 1,
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb8a5f809b0901e8744ed157ce",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab676161000051748a5f809b0901e8744ed157ce",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f1788a5f809b0901e8744ed157ce",
-          "height": 160,
-          "width": 160
-        }
-      ]
+      "images": []
     },
     {
       "slug": "countrys-family-reunion",
       "name": "Country's Family Reunion",
       "plays": 1,
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5ebb8fded421c1914dad20d2c26",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab67616100005174b8fded421c1914dad20d2c26",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f178b8fded421c1914dad20d2c26",
-          "height": 160,
-          "width": 160
-        }
-      ]
+      "images": []
     },
     {
       "slug": "neil-young",
@@ -897,23 +467,7 @@
       "slug": "the-beatles",
       "name": "The Beatles",
       "plays": 1,
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5ebe9348cc01ff5d55971b22433",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab67616100005174e9348cc01ff5d55971b22433",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f178e9348cc01ff5d55971b22433",
-          "height": 160,
-          "width": 160
-        }
-      ]
+      "images": []
     }
   ],
   "top_tracks": [
