@@ -16,7 +16,7 @@
       "title": "Email me",
       "name": "email",
       "icon": "fa-solid fa-envelope",
-      "link": "mailto:ben@benstrawbridge.com.com?subject=web"
+      "link": "mailto:ben@benstrawbridge.com?subject=web"
     },
     {
       "title": "RSS Feed",

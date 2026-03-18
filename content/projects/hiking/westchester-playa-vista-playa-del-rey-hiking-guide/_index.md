@@ -19,7 +19,7 @@ hideAsideBar = true
 This part of Los Angeles has a lot of surprisingly remote feeling hikes. Located just north of LAX these three neighborhoods have a beach, the second largest open space in Los Angeles ([ballona wetlands]({{< relref "ballona-wetlands" >}})), and a bluff side hiking trail with expansive city, mountain and ocean views.
 
 Join alltrails using this link and they will plant 2 trees after you join.  
-{{< alltrails-referral-link >}}
+
 
 <!--more-->
 

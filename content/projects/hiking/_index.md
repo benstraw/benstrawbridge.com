@@ -24,7 +24,7 @@ listRecursive = true
 One of my greatest joys is being outdoors in a wide open space with nothing made by man in sight. At times, I do have to come back to reality, and occasionally when I do, I will share routes, guides, maps, and from time to time, gear recommendations. 
 
 Join alltrails using this link and they will plant 2 trees after you join.  
-{{< alltrails-referral-link >}}
+
 
 <!--more--> 
 
