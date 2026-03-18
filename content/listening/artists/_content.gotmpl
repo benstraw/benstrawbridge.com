@@ -1,0 +1,31 @@
+{{ $artists := site.Data.spotify.artists }}
+
+{{ range $slug, $artist := $artists }}
+  {{ $genreStr := delimit $artist.genres " · " }}
+  {{ $plays := $artist.total_plays | int }}
+  {{ $summary := printf "%d plays" $plays }}
+  {{ if $genreStr }}
+    {{ $summary = printf "%d plays · %s" $plays $genreStr }}
+  {{ end }}
+
+  {{ $params := dict
+    "hideAsideBar" true
+    "musicalGenres" $artist.genres
+    "musical-genres" $artist.genres
+    "total_plays" $artist.total_plays
+    "first_seen" $artist.first_seen
+    "last_seen" $artist.last_seen
+    "spotifyUrl" $artist.spotify_url
+    "spotifyId" $artist.id
+    "spotifyImages" $artist.images
+    "topTracks" $artist.top_tracks
+  }}
+  {{ $page := dict
+    "content" (dict "mediaType" "text/markdown" "value" $summary)
+    "title" $artist.name
+    "type" "listening-artist"
+    "params" $params
+    "path" $slug
+  }}
+  {{ $.AddPage $page }}
+{{ end }}

@@ -1,0 +1,426 @@
+{
+  "week": "2026-W12",
+  "title": "Week of Mar 16, 2026",
+  "year": 2026,
+  "week_num": 12,
+  "date_start": "2026-03-16",
+  "date_end": "2026-03-22",
+  "total_plays": 17,
+  "unique_artists": 11,
+  "topArtistName": "Miles Davis",
+  "topArtistImages": [
+    {
+      "height": 1000,
+      "url": "https://i.scdn.co/image/423e826b3c1b23930a255d7cbc2daf733f795507",
+      "width": 1000
+    },
+    {
+      "height": 640,
+      "url": "https://i.scdn.co/image/a318c54208af38364d131a54ced2416423696018",
+      "width": 640
+    },
+    {
+      "height": 200,
+      "url": "https://i.scdn.co/image/8496e6ea230dd47311d85dcf860015792f5ada42",
+      "width": 200
+    },
+    {
+      "height": 64,
+      "url": "https://i.scdn.co/image/b1af952a7fb8ac2c4467868d61b5752fc1a01cf0",
+      "width": 64
+    }
+  ],
+  "top_genres": [
+    {
+      "name": "jazz",
+      "plays": 3
+    },
+    {
+      "name": "cool jazz",
+      "plays": 3
+    },
+    {
+      "name": "hard bop",
+      "plays": 3
+    },
+    {
+      "name": "bebop",
+      "plays": 3
+    },
+    {
+      "name": "jazz fusion",
+      "plays": 3
+    },
+    {
+      "name": "jazz ballads",
+      "plays": 3
+    },
+    {
+      "name": "free jazz",
+      "plays": 3
+    },
+    {
+      "name": "aor",
+      "plays": 3
+    },
+    {
+      "name": "singer-songwriter",
+      "plays": 3
+    },
+    {
+      "name": "americana",
+      "plays": 2
+    }
+  ],
+  "top_artists": [
+    {
+      "slug": "miles-davis",
+      "name": "Miles Davis",
+      "plays": 3,
+      "images": [
+        {
+          "height": 1000,
+          "url": "https://i.scdn.co/image/423e826b3c1b23930a255d7cbc2daf733f795507",
+          "width": 1000
+        },
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/a318c54208af38364d131a54ced2416423696018",
+          "width": 640
+        },
+        {
+          "height": 200,
+          "url": "https://i.scdn.co/image/8496e6ea230dd47311d85dcf860015792f5ada42",
+          "width": 200
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/b1af952a7fb8ac2c4467868d61b5752fc1a01cf0",
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "maurice-white",
+      "name": "Maurice White",
+      "plays": 3,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/79fad2b2a30f696dbe5aeb57b6838f418adf07d7",
+          "height": 1199,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/eb9f0f4cd0df4ca366ab6878e4964ef56a31fafc",
+          "height": 767,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/e0212b2635133f4c4401b4fcf5e8129f0284754c",
+          "height": 240,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/b98db83d79827b20a07b5354491a3354d3bb32fd",
+          "height": 77,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "john-prine",
+      "name": "John Prine",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebf109851845669becdc5c63f6",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174f109851845669becdc5c63f6",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178f109851845669becdc5c63f6",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "spotify",
+      "name": "Spotify",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebbb458c8a11ba55b1acd968d4",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174bb458c8a11ba55b1acd968d4",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178bb458c8a11ba55b1acd968d4",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "a-tribe-called-quest",
+      "name": "A Tribe Called Quest",
+      "plays": 1,
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb774d73ae6796b6f437d89db9",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174774d73ae6796b6f437d89db9",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178774d73ae6796b6f437d89db9",
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "sublime",
+      "name": "Sublime",
+      "plays": 1,
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebe726280500259dbdb97a8be4",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174e726280500259dbdb97a8be4",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178e726280500259dbdb97a8be4",
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "cypress-hill",
+      "name": "Cypress Hill",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb38df3e7ad0a284eec89ffb33",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517438df3e7ad0a284eec89ffb33",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17838df3e7ad0a284eec89ffb33",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "gnarls-barkley",
+      "name": "Gnarls Barkley",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebbfe9d94ced31fa45bdca0222",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174bfe9d94ced31fa45bdca0222",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178bfe9d94ced31fa45bdca0222",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "neil-young",
+      "name": "Neil Young",
+      "plays": 1,
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebbae8276dffd864ebac759b76",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174bae8276dffd864ebac759b76",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178bae8276dffd864ebac759b76",
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "bob-marley-the-wailers",
+      "name": "Bob Marley & The Wailers",
+      "plays": 1,
+      "images": [
+        {
+          "height": 858,
+          "url": "https://i.scdn.co/image/b5aae2067db80f694a980e596e7f49618c1206c9",
+          "width": 1000
+        },
+        {
+          "height": 549,
+          "url": "https://i.scdn.co/image/4cd57e5e12ea2c24644c40886d65a9b22eca9802",
+          "width": 640
+        },
+        {
+          "height": 172,
+          "url": "https://i.scdn.co/image/02fd758d9805ef44d1caafc35ff17a47f9dff098",
+          "width": 200
+        },
+        {
+          "height": 55,
+          "url": "https://i.scdn.co/image/357fe6ef3655b1b33855e33546e3c174a38a1a36",
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "de-la-soul",
+      "name": "De La Soul",
+      "plays": 1,
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebc443011311dcf7f6eeaf507d",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174c443011311dcf7f6eeaf507d",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178c443011311dcf7f6eeaf507d",
+          "width": 160
+        }
+      ]
+    }
+  ],
+  "top_tracks": [
+    {
+      "name": "Shhh / Peaceful",
+      "artist": "Miles Davis",
+      "artist_slug": "miles-davis",
+      "plays": 3
+    },
+    {
+      "name": "We The People....",
+      "artist": "A Tribe Called Quest",
+      "artist_slug": "a-tribe-called-quest",
+      "plays": 1
+    },
+    {
+      "name": "Right Back",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "I Know One",
+      "artist": "John Prine",
+      "artist_slug": "john-prine",
+      "plays": 1
+    },
+    {
+      "name": "When the Shit Goes Down",
+      "artist": "Cypress Hill",
+      "artist_slug": "cypress-hill",
+      "plays": 1
+    },
+    {
+      "name": "It's Tuesday",
+      "artist": "Spotify",
+      "artist_slug": "spotify",
+      "plays": 1
+    },
+    {
+      "name": "Sweet Evil",
+      "artist": "Gnarls Barkley",
+      "artist_slug": "gnarls-barkley",
+      "plays": 1
+    },
+    {
+      "name": "Words (Between the Lines of Age)",
+      "artist": "Neil Young",
+      "artist_slug": "neil-young",
+      "plays": 1
+    },
+    {
+      "name": "In Spite of Ourselves",
+      "artist": "John Prine",
+      "artist_slug": "john-prine",
+      "plays": 1
+    },
+    {
+      "name": "Jump Nyabinghi",
+      "artist": "Bob Marley & The Wailers",
+      "artist_slug": "bob-marley-the-wailers",
+      "plays": 1
+    },
+    {
+      "name": "It's Monday",
+      "artist": "Spotify",
+      "artist_slug": "spotify",
+      "plays": 1
+    },
+    {
+      "name": "Lady Is Love",
+      "artist": "Maurice White",
+      "artist_slug": "maurice-white",
+      "plays": 1
+    },
+    {
+      "name": "Stand By Me",
+      "artist": "Maurice White",
+      "artist_slug": "maurice-white",
+      "plays": 1
+    },
+    {
+      "name": "I Need You",
+      "artist": "Maurice White",
+      "artist_slug": "maurice-white",
+      "plays": 1
+    },
+    {
+      "name": "Bitties in the BK Lounge",
+      "artist": "De La Soul",
+      "artist_slug": "de-la-soul",
+      "plays": 1
+    }
+  ]
+}

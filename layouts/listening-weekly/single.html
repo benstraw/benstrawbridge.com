@@ -1,0 +1,245 @@
+{{ define "main" }}
+{{- $yearKey := .Params.yearDataKey -}}
+{{- $weekKey := .Params.weekDataKey -}}
+{{- $weekData := index (index site.Data.spotify.weekly $yearKey) $weekKey -}}
+{{- $sorted := (.Site.GetPage "/listening/weekly").Pages.ByDate -}}
+{{- $current := . -}}
+{{- $prev := false -}}
+{{- $next := false -}}
+{{- $found := false -}}
+{{- range $sorted -}}
+  {{- if $found -}}{{- if not $next -}}{{- $next = . -}}{{- end -}}{{- end -}}
+  {{- if eq .RelPermalink $current.RelPermalink -}}{{- $found = true -}}{{- end -}}
+  {{- if not $found -}}{{- $prev = . -}}{{- end -}}
+{{- end -}}
+
+{{- $heroImg := dict -}}
+{{- range $weekData.topArtistImages -}}
+  {{- if gt .width ($heroImg.width | default 0) -}}{{- $heroImg = . -}}{{- end -}}
+{{- end -}}
+
+{{- $topArtistSlug := "" -}}
+{{- with $weekData.top_artists -}}
+  {{- $topArtistSlug = (index . 0).slug -}}
+{{- end -}}
+
+{{- $maxPlays := 1 -}}
+{{- with $weekData.top_artists -}}
+  {{- $maxPlays = (index . 0).plays -}}
+{{- end -}}
+
+{{- $topArtists  := first 8  $weekData.top_artists -}}
+{{- $moreArtists := after 8  $weekData.top_artists -}}
+{{- $topTracks   := first 12 $weekData.top_tracks  -}}
+{{- $moreTracks  := after 12 $weekData.top_tracks  -}}
+
+<style>
+  .wk-notch-lg { clip-path: polygon(0 0, calc(100% - 28px) 0, 100% 28px, 100% 100%, 28px 100%, 0 calc(100% - 28px)); }
+  .wk-notch-md { clip-path: polygon(0 0, calc(100% - 16px) 0, 100% 16px, 100% 100%, 16px 100%, 0 calc(100% - 16px)); }
+  .wk-notch-sm { clip-path: polygon(0 0, calc(100% - 8px)  0, 100% 8px,  100% 100%, 8px  100%, 0 calc(100% - 8px));  }
+  [x-cloak]    { display: none !important; }
+</style>
+
+<div class="px-4 pb-12 mx-auto max-w-screen-xl">
+
+  {{ partial "weeknav.html" (dict "prev" $prev "next" $next) }}
+
+  {{/* ─── HERO ─── */}}
+  <div class="wk-notch-lg mt-5 relative overflow-hidden bg-neutral-900 min-h-[200px]">
+
+    {{- with $heroImg.url -}}
+    <div class="absolute right-0 top-0 bottom-0 w-1/2 md:w-5/12 pointer-events-none select-none">
+      <img src="{{ . }}" alt="{{ $weekData.topArtistName }}" class="w-full h-full object-cover object-top">
+      <div class="absolute inset-0 bg-gradient-to-r from-neutral-900 via-neutral-900/20 to-transparent"></div>
+    </div>
+    {{- end -}}
+
+    <div class="absolute right-4 bottom-0 leading-none font-bold text-white select-none pointer-events-none tabular-nums"
+         style="font-size: clamp(72px, 14vw, 148px); opacity: 0.045;">
+      {{- printf "%02d" ($weekData.week_num | int) -}}
+    </div>
+
+    <div class="relative z-10 px-6 md:px-10 py-8 max-w-xl">
+      <div class="flex items-center gap-2 mb-3">
+        <i class="fab fa-spotify text-emerald-400 text-base shrink-0"></i>
+        <span class="text-neutral-400 text-xs">Spotify history for</span>
+        <span class="text-emerald-400 text-xs font-bold uppercase tracking-[0.18em]">{{ $weekData.week }}</span>
+        <span class="text-neutral-600 text-xs">{{ $weekData.date_start }} – {{ $weekData.date_end }}</span>
+      </div>
+
+      <h1 class="text-white text-2xl md:text-3xl font-bold leading-snug">{{ .Title }}</h1>
+
+      {{- with $topArtistSlug -}}
+      <p class="text-neutral-500 text-sm mt-2">
+        Top artist: <a href="{{ relURL (printf "/listening/artists/%s/" .) }}"
+           class="text-neutral-300 font-semibold hover:text-emerald-400 transition-colors">{{ $weekData.topArtistName }}</a>
+      </p>
+      {{- end -}}
+
+      {{- with $weekData.top_genres -}}
+      <div class="flex flex-wrap gap-1.5 mt-4">
+        {{- range . -}}
+        <a href="{{ relURL (printf "/musical-genres/%s/" (.name | urlize)) }}"
+           class="text-xs bg-white/10 hover:bg-emerald-500/30 text-neutral-300 hover:text-white rounded-full px-2.5 py-1 transition-colors">{{ .name }}</a>
+        {{- end -}}
+      </div>
+      {{- end -}}
+
+      <div class="flex flex-wrap gap-6 md:gap-8 mt-6 pt-6 border-t border-white/10">
+        <div>
+          <div class="text-white text-4xl font-bold tabular-nums leading-none">{{ $weekData.total_plays }}</div>
+          <div class="text-neutral-500 text-xs uppercase tracking-widest mt-1">plays</div>
+        </div>
+        <div>
+          <div class="text-white text-4xl font-bold tabular-nums leading-none">{{ $weekData.unique_artists }}</div>
+          <div class="text-neutral-500 text-xs uppercase tracking-widest mt-1">artists</div>
+        </div>
+        {{- with $weekData.top_tracks -}}
+        <div>
+          <div class="text-white text-4xl font-bold tabular-nums leading-none">{{ len . }}</div>
+          <div class="text-neutral-500 text-xs uppercase tracking-widest mt-1">tracks</div>
+        </div>
+        {{- end -}}
+      </div>
+    </div>
+  </div>
+
+  {{/* ─── ARTISTS + TRACKS ─── */}}
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+
+    {{- with $weekData.top_artists -}}
+    <section class="wk-notch-md bg-neutral-100 dark:bg-neutral-800 p-5"
+             x-data="{ expanded: false }">
+      <div class="flex items-baseline justify-between mb-4">
+        <span class="text-xs font-bold uppercase tracking-[0.18em] text-neutral-500 dark:text-neutral-400">Artists</span>
+        <span class="text-xs text-neutral-400 dark:text-neutral-500 tabular-nums">{{ len . }} this week</span>
+      </div>
+
+      {{- /* First 8 — always visible */ -}}
+      <ol class="space-y-3">
+        {{- range $i, $a := $topArtists -}}
+        {{- $img := dict -}}
+        {{- range $a.images -}}
+          {{- if and (le .width 320) (gt .width ($img.width | default 0)) -}}{{- $img = . -}}{{- end -}}
+        {{- end -}}
+        {{- if and (not $img.url) $a.images (gt (len $a.images) 0) -}}{{- $img = index $a.images 0 -}}{{- end -}}
+        {{- $pct := 0 -}}
+        {{- if gt $maxPlays 0 -}}{{- $pct = div (mul $a.plays 100) $maxPlays -}}{{- end -}}
+        <li class="flex items-center gap-3">
+          <span class="text-xs text-neutral-400 w-5 text-right shrink-0 tabular-nums font-medium">{{ add $i 1 }}</span>
+          <div class="wk-notch-sm w-12 h-12 shrink-0 overflow-hidden bg-neutral-200 dark:bg-neutral-700">
+            {{- with $img.url -}}<img src="{{ . }}" alt="{{ $a.name }}" class="w-full h-full object-cover">
+            {{- else -}}<div class="w-full h-full flex items-center justify-center"><i class="fab fa-spotify text-emerald-400 text-sm"></i></div>{{- end -}}
+          </div>
+          <div class="flex-1 min-w-0">
+            <a href="{{ relURL (printf "/listening/artists/%s/" $a.slug) }}"
+               class="text-sm font-semibold hover:text-emerald-500 transition-colors truncate block leading-snug">{{ $a.name }}</a>
+            <div class="mt-1.5 h-0.5 bg-neutral-200 dark:bg-neutral-700 rounded-full overflow-hidden">
+              <div class="h-full bg-emerald-400 rounded-full" style="width: {{ $pct }}%"></div>
+            </div>
+          </div>
+          <span class="text-xs text-neutral-400 shrink-0 tabular-nums">{{ $a.plays }}×</span>
+        </li>
+        {{- end -}}
+      </ol>
+
+      {{- /* Rest in a single x-show wrapper — only 1 Alpine binding */ -}}
+      {{- with $moreArtists -}}
+      <div x-show="expanded" x-cloak x-transition>
+        <ol class="space-y-3 mt-3">
+          {{- range $i, $a := . -}}
+          {{- $img := dict -}}
+          {{- range $a.images -}}
+            {{- if and (le .width 320) (gt .width ($img.width | default 0)) -}}{{- $img = . -}}{{- end -}}
+          {{- end -}}
+          {{- if and (not $img.url) $a.images (gt (len $a.images) 0) -}}{{- $img = index $a.images 0 -}}{{- end -}}
+          {{- $pct := 0 -}}
+          {{- if gt $maxPlays 0 -}}{{- $pct = div (mul $a.plays 100) $maxPlays -}}{{- end -}}
+          <li class="flex items-center gap-3">
+            <span class="text-xs text-neutral-400 w-5 text-right shrink-0 tabular-nums font-medium">{{ add $i 9 }}</span>
+            <div class="wk-notch-sm w-12 h-12 shrink-0 overflow-hidden bg-neutral-200 dark:bg-neutral-700">
+              {{- with $img.url -}}<img src="{{ . }}" alt="{{ $a.name }}" class="w-full h-full object-cover">
+              {{- else -}}<div class="w-full h-full flex items-center justify-center"><i class="fab fa-spotify text-emerald-400 text-sm"></i></div>{{- end -}}
+            </div>
+            <div class="flex-1 min-w-0">
+              <a href="{{ relURL (printf "/listening/artists/%s/" $a.slug) }}"
+                 class="text-sm font-semibold hover:text-emerald-500 transition-colors truncate block leading-snug">{{ $a.name }}</a>
+              <div class="mt-1.5 h-0.5 bg-neutral-200 dark:bg-neutral-700 rounded-full overflow-hidden">
+                <div class="h-full bg-emerald-400 rounded-full" style="width: {{ $pct }}%"></div>
+              </div>
+            </div>
+            <span class="text-xs text-neutral-400 shrink-0 tabular-nums">{{ $a.plays }}×</span>
+          </li>
+          {{- end -}}
+        </ol>
+      </div>
+      <button @click="expanded = !expanded"
+              class="mt-4 w-full py-2 text-xs font-bold uppercase tracking-[0.18em] text-emerald-500 hover:text-emerald-400 border-t border-neutral-200 dark:border-neutral-700 transition-colors">
+        <span x-show="!expanded">+ {{ len . }} more artists</span>
+        <span x-show="expanded" x-cloak>↑ show fewer</span>
+      </button>
+      {{- end -}}
+    </section>
+    {{- end -}}
+
+    {{- with $weekData.top_tracks -}}
+    <section class="wk-notch-md bg-neutral-100 dark:bg-neutral-800 p-5"
+             x-data="{ expanded: false }">
+      <div class="flex items-baseline justify-between mb-4">
+        <span class="text-xs font-bold uppercase tracking-[0.18em] text-neutral-500 dark:text-neutral-400">Tracks</span>
+        <span class="text-xs text-neutral-400 dark:text-neutral-500 tabular-nums">{{ len . }} this week</span>
+      </div>
+
+      {{- /* First 12 — always visible */ -}}
+      <ol class="divide-y divide-neutral-200 dark:divide-neutral-700">
+        {{- range $i, $t := $topTracks -}}
+        <li class="flex items-start gap-2.5 py-2">
+          <span class="text-xs text-neutral-400 w-5 text-right shrink-0 tabular-nums font-medium mt-0.5">{{ add $i 1 }}</span>
+          <div class="flex-1 min-w-0">
+            <a href="{{ relURL (printf "/listening/artists/%s/" $t.artist_slug) }}"
+               class="text-xs text-neutral-400 dark:text-neutral-500 hover:underline block truncate leading-snug">{{ $t.artist }}</a>
+            <span class="text-sm font-semibold block truncate leading-snug">{{ $t.name }}</span>
+          </div>
+          {{- if gt $t.plays 1 -}}
+          <span class="text-xs text-neutral-400 shrink-0 tabular-nums mt-0.5 bg-neutral-200 dark:bg-neutral-700 rounded px-1.5 py-0.5">×{{ $t.plays }}</span>
+          {{- end -}}
+        </li>
+        {{- end -}}
+      </ol>
+
+      {{- /* Rest in single wrapper */ -}}
+      {{- with $moreTracks -}}
+      <div x-show="expanded" x-cloak x-transition>
+        <ol class="divide-y divide-neutral-200 dark:divide-neutral-700">
+          {{- range $i, $t := . -}}
+          <li class="flex items-start gap-2.5 py-2">
+            <span class="text-xs text-neutral-400 w-5 text-right shrink-0 tabular-nums font-medium mt-0.5">{{ add $i 13 }}</span>
+            <div class="flex-1 min-w-0">
+              <a href="{{ relURL (printf "/listening/artists/%s/" $t.artist_slug) }}"
+                 class="text-xs text-neutral-400 dark:text-neutral-500 hover:underline block truncate leading-snug">{{ $t.artist }}</a>
+              <span class="text-sm font-semibold block truncate leading-snug">{{ $t.name }}</span>
+            </div>
+            {{- if gt $t.plays 1 -}}
+            <span class="text-xs text-neutral-400 shrink-0 tabular-nums mt-0.5 bg-neutral-200 dark:bg-neutral-700 rounded px-1.5 py-0.5">×{{ $t.plays }}</span>
+            {{- end -}}
+          </li>
+          {{- end -}}
+        </ol>
+      </div>
+      <button @click="expanded = !expanded"
+              class="mt-4 w-full py-2 text-xs font-bold uppercase tracking-[0.18em] text-emerald-500 hover:text-emerald-400 border-t border-neutral-200 dark:border-neutral-700 transition-colors">
+        <span x-show="!expanded">+ {{ len . }} more tracks</span>
+        <span x-show="expanded" x-cloak>↑ show fewer</span>
+      </button>
+      {{- end -}}
+    </section>
+    {{- end -}}
+
+  </div>
+
+  <div class="mt-8">
+    {{ partial "weeknav.html" (dict "prev" $prev "next" $next) }}
+  </div>
+
+</div>
+{{ end }}

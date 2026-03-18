@@ -1,0 +1,11 @@
+[[redirects]]
+  from = "/projects/content-adaptors/spotify/"
+  to = "/listening/artists/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/projects/content-adaptors/spotify/*"
+  to = "/listening/artists/:splat"
+  status = 301
+  force = true

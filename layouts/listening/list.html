@@ -1,0 +1,44 @@
+{{ define "main" }}
+<div class="p-2 max-w-screen-xl mx-auto">
+  {{- partial "content-header.html" . -}}
+  <div class="mt-4 prose max-w-none lg:prose-lg dark:prose-invert">
+    {{ .Content }}
+  </div>
+
+  {{- $weeks := where .Site.RegularPages "Type" "listening-weekly" -}}
+  {{- if gt (len $weeks) 0 -}}
+  <section class="mt-8">
+    <h2 class="text-2xl font-bold mb-4">Recent Weeks</h2>
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 gap-4">
+      {{- range first 6 ($weeks.ByDate.Reverse) -}}
+        {{- partial "card-weekly.html" . -}}
+      {{- end -}}
+    </div>
+    {{- if gt (len $weeks) 6 -}}
+    <p class="mt-4 text-sm"><a href="{{ relURL "/listening/weekly/" }}" class="underline">All weekly archives →</a></p>
+    {{- end -}}
+  </section>
+  {{- end -}}
+
+  <section class="mt-8">
+    <h2 class="text-2xl font-bold mb-2">Artists</h2>
+    <p class="text-sm"><a href="{{ relURL "/listening/artists/" }}" class="underline">Browse all {{ len (where .Site.RegularPages "Type" "listening-artist") }} artists →</a></p>
+  </section>
+
+  {{- $snapshot := index site.Data.spotify "snapshot-2024-06" -}}
+  {{- with $snapshot -}}
+  <section class="mt-8 prose max-w-none dark:prose-invert">
+    <h2>June 2024 Snapshot</h2>
+    <p>Top artists from a Spotify API snapshot taken in June 2024, before continuous tracking began.</p>
+    <div class="grid grid-cols-2 sm:grid-cols-4 xl:grid-cols-6 gap-3 not-prose mt-4">
+      {{- range first 12 .items -}}
+      <div class="text-sm text-center p-2 rounded bg-neutral-100 dark:bg-neutral-800">
+        <a href="{{ relURL (printf "/listening/artists/%s/" (.name | urlize)) }}" class="block font-medium hover:underline break-words">{{ .name }}</a>
+        {{- range first 1 .genres -}}<span class="text-xs text-neutral-500">{{ . }}</span>{{- end -}}
+      </div>
+      {{- end -}}
+    </div>
+  </section>
+  {{- end -}}
+</div>
+{{ end }}

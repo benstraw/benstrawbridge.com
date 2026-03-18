@@ -1,0 +1,611 @@
+{
+  "week": "2026-W08",
+  "title": "Week of Feb 16, 2026",
+  "year": 2026,
+  "week_num": 8,
+  "date_start": "2026-02-16",
+  "date_end": "2026-02-22",
+  "total_plays": 44,
+  "unique_artists": 12,
+  "topArtistName": "Crosby, Stills, Nash & Young",
+  "topArtistImages": [
+    {
+      "url": "https://i.scdn.co/image/ab6761610000e5eb4e5018dad07ee004f171d7d3",
+      "height": 640,
+      "width": 640
+    },
+    {
+      "url": "https://i.scdn.co/image/ab676161000051744e5018dad07ee004f171d7d3",
+      "height": 320,
+      "width": 320
+    },
+    {
+      "url": "https://i.scdn.co/image/ab6761610000f1784e5018dad07ee004f171d7d3",
+      "height": 160,
+      "width": 160
+    }
+  ],
+  "top_genres": [
+    {
+      "name": "folk rock",
+      "plays": 15
+    },
+    {
+      "name": "singer-songwriter",
+      "plays": 15
+    },
+    {
+      "name": "classic rock",
+      "plays": 14
+    },
+    {
+      "name": "folk",
+      "plays": 9
+    },
+    {
+      "name": "psychedelic rock",
+      "plays": 6
+    },
+    {
+      "name": "americana",
+      "plays": 5
+    },
+    {
+      "name": "alt country",
+      "plays": 5
+    },
+    {
+      "name": "reggae",
+      "plays": 4
+    },
+    {
+      "name": "roots reggae",
+      "plays": 4
+    },
+    {
+      "name": "g-funk",
+      "plays": 3
+    }
+  ],
+  "top_artists": [
+    {
+      "slug": "crosby-stills-nash-young",
+      "name": "Crosby, Stills, Nash & Young",
+      "plays": 8,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb4e5018dad07ee004f171d7d3",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051744e5018dad07ee004f171d7d3",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1784e5018dad07ee004f171d7d3",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "leonard-cohen",
+      "name": "Leonard Cohen",
+      "plays": 7,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebd09c1295779cfb71683cee99",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174d09c1295779cfb71683cee99",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178d09c1295779cfb71683cee99",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "simon-garfunkel",
+      "name": "Simon & Garfunkel",
+      "plays": 4,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/afde2fdd14f8c8ca23393f257e3a369a234a24b6",
+          "height": 1241,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/3bffe5e67788e9e64a4f8368f1010f20c269d518",
+          "height": 794,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/852145f3972cb8b6c431ca7b1c9d5bc839a8a06a",
+          "height": 248,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/b32f349333d0710b002b0439fc504558e46bcb07",
+          "height": 79,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "john-prine",
+      "name": "John Prine",
+      "plays": 4,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebf109851845669becdc5c63f6",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174f109851845669becdc5c63f6",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178f109851845669becdc5c63f6",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "bob-marley-the-wailers",
+      "name": "Bob Marley & The Wailers",
+      "plays": 4,
+      "images": [
+        {
+          "height": 858,
+          "url": "https://i.scdn.co/image/b5aae2067db80f694a980e596e7f49618c1206c9",
+          "width": 1000
+        },
+        {
+          "height": 549,
+          "url": "https://i.scdn.co/image/4cd57e5e12ea2c24644c40886d65a9b22eca9802",
+          "width": 640
+        },
+        {
+          "height": 172,
+          "url": "https://i.scdn.co/image/02fd758d9805ef44d1caafc35ff17a47f9dff098",
+          "width": 200
+        },
+        {
+          "height": 55,
+          "url": "https://i.scdn.co/image/357fe6ef3655b1b33855e33546e3c174a38a1a36",
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "dj-king-assassin",
+      "name": "DJ King Assassin",
+      "plays": 3,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb5225e1e29d85e2d55ca1390e",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051745225e1e29d85e2d55ca1390e",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1785225e1e29d85e2d55ca1390e",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "mark-knopfler",
+      "name": "Mark Knopfler",
+      "plays": 3,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb94b957255b1e4d4ddcc470ce",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517494b957255b1e4d4ddcc470ce",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17894b957255b1e4d4ddcc470ce",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "grateful-dead",
+      "name": "Grateful Dead",
+      "plays": 3,
+      "images": [
+        {
+          "height": 697,
+          "url": "https://i.scdn.co/image/bba340d0c2aa4c9cbcbab0a4c3259d8f8e27f0d7",
+          "width": 1000
+        },
+        {
+          "height": 446,
+          "url": "https://i.scdn.co/image/4c000d838221db17a95ec272d79c06560829ab11",
+          "width": 640
+        },
+        {
+          "height": 139,
+          "url": "https://i.scdn.co/image/055f1232a2588ace9747002f972be62ecbb74e92",
+          "width": 199
+        },
+        {
+          "height": 45,
+          "url": "https://i.scdn.co/image/264413e72f38c521bb90e5c5cc3d5c6b5097efdb",
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "neil-young",
+      "name": "Neil Young",
+      "plays": 3,
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebbae8276dffd864ebac759b76",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174bae8276dffd864ebac759b76",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178bae8276dffd864ebac759b76",
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "the-beatles",
+      "name": "The Beatles",
+      "plays": 3,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebe9348cc01ff5d55971b22433",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174e9348cc01ff5d55971b22433",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178e9348cc01ff5d55971b22433",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "jid",
+      "name": "JID",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb02e4e47e711e07e363ecc6e0",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517402e4e47e711e07e363ecc6e0",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17802e4e47e711e07e363ecc6e0",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "emmylou-harris",
+      "name": "Emmylou Harris",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/41d9dddfce358cc92f8c1285ba1174c05e68af5b",
+          "height": 252,
+          "width": 338
+        },
+        {
+          "url": "https://i.scdn.co/image/4977208df13cec764b40cedb99d3c1ec16c62b15",
+          "height": 149,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/d94dd0319fd89900c586aeed7e22b485e91b12e2",
+          "height": 48,
+          "width": 64
+        }
+      ]
+    }
+  ],
+  "top_tracks": [
+    {
+      "name": "A Thousand Kisses Deep",
+      "artist": "Leonard Cohen",
+      "artist_slug": "leonard-cohen",
+      "plays": 2
+    },
+    {
+      "name": "HEY TONY!",
+      "artist": "JID",
+      "artist_slug": "jid",
+      "plays": 1
+    },
+    {
+      "name": "War Gamez - Loc-01 Remix",
+      "artist": "DJ King Assassin",
+      "artist_slug": "dj-king-assassin",
+      "plays": 1
+    },
+    {
+      "name": "NeWest - Extended Version",
+      "artist": "DJ King Assassin",
+      "artist_slug": "dj-king-assassin",
+      "plays": 1
+    },
+    {
+      "name": "Livin the Thug Life",
+      "artist": "DJ King Assassin",
+      "artist_slug": "dj-king-assassin",
+      "plays": 1
+    },
+    {
+      "name": "Chicago - Live",
+      "artist": "Crosby, Stills, Nash & Young",
+      "artist_slug": "crosby-stills-nash-young",
+      "plays": 1
+    },
+    {
+      "name": "Bookends Theme - Reprise",
+      "artist": "Simon & Garfunkel",
+      "artist_slug": "simon-garfunkel",
+      "plays": 1
+    },
+    {
+      "name": "The Only Living Boy in New York",
+      "artist": "Simon & Garfunkel",
+      "artist_slug": "simon-garfunkel",
+      "plays": 1
+    },
+    {
+      "name": "Clear Blue Skies",
+      "artist": "Crosby, Stills, Nash & Young",
+      "artist_slug": "crosby-stills-nash-young",
+      "plays": 1
+    },
+    {
+      "name": "Beyond My Wildest Dreams",
+      "artist": "Mark Knopfler",
+      "artist_slug": "mark-knopfler",
+      "plays": 1
+    },
+    {
+      "name": "Ramble on Rose (Live at the Strand Lyceum, London, England, 5/26/72) - 2001 Remaster",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "Heading West",
+      "artist": "Neil Young",
+      "artist_slug": "neil-young",
+      "plays": 1
+    },
+    {
+      "name": "Glory of True Love",
+      "artist": "John Prine",
+      "artist_slug": "john-prine",
+      "plays": 1
+    },
+    {
+      "name": "Old Friends / Bookends Theme - Live in Toledo, OH - November 1969",
+      "artist": "Simon & Garfunkel",
+      "artist_slug": "simon-garfunkel",
+      "plays": 1
+    },
+    {
+      "name": "Get Back - Remastered 2009",
+      "artist": "The Beatles",
+      "artist_slug": "the-beatles",
+      "plays": 1
+    },
+    {
+      "name": "Coming Back to You",
+      "artist": "Leonard Cohen",
+      "artist_slug": "leonard-cohen",
+      "plays": 1
+    },
+    {
+      "name": "Cassidy - Live",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "Casey Jones - 2013 Remaster",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "Like a Hurricane - 2016 Remaster",
+      "artist": "Neil Young",
+      "artist_slug": "neil-young",
+      "plays": 1
+    },
+    {
+      "name": "Love and Happiness",
+      "artist": "Mark Knopfler",
+      "artist_slug": "mark-knopfler",
+      "plays": 1
+    },
+    {
+      "name": "Is This Love",
+      "artist": "Bob Marley & The Wailers",
+      "artist_slug": "bob-marley-the-wailers",
+      "plays": 1
+    },
+    {
+      "name": "Avalanche",
+      "artist": "Leonard Cohen",
+      "artist_slug": "leonard-cohen",
+      "plays": 1
+    },
+    {
+      "name": "Clocks and Spoons",
+      "artist": "John Prine",
+      "artist_slug": "john-prine",
+      "plays": 1
+    },
+    {
+      "name": "Helplessly Hoping",
+      "artist": "Crosby, Stills, Nash & Young",
+      "artist_slug": "crosby-stills-nash-young",
+      "plays": 1
+    },
+    {
+      "name": "Lover Lover Lover",
+      "artist": "Leonard Cohen",
+      "artist_slug": "leonard-cohen",
+      "plays": 1
+    },
+    {
+      "name": "Teach Your Children",
+      "artist": "Crosby, Stills, Nash & Young",
+      "artist_slug": "crosby-stills-nash-young",
+      "plays": 1
+    },
+    {
+      "name": "Stir It Up",
+      "artist": "Bob Marley & The Wailers",
+      "artist_slug": "bob-marley-the-wailers",
+      "plays": 1
+    },
+    {
+      "name": "Eleanor Rigby - Remastered 2009",
+      "artist": "The Beatles",
+      "artist_slug": "the-beatles",
+      "plays": 1
+    },
+    {
+      "name": "Our Shangri-La - Live At Gibson Amphitheatre / June 28th 2006",
+      "artist": "Mark Knopfler",
+      "artist_slug": "mark-knopfler",
+      "plays": 1
+    },
+    {
+      "name": "Winter Lady",
+      "artist": "Leonard Cohen",
+      "artist_slug": "leonard-cohen",
+      "plays": 1
+    },
+    {
+      "name": "Living with War - Theme",
+      "artist": "Crosby, Stills, Nash & Young",
+      "artist_slug": "crosby-stills-nash-young",
+      "plays": 1
+    },
+    {
+      "name": "One of These Days",
+      "artist": "Emmylou Harris",
+      "artist_slug": "emmylou-harris",
+      "plays": 1
+    },
+    {
+      "name": "Buffalo Soldier",
+      "artist": "Bob Marley & The Wailers",
+      "artist_slug": "bob-marley-the-wailers",
+      "plays": 1
+    },
+    {
+      "name": "Zimbabwe",
+      "artist": "Bob Marley & The Wailers",
+      "artist_slug": "bob-marley-the-wailers",
+      "plays": 1
+    },
+    {
+      "name": "Spanish Pipedream",
+      "artist": "John Prine",
+      "artist_slug": "john-prine",
+      "plays": 1
+    },
+    {
+      "name": "Southern Man",
+      "artist": "Neil Young",
+      "artist_slug": "neil-young",
+      "plays": 1
+    },
+    {
+      "name": "Stand and Be Counted",
+      "artist": "Crosby, Stills, Nash & Young",
+      "artist_slug": "crosby-stills-nash-young",
+      "plays": 1
+    },
+    {
+      "name": "Hey, That's No Way to Say Goodbye",
+      "artist": "Leonard Cohen",
+      "artist_slug": "leonard-cohen",
+      "plays": 1
+    },
+    {
+      "name": "Ticket To Ride - Remastered 2009",
+      "artist": "The Beatles",
+      "artist_slug": "the-beatles",
+      "plays": 1
+    },
+    {
+      "name": "Bleecker Street",
+      "artist": "Simon & Garfunkel",
+      "artist_slug": "simon-garfunkel",
+      "plays": 1
+    },
+    {
+      "name": "Don't Let It Bring You Down - Live",
+      "artist": "Crosby, Stills, Nash & Young",
+      "artist_slug": "crosby-stills-nash-young",
+      "plays": 1
+    },
+    {
+      "name": "Helplessly Hoping (Live at Fillmore East, 1969) - 2024 Mix",
+      "artist": "Crosby, Stills, Nash & Young",
+      "artist_slug": "crosby-stills-nash-young",
+      "plays": 1
+    },
+    {
+      "name": "When I Get to Heaven",
+      "artist": "John Prine",
+      "artist_slug": "john-prine",
+      "plays": 1
+    }
+  ]
+}

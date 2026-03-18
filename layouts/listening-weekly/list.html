@@ -1,0 +1,15 @@
+{{ define "main" }}
+<div class="p-2 max-w-screen-xl mx-auto">
+  <header class="max-w-screen-xl prose lg:prose-xl dark:prose-invert">
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+  </header>
+  <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 gap-4 mt-4">
+    {{ $paginator := .Paginate (.Pages.ByDate.Reverse) }}
+    {{ range $paginator.Pages }}
+      {{- partial "card-weekly.html" . -}}
+    {{ end }}
+  </div>
+  {{ template "_internal/pagination.html" . }}
+</div>
+{{ end }}

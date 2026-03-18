@@ -1,0 +1,10 @@
+{{- $prev := .prev -}}{{- $next := .next -}}
+<nav class="flex justify-between items-center py-3 border-y border-neutral-200 dark:border-neutral-700 text-sm">
+  {{- if $prev -}}
+  <a href="{{ $prev.RelPermalink }}" class="hover:underline text-neutral-600 dark:text-neutral-400">← {{ $prev.Title }}</a>
+  {{- else -}}<span></span>{{- end -}}
+  <a href="{{ relURL "/listening/weekly/" }}" class="text-neutral-500 hover:underline">All Weeks</a>
+  {{- if $next -}}
+  <a href="{{ $next.RelPermalink }}" class="hover:underline text-neutral-600 dark:text-neutral-400">{{ $next.Title }} →</a>
+  {{- else -}}<span></span>{{- end -}}
+</nav>

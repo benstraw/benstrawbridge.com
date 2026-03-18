@@ -1,0 +1,28 @@
+{{ range $year, $weeks := site.Data.spotify.weekly }}
+  {{ range $weekId, $week := $weeks }}
+    {{ $date := time.AsTime (printf "%sT00:00:00Z" $week.date_start) }}
+
+    {{ $params := dict
+      "hideAsideBar" true
+      "week" $week.week
+      "weekDataKey" $weekId
+      "yearDataKey" $year
+      "year" $week.year
+      "date_start" $week.date_start
+      "date_end" $week.date_end
+      "total_plays" $week.total_plays
+      "unique_artists" $week.unique_artists
+      "topArtistImages" ($week.topArtistImages | default slice)
+      "topArtistName" $week.topArtistName
+    }}
+    {{ $page := dict
+      "content" (dict "mediaType" "text/markdown" "value" "")
+      "title" $week.title
+      "type" "listening-weekly"
+      "params" $params
+      "path" $weekId
+      "dates" (dict "date" $date)
+    }}
+    {{ $.AddPage $page }}
+  {{ end }}
+{{ end }}

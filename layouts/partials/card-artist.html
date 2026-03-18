@@ -1,0 +1,25 @@
+{{- $images := .Params.spotifyImages | default slice -}}
+{{- $img := dict -}}
+{{- range $images -}}
+  {{- if and (le .width 640) (gt .width ($img.width | default 0)) -}}
+    {{- $img = . -}}
+  {{- end -}}
+{{- end -}}
+{{- if and (not $img.url) (gt (len $images) 0) -}}{{- $img = index $images 0 -}}{{- end -}}
+
+<a href="{{ .RelPermalink }}" class="group flex flex-col rounded-xl overflow-hidden bg-neutral-100 dark:bg-neutral-800 hover:ring-2 hover:ring-emerald-500 transition">
+  <div class="aspect-square w-full overflow-hidden bg-neutral-200 dark:bg-neutral-700">
+    {{- with $img.url -}}
+    <img src="{{ . }}" width="{{ $img.width }}" height="{{ $img.height }}" alt="{{ $.Title }}"
+         class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+    {{- else -}}
+    <div class="w-full h-full flex items-center justify-center text-neutral-400 dark:text-neutral-500">
+      <i class="fab fa-spotify text-4xl text-emerald-400"></i>
+    </div>
+    {{- end -}}
+  </div>
+  <div class="p-2">
+    <p class="font-semibold text-sm truncate text-neutral-900 dark:text-neutral-100">{{ .Title }}</p>
+    <p class="text-xs text-neutral-500 dark:text-neutral-400">{{ .Params.total_plays | int }} plays</p>
+  </div>
+</a>

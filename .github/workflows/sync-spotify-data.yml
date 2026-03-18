@@ -1,0 +1,48 @@
+name: Sync Spotify Data
+
+on:
+  schedule:
+    # Every Monday at 06:00 UTC (Sunday night Pacific)
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout website repo
+        uses: actions/checkout@v4
+        with:
+          path: website
+
+      - name: Checkout obsidian-spotify-garden
+        uses: actions/checkout@v4
+        with:
+          repository: benstraw/obsidian-spotify-garden
+          path: obsidian-spotify-garden
+          token: ${{ secrets.GARDEN_REPO_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run sync
+        run: |
+          bash website/scripts/sync-spotify-data.sh ${{ github.workspace }}/obsidian-spotify-garden
+
+      - name: Commit and push
+        working-directory: website
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/spotify/
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "spotify: sync play data $(date -u +%Y-%m-%d)"
+            git push
+          fi
