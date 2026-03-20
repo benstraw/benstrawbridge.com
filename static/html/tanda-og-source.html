@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tanda Memorial OG Source</title>
+<link rel="stylesheet" href="./tanda-inline-fonts.css">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html, body {
+    width: 1200px;
+    height: 630px;
+    background: #0a0a0a;
+    overflow: hidden;
+  }
+
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Spectral', serif;
+    color: #e8e4df;
+  }
+
+  .card {
+    position: relative;
+    width: 1200px;
+    height: 630px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .card::before {
+    content: '';
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 140%;
+    height: 140%;
+    transform: translate(-50%, -50%);
+    background: radial-gradient(
+      ellipse at center,
+      rgba(218, 195, 160, 0.08) 0%,
+      rgba(180, 160, 130, 0.04) 30%,
+      rgba(100, 90, 70, 0.01) 55%,
+      transparent 75%
+    );
+    pointer-events: none;
+  }
+
+  .content {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(18px);
+  }
+
+  .divider-lower {
+    width: 54px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(200, 180, 150, 0.3), transparent);
+    margin-top: 0;
+    margin-bottom: 2rem;
+  }
+
+  .quote-final {
+    display: block;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 3.35rem;
+    letter-spacing: 0.12em;
+    color: rgba(228, 210, 180, 0.9);
+    margin-bottom: 2rem;
+  }
+
+  .attribution {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 2rem;
+    letter-spacing: 0.06em;
+    color: rgba(200, 180, 150, 0.55);
+  }
+
+  .attribution::before {
+    content: '— ';
+  }
+
+  .name {
+    margin-top: 2rem;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 0.32em;
+    text-transform: uppercase;
+    color: rgba(160, 145, 120, 0.45);
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="content">
+      <div class="divider-lower"></div>
+      <span class="quote-final">Light, light, limitless light</span>
+      <div class="attribution">Tanda Tajashian</div>
+      <div class="name">In memory of Tanda Tajashian</div>
+    </div>
+  </div>
+</body>
+</html>
