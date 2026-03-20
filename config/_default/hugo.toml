@@ -29,9 +29,8 @@ copyright = '<i class="fa-regular fa-copyright"></i>  2026 benstrawbridge.com'
   showShareButtons = true
   showSummaryMeta = false
   og_image_default = '/images/og/og_image_default.jpg'
-  logo_png = '/images/bs_full_wordmark.png'
-  logo_firstWord = 'ben'
-  logo_lastWord = 'strawbridge'
+logo_firstWord = 'Ben'
+  logo_lastWord = 'Strawbridge'
   logo_tagline = "DOT COM CONSULTING"
   logo_fontClass = 'font-titillium'
   repository = "https://github.com/benstraw/benstrawbridge.com"

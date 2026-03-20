@@ -2,9 +2,12 @@ const defaultTheme = require("tailwindcss/defaultTheme");
 const typography = require('@tailwindcss/typography');
 
 module.exports = {
-  content: [ 
+  content: [
     "./hugo_stats.json",
-    "./config/**/*.toml"
+    "./config/**/*.toml",
+    "./themes/ryder/layouts/**/*.html",
+    "./layouts/**/*.html",
+    "./content/**/*.md",
   ],
   darkMode: 'class',
   theme: {
