@@ -2,7 +2,12 @@ const CACHE_NAME = "tanda-memorial-v1";
 const APP_SHELL = [
   "./",
   "./index.html",
-  "./tanda.webmanifest",
+  "./site.webmanifest",
+  "./favicon.svg",
+  "./favicon-96x96.png",
+  "./favicon.ico",
+  "./web-app-manifest-192x192.png",
+  "./web-app-manifest-512x512.png",
   "./tanda-og.png",
   "./tanda-icon-192.png",
   "./tanda-icon-512.png",
