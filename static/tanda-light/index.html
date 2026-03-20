@@ -148,6 +148,7 @@
     object-position: top center;
     filter: grayscale(15%) contrast(0.95) brightness(0.95);
     transition: filter 2s ease;
+    cursor: zoom-in;
   }
 
   .photo-frame:hover img {
@@ -222,7 +223,7 @@
     font-style: italic;
     font-size: 1rem;
     letter-spacing: 0.06em;
-    color: rgba(200, 180, 150, 0.55);
+    color: #d4c2a8;
     animation: lineReveal 2s ease-out both;
     animation-delay: 3.6s;
   }
@@ -237,7 +238,7 @@
     font-size: 0.75rem;
     letter-spacing: 0.32em;
     text-transform: uppercase;
-    color: rgba(160, 145, 120, 0.45);
+    color: #c4b59c;
     animation: lineReveal 2s ease-out both;
     animation-delay: 4.2s;
   }
@@ -379,6 +380,41 @@
     display: none;
   }
 
+  .photo-zoom {
+    position: fixed;
+    inset: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 1.25rem;
+    background: rgba(10, 10, 10, 0.92);
+    z-index: 20;
+  }
+
+  .photo-zoom.open {
+    display: flex;
+  }
+
+  .photo-zoom img {
+    max-width: min(92vw, 960px);
+    max-height: 90vh;
+    object-fit: contain;
+    box-shadow: 0 18px 60px rgba(0, 0, 0, 0.45);
+  }
+
+  .photo-zoom-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    border: 0;
+    background: transparent;
+    color: rgba(232, 228, 223, 0.9);
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2rem;
+    line-height: 1;
+    cursor: pointer;
+  }
+
   .photo-frame img:not(.hidden) + .photo-placeholder {
     display: none;
   }
@@ -448,6 +484,11 @@
   </div>
 </div>
 
+<div id="photoZoom" class="photo-zoom" aria-hidden="true">
+  <button id="photoZoomClose" class="photo-zoom-close" type="button" aria-label="Close zoomed image">&times;</button>
+  <img id="photoZoomImage" alt="Zoomed portrait of Tanda Tashjian">
+</div>
+
 <script>
   let deferredInstallPrompt = null;
 
@@ -460,11 +501,41 @@
       img.src = e.target.result;
       img.classList.remove('hidden');
       document.getElementById('placeholder').classList.add('has-image');
+      document.getElementById('photoZoomImage').src = e.target.result;
     };
     reader.readAsDataURL(file);
   }
 
   const installButton = document.getElementById('installButton');
+  const photo = document.getElementById('photo');
+  const photoZoom = document.getElementById('photoZoom');
+  const photoZoomImage = document.getElementById('photoZoomImage');
+  const photoZoomClose = document.getElementById('photoZoomClose');
+
+  function openPhotoZoom() {
+    if (!photo.src || photo.classList.contains('hidden')) return;
+    photoZoomImage.src = photo.src;
+    photoZoom.classList.add('open');
+    photoZoom.setAttribute('aria-hidden', 'false');
+  }
+
+  function closePhotoZoom() {
+    photoZoom.classList.remove('open');
+    photoZoom.setAttribute('aria-hidden', 'true');
+  }
+
+  photo.addEventListener('click', openPhotoZoom);
+  photoZoomClose.addEventListener('click', closePhotoZoom);
+  photoZoom.addEventListener('click', function(event) {
+    if (event.target === photoZoom) {
+      closePhotoZoom();
+    }
+  });
+  window.addEventListener('keydown', function(event) {
+    if (event.key === 'Escape') {
+      closePhotoZoom();
+    }
+  });
 
   window.addEventListener('beforeinstallprompt', function(event) {
     event.preventDefault();
