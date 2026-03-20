@@ -1,7 +1,7 @@
 const CACHE_NAME = "tanda-memorial-v1";
 const APP_SHELL = [
   "./",
-  "./Tanda-Tashjian_Light-Light-Limitless-Light.html",
+  "./index.html",
   "./tanda.webmanifest",
   "./tanda-og.png",
   "./tanda-icon-192.png",
@@ -45,7 +45,7 @@ self.addEventListener("fetch", (event) => {
         const responseClone = networkResponse.clone();
         caches.open(CACHE_NAME).then((cache) => cache.put(event.request, responseClone));
         return networkResponse;
-      }).catch(() => caches.match("./Tanda-Tashjian_Light-Light-Limitless-Light.html"));
+      }).catch(() => caches.match("./index.html"));
     })
   );
 });
