@@ -43,6 +43,22 @@
 
 <script>
 (function() {
+  // leaflet-gpx only fires its callback on xhr.status === 200.
+  // After the first visit the GPX is cached and returns 304, silently breaking the map.
+  // fetch() exposes cached responses as 200 to JS, fixing this.
+  L.GPX.prototype._load_xml = function(url, cb, options, async) {
+    if (options == null) options = this.options;
+    var self = this;
+    fetch(url)
+      .then(function(res) { return res.text(); })
+      .then(function(text) {
+        cb(new DOMParser().parseFromString(text, 'text/xml'), options);
+      })
+      .catch(function() {
+        self.fire('error', { err: 'Failed to load GPX' });
+      });
+  };
+
   var map = L.map('tour-map', { scrollWheelZoom: false });
 
   var baseLayer = L.tileLayer(
