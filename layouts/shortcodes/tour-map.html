@@ -49,7 +49,7 @@
   L.GPX.prototype._load_xml = function(url, cb, options, async) {
     if (options == null) options = this.options;
     var self = this;
-    fetch(url)
+    fetch(url, { cache: 'no-store' })
       .then(function(res) { return res.text(); })
       .then(function(text) {
         cb(new DOMParser().parseFromString(text, 'text/xml'), options);

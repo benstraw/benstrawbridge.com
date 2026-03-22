@@ -7,6 +7,7 @@ description = "Self-guided hiking and walking tour guides for Los Angeles — wi
   weight = 5
   identifier = "Trails"
 [cascade]
+  loadLeaflet = false
   logo_tagline = "HIKING MAPS AND GUIDES"
   cardCategoryColorsDefault = "bg-gradient-to-r from-blue-600 to-violet-600 text-neutral-200"
   [cascade.twClasses]
