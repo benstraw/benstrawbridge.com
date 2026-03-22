@@ -116,3 +116,40 @@ Root-level `layouts/` contains section-specific overrides:
 - Site uses Hugo's timeout of 60s for longer builds
 - Timezone set to `America/Los_Angeles`
 - Minimum Hugo version: 0.121.1 (non-extended)
+
+## TODO (for Claude — pending after PR merge)
+
+### GPX map feature — next steps on laptop
+
+The `leaflet-gpx` shortcode and `extend_head.html` partial were added in the
+`claude/read-instructions-cP38E` PR. To make them useful, the following still needs
+to happen locally:
+
+#### 1. Add the GPX spec / requirements file
+If there is a written spec or design doc for the GPX map feature (e.g. a Markdown
+file describing which hikes need maps, expected UX, elevation display, etc.),
+copy it into the repo so it can be read and acted on:
+```
+docs/gpx-maps-spec.md   ← suggested location
+```
+Then ask Claude to read it and implement whatever is still outstanding.
+
+#### 2. Add GPX data files
+GPX tracks belong in `static/tracks/` so Hugo serves them at `/tracks/<file>.gpx`:
+```bash
+mkdir -p static/tracks
+cp ~/path/to/your/*.gpx static/tracks/
+```
+Name files descriptively, e.g. `ballona-wetlands.gpx`, `bluff-trail.gpx`.
+
+#### 3. Wire up shortcode on hiking pages
+For each hiking page that should show a track, add to frontmatter:
+```toml
+gpxFile = "/tracks/your-trail.gpx"
+```
+And place the shortcode in the body:
+```
+{{< leaflet-gpx id="trail-map" gpxFile="/tracks/your-trail.gpx" >}}
+```
+The `gpxFile` frontmatter param triggers a `<link rel="preload">` in `<head>` via
+`layouts/partials/extend_head.html`; the shortcode handles fetch + parse + render.
