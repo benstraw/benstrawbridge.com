@@ -38,6 +38,34 @@
     </button>
   </div>
 </div>
+{{ if $isHike }}
+<style>
+  #elev-wrap {
+    position: relative; left: 50%; transform: translateX(-50%);
+    width: 100vw; background: #f9fafb; border-top: 1px solid #e5e7eb;
+  }
+  #elev-hdr {
+    display: flex; align-items: center; gap: 12px;
+    padding: 7px 16px 3px;
+    font-family: ui-monospace, 'Cascadia Code', monospace; font-size: 11px; letter-spacing: .03em;
+  }
+  #elev-label { font-weight: 700; color: #2D6A4F; text-transform: uppercase; letter-spacing: .06em; }
+  #elev-stat { color: #6b7280; }
+  #elev-cursor-info { margin-left: auto; color: #374151; font-weight: 600; }
+  #elev-canvas-wrap { padding: 0 12px 10px; }
+  #elev-canvas { width: 100%; height: 120px; display: block; cursor: crosshair; }
+</style>
+<div id="elev-wrap">
+  <div id="elev-hdr">
+    <span id="elev-label">Elevation</span>
+    <span id="elev-stat">Loading…</span>
+    <span id="elev-cursor-info"></span>
+  </div>
+  <div id="elev-canvas-wrap">
+    <canvas id="elev-canvas"></canvas>
+  </div>
+</div>
+{{ end }}
 <script src="/js/leaflet.1.9.4.js"></script>
 <script src="/js/leaflet-gpx.1.7.0.js"></script>
 
@@ -143,6 +171,166 @@
 
   var overviewBounds = null;
 
+  {{ if $isHike }}
+  // ── ELEVATION PROFILE ────────────────────────────────────────────────────
+  var elevDrawPts = null, elevHoverMark = null;
+  var EPAD = { l: 44, r: 10, t: 6, b: 18 };
+
+  function _haversineM(a, b) {
+    var R = 6371000, rad = Math.PI / 180;
+    var dlat = (b.lat - a.lat) * rad, dlon = (b.lon - a.lon) * rad;
+    var s = Math.sin(dlat/2)*Math.sin(dlat/2) + Math.cos(a.lat*rad)*Math.cos(b.lat*rad)*Math.sin(dlon/2)*Math.sin(dlon/2);
+    return R * 2 * Math.atan2(Math.sqrt(s), Math.sqrt(1-s));
+  }
+
+  function _parseElevPts(text) {
+    var doc = new DOMParser().parseFromString(text, 'application/xml');
+    var trkpts = doc.getElementsByTagName('trkpt');
+    var pts = [], distM = 0;
+    for (var i = 0; i < trkpts.length; i++) {
+      var p = trkpts[i];
+      var lat = +p.getAttribute('lat'), lon = +p.getAttribute('lon');
+      var eleEl = p.getElementsByTagName('ele')[0];
+      var eleFt = eleEl ? +eleEl.textContent * 3.28084 : 0;
+      if (i > 0) distM += _haversineM(pts[i-1], { lat: lat, lon: lon });
+      pts.push({ lat: lat, lon: lon, eleFt: eleFt, distMi: distM / 1609.34 });
+    }
+    return pts;
+  }
+
+  function _elevGain(pts) {
+    var gain = 0;
+    for (var i = 1; i < pts.length; i++) {
+      var d = pts[i].eleFt - pts[i-1].eleFt;
+      if (d > 0) gain += d;
+    }
+    return Math.round(gain);
+  }
+
+  function _downsample(pts, n) {
+    if (pts.length <= n) return pts;
+    var step = (pts.length - 1) / (n - 1);
+    return Array.from({ length: n }, function(_, i) { return pts[Math.round(i * step)]; });
+  }
+
+  function _renderElev(pts, hoverIdx) {
+    var canvas = document.getElementById('elev-canvas');
+    if (!canvas || !pts || !pts.length) return;
+    var W = canvas.offsetWidth, H = canvas.offsetHeight;
+    if (!W || !H) return;
+    var dpr = window.devicePixelRatio || 1;
+    canvas.width = W * dpr; canvas.height = H * dpr;
+    var ctx = canvas.getContext('2d');
+    ctx.scale(dpr, dpr);
+    var minE = pts.reduce(function(m,p) { return Math.min(m, p.eleFt); }, Infinity);
+    var maxE = pts.reduce(function(m,p) { return Math.max(m, p.eleFt); }, -Infinity);
+    var maxD = pts[pts.length-1].distMi;
+    var eRange = (maxE - minE) || 1;
+    var w = W - EPAD.l - EPAD.r, h = H - EPAD.t - EPAD.b;
+    function xOf(d) { return EPAD.l + (d / maxD) * w; }
+    function yOf(e) { return EPAD.t + h - ((e - minE) / eRange) * h; }
+    // Grid + y labels
+    ctx.font = '9px ui-monospace, monospace';
+    ctx.textBaseline = 'middle';
+    for (var gi = 0; gi <= 3; gi++) {
+      var ge = minE + eRange * gi / 3, gy = yOf(ge);
+      ctx.beginPath(); ctx.moveTo(EPAD.l, gy); ctx.lineTo(W - EPAD.r, gy);
+      ctx.strokeStyle = 'rgba(0,0,0,0.07)'; ctx.lineWidth = 1; ctx.stroke();
+      ctx.fillStyle = '#9ca3af'; ctx.textAlign = 'right';
+      ctx.fillText(Math.round(ge / 100) * 100 + "'", EPAD.l - 4, gy);
+    }
+    // Area fill
+    ctx.beginPath();
+    ctx.moveTo(xOf(pts[0].distMi), H - EPAD.b);
+    pts.forEach(function(p) { ctx.lineTo(xOf(p.distMi), yOf(p.eleFt)); });
+    ctx.lineTo(xOf(maxD), H - EPAD.b);
+    ctx.closePath();
+    var grad = ctx.createLinearGradient(0, EPAD.t, 0, H - EPAD.b);
+    grad.addColorStop(0, 'rgba(45,106,79,0.25)');
+    grad.addColorStop(1, 'rgba(45,106,79,0.04)');
+    ctx.fillStyle = grad; ctx.fill();
+    // Line
+    ctx.beginPath();
+    pts.forEach(function(p, i) {
+      if (i === 0) ctx.moveTo(xOf(p.distMi), yOf(p.eleFt));
+      else ctx.lineTo(xOf(p.distMi), yOf(p.eleFt));
+    });
+    ctx.strokeStyle = '#2D6A4F'; ctx.lineWidth = 1.5; ctx.lineJoin = 'round'; ctx.stroke();
+    // Distance ticks
+    ctx.fillStyle = '#9ca3af'; ctx.textAlign = 'center'; ctx.textBaseline = 'bottom';
+    var tickStep = maxD > 15 ? 5 : maxD > 6 ? 2 : 1;
+    for (var td = 0; td <= maxD; td += tickStep) {
+      ctx.fillText(td + 'mi', xOf(td), H - 2);
+    }
+    // Hover cursor
+    if (hoverIdx != null) {
+      var hp = pts[hoverIdx];
+      var cx = xOf(hp.distMi), cy = yOf(hp.eleFt);
+      ctx.beginPath(); ctx.moveTo(cx, EPAD.t); ctx.lineTo(cx, H - EPAD.b);
+      ctx.strokeStyle = 'rgba(45,106,79,0.4)'; ctx.lineWidth = 1;
+      ctx.setLineDash([3,3]); ctx.stroke(); ctx.setLineDash([]);
+      ctx.beginPath(); ctx.arc(cx, cy, 4, 0, Math.PI*2);
+      ctx.fillStyle = '#2D6A4F'; ctx.fill();
+      ctx.strokeStyle = '#fff'; ctx.lineWidth = 1.5; ctx.stroke();
+    }
+  }
+
+  function _elevBsearch(pts, targetDist) {
+    var lo = 0, hi = pts.length - 1;
+    while (lo < hi) { var mid = (lo+hi)>>1; if (pts[mid].distMi < targetDist) lo = mid+1; else hi = mid; }
+    return lo;
+  }
+
+  function loadElevProfile(url) {
+    fetch(url, { cache: 'force-cache' })
+      .then(function(r) { return r.text(); })
+      .then(function(text) {
+        var allPts = _parseElevPts(text);
+        if (!allPts.length) return;
+        var gain = _elevGain(allPts);
+        var maxE = allPts.reduce(function(m,p){return Math.max(m,p.eleFt);},-Infinity);
+        var maxD = allPts[allPts.length-1].distMi;
+        var stat = document.getElementById('elev-stat');
+        if (stat) stat.textContent = maxD.toFixed(1) + ' mi · +' + gain.toLocaleString() + '\' gain · peak ' + Math.round(maxE).toLocaleString() + '\'';
+        elevDrawPts = _downsample(allPts, 600);
+        _renderElev(elevDrawPts, null);
+      });
+  }
+
+  var _ec = document.getElementById('elev-canvas');
+  if (_ec) {
+    _ec.addEventListener('mousemove', function(e) {
+      if (!elevDrawPts) return;
+      var rect = _ec.getBoundingClientRect();
+      var maxD = elevDrawPts[elevDrawPts.length-1].distMi;
+      var ratio = (e.clientX - rect.left - EPAD.l) / (rect.width - EPAD.l - EPAD.r);
+      if (ratio < 0 || ratio > 1) { _ec.dispatchEvent(new Event('mouseleave')); return; }
+      var idx = _elevBsearch(elevDrawPts, ratio * maxD);
+      var pt = elevDrawPts[idx];
+      _renderElev(elevDrawPts, idx);
+      var info = document.getElementById('elev-cursor-info');
+      if (info) info.textContent = pt.distMi.toFixed(1) + ' mi · ' + Math.round(pt.eleFt).toLocaleString() + '\'';
+      if (!elevHoverMark) {
+        elevHoverMark = L.marker([0,0], {
+          icon: L.divIcon({
+            className: '',
+            html: '<div style="width:10px;height:10px;border-radius:50%;background:#fff;border:2.5px solid #2D6A4F;box-shadow:0 0 6px rgba(45,106,79,0.6);pointer-events:none"></div>',
+            iconSize: [10,10], iconAnchor: [5,5]
+          }), zIndexOffset: 9999
+        });
+      }
+      elevHoverMark.setLatLng([pt.lat, pt.lon]);
+      if (!map.hasLayer(elevHoverMark)) elevHoverMark.addTo(map);
+    });
+    _ec.addEventListener('mouseleave', function() {
+      if (elevDrawPts) _renderElev(elevDrawPts, null);
+      var info = document.getElementById('elev-cursor-info');
+      if (info) info.textContent = '';
+      if (elevHoverMark && map.hasLayer(elevHoverMark)) elevHoverMark.remove();
+    });
+  }
+  {{ end }}
+
   new L.GPX('/trails/{{ $tourSlug }}/{{ $gpx }}', {
     async: true,
     marker_options: {
@@ -159,6 +347,7 @@
       map.fitBounds(bounds, { padding: [40, 40] });
       overviewBounds = bounds;
     }
+    {{ if $isHike }}loadElevProfile('/trails/{{ $tourSlug }}/{{ $gpx }}');{{ end }}
   }).on('error', function() {
     map.setView([{{ $fallbackLat }}, {{ $fallbackLon }}], 14);
   }).addTo(map);
