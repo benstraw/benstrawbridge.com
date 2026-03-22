@@ -3,6 +3,7 @@ title = 'Hiking'
 date = 2024-03-13T11:21:29-07:00
 listRecursive = true
 [cascade]
+  loadLeaflet = true
   categories = ["hiking"]
   sectionTitle = "Hiking on BenStrawbridge.com"
   logo_tagline = "HIKING MAPS AND GUIDES"

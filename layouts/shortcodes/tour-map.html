@@ -283,7 +283,7 @@
 
   function _trimOutAndBack(pts) {
     if (pts.length < 10) return pts;
-    // If end is far from start, it's one-way — show all
+    // One-way hike: end is far from start — show all
     if (_haversineM(pts[0], pts[pts.length-1]) > 500) return pts;
     // Find the turnaround: point farthest from the start
     var maxDist = 0, maxIdx = 0;
@@ -291,10 +291,20 @@
       var d = _haversineM(pts[0], pts[i]);
       if (d > maxDist) { maxDist = d; maxIdx = i; }
     }
-    // Only trim if turnaround is roughly central (35–65%) — rules out asymmetric loops
-    var ratio = maxIdx / (pts.length - 1);
-    if (ratio < 0.35 || ratio > 0.65) return pts;
-    return pts.slice(0, maxIdx + 1);
+    if (maxIdx === 0 || maxIdx >= pts.length - 1) return pts;
+    // After the turnaround, find the first point within 200m of the start.
+    // This clips extra GPS recording after the hiker returns to the trailhead
+    // while still showing the full round-trip (ascent + descent).
+    // For loops, the path never retraces the outward leg, so the "return near
+    // start" falls near the very end — showing the full loop.
+    var returnIdx = pts.length - 1;
+    for (var i = maxIdx + 1; i < pts.length; i++) {
+      if (_haversineM(pts[0], pts[i]) < 200) {
+        returnIdx = i;
+        break;
+      }
+    }
+    return pts.slice(0, returnIdx + 1);
   }
 
   function loadElevProfile(url) {
