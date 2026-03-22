@@ -134,6 +134,9 @@
                   <i class="fa-regular fa-calendar mr-1"></i>
                   <span x-text="link.dateFormatted"></span>
                 </span>
+                <a :href="link.permalink" class="text-neutral-400 hover:text-rose-500" title="Permalink">
+                  <i class="fa-solid fa-link"></i>
+                </a>
                 <template x-for="tag in link.tags" :key="tag">
                   <span
                     class="px-2 py-0.5 bg-neutral-100 text-neutral-600 dark:bg-neutral-800 dark:text-neutral-400 rounded"
