@@ -185,15 +185,27 @@
 
   function _parseElevPts(text) {
     var doc = new DOMParser().parseFromString(text, 'application/xml');
-    var trkpts = doc.getElementsByTagName('trkpt');
-    var pts = [], distM = 0;
-    for (var i = 0; i < trkpts.length; i++) {
-      var p = trkpts[i];
-      var lat = +p.getAttribute('lat'), lon = +p.getAttribute('lon');
-      var eleEl = p.getElementsByTagName('ele')[0];
-      var eleFt = eleEl ? +eleEl.textContent * 3.28084 : 0;
-      if (i > 0) distM += _haversineM(pts[i-1], { lat: lat, lon: lon });
-      pts.push({ lat: lat, lon: lon, eleFt: eleFt, distMi: distM / 1609.34 });
+    var segs = doc.getElementsByTagName('trkseg');
+    var pts = [], distM = 0, usedStarts = [];
+    for (var s = 0; s < segs.length; s++) {
+      var trkpts = segs[s].getElementsByTagName('trkpt');
+      if (!trkpts.length) continue;
+      // Skip segments that start within 50m of a previously-used segment start
+      // (handles GPX files where the full track is accidentally duplicated)
+      var segStart = { lat: +trkpts[0].getAttribute('lat'), lon: +trkpts[0].getAttribute('lon') };
+      var isDupe = usedStarts.some(function(prev) { return _haversineM(prev, segStart) < 50; });
+      if (isDupe) continue;
+      usedStarts.push(segStart);
+      for (var i = 0; i < trkpts.length; i++) {
+        var p = trkpts[i];
+        var lat = +p.getAttribute('lat'), lon = +p.getAttribute('lon');
+        var eleEl = p.getElementsByTagName('ele')[0];
+        var eleFt = eleEl ? +eleEl.textContent * 3.28084 : 0;
+        var pt = { lat: lat, lon: lon, eleFt: eleFt };
+        if (pts.length) distM += _haversineM(pts[pts.length-1], pt);
+        pt.distMi = distM / 1609.34;
+        pts.push(pt);
+      }
     }
     return pts;
   }
@@ -282,29 +294,8 @@
   }
 
   function _trimOutAndBack(pts) {
-    if (pts.length < 10) return pts;
-    // One-way hike: end is far from start — show all
-    if (_haversineM(pts[0], pts[pts.length-1]) > 500) return pts;
-    // Find the turnaround: point farthest from the start
-    var maxDist = 0, maxIdx = 0;
-    for (var i = 1; i < pts.length; i++) {
-      var d = _haversineM(pts[0], pts[i]);
-      if (d > maxDist) { maxDist = d; maxIdx = i; }
-    }
-    if (maxIdx === 0 || maxIdx >= pts.length - 1) return pts;
-    // After the turnaround, find the first point within 200m of the start.
-    // This clips extra GPS recording after the hiker returns to the trailhead
-    // while still showing the full round-trip (ascent + descent).
-    // For loops, the path never retraces the outward leg, so the "return near
-    // start" falls near the very end — showing the full loop.
-    var returnIdx = pts.length - 1;
-    for (var i = maxIdx + 1; i < pts.length; i++) {
-      if (_haversineM(pts[0], pts[i]) < 200) {
-        returnIdx = i;
-        break;
-      }
-    }
-    return pts.slice(0, returnIdx + 1);
+    // Show the track as recorded. No trimming needed — the GPX is the source of truth.
+    return pts;
   }
 
   function loadElevProfile(url) {
