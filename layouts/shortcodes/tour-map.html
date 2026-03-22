@@ -75,24 +75,59 @@
     attribution: '&copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community',
     maxZoom: 19
   });
+  {{ if $isHike }}
+  var streetLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+    maxZoom: 19
+  });
+  {{ end }}
 
   baseLayer.addTo(map);
-  var isSatellite = false;
-  var baseLabel = {{ if $isHike }}'🗻 Topo'{{ else }}'🗺 Street'{{ end }};
 
   var SatToggle = L.Control.extend({
     onAdd: function() {
+      {{ if $isHike }}
+      var btnStyle = 'border:2px solid rgba(0,0,0,.2);border-radius:4px;padding:4px 8px;font-size:12px;font-weight:700;cursor:pointer;';
+      var onStyle  = btnStyle + 'background:#fff;color:#333;';
+      var offStyle = btnStyle + 'background:rgba(255,255,255,0.55);color:#888;';
+      var layers = [
+        { label: '🗻 Topo',   layer: baseLayer },
+        { label: '🗺 Street', layer: streetLayer },
+        { label: '🛰 Sat',    layer: satelliteLayer },
+      ];
+      var current = baseLayer;
+      var wrap = L.DomUtil.create('div');
+      wrap.style.cssText = 'display:flex;gap:3px;';
+      var btns = layers.map(function(item) {
+        var b = L.DomUtil.create('button', '', wrap);
+        b.innerHTML = item.label;
+        b.style.cssText = item.layer === current ? onStyle : offStyle;
+        L.DomEvent.on(b, 'click', function(e) {
+          L.DomEvent.stopPropagation(e);
+          if (item.layer === current) return;
+          map.removeLayer(current);
+          current = item.layer;
+          item.layer.addTo(map);
+          btns.forEach(function(b2, i) {
+            b2.style.cssText = layers[i].layer === current ? onStyle : offStyle;
+          });
+        });
+        return b;
+      });
+      return wrap;
+      {{ else }}
       var btn = L.DomUtil.create('button');
       btn.title = 'Toggle satellite view';
       btn.style.cssText = 'background:#fff;border:2px solid rgba(0,0,0,.2);border-radius:4px;padding:4px 8px;font-size:12px;font-weight:700;cursor:pointer;color:#333;';
       btn.innerHTML = '🛰 Satellite';
+      var isSatellite = false;
       L.DomEvent.on(btn, 'click', function(e) {
         L.DomEvent.stopPropagation(e);
         isSatellite = !isSatellite;
         if (isSatellite) {
           map.removeLayer(baseLayer);
           satelliteLayer.addTo(map);
-          btn.innerHTML = baseLabel;
+          btn.innerHTML = '🗺 Street';
         } else {
           map.removeLayer(satelliteLayer);
           baseLayer.addTo(map);
@@ -100,6 +135,7 @@
         }
       });
       return btn;
+      {{ end }}
     }
   });
 
