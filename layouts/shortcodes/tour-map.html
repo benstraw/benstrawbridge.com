@@ -1,0 +1,224 @@
+{{ $gpx := .Get "gpx" }}
+{{ $stops := .Page.Params.stops }}
+{{ $tourSlug := index (split (trim .Page.RelPermalink "/") "/") 1 }}
+{{ $fallbackLat := .Page.Params.geo.lat | default 34.0 }}
+{{ $fallbackLon := .Page.Params.geo.lon | default -118.25 }}
+{{ $isHike := eq (.Page.Params.tourType | default "Walking Tour") "Hiking Tour" }}
+
+<link rel="stylesheet" href="/css/leaflet.1.9.4.css" />
+<style>
+  /* Tailwind prose resets SVG presentation attributes — restore Leaflet path styles */
+  #tour-map path.leaflet-interactive {
+    fill: none !important;
+    stroke: #2D6A4F !important;
+    stroke-width: 3px !important;
+    stroke-opacity: 0.85 !important;
+  }
+  #tour-map .leaflet-overlay-pane svg {
+    overflow: visible;
+  }
+</style>
+<style>
+  #tour-map-wrap {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100vw;
+  }
+  #tour-map { height: 480px; border-radius: 0; }
+  @media (min-width: 1280px) {
+    #tour-map { height: 640px; }
+  }
+</style>
+<div id="tour-map-wrap">
+  <div id="tour-map" style="width:100%; margin:1.5rem 0;"></div>
+  <div id="tour-start-btn" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);z-index:1000;pointer-events:auto;{{ if not $stops }}display:none;{{ end }}">
+    <button onclick="window._tourStart()" style="background:#d97706;color:#fff;border:none;border-radius:9999px;padding:14px 32px;font-size:16px;font-weight:800;letter-spacing:.04em;cursor:pointer;box-shadow:0 4px 16px rgba(0,0,0,.35);transition:transform .1s,box-shadow .1s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+      ★ &nbsp;Start Tour
+    </button>
+  </div>
+</div>
+<script src="/js/leaflet.1.9.4.js"></script>
+<script src="/js/leaflet-gpx.1.7.0.js"></script>
+
+<script>
+(function() {
+  var map = L.map('tour-map', { scrollWheelZoom: false });
+
+  var baseLayer = L.tileLayer(
+    {{ if $isHike }}
+      'https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/tile/{z}/{y}/{x}',
+      { attribution: 'USGS The National Map', maxNativeZoom: 16, maxZoom: 19 }
+    {{ else }}
+      'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png',
+      { attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>', maxZoom: 19 }
+    {{ end }}
+  );
+
+  var satelliteLayer = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+    attribution: '&copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community',
+    maxZoom: 19
+  });
+
+  baseLayer.addTo(map);
+  var isSatellite = false;
+  var baseLabel = {{ if $isHike }}'🗻 Topo'{{ else }}'🗺 Street'{{ end }};
+
+  var SatToggle = L.Control.extend({
+    onAdd: function() {
+      var btn = L.DomUtil.create('button');
+      btn.title = 'Toggle satellite view';
+      btn.style.cssText = 'background:#fff;border:2px solid rgba(0,0,0,.2);border-radius:4px;padding:4px 8px;font-size:12px;font-weight:700;cursor:pointer;color:#333;';
+      btn.innerHTML = '🛰 Satellite';
+      L.DomEvent.on(btn, 'click', function(e) {
+        L.DomEvent.stopPropagation(e);
+        isSatellite = !isSatellite;
+        if (isSatellite) {
+          map.removeLayer(baseLayer);
+          satelliteLayer.addTo(map);
+          btn.innerHTML = baseLabel;
+        } else {
+          map.removeLayer(satelliteLayer);
+          baseLayer.addTo(map);
+          btn.innerHTML = '🛰 Satellite';
+        }
+      });
+      return btn;
+    }
+  });
+
+  new SatToggle({ position: 'topright' }).addTo(map);
+
+  var overviewBounds = null;
+
+  new L.GPX('/trails/{{ $tourSlug }}/{{ $gpx }}', {
+    async: true,
+    marker_options: {
+      startIconUrl: null, endIconUrl: null,
+      shadowUrl: null, wptIconUrls: { '': null }
+    },
+    polyline_options: {
+      color: '#2D6A4F', weight: 3, opacity: 0.85,
+      lineCap: 'round', lineJoin: 'round'
+    }
+  }).on('loaded', function(e) {
+    var bounds = e.target.getBounds();
+    if (bounds.isValid()) {
+      map.fitBounds(bounds, { padding: [40, 40] });
+      overviewBounds = bounds;
+    }
+  }).on('error', function() {
+    map.setView([{{ $fallbackLat }}, {{ $fallbackLon }}], 14);
+  }).addTo(map);
+
+
+  var AMENITY_ICONS = {
+    soccer: '⚽', basketball: '🏀', baseball: '⚾', tennis: '🎾',
+    pickleball: '🏓', workout: '💪', bathrooms: '🚻', picnic: '🧺',
+    dog_park: '🐕', kids: '🛝', birdwatching: '🦅'
+  };
+
+  // Sort stops by order so prev/next indices are sequential
+  var stops = (JSON.parse({{ $stops | jsonify }}) || []).slice().sort(function(a, b) { return a.order - b.order; });
+  var markers = [];
+
+  // Global navigation helper — inline onclick needs window scope
+  var _navigating = false;
+
+  window._tourStart = function() {
+    var btn = document.getElementById('tour-start-btn');
+    if (btn) btn.style.display = 'none';
+    _navigating = true;
+    map.flyTo(markers[0].getLatLng(), 17);
+    map.once('moveend', function() {
+      _navigating = false;
+      markers[0].openPopup();
+    });
+  };
+
+  window._tourNav = function(idx) {
+    if (idx < 0 || idx >= markers.length) return;
+    _navigating = true;
+    map.closePopup();
+    map.flyTo(markers[idx].getLatLng(), 17);
+    map.once('moveend', function() {
+      _navigating = false;
+      markers[idx].openPopup();
+    });
+  };
+
+  // Ctrl/Cmd + scroll to zoom
+  document.addEventListener('keydown', function(e) {
+    if (e.ctrlKey || e.metaKey) map.scrollWheelZoom.enable();
+  });
+  document.addEventListener('keyup', function(e) {
+    if (!e.ctrlKey && !e.metaKey) map.scrollWheelZoom.disable();
+  });
+
+  // Hide start button whenever any popup opens
+  map.on('popupopen', function() {
+    var btn = document.getElementById('tour-start-btn');
+    if (btn) btn.style.display = 'none';
+  });
+
+  // Zoom back to overview when popup closes — but not during nav transitions
+  map.on('popupclose', function() {
+    if (!_navigating && overviewBounds) {
+      map.flyToBounds(overviewBounds, { padding: [40, 40] });
+    }
+  });
+
+  stops.forEach(function(stop, i) {
+    var icon = i === 0
+      ? L.divIcon({
+          className: '',
+          html: '<div style="background:#d97706;color:#fff;border-radius:50%;width:32px;height:32px;display:flex;align-items:center;justify-content:center;font-size:17px;line-height:1;box-shadow:0 2px 6px rgba(0,0,0,.4);border:2px solid #fff">&#9733;</div>',
+          iconSize: [32, 32],
+          iconAnchor: [16, 16]
+        })
+      : L.divIcon({
+          className: '',
+          html: '<div style="background:#2D6A4F;color:#fff;border-radius:50%;width:28px;height:28px;display:flex;align-items:center;justify-content:center;font-weight:bold;font-size:13px;box-shadow:0 1px 4px rgba(0,0,0,.4);border:2px solid #fff">' + (i + 1) + '</div>',
+          iconSize: [28, 28],
+          iconAnchor: [14, 14]
+        });
+
+    // Amenity chips
+    var amenityHtml = '';
+    if (stop.amenities) {
+      var chips = Object.keys(stop.amenities).filter(function(k) { return stop.amenities[k]; }).map(function(k) {
+        return AMENITY_ICONS[k] ? '<span style="font-size:14px;margin-right:2px" title="' + k.replace(/_/g,' ') + '">' + AMENITY_ICONS[k] + '</span>' : '';
+      }).join('');
+      if (chips) amenityHtml = '<div style="margin:5px 0 4px;line-height:1.8">' + chips + '</div>';
+    }
+
+    // Blurb
+    var blurbHtml = stop.blurb
+      ? '<p style="margin:5px 0 2px;font-size:12px;line-height:1.45;color:#4b5563">' + stop.blurb + '</p>'
+      : '';
+
+    // Prev / Next buttons
+    var btnStyle = 'font-size:11px;font-weight:600;padding:3px 9px;border-radius:4px;cursor:pointer;border:1px solid #2D6A4F;color:#2D6A4F;background:#f0fdf4;';
+    var prevIdx = (i - 1 + stops.length) % stops.length;
+    var nextIdx = (i + 1) % stops.length;
+    var prevBtn = '<button style="' + btnStyle + '" onclick="window._tourNav(' + prevIdx + ')">&#8592; Prev</button>';
+    var nextBtn = '<button style="' + btnStyle + '" onclick="window._tourNav(' + nextIdx + ')">Next &#8594;</button>';
+
+    var popupHtml =
+      '<div style="min-width:220px;max-width:260px">' +
+        '<strong style="font-size:14px;display:block;margin-bottom:2px"><span style="color:#2D6A4F;margin-right:4px">' + (i + 1) + '.</span>' + stop.name + '</strong>' +
+        blurbHtml +
+        amenityHtml +
+        '<a href="#' + stop.id + '" style="display:block;font-size:12px;font-weight:600;color:#2D6A4F;margin:6px 0 8px">Full description &#8595;</a>' +
+        '<div style="display:flex;justify-content:space-between;gap:6px">' +
+          prevBtn + nextBtn +
+        '</div>' +
+      '</div>';
+
+    var marker = L.marker([stop.lat, stop.lon], { icon: icon })
+      .bindPopup(popupHtml, { minWidth: 230 })
+      .addTo(map);
+    markers.push(marker);
+  });
+})();
+</script>

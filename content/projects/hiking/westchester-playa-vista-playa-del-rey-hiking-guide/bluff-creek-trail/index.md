@@ -34,6 +34,15 @@ The Bluff Creek Trail is a 4-mile loop that can be accessed from three locations
 2. **Bluff Creek Drive**: Across the street from Yahoo and the Annenberg PetSpace Adoption Center.
 3. **Lincoln Boulevard**: Near the fountain, although there is no parking near this entrance. However, you can usually park easily at the Sports Park next to Playa Vista Elementary, just down the hill from the trailhead.
 
+## Explore the Neighborhood on Foot
+
+The Bluff Creek Trail connects naturally into Playa Vista's parks below the bluffs.
+If you want to make a longer day of it, I put together a self-guided walking tour
+covering the best stops in Playa Vista — starting near the Bluff Creek Drive trailhead.
+It also covers parking in more detail.
+
+→ [Playa Vista Parks Walking Tour](/trails/pv-tour/)
+
 ## Trail Options
 
 This trail can be completed in various ways:

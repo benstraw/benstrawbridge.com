@@ -1,0 +1,23 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TouristAttraction",
+  "name": {{ .Title | jsonify }},
+  "description": {{ .Description | jsonify }},
+  "url": {{ .Permalink | jsonify }},
+  {{- with .Params.geo }}
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "{{ .lat }}",
+    "longitude": "{{ .lon }}"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": {{ .city | jsonify }},
+    "addressRegion": {{ .state | jsonify }},
+    "addressCountry": "US"
+  },
+  {{- end }}
+  "touristType": ["Hikers", "Dog Walkers", "Local Explorers"]
+}
+</script>

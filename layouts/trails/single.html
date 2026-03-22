@@ -1,0 +1,338 @@
+{{ define "main" }}
+
+<style>
+  /* ── Trail-specific scoped styles ─────────────────────────────────── */
+
+  /* Counter reset on the prose container so every h3 gets a number */
+  .trail-prose {
+    counter-reset: stop-counter;
+  }
+
+  /* Numbered green circle before each stop H3 */
+  .trail-prose h3 {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+    counter-increment: stop-counter;
+  }
+
+  .trail-prose h3::before {
+    content: counter(stop-counter);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 50%;
+    background-color: #2D6A4F;
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 700;
+    line-height: 1;
+  }
+
+  /* Subtle horizontal rules between stops */
+  .trail-prose hr {
+    border: none;
+    border-top: 1px solid #d1d5db; /* neutral-300 */
+    margin: 2rem 0;
+  }
+
+  .dark .trail-prose hr {
+    border-top-color: #404040; /* neutral-700 */
+  }
+
+  /* Anchor target flash on any section target */
+  .trail-prose h2:target,
+  .trail-prose h3:target {
+    animation: anchor-flash 1.6s ease-out;
+  }
+
+  @keyframes anchor-flash {
+    0%   { background-color: #d1fae5; } /* emerald-100 */
+    100% { background-color: transparent; }
+  }
+
+  .dark .trail-prose h3:target,
+  .dark .trail-prose h2:target {
+    animation: anchor-flash-dark 1.6s ease-out;
+  }
+
+  @keyframes anchor-flash-dark {
+    0%   { background-color: #064e3b; } /* emerald-900 */
+    100% { background-color: transparent; }
+  }
+
+  /* ── "Where to Park" callout card ────────────────────────────────── */
+  /* Wraps the H2 and all sibling content until the next H2 */
+  .trail-parking-section {
+    border-left: 4px solid #2D6A4F;
+    background-color: #f0fdf4; /* green-50 */
+    border-radius: 0 0.5rem 0.5rem 0;
+    padding: 1.25rem 1.5rem;
+    margin: 2rem 0;
+  }
+
+  .dark .trail-parking-section {
+    background-color: #052e16; /* green-950 */
+  }
+
+  .trail-parking-section h2 {
+    margin-top: 0 !important;
+    color: #2D6A4F !important;
+  }
+
+  .dark .trail-parking-section h2 {
+    color: #4ade80 !important; /* green-400 */
+  }
+
+  /* ── "About This Tour" info card ─────────────────────────────────── */
+  .trail-about-section {
+    background-color: #f9fafb; /* neutral-50 */
+    border: 1px solid #e5e7eb; /* neutral-200 */
+    border-radius: 0.5rem;
+    padding: 1.25rem 1.5rem;
+    margin: 2rem 0;
+  }
+
+  .dark .trail-about-section {
+    background-color: #171717; /* neutral-900 */
+    border-color: #404040;    /* neutral-700 */
+  }
+
+  .trail-about-section h2 {
+    margin-top: 0 !important;
+    font-size: 0.8rem !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.1em !important;
+    text-transform: uppercase !important;
+    color: #2D6A4F !important;
+    border-bottom: 1px solid #d1fae5;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.75rem !important;
+  }
+
+  .dark .trail-about-section h2 {
+    color: #4ade80 !important;
+    border-bottom-color: #064e3b;
+  }
+
+  /* Make the about-section list look like a specs table */
+  .trail-about-section ul {
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.35rem;
+  }
+
+  @media (min-width: 640px) {
+    .trail-about-section ul {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  .trail-about-section ul li {
+    font-size: 0.9rem;
+    padding: 0.4rem 0;
+    border-bottom: 1px solid #f3f4f6;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .trail-about-section ul li::before {
+    content: "→";
+    color: #2D6A4F;
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+
+  .dark .trail-about-section ul li {
+    border-bottom-color: #262626;
+  }
+
+  /* ── Stops section H2 ─────────────────────────────────────────────── */
+  .trail-prose h2#stops-heading,
+  .trail-prose h2 {
+    /* neutral styling, not overriding base prose h2 here — keep as-is */
+  }
+
+  /* ── Stop amenity pills ───────────────────────────────────────────── */
+  .stop-amenities {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin: 0.5rem 0 1rem;
+  }
+
+  .stop-amenity-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.25rem 0.6rem;
+    border-radius: 9999px;
+    background-color: #f0fdf4;
+    color: #166534;
+    border: 1px solid #bbf7d0;
+    white-space: nowrap;
+  }
+
+  .dark .stop-amenity-pill {
+    background-color: #052e16;
+    color: #86efac;
+    border-color: #14532d;
+  }
+</style>
+
+<div class="pb-12">
+
+  {{/* ── PAGE HEADER ─────────────────────────────────────────────── */}}
+  <header class="bg-gradient-to-r from-indigo-300 to-sky-300 dark:from-violet-950 dark:to-gray-900 border-b border-fuchsia-600 mb-0">
+    <div class="max-w-screen-lg mx-auto px-4 py-8 md:py-12">
+
+      {{/* Green trail label */}}
+      <div class="flex items-center gap-2 mb-3">
+        <span class="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-widest px-2.5 py-1 rounded-full"
+              style="background-color: #2D6A4F; color: #fff;">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
+          </svg>
+          {{ .Params.tourType | default "Walking Tour" }}
+        </span>
+
+        {{- if .Params.geo.neighborhood }}
+        <span class="text-xs text-indigo-900/70 dark:text-neutral-400 font-medium">
+          {{ .Params.geo.neighborhood }}{{ if .Params.geo.city }}, {{ .Params.geo.city }}{{ end }}
+        </span>
+        {{- end }}
+      </div>
+
+      <h1 class="text-3xl md:text-4xl font-bold text-indigo-950 dark:text-neutral-100 leading-tight mb-3">
+        {{ .Title }}
+      </h1>
+
+      {{- if .Params.description }}
+      <p class="text-base md:text-lg text-indigo-900/80 dark:text-neutral-300 max-w-2xl leading-relaxed mb-4">
+        {{ .Params.description }}
+      </p>
+      {{- end }}
+
+      {{/* Tag pills */}}
+      {{- with .Params.tags }}
+      <div class="flex flex-wrap gap-2 mt-1">
+        {{- range . }}
+        <span class="text-xs font-semibold px-2.5 py-1 rounded-full"
+              style="background-color: rgba(45,106,79,0.15); color: #2D6A4F; border: 1px solid rgba(45,106,79,0.3);">
+          {{ . }}
+        </span>
+        {{- end }}
+      </div>
+      {{- end }}
+
+    </div>
+  </header>
+
+  {{/* ── CONTENT ──────────────────────────────────────────────────── */}}
+  <div class="max-w-screen-lg mx-auto px-4 pt-8">
+
+    {{/*
+      We post-process .Content with JS to:
+        1. Wrap the "Where to Park" H2 + its content in .trail-parking-section
+        2. Wrap the "About This Tour" H2 + its content in .trail-about-section
+      This avoids duplicating logic in the template or requiring shortcodes.
+    */}}
+
+    <div id="trail-content-raw"
+         class="trail-prose prose max-w-none lg:prose-lg dark:prose-invert">
+      {{ .Content | safeHTML }}
+    </div>
+
+  </div>
+
+</div>
+
+{{/* ── JS: post-process sections after prose is rendered ─────────── */}}
+<script>
+(function () {
+  const content = document.getElementById('trail-content-raw');
+  if (!content) return;
+
+  const children = Array.from(content.children);
+
+  function wrapSection(headingText, wrapperClass) {
+    // Find the H2 whose text contains headingText
+    const h2 = children.find(
+      el => el.tagName === 'H2' && el.textContent.trim().toLowerCase().includes(headingText.toLowerCase())
+    );
+    if (!h2) return;
+
+    const wrapper = document.createElement('div');
+    wrapper.className = wrapperClass;
+
+    // Collect h2 + all following siblings until the next H2 or HR that precedes an H2
+    const siblings = [];
+    let cursor = h2;
+    while (cursor) {
+      siblings.push(cursor);
+      const next = cursor.nextElementSibling;
+      if (!next) break;
+      // Stop before the next H2
+      if (next.tagName === 'H2') break;
+      cursor = next;
+    }
+
+    // Insert wrapper before the first element
+    h2.parentNode.insertBefore(wrapper, h2);
+    siblings.forEach(el => wrapper.appendChild(el));
+  }
+
+  wrapSection('Where to Park', 'trail-parking-section');
+  wrapSection('About This Tour', 'trail-about-section');
+
+  // ── Inject amenity pills after each stop H3 ──────────────────────────
+  var AMENITY_ICONS = {
+    soccer:     { emoji: '⚽', label: 'Soccer' },
+    basketball: { emoji: '🏀', label: 'Basketball' },
+    baseball:   { emoji: '⚾', label: 'Baseball' },
+    tennis:     { emoji: '🎾', label: 'Tennis' },
+    pickleball: { emoji: '🏓', label: 'Pickleball' },
+    workout:    { emoji: '💪', label: 'Workout Stations' },
+    bathrooms:  { emoji: '🚻', label: 'Bathrooms' },
+    picnic:     { emoji: '🧺', label: 'Picnic Areas' },
+    dog_park:   { emoji: '🐕', label: 'Off-Leash Dog Park' },
+    kids:       { emoji: '🛝', label: 'Playground' },
+    birdwatching: { emoji: '🦅', label: 'Bird Watching' },
+  };
+
+  var stops = JSON.parse({{ .Params.stops | jsonify }}) || [];
+  stops.forEach(function(stop) {
+    if (!stop.amenities) return;
+    var heading = document.getElementById(stop.id);
+    if (!heading) return;
+
+    var keys = Object.keys(stop.amenities).filter(function(k) { return stop.amenities[k]; });
+    if (!keys.length) return;
+
+    var row = document.createElement('div');
+    row.className = 'stop-amenities';
+
+    keys.forEach(function(key) {
+      var def = AMENITY_ICONS[key];
+      if (!def) return;
+      var pill = document.createElement('span');
+      pill.className = 'stop-amenity-pill';
+      pill.textContent = def.emoji + '\u00a0' + def.label;
+      row.appendChild(pill);
+    });
+
+    heading.insertAdjacentElement('afterend', row);
+  });
+})();
+</script>
+
+{{ end }}
