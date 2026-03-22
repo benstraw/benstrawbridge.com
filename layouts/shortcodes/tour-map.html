@@ -281,11 +281,27 @@
     return lo;
   }
 
+  function _trimOutAndBack(pts) {
+    if (pts.length < 10) return pts;
+    // If end is far from start, it's one-way — show all
+    if (_haversineM(pts[0], pts[pts.length-1]) > 500) return pts;
+    // Find the turnaround: point farthest from the start
+    var maxDist = 0, maxIdx = 0;
+    for (var i = 1; i < pts.length; i++) {
+      var d = _haversineM(pts[0], pts[i]);
+      if (d > maxDist) { maxDist = d; maxIdx = i; }
+    }
+    // Only trim if turnaround is roughly central (35–65%) — rules out asymmetric loops
+    var ratio = maxIdx / (pts.length - 1);
+    if (ratio < 0.35 || ratio > 0.65) return pts;
+    return pts.slice(0, maxIdx + 1);
+  }
+
   function loadElevProfile(url) {
     fetch(url, { cache: 'force-cache' })
       .then(function(r) { return r.text(); })
       .then(function(text) {
-        var allPts = _parseElevPts(text);
+        var allPts = _trimOutAndBack(_parseElevPts(text));
         if (!allPts.length) return;
         var gain = _elevGain(allPts);
         var maxE = allPts.reduce(function(m,p){return Math.max(m,p.eleFt);},-Infinity);
