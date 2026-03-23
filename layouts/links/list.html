@@ -138,10 +138,11 @@
                   <i class="fa-solid fa-link"></i>
                 </a>
                 <template x-for="tag in link.tags" :key="tag">
-                  <span
-                    class="px-2 py-0.5 bg-neutral-100 text-neutral-600 dark:bg-neutral-800 dark:text-neutral-400 rounded"
+                  <button
+                    @click="selectedTag = tag"
+                    class="px-2 py-0.5 bg-neutral-100 text-neutral-600 dark:bg-neutral-800 dark:text-neutral-400 rounded hover:bg-rose-100 hover:text-rose-700 dark:hover:bg-rose-900 dark:hover:text-rose-300 cursor-pointer"
                     x-text="'#' + tag"
-                  ></span>
+                  ></button>
                 </template>
               </div>
             </div>
