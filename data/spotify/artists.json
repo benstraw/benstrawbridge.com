@@ -71,21 +71,95 @@
     "id": "4eK7eYjD5DyOb7BqV3jBdA",
     "name": "Gaiea Sanskrit",
     "spotify_url": "https://open.spotify.com/artist/4eK7eYjD5DyOb7BqV3jBdA",
-    "total_plays": 2,
+    "total_plays": 18,
     "first_seen": "2026-02-13",
-    "last_seen": "2026-03-03",
-    "genres": [],
+    "last_seen": "2026-03-21",
+    "genres": [
+      "devotional"
+    ],
     "top_tracks": [
       {
         "name": "Om",
         "album": "Gaiea",
         "spotify_url": "https://open.spotify.com/track/2PGQStNeN4tbFixv7c6xCQ",
-        "plays": 1
+        "plays": 4
       },
       {
         "name": "Shamnō Mitra",
         "album": "Holo Voyage - Inception",
         "spotify_url": "https://open.spotify.com/track/2KQaet7209rw5TN0zbzt7A",
+        "plays": 2
+      },
+      {
+        "name": "Heart Sutra",
+        "album": "Sanskrit Medicine Mantras",
+        "spotify_url": "https://open.spotify.com/track/5oM7rBOmOJgP95iN2ulzGT",
+        "plays": 1
+      },
+      {
+        "name": "Bhagavan",
+        "album": "Krishna: A Celebration In Sanskrit",
+        "spotify_url": "https://open.spotify.com/track/2AaQf9LsQs5FOBZrFlxjKM",
+        "plays": 1
+      },
+      {
+        "name": "Dhanwantari",
+        "album": "Sanskrit Soul Music",
+        "spotify_url": "https://open.spotify.com/track/1p3F86kQjN6oCMKIGGFzPF",
+        "plays": 1
+      },
+      {
+        "name": "Mercury",
+        "album": "Nine",
+        "spotify_url": "https://open.spotify.com/track/1IB4130qxWhxW4ckja7ZLV",
+        "plays": 1
+      },
+      {
+        "name": "Bliss",
+        "album": "Gaiea",
+        "spotify_url": "https://open.spotify.com/track/2ZWDDWgCnB65nHWTZGMct9",
+        "plays": 1
+      },
+      {
+        "name": "Shiva Saṅkalpa Sūktam Peaceful Mind",
+        "album": "Powerful Sanskrit Mantras",
+        "spotify_url": "https://open.spotify.com/track/6DJ7FQf1hPp0s0mPkbIF7X",
+        "plays": 1
+      },
+      {
+        "name": "Madālasā",
+        "album": "Sanskrit Soul Music",
+        "spotify_url": "https://open.spotify.com/track/1b8xtbJpp6lPSqwytdBx3C",
+        "plays": 1
+      },
+      {
+        "name": "Ganesha Lullaby",
+        "album": "Sanskrit Soul Music",
+        "spotify_url": "https://open.spotify.com/track/5l1T9wpG6snK2ehkPsx5iz",
+        "plays": 1
+      },
+      {
+        "name": "Lokāh Samastāh (Jivamukti)",
+        "album": "Holo Voyage - Inception",
+        "spotify_url": "https://open.spotify.com/track/6aFVK7K8z5MEcF6JKRmkfH",
+        "plays": 1
+      },
+      {
+        "name": "Brahma",
+        "album": "Gaiea",
+        "spotify_url": "https://open.spotify.com/track/1LVLMOIVuGkh8w7VSlWaAs",
+        "plays": 1
+      },
+      {
+        "name": "The Perfect Prayer",
+        "album": "Gaiea",
+        "spotify_url": "https://open.spotify.com/track/0ucCmxx7jyGeu6WUcjno5U",
+        "plays": 1
+      },
+      {
+        "name": "Aum",
+        "album": "Sanskrit Soul Music",
+        "spotify_url": "https://open.spotify.com/track/3FhVcAgFOMKemlYEeErQiS",
         "plays": 1
       }
     ]
@@ -2975,9 +3049,9 @@
     "id": "0kbYTNQb4Pb1rPbbaF0pT4",
     "name": "Miles Davis",
     "spotify_url": "https://open.spotify.com/artist/0kbYTNQb4Pb1rPbbaF0pT4",
-    "total_plays": 12,
+    "total_plays": 13,
     "first_seen": "2026-02-26",
-    "last_seen": "2026-03-18",
+    "last_seen": "2026-03-19",
     "genres": [
       "jazz",
       "cool jazz",
@@ -3011,16 +3085,16 @@
     ],
     "top_tracks": [
       {
+        "name": "In a Silent Way",
+        "album": "In A Silent Way",
+        "spotify_url": "https://open.spotify.com/track/54a3lHJAwce1dOKrsDPEHv",
+        "plays": 5
+      },
+      {
         "name": "Shhh / Peaceful",
         "album": "In A Silent Way",
         "spotify_url": "https://open.spotify.com/track/267lVml7gJ9xefwgO6E2Ag",
         "plays": 5
-      },
-      {
-        "name": "In a Silent Way",
-        "album": "In A Silent Way",
-        "spotify_url": "https://open.spotify.com/track/54a3lHJAwce1dOKrsDPEHv",
-        "plays": 4
       },
       {
         "name": "Red China Blues",
@@ -5548,9 +5622,9 @@
     "id": "7dGJo4pcD2V6oG8kP0tJRR",
     "name": "Eminem",
     "spotify_url": "https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR",
-    "total_plays": 10,
+    "total_plays": 11,
     "first_seen": "2026-02-26",
-    "last_seen": "2026-03-15",
+    "last_seen": "2026-03-19",
     "genres": [
       "rap",
       "hip hop"
@@ -5572,6 +5646,12 @@
         "name": "Love Game",
         "album": "The Marshall Mathers LP2 (Deluxe)",
         "spotify_url": "https://open.spotify.com/track/0iMN420Q45isZVNlAqzPTW",
+        "plays": 1
+      },
+      {
+        "name": "I'm Back",
+        "album": "The Marshall Mathers LP",
+        "spotify_url": "https://open.spotify.com/track/3xVtc7PB4V3AqAfq4Iahli",
         "plays": 1
       },
       {
@@ -5644,12 +5724,6 @@
         "name": "The Way I Am",
         "album": "The Marshall Mathers LP",
         "spotify_url": "https://open.spotify.com/track/23wfXwnsPZYe5A1xXRHb3J",
-        "plays": 1
-      },
-      {
-        "name": "I'm Back",
-        "album": "The Marshall Mathers LP",
-        "spotify_url": "https://open.spotify.com/track/3xVtc7PB4V3AqAfq4Iahli",
         "plays": 1
       },
       {
@@ -6847,9 +6921,9 @@
     "id": "09hVIj6vWgoCDtT03h8ZCa",
     "name": "A Tribe Called Quest",
     "spotify_url": "https://open.spotify.com/artist/09hVIj6vWgoCDtT03h8ZCa",
-    "total_plays": 25,
+    "total_plays": 27,
     "first_seen": "2026-02-26",
-    "last_seen": "2026-03-18",
+    "last_seen": "2026-03-19",
     "genres": [
       "jazz rap",
       "east coast hip hop",
@@ -6941,6 +7015,18 @@
         "plays": 1
       },
       {
+        "name": "Steve Biko (Stir It Up)",
+        "album": "Midnight Marauders",
+        "spotify_url": "https://open.spotify.com/track/671sDyeE398eD0sdGuVbZU",
+        "plays": 1
+      },
+      {
+        "name": "Excursions",
+        "album": "The Low End Theory",
+        "spotify_url": "https://open.spotify.com/track/4tEaytMs86hIaOSsiGoLcP",
+        "plays": 1
+      },
+      {
         "name": "Butter",
         "album": "The Low End Theory",
         "spotify_url": "https://open.spotify.com/track/758mQT4zzlvBhy9PvNePwC",
@@ -6957,12 +7043,6 @@
         "album": "Beats, Rhymes & Life",
         "spotify_url": "https://open.spotify.com/track/7f1UEGMBMuXfLBP5XANfrW",
         "plays": 2
-      },
-      {
-        "name": "Excursions",
-        "album": "The Low End Theory",
-        "spotify_url": "https://open.spotify.com/track/4tEaytMs86hIaOSsiGoLcP",
-        "plays": 1
       },
       {
         "name": "Skypager",
@@ -7010,12 +7090,6 @@
         "name": "Busta's Lament",
         "album": "The Love Movement",
         "spotify_url": "https://open.spotify.com/track/4R8XY2fcKNW4zNug9Y1WLJ",
-        "plays": 1
-      },
-      {
-        "name": "Steve Biko (Stir It Up)",
-        "album": "Midnight Marauders",
-        "spotify_url": "https://open.spotify.com/track/671sDyeE398eD0sdGuVbZU",
         "plays": 1
       },
       {
@@ -7814,9 +7888,9 @@
     "id": "6lkOq7qccqrCLBwJgXWfRn",
     "name": "Simran & GuruPrem",
     "spotify_url": "https://open.spotify.com/artist/6lkOq7qccqrCLBwJgXWfRn",
-    "total_plays": 3,
+    "total_plays": 4,
     "first_seen": "2026-03-04",
-    "last_seen": "2026-03-06",
+    "last_seen": "2026-03-19",
     "genres": [],
     "top_tracks": [
       {
@@ -7824,6 +7898,12 @@
         "album": "Heal Me",
         "spotify_url": "https://open.spotify.com/track/5L0UCjQ31BQ5vRNwvUeJ1x",
         "plays": 3
+      },
+      {
+        "name": "Mool Mantra",
+        "album": "Suite: Kirtan Soheila",
+        "spotify_url": "https://open.spotify.com/track/27E5j1bEFob59NGOtGsOib",
+        "plays": 1
       }
     ]
   },
@@ -7882,9 +7962,9 @@
     "id": "2YZyLoL8N0Wb9xBt1NhZWg",
     "name": "Kendrick Lamar",
     "spotify_url": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg",
-    "total_plays": 16,
+    "total_plays": 17,
     "first_seen": "2026-03-03",
-    "last_seen": "2026-03-13",
+    "last_seen": "2026-03-19",
     "genres": [
       "hip hop",
       "west coast hip hop"
@@ -7989,6 +8069,12 @@
         "name": "Sing About Me, I'm Dying Of Thirst",
         "album": "good kid, m.A.A.d city (Deluxe)",
         "spotify_url": "https://open.spotify.com/track/3q2v8QaTnHLveAQzR6gvYm",
+        "plays": 1
+      },
+      {
+        "name": "Worldwide Steppers",
+        "album": "Mr. Morale & The Big Steppers",
+        "spotify_url": "https://open.spotify.com/track/66mVPWmFvXPFf8pjK5ttOW",
         "plays": 1
       },
       {
@@ -8279,9 +8365,9 @@
     "id": "4P0dddbxPil35MNN9G2MEX",
     "name": "Cypress Hill",
     "spotify_url": "https://open.spotify.com/artist/4P0dddbxPil35MNN9G2MEX",
-    "total_plays": 9,
+    "total_plays": 10,
     "first_seen": "2026-03-03",
-    "last_seen": "2026-03-18",
+    "last_seen": "2026-03-19",
     "genres": [
       "west coast hip hop",
       "old school hip hop",
@@ -8314,16 +8400,16 @@
         "plays": 1
       },
       {
-        "name": "Hits from the Bong",
-        "album": "Black Sunday",
-        "spotify_url": "https://open.spotify.com/track/0cfqYhY6B8PbGF9vaVNUeG",
-        "plays": 2
-      },
-      {
         "name": "Hand On the Pump",
         "album": "Cypress Hill",
         "spotify_url": "https://open.spotify.com/track/1TeVeYATRojNVCH7q1APiv",
         "plays": 1
+      },
+      {
+        "name": "Hits from the Bong",
+        "album": "Black Sunday",
+        "spotify_url": "https://open.spotify.com/track/0cfqYhY6B8PbGF9vaVNUeG",
+        "plays": 2
       },
       {
         "name": "Tres Equis",
@@ -8337,9 +8423,9 @@
     "id": "7hJcb9fa4alzcOq3EaNPoG",
     "name": "Snoop Dogg",
     "spotify_url": "https://open.spotify.com/artist/7hJcb9fa4alzcOq3EaNPoG",
-    "total_plays": 3,
+    "total_plays": 4,
     "first_seen": "2026-03-06",
-    "last_seen": "2026-03-11",
+    "last_seen": "2026-03-19",
     "genres": [
       "g-funk",
       "west coast hip hop",
@@ -8359,6 +8445,12 @@
         "name": "Gin and Juice",
         "album": "Doggystyle",
         "spotify_url": "https://open.spotify.com/track/39QBkWKnap8wRSW4WB9OK0",
+        "plays": 1
+      },
+      {
+        "name": "Superman",
+        "album": "Doggumentary",
+        "spotify_url": "https://open.spotify.com/track/5jcQZOQpMWFraXxn9hAQt0",
         "plays": 1
       },
       {
@@ -8603,9 +8695,9 @@
     "id": "6Mo9PoU6svvhgEum7wh2Nd",
     "name": "Public Enemy",
     "spotify_url": "https://open.spotify.com/artist/6Mo9PoU6svvhgEum7wh2Nd",
-    "total_plays": 3,
+    "total_plays": 4,
     "first_seen": "2026-03-06",
-    "last_seen": "2026-03-11",
+    "last_seen": "2026-03-19",
     "genres": [
       "old school hip hop",
       "east coast hip hop",
@@ -8629,6 +8721,12 @@
         "name": "He Got Game",
         "album": "He Got Game (Original Motion Picture Soundtrack)",
         "spotify_url": "https://open.spotify.com/track/48zajk3g8P3BMT7F9BbDoD",
+        "plays": 1
+      },
+      {
+        "name": "She Watch Channel Zero?!",
+        "album": "It Takes A Nation Of Millions To Hold Us Back (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/3bZEtYBYJahicQkLAqg4Am",
         "plays": 1
       },
       {
@@ -8826,9 +8924,9 @@
     "id": "0k17h0D3J5VfsdmQ1iZtE9",
     "name": "Pink Floyd",
     "spotify_url": "https://open.spotify.com/artist/0k17h0D3J5VfsdmQ1iZtE9",
-    "total_plays": 8,
+    "total_plays": 9,
     "first_seen": "2026-03-04",
-    "last_seen": "2026-03-04",
+    "last_seen": "2026-03-20",
     "genres": [
       "progressive rock",
       "psychedelic rock",
@@ -8886,6 +8984,12 @@
         "plays": 1
       },
       {
+        "name": "Fearless",
+        "album": "Meddle",
+        "spotify_url": "https://open.spotify.com/track/7AalBKBoLDR4UmRYRJpdbj",
+        "plays": 1
+      },
+      {
         "name": "Breathe (In the Air)",
         "album": "The Dark Side of the Moon",
         "spotify_url": "https://open.spotify.com/track/2ctvdKmETyOzPb2GiJJT53",
@@ -8922,9 +9026,9 @@
     "id": "0EdvGhlC1FkGItLOWQzG4J",
     "name": "Sublime",
     "spotify_url": "https://open.spotify.com/artist/0EdvGhlC1FkGItLOWQzG4J",
-    "total_plays": 21,
+    "total_plays": 22,
     "first_seen": "2026-03-03",
-    "last_seen": "2026-03-18",
+    "last_seen": "2026-03-19",
     "genres": [
       "reggae rock",
       "ska punk",
@@ -9048,6 +9152,12 @@
         "name": "We're Only Gonna Die For Our Arrogance",
         "album": "40oz. To Freedom",
         "spotify_url": "https://open.spotify.com/track/1XvMlowIHtiLoMd0rH8vHz",
+        "plays": 1
+      },
+      {
+        "name": "Waiting For My Ruca",
+        "album": "40oz. To Freedom",
+        "spotify_url": "https://open.spotify.com/track/3Cx9j78Z0NE6jYwBWvvV3P",
         "plays": 1
       },
       {
@@ -9348,12 +9458,6 @@
         "name": "5446 Thats My Number/ Ball And Chain",
         "album": "40oz. To Freedom",
         "spotify_url": "https://open.spotify.com/track/72KtYadTtUchP2opNvcSWr",
-        "plays": 1
-      },
-      {
-        "name": "Waiting For My Ruca",
-        "album": "40oz. To Freedom",
-        "spotify_url": "https://open.spotify.com/track/3Cx9j78Z0NE6jYwBWvvV3P",
         "plays": 1
       },
       {
@@ -9933,9 +10037,9 @@
     "id": "3fmjIu8f1q5tzSxycTsi33",
     "name": "Songs of Disappearance",
     "spotify_url": "https://open.spotify.com/artist/3fmjIu8f1q5tzSxycTsi33",
-    "total_plays": 13,
+    "total_plays": 16,
     "first_seen": "2026-03-03",
-    "last_seen": "2026-03-04",
+    "last_seen": "2026-03-19",
     "genres": [],
     "top_tracks": [
       {
@@ -10002,6 +10106,24 @@
         "name": "Australian Palm Cockatoo",
         "album": "Australian Bird Calls",
         "spotify_url": "https://open.spotify.com/track/6SA5fPiyoy2fki6lT2JJbE",
+        "plays": 1
+      },
+      {
+        "name": "Gang-gang Cockatoo",
+        "album": "Australian Bird Calls",
+        "spotify_url": "https://open.spotify.com/track/3lPQs0WsZERiEau0809gZC",
+        "plays": 1
+      },
+      {
+        "name": "Princess Parrot",
+        "album": "Australian Bird Calls",
+        "spotify_url": "https://open.spotify.com/track/5RjJO3kJWOFEDx6ZBhwtj4",
+        "plays": 1
+      },
+      {
+        "name": "Mallee Emu-wren",
+        "album": "Australian Bird Calls",
+        "spotify_url": "https://open.spotify.com/track/0t2nXe3BuNN1CKCkGaiweo",
         "plays": 1
       }
     ]
@@ -11321,9 +11443,9 @@
     "id": "34Y0ldeyUv7jBvukWOGASO",
     "name": "Bobby Shmurda",
     "spotify_url": "https://open.spotify.com/artist/34Y0ldeyUv7jBvukWOGASO",
-    "total_plays": 1,
+    "total_plays": 2,
     "first_seen": "2026-03-03",
-    "last_seen": "2026-03-03",
+    "last_seen": "2026-03-19",
     "genres": [],
     "top_tracks": [
       {
@@ -11691,35 +11813,14 @@
     "id": "776Uo845nYHJpNaStv1Ds4",
     "name": "Jimi Hendrix",
     "spotify_url": "https://open.spotify.com/artist/776Uo845nYHJpNaStv1Ds4",
-    "total_plays": 2,
+    "total_plays": 3,
     "first_seen": "2026-03-03",
-    "last_seen": "2026-03-03",
+    "last_seen": "2026-03-19",
     "genres": [
-      "acid rock",
-      "album rock",
-      "alternative rock",
-      "classic rock",
-      "hard rock",
-      "proto-metal",
       "psychedelic rock",
-      "rock"
-    ],
-    "images": [
-      {
-        "height": 640,
-        "url": "https://i.scdn.co/image/ab6761610000e5eb31f6ab67e6025de876475814",
-        "width": 640
-      },
-      {
-        "height": 320,
-        "url": "https://i.scdn.co/image/ab6761610000517431f6ab67e6025de876475814",
-        "width": 320
-      },
-      {
-        "height": 160,
-        "url": "https://i.scdn.co/image/ab6761610000f17831f6ab67e6025de876475814",
-        "width": 160
-      }
+      "classic rock",
+      "acid rock",
+      "blues rock"
     ],
     "top_tracks": [
       {
@@ -11732,6 +11833,12 @@
         "name": "Spanish Castle Magic",
         "album": "Axis: Bold As Love",
         "spotify_url": "https://open.spotify.com/track/2KFE98Iw0X23sf4vJYcbLH",
+        "plays": 1
+      },
+      {
+        "name": "Castles Made of Sand",
+        "album": "Axis: Bold As Love",
+        "spotify_url": "https://open.spotify.com/track/3qebSLgUwaEqbwCM5sj5Kh",
         "plays": 1
       },
       {
@@ -13745,6 +13852,387 @@
         "album": "Tomorrow Is The Question!",
         "spotify_url": "https://open.spotify.com/track/7ql89p8OTrMIGBn1YPLxN3",
         "plays": 2
+      }
+    ]
+  },
+  "verdezul": {
+    "id": "1zf7vVM2XaoaTD3hXWR1If",
+    "name": "Verdèzul",
+    "spotify_url": "https://open.spotify.com/artist/1zf7vVM2XaoaTD3hXWR1If",
+    "total_plays": 27,
+    "first_seen": "2026-03-21",
+    "last_seen": "2026-03-21",
+    "genres": [],
+    "top_tracks": [
+      {
+        "name": "I Tell Ya",
+        "album": "I Tell Ya",
+        "spotify_url": "https://open.spotify.com/track/1rkc2masc6W4UTCsPYP4M5",
+        "plays": 3
+      },
+      {
+        "name": "EPC",
+        "album": "EPC",
+        "spotify_url": "https://open.spotify.com/track/0HeC9JexXM6OWZq0ThlKTh",
+        "plays": 2
+      },
+      {
+        "name": "What's Da Prollem?",
+        "album": "What's Da Prollem?",
+        "spotify_url": "https://open.spotify.com/track/132ZRfRmsEaJPv3X4gboXh",
+        "plays": 2
+      },
+      {
+        "name": "Love Somebody",
+        "album": "Love Somebody",
+        "spotify_url": "https://open.spotify.com/track/34EjUKyHmn59RZH2RxuWRa",
+        "plays": 2
+      },
+      {
+        "name": "Stressin'",
+        "album": "Earthtones & Shades of Blue and Green",
+        "spotify_url": "https://open.spotify.com/track/4keIC3Fdx6WiUme9g9IRQC",
+        "plays": 2
+      },
+      {
+        "name": "Where You Are",
+        "album": "Earthtones & Shades of Blue and Green",
+        "spotify_url": "https://open.spotify.com/track/7FR3ra4IXXFOm4KXhSFKeI",
+        "plays": 2
+      },
+      {
+        "name": "Version Of Yoself",
+        "album": "Earthtones & Shades of Blue and Green",
+        "spotify_url": "https://open.spotify.com/track/4QfX0TEdudUlanDuvqta8V",
+        "plays": 2
+      },
+      {
+        "name": "Taxes Finnah Hit",
+        "album": "Taxes Finnah Hit",
+        "spotify_url": "https://open.spotify.com/track/0fn5JcaPCR1jeXdUWV5va2",
+        "plays": 2
+      },
+      {
+        "name": "So Many Times",
+        "album": "Earthtones & Shades of Blue and Green",
+        "spotify_url": "https://open.spotify.com/track/7E1Z13mPfiA9XS9SfWiBhZ",
+        "plays": 2
+      },
+      {
+        "name": "94.7",
+        "album": "Earthtones & Shades of Blue and Green",
+        "spotify_url": "https://open.spotify.com/track/7zsftx468s8NTZYprLhAHM",
+        "plays": 2
+      },
+      {
+        "name": "NUMBERS",
+        "album": "GREEN PACK",
+        "spotify_url": "https://open.spotify.com/track/2yg7S9gPYW1HSp6s3675pz",
+        "plays": 1
+      },
+      {
+        "name": "CHIPS N COLLARDS",
+        "album": "GREEN PACK",
+        "spotify_url": "https://open.spotify.com/track/1IzcwzHVccY4n1rXoTd4lE",
+        "plays": 1
+      },
+      {
+        "name": "TAXES FINNAH HIT",
+        "album": "GREEN PACK",
+        "spotify_url": "https://open.spotify.com/track/4JDBVIQFezruK28FFJHfzU",
+        "plays": 1
+      },
+      {
+        "name": "Love Somebody (Chopped & Screwed)",
+        "album": "Love Somebody (Chopped & Screwed)",
+        "spotify_url": "https://open.spotify.com/track/3kRysviqU0RwqgGILk4a0k",
+        "plays": 1
+      },
+      {
+        "name": "Poppin' Gums",
+        "album": "Poppin' Gums",
+        "spotify_url": "https://open.spotify.com/track/53nwJwkVSHxAPTXcYmHrHm",
+        "plays": 1
+      },
+      {
+        "name": "EPC",
+        "album": "Earthtones & Shades of Blue and Green",
+        "spotify_url": "https://open.spotify.com/track/7gE15QeiutXXesSoGznk8p",
+        "plays": 1
+      }
+    ]
+  },
+  "tonez": {
+    "id": "5pvsRwXcUfr3oUVVbgrv5P",
+    "name": "Tonez",
+    "spotify_url": "https://open.spotify.com/artist/5pvsRwXcUfr3oUVVbgrv5P",
+    "total_plays": 4,
+    "first_seen": "2026-03-21",
+    "last_seen": "2026-03-21",
+    "genres": [
+      "uk garage"
+    ],
+    "top_tracks": [
+      {
+        "name": "FADE",
+        "album": "Fade",
+        "spotify_url": "https://open.spotify.com/track/2eFAwERVKXsecxPriMnBIF",
+        "plays": 2
+      },
+      {
+        "name": "Fade - Broshi Remix",
+        "album": "Thiccfreqness Remixed Vol. 1",
+        "spotify_url": "https://open.spotify.com/track/4qDNBFq7x89GHic0pGg1BA",
+        "plays": 2
+      }
+    ]
+  },
+  "stephen-wilson-jr": {
+    "id": "4DSDa4HvAWqvb3dMHUOAfd",
+    "name": "Stephen Wilson Jr.",
+    "spotify_url": "https://open.spotify.com/artist/4DSDa4HvAWqvb3dMHUOAfd",
+    "total_plays": 8,
+    "first_seen": "2026-03-20",
+    "last_seen": "2026-03-20",
+    "genres": [],
+    "top_tracks": [
+      {
+        "name": "Stand By Me - Live at The Print Shop",
+        "album": "søn of dad (deluxe)",
+        "spotify_url": "https://open.spotify.com/track/72RX8sK4OKFnUX2MBDOdBD",
+        "plays": 1
+      },
+      {
+        "name": "Gary",
+        "album": "Gary",
+        "spotify_url": "https://open.spotify.com/track/5HMmz01XM5IYaGP0KSsDvQ",
+        "plays": 1
+      },
+      {
+        "name": "Dig A Hole",
+        "album": "Dig A Hole",
+        "spotify_url": "https://open.spotify.com/track/5hBTLtFdMIEcv0MB5fOPPY",
+        "plays": 1
+      },
+      {
+        "name": "the devil",
+        "album": "søn of dad (deluxe)",
+        "spotify_url": "https://open.spotify.com/track/6Dj9AtyawJc4YS3xjFnv5b",
+        "plays": 1
+      },
+      {
+        "name": "Clark Gable",
+        "album": "Blankets",
+        "spotify_url": "https://open.spotify.com/track/2XF3uEiaS8SpI5NzNZEHVr",
+        "plays": 1
+      },
+      {
+        "name": "Father's Søn",
+        "album": "søn of dad (deluxe)",
+        "spotify_url": "https://open.spotify.com/track/6BqroNusompVGz4QVjj2SZ",
+        "plays": 1
+      },
+      {
+        "name": "patches",
+        "album": "søn of dad (deluxe)",
+        "spotify_url": "https://open.spotify.com/track/6SARKgR2JIcVu7XcM1JIOT",
+        "plays": 1
+      },
+      {
+        "name": "Hunger Strike",
+        "album": "Blankets",
+        "spotify_url": "https://open.spotify.com/track/1KX8lvTaPh4dHmJzqmaYmD",
+        "plays": 1
+      },
+      {
+        "name": "the devil",
+        "album": "søn of dad",
+        "spotify_url": "https://open.spotify.com/track/2J8ZGmRxekNXGj9jJQWaEq",
+        "plays": 1
+      }
+    ]
+  },
+  "hardy": {
+    "id": "5QNm7E7RU2m64l6Gliu8Oy",
+    "name": "HARDY",
+    "spotify_url": "https://open.spotify.com/artist/5QNm7E7RU2m64l6Gliu8Oy",
+    "total_plays": 1,
+    "first_seen": "2026-03-20",
+    "last_seen": "2026-03-20",
+    "genres": [
+      "country",
+      "country rock"
+    ],
+    "top_tracks": [
+      {
+        "name": "Bedrooms In The Sky (feat. Stephen Wilson Jr.)",
+        "album": "COUNTRY! COUNTRY!",
+        "spotify_url": "https://open.spotify.com/track/4hVlesuEbCoRKZwuupbgTx",
+        "plays": 1
+      }
+    ]
+  },
+  "lori-mckenna": {
+    "id": "1OV5mEATxtVma7fleFaUyl",
+    "name": "Lori McKenna",
+    "spotify_url": "https://open.spotify.com/artist/1OV5mEATxtVma7fleFaUyl",
+    "total_plays": 2,
+    "first_seen": "2026-03-20",
+    "last_seen": "2026-03-20",
+    "genres": [
+      "americana",
+      "alt country"
+    ],
+    "top_tracks": [
+      {
+        "name": "The Tunnel",
+        "album": "The Tunnel",
+        "spotify_url": "https://open.spotify.com/track/3sSyvsyG3chmMvsWgPqV6J",
+        "plays": 2
+      }
+    ]
+  },
+  "the-dare": {
+    "id": "2mqiqsaX4LzFnUP7PmHGAb",
+    "name": "The Dare",
+    "spotify_url": "https://open.spotify.com/artist/2mqiqsaX4LzFnUP7PmHGAb",
+    "total_plays": 4,
+    "first_seen": "2026-03-19",
+    "last_seen": "2026-03-20",
+    "genres": [
+      "electroclash"
+    ],
+    "top_tracks": [
+      {
+        "name": "Girls",
+        "album": "What's Wrong With New York? (Deluxe)",
+        "spotify_url": "https://open.spotify.com/track/2qbkDNJy6yzAcwdM63yPVu",
+        "plays": 2
+      },
+      {
+        "name": "I Destroyed Disco",
+        "album": "What's Wrong With New York? (Deluxe)",
+        "spotify_url": "https://open.spotify.com/track/40fxiROJfKORzhgp7MM9KN",
+        "plays": 1
+      },
+      {
+        "name": "Good Time",
+        "album": "What's Wrong With New York? (Deluxe)",
+        "spotify_url": "https://open.spotify.com/track/3JfWcbNBzgAKg0YwLRAjX5",
+        "plays": 1
+      }
+    ]
+  },
+  "wet-leg": {
+    "id": "2TwOrUcYnAlIiKmVQkkoSZ",
+    "name": "Wet Leg",
+    "spotify_url": "https://open.spotify.com/artist/2TwOrUcYnAlIiKmVQkkoSZ",
+    "total_plays": 1,
+    "first_seen": "2026-03-20",
+    "last_seen": "2026-03-20",
+    "genres": [
+      "indie rock",
+      "indie"
+    ],
+    "top_tracks": [
+      {
+        "name": "mangetout - The Dare remix",
+        "album": "mangetout (The Dare remix)",
+        "spotify_url": "https://open.spotify.com/track/1IkSG0zP2JfECRpgPcr9Uq",
+        "plays": 1
+      }
+    ]
+  },
+  "mulatu-astatke": {
+    "id": "7HGFXtBhRq3g1Ma3nH4Rgv",
+    "name": "Mulatu Astatke",
+    "spotify_url": "https://open.spotify.com/artist/7HGFXtBhRq3g1Ma3nH4Rgv",
+    "total_plays": 1,
+    "first_seen": "2026-03-19",
+    "last_seen": "2026-03-19",
+    "genres": [
+      "ethiopian jazz"
+    ],
+    "top_tracks": [
+      {
+        "name": "I Faram Gami I Faram",
+        "album": "New York - Addis - London: The Story of Ethio Jazz 1965-1975",
+        "spotify_url": "https://open.spotify.com/track/26YMZ2S61ItkKS1w3gdaDo",
+        "plays": 1
+      },
+      {
+        "name": "Cha Cha",
+        "album": "Inspiration Information 3",
+        "spotify_url": "https://open.spotify.com/track/6T18Yu2xPqy6NAhylfjQYO",
+        "plays": 3
+      },
+      {
+        "name": "Kasalefkut-hulu - Stereo Master",
+        "album": "Mulatu Of Ethiopia",
+        "spotify_url": "https://open.spotify.com/track/24VYlFVsEZ1ARpoVr3D5kB",
+        "plays": 2
+      },
+      {
+        "name": "Mascaram Setaba",
+        "album": "New York - Addis - London: The Story of Ethio Jazz 1965-1975",
+        "spotify_url": "https://open.spotify.com/track/6vSY1FnuOXKtdKgNjjMCKl",
+        "plays": 2
+      },
+      {
+        "name": "Askum",
+        "album": "Afro-Latin Soul",
+        "spotify_url": "https://open.spotify.com/track/7D4sSBbqvMhqxjZ8YtPqUM",
+        "plays": 2
+      },
+      {
+        "name": "Tezeta",
+        "album": "New York - Addis - London: The Story of Ethio Jazz 1965-1975",
+        "spotify_url": "https://open.spotify.com/track/7JPNvoMjoIXkTDAMx9Aajj",
+        "plays": 2
+      },
+      {
+        "name": "Kasalèfkut Hulu",
+        "album": "New York - Addis - London: The Story of Ethio Jazz 1965-1975",
+        "spotify_url": "https://open.spotify.com/track/178AFb6h0SEX1kLx3Ibm7i",
+        "plays": 1
+      },
+      {
+        "name": "Munayé (My Muna)",
+        "album": "Ethiopiques, Vol. 4: Ethio Jazz 1969-1974",
+        "spotify_url": "https://open.spotify.com/track/1SX67Tr9tUsppN6jbdtyTt",
+        "plays": 1
+      },
+      {
+        "name": "Ebo Lala with Seifu Yohannes",
+        "album": "New York - Addis - London: The Story of Ethio Jazz 1965-1975",
+        "spotify_url": "https://open.spotify.com/track/4fKRW54WF14rVpyKdFvkqi",
+        "plays": 1
+      },
+      {
+        "name": "Ené Alantchie Alnorem",
+        "album": "New York - Addis - London: The Story of Ethio Jazz 1965-1975",
+        "spotify_url": "https://open.spotify.com/track/71dfXu1LwSqdzSDKGn9Fzp",
+        "plays": 1
+      }
+    ]
+  },
+  "berlioz": {
+    "id": "3k3RY7kR8f0vp8Cq27P141",
+    "name": "berlioz",
+    "spotify_url": "https://open.spotify.com/artist/3k3RY7kR8f0vp8Cq27P141",
+    "total_plays": 1,
+    "first_seen": "2026-03-19",
+    "last_seen": "2026-03-19",
+    "genres": [
+      "jazz house",
+      "jazz"
+    ],
+    "top_tracks": [
+      {
+        "name": "nyc in 1940",
+        "album": "nyc in 1940",
+        "spotify_url": "https://open.spotify.com/track/3YbFagT5wCU8M9xLdVID4j",
+        "plays": 1
       }
     ]
   },
@@ -34622,104 +35110,6 @@
         "name": "Pent-Up House",
         "album": "Plus Four",
         "spotify_url": "https://open.spotify.com/track/2uaMIdq7JAfpN1QGt4kQ7W",
-        "plays": 1
-      }
-    ]
-  },
-  "mulatu-astatke": {
-    "id": "7HGFXtBhRq3g1Ma3nH4Rgv",
-    "name": "Mulatu Astatke",
-    "spotify_url": "https://open.spotify.com/artist/7HGFXtBhRq3g1Ma3nH4Rgv",
-    "total_plays": 17,
-    "first_seen": "",
-    "last_seen": "",
-    "genres": [
-      "afrobeat",
-      "afropop",
-      "ethio-jazz",
-      "world"
-    ],
-    "images": [
-      {
-        "height": 1498,
-        "url": "https://i.scdn.co/image/e7566bc77a7e251fc68da6322737af51ca2f04d7",
-        "width": 1000
-      },
-      {
-        "height": 959,
-        "url": "https://i.scdn.co/image/20a9b2d98169475f1d2f7c4fade56b06b74528f1",
-        "width": 640
-      },
-      {
-        "height": 300,
-        "url": "https://i.scdn.co/image/b31c07d27c5adf3cd74c87c1364d2e23c271db7d",
-        "width": 200
-      },
-      {
-        "height": 96,
-        "url": "https://i.scdn.co/image/3a6ce10ba3dbc5be483486bd386f266a6b185c47",
-        "width": 64
-      }
-    ],
-    "top_tracks": [
-      {
-        "name": "Cha Cha",
-        "album": "Inspiration Information 3",
-        "spotify_url": "https://open.spotify.com/track/6T18Yu2xPqy6NAhylfjQYO",
-        "plays": 3
-      },
-      {
-        "name": "I Faram Gami I Faram",
-        "album": "New York - Addis - London: The Story of Ethio Jazz 1965-1975",
-        "spotify_url": "https://open.spotify.com/track/26YMZ2S61ItkKS1w3gdaDo",
-        "plays": 2
-      },
-      {
-        "name": "Kasalefkut-hulu - Stereo Master",
-        "album": "Mulatu Of Ethiopia",
-        "spotify_url": "https://open.spotify.com/track/24VYlFVsEZ1ARpoVr3D5kB",
-        "plays": 2
-      },
-      {
-        "name": "Mascaram Setaba",
-        "album": "New York - Addis - London: The Story of Ethio Jazz 1965-1975",
-        "spotify_url": "https://open.spotify.com/track/6vSY1FnuOXKtdKgNjjMCKl",
-        "plays": 2
-      },
-      {
-        "name": "Askum",
-        "album": "Afro-Latin Soul",
-        "spotify_url": "https://open.spotify.com/track/7D4sSBbqvMhqxjZ8YtPqUM",
-        "plays": 2
-      },
-      {
-        "name": "Tezeta",
-        "album": "New York - Addis - London: The Story of Ethio Jazz 1965-1975",
-        "spotify_url": "https://open.spotify.com/track/7JPNvoMjoIXkTDAMx9Aajj",
-        "plays": 2
-      },
-      {
-        "name": "Kasalèfkut Hulu",
-        "album": "New York - Addis - London: The Story of Ethio Jazz 1965-1975",
-        "spotify_url": "https://open.spotify.com/track/178AFb6h0SEX1kLx3Ibm7i",
-        "plays": 1
-      },
-      {
-        "name": "Munayé (My Muna)",
-        "album": "Ethiopiques, Vol. 4: Ethio Jazz 1969-1974",
-        "spotify_url": "https://open.spotify.com/track/1SX67Tr9tUsppN6jbdtyTt",
-        "plays": 1
-      },
-      {
-        "name": "Ebo Lala with Seifu Yohannes",
-        "album": "New York - Addis - London: The Story of Ethio Jazz 1965-1975",
-        "spotify_url": "https://open.spotify.com/track/4fKRW54WF14rVpyKdFvkqi",
-        "plays": 1
-      },
-      {
-        "name": "Ené Alantchie Alnorem",
-        "album": "New York - Addis - London: The Story of Ethio Jazz 1965-1975",
-        "spotify_url": "https://open.spotify.com/track/71dfXu1LwSqdzSDKGn9Fzp",
         "plays": 1
       }
     ]

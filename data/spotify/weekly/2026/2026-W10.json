@@ -494,23 +494,7 @@
       "slug": "jimi-hendrix",
       "name": "Jimi Hendrix",
       "plays": 2,
-      "images": [
-        {
-          "height": 640,
-          "url": "https://i.scdn.co/image/ab6761610000e5eb31f6ab67e6025de876475814",
-          "width": 640
-        },
-        {
-          "height": 320,
-          "url": "https://i.scdn.co/image/ab6761610000517431f6ab67e6025de876475814",
-          "width": 320
-        },
-        {
-          "height": 160,
-          "url": "https://i.scdn.co/image/ab6761610000f17831f6ab67e6025de876475814",
-          "width": 160
-        }
-      ]
+      "images": []
     },
     {
       "slug": "emmylou-harris",

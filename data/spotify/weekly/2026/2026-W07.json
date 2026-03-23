@@ -31,6 +31,10 @@
       "plays": 2
     },
     {
+      "name": "devotional",
+      "plays": 1
+    },
+    {
       "name": "americana",
       "plays": 1
     },
@@ -44,10 +48,6 @@
     },
     {
       "name": "canadian singer-songwriter",
-      "plays": 1
-    },
-    {
-      "name": "melancholia",
       "plays": 1
     }
   ],
