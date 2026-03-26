@@ -2,9 +2,9 @@
   "name": "benstrawbridge.com",
   "license": "ISC",
   "repository": {
-		"type": "git",
-		"url": "https://github.com/benstraw/benstrawbridge.com.git"
-	},
+    "type": "git",
+    "url": "https://github.com/benstraw/benstrawbridge.com.git"
+  },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.10",
     "autoprefixer": "^10.4.16",
@@ -13,6 +13,7 @@
     "tailwindcss": "^3.4.1"
   },
   "dependencies": {
+    "@alpinejs/csp": "^3.15.8",
     "@alpinejs/focus": "^3.13.7",
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
     "@fortawesome/free-brands-svg-icons": "^6.5.2",

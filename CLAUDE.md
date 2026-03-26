@@ -93,7 +93,7 @@ Content sections use `sectionTitle` cascade parameter in `_index.md` frontmatter
 - **Leaflet integration**: Maps library enabled via `params.loadLeaflet`
 - **Amazon Associates**: Affiliate ID configured in `params.amazon_associate_id`
 - **Share buttons**: Email and LinkedIn configured in `params.shareButtons.networks`
-- **Analytics**: Plausible analytics partial at `layouts/partials/plausible.html`
+- **Analytics**: Theme-owned analytics via Ryder partials; site config selects the provider
 
 ### Layout Customizations
 Root-level `layouts/` contains section-specific overrides:

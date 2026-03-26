@@ -62,6 +62,9 @@ logo_firstWord = 'Ben'
 [markup]
   [markup.highlight]
     linenos = false
+[security]
+  [security.funcs]
+    getenv = ['^HUGO_', '^CI$', '^PUBLIC_POSTHOG_']
 [taxonomies]
   ingredient = 'ingredients'
   musical-genre = 'musical-genres'

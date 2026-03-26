@@ -3,8 +3,11 @@ enableGitInfo = false
 
 [params]
   env = "production"
-  plausible_domain = "benstrawbridge.com"
-  plausible_advanced = true
+  analytics_provider = "posthog"
+  posthog_host = "https://t.benstrawbridge.com"
+  posthog_ui_host = "https://us.posthog.com"
+  posthog_defaults = "2026-01-30"
+  posthog_person_profiles = "identified_only"
 
 # [services]
 #   [services.googleAnalytics]
