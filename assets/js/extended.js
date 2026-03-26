@@ -123,7 +123,7 @@ library.add(
   faWheatAwn,
 )
 
-Alpine.data('linksPage', (initialLinks = []) => ({
+const registerLinksPage = (alpine) => alpine.data('linksPage', (initialLinks = []) => ({
   search: '',
   selectedTag: '',
   links: Array.isArray(initialLinks) ? initialLinks : [],
@@ -150,6 +150,16 @@ Alpine.data('linksPage', (initialLinks = []) => ({
     })
   },
 }))
+
+if (window.Alpine) {
+  registerLinksPage(window.Alpine)
+} else {
+  document.addEventListener('alpine:init', () => {
+    if (window.Alpine) {
+      registerLinksPage(window.Alpine)
+    }
+  }, { once: true })
+}
 
 // Check if the changeBackgroundImage function exists before calling it
 if (typeof changeBackgroundImage === "function") {
