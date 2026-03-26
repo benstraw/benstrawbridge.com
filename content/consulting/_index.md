@@ -6,6 +6,9 @@ date = 2024-02-14T15:16:41-08:00
   categories = ["consulting"]
   homeFeatureIcon = "fa-solid fa-jedi"
   cardCategoryColorsDefault = "bg-gradient-to-r from-emerald-500 to-emerald-700"
+  [cascade.params]
+    [cascade.params.twClasses]
+      headerBackgroundFrameInner = "bg-header-sunset-sf-coke h-[200px] sm:h-[250px] bg-cover bg-bottom"
 homeFeatureWide = true
 homeFeature = true
 # homeFeatureSummary = "Offering comprehensive consulting services including API integration projects, product management, and full stack application development, tailored to solve complex problems and enhance business operations efficiently and effectively."
@@ -42,5 +45,4 @@ If you or your business are in the early stage of thinking about creating a digi
 ### Full Stack Application development
 
 Do you already have a product you want to refactor, or a fully formed idea you need to implement? I can help with that too.
-
 
