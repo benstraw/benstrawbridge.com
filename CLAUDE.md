@@ -94,6 +94,7 @@ Content sections use `sectionTitle` cascade parameter in `_index.md` frontmatter
 - **Amazon Associates**: Affiliate ID configured in `params.amazon_associate_id`
 - **Share buttons**: Email and LinkedIn configured in `params.shareButtons.networks`
 - **Analytics**: Theme-owned analytics via Ryder partials; site config selects the provider
+- **Font Awesome**: Site-specific icons must be added in `assets/js/extended.js` and validated with `npm run test:fa-icons` before pushing
 
 ### Layout Customizations
 Root-level `layouts/` contains section-specific overrides:

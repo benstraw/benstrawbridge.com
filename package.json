@@ -1,6 +1,9 @@
 {
   "name": "benstrawbridge.com",
   "license": "ISC",
+  "scripts": {
+    "test:fa-icons": "node scripts/check-fa-icons.mjs"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/benstraw/benstrawbridge.com.git"
