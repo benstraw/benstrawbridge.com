@@ -24,3 +24,4 @@
 - NEVER stop before pushing - that leaves work stranded locally
 - NEVER say "ready to push when you are" - YOU must push
 - If push fails, resolve and retry until it succeeds
+- Treat CSP as a required deployment check. Any change that adds or changes external hosts for scripts, images, tiles, fonts, embeds, analytics, or fetch/XHR must be verified against the rendered `Content-Security-Policy` before pushing.

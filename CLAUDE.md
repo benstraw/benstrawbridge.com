@@ -95,6 +95,7 @@ Content sections use `sectionTitle` cascade parameter in `_index.md` frontmatter
 - **Share buttons**: Email and LinkedIn configured in `params.shareButtons.networks`
 - **Analytics**: Theme-owned analytics via Ryder partials; site config selects the provider
 - **Font Awesome**: Site-specific icons must be added in `assets/js/extended.js` and validated with `npm run test:fa-icons` before pushing
+- **CSP-sensitive integrations**: Any new external script, image host, tile host, font host, analytics host, embed, or fetch target must be checked against the rendered `Content-Security-Policy` before pushing. This site breaks easily when outside sources are added without updating `params.csp` or theme CSP logic.
 
 ### Layout Customizations
 Root-level `layouts/` contains section-specific overrides:
@@ -117,3 +118,4 @@ Root-level `layouts/` contains section-specific overrides:
 - Site uses Hugo's timeout of 60s for longer builds
 - Timezone set to `America/Los_Angeles`
 - Minimum Hugo version: 0.121.1 (non-extended)
+- When adding or changing anything that loads from outside the site, inspect the built HTML for the page and verify the CSP covers the actual hosts in use. This includes map tiles, Spotify images, PostHog, Leaflet plugins, embeds, and remote fonts.
