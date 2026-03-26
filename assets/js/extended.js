@@ -123,11 +123,19 @@ library.add(
   faWheatAwn,
 )
 
-const registerLinksPage = (alpine) => alpine.data('linksPage', (initialLinks = []) => ({
+const registerLinksPage = (alpine) => alpine.data('linksPage', () => ({
   search: '',
   selectedTag: '',
-  links: Array.isArray(initialLinks) ? initialLinks : [],
+  links: [],
   init() {
+    try {
+      const rawLinks = this.$el.dataset.linkData || '[]'
+      const parsedLinks = JSON.parse(rawLinks)
+      this.links = Array.isArray(parsedLinks) ? parsedLinks : []
+    } catch (error) {
+      console.error('Error parsing link data:', error)
+      this.links = []
+    }
     const params = new URLSearchParams(window.location.search)
     this.search = params.get('search') || ''
     this.selectedTag = params.get('tag') || ''
@@ -151,14 +159,9 @@ const registerLinksPage = (alpine) => alpine.data('linksPage', (initialLinks = [
   },
 }))
 
-if (window.Alpine) {
+registerLinksPage(Alpine)
+if (window.Alpine && window.Alpine !== Alpine) {
   registerLinksPage(window.Alpine)
-} else {
-  document.addEventListener('alpine:init', () => {
-    if (window.Alpine) {
-      registerLinksPage(window.Alpine)
-    }
-  }, { once: true })
 }
 
 // Check if the changeBackgroundImage function exists before calling it

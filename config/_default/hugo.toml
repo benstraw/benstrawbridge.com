@@ -45,7 +45,7 @@ logo_firstWord = 'Ben'
   [params.twClasses]
     headerBackgroundFrameOuter = "bg-gradient-to-r to-sky-300 from-indigo-300 dark:from-violet-950 dark:to-gray-900 border-b border-fuchsia-600 text-violet-950 dark:text-neutral-100"
     headerBackgroundFrameInner = "bg-header-sunset-sf-coke dark:bg-header-artist-date-two h-[200px] sm:h-[250px] bg-cover bg-bottom"
-    # footerBackground = "bg-gradient-to-r from-violet-950 to-rose-950 border-fuchsia-600" 
+    footerBackground = "bg-gradient-to-r from-slate-950 via-neutral-950 to-zinc-900 border-emerald-500"
     # navbar_fixed = "sticky top-0"
   [params.footer]
     tagCloud = true

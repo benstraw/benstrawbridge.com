@@ -28,24 +28,20 @@
   {{- if $links -}}
 
   {{- /* Internal UI links should stay relative; reserve absolute URLs for metadata only. */ -}}
-  {{- /* Inline link data as JSON for Alpine.js */ -}}
-  <script>
-  const linkData = [
-    {{- range $links -}}
-    {
-      title: {{ .Title | jsonify | safeJS }},
-      link_url: {{ .Params.link_url | jsonify | safeJS }},
-      date: {{ .Date.Format "2006-01-02" | jsonify | safeJS }},
-      dateFormatted: {{ .Date.Format "Jan 2, 2006" | jsonify | safeJS }},
-      description: {{ .Params.description | default "" | jsonify | safeJS }},
-      tags: {{ if .Params.tags }}{{ .Params.tags | jsonify | safeJS }}{{ else }}[]{{ end }},
-      permalink: {{ .RelPermalink | jsonify | safeJS }},
-    },
-    {{- end -}}
-  ];
-  </script>
+  {{- $linkData := slice -}}
+  {{- range $links -}}
+    {{- $linkData = $linkData | append (dict
+      "title" .Title
+      "link_url" .Params.link_url
+      "date" (.Date.Format "2006-01-02")
+      "dateFormatted" (.Date.Format "Jan 2, 2006")
+      "description" (.Params.description | default "")
+      "tags" (.Params.tags | default (slice))
+      "permalink" .RelPermalink
+    ) -}}
+  {{- end -}}
 
-  <div x-data="linksPage(linkData)" class="mt-6">
+  <div x-data="linksPage" data-link-data='{{ $linkData | jsonify }}' class="mt-6">
 
     {{- /* Filter controls */ -}}
     <div class="flex flex-wrap gap-3 p-4 bg-neutral-100 dark:bg-neutral-800 rounded-lg mb-4">
