@@ -50,7 +50,7 @@ logo_firstWord = 'Ben'
   [params.footer]
     tagCloud = true
   [params.csp]
-    imgSrc = "https://*.tile.openstreetmap.org"
+    imgSrc = "https://*.tile.openstreetmap.org https://i.scdn.co"
 # [[params.alphaAlert]]
 #   weight = 1
 #   alertType = "success"
