@@ -22,6 +22,11 @@ Desktop.ini
 # Editor-specific
 .vscode/
 .idea/
+
+# Python
+__pycache__/
+*.py[cod]
+
 themes/benstraw/assets/fontawesome/js/all.js
 themes/benstraw/assets/fontawesome/js/all.js
 themes/benstraw/assets/fontawesome/js/all.min.js
