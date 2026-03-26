@@ -49,6 +49,14 @@ logo_firstWord = 'Ben'
     # navbar_fixed = "sticky top-0"
   [params.footer]
     tagCloud = true
+  [[params.footer.taxonomies]]
+    name = "tags"
+    title = "Tags"
+    minCount = 6
+  [[params.footer.taxonomies]]
+    name = "musical-genres"
+    title = "Musical Genres"
+    minCount = 12
   [params.csp]
     imgSrc = "https://*.tile.openstreetmap.org https://*.basemaps.cartocdn.com https://server.arcgisonline.com https://basemap.nationalmap.gov https://i.scdn.co"
 # [[params.alphaAlert]]
