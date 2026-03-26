@@ -49,6 +49,8 @@ logo_firstWord = 'Ben'
     # navbar_fixed = "sticky top-0"
   [params.footer]
     tagCloud = true
+  [params.csp]
+    imgSrc = "https://*.tile.openstreetmap.org"
 # [[params.alphaAlert]]
 #   weight = 1
 #   alertType = "success"

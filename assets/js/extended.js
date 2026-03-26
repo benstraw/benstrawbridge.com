@@ -1,4 +1,5 @@
 import { library } from '@fortawesome/fontawesome-svg-core'
+import Alpine from '@alpinejs/csp'
 import {
   faAnchor,
   faArrowLeft,
@@ -121,6 +122,34 @@ library.add(
   faTrophy,
   faWheatAwn,
 )
+
+Alpine.data('linksPage', (initialLinks = []) => ({
+  search: '',
+  selectedTag: '',
+  links: Array.isArray(initialLinks) ? initialLinks : [],
+  init() {
+    const params = new URLSearchParams(window.location.search)
+    this.search = params.get('search') || ''
+    this.selectedTag = params.get('tag') || ''
+    if (this.selectedTag && !this.availableTags.includes(this.selectedTag)) {
+      this.selectedTag = ''
+    }
+  },
+  get availableTags() {
+    return [...new Set(this.links.flatMap((link) => link.tags || []))].sort()
+  },
+  get filteredLinks() {
+    const q = this.search.toLowerCase().trim()
+    return this.links.filter((link) => {
+      if (this.selectedTag && !(link.tags || []).includes(this.selectedTag)) return false
+      if (!q) return true
+      return (
+        (link.title || '').toLowerCase().includes(q) ||
+        (link.description || '').toLowerCase().includes(q)
+      )
+    })
+  },
+}))
 
 // Check if the changeBackgroundImage function exists before calling it
 if (typeof changeBackgroundImage === "function") {

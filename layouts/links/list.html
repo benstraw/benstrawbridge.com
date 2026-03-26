@@ -45,33 +45,7 @@
   ];
   </script>
 
-  <div
-    x-data="{
-      search: '',
-      selectedTag: '',
-      links: linkData,
-      init() {
-        const params = new URLSearchParams(window.location.search);
-        this.search = params.get('search') || '';
-        this.selectedTag = params.get('tag') || '';
-        if (this.selectedTag && !this.availableTags.includes(this.selectedTag)) {
-          this.selectedTag = '';
-        }
-      },
-      get availableTags() {
-        return [...new Set(this.links.flatMap(link => link.tags))].sort();
-      },
-      get filteredLinks() {
-        const q = this.search.toLowerCase().trim();
-        return this.links.filter(link => {
-          if (this.selectedTag && !link.tags.includes(this.selectedTag)) return false;
-          if (q && !link.title.toLowerCase().includes(q) && !link.description.toLowerCase().includes(q)) return false;
-          return true;
-        });
-      }
-    }"
-    class="mt-6"
-  >
+  <div x-data="linksPage(linkData)" class="mt-6">
 
     {{- /* Filter controls */ -}}
     <div class="flex flex-wrap gap-3 p-4 bg-neutral-100 dark:bg-neutral-800 rounded-lg mb-4">
