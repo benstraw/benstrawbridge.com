@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
-# Sync Spotify play data from obsidian-spotify-garden into this repo.
-# Usage: ./scripts/sync-spotify-data.sh [path/to/obsidian-spotify-garden]
+# Sync Spotify play data from obsidian-music-garden into this repo.
+# Usage: ./scripts/sync-spotify-data.sh [path/to/obsidian-music-garden]
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_ROOT="$(dirname "$SCRIPT_DIR")"
-GARDEN_DIR="${1:-${REPO_ROOT}/../obsidian-spotify-garden}"
+GARDEN_DIR="${1:-${REPO_ROOT}/../obsidian-music-garden}"
 SPOTIFY_DATA="${REPO_ROOT}/data/spotify"
 
 echo "Syncing Spotify data"
@@ -13,7 +13,7 @@ echo "  Garden: ${GARDEN_DIR}"
 echo "  Target: ${SPOTIFY_DATA}"
 
 if [[ ! -d "${GARDEN_DIR}/data/plays" ]]; then
-  echo "ERROR: obsidian-spotify-garden not found or missing data/plays at ${GARDEN_DIR}"
+  echo "ERROR: obsidian-music-garden not found or missing data/plays at ${GARDEN_DIR}"
   exit 1
 fi
 

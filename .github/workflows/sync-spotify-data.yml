@@ -18,11 +18,11 @@ jobs:
         with:
           path: website
 
-      - name: Checkout obsidian-spotify-garden
+      - name: Checkout obsidian-music-garden
         uses: actions/checkout@v4
         with:
-          repository: benstraw/obsidian-spotify-garden
-          path: obsidian-spotify-garden
+          repository: benstraw/obsidian-music-garden
+          path: obsidian-music-garden
           token: ${{ secrets.GARDEN_REPO_TOKEN }}
 
       - name: Set up Python
@@ -32,7 +32,7 @@ jobs:
 
       - name: Run sync
         run: |
-          bash website/scripts/sync-spotify-data.sh ${{ github.workspace }}/obsidian-spotify-garden
+          bash website/scripts/sync-spotify-data.sh ${{ github.workspace }}/obsidian-music-garden
 
       - name: Commit and push
         working-directory: website
