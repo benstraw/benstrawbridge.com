@@ -8,7 +8,23 @@
   "total_plays": 99,
   "unique_artists": 29,
   "topArtistName": "Verdèzul",
-  "topArtistImages": [],
+  "topArtistImages": [
+    {
+      "url": "https://i.scdn.co/image/ab6761610000e5ebde992585da11c3567cabaa5a",
+      "height": 640,
+      "width": 640
+    },
+    {
+      "url": "https://i.scdn.co/image/ab67616100005174de992585da11c3567cabaa5a",
+      "height": 320,
+      "width": 320
+    },
+    {
+      "url": "https://i.scdn.co/image/ab6761610000f178de992585da11c3567cabaa5a",
+      "height": 160,
+      "width": 160
+    }
+  ],
   "top_genres": [
     {
       "name": "devotional",
@@ -56,19 +72,67 @@
       "slug": "verdezul",
       "name": "Verdèzul",
       "plays": 27,
-      "images": []
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebde992585da11c3567cabaa5a",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174de992585da11c3567cabaa5a",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178de992585da11c3567cabaa5a",
+          "height": 160,
+          "width": 160
+        }
+      ]
     },
     {
       "slug": "gaiea-sanskrit",
       "name": "Gaiea Sanskrit",
       "plays": 16,
-      "images": []
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebc0a4dc41d478531ff7eaed7a",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174c0a4dc41d478531ff7eaed7a",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178c0a4dc41d478531ff7eaed7a",
+          "height": 160,
+          "width": 160
+        }
+      ]
     },
     {
       "slug": "stephen-wilson-jr",
       "name": "Stephen Wilson Jr.",
       "plays": 8,
-      "images": []
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb2e25871e208b1befa79b4c44",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051742e25871e208b1befa79b4c44",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1782e25871e208b1befa79b4c44",
+          "height": 160,
+          "width": 160
+        }
+      ]
     },
     {
       "slug": "miles-davis",
@@ -101,13 +165,45 @@
       "slug": "tonez",
       "name": "Tonez",
       "plays": 4,
-      "images": []
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb044eee276fc09690484789e8",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174044eee276fc09690484789e8",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178044eee276fc09690484789e8",
+          "height": 160,
+          "width": 160
+        }
+      ]
     },
     {
       "slug": "the-dare",
       "name": "The Dare",
       "plays": 4,
-      "images": []
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb625f4eebd07e07e68e87b4f1",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174625f4eebd07e07e68e87b4f1",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178625f4eebd07e07e68e87b4f1",
+          "height": 160,
+          "width": 160
+        }
+      ]
     },
     {
       "slug": "a-tribe-called-quest",
@@ -135,25 +231,94 @@
       "slug": "songs-of-disappearance",
       "name": "Songs of Disappearance",
       "plays": 3,
-      "images": []
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000b273b6468146ac875d16f3df40a7",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00001e02b6468146ac875d16f3df40a7",
+          "height": 300,
+          "width": 300
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00004851b6468146ac875d16f3df40a7",
+          "height": 64,
+          "width": 64
+        }
+      ]
     },
     {
       "slug": "maurice-white",
       "name": "Maurice White",
       "plays": 3,
-      "images": []
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/79fad2b2a30f696dbe5aeb57b6838f418adf07d7",
+          "height": 1199,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/eb9f0f4cd0df4ca366ab6878e4964ef56a31fafc",
+          "height": 767,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/e0212b2635133f4c4401b4fcf5e8129f0284754c",
+          "height": 240,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/b98db83d79827b20a07b5354491a3354d3bb32fd",
+          "height": 77,
+          "width": 64
+        }
+      ]
     },
     {
       "slug": "lori-mckenna",
       "name": "Lori McKenna",
       "plays": 2,
-      "images": []
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb84e4f84f23c7e087cf67422a",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517484e4f84f23c7e087cf67422a",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17884e4f84f23c7e087cf67422a",
+          "height": 160,
+          "width": 160
+        }
+      ]
     },
     {
       "slug": "cypress-hill",
       "name": "Cypress Hill",
       "plays": 2,
-      "images": []
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb38df3e7ad0a284eec89ffb33",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517438df3e7ad0a284eec89ffb33",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17838df3e7ad0a284eec89ffb33",
+          "height": 160,
+          "width": 160
+        }
+      ]
     },
     {
       "slug": "sublime",
@@ -181,73 +346,265 @@
       "slug": "john-prine",
       "name": "John Prine",
       "plays": 2,
-      "images": []
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebf109851845669becdc5c63f6",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174f109851845669becdc5c63f6",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178f109851845669becdc5c63f6",
+          "height": 160,
+          "width": 160
+        }
+      ]
     },
     {
       "slug": "hardy",
       "name": "HARDY",
       "plays": 1,
-      "images": []
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebaed339624606affc06966a92",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174aed339624606affc06966a92",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178aed339624606affc06966a92",
+          "height": 160,
+          "width": 160
+        }
+      ]
     },
     {
       "slug": "wet-leg",
       "name": "Wet Leg",
       "plays": 1,
-      "images": []
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eba4e6cf8b3d6ea5a6b4b5fb8f",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174a4e6cf8b3d6ea5a6b4b5fb8f",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178a4e6cf8b3d6ea5a6b4b5fb8f",
+          "height": 160,
+          "width": 160
+        }
+      ]
     },
     {
       "slug": "pink-floyd",
       "name": "Pink Floyd",
       "plays": 1,
-      "images": []
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb97885ce689d644c91dfba05c",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517497885ce689d644c91dfba05c",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17897885ce689d644c91dfba05c",
+          "height": 160,
+          "width": 160
+        }
+      ]
     },
     {
       "slug": "simran-guruprem",
       "name": "Simran & GuruPrem",
       "plays": 1,
-      "images": []
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000b2737cf59857d00e1d447b7ec2ea",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00001e02657ad2b24fc39399ea95a490",
+          "height": 300,
+          "width": 300
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d000048517cf59857d00e1d447b7ec2ea",
+          "height": 64,
+          "width": 64
+        }
+      ]
     },
     {
       "slug": "mulatu-astatke",
       "name": "Mulatu Astatke",
       "plays": 1,
-      "images": []
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebdc685b05724610239ffde90c",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174dc685b05724610239ffde90c",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178dc685b05724610239ffde90c",
+          "height": 160,
+          "width": 160
+        }
+      ]
     },
     {
       "slug": "berlioz",
       "name": "berlioz",
       "plays": 1,
-      "images": []
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb3a9ab7733c4e6f95251a806b",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051743a9ab7733c4e6f95251a806b",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1783a9ab7733c4e6f95251a806b",
+          "height": 160,
+          "width": 160
+        }
+      ]
     },
     {
       "slug": "bobby-shmurda",
       "name": "Bobby Shmurda",
       "plays": 1,
-      "images": []
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebee12e6771607433caee705a3",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174ee12e6771607433caee705a3",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178ee12e6771607433caee705a3",
+          "height": 160,
+          "width": 160
+        }
+      ]
     },
     {
       "slug": "jimi-hendrix",
       "name": "Jimi Hendrix",
       "plays": 1,
-      "images": []
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb90c8b988fa6e6b40e0d0bf81",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517490c8b988fa6e6b40e0d0bf81",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17890c8b988fa6e6b40e0d0bf81",
+          "height": 160,
+          "width": 160
+        }
+      ]
     },
     {
       "slug": "eminem",
       "name": "Eminem",
       "plays": 1,
-      "images": []
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eba00b11c129b27a88fc72f36b",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174a00b11c129b27a88fc72f36b",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178a00b11c129b27a88fc72f36b",
+          "height": 160,
+          "width": 160
+        }
+      ]
     },
     {
       "slug": "public-enemy",
       "name": "Public Enemy",
       "plays": 1,
-      "images": []
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebbec3cbe75ac982c675655e88",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174bec3cbe75ac982c675655e88",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178bec3cbe75ac982c675655e88",
+          "height": 160,
+          "width": 160
+        }
+      ]
     },
     {
       "slug": "snoop-dogg",
       "name": "Snoop Dogg",
       "plays": 1,
-      "images": []
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebc19a88576ebe6fcbb325c297",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174c19a88576ebe6fcbb325c297",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178c19a88576ebe6fcbb325c297",
+          "height": 160,
+          "width": 160
+        }
+      ]
     },
     {
       "slug": "kendrick-lamar",
@@ -275,7 +632,23 @@
       "slug": "gnarls-barkley",
       "name": "Gnarls Barkley",
       "plays": 1,
-      "images": []
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebbfe9d94ced31fa45bdca0222",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174bfe9d94ced31fa45bdca0222",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178bfe9d94ced31fa45bdca0222",
+          "height": 160,
+          "width": 160
+        }
+      ]
     },
     {
       "slug": "neil-young",

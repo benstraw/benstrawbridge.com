@@ -1,0 +1,3205 @@
+{
+  "week": "2026-W13",
+  "title": "Week of Mar 23, 2026",
+  "year": 2026,
+  "week_num": 13,
+  "date_start": "2026-03-23",
+  "date_end": "2026-03-29",
+  "total_plays": 288,
+  "unique_artists": 60,
+  "topArtistName": "Steely Dan",
+  "topArtistImages": [
+    {
+      "url": "https://i.scdn.co/image/9d01e4e9aac39b891d684d3d1a5b3a451d7c72bd",
+      "height": 1242,
+      "width": 1000
+    },
+    {
+      "url": "https://i.scdn.co/image/067bf3caa525edb4e97e19b2a630ccf361897350",
+      "height": 795,
+      "width": 640
+    },
+    {
+      "url": "https://i.scdn.co/image/c930cc3599a165211fa20c3ec0d70d1a3cbe4778",
+      "height": 248,
+      "width": 200
+    },
+    {
+      "url": "https://i.scdn.co/image/85996811ba349faa5a467296baee6c7cd7518476",
+      "height": 79,
+      "width": 64
+    }
+  ],
+  "top_genres": [
+    {
+      "name": "classic rock",
+      "plays": 89
+    },
+    {
+      "name": "yacht rock",
+      "plays": 70
+    },
+    {
+      "name": "folk rock",
+      "plays": 54
+    },
+    {
+      "name": "psychedelic rock",
+      "plays": 42
+    },
+    {
+      "name": "jam band",
+      "plays": 37
+    },
+    {
+      "name": "southern rock",
+      "plays": 28
+    },
+    {
+      "name": "singer-songwriter",
+      "plays": 28
+    },
+    {
+      "name": "art rock",
+      "plays": 27
+    },
+    {
+      "name": "acid rock",
+      "plays": 26
+    },
+    {
+      "name": "country rock",
+      "plays": 24
+    }
+  ],
+  "top_artists": [
+    {
+      "slug": "steely-dan",
+      "name": "Steely Dan",
+      "plays": 39,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/9d01e4e9aac39b891d684d3d1a5b3a451d7c72bd",
+          "height": 1242,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/067bf3caa525edb4e97e19b2a630ccf361897350",
+          "height": 795,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/c930cc3599a165211fa20c3ec0d70d1a3cbe4778",
+          "height": 248,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/85996811ba349faa5a467296baee6c7cd7518476",
+          "height": 79,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "carpenters",
+      "name": "Carpenters",
+      "plays": 23,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ed45f575339b044d7168780a15ff457b85be851a",
+          "height": 493,
+          "width": 500
+        },
+        {
+          "url": "https://i.scdn.co/image/6d1f554e76304a29b8baa3f61213a88702c0f599",
+          "height": 197,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/53a2c2a3d9f4c61f20b04d95936fadc83b7b08b5",
+          "height": 63,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "grateful-dead",
+      "name": "Grateful Dead",
+      "plays": 21,
+      "images": [
+        {
+          "height": 697,
+          "url": "https://i.scdn.co/image/bba340d0c2aa4c9cbcbab0a4c3259d8f8e27f0d7",
+          "width": 1000
+        },
+        {
+          "height": 446,
+          "url": "https://i.scdn.co/image/4c000d838221db17a95ec272d79c06560829ab11",
+          "width": 640
+        },
+        {
+          "height": 139,
+          "url": "https://i.scdn.co/image/055f1232a2588ace9747002f972be62ecbb74e92",
+          "width": 199
+        },
+        {
+          "height": 45,
+          "url": "https://i.scdn.co/image/264413e72f38c521bb90e5c5cc3d5c6b5097efdb",
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "paul-mccartney",
+      "name": "Paul McCartney",
+      "plays": 15,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb75f1804b28400539955f48f3",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517475f1804b28400539955f48f3",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17875f1804b28400539955f48f3",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "george-harrison",
+      "name": "George Harrison",
+      "plays": 11,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb56358cb4880bab6bb730f9b5",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517456358cb4880bab6bb730f9b5",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17856358cb4880bab6bb730f9b5",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "little-feat",
+      "name": "Little Feat",
+      "plays": 10,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb5fb6a968ac72e41ed40a3f9e",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051745fb6a968ac72e41ed40a3f9e",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1785fb6a968ac72e41ed40a3f9e",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "david-bowie",
+      "name": "David Bowie",
+      "plays": 9,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebb78f77c5583ae99472dd4a49",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174b78f77c5583ae99472dd4a49",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178b78f77c5583ae99472dd4a49",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "dire-straits",
+      "name": "Dire Straits",
+      "plays": 9,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb4bdaa8c5e65b64f50549c393",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051744bdaa8c5e65b64f50549c393",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1784bdaa8c5e65b64f50549c393",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "the-band",
+      "name": "The Band",
+      "plays": 9,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebf4f262f1f5d28fcdc4c4226f",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174f4f262f1f5d28fcdc4c4226f",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178f4f262f1f5d28fcdc4c4226f",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "gillian-welch",
+      "name": "Gillian Welch",
+      "plays": 8,
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebbf3ed488c6ff47a5b3a980ac",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174bf3ed488c6ff47a5b3a980ac",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178bf3ed488c6ff47a5b3a980ac",
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "pink-floyd",
+      "name": "Pink Floyd",
+      "plays": 8,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb97885ce689d644c91dfba05c",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517497885ce689d644c91dfba05c",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17897885ce689d644c91dfba05c",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "america",
+      "name": "America",
+      "plays": 8,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb1918619d3b26c6cb16084997",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051741918619d3b26c6cb16084997",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1781918619d3b26c6cb16084997",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "faces",
+      "name": "Faces",
+      "plays": 8,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/228b37f3fd1bb220f6d1922ca179bc1d933adc37",
+          "height": 1000,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/d63030262e9b5452cedecd885c55d4162b839f46",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/3912a6e66a69441e993c2073e22faaa7ceccae0e",
+          "height": 200,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/e348cb3082d6c559a1715d392d8ab2b2e6fb31c7",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "talking-heads",
+      "name": "Talking Heads",
+      "plays": 7,
+      "images": [
+        {
+          "height": 500,
+          "url": "https://i.scdn.co/image/e4c5b04fce8706c87663357b1f78522a3a5c641b",
+          "width": 500
+        },
+        {
+          "height": 200,
+          "url": "https://i.scdn.co/image/60bfd4ad01d8d9142d88c3c0b73cea36bf327ea7",
+          "width": 200
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/4056b1eaa81255de0865ebe4fdbe61246205153c",
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "frank-zappa",
+      "name": "Frank Zappa",
+      "plays": 6,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/e1c04d8144371d6a6ac39c7f15a1c2a9f67a0c50",
+          "height": 1028,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/f2c74b01414e5d40b07baea7e5a2e7dd00b85c5b",
+          "height": 658,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/4b7ce8ea46a12071667f7ca393da0b509bb62af8",
+          "height": 206,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/5476aad521baecb4a2c03ebcf67699d15a949af7",
+          "height": 66,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "buffalo-springfield",
+      "name": "Buffalo Springfield",
+      "plays": 6,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/b701ba75981d0b9aeef036b9fab4e3c96609e364",
+          "height": 1000,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/52e254506bdba02418c836d1272f8de58933d7c6",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/f4ea5031036120db540cf8efdf24a8bace04f475",
+          "height": 200,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/a42b8b61115ab656d136976e32cc1b67448aae60",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "jim-croce",
+      "name": "Jim Croce",
+      "plays": 6,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/9f9b40704e3361c93ea8a8b7a86a5d9ee755466e",
+          "height": 990,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/a231c19bbf27417afaf99cad6ef372054b38da28",
+          "height": 634,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/f2374db73b0a0722f78b84ff88d26ab32472938b",
+          "height": 198,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/ac6acaf00e9a2201a9a9785a1bd83d1419545f1f",
+          "height": 63,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "crosby-stills-nash-young",
+      "name": "Crosby, Stills, Nash & Young",
+      "plays": 5,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb4e5018dad07ee004f171d7d3",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051744e5018dad07ee004f171d7d3",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1784e5018dad07ee004f171d7d3",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "crosby-stills-nash",
+      "name": "Crosby, Stills & Nash",
+      "plays": 5,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/b9c086901cca94cab20e8fcdc35bd79c7b39526a",
+          "height": 619,
+          "width": 999
+        },
+        {
+          "url": "https://i.scdn.co/image/7d26d42a2969e495d8917b077501e02fca5da5e0",
+          "height": 396,
+          "width": 639
+        },
+        {
+          "url": "https://i.scdn.co/image/8ee7e65ec865603c08b0f6af1eeb0dc944d7872d",
+          "height": 124,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/f10a24a75fe763187b870479c4c2df81ce2923f8",
+          "height": 40,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "neil-young",
+      "name": "Neil Young",
+      "plays": 4,
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebbae8276dffd864ebac759b76",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174bae8276dffd864ebac759b76",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178bae8276dffd864ebac759b76",
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "jackson-browne",
+      "name": "Jackson Browne",
+      "plays": 4,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebef4b0122d50775167339c7c2",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174ef4b0122d50775167339c7c2",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178ef4b0122d50775167339c7c2",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "allman-brothers-band",
+      "name": "Allman Brothers Band",
+      "plays": 4,
+      "images": [
+        {
+          "height": 1000,
+          "url": "https://i.scdn.co/image/ab6772690000c46c08f5d15585b77b0cb059717b",
+          "width": 1000
+        },
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6772690000dd2208f5d15585b77b0cb059717b",
+          "width": 640
+        },
+        {
+          "height": 200,
+          "url": "https://i.scdn.co/image/ab6772690000bac308f5d15585b77b0cb059717b",
+          "width": 200
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/ab67726900008f7408f5d15585b77b0cb059717b",
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "the-rolling-stones",
+      "name": "The Rolling Stones",
+      "plays": 4,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebe4cea917b68726aadb4854b8",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174e4cea917b68726aadb4854b8",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178e4cea917b68726aadb4854b8",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "jimi-hendrix",
+      "name": "Jimi Hendrix",
+      "plays": 3,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb90c8b988fa6e6b40e0d0bf81",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517490c8b988fa6e6b40e0d0bf81",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17890c8b988fa6e6b40e0d0bf81",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "the-marshall-tucker-band",
+      "name": "The Marshall Tucker Band",
+      "plays": 3,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb146388d54bc86c0dc6f59f6d",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174146388d54bc86c0dc6f59f6d",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178146388d54bc86c0dc6f59f6d",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "ambrosia",
+      "name": "Ambrosia",
+      "plays": 3,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/d91f8a83b8f9a1da22a6fa7901431ee7fa516cfe",
+          "height": 695,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/1bc5d2c53780cd995ec55ec666c7241c932a2232",
+          "height": 445,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/35e79a82b8afc88cde0d2c6bc55646d20b464eea",
+          "height": 139,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/5445a0e3c7db08f86b1ed0a81a13e4a9f45efc0e",
+          "height": 44,
+          "width": 63
+        }
+      ]
+    },
+    {
+      "slug": "yes",
+      "name": "Yes",
+      "plays": 3,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb419fcf221809dabb6cc0f31c",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174419fcf221809dabb6cc0f31c",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178419fcf221809dabb6cc0f31c",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "paul-simon",
+      "name": "Paul Simon",
+      "plays": 3,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebddc148cfa465c2065846c636",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174ddc148cfa465c2065846c636",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178ddc148cfa465c2065846c636",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "led-zeppelin",
+      "name": "Led Zeppelin",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/207803ce008388d3427a685254f9de6a8f61dc2e",
+          "height": 600,
+          "width": 600
+        },
+        {
+          "url": "https://i.scdn.co/image/b0248a44865493e6a03832aa89854ada16ff07a8",
+          "height": 200,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/16eb3cdae0d824b520ac17710e943a99d3ef6602",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "the-who",
+      "name": "The Who",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6772690000c46c456d5397bdf11547ef38ca93",
+          "height": 1000,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6772690000dd22456d5397bdf11547ef38ca93",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6772690000bac3456d5397bdf11547ef38ca93",
+          "height": 200,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67726900008f74456d5397bdf11547ef38ca93",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "the-beatles",
+      "name": "The Beatles",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebe9348cc01ff5d55971b22433",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174e9348cc01ff5d55971b22433",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178e9348cc01ff5d55971b22433",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "seals-and-crofts",
+      "name": "Seals and Crofts",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/7e0eb81433b92ae11894a35a53aa870be824d772",
+          "height": 1000,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/76ccb803ba5113aa822077dd9f1c3187ca9d323d",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/b710389b2afcc6a256cd68d8409f9fdf481f78af",
+          "height": 200,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/d6c5db76d07d5fa0571e8353319da0c3ab2fdeaf",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "gordon-lightfoot",
+      "name": "Gordon Lightfoot",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/4786e7b7378ca4420a75b60531c333f40e9e6b6a",
+          "height": 1000,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/bd761ad35b18b3b01f28ef55a4929d97957d1c23",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/17c72a16e6dd38beb6d10996c123359ffe6f749a",
+          "height": 200,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/a19302f7bd3dfcf2aab56a82e10d9e81e20daf31",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "jj-cale",
+      "name": "J.J. Cale",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebbe1b2ad861e0148a1540b107",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174be1b2ad861e0148a1540b107",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178be1b2ad861e0148a1540b107",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "bob-dylan",
+      "name": "Bob Dylan",
+      "plays": 2,
+      "images": [
+        {
+          "height": 1000,
+          "url": "https://i.scdn.co/image/ab6772690000c46cd7064356b04a156664a37c4f",
+          "width": 1000
+        },
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6772690000dd22d7064356b04a156664a37c4f",
+          "width": 640
+        },
+        {
+          "height": 200,
+          "url": "https://i.scdn.co/image/ab6772690000bac3d7064356b04a156664a37c4f",
+          "width": 200
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/ab67726900008f74d7064356b04a156664a37c4f",
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "wings",
+      "name": "Wings",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebe2990620300995034db37d79",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174e2990620300995034db37d79",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178e2990620300995034db37d79",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "daryl-hall-john-oates",
+      "name": "Daryl Hall & John Oates",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebae81417d966e209b735b1160",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174ae81417d966e209b735b1160",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178ae81417d966e209b735b1160",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "gerry-rafferty",
+      "name": "Gerry Rafferty",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb458dd0cbffc2b84311f5aa7d",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174458dd0cbffc2b84311f5aa7d",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178458dd0cbffc2b84311f5aa7d",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "joni-mitchell",
+      "name": "Joni Mitchell",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/68cfb061951dbd44c95422a54cb70baec0722ca3",
+          "height": 784,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/ebaff9c356b21f97cb877d8e4607568b3e0cae75",
+          "height": 502,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/bc9f1f21ffa483e952a6d012420644554f91f624",
+          "height": 157,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/938613e2fe5e0ca97a524675feabea263400222f",
+          "height": 50,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "john-prine",
+      "name": "John Prine",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebf109851845669becdc5c63f6",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174f109851845669becdc5c63f6",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178f109851845669becdc5c63f6",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "norah-jones",
+      "name": "Norah Jones",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebed83d3ea063d87ce7e708f00",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174ed83d3ea063d87ce7e708f00",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178ed83d3ea063d87ce7e708f00",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "lou-reed",
+      "name": "Lou Reed",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/2e1e9a6fe696b536a1f9e6a27fc1ed23d2c97099",
+          "height": 1006,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/49b8173759e47ed5e74d1c7c11a932e4dc6a91f9",
+          "height": 644,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/bb3e155f456d2f3533b753417cf586408c00fff0",
+          "height": 201,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/cf74e6ba4644f8f5a552060f40d3864aeb6a4311",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "neutral-milk-hotel",
+      "name": "Neutral Milk Hotel",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb3c0a3cafde53be39a91f373e",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051743c0a3cafde53be39a91f373e",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1783c0a3cafde53be39a91f373e",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "the-doors",
+      "name": "The Doors",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb440959e022afc20e819050bd",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174440959e022afc20e819050bd",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178440959e022afc20e819050bd",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "the-animals",
+      "name": "The Animals",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb3ce1e2a99cffc7c662938b01",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051743ce1e2a99cffc7c662938b01",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1783ce1e2a99cffc7c662938b01",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "nick-drake",
+      "name": "Nick Drake",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/d364b498f85ae764cd278fbba9a8ed7f00c3e434",
+          "height": 1484,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/087fb05851e498c2791ca99000acf35b0fd49f19",
+          "height": 950,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/9a74a7d885abe5da94ac812546d0146cfe4a1ceb",
+          "height": 297,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/267080662cf3c019ea8020a4e0e8dd5a7be4d909",
+          "height": 95,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "king-harvest",
+      "name": "King Harvest",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb3f8d004d076f206020da42de",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051743f8d004d076f206020da42de",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1783f8d004d076f206020da42de",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "cream",
+      "name": "Cream",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb0b10eaed6d94e0c55e0bb80b",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051740b10eaed6d94e0c55e0bb80b",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1780b10eaed6d94e0c55e0bb80b",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "warren-zevon",
+      "name": "Warren Zevon",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebcb844c45233a84f9f81c9ec4",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174cb844c45233a84f9f81c9ec4",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178cb844c45233a84f9f81c9ec4",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "atlanta-rhythm-section",
+      "name": "Atlanta Rhythm Section",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebd8bf9437c1c695ca517c9710",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174d8bf9437c1c695ca517c9710",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178d8bf9437c1c695ca517c9710",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "little-river-band",
+      "name": "Little River Band",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb9a44d8722feae811910ddba6",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051749a44d8722feae811910ddba6",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1789a44d8722feae811910ddba6",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "labi-siffre",
+      "name": "Labi Siffre",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebbac42447a71cc398fad2efac",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174bac42447a71cc398fad2efac",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178bac42447a71cc398fad2efac",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "the-doobie-brothers",
+      "name": "The Doobie Brothers",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb28f5622994674caec36fd95c",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517428f5622994674caec36fd95c",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17828f5622994674caec36fd95c",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "carole-king",
+      "name": "Carole King",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebea6c3263b9aeda33707faee5",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174ea6c3263b9aeda33707faee5",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178ea6c3263b9aeda33707faee5",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "emerson-lake-palmer",
+      "name": "Emerson, Lake & Palmer",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/492cf7afbe3a7be6d6d2bda5c71a52e3cc1c9d3d",
+          "height": 666,
+          "width": 999
+        },
+        {
+          "url": "https://i.scdn.co/image/b08d44bef3e4d8cb3589acc61389a9d62098be47",
+          "height": 427,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/0cbd0b45bdf8659a6d73304c0ae44d8b0dca221d",
+          "height": 133,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/c2f340972877f61ac57c32e6a059a513b4805761",
+          "height": 43,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "the-stills-young-band",
+      "name": "The Stills-Young Band",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000b2736b89a9aebac2ee596a1edb89",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00001e026b89a9aebac2ee596a1edb89",
+          "height": 300,
+          "width": 300
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00004851d35554f26fcceb646d6317ec",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "dr-john",
+      "name": "Dr. John",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebfed5626c008ba961a81dd218",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174fed5626c008ba961a81dd218",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178fed5626c008ba961a81dd218",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "hot-tuna",
+      "name": "Hot Tuna",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/2dc42435d2d01d9754166420bf2056d4438a5397",
+          "height": 800,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/c86a807490659b969de683a1845453081c0014ec",
+          "height": 512,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/4038d20a2a9d371f733c2ed6aa070a8bbb0b3f0c",
+          "height": 160,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/fcdb3a9b0a0a3639c06b413710dc56f3c137af71",
+          "height": 51,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "old-crow-medicine-show",
+      "name": "Old Crow Medicine Show",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eba055968bc8c4b9d8901b1e1e",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174a055968bc8c4b9d8901b1e1e",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178a055968bc8c4b9d8901b1e1e",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "billy-strings",
+      "name": "Billy Strings",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb532fd0e6740fd3db38933afb",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174532fd0e6740fd3db38933afb",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178532fd0e6740fd3db38933afb",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    }
+  ],
+  "top_tracks": [
+    {
+      "name": "Fearless",
+      "artist": "Pink Floyd",
+      "artist_slug": "pink-floyd",
+      "plays": 2
+    },
+    {
+      "name": "I Have You",
+      "artist": "Carpenters",
+      "artist_slug": "carpenters",
+      "plays": 2
+    },
+    {
+      "name": "One Little Song",
+      "artist": "Gillian Welch",
+      "artist_slug": "gillian-welch",
+      "plays": 1
+    },
+    {
+      "name": "Howdy Howdy",
+      "artist": "Gillian Welch",
+      "artist_slug": "gillian-welch",
+      "plays": 1
+    },
+    {
+      "name": "Lowlands",
+      "artist": "Gillian Welch",
+      "artist_slug": "gillian-welch",
+      "plays": 1
+    },
+    {
+      "name": "Loretta - Live From The Ryman Auditorium, Nashville/2004",
+      "artist": "Norah Jones",
+      "artist_slug": "norah-jones",
+      "plays": 1
+    },
+    {
+      "name": "By The Mark",
+      "artist": "Gillian Welch",
+      "artist_slug": "gillian-welch",
+      "plays": 1
+    },
+    {
+      "name": "The Day The Mississippi Died",
+      "artist": "Gillian Welch",
+      "artist_slug": "gillian-welch",
+      "plays": 1
+    },
+    {
+      "name": "The Way It Goes",
+      "artist": "Gillian Welch",
+      "artist_slug": "gillian-welch",
+      "plays": 1
+    },
+    {
+      "name": "Jackson",
+      "artist": "Gillian Welch",
+      "artist_slug": "gillian-welch",
+      "plays": 1
+    },
+    {
+      "name": "Wrecking Ball",
+      "artist": "Gillian Welch",
+      "artist_slug": "gillian-welch",
+      "plays": 1
+    },
+    {
+      "name": "Our House",
+      "artist": "Crosby, Stills, Nash & Young",
+      "artist_slug": "crosby-stills-nash-young",
+      "plays": 1
+    },
+    {
+      "name": "Tangerine - Remaster",
+      "artist": "Led Zeppelin",
+      "artist_slug": "led-zeppelin",
+      "plays": 1
+    },
+    {
+      "name": "Perfect Day",
+      "artist": "Lou Reed",
+      "artist_slug": "lou-reed",
+      "plays": 1
+    },
+    {
+      "name": "Dear Boy - Remastered 2012",
+      "artist": "Paul McCartney",
+      "artist_slug": "paul-mccartney",
+      "plays": 1
+    },
+    {
+      "name": "Lady Stardust - 2012 Remaster",
+      "artist": "David Bowie",
+      "artist_slug": "david-bowie",
+      "plays": 1
+    },
+    {
+      "name": "Don't Worry About the Government",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 1
+    },
+    {
+      "name": "In the Aeroplane Over the Sea",
+      "artist": "Neutral Milk Hotel",
+      "artist_slug": "neutral-milk-hotel",
+      "plays": 1
+    },
+    {
+      "name": "The Wind Cries Mary",
+      "artist": "Jimi Hendrix",
+      "artist_slug": "jimi-hendrix",
+      "plays": 1
+    },
+    {
+      "name": "Don't Eat The Yellow Snow",
+      "artist": "Frank Zappa",
+      "artist_slug": "frank-zappa",
+      "plays": 1
+    },
+    {
+      "name": "Panic in Detroit - 2013 Remaster",
+      "artist": "David Bowie",
+      "artist_slug": "david-bowie",
+      "plays": 1
+    },
+    {
+      "name": "Beware of Darkness - 2014 Remaster",
+      "artist": "George Harrison",
+      "artist_slug": "george-harrison",
+      "plays": 1
+    },
+    {
+      "name": "Road to Nowhere",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 1
+    },
+    {
+      "name": "Alabama Song (Whisky Bar)",
+      "artist": "The Doors",
+      "artist_slug": "the-doors",
+      "plays": 1
+    },
+    {
+      "name": "Monkberry Moon Delight - Remastered 2012",
+      "artist": "Paul McCartney",
+      "artist_slug": "paul-mccartney",
+      "plays": 1
+    },
+    {
+      "name": "Soul Love - 2012 Remaster",
+      "artist": "David Bowie",
+      "artist_slug": "david-bowie",
+      "plays": 1
+    },
+    {
+      "name": "Love Reign O'er Me",
+      "artist": "The Who",
+      "artist_slug": "the-who",
+      "plays": 1
+    },
+    {
+      "name": "Bold as Love",
+      "artist": "Jimi Hendrix",
+      "artist_slug": "jimi-hendrix",
+      "plays": 1
+    },
+    {
+      "name": "Born Under Punches (The Heat Goes On) - 2005 Remaster",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 1
+    },
+    {
+      "name": "It's All over Now, Baby Blue",
+      "artist": "The Animals",
+      "artist_slug": "the-animals",
+      "plays": 1
+    },
+    {
+      "name": "The Man Who Sold the World - 2015 Remaster",
+      "artist": "David Bowie",
+      "artist_slug": "david-bowie",
+      "plays": 1
+    },
+    {
+      "name": "Willie The Pimp",
+      "artist": "Frank Zappa",
+      "artist_slug": "frank-zappa",
+      "plays": 1
+    },
+    {
+      "name": "Pink Moon",
+      "artist": "Nick Drake",
+      "artist_slug": "nick-drake",
+      "plays": 1
+    },
+    {
+      "name": "Little Wing",
+      "artist": "Jimi Hendrix",
+      "artist_slug": "jimi-hendrix",
+      "plays": 1
+    },
+    {
+      "name": "Crosseyed and Painless - 2005 Remaster",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 1
+    },
+    {
+      "name": "It Ain't Easy - 2012 Remaster",
+      "artist": "David Bowie",
+      "artist_slug": "david-bowie",
+      "plays": 1
+    },
+    {
+      "name": "Going to California - Remaster",
+      "artist": "Led Zeppelin",
+      "artist_slug": "led-zeppelin",
+      "plays": 1
+    },
+    {
+      "name": "Romeo and Juliet",
+      "artist": "Dire Straits",
+      "artist_slug": "dire-straits",
+      "plays": 1
+    },
+    {
+      "name": "Happiness Is A Warm Gun - Remastered 2009",
+      "artist": "The Beatles",
+      "artist_slug": "the-beatles",
+      "plays": 1
+    },
+    {
+      "name": "Let Me Roll It - 2010 Remaster",
+      "artist": "Paul McCartney",
+      "artist_slug": "paul-mccartney",
+      "plays": 1
+    },
+    {
+      "name": "Oh! You Pretty Things - 2015 Remaster",
+      "artist": "David Bowie",
+      "artist_slug": "david-bowie",
+      "plays": 1
+    },
+    {
+      "name": "Heaven - 2005 Remaster",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 1
+    },
+    {
+      "name": "Camarillo Brillo",
+      "artist": "Frank Zappa",
+      "artist_slug": "frank-zappa",
+      "plays": 1
+    },
+    {
+      "name": "Brain Damage",
+      "artist": "Pink Floyd",
+      "artist_slug": "pink-floyd",
+      "plays": 1
+    },
+    {
+      "name": "Out on the Weekend",
+      "artist": "Neil Young",
+      "artist_slug": "neil-young",
+      "plays": 1
+    },
+    {
+      "name": "Five Years - 2012 Remaster",
+      "artist": "David Bowie",
+      "artist_slug": "david-bowie",
+      "plays": 1
+    },
+    {
+      "name": "Rock 'n' Roll Suicide - 2012 Remaster",
+      "artist": "David Bowie",
+      "artist_slug": "david-bowie",
+      "plays": 1
+    },
+    {
+      "name": "Monkey In Your Soul",
+      "artist": "Steely Dan",
+      "artist_slug": "steely-dan",
+      "plays": 1
+    },
+    {
+      "name": "Diamond Girl",
+      "artist": "Seals and Crofts",
+      "artist_slug": "seals-and-crofts",
+      "plays": 1
+    },
+    {
+      "name": "The Pretender",
+      "artist": "Jackson Browne",
+      "artist_slug": "jackson-browne",
+      "plays": 1
+    },
+    {
+      "name": "Don't Cross the River",
+      "artist": "America",
+      "artist_slug": "america",
+      "plays": 1
+    },
+    {
+      "name": "Take the Highway",
+      "artist": "The Marshall Tucker Band",
+      "artist_slug": "the-marshall-tucker-band",
+      "plays": 1
+    },
+    {
+      "name": "Miss Judy's Farm",
+      "artist": "Faces",
+      "artist_slug": "faces",
+      "plays": 1
+    },
+    {
+      "name": "Everyone's Gone To The Movies",
+      "artist": "Steely Dan",
+      "artist_slug": "steely-dan",
+      "plays": 1
+    },
+    {
+      "name": "Wooden Ships - 2005 Remaster",
+      "artist": "Crosby, Stills & Nash",
+      "artist_slug": "crosby-stills-nash",
+      "plays": 1
+    },
+    {
+      "name": "Picasso’s Last Words (Drink to Me) - 2010 Remaster",
+      "artist": "Paul McCartney",
+      "artist_slug": "paul-mccartney",
+      "plays": 1
+    },
+    {
+      "name": "Blue Sky",
+      "artist": "Allman Brothers Band",
+      "artist_slug": "allman-brothers-band",
+      "plays": 1
+    },
+    {
+      "name": "Race Among the Ruins",
+      "artist": "Gordon Lightfoot",
+      "artist_slug": "gordon-lightfoot",
+      "plays": 1
+    },
+    {
+      "name": "Silicone Grown",
+      "artist": "Faces",
+      "artist_slug": "faces",
+      "plays": 1
+    },
+    {
+      "name": "Your Gold Teeth",
+      "artist": "Steely Dan",
+      "artist_slug": "steely-dan",
+      "plays": 1
+    },
+    {
+      "name": "Bluebird",
+      "artist": "Buffalo Springfield",
+      "artist_slug": "buffalo-springfield",
+      "plays": 1
+    },
+    {
+      "name": "Three Roses",
+      "artist": "America",
+      "artist_slug": "america",
+      "plays": 1
+    },
+    {
+      "name": "Running on Empty",
+      "artist": "Jackson Browne",
+      "artist_slug": "jackson-browne",
+      "plays": 1
+    },
+    {
+      "name": "You Don't Have to Cry - 2005 Remaster",
+      "artist": "Crosby, Stills & Nash",
+      "artist_slug": "crosby-stills-nash",
+      "plays": 1
+    },
+    {
+      "name": "Biggest Part of Me",
+      "artist": "Ambrosia",
+      "artist_slug": "ambrosia",
+      "plays": 1
+    },
+    {
+      "name": "Daddy Don't Live In That New York City No More",
+      "artist": "Steely Dan",
+      "artist_slug": "steely-dan",
+      "plays": 1
+    },
+    {
+      "name": "Jessica",
+      "artist": "Allman Brothers Band",
+      "artist_slug": "allman-brothers-band",
+      "plays": 1
+    },
+    {
+      "name": "Riverside",
+      "artist": "America",
+      "artist_slug": "america",
+      "plays": 1
+    },
+    {
+      "name": "Doctor My Eyes - Remastered",
+      "artist": "Jackson Browne",
+      "artist_slug": "jackson-browne",
+      "plays": 1
+    },
+    {
+      "name": "As Long as You Tell Him - Single Version",
+      "artist": "Faces",
+      "artist_slug": "faces",
+      "plays": 1
+    },
+    {
+      "name": "Can't You See",
+      "artist": "The Marshall Tucker Band",
+      "artist_slug": "the-marshall-tucker-band",
+      "plays": 1
+    },
+    {
+      "name": "With A Gun",
+      "artist": "Steely Dan",
+      "artist_slug": "steely-dan",
+      "plays": 1
+    },
+    {
+      "name": "Easy to Slip",
+      "artist": "Little Feat",
+      "artist_slug": "little-feat",
+      "plays": 1
+    },
+    {
+      "name": "Forbidden Fruit - Remastered 2001",
+      "artist": "The Band",
+      "artist_slug": "the-band",
+      "plays": 1
+    },
+    {
+      "name": "Dark Star",
+      "artist": "Crosby, Stills & Nash",
+      "artist_slug": "crosby-stills-nash",
+      "plays": 1
+    },
+    {
+      "name": "A Horse with No Name",
+      "artist": "America",
+      "artist_slug": "america",
+      "plays": 1
+    },
+    {
+      "name": "Apple Scruffs - 2014 Remaster",
+      "artist": "George Harrison",
+      "artist_slug": "george-harrison",
+      "plays": 1
+    },
+    {
+      "name": "Gaucho",
+      "artist": "Steely Dan",
+      "artist_slug": "steely-dan",
+      "plays": 1
+    },
+    {
+      "name": "Maybe I’m Amazed - Remastered 2011",
+      "artist": "Paul McCartney",
+      "artist_slug": "paul-mccartney",
+      "plays": 1
+    },
+    {
+      "name": "Starship Trooper: a. Life Seeker, b. Disillusion, c. Würm - 2008 Remaster",
+      "artist": "Yes",
+      "artist_slug": "yes",
+      "plays": 1
+    },
+    {
+      "name": "Long Time Gone - 2005 Remaster",
+      "artist": "Crosby, Stills & Nash",
+      "artist_slug": "crosby-stills-nash",
+      "plays": 1
+    },
+    {
+      "name": "Sandman",
+      "artist": "America",
+      "artist_slug": "america",
+      "plays": 1
+    },
+    {
+      "name": "Uh-Oh, Love Comes to Town",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 1
+    },
+    {
+      "name": "My Rival",
+      "artist": "Steely Dan",
+      "artist_slug": "steely-dan",
+      "plays": 1
+    },
+    {
+      "name": "Everybody Knows This Is Nowhere - 2009 Remaster",
+      "artist": "Neil Young",
+      "artist_slug": "neil-young",
+      "plays": 1
+    },
+    {
+      "name": "Woman I Love",
+      "artist": "J.J. Cale",
+      "artist_slug": "jj-cale",
+      "plays": 1
+    },
+    {
+      "name": "The Gold It's in the...",
+      "artist": "Pink Floyd",
+      "artist_slug": "pink-floyd",
+      "plays": 1
+    },
+    {
+      "name": "Ventura Highway",
+      "artist": "America",
+      "artist_slug": "america",
+      "plays": 1
+    },
+    {
+      "name": "Melissa",
+      "artist": "Allman Brothers Band",
+      "artist_slug": "allman-brothers-band",
+      "plays": 1
+    },
+    {
+      "name": "I Got The News",
+      "artist": "Steely Dan",
+      "artist_slug": "steely-dan",
+      "plays": 1
+    },
+    {
+      "name": "Cosmik Debris",
+      "artist": "Frank Zappa",
+      "artist_slug": "frank-zappa",
+      "plays": 1
+    },
+    {
+      "name": "Long Distance Runaround - 2024 Steven Wilson Remix",
+      "artist": "Yes",
+      "artist_slug": "yes",
+      "plays": 1
+    },
+    {
+      "name": "Wot's...Uh the Deal",
+      "artist": "Pink Floyd",
+      "artist_slug": "pink-floyd",
+      "plays": 1
+    },
+    {
+      "name": "Sister Golden Hair",
+      "artist": "America",
+      "artist_slug": "america",
+      "plays": 1
+    },
+    {
+      "name": "The Man in Me",
+      "artist": "Bob Dylan",
+      "artist_slug": "bob-dylan",
+      "plays": 1
+    },
+    {
+      "name": "Show Biz Kids",
+      "artist": "Steely Dan",
+      "artist_slug": "steely-dan",
+      "plays": 1
+    },
+    {
+      "name": "You Never Give Me Your Money - Remastered 2009",
+      "artist": "The Beatles",
+      "artist_slug": "the-beatles",
+      "plays": 1
+    },
+    {
+      "name": "Smile Away - Remastered 2012",
+      "artist": "Paul McCartney",
+      "artist_slug": "paul-mccartney",
+      "plays": 1
+    },
+    {
+      "name": "Kid Charlemagne - 2025 Remaster",
+      "artist": "Steely Dan",
+      "artist_slug": "steely-dan",
+      "plays": 1
+    },
+    {
+      "name": "Arrow Through Me - Remastered 1993",
+      "artist": "Wings",
+      "artist_slug": "wings",
+      "plays": 1
+    },
+    {
+      "name": "When the Morning Comes",
+      "artist": "Daryl Hall & John Oates",
+      "artist_slug": "daryl-hall-john-oates",
+      "plays": 1
+    },
+    {
+      "name": "Desert Skies",
+      "artist": "The Marshall Tucker Band",
+      "artist_slug": "the-marshall-tucker-band",
+      "plays": 1
+    },
+    {
+      "name": "Dancing in the Moonlight",
+      "artist": "King Harvest",
+      "artist_slug": "king-harvest",
+      "plays": 1
+    },
+    {
+      "name": "No Words - 2010 Remaster",
+      "artist": "Paul McCartney",
+      "artist_slug": "paul-mccartney",
+      "plays": 1
+    },
+    {
+      "name": "Your Gold Teeth II",
+      "artist": "Steely Dan",
+      "artist_slug": "steely-dan",
+      "plays": 1
+    },
+    {
+      "name": "Thursday",
+      "artist": "Jim Croce",
+      "artist_slug": "jim-croce",
+      "plays": 1
+    },
+    {
+      "name": "White Room",
+      "artist": "Cream",
+      "artist_slug": "cream",
+      "plays": 1
+    },
+    {
+      "name": "Holdin' on to Yesterday",
+      "artist": "Ambrosia",
+      "artist_slug": "ambrosia",
+      "plays": 1
+    },
+    {
+      "name": "King Harvest (Has Surely Come)",
+      "artist": "The Band",
+      "artist_slug": "the-band",
+      "plays": 1
+    },
+    {
+      "name": "Heart Of The Country - Remastered 2012",
+      "artist": "Paul McCartney",
+      "artist_slug": "paul-mccartney",
+      "plays": 1
+    },
+    {
+      "name": "Night By Night",
+      "artist": "Steely Dan",
+      "artist_slug": "steely-dan",
+      "plays": 1
+    },
+    {
+      "name": "I Got a Name - Stereo Version",
+      "artist": "Jim Croce",
+      "artist_slug": "jim-croce",
+      "plays": 1
+    },
+    {
+      "name": "She's Gone",
+      "artist": "Daryl Hall & John Oates",
+      "artist_slug": "daryl-hall-john-oates",
+      "plays": 1
+    },
+    {
+      "name": "Tin Man",
+      "artist": "America",
+      "artist_slug": "america",
+      "plays": 1
+    },
+    {
+      "name": "Let 'Em In - 2014 Remaster",
+      "artist": "Wings",
+      "artist_slug": "wings",
+      "plays": 1
+    },
+    {
+      "name": "Mamunia - 2010 Remaster",
+      "artist": "Paul McCartney",
+      "artist_slug": "paul-mccartney",
+      "plays": 1
+    },
+    {
+      "name": "The Caves Of Altamira - 2025 Remaster",
+      "artist": "Steely Dan",
+      "artist_slug": "steely-dan",
+      "plays": 1
+    },
+    {
+      "name": "I've Seen All Good People: a. Your Move, b. All Good People - 2008 Remaster",
+      "artist": "Yes",
+      "artist_slug": "yes",
+      "plays": 1
+    },
+    {
+      "name": "Lawyers, Guns and Money",
+      "artist": "Warren Zevon",
+      "artist_slug": "warren-zevon",
+      "plays": 1
+    },
+    {
+      "name": "Doctor My Eyes - 1997 Remaster",
+      "artist": "Jackson Browne",
+      "artist_slug": "jackson-browne",
+      "plays": 1
+    },
+    {
+      "name": "You Can't Always Get What You Want",
+      "artist": "The Rolling Stones",
+      "artist_slug": "the-rolling-stones",
+      "plays": 1
+    },
+    {
+      "name": "Too Many People - Remastered 2012",
+      "artist": "Paul McCartney",
+      "artist_slug": "paul-mccartney",
+      "plays": 1
+    },
+    {
+      "name": "King Of The World",
+      "artist": "Steely Dan",
+      "artist_slug": "steely-dan",
+      "plays": 1
+    },
+    {
+      "name": "How Much I Feel",
+      "artist": "Ambrosia",
+      "artist_slug": "ambrosia",
+      "plays": 1
+    },
+    {
+      "name": "So Into You",
+      "artist": "Atlanta Rhythm Section",
+      "artist_slug": "atlanta-rhythm-section",
+      "plays": 1
+    },
+    {
+      "name": "Suite: Judy Blue Eyes - 2005 Remaster",
+      "artist": "Crosby, Stills & Nash",
+      "artist_slug": "crosby-stills-nash",
+      "plays": 1
+    },
+    {
+      "name": "Sundown",
+      "artist": "Gordon Lightfoot",
+      "artist_slug": "gordon-lightfoot",
+      "plays": 1
+    },
+    {
+      "name": "Every Night - Remastered 2011",
+      "artist": "Paul McCartney",
+      "artist_slug": "paul-mccartney",
+      "plays": 1
+    },
+    {
+      "name": "The Boston Rag",
+      "artist": "Steely Dan",
+      "artist_slug": "steely-dan",
+      "plays": 1
+    },
+    {
+      "name": "Gimme Shelter",
+      "artist": "The Rolling Stones",
+      "artist_slug": "the-rolling-stones",
+      "plays": 1
+    },
+    {
+      "name": "Woodstock",
+      "artist": "Crosby, Stills, Nash & Young",
+      "artist_slug": "crosby-stills-nash-young",
+      "plays": 1
+    },
+    {
+      "name": "Setting Me Up",
+      "artist": "Dire Straits",
+      "artist_slug": "dire-straits",
+      "plays": 1
+    },
+    {
+      "name": "Bluebird - 2010 Remaster",
+      "artist": "Paul McCartney",
+      "artist_slug": "paul-mccartney",
+      "plays": 1
+    },
+    {
+      "name": "Razor Boy",
+      "artist": "Steely Dan",
+      "artist_slug": "steely-dan",
+      "plays": 1
+    },
+    {
+      "name": "Miss You - Remastered",
+      "artist": "The Rolling Stones",
+      "artist_slug": "the-rolling-stones",
+      "plays": 1
+    },
+    {
+      "name": "Baker Street",
+      "artist": "Gerry Rafferty",
+      "artist_slug": "gerry-rafferty",
+      "plays": 1
+    },
+    {
+      "name": "Free Man in Paris",
+      "artist": "Joni Mitchell",
+      "artist_slug": "joni-mitchell",
+      "plays": 1
+    },
+    {
+      "name": "50 Ways to Leave Your Lover",
+      "artist": "Paul Simon",
+      "artist_slug": "paul-simon",
+      "plays": 1
+    },
+    {
+      "name": "Uncle Albert / Admiral Halsey - Medley / 2012 Remaster",
+      "artist": "Paul McCartney",
+      "artist_slug": "paul-mccartney",
+      "plays": 1
+    },
+    {
+      "name": "Hey Nineteen",
+      "artist": "Steely Dan",
+      "artist_slug": "steely-dan",
+      "plays": 1
+    },
+    {
+      "name": "Ain't Wastin' Time No More",
+      "artist": "Allman Brothers Band",
+      "artist_slug": "allman-brothers-band",
+      "plays": 1
+    },
+    {
+      "name": "FM",
+      "artist": "Steely Dan",
+      "artist_slug": "steely-dan",
+      "plays": 1
+    },
+    {
+      "name": "Love Lives Here",
+      "artist": "Faces",
+      "artist_slug": "faces",
+      "plays": 1
+    },
+    {
+      "name": "Careful Man",
+      "artist": "Jim Croce",
+      "artist_slug": "jim-croce",
+      "plays": 1
+    },
+    {
+      "name": "Art of Dying - 2014 Remaster",
+      "artist": "George Harrison",
+      "artist_slug": "george-harrison",
+      "plays": 1
+    },
+    {
+      "name": "Single-Handed Sailor",
+      "artist": "Dire Straits",
+      "artist_slug": "dire-straits",
+      "plays": 1
+    },
+    {
+      "name": "Summer Breeze",
+      "artist": "Seals and Crofts",
+      "artist_slug": "seals-and-crofts",
+      "plays": 1
+    },
+    {
+      "name": "Bodhisattva",
+      "artist": "Steely Dan",
+      "artist_slug": "steely-dan",
+      "plays": 1
+    },
+    {
+      "name": "Reminiscing - Remastered 2010",
+      "artist": "Little River Band",
+      "artist_slug": "little-river-band",
+      "plays": 1
+    },
+    {
+      "name": "Eminence Front",
+      "artist": "The Who",
+      "artist_slug": "the-who",
+      "plays": 1
+    },
+    {
+      "name": "Tomorrow’s Gonna Be a Brighter Day",
+      "artist": "Jim Croce",
+      "artist_slug": "jim-croce",
+      "plays": 1
+    },
+    {
+      "name": "Jet - 2010 Remaster",
+      "artist": "Paul McCartney",
+      "artist_slug": "paul-mccartney",
+      "plays": 1
+    },
+    {
+      "name": "I Got The... - 2006 Remaster",
+      "artist": "Labi Siffre",
+      "artist_slug": "labi-siffre",
+      "plays": 1
+    },
+    {
+      "name": "Pearl Of The Quarter",
+      "artist": "Steely Dan",
+      "artist_slug": "steely-dan",
+      "plays": 1
+    },
+    {
+      "name": "Acadian Driftwood - Remastered 2000",
+      "artist": "The Band",
+      "artist_slug": "the-band",
+      "plays": 1
+    },
+    {
+      "name": "Wah-Wah - 2014 Remaster",
+      "artist": "George Harrison",
+      "artist_slug": "george-harrison",
+      "plays": 1
+    },
+    {
+      "name": "What a Fool Believes",
+      "artist": "The Doobie Brothers",
+      "artist_slug": "the-doobie-brothers",
+      "plays": 1
+    },
+    {
+      "name": "It's Too Late",
+      "artist": "Carole King",
+      "artist_slug": "carole-king",
+      "plays": 1
+    },
+    {
+      "name": "Band On The Run - 2010 Remaster",
+      "artist": "Paul McCartney",
+      "artist_slug": "paul-mccartney",
+      "plays": 1
+    },
+    {
+      "name": "Babylon Sisters",
+      "artist": "Steely Dan",
+      "artist_slug": "steely-dan",
+      "plays": 1
+    },
+    {
+      "name": "Bad, Bad Leroy Brown",
+      "artist": "Jim Croce",
+      "artist_slug": "jim-croce",
+      "plays": 1
+    },
+    {
+      "name": "Just Another Honky",
+      "artist": "Faces",
+      "artist_slug": "faces",
+      "plays": 1
+    },
+    {
+      "name": "We Can Talk - Remastered 2000",
+      "artist": "The Band",
+      "artist_slug": "the-band",
+      "plays": 1
+    },
+    {
+      "name": "Southbound Again",
+      "artist": "Dire Straits",
+      "artist_slug": "dire-straits",
+      "plays": 1
+    },
+    {
+      "name": "Ohio",
+      "artist": "Crosby, Stills, Nash & Young",
+      "artist_slug": "crosby-stills-nash-young",
+      "plays": 1
+    },
+    {
+      "name": "Time Out Of Mind",
+      "artist": "Steely Dan",
+      "artist_slug": "steely-dan",
+      "plays": 1
+    },
+    {
+      "name": "Blow Away",
+      "artist": "George Harrison",
+      "artist_slug": "george-harrison",
+      "plays": 1
+    },
+    {
+      "name": "Glad and Sorry",
+      "artist": "Faces",
+      "artist_slug": "faces",
+      "plays": 1
+    },
+    {
+      "name": "Across The Great Divide",
+      "artist": "The Band",
+      "artist_slug": "the-band",
+      "plays": 1
+    },
+    {
+      "name": "Down to the Waterline",
+      "artist": "Dire Straits",
+      "artist_slug": "dire-straits",
+      "plays": 1
+    },
+    {
+      "name": "Mercenary Territory",
+      "artist": "Little Feat",
+      "artist_slug": "little-feat",
+      "plays": 1
+    },
+    {
+      "name": "Don't Take Me Alive - 2025 Remaster",
+      "artist": "Steely Dan",
+      "artist_slug": "steely-dan",
+      "plays": 1
+    },
+    {
+      "name": "I Live for You - 2014 Remaster",
+      "artist": "George Harrison",
+      "artist_slug": "george-harrison",
+      "plays": 1
+    },
+    {
+      "name": "Debris",
+      "artist": "Faces",
+      "artist_slug": "faces",
+      "plays": 1
+    },
+    {
+      "name": "To Kingdom Come - Remastered 2000",
+      "artist": "The Band",
+      "artist_slug": "the-band",
+      "plays": 1
+    },
+    {
+      "name": "In the Gallery",
+      "artist": "Dire Straits",
+      "artist_slug": "dire-straits",
+      "plays": 1
+    },
+    {
+      "name": "Shakedown Street - 2013 Remaster",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "The Fez - 2025 Remaster",
+      "artist": "Steely Dan",
+      "artist_slug": "steely-dan",
+      "plays": 1
+    },
+    {
+      "name": "Help Me",
+      "artist": "Joni Mitchell",
+      "artist_slug": "joni-mitchell",
+      "plays": 1
+    },
+    {
+      "name": "From the Beginning",
+      "artist": "Emerson, Lake & Palmer",
+      "artist_slug": "emerson-lake-palmer",
+      "plays": 1
+    },
+    {
+      "name": "Chest Fever - Remastered 2000",
+      "artist": "The Band",
+      "artist_slug": "the-band",
+      "plays": 1
+    },
+    {
+      "name": "Water of Love",
+      "artist": "Dire Straits",
+      "artist_slug": "dire-straits",
+      "plays": 1
+    },
+    {
+      "name": "Midnight on the Bay - 2016 Remaster",
+      "artist": "The Stills-Young Band",
+      "artist_slug": "the-stills-young-band",
+      "plays": 1
+    },
+    {
+      "name": "Peaches En Regalia",
+      "artist": "Frank Zappa",
+      "artist_slug": "frank-zappa",
+      "plays": 1
+    },
+    {
+      "name": "Right Place Wrong Time",
+      "artist": "Dr. John",
+      "artist_slug": "dr-john",
+      "plays": 1
+    },
+    {
+      "name": "Isn't It a Pity - 2014 Remaster",
+      "artist": "George Harrison",
+      "artist_slug": "george-harrison",
+      "plays": 1
+    },
+    {
+      "name": "Once Upon a Time in the West",
+      "artist": "Dire Straits",
+      "artist_slug": "dire-straits",
+      "plays": 1
+    },
+    {
+      "name": "Black Cow",
+      "artist": "Steely Dan",
+      "artist_slug": "steely-dan",
+      "plays": 1
+    },
+    {
+      "name": "Kodachrome",
+      "artist": "Paul Simon",
+      "artist_slug": "paul-simon",
+      "plays": 1
+    },
+    {
+      "name": "Bad Sneakers",
+      "artist": "Steely Dan",
+      "artist_slug": "steely-dan",
+      "plays": 1
+    },
+    {
+      "name": "Right Down the Line",
+      "artist": "Gerry Rafferty",
+      "artist_slug": "gerry-rafferty",
+      "plays": 1
+    },
+    {
+      "name": "Questions",
+      "artist": "Buffalo Springfield",
+      "artist_slug": "buffalo-springfield",
+      "plays": 1
+    },
+    {
+      "name": "Tumbling Dice",
+      "artist": "The Rolling Stones",
+      "artist_slug": "the-rolling-stones",
+      "plays": 1
+    },
+    {
+      "name": "Carry On",
+      "artist": "Crosby, Stills, Nash & Young",
+      "artist_slug": "crosby-stills-nash-young",
+      "plays": 1
+    },
+    {
+      "name": "What Is Life - 2014 Remaster",
+      "artist": "George Harrison",
+      "artist_slug": "george-harrison",
+      "plays": 1
+    },
+    {
+      "name": "Deacon Blues",
+      "artist": "Steely Dan",
+      "artist_slug": "steely-dan",
+      "plays": 1
+    },
+    {
+      "name": "All That You Dream (with Linda Ronstadt)",
+      "artist": "Little Feat",
+      "artist_slug": "little-feat",
+      "plays": 1
+    },
+    {
+      "name": "Rock & Roll Woman",
+      "artist": "Buffalo Springfield",
+      "artist_slug": "buffalo-springfield",
+      "plays": 1
+    },
+    {
+      "name": "Still Crazy After All These Years",
+      "artist": "Paul Simon",
+      "artist_slug": "paul-simon",
+      "plays": 1
+    },
+    {
+      "name": "Tell Me Why",
+      "artist": "Neil Young",
+      "artist_slug": "neil-young",
+      "plays": 1
+    },
+    {
+      "name": "Lies",
+      "artist": "J.J. Cale",
+      "artist_slug": "jj-cale",
+      "plays": 1
+    },
+    {
+      "name": "Pretzel Logic",
+      "artist": "Steely Dan",
+      "artist_slug": "steely-dan",
+      "plays": 1
+    },
+    {
+      "name": "Rock and Roll Doctor",
+      "artist": "Little Feat",
+      "artist_slug": "little-feat",
+      "plays": 1
+    },
+    {
+      "name": "Tangled up in Blue",
+      "artist": "Bob Dylan",
+      "artist_slug": "bob-dylan",
+      "plays": 1
+    },
+    {
+      "name": "Althea - 2013 Remaster",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "The Weight - Remastered 2000",
+      "artist": "The Band",
+      "artist_slug": "the-band",
+      "plays": 1
+    },
+    {
+      "name": "Kind Woman",
+      "artist": "Buffalo Springfield",
+      "artist_slug": "buffalo-springfield",
+      "plays": 1
+    },
+    {
+      "name": "Josie",
+      "artist": "Steely Dan",
+      "artist_slug": "steely-dan",
+      "plays": 1
+    },
+    {
+      "name": "Time Loves a Hero",
+      "artist": "Little Feat",
+      "artist_slug": "little-feat",
+      "plays": 1
+    },
+    {
+      "name": "Wild West End",
+      "artist": "Dire Straits",
+      "artist_slug": "dire-straits",
+      "plays": 1
+    },
+    {
+      "name": "Give Me Love (Give Me Peace on Earth)",
+      "artist": "George Harrison",
+      "artist_slug": "george-harrison",
+      "plays": 1
+    },
+    {
+      "name": "Ophelia - Remastered 2000",
+      "artist": "The Band",
+      "artist_slug": "the-band",
+      "plays": 1
+    },
+    {
+      "name": "Mr. Soul",
+      "artist": "Buffalo Springfield",
+      "artist_slug": "buffalo-springfield",
+      "plays": 1
+    },
+    {
+      "name": "Peg",
+      "artist": "Steely Dan",
+      "artist_slug": "steely-dan",
+      "plays": 1
+    },
+    {
+      "name": "Skin It Back",
+      "artist": "Little Feat",
+      "artist_slug": "little-feat",
+      "plays": 1
+    },
+    {
+      "name": "Young Americans - 2016 Remaster",
+      "artist": "David Bowie",
+      "artist_slug": "david-bowie",
+      "plays": 1
+    },
+    {
+      "name": "My Sweet Lord - 2014 Remaster",
+      "artist": "George Harrison",
+      "artist_slug": "george-harrison",
+      "plays": 1
+    },
+    {
+      "name": "Operator (That's Not the Way It Feels)",
+      "artist": "Jim Croce",
+      "artist_slug": "jim-croce",
+      "plays": 1
+    },
+    {
+      "name": "Uncle Remus",
+      "artist": "Frank Zappa",
+      "artist_slug": "frank-zappa",
+      "plays": 1
+    },
+    {
+      "name": "Home At Last",
+      "artist": "Steely Dan",
+      "artist_slug": "steely-dan",
+      "plays": 1
+    },
+    {
+      "name": "For What It's Worth",
+      "artist": "Buffalo Springfield",
+      "artist_slug": "buffalo-springfield",
+      "plays": 1
+    },
+    {
+      "name": "Ooh La La",
+      "artist": "Faces",
+      "artist_slug": "faces",
+      "plays": 1
+    },
+    {
+      "name": "If Not for You - 2014 Remaster",
+      "artist": "George Harrison",
+      "artist_slug": "george-harrison",
+      "plays": 1
+    },
+    {
+      "name": "Fool Yourself",
+      "artist": "Little Feat",
+      "artist_slug": "little-feat",
+      "plays": 1
+    },
+    {
+      "name": "San Tropez",
+      "artist": "Pink Floyd",
+      "artist_slug": "pink-floyd",
+      "plays": 1
+    },
+    {
+      "name": "My Old School",
+      "artist": "Steely Dan",
+      "artist_slug": "steely-dan",
+      "plays": 1
+    },
+    {
+      "name": "Old Man",
+      "artist": "Neil Young",
+      "artist_slug": "neil-young",
+      "plays": 1
+    },
+    {
+      "name": "Almost Cut My Hair",
+      "artist": "Crosby, Stills, Nash & Young",
+      "artist_slug": "crosby-stills-nash-young",
+      "plays": 1
+    },
+    {
+      "name": "Life During Wartime - 2005 Remaster",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 1
+    },
+    {
+      "name": "Spanish Moon",
+      "artist": "Little Feat",
+      "artist_slug": "little-feat",
+      "plays": 1
+    },
+    {
+      "name": "Fire on the Mountain - 2013 Remaster",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "Any Major Dude Will Tell You",
+      "artist": "Steely Dan",
+      "artist_slug": "steely-dan",
+      "plays": 1
+    },
+    {
+      "name": "Reelin' In The Years",
+      "artist": "Steely Dan",
+      "artist_slug": "steely-dan",
+      "plays": 1
+    },
+    {
+      "name": "Only A Fool Would Say That",
+      "artist": "Steely Dan",
+      "artist_slug": "steely-dan",
+      "plays": 1
+    },
+    {
+      "name": "Midnite Cruiser",
+      "artist": "Steely Dan",
+      "artist_slug": "steely-dan",
+      "plays": 1
+    },
+    {
+      "name": "Kings",
+      "artist": "Steely Dan",
+      "artist_slug": "steely-dan",
+      "plays": 1
+    },
+    {
+      "name": "Dirty Work",
+      "artist": "Steely Dan",
+      "artist_slug": "steely-dan",
+      "plays": 1
+    },
+    {
+      "name": "Do It Again",
+      "artist": "Steely Dan",
+      "artist_slug": "steely-dan",
+      "plays": 1
+    },
+    {
+      "name": "Willin' - Live at Lisner Auditorium, Washington, DC, 8/8/1977",
+      "artist": "Little Feat",
+      "artist_slug": "little-feat",
+      "plays": 1
+    },
+    {
+      "name": "Spanish Pipedream",
+      "artist": "John Prine",
+      "artist_slug": "john-prine",
+      "plays": 1
+    },
+    {
+      "name": "Water Song",
+      "artist": "Hot Tuna",
+      "artist_slug": "hot-tuna",
+      "plays": 1
+    },
+    {
+      "name": "Franklin's Tower - 2013 Remaster",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "Take 'Em Away",
+      "artist": "Old Crow Medicine Show",
+      "artist_slug": "old-crow-medicine-show",
+      "plays": 1
+    },
+    {
+      "name": "Fat Man In The Bathtub - Live at Lisner Auditorium, Washington, DC, 8/10/1977",
+      "artist": "Little Feat",
+      "artist_slug": "little-feat",
+      "plays": 1
+    },
+    {
+      "name": "Pretty Good",
+      "artist": "John Prine",
+      "artist_slug": "john-prine",
+      "plays": 1
+    },
+    {
+      "name": "Gild the Lily",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 1
+    },
+    {
+      "name": "Tennessee Jed (Live at L'Olympia, Paris, 5/3/72) - 2001 Remaster",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "Ripple - Live",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "Bird Song - Live",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "On the Road Again - Live",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "Rosalie McFall",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "To Lay Me Down - Live",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "Cassidy - Live",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "Deep Elem Blues - Live",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "Jack-A-Roe - Live",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "Monkey and the Engineer - Live",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "Been All Around This World - Live",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "China Doll - Live",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "Dark Hollow - Live",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "It Must Have Been the Roses - Live",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "Oh Babe It Ain't No Lie - Live",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "The Race Is On - Live",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "Dire Wolf - Live",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "This Masquerade",
+      "artist": "Carpenters",
+      "artist_slug": "carpenters",
+      "plays": 1
+    },
+    {
+      "name": "Touch Me When We're Dancing",
+      "artist": "Carpenters",
+      "artist_slug": "carpenters",
+      "plays": 1
+    },
+    {
+      "name": "Hurting Each Other",
+      "artist": "Carpenters",
+      "artist_slug": "carpenters",
+      "plays": 1
+    },
+    {
+      "name": "I Need To Be In Love",
+      "artist": "Carpenters",
+      "artist_slug": "carpenters",
+      "plays": 1
+    },
+    {
+      "name": "The End Of The World",
+      "artist": "Carpenters",
+      "artist_slug": "carpenters",
+      "plays": 1
+    },
+    {
+      "name": "Solitaire",
+      "artist": "Carpenters",
+      "artist_slug": "carpenters",
+      "plays": 1
+    },
+    {
+      "name": "A Song For You",
+      "artist": "Carpenters",
+      "artist_slug": "carpenters",
+      "plays": 1
+    },
+    {
+      "name": "There's A Kind Of Hush",
+      "artist": "Carpenters",
+      "artist_slug": "carpenters",
+      "plays": 1
+    },
+    {
+      "name": "I Just Fall In Love Again",
+      "artist": "Carpenters",
+      "artist_slug": "carpenters",
+      "plays": 1
+    },
+    {
+      "name": "For All We Know - From \"Lovers And Other Strangers\" Soundtrack",
+      "artist": "Carpenters",
+      "artist_slug": "carpenters",
+      "plays": 1
+    },
+    {
+      "name": "You",
+      "artist": "Carpenters",
+      "artist_slug": "carpenters",
+      "plays": 1
+    },
+    {
+      "name": "Only Yesterday",
+      "artist": "Carpenters",
+      "artist_slug": "carpenters",
+      "plays": 1
+    },
+    {
+      "name": "Superstar",
+      "artist": "Carpenters",
+      "artist_slug": "carpenters",
+      "plays": 1
+    },
+    {
+      "name": "Please Mr. Postman",
+      "artist": "Carpenters",
+      "artist_slug": "carpenters",
+      "plays": 1
+    },
+    {
+      "name": "We've Only Just Begun",
+      "artist": "Carpenters",
+      "artist_slug": "carpenters",
+      "plays": 1
+    },
+    {
+      "name": "Rainy Days And Mondays",
+      "artist": "Carpenters",
+      "artist_slug": "carpenters",
+      "plays": 1
+    },
+    {
+      "name": "Love Me For What I Am",
+      "artist": "Carpenters",
+      "artist_slug": "carpenters",
+      "plays": 1
+    },
+    {
+      "name": "I Won't Last A Day Without You",
+      "artist": "Carpenters",
+      "artist_slug": "carpenters",
+      "plays": 1
+    },
+    {
+      "name": "Top Of The World",
+      "artist": "Carpenters",
+      "artist_slug": "carpenters",
+      "plays": 1
+    },
+    {
+      "name": "Yesterday Once More",
+      "artist": "Carpenters",
+      "artist_slug": "carpenters",
+      "plays": 1
+    },
+    {
+      "name": "(They Long To Be) Close To You",
+      "artist": "Carpenters",
+      "artist_slug": "carpenters",
+      "plays": 1
+    },
+    {
+      "name": "A Pillow of Winds",
+      "artist": "Pink Floyd",
+      "artist_slug": "pink-floyd",
+      "plays": 1
+    },
+    {
+      "name": "One of These Days",
+      "artist": "Pink Floyd",
+      "artist_slug": "pink-floyd",
+      "plays": 1
+    }
+  ]
+}
