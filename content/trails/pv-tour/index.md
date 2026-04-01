@@ -182,7 +182,15 @@ The park is still technically inside Playa Vista despite feeling like it's been 
 
 Crescent Park is the one that surprises people. It's a long, curved green space surrounded on all sides by 5–6 story apartment buildings — which is unusual enough for this part of LA that it reads almost like a New York pocket park. The street wraps all the way around it with parking on both sides, and those spots are often available even when the Sports Park lot is full.
 
-The park has three promenades — Spyglass Park, Vista Park, and Sunset Park — that jut out from the main green toward Lincoln Boulevard, each one overlooking the Ballona Wetlands. The wetlands are the largest remaining migratory bird stopover in this part of the country. The viewpoints have benches and at least one has a fixed telescope for bird spotting; one arm has an oversized public hammock. On the south side of the park there's a free public putting green — bring a putter and a ball, no reservation required. One of the promenades even has a chess set structure for kids.
+![Crescent Park, ringed by apartment towers on all sides](images/crescent-park.jpg)
+
+The park has three promenades — Spyglass Park, Vista Park, and Sunset Park — that jut out from the main green toward Lincoln Boulevard, each one overlooking the Ballona Wetlands. The wetlands are the largest remaining migratory bird stopover in this part of the country. The viewpoints have benches and at least one has a fixed telescope for bird spotting; one arm has an oversized public hammock.
+
+![The public hammock on one of Crescent Park's wetland promenades](images/crescent-park-hammock.jpg)
+
+On the south side of the park there's a free public putting green — bring a putter and a ball, no reservation required. One of the promenades even has a chess set structure for kids.
+
+![Japanese-style structure along the Crescent Park promenade](images/crescent-park-japanese-house.jpg)
 
 This is also a good parking backup for the Bluff Creek Trail. Street parking circles the whole park, it's two blocks from the Lincoln Boulevard trailhead, and it's reliably available when the Sports Park lot is full.
 
@@ -204,7 +212,11 @@ Playa Vista Elementary (LAUSD) sits between the Sports Park and Ballona Discover
 
 Ballona Discovery Park is where the tour shifts from neighborhood-green to actual ecological content. Built in collaboration with the Friends of Ballona Wetlands, it functions as an interpretive space — native plants labeled throughout, informational panels on the Tongva people who lived on this land (including a sculpture honoring the village of Guashna), and exhibits designed to be touched and climbed on, not just read.
 
+![Ballona Discovery Park's native plant trail](images/discovery-park.jpg)
+
 Despite being compact, it feels like a woodsy nature trail rather than a neighborhood park. The path winds through dense plantings and on a morning with low light it reads as remarkably removed from the apartment buildings 50 feet away. The parallel bars and dip station here are part of the WorldTour outdoor fitness system that runs through several stops on this walk — beginner through advanced instructions on each station.
+
+![WorldTour outdoor fitness station at Ballona Discovery Park](images/discovery-park-world-trail.jpg)
 
 ---
 
@@ -212,9 +224,13 @@ Despite being compact, it feels like a woodsy nature trail rather than a neighbo
 
 Oberreider is the best dog park in Playa Vista, and it's not particularly close. The surface is wood chips (not artificial turf), which makes it cooler underfoot in summer and easier on older dogs. Dogs move differently here than at the turf parks — more running, more sniffing, less standing around. My dog Rhys has been coming here since he was a puppy.
 
+![Rhys on the approach path to Oberreider Dog Park](images/rhys-magnet-pv-trail.jpg)
+
 Along the path approaching Oberreider, several viewing balconies jut out over the wetlands so you can stand over Bluff Creek and feel like you're in the middle of it — birds, frogs in the evenings, the whole thing. The WorldTour fitness bench setup here is one of the better stations on the route: step-up bench, balance poles, and a sit-up bench with instructions ranging from beginner to advanced.
 
 The park used to have a tennis court. It doesn't anymore — first casualty of the pickleball wars. The two basketball courts on the same parcel are back-to-back half courts, rims facing away from each other.
+
+![Back-to-back half courts adjacent to Oberreider Dog Park](images/oberreider-basketball-court.jpg)
 
 ---
 
@@ -222,7 +238,11 @@ The park used to have a tennis court. It doesn't anymore — first casualty of t
 
 Randy Johnson Park runs along the eastern edge of Bluff Creek itself, which is fenced off as a protected ecosystem — no entry into the riparian zone, but you can stand right at the edge and hear the frogs, watch the birds, and look into the actual creek corridor in a way that feels rare for a neighborhood park in Los Angeles.
 
+![Randy Johnson Park, along the eastern edge of Bluff Creek](images/randy-johnson-park.jpg)
+
 The park has two playgrounds (one for younger kids with climbing rocks, one older-kids structure with monkey bars), pull-up and push-up bars as part of the WorldTour fitness system, four bathrooms, a water fountain, and multiple separate picnic areas. Geometric wooden shade sculptures are scattered through the space. The main soccer field here is Bluff Creek Field — professional-grade artificial turf, reserved by club teams, impeccably maintained. The dog park at this end is what I call "the bubble park" for its three large artificial hills inside the fenced area; dogs love running them. The stream feature that runs through the middle is charming in concept — skip letting your dog wade in it.
+
+![The bubble park dog area at Randy Johnson Park, with Bluff Creek Field behind](images/bluff-creek-dog-park.jpg)
 
 ---
 
@@ -230,7 +250,13 @@ The park has two playgrounds (one for younger kids with climbing rocks, one olde
 
 The Lawn sits directly across from The Runway — Playa Vista's outdoor mall, which runs along the main commercial strip and has a Whole Foods, CVS, Cedars-Sinai urgent care, dance studios, and a stretch of restaurants. The Lawn is the park counterpart to all of that: a long green strip that splits into two halves on either side of the street, one natural grass and one artificial turf.
 
-There's a small duck pond here that attracts more birds than you'd expect for a park this close to a shopping center. The playground is one of the bigger setups in the neighborhood — a genuinely large jungle gym apparatus that draws kids from well outside the immediate blocks. The Runway wraps around the east end of Millennium Town Center, and the private Resort facility faces the park from across McConnell Avenue.
+![The Lawn, across from The Runway shopping strip](images/the-lawn.jpg)
+
+There's a small duck pond here that attracts more birds than you'd expect for a park this close to a shopping center. The playground is one of the bigger setups in the neighborhood — a genuinely large jungle gym apparatus that draws kids from well outside the immediate blocks.
+
+![Picnic area at The Lawn](images/the-lawn-picnic.jpg)
+
+The Runway wraps around the east end of Millennium Town Center, and the private Resort facility faces the park from across McConnell Avenue.
 
 ---
 
@@ -238,13 +264,19 @@ There's a small duck pond here that attracts more birds than you'd expect for a 
 
 Just off The Runway and next to the private residential club called The Resort — indoor pool, gym, residents only — this small park is easy to overlook. There's not much to it: a nice patch of green, good benches, a pleasant few minutes in a quiet spot between the commercial activity of The Runway and the residential towers. It earns its place on the route as a breath between the denser stops on the east side of the tour.
 
+![The Resort Park, a quiet green next to The Runway](images/the-resort.jpg)
+
 ---
 
 ### Hammock Lane {#hammock}
 
 Head north from The Resort Park and you drop into Hammock Lane — a narrow linear park tucked between condo rows that most non-residents walk right past because the only entry is through a gap between buildings that doesn't look like a park entrance from the street. It's small and genuinely quiet even on busy days.
 
+![Hammock Lane, tucked between condo rows](images/hammock-lane.jpg)
+
 The detail that makes it worth stopping: there's a small bronze relief sculpture here of Barry Allen Burkis, the developer behind Playa Vista — depicted with his shoes and studying materials, a low-key memorial that most people never notice. There's also a relief map sculpture of the entire neighborhood, every building rendered in miniature, embedded right there in the lane. If you're doing this walk with someone who grew up in PV, mention either one and watch them immediately know exactly where it is.
+
+![Bronze relief map of Playa Vista, embedded in Hammock Lane](images/the-resort-sculpture.jpg)
 
 ---
 
@@ -257,6 +289,8 @@ The last stop before looping back to Concert Park. Chess Park is a small, well-m
 ## Where to Park for Bluff Creek Trail
 
 Parking for Bluff Creek Trail is genuinely confusing if you haven't done it before, and the Sports Park lot fills fast on weekends. Here are the real options:
+
+![The Bluff Creek Trail path near the Lincoln Boulevard trailhead](images/world-trail.jpg)
 
 **Bluff Creek Drive lot** — The free lot across from Annenberg PetSpace, off Bluff Creek Drive. Closest to the upper trailhead. Fills by 9am on weekend mornings. Get there early.
 
