@@ -1,0 +1,56 @@
+{{- /*
+  float-pic: orientation-aware image shortcode for tour/trail pages.
+
+  Landscape images render full-width. Portrait images float beside text
+  and auto-alternate sides (right, left, right, …).
+
+  Accepts all params from the picture shortcode, plus:
+    size      "full" | "float" — force a layout regardless of orientation
+    position  "right" | "left" — override auto-alternation for floated images
+*/ -}}
+
+{{- /* Build context for picture partial (mirrors picture shortcode) */}}
+{{- $formats := slice }}
+{{- with .Get "formats" }}
+  {{- range split (replace . " " ",") "," }}
+    {{- if . }}{{ $formats = $formats | append . }}{{ end }}
+  {{- end }}
+{{- end }}
+{{- $ctx := merge .Params (dict "page" .Page "formats" $formats) }}
+
+{{- $src := .Get "src" }}
+{{- $size := .Get "size" | default "" }}
+
+{{- /* Detect orientation from page resource dimensions */}}
+{{- $isLandscape := true }}
+{{- with $.Page.Resources.GetMatch $src }}
+  {{- $isLandscape = ge .Width .Height }}
+{{- end }}
+
+{{- /* Decide layout: portrait → float, landscape → full-width */}}
+{{- $useFloat := false }}
+{{- if eq $size "float" }}
+  {{- $useFloat = true }}
+{{- else if eq $size "full" }}
+  {{- $useFloat = false }}
+{{- else }}
+  {{- $useFloat = not $isLandscape }}
+{{- end }}
+
+{{- if $useFloat }}
+  {{- /* Auto-alternate float direction unless explicit */}}
+  {{- $position := .Get "position" | default "" }}
+  {{- if not $position }}
+    {{- $count := $.Page.Store.Get "fpCount" | default 0 }}
+    {{- $.Page.Store.Set "fpCount" (add $count 1) }}
+    {{- $position = cond (eq (mod $count 2) 0) "right" "left" }}
+  {{- end }}
+  {{- $class := cond (eq $position "left") "fp fp-l" "fp fp-r" }}
+  <div class="{{ $class }} not-prose">
+    {{- partial "picture.html" $ctx -}}
+  </div>
+{{- else }}
+  <div class="fp-full not-prose">
+    {{- partial "picture.html" $ctx -}}
+  </div>
+{{- end }}
