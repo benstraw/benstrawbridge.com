@@ -1,3 +1,9 @@
 {{- if .Params.tour }}
   {{- partial "schema-tour.html" . }}
+  {{- with .Params.geo }}
+  <meta name="geo.region" content="US-{{ .state }}" />
+  <meta name="geo.placename" content="{{ .neighborhood }}{{ with .city }}, {{ . }}{{ end }}" />
+  <meta name="geo.position" content="{{ .lat }};{{ .lon }}" />
+  <meta name="ICBM" content="{{ .lat }}, {{ .lon }}" />
+  {{- end }}
 {{- end }}
