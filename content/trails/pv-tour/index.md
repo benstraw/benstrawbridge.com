@@ -1,11 +1,14 @@
 +++
-title = "Playa Vista Parks Walking Tour"
+title = "Playa Vista Parks Walking Tour — A Self-Guided Dog-Friendly Loop"
 date = 2026-03-22
-description = "A self-guided walking tour of Playa Vista's best parks and green spaces — plus the local's guide to parking for Bluff Creek Trail."
+lastmod = 2026-04-02
+description = "A self-guided walking tour of Playa Vista's best parks and green spaces — with maps, dog park reviews, parking tips, and the local's guide to parking for Bluff Creek Trail."
 tour = true
 gpx = "playa-vista-parks-walking-tour.gpx"
 hideAsideBar = true
 tags = ["Playa-Vista", "Walking-Tour", "Dog-Friendly", "Bluff-Creek"]
+keywords = ["Playa Vista parks", "Playa Vista walking tour", "Bluff Creek Trail parking", "Oberreider dog park", "Playa Vista dog parks", "things to do Playa Vista", "Ballona Wetlands", "West LA walks", "dog-friendly walks Los Angeles"]
+images = ["images/crescent-park.jpg"]
 
 [geo]
   lat = 33.971136
@@ -134,6 +137,26 @@ tags = ["Playa-Vista", "Walking-Tour", "Dog-Friendly", "Bluff-Creek"]
   order = 10
   blurb = "Hidden between condo rows. Two bronze sculptures inside: a portrait of developer Barry Allen Burkis and a relief map of every building in PV."
 
+[[faq]]
+  question = "Where do I park for Bluff Creek Trail?"
+  answer = "The best option before 9am is the free lot on Bluff Creek Drive across from the Annenberg PetSpace. After that, street parking on Crescent Park Drive is the most reliable backup — it's two blocks from the Lincoln Boulevard trailhead and almost always has space."
+
+[[faq]]
+  question = "Is Playa Vista dog-friendly?"
+  answer = "Yes. Playa Vista has multiple off-leash dog parks (Oberreider, Longwood, and the \"bubble park\" at Randy Johnson Park), dog bag stations throughout the neighborhood, and most parks allow leashed dogs. This walking tour covers all of them."
+
+[[faq]]
+  question = "How long is the Playa Vista walking tour?"
+  answer = "The full loop is about 3.2 miles on flat, paved or packed surfaces. Allow 1.5–2 hours if you're stopping at each park, or about 45 minutes if you're walking straight through."
+
+[[faq]]
+  question = "What is the best dog park in Playa Vista?"
+  answer = "Oberreider Dog Park — wood chip surface, cooler in summer, quieter than the other parks, with wetland viewing balconies on the approach path. Longwood Park is a good alternative if Oberreider is too busy."
+
+[[faq]]
+  question = "Can I combine this walk with the Bluff Creek Trail?"
+  answer = "Yes. The walking tour connects to the Bluff Creek Trail at Stop 4 (The Sports Park), where the trail enters from the Lincoln Boulevard side."
+
 [[stops]]
   id = "chess-park"
   name = "Chess Park"
@@ -146,7 +169,7 @@ tags = ["Playa-Vista", "Walking-Tour", "Dog-Friendly", "Bluff-Creek"]
     picnic = true
 +++
 
-Playa Vista is one of the more walkable neighborhoods on the Westside — a tight grid of parks, wetland edges, and open space that's easy to miss from the freeway but genuinely good on foot. This tour covers about 3.2 miles and works equally well as a morning dog walk or a first look at the neighborhood. If you're here for the Bluff Creek Trail, the route connects directly to the Lincoln Boulevard trailhead at Stop 5.
+Playa Vista is one of the more walkable neighborhoods on the Westside — a tight grid of parks, wetland edges, and open space that's easy to miss from the freeway but genuinely good on foot. This tour covers about 3.2 miles and works equally well as a morning dog walk or a first look at the neighborhood. If you're here for the [Bluff Creek Trail](/trails/bluff-creek-trail/), the route connects directly to the Lincoln Boulevard trailhead at Stop 4.
 
 <!--more-->
 
@@ -164,6 +187,8 @@ Playa Vista is one of the more walkable neighborhoods on the Westside — a tigh
 
 ### Concert Park {#concert-park}
 
+*Concert Park Drive at Washington Boulevard, Playa Vista, CA 90094*
+
 You start at Concert Park, right at Playa Vista's main entrance off Concert Park Drive from Washington Boulevard. This is one of two main shopping and restaurant areas in Playa Vista — the first thing you see coming in from Washington, and the anchor of the village area that has the coffee shop, bodega, grocery, and a handful of restaurants within a block or two.
 
 The park itself is broad and flat, with picnic benches lining the edges and a large bathroom facility that's reliably open. The name references the outdoor concert space here — summer programming runs seasonally, and the grassy area fills up for it. On a regular weekday morning it's quiet enough that your dog can run the edges while you get your bearings before heading west into the neighborhood.
@@ -172,6 +197,8 @@ The park itself is broad and flat, with picnic benches lining the edges and a la
 
 ### Longwood Park {#longwood-park}
 
+*Longwood Avenue, Playa Vista, CA 90094*
+
 Head west from Concert Park and you'll find Longwood Park — a small dog park that most people drive right past because it's tucked behind a hedge with access only through a loop road that doesn't look like it goes anywhere. That's exactly what makes it good. It's almost always quiet, even on weekends when Oberreider is packed.
 
 The park is still technically inside Playa Vista despite feeling like it's been slipped in behind the neighborhood edge. There's street parking right on the loop, free, no time limit, and almost never full — which also makes this a solid starting point for the tour if you want to skip the Concert Park area parking competition. Benches, a small adjacent kids' playground, and enough room for dogs to actually run.
@@ -179,6 +206,8 @@ The park is still technically inside Playa Vista despite feeling like it's been 
 ---
 
 ### Crescent Park {#crescent-park}
+
+*Crescent Park Drive, Playa Vista, CA 90094*
 
 {{< float-pic src="images/crescent-park.jpg" overlay="images/bs_full_wordmark.png" alt="Crescent Park, ringed by apartment towers on all sides" title="Crescent Park, ringed by apartment towers on all sides" >}}
 
@@ -200,17 +229,21 @@ This is also a good parking backup for the Bluff Creek Trail. Street parking cir
 
 ### The Sports Park {#sports-park}
 
+*Lincoln Boulevard & Playa Vista Boulevard, Playa Vista, CA 90094*
+
 The Sports Park sits at the corner of Lincoln Boulevard and Playa Vista Boulevard and is the largest public park in the neighborhood. The main feature is a full competition-size soccer field with professional artificial turf, prepainted for youth configurations that subdivide it into two or four smaller fields. There's also a baseball diamond, a playground with outdoor musical instruments (genuinely noisy, genuinely fun for kids), and the last two surviving tennis courts in Playa Vista — the rest having been converted to pickleball.
 
 {{< float-pic src="images/world-trail.jpg" overlay="images/bs_full_wordmark.png" alt="The Bluff Creek Trail path near the Lincoln Boulevard trailhead" title="The Bluff Creek Trail path near the Lincoln Boulevard trailhead" >}}
 
-The free parking lot off Lincoln is the largest in PV but fills completely during soccer events. The Bluff Creek Trail enters from the south side of the park, where the path runs along the creek below the LMU bluff. That lower trail through the Ballona Wetlands extension is closed to foot traffic — it's an ecological preserve — so stay on the main path. For birders: the park sits directly across Lincoln from the large Ballona Wetlands ecological preserve, and you often see migratory species overhead.
+The free parking lot off Lincoln is the largest in PV but fills completely during soccer events. The [Bluff Creek Trail](/trails/bluff-creek-trail/) enters from the south side of the park, where the path runs along the creek below the LMU bluff. That lower trail through the Ballona Wetlands extension is closed to foot traffic — it's an ecological preserve — so stay on the main path. For birders: the park sits directly across Lincoln from the large Ballona Wetlands ecological preserve, and you often see migratory species overhead.
 
 Playa Vista Elementary (LAUSD) sits between the Sports Park and Ballona Discovery Park, so weekday mornings during the school year are busier than they look.
 
 ---
 
 ### Ballona Discovery Park {#ballona-discovery-park}
+
+*Near Playa Vista Elementary, Playa Vista Boulevard, Playa Vista, CA 90094*
 
 {{< float-pic src="images/discovery-park.jpg" overlay="images/bs_full_wordmark.png" alt="Ballona Discovery Park's native plant trail" title="Ballona Discovery Park's native plant trail" >}}
 
@@ -223,6 +256,8 @@ Despite being compact, it feels like a woodsy nature trail rather than a neighbo
 ---
 
 ### Oberreider Dog Park {#oberreider-dog-park}
+
+*12334 Bluff Creek Drive, Playa Vista, CA 90094*
 
 {{< float-pic src="images/rhys-magnet-pv-trail.jpg" overlay="images/bs_full_wordmark.png" alt="Rhys on the approach path to Oberreider Dog Park" title="Rhys on the approach path to Oberreider Dog Park" >}}
 
@@ -238,6 +273,8 @@ The park used to have a tennis court. It doesn't anymore — first casualty of t
 
 ### Randy Johnson Park {#randy-johnson-park}
 
+*Bluff Creek Drive at Seabreeze Park Drive, Playa Vista, CA 90094*
+
 {{< float-pic src="images/randy-johnson-park.jpg" overlay="images/bs_full_wordmark.png" alt="Randy Johnson Park, along the eastern edge of Bluff Creek" title="Randy Johnson Park, along the eastern edge of Bluff Creek" >}}
 
 Randy Johnson Park runs along the eastern edge of Bluff Creek itself, which is fenced off as a protected ecosystem — no entry into the riparian zone, but you can stand right at the edge and hear the frogs, watch the birds, and look into the actual creek corridor in a way that feels rare for a neighborhood park in Los Angeles.
@@ -249,6 +286,8 @@ The park has two playgrounds (one for younger kids with climbing rocks, one olde
 ---
 
 ### The Lawn {#the-lawn}
+
+*McConnell Avenue at Runway Drive, Playa Vista, CA 90094*
 
 {{< float-pic src="images/the-lawn-picnic.jpg" overlay="images/bs_full_wordmark.png" alt="Picnic area at The Lawn" title="Picnic area at The Lawn">}}
 
@@ -264,6 +303,8 @@ The Runway wraps around the east end of Millennium Town Center, and the private 
 
 ### The Resort Park {#the-resort}
 
+*McConnell Avenue near Runway Drive, Playa Vista, CA 90094*
+
 Just off The Runway and next to the private residential club called The Resort — indoor pool, gym, residents only — this small park is easy to overlook. There's not much to it: a nice patch of green, good benches, a pleasant few minutes in a quiet spot between the commercial activity of The Runway and the residential towers. It earns its place on the route as a breath between the denser stops on the east side of the tour.
 
 {{< float-pic src="images/the-resort.jpg" overlay="images/bs_full_wordmark.png" alt="The Resort Park, a quiet green next to The Runway" title="The Resort Park, a quiet green next to The Runway" >}}
@@ -271,6 +312,8 @@ Just off The Runway and next to the private residential club called The Resort �
 ---
 
 ### Hammock Lane {#hammock}
+
+*Fountain Park Drive between Seabreeze Park Drive & McConnell Avenue, Playa Vista, CA 90094*
 
 {{< float-pic src="images/hammock-lane.jpg" overlay="images/bs_full_wordmark.png" alt="Hammock Lane, tucked between condo rows" title="Hammock Lane, tucked between condo rows" >}}
 
@@ -284,13 +327,34 @@ The detail that makes it worth stopping: there's a small bronze relief sculpture
 
 ### Chess Park {#chess-park}
 
+*Fountain Park Drive at Concert Park Drive, Playa Vista, CA 90094*
+
 The last stop before looping back to Concert Park. Chess Park is a small, well-maintained neighborhood park with a dog-friendly lawn — note that it's not an off-leash dog park, just a space where dogs are welcome on leash. Good benches, a small kids' structure, and a pleasant place to finish the walk before heading back. The name comes from the chess tables in the park, which see regular use on weekend afternoons.
+
+---
+
+## Frequently Asked Questions
+
+### Where do I park for Bluff Creek Trail?
+The best option before 9am is the free lot on Bluff Creek Drive across from the Annenberg PetSpace. After that, street parking on Crescent Park Drive is the most reliable backup — it's two blocks from the Lincoln Boulevard trailhead and almost always has space.
+
+### Is Playa Vista dog-friendly?
+Yes. Playa Vista has multiple off-leash dog parks (Oberreider, Longwood, and the "bubble park" at Randy Johnson Park), dog bag stations throughout the neighborhood, and most parks allow leashed dogs. This walking tour covers all of them.
+
+### How long is the Playa Vista walking tour?
+The full loop is about 3.2 miles on flat, paved or packed surfaces. Allow 1.5–2 hours if you're stopping at each park, or about 45 minutes if you're walking straight through.
+
+### What is the best dog park in Playa Vista?
+Oberreider Dog Park — wood chip surface, cooler in summer, quieter than the other parks, with wetland viewing balconies on the approach path. Longwood Park is a good alternative if Oberreider is too busy.
+
+### Can I combine this walk with the Bluff Creek Trail?
+Yes. The walking tour connects to the Bluff Creek Trail at Stop 4 (The Sports Park), where the trail enters from the Lincoln Boulevard side.
 
 ---
 
 ## Where to Park for Bluff Creek Trail
 
-Parking for Bluff Creek Trail is genuinely confusing if you haven't done it before, and the Sports Park lot fills fast on weekends. Here are the real options:
+Parking for the [Bluff Creek Trail](/trails/bluff-creek-trail/) is genuinely confusing if you haven't done it before, and the Sports Park lot fills fast on weekends. Here are the real options:
 
 **Bluff Creek Drive lot** — The free lot across from Annenberg PetSpace, off Bluff Creek Drive. Closest to the upper trailhead. Fills by 9am on weekend mornings. Get there early.
 

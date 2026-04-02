@@ -1,11 +1,49 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "TouristAttraction",
+  "@type": "Article",
   "name": {{ .Title | jsonify }},
   "description": {{ .Description | jsonify }},
   "url": {{ .Permalink | jsonify }},
+  "author": {
+    "@type": "Person",
+    "name": "Ben Strawbridge",
+    "url": "https://www.benstrawbridge.com"
+  },
+  "datePublished": {{ .Date.Format "2006-01-02" | jsonify }},
+  "dateModified": {{ .Lastmod.Format "2006-01-02" | jsonify }},
   {{- with .Params.geo }}
+  "mainEntity": {
+    "@type": "TouristTrip",
+    "name": {{ $.Title | jsonify }},
+    "description": {{ $.Description | jsonify }},
+    "touristType": ["Dog owners", "Hikers", "Families"]
+    {{- if $.Params.stops }},
+    "itinerary": {
+      "@type": "ItemList",
+      "itemListElement": [
+        {{- range $i, $stop := $.Params.stops }}
+        {{- if $i }},{{ end }}
+        {
+          "@type": "ListItem",
+          "position": {{ $stop.order }},
+          "item": {
+            "@type": "Place",
+            "name": {{ $stop.name | jsonify }}
+            {{- with $stop.lat }},
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": "{{ $stop.lat }}",
+              "longitude": "{{ $stop.lon }}"
+            }
+            {{- end }}
+          }
+        }
+        {{- end }}
+      ]
+    }
+    {{- end }}
+  },
   "geo": {
     "@type": "GeoCoordinates",
     "latitude": "{{ .lat }}",
@@ -16,8 +54,28 @@
     "addressLocality": {{ .city | jsonify }},
     "addressRegion": {{ .state | jsonify }},
     "addressCountry": "US"
-  },
+  }
   {{- end }}
-  "touristType": ["Hikers", "Dog Walkers", "Local Explorers"]
 }
 </script>
+{{- with .Params.faq }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {{- range $i, $item := . }}
+    {{- if $i }},{{ end }}
+    {
+      "@type": "Question",
+      "name": {{ $item.question | jsonify }},
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {{ $item.answer | jsonify }}
+      }
+    }
+    {{- end }}
+  ]
+}
+</script>
+{{- end }}
