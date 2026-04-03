@@ -9,6 +9,7 @@ tourType = "Walking Tour"
 hideAsideBar = true
 tags = ["Bluff-Creek", "Dog-Friendly", "Playa-Vista", "Westchester"]
 keywords = ["Bluff Creek Trail", "Bluff Creek Trail Los Angeles", "LMU trail", "Westchester fireroad trail", "Playa Vista hiking", "dog-friendly trail West LA", "Westchester trail", "hiking near LMU"]
+aliases = ["/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/bluff-creek-trail/"]
 
 [geo]
   lat = 33.968
