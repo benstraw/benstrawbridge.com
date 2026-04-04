@@ -196,6 +196,119 @@
     .fp { float: none !important; width: 100%; margin: 0 0 1.25rem; }
   }
 
+  /* ── FAQ accordion section ───────────────────────────────────────── */
+  .trail-faq-section {
+    margin: 2rem 0;
+    background-color: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+  }
+
+  .dark .trail-faq-section {
+    background-color: #171717;
+    border-color: #404040;
+  }
+
+  .trail-faq-section > h2 {
+    margin-top: 0 !important;
+    font-size: 0.8rem !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.1em !important;
+    text-transform: uppercase !important;
+    color: #2D6A4F !important;
+    border-bottom: 1px solid #d1fae5;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem !important;
+  }
+
+  .dark .trail-faq-section > h2 {
+    color: #4ade80 !important;
+    border-bottom-color: #064e3b;
+  }
+
+  /* Suppress counter numbering on FAQ h3s */
+  .trail-faq-section h3 {
+    counter-increment: none !important;
+  }
+  .trail-faq-section h3::before {
+    display: none !important;
+  }
+
+  .faq-item {
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+    overflow: hidden;
+    background-color: #fff;
+  }
+
+  .dark .faq-item {
+    border-color: #404040;
+    background-color: #262626;
+  }
+
+  .faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0.875rem 1rem;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    text-align: left;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #111827;
+    transition: background 0.15s;
+    gap: 0.75rem;
+  }
+
+  .dark .faq-question {
+    color: #f3f4f6;
+  }
+
+  .faq-question:hover {
+    background-color: #f0fdf4;
+  }
+
+  .dark .faq-question:hover {
+    background-color: #052e16;
+  }
+
+  .faq-chevron {
+    flex-shrink: 0;
+    color: #2D6A4F;
+    transition: transform 0.2s;
+  }
+
+  .dark .faq-chevron {
+    color: #4ade80;
+  }
+
+  .faq-item.open .faq-chevron {
+    transform: rotate(180deg);
+  }
+
+  .faq-answer {
+    display: none;
+    padding: 0.75rem 1rem 0.875rem;
+    font-size: 0.875rem;
+    line-height: 1.6;
+    color: #374151;
+    border-top: 1px solid #e5e7eb;
+  }
+
+  .dark .faq-answer {
+    color: #d1d5db;
+    border-top-color: #404040;
+  }
+
+  .faq-item.open .faq-answer {
+    display: block;
+  }
+
   /* ── Stop amenity pills ───────────────────────────────────────────── */
   .stop-amenities {
     display: flex;
@@ -331,8 +444,72 @@
     siblings.forEach(el => wrapper.appendChild(el));
   }
 
+  // Wrap FAQ first so "Where to Park" h2 is still a direct child when parking wraps
+  wrapSection('Frequently Asked Questions', 'trail-faq-section');
   wrapSection('Where to Park', 'trail-parking-section');
   wrapSection('About This Tour', 'trail-about-section');
+
+  // ── Convert FAQ h3+p pairs into accordion items ──────────────────────
+  var faqSection = content.querySelector('.trail-faq-section');
+  if (faqSection) {
+    var faqItems = [];
+    var currentItem = null;
+    Array.from(faqSection.children).forEach(function(el) {
+      if (el.tagName === 'H3') {
+        currentItem = { q: el, answers: [] };
+        faqItems.push(currentItem);
+      } else if (currentItem && el.tagName === 'P') {
+        currentItem.answers.push(el);
+      }
+    });
+
+    faqItems.forEach(function(item) {
+      var wrapper = document.createElement('div');
+      wrapper.className = 'faq-item';
+
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'faq-question';
+      btn.setAttribute('aria-expanded', 'false');
+
+      var questionText = document.createElement('span');
+      questionText.textContent = item.q.textContent;
+
+      var chevron = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+      chevron.setAttribute('class', 'faq-chevron');
+      chevron.setAttribute('width', '16');
+      chevron.setAttribute('height', '16');
+      chevron.setAttribute('viewBox', '0 0 24 24');
+      chevron.setAttribute('fill', 'none');
+      chevron.setAttribute('stroke', 'currentColor');
+      chevron.setAttribute('stroke-width', '2.5');
+      chevron.setAttribute('aria-hidden', 'true');
+      var chevronPath = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+      chevronPath.setAttribute('stroke-linecap', 'round');
+      chevronPath.setAttribute('stroke-linejoin', 'round');
+      chevronPath.setAttribute('d', 'M19 9l-7 7-7-7');
+      chevron.appendChild(chevronPath);
+
+      btn.appendChild(questionText);
+      btn.appendChild(chevron);
+
+      var answerDiv = document.createElement('div');
+      answerDiv.className = 'faq-answer';
+      item.answers.forEach(function(p) { answerDiv.appendChild(p.cloneNode(true)); });
+
+      wrapper.appendChild(btn);
+      wrapper.appendChild(answerDiv);
+
+      item.q.parentNode.insertBefore(wrapper, item.q);
+      item.q.remove();
+      item.answers.forEach(function(p) { p.remove(); });
+
+      btn.addEventListener('click', function() {
+        var isOpen = wrapper.classList.toggle('open');
+        btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      });
+    });
+  }
 
   // ── Inject amenity pills after each stop H3 ──────────────────────────
   var AMENITY_ICONS = {
