@@ -32,6 +32,7 @@
 </style>
 <div id="tour-map-wrap">
   <div id="tour-map" style="width:100%; margin:1.5rem 0;"></div>
+  <div id="tour-map-gesture-hint" style="display:none;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);z-index:1001;pointer-events:none;background:rgba(0,0,0,0.55);color:#fff;border-radius:12px;padding:10px 18px;font-size:14px;font-weight:600;white-space:nowrap;letter-spacing:.02em;">Use two fingers to move the map</div>
   <div id="tour-start-btn" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);z-index:1000;pointer-events:auto;{{ if not $stops }}display:none;{{ end }}">
     <button onclick="window._tourStart()" style="background:#d97706;color:#fff;border:none;border-radius:9999px;padding:14px 32px;font-size:16px;font-weight:800;letter-spacing:.04em;cursor:pointer;box-shadow:0 4px 16px rgba(0,0,0,.35);transition:transform .1s,box-shadow .1s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
       ★ &nbsp;Start Tour
@@ -88,6 +89,35 @@
   };
 
   var map = L.map('tour-map', { scrollWheelZoom: false });
+
+  // Mobile touch: disable single-finger drag so page scrolling works;
+  // require two fingers to pan the map, with a visual hint.
+  if (L.Browser.touch) {
+    map.dragging.disable();
+    var _gestureHint = document.getElementById('tour-map-gesture-hint');
+    var _hintTimer = null;
+    function _showHint() {
+      if (!_gestureHint) return;
+      _gestureHint.style.display = 'block';
+      clearTimeout(_hintTimer);
+      _hintTimer = setTimeout(function() {
+        _gestureHint.style.display = 'none';
+      }, 1200);
+    }
+    map.getContainer().addEventListener('touchstart', function(e) {
+      if (e.touches.length >= 2) {
+        map.dragging.enable();
+        if (_gestureHint) _gestureHint.style.display = 'none';
+        clearTimeout(_hintTimer);
+      } else {
+        map.dragging.disable();
+        _showHint();
+      }
+    }, { passive: true });
+    map.getContainer().addEventListener('touchend', function() {
+      map.dragging.disable();
+    }, { passive: true });
+  }
 
   var baseLayer = L.tileLayer(
     {{ if $isHike }}
