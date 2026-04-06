@@ -1,36 +1,12 @@
-{{/* Home page links module — shows latest + featured links in a compact card. */}}
+{{/* Home page links module — shows 4 latest links in a two-column card layout. */}}
 
 {{- $linksSection := where .Site.RegularPages "Section" "links" }}
 {{- $allLinks := where $linksSection "Params.link_url" "ne" nil }}
 {{- $allLinks = sort $allLinks "Date" "desc" }}
 
-{{- $latest := first 4 $allLinks }}
+{{- $links := first 4 $allLinks }}
 
-{{- $featuredAll := slice }}
-{{- range $allLinks }}
-  {{- $tags := .Params.tags | default slice }}
-  {{- if in $tags "featured-link" }}
-    {{- $featuredAll = $featuredAll | append . }}
-  {{- end }}
-{{- end }}
-{{- $featured := first 6 $featuredAll }}
-
-{{/* De-duplicate: latest first, then featured not already included */}}
-{{- $seen := slice }}
-{{- $combined := slice }}
-{{- range $latest }}
-  {{- $combined = $combined | append . }}
-  {{- $seen = $seen | append .Permalink }}
-{{- end }}
-{{- range $featured }}
-  {{- if not (in $seen .Permalink) }}
-    {{- $combined = $combined | append . }}
-    {{- $seen = $seen | append .Permalink }}
-  {{- end }}
-{{- end }}
-{{- $combined = first 10 $combined }}
-
-{{- if $combined }}
+{{- if $links }}
 <div class="p-2 mx-auto mb-5">
   <div class="border border-neutral-200 dark:border-neutral-700 rounded-lg overflow-hidden">
     {{/* Header bar */}}
@@ -43,79 +19,37 @@
       </a>
     </div>
 
-    {{/* Two-column grid */}}
-    {{- $total := len $combined }}
-    {{- $half := int (math.Ceil (div (float $total) 2)) }}
-    {{- $col1 := first $half $combined }}
-    {{- $col2 := after $half $combined }}
-
-    <div class="grid md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-neutral-200 dark:divide-neutral-700">
-      <div class="px-4 pb-1">
-        {{- range $col1 }}
-        <div class="pt-1 border-b border-neutral-100 dark:border-neutral-800 last:border-b-0">
-          <div class="flex items-center gap-1.5">
-            <div class="flex items-center gap-1 min-w-0 flex-1">
-              <a href="{{ .Params.link_url }}" target="_blank" rel="noopener noreferrer"
-                 class="text-rose-600 hover:text-rose-800 dark:text-rose-400 dark:hover:text-rose-200 font-medium text-sm truncate">
-                {{- .Title -}}
-              </a>
-              <i class="fa-solid fa-arrow-up-right-from-square text-xs text-neutral-400 shrink-0"></i>
-            </div>
-            <span class="text-xs text-neutral-400 whitespace-nowrap shrink-0">{{ .Date.Format "Jan 2" }}</span>
-          </div>
-          {{- $visibleTags := slice }}
-          {{- with .Params.tags }}
-            {{- range . }}
-              {{- if ne . "featured-link" }}
-                {{- $visibleTags = $visibleTags | append . }}
-              {{- end }}
-            {{- end }}
+    {{/* Two-column card grid */}}
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 p-3">
+      {{- range $links }}
+      {{- $visibleTags := slice }}
+      {{- with .Params.tags }}
+        {{- range . }}
+          {{- if ne . "featured-link" }}
+            {{- $visibleTags = $visibleTags | append . }}
           {{- end }}
-          {{- with $visibleTags }}
-          <div class="flex flex-wrap gap-1">
-            {{- range first 5 . }}
-            <a href="{{ "/links/" | relURL }}?tag={{ . | urlquery }}"
-               class="px-1.5 py-0.5 text-xs bg-neutral-100 text-neutral-500 dark:bg-neutral-800 dark:text-neutral-400 rounded hover:bg-rose-100 hover:text-rose-600 dark:hover:bg-rose-900 dark:hover:text-rose-300 transition-colors"
-            >#{{ . }}</a>
-            {{- end }}
-          </div>
+        {{- end }}
+      {{- end }}
+      <div class="border border-neutral-200 dark:border-neutral-700 rounded-lg p-3 bg-white dark:bg-neutral-900 hover:border-rose-400 dark:hover:border-rose-600 transition-colors">
+        <div class="flex items-start gap-1 min-w-0">
+          <a href="{{ .Params.link_url }}" target="_blank" rel="noopener noreferrer"
+             class="text-rose-600 hover:text-rose-800 dark:text-rose-400 dark:hover:text-rose-200 font-medium text-sm leading-snug line-clamp-2 flex-1">
+            {{- .Title -}}
+          </a>
+          <i class="fa-solid fa-arrow-up-right-from-square text-xs text-neutral-400 shrink-0 mt-0.5"></i>
+        </div>
+        <div class="mt-1 text-xs text-neutral-400">{{ .Date.Format "Jan 2, 2006" }}</div>
+        {{- with $visibleTags }}
+        <div class="mt-1.5 flex flex-wrap gap-1">
+          {{- range first 3 . }}
+          <a href="{{ "/links/" | relURL }}?tag={{ . | urlquery }}"
+             class="px-1.5 py-0.5 text-xs bg-neutral-100 text-neutral-500 dark:bg-neutral-800 dark:text-neutral-400 rounded hover:bg-rose-100 hover:text-rose-600 dark:hover:bg-rose-900 dark:hover:text-rose-300 transition-colors"
+          >#{{ . }}</a>
           {{- end }}
         </div>
         {{- end }}
       </div>
-      <div class="px-4 pb-1">
-        {{- range $col2 }}
-        <div class="pt-1 border-b border-neutral-100 dark:border-neutral-800 last:border-b-0">
-          <div class="flex items-center gap-1.5">
-            <div class="flex items-center gap-1 min-w-0 flex-1">
-              <a href="{{ .Params.link_url }}" target="_blank" rel="noopener noreferrer"
-                 class="text-rose-600 hover:text-rose-800 dark:text-rose-400 dark:hover:text-rose-200 font-medium text-sm truncate">
-                {{- .Title -}}
-              </a>
-              <i class="fa-solid fa-arrow-up-right-from-square text-xs text-neutral-400 shrink-0"></i>
-            </div>
-            <span class="text-xs text-neutral-400 whitespace-nowrap shrink-0">{{ .Date.Format "Jan 2" }}</span>
-          </div>
-          {{- $visibleTags := slice }}
-          {{- with .Params.tags }}
-            {{- range . }}
-              {{- if ne . "featured-link" }}
-                {{- $visibleTags = $visibleTags | append . }}
-              {{- end }}
-            {{- end }}
-          {{- end }}
-          {{- with $visibleTags }}
-          <div class="flex flex-wrap gap-1">
-            {{- range first 5 . }}
-            <a href="{{ "/links/" | relURL }}?tag={{ . | urlquery }}"
-               class="px-1.5 py-0.5 text-xs bg-neutral-100 text-neutral-500 dark:bg-neutral-800 dark:text-neutral-400 rounded hover:bg-rose-100 hover:text-rose-600 dark:hover:bg-rose-900 dark:hover:text-rose-300 transition-colors"
-            >#{{ . }}</a>
-            {{- end }}
-          </div>
-          {{- end }}
-        </div>
-        {{- end }}
-      </div>
+      {{- end }}
     </div>
   </div>
 </div>
