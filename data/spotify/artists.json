@@ -1278,9 +1278,9 @@
     "id": "4TMHGUX5WI7OOm53PqSDAT",
     "name": "Grateful Dead",
     "spotify_url": "https://open.spotify.com/artist/4TMHGUX5WI7OOm53PqSDAT",
-    "total_plays": 25,
+    "total_plays": 42,
     "first_seen": "2026-02-13",
-    "last_seen": "2026-03-28",
+    "last_seen": "2026-04-11",
     "genres": [
       "jam band",
       "psychedelic rock",
@@ -1310,15 +1310,111 @@
     ],
     "top_tracks": [
       {
+        "name": "Cassidy - Live",
+        "album": "Reckoning (Live)",
+        "spotify_url": "https://open.spotify.com/track/3Ytea3b7VXXkVTN2mRpjvB",
+        "plays": 3
+      },
+      {
         "name": "Franklin's Tower - 2013 Remaster",
         "album": "Blues for Allah (2013 Remaster)",
         "spotify_url": "https://open.spotify.com/track/3PgIhd4XmwtmV2XGU5qhzZ",
         "plays": 2
       },
       {
-        "name": "Cassidy - Live",
+        "name": "Tennessee Jed (Live at L'Olympia, Paris, 5/3/72) - 2001 Remaster",
+        "album": "Europe '72 (Live; 2001 Remaster)",
+        "spotify_url": "https://open.spotify.com/track/1ae0SQx8MpBXo6QsmrpsEj",
+        "plays": 2
+      },
+      {
+        "name": "Ripple - Live",
         "album": "Reckoning (Live)",
-        "spotify_url": "https://open.spotify.com/track/3Ytea3b7VXXkVTN2mRpjvB",
+        "spotify_url": "https://open.spotify.com/track/31Ch2wIS1T0ZTZf13XFvfs",
+        "plays": 2
+      },
+      {
+        "name": "Bird Song - Live",
+        "album": "Reckoning (Live)",
+        "spotify_url": "https://open.spotify.com/track/00RhMZwmPZEZY3bbFV5VJK",
+        "plays": 2
+      },
+      {
+        "name": "On the Road Again - Live",
+        "album": "Reckoning (Live)",
+        "spotify_url": "https://open.spotify.com/track/3lUyunZMV5AX1fbT9EDGDo",
+        "plays": 2
+      },
+      {
+        "name": "Rosalie McFall",
+        "album": "Reckoning (Live)",
+        "spotify_url": "https://open.spotify.com/track/57QtIwdZ7USGRm2ULO0WIH",
+        "plays": 2
+      },
+      {
+        "name": "To Lay Me Down - Live",
+        "album": "Reckoning (Live)",
+        "spotify_url": "https://open.spotify.com/track/78rA4TEETpXZpuUzirG8zE",
+        "plays": 2
+      },
+      {
+        "name": "Deep Elem Blues - Live",
+        "album": "Reckoning (Live)",
+        "spotify_url": "https://open.spotify.com/track/2tu3n4gB1LUbuvnjrmb4Xw",
+        "plays": 2
+      },
+      {
+        "name": "Jack-A-Roe - Live",
+        "album": "Reckoning (Live)",
+        "spotify_url": "https://open.spotify.com/track/3VfzGskNiyciPf5hBEcPmA",
+        "plays": 2
+      },
+      {
+        "name": "Monkey and the Engineer - Live",
+        "album": "Reckoning (Live)",
+        "spotify_url": "https://open.spotify.com/track/58Dc3Osn3EulmDBpMde1va",
+        "plays": 2
+      },
+      {
+        "name": "Been All Around This World - Live",
+        "album": "Reckoning (Live)",
+        "spotify_url": "https://open.spotify.com/track/02fHBG7NGuiok3BNdxd22R",
+        "plays": 2
+      },
+      {
+        "name": "China Doll - Live",
+        "album": "Reckoning (Live)",
+        "spotify_url": "https://open.spotify.com/track/0uTDZqdS4icbKN4gEIUf2d",
+        "plays": 2
+      },
+      {
+        "name": "Dark Hollow - Live",
+        "album": "Reckoning (Live)",
+        "spotify_url": "https://open.spotify.com/track/5SWDIe8j5vhBZZkU11Cmjj",
+        "plays": 2
+      },
+      {
+        "name": "It Must Have Been the Roses - Live",
+        "album": "Reckoning (Live)",
+        "spotify_url": "https://open.spotify.com/track/3lHYD0Eqkm2sTD792UCrUW",
+        "plays": 2
+      },
+      {
+        "name": "Oh Babe It Ain't No Lie - Live",
+        "album": "Reckoning (Live)",
+        "spotify_url": "https://open.spotify.com/track/17OxLQl2U5MRfszHaHIPrq",
+        "plays": 2
+      },
+      {
+        "name": "The Race Is On - Live",
+        "album": "Reckoning (Live)",
+        "spotify_url": "https://open.spotify.com/track/4n6cB1WrllLjCkuafcGBLN",
+        "plays": 2
+      },
+      {
+        "name": "Dire Wolf - Live",
+        "album": "Reckoning (Live)",
+        "spotify_url": "https://open.spotify.com/track/7rLRoUv0PMTcHz0lOfpnti",
         "plays": 2
       },
       {
@@ -1349,102 +1445,6 @@
         "name": "Fire on the Mountain - 2013 Remaster",
         "album": "Shakedown Street",
         "spotify_url": "https://open.spotify.com/track/4DpBfWl3q8e0gGB76lAaox",
-        "plays": 1
-      },
-      {
-        "name": "Tennessee Jed (Live at L'Olympia, Paris, 5/3/72) - 2001 Remaster",
-        "album": "Europe '72 (Live; 2001 Remaster)",
-        "spotify_url": "https://open.spotify.com/track/1ae0SQx8MpBXo6QsmrpsEj",
-        "plays": 1
-      },
-      {
-        "name": "Ripple - Live",
-        "album": "Reckoning (Live)",
-        "spotify_url": "https://open.spotify.com/track/31Ch2wIS1T0ZTZf13XFvfs",
-        "plays": 1
-      },
-      {
-        "name": "Bird Song - Live",
-        "album": "Reckoning (Live)",
-        "spotify_url": "https://open.spotify.com/track/00RhMZwmPZEZY3bbFV5VJK",
-        "plays": 1
-      },
-      {
-        "name": "On the Road Again - Live",
-        "album": "Reckoning (Live)",
-        "spotify_url": "https://open.spotify.com/track/3lUyunZMV5AX1fbT9EDGDo",
-        "plays": 1
-      },
-      {
-        "name": "Rosalie McFall",
-        "album": "Reckoning (Live)",
-        "spotify_url": "https://open.spotify.com/track/57QtIwdZ7USGRm2ULO0WIH",
-        "plays": 1
-      },
-      {
-        "name": "To Lay Me Down - Live",
-        "album": "Reckoning (Live)",
-        "spotify_url": "https://open.spotify.com/track/78rA4TEETpXZpuUzirG8zE",
-        "plays": 1
-      },
-      {
-        "name": "Deep Elem Blues - Live",
-        "album": "Reckoning (Live)",
-        "spotify_url": "https://open.spotify.com/track/2tu3n4gB1LUbuvnjrmb4Xw",
-        "plays": 1
-      },
-      {
-        "name": "Jack-A-Roe - Live",
-        "album": "Reckoning (Live)",
-        "spotify_url": "https://open.spotify.com/track/3VfzGskNiyciPf5hBEcPmA",
-        "plays": 1
-      },
-      {
-        "name": "Monkey and the Engineer - Live",
-        "album": "Reckoning (Live)",
-        "spotify_url": "https://open.spotify.com/track/58Dc3Osn3EulmDBpMde1va",
-        "plays": 1
-      },
-      {
-        "name": "Been All Around This World - Live",
-        "album": "Reckoning (Live)",
-        "spotify_url": "https://open.spotify.com/track/02fHBG7NGuiok3BNdxd22R",
-        "plays": 1
-      },
-      {
-        "name": "China Doll - Live",
-        "album": "Reckoning (Live)",
-        "spotify_url": "https://open.spotify.com/track/0uTDZqdS4icbKN4gEIUf2d",
-        "plays": 1
-      },
-      {
-        "name": "Dark Hollow - Live",
-        "album": "Reckoning (Live)",
-        "spotify_url": "https://open.spotify.com/track/5SWDIe8j5vhBZZkU11Cmjj",
-        "plays": 1
-      },
-      {
-        "name": "It Must Have Been the Roses - Live",
-        "album": "Reckoning (Live)",
-        "spotify_url": "https://open.spotify.com/track/3lHYD0Eqkm2sTD792UCrUW",
-        "plays": 1
-      },
-      {
-        "name": "Oh Babe It Ain't No Lie - Live",
-        "album": "Reckoning (Live)",
-        "spotify_url": "https://open.spotify.com/track/17OxLQl2U5MRfszHaHIPrq",
-        "plays": 1
-      },
-      {
-        "name": "The Race Is On - Live",
-        "album": "Reckoning (Live)",
-        "spotify_url": "https://open.spotify.com/track/4n6cB1WrllLjCkuafcGBLN",
-        "plays": 1
-      },
-      {
-        "name": "Dire Wolf - Live",
-        "album": "Reckoning (Live)",
-        "spotify_url": "https://open.spotify.com/track/7rLRoUv0PMTcHz0lOfpnti",
         "plays": 1
       },
       {
@@ -4538,9 +4538,9 @@
     "id": "0ZIwOAzDuGPspzK7yiTc4S",
     "name": "Little Feat",
     "spotify_url": "https://open.spotify.com/artist/0ZIwOAzDuGPspzK7yiTc4S",
-    "total_plays": 11,
+    "total_plays": 12,
     "first_seen": "2026-03-01",
-    "last_seen": "2026-03-28",
+    "last_seen": "2026-04-11",
     "genres": [
       "southern rock",
       "jam band",
@@ -19152,9 +19152,9 @@
     "id": "4vpDg7Y7fU982Ds30zawDA",
     "name": "The Band",
     "spotify_url": "https://open.spotify.com/artist/4vpDg7Y7fU982Ds30zawDA",
-    "total_plays": 9,
+    "total_plays": 10,
     "first_seen": "2026-03-28",
-    "last_seen": "2026-03-28",
+    "last_seen": "2026-04-11",
     "genres": [
       "folk rock",
       "roots rock",
@@ -19231,6 +19231,12 @@
         "name": "Ophelia - Remastered 2000",
         "album": "Northern Lights-Southern Cross (Expanded Edition)",
         "spotify_url": "https://open.spotify.com/track/2fx1hkMHTVdDim274rwoPa",
+        "plays": 1
+      },
+      {
+        "name": "Long Black Veil - Remastered 2000",
+        "album": "Music From Big Pink (Remastered)",
+        "spotify_url": "https://open.spotify.com/track/2mkz7LrEqofmv0PvcihXW7",
         "plays": 1
       }
     ]
@@ -20142,9 +20148,9 @@
     "id": "5tOrTQaBRD5yPHqbEwsRn7",
     "name": "Hot Tuna",
     "spotify_url": "https://open.spotify.com/artist/5tOrTQaBRD5yPHqbEwsRn7",
-    "total_plays": 1,
+    "total_plays": 2,
     "first_seen": "2026-03-28",
-    "last_seen": "2026-03-28",
+    "last_seen": "2026-04-11",
     "genres": [
       "jam band",
       "blues rock"
@@ -20177,6 +20183,12 @@
         "album": "Burgers",
         "spotify_url": "https://open.spotify.com/track/5Qe0nAjBVDecK7SfZE9YUm",
         "plays": 1
+      },
+      {
+        "name": "99 Year Blues",
+        "album": "Burgers",
+        "spotify_url": "https://open.spotify.com/track/7GQZYw55Juuq3tntjZJzZt",
+        "plays": 1
       }
     ]
   },
@@ -20184,9 +20196,9 @@
     "id": "1ZN1c1qWEGZNX1pGeKCPpf",
     "name": "Billy Strings",
     "spotify_url": "https://open.spotify.com/artist/1ZN1c1qWEGZNX1pGeKCPpf",
-    "total_plays": 2,
+    "total_plays": 3,
     "first_seen": "2026-03-28",
-    "last_seen": "2026-04-04",
+    "last_seen": "2026-04-11",
     "genres": [
       "bluegrass",
       "newgrass",
@@ -20221,6 +20233,12 @@
         "name": "Watch It Fall",
         "album": "Home",
         "spotify_url": "https://open.spotify.com/track/348k0fvTj8lMXdkUR7mJZ4",
+        "plays": 1
+      },
+      {
+        "name": "Secrets",
+        "album": "Renewal",
+        "spotify_url": "https://open.spotify.com/track/2DSIadh6CVBzQoRZ9VzKVL",
         "plays": 1
       }
     ]
@@ -21371,9 +21389,9 @@
     "id": "4if49KlQEdVNk97CQYSFvt",
     "name": "Pete & Bas",
     "spotify_url": "https://open.spotify.com/artist/4if49KlQEdVNk97CQYSFvt",
-    "total_plays": 6,
+    "total_plays": 9,
     "first_seen": "2026-04-05",
-    "last_seen": "2026-04-05",
+    "last_seen": "2026-04-10",
     "genres": [
       "uk drill",
       "grime",
@@ -21399,6 +21417,12 @@
     ],
     "top_tracks": [
       {
+        "name": "Mugshot Freestyle",
+        "album": "Mugshot",
+        "spotify_url": "https://open.spotify.com/track/5Gj0jCiUc5pWS94vBe0Q49",
+        "plays": 2
+      },
+      {
         "name": "T Pain Remix (Feat. T-Pain)",
         "album": "T Pain Remix (Feat. T-Pain)",
         "spotify_url": "https://open.spotify.com/track/6jtxuRq64YeOvYo2zUQP82",
@@ -21408,12 +21432,6 @@
         "name": "Bish Bash Bosh",
         "album": "Mugshot",
         "spotify_url": "https://open.spotify.com/track/3qKpQAdefLUPV8WBqRRPhK",
-        "plays": 1
-      },
-      {
-        "name": "Mugshot Freestyle",
-        "album": "Mugshot",
-        "spotify_url": "https://open.spotify.com/track/5Gj0jCiUc5pWS94vBe0Q49",
         "plays": 1
       },
       {
@@ -21432,6 +21450,18 @@
         "name": "Stepped into the Building",
         "album": "Mugshot",
         "spotify_url": "https://open.spotify.com/track/5x8lJjnoJJDGoG7zDXGNFj",
+        "plays": 1
+      },
+      {
+        "name": "Bosh (Skit)",
+        "album": "Mugshot",
+        "spotify_url": "https://open.spotify.com/track/6vwVi2dZvyyL0Ld8JtXgFX",
+        "plays": 1
+      },
+      {
+        "name": "Slap the Stick",
+        "album": "Mugshot",
+        "spotify_url": "https://open.spotify.com/track/4NjAwzMaPdpjiwNUm4q43m",
         "plays": 1
       }
     ]
@@ -22020,6 +22050,348 @@
         "name": "Love's In Need Of Love Today",
         "album": "Songs In The Key Of Life",
         "spotify_url": "https://open.spotify.com/track/39sdlCugrGBsoC4Flos0HO",
+        "plays": 1
+      }
+    ]
+  },
+  "robert-johnson": {
+    "id": "0f8MDDzIc6M4uH1xH0o0gy",
+    "name": "Robert Johnson",
+    "spotify_url": "https://open.spotify.com/artist/0f8MDDzIc6M4uH1xH0o0gy",
+    "total_plays": 25,
+    "first_seen": "2026-04-09",
+    "last_seen": "2026-04-10",
+    "genres": [
+      "blues",
+      "classic blues",
+      "country blues"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/b8acc51743ff21f1d32e3f99922ca8283d3af0ce",
+        "height": 1268,
+        "width": 968
+      },
+      {
+        "url": "https://i.scdn.co/image/e5e3a261affcf0d3e511f3c61c150340135f2bfd",
+        "height": 838,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/e507ddf397233df8b490ce8d7220df85f1a9bb02",
+        "height": 262,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/55770f73b852ea1d0c5189ce36d01ed5a1e0b8fa",
+        "height": 84,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Trying to Make It Home",
+        "album": "The George Mitchell Collection Vol. 4",
+        "spotify_url": "https://open.spotify.com/track/1LQMedYq9vzeU3hHoij11w",
+        "plays": 1
+      },
+      {
+        "name": "Precious Lord",
+        "album": "The George Mitchell Collection Vol. 4",
+        "spotify_url": "https://open.spotify.com/track/54NsJJUhV364XJyeLl39M5",
+        "plays": 1
+      },
+      {
+        "name": "I'm a Steady Rollin' Man",
+        "album": "King Of The Delta Blues",
+        "spotify_url": "https://open.spotify.com/track/2fiLNDU98eUDqDSiCadnoz",
+        "plays": 1
+      },
+      {
+        "name": "Honeymoon Blues",
+        "album": "The Complete Recordings",
+        "spotify_url": "https://open.spotify.com/track/1ypdkO74P92kDAXHnrjaIk",
+        "plays": 1
+      },
+      {
+        "name": "Hold My Body Down",
+        "album": "The George Mitchell Collection Vol. 4",
+        "spotify_url": "https://open.spotify.com/track/5Z4mHJOGAqQr7tMgC6m556",
+        "plays": 1
+      },
+      {
+        "name": "From Four Until Late",
+        "album": "King Of The Delta Blues",
+        "spotify_url": "https://open.spotify.com/track/79VFD8QZFjqbH9V56DimMW",
+        "plays": 1
+      },
+      {
+        "name": "Drunken Hearted Man - Take 1",
+        "album": "The Complete Recordings",
+        "spotify_url": "https://open.spotify.com/track/1tn7gkNr7aAyn91sOK9t4J",
+        "plays": 1
+      },
+      {
+        "name": "Stop Breakin' Down Blues - Take 1",
+        "album": "King Of The Delta Blues",
+        "spotify_url": "https://open.spotify.com/track/6AliaPN7f29wbqun6pFNWX",
+        "plays": 1
+      },
+      {
+        "name": "Little Queen of Spades - Take 1",
+        "album": "The Complete Recordings",
+        "spotify_url": "https://open.spotify.com/track/4xDyRlI0IJEdSe4AELHZcK",
+        "plays": 1
+      },
+      {
+        "name": "He'll Make a Way",
+        "album": "The George Mitchell Collection Vol. 4",
+        "spotify_url": "https://open.spotify.com/track/6st2tGe2XZWvtpYnLOQgp2",
+        "plays": 1
+      },
+      {
+        "name": "I Believe I'll Dust My Broom",
+        "album": "King Of The Delta Blues",
+        "spotify_url": "https://open.spotify.com/track/6jFbvFjbFSphuXZVr4xWO5",
+        "plays": 1
+      },
+      {
+        "name": "Phonograph Blues - Take 1",
+        "album": "The Complete Recordings",
+        "spotify_url": "https://open.spotify.com/track/2EaZxrfE6L0qyBGCMAxbsM",
+        "plays": 1
+      },
+      {
+        "name": "Malted Milk",
+        "album": "Martin Scorsese Presents The Blues: Robert Johnson",
+        "spotify_url": "https://open.spotify.com/track/3LrdrGd8Fv3uiJNq9b5wj3",
+        "plays": 1
+      },
+      {
+        "name": "Dead Shrimp Blues",
+        "album": "The Complete Recordings",
+        "spotify_url": "https://open.spotify.com/track/5tC9rKaT2tybkuV1FByFJr",
+        "plays": 1
+      },
+      {
+        "name": "Cross Road Blues",
+        "album": "King Of The Delta Blues Singers",
+        "spotify_url": "https://open.spotify.com/track/1TrGdXSgiBm8W68D2K1COG",
+        "plays": 1
+      },
+      {
+        "name": "Hellhound on My Trail",
+        "album": "King Of The Delta Blues",
+        "spotify_url": "https://open.spotify.com/track/2KkJj006V93x8d9dXpgmIg",
+        "plays": 1
+      },
+      {
+        "name": "Love in Vain - Take 1",
+        "album": "King Of The Delta Blues",
+        "spotify_url": "https://open.spotify.com/track/6xvY8RthrKhbkY3lxxH752",
+        "plays": 1
+      },
+      {
+        "name": "Walkin' Blues",
+        "album": "King Of The Delta Blues Singers",
+        "spotify_url": "https://open.spotify.com/track/4RzFnBP0EDGpX9CfUdLTda",
+        "plays": 1
+      },
+      {
+        "name": "Traveling Riverside Blues",
+        "album": "King Of The Delta Blues Singers",
+        "spotify_url": "https://open.spotify.com/track/3pS6HIZimRIBMrQU6vRfpp",
+        "plays": 1
+      },
+      {
+        "name": "They're Red Hot - SA.2627-1",
+        "album": "The Centennial Collection",
+        "spotify_url": "https://open.spotify.com/track/4vrPulRxzgljqsYtgGQrpk",
+        "plays": 1
+      },
+      {
+        "name": "Hell Hound On My Trail",
+        "album": "King Of The Delta Blues Singers",
+        "spotify_url": "https://open.spotify.com/track/5xjG7nV5ncQAHkuifsz4v3",
+        "plays": 1
+      },
+      {
+        "name": "Come On In My Kitchen",
+        "album": "King Of The Delta Blues Singers",
+        "spotify_url": "https://open.spotify.com/track/10W125nMbncRGcXRBoACOx",
+        "plays": 1
+      },
+      {
+        "name": "Sweet Home Chicago",
+        "album": "King Of The Delta Blues",
+        "spotify_url": "https://open.spotify.com/track/2wPHe2ecCdkT0ly0km12g4",
+        "plays": 1
+      },
+      {
+        "name": "Me and the Devil Blues",
+        "album": "King Of The Delta Blues Singers",
+        "spotify_url": "https://open.spotify.com/track/1QCUrXrY1qlxRhL3a9LYCA",
+        "plays": 1
+      },
+      {
+        "name": "Cross Road Blues - Take 2",
+        "album": "The Complete Recordings",
+        "spotify_url": "https://open.spotify.com/track/2t6BfB8I8NReNCHPOVY8qI",
+        "plays": 1
+      }
+    ]
+  },
+  "hank-williams": {
+    "id": "1FClsNYBUoNFtGgzeG74dW",
+    "name": "Hank Williams",
+    "spotify_url": "https://open.spotify.com/artist/1FClsNYBUoNFtGgzeG74dW",
+    "total_plays": 1,
+    "first_seen": "2026-04-10",
+    "last_seen": "2026-04-10",
+    "genres": [
+      "classic country",
+      "honky tonk",
+      "traditional country",
+      "outlaw country",
+      "country"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/5fc12e434b15c08796c7156b2f630df84345b9cd",
+        "height": 1330,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/4d78ff3bd821efd360841c5784d970a38a090c56",
+        "height": 851,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/6f065fd489269e0f8ebd8a7228dca74dc8869865",
+        "height": 266,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/8379d70351dae395bc7fe0cb535a213486e4961d",
+        "height": 85,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Lovesick Blues",
+        "album": "Moanin' The Blues (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/1x4iqHqbgf9oHsQJ6FGnCy",
+        "plays": 1
+      }
+    ]
+  },
+  "charlie-beale": {
+    "id": "5BO1F2wBHUCoX02ZdPP23o",
+    "name": "Charlie Beale",
+    "spotify_url": "https://open.spotify.com/artist/5BO1F2wBHUCoX02ZdPP23o",
+    "total_plays": 1,
+    "first_seen": "2026-04-10",
+    "last_seen": "2026-04-10",
+    "genres": [
+      "electro swing",
+      "swing music"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb7672b59e1c0d8449d5f5427e",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051747672b59e1c0d8449d5f5427e",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1787672b59e1c0d8449d5f5427e",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Stop Breakin' Down Blues",
+        "album": "Breakin' Down Blues",
+        "spotify_url": "https://open.spotify.com/track/4xzB1THFeAaZeec7NhqW4j",
+        "plays": 1
+      }
+    ]
+  },
+  "paul-winter": {
+    "id": "4ZmNj7bRSU3YCtH0oaJSef",
+    "name": "Paul Winter",
+    "spotify_url": "https://open.spotify.com/artist/4ZmNj7bRSU3YCtH0oaJSef",
+    "total_plays": 6,
+    "first_seen": "2026-04-07",
+    "last_seen": "2026-04-08",
+    "genres": [
+      "new age",
+      "bossa nova",
+      "brazilian jazz"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/337057b8b3f3574810cc2e1b7c9169eb10d28f36",
+        "height": 753,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/0cc737f4de5033947f6acdedfd18f2168183a48e",
+        "height": 482,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/192d53dbb4f5061a621339081022db729106819b",
+        "height": 151,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/00cdd943b536df9110ace865f29f4df392ddd0d4",
+        "height": 48,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Whole Earth Chant",
+        "album": "Winter Consort - Icarus",
+        "spotify_url": "https://open.spotify.com/track/3iqx4tspx1kHszlZavYv8E",
+        "plays": 1
+      },
+      {
+        "name": "Juniper Bear",
+        "album": "Winter Consort - Icarus",
+        "spotify_url": "https://open.spotify.com/track/6O8Gzl2hF55dwr2YXcq2N5",
+        "plays": 1
+      },
+      {
+        "name": "Sunwheel",
+        "album": "Winter Consort - Icarus",
+        "spotify_url": "https://open.spotify.com/track/5QssnLt3a4UjcG4OB5GbIT",
+        "plays": 1
+      },
+      {
+        "name": "The Silence of a Candle",
+        "album": "Winter Consort - Icarus",
+        "spotify_url": "https://open.spotify.com/track/3n3nOtAyIbrQcErt2M9WAX",
+        "plays": 1
+      },
+      {
+        "name": "Ode to a Fillmore Dressing Room",
+        "album": "Winter Consort - Icarus",
+        "spotify_url": "https://open.spotify.com/track/5YZV5HJFFfWgwWNW28oPSV",
+        "plays": 1
+      },
+      {
+        "name": "Icarus",
+        "album": "Winter Consort - Icarus",
+        "spotify_url": "https://open.spotify.com/track/6At2I2Dkw4674fN3j9lk2H",
         "plays": 1
       }
     ]

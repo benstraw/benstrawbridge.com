@@ -1,0 +1,666 @@
+{
+  "week": "2026-W15",
+  "title": "Week of Apr 6, 2026",
+  "year": 2026,
+  "week_num": 15,
+  "date_start": "2026-04-06",
+  "date_end": "2026-04-12",
+  "total_plays": 57,
+  "unique_artists": 10,
+  "topArtistName": "Robert Johnson",
+  "topArtistImages": [
+    {
+      "url": "https://i.scdn.co/image/b8acc51743ff21f1d32e3f99922ca8283d3af0ce",
+      "height": 1268,
+      "width": 968
+    },
+    {
+      "url": "https://i.scdn.co/image/e5e3a261affcf0d3e511f3c61c150340135f2bfd",
+      "height": 838,
+      "width": 640
+    },
+    {
+      "url": "https://i.scdn.co/image/e507ddf397233df8b490ce8d7220df85f1a9bb02",
+      "height": 262,
+      "width": 200
+    },
+    {
+      "url": "https://i.scdn.co/image/55770f73b852ea1d0c5189ce36d01ed5a1e0b8fa",
+      "height": 84,
+      "width": 64
+    }
+  ],
+  "top_genres": [
+    {
+      "name": "blues",
+      "plays": 25
+    },
+    {
+      "name": "classic blues",
+      "plays": 25
+    },
+    {
+      "name": "country blues",
+      "plays": 25
+    },
+    {
+      "name": "jam band",
+      "plays": 20
+    },
+    {
+      "name": "psychedelic rock",
+      "plays": 17
+    },
+    {
+      "name": "acid rock",
+      "plays": 17
+    },
+    {
+      "name": "new age",
+      "plays": 6
+    },
+    {
+      "name": "bossa nova",
+      "plays": 6
+    },
+    {
+      "name": "brazilian jazz",
+      "plays": 6
+    },
+    {
+      "name": "uk drill",
+      "plays": 3
+    }
+  ],
+  "top_artists": [
+    {
+      "slug": "robert-johnson",
+      "name": "Robert Johnson",
+      "plays": 25,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/b8acc51743ff21f1d32e3f99922ca8283d3af0ce",
+          "height": 1268,
+          "width": 968
+        },
+        {
+          "url": "https://i.scdn.co/image/e5e3a261affcf0d3e511f3c61c150340135f2bfd",
+          "height": 838,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/e507ddf397233df8b490ce8d7220df85f1a9bb02",
+          "height": 262,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/55770f73b852ea1d0c5189ce36d01ed5a1e0b8fa",
+          "height": 84,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "grateful-dead",
+      "name": "Grateful Dead",
+      "plays": 17,
+      "images": [
+        {
+          "height": 697,
+          "url": "https://i.scdn.co/image/bba340d0c2aa4c9cbcbab0a4c3259d8f8e27f0d7",
+          "width": 1000
+        },
+        {
+          "height": 446,
+          "url": "https://i.scdn.co/image/4c000d838221db17a95ec272d79c06560829ab11",
+          "width": 640
+        },
+        {
+          "height": 139,
+          "url": "https://i.scdn.co/image/055f1232a2588ace9747002f972be62ecbb74e92",
+          "width": 199
+        },
+        {
+          "height": 45,
+          "url": "https://i.scdn.co/image/264413e72f38c521bb90e5c5cc3d5c6b5097efdb",
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "paul-winter",
+      "name": "Paul Winter",
+      "plays": 6,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/337057b8b3f3574810cc2e1b7c9169eb10d28f36",
+          "height": 753,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/0cc737f4de5033947f6acdedfd18f2168183a48e",
+          "height": 482,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/192d53dbb4f5061a621339081022db729106819b",
+          "height": 151,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/00cdd943b536df9110ace865f29f4df392ddd0d4",
+          "height": 48,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "pete-bas",
+      "name": "Pete & Bas",
+      "plays": 3,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebee3f614c84b9a473cbdb8e07",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174ee3f614c84b9a473cbdb8e07",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178ee3f614c84b9a473cbdb8e07",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "hot-tuna",
+      "name": "Hot Tuna",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/2dc42435d2d01d9754166420bf2056d4438a5397",
+          "height": 800,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/c86a807490659b969de683a1845453081c0014ec",
+          "height": 512,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/4038d20a2a9d371f733c2ed6aa070a8bbb0b3f0c",
+          "height": 160,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/fcdb3a9b0a0a3639c06b413710dc56f3c137af71",
+          "height": 51,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "the-band",
+      "name": "The Band",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebf4f262f1f5d28fcdc4c4226f",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174f4f262f1f5d28fcdc4c4226f",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178f4f262f1f5d28fcdc4c4226f",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "little-feat",
+      "name": "Little Feat",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb5fb6a968ac72e41ed40a3f9e",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051745fb6a968ac72e41ed40a3f9e",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1785fb6a968ac72e41ed40a3f9e",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "billy-strings",
+      "name": "Billy Strings",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb532fd0e6740fd3db38933afb",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174532fd0e6740fd3db38933afb",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178532fd0e6740fd3db38933afb",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "hank-williams",
+      "name": "Hank Williams",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/5fc12e434b15c08796c7156b2f630df84345b9cd",
+          "height": 1330,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/4d78ff3bd821efd360841c5784d970a38a090c56",
+          "height": 851,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/6f065fd489269e0f8ebd8a7228dca74dc8869865",
+          "height": 266,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/8379d70351dae395bc7fe0cb535a213486e4961d",
+          "height": 85,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "charlie-beale",
+      "name": "Charlie Beale",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb7672b59e1c0d8449d5f5427e",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051747672b59e1c0d8449d5f5427e",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1787672b59e1c0d8449d5f5427e",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    }
+  ],
+  "top_tracks": [
+    {
+      "name": "99 Year Blues",
+      "artist": "Hot Tuna",
+      "artist_slug": "hot-tuna",
+      "plays": 1
+    },
+    {
+      "name": "Long Black Veil - Remastered 2000",
+      "artist": "The Band",
+      "artist_slug": "the-band",
+      "plays": 1
+    },
+    {
+      "name": "Roll Um Easy",
+      "artist": "Little Feat",
+      "artist_slug": "little-feat",
+      "plays": 1
+    },
+    {
+      "name": "Secrets",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 1
+    },
+    {
+      "name": "Tennessee Jed (Live at L'Olympia, Paris, 5/3/72) - 2001 Remaster",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "Ripple - Live",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "Bird Song - Live",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "On the Road Again - Live",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "Rosalie McFall",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "To Lay Me Down - Live",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "Cassidy - Live",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "Deep Elem Blues - Live",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "Jack-A-Roe - Live",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "Monkey and the Engineer - Live",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "Been All Around This World - Live",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "China Doll - Live",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "Dark Hollow - Live",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "It Must Have Been the Roses - Live",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "Oh Babe It Ain't No Lie - Live",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "The Race Is On - Live",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "Dire Wolf - Live",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "Bosh (Skit)",
+      "artist": "Pete & Bas",
+      "artist_slug": "pete-bas",
+      "plays": 1
+    },
+    {
+      "name": "Slap the Stick",
+      "artist": "Pete & Bas",
+      "artist_slug": "pete-bas",
+      "plays": 1
+    },
+    {
+      "name": "Mugshot Freestyle",
+      "artist": "Pete & Bas",
+      "artist_slug": "pete-bas",
+      "plays": 1
+    },
+    {
+      "name": "Trying to Make It Home",
+      "artist": "Robert Johnson",
+      "artist_slug": "robert-johnson",
+      "plays": 1
+    },
+    {
+      "name": "Precious Lord",
+      "artist": "Robert Johnson",
+      "artist_slug": "robert-johnson",
+      "plays": 1
+    },
+    {
+      "name": "I'm a Steady Rollin' Man",
+      "artist": "Robert Johnson",
+      "artist_slug": "robert-johnson",
+      "plays": 1
+    },
+    {
+      "name": "Honeymoon Blues",
+      "artist": "Robert Johnson",
+      "artist_slug": "robert-johnson",
+      "plays": 1
+    },
+    {
+      "name": "Hold My Body Down",
+      "artist": "Robert Johnson",
+      "artist_slug": "robert-johnson",
+      "plays": 1
+    },
+    {
+      "name": "From Four Until Late",
+      "artist": "Robert Johnson",
+      "artist_slug": "robert-johnson",
+      "plays": 1
+    },
+    {
+      "name": "Drunken Hearted Man - Take 1",
+      "artist": "Robert Johnson",
+      "artist_slug": "robert-johnson",
+      "plays": 1
+    },
+    {
+      "name": "Lovesick Blues",
+      "artist": "Hank Williams",
+      "artist_slug": "hank-williams",
+      "plays": 1
+    },
+    {
+      "name": "Stop Breakin' Down Blues - Take 1",
+      "artist": "Robert Johnson",
+      "artist_slug": "robert-johnson",
+      "plays": 1
+    },
+    {
+      "name": "Little Queen of Spades - Take 1",
+      "artist": "Robert Johnson",
+      "artist_slug": "robert-johnson",
+      "plays": 1
+    },
+    {
+      "name": "He'll Make a Way",
+      "artist": "Robert Johnson",
+      "artist_slug": "robert-johnson",
+      "plays": 1
+    },
+    {
+      "name": "I Believe I'll Dust My Broom",
+      "artist": "Robert Johnson",
+      "artist_slug": "robert-johnson",
+      "plays": 1
+    },
+    {
+      "name": "Phonograph Blues - Take 1",
+      "artist": "Robert Johnson",
+      "artist_slug": "robert-johnson",
+      "plays": 1
+    },
+    {
+      "name": "Malted Milk",
+      "artist": "Robert Johnson",
+      "artist_slug": "robert-johnson",
+      "plays": 1
+    },
+    {
+      "name": "Dead Shrimp Blues",
+      "artist": "Robert Johnson",
+      "artist_slug": "robert-johnson",
+      "plays": 1
+    },
+    {
+      "name": "Cross Road Blues",
+      "artist": "Robert Johnson",
+      "artist_slug": "robert-johnson",
+      "plays": 1
+    },
+    {
+      "name": "Stop Breakin' Down Blues",
+      "artist": "Charlie Beale",
+      "artist_slug": "charlie-beale",
+      "plays": 1
+    },
+    {
+      "name": "Hellhound on My Trail",
+      "artist": "Robert Johnson",
+      "artist_slug": "robert-johnson",
+      "plays": 1
+    },
+    {
+      "name": "Love in Vain - Take 1",
+      "artist": "Robert Johnson",
+      "artist_slug": "robert-johnson",
+      "plays": 1
+    },
+    {
+      "name": "Walkin' Blues",
+      "artist": "Robert Johnson",
+      "artist_slug": "robert-johnson",
+      "plays": 1
+    },
+    {
+      "name": "Traveling Riverside Blues",
+      "artist": "Robert Johnson",
+      "artist_slug": "robert-johnson",
+      "plays": 1
+    },
+    {
+      "name": "They're Red Hot - SA.2627-1",
+      "artist": "Robert Johnson",
+      "artist_slug": "robert-johnson",
+      "plays": 1
+    },
+    {
+      "name": "Hell Hound On My Trail",
+      "artist": "Robert Johnson",
+      "artist_slug": "robert-johnson",
+      "plays": 1
+    },
+    {
+      "name": "Come On In My Kitchen",
+      "artist": "Robert Johnson",
+      "artist_slug": "robert-johnson",
+      "plays": 1
+    },
+    {
+      "name": "Sweet Home Chicago",
+      "artist": "Robert Johnson",
+      "artist_slug": "robert-johnson",
+      "plays": 1
+    },
+    {
+      "name": "Me and the Devil Blues",
+      "artist": "Robert Johnson",
+      "artist_slug": "robert-johnson",
+      "plays": 1
+    },
+    {
+      "name": "Cross Road Blues - Take 2",
+      "artist": "Robert Johnson",
+      "artist_slug": "robert-johnson",
+      "plays": 1
+    },
+    {
+      "name": "Whole Earth Chant",
+      "artist": "Paul Winter",
+      "artist_slug": "paul-winter",
+      "plays": 1
+    },
+    {
+      "name": "Juniper Bear",
+      "artist": "Paul Winter",
+      "artist_slug": "paul-winter",
+      "plays": 1
+    },
+    {
+      "name": "Sunwheel",
+      "artist": "Paul Winter",
+      "artist_slug": "paul-winter",
+      "plays": 1
+    },
+    {
+      "name": "The Silence of a Candle",
+      "artist": "Paul Winter",
+      "artist_slug": "paul-winter",
+      "plays": 1
+    },
+    {
+      "name": "Ode to a Fillmore Dressing Room",
+      "artist": "Paul Winter",
+      "artist_slug": "paul-winter",
+      "plays": 1
+    },
+    {
+      "name": "Icarus",
+      "artist": "Paul Winter",
+      "artist_slug": "paul-winter",
+      "plays": 1
+    }
+  ]
+}
