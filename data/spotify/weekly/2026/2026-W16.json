@@ -1,0 +1,473 @@
+{
+  "week": "2026-W16",
+  "title": "Week of Apr 13, 2026",
+  "year": 2026,
+  "week_num": 16,
+  "date_start": "2026-04-13",
+  "date_end": "2026-04-19",
+  "total_plays": 42,
+  "unique_artists": 7,
+  "topArtistName": "Joshua Ray Walker",
+  "topArtistImages": [
+    {
+      "url": "https://i.scdn.co/image/ab6761610000e5eb458bd0821f53b36929cf2178",
+      "height": 640,
+      "width": 640
+    },
+    {
+      "url": "https://i.scdn.co/image/ab67616100005174458bd0821f53b36929cf2178",
+      "height": 320,
+      "width": 320
+    },
+    {
+      "url": "https://i.scdn.co/image/ab6761610000f178458bd0821f53b36929cf2178",
+      "height": 160,
+      "width": 160
+    }
+  ],
+  "top_genres": [
+    {
+      "name": "americana",
+      "plays": 21
+    },
+    {
+      "name": "alt country",
+      "plays": 20
+    },
+    {
+      "name": "red dirt",
+      "plays": 20
+    },
+    {
+      "name": "outlaw country",
+      "plays": 18
+    },
+    {
+      "name": "jam band",
+      "plays": 18
+    },
+    {
+      "name": "psychedelic rock",
+      "plays": 17
+    },
+    {
+      "name": "acid rock",
+      "plays": 17
+    },
+    {
+      "name": "folk rock",
+      "plays": 1
+    },
+    {
+      "name": "roots rock",
+      "plays": 1
+    },
+    {
+      "name": "southern rock",
+      "plays": 1
+    }
+  ],
+  "top_artists": [
+    {
+      "slug": "joshua-ray-walker",
+      "name": "Joshua Ray Walker",
+      "plays": 18,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb458bd0821f53b36929cf2178",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174458bd0821f53b36929cf2178",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178458bd0821f53b36929cf2178",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "grateful-dead",
+      "name": "Grateful Dead",
+      "plays": 17,
+      "images": [
+        {
+          "height": 697,
+          "url": "https://i.scdn.co/image/bba340d0c2aa4c9cbcbab0a4c3259d8f8e27f0d7",
+          "width": 1000
+        },
+        {
+          "height": 446,
+          "url": "https://i.scdn.co/image/4c000d838221db17a95ec272d79c06560829ab11",
+          "width": 640
+        },
+        {
+          "height": 139,
+          "url": "https://i.scdn.co/image/055f1232a2588ace9747002f972be62ecbb74e92",
+          "width": 199
+        },
+        {
+          "height": 45,
+          "url": "https://i.scdn.co/image/264413e72f38c521bb90e5c5cc3d5c6b5097efdb",
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "mac-miller",
+      "name": "Mac Miller",
+      "plays": 3,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebed3b89aa602145fde71a163a",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174ed3b89aa602145fde71a163a",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178ed3b89aa602145fde71a163a",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "the-band",
+      "name": "The Band",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebf4f262f1f5d28fcdc4c4226f",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174f4f262f1f5d28fcdc4c4226f",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178f4f262f1f5d28fcdc4c4226f",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "billy-strings",
+      "name": "Billy Strings",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb532fd0e6740fd3db38933afb",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174532fd0e6740fd3db38933afb",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178532fd0e6740fd3db38933afb",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "vandoliers",
+      "name": "Vandoliers",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebf4cb15323d678f12f2fa8276",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174f4cb15323d678f12f2fa8276",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178f4cb15323d678f12f2fa8276",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "drayton-farley",
+      "name": "Drayton Farley",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb4db2ec048eafac84c65ff116",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051744db2ec048eafac84c65ff116",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1784db2ec048eafac84c65ff116",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    }
+  ],
+  "top_tracks": [
+    {
+      "name": "I Don't Wanna Be Alone",
+      "artist": "Joshua Ray Walker",
+      "artist_slug": "joshua-ray-walker",
+      "plays": 2
+    },
+    {
+      "name": "Fossil Fuel",
+      "artist": "Joshua Ray Walker",
+      "artist_slug": "joshua-ray-walker",
+      "plays": 2
+    },
+    {
+      "name": "Ophelia - Remastered 2000",
+      "artist": "The Band",
+      "artist_slug": "the-band",
+      "plays": 1
+    },
+    {
+      "name": "Away From The Mire",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 1
+    },
+    {
+      "name": "Brown Eyed Women - Live in Denmark, 1972; 2001 Remaster",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "Ripple - Live",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "Bird Song - Live",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "On the Road Again - Live",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "Rosalie McFall",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "To Lay Me Down - Live",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "Cassidy - Live",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "Deep Elem Blues - Live",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "Jack-A-Roe - Live",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "Monkey and the Engineer - Live",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "Been All Around This World - Live",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "China Doll - Live",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "Dark Hollow - Live",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "It Must Have Been the Roses - Live",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "Oh Babe It Ain't No Lie - Live",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "The Race Is On - Live",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "Dire Wolf - Live",
+      "artist": "Grateful Dead",
+      "artist_slug": "grateful-dead",
+      "plays": 1
+    },
+    {
+      "name": "Goodbye Horses",
+      "artist": "Joshua Ray Walker",
+      "artist_slug": "joshua-ray-walker",
+      "plays": 1
+    },
+    {
+      "name": "Cuz I Love You",
+      "artist": "Joshua Ray Walker",
+      "artist_slug": "joshua-ray-walker",
+      "plays": 1
+    },
+    {
+      "name": "Laguna",
+      "artist": "Joshua Ray Walker",
+      "artist_slug": "joshua-ray-walker",
+      "plays": 1
+    },
+    {
+      "name": "Dallas Lights",
+      "artist": "Joshua Ray Walker",
+      "artist_slug": "joshua-ray-walker",
+      "plays": 1
+    },
+    {
+      "name": "Voices",
+      "artist": "Joshua Ray Walker",
+      "artist_slug": "joshua-ray-walker",
+      "plays": 1
+    },
+    {
+      "name": "True Love",
+      "artist": "Joshua Ray Walker",
+      "artist_slug": "joshua-ray-walker",
+      "plays": 1
+    },
+    {
+      "name": "Outlaw - Live",
+      "artist": "Joshua Ray Walker",
+      "artist_slug": "joshua-ray-walker",
+      "plays": 1
+    },
+    {
+      "name": "Cowboy",
+      "artist": "Joshua Ray Walker",
+      "artist_slug": "joshua-ray-walker",
+      "plays": 1
+    },
+    {
+      "name": "I Wanna Dance With Somebody",
+      "artist": "Joshua Ray Walker",
+      "artist_slug": "joshua-ray-walker",
+      "plays": 1
+    },
+    {
+      "name": "You Can't Party With The Lights On (feat. Joshua Ray Walker & Taylor Hunnicutt)",
+      "artist": "Vandoliers",
+      "artist_slug": "vandoliers",
+      "plays": 1
+    },
+    {
+      "name": "Chasing Sunsets",
+      "artist": "Joshua Ray Walker",
+      "artist_slug": "joshua-ray-walker",
+      "plays": 1
+    },
+    {
+      "name": "Lot Lizard",
+      "artist": "Joshua Ray Walker",
+      "artist_slug": "joshua-ray-walker",
+      "plays": 1
+    },
+    {
+      "name": "Believe",
+      "artist": "Joshua Ray Walker",
+      "artist_slug": "joshua-ray-walker",
+      "plays": 1
+    },
+    {
+      "name": "Three Strikes",
+      "artist": "Joshua Ray Walker",
+      "artist_slug": "joshua-ray-walker",
+      "plays": 1
+    },
+    {
+      "name": "Telephone",
+      "artist": "Joshua Ray Walker",
+      "artist_slug": "joshua-ray-walker",
+      "plays": 1
+    },
+    {
+      "name": "Come Back to Earth",
+      "artist": "Mac Miller",
+      "artist_slug": "mac-miller",
+      "plays": 1
+    },
+    {
+      "name": "Love Lost",
+      "artist": "Mac Miller",
+      "artist_slug": "mac-miller",
+      "plays": 1
+    },
+    {
+      "name": "The Spins",
+      "artist": "Mac Miller",
+      "artist_slug": "mac-miller",
+      "plays": 1
+    },
+    {
+      "name": "Pitchin' fits",
+      "artist": "Drayton Farley",
+      "artist_slug": "drayton-farley",
+      "plays": 1
+    }
+  ]
+}
