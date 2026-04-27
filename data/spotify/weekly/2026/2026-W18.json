@@ -1,0 +1,66 @@
+{
+  "week": "2026-W18",
+  "title": "Week of Apr 27, 2026",
+  "year": 2026,
+  "week_num": 18,
+  "date_start": "2026-04-27",
+  "date_end": "2026-05-03",
+  "total_plays": 1,
+  "unique_artists": 1,
+  "topArtistName": "Black Nile",
+  "topArtistImages": [
+    {
+      "url": "https://i.scdn.co/image/ab6761610000e5eb3f71fa47a792b30ae89c568e",
+      "height": 640,
+      "width": 640
+    },
+    {
+      "url": "https://i.scdn.co/image/ab676161000051743f71fa47a792b30ae89c568e",
+      "height": 320,
+      "width": 320
+    },
+    {
+      "url": "https://i.scdn.co/image/ab6761610000f1783f71fa47a792b30ae89c568e",
+      "height": 160,
+      "width": 160
+    }
+  ],
+  "top_genres": [
+    {
+      "name": "nu jazz",
+      "plays": 1
+    }
+  ],
+  "top_artists": [
+    {
+      "slug": "black-nile",
+      "name": "Black Nile",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb3f71fa47a792b30ae89c568e",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051743f71fa47a792b30ae89c568e",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1783f71fa47a792b30ae89c568e",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    }
+  ],
+  "top_tracks": [
+    {
+      "name": "City of Silent Angels",
+      "artist": "Black Nile",
+      "artist_slug": "black-nile",
+      "plays": 1
+    }
+  ]
+}
