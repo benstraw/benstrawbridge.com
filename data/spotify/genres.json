@@ -23,6 +23,31 @@
     ],
     "last_updated": "2026-04-05"
   },
+  "02NfyD6AlLA12crYzw5YcR": {
+    "name": "Jane's Addiction",
+    "genres": [
+      "funk rock",
+      "grunge"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb6181668c9b31f2505039ba33",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051746181668c9b31f2505039ba33",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1786181668c9b31f2505039ba33",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-04-29"
+  },
   "03r4iKL2g2442PT9n2UKsx": {
     "name": "Beastie Boys",
     "genres": [
@@ -362,6 +387,37 @@
     ],
     "last_updated": "2026-03-18"
   },
+  "0IwfuIL3gUJxjzUqY3wJ3j": {
+    "name": "Billy Cobham",
+    "genres": [
+      "jazz fusion",
+      "jazz funk",
+      "jazz"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/c5382cbfc52a1d24f61f3a0306178ba4c253efc6",
+        "height": 697,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/0d1c9fddbc82c29d3053ed7367fe6ebf1b8f1ddd",
+        "height": 446,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/3e3da9785a19eba48218c3037f216b3c49d04e30",
+        "height": 139,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/a5565c72be53b28bb24bbc3c81dd90585dd7a582",
+        "height": 45,
+        "width": 64
+      }
+    ],
+    "last_updated": "2026-04-29"
+  },
   "0J2Ej2rMQyqaUX3G6MUISw": {
     "name": "Ambrosia",
     "genres": [
@@ -391,6 +447,32 @@
       }
     ],
     "last_updated": "2026-03-28"
+  },
+  "0L8ExT028jH3ddEcZwqJJ5": {
+    "name": "Red Hot Chili Peppers",
+    "genres": [
+      "funk rock",
+      "alternative rock",
+      "rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebc33cc15260b767ddec982ce8",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174c33cc15260b767ddec982ce8",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178c33cc15260b767ddec982ce8",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-04-29"
   },
   "0SPbho0MYZZGtCWNLr4SPV": {
     "name": "Logan Richardson",
@@ -991,6 +1073,28 @@
     ],
     "last_updated": "2026-03-18"
   },
+  "0rfAzeDV3F6jn9Hd0r6CrQ": {
+    "name": "Remy Sher",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebe37a225d047c2f2a31ced6ae",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174e37a225d047c2f2a31ced6ae",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178e37a225d047c2f2a31ced6ae",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-04-27"
+  },
   "0tIODqvzGUoEaK26rK4pvX": {
     "name": "Sun Ra",
     "genres": [
@@ -1024,6 +1128,33 @@
     ],
     "last_updated": "2026-03-18"
   },
+  "14RXohtx6NiBGFTW8IdmAK": {
+    "name": "John Scofield",
+    "genres": [
+      "jazz fusion",
+      "jazz",
+      "jazz funk",
+      "soul jazz"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb94d5048a1f5f3a702e4bee1f",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517494d5048a1f5f3a702e4bee1f",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17894d5048a1f5f3a702e4bee1f",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-04-29"
+  },
   "16PbhgSXhAg8s0hvaAx90y": {
     "name": "Total Blue",
     "genres": [
@@ -1048,6 +1179,30 @@
       }
     ],
     "last_updated": "2026-04-05"
+  },
+  "16WgLtGDVL7lWQBo9esyKO": {
+    "name": "Lost Mary",
+    "genres": [
+      "indie folk"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb526caf0c515b0836ffa54e6e",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174526caf0c515b0836ffa54e6e",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178526caf0c515b0836ffa54e6e",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-04-27"
   },
   "16eRpMNXSQ15wuJoeqguaB": {
     "name": "The Flaming Lips",
@@ -1513,6 +1668,28 @@
     ],
     "last_updated": "2026-03-28"
   },
+  "1ZVACPeq7ccGCoUXwtafUU": {
+    "name": "KNEECAP",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb89e7c69a7d827bcede0f4bad",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517489e7c69a7d827bcede0f4bad",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17889e7c69a7d827bcede0f4bad",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-05-01"
+  },
   "1bauOA5U5M3RwH2euX3Eq6": {
     "name": "Valentin Silvestrov",
     "genres": [],
@@ -1559,6 +1736,30 @@
       }
     ],
     "last_updated": "2026-03-26"
+  },
+  "1fZpYWNWdL5Z3wrDtISFUH": {
+    "name": "Shakey Graves",
+    "genres": [
+      "indie folk"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb7c892311a9deb82539c7af63",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051747c892311a9deb82539c7af63",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1787c892311a9deb82539c7af63",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-05-02"
   },
   "1i7N5kJtmSMiXJ8Y0SsOEn": {
     "name": "Raquel Martins",
@@ -1609,6 +1810,33 @@
     ],
     "last_updated": "2026-04-05"
   },
+  "1lGt9WgdYGpMnmwGkcCm05": {
+    "name": "Stanley Clarke",
+    "genres": [
+      "jazz fusion",
+      "jazz funk",
+      "smooth jazz",
+      "jazz"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb01a7dc80dfb9ec2a8396f8b5",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517401a7dc80dfb9ec2a8396f8b5",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17801a7dc80dfb9ec2a8396f8b5",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-04-29"
+  },
   "1q4618qKswelCGLoanFKQh": {
     "name": "Joey Valence \u0026 Brae",
     "genres": [],
@@ -1630,6 +1858,35 @@
       }
     ],
     "last_updated": "2026-04-05"
+  },
+  "1rXr1ZnvbRoYBaedIl9v4v": {
+    "name": "Drive-By Truckers",
+    "genres": [
+      "alt country",
+      "southern rock",
+      "americana",
+      "roots rock",
+      "outlaw country",
+      "country rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebc81405127e5ca302f0e4d1d8",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174c81405127e5ca302f0e4d1d8",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178c81405127e5ca302f0e4d1d8",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-05-03"
   },
   "1yAwtBaoHLEDWAnWR87hBT": {
     "name": "Modest Mouse",
@@ -2221,6 +2478,33 @@
     ],
     "last_updated": "2026-03-18"
   },
+  "2d0hyoQ5ynDBnkvAbJKORj": {
+    "name": "Rage Against The Machine",
+    "genres": [
+      "rap metal",
+      "rap rock",
+      "alternative metal",
+      "nu metal"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebda4bd2b213cae330e2a4a901",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174da4bd2b213cae330e2a4a901",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178da4bd2b213cae330e2a4a901",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-04-29"
+  },
   "2dBj3prW7gP9bCCOIQeDUf": {
     "name": "Danger Mouse",
     "genres": [],
@@ -2293,6 +2577,34 @@
       }
     ],
     "last_updated": "2026-03-18"
+  },
+  "2drMeidRg4jc07neGOL0Ip": {
+    "name": "R.L. Burnside",
+    "genres": [
+      "blues",
+      "country blues",
+      "modern blues",
+      "blues rock",
+      "classic blues"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb1195e6c65d490b850eb827df",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051741195e6c65d490b850eb827df",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1781195e6c65d490b850eb827df",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-05-01"
   },
   "2eam0iDomRHGBypaDQLwWI": {
     "name": "Bleachers",
@@ -2417,6 +2729,37 @@
       }
     ],
     "last_updated": "2026-03-18"
+  },
+  "2mBoEYescv3YHDG5rH6uKd": {
+    "name": "Stanley Jordan",
+    "genres": [
+      "jazz fusion",
+      "smooth jazz",
+      "jazz"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6772690000c46c8868c82880008dde1d005566",
+        "height": 1000,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6772690000dd228868c82880008dde1d005566",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6772690000bac38868c82880008dde1d005566",
+        "height": 200,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67726900008f748868c82880008dde1d005566",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "last_updated": "2026-04-29"
   },
   "2mqiqsaX4LzFnUP7PmHGAb": {
     "name": "The Dare",
@@ -2565,6 +2908,33 @@
     ],
     "last_updated": "2026-04-05"
   },
+  "2vDV0T8sxx2ENnKXds75e5": {
+    "name": "Booker T. \u0026 the M.G.'s",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/386f66b89b4b1ca0e9b5b2d0ffce9ce3a66a7101",
+        "height": 653,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/99990becabb08ca98877631d0e14fe92326721e3",
+        "height": 418,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/5594e8563ac891f9102d64014eb9f66587f79bc1",
+        "height": 131,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/ef5570fb14a8db0b2df87cc462daef63daf24475",
+        "height": 42,
+        "width": 64
+      }
+    ],
+    "last_updated": "2026-05-02"
+  },
   "2x9SpqnPi8rlE9pjHBwmSC": {
     "name": "Talking Heads",
     "genres": [
@@ -2695,6 +3065,38 @@
       }
     ],
     "last_updated": "2026-03-28"
+  },
+  "33XkS6h90eeK7e6OJHw0mq": {
+    "name": "Yusef Lateef",
+    "genres": [
+      "jazz",
+      "hard bop",
+      "free jazz",
+      "avant-garde"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6772690000c46c9c5fa862a3e91bdf8db5d52f",
+        "height": 1000,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6772690000dd229c5fa862a3e91bdf8db5d52f",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6772690000bac39c5fa862a3e91bdf8db5d52f",
+        "height": 200,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67726900008f749c5fa862a3e91bdf8db5d52f",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "last_updated": "2026-04-29"
   },
   "34EP7KEpOjXcM2TCat1ISk": {
     "name": "Wu-Tang Clan",
@@ -3029,6 +3431,33 @@
     ],
     "last_updated": "2026-03-18"
   },
+  "3G8x1XQX8nCXYouEfMrP07": {
+    "name": "The Greyboy Allstars",
+    "genres": [
+      "jazz funk",
+      "acid jazz",
+      "funk",
+      "jam band"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb288d4d0e6573fba0bb859d9b",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174288d4d0e6573fba0bb859d9b",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178288d4d0e6573fba0bb859d9b",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-04-29"
+  },
   "3GjVVVcFmUgEJEAAsbGkf4": {
     "name": "Trampled by Turtles",
     "genres": [
@@ -3157,6 +3586,28 @@
     ],
     "last_updated": "2026-04-05"
   },
+  "3WGpXCj9YhhfX11TToZcXP": {
+    "name": "Troye Sivan",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb26e8cb3ff6fc7744b312811b",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517426e8cb3ff6fc7744b312811b",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17826e8cb3ff6fc7744b312811b",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-05-02"
+  },
   "3WggbHDpj4rPKbL97zG5MQ": {
     "name": "Tortoise",
     "genres": [
@@ -3208,6 +3659,31 @@
       }
     ],
     "last_updated": "2026-03-18"
+  },
+  "3XzPQsdtlMMHxKERG8a1Bu": {
+    "name": "Tal Wilkenfeld",
+    "genres": [
+      "jazz fusion",
+      "jazz funk"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebf935586c4fae5d0c35537b20",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174f935586c4fae5d0c35537b20",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178f935586c4fae5d0c35537b20",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-04-29"
   },
   "3YFP5QHEKv8RZZsPminjdv": {
     "name": "Baby Huey",
@@ -3606,6 +4082,32 @@
     ],
     "last_updated": "2026-03-28"
   },
+  "3t58jfUhoMLYVO14XaUFLA": {
+    "name": "Pat Metheny",
+    "genres": [
+      "jazz fusion",
+      "jazz",
+      "jazz ballads"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb177d23a0e07f4c07e351d9b7",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174177d23a0e07f4c07e351d9b7",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178177d23a0e07f4c07e351d9b7",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-04-29"
+  },
   "3u9rbdcmA6CxjxOAkjaeFr": {
     "name": "Kokoroko",
     "genres": [],
@@ -3678,6 +4180,60 @@
       }
     ],
     "last_updated": "2026-03-18"
+  },
+  "3vDpQbGnzRbRVirXlfQagB": {
+    "name": "Sturgill Simpson",
+    "genres": [
+      "outlaw country",
+      "alt country",
+      "bluegrass",
+      "americana",
+      "red dirt",
+      "country",
+      "newgrass"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb1791f31121a24318e91cbda3",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051741791f31121a24318e91cbda3",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1781791f31121a24318e91cbda3",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-05-03"
+  },
+  "3vbKDsSS70ZX9D2OcvbZmS": {
+    "name": "Beck",
+    "genres": [
+      "anti-folk"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebca0e2c67ba619791fec07dfa",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174ca0e2c67ba619791fec07dfa",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178ca0e2c67ba619791fec07dfa",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-05-02"
   },
   "3w2g8LE0HrfXMMs3dgnfPt": {
     "name": "Country's Family Reunion",
@@ -4245,6 +4801,30 @@
       }
     ],
     "last_updated": "2026-03-18"
+  },
+  "4NpFxQe2UvRCAjto3JqlSl": {
+    "name": "Greta Van Fleet",
+    "genres": [
+      "rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb301eb2b9d83cf86efa024ccb",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174301eb2b9d83cf86efa024ccb",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178301eb2b9d83cf86efa024ccb",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-05-01"
   },
   "4P0dddbxPil35MNN9G2MEX": {
     "name": "Cypress Hill",
@@ -5255,6 +5835,35 @@
     ],
     "last_updated": "2026-03-29"
   },
+  "5cudslRGWg0GsXaN79Wifs": {
+    "name": "Town Mountain",
+    "genres": [
+      "bluegrass",
+      "newgrass",
+      "americana",
+      "outlaw country",
+      "red dirt",
+      "alt country"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eba342392b1dbe9982dcacd902",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174a342392b1dbe9982dcacd902",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178a342392b1dbe9982dcacd902",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-05-03"
+  },
   "5ecWzOuAxzolo2su9AUvYz": {
     "name": "Blessure",
     "genres": [],
@@ -5421,6 +6030,31 @@
     ],
     "last_updated": "2026-03-18"
   },
+  "5nlQijI9hZ50keRqmLVov1": {
+    "name": "The Deslondes",
+    "genres": [
+      "americana",
+      "alt country"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eba63bc87f09b4a3e2d031d5f3",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174a63bc87f09b4a3e2d031d5f3",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178a63bc87f09b4a3e2d031d5f3",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-05-03"
+  },
   "5nriuBVz6NDh6k8gTU5WgP": {
     "name": "Trio Mocoto",
     "genres": [
@@ -5532,6 +6166,30 @@
     ],
     "last_updated": "2026-03-18"
   },
+  "5sD1ZLf2dGQ9gQ3YJl1eAd": {
+    "name": "Blind Melon",
+    "genres": [
+      "grunge"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebdcc3fe6af94c5c178a36d006",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174dcc3fe6af94c5c178a36d006",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178dcc3fe6af94c5c178a36d006",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-04-29"
+  },
   "5szMuuBbDzULkagWIfI5LG": {
     "name": "Immanuel Wilkins",
     "genres": [
@@ -5613,6 +6271,32 @@
       }
     ],
     "last_updated": "2026-03-18"
+  },
+  "5xUf6j4upBrXZPg6AI4MRK": {
+    "name": "Soundgarden",
+    "genres": [
+      "grunge",
+      "post-grunge",
+      "hard rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebafa254b2a224584485286526",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174afa254b2a224584485286526",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178afa254b2a224584485286526",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-04-29"
   },
   "60df5JBRRPcnSpsIMxxwQm": {
     "name": "Otis Redding",
@@ -6240,6 +6924,30 @@
     ],
     "last_updated": "2026-04-21"
   },
+  "6YWdHD3R863Apw1hkx3BwC": {
+    "name": "Dan Auerbach",
+    "genres": [
+      "blues rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb5c5f8eacedce9594b33ea8d3",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051745c5f8eacedce9594b33ea8d3",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1785c5f8eacedce9594b33ea8d3",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-05-01"
+  },
   "6clbbhnIqpHnqxwtOWcilg": {
     "name": "Little River Band",
     "genres": [
@@ -6264,6 +6972,41 @@
       }
     ],
     "last_updated": "2026-03-28"
+  },
+  "6dAtGAnHCQ1ujMUZ9Ep82k": {
+    "name": "Grant Green",
+    "genres": [
+      "hard bop",
+      "jazz",
+      "jazz funk",
+      "soul jazz",
+      "bebop",
+      "jazz ballads",
+      "cool jazz"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/45a63bb5b7f4a0b9f5c1fcef3a37df3c726a24a2",
+        "height": 1001,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/5d060adf9bfa65d620289feb6e712ecc4fb6ddba",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/90dde636383ad0c7dce8104de6cb075a76546651",
+        "height": 200,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/4a91a7681bc1ca79178f0757dc433faa370a2f22",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "last_updated": "2026-04-29"
   },
   "6eXZu6O7nAUA5z6vLV8NKI": {
     "name": "Little Simz",
@@ -6780,6 +7523,28 @@
     ],
     "last_updated": "2026-03-18"
   },
+  "70kkdajctXSbqSMJbQO424": {
+    "name": "Kacey Musgraves",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb81a4837fda8c9e356bfb6252",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517481a4837fda8c9e356bfb6252",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17881a4837fda8c9e356bfb6252",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-05-01"
+  },
   "71Ur25Abq58vksqJINpGdx": {
     "name": "Miles Davis Quintet",
     "genres": [
@@ -7065,6 +7830,28 @@
     ],
     "last_updated": "2026-04-23"
   },
+  "7EGwUS3c5dXduO4sMyLWC5": {
+    "name": "Houndmouth",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb9d60565c6405a35d5854b70d",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051749d60565c6405a35d5854b70d",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1789d60565c6405a35d5854b70d",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-04-27"
+  },
   "7FIoB5PHdrMZVC3q2HE5MS": {
     "name": "George Harrison",
     "genres": [],
@@ -7332,6 +8119,33 @@
     ],
     "last_updated": "2026-03-18"
   },
+  "7mnBLXK823vNxN3UWB7Gfz": {
+    "name": "The Black Keys",
+    "genres": [
+      "blues rock",
+      "garage rock",
+      "modern blues",
+      "rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb68a2a81ddb9d084ed14bfa8d",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517468a2a81ddb9d084ed14bfa8d",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17868a2a81ddb9d084ed14bfa8d",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-05-01"
+  },
   "7nW46aJfNHxK9Y3M5Dhadk": {
     "name": "Jack Van Cleaf",
     "genres": [],
@@ -7379,6 +8193,53 @@
       }
     ],
     "last_updated": "2026-03-18"
+  },
+  "7owr01EP6gwCYjnfQtPKy8": {
+    "name": "Delvon Lamarr Organ Trio",
+    "genres": [
+      "jazz funk",
+      "funk"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebf31cf2a09eb2cc2b5d41de7a",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174f31cf2a09eb2cc2b5d41de7a",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178f31cf2a09eb2cc2b5d41de7a",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-04-29"
+  },
+  "7s51mLOf66bbhxCjDNrjfa": {
+    "name": "Hank Garrett",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb2f0ec66cfccd5d01ab566897",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051742f0ec66cfccd5d01ab566897",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1782f0ec66cfccd5d01ab566897",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-04-27"
   },
   "7tjbDPvrdvDshcpEMXKRVb": {
     "name": "Gerry Rafferty",

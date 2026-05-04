@@ -3,9 +3,9 @@
     "id": "3WrFJ7ztbogyGnTHbHJFl2",
     "name": "The Beatles",
     "spotify_url": "https://open.spotify.com/artist/3WrFJ7ztbogyGnTHbHJFl2",
-    "total_plays": 12,
+    "total_plays": 13,
     "first_seen": "2026-02-13",
-    "last_seen": "2026-03-29",
+    "last_seen": "2026-05-02",
     "genres": [
       "classic rock",
       "psychedelic rock"
@@ -80,6 +80,12 @@
         "name": "You Never Give Me Your Money - Remastered 2009",
         "album": "Abbey Road (Remastered)",
         "spotify_url": "https://open.spotify.com/track/1jOLTO379yIu9aMnCkpMQl",
+        "plays": 1
+      },
+      {
+        "name": "In My Life - Remastered 2009",
+        "album": "Rubber Soul (Remastered 2009)",
+        "spotify_url": "https://open.spotify.com/track/3KfbEIOC7YIv90FIfNSZpo",
         "plays": 1
       },
       {
@@ -375,9 +381,9 @@
     "id": "0nJUwPwC9Ti4vvuJ0q3MfT",
     "name": "John Prine",
     "spotify_url": "https://open.spotify.com/artist/0nJUwPwC9Ti4vvuJ0q3MfT",
-    "total_plays": 29,
+    "total_plays": 31,
     "first_seen": "2026-02-13",
-    "last_seen": "2026-04-22",
+    "last_seen": "2026-05-03",
     "genres": [
       "americana",
       "folk",
@@ -406,7 +412,7 @@
         "name": "In Spite of Ourselves",
         "album": "In Spite Of Ourselves",
         "spotify_url": "https://open.spotify.com/track/2K2eLVi9HJ84T1dkifkQ9O",
-        "plays": 6
+        "plays": 7
       },
       {
         "name": "I Know One",
@@ -472,6 +478,12 @@
         "name": "Paradise",
         "album": "John Prine",
         "spotify_url": "https://open.spotify.com/track/47QsP5uPZp3he5UrVsK8bs",
+        "plays": 1
+      },
+      {
+        "name": "How Lucky",
+        "album": "Pink Cadillac",
+        "spotify_url": "https://open.spotify.com/track/3CxtTy4XoZunbtHsET1Mxq",
         "plays": 1
       },
       {
@@ -1065,9 +1077,9 @@
     "id": "6v8FB84lnmJs434UJf2Mrm",
     "name": "Neil Young",
     "spotify_url": "https://open.spotify.com/artist/6v8FB84lnmJs434UJf2Mrm",
-    "total_plays": 20,
+    "total_plays": 21,
     "first_seen": "2026-02-13",
-    "last_seen": "2026-03-29",
+    "last_seen": "2026-05-02",
     "genres": [
       "classic rock",
       "folk rock",
@@ -1099,16 +1111,16 @@
         "plays": 4
       },
       {
+        "name": "Out on the Weekend",
+        "album": "Harvest (50th Anniversary Edition)",
+        "spotify_url": "https://open.spotify.com/track/15Z3JEayO4OEcbJQsasWHh",
+        "plays": 4
+      },
+      {
         "name": "Words (Between the Lines of Age)",
         "album": "Harvest (50th Anniversary Edition)",
         "spotify_url": "https://open.spotify.com/track/65L89liJNDrskT7XTDEKbA",
         "plays": 4
-      },
-      {
-        "name": "Out on the Weekend",
-        "album": "Harvest (50th Anniversary Edition)",
-        "spotify_url": "https://open.spotify.com/track/15Z3JEayO4OEcbJQsasWHh",
-        "plays": 3
       },
       {
         "name": "You and Me",
@@ -1290,9 +1302,9 @@
     "id": "4TMHGUX5WI7OOm53PqSDAT",
     "name": "Grateful Dead",
     "spotify_url": "https://open.spotify.com/artist/4TMHGUX5WI7OOm53PqSDAT",
-    "total_plays": 98,
+    "total_plays": 100,
     "first_seen": "2026-02-13",
-    "last_seen": "2026-04-22",
+    "last_seen": "2026-05-02",
     "genres": [
       "jam band",
       "psychedelic rock",
@@ -1430,6 +1442,12 @@
         "plays": 3
       },
       {
+        "name": "Fire on the Mountain - 2013 Remaster",
+        "album": "Shakedown Street",
+        "spotify_url": "https://open.spotify.com/track/4DpBfWl3q8e0gGB76lAaox",
+        "plays": 2
+      },
+      {
         "name": "Brown Eyed Women - Live in Denmark, 1972; 2001 Remaster",
         "album": "Europe '72 (Live; 2001 Remaster)",
         "spotify_url": "https://open.spotify.com/track/4RUQVUxaRMwDnsUwW80xz4",
@@ -1460,6 +1478,12 @@
         "plays": 2
       },
       {
+        "name": "Brokedown Palace - 2013 Remaster",
+        "album": "American Beauty (2013 Remaster)",
+        "spotify_url": "https://open.spotify.com/track/362CS15hE1upuTKoWApzLn",
+        "plays": 2
+      },
+      {
         "name": "Ramble on Rose (Live at the Strand Lyceum, London, England, 5/26/72) - 2001 Remaster",
         "album": "Europe '72 (Live; 2001 Remaster)",
         "spotify_url": "https://open.spotify.com/track/24ei2BLeVEpGWLZ2qfLXJO",
@@ -1481,12 +1505,6 @@
         "name": "Althea - 2013 Remaster",
         "album": "Go to Heaven",
         "spotify_url": "https://open.spotify.com/track/7M7AwtGvWdMYudqx5Iuh1m",
-        "plays": 1
-      },
-      {
-        "name": "Fire on the Mountain - 2013 Remaster",
-        "album": "Shakedown Street",
-        "spotify_url": "https://open.spotify.com/track/4DpBfWl3q8e0gGB76lAaox",
         "plays": 1
       },
       {
@@ -1523,12 +1541,6 @@
         "name": "Me & Bobby McGee - Live at Fillmore East, New York, NY, April 27, 1971",
         "album": "Grateful Dead (Skull & Roses) [Live]",
         "spotify_url": "https://open.spotify.com/track/71QyXKztmcTCtwgltqnWS1",
-        "plays": 1
-      },
-      {
-        "name": "Brokedown Palace - 2013 Remaster",
-        "album": "American Beauty (2013 Remaster)",
-        "spotify_url": "https://open.spotify.com/track/362CS15hE1upuTKoWApzLn",
         "plays": 1
       },
       {
@@ -1937,9 +1949,9 @@
     "id": "5l8VQNuIg0turYE1VtM9zV",
     "name": "Leonard Cohen",
     "spotify_url": "https://open.spotify.com/artist/5l8VQNuIg0turYE1VtM9zV",
-    "total_plays": 7,
+    "total_plays": 8,
     "first_seen": "2026-02-16",
-    "last_seen": "2026-02-17",
+    "last_seen": "2026-05-02",
     "genres": [
       "singer-songwriter"
     ],
@@ -1968,15 +1980,15 @@
         "plays": 2
       },
       {
-        "name": "Coming Back to You",
-        "album": "Various Positions",
-        "spotify_url": "https://open.spotify.com/track/14jpNd0RHKKnIbepofxTJO",
-        "plays": 1
-      },
-      {
         "name": "Avalanche",
         "album": "Songs of Love and Hate",
         "spotify_url": "https://open.spotify.com/track/3t4qyMVnN9o0ZJhsUaa465",
+        "plays": 2
+      },
+      {
+        "name": "Coming Back to You",
+        "album": "Various Positions",
+        "spotify_url": "https://open.spotify.com/track/14jpNd0RHKKnIbepofxTJO",
         "plays": 1
       },
       {
@@ -2003,9 +2015,9 @@
     "id": "70cRZdQywnSFp9pnc2WTCE",
     "name": "Simon & Garfunkel",
     "spotify_url": "https://open.spotify.com/artist/70cRZdQywnSFp9pnc2WTCE",
-    "total_plays": 6,
+    "total_plays": 7,
     "first_seen": "2026-02-16",
-    "last_seen": "2026-02-26",
+    "last_seen": "2026-05-02",
     "genres": [
       "folk rock",
       "folk"
@@ -2055,6 +2067,12 @@
         "name": "Bleecker Street",
         "album": "Wednesday Morning, 3 A.M.",
         "spotify_url": "https://open.spotify.com/track/4c0ecVwn17owdwpIBL07wC",
+        "plays": 1
+      },
+      {
+        "name": "Blues Run the Game - Studio Outtake - 1965",
+        "album": "Old Friends",
+        "spotify_url": "https://open.spotify.com/track/6tMRhn8hTFJm2A87tmjJPr",
         "plays": 1
       },
       {
@@ -4634,9 +4652,9 @@
     "id": "0ZIwOAzDuGPspzK7yiTc4S",
     "name": "Little Feat",
     "spotify_url": "https://open.spotify.com/artist/0ZIwOAzDuGPspzK7yiTc4S",
-    "total_plays": 26,
+    "total_plays": 27,
     "first_seen": "2026-03-01",
-    "last_seen": "2026-04-22",
+    "last_seen": "2026-05-02",
     "genres": [
       "southern rock",
       "jam band",
@@ -4661,6 +4679,12 @@
     ],
     "top_tracks": [
       {
+        "name": "Roll Um Easy",
+        "album": "Dixie Chicken",
+        "spotify_url": "https://open.spotify.com/track/4CYS95ya2r73ndgQPMo7PW",
+        "plays": 4
+      },
+      {
         "name": "Willin' - Live at Lisner Auditorium, Washington, DC, 8/8/1977",
         "album": "Waiting for Columbus (Live Version)",
         "spotify_url": "https://open.spotify.com/track/5MlLvbg0uEY9gZiecr9cEF",
@@ -4670,12 +4694,6 @@
         "name": "Fat Man In The Bathtub - Live at Lisner Auditorium, Washington, DC, 8/10/1977",
         "album": "Waiting for Columbus (Live Version)",
         "spotify_url": "https://open.spotify.com/track/0YUPNALSMxSQe3KvTeSezs",
-        "plays": 3
-      },
-      {
-        "name": "Roll Um Easy",
-        "album": "Dixie Chicken",
-        "spotify_url": "https://open.spotify.com/track/4CYS95ya2r73ndgQPMo7PW",
         "plays": 3
       },
       {
@@ -6525,9 +6543,9 @@
     "id": "7dGJo4pcD2V6oG8kP0tJRR",
     "name": "Eminem",
     "spotify_url": "https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR",
-    "total_plays": 66,
+    "total_plays": 68,
     "first_seen": "2026-02-26",
-    "last_seen": "2026-04-05",
+    "last_seen": "2026-05-02",
     "genres": [
       "rap",
       "hip hop"
@@ -6764,6 +6782,18 @@
         "name": "Guilty Conscience 2",
         "album": "The Death of Slim Shady (Coup De Grâce): Expanded Mourner’s Edition",
         "spotify_url": "https://open.spotify.com/track/1rDFHwb60YvuSfaCSp0Q4p",
+        "plays": 1
+      },
+      {
+        "name": "Temporary",
+        "album": "The Death of Slim Shady (Coup De Grâce)",
+        "spotify_url": "https://open.spotify.com/track/6uMGHQvhZq8YyT4kdnG1L3",
+        "plays": 1
+      },
+      {
+        "name": "Somebody Save Me",
+        "album": "The Death of Slim Shady (Coup De Grâce)",
+        "spotify_url": "https://open.spotify.com/track/4HMUrFl8y6rQCzEbaGEkcj",
         "plays": 1
       },
       {
@@ -7358,9 +7388,9 @@
     "id": "03r4iKL2g2442PT9n2UKsx",
     "name": "Beastie Boys",
     "spotify_url": "https://open.spotify.com/artist/03r4iKL2g2442PT9n2UKsx",
-    "total_plays": 11,
+    "total_plays": 14,
     "first_seen": "2026-02-26",
-    "last_seen": "2026-03-11",
+    "last_seen": "2026-05-03",
     "genres": [
       "rap rock",
       "old school hip hop",
@@ -7394,6 +7424,12 @@
         "name": "Sabotage",
         "album": "Ill Communication",
         "spotify_url": "https://open.spotify.com/track/0Puj4YlTm6xNzDDADXHMI9",
+        "plays": 3
+      },
+      {
+        "name": "Rhymin & Stealin",
+        "album": "Licensed To Ill",
+        "spotify_url": "https://open.spotify.com/track/6yKldTTcSa2BdpKPEtdYp3",
         "plays": 2
       },
       {
@@ -7439,15 +7475,15 @@
         "plays": 1
       },
       {
-        "name": "Rhymin & Stealin",
-        "album": "Licensed To Ill",
-        "spotify_url": "https://open.spotify.com/track/6yKldTTcSa2BdpKPEtdYp3",
-        "plays": 1
-      },
-      {
         "name": "Get It Together",
         "album": "Ill Communication",
         "spotify_url": "https://open.spotify.com/track/6aaPceG6TnixvAZQ1wBMdp",
+        "plays": 1
+      },
+      {
+        "name": "I Don't Know - Remastered 2009",
+        "album": "Hello Nasty (Deluxe Edition/Remastered)",
+        "spotify_url": "https://open.spotify.com/track/10FLYqpqDN4uo6eWtD6WEB",
         "plays": 1
       },
       {
@@ -7472,12 +7508,6 @@
         "name": "I Want Some",
         "album": "Aglio E Olio",
         "spotify_url": "https://open.spotify.com/track/05QL9iNUg8o3vRSs9VWlhO",
-        "plays": 2
-      },
-      {
-        "name": "I Don't Know - Remastered 2009",
-        "album": "Hello Nasty (Deluxe Edition/Remastered)",
-        "spotify_url": "https://open.spotify.com/track/10FLYqpqDN4uo6eWtD6WEB",
         "plays": 2
       },
       {
@@ -10747,9 +10777,9 @@
     "id": "0k17h0D3J5VfsdmQ1iZtE9",
     "name": "Pink Floyd",
     "spotify_url": "https://open.spotify.com/artist/0k17h0D3J5VfsdmQ1iZtE9",
-    "total_plays": 17,
+    "total_plays": 18,
     "first_seen": "2026-03-04",
-    "last_seen": "2026-03-29",
+    "last_seen": "2026-05-02",
     "genres": [
       "progressive rock",
       "psychedelic rock",
@@ -10779,7 +10809,7 @@
         "name": "Fearless",
         "album": "Meddle",
         "spotify_url": "https://open.spotify.com/track/7AalBKBoLDR4UmRYRJpdbj",
-        "plays": 3
+        "plays": 4
       },
       {
         "name": "Matilda Mother",
@@ -12042,9 +12072,9 @@
     "id": "7nW46aJfNHxK9Y3M5Dhadk",
     "name": "Jack Van Cleaf",
     "spotify_url": "https://open.spotify.com/artist/7nW46aJfNHxK9Y3M5Dhadk",
-    "total_plays": 3,
+    "total_plays": 6,
     "first_seen": "2026-03-04",
-    "last_seen": "2026-03-04",
+    "last_seen": "2026-05-02",
     "genres": [],
     "images": [
       {
@@ -12071,9 +12101,21 @@
         "plays": 2
       },
       {
+        "name": "Siri, Cancel My Plans",
+        "album": "Siri, Cancel My Plans",
+        "spotify_url": "https://open.spotify.com/track/3nHAw1ypqCG5wS51ipil5i",
+        "plays": 2
+      },
+      {
         "name": "Green",
         "album": "JVC",
         "spotify_url": "https://open.spotify.com/track/1y0irYFXbGGPmAUjK8bFNA",
+        "plays": 1
+      },
+      {
+        "name": "Easter Sunday",
+        "album": "JVC (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/6yWrzwHSzwT5CACH6SWCBu",
         "plays": 1
       }
     ]
@@ -12583,9 +12625,9 @@
     "id": "6P7H3ai06vU1sGvdpBwDmE",
     "name": "Steely Dan",
     "spotify_url": "https://open.spotify.com/artist/6P7H3ai06vU1sGvdpBwDmE",
-    "total_plays": 40,
+    "total_plays": 41,
     "first_seen": "2026-03-03",
-    "last_seen": "2026-03-28",
+    "last_seen": "2026-05-02",
     "genres": [
       "yacht rock",
       "classic rock"
@@ -12617,7 +12659,7 @@
         "name": "Dirty Work",
         "album": "Can't Buy A Thrill",
         "spotify_url": "https://open.spotify.com/track/3IvTwPCCjfZczCN2k4qPiH",
-        "plays": 2
+        "plays": 3
       },
       {
         "name": "Monkey In Your Soul",
@@ -15005,9 +15047,9 @@
     "id": "06nsZ3qSOYZ2hPVIMcr1IN",
     "name": "J.J. Cale",
     "spotify_url": "https://open.spotify.com/artist/06nsZ3qSOYZ2hPVIMcr1IN",
-    "total_plays": 3,
+    "total_plays": 4,
     "first_seen": "2026-03-03",
-    "last_seen": "2026-03-28",
+    "last_seen": "2026-05-02",
     "genres": [
       "blues",
       "blues rock",
@@ -15050,6 +15092,12 @@
         "plays": 1
       },
       {
+        "name": "Don't Go To Strangers",
+        "album": "Naturally",
+        "spotify_url": "https://open.spotify.com/track/5qZKuuKGngifO5psg19XdO",
+        "plays": 1
+      },
+      {
         "name": "Crazy Mama",
         "album": "Naturally",
         "spotify_url": "https://open.spotify.com/track/7FgjfoVQ6Wn1Nm53N5Upn8",
@@ -15083,12 +15131,6 @@
         "name": "Call The Doctor",
         "album": "Naturally",
         "spotify_url": "https://open.spotify.com/track/55ROr3cl3yi4YRBgfpDy1d",
-        "plays": 1
-      },
-      {
-        "name": "Don't Go To Strangers",
-        "album": "Naturally",
-        "spotify_url": "https://open.spotify.com/track/5qZKuuKGngifO5psg19XdO",
         "plays": 1
       },
       {
@@ -15331,9 +15373,9 @@
     "id": "74ASZWbe4lXaubB36ztrGX",
     "name": "Bob Dylan",
     "spotify_url": "https://open.spotify.com/artist/74ASZWbe4lXaubB36ztrGX",
-    "total_plays": 3,
+    "total_plays": 4,
     "first_seen": "2026-03-03",
-    "last_seen": "2026-03-28",
+    "last_seen": "2026-05-02",
     "genres": [
       "folk rock",
       "folk",
@@ -15367,7 +15409,7 @@
         "name": "The Man in Me",
         "album": "New Morning",
         "spotify_url": "https://open.spotify.com/track/7xRemq7GLu0Tbqe9OckG87",
-        "plays": 2
+        "plays": 3
       },
       {
         "name": "Tangled up in Blue",
@@ -15627,9 +15669,9 @@
     "id": "4DBi4EYXgiqbkxvWUXUzMi",
     "name": "Old Crow Medicine Show",
     "spotify_url": "https://open.spotify.com/artist/4DBi4EYXgiqbkxvWUXUzMi",
-    "total_plays": 10,
+    "total_plays": 11,
     "first_seen": "2026-03-03",
-    "last_seen": "2026-04-22",
+    "last_seen": "2026-05-03",
     "genres": [
       "bluegrass",
       "newgrass",
@@ -15690,6 +15732,12 @@
         "name": "CC Rider",
         "album": "O.C.M.S.",
         "spotify_url": "https://open.spotify.com/track/2z3LIu4amaZVYpFKABOm1c",
+        "plays": 1
+      },
+      {
+        "name": "Methamphetamine",
+        "album": "Tennessee Pusher",
+        "spotify_url": "https://open.spotify.com/track/2AR2DLsnWt1U1b444wRbNn",
         "plays": 1
       },
       {
@@ -18583,9 +18631,9 @@
     "id": "5c3GLXai8YOMid29ZEuR9y",
     "name": "Nick Drake",
     "spotify_url": "https://open.spotify.com/artist/5c3GLXai8YOMid29ZEuR9y",
-    "total_plays": 1,
+    "total_plays": 2,
     "first_seen": "2026-03-29",
-    "last_seen": "2026-03-29",
+    "last_seen": "2026-05-02",
     "genres": [
       "folk",
       "singer-songwriter"
@@ -18620,15 +18668,15 @@
         "plays": 1
       },
       {
-        "name": "Time Has Told Me",
-        "album": "Five Leaves Left",
-        "spotify_url": "https://open.spotify.com/track/20FLGZPgMHXlU0VpQ0HpxN",
-        "plays": 2
-      },
-      {
         "name": "Northern Sky",
         "album": "Bryter Layter",
         "spotify_url": "https://open.spotify.com/track/7pdmBld4yW3WIUkrxHyb5r",
+        "plays": 1
+      },
+      {
+        "name": "Time Has Told Me",
+        "album": "Five Leaves Left",
+        "spotify_url": "https://open.spotify.com/track/20FLGZPgMHXlU0VpQ0HpxN",
         "plays": 2
       },
       {
@@ -19165,9 +19213,9 @@
     "id": "4wQ3PyMz3WwJGI5uEqHUVR",
     "name": "Allman Brothers Band",
     "spotify_url": "https://open.spotify.com/artist/4wQ3PyMz3WwJGI5uEqHUVR",
-    "total_plays": 8,
+    "total_plays": 9,
     "first_seen": "2026-03-28",
-    "last_seen": "2026-04-21",
+    "last_seen": "2026-05-02",
     "genres": [
       "southern rock",
       "jam band",
@@ -19211,15 +19259,15 @@
         "plays": 2
       },
       {
-        "name": "Jessica",
-        "album": "Brothers And Sisters (Deluxe Edition)",
-        "spotify_url": "https://open.spotify.com/track/7AN22wQYwiCG49qYosygFq",
-        "plays": 1
-      },
-      {
         "name": "Melissa",
         "album": "Eat A Peach",
         "spotify_url": "https://open.spotify.com/track/30St98Bok3jJmXdkkHVPQe",
+        "plays": 2
+      },
+      {
+        "name": "Jessica",
+        "album": "Brothers And Sisters (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/7AN22wQYwiCG49qYosygFq",
         "plays": 1
       },
       {
@@ -20490,9 +20538,9 @@
     "id": "1ZN1c1qWEGZNX1pGeKCPpf",
     "name": "Billy Strings",
     "spotify_url": "https://open.spotify.com/artist/1ZN1c1qWEGZNX1pGeKCPpf",
-    "total_plays": 28,
+    "total_plays": 29,
     "first_seen": "2026-03-28",
-    "last_seen": "2026-04-22",
+    "last_seen": "2026-05-03",
     "genres": [
       "bluegrass",
       "newgrass",
@@ -20623,6 +20671,12 @@
         "name": "Hollow Heart",
         "album": "Home",
         "spotify_url": "https://open.spotify.com/track/1G6hd0NSi7BoC9ko1gVGkg",
+        "plays": 1
+      },
+      {
+        "name": "Know It All",
+        "album": "Renewal",
+        "spotify_url": "https://open.spotify.com/track/687SHqnUp3yGfGiuwgE2WG",
         "plays": 1
       }
     ]
@@ -20814,9 +20868,9 @@
     "id": "0cLrgpG3pW4MX4nD8h6qCc",
     "name": "El Michels Affair",
     "spotify_url": "https://open.spotify.com/artist/0cLrgpG3pW4MX4nD8h6qCc",
-    "total_plays": 2,
+    "total_plays": 3,
     "first_seen": "2026-04-05",
-    "last_seen": "2026-04-05",
+    "last_seen": "2026-05-02",
     "genres": [],
     "images": [
       {
@@ -20846,6 +20900,12 @@
         "name": "Indifference",
         "album": "Indifference",
         "spotify_url": "https://open.spotify.com/track/21SGNokBaoQ93tRWjtL13u",
+        "plays": 1
+      },
+      {
+        "name": "C.R.E.A.M.",
+        "album": "Enter The 37th Chamber",
+        "spotify_url": "https://open.spotify.com/track/4aLcM3tBpkXo2cj4fVmjHG",
         "plays": 1
       },
       {
@@ -23960,9 +24020,9 @@
     "id": "1ReHC2jB2DGoPbMYhzuFuO",
     "name": "Yonder Mountain String Band",
     "spotify_url": "https://open.spotify.com/artist/1ReHC2jB2DGoPbMYhzuFuO",
-    "total_plays": 6,
+    "total_plays": 7,
     "first_seen": "2026-04-21",
-    "last_seen": "2026-04-21",
+    "last_seen": "2026-05-02",
     "genres": [
       "newgrass",
       "bluegrass",
@@ -23991,7 +24051,7 @@
         "name": "Midwest Gospel Radio",
         "album": "Yonder Mountain String Band",
         "spotify_url": "https://open.spotify.com/track/6zLxJBNUnM5goofI3HFgpX",
-        "plays": 2
+        "plays": 3
       },
       {
         "name": "Groovin' Away",
@@ -24103,9 +24163,9 @@
     "id": "6FxuPrpa8phaP3Xn73emhT",
     "name": "The Wood Brothers",
     "spotify_url": "https://open.spotify.com/artist/6FxuPrpa8phaP3Xn73emhT",
-    "total_plays": 1,
+    "total_plays": 3,
     "first_seen": "2026-04-21",
-    "last_seen": "2026-04-21",
+    "last_seen": "2026-05-02",
     "genres": [
       "bluegrass",
       "newgrass",
@@ -24134,6 +24194,18 @@
         "name": "Glad",
         "album": "Ways Not To Lose",
         "spotify_url": "https://open.spotify.com/track/3C6Sfq0m48JvCFWvrhpGM1",
+        "plays": 1
+      },
+      {
+        "name": "Postcards From Hell",
+        "album": "Loaded",
+        "spotify_url": "https://open.spotify.com/track/72i7dwVrHdfDnr3qmINh5U",
+        "plays": 1
+      },
+      {
+        "name": "Luckiest Man",
+        "album": "Ways Not To Lose",
+        "spotify_url": "https://open.spotify.com/track/26uHwSHlaK5mskSMhbRod3",
         "plays": 1
       }
     ]
@@ -24187,9 +24259,9 @@
     "id": "6YB0tbDGk01Q0P6wcHPjpC",
     "name": "Bob Weir",
     "spotify_url": "https://open.spotify.com/artist/6YB0tbDGk01Q0P6wcHPjpC",
-    "total_plays": 2,
+    "total_plays": 3,
     "first_seen": "2026-04-21",
-    "last_seen": "2026-04-21",
+    "last_seen": "2026-05-02",
     "genres": [
       "jam band"
     ],
@@ -24212,15 +24284,15 @@
     ],
     "top_tracks": [
       {
-        "name": "Big Iron",
-        "album": "Kingfish",
-        "spotify_url": "https://open.spotify.com/track/0VF7ml1kgfNeWJsVvgSScf",
-        "plays": 1
-      },
-      {
         "name": "Only a River",
         "album": "Blue Mountain",
         "spotify_url": "https://open.spotify.com/track/5R7bM6Citk7igMY90wmmtG",
+        "plays": 2
+      },
+      {
+        "name": "Big Iron",
+        "album": "Kingfish",
+        "spotify_url": "https://open.spotify.com/track/0VF7ml1kgfNeWJsVvgSScf",
         "plays": 1
       }
     ]
@@ -24313,9 +24385,9 @@
     "id": "3QDaXfnxfQqqJQK5lSdjLN",
     "name": "Jerry Garcia",
     "spotify_url": "https://open.spotify.com/artist/3QDaXfnxfQqqJQK5lSdjLN",
-    "total_plays": 2,
+    "total_plays": 3,
     "first_seen": "2026-04-21",
-    "last_seen": "2026-04-21",
+    "last_seen": "2026-05-02",
     "genres": [
       "bluegrass",
       "jam band"
@@ -24342,7 +24414,7 @@
         "name": "Positively 4th Street - Live",
         "album": "Live At Keystone, Volume 1",
         "spotify_url": "https://open.spotify.com/track/1zVD3G19tIM7cMCSmRpAfX",
-        "plays": 1
+        "plays": 2
       },
       {
         "name": "Sitting Here In Limbo",
@@ -24362,9 +24434,9 @@
     "id": "43O3c6wewpzPKwVaGEEtBM",
     "name": "My Morning Jacket",
     "spotify_url": "https://open.spotify.com/artist/43O3c6wewpzPKwVaGEEtBM",
-    "total_plays": 1,
+    "total_plays": 3,
     "first_seen": "2026-04-21",
-    "last_seen": "2026-04-21",
+    "last_seen": "2026-05-02",
     "genres": [
       "jam band",
       "alt country"
@@ -24391,6 +24463,12 @@
         "name": "Run It",
         "album": "The Waterfall II",
         "spotify_url": "https://open.spotify.com/track/0YZBkk4ZTgTMZUKgjTVXMd",
+        "plays": 2
+      },
+      {
+        "name": "Get The Point",
+        "album": "The Waterfall",
+        "spotify_url": "https://open.spotify.com/track/0OqvfYnArSgEJZkkGXt4av",
         "plays": 1
       }
     ]
@@ -24672,9 +24750,9 @@
     "id": "3GjVVVcFmUgEJEAAsbGkf4",
     "name": "Trampled by Turtles",
     "spotify_url": "https://open.spotify.com/artist/3GjVVVcFmUgEJEAAsbGkf4",
-    "total_plays": 1,
+    "total_plays": 5,
     "first_seen": "2026-04-21",
-    "last_seen": "2026-04-21",
+    "last_seen": "2026-05-03",
     "genres": [
       "bluegrass",
       "newgrass",
@@ -24701,9 +24779,2115 @@
     ],
     "top_tracks": [
       {
+        "name": "Where Is My Mind?",
+        "album": "Where Is My Mind?",
+        "spotify_url": "https://open.spotify.com/track/2dJrn376fJPUCj1f4txnRQ",
+        "plays": 2
+      },
+      {
         "name": "At Your Window",
         "album": "Songs from a Ghost Town",
         "spotify_url": "https://open.spotify.com/track/2S1p6Q1OEHL9ITiuDSBEAU",
+        "plays": 1
+      },
+      {
+        "name": "Whiskey",
+        "album": "Songs from a Ghost Town",
+        "spotify_url": "https://open.spotify.com/track/5WsxLkPL1QRKRfCed6qTTn",
+        "plays": 1
+      },
+      {
+        "name": "Wait so Long",
+        "album": "Palomino",
+        "spotify_url": "https://open.spotify.com/track/1I7JVzjG70FM9NrgSY5von",
+        "plays": 1
+      }
+    ]
+  },
+  "shakey-graves": {
+    "id": "1fZpYWNWdL5Z3wrDtISFUH",
+    "name": "Shakey Graves",
+    "spotify_url": "https://open.spotify.com/artist/1fZpYWNWdL5Z3wrDtISFUH",
+    "total_plays": 3,
+    "first_seen": "2026-05-02",
+    "last_seen": "2026-05-03",
+    "genres": [
+      "indie folk"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb7c892311a9deb82539c7af63",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051747c892311a9deb82539c7af63",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1787c892311a9deb82539c7af63",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Dearly Departed (feat. Esmé Patterson)",
+        "album": "And The War Came",
+        "spotify_url": "https://open.spotify.com/track/0QeoO5Y3EtKstiq5a18tUW",
+        "plays": 1
+      },
+      {
+        "name": "Tomorrow",
+        "album": "Tomorrow",
+        "spotify_url": "https://open.spotify.com/track/7xrgjsuZwFtv25ELEMKkpl",
+        "plays": 1
+      },
+      {
+        "name": "On My Own",
+        "album": "On My Own",
+        "spotify_url": "https://open.spotify.com/track/5OFGjQaMRex7vfrHPruQZj",
+        "plays": 1
+      }
+    ]
+  },
+  "drive-by-truckers": {
+    "id": "1rXr1ZnvbRoYBaedIl9v4v",
+    "name": "Drive-By Truckers",
+    "spotify_url": "https://open.spotify.com/artist/1rXr1ZnvbRoYBaedIl9v4v",
+    "total_plays": 1,
+    "first_seen": "2026-05-03",
+    "last_seen": "2026-05-03",
+    "genres": [
+      "alt country",
+      "southern rock",
+      "americana",
+      "roots rock",
+      "outlaw country",
+      "country rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebc81405127e5ca302f0e4d1d8",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174c81405127e5ca302f0e4d1d8",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178c81405127e5ca302f0e4d1d8",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Outfit",
+        "album": "Decoration Day",
+        "spotify_url": "https://open.spotify.com/track/2nes7xBxT8C2ol7lthypyF",
+        "plays": 1
+      }
+    ]
+  },
+  "the-deslondes": {
+    "id": "5nlQijI9hZ50keRqmLVov1",
+    "name": "The Deslondes",
+    "spotify_url": "https://open.spotify.com/artist/5nlQijI9hZ50keRqmLVov1",
+    "total_plays": 1,
+    "first_seen": "2026-05-03",
+    "last_seen": "2026-05-03",
+    "genres": [
+      "americana",
+      "alt country"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eba63bc87f09b4a3e2d031d5f3",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174a63bc87f09b4a3e2d031d5f3",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178a63bc87f09b4a3e2d031d5f3",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Muddy Water",
+        "album": "Hurry Home",
+        "spotify_url": "https://open.spotify.com/track/2zzvfYGtAa5syYdeET5RXp",
+        "plays": 1
+      }
+    ]
+  },
+  "town-mountain": {
+    "id": "5cudslRGWg0GsXaN79Wifs",
+    "name": "Town Mountain",
+    "spotify_url": "https://open.spotify.com/artist/5cudslRGWg0GsXaN79Wifs",
+    "total_plays": 1,
+    "first_seen": "2026-05-03",
+    "last_seen": "2026-05-03",
+    "genres": [
+      "bluegrass",
+      "newgrass",
+      "americana",
+      "outlaw country",
+      "red dirt",
+      "alt country"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eba342392b1dbe9982dcacd902",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174a342392b1dbe9982dcacd902",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178a342392b1dbe9982dcacd902",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "I'm On Fire",
+        "album": "Heroes & Heretics",
+        "spotify_url": "https://open.spotify.com/track/7MmWhuAjaisgimANoL6E1Z",
+        "plays": 1
+      },
+      {
+        "name": "I'm On Fire",
+        "album": "Heroes & Heretics",
+        "spotify_url": "https://open.spotify.com/track/3xSdEH8yjB0hiCcj9CG0xR",
+        "plays": 1
+      }
+    ]
+  },
+  "sturgill-simpson": {
+    "id": "3vDpQbGnzRbRVirXlfQagB",
+    "name": "Sturgill Simpson",
+    "spotify_url": "https://open.spotify.com/artist/3vDpQbGnzRbRVirXlfQagB",
+    "total_plays": 1,
+    "first_seen": "2026-05-03",
+    "last_seen": "2026-05-03",
+    "genres": [
+      "outlaw country",
+      "alt country",
+      "bluegrass",
+      "americana",
+      "red dirt",
+      "country",
+      "newgrass"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb1791f31121a24318e91cbda3",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051741791f31121a24318e91cbda3",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1781791f31121a24318e91cbda3",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "In Bloom",
+        "album": "A Sailor's Guide to Earth",
+        "spotify_url": "https://open.spotify.com/track/5StrN0F4XI5e0BHP32THhl",
+        "plays": 1
+      }
+    ]
+  },
+  "booker-t-the-mgs": {
+    "id": "2vDV0T8sxx2ENnKXds75e5",
+    "name": "Booker T. & the M.G.'s",
+    "spotify_url": "https://open.spotify.com/artist/2vDV0T8sxx2ENnKXds75e5",
+    "total_plays": 1,
+    "first_seen": "2026-05-02",
+    "last_seen": "2026-05-02",
+    "genres": [
+      "blues",
+      "classic soul",
+      "instrumental funk",
+      "instrumental soul",
+      "memphis soul",
+      "soul",
+      "southern soul",
+      "traditional blues"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/386f66b89b4b1ca0e9b5b2d0ffce9ce3a66a7101",
+        "height": 653,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/99990becabb08ca98877631d0e14fe92326721e3",
+        "height": 418,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/5594e8563ac891f9102d64014eb9f66587f79bc1",
+        "height": 131,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/ef5570fb14a8db0b2df87cc462daef63daf24475",
+        "height": 42,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Sunday Sermon",
+        "album": "Time Is Tight",
+        "spotify_url": "https://open.spotify.com/track/1VQafOMVQSAngQwX8qe0FS",
+        "plays": 1
+      },
+      {
+        "name": "Mrs. Robinson - Instrumental",
+        "album": "The Complete Stax / Volt Soul Singles, Vol. 2: 1968-1971",
+        "spotify_url": "https://open.spotify.com/track/7i9ztRboWYXO22tKeVjQVY",
+        "plays": 2
+      },
+      {
+        "name": "Jelly Bread",
+        "album": "Soul Dressing",
+        "spotify_url": "https://open.spotify.com/track/1k509q8W7oE5VRKK8XD4CC",
+        "plays": 2
+      },
+      {
+        "name": "Soul Limbo",
+        "album": "Soul Limbo",
+        "spotify_url": "https://open.spotify.com/track/06yzME6dtXmBFO4DB5rVaT",
+        "plays": 2
+      },
+      {
+        "name": "Soul Dressing",
+        "album": "Soul Dressing",
+        "spotify_url": "https://open.spotify.com/track/3Q031ckN7rwljKZhEQvvcR",
+        "plays": 2
+      },
+      {
+        "name": "Time Is Tight",
+        "album": "The Complete Stax / Volt Soul Singles, Vol. 2: 1968-1971",
+        "spotify_url": "https://open.spotify.com/track/3XOVanRi3prWDEZQiZTlYx",
+        "plays": 1
+      },
+      {
+        "name": "Hang 'Em High",
+        "album": "The Complete Stax / Volt Soul Singles, Vol. 2: 1968-1971",
+        "spotify_url": "https://open.spotify.com/track/0JMkKpjow7ouqs42aS2EZ1",
+        "plays": 1
+      },
+      {
+        "name": "Slum Baby",
+        "album": "The Complete Stax / Volt Soul Singles, Vol. 2: 1968-1971",
+        "spotify_url": "https://open.spotify.com/track/4Lr9Wx7KwuTUW0ZT80QNEI",
+        "plays": 1
+      },
+      {
+        "name": "Soul Limbo",
+        "album": "The Complete Stax / Volt Soul Singles, Vol. 2: 1968-1971",
+        "spotify_url": "https://open.spotify.com/track/4el7adJljJDqMzTzkxpQZi",
+        "plays": 1
+      },
+      {
+        "name": "Mo' Onions",
+        "album": "Green Onions",
+        "spotify_url": "https://open.spotify.com/track/2hiyBTmktBYzvLixq5V2v4",
+        "plays": 1
+      },
+      {
+        "name": "Green Onions",
+        "album": "Green Onions",
+        "spotify_url": "https://open.spotify.com/track/4fQMGlCawbTkH9yPPZ49kP",
+        "plays": 1
+      }
+    ]
+  },
+  "blind-melon": {
+    "id": "5sD1ZLf2dGQ9gQ3YJl1eAd",
+    "name": "Blind Melon",
+    "spotify_url": "https://open.spotify.com/artist/5sD1ZLf2dGQ9gQ3YJl1eAd",
+    "total_plays": 2,
+    "first_seen": "2026-04-29",
+    "last_seen": "2026-05-02",
+    "genres": [
+      "grunge"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebdcc3fe6af94c5c178a36d006",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174dcc3fe6af94c5c178a36d006",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178dcc3fe6af94c5c178a36d006",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Change",
+        "album": "Blind Melon",
+        "spotify_url": "https://open.spotify.com/track/44RW9FEY76mLQCRQUjT0Zt",
+        "plays": 1
+      },
+      {
+        "name": "The Pusher",
+        "album": "Nico",
+        "spotify_url": "https://open.spotify.com/track/0QXxJofIuWHLQafnTzFAwV",
+        "plays": 1
+      },
+      {
+        "name": "No Rain",
+        "album": "Blind Melon",
+        "spotify_url": "https://open.spotify.com/track/6txWz9UapYHVxEd7dDIHXT",
+        "plays": 2
+      }
+    ]
+  },
+  "beck": {
+    "id": "3vbKDsSS70ZX9D2OcvbZmS",
+    "name": "Beck",
+    "spotify_url": "https://open.spotify.com/artist/3vbKDsSS70ZX9D2OcvbZmS",
+    "total_plays": 1,
+    "first_seen": "2026-05-02",
+    "last_seen": "2026-05-02",
+    "genres": [
+      "anti-folk"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebca0e2c67ba619791fec07dfa",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174ca0e2c67ba619791fec07dfa",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178ca0e2c67ba619791fec07dfa",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Ride Lonesome",
+        "album": "Ride Lonesome",
+        "spotify_url": "https://open.spotify.com/track/4ZNjYG7CW4ogsOtIB36h1j",
+        "plays": 1
+      },
+      {
+        "name": "E-Pro",
+        "album": "Guero",
+        "spotify_url": "https://open.spotify.com/track/01MBhRpvFkbeRwAp7gcF2W",
+        "plays": 2
+      },
+      {
+        "name": "Gamma Ray",
+        "album": "Modern Guilt",
+        "spotify_url": "https://open.spotify.com/track/2iWfZFAF8BCi0CY4NyuP8D",
+        "plays": 2
+      },
+      {
+        "name": "Teenage Wastebasket",
+        "album": "One Foot in the Grave (Deluxe Reissue)",
+        "spotify_url": "https://open.spotify.com/track/0RYK2o8lUssUbsX3or8RF2",
+        "plays": 2
+      },
+      {
+        "name": "Night Running",
+        "album": "Social Cues",
+        "spotify_url": "https://open.spotify.com/track/0wSmZykDgah7GfaUNZUZCb",
+        "plays": 2
+      },
+      {
+        "name": "Where It's At",
+        "album": "Odelay",
+        "spotify_url": "https://open.spotify.com/track/0myfUjrUP8kMrk48nOXAY0",
+        "plays": 1
+      },
+      {
+        "name": "Burnt Orange Peel",
+        "album": "One Foot in the Grave (Deluxe Reissue)",
+        "spotify_url": "https://open.spotify.com/track/4L8ATxZFlm5QeCtWRV2Iwp",
+        "plays": 1
+      },
+      {
+        "name": "Mattress",
+        "album": "One Foot in the Grave (Deluxe Reissue)",
+        "spotify_url": "https://open.spotify.com/track/76Q8atHWLyFMHLUDrkNtdd",
+        "plays": 1
+      },
+      {
+        "name": "Asshole",
+        "album": "One Foot in the Grave (Deluxe Reissue)",
+        "spotify_url": "https://open.spotify.com/track/1H4qTLNNSsxEVbbMS7cBOD",
+        "plays": 1
+      },
+      {
+        "name": "Cyanide Breath Mint",
+        "album": "One Foot in the Grave (Deluxe Reissue)",
+        "spotify_url": "https://open.spotify.com/track/3aKHh5JAoqc3uI3XvOrQk9",
+        "plays": 1
+      },
+      {
+        "name": "Thunder Peel",
+        "album": "Stereopathetic Soulmanure",
+        "spotify_url": "https://open.spotify.com/track/4RjpWqqjIFnBtezcC6SE5c",
+        "plays": 1
+      },
+      {
+        "name": "Mutherfucker",
+        "album": "Mellow Gold",
+        "spotify_url": "https://open.spotify.com/track/5IOXHlLaf6rJThZytwFO30",
+        "plays": 1
+      },
+      {
+        "name": "Sleeping Bag",
+        "album": "One Foot in the Grave (Deluxe Reissue)",
+        "spotify_url": "https://open.spotify.com/track/5PL2Dx2efgMokfzUitJtnn",
+        "plays": 1
+      }
+    ]
+  },
+  "houndmouth": {
+    "id": "7EGwUS3c5dXduO4sMyLWC5",
+    "name": "Houndmouth",
+    "spotify_url": "https://open.spotify.com/artist/7EGwUS3c5dXduO4sMyLWC5",
+    "total_plays": 2,
+    "first_seen": "2026-04-27",
+    "last_seen": "2026-05-02",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb9d60565c6405a35d5854b70d",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051749d60565c6405a35d5854b70d",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1789d60565c6405a35d5854b70d",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Tiger Blood",
+        "album": "Tiger Blood",
+        "spotify_url": "https://open.spotify.com/track/33GW7UkXxsIDwb0tWL99q5",
+        "plays": 2
+      }
+    ]
+  },
+  "kacey-musgraves": {
+    "id": "70kkdajctXSbqSMJbQO424",
+    "name": "Kacey Musgraves",
+    "spotify_url": "https://open.spotify.com/artist/70kkdajctXSbqSMJbQO424",
+    "total_plays": 16,
+    "first_seen": "2026-05-01",
+    "last_seen": "2026-05-02",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb81a4837fda8c9e356bfb6252",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517481a4837fda8c9e356bfb6252",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17881a4837fda8c9e356bfb6252",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Keep It To Yourself",
+        "album": "Same Trailer Different Park",
+        "spotify_url": "https://open.spotify.com/track/2fG23IIy7rYN8eMNbAHcS2",
+        "plays": 1
+      },
+      {
+        "name": "Superbloom (feat. Leon Bridges)",
+        "album": "Deeper Well: Deeper into the Well",
+        "spotify_url": "https://open.spotify.com/track/7FSHsMrNTP7umpgVHuR7IS",
+        "plays": 1
+      },
+      {
+        "name": "Follow Your Arrow",
+        "album": "Same Trailer Different Park",
+        "spotify_url": "https://open.spotify.com/track/4CLPNURPcKztF9RRdcWLGP",
+        "plays": 1
+      },
+      {
+        "name": "Silver Lining",
+        "album": "Same Trailer Different Park",
+        "spotify_url": "https://open.spotify.com/track/7Cmd1xEuyrUYtiLbbeBfgJ",
+        "plays": 1
+      },
+      {
+        "name": "High Horse",
+        "album": "Golden Hour",
+        "spotify_url": "https://open.spotify.com/track/2U2Z1IXnmJIvlknWizFykZ",
+        "plays": 1
+      },
+      {
+        "name": "Late To The Party",
+        "album": "Pageant Material",
+        "spotify_url": "https://open.spotify.com/track/0E5ZrgbRKXwGvNhwzRaDGL",
+        "plays": 1
+      },
+      {
+        "name": "Biscuits",
+        "album": "Pageant Material",
+        "spotify_url": "https://open.spotify.com/track/4vHVfwVi2CEc4r7P1Pr9iu",
+        "plays": 1
+      },
+      {
+        "name": "Horses and Divorces (feat. Miranda Lambert)",
+        "album": "Middle of Nowhere",
+        "spotify_url": "https://open.spotify.com/track/44tr6kkaMRgd2UVG44wqv7",
+        "plays": 1
+      },
+      {
+        "name": "Everybody Wants To Be A Cowboy (feat. Billy Strings)",
+        "album": "Middle of Nowhere",
+        "spotify_url": "https://open.spotify.com/track/6ULjjAbwB2BoTZthQKv1Q2",
+        "plays": 1
+      },
+      {
+        "name": "Loneliest Girl",
+        "album": "Middle of Nowhere",
+        "spotify_url": "https://open.spotify.com/track/2GOAQ9e3SL6W9AlwoudUGB",
+        "plays": 1
+      },
+      {
+        "name": "Coyote (feat. Gregory Alan Isakov)",
+        "album": "Middle of Nowhere",
+        "spotify_url": "https://open.spotify.com/track/795nt0TKDtjIe0o0f1eMx5",
+        "plays": 1
+      },
+      {
+        "name": "Abilene",
+        "album": "Middle of Nowhere",
+        "spotify_url": "https://open.spotify.com/track/1jqDLQJVbfYh525gPEZkvC",
+        "plays": 1
+      },
+      {
+        "name": "I Believe In Ghosts",
+        "album": "Middle of Nowhere",
+        "spotify_url": "https://open.spotify.com/track/7grbib2M3CyUJUf4dcm7uQ",
+        "plays": 1
+      },
+      {
+        "name": "Back On The Wagon",
+        "album": "Middle of Nowhere",
+        "spotify_url": "https://open.spotify.com/track/02xaiXgg0a7tcAuDShJ7AQ",
+        "plays": 1
+      },
+      {
+        "name": "Dry Spell",
+        "album": "Middle of Nowhere",
+        "spotify_url": "https://open.spotify.com/track/5rS4oyksANQJJeUgTNld5b",
+        "plays": 1
+      },
+      {
+        "name": "Middle of Nowhere",
+        "album": "Middle of Nowhere",
+        "spotify_url": "https://open.spotify.com/track/3kABshsEtLKsJpi8Oh0Wr4",
+        "plays": 1
+      }
+    ]
+  },
+  "troye-sivan": {
+    "id": "3WGpXCj9YhhfX11TToZcXP",
+    "name": "Troye Sivan",
+    "spotify_url": "https://open.spotify.com/artist/3WGpXCj9YhhfX11TToZcXP",
+    "total_plays": 1,
+    "first_seen": "2026-05-02",
+    "last_seen": "2026-05-02",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb26e8cb3ff6fc7744b312811b",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517426e8cb3ff6fc7744b312811b",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17826e8cb3ff6fc7744b312811b",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Easy (with Kacey Musgraves feat. Mark Ronson)",
+        "album": "Easy (with Kacey Musgraves feat. Mark Ronson)",
+        "spotify_url": "https://open.spotify.com/track/4XWaUb7mKRcJR5RPp4IIDr",
+        "plays": 1
+      }
+    ]
+  },
+  "kneecap": {
+    "id": "1ZVACPeq7ccGCoUXwtafUU",
+    "name": "KNEECAP",
+    "spotify_url": "https://open.spotify.com/artist/1ZVACPeq7ccGCoUXwtafUU",
+    "total_plays": 15,
+    "first_seen": "2026-05-01",
+    "last_seen": "2026-05-02",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb89e7c69a7d827bcede0f4bad",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517489e7c69a7d827bcede0f4bad",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17889e7c69a7d827bcede0f4bad",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Fine Art",
+        "album": "Fine Art",
+        "spotify_url": "https://open.spotify.com/track/3RFpr9aR7pBAFJ1XQnuThq",
+        "plays": 1
+      },
+      {
+        "name": "Thart Agus Thart",
+        "album": "Thart Agus Thart",
+        "spotify_url": "https://open.spotify.com/track/3IFjCG1QB5a6GsSNqIAR2o",
+        "plays": 1
+      },
+      {
+        "name": "Cearta",
+        "album": "3cag",
+        "spotify_url": "https://open.spotify.com/track/53XLfXbVPTY7lO36pOBvIu",
+        "plays": 1
+      },
+      {
+        "name": "ITS BEEN AGES",
+        "album": "ITS BEEN AGES",
+        "spotify_url": "https://open.spotify.com/track/37xaqo8s0B4fUShkNJ7ISz",
+        "plays": 1
+      },
+      {
+        "name": "Irish Goodbye (feat. Kae Tempest)",
+        "album": "Irish Goodbye",
+        "spotify_url": "https://open.spotify.com/track/6Qyvf0qxn2TDOxHLdsfhUw",
+        "plays": 1
+      },
+      {
+        "name": "No Comment",
+        "album": "No Comment",
+        "spotify_url": "https://open.spotify.com/track/3VkA16jPKWOs7BIU5AWjyb",
+        "plays": 1
+      },
+      {
+        "name": "Sick In The Head",
+        "album": "Fine Art",
+        "spotify_url": "https://open.spotify.com/track/7C3O1iMUgxj59WQxJjvU61",
+        "plays": 1
+      },
+      {
+        "name": "THE RECAP",
+        "album": "THE RECAP",
+        "spotify_url": "https://open.spotify.com/track/2MqtHEaoMmfVMe3gjg7rQz",
+        "plays": 1
+      },
+      {
+        "name": "Guilty Conscience",
+        "album": "Guilty Conscience",
+        "spotify_url": "https://open.spotify.com/track/559wXxr2rb04rn7t3M3HPx",
+        "plays": 1
+      },
+      {
+        "name": "Smugglers & Scholars",
+        "album": "Smugglers & Scholars",
+        "spotify_url": "https://open.spotify.com/track/0cQjawSUdvCmCjJDeqPkt1",
+        "plays": 1
+      },
+      {
+        "name": "Liars Tale",
+        "album": "Liars Tale",
+        "spotify_url": "https://open.spotify.com/track/0YJizAvRp2i7MCs99rJWW0",
+        "plays": 1
+      },
+      {
+        "name": "FENIAN",
+        "album": "FENIAN",
+        "spotify_url": "https://open.spotify.com/track/6vN9o849XOpOKbygIid6ck",
+        "plays": 1
+      },
+      {
+        "name": "Better Way To Live",
+        "album": "Fine Art",
+        "spotify_url": "https://open.spotify.com/track/2nlivHG7sBn9C22SBhzuQp",
+        "plays": 1
+      },
+      {
+        "name": "Get Your Brits Out",
+        "album": "Get Your Brits Out",
+        "spotify_url": "https://open.spotify.com/track/0uowUdDOAcdicQTNWR6zWa",
+        "plays": 1
+      },
+      {
+        "name": "H.O.O.D",
+        "album": "H.O.O.D",
+        "spotify_url": "https://open.spotify.com/track/1r6oq0Rzg47EvcfOL3rD3d",
+        "plays": 1
+      }
+    ]
+  },
+  "dan-auerbach": {
+    "id": "6YWdHD3R863Apw1hkx3BwC",
+    "name": "Dan Auerbach",
+    "spotify_url": "https://open.spotify.com/artist/6YWdHD3R863Apw1hkx3BwC",
+    "total_plays": 1,
+    "first_seen": "2026-05-01",
+    "last_seen": "2026-05-01",
+    "genres": [
+      "blues rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb5c5f8eacedce9594b33ea8d3",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051745c5f8eacedce9594b33ea8d3",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1785c5f8eacedce9594b33ea8d3",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Heartbroken, In Disrepair",
+        "album": "Keep It Hid",
+        "spotify_url": "https://open.spotify.com/track/38qu2X35K2g1HWfaksYQ4K",
+        "plays": 1
+      }
+    ]
+  },
+  "greta-van-fleet": {
+    "id": "4NpFxQe2UvRCAjto3JqlSl",
+    "name": "Greta Van Fleet",
+    "spotify_url": "https://open.spotify.com/artist/4NpFxQe2UvRCAjto3JqlSl",
+    "total_plays": 1,
+    "first_seen": "2026-05-01",
+    "last_seen": "2026-05-01",
+    "genres": [
+      "rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb301eb2b9d83cf86efa024ccb",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174301eb2b9d83cf86efa024ccb",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178301eb2b9d83cf86efa024ccb",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Highway Tune",
+        "album": "From The Fires",
+        "spotify_url": "https://open.spotify.com/track/7aOor99o8NNLZYElOXlBG1",
+        "plays": 1
+      }
+    ]
+  },
+  "rl-burnside": {
+    "id": "2drMeidRg4jc07neGOL0Ip",
+    "name": "R.L. Burnside",
+    "spotify_url": "https://open.spotify.com/artist/2drMeidRg4jc07neGOL0Ip",
+    "total_plays": 1,
+    "first_seen": "2026-05-01",
+    "last_seen": "2026-05-01",
+    "genres": [
+      "blues",
+      "country blues",
+      "modern blues",
+      "blues rock",
+      "classic blues"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb1195e6c65d490b850eb827df",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051741195e6c65d490b850eb827df",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1781195e6c65d490b850eb827df",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Someday Baby",
+        "album": "A Bothered Mind",
+        "spotify_url": "https://open.spotify.com/track/5ZBUC1YafitJgLt8dgZYTW",
+        "plays": 1
+      }
+    ]
+  },
+  "the-black-keys": {
+    "id": "7mnBLXK823vNxN3UWB7Gfz",
+    "name": "The Black Keys",
+    "spotify_url": "https://open.spotify.com/artist/7mnBLXK823vNxN3UWB7Gfz",
+    "total_plays": 9,
+    "first_seen": "2026-05-01",
+    "last_seen": "2026-05-01",
+    "genres": [
+      "blues rock",
+      "garage rock",
+      "modern blues",
+      "rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb68a2a81ddb9d084ed14bfa8d",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517468a2a81ddb9d084ed14bfa8d",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17868a2a81ddb9d084ed14bfa8d",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Man On A Mission",
+        "album": "No Rain, No Flowers",
+        "spotify_url": "https://open.spotify.com/track/7Ef0kJ9gKetW9HUd2AbrH2",
+        "plays": 1
+      },
+      {
+        "name": "Nobody But You Baby",
+        "album": "Peaches!",
+        "spotify_url": "https://open.spotify.com/track/7mcQvEUvNQ4bj6kUpAFis2",
+        "plays": 1
+      },
+      {
+        "name": "Fireman Ring the Bell",
+        "album": "Peaches!",
+        "spotify_url": "https://open.spotify.com/track/2Q0EXbmutwnEaoouy2jOqn",
+        "plays": 1
+      },
+      {
+        "name": "She Does It Right",
+        "album": "Peaches!",
+        "spotify_url": "https://open.spotify.com/track/1pO3dqvwGvCQzRQV67xfZd",
+        "plays": 1
+      },
+      {
+        "name": "Tell Me You Love Me",
+        "album": "Peaches!",
+        "spotify_url": "https://open.spotify.com/track/1tLPT4qOa7ZXXVGx0j0Hy1",
+        "plays": 1
+      },
+      {
+        "name": "You Got to Lose",
+        "album": "Peaches!",
+        "spotify_url": "https://open.spotify.com/track/3kGEzVNvgUCaHS1QiAHxXs",
+        "plays": 1
+      },
+      {
+        "name": "Tomorrow Night",
+        "album": "Peaches!",
+        "spotify_url": "https://open.spotify.com/track/3z7scrm9w3OiSiGNZmWa8N",
+        "plays": 1
+      },
+      {
+        "name": "It's a Dream",
+        "album": "Peaches!",
+        "spotify_url": "https://open.spotify.com/track/1tly95UmZiqBbCHMj8SJHn",
+        "plays": 1
+      },
+      {
+        "name": "Who's Been Foolin' You",
+        "album": "Peaches!",
+        "spotify_url": "https://open.spotify.com/track/3t79dwrN0PbzcNoghZtaxi",
+        "plays": 1
+      },
+      {
+        "name": "Howlin' for You",
+        "album": "Brothers",
+        "spotify_url": "https://open.spotify.com/track/0grFc6klR3hxoHLcgCYsF4",
+        "plays": 2
+      },
+      {
+        "name": "Little Black Submarines",
+        "album": "El Camino",
+        "spotify_url": "https://open.spotify.com/track/1PXsUXSM3LF2XNSkmIldPb",
+        "plays": 2
+      },
+      {
+        "name": "Lonely Boy",
+        "album": "El Camino",
+        "spotify_url": "https://open.spotify.com/track/5G1sTBGbZT5o4PNRc75RKI",
+        "plays": 1
+      }
+    ]
+  },
+  "stanley-clarke": {
+    "id": "1lGt9WgdYGpMnmwGkcCm05",
+    "name": "Stanley Clarke",
+    "spotify_url": "https://open.spotify.com/artist/1lGt9WgdYGpMnmwGkcCm05",
+    "total_plays": 9,
+    "first_seen": "2026-04-29",
+    "last_seen": "2026-04-30",
+    "genres": [
+      "jazz fusion",
+      "jazz funk",
+      "smooth jazz",
+      "jazz"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb01a7dc80dfb9ec2a8396f8b5",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517401a7dc80dfb9ec2a8396f8b5",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17801a7dc80dfb9ec2a8396f8b5",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Silly Putty",
+        "album": "Journey To Love",
+        "spotify_url": "https://open.spotify.com/track/7eeh7pqroUD2k5vv9lRjga",
+        "plays": 1
+      },
+      {
+        "name": "Lopsy Lu",
+        "album": "Stanley Clarke",
+        "spotify_url": "https://open.spotify.com/track/6zjsPG8hqLrM6HEJ2RWY8R",
+        "plays": 1
+      },
+      {
+        "name": "Why Wait",
+        "album": "The Griffith Park Collection",
+        "spotify_url": "https://open.spotify.com/track/45dBSsf2uz0vFb5aaCPvwf",
+        "plays": 1
+      },
+      {
+        "name": "Life Is Just a Game",
+        "album": "School Days",
+        "spotify_url": "https://open.spotify.com/track/6rumW2nKue2Bc2xTdZ7dcd",
+        "plays": 1
+      },
+      {
+        "name": "Hot Fun",
+        "album": "School Days",
+        "spotify_url": "https://open.spotify.com/track/0GEQ0qGS3weIUJe0mCFr1Z",
+        "plays": 1
+      },
+      {
+        "name": "Desert Song",
+        "album": "School Days",
+        "spotify_url": "https://open.spotify.com/track/3geUtyPCNNzJTS930kbOhG",
+        "plays": 1
+      },
+      {
+        "name": "The Dancer",
+        "album": "School Days",
+        "spotify_url": "https://open.spotify.com/track/3u6kiNWAApcrPSvq4YgT0u",
+        "plays": 1
+      },
+      {
+        "name": "Quiet Afternoon",
+        "album": "School Days",
+        "spotify_url": "https://open.spotify.com/track/2uATA5DggPypav0bkP1Iaf",
+        "plays": 1
+      },
+      {
+        "name": "School Days",
+        "album": "School Days",
+        "spotify_url": "https://open.spotify.com/track/0fuLT4IyhmLbbrKPqJqE80",
+        "plays": 1
+      }
+    ]
+  },
+  "delvon-lamarr-organ-trio": {
+    "id": "7owr01EP6gwCYjnfQtPKy8",
+    "name": "Delvon Lamarr Organ Trio",
+    "spotify_url": "https://open.spotify.com/artist/7owr01EP6gwCYjnfQtPKy8",
+    "total_plays": 1,
+    "first_seen": "2026-04-29",
+    "last_seen": "2026-04-29",
+    "genres": [
+      "jazz funk",
+      "funk"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebf31cf2a09eb2cc2b5d41de7a",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174f31cf2a09eb2cc2b5d41de7a",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178f31cf2a09eb2cc2b5d41de7a",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Jimmy's Groove",
+        "album": "Jimmy's Groove",
+        "spotify_url": "https://open.spotify.com/track/2sSi5vdL5eEpg3I53oa9Xx",
+        "plays": 1
+      }
+    ]
+  },
+  "john-scofield": {
+    "id": "14RXohtx6NiBGFTW8IdmAK",
+    "name": "John Scofield",
+    "spotify_url": "https://open.spotify.com/artist/14RXohtx6NiBGFTW8IdmAK",
+    "total_plays": 1,
+    "first_seen": "2026-04-29",
+    "last_seen": "2026-04-29",
+    "genres": [
+      "jazz fusion",
+      "jazz",
+      "jazz funk",
+      "soul jazz"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb94d5048a1f5f3a702e4bee1f",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517494d5048a1f5f3a702e4bee1f",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17894d5048a1f5f3a702e4bee1f",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Chank",
+        "album": "A Go Go",
+        "spotify_url": "https://open.spotify.com/track/0xCGbO3PTLLivhIkt47d0q",
+        "plays": 1
+      },
+      {
+        "name": "The Red One",
+        "album": "I Can See Your House From Here",
+        "spotify_url": "https://open.spotify.com/track/1P4XzKG2bldGbhg6EO1N23",
+        "plays": 2
+      },
+      {
+        "name": "Deadzy",
+        "album": "A Go Go",
+        "spotify_url": "https://open.spotify.com/track/4JdVA9FfwTgaWXfWF2U4nU",
+        "plays": 1
+      },
+      {
+        "name": "Kubrick",
+        "album": "A Go Go",
+        "spotify_url": "https://open.spotify.com/track/7knqth0PUBaJaOxnIeEOYO",
+        "plays": 1
+      },
+      {
+        "name": "Green Tea",
+        "album": "A Go Go",
+        "spotify_url": "https://open.spotify.com/track/1Qo5nLKvPYqiTbXrM7YJjt",
+        "plays": 1
+      },
+      {
+        "name": "Chicken Dog",
+        "album": "A Go Go",
+        "spotify_url": "https://open.spotify.com/track/4D8Fknwzpj9WzKS5C5AYbJ",
+        "plays": 1
+      },
+      {
+        "name": "Jeep On 35",
+        "album": "A Go Go",
+        "spotify_url": "https://open.spotify.com/track/4TtS1V6I12MzJ1doK61e5K",
+        "plays": 1
+      },
+      {
+        "name": "Boozer",
+        "album": "A Go Go",
+        "spotify_url": "https://open.spotify.com/track/4cQuFh7Ggw0UAyrDTbO4nx",
+        "plays": 1
+      }
+    ]
+  },
+  "pat-metheny": {
+    "id": "3t58jfUhoMLYVO14XaUFLA",
+    "name": "Pat Metheny",
+    "spotify_url": "https://open.spotify.com/artist/3t58jfUhoMLYVO14XaUFLA",
+    "total_plays": 1,
+    "first_seen": "2026-04-29",
+    "last_seen": "2026-04-29",
+    "genres": [
+      "jazz fusion",
+      "jazz",
+      "jazz ballads"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb177d23a0e07f4c07e351d9b7",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174177d23a0e07f4c07e351d9b7",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178177d23a0e07f4c07e351d9b7",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Bright Size Life",
+        "album": "Bright Size Life",
+        "spotify_url": "https://open.spotify.com/track/6UwTR0kjCtlT4FMNtIvLac",
+        "plays": 1
+      },
+      {
+        "name": "The Red One",
+        "album": "I Can See Your House From Here",
+        "spotify_url": "https://open.spotify.com/track/1P4XzKG2bldGbhg6EO1N23",
+        "plays": 2
+      },
+      {
+        "name": "Unity Village",
+        "album": "Bright Size Life",
+        "spotify_url": "https://open.spotify.com/track/7o56T3Ib6ZjVT6qFTCQFqP",
+        "plays": 2
+      },
+      {
+        "name": "Omaha Celebration",
+        "album": "Bright Size Life",
+        "spotify_url": "https://open.spotify.com/track/337Brv18iAflSpzXOD60DY",
+        "plays": 1
+      },
+      {
+        "name": "Unquity Road",
+        "album": "Bright Size Life",
+        "spotify_url": "https://open.spotify.com/track/7jKeslkYYcER0xVjFtirpC",
+        "plays": 1
+      },
+      {
+        "name": "Missouri Uncompromised",
+        "album": "Bright Size Life",
+        "spotify_url": "https://open.spotify.com/track/40m00PHKCDfc73TQboFWFP",
+        "plays": 1
+      },
+      {
+        "name": "Midwestern Nights Dream",
+        "album": "Bright Size Life",
+        "spotify_url": "https://open.spotify.com/track/4x0V8GpAlt5x6DyYYSog0A",
+        "plays": 1
+      }
+    ]
+  },
+  "stanley-jordan": {
+    "id": "2mBoEYescv3YHDG5rH6uKd",
+    "name": "Stanley Jordan",
+    "spotify_url": "https://open.spotify.com/artist/2mBoEYescv3YHDG5rH6uKd",
+    "total_plays": 1,
+    "first_seen": "2026-04-29",
+    "last_seen": "2026-04-29",
+    "genres": [
+      "jazz fusion",
+      "smooth jazz",
+      "jazz"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6772690000c46c8868c82880008dde1d005566",
+        "height": 1000,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6772690000dd228868c82880008dde1d005566",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6772690000bac38868c82880008dde1d005566",
+        "height": 200,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67726900008f748868c82880008dde1d005566",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Eleanor Rigby",
+        "album": "Magic Touch",
+        "spotify_url": "https://open.spotify.com/track/4BcPH3BcOhvBVc6JTPkXmh",
+        "plays": 1
+      }
+    ]
+  },
+  "billy-cobham": {
+    "id": "0IwfuIL3gUJxjzUqY3wJ3j",
+    "name": "Billy Cobham",
+    "spotify_url": "https://open.spotify.com/artist/0IwfuIL3gUJxjzUqY3wJ3j",
+    "total_plays": 2,
+    "first_seen": "2026-04-29",
+    "last_seen": "2026-04-29",
+    "genres": [
+      "jazz fusion",
+      "jazz funk",
+      "jazz"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/c5382cbfc52a1d24f61f3a0306178ba4c253efc6",
+        "height": 697,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/0d1c9fddbc82c29d3053ed7367fe6ebf1b8f1ddd",
+        "height": 446,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/3e3da9785a19eba48218c3037f216b3c49d04e30",
+        "height": 139,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/a5565c72be53b28bb24bbc3c81dd90585dd7a582",
+        "height": 45,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Spectrum",
+        "album": "Spectrum",
+        "spotify_url": "https://open.spotify.com/track/5z4bK30zUHdFObuKWbpgrr",
+        "plays": 1
+      },
+      {
+        "name": "Red Baron",
+        "album": "Spectrum",
+        "spotify_url": "https://open.spotify.com/track/6ipO2COc25UhJu9tKCkNsd",
+        "plays": 1
+      },
+      {
+        "name": "Right Off (feat. Steve Grossman, John McLaughlin, Herbie Hancock, Michael Henderson & Billy Cobham)",
+        "album": "A Tribute To Jack Johnson",
+        "spotify_url": "https://open.spotify.com/track/5UUwdWNpknUPQEMSRKlkWK",
+        "plays": 2
+      },
+      {
+        "name": "Searching for the Right Door",
+        "album": "Spectrum",
+        "spotify_url": "https://open.spotify.com/track/7C4eebYVDCLO8Avlg3W2hC",
+        "plays": 2
+      },
+      {
+        "name": "Anxiety",
+        "album": "Spectrum",
+        "spotify_url": "https://open.spotify.com/track/01GiWvFmDRcaUBQEqLdNTU",
+        "plays": 2
+      },
+      {
+        "name": "Bandits",
+        "album": "Total Eclipse",
+        "spotify_url": "https://open.spotify.com/track/0iV8XfcmnpqT7OIOI6nWcI",
+        "plays": 2
+      },
+      {
+        "name": "Introduction to \"Ruby\"",
+        "album": "Spaces Revisited",
+        "spotify_url": "https://open.spotify.com/track/10pSMC2qVVlw0WRt2YFa4S",
+        "plays": 2
+      },
+      {
+        "name": "Spanish Moss - A Sound Portrait",
+        "album": "Crosswinds",
+        "spotify_url": "https://open.spotify.com/track/20flhy7YWE2cXW00HGJrZO",
+        "plays": 2
+      },
+      {
+        "name": "Le Lis",
+        "album": "Spectrum",
+        "spotify_url": "https://open.spotify.com/track/3RvBCuciKe9DkygQFBdStp",
+        "plays": 2
+      },
+      {
+        "name": "The Moon Ain't Made of Green Cheese",
+        "album": "Total Eclipse",
+        "spotify_url": "https://open.spotify.com/track/1jjQRESM2K6lqNxdiQjDVN",
+        "plays": 1
+      },
+      {
+        "name": "Lunarputians",
+        "album": "Total Eclipse",
+        "spotify_url": "https://open.spotify.com/track/75GaBfBJJg8XJWTW8xNZdp",
+        "plays": 1
+      },
+      {
+        "name": "To the Women in My Life",
+        "album": "Spectrum",
+        "spotify_url": "https://open.spotify.com/track/7Mlz8IJoLzhGzvuztpFnsF",
+        "plays": 1
+      },
+      {
+        "name": "Sorcery",
+        "album": "A Funky Thide Of Sings",
+        "spotify_url": "https://open.spotify.com/track/4yRlmBsQb1pWLghRsgI7la",
+        "plays": 1
+      }
+    ]
+  },
+  "grant-green": {
+    "id": "6dAtGAnHCQ1ujMUZ9Ep82k",
+    "name": "Grant Green",
+    "spotify_url": "https://open.spotify.com/artist/6dAtGAnHCQ1ujMUZ9Ep82k",
+    "total_plays": 1,
+    "first_seen": "2026-04-29",
+    "last_seen": "2026-04-29",
+    "genres": [
+      "hard bop",
+      "jazz",
+      "jazz funk",
+      "soul jazz",
+      "bebop",
+      "jazz ballads",
+      "cool jazz"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/45a63bb5b7f4a0b9f5c1fcef3a37df3c726a24a2",
+        "height": 1001,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/5d060adf9bfa65d620289feb6e712ecc4fb6ddba",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/90dde636383ad0c7dce8104de6cb075a76546651",
+        "height": 200,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/4a91a7681bc1ca79178f0757dc433faa370a2f22",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Ain't It Funky Now",
+        "album": "Green Is Beautiful",
+        "spotify_url": "https://open.spotify.com/track/5RrtSMRbKKT2JjhHo6adH5",
+        "plays": 1
+      },
+      {
+        "name": "Blues For Abraham",
+        "album": "Visions",
+        "spotify_url": "https://open.spotify.com/track/1ReRdKWTDuth0LQLX7isvs",
+        "plays": 2
+      }
+    ]
+  },
+  "the-greyboy-allstars": {
+    "id": "3G8x1XQX8nCXYouEfMrP07",
+    "name": "The Greyboy Allstars",
+    "spotify_url": "https://open.spotify.com/artist/3G8x1XQX8nCXYouEfMrP07",
+    "total_plays": 1,
+    "first_seen": "2026-04-29",
+    "last_seen": "2026-04-29",
+    "genres": [
+      "jazz funk",
+      "acid jazz",
+      "funk",
+      "jam band"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb288d4d0e6573fba0bb859d9b",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174288d4d0e6573fba0bb859d9b",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178288d4d0e6573fba0bb859d9b",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Fried Grease",
+        "album": "West Coast Boogaloo",
+        "spotify_url": "https://open.spotify.com/track/13KH2dzF8E7IAzztUAeDxI",
+        "plays": 1
+      }
+    ]
+  },
+  "tal-wilkenfeld": {
+    "id": "3XzPQsdtlMMHxKERG8a1Bu",
+    "name": "Tal Wilkenfeld",
+    "spotify_url": "https://open.spotify.com/artist/3XzPQsdtlMMHxKERG8a1Bu",
+    "total_plays": 1,
+    "first_seen": "2026-04-29",
+    "last_seen": "2026-04-29",
+    "genres": [
+      "jazz fusion",
+      "jazz funk"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebf935586c4fae5d0c35537b20",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174f935586c4fae5d0c35537b20",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178f935586c4fae5d0c35537b20",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Truth Be Told",
+        "album": "Transformation",
+        "spotify_url": "https://open.spotify.com/track/4a1hKlGLkxOabTa2HpmqjN",
+        "plays": 1
+      }
+    ]
+  },
+  "yusef-lateef": {
+    "id": "33XkS6h90eeK7e6OJHw0mq",
+    "name": "Yusef Lateef",
+    "spotify_url": "https://open.spotify.com/artist/33XkS6h90eeK7e6OJHw0mq",
+    "total_plays": 1,
+    "first_seen": "2026-04-29",
+    "last_seen": "2026-04-29",
+    "genres": [
+      "jazz",
+      "hard bop",
+      "free jazz",
+      "avant-garde"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6772690000c46c9c5fa862a3e91bdf8db5d52f",
+        "height": 1000,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6772690000dd229c5fa862a3e91bdf8db5d52f",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6772690000bac39c5fa862a3e91bdf8db5d52f",
+        "height": 200,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67726900008f749c5fa862a3e91bdf8db5d52f",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Nubian Lady - 1972",
+        "album": "The Gentle Giant",
+        "spotify_url": "https://open.spotify.com/track/32I3HYvTbzDgGJlGCJ7WTM",
+        "plays": 1
+      },
+      {
+        "name": "Trouble In Mind - Live",
+        "album": "Live at the Olympia - June 27, 2012",
+        "spotify_url": "https://open.spotify.com/track/5E7w5RPY2XpAyNJfjMp5M8",
+        "plays": 2
+      },
+      {
+        "name": "Brother Hold Your Light - Live",
+        "album": "Live at the Olympia - June 27, 2012",
+        "spotify_url": "https://open.spotify.com/track/5KfHnallBLW7kcnUkIce95",
+        "plays": 2
+      },
+      {
+        "name": "Ching Miau - Remastered 2023",
+        "album": "Eastern Sounds (Remastered 2023)",
+        "spotify_url": "https://open.spotify.com/track/2aNRTWBFciTIoyzZxk92X1",
+        "plays": 2
+      },
+      {
+        "name": "Nocturne",
+        "album": "Suite 16",
+        "spotify_url": "https://open.spotify.com/track/6std5xxJpjVRWgNr1IKc3v",
+        "plays": 2
+      },
+      {
+        "name": "Love Theme From Spartacus - Rudy Van Gelder Remaster / 2006",
+        "album": "Eastern Sounds",
+        "spotify_url": "https://open.spotify.com/track/7yzM0pEseQUpb6BMViOPEA",
+        "plays": 2
+      },
+      {
+        "name": "The Three Faces Of Balal - Rudy Van Gelder Remaster",
+        "album": "Eastern Sounds",
+        "spotify_url": "https://open.spotify.com/track/2Wkep2KpiVHNX09YHJtMfe",
+        "plays": 1
+      },
+      {
+        "name": "Purple Flower - Rudy Van Gelder Remaster",
+        "album": "Eastern Sounds",
+        "spotify_url": "https://open.spotify.com/track/4f1iABbHbdsKU6GsYKoyfh",
+        "plays": 1
+      },
+      {
+        "name": "Buddy and Lou",
+        "album": "Suite 16",
+        "spotify_url": "https://open.spotify.com/track/5vD9A79tCg9acU8jvNKkKY",
+        "plays": 1
+      },
+      {
+        "name": "Ching Miau - Rudy Van Gelder Remaster",
+        "album": "Eastern Sounds",
+        "spotify_url": "https://open.spotify.com/track/6oarR9NsZJOlYxDi17S9iS",
+        "plays": 1
+      },
+      {
+        "name": "Get Over, Get off and Get On - Remastered",
+        "album": "The Blue Yusef Lateef",
+        "spotify_url": "https://open.spotify.com/track/1CGP6Y3MA0hWr2fw9UdXyx",
+        "plays": 1
+      },
+      {
+        "name": "Love Theme From The Robe - Rudy Van Gelder Remaster",
+        "album": "Eastern Sounds",
+        "spotify_url": "https://open.spotify.com/track/3Y6s01hMkOYdFZnWHD60Kf",
+        "plays": 1
+      },
+      {
+        "name": "Psychicemotus",
+        "album": "Psychicemotus",
+        "spotify_url": "https://open.spotify.com/track/4nEHAA2Vvg7aFuA752lMdc",
+        "plays": 1
+      },
+      {
+        "name": "Blues For The Orient - Rudy Van Gelder Remaster",
+        "album": "Eastern Sounds",
+        "spotify_url": "https://open.spotify.com/track/5mbUj1YVHxVzEsSqvGMS6T",
+        "plays": 1
+      }
+    ]
+  },
+  "soundgarden": {
+    "id": "5xUf6j4upBrXZPg6AI4MRK",
+    "name": "Soundgarden",
+    "spotify_url": "https://open.spotify.com/artist/5xUf6j4upBrXZPg6AI4MRK",
+    "total_plays": 1,
+    "first_seen": "2026-04-29",
+    "last_seen": "2026-04-29",
+    "genres": [
+      "grunge",
+      "post-grunge",
+      "hard rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebafa254b2a224584485286526",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174afa254b2a224584485286526",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178afa254b2a224584485286526",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Rusty Cage - Remastered 2016",
+        "album": "Badmotorfinger (25th Anniversary Remaster)",
+        "spotify_url": "https://open.spotify.com/track/6hqIXyo6GxydAnoI8XeIrV",
+        "plays": 1
+      }
+    ]
+  },
+  "rage-against-the-machine": {
+    "id": "2d0hyoQ5ynDBnkvAbJKORj",
+    "name": "Rage Against The Machine",
+    "spotify_url": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj",
+    "total_plays": 1,
+    "first_seen": "2026-04-29",
+    "last_seen": "2026-04-29",
+    "genres": [
+      "rap metal",
+      "rap rock",
+      "alternative metal",
+      "nu metal"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebda4bd2b213cae330e2a4a901",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174da4bd2b213cae330e2a4a901",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178da4bd2b213cae330e2a4a901",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Sleep Now In the Fire",
+        "album": "The Battle Of Los Angeles",
+        "spotify_url": "https://open.spotify.com/track/1MQTmpYOZ6fcMQc56Hdo7T",
+        "plays": 1
+      }
+    ]
+  },
+  "janes-addiction": {
+    "id": "02NfyD6AlLA12crYzw5YcR",
+    "name": "Jane's Addiction",
+    "spotify_url": "https://open.spotify.com/artist/02NfyD6AlLA12crYzw5YcR",
+    "total_plays": 1,
+    "first_seen": "2026-04-29",
+    "last_seen": "2026-04-29",
+    "genres": [
+      "funk rock",
+      "grunge"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb6181668c9b31f2505039ba33",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051746181668c9b31f2505039ba33",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1786181668c9b31f2505039ba33",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Mountain Song",
+        "album": "Nothing's Shocking",
+        "spotify_url": "https://open.spotify.com/track/5fKZJHzJ9d3MADArbm9muW",
+        "plays": 1
+      },
+      {
+        "name": "Up the Beach",
+        "album": "Nothing's Shocking",
+        "spotify_url": "https://open.spotify.com/track/7CByzrzR4LCBxVI7lM8Ggv",
+        "plays": 2
+      },
+      {
+        "name": "Standing in the Shower...Thinking",
+        "album": "Nothing's Shocking",
+        "spotify_url": "https://open.spotify.com/track/7DzT745Oi9NI016FEkjWNa",
+        "plays": 2
+      },
+      {
+        "name": "Idiots Rule",
+        "album": "Nothing's Shocking",
+        "spotify_url": "https://open.spotify.com/track/51Nh6X9tfaBLQF3YyK6s2A",
+        "plays": 1
+      },
+      {
+        "name": "Ocean Size",
+        "album": "Nothing's Shocking",
+        "spotify_url": "https://open.spotify.com/track/5lCjgHTEE7tbmzDVaCloGC",
+        "plays": 1
+      }
+    ]
+  },
+  "red-hot-chili-peppers": {
+    "id": "0L8ExT028jH3ddEcZwqJJ5",
+    "name": "Red Hot Chili Peppers",
+    "spotify_url": "https://open.spotify.com/artist/0L8ExT028jH3ddEcZwqJJ5",
+    "total_plays": 21,
+    "first_seen": "2026-04-29",
+    "last_seen": "2026-04-29",
+    "genres": [
+      "funk rock",
+      "alternative rock",
+      "rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebc33cc15260b767ddec982ce8",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174c33cc15260b767ddec982ce8",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178c33cc15260b767ddec982ce8",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "If You Have to Ask",
+        "album": "Blood Sugar Sex Magik (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/2R6go62CuxqqX0w1TgXxes",
+        "plays": 2
+      },
+      {
+        "name": "Around the World",
+        "album": "Californication (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/0aGQHMr7bc23Y9Ts84ffop",
+        "plays": 1
+      },
+      {
+        "name": "Castles Made of Sand - 2006 Remaster",
+        "album": "Blood Sugar Sex Magik (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/7mUNyl16vX2OrKqMAuZJF9",
+        "plays": 1
+      },
+      {
+        "name": "Little Miss Lover - 2006 Remaster",
+        "album": "Blood Sugar Sex Magik (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/1CNDe1BS7dKfUsYb5vm5rO",
+        "plays": 1
+      },
+      {
+        "name": "They're Red Hot",
+        "album": "Blood Sugar Sex Magik (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/1jQ0EZPAY3HpBRgUev6X1Q",
+        "plays": 1
+      },
+      {
+        "name": "Sir Psycho Sexy",
+        "album": "Blood Sugar Sex Magik (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/1J5ZXurCRQdFHWfOiFt12x",
+        "plays": 1
+      },
+      {
+        "name": "My Lovely Man",
+        "album": "Blood Sugar Sex Magik (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/402sXCQikR6VV2x2265Jsm",
+        "plays": 1
+      },
+      {
+        "name": "The Greeting Song",
+        "album": "Blood Sugar Sex Magik (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/5HYKskVhty99c7Txyydwmp",
+        "plays": 1
+      },
+      {
+        "name": "Apache Rose Peacock",
+        "album": "Blood Sugar Sex Magik (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/3p3BfV7NeWCAHx9tSwsJEQ",
+        "plays": 1
+      },
+      {
+        "name": "Naked in the Rain",
+        "album": "Blood Sugar Sex Magik (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/6xid2NOIS1aqviPPe67OqF",
+        "plays": 1
+      },
+      {
+        "name": "Under the Bridge",
+        "album": "Blood Sugar Sex Magik (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/3d9DChrdc6BOeFsbrZ3Is0",
+        "plays": 1
+      },
+      {
+        "name": "Blood Sugar Sex Magik",
+        "album": "Blood Sugar Sex Magik (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/4ddA4oHvhrGx196qF5ZyQe",
+        "plays": 1
+      },
+      {
+        "name": "Give It Away",
+        "album": "Blood Sugar Sex Magik (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/0uppYCG86ajpV2hSR3dJJ0",
+        "plays": 1
+      },
+      {
+        "name": "The Righteous & the Wicked",
+        "album": "Blood Sugar Sex Magik (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/5ITOTuCOy6y4PB55CSZADE",
+        "plays": 1
+      },
+      {
+        "name": "Mellowship Slinky in B Major",
+        "album": "Blood Sugar Sex Magik (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/5TYQonY07iJP2ULhR4ptce",
+        "plays": 1
+      },
+      {
+        "name": "I Could Have Lied",
+        "album": "Blood Sugar Sex Magik (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/0NSbiBKXoODbsPwjSivfBr",
+        "plays": 1
+      },
+      {
+        "name": "Suck My Kiss",
+        "album": "Blood Sugar Sex Magik (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/0psB5QzGb4653K0uaPgEyh",
+        "plays": 1
+      },
+      {
+        "name": "Funky Monks",
+        "album": "Blood Sugar Sex Magik (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/68uWKoPwSxYE6DVylRA1XI",
+        "plays": 1
+      },
+      {
+        "name": "Breaking the Girl",
+        "album": "Blood Sugar Sex Magik (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/0cG9ocYqYOIVtgiWTmTe3g",
+        "plays": 1
+      },
+      {
+        "name": "The Power of Equality",
+        "album": "Blood Sugar Sex Magik (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/0eX5QY6o5cb9W72zVmWWjV",
+        "plays": 1
+      }
+    ]
+  },
+  "remy-sher": {
+    "id": "0rfAzeDV3F6jn9Hd0r6CrQ",
+    "name": "Remy Sher",
+    "spotify_url": "https://open.spotify.com/artist/0rfAzeDV3F6jn9Hd0r6CrQ",
+    "total_plays": 1,
+    "first_seen": "2026-04-27",
+    "last_seen": "2026-04-27",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebe37a225d047c2f2a31ced6ae",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174e37a225d047c2f2a31ced6ae",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178e37a225d047c2f2a31ced6ae",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Susie's Party",
+        "album": "Susie's Party",
+        "spotify_url": "https://open.spotify.com/track/4FDqzsdbzzW9EITiTBvFas",
+        "plays": 1
+      }
+    ]
+  },
+  "lost-mary": {
+    "id": "16WgLtGDVL7lWQBo9esyKO",
+    "name": "Lost Mary",
+    "spotify_url": "https://open.spotify.com/artist/16WgLtGDVL7lWQBo9esyKO",
+    "total_plays": 1,
+    "first_seen": "2026-04-27",
+    "last_seen": "2026-04-27",
+    "genres": [
+      "indie folk"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb526caf0c515b0836ffa54e6e",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174526caf0c515b0836ffa54e6e",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178526caf0c515b0836ffa54e6e",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "I Know You Better",
+        "album": "Lost Mary",
+        "spotify_url": "https://open.spotify.com/track/37kUO4Qyg9dtJagY3zuhqo",
+        "plays": 1
+      }
+    ]
+  },
+  "hank-garrett": {
+    "id": "7s51mLOf66bbhxCjDNrjfa",
+    "name": "Hank Garrett",
+    "spotify_url": "https://open.spotify.com/artist/7s51mLOf66bbhxCjDNrjfa",
+    "total_plays": 1,
+    "first_seen": "2026-04-27",
+    "last_seen": "2026-04-27",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb2f0ec66cfccd5d01ab566897",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051742f0ec66cfccd5d01ab566897",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1782f0ec66cfccd5d01ab566897",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Let You Dance",
+        "album": "Stay With Me",
+        "spotify_url": "https://open.spotify.com/track/6BMdr2dntwavAehLT3Qt3N",
         "plays": 1
       }
     ]
@@ -36664,108 +38848,6 @@
       }
     ]
   },
-  "booker-t-the-mgs": {
-    "id": "2vDV0T8sxx2ENnKXds75e5",
-    "name": "Booker T. & the M.G.'s",
-    "spotify_url": "https://open.spotify.com/artist/2vDV0T8sxx2ENnKXds75e5",
-    "total_plays": 14,
-    "first_seen": "",
-    "last_seen": "",
-    "genres": [
-      "blues",
-      "classic soul",
-      "instrumental funk",
-      "instrumental soul",
-      "memphis soul",
-      "soul",
-      "southern soul",
-      "traditional blues"
-    ],
-    "images": [
-      {
-        "height": 653,
-        "url": "https://i.scdn.co/image/386f66b89b4b1ca0e9b5b2d0ffce9ce3a66a7101",
-        "width": 1000
-      },
-      {
-        "height": 418,
-        "url": "https://i.scdn.co/image/99990becabb08ca98877631d0e14fe92326721e3",
-        "width": 640
-      },
-      {
-        "height": 131,
-        "url": "https://i.scdn.co/image/5594e8563ac891f9102d64014eb9f66587f79bc1",
-        "width": 200
-      },
-      {
-        "height": 42,
-        "url": "https://i.scdn.co/image/ef5570fb14a8db0b2df87cc462daef63daf24475",
-        "width": 64
-      }
-    ],
-    "top_tracks": [
-      {
-        "name": "Mrs. Robinson - Instrumental",
-        "album": "The Complete Stax / Volt Soul Singles, Vol. 2: 1968-1971",
-        "spotify_url": "https://open.spotify.com/track/7i9ztRboWYXO22tKeVjQVY",
-        "plays": 2
-      },
-      {
-        "name": "Jelly Bread",
-        "album": "Soul Dressing",
-        "spotify_url": "https://open.spotify.com/track/1k509q8W7oE5VRKK8XD4CC",
-        "plays": 2
-      },
-      {
-        "name": "Soul Limbo",
-        "album": "Soul Limbo",
-        "spotify_url": "https://open.spotify.com/track/06yzME6dtXmBFO4DB5rVaT",
-        "plays": 2
-      },
-      {
-        "name": "Soul Dressing",
-        "album": "Soul Dressing",
-        "spotify_url": "https://open.spotify.com/track/3Q031ckN7rwljKZhEQvvcR",
-        "plays": 2
-      },
-      {
-        "name": "Time Is Tight",
-        "album": "The Complete Stax / Volt Soul Singles, Vol. 2: 1968-1971",
-        "spotify_url": "https://open.spotify.com/track/3XOVanRi3prWDEZQiZTlYx",
-        "plays": 1
-      },
-      {
-        "name": "Hang 'Em High",
-        "album": "The Complete Stax / Volt Soul Singles, Vol. 2: 1968-1971",
-        "spotify_url": "https://open.spotify.com/track/0JMkKpjow7ouqs42aS2EZ1",
-        "plays": 1
-      },
-      {
-        "name": "Slum Baby",
-        "album": "The Complete Stax / Volt Soul Singles, Vol. 2: 1968-1971",
-        "spotify_url": "https://open.spotify.com/track/4Lr9Wx7KwuTUW0ZT80QNEI",
-        "plays": 1
-      },
-      {
-        "name": "Soul Limbo",
-        "album": "The Complete Stax / Volt Soul Singles, Vol. 2: 1968-1971",
-        "spotify_url": "https://open.spotify.com/track/4el7adJljJDqMzTzkxpQZi",
-        "plays": 1
-      },
-      {
-        "name": "Mo' Onions",
-        "album": "Green Onions",
-        "spotify_url": "https://open.spotify.com/track/2hiyBTmktBYzvLixq5V2v4",
-        "plays": 1
-      },
-      {
-        "name": "Green Onions",
-        "album": "Green Onions",
-        "spotify_url": "https://open.spotify.com/track/4fQMGlCawbTkH9yPPZ49kP",
-        "plays": 1
-      }
-    ]
-  },
   "blackberry-smoke": {
     "id": "5P1oS9DUTPEqcrmXDmX4p8",
     "name": "Blackberry Smoke",
@@ -38843,129 +40925,6 @@
       }
     ]
   },
-  "yusef-lateef": {
-    "id": "33XkS6h90eeK7e6OJHw0mq",
-    "name": "Yusef Lateef",
-    "spotify_url": "https://open.spotify.com/artist/33XkS6h90eeK7e6OJHw0mq",
-    "total_plays": 20,
-    "first_seen": "",
-    "last_seen": "",
-    "genres": [
-      "avant-garde",
-      "bebop",
-      "free jazz",
-      "jazz",
-      "jazz saxophone"
-    ],
-    "images": [
-      {
-        "height": 1201,
-        "url": "https://i.scdn.co/image/b2a97c3eabedfecf7e104ea1c2abd8d1d6417a38",
-        "width": 837
-      },
-      {
-        "height": 918,
-        "url": "https://i.scdn.co/image/d7a16bb2d17943ef9c45b69cb77694500561972a",
-        "width": 640
-      },
-      {
-        "height": 287,
-        "url": "https://i.scdn.co/image/283a74a8b52398deb0d3bb990abc49bf3b501fd7",
-        "width": 200
-      },
-      {
-        "height": 92,
-        "url": "https://i.scdn.co/image/5d481a0fa4926a790d0c86a86d406af603393047",
-        "width": 64
-      }
-    ],
-    "top_tracks": [
-      {
-        "name": "Trouble In Mind - Live",
-        "album": "Live at the Olympia - June 27, 2012",
-        "spotify_url": "https://open.spotify.com/track/5E7w5RPY2XpAyNJfjMp5M8",
-        "plays": 2
-      },
-      {
-        "name": "Brother Hold Your Light - Live",
-        "album": "Live at the Olympia - June 27, 2012",
-        "spotify_url": "https://open.spotify.com/track/5KfHnallBLW7kcnUkIce95",
-        "plays": 2
-      },
-      {
-        "name": "Nubian Lady - 1972",
-        "album": "The Gentle Giant",
-        "spotify_url": "https://open.spotify.com/track/32I3HYvTbzDgGJlGCJ7WTM",
-        "plays": 2
-      },
-      {
-        "name": "Ching Miau - Remastered 2023",
-        "album": "Eastern Sounds (Remastered 2023)",
-        "spotify_url": "https://open.spotify.com/track/2aNRTWBFciTIoyzZxk92X1",
-        "plays": 2
-      },
-      {
-        "name": "Nocturne",
-        "album": "Suite 16",
-        "spotify_url": "https://open.spotify.com/track/6std5xxJpjVRWgNr1IKc3v",
-        "plays": 2
-      },
-      {
-        "name": "Love Theme From Spartacus - Rudy Van Gelder Remaster / 2006",
-        "album": "Eastern Sounds",
-        "spotify_url": "https://open.spotify.com/track/7yzM0pEseQUpb6BMViOPEA",
-        "plays": 2
-      },
-      {
-        "name": "The Three Faces Of Balal - Rudy Van Gelder Remaster",
-        "album": "Eastern Sounds",
-        "spotify_url": "https://open.spotify.com/track/2Wkep2KpiVHNX09YHJtMfe",
-        "plays": 1
-      },
-      {
-        "name": "Purple Flower - Rudy Van Gelder Remaster",
-        "album": "Eastern Sounds",
-        "spotify_url": "https://open.spotify.com/track/4f1iABbHbdsKU6GsYKoyfh",
-        "plays": 1
-      },
-      {
-        "name": "Buddy and Lou",
-        "album": "Suite 16",
-        "spotify_url": "https://open.spotify.com/track/5vD9A79tCg9acU8jvNKkKY",
-        "plays": 1
-      },
-      {
-        "name": "Ching Miau - Rudy Van Gelder Remaster",
-        "album": "Eastern Sounds",
-        "spotify_url": "https://open.spotify.com/track/6oarR9NsZJOlYxDi17S9iS",
-        "plays": 1
-      },
-      {
-        "name": "Get Over, Get off and Get On - Remastered",
-        "album": "The Blue Yusef Lateef",
-        "spotify_url": "https://open.spotify.com/track/1CGP6Y3MA0hWr2fw9UdXyx",
-        "plays": 1
-      },
-      {
-        "name": "Love Theme From The Robe - Rudy Van Gelder Remaster",
-        "album": "Eastern Sounds",
-        "spotify_url": "https://open.spotify.com/track/3Y6s01hMkOYdFZnWHD60Kf",
-        "plays": 1
-      },
-      {
-        "name": "Psychicemotus",
-        "album": "Psychicemotus",
-        "spotify_url": "https://open.spotify.com/track/4nEHAA2Vvg7aFuA752lMdc",
-        "plays": 1
-      },
-      {
-        "name": "Blues For The Orient - Rudy Van Gelder Remaster",
-        "album": "Eastern Sounds",
-        "spotify_url": "https://open.spotify.com/track/5mbUj1YVHxVzEsSqvGMS6T",
-        "plays": 1
-      }
-    ]
-  },
   "dizzy-gillespie": {
     "id": "5RzjqfPS0Bu4bUMkyNNDpn",
     "name": "Dizzy Gillespie",
@@ -39914,112 +41873,6 @@
       }
     ]
   },
-  "beck": {
-    "id": "3vbKDsSS70ZX9D2OcvbZmS",
-    "name": "Beck",
-    "spotify_url": "https://open.spotify.com/artist/3vbKDsSS70ZX9D2OcvbZmS",
-    "total_plays": 16,
-    "first_seen": "",
-    "last_seen": "",
-    "genres": [
-      "alternative rock",
-      "anti-folk",
-      "permanent wave",
-      "rock",
-      "slacker rock"
-    ],
-    "images": [
-      {
-        "height": 640,
-        "url": "https://i.scdn.co/image/ab6761610000e5eb917df61d55ce3ab98d43351a",
-        "width": 640
-      },
-      {
-        "height": 320,
-        "url": "https://i.scdn.co/image/ab67616100005174917df61d55ce3ab98d43351a",
-        "width": 320
-      },
-      {
-        "height": 160,
-        "url": "https://i.scdn.co/image/ab6761610000f178917df61d55ce3ab98d43351a",
-        "width": 160
-      }
-    ],
-    "top_tracks": [
-      {
-        "name": "E-Pro",
-        "album": "Guero",
-        "spotify_url": "https://open.spotify.com/track/01MBhRpvFkbeRwAp7gcF2W",
-        "plays": 2
-      },
-      {
-        "name": "Gamma Ray",
-        "album": "Modern Guilt",
-        "spotify_url": "https://open.spotify.com/track/2iWfZFAF8BCi0CY4NyuP8D",
-        "plays": 2
-      },
-      {
-        "name": "Teenage Wastebasket",
-        "album": "One Foot in the Grave (Deluxe Reissue)",
-        "spotify_url": "https://open.spotify.com/track/0RYK2o8lUssUbsX3or8RF2",
-        "plays": 2
-      },
-      {
-        "name": "Night Running",
-        "album": "Social Cues",
-        "spotify_url": "https://open.spotify.com/track/0wSmZykDgah7GfaUNZUZCb",
-        "plays": 2
-      },
-      {
-        "name": "Where It's At",
-        "album": "Odelay",
-        "spotify_url": "https://open.spotify.com/track/0myfUjrUP8kMrk48nOXAY0",
-        "plays": 1
-      },
-      {
-        "name": "Burnt Orange Peel",
-        "album": "One Foot in the Grave (Deluxe Reissue)",
-        "spotify_url": "https://open.spotify.com/track/4L8ATxZFlm5QeCtWRV2Iwp",
-        "plays": 1
-      },
-      {
-        "name": "Mattress",
-        "album": "One Foot in the Grave (Deluxe Reissue)",
-        "spotify_url": "https://open.spotify.com/track/76Q8atHWLyFMHLUDrkNtdd",
-        "plays": 1
-      },
-      {
-        "name": "Asshole",
-        "album": "One Foot in the Grave (Deluxe Reissue)",
-        "spotify_url": "https://open.spotify.com/track/1H4qTLNNSsxEVbbMS7cBOD",
-        "plays": 1
-      },
-      {
-        "name": "Cyanide Breath Mint",
-        "album": "One Foot in the Grave (Deluxe Reissue)",
-        "spotify_url": "https://open.spotify.com/track/3aKHh5JAoqc3uI3XvOrQk9",
-        "plays": 1
-      },
-      {
-        "name": "Thunder Peel",
-        "album": "Stereopathetic Soulmanure",
-        "spotify_url": "https://open.spotify.com/track/4RjpWqqjIFnBtezcC6SE5c",
-        "plays": 1
-      },
-      {
-        "name": "Mutherfucker",
-        "album": "Mellow Gold",
-        "spotify_url": "https://open.spotify.com/track/5IOXHlLaf6rJThZytwFO30",
-        "plays": 1
-      },
-      {
-        "name": "Sleeping Bag",
-        "album": "One Foot in the Grave (Deluxe Reissue)",
-        "spotify_url": "https://open.spotify.com/track/5PL2Dx2efgMokfzUitJtnn",
-        "plays": 1
-      }
-    ]
-  },
   "horace-silver": {
     "id": "5ZATfKurLqflrBhv2FLht5",
     "name": "Horace Silver",
@@ -40157,116 +42010,6 @@
         "name": "I Like Everything About You",
         "album": "The Complete Stax / Volt Soul Singles, Vol. 2: 1968-1971",
         "spotify_url": "https://open.spotify.com/track/4GQxKRIwydQOyRgRFXzzBV",
-        "plays": 1
-      }
-    ]
-  },
-  "billy-cobham": {
-    "id": "0IwfuIL3gUJxjzUqY3wJ3j",
-    "name": "Billy Cobham",
-    "spotify_url": "https://open.spotify.com/artist/0IwfuIL3gUJxjzUqY3wJ3j",
-    "total_plays": 19,
-    "first_seen": "",
-    "last_seen": "",
-    "genres": [
-      "jazz",
-      "jazz drums",
-      "jazz funk",
-      "jazz fusion"
-    ],
-    "images": [
-      {
-        "height": 697,
-        "url": "https://i.scdn.co/image/c5382cbfc52a1d24f61f3a0306178ba4c253efc6",
-        "width": 1000
-      },
-      {
-        "height": 446,
-        "url": "https://i.scdn.co/image/0d1c9fddbc82c29d3053ed7367fe6ebf1b8f1ddd",
-        "width": 640
-      },
-      {
-        "height": 139,
-        "url": "https://i.scdn.co/image/3e3da9785a19eba48218c3037f216b3c49d04e30",
-        "width": 200
-      },
-      {
-        "height": 45,
-        "url": "https://i.scdn.co/image/a5565c72be53b28bb24bbc3c81dd90585dd7a582",
-        "width": 64
-      }
-    ],
-    "top_tracks": [
-      {
-        "name": "Right Off (feat. Steve Grossman, John McLaughlin, Herbie Hancock, Michael Henderson & Billy Cobham)",
-        "album": "A Tribute To Jack Johnson",
-        "spotify_url": "https://open.spotify.com/track/5UUwdWNpknUPQEMSRKlkWK",
-        "plays": 2
-      },
-      {
-        "name": "Searching for the Right Door",
-        "album": "Spectrum",
-        "spotify_url": "https://open.spotify.com/track/7C4eebYVDCLO8Avlg3W2hC",
-        "plays": 2
-      },
-      {
-        "name": "Anxiety",
-        "album": "Spectrum",
-        "spotify_url": "https://open.spotify.com/track/01GiWvFmDRcaUBQEqLdNTU",
-        "plays": 2
-      },
-      {
-        "name": "Bandits",
-        "album": "Total Eclipse",
-        "spotify_url": "https://open.spotify.com/track/0iV8XfcmnpqT7OIOI6nWcI",
-        "plays": 2
-      },
-      {
-        "name": "Introduction to \"Ruby\"",
-        "album": "Spaces Revisited",
-        "spotify_url": "https://open.spotify.com/track/10pSMC2qVVlw0WRt2YFa4S",
-        "plays": 2
-      },
-      {
-        "name": "Spanish Moss - A Sound Portrait",
-        "album": "Crosswinds",
-        "spotify_url": "https://open.spotify.com/track/20flhy7YWE2cXW00HGJrZO",
-        "plays": 2
-      },
-      {
-        "name": "Le Lis",
-        "album": "Spectrum",
-        "spotify_url": "https://open.spotify.com/track/3RvBCuciKe9DkygQFBdStp",
-        "plays": 2
-      },
-      {
-        "name": "The Moon Ain't Made of Green Cheese",
-        "album": "Total Eclipse",
-        "spotify_url": "https://open.spotify.com/track/1jjQRESM2K6lqNxdiQjDVN",
-        "plays": 1
-      },
-      {
-        "name": "Lunarputians",
-        "album": "Total Eclipse",
-        "spotify_url": "https://open.spotify.com/track/75GaBfBJJg8XJWTW8xNZdp",
-        "plays": 1
-      },
-      {
-        "name": "To the Women in My Life",
-        "album": "Spectrum",
-        "spotify_url": "https://open.spotify.com/track/7Mlz8IJoLzhGzvuztpFnsF",
-        "plays": 1
-      },
-      {
-        "name": "Sorcery",
-        "album": "A Funky Thide Of Sings",
-        "spotify_url": "https://open.spotify.com/track/4yRlmBsQb1pWLghRsgI7la",
-        "plays": 1
-      },
-      {
-        "name": "Spectrum",
-        "album": "Spectrum",
-        "spotify_url": "https://open.spotify.com/track/5z4bK30zUHdFObuKWbpgrr",
         "plays": 1
       }
     ]
@@ -43809,82 +45552,6 @@
       }
     ]
   },
-  "pat-metheny": {
-    "id": "3t58jfUhoMLYVO14XaUFLA",
-    "name": "Pat Metheny",
-    "spotify_url": "https://open.spotify.com/artist/3t58jfUhoMLYVO14XaUFLA",
-    "total_plays": 9,
-    "first_seen": "",
-    "last_seen": "",
-    "genres": [
-      "avant-garde jazz",
-      "contemporary post-bop",
-      "jazz",
-      "jazz fusion",
-      "jazz guitar"
-    ],
-    "images": [
-      {
-        "height": 640,
-        "url": "https://i.scdn.co/image/ab6761610000e5eba093df613deeb238051bd7fe",
-        "width": 640
-      },
-      {
-        "height": 320,
-        "url": "https://i.scdn.co/image/ab67616100005174a093df613deeb238051bd7fe",
-        "width": 320
-      },
-      {
-        "height": 160,
-        "url": "https://i.scdn.co/image/ab6761610000f178a093df613deeb238051bd7fe",
-        "width": 160
-      }
-    ],
-    "top_tracks": [
-      {
-        "name": "The Red One",
-        "album": "I Can See Your House From Here",
-        "spotify_url": "https://open.spotify.com/track/1P4XzKG2bldGbhg6EO1N23",
-        "plays": 2
-      },
-      {
-        "name": "Unity Village",
-        "album": "Bright Size Life",
-        "spotify_url": "https://open.spotify.com/track/7o56T3Ib6ZjVT6qFTCQFqP",
-        "plays": 2
-      },
-      {
-        "name": "Bright Size Life",
-        "album": "Bright Size Life",
-        "spotify_url": "https://open.spotify.com/track/6UwTR0kjCtlT4FMNtIvLac",
-        "plays": 1
-      },
-      {
-        "name": "Omaha Celebration",
-        "album": "Bright Size Life",
-        "spotify_url": "https://open.spotify.com/track/337Brv18iAflSpzXOD60DY",
-        "plays": 1
-      },
-      {
-        "name": "Unquity Road",
-        "album": "Bright Size Life",
-        "spotify_url": "https://open.spotify.com/track/7jKeslkYYcER0xVjFtirpC",
-        "plays": 1
-      },
-      {
-        "name": "Missouri Uncompromised",
-        "album": "Bright Size Life",
-        "spotify_url": "https://open.spotify.com/track/40m00PHKCDfc73TQboFWFP",
-        "plays": 1
-      },
-      {
-        "name": "Midwestern Nights Dream",
-        "album": "Bright Size Life",
-        "spotify_url": "https://open.spotify.com/track/4x0V8GpAlt5x6DyYYSog0A",
-        "plays": 1
-      }
-    ]
-  },
   "juice-wrld": {
     "id": "4MCBfE4596Uoi2O4DtmEMz",
     "name": "Juice WRLD",
@@ -47204,82 +48871,6 @@
         "name": "Time (Bonus Track) - 2017 Remastered Version",
         "album": "Breaking Atoms (2017 Remastered)",
         "spotify_url": "https://open.spotify.com/track/63ePCO5r1kdRbNSQ5jZqBj",
-        "plays": 1
-      }
-    ]
-  },
-  "john-scofield": {
-    "id": "14RXohtx6NiBGFTW8IdmAK",
-    "name": "John Scofield",
-    "spotify_url": "https://open.spotify.com/artist/14RXohtx6NiBGFTW8IdmAK",
-    "total_plays": 8,
-    "first_seen": "",
-    "last_seen": "",
-    "genres": [
-      "jazz",
-      "jazz blues",
-      "jazz fusion",
-      "jazz guitar",
-      "soul jazz"
-    ],
-    "images": [
-      {
-        "height": 640,
-        "url": "https://i.scdn.co/image/ab6761610000e5eb94d5048a1f5f3a702e4bee1f",
-        "width": 640
-      },
-      {
-        "height": 320,
-        "url": "https://i.scdn.co/image/ab6761610000517494d5048a1f5f3a702e4bee1f",
-        "width": 320
-      },
-      {
-        "height": 160,
-        "url": "https://i.scdn.co/image/ab6761610000f17894d5048a1f5f3a702e4bee1f",
-        "width": 160
-      }
-    ],
-    "top_tracks": [
-      {
-        "name": "The Red One",
-        "album": "I Can See Your House From Here",
-        "spotify_url": "https://open.spotify.com/track/1P4XzKG2bldGbhg6EO1N23",
-        "plays": 2
-      },
-      {
-        "name": "Deadzy",
-        "album": "A Go Go",
-        "spotify_url": "https://open.spotify.com/track/4JdVA9FfwTgaWXfWF2U4nU",
-        "plays": 1
-      },
-      {
-        "name": "Kubrick",
-        "album": "A Go Go",
-        "spotify_url": "https://open.spotify.com/track/7knqth0PUBaJaOxnIeEOYO",
-        "plays": 1
-      },
-      {
-        "name": "Green Tea",
-        "album": "A Go Go",
-        "spotify_url": "https://open.spotify.com/track/1Qo5nLKvPYqiTbXrM7YJjt",
-        "plays": 1
-      },
-      {
-        "name": "Chicken Dog",
-        "album": "A Go Go",
-        "spotify_url": "https://open.spotify.com/track/4D8Fknwzpj9WzKS5C5AYbJ",
-        "plays": 1
-      },
-      {
-        "name": "Jeep On 35",
-        "album": "A Go Go",
-        "spotify_url": "https://open.spotify.com/track/4TtS1V6I12MzJ1doK61e5K",
-        "plays": 1
-      },
-      {
-        "name": "Boozer",
-        "album": "A Go Go",
-        "spotify_url": "https://open.spotify.com/track/4cQuFh7Ggw0UAyrDTbO4nx",
         "plays": 1
       }
     ]
@@ -51318,67 +52909,6 @@
         "name": "Sophisticated Lady",
         "album": "Blues For Myself (Piano Solo)",
         "spotify_url": "https://open.spotify.com/track/4Ws7Bm2Nhbm83Tz4gRxpIx",
-        "plays": 1
-      }
-    ]
-  },
-  "janes-addiction": {
-    "id": "02NfyD6AlLA12crYzw5YcR",
-    "name": "Jane's Addiction",
-    "spotify_url": "https://open.spotify.com/artist/02NfyD6AlLA12crYzw5YcR",
-    "total_plays": 6,
-    "first_seen": "",
-    "last_seen": "",
-    "genres": [
-      "alternative metal",
-      "alternative rock",
-      "funk metal",
-      "funk rock",
-      "grunge",
-      "nu metal",
-      "permanent wave",
-      "rock"
-    ],
-    "images": [
-      {
-        "height": 640,
-        "url": "https://i.scdn.co/image/ab6761610000e5eb6181668c9b31f2505039ba33",
-        "width": 640
-      },
-      {
-        "height": 320,
-        "url": "https://i.scdn.co/image/ab676161000051746181668c9b31f2505039ba33",
-        "width": 320
-      },
-      {
-        "height": 160,
-        "url": "https://i.scdn.co/image/ab6761610000f1786181668c9b31f2505039ba33",
-        "width": 160
-      }
-    ],
-    "top_tracks": [
-      {
-        "name": "Up the Beach",
-        "album": "Nothing's Shocking",
-        "spotify_url": "https://open.spotify.com/track/7CByzrzR4LCBxVI7lM8Ggv",
-        "plays": 2
-      },
-      {
-        "name": "Standing in the Shower...Thinking",
-        "album": "Nothing's Shocking",
-        "spotify_url": "https://open.spotify.com/track/7DzT745Oi9NI016FEkjWNa",
-        "plays": 2
-      },
-      {
-        "name": "Idiots Rule",
-        "album": "Nothing's Shocking",
-        "spotify_url": "https://open.spotify.com/track/51Nh6X9tfaBLQF3YyK6s2A",
-        "plays": 1
-      },
-      {
-        "name": "Ocean Size",
-        "album": "Nothing's Shocking",
-        "spotify_url": "https://open.spotify.com/track/5lCjgHTEE7tbmzDVaCloGC",
         "plays": 1
       }
     ]
@@ -59247,62 +60777,6 @@
         "name": "Go Round",
         "album": "Troupeau bleu",
         "spotify_url": "https://open.spotify.com/track/3CKsKWOasAzsjlhdWk9DGs",
-        "plays": 1
-      }
-    ]
-  },
-  "the-black-keys": {
-    "id": "7mnBLXK823vNxN3UWB7Gfz",
-    "name": "The Black Keys",
-    "spotify_url": "https://open.spotify.com/artist/7mnBLXK823vNxN3UWB7Gfz",
-    "total_plays": 5,
-    "first_seen": "",
-    "last_seen": "",
-    "genres": [
-      "alternative rock",
-      "blues rock",
-      "garage rock",
-      "indie rock",
-      "indietronica",
-      "modern blues rock",
-      "modern rock",
-      "punk blues",
-      "rock"
-    ],
-    "images": [
-      {
-        "height": 640,
-        "url": "https://i.scdn.co/image/ab6761610000e5eb12a6369237c73c25794b6ed9",
-        "width": 640
-      },
-      {
-        "height": 320,
-        "url": "https://i.scdn.co/image/ab6761610000517412a6369237c73c25794b6ed9",
-        "width": 320
-      },
-      {
-        "height": 160,
-        "url": "https://i.scdn.co/image/ab6761610000f17812a6369237c73c25794b6ed9",
-        "width": 160
-      }
-    ],
-    "top_tracks": [
-      {
-        "name": "Howlin' for You",
-        "album": "Brothers",
-        "spotify_url": "https://open.spotify.com/track/0grFc6klR3hxoHLcgCYsF4",
-        "plays": 2
-      },
-      {
-        "name": "Little Black Submarines",
-        "album": "El Camino",
-        "spotify_url": "https://open.spotify.com/track/1PXsUXSM3LF2XNSkmIldPb",
-        "plays": 2
-      },
-      {
-        "name": "Lonely Boy",
-        "album": "El Camino",
-        "spotify_url": "https://open.spotify.com/track/5G1sTBGbZT5o4PNRc75RKI",
         "plays": 1
       }
     ]
