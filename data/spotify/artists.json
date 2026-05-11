@@ -6543,9 +6543,9 @@
     "id": "7dGJo4pcD2V6oG8kP0tJRR",
     "name": "Eminem",
     "spotify_url": "https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR",
-    "total_plays": 68,
+    "total_plays": 69,
     "first_seen": "2026-02-26",
-    "last_seen": "2026-05-02",
+    "last_seen": "2026-05-06",
     "genres": [
       "rap",
       "hip hop"
@@ -6797,6 +6797,12 @@
         "plays": 1
       },
       {
+        "name": "Fuel",
+        "album": "The Death of Slim Shady (Coup De Grâce)",
+        "spotify_url": "https://open.spotify.com/track/5In8B6Om5OKrhwBMB4tXSi",
+        "plays": 1
+      },
+      {
         "name": "Under The Influence",
         "album": "The Marshall Mathers LP",
         "spotify_url": "https://open.spotify.com/track/5H3B1WtZYGmyOYOXgQltKU",
@@ -6892,9 +6898,9 @@
     "id": "20qISvAhX20dpIbOOzGK3q",
     "name": "Nas",
     "spotify_url": "https://open.spotify.com/artist/20qISvAhX20dpIbOOzGK3q",
-    "total_plays": 13,
+    "total_plays": 14,
     "first_seen": "2026-02-26",
-    "last_seen": "2026-04-05",
+    "last_seen": "2026-05-06",
     "genres": [
       "old school hip hop",
       "east coast hip hop",
@@ -6925,16 +6931,16 @@
         "plays": 3
       },
       {
+        "name": "One Time 4 Your Mind",
+        "album": "Illmatic",
+        "spotify_url": "https://open.spotify.com/track/3p50PUgtBHM6rwUuD3RfFV",
+        "plays": 3
+      },
+      {
         "name": "Memory Lane (Sittin' in da Park)",
         "album": "Illmatic",
         "spotify_url": "https://open.spotify.com/track/2W58HMaCbjcUfZnZaeHtcC",
         "plays": 3
-      },
-      {
-        "name": "One Time 4 Your Mind",
-        "album": "Illmatic",
-        "spotify_url": "https://open.spotify.com/track/3p50PUgtBHM6rwUuD3RfFV",
-        "plays": 2
       },
       {
         "name": "As We Enter",
@@ -7002,9 +7008,9 @@
     "id": "5me0Irg2ANcsgc93uaYrpb",
     "name": "The Notorious B.I.G.",
     "spotify_url": "https://open.spotify.com/artist/5me0Irg2ANcsgc93uaYrpb",
-    "total_plays": 19,
+    "total_plays": 20,
     "first_seen": "2026-02-26",
-    "last_seen": "2026-04-05",
+    "last_seen": "2026-05-06",
     "genres": [
       "old school hip hop",
       "gangster rap",
@@ -7047,15 +7053,15 @@
         "plays": 3
       },
       {
-        "name": "Juicy - 2005 Remaster",
-        "album": "Ready to Die (The Remaster)",
-        "spotify_url": "https://open.spotify.com/track/5ByAIlEEnxYdvpnezg7HTX",
-        "plays": 1
-      },
-      {
         "name": "Things Done Changed - 2005 Remaster",
         "album": "Ready to Die (The Remaster)",
         "spotify_url": "https://open.spotify.com/track/7hdOchAKFm6FwzyevcQ56y",
+        "plays": 2
+      },
+      {
+        "name": "Juicy - 2005 Remaster",
+        "album": "Ready to Die (The Remaster)",
+        "spotify_url": "https://open.spotify.com/track/5ByAIlEEnxYdvpnezg7HTX",
         "plays": 1
       },
       {
@@ -7130,9 +7136,9 @@
     "id": "34EP7KEpOjXcM2TCat1ISk",
     "name": "Wu-Tang Clan",
     "spotify_url": "https://open.spotify.com/artist/34EP7KEpOjXcM2TCat1ISk",
-    "total_plays": 15,
+    "total_plays": 16,
     "first_seen": "2026-02-26",
-    "last_seen": "2026-04-05",
+    "last_seen": "2026-05-07",
     "genres": [
       "old school hip hop",
       "east coast hip hop",
@@ -7159,6 +7165,12 @@
     ],
     "top_tracks": [
       {
+        "name": "Sound The Horns",
+        "album": "Chamber Music",
+        "spotify_url": "https://open.spotify.com/track/234QpD9ilHoJjnhCVd2fOW",
+        "plays": 3
+      },
+      {
         "name": "Protect Ya Neck",
         "album": "Enter The Wu-Tang (36 Chambers) [Expanded Edition]",
         "spotify_url": "https://open.spotify.com/track/1Sgj10byiGzPpI2IrXSFEn",
@@ -7180,12 +7192,6 @@
         "name": "Wu-Tang Clan Ain't Nuthing ta F' Wit",
         "album": "Enter The Wu-Tang (36 Chambers) [Expanded Edition]",
         "spotify_url": "https://open.spotify.com/track/24vNw0Z0srb4zYXwrakw8E",
-        "plays": 2
-      },
-      {
-        "name": "Sound The Horns",
-        "album": "Chamber Music",
-        "spotify_url": "https://open.spotify.com/track/234QpD9ilHoJjnhCVd2fOW",
         "plays": 2
       },
       {
@@ -7316,9 +7322,9 @@
     "id": "6wFId9Jhuf9AKVzWboOj2B",
     "name": "Jurassic 5",
     "spotify_url": "https://open.spotify.com/artist/6wFId9Jhuf9AKVzWboOj2B",
-    "total_plays": 9,
+    "total_plays": 10,
     "first_seen": "2026-02-26",
-    "last_seen": "2026-03-11",
+    "last_seen": "2026-05-06",
     "genres": [
       "hip hop"
     ],
@@ -7347,16 +7353,16 @@
         "plays": 2
       },
       {
+        "name": "Thin Line",
+        "album": "Power In Numbers",
+        "spotify_url": "https://open.spotify.com/track/7aNPJQpHbuJSeWUD0Pay65",
+        "plays": 2
+      },
+      {
         "name": "Quality Control",
         "album": "Quality Control",
         "spotify_url": "https://open.spotify.com/track/3vqqYJXlrJiKSzh79d4DV9",
         "plays": 2
-      },
-      {
-        "name": "Thin Line",
-        "album": "Power In Numbers",
-        "spotify_url": "https://open.spotify.com/track/7aNPJQpHbuJSeWUD0Pay65",
-        "plays": 1
       },
       {
         "name": "What's Golden",
@@ -7388,9 +7394,9 @@
     "id": "03r4iKL2g2442PT9n2UKsx",
     "name": "Beastie Boys",
     "spotify_url": "https://open.spotify.com/artist/03r4iKL2g2442PT9n2UKsx",
-    "total_plays": 14,
+    "total_plays": 15,
     "first_seen": "2026-02-26",
-    "last_seen": "2026-05-03",
+    "last_seen": "2026-05-06",
     "genres": [
       "rap rock",
       "old school hip hop",
@@ -7427,6 +7433,12 @@
         "plays": 3
       },
       {
+        "name": "Don't Play No Game That I Can't Win",
+        "album": "Hot Sauce Committee (Pt. 2)",
+        "spotify_url": "https://open.spotify.com/track/7BKEIdzH1EuGoDxhyxHL9V",
+        "plays": 2
+      },
+      {
         "name": "Rhymin & Stealin",
         "album": "Licensed To Ill",
         "spotify_url": "https://open.spotify.com/track/6yKldTTcSa2BdpKPEtdYp3",
@@ -7436,12 +7448,6 @@
         "name": "B For My Name",
         "album": "The Mix-Up",
         "spotify_url": "https://open.spotify.com/track/418bjnFtwpTBXx3hrzvilO",
-        "plays": 1
-      },
-      {
-        "name": "Don't Play No Game That I Can't Win",
-        "album": "Hot Sauce Committee (Pt. 2)",
-        "spotify_url": "https://open.spotify.com/track/7BKEIdzH1EuGoDxhyxHL9V",
         "plays": 1
       },
       {
@@ -9557,9 +9563,9 @@
     "id": "2YZyLoL8N0Wb9xBt1NhZWg",
     "name": "Kendrick Lamar",
     "spotify_url": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg",
-    "total_plays": 24,
+    "total_plays": 25,
     "first_seen": "2026-03-03",
-    "last_seen": "2026-04-05",
+    "last_seen": "2026-05-06",
     "genres": [
       "hip hop",
       "west coast hip hop"
@@ -9709,6 +9715,12 @@
         "plays": 1
       },
       {
+        "name": "King Kunta",
+        "album": "To Pimp A Butterfly",
+        "spotify_url": "https://open.spotify.com/track/0N3W5peJUQtI4eyR6GJT5O",
+        "plays": 1
+      },
+      {
         "name": "Ain't That Funkin' Kinda Hard on You? - We Ain't Neva Gonna Stop Remix",
         "album": "Ain't That Funkin' Kinda Hard on You? (We Ain't Neva Gonna Stop Remix) [feat. Kendrick Lamar & Ice Cube] - Single",
         "spotify_url": "https://open.spotify.com/track/6SgQIoLn8kpu8J4wfwGWy8",
@@ -9743,12 +9755,6 @@
         "album": "Drunk",
         "spotify_url": "https://open.spotify.com/track/6fkL9CjWmjeV6vfDxTp9OZ",
         "plays": 2
-      },
-      {
-        "name": "King Kunta",
-        "album": "To Pimp A Butterfly",
-        "spotify_url": "https://open.spotify.com/track/0N3W5peJUQtI4eyR6GJT5O",
-        "plays": 1
       },
       {
         "name": "DUCKWORTH.",
@@ -24750,9 +24756,9 @@
     "id": "3GjVVVcFmUgEJEAAsbGkf4",
     "name": "Trampled by Turtles",
     "spotify_url": "https://open.spotify.com/artist/3GjVVVcFmUgEJEAAsbGkf4",
-    "total_plays": 5,
+    "total_plays": 6,
     "first_seen": "2026-04-21",
-    "last_seen": "2026-05-03",
+    "last_seen": "2026-05-06",
     "genres": [
       "bluegrass",
       "newgrass",
@@ -24782,7 +24788,7 @@
         "name": "Where Is My Mind?",
         "album": "Where Is My Mind?",
         "spotify_url": "https://open.spotify.com/track/2dJrn376fJPUCj1f4txnRQ",
-        "plays": 2
+        "plays": 3
       },
       {
         "name": "At Your Window",
@@ -25321,9 +25327,9 @@
     "id": "70kkdajctXSbqSMJbQO424",
     "name": "Kacey Musgraves",
     "spotify_url": "https://open.spotify.com/artist/70kkdajctXSbqSMJbQO424",
-    "total_plays": 16,
+    "total_plays": 17,
     "first_seen": "2026-05-01",
-    "last_seen": "2026-05-02",
+    "last_seen": "2026-05-08",
     "genres": [],
     "images": [
       {
@@ -25343,6 +25349,12 @@
       }
     ],
     "top_tracks": [
+      {
+        "name": "Horses and Divorces (feat. Miranda Lambert)",
+        "album": "Middle of Nowhere",
+        "spotify_url": "https://open.spotify.com/track/44tr6kkaMRgd2UVG44wqv7",
+        "plays": 2
+      },
       {
         "name": "Keep It To Yourself",
         "album": "Same Trailer Different Park",
@@ -25383,12 +25395,6 @@
         "name": "Biscuits",
         "album": "Pageant Material",
         "spotify_url": "https://open.spotify.com/track/4vHVfwVi2CEc4r7P1Pr9iu",
-        "plays": 1
-      },
-      {
-        "name": "Horses and Divorces (feat. Miranda Lambert)",
-        "album": "Middle of Nowhere",
-        "spotify_url": "https://open.spotify.com/track/44tr6kkaMRgd2UVG44wqv7",
         "plays": 1
       },
       {
@@ -26888,6 +26894,625 @@
         "name": "Let You Dance",
         "album": "Stay With Me",
         "spotify_url": "https://open.spotify.com/track/6BMdr2dntwavAehLT3Qt3N",
+        "plays": 1
+      }
+    ]
+  },
+  "charlotte-cornfield": {
+    "id": "59aqTTQGnvttJ4BCThaABZ",
+    "name": "Charlotte Cornfield",
+    "spotify_url": "https://open.spotify.com/artist/59aqTTQGnvttJ4BCThaABZ",
+    "total_plays": 1,
+    "first_seen": "2026-05-08",
+    "last_seen": "2026-05-08",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb817dc9fa6edf0c870dbf5dbc",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174817dc9fa6edf0c870dbf5dbc",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178817dc9fa6edf0c870dbf5dbc",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Hurts Like Hell",
+        "album": "Hurts Like Hell",
+        "spotify_url": "https://open.spotify.com/track/3eKs4PUnfFhMtr1dd0SJf7",
+        "plays": 1
+      }
+    ]
+  },
+  "luther-dickinson": {
+    "id": "1YLrCQC8gRomtIs7kc9Eyk",
+    "name": "Luther Dickinson",
+    "spotify_url": "https://open.spotify.com/artist/1YLrCQC8gRomtIs7kc9Eyk",
+    "total_plays": 1,
+    "first_seen": "2026-05-08",
+    "last_seen": "2026-05-08",
+    "genres": [
+      "modern blues",
+      "americana",
+      "country blues",
+      "blues"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebf8ab9ca4caee03fd60cd0dbe",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174f8ab9ca4caee03fd60cd0dbe",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178f8ab9ca4caee03fd60cd0dbe",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Superlover",
+        "album": "Solstice",
+        "spotify_url": "https://open.spotify.com/track/4AXju6YC61jufxaLjhEVMP",
+        "plays": 1
+      }
+    ]
+  },
+  "joy-oladokun": {
+    "id": "7rrTqtOUOwva4sgTx9C9F9",
+    "name": "Joy Oladokun",
+    "spotify_url": "https://open.spotify.com/artist/7rrTqtOUOwva4sgTx9C9F9",
+    "total_plays": 1,
+    "first_seen": "2026-05-08",
+    "last_seen": "2026-05-08",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb551a2aa848eab89d62e1c7f4",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174551a2aa848eab89d62e1c7f4",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178551a2aa848eab89d62e1c7f4",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Nothing Comes Easy",
+        "album": "Nothing Comes Easy",
+        "spotify_url": "https://open.spotify.com/track/1DTsVhtb0tUaYncdT5yT6W",
+        "plays": 1
+      }
+    ]
+  },
+  "allison-russell": {
+    "id": "3JBmecDGXTll46ygrnGTM6",
+    "name": "Allison Russell",
+    "spotify_url": "https://open.spotify.com/artist/3JBmecDGXTll46ygrnGTM6",
+    "total_plays": 3,
+    "first_seen": "2026-05-08",
+    "last_seen": "2026-05-08",
+    "genres": [
+      "southern gothic",
+      "folk"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb3254fe3677c0d3a5491e3b98",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051743254fe3677c0d3a5491e3b98",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1783254fe3677c0d3a5491e3b98",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Nightflyer",
+        "album": "Outside Child",
+        "spotify_url": "https://open.spotify.com/track/6BxDMOnim3Ut7nQaOj01DJ",
+        "plays": 1
+      },
+      {
+        "name": "Rainbows",
+        "album": "No Springtime (ft. Joy Oladokun & Julie Williams)",
+        "spotify_url": "https://open.spotify.com/track/39e8Dk9DdHrRrHMoZxCnPl",
+        "plays": 1
+      },
+      {
+        "name": "No Springtime (ft. Joy Oladokun & Julie Williams)",
+        "album": "No Springtime (ft. Joy Oladokun & Julie Williams)",
+        "spotify_url": "https://open.spotify.com/track/4roCXZFxzB1WrKofdjedQg",
+        "plays": 1
+      }
+    ]
+  },
+  "roger-glenn": {
+    "id": "7jnWKcHAIv81blyiWv47Kp",
+    "name": "Roger Glenn",
+    "spotify_url": "https://open.spotify.com/artist/7jnWKcHAIv81blyiWv47Kp",
+    "total_plays": 3,
+    "first_seen": "2026-05-07",
+    "last_seen": "2026-05-07",
+    "genres": [
+      "jazz funk",
+      "jazz fusion",
+      "latin jazz"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b27377b7c3a2fc022d8b69ed7a24",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e0284113ed8c56f67891acbf892",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000485184113ed8c56f67891acbf892",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "A Night of Love",
+        "album": "My Latin Heart",
+        "spotify_url": "https://open.spotify.com/track/2JZZu3hK7xieyT4ZhyI8Ei",
+        "plays": 1
+      },
+      {
+        "name": "Brother Marshall",
+        "album": "My Latin Heart",
+        "spotify_url": "https://open.spotify.com/track/4vBcNtrSXdQGbMv5Njahdr",
+        "plays": 1
+      },
+      {
+        "name": "Cal's Guajira",
+        "album": "My Latin Heart",
+        "spotify_url": "https://open.spotify.com/track/4VkqXzYMxSGNoqe1Lv8EWw",
+        "plays": 1
+      }
+    ]
+  },
+  "asphalt-orchestra": {
+    "id": "3j5J0E4sG4HOzPasFjB51f",
+    "name": "Asphalt Orchestra",
+    "spotify_url": "https://open.spotify.com/artist/3j5J0E4sG4HOzPasFjB51f",
+    "total_plays": 1,
+    "first_seen": "2026-05-06",
+    "last_seen": "2026-05-06",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ed66b2226ffcd09f20ed7b8090834cb7d0a615e9",
+        "height": 668,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/3650c787d0dfe50e56e9871bf782b94399c9009e",
+        "height": 427,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/5f9b51d6c07926a39301ecb5981de7f421fd1b20",
+        "height": 134,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/f17973e511689ef074c94c69c44b9be3e2db49ea",
+        "height": 43,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Where Is My Mind?",
+        "album": "Asphalt Orchestra Plays Pixies: Surfer Rosa",
+        "spotify_url": "https://open.spotify.com/track/151segr9RHrdvNcGd3jwzr",
+        "plays": 1
+      }
+    ]
+  },
+  "nada-surf": {
+    "id": "11zHPjHnZN0ACA50rSnTcy",
+    "name": "Nada Surf",
+    "spotify_url": "https://open.spotify.com/artist/11zHPjHnZN0ACA50rSnTcy",
+    "total_plays": 3,
+    "first_seen": "2026-05-06",
+    "last_seen": "2026-05-06",
+    "genres": [
+      "power pop"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb3dfa9cfdeb162143cd002cd9",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051743dfa9cfdeb162143cd002cd9",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1783dfa9cfdeb162143cd002cd9",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Where Is My Mind",
+        "album": "Where Is My Mind",
+        "spotify_url": "https://open.spotify.com/track/2AsIm3Hr3GS4P4nntYSs2Q",
+        "plays": 3
+      }
+    ]
+  },
+  "bandit": {
+    "id": "3HuJUWcLjsLUDZ5f2cu3K4",
+    "name": "Bandit",
+    "spotify_url": "https://open.spotify.com/artist/3HuJUWcLjsLUDZ5f2cu3K4",
+    "total_plays": 1,
+    "first_seen": "2026-05-06",
+    "last_seen": "2026-05-06",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b2738645dd3d4d162746bdab49d7",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e028645dd3d4d162746bdab49d7",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d000048518645dd3d4d162746bdab49d7",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Where Is My Mind",
+        "album": "Of Life",
+        "spotify_url": "https://open.spotify.com/track/0HAbTnHAwexh6JTPLQGFQ8",
+        "plays": 1
+      }
+    ]
+  },
+  "alice-donut": {
+    "id": "6K3GiMqOeKI1Z37rtwyEw2",
+    "name": "Alice Donut",
+    "spotify_url": "https://open.spotify.com/artist/6K3GiMqOeKI1Z37rtwyEw2",
+    "total_plays": 1,
+    "first_seen": "2026-05-06",
+    "last_seen": "2026-05-06",
+    "genres": [
+      "noise rock",
+      "hardcore punk"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/4341d16d273be57b5d6a90bed8409284f4f18de8",
+        "height": 646,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/3c6b4b840d9d8fd973bcf4638267256f05c11157",
+        "height": 413,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/1355668a20a91c07cedc4a724589b196ea718a28",
+        "height": 129,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/4eefc54c843d91353025cacbb532d1bb1166d106",
+        "height": 41,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Where Is My Mind",
+        "album": "Ten Glorious Animals",
+        "spotify_url": "https://open.spotify.com/track/1Yqa8lqu1NZdMmh0aA0IAq",
+        "plays": 1
+      }
+    ]
+  },
+  "vitamin-string-quartet": {
+    "id": "6MERXsiRbur2oJZFgYRDKz",
+    "name": "Vitamin String Quartet",
+    "spotify_url": "https://open.spotify.com/artist/6MERXsiRbur2oJZFgYRDKz",
+    "total_plays": 1,
+    "first_seen": "2026-05-06",
+    "last_seen": "2026-05-06",
+    "genres": [
+      "orchestral"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebc11ed1bdc11b3074422b668b",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174c11ed1bdc11b3074422b668b",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178c11ed1bdc11b3074422b668b",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Where Is My Mind?",
+        "album": "Vsq Film School: Cult Classics & Indie Faves",
+        "spotify_url": "https://open.spotify.com/track/2Dw2KGzVdeP65aee6oBMOE",
+        "plays": 1
+      }
+    ]
+  },
+  "thepetebox": {
+    "id": "2MLRkw05bhcqnV1JFWpJTY",
+    "name": "THePETEBOX",
+    "spotify_url": "https://open.spotify.com/artist/2MLRkw05bhcqnV1JFWpJTY",
+    "total_plays": 1,
+    "first_seen": "2026-05-06",
+    "last_seen": "2026-05-06",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb36d0e40a725fecc31a183142",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517436d0e40a725fecc31a183142",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17836d0e40a725fecc31a183142",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Where Is My Mind",
+        "album": "Future Loops",
+        "spotify_url": "https://open.spotify.com/track/7Axvsp6YJ3Qd6ubngJZUCh",
+        "plays": 1
+      }
+    ]
+  },
+  "the-supervillains": {
+    "id": "0LN8DYo6VtPVK0WQ3g6AXJ",
+    "name": "The Supervillains",
+    "spotify_url": "https://open.spotify.com/artist/0LN8DYo6VtPVK0WQ3g6AXJ",
+    "total_plays": 1,
+    "first_seen": "2026-05-06",
+    "last_seen": "2026-05-06",
+    "genres": [
+      "reggae rock",
+      "ska",
+      "ska punk",
+      "reggae"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebc579e616f97863a497ba3483",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174c579e616f97863a497ba3483",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178c579e616f97863a497ba3483",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Where Is My Mind",
+        "album": "Volume 8",
+        "spotify_url": "https://open.spotify.com/track/6efCAHvdVFpJ1ub74NbBcp",
+        "plays": 1
+      }
+    ]
+  },
+  "maxence-cyrin": {
+    "id": "3NcPjvA2rp9FPj1JBAXwOS",
+    "name": "Maxence Cyrin",
+    "spotify_url": "https://open.spotify.com/artist/3NcPjvA2rp9FPj1JBAXwOS",
+    "total_plays": 2,
+    "first_seen": "2026-05-06",
+    "last_seen": "2026-05-06",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb86400c5154a33855af3663aa",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517486400c5154a33855af3663aa",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17886400c5154a33855af3663aa",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Where Is My Mind",
+        "album": "Lounge Music - The Best Of",
+        "spotify_url": "https://open.spotify.com/track/26TdgPMaflQEFuhhC9Ibz0",
+        "plays": 1
+      },
+      {
+        "name": "Where Is My Mind",
+        "album": "Novö Piano",
+        "spotify_url": "https://open.spotify.com/track/4jNQkWhuzqrbqQuqanFFJ6",
+        "plays": 1
+      }
+    ]
+  },
+  "the-coral-sea": {
+    "id": "2TLhfTW2rb5ppObgBsPQR8",
+    "name": "The Coral Sea",
+    "spotify_url": "https://open.spotify.com/artist/2TLhfTW2rb5ppObgBsPQR8",
+    "total_plays": 1,
+    "first_seen": "2026-05-06",
+    "last_seen": "2026-05-06",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb5030cc907ff55bddaf56e881",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051745030cc907ff55bddaf56e881",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1785030cc907ff55bddaf56e881",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Where Is My Mind",
+        "album": "Where Is My Mind",
+        "spotify_url": "https://open.spotify.com/track/4yOv1r66Kn6T4ndC1pHEmz",
+        "plays": 1
+      }
+    ]
+  },
+  "pixies": {
+    "id": "6zvul52xwTWzilBZl6BUbT",
+    "name": "Pixies",
+    "spotify_url": "https://open.spotify.com/artist/6zvul52xwTWzilBZl6BUbT",
+    "total_plays": 2,
+    "first_seen": "2026-05-06",
+    "last_seen": "2026-05-06",
+    "genres": [
+      "alternative rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb419ffe5eb82b7460c76a986a",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174419ffe5eb82b7460c76a986a",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178419ffe5eb82b7460c76a986a",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Where Is My Mind? - 2007 Remaster",
+        "album": "Surfer Rosa (2007 Remaster)",
+        "spotify_url": "https://open.spotify.com/track/7wCmS9TTVUcIhRalDYFgPy",
+        "plays": 2
+      },
+      {
+        "name": "Hey",
+        "album": "Doolittle",
+        "spotify_url": "https://open.spotify.com/track/0p5eZCY0R7uNCZS1YDtIYI",
+        "plays": 1
+      }
+    ]
+  },
+  "the-step-beats": {
+    "id": "3OedTjWRBr8Bg3hMZgMOTy",
+    "name": "The Step Beats",
+    "spotify_url": "https://open.spotify.com/artist/3OedTjWRBr8Bg3hMZgMOTy",
+    "total_plays": 1,
+    "first_seen": "2026-05-06",
+    "last_seen": "2026-05-06",
+    "genres": [
+      "reggae rock",
+      "reggae"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebbfa6ffa3d33e8eb751d13b9a",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174bfa6ffa3d33e8eb751d13b9a",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178bfa6ffa3d33e8eb751d13b9a",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Where Is My Mind?",
+        "album": "Where Is My Mind?",
+        "spotify_url": "https://open.spotify.com/track/5nv88WgMaPtHda07y7chpp",
         "plays": 1
       }
     ]
