@@ -31,10 +31,10 @@
       "link": "/tags"
     },
     {
-      "title": "Musical Genres",
-      "name": "musical-genres",
+      "title": "Listening",
+      "name": "listening",
       "icon": "fa-solid fa-headphones",
-      "link": "/musical-genres"
+      "link": "/listening"
     },
     {
       "title": "Ingredients",
