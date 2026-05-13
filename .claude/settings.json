@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__chrome-devtools__*",
+      "Read(/var/folders/*)"
+    ]
+  }
+}

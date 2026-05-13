@@ -6,6 +6,7 @@ enableGitInfo = false
   analytics_provider = "posthog"
   posthog_host = "https://t.benstrawbridge.com"
   posthog_ui_host = "https://us.posthog.com"
+  posthog_cookie_domain = ".benstrawbridge.com"
   posthog_defaults = "2026-01-30"
   posthog_person_profiles = "identified_only"
 

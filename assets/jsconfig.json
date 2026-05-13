@@ -4,7 +4,7 @@
   "paths": {
    "*": [
     "*",
-    "../themes/ryder-dev/assets/*"
+    "../themes/ryder/assets/*"
    ]
   }
  }
