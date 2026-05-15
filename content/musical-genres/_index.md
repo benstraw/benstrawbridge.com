@@ -7,7 +7,7 @@ tags = ["musical-genres"]
 # showTOC = true
 
 [cascade]
-  sectionTitle = "Musical Genres on BenStrawbridge.com"
+  sectionTitle = "Benstraw's Music Brain"
   homeFeatureIcon = "fa-solid fa-headphones"
   featured_image = "musical-genre_featured.webp"
 +++
@@ -20,4 +20,3 @@ tags = ["musical-genres"]
 
   {{< font-awesome "fab fa-spotify text-7xl mr-2 text-emerald-500 inline-block align-middle max-w-16 fill-current" >}} Every musical genre in my recent tracks. This page was generated with the Spotify API , please read our [full disclosure on our use of this data]({{< relref "/fineprint/spotify-data-use-disclosure" >}}).
 <!--more-->
-
