@@ -1,0 +1,1249 @@
+{
+  "week": "2026-W20",
+  "title": "Week of May 11, 2026",
+  "year": 2026,
+  "week_num": 20,
+  "date_start": "2026-05-11",
+  "date_end": "2026-05-17",
+  "total_plays": 113,
+  "unique_artists": 22,
+  "topArtistName": "Johann Sebastian Bach",
+  "topArtistImages": [
+    {
+      "url": "https://i.scdn.co/image/a2ec08fe69ecec2748fbc764aede8f1b03ae8f88",
+      "height": 479,
+      "width": 479
+    },
+    {
+      "url": "https://i.scdn.co/image/53ec9642cf116eca56d88284c40bb1497585e28e",
+      "height": 200,
+      "width": 200
+    },
+    {
+      "url": "https://i.scdn.co/image/438b280a22e63f994fd39feb031683fb861a31cb",
+      "height": 64,
+      "width": 64
+    }
+  ],
+  "top_genres": [
+    {
+      "name": "classical piano",
+      "plays": 58
+    },
+    {
+      "name": "classical",
+      "plays": 57
+    },
+    {
+      "name": "baroque",
+      "plays": 45
+    },
+    {
+      "name": "concerto",
+      "plays": 40
+    },
+    {
+      "name": "early music",
+      "plays": 39
+    },
+    {
+      "name": "bebop",
+      "plays": 35
+    },
+    {
+      "name": "jazz",
+      "plays": 35
+    },
+    {
+      "name": "hard bop",
+      "plays": 35
+    },
+    {
+      "name": "cool jazz",
+      "plays": 34
+    },
+    {
+      "name": "folk",
+      "plays": 15
+    }
+  ],
+  "top_artists": [
+    {
+      "slug": "johann-sebastian-bach",
+      "name": "Johann Sebastian Bach",
+      "plays": 38,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/a2ec08fe69ecec2748fbc764aede8f1b03ae8f88",
+          "height": 479,
+          "width": 479
+        },
+        {
+          "url": "https://i.scdn.co/image/53ec9642cf116eca56d88284c40bb1497585e28e",
+          "height": 200,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/438b280a22e63f994fd39feb031683fb861a31cb",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "bud-powell",
+      "name": "Bud Powell",
+      "plays": 30,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb4fe8a62f9e7c2a0c48a3b9ac",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051744fe8a62f9e7c2a0c48a3b9ac",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1784fe8a62f9e7c2a0c48a3b9ac",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "allison-russell",
+      "name": "Allison Russell",
+      "plays": 12,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb3254fe3677c0d3a5491e3b98",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051743254fe3677c0d3a5491e3b98",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1783254fe3677c0d3a5491e3b98",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "johannes-brahms",
+      "name": "Johannes Brahms",
+      "plays": 5,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/d5c6af18beb1411ab49c2976647e0d370bf66a88",
+          "height": 752,
+          "width": 514
+        },
+        {
+          "url": "https://i.scdn.co/image/841b4adc1a4e66906d99229aaaec26306d6aed92",
+          "height": 293,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/39d3c79df7fed6b4c597babaa24586d40fa44a45",
+          "height": 94,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "glenn-gould",
+      "name": "Glenn Gould",
+      "plays": 4,
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebae1364cd7533a53776d8ae43",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174ae1364cd7533a53776d8ae43",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178ae1364cd7533a53776d8ae43",
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "ludwig-van-beethoven",
+      "name": "Ludwig van Beethoven",
+      "plays": 4,
+      "images": [
+        {
+          "height": 750,
+          "url": "https://i.scdn.co/image/db022999443da6f89e250086329d98b17399b346",
+          "width": 1000
+        },
+        {
+          "height": 480,
+          "url": "https://i.scdn.co/image/693030b2c7ee75d1fc095d9e6a7fe391a6b10f27",
+          "width": 640
+        },
+        {
+          "height": 150,
+          "url": "https://i.scdn.co/image/348252c0e6722a55a05484b052ef010e71ca30ce",
+          "width": 200
+        },
+        {
+          "height": 48,
+          "url": "https://i.scdn.co/image/621f978b2a436b0392478baccb8778d3a9842e38",
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "charlie-parker",
+      "name": "Charlie Parker",
+      "plays": 3,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb5642427a0fb3988948c9bec4",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051745642427a0fb3988948c9bec4",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1785642427a0fb3988948c9bec4",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "domenico-scarlatti",
+      "name": "Domenico Scarlatti",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/02dc4bf883736095757701dfb28acc40f5df8216",
+          "height": 1263,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/4ab7244c869ea68adf7fc45d5c650eea4361afa3",
+          "height": 808,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/24555ded3f83f0a86ddae3c637ae256794e4d54a",
+          "height": 253,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/1236427a95ffd921ab90d155dc6b87171bb0edbc",
+          "height": 81,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "billy-strings",
+      "name": "Billy Strings",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb532fd0e6740fd3db38933afb",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174532fd0e6740fd3db38933afb",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178532fd0e6740fd3db38933afb",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "bud-powell-trio",
+      "name": "Bud Powell Trio",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000b273054164b79c7beefebc2b360e",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00001e02054164b79c7beefebc2b360e",
+          "height": 300,
+          "width": 300
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00004851054164b79c7beefebc2b360e",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "dexter-gordon",
+      "name": "Dexter Gordon",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb7e357392ac4637109f24e459",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051747e357392ac4637109f24e459",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1787e357392ac4637109f24e459",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "robert-schumann",
+      "name": "Robert Schumann",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/795f15e4d860456a306055ccc995075c5dad9fa6",
+          "height": 1106,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/55c5a95549820a9d19f02c31e16e79fa9f2bc3dd",
+          "height": 708,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/f6e54b847e866ea410cfa19af2e270e6fe414df0",
+          "height": 221,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/4ed99d3b6ed0913e5ef534e28d4363826bd85f38",
+          "height": 71,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "sergei-rachmaninoff",
+      "name": "Sergei Rachmaninoff",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/463e3c5c3e814761532f554913cf2af456bcba59",
+          "height": 1205,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/774dbc0919edd260d091aace2787caf4a8e59448",
+          "height": 771,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/fccf9d0d652d13bb34b1cd8a5f6aa37f839a2a27",
+          "height": 241,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/b8330117c874452738ae70abd12561af07c9867f",
+          "height": 77,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "felix-mendelssohn",
+      "name": "Felix Mendelssohn",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/32bf53aa73dbb81c615a91324efea0bcfff4b440",
+          "height": 508,
+          "width": 443
+        },
+        {
+          "url": "https://i.scdn.co/image/7f30d9306a73a4233125a3e6ef7680f18b7f6b15",
+          "height": 229,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/b7fd64d9cab12bfc120453780ee6bad0202fc05a",
+          "height": 73,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "wolfgang-amadeus-mozart",
+      "name": "Wolfgang Amadeus Mozart",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb7fa9108c6dadb8c3ec21da88",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051747fa9108c6dadb8c3ec21da88",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1787fa9108c6dadb8c3ec21da88",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "orlando-gibbons",
+      "name": "Orlando Gibbons",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/1ad1bc8d345d112a1253fa17b0606ef14a8e5311",
+          "height": 1000,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/735370def81517a11cf5b3a16597720624b1d3bd",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/5bd93bbb478ee6a142f342e83f937afe2475a568",
+          "height": 200,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/380d2b2a57d2269c6a941b3dd096fc116d04b991",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "old-crow-medicine-show",
+      "name": "Old Crow Medicine Show",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eba055968bc8c4b9d8901b1e1e",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174a055968bc8c4b9d8901b1e1e",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178a055968bc8c4b9d8901b1e1e",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "john-prine",
+      "name": "John Prine",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebf109851845669becdc5c63f6",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174f109851845669becdc5c63f6",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178f109851845669becdc5c63f6",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "aoife-odonovan",
+      "name": "Aoife O'Donovan",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb24181cbd20197d12f80993ad",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517424181cbd20197d12f80993ad",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17824181cbd20197d12f80993ad",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "luther-dickinson",
+      "name": "Luther Dickinson",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebf8ab9ca4caee03fd60cd0dbe",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174f8ab9ca4caee03fd60cd0dbe",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178f8ab9ca4caee03fd60cd0dbe",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "hozier",
+      "name": "Hozier",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebad85a585103dfc2f3439119a",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174ad85a585103dfc2f3439119a",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178ad85a585103dfc2f3439119a",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "cure-for-paranoia",
+      "name": "Cure for Paranoia",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb188cf58181464ebe064f55d1",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174188cf58181464ebe064f55d1",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178188cf58181464ebe064f55d1",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    }
+  ],
+  "top_tracks": [
+    {
+      "name": "Springtime",
+      "artist": "Allison Russell",
+      "artist_slug": "allison-russell",
+      "plays": 2
+    },
+    {
+      "name": "You're Not Alone [Feat. Brandi Carlile]",
+      "artist": "Allison Russell",
+      "artist_slug": "allison-russell",
+      "plays": 2
+    },
+    {
+      "name": "Reets And I",
+      "artist": "Bud Powell",
+      "artist_slug": "bud-powell",
+      "plays": 1
+    },
+    {
+      "name": "Satin Doll",
+      "artist": "Bud Powell",
+      "artist_slug": "bud-powell",
+      "plays": 1
+    },
+    {
+      "name": "Crossin' The Channel - Remastered 2003/Rudy Van Gelder Edition",
+      "artist": "Bud Powell",
+      "artist_slug": "bud-powell",
+      "plays": 1
+    },
+    {
+      "name": "Over The Rainbow",
+      "artist": "Bud Powell",
+      "artist_slug": "bud-powell",
+      "plays": 1
+    },
+    {
+      "name": "Autumn In New York",
+      "artist": "Bud Powell",
+      "artist_slug": "bud-powell",
+      "plays": 1
+    },
+    {
+      "name": "Dear Old Stockholm",
+      "artist": "Bud Powell",
+      "artist_slug": "bud-powell",
+      "plays": 1
+    },
+    {
+      "name": "Duid Deed - Remastered 2003/Rudy Van Gelder Edition",
+      "artist": "Bud Powell",
+      "artist_slug": "bud-powell",
+      "plays": 1
+    },
+    {
+      "name": "Collard Greens And Black-Eyed Peas - Rudy Van Gelder/24 Bit Mastering/1998 Digital Remaster",
+      "artist": "Bud Powell",
+      "artist_slug": "bud-powell",
+      "plays": 1
+    },
+    {
+      "name": "I Want To Be Happy",
+      "artist": "Bud Powell",
+      "artist_slug": "bud-powell",
+      "plays": 1
+    },
+    {
+      "name": "There Will Never Be Another You",
+      "artist": "Bud Powell",
+      "artist_slug": "bud-powell",
+      "plays": 1
+    },
+    {
+      "name": "Borderick - Remastered 2003/Rudy Van Gelder Edition",
+      "artist": "Bud Powell",
+      "artist_slug": "bud-powell",
+      "plays": 1
+    },
+    {
+      "name": "Lullaby Of Birdland - Live At Massey Hall / 1953",
+      "artist": "Charlie Parker",
+      "artist_slug": "charlie-parker",
+      "plays": 1
+    },
+    {
+      "name": "Body And Soul",
+      "artist": "Bud Powell",
+      "artist_slug": "bud-powell",
+      "plays": 1
+    },
+    {
+      "name": "Sure Thing",
+      "artist": "Bud Powell",
+      "artist_slug": "bud-powell",
+      "plays": 1
+    },
+    {
+      "name": "Danceland - Remastered 2003/Rudy Van Gelder Edition",
+      "artist": "Bud Powell",
+      "artist_slug": "bud-powell",
+      "plays": 1
+    },
+    {
+      "name": "Wail - Remastered 1998/Rudy Van Gelder Edition",
+      "artist": "Bud Powell",
+      "artist_slug": "bud-powell",
+      "plays": 1
+    },
+    {
+      "name": "A Night In Tunisia",
+      "artist": "Bud Powell Trio",
+      "artist_slug": "bud-powell-trio",
+      "plays": 1
+    },
+    {
+      "name": "Down With It - Remastered 2003/Rudy Van Gelder Edition",
+      "artist": "Bud Powell",
+      "artist_slug": "bud-powell",
+      "plays": 1
+    },
+    {
+      "name": "It Could Happen To You - Rudy Van Gelder Edition / Remastered 1998",
+      "artist": "Bud Powell",
+      "artist_slug": "bud-powell",
+      "plays": 1
+    },
+    {
+      "name": "Willow Weep For Me",
+      "artist": "Dexter Gordon",
+      "artist_slug": "dexter-gordon",
+      "plays": 1
+    },
+    {
+      "name": "I’ve Got You Under My Skin - Live At Massey Hall / 1953",
+      "artist": "Charlie Parker",
+      "artist_slug": "charlie-parker",
+      "plays": 1
+    },
+    {
+      "name": "52nd Street Theme - Remastered 1998/Rudy Van Gelder Edition",
+      "artist": "Bud Powell",
+      "artist_slug": "bud-powell",
+      "plays": 1
+    },
+    {
+      "name": "I'll Keep Loving You",
+      "artist": "Bud Powell",
+      "artist_slug": "bud-powell",
+      "plays": 1
+    },
+    {
+      "name": "Embraceable You - Live At Massey Hall / 1953",
+      "artist": "Charlie Parker",
+      "artist_slug": "charlie-parker",
+      "plays": 1
+    },
+    {
+      "name": "Buster Rides Again - Remastered 1999/Rudy Van Gelder Edition",
+      "artist": "Bud Powell",
+      "artist_slug": "bud-powell",
+      "plays": 1
+    },
+    {
+      "name": "Celia",
+      "artist": "Bud Powell",
+      "artist_slug": "bud-powell",
+      "plays": 1
+    },
+    {
+      "name": "Ornithology",
+      "artist": "Bud Powell",
+      "artist_slug": "bud-powell",
+      "plays": 1
+    },
+    {
+      "name": "I'll Keep Loving You",
+      "artist": "Bud Powell",
+      "artist_slug": "bud-powell",
+      "plays": 1
+    },
+    {
+      "name": "Blues In The Closet",
+      "artist": "Bud Powell",
+      "artist_slug": "bud-powell",
+      "plays": 1
+    },
+    {
+      "name": "Bouncin' With Bud",
+      "artist": "Bud Powell",
+      "artist_slug": "bud-powell",
+      "plays": 1
+    },
+    {
+      "name": "Cheryl",
+      "artist": "Bud Powell",
+      "artist_slug": "bud-powell",
+      "plays": 1
+    },
+    {
+      "name": "Cleopatra's Dream - Remastered 2003/Rudy Van Gelder Edition",
+      "artist": "Bud Powell",
+      "artist_slug": "bud-powell",
+      "plays": 1
+    },
+    {
+      "name": "Un Poco Loco",
+      "artist": "Bud Powell",
+      "artist_slug": "bud-powell",
+      "plays": 1
+    },
+    {
+      "name": "You Go To My Head",
+      "artist": "Bud Powell",
+      "artist_slug": "bud-powell",
+      "plays": 1
+    },
+    {
+      "name": "Polka Dots And Moonbeams",
+      "artist": "Bud Powell",
+      "artist_slug": "bud-powell",
+      "plays": 1
+    },
+    {
+      "name": "Kinderszenen, Op. 15: VII. Träumerei",
+      "artist": "Robert Schumann",
+      "artist_slug": "robert-schumann",
+      "plays": 1
+    },
+    {
+      "name": "12 Songs, Op. 21: V. Lilacs (Transcr. Rachmaninoff for Solo Piano)",
+      "artist": "Sergei Rachmaninoff",
+      "artist_slug": "sergei-rachmaninoff",
+      "plays": 1
+    },
+    {
+      "name": "Goldberg Variations, BWV 988: Variation 25 a 2 Clav.",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "String Quartet, Op. 1 - Remastered",
+      "artist": "Glenn Gould",
+      "artist_slug": "glenn-gould",
+      "plays": 1
+    },
+    {
+      "name": "Three-Part Inventions (Sinfonias), BWV 787-801: Sinfonia No. 3 in D Major, BWV 789",
+      "artist": "Glenn Gould",
+      "artist_slug": "glenn-gould",
+      "plays": 1
+    },
+    {
+      "name": "Goldberg Variations, BWV 988: Variation 2 a 1 Clav.",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Piano Sonata No. 1 in F Minor, Op. 2 No. 1: III. Menuetto. Allegretto",
+      "artist": "Ludwig van Beethoven",
+      "artist_slug": "ludwig-van-beethoven",
+      "plays": 1
+    },
+    {
+      "name": "Goldberg Variations, BWV 988: Aria da capo",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Partita No. 2 in C Minor, BWV 826: V. Rondeaux",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Keyboard Concerto No. 2 in E Major, BWV 1053: II. Siciliano",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Goldberg Variations, BWV 988: Variation 1 a 1 Clav.",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Prelude and Fugue No. 1 in C Major, BWV 846: Prelude",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Keyboard Concerto No. 1 in D Minor, BWV 1052: I. Allegro",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Goldberg Variations, BWV 988: Variation 6 a 1 Clav. Canone alla Seconda",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Goldberg Variations, BWV 988: Variation 3 a 1 Clav. Canone all' Unisuono",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Sonata in D Minor, L. 413 - Remastered",
+      "artist": "Domenico Scarlatti",
+      "artist_slug": "domenico-scarlatti",
+      "plays": 1
+    },
+    {
+      "name": "Prelude & Fugue No. 3 in C-Sharp Major, BWV 848: Fugue No. 3 in C-Sharp Major, BWV 848",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Sonata No. 8 in C Minor, Op. 13 \"Pathétique\": II. Adagio cantabile - Remastered",
+      "artist": "Ludwig van Beethoven",
+      "artist_slug": "ludwig-van-beethoven",
+      "plays": 1
+    },
+    {
+      "name": "Invention No. 10 in G Major, BVW 781 - Remastered",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Sonata in G Major, K 13 (L 486)",
+      "artist": "Domenico Scarlatti",
+      "artist_slug": "domenico-scarlatti",
+      "plays": 1
+    },
+    {
+      "name": "The Well-Tempered Clavier, Book 1: Prelude No. 4 in C-Sharp Minor, BWV 849",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Partita No. 1 in B-Flat Major, BWV 825: V. Minuetts I & II",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Piano Concerto No. 5 in E-Flat Major, Op. 73 \"Emperor\": II. Adagio un poco mosso",
+      "artist": "Ludwig van Beethoven",
+      "artist_slug": "ludwig-van-beethoven",
+      "plays": 1
+    },
+    {
+      "name": "Partita No. 1 in B-Flat Major, BWV 825: II. Allemande",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Prelude & Fugue No. 3 in C-Sharp Major, BWV 848: Prelude",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "The Well-Tempered Clavier, Book 2: Fugue No. 14 in F-Sharp Minor, BWV 883",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "French Suite No. 1 in D Minor, BWV 812: I. Allemande",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Keyboard Concerto No. 1 in D Minor, BWV 1052: III. Allegro",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Intermezzo No. 2 in A Major, Op. 118 - Andante teneramente - Remastered",
+      "artist": "Johannes Brahms",
+      "artist_slug": "johannes-brahms",
+      "plays": 1
+    },
+    {
+      "name": "Three-Part Inventions (Sinfonias), BWV 787-801: Sinfonia No. 2 in C Minor, BWV 788",
+      "artist": "Glenn Gould",
+      "artist_slug": "glenn-gould",
+      "plays": 1
+    },
+    {
+      "name": "Goldberg Variations, BWV 988: Variation 7 a 1 ovvero 2 Clav.",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "The Well-Tempered Clavier, Book 2: Fugue No. 9 in E Major, BWV 878",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Goldberg Variations, BWV 988: Variation 5 a 1 ovvero 2 Clav.",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "The Well-Tempered Clavier, Book 1: Prelude No. 5 in D Major, BWV 850",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Intermezzo No. 1 in E-Flat Major, Op. 117 - Andante moderato - Remastered",
+      "artist": "Johannes Brahms",
+      "artist_slug": "johannes-brahms",
+      "plays": 1
+    },
+    {
+      "name": "Keyboard Concerto No. 5 in F Minor, BWV 1056: II. Largo",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Prelude & Fugue No. 2 in C Minor, BWV 847: Prelude",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Songs Without Words, Book 1, Op. 19b: No. 1 in E Major, MWV U 86",
+      "artist": "Felix Mendelssohn",
+      "artist_slug": "felix-mendelssohn",
+      "plays": 1
+    },
+    {
+      "name": "Goldberg Variations, BWV 988: Aria",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Partita No. 1 in B-Flat Major, BWV 825: IV. Sarabande",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Goldberg Variations, BWV 988: Variation 9 a 1 Clav. Canone alla Terza",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Intermezzo No. 2 in B-Flat Minor, Op. 117 - Andante non troppo e con molta espressione - Remastered",
+      "artist": "Johannes Brahms",
+      "artist_slug": "johannes-brahms",
+      "plays": 1
+    },
+    {
+      "name": "Piano Sonata No. 8 in A Minor, K. 310: II. Andante cantabile con espressione",
+      "artist": "Wolfgang Amadeus Mozart",
+      "artist_slug": "wolfgang-amadeus-mozart",
+      "plays": 1
+    },
+    {
+      "name": "4 Ballades, Op. 10: No. 4 in B Major. Andante con molto",
+      "artist": "Johannes Brahms",
+      "artist_slug": "johannes-brahms",
+      "plays": 1
+    },
+    {
+      "name": "Intermezzo No. 7 in A Minor, Op. 76 - Moderato semplice - Remastered",
+      "artist": "Johannes Brahms",
+      "artist_slug": "johannes-brahms",
+      "plays": 1
+    },
+    {
+      "name": "Keyboard Concerto No. 1 in D Minor, BWV 1052: II. Adagio",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Partita No. 1 in B-Flat Major, BWV 825: VI. Gigue",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Goldberg Variations, BWV 988: Variation 3 a 1 Clav. Canone all'Unisono",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Partita No. 2 in C Minor, BWV 826: IV. Sarabande",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Invention No. 1 in C Major, BWV 772",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Keyboard Concerto No. 2 in E Major, BWV 1053: I. ?",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Invention No. 8 in F Major, BWV 779",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "The Well-Tempered Clavier, Book 1: Prelude No. 6 in D Minor, BWV 851",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Invention No. 14 in B-Flat Major, BWV 785",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Fantasia in C Major",
+      "artist": "Orlando Gibbons",
+      "artist_slug": "orlando-gibbons",
+      "plays": 1
+    },
+    {
+      "name": "Goldberg Variations, BWV 988: Variation 4 a 1 Clav.",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Piano Sonata No. 1 in F Minor, Op. 2 No. 1: II. Adagio",
+      "artist": "Ludwig van Beethoven",
+      "artist_slug": "ludwig-van-beethoven",
+      "plays": 1
+    },
+    {
+      "name": "Italian Concerto in F Major, BWV 971: I. Allegro",
+      "artist": "Glenn Gould",
+      "artist_slug": "glenn-gould",
+      "plays": 1
+    },
+    {
+      "name": "Take 'Em Away",
+      "artist": "Old Crow Medicine Show",
+      "artist_slug": "old-crow-medicine-show",
+      "plays": 1
+    },
+    {
+      "name": "Watch It Fall",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 1
+    },
+    {
+      "name": "Spanish Pipedream",
+      "artist": "John Prine",
+      "artist_slug": "john-prine",
+      "plays": 1
+    },
+    {
+      "name": "Gild the Lily",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 1
+    },
+    {
+      "name": "Joyful Motherfuckers",
+      "artist": "Allison Russell",
+      "artist_slug": "allison-russell",
+      "plays": 1
+    },
+    {
+      "name": "Prodigal Daughter",
+      "artist": "Aoife O'Donovan",
+      "artist_slug": "aoife-odonovan",
+      "plays": 1
+    },
+    {
+      "name": "By Your Side",
+      "artist": "Allison Russell",
+      "artist_slug": "allison-russell",
+      "plays": 1
+    },
+    {
+      "name": "Hy-Brasil",
+      "artist": "Allison Russell",
+      "artist_slug": "allison-russell",
+      "plays": 1
+    },
+    {
+      "name": "Cold April (ft. Kara Jackson, Denitia & Explore! Pop Choir)",
+      "artist": "Allison Russell",
+      "artist_slug": "allison-russell",
+      "plays": 1
+    },
+    {
+      "name": "Superlover",
+      "artist": "Luther Dickinson",
+      "artist_slug": "luther-dickinson",
+      "plays": 1
+    },
+    {
+      "name": "Persephone",
+      "artist": "Allison Russell",
+      "artist_slug": "allison-russell",
+      "plays": 1
+    },
+    {
+      "name": "No Springtime (ft. Joy Oladokun & Julie Williams)",
+      "artist": "Allison Russell",
+      "artist_slug": "allison-russell",
+      "plays": 1
+    },
+    {
+      "name": "The Returner",
+      "artist": "Allison Russell",
+      "artist_slug": "allison-russell",
+      "plays": 1
+    },
+    {
+      "name": "Nightflyer",
+      "artist": "Allison Russell",
+      "artist_slug": "allison-russell",
+      "plays": 1
+    },
+    {
+      "name": "Wildflower and Barley (feat. Allison Russell)",
+      "artist": "Hozier",
+      "artist_slug": "hozier",
+      "plays": 1
+    },
+    {
+      "name": "No Brainer",
+      "artist": "Cure for Paranoia",
+      "artist_slug": "cure-for-paranoia",
+      "plays": 1
+    }
+  ]
+}
