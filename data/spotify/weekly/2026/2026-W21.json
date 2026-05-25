@@ -1,0 +1,264 @@
+{
+  "week": "2026-W21",
+  "title": "Week of May 18, 2026",
+  "year": 2026,
+  "week_num": 21,
+  "date_start": "2026-05-18",
+  "date_end": "2026-05-24",
+  "total_plays": 21,
+  "unique_artists": 4,
+  "topArtistName": "Jack Van Cleaf",
+  "topArtistImages": [
+    {
+      "url": "https://i.scdn.co/image/ab6761610000e5ebbbfa796484d4fdc57cefd2d1",
+      "height": 640,
+      "width": 640
+    },
+    {
+      "url": "https://i.scdn.co/image/ab67616100005174bbfa796484d4fdc57cefd2d1",
+      "height": 320,
+      "width": 320
+    },
+    {
+      "url": "https://i.scdn.co/image/ab6761610000f178bbfa796484d4fdc57cefd2d1",
+      "height": 160,
+      "width": 160
+    }
+  ],
+  "top_genres": [
+    {
+      "name": "hard bop",
+      "plays": 5
+    },
+    {
+      "name": "bebop",
+      "plays": 5
+    },
+    {
+      "name": "jazz",
+      "plays": 5
+    },
+    {
+      "name": "cool jazz",
+      "plays": 5
+    }
+  ],
+  "top_artists": [
+    {
+      "slug": "jack-van-cleaf",
+      "name": "Jack Van Cleaf",
+      "plays": 14,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebbbfa796484d4fdc57cefd2d1",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174bbfa796484d4fdc57cefd2d1",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178bbfa796484d4fdc57cefd2d1",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "hampton-hawes",
+      "name": "Hampton Hawes",
+      "plays": 5,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000b2739ff452639474ffe057f5c467",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00001e029ff452639474ffe057f5c467",
+          "height": 300,
+          "width": 300
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d000048519ff452639474ffe057f5c467",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "verdezul",
+      "name": "Verdèzul",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebde992585da11c3567cabaa5a",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174de992585da11c3567cabaa5a",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178de992585da11c3567cabaa5a",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "flipturn",
+      "name": "flipturn",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb724cced4ad8949fd70698843",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174724cced4ad8949fd70698843",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178724cced4ad8949fd70698843",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    }
+  ],
+  "top_tracks": [
+    {
+      "name": "Taxes Finnah Hit",
+      "artist": "Verdèzul",
+      "artist_slug": "verdezul",
+      "plays": 1
+    },
+    {
+      "name": "Carioca",
+      "artist": "Hampton Hawes",
+      "artist_slug": "hampton-hawes",
+      "plays": 1
+    },
+    {
+      "name": "Feelin' Fine",
+      "artist": "Hampton Hawes",
+      "artist_slug": "hampton-hawes",
+      "plays": 1
+    },
+    {
+      "name": "Easy Living",
+      "artist": "Hampton Hawes",
+      "artist_slug": "hampton-hawes",
+      "plays": 1
+    },
+    {
+      "name": "I Got Rhythm",
+      "artist": "Hampton Hawes",
+      "artist_slug": "hampton-hawes",
+      "plays": 1
+    },
+    {
+      "name": "All the Things You Are",
+      "artist": "Hampton Hawes",
+      "artist_slug": "hampton-hawes",
+      "plays": 1
+    },
+    {
+      "name": "Rattlesnake (feat. Zach Bryan)",
+      "artist": "Jack Van Cleaf",
+      "artist_slug": "jack-van-cleaf",
+      "plays": 1
+    },
+    {
+      "name": "Alaska",
+      "artist": "Jack Van Cleaf",
+      "artist_slug": "jack-van-cleaf",
+      "plays": 1
+    },
+    {
+      "name": "The Primrose Chopper",
+      "artist": "Jack Van Cleaf",
+      "artist_slug": "jack-van-cleaf",
+      "plays": 1
+    },
+    {
+      "name": "The Case of Bucky Briar",
+      "artist": "Jack Van Cleaf",
+      "artist_slug": "jack-van-cleaf",
+      "plays": 1
+    },
+    {
+      "name": "I Stole This Riff From a Punk Rock Band",
+      "artist": "Jack Van Cleaf",
+      "artist_slug": "jack-van-cleaf",
+      "plays": 1
+    },
+    {
+      "name": "She Keeps It Cool",
+      "artist": "Jack Van Cleaf",
+      "artist_slug": "jack-van-cleaf",
+      "plays": 1
+    },
+    {
+      "name": "Black & Blue",
+      "artist": "Jack Van Cleaf",
+      "artist_slug": "jack-van-cleaf",
+      "plays": 1
+    },
+    {
+      "name": "For The Birds",
+      "artist": "Jack Van Cleaf",
+      "artist_slug": "jack-van-cleaf",
+      "plays": 1
+    },
+    {
+      "name": "Remember Katrina?",
+      "artist": "Jack Van Cleaf",
+      "artist_slug": "jack-van-cleaf",
+      "plays": 1
+    },
+    {
+      "name": "Áine Greene",
+      "artist": "Jack Van Cleaf",
+      "artist_slug": "jack-van-cleaf",
+      "plays": 1
+    },
+    {
+      "name": "Santa Anas",
+      "artist": "Jack Van Cleaf",
+      "artist_slug": "jack-van-cleaf",
+      "plays": 1
+    },
+    {
+      "name": "Victory's Brother",
+      "artist": "Jack Van Cleaf",
+      "artist_slug": "jack-van-cleaf",
+      "plays": 1
+    },
+    {
+      "name": "Green",
+      "artist": "Jack Van Cleaf",
+      "artist_slug": "jack-van-cleaf",
+      "plays": 1
+    },
+    {
+      "name": "Sunlight (Reimagined)",
+      "artist": "flipturn",
+      "artist_slug": "flipturn",
+      "plays": 1
+    },
+    {
+      "name": "Smoker",
+      "artist": "Jack Van Cleaf",
+      "artist_slug": "jack-van-cleaf",
+      "plays": 1
+    }
+  ]
+}

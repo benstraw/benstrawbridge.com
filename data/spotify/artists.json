@@ -12192,9 +12192,9 @@
     "id": "7nW46aJfNHxK9Y3M5Dhadk",
     "name": "Jack Van Cleaf",
     "spotify_url": "https://open.spotify.com/artist/7nW46aJfNHxK9Y3M5Dhadk",
-    "total_plays": 6,
+    "total_plays": 20,
     "first_seen": "2026-03-04",
-    "last_seen": "2026-05-02",
+    "last_seen": "2026-05-18",
     "genres": [],
     "images": [
       {
@@ -12218,6 +12218,12 @@
         "name": "Santa Anas",
         "album": "John IV",
         "spotify_url": "https://open.spotify.com/track/3lvUE1Tx9kL37aGaF7FIKM",
+        "plays": 3
+      },
+      {
+        "name": "Green",
+        "album": "JVC",
+        "spotify_url": "https://open.spotify.com/track/1y0irYFXbGGPmAUjK8bFNA",
         "plays": 2
       },
       {
@@ -12227,15 +12233,81 @@
         "plays": 2
       },
       {
-        "name": "Green",
-        "album": "JVC",
-        "spotify_url": "https://open.spotify.com/track/1y0irYFXbGGPmAUjK8bFNA",
-        "plays": 1
-      },
-      {
         "name": "Easter Sunday",
         "album": "JVC (Deluxe Edition)",
         "spotify_url": "https://open.spotify.com/track/6yWrzwHSzwT5CACH6SWCBu",
+        "plays": 1
+      },
+      {
+        "name": "Rattlesnake (feat. Zach Bryan)",
+        "album": "JVC",
+        "spotify_url": "https://open.spotify.com/track/26NtL6qvVuRqFrpimqxSwx",
+        "plays": 1
+      },
+      {
+        "name": "Alaska",
+        "album": "John IV",
+        "spotify_url": "https://open.spotify.com/track/4jQxkc63vUEP4kvj5UinDz",
+        "plays": 1
+      },
+      {
+        "name": "The Primrose Chopper",
+        "album": "The Primrose Chopper",
+        "spotify_url": "https://open.spotify.com/track/0cbwAupvLOMDwegxEawLvy",
+        "plays": 1
+      },
+      {
+        "name": "The Case of Bucky Briar",
+        "album": "The Case of Bucky Briar",
+        "spotify_url": "https://open.spotify.com/track/1cpxjiRwZVtE6tYgGkSDMa",
+        "plays": 1
+      },
+      {
+        "name": "I Stole This Riff From a Punk Rock Band",
+        "album": "Green 2",
+        "spotify_url": "https://open.spotify.com/track/0GNnYCTI0vb2tTNapS9kFn",
+        "plays": 1
+      },
+      {
+        "name": "She Keeps It Cool",
+        "album": "Fruit from the Trees",
+        "spotify_url": "https://open.spotify.com/track/5N2dx0tlBYKDgOI41VrfsK",
+        "plays": 1
+      },
+      {
+        "name": "Black & Blue",
+        "album": "Fruit from the Trees",
+        "spotify_url": "https://open.spotify.com/track/0R6oMMnBstYZKlouxUfWaz",
+        "plays": 1
+      },
+      {
+        "name": "For The Birds",
+        "album": "For The Birds",
+        "spotify_url": "https://open.spotify.com/track/3yoAsG9Ohx77vSlTvvrfyD",
+        "plays": 1
+      },
+      {
+        "name": "Remember Katrina?",
+        "album": "JVC (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/4tiPWx0s6uOuzs0FFcG4eV",
+        "plays": 1
+      },
+      {
+        "name": "Áine Greene",
+        "album": "Green 2",
+        "spotify_url": "https://open.spotify.com/track/2W0SL0UPSRkSS9BckSiqgq",
+        "plays": 1
+      },
+      {
+        "name": "Victory's Brother",
+        "album": "Music City Murder Ballad",
+        "spotify_url": "https://open.spotify.com/track/0J62AmONB4uQuipWoyXvUA",
+        "plays": 1
+      },
+      {
+        "name": "Smoker",
+        "album": "JVC",
+        "spotify_url": "https://open.spotify.com/track/1VshXQJLBCge1YWpbwJlig",
         "plays": 1
       }
     ]
@@ -17696,9 +17768,9 @@
     "id": "1zf7vVM2XaoaTD3hXWR1If",
     "name": "Verdèzul",
     "spotify_url": "https://open.spotify.com/artist/1zf7vVM2XaoaTD3hXWR1If",
-    "total_plays": 27,
+    "total_plays": 28,
     "first_seen": "2026-03-21",
-    "last_seen": "2026-03-21",
+    "last_seen": "2026-05-19",
     "genres": [],
     "images": [
       {
@@ -17722,6 +17794,12 @@
         "name": "I Tell Ya",
         "album": "I Tell Ya",
         "spotify_url": "https://open.spotify.com/track/1rkc2masc6W4UTCsPYP4M5",
+        "plays": 3
+      },
+      {
+        "name": "Taxes Finnah Hit",
+        "album": "Taxes Finnah Hit",
+        "spotify_url": "https://open.spotify.com/track/0fn5JcaPCR1jeXdUWV5va2",
         "plays": 3
       },
       {
@@ -17758,12 +17836,6 @@
         "name": "Version Of Yoself",
         "album": "Earthtones & Shades of Blue and Green",
         "spotify_url": "https://open.spotify.com/track/4QfX0TEdudUlanDuvqta8V",
-        "plays": 2
-      },
-      {
-        "name": "Taxes Finnah Hit",
-        "album": "Taxes Finnah Hit",
-        "spotify_url": "https://open.spotify.com/track/0fn5JcaPCR1jeXdUWV5va2",
         "plays": 2
       },
       {
@@ -30276,6 +30348,103 @@
         "name": "No Brainer",
         "album": "Work of A.R.T.",
         "spotify_url": "https://open.spotify.com/track/2k0Dpq5Dtn0dQnvXbAlayC",
+        "plays": 1
+      }
+    ]
+  },
+  "hampton-hawes": {
+    "id": "6BvSJSt6l7QJO2GHvtwFOK",
+    "name": "Hampton Hawes",
+    "spotify_url": "https://open.spotify.com/artist/6BvSJSt6l7QJO2GHvtwFOK",
+    "total_plays": 5,
+    "first_seen": "2026-05-19",
+    "last_seen": "2026-05-19",
+    "genres": [
+      "hard bop",
+      "bebop",
+      "jazz",
+      "cool jazz"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b2739ff452639474ffe057f5c467",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e029ff452639474ffe057f5c467",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d000048519ff452639474ffe057f5c467",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Carioca",
+        "album": "Music At Night",
+        "spotify_url": "https://open.spotify.com/track/1MW6DKcshJ0BexVcxLmPOu",
+        "plays": 1
+      },
+      {
+        "name": "Feelin' Fine",
+        "album": "Music At Night",
+        "spotify_url": "https://open.spotify.com/track/2aTpiGaCeaxqHozCIAPAD0",
+        "plays": 1
+      },
+      {
+        "name": "Easy Living",
+        "album": "Music At Night",
+        "spotify_url": "https://open.spotify.com/track/2B4VWfH1b6o3xGgAyAspzs",
+        "plays": 1
+      },
+      {
+        "name": "I Got Rhythm",
+        "album": "Music At Night",
+        "spotify_url": "https://open.spotify.com/track/4mUOPrxavL8OPYWIsAS5yJ",
+        "plays": 1
+      },
+      {
+        "name": "All the Things You Are",
+        "album": "Music At Night",
+        "spotify_url": "https://open.spotify.com/track/2SY8X9LZUM2AcKSSsdYXy4",
+        "plays": 1
+      }
+    ]
+  },
+  "flipturn": {
+    "id": "7FKTg75ADVMZgY3P9ZMRtH",
+    "name": "flipturn",
+    "spotify_url": "https://open.spotify.com/artist/7FKTg75ADVMZgY3P9ZMRtH",
+    "total_plays": 1,
+    "first_seen": "2026-05-18",
+    "last_seen": "2026-05-18",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb724cced4ad8949fd70698843",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174724cced4ad8949fd70698843",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178724cced4ad8949fd70698843",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Sunlight (Reimagined)",
+        "album": "Burnout Days (Reimagined)",
+        "spotify_url": "https://open.spotify.com/track/5oFO2CI2KtYMoeYN8jvcmK",
         "plays": 1
       }
     ]
