@@ -16,7 +16,7 @@
       "topArtistName" $week.topArtistName
     }}
     {{ $page := dict
-      "content" (dict "mediaType" "text/markdown" "value" "")
+      "content" (dict "mediaType" "text/markdown" "value" (printf "%d plays · Top artist: %s" ($week.total_plays | int) $week.topArtistName))
       "title" $week.title
       "type" "listening-weekly"
       "params" $params
