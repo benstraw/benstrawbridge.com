@@ -107,7 +107,11 @@
       <h2 class="md:col-span-2 flex my-2 items-center mb-2 text-3xl uppercase">{{ $feedHeader }}</h2>
       {{ $homeListCardType := .Param "homeListCardType" | default "-category-color" }}
       {{- range $paginator.Pages -}}
-        {{- partial (printf "card%s.html" $homeListCardType) . -}}
+        {{- if eq .Type "listening-weekly" -}}
+          {{- partial "card-weekly.html" . -}}
+        {{- else -}}
+          {{- partial (printf "card%s.html" $homeListCardType) . -}}
+        {{- end -}}
       {{- end }}
         <div class="md:col-span-2 flex p-3 justify-center items-center">
           {{- template "_internal/pagination.html" . }}
