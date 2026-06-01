@@ -7508,9 +7508,9 @@
     "id": "03r4iKL2g2442PT9n2UKsx",
     "name": "Beastie Boys",
     "spotify_url": "https://open.spotify.com/artist/03r4iKL2g2442PT9n2UKsx",
-    "total_plays": 15,
+    "total_plays": 138,
     "first_seen": "2026-02-26",
-    "last_seen": "2026-05-06",
+    "last_seen": "2026-05-30",
     "genres": [
       "rap rock",
       "old school hip hop",
@@ -7541,9 +7541,33 @@
     ],
     "top_tracks": [
       {
+        "name": "And Me - Remastered 2009",
+        "album": "Hello Nasty (Deluxe Edition/Remastered)",
+        "spotify_url": "https://open.spotify.com/track/0ZcJ2JdB8vdgCWij7mFUuQ",
+        "plays": 4
+      },
+      {
         "name": "Sabotage",
         "album": "Ill Communication",
         "spotify_url": "https://open.spotify.com/track/0Puj4YlTm6xNzDDADXHMI9",
+        "plays": 3
+      },
+      {
+        "name": "Rhymin & Stealin",
+        "album": "Licensed To Ill",
+        "spotify_url": "https://open.spotify.com/track/6yKldTTcSa2BdpKPEtdYp3",
+        "plays": 3
+      },
+      {
+        "name": "Three MC's And One DJ - Remastered 2009",
+        "album": "Hello Nasty (Deluxe Edition/Remastered)",
+        "spotify_url": "https://open.spotify.com/track/6nGUcW4caAW7Wx5oAcSIJZ",
+        "plays": 3
+      },
+      {
+        "name": "Pass The Mic - Remastered 2009",
+        "album": "Check Your Head (Deluxe Edition/Remastered/2009)",
+        "spotify_url": "https://open.spotify.com/track/4eIfmbGZy21bvnBLHSf7DE",
         "plays": 3
       },
       {
@@ -7553,9 +7577,39 @@
         "plays": 2
       },
       {
-        "name": "Rhymin & Stealin",
-        "album": "Licensed To Ill",
-        "spotify_url": "https://open.spotify.com/track/6yKldTTcSa2BdpKPEtdYp3",
+        "name": "Shake Your Rump",
+        "album": "Paul's Boutique (20th Anniversary Edition / Remastered)",
+        "spotify_url": "https://open.spotify.com/track/2qq0RYYIuQxXcOxQKN0drC",
+        "plays": 2
+      },
+      {
+        "name": "Bodhisattva Vow",
+        "album": "Ill Communication",
+        "spotify_url": "https://open.spotify.com/track/0UaaJFIosWfcGxeArRxDMV",
+        "plays": 2
+      },
+      {
+        "name": "Egg Man",
+        "album": "Paul's Boutique (20th Anniversary Edition / Remastered)",
+        "spotify_url": "https://open.spotify.com/track/6vcf7sA7tsNiIeufH0FUFL",
+        "plays": 2
+      },
+      {
+        "name": "I Don't Know - Remastered 2009",
+        "album": "Hello Nasty (Deluxe Edition/Remastered)",
+        "spotify_url": "https://open.spotify.com/track/10FLYqpqDN4uo6eWtD6WEB",
+        "plays": 2
+      },
+      {
+        "name": "Intergalactic - Remastered 2009",
+        "album": "Hello Nasty (Deluxe Edition/Remastered)",
+        "spotify_url": "https://open.spotify.com/track/5fpizYGbi5IQoEraj6FP0R",
+        "plays": 2
+      },
+      {
+        "name": "Song For The Man - Remastered 2009",
+        "album": "Hello Nasty (Deluxe Edition/Remastered)",
+        "spotify_url": "https://open.spotify.com/track/36w5lGu7gQBvBxPLjFATlt",
         "plays": 2
       },
       {
@@ -7565,27 +7619,9 @@
         "plays": 1
       },
       {
-        "name": "Shake Your Rump",
-        "album": "Paul's Boutique (20th Anniversary Edition / Remastered)",
-        "spotify_url": "https://open.spotify.com/track/2qq0RYYIuQxXcOxQKN0drC",
-        "plays": 1
-      },
-      {
-        "name": "Bodhisattva Vow",
-        "album": "Ill Communication",
-        "spotify_url": "https://open.spotify.com/track/0UaaJFIosWfcGxeArRxDMV",
-        "plays": 1
-      },
-      {
         "name": "The New Style",
         "album": "Licensed To Ill",
         "spotify_url": "https://open.spotify.com/track/0Mu1MYdE414HeybYSms5KK",
-        "plays": 1
-      },
-      {
-        "name": "Egg Man",
-        "album": "Paul's Boutique (20th Anniversary Edition / Remastered)",
-        "spotify_url": "https://open.spotify.com/track/6vcf7sA7tsNiIeufH0FUFL",
         "plays": 1
       },
       {
@@ -7601,16 +7637,628 @@
         "plays": 1
       },
       {
-        "name": "I Don't Know - Remastered 2009",
+        "name": "The Skills To Pay The Bills - Remastered",
+        "album": "Check Your Head (Deluxe Edition/Remastered/2009)",
+        "spotify_url": "https://open.spotify.com/track/40IeRufLQe3vruKtqYBM4m",
+        "plays": 1
+      },
+      {
+        "name": "B-Boys Makin' With The Freak Freak - Remastered 2009",
+        "album": "Ill Communication (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/1DS0PMacBg54per52e2Dug",
+        "plays": 1
+      },
+      {
+        "name": "Oh My Goodness This Record's Incredible - Remastered 2009",
         "album": "Hello Nasty (Deluxe Edition/Remastered)",
-        "spotify_url": "https://open.spotify.com/track/10FLYqpqDN4uo6eWtD6WEB",
+        "spotify_url": "https://open.spotify.com/track/6ha4lidYqe6KiGtHfQGpKr",
+        "plays": 1
+      },
+      {
+        "name": "Learning Remote Control - Remastered 2009",
+        "album": "Hello Nasty (Deluxe Edition/Remastered)",
+        "spotify_url": "https://open.spotify.com/track/6kzwlCIXDFJjaLe9a2ewYG",
+        "plays": 1
+      },
+      {
+        "name": "Creepin' - Remastered 2009",
+        "album": "Hello Nasty (Deluxe Edition/Remastered)",
+        "spotify_url": "https://open.spotify.com/track/1wrMRGDXt5HshfpjwsXkHT",
+        "plays": 1
+      },
+      {
+        "name": "Body Movin' - Kut Masta Kurt Remix/Remastered 2009",
+        "album": "Hello Nasty (Deluxe Edition/Remastered)",
+        "spotify_url": "https://open.spotify.com/track/2tRzXpQnfPBtnCzJ6wCzoi",
+        "plays": 1
+      },
+      {
+        "name": "Hail Sagan (Special K) - Remastered 2009",
+        "album": "Hello Nasty (Deluxe Edition/Remastered)",
+        "spotify_url": "https://open.spotify.com/track/2FwcER0EYC7RS98soNgN6U",
+        "plays": 1
+      },
+      {
+        "name": "The Biz Grasshopper Experiment - Remastered 2009",
+        "album": "Hello Nasty (Deluxe Edition/Remastered)",
+        "spotify_url": "https://open.spotify.com/track/1ijE918V4ISicbH2vEgLC2",
+        "plays": 1
+      },
+      {
+        "name": "20 Questions Version - Remastered 2009",
+        "album": "Hello Nasty (Deluxe Edition/Remastered)",
+        "spotify_url": "https://open.spotify.com/track/1xhlSS0e7KkMEepaoKc5JU",
+        "plays": 1
+      },
+      {
+        "name": "The Drone - Remastered 2009",
+        "album": "Hello Nasty (Deluxe Edition/Remastered)",
+        "spotify_url": "https://open.spotify.com/track/5NvfvWSNUTiIJSJCtpfCIo",
+        "plays": 1
+      },
+      {
+        "name": "The Negotiation Limerick File - The 41 Small Stars Remix/Remastered 2009",
+        "album": "Hello Nasty (Deluxe Edition/Remastered)",
+        "spotify_url": "https://open.spotify.com/track/0lCjubB4xXPeK8HxNoO1bj",
+        "plays": 1
+      },
+      {
+        "name": "Happy To Be In That Perfect Headspace - Remastered 2009",
+        "album": "Hello Nasty (Deluxe Edition/Remastered)",
+        "spotify_url": "https://open.spotify.com/track/6TUrtyZaHtIqm2dQ7NHyRj",
+        "plays": 1
+      },
+      {
+        "name": "Piano Jam - Remastered 2009",
+        "album": "Hello Nasty (Deluxe Edition/Remastered)",
+        "spotify_url": "https://open.spotify.com/track/2l3V6ON1gnJCM0VJWgvLpG",
+        "plays": 1
+      },
+      {
+        "name": "Peanut Butter And Jelly - Remastered 2009",
+        "album": "Hello Nasty (Deluxe Edition/Remastered)",
+        "spotify_url": "https://open.spotify.com/track/0fpviU8KH6ZlozcCBsmC2O",
+        "plays": 1
+      },
+      {
+        "name": "Stink Bug - Remastered 2009",
+        "album": "Hello Nasty (Deluxe Edition/Remastered)",
+        "spotify_url": "https://open.spotify.com/track/6bBPN33LD0oEtqQdxZAOhL",
+        "plays": 1
+      },
+      {
+        "name": "Putting Shame In Your Game - Prunes Remix/Remastered 2009",
+        "album": "Hello Nasty (Deluxe Edition/Remastered)",
+        "spotify_url": "https://open.spotify.com/track/3XbPc6fMRkCk582Q5NsUkP",
+        "plays": 1
+      },
+      {
+        "name": "Auntie Jackie Poom Poom Delicious - Remastered 2009",
+        "album": "Hello Nasty (Deluxe Edition/Remastered)",
+        "spotify_url": "https://open.spotify.com/track/62qEgU9muYi6qg2hYBNmNT",
+        "plays": 1
+      },
+      {
+        "name": "Body Movin' - Fatboy Slim Remix/Remastered 2009",
+        "album": "Hello Nasty (Deluxe Edition/Remastered)",
+        "spotify_url": "https://open.spotify.com/track/3ZQqzOCuHqJQqqEH8KB282",
+        "plays": 1
+      },
+      {
+        "name": "Switched On - Remastered 2009",
+        "album": "Hello Nasty (Deluxe Edition/Remastered)",
+        "spotify_url": "https://open.spotify.com/track/227Mws6dwdrt8e0GhVW2BN",
+        "plays": 1
+      },
+      {
+        "name": "\"Dr. Lee, PhD\" - Dub Mix/Remastered 2009",
+        "album": "Hello Nasty (Deluxe Edition/Remastered)",
+        "spotify_url": "https://open.spotify.com/track/3sEveiL5xfCxTmi51UBTpM",
+        "plays": 1
+      },
+      {
+        "name": "Intergalactic - Colleone & Webb Remix/Remastered 2009",
+        "album": "Hello Nasty (Deluxe Edition/Remastered)",
+        "spotify_url": "https://open.spotify.com/track/4P04hMXyLSKeYExZe0eEdz",
+        "plays": 1
+      },
+      {
+        "name": "Dirty Dog - Remastered 2009",
+        "album": "Hello Nasty (Deluxe Edition/Remastered)",
+        "spotify_url": "https://open.spotify.com/track/4QxNOusjQrH0RfZJ5Yl7XK",
+        "plays": 1
+      },
+      {
+        "name": "Description Of A Strange Man - Remastered 2009",
+        "album": "Hello Nasty (Deluxe Edition/Remastered)",
+        "spotify_url": "https://open.spotify.com/track/3vpJ9uj853wVmTp0BE0abV",
+        "plays": 1
+      },
+      {
+        "name": "Instant Death - Remastered 2009",
+        "album": "Hello Nasty (Deluxe Edition/Remastered)",
+        "spotify_url": "https://open.spotify.com/track/1B09FZ5fuDiMPfk07Mz6NW",
+        "plays": 1
+      },
+      {
+        "name": "\"Dr. Lee, PhD\" - Remastered 2009",
+        "album": "Hello Nasty (Deluxe Edition/Remastered)",
+        "spotify_url": "https://open.spotify.com/track/3wIbAFOiNY9YVlMOhsR94y",
+        "plays": 1
+      },
+      {
+        "name": "Dedication - Remastered 2009",
+        "album": "Hello Nasty (Deluxe Edition/Remastered)",
+        "spotify_url": "https://open.spotify.com/track/6soAtxDKJmmrBUQR61qmBL",
+        "plays": 1
+      },
+      {
+        "name": "Unite - Remastered 2009",
+        "album": "Hello Nasty (Deluxe Edition/Remastered)",
+        "spotify_url": "https://open.spotify.com/track/33Om7GSWEh095vtqLverqC",
+        "plays": 1
+      },
+      {
+        "name": "Picture This - Remastered 2009",
+        "album": "Hello Nasty (Deluxe Edition/Remastered)",
+        "spotify_url": "https://open.spotify.com/track/5YVNX1VZr8Csqmn14xo66f",
+        "plays": 1
+      },
+      {
+        "name": "Electrify - Remastered 2009",
+        "album": "Hello Nasty (Deluxe Edition/Remastered)",
+        "spotify_url": "https://open.spotify.com/track/4W49NLBWA6ouzphbZL9TTd",
+        "plays": 1
+      },
+      {
+        "name": "The Negotiation Limerick File - Remastered 2009",
+        "album": "Hello Nasty (Deluxe Edition/Remastered)",
+        "spotify_url": "https://open.spotify.com/track/768OCrh7ftAg2IjQXtv38J",
+        "plays": 1
+      },
+      {
+        "name": "Song For Junior - Remastered 2009",
+        "album": "Hello Nasty (Deluxe Edition/Remastered)",
+        "spotify_url": "https://open.spotify.com/track/3EJweHq5GBpdeMIHmBAi6v",
+        "plays": 1
+      },
+      {
+        "name": "The Grasshopper Unit (Keep Movin') - Remastered 2009",
+        "album": "Hello Nasty (Deluxe Edition/Remastered)",
+        "spotify_url": "https://open.spotify.com/track/257965EMLK8iBjMPUl1n3l",
+        "plays": 1
+      },
+      {
+        "name": "Flowin' Prose - Remastered 2009",
+        "album": "Hello Nasty (Deluxe Edition/Remastered)",
+        "spotify_url": "https://open.spotify.com/track/0UvKEPxpmt5ggriKA4RPyL",
+        "plays": 1
+      },
+      {
+        "name": "Putting Shame In Your Game - Remastered 2009",
+        "album": "Hello Nasty (Deluxe Edition/Remastered)",
+        "spotify_url": "https://open.spotify.com/track/2ihVjReaEeRnfsncXtPUm4",
+        "plays": 1
+      },
+      {
+        "name": "Sneakin' Out The Hospital - Remastered 2009",
+        "album": "Hello Nasty (Deluxe Edition/Remastered)",
+        "spotify_url": "https://open.spotify.com/track/3Qd5Bv2bRJ7JbeVY8hidKV",
+        "plays": 1
+      },
+      {
+        "name": "Body Movin' - Remastered 2009",
+        "album": "Hello Nasty (Deluxe Edition/Remastered)",
+        "spotify_url": "https://open.spotify.com/track/1OIigmKerSiw9creKBH0UH",
+        "plays": 1
+      },
+      {
+        "name": "Just A Test - Remastered 2009",
+        "album": "Hello Nasty (Deluxe Edition/Remastered)",
+        "spotify_url": "https://open.spotify.com/track/6wIoe0J8BfvDqhRCwYBylc",
+        "plays": 1
+      },
+      {
+        "name": "Remote Control - Remastered 2009",
+        "album": "Hello Nasty (Deluxe Edition/Remastered)",
+        "spotify_url": "https://open.spotify.com/track/0HiubqhlD4iuegPFy88CNK",
+        "plays": 1
+      },
+      {
+        "name": "The Move - Remastered 2009",
+        "album": "Hello Nasty (Deluxe Edition/Remastered)",
+        "spotify_url": "https://open.spotify.com/track/7lEuHpMyKtyWqqNFZXS70w",
+        "plays": 1
+      },
+      {
+        "name": "I Want Some",
+        "album": "Aglio E Olio",
+        "spotify_url": "https://open.spotify.com/track/05QL9iNUg8o3vRSs9VWlhO",
+        "plays": 1
+      },
+      {
+        "name": "I Can't Think Straight",
+        "album": "Aglio E Olio",
+        "spotify_url": "https://open.spotify.com/track/5cZx9LLYymEjEKjx9auvpR",
+        "plays": 1
+      },
+      {
+        "name": "You Catch A Bad One",
+        "album": "Aglio E Olio",
+        "spotify_url": "https://open.spotify.com/track/7FRibFOH0TGDz6POLIuWuj",
+        "plays": 1
+      },
+      {
+        "name": "Square Wave In Unison",
+        "album": "Aglio E Olio",
+        "spotify_url": "https://open.spotify.com/track/23ICNEIYnOdrjfSe2h9HoM",
+        "plays": 1
+      },
+      {
+        "name": "Nervous Assistant",
+        "album": "Aglio E Olio",
+        "spotify_url": "https://open.spotify.com/track/5y2DNYd6IgGsUngmYBCjLR",
+        "plays": 1
+      },
+      {
+        "name": "Believe Me",
+        "album": "Aglio E Olio",
+        "spotify_url": "https://open.spotify.com/track/7k3qbU8YnwZkIH5vBbSsME",
+        "plays": 1
+      },
+      {
+        "name": "Deal With It",
+        "album": "Aglio E Olio",
+        "spotify_url": "https://open.spotify.com/track/7kfBQ86H4UwSgHe1HUptrJ",
+        "plays": 1
+      },
+      {
+        "name": "Brand New",
+        "album": "Aglio E Olio",
+        "spotify_url": "https://open.spotify.com/track/6rS4IUHjMYrijrDdQF1Z8z",
+        "plays": 1
+      },
+      {
+        "name": "Transitions",
+        "album": "Ill Communication",
+        "spotify_url": "https://open.spotify.com/track/5lf5R2IF80Nzc3jqOv6PQc",
+        "plays": 1
+      },
+      {
+        "name": "Bobo On The Corner",
+        "album": "Ill Communication",
+        "spotify_url": "https://open.spotify.com/track/6oUJdDD6JiG3S0lw99ilpX",
+        "plays": 1
+      },
+      {
+        "name": "Alright Hear This",
+        "album": "Ill Communication",
+        "spotify_url": "https://open.spotify.com/track/6wk5UGbiAMNaSuhy8Hb7Pr",
+        "plays": 1
+      },
+      {
+        "name": "Eugene's Lament",
+        "album": "Ill Communication",
+        "spotify_url": "https://open.spotify.com/track/5hYs2uWdPjaAnbaS0a6MQU",
+        "plays": 1
+      },
+      {
+        "name": "The Update",
+        "album": "Ill Communication",
+        "spotify_url": "https://open.spotify.com/track/5IR8IebPGkWxh1RS6D43Vn",
+        "plays": 1
+      },
+      {
+        "name": "Heart Attack Man",
+        "album": "Ill Communication",
+        "spotify_url": "https://open.spotify.com/track/4jINAOMp6L8EhuXCSkcoda",
+        "plays": 1
+      },
+      {
+        "name": "The Scoop",
+        "album": "Ill Communication",
+        "spotify_url": "https://open.spotify.com/track/45SwCcTTYfgC6x2Gcm0KYq",
+        "plays": 1
+      },
+      {
+        "name": "Do It",
+        "album": "Ill Communication",
+        "spotify_url": "https://open.spotify.com/track/38b7Ci0QH9WxvJmADYXqPB",
+        "plays": 1
+      },
+      {
+        "name": "Flute Loop",
+        "album": "Ill Communication",
+        "spotify_url": "https://open.spotify.com/track/1yUl2G3VJdkidTqXWBt2UD",
+        "plays": 1
+      },
+      {
+        "name": "Sabrosa",
+        "album": "Ill Communication",
+        "spotify_url": "https://open.spotify.com/track/4Hw2PMgu7y4FHUReIz1Hld",
+        "plays": 1
+      },
+      {
+        "name": "Ricky's Theme",
+        "album": "Ill Communication",
+        "spotify_url": "https://open.spotify.com/track/35XPQqPUeeAKTg4TuDlfor",
+        "plays": 1
+      },
+      {
+        "name": "Tough Guy",
+        "album": "Ill Communication",
+        "spotify_url": "https://open.spotify.com/track/20lUsch6Dom5qHQhhi2aFf",
+        "plays": 1
+      },
+      {
+        "name": "Namaste - Live At The Bill Graham Civic Auditorium, 1992",
+        "album": "Namaste (Live At The Bill Graham Civic Auditorium, 1992)",
+        "spotify_url": "https://open.spotify.com/track/7J6Gf3offYKiWPf6jL98k0",
+        "plays": 1
+      },
+      {
+        "name": "So What'Cha Want - Live At The Bill Graham Civic Auditorium, 1992",
+        "album": "So What'Cha Want (Live At The Bill Graham Civic Auditorium, 1992)",
+        "spotify_url": "https://open.spotify.com/track/5sKNBFT0T8F3w61gEJ9xGq",
+        "plays": 1
+      },
+      {
+        "name": "Drunken Praying Mantis Style - Instrumental",
+        "album": "Check Your Head (Deluxe Edition/Remastered/2009)",
+        "spotify_url": "https://open.spotify.com/track/3cn4Y5kzds44Asr6bVZvLo",
+        "plays": 1
+      },
+      {
+        "name": "Pass The Mic (Pt. 2, Skills To Pay The Bills)",
+        "album": "Check Your Head (Deluxe Edition/Remastered/2009)",
+        "spotify_url": "https://open.spotify.com/track/0wG0kbua4OxaZJbNZhpy6C",
+        "plays": 1
+      },
+      {
+        "name": "Dub The Mic - Instrumental",
+        "album": "Check Your Head (Deluxe Edition/Remastered/2009)",
+        "spotify_url": "https://open.spotify.com/track/1GhLHqywnxs8PzCTaOTrOA",
+        "plays": 1
+      },
+      {
+        "name": "Namaste - Remastered 2009",
+        "album": "Check Your Head (Deluxe Edition/Remastered/2009)",
+        "spotify_url": "https://open.spotify.com/track/1GV219smmDzIYLIIsqU1Io",
+        "plays": 1
+      },
+      {
+        "name": "In 3's - Remastered 2009",
+        "album": "Check Your Head (Deluxe Edition/Remastered/2009)",
+        "spotify_url": "https://open.spotify.com/track/4bhQBPayZFhp6nJqGqDTFo",
+        "plays": 1
+      },
+      {
+        "name": "Professor Booty - Remastered 2009",
+        "album": "Check Your Head (Deluxe Edition/Remastered/2009)",
+        "spotify_url": "https://open.spotify.com/track/4Xn45BVXYqQlvmHmtDx5jQ",
+        "plays": 1
+      },
+      {
+        "name": "Mark On The Bus - Remastered 2009",
+        "album": "Check Your Head (Deluxe Edition/Remastered/2009)",
+        "spotify_url": "https://open.spotify.com/track/5GdtONCuJl9N5kkzioFFUY",
+        "plays": 1
+      },
+      {
+        "name": "Live At P.J.'s - Remastered 2009",
+        "album": "Check Your Head (Deluxe Edition/Remastered/2009)",
+        "spotify_url": "https://open.spotify.com/track/70uTnTN7vk07LOHs5oSSr6",
+        "plays": 1
+      },
+      {
+        "name": "Groove Holmes - Remastered 2009",
+        "album": "Check Your Head (Deluxe Edition/Remastered/2009)",
+        "spotify_url": "https://open.spotify.com/track/7B3LY1Y4I1EMlt73NHCpts",
+        "plays": 1
+      },
+      {
+        "name": "The Maestro - Remastered 2009",
+        "album": "Check Your Head (Deluxe Edition/Remastered/2009)",
+        "spotify_url": "https://open.spotify.com/track/5D0dX6VtzJ7BKP9tqHqRyz",
+        "plays": 1
+      },
+      {
+        "name": "Pow - Remastered 2009",
+        "album": "Check Your Head (Deluxe Edition/Remastered/2009)",
+        "spotify_url": "https://open.spotify.com/track/720GtocXJgIrCwqAaaym5u",
+        "plays": 1
+      },
+      {
+        "name": "Stand Together - Remastered 2009",
+        "album": "Check Your Head (Deluxe Edition/Remastered/2009)",
+        "spotify_url": "https://open.spotify.com/track/5BnkwkXmZNpMtejp0dT8Og",
+        "plays": 1
+      },
+      {
+        "name": "The Blue Nun - Remastered 2009",
+        "album": "Check Your Head (Deluxe Edition/Remastered/2009)",
+        "spotify_url": "https://open.spotify.com/track/3kslK9YKu8RQPUxybRqyuw",
+        "plays": 1
+      },
+      {
+        "name": "Something's Got To Give - Remastered 2009",
+        "album": "Check Your Head (Deluxe Edition/Remastered/2009)",
+        "spotify_url": "https://open.spotify.com/track/5zds8OwbyEDOKa80iZXBpv",
+        "plays": 1
+      },
+      {
+        "name": "Time For Livin' - Remastered 2009",
+        "album": "Check Your Head (Deluxe Edition/Remastered/2009)",
+        "spotify_url": "https://open.spotify.com/track/5Io6erQEbeMrDwpLClYLuF",
+        "plays": 1
+      },
+      {
+        "name": "The Biz Vs. The Nuge - Remastered 2009",
+        "album": "Check Your Head (Deluxe Edition/Remastered/2009)",
+        "spotify_url": "https://open.spotify.com/track/6NMrxmuxMrHLMpnvjjBXQm",
+        "plays": 1
+      },
+      {
+        "name": "So What'Cha Want - Remastered 2009",
+        "album": "Check Your Head (Deluxe Edition/Remastered/2009)",
+        "spotify_url": "https://open.spotify.com/track/0gmGBCJ5XhOmoNR37MmxEE",
+        "plays": 1
+      },
+      {
+        "name": "Finger Lickin' Good - Remastered 2009",
+        "album": "Check Your Head (Deluxe Edition/Remastered/2009)",
+        "spotify_url": "https://open.spotify.com/track/0Mn5QbIXjjnoRmErQ2MIgX",
+        "plays": 1
+      },
+      {
+        "name": "Lighten Up - Remastered 2009",
+        "album": "Check Your Head (Deluxe Edition/Remastered/2009)",
+        "spotify_url": "https://open.spotify.com/track/1MoIosqhahlulvrRyR4R6K",
+        "plays": 1
+      },
+      {
+        "name": "Gratitude - Remastered 2009",
+        "album": "Check Your Head (Deluxe Edition/Remastered/2009)",
+        "spotify_url": "https://open.spotify.com/track/7G7JZECVScySAqBhgO8C3k",
+        "plays": 1
+      },
+      {
+        "name": "Funky Boss - Remastered 2009",
+        "album": "Check Your Head (Deluxe Edition/Remastered/2009)",
+        "spotify_url": "https://open.spotify.com/track/3aqAe1ljoYA0AWGPedXL0k",
+        "plays": 1
+      },
+      {
+        "name": "Jimmy James - Remastered 2009",
+        "album": "Check Your Head (Deluxe Edition/Remastered/2009)",
+        "spotify_url": "https://open.spotify.com/track/2qqCS8wH4FNtgH7kVmF8Ub",
+        "plays": 1
+      },
+      {
+        "name": "B-Boy Bouillabaisse: A.W.O.L.",
+        "album": "Paul's Boutique (20th Anniversary Edition / Remastered)",
+        "spotify_url": "https://open.spotify.com/track/1CkX5dDnnFzYuIRCvdXDJX",
+        "plays": 1
+      },
+      {
+        "name": "B-Boy Bouillabaisse: Mike On The Mic",
+        "album": "Paul's Boutique (20th Anniversary Edition / Remastered)",
+        "spotify_url": "https://open.spotify.com/track/0bYp5kKGmbRHXPWYkAgBTL",
+        "plays": 1
+      },
+      {
+        "name": "B-Boy Bouillabaisse: Lay It On Me",
+        "album": "Paul's Boutique (20th Anniversary Edition / Remastered)",
+        "spotify_url": "https://open.spotify.com/track/3RH6ViCsmW96QOm6Nc0on7",
+        "plays": 1
+      },
+      {
+        "name": "B-Boy Bouillabaisse: Dropping Names",
+        "album": "Paul's Boutique (20th Anniversary Edition / Remastered)",
+        "spotify_url": "https://open.spotify.com/track/4SBcdSs3VUfuwfVUDxdSiy",
+        "plays": 1
+      },
+      {
+        "name": "B-Boy Bouillabaisse: Hello Brooklyn",
+        "album": "Paul's Boutique (20th Anniversary Edition / Remastered)",
+        "spotify_url": "https://open.spotify.com/track/0sqCbMYoi5OksmVKKPkkK1",
+        "plays": 1
+      },
+      {
+        "name": "B-Boy Bouillabaisse: A Year And A Day",
+        "album": "Paul's Boutique (20th Anniversary Edition / Remastered)",
+        "spotify_url": "https://open.spotify.com/track/76ljCVu9QbuttT9xDTHfjj",
+        "plays": 1
+      },
+      {
+        "name": "B-Boy Bouillabaisse: Stop That Train",
+        "album": "Paul's Boutique (20th Anniversary Edition / Remastered)",
+        "spotify_url": "https://open.spotify.com/track/4AtMSZCvH60EY87ozdg2wj",
+        "plays": 1
+      },
+      {
+        "name": "B-Boy Bouillabaisse: Get On The Mic",
+        "album": "Paul's Boutique (20th Anniversary Edition / Remastered)",
+        "spotify_url": "https://open.spotify.com/track/4TX7yCTRatSHtroppF1Nm7",
+        "plays": 1
+      },
+      {
+        "name": "B-Boy Bouillabaisse: 59 Chrystie Street",
+        "album": "Paul's Boutique (20th Anniversary Edition / Remastered)",
+        "spotify_url": "https://open.spotify.com/track/1gBEvCBtfABQqEjwUGoSD3",
+        "plays": 1
+      },
+      {
+        "name": "Ask For Janice",
+        "album": "Paul's Boutique (20th Anniversary Edition / Remastered)",
+        "spotify_url": "https://open.spotify.com/track/5xNiV1sUHLmEcDzWcJbYjt",
+        "plays": 1
+      },
+      {
+        "name": "Shadrach",
+        "album": "Paul's Boutique (20th Anniversary Edition / Remastered)",
+        "spotify_url": "https://open.spotify.com/track/2GOcde6C8b4jH17cYgKzlp",
+        "plays": 1
+      },
+      {
+        "name": "What Comes Around",
+        "album": "Paul's Boutique (20th Anniversary Edition / Remastered)",
+        "spotify_url": "https://open.spotify.com/track/2exGztZ4FhpmrcYhwN4TQy",
         "plays": 1
       },
       {
         "name": "Car Thief",
         "album": "Paul's Boutique (20th Anniversary Edition / Remastered)",
         "spotify_url": "https://open.spotify.com/track/6z6ug1DvIzTdel6vW8rHVu",
-        "plays": 2
+        "plays": 1
+      },
+      {
+        "name": "Looking Down The Barrel Of A Gun",
+        "album": "Paul's Boutique (20th Anniversary Edition / Remastered)",
+        "spotify_url": "https://open.spotify.com/track/7mPfubAjo4PVuRqO84bHZb",
+        "plays": 1
+      },
+      {
+        "name": "5-Piece Chicken Dinner",
+        "album": "Paul's Boutique (20th Anniversary Edition / Remastered)",
+        "spotify_url": "https://open.spotify.com/track/134zGrFA6v190Bxl7bpzeB",
+        "plays": 1
+      },
+      {
+        "name": "Hey Ladies",
+        "album": "Paul's Boutique (20th Anniversary Edition / Remastered)",
+        "spotify_url": "https://open.spotify.com/track/5ulZo7nk3MByXLvja3NCAc",
+        "plays": 1
+      },
+      {
+        "name": "3-Minute Rule",
+        "album": "Paul's Boutique (20th Anniversary Edition / Remastered)",
+        "spotify_url": "https://open.spotify.com/track/5mew4rexHu1IV6kTXqH3Nu",
+        "plays": 1
+      },
+      {
+        "name": "The Sounds Of Science",
+        "album": "Paul's Boutique (20th Anniversary Edition / Remastered)",
+        "spotify_url": "https://open.spotify.com/track/033N3Mf87ODmORg6YO61cm",
+        "plays": 1
+      },
+      {
+        "name": "High Plains Drifter",
+        "album": "Paul's Boutique (20th Anniversary Edition / Remastered)",
+        "spotify_url": "https://open.spotify.com/track/4qLmCFNUlFJXOb9TvU9D2L",
+        "plays": 1
+      },
+      {
+        "name": "Johnny Ryall",
+        "album": "Paul's Boutique (20th Anniversary Edition / Remastered)",
+        "spotify_url": "https://open.spotify.com/track/5EGWLtIZ5M1g1nU1SdQ5PY",
+        "plays": 1
+      },
+      {
+        "name": "To All The Girls",
+        "album": "Paul's Boutique (20th Anniversary Edition / Remastered)",
+        "spotify_url": "https://open.spotify.com/track/7JSHs5GH7pq5moVo8wu1I6",
+        "plays": 1
       },
       {
         "name": "Super Disco Breakin' - Remastered 2009",
@@ -7622,36 +8270,6 @@
         "name": "Sure Shot",
         "album": "Ill Communication",
         "spotify_url": "https://open.spotify.com/track/21REQ1bCUWphT2QK3bLWYQ",
-        "plays": 2
-      },
-      {
-        "name": "I Want Some",
-        "album": "Aglio E Olio",
-        "spotify_url": "https://open.spotify.com/track/05QL9iNUg8o3vRSs9VWlhO",
-        "plays": 2
-      },
-      {
-        "name": "Body Movin' - Remastered 2009",
-        "album": "Hello Nasty (Deluxe Edition/Remastered)",
-        "spotify_url": "https://open.spotify.com/track/1OIigmKerSiw9creKBH0UH",
-        "plays": 2
-      },
-      {
-        "name": "Flute Loop",
-        "album": "Ill Communication",
-        "spotify_url": "https://open.spotify.com/track/1yUl2G3VJdkidTqXWBt2UD",
-        "plays": 2
-      },
-      {
-        "name": "Square Wave In Unison",
-        "album": "Aglio E Olio",
-        "spotify_url": "https://open.spotify.com/track/23ICNEIYnOdrjfSe2h9HoM",
-        "plays": 2
-      },
-      {
-        "name": "Do It",
-        "album": "Ill Communication",
-        "spotify_url": "https://open.spotify.com/track/38b7Ci0QH9WxvJmADYXqPB",
         "plays": 2
       },
       {
@@ -7667,63 +8285,9 @@
         "plays": 2
       },
       {
-        "name": "Looking Down The Barrel Of A Gun",
-        "album": "Paul's Boutique (20th Anniversary Edition / Remastered)",
-        "spotify_url": "https://open.spotify.com/track/7mPfubAjo4PVuRqO84bHZb",
-        "plays": 2
-      },
-      {
-        "name": "Remote Control - Remastered 2009",
-        "album": "Hello Nasty (Deluxe Edition/Remastered)",
-        "spotify_url": "https://open.spotify.com/track/0HiubqhlD4iuegPFy88CNK",
-        "plays": 2
-      },
-      {
-        "name": "Tough Guy",
-        "album": "Ill Communication",
-        "spotify_url": "https://open.spotify.com/track/20lUsch6Dom5qHQhhi2aFf",
-        "plays": 2
-      },
-      {
         "name": "The Larry Routine",
         "album": "Hot Sauce Committee (Pt. 2)",
         "spotify_url": "https://open.spotify.com/track/2eQ2VppunD9848HKAiX82j",
-        "plays": 2
-      },
-      {
-        "name": "Jimmy James - Remastered 2009",
-        "album": "Check Your Head (Deluxe Edition/Remastered/2009)",
-        "spotify_url": "https://open.spotify.com/track/2qqCS8wH4FNtgH7kVmF8Ub",
-        "plays": 2
-      },
-      {
-        "name": "Sabrosa",
-        "album": "Ill Communication",
-        "spotify_url": "https://open.spotify.com/track/4Hw2PMgu7y4FHUReIz1Hld",
-        "plays": 2
-      },
-      {
-        "name": "Dirty Dog - Remastered 2009",
-        "album": "Hello Nasty (Deluxe Edition/Remastered)",
-        "spotify_url": "https://open.spotify.com/track/4QxNOusjQrH0RfZJ5Yl7XK",
-        "plays": 2
-      },
-      {
-        "name": "High Plains Drifter",
-        "album": "Paul's Boutique (20th Anniversary Edition / Remastered)",
-        "spotify_url": "https://open.spotify.com/track/4qLmCFNUlFJXOb9TvU9D2L",
-        "plays": 2
-      },
-      {
-        "name": "I Can't Think Straight",
-        "album": "Aglio E Olio",
-        "spotify_url": "https://open.spotify.com/track/5cZx9LLYymEjEKjx9auvpR",
-        "plays": 2
-      },
-      {
-        "name": "Nervous Assistant",
-        "album": "Aglio E Olio",
-        "spotify_url": "https://open.spotify.com/track/5y2DNYd6IgGsUngmYBCjLR",
         "plays": 2
       },
       {
@@ -7731,18 +8295,6 @@
         "album": "Some Old Bullshit",
         "spotify_url": "https://open.spotify.com/track/79Ncgl2TmOJcdTOwHwseo9",
         "plays": 2
-      },
-      {
-        "name": "Gratitude - Remastered 2009",
-        "album": "Check Your Head (Deluxe Edition/Remastered/2009)",
-        "spotify_url": "https://open.spotify.com/track/7G7JZECVScySAqBhgO8C3k",
-        "plays": 2
-      },
-      {
-        "name": "The Sounds Of Science",
-        "album": "Paul's Boutique (20th Anniversary Edition / Remastered)",
-        "spotify_url": "https://open.spotify.com/track/033N3Mf87ODmORg6YO61cm",
-        "plays": 1
       },
       {
         "name": "She's Crafty",
@@ -7757,12 +8309,6 @@
         "plays": 1
       },
       {
-        "name": "3-Minute Rule",
-        "album": "Paul's Boutique (20th Anniversary Edition / Remastered)",
-        "spotify_url": "https://open.spotify.com/track/5mew4rexHu1IV6kTXqH3Nu",
-        "plays": 1
-      },
-      {
         "name": "Flute Loop - Remastered 2009",
         "album": "Ill Communication (Deluxe Edition/Remastered)",
         "spotify_url": "https://open.spotify.com/track/6fyfrrqJe9XOlNNgxHwJ3h",
@@ -7772,12 +8318,6 @@
         "name": "Make Some Noise",
         "album": "Hot Sauce Committee (Pt. 2)",
         "spotify_url": "https://open.spotify.com/track/2Bz2Q1JNwwPj40T9AvzE7f",
-        "plays": 1
-      },
-      {
-        "name": "Intergalactic - Remastered 2009",
-        "album": "Hello Nasty (Deluxe Edition/Remastered)",
-        "spotify_url": "https://open.spotify.com/track/5fpizYGbi5IQoEraj6FP0R",
         "plays": 1
       },
       {
@@ -7799,12 +8339,6 @@
         "plays": 1
       },
       {
-        "name": "The Blue Nun - Remastered 2009",
-        "album": "Check Your Head (Deluxe Edition/Remastered/2009)",
-        "spotify_url": "https://open.spotify.com/track/3kslK9YKu8RQPUxybRqyuw",
-        "plays": 1
-      },
-      {
         "name": "Ch-Check It Out",
         "album": "To The 5 Boroughs",
         "spotify_url": "https://open.spotify.com/track/56H98l4uinRifnTH8e308N",
@@ -7823,27 +8357,9 @@
         "plays": 1
       },
       {
-        "name": "Hey Ladies",
-        "album": "Paul's Boutique (20th Anniversary Edition / Remastered)",
-        "spotify_url": "https://open.spotify.com/track/5ulZo7nk3MByXLvja3NCAc",
-        "plays": 1
-      },
-      {
         "name": "Egg Raid On Mojo",
         "album": "Some Old Bullshit",
         "spotify_url": "https://open.spotify.com/track/3AUZ0xoGYKBpN6LsgZ1QnM",
-        "plays": 1
-      },
-      {
-        "name": "Song For Junior - Remastered 2009",
-        "album": "Hello Nasty (Deluxe Edition/Remastered)",
-        "spotify_url": "https://open.spotify.com/track/3EJweHq5GBpdeMIHmBAi6v",
-        "plays": 1
-      },
-      {
-        "name": "Time For Livin' - Remastered 2009",
-        "album": "Check Your Head (Deluxe Edition/Remastered/2009)",
-        "spotify_url": "https://open.spotify.com/track/5Io6erQEbeMrDwpLClYLuF",
         "plays": 1
       },
       {
@@ -8319,9 +8835,9 @@
     "id": "09hVIj6vWgoCDtT03h8ZCa",
     "name": "A Tribe Called Quest",
     "spotify_url": "https://open.spotify.com/artist/09hVIj6vWgoCDtT03h8ZCa",
-    "total_plays": 27,
+    "total_plays": 29,
     "first_seen": "2026-02-26",
-    "last_seen": "2026-03-19",
+    "last_seen": "2026-05-28",
     "genres": [
       "jazz rap",
       "east coast hip hop",
@@ -8422,6 +8938,18 @@
         "name": "Excursions",
         "album": "The Low End Theory",
         "spotify_url": "https://open.spotify.com/track/4tEaytMs86hIaOSsiGoLcP",
+        "plays": 1
+      },
+      {
+        "name": "Can I Kick It?",
+        "album": "The Anthology",
+        "spotify_url": "https://open.spotify.com/track/7kpeL1x9j7uKgPx6rVz7D7",
+        "plays": 1
+      },
+      {
+        "name": "I Left My Wallet in El Segundo",
+        "album": "People's Instinctive Travels and the Paths of Rhythm (25th Anniversary Edition)",
+        "spotify_url": "https://open.spotify.com/track/6aeht0QSwiZN1esYfniHxr",
         "plays": 1
       },
       {
@@ -10092,9 +10620,9 @@
     "id": "4P0dddbxPil35MNN9G2MEX",
     "name": "Cypress Hill",
     "spotify_url": "https://open.spotify.com/artist/4P0dddbxPil35MNN9G2MEX",
-    "total_plays": 11,
+    "total_plays": 12,
     "first_seen": "2026-03-03",
-    "last_seen": "2026-04-05",
+    "last_seen": "2026-05-28",
     "genres": [
       "west coast hip hop",
       "old school hip hop",
@@ -10123,7 +10651,7 @@
         "name": "When the Shit Goes Down",
         "album": "Black Sunday",
         "spotify_url": "https://open.spotify.com/track/7aAZOl8GHF6ge391oY0Kmy",
-        "plays": 5
+        "plays": 6
       },
       {
         "name": "How I Could Just Kill a Man",
@@ -10432,9 +10960,9 @@
     "id": "6DPYiyq5kWVQS4RGwxzPC7",
     "name": "Dr. Dre",
     "spotify_url": "https://open.spotify.com/artist/6DPYiyq5kWVQS4RGwxzPC7",
-    "total_plays": 7,
+    "total_plays": 8,
     "first_seen": "2026-03-06",
-    "last_seen": "2026-04-05",
+    "last_seen": "2026-05-26",
     "genres": [
       "old school hip hop",
       "g-funk",
@@ -10467,15 +10995,15 @@
     ],
     "top_tracks": [
       {
-        "name": "Still D.R.E.",
-        "album": "2001",
-        "spotify_url": "https://open.spotify.com/track/503OTo2dSqe7qk76rgsbep",
-        "plays": 1
-      },
-      {
         "name": "The Next Episode",
         "album": "2001",
         "spotify_url": "https://open.spotify.com/track/4LwU4Vp6od3Sb08CsP99GC",
+        "plays": 2
+      },
+      {
+        "name": "Still D.R.E.",
+        "album": "2001",
+        "spotify_url": "https://open.spotify.com/track/503OTo2dSqe7qk76rgsbep",
         "plays": 1
       },
       {
@@ -11052,9 +11580,9 @@
     "id": "0EdvGhlC1FkGItLOWQzG4J",
     "name": "Sublime",
     "spotify_url": "https://open.spotify.com/artist/0EdvGhlC1FkGItLOWQzG4J",
-    "total_plays": 22,
+    "total_plays": 23,
     "first_seen": "2026-03-03",
-    "last_seen": "2026-03-19",
+    "last_seen": "2026-05-28",
     "genres": [
       "reggae rock",
       "ska punk",
@@ -11184,6 +11712,12 @@
         "name": "Waiting For My Ruca",
         "album": "40oz. To Freedom",
         "spotify_url": "https://open.spotify.com/track/3Cx9j78Z0NE6jYwBWvvV3P",
+        "plays": 1
+      },
+      {
+        "name": "April 29, 1992 (Miami)",
+        "album": "Sublime",
+        "spotify_url": "https://open.spotify.com/track/2CLSHTGF4jYXx2RCz1h0dS",
         "plays": 1
       },
       {
@@ -12192,9 +12726,9 @@
     "id": "7nW46aJfNHxK9Y3M5Dhadk",
     "name": "Jack Van Cleaf",
     "spotify_url": "https://open.spotify.com/artist/7nW46aJfNHxK9Y3M5Dhadk",
-    "total_plays": 20,
+    "total_plays": 25,
     "first_seen": "2026-03-04",
-    "last_seen": "2026-05-18",
+    "last_seen": "2026-05-29",
     "genres": [],
     "images": [
       {
@@ -12215,16 +12749,16 @@
     ],
     "top_tracks": [
       {
+        "name": "Green",
+        "album": "JVC",
+        "spotify_url": "https://open.spotify.com/track/1y0irYFXbGGPmAUjK8bFNA",
+        "plays": 4
+      },
+      {
         "name": "Santa Anas",
         "album": "John IV",
         "spotify_url": "https://open.spotify.com/track/3lvUE1Tx9kL37aGaF7FIKM",
         "plays": 3
-      },
-      {
-        "name": "Green",
-        "album": "JVC",
-        "spotify_url": "https://open.spotify.com/track/1y0irYFXbGGPmAUjK8bFNA",
-        "plays": 2
       },
       {
         "name": "Siri, Cancel My Plans",
@@ -12308,6 +12842,24 @@
         "name": "Smoker",
         "album": "JVC",
         "spotify_url": "https://open.spotify.com/track/1VshXQJLBCge1YWpbwJlig",
+        "plays": 1
+      },
+      {
+        "name": "Shouldn't Have Gone to L.A",
+        "album": "JVC",
+        "spotify_url": "https://open.spotify.com/track/3FJjWPlybGBYdFjukkMPqG",
+        "plays": 1
+      },
+      {
+        "name": "Using You",
+        "album": "JVC",
+        "spotify_url": "https://open.spotify.com/track/2bWlEirBgnK78PY6ITEcZG",
+        "plays": 1
+      },
+      {
+        "name": "Margot",
+        "album": "Fruit from the Trees",
+        "spotify_url": "https://open.spotify.com/track/1BWE2oUl6aIkxxOT1m1IVm",
         "plays": 1
       }
     ]
@@ -16082,9 +16634,9 @@
     "id": "5SlqleEyFgUYZEZCJ5juDr",
     "name": "Joshua Ray Walker",
     "spotify_url": "https://open.spotify.com/artist/5SlqleEyFgUYZEZCJ5juDr",
-    "total_plays": 19,
+    "total_plays": 22,
     "first_seen": "2026-03-14",
-    "last_seen": "2026-04-17",
+    "last_seen": "2026-05-31",
     "genres": [
       "alt country",
       "americana",
@@ -16110,6 +16662,12 @@
     ],
     "top_tracks": [
       {
+        "name": "Fossil Fuel",
+        "album": "See You Next Time",
+        "spotify_url": "https://open.spotify.com/track/5eVI85PODc3vA7bMyp3Rsq",
+        "plays": 3
+      },
+      {
         "name": "Lot Lizard",
         "album": "Wish You Were Here",
         "spotify_url": "https://open.spotify.com/track/4gDFVgkXx8H1zmlmhjw9u1",
@@ -16119,12 +16677,6 @@
         "name": "I Don't Wanna Be Alone",
         "album": "Tropicana",
         "spotify_url": "https://open.spotify.com/track/0aFPOI1JxeiB2BQB30RoFT",
-        "plays": 2
-      },
-      {
-        "name": "Fossil Fuel",
-        "album": "See You Next Time",
-        "spotify_url": "https://open.spotify.com/track/5eVI85PODc3vA7bMyp3Rsq",
         "plays": 2
       },
       {
@@ -16203,6 +16755,18 @@
         "name": "Telephone",
         "album": "Stuff",
         "spotify_url": "https://open.spotify.com/track/6ljogA0F1H7HgWG9kihRb8",
+        "plays": 1
+      },
+      {
+        "name": "Thank You For Listening",
+        "album": "Ain't Dead Yet",
+        "spotify_url": "https://open.spotify.com/track/3Ezbmxi4zLiFWbTwYHWMC8",
+        "plays": 1
+      },
+      {
+        "name": "Ain't Dead Yet",
+        "album": "Ain't Dead Yet",
+        "spotify_url": "https://open.spotify.com/track/4Lx2gmkk1OO863VQDlFJMK",
         "plays": 1
       }
     ]
@@ -17768,7 +18332,7 @@
     "id": "1zf7vVM2XaoaTD3hXWR1If",
     "name": "Verdèzul",
     "spotify_url": "https://open.spotify.com/artist/1zf7vVM2XaoaTD3hXWR1If",
-    "total_plays": 28,
+    "total_plays": 29,
     "first_seen": "2026-03-21",
     "last_seen": "2026-05-19",
     "genres": [],
@@ -17791,15 +18355,15 @@
     ],
     "top_tracks": [
       {
-        "name": "I Tell Ya",
-        "album": "I Tell Ya",
-        "spotify_url": "https://open.spotify.com/track/1rkc2masc6W4UTCsPYP4M5",
-        "plays": 3
-      },
-      {
         "name": "Taxes Finnah Hit",
         "album": "Taxes Finnah Hit",
         "spotify_url": "https://open.spotify.com/track/0fn5JcaPCR1jeXdUWV5va2",
+        "plays": 4
+      },
+      {
+        "name": "I Tell Ya",
+        "album": "I Tell Ya",
+        "spotify_url": "https://open.spotify.com/track/1rkc2masc6W4UTCsPYP4M5",
         "plays": 3
       },
       {
@@ -17934,9 +18498,9 @@
     "id": "4DSDa4HvAWqvb3dMHUOAfd",
     "name": "Stephen Wilson Jr.",
     "spotify_url": "https://open.spotify.com/artist/4DSDa4HvAWqvb3dMHUOAfd",
-    "total_plays": 8,
+    "total_plays": 9,
     "first_seen": "2026-03-20",
-    "last_seen": "2026-03-20",
+    "last_seen": "2026-05-26",
     "genres": [],
     "images": [
       {
@@ -17956,6 +18520,12 @@
       }
     ],
     "top_tracks": [
+      {
+        "name": "Hunger Strike",
+        "album": "Blankets",
+        "spotify_url": "https://open.spotify.com/track/1KX8lvTaPh4dHmJzqmaYmD",
+        "plays": 2
+      },
       {
         "name": "Stand By Me - Live at The Print Shop",
         "album": "søn of dad (deluxe)",
@@ -17996,12 +18566,6 @@
         "name": "patches",
         "album": "søn of dad (deluxe)",
         "spotify_url": "https://open.spotify.com/track/6SARKgR2JIcVu7XcM1JIOT",
-        "plays": 1
-      },
-      {
-        "name": "Hunger Strike",
-        "album": "Blankets",
-        "spotify_url": "https://open.spotify.com/track/1KX8lvTaPh4dHmJzqmaYmD",
         "plays": 1
       },
       {
@@ -22186,9 +22750,9 @@
     "id": "1P8IfcNKwrkQP5xJWuhaOC",
     "name": "LL COOL J",
     "spotify_url": "https://open.spotify.com/artist/1P8IfcNKwrkQP5xJWuhaOC",
-    "total_plays": 1,
+    "total_plays": 2,
     "first_seen": "2026-04-05",
-    "last_seen": "2026-04-05",
+    "last_seen": "2026-05-27",
     "genres": [
       "old school hip hop",
       "east coast hip hop"
@@ -22215,6 +22779,12 @@
         "name": "Murdergram Deux (feat. Eminem)",
         "album": "THE FORCE",
         "spotify_url": "https://open.spotify.com/track/4Fhph8yWRNFeIoI7iXQL4W",
+        "plays": 1
+      },
+      {
+        "name": "I'm Bad",
+        "album": "I'm Bad",
+        "spotify_url": "https://open.spotify.com/track/5mTkJQ85Hl9aQLGzqGpfCc",
         "plays": 1
       },
       {
@@ -24212,9 +24782,9 @@
     "id": "1ReHC2jB2DGoPbMYhzuFuO",
     "name": "Yonder Mountain String Band",
     "spotify_url": "https://open.spotify.com/artist/1ReHC2jB2DGoPbMYhzuFuO",
-    "total_plays": 7,
+    "total_plays": 8,
     "first_seen": "2026-04-21",
-    "last_seen": "2026-05-02",
+    "last_seen": "2026-05-28",
     "genres": [
       "newgrass",
       "bluegrass",
@@ -24243,7 +24813,7 @@
         "name": "Midwest Gospel Radio",
         "album": "Yonder Mountain String Band",
         "spotify_url": "https://open.spotify.com/track/6zLxJBNUnM5goofI3HFgpX",
-        "plays": 3
+        "plays": 4
       },
       {
         "name": "Groovin' Away",
@@ -25323,9 +25893,9 @@
     "id": "5sD1ZLf2dGQ9gQ3YJl1eAd",
     "name": "Blind Melon",
     "spotify_url": "https://open.spotify.com/artist/5sD1ZLf2dGQ9gQ3YJl1eAd",
-    "total_plays": 2,
+    "total_plays": 4,
     "first_seen": "2026-04-29",
-    "last_seen": "2026-05-02",
+    "last_seen": "2026-05-28",
     "genres": [
       "grunge"
     ],
@@ -25351,7 +25921,7 @@
         "name": "Change",
         "album": "Blind Melon",
         "spotify_url": "https://open.spotify.com/track/44RW9FEY76mLQCRQUjT0Zt",
-        "plays": 1
+        "plays": 3
       },
       {
         "name": "The Pusher",
@@ -25371,9 +25941,9 @@
     "id": "3vbKDsSS70ZX9D2OcvbZmS",
     "name": "Beck",
     "spotify_url": "https://open.spotify.com/artist/3vbKDsSS70ZX9D2OcvbZmS",
-    "total_plays": 1,
+    "total_plays": 3,
     "first_seen": "2026-05-02",
-    "last_seen": "2026-05-02",
+    "last_seen": "2026-05-28",
     "genres": [
       "anti-folk"
     ],
@@ -25399,6 +25969,18 @@
         "name": "Ride Lonesome",
         "album": "Ride Lonesome",
         "spotify_url": "https://open.spotify.com/track/4ZNjYG7CW4ogsOtIB36h1j",
+        "plays": 1
+      },
+      {
+        "name": "Que' Onda Guero",
+        "album": "Guero",
+        "spotify_url": "https://open.spotify.com/track/5txrJzhPIrRqfvtnvZGcbX",
+        "plays": 1
+      },
+      {
+        "name": "Loser",
+        "album": "Mellow Gold",
+        "spotify_url": "https://open.spotify.com/track/5PntSbMHC1ud6Vvl8x56qd",
         "plays": 1
       },
       {
@@ -30356,7 +30938,7 @@
     "id": "6BvSJSt6l7QJO2GHvtwFOK",
     "name": "Hampton Hawes",
     "spotify_url": "https://open.spotify.com/artist/6BvSJSt6l7QJO2GHvtwFOK",
-    "total_plays": 5,
+    "total_plays": 10,
     "first_seen": "2026-05-19",
     "last_seen": "2026-05-19",
     "genres": [
@@ -30387,31 +30969,31 @@
         "name": "Carioca",
         "album": "Music At Night",
         "spotify_url": "https://open.spotify.com/track/1MW6DKcshJ0BexVcxLmPOu",
-        "plays": 1
+        "plays": 2
       },
       {
         "name": "Feelin' Fine",
         "album": "Music At Night",
         "spotify_url": "https://open.spotify.com/track/2aTpiGaCeaxqHozCIAPAD0",
-        "plays": 1
+        "plays": 2
       },
       {
         "name": "Easy Living",
         "album": "Music At Night",
         "spotify_url": "https://open.spotify.com/track/2B4VWfH1b6o3xGgAyAspzs",
-        "plays": 1
+        "plays": 2
       },
       {
         "name": "I Got Rhythm",
         "album": "Music At Night",
         "spotify_url": "https://open.spotify.com/track/4mUOPrxavL8OPYWIsAS5yJ",
-        "plays": 1
+        "plays": 2
       },
       {
         "name": "All the Things You Are",
         "album": "Music At Night",
         "spotify_url": "https://open.spotify.com/track/2SY8X9LZUM2AcKSSsdYXy4",
-        "plays": 1
+        "plays": 2
       }
     ]
   },
@@ -30445,6 +31027,1341 @@
         "name": "Sunlight (Reimagined)",
         "album": "Burnout Days (Reimagined)",
         "spotify_url": "https://open.spotify.com/track/5oFO2CI2KtYMoeYN8jvcmK",
+        "plays": 1
+      }
+    ]
+  },
+  "boards-of-canada": {
+    "id": "2VAvhf61GgLYmC6C8anyX1",
+    "name": "Boards of Canada",
+    "spotify_url": "https://open.spotify.com/artist/2VAvhf61GgLYmC6C8anyX1",
+    "total_plays": 10,
+    "first_seen": "2026-05-30",
+    "last_seen": "2026-05-31",
+    "genres": [
+      "idm",
+      "ambient",
+      "trip hop",
+      "downtempo",
+      "electronic"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb8d582d93756e158b968cc35d",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051748d582d93756e158b968cc35d",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1788d582d93756e158b968cc35d",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Peacock Tail",
+        "album": "The Campfire Headphase",
+        "spotify_url": "https://open.spotify.com/track/2DQlQcYponGtEwvEHRHYvu",
+        "plays": 1
+      },
+      {
+        "name": "Beware The Friendly Stranger",
+        "album": "Geogaddi",
+        "spotify_url": "https://open.spotify.com/track/687l4FFeMyg6wJYO8LCX4b",
+        "plays": 1
+      },
+      {
+        "name": "Aquarius",
+        "album": "Music Has The Right To Children",
+        "spotify_url": "https://open.spotify.com/track/08EgS4Nqe1jPkI9tx9Dq3S",
+        "plays": 1
+      },
+      {
+        "name": "Gyroscope",
+        "album": "Geogaddi",
+        "spotify_url": "https://open.spotify.com/track/2KS7b9EbL3sPGswRf3seAZ",
+        "plays": 1
+      },
+      {
+        "name": "Music Is Math",
+        "album": "Geogaddi",
+        "spotify_url": "https://open.spotify.com/track/3MF9cjIlg3R9osw3SgRmEb",
+        "plays": 1
+      },
+      {
+        "name": "Dayvan Cowboy",
+        "album": "The Campfire Headphase",
+        "spotify_url": "https://open.spotify.com/track/2J4lJMCuFCA0zlwFOjePD5",
+        "plays": 1
+      },
+      {
+        "name": "Introit",
+        "album": "Prophecy At 1420 MHz",
+        "spotify_url": "https://open.spotify.com/track/68j6NKcGW2oCHZ0V2FDMbo",
+        "plays": 1
+      },
+      {
+        "name": "Olson",
+        "album": "Music Has The Right To Children",
+        "spotify_url": "https://open.spotify.com/track/5DZ4M3yMat79ok25rZHuA9",
+        "plays": 1
+      },
+      {
+        "name": "Roygbiv",
+        "album": "Music Has The Right To Children",
+        "spotify_url": "https://open.spotify.com/track/5Hf2h59YLInKlic7ooWZVd",
+        "plays": 1
+      },
+      {
+        "name": "Prophecy At 1420 MHz",
+        "album": "Prophecy At 1420 MHz",
+        "spotify_url": "https://open.spotify.com/track/4gYaI1S9Qug6B96E2HwxeN",
+        "plays": 1
+      }
+    ]
+  },
+  "sonny-rollins": {
+    "id": "1VEzN9lxvG6KPR3QQGsebR",
+    "name": "Sonny Rollins",
+    "spotify_url": "https://open.spotify.com/artist/1VEzN9lxvG6KPR3QQGsebR",
+    "total_plays": 4,
+    "first_seen": "2026-05-29",
+    "last_seen": "2026-05-29",
+    "genres": [
+      "hard bop",
+      "jazz",
+      "bebop",
+      "jazz ballads",
+      "cool jazz"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6772690000c46c36895fb1d821585e10947a37",
+        "height": 1000,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6772690000dd2236895fb1d821585e10947a37",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6772690000bac336895fb1d821585e10947a37",
+        "height": 200,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67726900008f7436895fb1d821585e10947a37",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "You Don't Know What Love Is - Rudy Van Gelder Rudy Van Gelder Remastered 2006 / Shared ISRC",
+        "album": "Saxophone Colossus",
+        "spotify_url": "https://open.spotify.com/track/1to5IySvboywOgXW9jCjDn",
+        "plays": 1
+      },
+      {
+        "name": "God Bless the Child",
+        "album": "The Bridge",
+        "spotify_url": "https://open.spotify.com/track/7DUGRxCf9NFJffb5Eei8Ar",
+        "plays": 1
+      },
+      {
+        "name": "In A Sentimental Mood",
+        "album": "Sonny Rollins With The Modern Jazz Quartet",
+        "spotify_url": "https://open.spotify.com/track/3glQOWRCAQIrCnQhWBEFSL",
+        "plays": 1
+      },
+      {
+        "name": "St. Thomas",
+        "album": "Saxophone Colossus",
+        "spotify_url": "https://open.spotify.com/track/05LNBtMuc26HSAHh7C6iG8",
+        "plays": 1
+      },
+      {
+        "name": "Airegin - RVG Remaster",
+        "album": "Bags' Groove (Rudy Van Gelder Remaster)",
+        "spotify_url": "https://open.spotify.com/track/6KvK5mvFIx4JjfVU0gjl7j",
+        "plays": 2
+      },
+      {
+        "name": "Mangos - 2007 Re-master",
+        "album": "Sound Of Sonny [Keepnews Collection]",
+        "spotify_url": "https://open.spotify.com/track/7fvTiCePc5eVOJFsjULDm0",
+        "plays": 2
+      },
+      {
+        "name": "Ev'ry Time We Say Goodbye - 2007 Re-master",
+        "album": "Sound Of Sonny [Keepnews Collection]",
+        "spotify_url": "https://open.spotify.com/track/2EeOgXAm8zX2QhKf0RZ3H3",
+        "plays": 2
+      },
+      {
+        "name": "Lover Man - Remastered",
+        "album": "Sonny Meets Hawk!",
+        "spotify_url": "https://open.spotify.com/track/2IphXOYrkkW52Cj6NCW9a7",
+        "plays": 2
+      },
+      {
+        "name": "On The Sunny Side Of The Street",
+        "album": "Dizzy 100",
+        "spotify_url": "https://open.spotify.com/track/38R2EViAkYOFG8ZkG3GLtW",
+        "plays": 2
+      },
+      {
+        "name": "St. Thomas",
+        "album": "Now's The Time!",
+        "spotify_url": "https://open.spotify.com/track/5bUNvFQYiAqJWZ4cQ9MlSZ",
+        "plays": 2
+      },
+      {
+        "name": "Reflections - Rudy Van Gelder Edition/1999 Remaster/24 Bit Mastering",
+        "album": "Volume Two",
+        "spotify_url": "https://open.spotify.com/track/0ewNjTNSJmSfuozc7p88HV",
+        "plays": 2
+      },
+      {
+        "name": "He's Younger Than You Are - From \"Alfie\" Score",
+        "album": "Alfie",
+        "spotify_url": "https://open.spotify.com/track/11vaRXRIFXJTRr3BuzNbk5",
+        "plays": 2
+      },
+      {
+        "name": "Four - Recorded at VARA Studio 5 in Hilversum, The Netherlands on May 5, 1967",
+        "album": "Rollins in Holland: The 1967 Studio & Live Recordings",
+        "spotify_url": "https://open.spotify.com/track/2u3Tf9AIIYALSdvNDhCXJA",
+        "plays": 2
+      },
+      {
+        "name": "Blue 7 - Rudy Van Gelder Remaster",
+        "album": "Saxophone Colossus",
+        "spotify_url": "https://open.spotify.com/track/3oWcCZ9K9R1fHUbAKxo99m",
+        "plays": 2
+      },
+      {
+        "name": "Softly As In A Morning Sunrise - Live At The Village Vanguard/1957 - Evening Take",
+        "album": "A Night At The Village Vanguard (Live)",
+        "spotify_url": "https://open.spotify.com/track/3ybRszkVXeMWxWAec3NMJH",
+        "plays": 2
+      },
+      {
+        "name": "Ba-Lue Bolivar Ba-Lues-Are",
+        "album": "Brilliant Corners",
+        "spotify_url": "https://open.spotify.com/track/1OjmEyEycmzJK3itBAq8EG",
+        "plays": 1
+      },
+      {
+        "name": "Bemsha Swing",
+        "album": "The Very Best Of Thelonious Monk",
+        "spotify_url": "https://open.spotify.com/track/3JrdrfwOwmDrU8jMlr1nA7",
+        "plays": 1
+      },
+      {
+        "name": "Doxy - RVG Remaster",
+        "album": "Bags' Groove (Rudy Van Gelder Remaster)",
+        "spotify_url": "https://open.spotify.com/track/3vZIYc2V9Ql80jWI2ZApEC",
+        "plays": 1
+      },
+      {
+        "name": "Street Runner With Child - From \"Alfie\" Score",
+        "album": "Alfie",
+        "spotify_url": "https://open.spotify.com/track/2Kwc0WUKDwETMONJTRSpcR",
+        "plays": 1
+      },
+      {
+        "name": "Friday The 13th",
+        "album": "Thelonious Monk and Sonny Rollins",
+        "spotify_url": "https://open.spotify.com/track/486WAd6LYDr98q6u0pCfrR",
+        "plays": 1
+      },
+      {
+        "name": "Pent-Up House",
+        "album": "Plus Four",
+        "spotify_url": "https://open.spotify.com/track/2uaMIdq7JAfpN1QGt4kQ7W",
+        "plays": 1
+      },
+      {
+        "name": "Yesterdays - Remastered",
+        "album": "Sonny Meets Hawk!",
+        "spotify_url": "https://open.spotify.com/track/48P2zm8kawBLWL3y4tgeG5",
+        "plays": 1
+      },
+      {
+        "name": "Shadrack",
+        "album": "Sonny Rollins With The Modern Jazz Quartet",
+        "spotify_url": "https://open.spotify.com/track/5eBo8djP1SOXZy5YlJs1hW",
+        "plays": 1
+      },
+      {
+        "name": "I'm an Old Cowhand",
+        "album": "Way Out West (OJC Remaster)",
+        "spotify_url": "https://open.spotify.com/track/6VRSZGxuhPGOCgUUAnAaUw",
+        "plays": 1
+      },
+      {
+        "name": "On Green Dolphin St/There Will Never Be Another You - Recorded Live at Academie voor Beeldende Kunst in Arnhem, The Netherlands on May 3, 1967",
+        "album": "Rollins in Holland: The 1967 Studio & Live Recordings",
+        "spotify_url": "https://open.spotify.com/track/3ipKM0UQdvJWabsB5R4olx",
+        "plays": 1
+      }
+    ]
+  },
+  "dizzy-gillespie": {
+    "id": "5RzjqfPS0Bu4bUMkyNNDpn",
+    "name": "Dizzy Gillespie",
+    "spotify_url": "https://open.spotify.com/artist/5RzjqfPS0Bu4bUMkyNNDpn",
+    "total_plays": 2,
+    "first_seen": "2026-05-29",
+    "last_seen": "2026-05-29",
+    "genres": [
+      "bebop",
+      "jazz",
+      "afro-cuban jazz",
+      "hard bop",
+      "latin jazz",
+      "big band",
+      "cool jazz"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/896485317ae7153ad421012f2f7cb90cf3fbfbff",
+        "height": 1024,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/96daabf66ecd18cc20df9339e0e9c1ba1d2f868f",
+        "height": 656,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/7662f15f1ef7e479b452a602663975af1b271000",
+        "height": 205,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/8368a17dfed9085ca0d6f3eda7ec799fdbeb77fd",
+        "height": 66,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "On The Sunny Side Of The Street",
+        "album": "Sonny Side Up",
+        "spotify_url": "https://open.spotify.com/track/3ZQ6bCWYPgX7SqZ5AVeKOm",
+        "plays": 2
+      },
+      {
+        "name": "On The Sunny Side Of The Street",
+        "album": "Dizzy 100",
+        "spotify_url": "https://open.spotify.com/track/38R2EViAkYOFG8ZkG3GLtW",
+        "plays": 2
+      },
+      {
+        "name": "Relaxing With Lee - Take 6 / Take 3 / Master Take",
+        "album": "Bird And Diz (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/14DEfXQJTnx4VHxU5CI47e",
+        "plays": 1
+      },
+      {
+        "name": "Relaxing With Lee - Take 2 / Incomplete",
+        "album": "Bird And Diz (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/42wbar3MwSjbRwAn7vYDeR",
+        "plays": 1
+      },
+      {
+        "name": "An Oscar For Treadwell - Incomplete 411-1",
+        "album": "Unheard Bird: The Unissued Takes",
+        "spotify_url": "https://open.spotify.com/track/4KP5a2ykBXcP0q9QDOthqJ",
+        "plays": 1
+      },
+      {
+        "name": "All The Things You Are",
+        "album": "Odyssey: 1945-1952",
+        "spotify_url": "https://open.spotify.com/track/6LPqphk2rbt2i63bR2o247",
+        "plays": 1
+      },
+      {
+        "name": "Groovin' High",
+        "album": "Groovin' High",
+        "spotify_url": "https://open.spotify.com/track/4ttUzFCVnlOmopuzM4oEUJ",
+        "plays": 1
+      }
+    ]
+  },
+  "renee-fleming": {
+    "id": "3SK3gLBgy1jRuA4VnLlcs8",
+    "name": "Renée Fleming",
+    "spotify_url": "https://open.spotify.com/artist/3SK3gLBgy1jRuA4VnLlcs8",
+    "total_plays": 16,
+    "first_seen": "2026-05-29",
+    "last_seen": "2026-05-29",
+    "genres": [
+      "opera",
+      "classical"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb6fcd8cba3e522c457b41a6e5",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051746fcd8cba3e522c457b41a6e5",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1786fcd8cba3e522c457b41a6e5",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Blackest Crow (feat. Aoife O'Donovan)",
+        "album": "The Fiddle and the Drum",
+        "spotify_url": "https://open.spotify.com/track/2FbziU3xhPySEyUzJf53P9",
+        "plays": 2
+      },
+      {
+        "name": "The Cuckoo (feat. Jerry Douglas)",
+        "album": "The Fiddle and the Drum",
+        "spotify_url": "https://open.spotify.com/track/2ozmmuCj5J4Fq8J8cs8ICU",
+        "plays": 2
+      },
+      {
+        "name": "The Scarlet Tide (feat. Vince Gill)",
+        "album": "The Fiddle and the Drum",
+        "spotify_url": "https://open.spotify.com/track/1iL9qWFCv4cpYMopJwnRIS",
+        "plays": 2
+      },
+      {
+        "name": "My Epitaph",
+        "album": "The Fiddle and the Drum",
+        "spotify_url": "https://open.spotify.com/track/0dd8dXeE2DVv0M95jX8Rhz",
+        "plays": 2
+      },
+      {
+        "name": "The Fiddle and the Drum (feat. Jerry Douglas)",
+        "album": "The Fiddle and the Drum",
+        "spotify_url": "https://open.spotify.com/track/04xRI94czeeI9xWNJRVOOU",
+        "plays": 2
+      },
+      {
+        "name": "In The Pines (feat. Dolly Parton)",
+        "album": "The Fiddle and the Drum",
+        "spotify_url": "https://open.spotify.com/track/4a2ZtX9GYZnYeHML3LzU4T",
+        "plays": 2
+      },
+      {
+        "name": "Pretty Bird (feat. Sierra Hull & Sarah Jarosz)",
+        "album": "The Fiddle and the Drum",
+        "spotify_url": "https://open.spotify.com/track/6t5vK9Nn8TMI4tiNS3lrIl",
+        "plays": 1
+      },
+      {
+        "name": "he's gone away (reprise)",
+        "album": "The Fiddle and the Drum",
+        "spotify_url": "https://open.spotify.com/track/1ZA6Q8wlPvGtiamgt8WbSP",
+        "plays": 1
+      },
+      {
+        "name": "Scarlet Ribbons",
+        "album": "The Fiddle and the Drum",
+        "spotify_url": "https://open.spotify.com/track/6ZIdBcctFnoP1vdIGPGZeG",
+        "plays": 1
+      },
+      {
+        "name": "He's Gone Away / Storms Are On the Ocean",
+        "album": "The Fiddle and the Drum",
+        "spotify_url": "https://open.spotify.com/track/4a4qGlclvBL3RrcnO4sKru",
+        "plays": 1
+      }
+    ]
+  },
+  "butthole-surfers": {
+    "id": "62BcWP4fzR8axESibNQEhs",
+    "name": "Butthole Surfers",
+    "spotify_url": "https://open.spotify.com/artist/62BcWP4fzR8axESibNQEhs",
+    "total_plays": 2,
+    "first_seen": "2026-05-27",
+    "last_seen": "2026-05-28",
+    "genres": [
+      "noise rock"
+    ],
+    "images": [
+      {
+        "height": 665,
+        "url": "https://i.scdn.co/image/dabd2920676f2ae15862ed8dfcf89a8ddb9d11ee",
+        "width": 1000
+      },
+      {
+        "height": 425,
+        "url": "https://i.scdn.co/image/4136eafc38bb9a7e6db382c5e027380e6a527be1",
+        "width": 639
+      },
+      {
+        "height": 133,
+        "url": "https://i.scdn.co/image/13fb78d8c965a8a3637a659442fead75890e1c07",
+        "width": 200
+      },
+      {
+        "height": 43,
+        "url": "https://i.scdn.co/image/b18f1417a0d867c8af95ec56c810e02176d86500",
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Intelligent Guy - Astronaut Version",
+        "album": "Intelligent Guy (Astronaut Version)",
+        "spotify_url": "https://open.spotify.com/track/5Yahflz0je7OMkf0gr2Tck",
+        "plays": 1
+      },
+      {
+        "name": "Who Was In My Room Last Night?",
+        "album": "Independent Worm Saloon",
+        "spotify_url": "https://open.spotify.com/track/6DVNQXL9LRzKq8zjyFEuTC",
+        "plays": 1
+      },
+      {
+        "name": "Weber",
+        "album": "Locust Abortion Technician",
+        "spotify_url": "https://open.spotify.com/track/3Vz56GC6CSHCF9ez5doEkr",
+        "plays": 2
+      },
+      {
+        "name": "John E. Smoke - 2024 Remaster",
+        "album": "Hairway To Steven (2024 Remaster)",
+        "spotify_url": "https://open.spotify.com/track/7gyZuSzeQGOypzRJD3HrQu",
+        "plays": 2
+      },
+      {
+        "name": "22 Going On 23",
+        "album": "Locust Abortion Technician",
+        "spotify_url": "https://open.spotify.com/track/2zXtevperdjudA1erYYmMa",
+        "plays": 2
+      },
+      {
+        "name": "I Saw an X-Ray of a Girl Passing Gas",
+        "album": "Hairway To Steven",
+        "spotify_url": "https://open.spotify.com/track/0dYjJIrxPlMU0TuOWodDs9",
+        "plays": 2
+      },
+      {
+        "name": "TV Star",
+        "album": "Electriclarryland",
+        "spotify_url": "https://open.spotify.com/track/0uRHafBtI8bMupNdJRKh9X",
+        "plays": 2
+      },
+      {
+        "name": "Mexican Caravan",
+        "album": "Psychic.... Powerless.... Another Man's Sac",
+        "spotify_url": "https://open.spotify.com/track/118F5fXQ3A0Hx87MtMfaLS",
+        "plays": 2
+      },
+      {
+        "name": "Eye of the Chicken",
+        "album": "Psychic.... Powerless.... Another Man's Sac",
+        "spotify_url": "https://open.spotify.com/track/1KrsrXHP1GUneSqA4rm0i8",
+        "plays": 2
+      },
+      {
+        "name": "Birds",
+        "album": "Electriclarryland",
+        "spotify_url": "https://open.spotify.com/track/1z8Lb6r4KRHlT3iKj56alU",
+        "plays": 2
+      },
+      {
+        "name": "Fast Song",
+        "album": "Hairway To Steven",
+        "spotify_url": "https://open.spotify.com/track/2HhdifqO9SZxbXFFVDjk7g",
+        "plays": 2
+      },
+      {
+        "name": "Waiting For Jimmy To Kick - 2024 Remaster",
+        "album": "Rembrandt Pussyhorse (2024 Remaster)",
+        "spotify_url": "https://open.spotify.com/track/3OO90zU6wWgGU0P6IeTWja",
+        "plays": 2
+      },
+      {
+        "name": "Something",
+        "album": "Pioughd + Widowermaker!",
+        "spotify_url": "https://open.spotify.com/track/5bGqhLcBd5YXuqzMVQiFUl",
+        "plays": 2
+      },
+      {
+        "name": "Let's Talk About Cars",
+        "album": "Electriclarryland",
+        "spotify_url": "https://open.spotify.com/track/7kOrKZDeN0D9MR0b0OQR2c",
+        "plays": 2
+      },
+      {
+        "name": "Strangers Die Everyday",
+        "album": "Rembrandt Pussyhorse",
+        "spotify_url": "https://open.spotify.com/track/7mX0THIKwxwIgejP7sxqI2",
+        "plays": 2
+      },
+      {
+        "name": "Sweat Loaf",
+        "album": "Locust Abortion Technician",
+        "spotify_url": "https://open.spotify.com/track/1FA7WCMYmpfnIA6RjorGnT",
+        "plays": 1
+      },
+      {
+        "name": "The Shah Sleeps in Lee Harvey's Grave",
+        "album": "Butthole Surfers + PCPpep",
+        "spotify_url": "https://open.spotify.com/track/1rRPiJqv6bC6oKvOfvPadi",
+        "plays": 1
+      },
+      {
+        "name": "Graveyard - Pt. 2",
+        "album": "Locust Abortion Technician",
+        "spotify_url": "https://open.spotify.com/track/0EvBxYoo5EXybvkd95Xnqt",
+        "plays": 1
+      },
+      {
+        "name": "Graveyard",
+        "album": "Locust Abortion Technician",
+        "spotify_url": "https://open.spotify.com/track/28KsI8BSW3onpvSr8dQBKg",
+        "plays": 1
+      },
+      {
+        "name": "Hay",
+        "album": "Locust Abortion Technician",
+        "spotify_url": "https://open.spotify.com/track/2S5z3soMtcMCdOQe1NyFIh",
+        "plays": 1
+      },
+      {
+        "name": "The O-Men",
+        "album": "Locust Abortion Technician",
+        "spotify_url": "https://open.spotify.com/track/2e420RJguw39jgMyb8gy27",
+        "plays": 1
+      },
+      {
+        "name": "U.S.S.A.",
+        "album": "Locust Abortion Technician",
+        "spotify_url": "https://open.spotify.com/track/6V8SYWF5qEct4c7nu1xTzo",
+        "plays": 1
+      },
+      {
+        "name": "Pittsburgh to Lebanon",
+        "album": "Locust Abortion Technician",
+        "spotify_url": "https://open.spotify.com/track/7CQjhc4toRNg1N3wKq8EYx",
+        "plays": 1
+      },
+      {
+        "name": "Human Cannonball",
+        "album": "Locust Abortion Technician",
+        "spotify_url": "https://open.spotify.com/track/7mUG5LiaGuuAA45LGqqXNc",
+        "plays": 1
+      },
+      {
+        "name": "Hey",
+        "album": "Butthole Surfers + PCPpep",
+        "spotify_url": "https://open.spotify.com/track/04FN1dlHDMH0xqNecJKE6J",
+        "plays": 1
+      },
+      {
+        "name": "Rocky - 2024 Remaster",
+        "album": "Hairway To Steven (2024 Remaster)",
+        "spotify_url": "https://open.spotify.com/track/0YQ58ruSs7JAZMR47wK510",
+        "plays": 1
+      },
+      {
+        "name": "Backass - 2024 Remaster",
+        "album": "Hairway To Steven (2024 Remaster)",
+        "spotify_url": "https://open.spotify.com/track/1J8opa0q9HAIYOn1Y6s2LP",
+        "plays": 1
+      },
+      {
+        "name": "I Saw an X-Ray of a Girl Passing Gas - 2024 Remaster",
+        "album": "Hairway To Steven (2024 Remaster)",
+        "spotify_url": "https://open.spotify.com/track/1SmeVezJyHiK9t1fRlNdlq",
+        "plays": 1
+      },
+      {
+        "name": "Kuntz",
+        "album": "Locust Abortion Technician",
+        "spotify_url": "https://open.spotify.com/track/1nIJL4WG1uQiPSEIbpgc2b",
+        "plays": 1
+      },
+      {
+        "name": "Julio Iglesias - 2024 Remaster",
+        "album": "Hairway To Steven (2024 Remaster)",
+        "spotify_url": "https://open.spotify.com/track/2hIKB6nHGGt9vVVc7bwmVH",
+        "plays": 1
+      },
+      {
+        "name": "Fast Song - 2024 Remaster",
+        "album": "Hairway To Steven (2024 Remaster)",
+        "spotify_url": "https://open.spotify.com/track/3vG2eQKFDWUuyxQs0odVik",
+        "plays": 1
+      },
+      {
+        "name": "Jimi - 2024 Remaster",
+        "album": "Hairway To Steven (2024 Remaster)",
+        "spotify_url": "https://open.spotify.com/track/3ylIqPKgQVPC3a9ZgRh5tO",
+        "plays": 1
+      },
+      {
+        "name": "Something",
+        "album": "Butthole Surfers + PCPpep",
+        "spotify_url": "https://open.spotify.com/track/4EIv4gYeeHP6JERprAgKDx",
+        "plays": 1
+      },
+      {
+        "name": "Ricky - 2024 Remaster",
+        "album": "Hairway To Steven (2024 Remaster)",
+        "spotify_url": "https://open.spotify.com/track/4TNDp5rzLCQUDhVVZbC5RK",
+        "plays": 1
+      },
+      {
+        "name": "Bar-B-Q Pope",
+        "album": "Butthole Surfers + PCPpep",
+        "spotify_url": "https://open.spotify.com/track/4Jt9I2aguiycmo103uGBkF",
+        "plays": 1
+      },
+      {
+        "name": "Night of the Day",
+        "album": "Humpty Dumpty LSD",
+        "spotify_url": "https://open.spotify.com/track/0l5l4tOidyt7yolRTNRKGG",
+        "plays": 1
+      },
+      {
+        "name": "Revolution Part 1",
+        "album": "Pioughd + Widowermaker!",
+        "spotify_url": "https://open.spotify.com/track/0oJVub5oj0O62SCLX8BbQp",
+        "plays": 1
+      },
+      {
+        "name": "The Colored F.B.I. Guy",
+        "album": "Pioughd + Widowermaker!",
+        "spotify_url": "https://open.spotify.com/track/13hip1g1RKTvBml4mUbUXc",
+        "plays": 1
+      },
+      {
+        "name": "Lady Sniff - 2024 Remaster",
+        "album": "Psychic.... Powerless.... Another Man's Sac (2024 Remaster)",
+        "spotify_url": "https://open.spotify.com/track/1CirjLcXtRvhb52K6DsNe1",
+        "plays": 1
+      },
+      {
+        "name": "Ricky",
+        "album": "Hairway To Steven",
+        "spotify_url": "https://open.spotify.com/track/1G7a8c49uspejx42hxRlmu",
+        "plays": 1
+      },
+      {
+        "name": "The Ballad Of Naked Man",
+        "album": "Independent Worm Saloon",
+        "spotify_url": "https://open.spotify.com/track/2VVVgBjMFEyUMOWFiFCeSs",
+        "plays": 1
+      },
+      {
+        "name": "Mark Says Alright",
+        "album": "Rembrandt Pussyhorse",
+        "spotify_url": "https://open.spotify.com/track/343vtyX0hrYGmpsZTWa1nQ",
+        "plays": 1
+      },
+      {
+        "name": "100 Million People Dead",
+        "album": "PEACE",
+        "spotify_url": "https://open.spotify.com/track/36xWtjA3X5EqbG8H34o9lv",
+        "plays": 1
+      },
+      {
+        "name": "Sea Ferring",
+        "album": "Rembrandt Pussyhorse",
+        "spotify_url": "https://open.spotify.com/track/3fPscOYJH1w2xXeX7BIsyP",
+        "plays": 1
+      },
+      {
+        "name": "The Wooden Song",
+        "album": "Independent Worm Saloon",
+        "spotify_url": "https://open.spotify.com/track/3j2lwmlUNp1JuUtlxzwA89",
+        "plays": 1
+      },
+      {
+        "name": "Waiting For Jimmy To Kick",
+        "album": "Rembrandt Pussyhorse",
+        "spotify_url": "https://open.spotify.com/track/3ogPvRixRLEiuRwtoWv8IY",
+        "plays": 1
+      },
+      {
+        "name": "Concubine",
+        "album": "Psychic.... Powerless.... Another Man's Sac",
+        "spotify_url": "https://open.spotify.com/track/416laKSzHyal5iG8QzZ4W9",
+        "plays": 1
+      },
+      {
+        "name": "Cowboy Bob",
+        "album": "Psychic.... Powerless.... Another Man's Sac",
+        "spotify_url": "https://open.spotify.com/track/445BSxJUCI6geRLHqqoLuX",
+        "plays": 1
+      },
+      {
+        "name": "Goofy's Concern",
+        "album": "Independent Worm Saloon",
+        "spotify_url": "https://open.spotify.com/track/4BW55ofrMAaJ05qkgwHxED",
+        "plays": 1
+      },
+      {
+        "name": "Perry",
+        "album": "Rembrandt Pussyhorse",
+        "spotify_url": "https://open.spotify.com/track/4EJQOL4BN3kib0jGludlf9",
+        "plays": 1
+      },
+      {
+        "name": "Edgar",
+        "album": "Independent Worm Saloon",
+        "spotify_url": "https://open.spotify.com/track/4Ej22PvKHg1ndxGApz9H0o",
+        "plays": 1
+      },
+      {
+        "name": "Gary Floyd",
+        "album": "Psychic.... Powerless.... Another Man's Sac",
+        "spotify_url": "https://open.spotify.com/track/4IW4csqg5KthUH0lfxJqzg",
+        "plays": 1
+      },
+      {
+        "name": "Creep In The Cellar",
+        "album": "Rembrandt Pussyhorse",
+        "spotify_url": "https://open.spotify.com/track/4aBc4Mmkzz5oOsIctbh6dg",
+        "plays": 1
+      },
+      {
+        "name": "The Hurdy Gurdy Man",
+        "album": "Pioughd + Widowermaker!",
+        "spotify_url": "https://open.spotify.com/track/4jiAppZlUx7yLiHyenOqT1",
+        "plays": 1
+      },
+      {
+        "name": "Woly Boly",
+        "album": "Psychic.... Powerless.... Another Man's Sac",
+        "spotify_url": "https://open.spotify.com/track/4mt3npp2gLXOyqwAcgiDac",
+        "plays": 1
+      },
+      {
+        "name": "Space",
+        "album": "Electriclarryland",
+        "spotify_url": "https://open.spotify.com/track/4wclykQaYtsxyDqfUUXps2",
+        "plays": 1
+      },
+      {
+        "name": "In The Cellar",
+        "album": "Rembrandt Pussyhorse",
+        "spotify_url": "https://open.spotify.com/track/54SWwU5bSxWK4zBNWSuoKn",
+        "plays": 1
+      },
+      {
+        "name": "Dum Dum",
+        "album": "Psychic.... Powerless.... Another Man's Sac",
+        "spotify_url": "https://open.spotify.com/track/58vSMDucIiY5RVAsp7lEs3",
+        "plays": 1
+      },
+      {
+        "name": "American Woman",
+        "album": "Rembrandt Pussyhorse",
+        "spotify_url": "https://open.spotify.com/track/5Hw7zxTiWAqaeHg87HKEAQ",
+        "plays": 1
+      },
+      {
+        "name": "Jingle Of A Dog's Collar",
+        "album": "Electriclarryland",
+        "spotify_url": "https://open.spotify.com/track/5mVYe5DEVNOyv3RQujgsvJ",
+        "plays": 1
+      },
+      {
+        "name": "Dog Inside Your Body",
+        "album": "Independent Worm Saloon",
+        "spotify_url": "https://open.spotify.com/track/7GAJcFwACPs9jSs7bhSoZW",
+        "plays": 1
+      },
+      {
+        "name": "Tongue",
+        "album": "Independent Worm Saloon",
+        "spotify_url": "https://open.spotify.com/track/7IaKBTr6zkZeXwrEDqPZ3d",
+        "plays": 1
+      }
+    ]
+  },
+  "digable-planets": {
+    "id": "0gqIrDRL7CEPBWMmkuZPdQ",
+    "name": "Digable Planets",
+    "spotify_url": "https://open.spotify.com/artist/0gqIrDRL7CEPBWMmkuZPdQ",
+    "total_plays": 1,
+    "first_seen": "2026-05-28",
+    "last_seen": "2026-05-28",
+    "genres": [
+      "jazz rap",
+      "east coast hip hop",
+      "hip hop",
+      "acid jazz",
+      "old school hip hop"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6772690000c46ce27ed3a816df14e399acb7d2",
+        "height": 1000,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6772690000dd22e27ed3a816df14e399acb7d2",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6772690000bac3e27ed3a816df14e399acb7d2",
+        "height": 200,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67726900008f74e27ed3a816df14e399acb7d2",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Time & Space (A New Refutation Of)",
+        "album": "Reachin' (A New Refutation Of Time And Space)",
+        "spotify_url": "https://open.spotify.com/track/32teE6qijDnmALrek8KvPc",
+        "plays": 1
+      },
+      {
+        "name": "Dog It",
+        "album": "Blowout Comb",
+        "spotify_url": "https://open.spotify.com/track/6Mbm86B4joMLyCncLCESCG",
+        "plays": 3
+      },
+      {
+        "name": "Rebirth Of Slick (Cool Like Dat)",
+        "album": "Reachin' (A New Refutation Of Time And Space)",
+        "spotify_url": "https://open.spotify.com/track/26q6YTrXt9l8qshIveiTX9",
+        "plays": 2
+      },
+      {
+        "name": "Nickel Bags",
+        "album": "Reachin' (A New Refutation Of Time And Space)",
+        "spotify_url": "https://open.spotify.com/track/3fmcUdEviDS838lC5rNRGi",
+        "plays": 1
+      },
+      {
+        "name": "Highing Fly",
+        "album": "Blowout Comb",
+        "spotify_url": "https://open.spotify.com/track/2uFMZ8zAUyal9uXCBzq1pr",
+        "plays": 1
+      },
+      {
+        "name": "Dedicated - Remastered",
+        "album": "Beyond The Spectrum - The Creamy Spy Chronicles",
+        "spotify_url": "https://open.spotify.com/track/3mOt6mLL8JqvyfeyRyoOYq",
+        "plays": 1
+      },
+      {
+        "name": "Pacifics - From The Original Motion Picture Soundtrack “N.Y. Is Red Hot\"",
+        "album": "Reachin' (A New Refutation Of Time And Space)",
+        "spotify_url": "https://open.spotify.com/track/5esVkhazOeanQVdlJUkNpY",
+        "plays": 1
+      }
+    ]
+  },
+  "black-sheep": {
+    "id": "0NnCgUxhtWt1yBtpDyvFQf",
+    "name": "Black Sheep",
+    "spotify_url": "https://open.spotify.com/artist/0NnCgUxhtWt1yBtpDyvFQf",
+    "total_plays": 1,
+    "first_seen": "2026-05-28",
+    "last_seen": "2026-05-28",
+    "genres": [
+      "east coast hip hop",
+      "old school hip hop"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/05b6bfb62f7bc86622b384d5b88aa974a4b30318",
+        "height": 461,
+        "width": 450
+      },
+      {
+        "url": "https://i.scdn.co/image/af4d9c59c3920e2d1af343cd517d666f70867b48",
+        "height": 205,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/2d55e4b4279599eb9d7c1c28bfe27117f59cbc64",
+        "height": 66,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "The Choice Is Yours (Revisited)",
+        "album": "A Wolf In Sheep's Clothing",
+        "spotify_url": "https://open.spotify.com/track/4k9EkhkFZY8Bk41Qi0Ob7P",
+        "plays": 1
+      }
+    ]
+  },
+  "agent-orange": {
+    "id": "1pBsvSnrhmgDZqisT13SFA",
+    "name": "Agent Orange",
+    "spotify_url": "https://open.spotify.com/artist/1pBsvSnrhmgDZqisT13SFA",
+    "total_plays": 1,
+    "first_seen": "2026-05-28",
+    "last_seen": "2026-05-28",
+    "genres": [
+      "punk",
+      "hardcore punk",
+      "skate punk"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6772690000c46c345eaeafd6d5c850ecaa7e0b",
+        "height": 1000,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6772690000dd22345eaeafd6d5c850ecaa7e0b",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6772690000bac3345eaeafd6d5c850ecaa7e0b",
+        "height": 200,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67726900008f74345eaeafd6d5c850ecaa7e0b",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Bloodstains - Original Version",
+        "album": "Living In Darkness (30th Anniversary Edition)",
+        "spotify_url": "https://open.spotify.com/track/5E47rKJbS74jyLZaSgb0kS",
+        "plays": 1
+      },
+      {
+        "name": "Pipeline (Original Posh Boy Recording - Remastered)",
+        "album": "Living in Darkness (40th Anniversary Edition)",
+        "spotify_url": "https://open.spotify.com/track/7mq9GWLnWN9LHj1scXcKct",
+        "plays": 2
+      }
+    ]
+  },
+  "dead-kennedys": {
+    "id": "30U8fYtiNpeA5KH6H87QUV",
+    "name": "Dead Kennedys",
+    "spotify_url": "https://open.spotify.com/artist/30U8fYtiNpeA5KH6H87QUV",
+    "total_plays": 1,
+    "first_seen": "2026-05-28",
+    "last_seen": "2026-05-28",
+    "genres": [
+      "punk",
+      "hardcore punk",
+      "skate punk",
+      "proto-punk"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/3a7ddc45cc57da8c01f95691ef508202f0d25b09",
+        "height": 684,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/ffc48eb8f9fd437ef9fbe5c63efe7d0e2ef1b074",
+        "height": 438,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/5aa5911a83d121c1269cc33ca8d9cefea79f1566",
+        "height": 137,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/4f59b1bd6fcd7fffb1e5bd193695821594372117",
+        "height": 44,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Police Truck",
+        "album": "Give Me Convenience or Give Me Death",
+        "spotify_url": "https://open.spotify.com/track/4aM3FY3th2Qx9tuvurMN0X",
+        "plays": 1
+      },
+      {
+        "name": "Moon Over Marin",
+        "album": "Plastic Surgery Disasters/In God We Trust, Inc.",
+        "spotify_url": "https://open.spotify.com/track/6XDIdtt7sugfe7UHYIDWXW",
+        "plays": 2
+      }
+    ]
+  },
+  "suicidal-tendencies": {
+    "id": "3WPKDlucMsXH6FC1XaclZC",
+    "name": "Suicidal Tendencies",
+    "spotify_url": "https://open.spotify.com/artist/3WPKDlucMsXH6FC1XaclZC",
+    "total_plays": 1,
+    "first_seen": "2026-05-28",
+    "last_seen": "2026-05-28",
+    "genres": [
+      "thrash metal",
+      "hardcore punk",
+      "punk",
+      "skate punk",
+      "speed metal"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb34e9707779175a2453a1d786",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517434e9707779175a2453a1d786",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17834e9707779175a2453a1d786",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Institutionalized",
+        "album": "Suicidal Tendencies",
+        "spotify_url": "https://open.spotify.com/track/7G83ZwD2msTtFaBQExc8QB",
+        "plays": 1
+      }
+    ]
+  },
+  "fugazi": {
+    "id": "62sC6lUEWRjbFqXpMmOk4G",
+    "name": "Fugazi",
+    "spotify_url": "https://open.spotify.com/artist/62sC6lUEWRjbFqXpMmOk4G",
+    "total_plays": 1,
+    "first_seen": "2026-05-28",
+    "last_seen": "2026-05-28",
+    "genres": [
+      "post-hardcore",
+      "punk",
+      "noise rock",
+      "hardcore punk"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/0234b34b265a6ec22de6b4ebb52abc4d6c9d7371",
+        "height": 737,
+        "width": 578
+      },
+      {
+        "url": "https://i.scdn.co/image/4d6612201d8bbf1a8e5b3ef6ced9d5b0e92d1dd3",
+        "height": 255,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/9f6d3f86533750a49e3dbc215ae9edf54b95a04c",
+        "height": 82,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Bad Mouth",
+        "album": "13 Songs",
+        "spotify_url": "https://open.spotify.com/track/1MkqBhP5byDttRYtZsDC6p",
+        "plays": 1
+      },
+      {
+        "name": "Give Me The Cure",
+        "album": "13 Songs",
+        "spotify_url": "https://open.spotify.com/track/0QNJgmPIaESS4Ko2MFpp5h",
+        "plays": 2
+      },
+      {
+        "name": "Glue Man",
+        "album": "13 Songs",
+        "spotify_url": "https://open.spotify.com/track/2WVG1KwQDfGbdItg55ScQL",
+        "plays": 2
+      },
+      {
+        "name": "Burning",
+        "album": "13 Songs",
+        "spotify_url": "https://open.spotify.com/track/2X6mS6sYa7MzrmG2bmRDA8",
+        "plays": 2
+      },
+      {
+        "name": "Suggestion",
+        "album": "13 Songs",
+        "spotify_url": "https://open.spotify.com/track/6eD7yC9Z7pLlmF3D0cdBdE",
+        "plays": 2
+      },
+      {
+        "name": "Reclamation",
+        "album": "Steady Diet Of Nothing",
+        "spotify_url": "https://open.spotify.com/track/6jzuxqrosao5vwxdAUebkD",
+        "plays": 2
+      },
+      {
+        "name": "Life And Limb",
+        "album": "The Argument",
+        "spotify_url": "https://open.spotify.com/track/6p7f0M1lDJKTUex98OGYKa",
+        "plays": 2
+      },
+      {
+        "name": "Long Division",
+        "album": "Steady Diet Of Nothing",
+        "spotify_url": "https://open.spotify.com/track/3l7w50h6NX1ri60GN5fTAr",
+        "plays": 1
+      },
+      {
+        "name": "Bulldog Front",
+        "album": "13 Songs",
+        "spotify_url": "https://open.spotify.com/track/1AfeuOqJYIlRFduHI6uXLE",
+        "plays": 1
+      },
+      {
+        "name": "Waiting Room",
+        "album": "13 Songs",
+        "spotify_url": "https://open.spotify.com/track/2DBlfjL5chsdeULzhTp5K8",
+        "plays": 1
+      },
+      {
+        "name": "Instrument",
+        "album": "In On The Kill Taker",
+        "spotify_url": "https://open.spotify.com/track/2Q4momPNLwxZougRniLGJj",
+        "plays": 1
+      },
+      {
+        "name": "Recap Modotti",
+        "album": "End Hits",
+        "spotify_url": "https://open.spotify.com/track/2t4Hzx8xZlOJHZ5J601JGO",
+        "plays": 1
+      },
+      {
+        "name": "Repeater",
+        "album": "Repeater + 3 Songs",
+        "spotify_url": "https://open.spotify.com/track/3akkNN6AHsgyptR3QYU3vN",
+        "plays": 1
+      },
+      {
+        "name": "And The Same",
+        "album": "13 Songs",
+        "spotify_url": "https://open.spotify.com/track/3zv2tA8c41VE0H0Vo5SiAj",
+        "plays": 1
+      },
+      {
+        "name": "Turkish Disco",
+        "album": "Instrument Soundtrack",
+        "spotify_url": "https://open.spotify.com/track/42V3IxwEBRXYWkA5Z1kyTy",
+        "plays": 1
+      },
+      {
+        "name": "Margin Walker",
+        "album": "13 Songs",
+        "spotify_url": "https://open.spotify.com/track/4wJs6DCkEGKh3NDMmx7uUg",
+        "plays": 1
+      },
+      {
+        "name": "Intro",
+        "album": "The Argument",
+        "spotify_url": "https://open.spotify.com/track/51SUl6RiaMtukh53KGNQ0J",
+        "plays": 1
+      }
+    ]
+  },
+  "the-red-clay-strays": {
+    "id": "6IKlXZEFOvk9itrP1s0knJ",
+    "name": "The Red Clay Strays",
+    "spotify_url": "https://open.spotify.com/artist/6IKlXZEFOvk9itrP1s0knJ",
+    "total_plays": 1,
+    "first_seen": "2026-05-26",
+    "last_seen": "2026-05-26",
+    "genres": [
+      "country"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb96d3777ed36716905b24f1ae",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517496d3777ed36716905b24f1ae",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17896d3777ed36716905b24f1ae",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Demons In Your Choir",
+        "album": "Demons In Your Choir",
+        "spotify_url": "https://open.spotify.com/track/39Ra5S4b4srNRbPScFDKo7",
+        "plays": 1
+      }
+    ]
+  },
+  "kaitlin-butts": {
+    "id": "6QmSTo72BYMATkQVOV1axD",
+    "name": "Kaitlin Butts",
+    "spotify_url": "https://open.spotify.com/artist/6QmSTo72BYMATkQVOV1axD",
+    "total_plays": 2,
+    "first_seen": "2026-05-26",
+    "last_seen": "2026-05-26",
+    "genres": [
+      "red dirt",
+      "texas country"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb6e2c05415f7d8a52f883a38c",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051746e2c05415f7d8a52f883a38c",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1786e2c05415f7d8a52f883a38c",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "You Ain’t Gotta Die (To Be Dead To Me)",
+        "album": "Roadrunner!",
+        "spotify_url": "https://open.spotify.com/track/2l71DB43YblEWw73yWzeTm",
+        "plays": 1
+      },
+      {
+        "name": "The Middle",
+        "album": "The Middle",
+        "spotify_url": "https://open.spotify.com/track/1blMMAqTDWAvcKI4ffk4Vy",
         "plays": 1
       }
     ]
@@ -33816,412 +35733,6 @@
         "name": "Mannequin - 2006 Remastered Version",
         "album": "Pink Flag (2006 Remastered Version)",
         "spotify_url": "https://open.spotify.com/track/5LEwYNnwG1RSVseSmMZQpo",
-        "plays": 1
-      }
-    ]
-  },
-  "butthole-surfers": {
-    "id": "62BcWP4fzR8axESibNQEhs",
-    "name": "Butthole Surfers",
-    "spotify_url": "https://open.spotify.com/artist/62BcWP4fzR8axESibNQEhs",
-    "total_plays": 75,
-    "first_seen": "",
-    "last_seen": "",
-    "genres": [
-      "alternative rock",
-      "experimental rock",
-      "grunge",
-      "noise rock",
-      "psychedelic punk",
-      "punk"
-    ],
-    "images": [
-      {
-        "height": 665,
-        "url": "https://i.scdn.co/image/dabd2920676f2ae15862ed8dfcf89a8ddb9d11ee",
-        "width": 1000
-      },
-      {
-        "height": 425,
-        "url": "https://i.scdn.co/image/4136eafc38bb9a7e6db382c5e027380e6a527be1",
-        "width": 639
-      },
-      {
-        "height": 133,
-        "url": "https://i.scdn.co/image/13fb78d8c965a8a3637a659442fead75890e1c07",
-        "width": 200
-      },
-      {
-        "height": 43,
-        "url": "https://i.scdn.co/image/b18f1417a0d867c8af95ec56c810e02176d86500",
-        "width": 64
-      }
-    ],
-    "top_tracks": [
-      {
-        "name": "Weber",
-        "album": "Locust Abortion Technician",
-        "spotify_url": "https://open.spotify.com/track/3Vz56GC6CSHCF9ez5doEkr",
-        "plays": 2
-      },
-      {
-        "name": "John E. Smoke - 2024 Remaster",
-        "album": "Hairway To Steven (2024 Remaster)",
-        "spotify_url": "https://open.spotify.com/track/7gyZuSzeQGOypzRJD3HrQu",
-        "plays": 2
-      },
-      {
-        "name": "22 Going On 23",
-        "album": "Locust Abortion Technician",
-        "spotify_url": "https://open.spotify.com/track/2zXtevperdjudA1erYYmMa",
-        "plays": 2
-      },
-      {
-        "name": "I Saw an X-Ray of a Girl Passing Gas",
-        "album": "Hairway To Steven",
-        "spotify_url": "https://open.spotify.com/track/0dYjJIrxPlMU0TuOWodDs9",
-        "plays": 2
-      },
-      {
-        "name": "TV Star",
-        "album": "Electriclarryland",
-        "spotify_url": "https://open.spotify.com/track/0uRHafBtI8bMupNdJRKh9X",
-        "plays": 2
-      },
-      {
-        "name": "Mexican Caravan",
-        "album": "Psychic.... Powerless.... Another Man's Sac",
-        "spotify_url": "https://open.spotify.com/track/118F5fXQ3A0Hx87MtMfaLS",
-        "plays": 2
-      },
-      {
-        "name": "Eye of the Chicken",
-        "album": "Psychic.... Powerless.... Another Man's Sac",
-        "spotify_url": "https://open.spotify.com/track/1KrsrXHP1GUneSqA4rm0i8",
-        "plays": 2
-      },
-      {
-        "name": "Birds",
-        "album": "Electriclarryland",
-        "spotify_url": "https://open.spotify.com/track/1z8Lb6r4KRHlT3iKj56alU",
-        "plays": 2
-      },
-      {
-        "name": "Fast Song",
-        "album": "Hairway To Steven",
-        "spotify_url": "https://open.spotify.com/track/2HhdifqO9SZxbXFFVDjk7g",
-        "plays": 2
-      },
-      {
-        "name": "Waiting For Jimmy To Kick - 2024 Remaster",
-        "album": "Rembrandt Pussyhorse (2024 Remaster)",
-        "spotify_url": "https://open.spotify.com/track/3OO90zU6wWgGU0P6IeTWja",
-        "plays": 2
-      },
-      {
-        "name": "Something",
-        "album": "Pioughd + Widowermaker!",
-        "spotify_url": "https://open.spotify.com/track/5bGqhLcBd5YXuqzMVQiFUl",
-        "plays": 2
-      },
-      {
-        "name": "Who Was In My Room Last Night?",
-        "album": "Independent Worm Saloon",
-        "spotify_url": "https://open.spotify.com/track/6DVNQXL9LRzKq8zjyFEuTC",
-        "plays": 2
-      },
-      {
-        "name": "Let's Talk About Cars",
-        "album": "Electriclarryland",
-        "spotify_url": "https://open.spotify.com/track/7kOrKZDeN0D9MR0b0OQR2c",
-        "plays": 2
-      },
-      {
-        "name": "Strangers Die Everyday",
-        "album": "Rembrandt Pussyhorse",
-        "spotify_url": "https://open.spotify.com/track/7mX0THIKwxwIgejP7sxqI2",
-        "plays": 2
-      },
-      {
-        "name": "Sweat Loaf",
-        "album": "Locust Abortion Technician",
-        "spotify_url": "https://open.spotify.com/track/1FA7WCMYmpfnIA6RjorGnT",
-        "plays": 1
-      },
-      {
-        "name": "The Shah Sleeps in Lee Harvey's Grave",
-        "album": "Butthole Surfers + PCPpep",
-        "spotify_url": "https://open.spotify.com/track/1rRPiJqv6bC6oKvOfvPadi",
-        "plays": 1
-      },
-      {
-        "name": "Graveyard - Pt. 2",
-        "album": "Locust Abortion Technician",
-        "spotify_url": "https://open.spotify.com/track/0EvBxYoo5EXybvkd95Xnqt",
-        "plays": 1
-      },
-      {
-        "name": "Graveyard",
-        "album": "Locust Abortion Technician",
-        "spotify_url": "https://open.spotify.com/track/28KsI8BSW3onpvSr8dQBKg",
-        "plays": 1
-      },
-      {
-        "name": "Hay",
-        "album": "Locust Abortion Technician",
-        "spotify_url": "https://open.spotify.com/track/2S5z3soMtcMCdOQe1NyFIh",
-        "plays": 1
-      },
-      {
-        "name": "The O-Men",
-        "album": "Locust Abortion Technician",
-        "spotify_url": "https://open.spotify.com/track/2e420RJguw39jgMyb8gy27",
-        "plays": 1
-      },
-      {
-        "name": "U.S.S.A.",
-        "album": "Locust Abortion Technician",
-        "spotify_url": "https://open.spotify.com/track/6V8SYWF5qEct4c7nu1xTzo",
-        "plays": 1
-      },
-      {
-        "name": "Pittsburgh to Lebanon",
-        "album": "Locust Abortion Technician",
-        "spotify_url": "https://open.spotify.com/track/7CQjhc4toRNg1N3wKq8EYx",
-        "plays": 1
-      },
-      {
-        "name": "Human Cannonball",
-        "album": "Locust Abortion Technician",
-        "spotify_url": "https://open.spotify.com/track/7mUG5LiaGuuAA45LGqqXNc",
-        "plays": 1
-      },
-      {
-        "name": "Hey",
-        "album": "Butthole Surfers + PCPpep",
-        "spotify_url": "https://open.spotify.com/track/04FN1dlHDMH0xqNecJKE6J",
-        "plays": 1
-      },
-      {
-        "name": "Rocky - 2024 Remaster",
-        "album": "Hairway To Steven (2024 Remaster)",
-        "spotify_url": "https://open.spotify.com/track/0YQ58ruSs7JAZMR47wK510",
-        "plays": 1
-      },
-      {
-        "name": "Backass - 2024 Remaster",
-        "album": "Hairway To Steven (2024 Remaster)",
-        "spotify_url": "https://open.spotify.com/track/1J8opa0q9HAIYOn1Y6s2LP",
-        "plays": 1
-      },
-      {
-        "name": "I Saw an X-Ray of a Girl Passing Gas - 2024 Remaster",
-        "album": "Hairway To Steven (2024 Remaster)",
-        "spotify_url": "https://open.spotify.com/track/1SmeVezJyHiK9t1fRlNdlq",
-        "plays": 1
-      },
-      {
-        "name": "Kuntz",
-        "album": "Locust Abortion Technician",
-        "spotify_url": "https://open.spotify.com/track/1nIJL4WG1uQiPSEIbpgc2b",
-        "plays": 1
-      },
-      {
-        "name": "Julio Iglesias - 2024 Remaster",
-        "album": "Hairway To Steven (2024 Remaster)",
-        "spotify_url": "https://open.spotify.com/track/2hIKB6nHGGt9vVVc7bwmVH",
-        "plays": 1
-      },
-      {
-        "name": "Fast Song - 2024 Remaster",
-        "album": "Hairway To Steven (2024 Remaster)",
-        "spotify_url": "https://open.spotify.com/track/3vG2eQKFDWUuyxQs0odVik",
-        "plays": 1
-      },
-      {
-        "name": "Jimi - 2024 Remaster",
-        "album": "Hairway To Steven (2024 Remaster)",
-        "spotify_url": "https://open.spotify.com/track/3ylIqPKgQVPC3a9ZgRh5tO",
-        "plays": 1
-      },
-      {
-        "name": "Something",
-        "album": "Butthole Surfers + PCPpep",
-        "spotify_url": "https://open.spotify.com/track/4EIv4gYeeHP6JERprAgKDx",
-        "plays": 1
-      },
-      {
-        "name": "Ricky - 2024 Remaster",
-        "album": "Hairway To Steven (2024 Remaster)",
-        "spotify_url": "https://open.spotify.com/track/4TNDp5rzLCQUDhVVZbC5RK",
-        "plays": 1
-      },
-      {
-        "name": "Bar-B-Q Pope",
-        "album": "Butthole Surfers + PCPpep",
-        "spotify_url": "https://open.spotify.com/track/4Jt9I2aguiycmo103uGBkF",
-        "plays": 1
-      },
-      {
-        "name": "Night of the Day",
-        "album": "Humpty Dumpty LSD",
-        "spotify_url": "https://open.spotify.com/track/0l5l4tOidyt7yolRTNRKGG",
-        "plays": 1
-      },
-      {
-        "name": "Revolution Part 1",
-        "album": "Pioughd + Widowermaker!",
-        "spotify_url": "https://open.spotify.com/track/0oJVub5oj0O62SCLX8BbQp",
-        "plays": 1
-      },
-      {
-        "name": "The Colored F.B.I. Guy",
-        "album": "Pioughd + Widowermaker!",
-        "spotify_url": "https://open.spotify.com/track/13hip1g1RKTvBml4mUbUXc",
-        "plays": 1
-      },
-      {
-        "name": "Lady Sniff - 2024 Remaster",
-        "album": "Psychic.... Powerless.... Another Man's Sac (2024 Remaster)",
-        "spotify_url": "https://open.spotify.com/track/1CirjLcXtRvhb52K6DsNe1",
-        "plays": 1
-      },
-      {
-        "name": "Ricky",
-        "album": "Hairway To Steven",
-        "spotify_url": "https://open.spotify.com/track/1G7a8c49uspejx42hxRlmu",
-        "plays": 1
-      },
-      {
-        "name": "The Ballad Of Naked Man",
-        "album": "Independent Worm Saloon",
-        "spotify_url": "https://open.spotify.com/track/2VVVgBjMFEyUMOWFiFCeSs",
-        "plays": 1
-      },
-      {
-        "name": "Mark Says Alright",
-        "album": "Rembrandt Pussyhorse",
-        "spotify_url": "https://open.spotify.com/track/343vtyX0hrYGmpsZTWa1nQ",
-        "plays": 1
-      },
-      {
-        "name": "100 Million People Dead",
-        "album": "PEACE",
-        "spotify_url": "https://open.spotify.com/track/36xWtjA3X5EqbG8H34o9lv",
-        "plays": 1
-      },
-      {
-        "name": "Sea Ferring",
-        "album": "Rembrandt Pussyhorse",
-        "spotify_url": "https://open.spotify.com/track/3fPscOYJH1w2xXeX7BIsyP",
-        "plays": 1
-      },
-      {
-        "name": "The Wooden Song",
-        "album": "Independent Worm Saloon",
-        "spotify_url": "https://open.spotify.com/track/3j2lwmlUNp1JuUtlxzwA89",
-        "plays": 1
-      },
-      {
-        "name": "Waiting For Jimmy To Kick",
-        "album": "Rembrandt Pussyhorse",
-        "spotify_url": "https://open.spotify.com/track/3ogPvRixRLEiuRwtoWv8IY",
-        "plays": 1
-      },
-      {
-        "name": "Concubine",
-        "album": "Psychic.... Powerless.... Another Man's Sac",
-        "spotify_url": "https://open.spotify.com/track/416laKSzHyal5iG8QzZ4W9",
-        "plays": 1
-      },
-      {
-        "name": "Cowboy Bob",
-        "album": "Psychic.... Powerless.... Another Man's Sac",
-        "spotify_url": "https://open.spotify.com/track/445BSxJUCI6geRLHqqoLuX",
-        "plays": 1
-      },
-      {
-        "name": "Goofy's Concern",
-        "album": "Independent Worm Saloon",
-        "spotify_url": "https://open.spotify.com/track/4BW55ofrMAaJ05qkgwHxED",
-        "plays": 1
-      },
-      {
-        "name": "Perry",
-        "album": "Rembrandt Pussyhorse",
-        "spotify_url": "https://open.spotify.com/track/4EJQOL4BN3kib0jGludlf9",
-        "plays": 1
-      },
-      {
-        "name": "Edgar",
-        "album": "Independent Worm Saloon",
-        "spotify_url": "https://open.spotify.com/track/4Ej22PvKHg1ndxGApz9H0o",
-        "plays": 1
-      },
-      {
-        "name": "Gary Floyd",
-        "album": "Psychic.... Powerless.... Another Man's Sac",
-        "spotify_url": "https://open.spotify.com/track/4IW4csqg5KthUH0lfxJqzg",
-        "plays": 1
-      },
-      {
-        "name": "Creep In The Cellar",
-        "album": "Rembrandt Pussyhorse",
-        "spotify_url": "https://open.spotify.com/track/4aBc4Mmkzz5oOsIctbh6dg",
-        "plays": 1
-      },
-      {
-        "name": "The Hurdy Gurdy Man",
-        "album": "Pioughd + Widowermaker!",
-        "spotify_url": "https://open.spotify.com/track/4jiAppZlUx7yLiHyenOqT1",
-        "plays": 1
-      },
-      {
-        "name": "Woly Boly",
-        "album": "Psychic.... Powerless.... Another Man's Sac",
-        "spotify_url": "https://open.spotify.com/track/4mt3npp2gLXOyqwAcgiDac",
-        "plays": 1
-      },
-      {
-        "name": "Space",
-        "album": "Electriclarryland",
-        "spotify_url": "https://open.spotify.com/track/4wclykQaYtsxyDqfUUXps2",
-        "plays": 1
-      },
-      {
-        "name": "In The Cellar",
-        "album": "Rembrandt Pussyhorse",
-        "spotify_url": "https://open.spotify.com/track/54SWwU5bSxWK4zBNWSuoKn",
-        "plays": 1
-      },
-      {
-        "name": "Dum Dum",
-        "album": "Psychic.... Powerless.... Another Man's Sac",
-        "spotify_url": "https://open.spotify.com/track/58vSMDucIiY5RVAsp7lEs3",
-        "plays": 1
-      },
-      {
-        "name": "American Woman",
-        "album": "Rembrandt Pussyhorse",
-        "spotify_url": "https://open.spotify.com/track/5Hw7zxTiWAqaeHg87HKEAQ",
-        "plays": 1
-      },
-      {
-        "name": "Jingle Of A Dog's Collar",
-        "album": "Electriclarryland",
-        "spotify_url": "https://open.spotify.com/track/5mVYe5DEVNOyv3RQujgsvJ",
-        "plays": 1
-      },
-      {
-        "name": "Dog Inside Your Body",
-        "album": "Independent Worm Saloon",
-        "spotify_url": "https://open.spotify.com/track/7GAJcFwACPs9jSs7bhSoZW",
-        "plays": 1
-      },
-      {
-        "name": "Tongue",
-        "album": "Independent Worm Saloon",
-        "spotify_url": "https://open.spotify.com/track/7IaKBTr6zkZeXwrEDqPZ3d",
         "plays": 1
       }
     ]
@@ -43093,81 +44604,6 @@
       }
     ]
   },
-  "dizzy-gillespie": {
-    "id": "5RzjqfPS0Bu4bUMkyNNDpn",
-    "name": "Dizzy Gillespie",
-    "spotify_url": "https://open.spotify.com/artist/5RzjqfPS0Bu4bUMkyNNDpn",
-    "total_plays": 7,
-    "first_seen": "",
-    "last_seen": "",
-    "genres": [
-      "bebop",
-      "contemporary post-bop",
-      "jazz",
-      "jazz trumpet",
-      "vocal jazz"
-    ],
-    "images": [
-      {
-        "height": 1024,
-        "url": "https://i.scdn.co/image/896485317ae7153ad421012f2f7cb90cf3fbfbff",
-        "width": 1000
-      },
-      {
-        "height": 656,
-        "url": "https://i.scdn.co/image/96daabf66ecd18cc20df9339e0e9c1ba1d2f868f",
-        "width": 640
-      },
-      {
-        "height": 205,
-        "url": "https://i.scdn.co/image/7662f15f1ef7e479b452a602663975af1b271000",
-        "width": 200
-      },
-      {
-        "height": 66,
-        "url": "https://i.scdn.co/image/8368a17dfed9085ca0d6f3eda7ec799fdbeb77fd",
-        "width": 64
-      }
-    ],
-    "top_tracks": [
-      {
-        "name": "On The Sunny Side Of The Street",
-        "album": "Dizzy 100",
-        "spotify_url": "https://open.spotify.com/track/38R2EViAkYOFG8ZkG3GLtW",
-        "plays": 2
-      },
-      {
-        "name": "Relaxing With Lee - Take 6 / Take 3 / Master Take",
-        "album": "Bird And Diz (Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/14DEfXQJTnx4VHxU5CI47e",
-        "plays": 1
-      },
-      {
-        "name": "Relaxing With Lee - Take 2 / Incomplete",
-        "album": "Bird And Diz (Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/42wbar3MwSjbRwAn7vYDeR",
-        "plays": 1
-      },
-      {
-        "name": "An Oscar For Treadwell - Incomplete 411-1",
-        "album": "Unheard Bird: The Unissued Takes",
-        "spotify_url": "https://open.spotify.com/track/4KP5a2ykBXcP0q9QDOthqJ",
-        "plays": 1
-      },
-      {
-        "name": "All The Things You Are",
-        "album": "Odyssey: 1945-1952",
-        "spotify_url": "https://open.spotify.com/track/6LPqphk2rbt2i63bR2o247",
-        "plays": 1
-      },
-      {
-        "name": "Groovin' High",
-        "album": "Groovin' High",
-        "spotify_url": "https://open.spotify.com/track/4ttUzFCVnlOmopuzM4oEUJ",
-        "plays": 1
-      }
-    ]
-  },
   "eddie-floyd": {
     "id": "6Bfy6QzadCXS92y0T8dDZF",
     "name": "Eddie Floyd",
@@ -43243,188 +44679,6 @@
         "name": "Never, Never Let You Go",
         "album": "The Complete Stax / Volt Soul Singles, Vol. 2: 1968-1971",
         "spotify_url": "https://open.spotify.com/track/6BuVbcZ3OQqRxsmDN5v1n3",
-        "plays": 1
-      }
-    ]
-  },
-  "sonny-rollins": {
-    "id": "1VEzN9lxvG6KPR3QQGsebR",
-    "name": "Sonny Rollins",
-    "spotify_url": "https://open.spotify.com/artist/1VEzN9lxvG6KPR3QQGsebR",
-    "total_plays": 37,
-    "first_seen": "",
-    "last_seen": "",
-    "genres": [
-      "bebop",
-      "contemporary post-bop",
-      "jazz",
-      "jazz saxophone"
-    ],
-    "images": [
-      {
-        "height": 1500,
-        "url": "https://i.scdn.co/image/7f0edf46ec91ef070e8dd73d442c8f00241416aa",
-        "width": 1000
-      },
-      {
-        "height": 960,
-        "url": "https://i.scdn.co/image/3f1e8d2aae30da65b95d4984b881530e01906a9a",
-        "width": 640
-      },
-      {
-        "height": 300,
-        "url": "https://i.scdn.co/image/6f55ffd40872dea2e9ade6757926ac4d1c1e3f7a",
-        "width": 200
-      },
-      {
-        "height": 96,
-        "url": "https://i.scdn.co/image/15ff605d1f0a0c704b13cd6362c175f0a0d5aa73",
-        "width": 64
-      }
-    ],
-    "top_tracks": [
-      {
-        "name": "Airegin - RVG Remaster",
-        "album": "Bags' Groove (Rudy Van Gelder Remaster)",
-        "spotify_url": "https://open.spotify.com/track/6KvK5mvFIx4JjfVU0gjl7j",
-        "plays": 2
-      },
-      {
-        "name": "Mangos - 2007 Re-master",
-        "album": "Sound Of Sonny [Keepnews Collection]",
-        "spotify_url": "https://open.spotify.com/track/7fvTiCePc5eVOJFsjULDm0",
-        "plays": 2
-      },
-      {
-        "name": "St. Thomas",
-        "album": "Saxophone Colossus",
-        "spotify_url": "https://open.spotify.com/track/05LNBtMuc26HSAHh7C6iG8",
-        "plays": 2
-      },
-      {
-        "name": "Ev'ry Time We Say Goodbye - 2007 Re-master",
-        "album": "Sound Of Sonny [Keepnews Collection]",
-        "spotify_url": "https://open.spotify.com/track/2EeOgXAm8zX2QhKf0RZ3H3",
-        "plays": 2
-      },
-      {
-        "name": "Lover Man - Remastered",
-        "album": "Sonny Meets Hawk!",
-        "spotify_url": "https://open.spotify.com/track/2IphXOYrkkW52Cj6NCW9a7",
-        "plays": 2
-      },
-      {
-        "name": "On The Sunny Side Of The Street",
-        "album": "Dizzy 100",
-        "spotify_url": "https://open.spotify.com/track/38R2EViAkYOFG8ZkG3GLtW",
-        "plays": 2
-      },
-      {
-        "name": "St. Thomas",
-        "album": "Now's The Time!",
-        "spotify_url": "https://open.spotify.com/track/5bUNvFQYiAqJWZ4cQ9MlSZ",
-        "plays": 2
-      },
-      {
-        "name": "Reflections - Rudy Van Gelder Edition/1999 Remaster/24 Bit Mastering",
-        "album": "Volume Two",
-        "spotify_url": "https://open.spotify.com/track/0ewNjTNSJmSfuozc7p88HV",
-        "plays": 2
-      },
-      {
-        "name": "He's Younger Than You Are - From \"Alfie\" Score",
-        "album": "Alfie",
-        "spotify_url": "https://open.spotify.com/track/11vaRXRIFXJTRr3BuzNbk5",
-        "plays": 2
-      },
-      {
-        "name": "You Don't Know What Love Is - Rudy Van Gelder Remaster",
-        "album": "Saxophone Colossus",
-        "spotify_url": "https://open.spotify.com/track/1to5IySvboywOgXW9jCjDn",
-        "plays": 2
-      },
-      {
-        "name": "Four - Recorded at VARA Studio 5 in Hilversum, The Netherlands on May 5, 1967",
-        "album": "Rollins in Holland: The 1967 Studio & Live Recordings",
-        "spotify_url": "https://open.spotify.com/track/2u3Tf9AIIYALSdvNDhCXJA",
-        "plays": 2
-      },
-      {
-        "name": "Blue 7 - Rudy Van Gelder Remaster",
-        "album": "Saxophone Colossus",
-        "spotify_url": "https://open.spotify.com/track/3oWcCZ9K9R1fHUbAKxo99m",
-        "plays": 2
-      },
-      {
-        "name": "Softly As In A Morning Sunrise - Live At The Village Vanguard/1957 - Evening Take",
-        "album": "A Night At The Village Vanguard (Live)",
-        "spotify_url": "https://open.spotify.com/track/3ybRszkVXeMWxWAec3NMJH",
-        "plays": 2
-      },
-      {
-        "name": "Ba-Lue Bolivar Ba-Lues-Are",
-        "album": "Brilliant Corners",
-        "spotify_url": "https://open.spotify.com/track/1OjmEyEycmzJK3itBAq8EG",
-        "plays": 1
-      },
-      {
-        "name": "Bemsha Swing",
-        "album": "The Very Best Of Thelonious Monk",
-        "spotify_url": "https://open.spotify.com/track/3JrdrfwOwmDrU8jMlr1nA7",
-        "plays": 1
-      },
-      {
-        "name": "In A Sentimental Mood",
-        "album": "Sonny Rollins With The Modern Jazz Quartet",
-        "spotify_url": "https://open.spotify.com/track/3glQOWRCAQIrCnQhWBEFSL",
-        "plays": 1
-      },
-      {
-        "name": "Doxy - RVG Remaster",
-        "album": "Bags' Groove (Rudy Van Gelder Remaster)",
-        "spotify_url": "https://open.spotify.com/track/3vZIYc2V9Ql80jWI2ZApEC",
-        "plays": 1
-      },
-      {
-        "name": "Street Runner With Child - From \"Alfie\" Score",
-        "album": "Alfie",
-        "spotify_url": "https://open.spotify.com/track/2Kwc0WUKDwETMONJTRSpcR",
-        "plays": 1
-      },
-      {
-        "name": "Friday The 13th",
-        "album": "Thelonious Monk and Sonny Rollins",
-        "spotify_url": "https://open.spotify.com/track/486WAd6LYDr98q6u0pCfrR",
-        "plays": 1
-      },
-      {
-        "name": "Pent-Up House",
-        "album": "Plus Four",
-        "spotify_url": "https://open.spotify.com/track/2uaMIdq7JAfpN1QGt4kQ7W",
-        "plays": 1
-      },
-      {
-        "name": "Yesterdays - Remastered",
-        "album": "Sonny Meets Hawk!",
-        "spotify_url": "https://open.spotify.com/track/48P2zm8kawBLWL3y4tgeG5",
-        "plays": 1
-      },
-      {
-        "name": "Shadrack",
-        "album": "Sonny Rollins With The Modern Jazz Quartet",
-        "spotify_url": "https://open.spotify.com/track/5eBo8djP1SOXZy5YlJs1hW",
-        "plays": 1
-      },
-      {
-        "name": "I'm an Old Cowhand",
-        "album": "Way Out West (OJC Remaster)",
-        "spotify_url": "https://open.spotify.com/track/6VRSZGxuhPGOCgUUAnAaUw",
-        "plays": 1
-      },
-      {
-        "name": "On Green Dolphin St/There Will Never Be Another You - Recorded Live at Academie voor Beeldende Kunst in Arnhem, The Netherlands on May 3, 1967",
-        "album": "Rollins in Holland: The 1967 Studio & Live Recordings",
-        "spotify_url": "https://open.spotify.com/track/3ipKM0UQdvJWabsB5R4olx",
         "plays": 1
       }
     ]
@@ -45155,138 +46409,6 @@
         "name": "Summer in the City",
         "album": "Bohemian Beatnik",
         "spotify_url": "https://open.spotify.com/track/5xNMmfKGITqIlFIGQY0evV",
-        "plays": 1
-      }
-    ]
-  },
-  "fugazi": {
-    "id": "62sC6lUEWRjbFqXpMmOk4G",
-    "name": "Fugazi",
-    "spotify_url": "https://open.spotify.com/artist/62sC6lUEWRjbFqXpMmOk4G",
-    "total_plays": 22,
-    "first_seen": "",
-    "last_seen": "",
-    "genres": [
-      "alternative rock",
-      "dc hardcore",
-      "noise pop",
-      "noise rock",
-      "post-hardcore",
-      "post-punk",
-      "punk"
-    ],
-    "images": [
-      {
-        "height": 737,
-        "url": "https://i.scdn.co/image/0234b34b265a6ec22de6b4ebb52abc4d6c9d7371",
-        "width": 578
-      },
-      {
-        "height": 255,
-        "url": "https://i.scdn.co/image/4d6612201d8bbf1a8e5b3ef6ced9d5b0e92d1dd3",
-        "width": 200
-      },
-      {
-        "height": 82,
-        "url": "https://i.scdn.co/image/9f6d3f86533750a49e3dbc215ae9edf54b95a04c",
-        "width": 64
-      }
-    ],
-    "top_tracks": [
-      {
-        "name": "Give Me The Cure",
-        "album": "13 Songs",
-        "spotify_url": "https://open.spotify.com/track/0QNJgmPIaESS4Ko2MFpp5h",
-        "plays": 2
-      },
-      {
-        "name": "Glue Man",
-        "album": "13 Songs",
-        "spotify_url": "https://open.spotify.com/track/2WVG1KwQDfGbdItg55ScQL",
-        "plays": 2
-      },
-      {
-        "name": "Burning",
-        "album": "13 Songs",
-        "spotify_url": "https://open.spotify.com/track/2X6mS6sYa7MzrmG2bmRDA8",
-        "plays": 2
-      },
-      {
-        "name": "Suggestion",
-        "album": "13 Songs",
-        "spotify_url": "https://open.spotify.com/track/6eD7yC9Z7pLlmF3D0cdBdE",
-        "plays": 2
-      },
-      {
-        "name": "Reclamation",
-        "album": "Steady Diet Of Nothing",
-        "spotify_url": "https://open.spotify.com/track/6jzuxqrosao5vwxdAUebkD",
-        "plays": 2
-      },
-      {
-        "name": "Life And Limb",
-        "album": "The Argument",
-        "spotify_url": "https://open.spotify.com/track/6p7f0M1lDJKTUex98OGYKa",
-        "plays": 2
-      },
-      {
-        "name": "Long Division",
-        "album": "Steady Diet Of Nothing",
-        "spotify_url": "https://open.spotify.com/track/3l7w50h6NX1ri60GN5fTAr",
-        "plays": 1
-      },
-      {
-        "name": "Bulldog Front",
-        "album": "13 Songs",
-        "spotify_url": "https://open.spotify.com/track/1AfeuOqJYIlRFduHI6uXLE",
-        "plays": 1
-      },
-      {
-        "name": "Waiting Room",
-        "album": "13 Songs",
-        "spotify_url": "https://open.spotify.com/track/2DBlfjL5chsdeULzhTp5K8",
-        "plays": 1
-      },
-      {
-        "name": "Instrument",
-        "album": "In On The Kill Taker",
-        "spotify_url": "https://open.spotify.com/track/2Q4momPNLwxZougRniLGJj",
-        "plays": 1
-      },
-      {
-        "name": "Recap Modotti",
-        "album": "End Hits",
-        "spotify_url": "https://open.spotify.com/track/2t4Hzx8xZlOJHZ5J601JGO",
-        "plays": 1
-      },
-      {
-        "name": "Repeater",
-        "album": "Repeater + 3 Songs",
-        "spotify_url": "https://open.spotify.com/track/3akkNN6AHsgyptR3QYU3vN",
-        "plays": 1
-      },
-      {
-        "name": "And The Same",
-        "album": "13 Songs",
-        "spotify_url": "https://open.spotify.com/track/3zv2tA8c41VE0H0Vo5SiAj",
-        "plays": 1
-      },
-      {
-        "name": "Turkish Disco",
-        "album": "Instrument Soundtrack",
-        "spotify_url": "https://open.spotify.com/track/42V3IxwEBRXYWkA5Z1kyTy",
-        "plays": 1
-      },
-      {
-        "name": "Margin Walker",
-        "album": "13 Songs",
-        "spotify_url": "https://open.spotify.com/track/4wJs6DCkEGKh3NDMmx7uUg",
-        "plays": 1
-      },
-      {
-        "name": "Intro",
-        "album": "The Argument",
-        "spotify_url": "https://open.spotify.com/track/51SUl6RiaMtukh53KGNQ0J",
         "plays": 1
       }
     ]
@@ -47137,81 +48259,6 @@
         "name": "Four Dirges, Sz. 45, Op. 9a: 1. Adagio",
         "album": "Der Bote",
         "spotify_url": "https://open.spotify.com/track/0QuNsgwx7sUcA2RZ93Oa6Y",
-        "plays": 1
-      }
-    ]
-  },
-  "digable-planets": {
-    "id": "0gqIrDRL7CEPBWMmkuZPdQ",
-    "name": "Digable Planets",
-    "spotify_url": "https://open.spotify.com/artist/0gqIrDRL7CEPBWMmkuZPdQ",
-    "total_plays": 9,
-    "first_seen": "",
-    "last_seen": "",
-    "genres": [
-      "afrofuturism",
-      "east coast hip hop",
-      "hip hop",
-      "jazz rap",
-      "psychedelic hip hop"
-    ],
-    "images": [
-      {
-        "height": 1106,
-        "url": "https://i.scdn.co/image/7df2d7b228ef90e0c089977b76c2f049d22ac8ff",
-        "width": 1000
-      },
-      {
-        "height": 708,
-        "url": "https://i.scdn.co/image/ece80329e82d3fcb6b3ae01d409868789a3cdb12",
-        "width": 640
-      },
-      {
-        "height": 221,
-        "url": "https://i.scdn.co/image/580100ab1befd3cdbcd90f2aa2b7d98a3da8c0f3",
-        "width": 200
-      },
-      {
-        "height": 71,
-        "url": "https://i.scdn.co/image/60f1e06df67f47da3e99b98a219613d932b3f0e1",
-        "width": 64
-      }
-    ],
-    "top_tracks": [
-      {
-        "name": "Dog It",
-        "album": "Blowout Comb",
-        "spotify_url": "https://open.spotify.com/track/6Mbm86B4joMLyCncLCESCG",
-        "plays": 3
-      },
-      {
-        "name": "Rebirth Of Slick (Cool Like Dat)",
-        "album": "Reachin' (A New Refutation Of Time And Space)",
-        "spotify_url": "https://open.spotify.com/track/26q6YTrXt9l8qshIveiTX9",
-        "plays": 2
-      },
-      {
-        "name": "Nickel Bags",
-        "album": "Reachin' (A New Refutation Of Time And Space)",
-        "spotify_url": "https://open.spotify.com/track/3fmcUdEviDS838lC5rNRGi",
-        "plays": 1
-      },
-      {
-        "name": "Highing Fly",
-        "album": "Blowout Comb",
-        "spotify_url": "https://open.spotify.com/track/2uFMZ8zAUyal9uXCBzq1pr",
-        "plays": 1
-      },
-      {
-        "name": "Dedicated - Remastered",
-        "album": "Beyond The Spectrum - The Creamy Spy Chronicles",
-        "spotify_url": "https://open.spotify.com/track/3mOt6mLL8JqvyfeyRyoOYq",
-        "plays": 1
-      },
-      {
-        "name": "Pacifics - From The Original Motion Picture Soundtrack “N.Y. Is Red Hot\"",
-        "album": "Reachin' (A New Refutation Of Time And Space)",
-        "spotify_url": "https://open.spotify.com/track/5esVkhazOeanQVdlJUkNpY",
         "plays": 1
       }
     ]

@@ -1,0 +1,1677 @@
+{
+  "week": "2026-W22",
+  "title": "Week of May 25, 2026",
+  "year": 2026,
+  "week_num": 22,
+  "date_start": "2026-05-25",
+  "date_end": "2026-05-31",
+  "total_plays": 186,
+  "unique_artists": 25,
+  "topArtistName": "Beastie Boys",
+  "topArtistImages": [
+    {
+      "height": 771,
+      "url": "https://i.scdn.co/image/705bcd56dc5dbf9ebc578a3ba8094e6d622862c2",
+      "width": 1000
+    },
+    {
+      "height": 494,
+      "url": "https://i.scdn.co/image/060ef251f0e12353057c36fe94724b688b963dac",
+      "width": 640
+    },
+    {
+      "height": 154,
+      "url": "https://i.scdn.co/image/eb9a69f247e84b9e9ce8b03f1ab5cca399b49cbc",
+      "width": 200
+    },
+    {
+      "height": 49,
+      "url": "https://i.scdn.co/image/b6fafee2c4c169dadf039c2066ab77beb4c82b3e",
+      "width": 64
+    }
+  ],
+  "top_genres": [
+    {
+      "name": "old school hip hop",
+      "plays": 130
+    },
+    {
+      "name": "east coast hip hop",
+      "plays": 128
+    },
+    {
+      "name": "hip hop",
+      "plays": 128
+    },
+    {
+      "name": "rap rock",
+      "plays": 124
+    },
+    {
+      "name": "opera",
+      "plays": 16
+    },
+    {
+      "name": "classical",
+      "plays": 16
+    },
+    {
+      "name": "idm",
+      "plays": 10
+    },
+    {
+      "name": "ambient",
+      "plays": 10
+    },
+    {
+      "name": "trip hop",
+      "plays": 10
+    },
+    {
+      "name": "downtempo",
+      "plays": 10
+    }
+  ],
+  "top_artists": [
+    {
+      "slug": "beastie-boys",
+      "name": "Beastie Boys",
+      "plays": 123,
+      "images": [
+        {
+          "height": 771,
+          "url": "https://i.scdn.co/image/705bcd56dc5dbf9ebc578a3ba8094e6d622862c2",
+          "width": 1000
+        },
+        {
+          "height": 494,
+          "url": "https://i.scdn.co/image/060ef251f0e12353057c36fe94724b688b963dac",
+          "width": 640
+        },
+        {
+          "height": 154,
+          "url": "https://i.scdn.co/image/eb9a69f247e84b9e9ce8b03f1ab5cca399b49cbc",
+          "width": 200
+        },
+        {
+          "height": 49,
+          "url": "https://i.scdn.co/image/b6fafee2c4c169dadf039c2066ab77beb4c82b3e",
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "renee-fleming",
+      "name": "Renée Fleming",
+      "plays": 16,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb6fcd8cba3e522c457b41a6e5",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051746fcd8cba3e522c457b41a6e5",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1786fcd8cba3e522c457b41a6e5",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "boards-of-canada",
+      "name": "Boards of Canada",
+      "plays": 10,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb8d582d93756e158b968cc35d",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051748d582d93756e158b968cc35d",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1788d582d93756e158b968cc35d",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "jack-van-cleaf",
+      "name": "Jack Van Cleaf",
+      "plays": 5,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebbbfa796484d4fdc57cefd2d1",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174bbfa796484d4fdc57cefd2d1",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178bbfa796484d4fdc57cefd2d1",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "sonny-rollins",
+      "name": "Sonny Rollins",
+      "plays": 4,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6772690000c46c36895fb1d821585e10947a37",
+          "height": 1000,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6772690000dd2236895fb1d821585e10947a37",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6772690000bac336895fb1d821585e10947a37",
+          "height": 200,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67726900008f7436895fb1d821585e10947a37",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "joshua-ray-walker",
+      "name": "Joshua Ray Walker",
+      "plays": 3,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb458bd0821f53b36929cf2178",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174458bd0821f53b36929cf2178",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178458bd0821f53b36929cf2178",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "dizzy-gillespie",
+      "name": "Dizzy Gillespie",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/896485317ae7153ad421012f2f7cb90cf3fbfbff",
+          "height": 1024,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/96daabf66ecd18cc20df9339e0e9c1ba1d2f868f",
+          "height": 656,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/7662f15f1ef7e479b452a602663975af1b271000",
+          "height": 205,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/8368a17dfed9085ca0d6f3eda7ec799fdbeb77fd",
+          "height": 66,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "butthole-surfers",
+      "name": "Butthole Surfers",
+      "plays": 2,
+      "images": [
+        {
+          "height": 665,
+          "url": "https://i.scdn.co/image/dabd2920676f2ae15862ed8dfcf89a8ddb9d11ee",
+          "width": 1000
+        },
+        {
+          "height": 425,
+          "url": "https://i.scdn.co/image/4136eafc38bb9a7e6db382c5e027380e6a527be1",
+          "width": 639
+        },
+        {
+          "height": 133,
+          "url": "https://i.scdn.co/image/13fb78d8c965a8a3637a659442fead75890e1c07",
+          "width": 200
+        },
+        {
+          "height": 43,
+          "url": "https://i.scdn.co/image/b18f1417a0d867c8af95ec56c810e02176d86500",
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "a-tribe-called-quest",
+      "name": "A Tribe Called Quest",
+      "plays": 2,
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb774d73ae6796b6f437d89db9",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174774d73ae6796b6f437d89db9",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178774d73ae6796b6f437d89db9",
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "beck",
+      "name": "Beck",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebca0e2c67ba619791fec07dfa",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174ca0e2c67ba619791fec07dfa",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178ca0e2c67ba619791fec07dfa",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "blind-melon",
+      "name": "Blind Melon",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebdcc3fe6af94c5c178a36d006",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174dcc3fe6af94c5c178a36d006",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178dcc3fe6af94c5c178a36d006",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "kaitlin-butts",
+      "name": "Kaitlin Butts",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb6e2c05415f7d8a52f883a38c",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051746e2c05415f7d8a52f883a38c",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1786e2c05415f7d8a52f883a38c",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "digable-planets",
+      "name": "Digable Planets",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6772690000c46ce27ed3a816df14e399acb7d2",
+          "height": 1000,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6772690000dd22e27ed3a816df14e399acb7d2",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6772690000bac3e27ed3a816df14e399acb7d2",
+          "height": 200,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67726900008f74e27ed3a816df14e399acb7d2",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "black-sheep",
+      "name": "Black Sheep",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/05b6bfb62f7bc86622b384d5b88aa974a4b30318",
+          "height": 461,
+          "width": 450
+        },
+        {
+          "url": "https://i.scdn.co/image/af4d9c59c3920e2d1af343cd517d666f70867b48",
+          "height": 205,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/2d55e4b4279599eb9d7c1c28bfe27117f59cbc64",
+          "height": 66,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "cypress-hill",
+      "name": "Cypress Hill",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb38df3e7ad0a284eec89ffb33",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517438df3e7ad0a284eec89ffb33",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17838df3e7ad0a284eec89ffb33",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "sublime",
+      "name": "Sublime",
+      "plays": 1,
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebe726280500259dbdb97a8be4",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174e726280500259dbdb97a8be4",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178e726280500259dbdb97a8be4",
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "agent-orange",
+      "name": "Agent Orange",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6772690000c46c345eaeafd6d5c850ecaa7e0b",
+          "height": 1000,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6772690000dd22345eaeafd6d5c850ecaa7e0b",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6772690000bac3345eaeafd6d5c850ecaa7e0b",
+          "height": 200,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67726900008f74345eaeafd6d5c850ecaa7e0b",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "dead-kennedys",
+      "name": "Dead Kennedys",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/3a7ddc45cc57da8c01f95691ef508202f0d25b09",
+          "height": 684,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/ffc48eb8f9fd437ef9fbe5c63efe7d0e2ef1b074",
+          "height": 438,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/5aa5911a83d121c1269cc33ca8d9cefea79f1566",
+          "height": 137,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/4f59b1bd6fcd7fffb1e5bd193695821594372117",
+          "height": 44,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "suicidal-tendencies",
+      "name": "Suicidal Tendencies",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb34e9707779175a2453a1d786",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517434e9707779175a2453a1d786",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17834e9707779175a2453a1d786",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "fugazi",
+      "name": "Fugazi",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/0234b34b265a6ec22de6b4ebb52abc4d6c9d7371",
+          "height": 737,
+          "width": 578
+        },
+        {
+          "url": "https://i.scdn.co/image/4d6612201d8bbf1a8e5b3ef6ced9d5b0e92d1dd3",
+          "height": 255,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/9f6d3f86533750a49e3dbc215ae9edf54b95a04c",
+          "height": 82,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "yonder-mountain-string-band",
+      "name": "Yonder Mountain String Band",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb0af1c77a29684d5f10cc19a6",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051740af1c77a29684d5f10cc19a6",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1780af1c77a29684d5f10cc19a6",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "ll-cool-j",
+      "name": "LL COOL J",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebfdfbad2b88a64e661a6e6400",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174fdfbad2b88a64e661a6e6400",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178fdfbad2b88a64e661a6e6400",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "dr-dre",
+      "name": "Dr. Dre",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6772690000c46c250b3af4b06e1fcf538d398b",
+          "height": 1000,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6772690000dd22250b3af4b06e1fcf538d398b",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6772690000bac3250b3af4b06e1fcf538d398b",
+          "height": 200,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67726900008f74250b3af4b06e1fcf538d398b",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "stephen-wilson-jr",
+      "name": "Stephen Wilson Jr.",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb2e25871e208b1befa79b4c44",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051742e25871e208b1befa79b4c44",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1782e25871e208b1befa79b4c44",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "the-red-clay-strays",
+      "name": "The Red Clay Strays",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb96d3777ed36716905b24f1ae",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517496d3777ed36716905b24f1ae",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17896d3777ed36716905b24f1ae",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    }
+  ],
+  "top_tracks": [
+    {
+      "name": "And Me - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 4
+    },
+    {
+      "name": "Three MC's And One DJ - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 3
+    },
+    {
+      "name": "Pass The Mic - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 3
+    },
+    {
+      "name": "On The Sunny Side Of The Street",
+      "artist": "Dizzy Gillespie",
+      "artist_slug": "dizzy-gillespie",
+      "plays": 2
+    },
+    {
+      "name": "Green",
+      "artist": "Jack Van Cleaf",
+      "artist_slug": "jack-van-cleaf",
+      "plays": 2
+    },
+    {
+      "name": "Blackest Crow (feat. Aoife O'Donovan)",
+      "artist": "Renée Fleming",
+      "artist_slug": "renee-fleming",
+      "plays": 2
+    },
+    {
+      "name": "The Cuckoo (feat. Jerry Douglas)",
+      "artist": "Renée Fleming",
+      "artist_slug": "renee-fleming",
+      "plays": 2
+    },
+    {
+      "name": "The Scarlet Tide (feat. Vince Gill)",
+      "artist": "Renée Fleming",
+      "artist_slug": "renee-fleming",
+      "plays": 2
+    },
+    {
+      "name": "My Epitaph",
+      "artist": "Renée Fleming",
+      "artist_slug": "renee-fleming",
+      "plays": 2
+    },
+    {
+      "name": "The Fiddle and the Drum (feat. Jerry Douglas)",
+      "artist": "Renée Fleming",
+      "artist_slug": "renee-fleming",
+      "plays": 2
+    },
+    {
+      "name": "In The Pines (feat. Dolly Parton)",
+      "artist": "Renée Fleming",
+      "artist_slug": "renee-fleming",
+      "plays": 2
+    },
+    {
+      "name": "Intergalactic - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 2
+    },
+    {
+      "name": "Song For The Man - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 2
+    },
+    {
+      "name": "Change",
+      "artist": "Blind Melon",
+      "artist_slug": "blind-melon",
+      "plays": 2
+    },
+    {
+      "name": "Fossil Fuel",
+      "artist": "Joshua Ray Walker",
+      "artist_slug": "joshua-ray-walker",
+      "plays": 1
+    },
+    {
+      "name": "Thank You For Listening",
+      "artist": "Joshua Ray Walker",
+      "artist_slug": "joshua-ray-walker",
+      "plays": 1
+    },
+    {
+      "name": "Ain't Dead Yet",
+      "artist": "Joshua Ray Walker",
+      "artist_slug": "joshua-ray-walker",
+      "plays": 1
+    },
+    {
+      "name": "Peacock Tail",
+      "artist": "Boards of Canada",
+      "artist_slug": "boards-of-canada",
+      "plays": 1
+    },
+    {
+      "name": "Beware The Friendly Stranger",
+      "artist": "Boards of Canada",
+      "artist_slug": "boards-of-canada",
+      "plays": 1
+    },
+    {
+      "name": "Aquarius",
+      "artist": "Boards of Canada",
+      "artist_slug": "boards-of-canada",
+      "plays": 1
+    },
+    {
+      "name": "Gyroscope",
+      "artist": "Boards of Canada",
+      "artist_slug": "boards-of-canada",
+      "plays": 1
+    },
+    {
+      "name": "Music Is Math",
+      "artist": "Boards of Canada",
+      "artist_slug": "boards-of-canada",
+      "plays": 1
+    },
+    {
+      "name": "Dayvan Cowboy",
+      "artist": "Boards of Canada",
+      "artist_slug": "boards-of-canada",
+      "plays": 1
+    },
+    {
+      "name": "Introit",
+      "artist": "Boards of Canada",
+      "artist_slug": "boards-of-canada",
+      "plays": 1
+    },
+    {
+      "name": "Olson",
+      "artist": "Boards of Canada",
+      "artist_slug": "boards-of-canada",
+      "plays": 1
+    },
+    {
+      "name": "Roygbiv",
+      "artist": "Boards of Canada",
+      "artist_slug": "boards-of-canada",
+      "plays": 1
+    },
+    {
+      "name": "Prophecy At 1420 MHz",
+      "artist": "Boards of Canada",
+      "artist_slug": "boards-of-canada",
+      "plays": 1
+    },
+    {
+      "name": "You Don't Know What Love Is - Rudy Van Gelder Rudy Van Gelder Remastered 2006 / Shared ISRC",
+      "artist": "Sonny Rollins",
+      "artist_slug": "sonny-rollins",
+      "plays": 1
+    },
+    {
+      "name": "God Bless the Child",
+      "artist": "Sonny Rollins",
+      "artist_slug": "sonny-rollins",
+      "plays": 1
+    },
+    {
+      "name": "In A Sentimental Mood",
+      "artist": "Sonny Rollins",
+      "artist_slug": "sonny-rollins",
+      "plays": 1
+    },
+    {
+      "name": "St. Thomas",
+      "artist": "Sonny Rollins",
+      "artist_slug": "sonny-rollins",
+      "plays": 1
+    },
+    {
+      "name": "Shouldn't Have Gone to L.A",
+      "artist": "Jack Van Cleaf",
+      "artist_slug": "jack-van-cleaf",
+      "plays": 1
+    },
+    {
+      "name": "Using You",
+      "artist": "Jack Van Cleaf",
+      "artist_slug": "jack-van-cleaf",
+      "plays": 1
+    },
+    {
+      "name": "Pretty Bird (feat. Sierra Hull & Sarah Jarosz)",
+      "artist": "Renée Fleming",
+      "artist_slug": "renee-fleming",
+      "plays": 1
+    },
+    {
+      "name": "he's gone away (reprise)",
+      "artist": "Renée Fleming",
+      "artist_slug": "renee-fleming",
+      "plays": 1
+    },
+    {
+      "name": "Scarlet Ribbons",
+      "artist": "Renée Fleming",
+      "artist_slug": "renee-fleming",
+      "plays": 1
+    },
+    {
+      "name": "He's Gone Away / Storms Are On the Ocean",
+      "artist": "Renée Fleming",
+      "artist_slug": "renee-fleming",
+      "plays": 1
+    },
+    {
+      "name": "Intelligent Guy - Astronaut Version",
+      "artist": "Butthole Surfers",
+      "artist_slug": "butthole-surfers",
+      "plays": 1
+    },
+    {
+      "name": "Can I Kick It?",
+      "artist": "A Tribe Called Quest",
+      "artist_slug": "a-tribe-called-quest",
+      "plays": 1
+    },
+    {
+      "name": "The Skills To Pay The Bills - Remastered",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Time & Space (A New Refutation Of)",
+      "artist": "Digable Planets",
+      "artist_slug": "digable-planets",
+      "plays": 1
+    },
+    {
+      "name": "The Choice Is Yours (Revisited)",
+      "artist": "Black Sheep",
+      "artist_slug": "black-sheep",
+      "plays": 1
+    },
+    {
+      "name": "Que' Onda Guero",
+      "artist": "Beck",
+      "artist_slug": "beck",
+      "plays": 1
+    },
+    {
+      "name": "When the Shit Goes Down",
+      "artist": "Cypress Hill",
+      "artist_slug": "cypress-hill",
+      "plays": 1
+    },
+    {
+      "name": "April 29, 1992 (Miami)",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "B-Boys Makin' With The Freak Freak - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Oh My Goodness This Record's Incredible - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Learning Remote Control - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Creepin' - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Body Movin' - Kut Masta Kurt Remix/Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Hail Sagan (Special K) - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "The Biz Grasshopper Experiment - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "20 Questions Version - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "The Drone - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "The Negotiation Limerick File - The 41 Small Stars Remix/Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Happy To Be In That Perfect Headspace - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Piano Jam - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Peanut Butter And Jelly - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Stink Bug - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Putting Shame In Your Game - Prunes Remix/Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Auntie Jackie Poom Poom Delicious - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Body Movin' - Fatboy Slim Remix/Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Switched On - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "\"Dr. Lee, PhD\" - Dub Mix/Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Intergalactic - Colleone & Webb Remix/Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Dirty Dog - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Description Of A Strange Man - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Instant Death - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "\"Dr. Lee, PhD\" - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Dedication - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Unite - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Picture This - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Electrify - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "The Negotiation Limerick File - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "I Don't Know - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Song For Junior - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "The Grasshopper Unit (Keep Movin') - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Flowin' Prose - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Putting Shame In Your Game - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Sneakin' Out The Hospital - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Body Movin' - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Just A Test - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Remote Control - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "The Move - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Bloodstains - Original Version",
+      "artist": "Agent Orange",
+      "artist_slug": "agent-orange",
+      "plays": 1
+    },
+    {
+      "name": "Police Truck",
+      "artist": "Dead Kennedys",
+      "artist_slug": "dead-kennedys",
+      "plays": 1
+    },
+    {
+      "name": "Institutionalized",
+      "artist": "Suicidal Tendencies",
+      "artist_slug": "suicidal-tendencies",
+      "plays": 1
+    },
+    {
+      "name": "Bad Mouth",
+      "artist": "Fugazi",
+      "artist_slug": "fugazi",
+      "plays": 1
+    },
+    {
+      "name": "Rhymin & Stealin",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "I Want Some",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "I Can't Think Straight",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "You Catch A Bad One",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Square Wave In Unison",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Nervous Assistant",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Believe Me",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Deal With It",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Brand New",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Transitions",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Bobo On The Corner",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Alright Hear This",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Eugene's Lament",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "The Update",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Heart Attack Man",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "The Scoop",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Do It",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Flute Loop",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Sabrosa",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Ricky's Theme",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Bodhisattva Vow",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Tough Guy",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Midwest Gospel Radio",
+      "artist": "Yonder Mountain String Band",
+      "artist_slug": "yonder-mountain-string-band",
+      "plays": 1
+    },
+    {
+      "name": "Loser",
+      "artist": "Beck",
+      "artist_slug": "beck",
+      "plays": 1
+    },
+    {
+      "name": "I'm Bad",
+      "artist": "LL COOL J",
+      "artist_slug": "ll-cool-j",
+      "plays": 1
+    },
+    {
+      "name": "Who Was In My Room Last Night?",
+      "artist": "Butthole Surfers",
+      "artist_slug": "butthole-surfers",
+      "plays": 1
+    },
+    {
+      "name": "Namaste - Live At The Bill Graham Civic Auditorium, 1992",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "So What'Cha Want - Live At The Bill Graham Civic Auditorium, 1992",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Drunken Praying Mantis Style - Instrumental",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Pass The Mic (Pt. 2, Skills To Pay The Bills)",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Dub The Mic - Instrumental",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Namaste - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "In 3's - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Professor Booty - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Mark On The Bus - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Live At P.J.'s - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Groove Holmes - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "The Maestro - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Pow - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Stand Together - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "The Blue Nun - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Something's Got To Give - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Time For Livin' - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "The Biz Vs. The Nuge - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "So What'Cha Want - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Finger Lickin' Good - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Lighten Up - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Gratitude - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Funky Boss - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Jimmy James - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "I Left My Wallet in El Segundo",
+      "artist": "A Tribe Called Quest",
+      "artist_slug": "a-tribe-called-quest",
+      "plays": 1
+    },
+    {
+      "name": "B-Boy Bouillabaisse: A.W.O.L.",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "B-Boy Bouillabaisse: Mike On The Mic",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "B-Boy Bouillabaisse: Lay It On Me",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "B-Boy Bouillabaisse: Dropping Names",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "B-Boy Bouillabaisse: Hello Brooklyn",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "B-Boy Bouillabaisse: A Year And A Day",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "B-Boy Bouillabaisse: Stop That Train",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "B-Boy Bouillabaisse: Get On The Mic",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "B-Boy Bouillabaisse: 59 Chrystie Street",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Ask For Janice",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Shadrach",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "What Comes Around",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Car Thief",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Looking Down The Barrel Of A Gun",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "5-Piece Chicken Dinner",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Hey Ladies",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "3-Minute Rule",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "The Sounds Of Science",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "High Plains Drifter",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Egg Man",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Johnny Ryall",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Shake Your Rump",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "To All The Girls",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "The Next Episode",
+      "artist": "Dr. Dre",
+      "artist_slug": "dr-dre",
+      "plays": 1
+    },
+    {
+      "name": "Hunger Strike",
+      "artist": "Stephen Wilson Jr.",
+      "artist_slug": "stephen-wilson-jr",
+      "plays": 1
+    },
+    {
+      "name": "Demons In Your Choir",
+      "artist": "The Red Clay Strays",
+      "artist_slug": "the-red-clay-strays",
+      "plays": 1
+    },
+    {
+      "name": "You Ain’t Gotta Die (To Be Dead To Me)",
+      "artist": "Kaitlin Butts",
+      "artist_slug": "kaitlin-butts",
+      "plays": 1
+    },
+    {
+      "name": "The Middle",
+      "artist": "Kaitlin Butts",
+      "artist_slug": "kaitlin-butts",
+      "plays": 1
+    },
+    {
+      "name": "Margot",
+      "artist": "Jack Van Cleaf",
+      "artist_slug": "jack-van-cleaf",
+      "plays": 1
+    }
+  ]
+}

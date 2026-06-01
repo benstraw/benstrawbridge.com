@@ -5,7 +5,7 @@
   "week_num": 21,
   "date_start": "2026-05-18",
   "date_end": "2026-05-24",
-  "total_plays": 21,
+  "total_plays": 27,
   "unique_artists": 4,
   "topArtistName": "Jack Van Cleaf",
   "topArtistImages": [
@@ -28,19 +28,19 @@
   "top_genres": [
     {
       "name": "hard bop",
-      "plays": 5
+      "plays": 10
     },
     {
       "name": "bebop",
-      "plays": 5
+      "plays": 10
     },
     {
       "name": "jazz",
-      "plays": 5
+      "plays": 10
     },
     {
       "name": "cool jazz",
-      "plays": 5
+      "plays": 10
     }
   ],
   "top_artists": [
@@ -69,7 +69,7 @@
     {
       "slug": "hampton-hawes",
       "name": "Hampton Hawes",
-      "plays": 5,
+      "plays": 10,
       "images": [
         {
           "url": "https://i.scdn.co/image/ab67616d0000b2739ff452639474ffe057f5c467",
@@ -91,7 +91,7 @@
     {
       "slug": "verdezul",
       "name": "Verdèzul",
-      "plays": 1,
+      "plays": 2,
       "images": [
         {
           "url": "https://i.scdn.co/image/ab6761610000e5ebde992585da11c3567cabaa5a",
@@ -138,37 +138,37 @@
       "name": "Taxes Finnah Hit",
       "artist": "Verdèzul",
       "artist_slug": "verdezul",
-      "plays": 1
+      "plays": 2
     },
     {
       "name": "Carioca",
       "artist": "Hampton Hawes",
       "artist_slug": "hampton-hawes",
-      "plays": 1
+      "plays": 2
     },
     {
       "name": "Feelin' Fine",
       "artist": "Hampton Hawes",
       "artist_slug": "hampton-hawes",
-      "plays": 1
+      "plays": 2
     },
     {
       "name": "Easy Living",
       "artist": "Hampton Hawes",
       "artist_slug": "hampton-hawes",
-      "plays": 1
+      "plays": 2
     },
     {
       "name": "I Got Rhythm",
       "artist": "Hampton Hawes",
       "artist_slug": "hampton-hawes",
-      "plays": 1
+      "plays": 2
     },
     {
       "name": "All the Things You Are",
       "artist": "Hampton Hawes",
       "artist_slug": "hampton-hawes",
-      "plays": 1
+      "plays": 2
     },
     {
       "name": "Rattlesnake (feat. Zach Bryan)",
