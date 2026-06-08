@@ -1,0 +1,1104 @@
+{
+  "week": "2026-W23",
+  "title": "Week of Jun 1, 2026",
+  "year": 2026,
+  "week_num": 23,
+  "date_start": "2026-06-01",
+  "date_end": "2026-06-07",
+  "total_plays": 95,
+  "unique_artists": 21,
+  "topArtistName": "Beastie Boys",
+  "topArtistImages": [
+    {
+      "height": 771,
+      "url": "https://i.scdn.co/image/705bcd56dc5dbf9ebc578a3ba8094e6d622862c2",
+      "width": 1000
+    },
+    {
+      "height": 494,
+      "url": "https://i.scdn.co/image/060ef251f0e12353057c36fe94724b688b963dac",
+      "width": 640
+    },
+    {
+      "height": 154,
+      "url": "https://i.scdn.co/image/eb9a69f247e84b9e9ce8b03f1ab5cca399b49cbc",
+      "width": 200
+    },
+    {
+      "height": 49,
+      "url": "https://i.scdn.co/image/b6fafee2c4c169dadf039c2066ab77beb4c82b3e",
+      "width": 64
+    }
+  ],
+  "top_genres": [
+    {
+      "name": "rap rock",
+      "plays": 32
+    },
+    {
+      "name": "old school hip hop",
+      "plays": 32
+    },
+    {
+      "name": "east coast hip hop",
+      "plays": 32
+    },
+    {
+      "name": "hip hop",
+      "plays": 32
+    },
+    {
+      "name": "reggae",
+      "plays": 27
+    },
+    {
+      "name": "ragga",
+      "plays": 27
+    },
+    {
+      "name": "dancehall",
+      "plays": 26
+    },
+    {
+      "name": "lovers rock",
+      "plays": 25
+    },
+    {
+      "name": "roots reggae",
+      "plays": 21
+    },
+    {
+      "name": "riddim",
+      "plays": 17
+    }
+  ],
+  "top_artists": [
+    {
+      "slug": "beastie-boys",
+      "name": "Beastie Boys",
+      "plays": 32,
+      "images": [
+        {
+          "height": 771,
+          "url": "https://i.scdn.co/image/705bcd56dc5dbf9ebc578a3ba8094e6d622862c2",
+          "width": 1000
+        },
+        {
+          "height": 494,
+          "url": "https://i.scdn.co/image/060ef251f0e12353057c36fe94724b688b963dac",
+          "width": 640
+        },
+        {
+          "height": 154,
+          "url": "https://i.scdn.co/image/eb9a69f247e84b9e9ce8b03f1ab5cca399b49cbc",
+          "width": 200
+        },
+        {
+          "height": 49,
+          "url": "https://i.scdn.co/image/b6fafee2c4c169dadf039c2066ab77beb4c82b3e",
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "capleton",
+      "name": "Capleton",
+      "plays": 16,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebfe8d4c7201ba8d83a04f2bda",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174fe8d4c7201ba8d83a04f2bda",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178fe8d4c7201ba8d83a04f2bda",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "david-bowie",
+      "name": "David Bowie",
+      "plays": 16,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebb78f77c5583ae99472dd4a49",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174b78f77c5583ae99472dd4a49",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178b78f77c5583ae99472dd4a49",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "sonny-rollins",
+      "name": "Sonny Rollins",
+      "plays": 8,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6772690000c46c36895fb1d821585e10947a37",
+          "height": 1000,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6772690000dd2236895fb1d821585e10947a37",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6772690000bac336895fb1d821585e10947a37",
+          "height": 200,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67726900008f7436895fb1d821585e10947a37",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "ninjaman",
+      "name": "Ninjaman",
+      "plays": 3,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000b273ccb7c2998a4f65e7cd20d655",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00001e021bc7615799aab490b532bd8a",
+          "height": 300,
+          "width": 300
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000485114ed9119071a5bae0b2274f0",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "verdezul",
+      "name": "Verdèzul",
+      "plays": 3,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebde992585da11c3567cabaa5a",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174de992585da11c3567cabaa5a",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178de992585da11c3567cabaa5a",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "super-cat",
+      "name": "Super Cat",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ebc7a7cbe13a2b07070141dc3e8abce908b01ce2",
+          "height": 697,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/5106f54ad890f0494f70337ee8310b97bbbe9be4",
+          "height": 446,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/b764f991a079b8e4bd94637fb5443fc8da020cac",
+          "height": 139,
+          "width": 199
+        },
+        {
+          "url": "https://i.scdn.co/image/b73dfbfe554b6c793bc49775f0aa02a07cc1192c",
+          "height": 45,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "barrington-levy",
+      "name": "Barrington Levy",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/9c194c388f9b7b416ccfa5dbbdaf445b8970d3e3",
+          "height": 1200,
+          "width": 900
+        },
+        {
+          "url": "https://i.scdn.co/image/1147451e9f7bfaa537b23cb660055f74e949321e",
+          "height": 853,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/af27a3c7c5ec1a2d2afde0a7a6bc3424ba561b00",
+          "height": 267,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/3f26199a80e2cc02686f21138cea1da24485f05f",
+          "height": 85,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "dennis-brown",
+      "name": "Dennis Brown",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb8240d5b7cb894d3fbb8c31f0",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051748240d5b7cb894d3fbb8c31f0",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1788240d5b7cb894d3fbb8c31f0",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "jigsy-king",
+      "name": "Jigsy King",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebf0e55b0906fb7b1d1326c32c",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174f0e55b0906fb7b1d1326c32c",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178f0e55b0906fb7b1d1326c32c",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "half-pint",
+      "name": "Half Pint",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb234941a61189da52099894a2",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174234941a61189da52099894a2",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178234941a61189da52099894a2",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "buju-banton",
+      "name": "Buju Banton",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb3870063ce09bb60047be48a0",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051743870063ce09bb60047be48a0",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1783870063ce09bb60047be48a0",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "fontella-bass",
+      "name": "Fontella Bass",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000b273754ec71bd163ad6b10873880",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00001e02754ec71bd163ad6b10873880",
+          "height": 300,
+          "width": 300
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00004851754ec71bd163ad6b10873880",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "jack-van-cleaf",
+      "name": "Jack Van Cleaf",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebbbfa796484d4fdc57cefd2d1",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174bbfa796484d4fdc57cefd2d1",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178bbfa796484d4fdc57cefd2d1",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "mike-d",
+      "name": "Mike D",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb5a186c13c6adb66d258c1d6c",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051745a186c13c6adb66d258c1d6c",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1785a186c13c6adb66d258c1d6c",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "queen",
+      "name": "Queen",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6772690000c46c47488c35a509d42072c23976",
+          "height": 1000,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6772690000dd2247488c35a509d42072c23976",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6772690000bac347488c35a509d42072c23976",
+          "height": 200,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67726900008f7447488c35a509d42072c23976",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "the-cure",
+      "name": "The Cure",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebdd427c765c409ec02dc3a868",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174dd427c765c409ec02dc3a868",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178dd427c765c409ec02dc3a868",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "talking-heads",
+      "name": "Talking Heads",
+      "plays": 1,
+      "images": [
+        {
+          "height": 500,
+          "url": "https://i.scdn.co/image/e4c5b04fce8706c87663357b1f78522a3a5c641b",
+          "width": 500
+        },
+        {
+          "height": 200,
+          "url": "https://i.scdn.co/image/60bfd4ad01d8d9142d88c3c0b73cea36bf327ea7",
+          "width": 200
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/4056b1eaa81255de0865ebe4fdbe61246205153c",
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "primus",
+      "name": "Primus",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb54ed648a0c70ed8910840f4a",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517454ed648a0c70ed8910840f4a",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17854ed648a0c70ed8910840f4a",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "miles-davis",
+      "name": "Miles Davis",
+      "plays": 1,
+      "images": [
+        {
+          "height": 1000,
+          "url": "https://i.scdn.co/image/423e826b3c1b23930a255d7cbc2daf733f795507",
+          "width": 1000
+        },
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/a318c54208af38364d131a54ced2416423696018",
+          "width": 640
+        },
+        {
+          "height": 200,
+          "url": "https://i.scdn.co/image/8496e6ea230dd47311d85dcf860015792f5ada42",
+          "width": 200
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/b1af952a7fb8ac2c4467868d61b5752fc1a01cf0",
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "dizzy-gillespie",
+      "name": "Dizzy Gillespie",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/896485317ae7153ad421012f2f7cb90cf3fbfbff",
+          "height": 1024,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/96daabf66ecd18cc20df9339e0e9c1ba1d2f868f",
+          "height": 656,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/7662f15f1ef7e479b452a602663975af1b271000",
+          "height": 205,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/8368a17dfed9085ca0d6f3eda7ec799fdbeb77fd",
+          "height": 66,
+          "width": 64
+        }
+      ]
+    }
+  ],
+  "top_tracks": [
+    {
+      "name": "Ting A Ling A Ling A School Pickney Sing Ting",
+      "artist": "Ninjaman",
+      "artist_slug": "ninjaman",
+      "plays": 3
+    },
+    {
+      "name": "Clean Hands (Pure In Heart)",
+      "artist": "Capleton",
+      "artist_slug": "capleton",
+      "plays": 2
+    },
+    {
+      "name": "Rock 'n' Roll Suicide - 2012 Remaster",
+      "artist": "David Bowie",
+      "artist_slug": "david-bowie",
+      "plays": 2
+    },
+    {
+      "name": "Oh Word?",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 2
+    },
+    {
+      "name": "3 The Hard Way",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 2
+    },
+    {
+      "name": "Right Right Now Now",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 2
+    },
+    {
+      "name": "Boops",
+      "artist": "Super Cat",
+      "artist_slug": "super-cat",
+      "plays": 1
+    },
+    {
+      "name": "Here I Come",
+      "artist": "Barrington Levy",
+      "artist_slug": "barrington-levy",
+      "plays": 1
+    },
+    {
+      "name": "Revolution",
+      "artist": "Dennis Brown",
+      "artist_slug": "dennis-brown",
+      "plays": 1
+    },
+    {
+      "name": "That Day Will Come",
+      "artist": "Capleton",
+      "artist_slug": "capleton",
+      "plays": 1
+    },
+    {
+      "name": "Gi Mi The Weed",
+      "artist": "Jigsy King",
+      "artist_slug": "jigsy-king",
+      "plays": 1
+    },
+    {
+      "name": "Greetings",
+      "artist": "Half Pint",
+      "artist_slug": "half-pint",
+      "plays": 1
+    },
+    {
+      "name": "Jamaica Jamaica",
+      "artist": "Super Cat",
+      "artist_slug": "super-cat",
+      "plays": 1
+    },
+    {
+      "name": "Hills And Valleys",
+      "artist": "Buju Banton",
+      "artist_slug": "buju-banton",
+      "plays": 1
+    },
+    {
+      "name": "Murderer",
+      "artist": "Barrington Levy",
+      "artist_slug": "barrington-levy",
+      "plays": 1
+    },
+    {
+      "name": "Jah Jah City",
+      "artist": "Capleton",
+      "artist_slug": "capleton",
+      "plays": 1
+    },
+    {
+      "name": "Lyrics With Understanding",
+      "artist": "Capleton",
+      "artist_slug": "capleton",
+      "plays": 1
+    },
+    {
+      "name": "Temple",
+      "artist": "Capleton",
+      "artist_slug": "capleton",
+      "plays": 1
+    },
+    {
+      "name": "Satan Mind",
+      "artist": "Capleton",
+      "artist_slug": "capleton",
+      "plays": 1
+    },
+    {
+      "name": "Bad So",
+      "artist": "Capleton",
+      "artist_slug": "capleton",
+      "plays": 1
+    },
+    {
+      "name": "Who See It",
+      "artist": "Capleton",
+      "artist_slug": "capleton",
+      "plays": 1
+    },
+    {
+      "name": "Everybody",
+      "artist": "Capleton",
+      "artist_slug": "capleton",
+      "plays": 1
+    },
+    {
+      "name": "Equal Rights",
+      "artist": "Capleton",
+      "artist_slug": "capleton",
+      "plays": 1
+    },
+    {
+      "name": "Rod In A Hand",
+      "artist": "Capleton",
+      "artist_slug": "capleton",
+      "plays": 1
+    },
+    {
+      "name": "Sign & Wonder",
+      "artist": "Capleton",
+      "artist_slug": "capleton",
+      "plays": 1
+    },
+    {
+      "name": "Good So",
+      "artist": "Capleton",
+      "artist_slug": "capleton",
+      "plays": 1
+    },
+    {
+      "name": "Prepare Fi Die",
+      "artist": "Capleton",
+      "artist_slug": "capleton",
+      "plays": 1
+    },
+    {
+      "name": "Cold Blooded Murderer",
+      "artist": "Capleton",
+      "artist_slug": "capleton",
+      "plays": 1
+    },
+    {
+      "name": "Soul Of The Man",
+      "artist": "Fontella Bass",
+      "artist_slug": "fontella-bass",
+      "plays": 1
+    },
+    {
+      "name": "Using You",
+      "artist": "Jack Van Cleaf",
+      "artist_slug": "jack-van-cleaf",
+      "plays": 1
+    },
+    {
+      "name": "Switch Up",
+      "artist": "Mike D",
+      "artist_slug": "mike-d",
+      "plays": 1
+    },
+    {
+      "name": "Space Oddity - 2015 Remaster",
+      "artist": "David Bowie",
+      "artist_slug": "david-bowie",
+      "plays": 1
+    },
+    {
+      "name": "Suffragette City - 2012 Remaster",
+      "artist": "David Bowie",
+      "artist_slug": "david-bowie",
+      "plays": 1
+    },
+    {
+      "name": "Ziggy Stardust - 2012 Remaster",
+      "artist": "David Bowie",
+      "artist_slug": "david-bowie",
+      "plays": 1
+    },
+    {
+      "name": "Hang on to Yourself - 2012 Remaster",
+      "artist": "David Bowie",
+      "artist_slug": "david-bowie",
+      "plays": 1
+    },
+    {
+      "name": "Star - 2012 Remaster",
+      "artist": "David Bowie",
+      "artist_slug": "david-bowie",
+      "plays": 1
+    },
+    {
+      "name": "Lady Stardust - 2012 Remaster",
+      "artist": "David Bowie",
+      "artist_slug": "david-bowie",
+      "plays": 1
+    },
+    {
+      "name": "It Ain't Easy - 2012 Remaster",
+      "artist": "David Bowie",
+      "artist_slug": "david-bowie",
+      "plays": 1
+    },
+    {
+      "name": "Starman - 2012 Remaster",
+      "artist": "David Bowie",
+      "artist_slug": "david-bowie",
+      "plays": 1
+    },
+    {
+      "name": "Moonage Daydream - 2012 Remaster",
+      "artist": "David Bowie",
+      "artist_slug": "david-bowie",
+      "plays": 1
+    },
+    {
+      "name": "Soul Love - 2012 Remaster",
+      "artist": "David Bowie",
+      "artist_slug": "david-bowie",
+      "plays": 1
+    },
+    {
+      "name": "Five Years - 2012 Remaster",
+      "artist": "David Bowie",
+      "artist_slug": "david-bowie",
+      "plays": 1
+    },
+    {
+      "name": "Under Pressure",
+      "artist": "Queen",
+      "artist_slug": "queen",
+      "plays": 1
+    },
+    {
+      "name": "A Forest - 2006 Remaster",
+      "artist": "The Cure",
+      "artist_slug": "the-cure",
+      "plays": 1
+    },
+    {
+      "name": "Psycho Killer",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 1
+    },
+    {
+      "name": "Golden Years - 2002 Remaster",
+      "artist": "David Bowie",
+      "artist_slug": "david-bowie",
+      "plays": 1
+    },
+    {
+      "name": "Cat People (Putting out Fire) - 1999 Remaster",
+      "artist": "David Bowie",
+      "artist_slug": "david-bowie",
+      "plays": 1
+    },
+    {
+      "name": "Let's Dance - 2002 Remaster",
+      "artist": "David Bowie",
+      "artist_slug": "david-bowie",
+      "plays": 1
+    },
+    {
+      "name": "EPC",
+      "artist": "Verdèzul",
+      "artist_slug": "verdezul",
+      "plays": 1
+    },
+    {
+      "name": "94.7",
+      "artist": "Verdèzul",
+      "artist_slug": "verdezul",
+      "plays": 1
+    },
+    {
+      "name": "Stressin'",
+      "artist": "Verdèzul",
+      "artist_slug": "verdezul",
+      "plays": 1
+    },
+    {
+      "name": "An Open Letter To NYC (Andy Wallace Mix) - Radio Edit",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "RRNN: Straight Outta Shibuya",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "MTL Reppin' For The 514",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Rizzle Rizzle Nizzle Nizzle",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Triple Trouble - Graham Coxon Remix",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Triple Trouble (Dexter's Triple Decollte Situation)",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Triple Trouble - J. Wizzle Remix",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Triple Trouble - Brainpower Remix",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Ch-Check It Out - Just Blaze Remix",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Now Get Busy",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "And Then I",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Brrrr Stick Em",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "We Got The",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "The Brouhaha",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Crawlspace",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "An Open Letter To NYC",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Shazam!",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "All Lifestyles",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "That's It That's All",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Hey Fuck You",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Triple Trouble",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Rhyme The Rhyme Well",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "It Takes Time To Build",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Ch-Check It Out",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Wynona's Big Brown Beaver",
+      "artist": "Primus",
+      "artist_slug": "primus",
+      "plays": 1
+    },
+    {
+      "name": "Sure Shot - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Three MC's And One DJ - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Moritat",
+      "artist": "Sonny Rollins",
+      "artist_slug": "sonny-rollins",
+      "plays": 1
+    },
+    {
+      "name": "Strode Rode - Remastered 2006 / Shared ISRC",
+      "artist": "Sonny Rollins",
+      "artist_slug": "sonny-rollins",
+      "plays": 1
+    },
+    {
+      "name": "I'm an Old Cowhand",
+      "artist": "Sonny Rollins",
+      "artist_slug": "sonny-rollins",
+      "plays": 1
+    },
+    {
+      "name": "Doxy",
+      "artist": "Miles Davis",
+      "artist_slug": "miles-davis",
+      "plays": 1
+    },
+    {
+      "name": "Where Are You - Remastered",
+      "artist": "Sonny Rollins",
+      "artist_slug": "sonny-rollins",
+      "plays": 1
+    },
+    {
+      "name": "You Don't Know What Love Is - Rudy Van Gelder Rudy Van Gelder Remastered 2006 / Shared ISRC",
+      "artist": "Sonny Rollins",
+      "artist_slug": "sonny-rollins",
+      "plays": 1
+    },
+    {
+      "name": "On The Sunny Side Of The Street",
+      "artist": "Dizzy Gillespie",
+      "artist_slug": "dizzy-gillespie",
+      "plays": 1
+    },
+    {
+      "name": "In A Sentimental Mood",
+      "artist": "Sonny Rollins",
+      "artist_slug": "sonny-rollins",
+      "plays": 1
+    },
+    {
+      "name": "God Bless the Child",
+      "artist": "Sonny Rollins",
+      "artist_slug": "sonny-rollins",
+      "plays": 1
+    },
+    {
+      "name": "St. Thomas",
+      "artist": "Sonny Rollins",
+      "artist_slug": "sonny-rollins",
+      "plays": 1
+    }
+  ]
+}

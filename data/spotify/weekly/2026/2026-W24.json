@@ -1,0 +1,195 @@
+{
+  "week": "2026-W24",
+  "title": "Week of Jun 8, 2026",
+  "year": 2026,
+  "week_num": 24,
+  "date_start": "2026-06-08",
+  "date_end": "2026-06-14",
+  "total_plays": 9,
+  "unique_artists": 3,
+  "topArtistName": "Ninjaman",
+  "topArtistImages": [
+    {
+      "url": "https://i.scdn.co/image/ab67616d0000b273ccb7c2998a4f65e7cd20d655",
+      "height": 640,
+      "width": 640
+    },
+    {
+      "url": "https://i.scdn.co/image/ab67616d00001e021bc7615799aab490b532bd8a",
+      "height": 300,
+      "width": 300
+    },
+    {
+      "url": "https://i.scdn.co/image/ab67616d0000485114ed9119071a5bae0b2274f0",
+      "height": 64,
+      "width": 64
+    }
+  ],
+  "top_genres": [
+    {
+      "name": "ragga",
+      "plays": 9
+    },
+    {
+      "name": "reggae",
+      "plays": 9
+    },
+    {
+      "name": "lovers rock",
+      "plays": 9
+    },
+    {
+      "name": "dancehall",
+      "plays": 8
+    },
+    {
+      "name": "jungle",
+      "plays": 7
+    },
+    {
+      "name": "roots reggae",
+      "plays": 1
+    },
+    {
+      "name": "rocksteady",
+      "plays": 1
+    },
+    {
+      "name": "dub",
+      "plays": 1
+    },
+    {
+      "name": "riddim",
+      "plays": 1
+    }
+  ],
+  "top_artists": [
+    {
+      "slug": "ninjaman",
+      "name": "Ninjaman",
+      "plays": 7,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000b273ccb7c2998a4f65e7cd20d655",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00001e021bc7615799aab490b532bd8a",
+          "height": 300,
+          "width": 300
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000485114ed9119071a5bae0b2274f0",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "gregory-isaacs",
+      "name": "Gregory Isaacs",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ee22aadbd2d54de47d5e210d005fe4c5c49cb86b",
+          "height": 691,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/c3fc7c78f8ec52ccf5b1359209538074f37e1ca0",
+          "height": 442,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/3f4fb09cfb415dc46110a0ed1bb142cf486db3a2",
+          "height": 138,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/efe562e92cb9f914b6ba0c340f294dcd5f838681",
+          "height": 44,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "bounty-killer",
+      "name": "Bounty Killer",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb090686ba37c9288db5111974",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174090686ba37c9288db5111974",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178090686ba37c9288db5111974",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    }
+  ],
+  "top_tracks": [
+    {
+      "name": "Bring In The Gun",
+      "artist": "Ninjaman",
+      "artist_slug": "ninjaman",
+      "plays": 1
+    },
+    {
+      "name": "John Law",
+      "artist": "Gregory Isaacs",
+      "artist_slug": "gregory-isaacs",
+      "plays": 1
+    },
+    {
+      "name": "Hold Me",
+      "artist": "Ninjaman",
+      "artist_slug": "ninjaman",
+      "plays": 1
+    },
+    {
+      "name": "Hollow Point Bad Boy",
+      "artist": "Ninjaman",
+      "artist_slug": "ninjaman",
+      "plays": 1
+    },
+    {
+      "name": "Bad Boy Nuh Cub Scout",
+      "artist": "Bounty Killer",
+      "artist_slug": "bounty-killer",
+      "plays": 1
+    },
+    {
+      "name": "The Return-Father & Son",
+      "artist": "Ninjaman",
+      "artist_slug": "ninjaman",
+      "plays": 1
+    },
+    {
+      "name": "Write Your Will",
+      "artist": "Ninjaman",
+      "artist_slug": "ninjaman",
+      "plays": 1
+    },
+    {
+      "name": "Border Clash",
+      "artist": "Ninjaman",
+      "artist_slug": "ninjaman",
+      "plays": 1
+    },
+    {
+      "name": "Ting A Ling A Ling A School Pickney Sing Ting",
+      "artist": "Ninjaman",
+      "artist_slug": "ninjaman",
+      "plays": 1
+    }
+  ]
+}

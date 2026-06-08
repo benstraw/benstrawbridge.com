@@ -3353,9 +3353,9 @@
     "id": "2x9SpqnPi8rlE9pjHBwmSC",
     "name": "Talking Heads",
     "spotify_url": "https://open.spotify.com/artist/2x9SpqnPi8rlE9pjHBwmSC",
-    "total_plays": 11,
+    "total_plays": 12,
     "first_seen": "2026-03-01",
-    "last_seen": "2026-03-29",
+    "last_seen": "2026-06-04",
     "genres": [
       "new wave",
       "post-punk"
@@ -3430,6 +3430,12 @@
         "name": "Life During Wartime - 2005 Remaster",
         "album": "Fear of Music (Deluxe Version)",
         "spotify_url": "https://open.spotify.com/track/7CqleiaEqHVazV19P532X9",
+        "plays": 1
+      },
+      {
+        "name": "Psycho Killer",
+        "album": "Talking Heads '77",
+        "spotify_url": "https://open.spotify.com/track/7dSCxR4LqkmxoBrq9MzVSD",
         "plays": 1
       },
       {
@@ -3732,9 +3738,9 @@
     "id": "0kbYTNQb4Pb1rPbbaF0pT4",
     "name": "Miles Davis",
     "spotify_url": "https://open.spotify.com/artist/0kbYTNQb4Pb1rPbbaF0pT4",
-    "total_plays": 13,
+    "total_plays": 14,
     "first_seen": "2026-02-26",
-    "last_seen": "2026-03-19",
+    "last_seen": "2026-06-01",
     "genres": [
       "jazz",
       "cool jazz",
@@ -3795,6 +3801,12 @@
         "name": "Drad Dog (feat. Hank Mobley, Wynton Kelly, Paul Chambers & Jimmy Cobb)",
         "album": "Someday My Prince Will Come",
         "spotify_url": "https://open.spotify.com/track/6uvcEIzqz9mhRcEhrsODgf",
+        "plays": 1
+      },
+      {
+        "name": "Doxy",
+        "album": "The Classic Prestige Sessions, 1951-1956",
+        "spotify_url": "https://open.spotify.com/track/5vrxWkxKThc7UIEuj3KyrS",
         "plays": 1
       },
       {
@@ -7508,9 +7520,9 @@
     "id": "03r4iKL2g2442PT9n2UKsx",
     "name": "Beastie Boys",
     "spotify_url": "https://open.spotify.com/artist/03r4iKL2g2442PT9n2UKsx",
-    "total_plays": 138,
+    "total_plays": 170,
     "first_seen": "2026-02-26",
-    "last_seen": "2026-05-30",
+    "last_seen": "2026-06-04",
     "genres": [
       "rap rock",
       "old school hip hop",
@@ -7541,6 +7553,12 @@
     ],
     "top_tracks": [
       {
+        "name": "Three MC's And One DJ - Remastered 2009",
+        "album": "Hello Nasty (Deluxe Edition/Remastered)",
+        "spotify_url": "https://open.spotify.com/track/6nGUcW4caAW7Wx5oAcSIJZ",
+        "plays": 4
+      },
+      {
         "name": "And Me - Remastered 2009",
         "album": "Hello Nasty (Deluxe Edition/Remastered)",
         "spotify_url": "https://open.spotify.com/track/0ZcJ2JdB8vdgCWij7mFUuQ",
@@ -7556,12 +7574,6 @@
         "name": "Rhymin & Stealin",
         "album": "Licensed To Ill",
         "spotify_url": "https://open.spotify.com/track/6yKldTTcSa2BdpKPEtdYp3",
-        "plays": 3
-      },
-      {
-        "name": "Three MC's And One DJ - Remastered 2009",
-        "album": "Hello Nasty (Deluxe Edition/Remastered)",
-        "spotify_url": "https://open.spotify.com/track/6nGUcW4caAW7Wx5oAcSIJZ",
         "plays": 3
       },
       {
@@ -7610,6 +7622,24 @@
         "name": "Song For The Man - Remastered 2009",
         "album": "Hello Nasty (Deluxe Edition/Remastered)",
         "spotify_url": "https://open.spotify.com/track/36w5lGu7gQBvBxPLjFATlt",
+        "plays": 2
+      },
+      {
+        "name": "Oh Word?",
+        "album": "To The 5 Boroughs (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/0LaOYdQTxgyP3u4nIzpiVG",
+        "plays": 2
+      },
+      {
+        "name": "3 The Hard Way",
+        "album": "To The 5 Boroughs (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/3cpMfY4vRVVVUZQUoe71XT",
+        "plays": 2
+      },
+      {
+        "name": "Right Right Now Now",
+        "album": "To The 5 Boroughs (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/2at8rrd3fySOMeOW4c5gJ0",
         "plays": 2
       },
       {
@@ -8258,6 +8288,156 @@
         "name": "To All The Girls",
         "album": "Paul's Boutique (20th Anniversary Edition / Remastered)",
         "spotify_url": "https://open.spotify.com/track/7JSHs5GH7pq5moVo8wu1I6",
+        "plays": 1
+      },
+      {
+        "name": "An Open Letter To NYC (Andy Wallace Mix) - Radio Edit",
+        "album": "To The 5 Boroughs (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/26YRIxc8E6111heII7EwZB",
+        "plays": 1
+      },
+      {
+        "name": "RRNN: Straight Outta Shibuya",
+        "album": "To The 5 Boroughs (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/07zINtdkgKPD6wgKPZUhd9",
+        "plays": 1
+      },
+      {
+        "name": "MTL Reppin' For The 514",
+        "album": "To The 5 Boroughs (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/15HFhLi5jn8SVZjwKVJCGP",
+        "plays": 1
+      },
+      {
+        "name": "Rizzle Rizzle Nizzle Nizzle",
+        "album": "To The 5 Boroughs (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/2nOwlGi7SSe6ZPrNmKsxm5",
+        "plays": 1
+      },
+      {
+        "name": "Triple Trouble - Graham Coxon Remix",
+        "album": "To The 5 Boroughs (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/6nKuuu731KpcfYOwrm4Gex",
+        "plays": 1
+      },
+      {
+        "name": "Triple Trouble (Dexter's Triple Decollte Situation)",
+        "album": "To The 5 Boroughs (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/0ln3GVFZHBklSRVrPJkf6V",
+        "plays": 1
+      },
+      {
+        "name": "Triple Trouble - J. Wizzle Remix",
+        "album": "To The 5 Boroughs (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/41u44qih0I6B5sjCiGeSjv",
+        "plays": 1
+      },
+      {
+        "name": "Triple Trouble - Brainpower Remix",
+        "album": "To The 5 Boroughs (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/7x7CRUDUDBn5LOBQaHEVe6",
+        "plays": 1
+      },
+      {
+        "name": "Ch-Check It Out - Just Blaze Remix",
+        "album": "To The 5 Boroughs (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/0LrIz4fV8dev8IFAcDSb3H",
+        "plays": 1
+      },
+      {
+        "name": "Now Get Busy",
+        "album": "To The 5 Boroughs (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/4KWJSntOozXF3Gh6tpMVyn",
+        "plays": 1
+      },
+      {
+        "name": "And Then I",
+        "album": "To The 5 Boroughs (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/0hofLI4ReTPNvXuzLtRwV4",
+        "plays": 1
+      },
+      {
+        "name": "Brrrr Stick Em",
+        "album": "To The 5 Boroughs (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/1w70b6GgjNWLWbmWtCAqC8",
+        "plays": 1
+      },
+      {
+        "name": "We Got The",
+        "album": "To The 5 Boroughs (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/1LPxDhouDfAUOyL8XXdCGU",
+        "plays": 1
+      },
+      {
+        "name": "The Brouhaha",
+        "album": "To The 5 Boroughs (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/4pnkupa8BTk44WcIQMHmUS",
+        "plays": 1
+      },
+      {
+        "name": "Crawlspace",
+        "album": "To The 5 Boroughs (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/1UJydxSIq3D1mKVoFsaMG5",
+        "plays": 1
+      },
+      {
+        "name": "An Open Letter To NYC",
+        "album": "To The 5 Boroughs (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/12C2LsAn4jHPHDRRjJCitR",
+        "plays": 1
+      },
+      {
+        "name": "Shazam!",
+        "album": "To The 5 Boroughs (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/19V9Rt2j3oplK4BXzgH1Fh",
+        "plays": 1
+      },
+      {
+        "name": "All Lifestyles",
+        "album": "To The 5 Boroughs (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/5XzMKbEnX3QSFMoi6fxnaN",
+        "plays": 1
+      },
+      {
+        "name": "That's It That's All",
+        "album": "To The 5 Boroughs (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/2iBy9F8BobEgmkwO8X1W5S",
+        "plays": 1
+      },
+      {
+        "name": "Hey Fuck You",
+        "album": "To The 5 Boroughs (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/7Dlvc5daWmPJ4G8kQPyCnF",
+        "plays": 1
+      },
+      {
+        "name": "Triple Trouble",
+        "album": "To The 5 Boroughs (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/0W1fQU51bGz4CD91lrzK1r",
+        "plays": 1
+      },
+      {
+        "name": "Rhyme The Rhyme Well",
+        "album": "To The 5 Boroughs (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/35USwLXpfuv6bJb7NpWudN",
+        "plays": 1
+      },
+      {
+        "name": "It Takes Time To Build",
+        "album": "To The 5 Boroughs (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/2GEspo44Re9tS8gQbCwC6i",
+        "plays": 1
+      },
+      {
+        "name": "Ch-Check It Out",
+        "album": "To The 5 Boroughs (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/4hxw7Js3F9BY6oxaG4Obxb",
+        "plays": 1
+      },
+      {
+        "name": "Sure Shot - Remastered 2009",
+        "album": "Ill Communication (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/0tOcdSLAz7W0TotrleePOo",
         "plays": 1
       },
       {
@@ -12726,9 +12906,9 @@
     "id": "7nW46aJfNHxK9Y3M5Dhadk",
     "name": "Jack Van Cleaf",
     "spotify_url": "https://open.spotify.com/artist/7nW46aJfNHxK9Y3M5Dhadk",
-    "total_plays": 25,
+    "total_plays": 26,
     "first_seen": "2026-03-04",
-    "last_seen": "2026-05-29",
+    "last_seen": "2026-06-06",
     "genres": [],
     "images": [
       {
@@ -12764,6 +12944,12 @@
         "name": "Siri, Cancel My Plans",
         "album": "Siri, Cancel My Plans",
         "spotify_url": "https://open.spotify.com/track/3nHAw1ypqCG5wS51ipil5i",
+        "plays": 2
+      },
+      {
+        "name": "Using You",
+        "album": "JVC",
+        "spotify_url": "https://open.spotify.com/track/2bWlEirBgnK78PY6ITEcZG",
         "plays": 2
       },
       {
@@ -12848,12 +13034,6 @@
         "name": "Shouldn't Have Gone to L.A",
         "album": "JVC",
         "spotify_url": "https://open.spotify.com/track/3FJjWPlybGBYdFjukkMPqG",
-        "plays": 1
-      },
-      {
-        "name": "Using You",
-        "album": "JVC",
-        "spotify_url": "https://open.spotify.com/track/2bWlEirBgnK78PY6ITEcZG",
         "plays": 1
       },
       {
@@ -15447,9 +15627,9 @@
     "id": "0oSGxfWSnnOXhD2fKuz2Gy",
     "name": "David Bowie",
     "spotify_url": "https://open.spotify.com/artist/0oSGxfWSnnOXhD2fKuz2Gy",
-    "total_plays": 10,
+    "total_plays": 26,
     "first_seen": "2026-03-03",
-    "last_seen": "2026-03-29",
+    "last_seen": "2026-06-04",
     "genres": [
       "glam rock",
       "art rock"
@@ -15473,15 +15653,39 @@
     ],
     "top_tracks": [
       {
-        "name": "Fame - 2016 Remaster",
-        "album": "Young Americans (2016 Remaster)",
-        "spotify_url": "https://open.spotify.com/track/1PehfITh0TTRx3LkDdV4h3",
-        "plays": 1
+        "name": "Rock 'n' Roll Suicide - 2012 Remaster",
+        "album": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars (2012 Remaster)",
+        "spotify_url": "https://open.spotify.com/track/1k5iH4KDKi56MFvlnrALNV",
+        "plays": 3
       },
       {
         "name": "Lady Stardust - 2012 Remaster",
         "album": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars (2012 Remaster)",
         "spotify_url": "https://open.spotify.com/track/2ZWKuGuQ087pzwK4vO4E31",
+        "plays": 2
+      },
+      {
+        "name": "Soul Love - 2012 Remaster",
+        "album": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars (2012 Remaster)",
+        "spotify_url": "https://open.spotify.com/track/1bo6xzrCrK7ocEirC5rrZk",
+        "plays": 2
+      },
+      {
+        "name": "It Ain't Easy - 2012 Remaster",
+        "album": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars (2012 Remaster)",
+        "spotify_url": "https://open.spotify.com/track/0xRUwscEziliaWCsmq7n2w",
+        "plays": 2
+      },
+      {
+        "name": "Five Years - 2012 Remaster",
+        "album": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars (2012 Remaster)",
+        "spotify_url": "https://open.spotify.com/track/1JIzFhI9Lt5FyslawmHCBi",
+        "plays": 2
+      },
+      {
+        "name": "Fame - 2016 Remaster",
+        "album": "Young Americans (2016 Remaster)",
+        "spotify_url": "https://open.spotify.com/track/1PehfITh0TTRx3LkDdV4h3",
         "plays": 1
       },
       {
@@ -15491,21 +15695,9 @@
         "plays": 1
       },
       {
-        "name": "Soul Love - 2012 Remaster",
-        "album": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars (2012 Remaster)",
-        "spotify_url": "https://open.spotify.com/track/1bo6xzrCrK7ocEirC5rrZk",
-        "plays": 1
-      },
-      {
         "name": "The Man Who Sold the World - 2015 Remaster",
         "album": "The Man Who Sold the World (2015 Remaster)",
         "spotify_url": "https://open.spotify.com/track/4mWahKerLaVddUjb8d1Q4Q",
-        "plays": 1
-      },
-      {
-        "name": "It Ain't Easy - 2012 Remaster",
-        "album": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars (2012 Remaster)",
-        "spotify_url": "https://open.spotify.com/track/0xRUwscEziliaWCsmq7n2w",
         "plays": 1
       },
       {
@@ -15515,21 +15707,69 @@
         "plays": 1
       },
       {
-        "name": "Five Years - 2012 Remaster",
-        "album": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars (2012 Remaster)",
-        "spotify_url": "https://open.spotify.com/track/1JIzFhI9Lt5FyslawmHCBi",
-        "plays": 1
-      },
-      {
-        "name": "Rock 'n' Roll Suicide - 2012 Remaster",
-        "album": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars (2012 Remaster)",
-        "spotify_url": "https://open.spotify.com/track/1k5iH4KDKi56MFvlnrALNV",
-        "plays": 1
-      },
-      {
         "name": "Young Americans - 2016 Remaster",
         "album": "Young Americans (2016 Remaster)",
         "spotify_url": "https://open.spotify.com/track/7uPmQttafLiJyju14JREY4",
+        "plays": 1
+      },
+      {
+        "name": "Space Oddity - 2015 Remaster",
+        "album": "David Bowie (aka Space Oddity) [2015 Remaster]",
+        "spotify_url": "https://open.spotify.com/track/72Z17vmmeQKAg8bptWvpVG",
+        "plays": 1
+      },
+      {
+        "name": "Suffragette City - 2012 Remaster",
+        "album": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars (2012 Remaster)",
+        "spotify_url": "https://open.spotify.com/track/3YZa4IzxK2UtEKTvdTgsi8",
+        "plays": 1
+      },
+      {
+        "name": "Ziggy Stardust - 2012 Remaster",
+        "album": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars (2012 Remaster)",
+        "spotify_url": "https://open.spotify.com/track/5IyL3XOaRPpTgxVjRIAxXU",
+        "plays": 1
+      },
+      {
+        "name": "Hang on to Yourself - 2012 Remaster",
+        "album": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars (2012 Remaster)",
+        "spotify_url": "https://open.spotify.com/track/1dWoKufYqWrjfxYhFnHyMP",
+        "plays": 1
+      },
+      {
+        "name": "Star - 2012 Remaster",
+        "album": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars (2012 Remaster)",
+        "spotify_url": "https://open.spotify.com/track/5WfSHn8qVk1W3GJJQpETC1",
+        "plays": 1
+      },
+      {
+        "name": "Starman - 2012 Remaster",
+        "album": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars (2012 Remaster)",
+        "spotify_url": "https://open.spotify.com/track/0pQskrTITgmCMyr85tb9qq",
+        "plays": 1
+      },
+      {
+        "name": "Moonage Daydream - 2012 Remaster",
+        "album": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars (2012 Remaster)",
+        "spotify_url": "https://open.spotify.com/track/6mib3N4E8PZHAGQ3xy7bho",
+        "plays": 1
+      },
+      {
+        "name": "Golden Years - 2002 Remaster",
+        "album": "Golden Years [David Bowie vs. KCRW]",
+        "spotify_url": "https://open.spotify.com/track/6V8RUNP2Yy1dxw18rXRLu5",
+        "plays": 1
+      },
+      {
+        "name": "Cat People (Putting out Fire) - 1999 Remaster",
+        "album": "Let's Dance",
+        "spotify_url": "https://open.spotify.com/track/2UQysLoUc6IjcSZUYrRhsA",
+        "plays": 1
+      },
+      {
+        "name": "Let's Dance - 2002 Remaster",
+        "album": "Let's Dance",
+        "spotify_url": "https://open.spotify.com/track/4cVHMHgmWgudD399ZdhQ3L",
         "plays": 1
       },
       {
@@ -18332,9 +18572,9 @@
     "id": "1zf7vVM2XaoaTD3hXWR1If",
     "name": "Verdèzul",
     "spotify_url": "https://open.spotify.com/artist/1zf7vVM2XaoaTD3hXWR1If",
-    "total_plays": 29,
+    "total_plays": 32,
     "first_seen": "2026-03-21",
-    "last_seen": "2026-05-19",
+    "last_seen": "2026-06-04",
     "genres": [],
     "images": [
       {
@@ -18367,6 +18607,18 @@
         "plays": 3
       },
       {
+        "name": "Stressin'",
+        "album": "Earthtones & Shades of Blue and Green",
+        "spotify_url": "https://open.spotify.com/track/4keIC3Fdx6WiUme9g9IRQC",
+        "plays": 3
+      },
+      {
+        "name": "94.7",
+        "album": "Earthtones & Shades of Blue and Green",
+        "spotify_url": "https://open.spotify.com/track/7zsftx468s8NTZYprLhAHM",
+        "plays": 3
+      },
+      {
         "name": "EPC",
         "album": "EPC",
         "spotify_url": "https://open.spotify.com/track/0HeC9JexXM6OWZq0ThlKTh",
@@ -18382,12 +18634,6 @@
         "name": "Love Somebody",
         "album": "Love Somebody",
         "spotify_url": "https://open.spotify.com/track/34EjUKyHmn59RZH2RxuWRa",
-        "plays": 2
-      },
-      {
-        "name": "Stressin'",
-        "album": "Earthtones & Shades of Blue and Green",
-        "spotify_url": "https://open.spotify.com/track/4keIC3Fdx6WiUme9g9IRQC",
         "plays": 2
       },
       {
@@ -18409,9 +18655,9 @@
         "plays": 2
       },
       {
-        "name": "94.7",
+        "name": "EPC",
         "album": "Earthtones & Shades of Blue and Green",
-        "spotify_url": "https://open.spotify.com/track/7zsftx468s8NTZYprLhAHM",
+        "spotify_url": "https://open.spotify.com/track/7gE15QeiutXXesSoGznk8p",
         "plays": 2
       },
       {
@@ -18442,12 +18688,6 @@
         "name": "Poppin' Gums",
         "album": "Poppin' Gums",
         "spotify_url": "https://open.spotify.com/track/53nwJwkVSHxAPTXcYmHrHm",
-        "plays": 1
-      },
-      {
-        "name": "EPC",
-        "album": "Earthtones & Shades of Blue and Green",
-        "spotify_url": "https://open.spotify.com/track/7gE15QeiutXXesSoGznk8p",
         "plays": 1
       }
     ]
@@ -31129,9 +31369,9 @@
     "id": "1VEzN9lxvG6KPR3QQGsebR",
     "name": "Sonny Rollins",
     "spotify_url": "https://open.spotify.com/artist/1VEzN9lxvG6KPR3QQGsebR",
-    "total_plays": 4,
+    "total_plays": 12,
     "first_seen": "2026-05-29",
-    "last_seen": "2026-05-29",
+    "last_seen": "2026-06-01",
     "genres": [
       "hard bop",
       "jazz",
@@ -31166,24 +31406,48 @@
         "name": "You Don't Know What Love Is - Rudy Van Gelder Rudy Van Gelder Remastered 2006 / Shared ISRC",
         "album": "Saxophone Colossus",
         "spotify_url": "https://open.spotify.com/track/1to5IySvboywOgXW9jCjDn",
-        "plays": 1
+        "plays": 2
       },
       {
         "name": "God Bless the Child",
         "album": "The Bridge",
         "spotify_url": "https://open.spotify.com/track/7DUGRxCf9NFJffb5Eei8Ar",
-        "plays": 1
+        "plays": 2
       },
       {
         "name": "In A Sentimental Mood",
         "album": "Sonny Rollins With The Modern Jazz Quartet",
         "spotify_url": "https://open.spotify.com/track/3glQOWRCAQIrCnQhWBEFSL",
-        "plays": 1
+        "plays": 2
       },
       {
         "name": "St. Thomas",
         "album": "Saxophone Colossus",
         "spotify_url": "https://open.spotify.com/track/05LNBtMuc26HSAHh7C6iG8",
+        "plays": 2
+      },
+      {
+        "name": "Moritat",
+        "album": "Saxophone Colossus",
+        "spotify_url": "https://open.spotify.com/track/5llHYWNCguXN0H7acPys9f",
+        "plays": 1
+      },
+      {
+        "name": "Strode Rode - Remastered 2006 / Shared ISRC",
+        "album": "Saxophone Colossus",
+        "spotify_url": "https://open.spotify.com/track/5xoQDcAjk0AaOU8QBZ4w4w",
+        "plays": 1
+      },
+      {
+        "name": "I'm an Old Cowhand",
+        "album": "Way Out West (OJC Remaster)",
+        "spotify_url": "https://open.spotify.com/track/6VRSZGxuhPGOCgUUAnAaUw",
+        "plays": 1
+      },
+      {
+        "name": "Where Are You - Remastered",
+        "album": "The Bridge",
+        "spotify_url": "https://open.spotify.com/track/3EvT0m0eRWFtdXA89M2sk8",
         "plays": 1
       },
       {
@@ -31301,12 +31565,6 @@
         "plays": 1
       },
       {
-        "name": "I'm an Old Cowhand",
-        "album": "Way Out West (OJC Remaster)",
-        "spotify_url": "https://open.spotify.com/track/6VRSZGxuhPGOCgUUAnAaUw",
-        "plays": 1
-      },
-      {
         "name": "On Green Dolphin St/There Will Never Be Another You - Recorded Live at Academie voor Beeldende Kunst in Arnhem, The Netherlands on May 3, 1967",
         "album": "Rollins in Holland: The 1967 Studio & Live Recordings",
         "spotify_url": "https://open.spotify.com/track/3ipKM0UQdvJWabsB5R4olx",
@@ -31318,9 +31576,9 @@
     "id": "5RzjqfPS0Bu4bUMkyNNDpn",
     "name": "Dizzy Gillespie",
     "spotify_url": "https://open.spotify.com/artist/5RzjqfPS0Bu4bUMkyNNDpn",
-    "total_plays": 2,
+    "total_plays": 3,
     "first_seen": "2026-05-29",
-    "last_seen": "2026-05-29",
+    "last_seen": "2026-06-01",
     "genres": [
       "bebop",
       "jazz",
@@ -31357,7 +31615,7 @@
         "name": "On The Sunny Side Of The Street",
         "album": "Sonny Side Up",
         "spotify_url": "https://open.spotify.com/track/3ZQ6bCWYPgX7SqZ5AVeKOm",
-        "plays": 2
+        "plays": 3
       },
       {
         "name": "On The Sunny Side Of The Street",
@@ -32362,6 +32620,794 @@
         "name": "The Middle",
         "album": "The Middle",
         "spotify_url": "https://open.spotify.com/track/1blMMAqTDWAvcKI4ffk4Vy",
+        "plays": 1
+      }
+    ]
+  },
+  "capleton": {
+    "id": "21J3YJTyq1biE3SvSNjzuf",
+    "name": "Capleton",
+    "spotify_url": "https://open.spotify.com/artist/21J3YJTyq1biE3SvSNjzuf",
+    "total_plays": 16,
+    "first_seen": "2026-06-07",
+    "last_seen": "2026-06-07",
+    "genres": [
+      "reggae",
+      "dancehall",
+      "ragga",
+      "roots reggae",
+      "riddim",
+      "lovers rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebfe8d4c7201ba8d83a04f2bda",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174fe8d4c7201ba8d83a04f2bda",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178fe8d4c7201ba8d83a04f2bda",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Clean Hands (Pure In Heart)",
+        "album": "Monsters Of Dancehall",
+        "spotify_url": "https://open.spotify.com/track/0xLvXSnMOL0YC4EfJOXQ4W",
+        "plays": 2
+      },
+      {
+        "name": "That Day Will Come",
+        "album": "Reign Of Fire",
+        "spotify_url": "https://open.spotify.com/track/6D4eMFcg3DquhNOQsNanQk",
+        "plays": 1
+      },
+      {
+        "name": "Jah Jah City",
+        "album": "More Fire",
+        "spotify_url": "https://open.spotify.com/track/1QwrhGl2I3D0aNdRQ5YFtm",
+        "plays": 1
+      },
+      {
+        "name": "Lyrics With Understanding",
+        "album": "Good So",
+        "spotify_url": "https://open.spotify.com/track/7ImGyHwxfLbcnD0bFxu8tP",
+        "plays": 1
+      },
+      {
+        "name": "Temple",
+        "album": "Good So",
+        "spotify_url": "https://open.spotify.com/track/3XClRatQvI322lSD8Yr5bV",
+        "plays": 1
+      },
+      {
+        "name": "Satan Mind",
+        "album": "Good So",
+        "spotify_url": "https://open.spotify.com/track/5hMUPLKQc24jlSi6SR7bjX",
+        "plays": 1
+      },
+      {
+        "name": "Bad So",
+        "album": "Good So",
+        "spotify_url": "https://open.spotify.com/track/3ywgXjQyCgqzi0xRAXvjG9",
+        "plays": 1
+      },
+      {
+        "name": "Who See It",
+        "album": "Good So",
+        "spotify_url": "https://open.spotify.com/track/5BLajWuARzyYNQf7ChDNFf",
+        "plays": 1
+      },
+      {
+        "name": "Everybody",
+        "album": "Good So",
+        "spotify_url": "https://open.spotify.com/track/0T52l2BxCfv1kfgrv3sarR",
+        "plays": 1
+      },
+      {
+        "name": "Equal Rights",
+        "album": "Good So",
+        "spotify_url": "https://open.spotify.com/track/3UTN5PZOGN5kCk8zAWfGtx",
+        "plays": 1
+      },
+      {
+        "name": "Rod In A Hand",
+        "album": "Good So",
+        "spotify_url": "https://open.spotify.com/track/7FwFBfVnCu7yMvNJ8nTepS",
+        "plays": 1
+      },
+      {
+        "name": "Sign & Wonder",
+        "album": "Good So",
+        "spotify_url": "https://open.spotify.com/track/02iLaHD5eMl7szHJVDuogo",
+        "plays": 1
+      },
+      {
+        "name": "Good So",
+        "album": "Good So",
+        "spotify_url": "https://open.spotify.com/track/04SIKDEm5el280sYbAM8k9",
+        "plays": 1
+      },
+      {
+        "name": "Prepare Fi Die",
+        "album": "Good So",
+        "spotify_url": "https://open.spotify.com/track/6bE7zZGmzq6qjM7HvqoRBE",
+        "plays": 1
+      },
+      {
+        "name": "Cold Blooded Murderer",
+        "album": "Good So",
+        "spotify_url": "https://open.spotify.com/track/0miM7NOfuM1GztWAjTlEfB",
+        "plays": 1
+      },
+      {
+        "name": "Break Us Apart",
+        "album": "Revelation Part 1: The Root Of Life",
+        "spotify_url": "https://open.spotify.com/track/5wgy309XNqFkqj8MMDquvj",
+        "plays": 1
+      }
+    ]
+  },
+  "ninjaman": {
+    "id": "6AOWTKUQBsRamW22wk4ptr",
+    "name": "Ninjaman",
+    "spotify_url": "https://open.spotify.com/artist/6AOWTKUQBsRamW22wk4ptr",
+    "total_plays": 10,
+    "first_seen": "2026-06-07",
+    "last_seen": "2026-06-08",
+    "genres": [
+      "ragga",
+      "dancehall",
+      "reggae",
+      "jungle",
+      "lovers rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b273ccb7c2998a4f65e7cd20d655",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e021bc7615799aab490b532bd8a",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000485114ed9119071a5bae0b2274f0",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Ting A Ling A Ling A School Pickney Sing Ting",
+        "album": "Monsters Of Dancehall",
+        "spotify_url": "https://open.spotify.com/track/14KuaLOZIXq9nUnKpLuawo",
+        "plays": 4
+      },
+      {
+        "name": "Bring In The Gun",
+        "album": "Monsters Of Dancehall",
+        "spotify_url": "https://open.spotify.com/track/2UgmdkpKwiuMLRZNJETPfc",
+        "plays": 1
+      },
+      {
+        "name": "Hold Me",
+        "album": "Monsters Of Dancehall",
+        "spotify_url": "https://open.spotify.com/track/5ov6G3eh2fgGlkA7Uhd5UF",
+        "plays": 1
+      },
+      {
+        "name": "Hollow Point Bad Boy",
+        "album": "Monsters Of Dancehall",
+        "spotify_url": "https://open.spotify.com/track/5VmNiAHWaZzxbtKkq0v2GS",
+        "plays": 1
+      },
+      {
+        "name": "The Return-Father & Son",
+        "album": "Monsters Of Dancehall",
+        "spotify_url": "https://open.spotify.com/track/5lS8Y6fQOkc6GoCQ690ZWc",
+        "plays": 1
+      },
+      {
+        "name": "Write Your Will",
+        "album": "Monsters Of Dancehall",
+        "spotify_url": "https://open.spotify.com/track/4lYdBCu7hCIp3KntlDPmBb",
+        "plays": 1
+      },
+      {
+        "name": "Border Clash",
+        "album": "Monsters Of Dancehall",
+        "spotify_url": "https://open.spotify.com/track/2Jvn6Wy9K2c5wEnWWlB94D",
+        "plays": 1
+      }
+    ]
+  },
+  "super-cat": {
+    "id": "7hHDN8REbPLpv46ROortOM",
+    "name": "Super Cat",
+    "spotify_url": "https://open.spotify.com/artist/7hHDN8REbPLpv46ROortOM",
+    "total_plays": 2,
+    "first_seen": "2026-06-07",
+    "last_seen": "2026-06-07",
+    "genres": [
+      "dancehall",
+      "ragga",
+      "reggae"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ebc7a7cbe13a2b07070141dc3e8abce908b01ce2",
+        "height": 697,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/5106f54ad890f0494f70337ee8310b97bbbe9be4",
+        "height": 446,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/b764f991a079b8e4bd94637fb5443fc8da020cac",
+        "height": 139,
+        "width": 199
+      },
+      {
+        "url": "https://i.scdn.co/image/b73dfbfe554b6c793bc49775f0aa02a07cc1192c",
+        "height": 45,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Boops",
+        "album": "Si Boops Deh",
+        "spotify_url": "https://open.spotify.com/track/2vuPx9w6ABioTnmo0aWi4V",
+        "plays": 1
+      },
+      {
+        "name": "Jamaica Jamaica",
+        "album": "Dancehall's Golden Era Vol.1",
+        "spotify_url": "https://open.spotify.com/track/5nizplCEkJK3WlVjLL3Teb",
+        "plays": 1
+      }
+    ]
+  },
+  "barrington-levy": {
+    "id": "5mMuiFhh7faS7qxnTLRA6u",
+    "name": "Barrington Levy",
+    "spotify_url": "https://open.spotify.com/artist/5mMuiFhh7faS7qxnTLRA6u",
+    "total_plays": 2,
+    "first_seen": "2026-06-07",
+    "last_seen": "2026-06-07",
+    "genres": [
+      "reggae",
+      "roots reggae",
+      "lovers rock",
+      "ragga",
+      "dub",
+      "dancehall",
+      "rocksteady"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/9c194c388f9b7b416ccfa5dbbdaf445b8970d3e3",
+        "height": 1200,
+        "width": 900
+      },
+      {
+        "url": "https://i.scdn.co/image/1147451e9f7bfaa537b23cb660055f74e949321e",
+        "height": 853,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/af27a3c7c5ec1a2d2afde0a7a6bc3424ba561b00",
+        "height": 267,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/3f26199a80e2cc02686f21138cea1da24485f05f",
+        "height": 85,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Here I Come",
+        "album": "Here I Come",
+        "spotify_url": "https://open.spotify.com/track/59ks2wUIc4SE6izQTDuwdI",
+        "plays": 1
+      },
+      {
+        "name": "Murderer",
+        "album": "Barrington Levy Special Edition",
+        "spotify_url": "https://open.spotify.com/track/5nMBTp4CXxZMiTyR6MBSrQ",
+        "plays": 1
+      },
+      {
+        "name": "The World's Gone Mad",
+        "album": "White People",
+        "spotify_url": "https://open.spotify.com/track/6B0iSIh2HfXeBtRiwjDIms",
+        "plays": 1
+      }
+    ]
+  },
+  "dennis-brown": {
+    "id": "0UmBaQJflaHddKtf1lrA6F",
+    "name": "Dennis Brown",
+    "spotify_url": "https://open.spotify.com/artist/0UmBaQJflaHddKtf1lrA6F",
+    "total_plays": 1,
+    "first_seen": "2026-06-07",
+    "last_seen": "2026-06-07",
+    "genres": [
+      "lovers rock",
+      "reggae",
+      "roots reggae",
+      "rocksteady",
+      "dub",
+      "ragga"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb8240d5b7cb894d3fbb8c31f0",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051748240d5b7cb894d3fbb8c31f0",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1788240d5b7cb894d3fbb8c31f0",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Revolution",
+        "album": "Love & Hate",
+        "spotify_url": "https://open.spotify.com/track/14uaxEtvwwTR2WnnvAfaj9",
+        "plays": 1
+      },
+      {
+        "name": "Land Of Promise",
+        "album": "Distant Relatives",
+        "spotify_url": "https://open.spotify.com/track/7veBNI9hUkxOMCKqAQ0LlX",
+        "plays": 1
+      }
+    ]
+  },
+  "jigsy-king": {
+    "id": "0XRNiP6SAd6pQjeoZOmgeN",
+    "name": "Jigsy King",
+    "spotify_url": "https://open.spotify.com/artist/0XRNiP6SAd6pQjeoZOmgeN",
+    "total_plays": 1,
+    "first_seen": "2026-06-07",
+    "last_seen": "2026-06-07",
+    "genres": [
+      "ragga",
+      "dancehall",
+      "reggae",
+      "lovers rock",
+      "riddim"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebf0e55b0906fb7b1d1326c32c",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174f0e55b0906fb7b1d1326c32c",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178f0e55b0906fb7b1d1326c32c",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Gi Mi The Weed",
+        "album": "Ashes To Ashes",
+        "spotify_url": "https://open.spotify.com/track/4Ex6uV8zswTLkv3VhyVIxe",
+        "plays": 1
+      }
+    ]
+  },
+  "half-pint": {
+    "id": "0tGZBRO4tZjpUOZcD7tMeS",
+    "name": "Half Pint",
+    "spotify_url": "https://open.spotify.com/artist/0tGZBRO4tZjpUOZcD7tMeS",
+    "total_plays": 1,
+    "first_seen": "2026-06-07",
+    "last_seen": "2026-06-07",
+    "genres": [
+      "lovers rock",
+      "reggae",
+      "roots reggae",
+      "ragga",
+      "dancehall",
+      "rocksteady"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb234941a61189da52099894a2",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174234941a61189da52099894a2",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178234941a61189da52099894a2",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Greetings",
+        "album": "Greetings",
+        "spotify_url": "https://open.spotify.com/track/3h1LmVEqeHz4vEqUzVceo7",
+        "plays": 1
+      }
+    ]
+  },
+  "buju-banton": {
+    "id": "4wLAjfeqAsV66AocWNcowA",
+    "name": "Buju Banton",
+    "spotify_url": "https://open.spotify.com/artist/4wLAjfeqAsV66AocWNcowA",
+    "total_plays": 1,
+    "first_seen": "2026-06-07",
+    "last_seen": "2026-06-07",
+    "genres": [
+      "reggae",
+      "dancehall",
+      "ragga",
+      "lovers rock",
+      "roots reggae",
+      "soca"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb3870063ce09bb60047be48a0",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051743870063ce09bb60047be48a0",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1783870063ce09bb60047be48a0",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Hills And Valleys",
+        "album": "Inna Heights",
+        "spotify_url": "https://open.spotify.com/track/2H4M3lyO2rJFQw33idCk1X",
+        "plays": 1
+      }
+    ]
+  },
+  "fontella-bass": {
+    "id": "6k3YMXJ1MJLgUEAlSPC6hA",
+    "name": "Fontella Bass",
+    "spotify_url": "https://open.spotify.com/artist/6k3YMXJ1MJLgUEAlSPC6hA",
+    "total_plays": 1,
+    "first_seen": "2026-06-06",
+    "last_seen": "2026-06-06",
+    "genres": [
+      "motown",
+      "northern soul",
+      "classic soul",
+      "soul"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b273754ec71bd163ad6b10873880",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e02754ec71bd163ad6b10873880",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00004851754ec71bd163ad6b10873880",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Soul Of The Man",
+        "album": "The New Look",
+        "spotify_url": "https://open.spotify.com/track/7KO4XirX462UeX9BwTKweP",
+        "plays": 1
+      }
+    ]
+  },
+  "mike-d": {
+    "id": "1Um2jYfcrBnrDlqvW2KGw8",
+    "name": "Mike D",
+    "spotify_url": "https://open.spotify.com/artist/1Um2jYfcrBnrDlqvW2KGw8",
+    "total_plays": 1,
+    "first_seen": "2026-06-06",
+    "last_seen": "2026-06-06",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb5a186c13c6adb66d258c1d6c",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051745a186c13c6adb66d258c1d6c",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1785a186c13c6adb66d258c1d6c",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Switch Up",
+        "album": "Switch Up",
+        "spotify_url": "https://open.spotify.com/track/1FHSvpvNWmJcpDcmsxrtbH",
+        "plays": 1
+      }
+    ]
+  },
+  "queen": {
+    "id": "1dfeR4HaWDbWqFHLkxsg1d",
+    "name": "Queen",
+    "spotify_url": "https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d",
+    "total_plays": 1,
+    "first_seen": "2026-06-04",
+    "last_seen": "2026-06-04",
+    "genres": [
+      "classic rock",
+      "rock",
+      "glam rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6772690000c46c47488c35a509d42072c23976",
+        "height": 1000,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6772690000dd2247488c35a509d42072c23976",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6772690000bac347488c35a509d42072c23976",
+        "height": 200,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67726900008f7447488c35a509d42072c23976",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Under Pressure",
+        "album": "Best of Bowie",
+        "spotify_url": "https://open.spotify.com/track/4okLKeB83VLZFGGtrMQxpd",
+        "plays": 1
+      },
+      {
+        "name": "Don't Stop Me Now - Remastered 2011",
+        "album": "Jazz (Deluxe Remastered Version)",
+        "spotify_url": "https://open.spotify.com/track/7hQJA50XrCWABAu5v6QZ4i",
+        "plays": 2
+      }
+    ]
+  },
+  "the-cure": {
+    "id": "7bu3H8JO7d0UbMoVzbo70s",
+    "name": "The Cure",
+    "spotify_url": "https://open.spotify.com/artist/7bu3H8JO7d0UbMoVzbo70s",
+    "total_plays": 1,
+    "first_seen": "2026-06-04",
+    "last_seen": "2026-06-04",
+    "genres": [
+      "new wave",
+      "post-punk",
+      "gothic rock",
+      "darkwave"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebdd427c765c409ec02dc3a868",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174dd427c765c409ec02dc3a868",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178dd427c765c409ec02dc3a868",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "A Forest - 2006 Remaster",
+        "album": "Seventeen Seconds (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/3O4TPMOgChXOerSdB5WENH",
+        "plays": 1
+      },
+      {
+        "name": "Pictures of You - 2010 Remaster",
+        "album": "Disintegration (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/1tuwC1Ob5vnYZhvg3zyzJg",
+        "plays": 2
+      },
+      {
+        "name": "Friday I'm in Love",
+        "album": "Wish",
+        "spotify_url": "https://open.spotify.com/track/263aNAQCeFSWipk896byo6",
+        "plays": 2
+      }
+    ]
+  },
+  "primus": {
+    "id": "64mPnRMMeudAet0E62ypkx",
+    "name": "Primus",
+    "spotify_url": "https://open.spotify.com/artist/64mPnRMMeudAet0E62ypkx",
+    "total_plays": 1,
+    "first_seen": "2026-06-02",
+    "last_seen": "2026-06-02",
+    "genres": [
+      "funk rock",
+      "alternative metal",
+      "alternative rock",
+      "nu metal"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb54ed648a0c70ed8910840f4a",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517454ed648a0c70ed8910840f4a",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17854ed648a0c70ed8910840f4a",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Wynona's Big Brown Beaver",
+        "album": "Tales From The Punchbowl",
+        "spotify_url": "https://open.spotify.com/track/5WzdX4iArSQZELuxI0Oq5Q",
+        "plays": 1
+      }
+    ]
+  },
+  "gregory-isaacs": {
+    "id": "6QHu71f8LLeT8n0GzfbYFc",
+    "name": "Gregory Isaacs",
+    "spotify_url": "https://open.spotify.com/artist/6QHu71f8LLeT8n0GzfbYFc",
+    "total_plays": 1,
+    "first_seen": "2026-06-08",
+    "last_seen": "2026-06-08",
+    "genres": [
+      "reggae",
+      "roots reggae",
+      "lovers rock",
+      "rocksteady",
+      "ragga",
+      "dub"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ee22aadbd2d54de47d5e210d005fe4c5c49cb86b",
+        "height": 691,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/c3fc7c78f8ec52ccf5b1359209538074f37e1ca0",
+        "height": 442,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/3f4fb09cfb415dc46110a0ed1bb142cf486db3a2",
+        "height": 138,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/efe562e92cb9f914b6ba0c340f294dcd5f838681",
+        "height": 44,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "John Law",
+        "album": "Monsters Of Dancehall",
+        "spotify_url": "https://open.spotify.com/track/7jgWrDCUZ8DuFFC7mGDfrH",
+        "plays": 1
+      },
+      {
+        "name": "Material Man",
+        "album": "Night Nurse (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/4PAm0u3rGMWkjPdIwb0noC",
+        "plays": 1
+      }
+    ]
+  },
+  "bounty-killer": {
+    "id": "6UuT0BJZ9vF8Y1sxXnJl2s",
+    "name": "Bounty Killer",
+    "spotify_url": "https://open.spotify.com/artist/6UuT0BJZ9vF8Y1sxXnJl2s",
+    "total_plays": 1,
+    "first_seen": "2026-06-08",
+    "last_seen": "2026-06-08",
+    "genres": [
+      "dancehall",
+      "ragga",
+      "reggae",
+      "riddim",
+      "lovers rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb090686ba37c9288db5111974",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174090686ba37c9288db5111974",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178090686ba37c9288db5111974",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Bad Boy Nuh Cub Scout",
+        "album": "Monsters Of Dancehall",
+        "spotify_url": "https://open.spotify.com/track/3b7ESZLvmXiQPnYbOzQbpZ",
         "plays": 1
       }
     ]
