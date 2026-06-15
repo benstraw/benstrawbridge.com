@@ -510,9 +510,9 @@
     "id": "2H5elA2mJKrHmqkN9GSfkz",
     "name": "Gillian Welch",
     "spotify_url": "https://open.spotify.com/artist/2H5elA2mJKrHmqkN9GSfkz",
-    "total_plays": 9,
+    "total_plays": 42,
     "first_seen": "2026-02-13",
-    "last_seen": "2026-03-29",
+    "last_seen": "2026-06-10",
     "genres": [
       "americana",
       "bluegrass",
@@ -542,7 +542,61 @@
         "name": "Revelator",
         "album": "Time (The Revelator)",
         "spotify_url": "https://open.spotify.com/track/3d3uCbMDDCzIJlbVNd18C3",
-        "plays": 1
+        "plays": 3
+      },
+      {
+        "name": "Orphan Girl",
+        "album": "Revival",
+        "spotify_url": "https://open.spotify.com/track/28RSIjTle8Rru7vnZxTPQr",
+        "plays": 3
+      },
+      {
+        "name": "By The Mark",
+        "album": "Revival",
+        "spotify_url": "https://open.spotify.com/track/6IcMRgfMKohbduQ7kMWaaw",
+        "plays": 2
+      },
+      {
+        "name": "Wrecking Ball",
+        "album": "Soul Journey",
+        "spotify_url": "https://open.spotify.com/track/0ADmPm5z59eriZF3FF9cR4",
+        "plays": 2
+      },
+      {
+        "name": "Down Along The Dixie Line",
+        "album": "The Harrow & The Harvest",
+        "spotify_url": "https://open.spotify.com/track/5DkU2ocBRLsdDGVRkS2X1T",
+        "plays": 2
+      },
+      {
+        "name": "Everything Is Free",
+        "album": "Time (The Revelator)",
+        "spotify_url": "https://open.spotify.com/track/3KLtHfl1z17beGV5el2yeU",
+        "plays": 2
+      },
+      {
+        "name": "I Want To Sing That Rock And Roll",
+        "album": "Time (The Revelator)",
+        "spotify_url": "https://open.spotify.com/track/4mmFeqt6GXhyp9Jo9Ja7Id",
+        "plays": 2
+      },
+      {
+        "name": "Dear Someone",
+        "album": "Time (The Revelator)",
+        "spotify_url": "https://open.spotify.com/track/107fix33Tu8wlALHWTPDgp",
+        "plays": 2
+      },
+      {
+        "name": "Pass You By",
+        "album": "Revival",
+        "spotify_url": "https://open.spotify.com/track/11HbVffXVnrqnYQt27O1az",
+        "plays": 2
+      },
+      {
+        "name": "Annabelle",
+        "album": "Revival",
+        "spotify_url": "https://open.spotify.com/track/6eHrf8rPKoccyFv6LzNBE9",
+        "plays": 2
       },
       {
         "name": "One Little Song",
@@ -560,12 +614,6 @@
         "name": "Lowlands",
         "album": "Soul Journey",
         "spotify_url": "https://open.spotify.com/track/47X3zJKwzB5D9mj2BoWLor",
-        "plays": 1
-      },
-      {
-        "name": "By The Mark",
-        "album": "Revival",
-        "spotify_url": "https://open.spotify.com/track/6IcMRgfMKohbduQ7kMWaaw",
         "plays": 1
       },
       {
@@ -587,9 +635,87 @@
         "plays": 1
       },
       {
-        "name": "Wrecking Ball",
+        "name": "Make Me A Pallet On Your Floor",
         "album": "Soul Journey",
-        "spotify_url": "https://open.spotify.com/track/0ADmPm5z59eriZF3FF9cR4",
+        "spotify_url": "https://open.spotify.com/track/7u7u8aMpKkXjB0IRlEOPZn",
+        "plays": 1
+      },
+      {
+        "name": "I Dream A Highway",
+        "album": "Time (The Revelator)",
+        "spotify_url": "https://open.spotify.com/track/0kGN0PYexsQZfjrII4fyVU",
+        "plays": 1
+      },
+      {
+        "name": "Ruination Day Part 2",
+        "album": "Time (The Revelator)",
+        "spotify_url": "https://open.spotify.com/track/6EIW2JY1wl5La2xoDkrqAW",
+        "plays": 1
+      },
+      {
+        "name": "Elvis Presley Blues",
+        "album": "Time (The Revelator)",
+        "spotify_url": "https://open.spotify.com/track/7kugdzJaspAoBNOEdp1qwE",
+        "plays": 1
+      },
+      {
+        "name": "April the 14th Part 1",
+        "album": "Time (The Revelator)",
+        "spotify_url": "https://open.spotify.com/track/5EanV7AK9n1q76Ecxe31YH",
+        "plays": 1
+      },
+      {
+        "name": "Red Clay Halo",
+        "album": "Time (The Revelator)",
+        "spotify_url": "https://open.spotify.com/track/3HGOBpx2pBgEWwsptthrXG",
+        "plays": 1
+      },
+      {
+        "name": "My First Lover",
+        "album": "Time (The Revelator)",
+        "spotify_url": "https://open.spotify.com/track/5bVp8uPlAAU69ly6mLuVy8",
+        "plays": 1
+      },
+      {
+        "name": "Hard Times",
+        "album": "The Harrow & The Harvest",
+        "spotify_url": "https://open.spotify.com/track/5ZoXaBDE7R4SmnYfHEyUp6",
+        "plays": 1
+      },
+      {
+        "name": "Only One And Only",
+        "album": "Revival",
+        "spotify_url": "https://open.spotify.com/track/3UdvMEsdPCJCd5WFZLoKY4",
+        "plays": 1
+      },
+      {
+        "name": "Acony Bell",
+        "album": "Revival",
+        "spotify_url": "https://open.spotify.com/track/0mIRQtmP2BDHI1vmwZGIli",
+        "plays": 1
+      },
+      {
+        "name": "Tear My Stillhouse Down",
+        "album": "Revival",
+        "spotify_url": "https://open.spotify.com/track/5LpZujuNopQXPYCnFak4wn",
+        "plays": 1
+      },
+      {
+        "name": "Paper Wings",
+        "album": "Revival",
+        "spotify_url": "https://open.spotify.com/track/4yeUIeAXcDPn7iTjB0351N",
+        "plays": 1
+      },
+      {
+        "name": "One More Dollar",
+        "album": "Revival",
+        "spotify_url": "https://open.spotify.com/track/3LMFLAsl383pffsT1Z3e32",
+        "plays": 1
+      },
+      {
+        "name": "Barroom Girls",
+        "album": "Revival",
+        "spotify_url": "https://open.spotify.com/track/6ZrcG65FGgsuiWGVmKpfLw",
         "plays": 1
       },
       {
@@ -7134,9 +7260,9 @@
     "id": "5me0Irg2ANcsgc93uaYrpb",
     "name": "The Notorious B.I.G.",
     "spotify_url": "https://open.spotify.com/artist/5me0Irg2ANcsgc93uaYrpb",
-    "total_plays": 20,
+    "total_plays": 21,
     "first_seen": "2026-02-26",
-    "last_seen": "2026-05-06",
+    "last_seen": "2026-06-10",
     "genres": [
       "old school hip hop",
       "gangster rap",
@@ -7245,6 +7371,12 @@
         "plays": 1
       },
       {
+        "name": "Warning - 2005 Remaster",
+        "album": "Ready to Die (The Remaster)",
+        "spotify_url": "https://open.spotify.com/track/33rsCCLHklTQav9klbpnAi",
+        "plays": 1
+      },
+      {
         "name": "Flava in Ya Ear Remix (feat. The Notorious B.I.G., LL Cool J, Busta Rhymes, Rampage)",
         "album": "Flava In Ya Ear Remix",
         "spotify_url": "https://open.spotify.com/track/4JYUDRtPZuVNi7FAnbHyux",
@@ -7262,9 +7394,9 @@
     "id": "34EP7KEpOjXcM2TCat1ISk",
     "name": "Wu-Tang Clan",
     "spotify_url": "https://open.spotify.com/artist/34EP7KEpOjXcM2TCat1ISk",
-    "total_plays": 16,
+    "total_plays": 17,
     "first_seen": "2026-02-26",
-    "last_seen": "2026-05-07",
+    "last_seen": "2026-06-10",
     "genres": [
       "old school hip hop",
       "east coast hip hop",
@@ -7342,6 +7474,12 @@
         "name": "Bring Da Ruckus",
         "album": "Enter The Wu-Tang (36 Chambers) [Expanded Edition]",
         "spotify_url": "https://open.spotify.com/track/1v5cgIyffYtfEx0swttdoE",
+        "plays": 1
+      },
+      {
+        "name": "Wu-Tang: 7th Chamber",
+        "album": "Enter The Wu-Tang (36 Chambers) [Expanded Edition]",
+        "spotify_url": "https://open.spotify.com/track/5wcY4XgawQ2se8VjDLhedQ",
         "plays": 1
       },
       {
@@ -8594,9 +8732,9 @@
     "id": "1Z8ODXyhEBi3WynYw0Rya6",
     "name": "De La Soul",
     "spotify_url": "https://open.spotify.com/artist/1Z8ODXyhEBi3WynYw0Rya6",
-    "total_plays": 11,
+    "total_plays": 12,
     "first_seen": "2026-02-26",
-    "last_seen": "2026-03-16",
+    "last_seen": "2026-06-10",
     "genres": [
       "jazz rap",
       "east coast hip hop"
@@ -8647,6 +8785,12 @@
         "name": "(3 Is) The Magic Number",
         "album": "3 Feet High and Rising",
         "spotify_url": "https://open.spotify.com/track/4hB8J06D2ZaGkWZDOMpYZB",
+        "plays": 1
+      },
+      {
+        "name": "Rock Co.Kane Flow - feat. MF DOOM",
+        "album": "The Grind Date",
+        "spotify_url": "https://open.spotify.com/track/5eWj4hoqE9cf8mCE1pkB7M",
         "plays": 1
       },
       {
@@ -8998,12 +9142,6 @@
         "plays": 1
       },
       {
-        "name": "Rock Co.Kane Flow (feat. MF DOOM)",
-        "album": "The Grind Date",
-        "spotify_url": "https://open.spotify.com/track/5eWj4hoqE9cf8mCE1pkB7M",
-        "plays": 1
-      },
-      {
         "name": "Stakes Is High",
         "album": "Stakes Is High",
         "spotify_url": "https://open.spotify.com/track/5sfXK6yQlY9vSzuR3f3oD8",
@@ -9015,9 +9153,9 @@
     "id": "09hVIj6vWgoCDtT03h8ZCa",
     "name": "A Tribe Called Quest",
     "spotify_url": "https://open.spotify.com/artist/09hVIj6vWgoCDtT03h8ZCa",
-    "total_plays": 29,
+    "total_plays": 30,
     "first_seen": "2026-02-26",
-    "last_seen": "2026-05-28",
+    "last_seen": "2026-06-10",
     "genres": [
       "jazz rap",
       "east coast hip hop",
@@ -9133,6 +9271,12 @@
         "plays": 1
       },
       {
+        "name": "The Hop",
+        "album": "Beats, Rhymes & Life",
+        "spotify_url": "https://open.spotify.com/track/7f1UEGMBMuXfLBP5XANfrW",
+        "plays": 1
+      },
+      {
         "name": "Butter",
         "album": "The Low End Theory",
         "spotify_url": "https://open.spotify.com/track/758mQT4zzlvBhy9PvNePwC",
@@ -9142,12 +9286,6 @@
         "name": "4 Moms (feat. Spanky)",
         "album": "The Love Movement",
         "spotify_url": "https://open.spotify.com/track/0CNpv1jTH5mmqcZrh00WuM",
-        "plays": 2
-      },
-      {
-        "name": "The Hop",
-        "album": "Beats, Rhymes & Life",
-        "spotify_url": "https://open.spotify.com/track/7f1UEGMBMuXfLBP5XANfrW",
         "plays": 2
       },
       {
@@ -10385,9 +10523,9 @@
     "id": "2YZyLoL8N0Wb9xBt1NhZWg",
     "name": "Kendrick Lamar",
     "spotify_url": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg",
-    "total_plays": 25,
+    "total_plays": 45,
     "first_seen": "2026-03-03",
-    "last_seen": "2026-05-06",
+    "last_seen": "2026-06-10",
     "genres": [
       "hip hop",
       "west coast hip hop"
@@ -10417,16 +10555,34 @@
         "plays": 3
       },
       {
+        "name": "Sing About Me, I'm Dying Of Thirst",
+        "album": "good kid, m.A.A.d city (Deluxe)",
+        "spotify_url": "https://open.spotify.com/track/3q2v8QaTnHLveAQzR6gvYm",
+        "plays": 3
+      },
+      {
+        "name": "The Recipe (Black Hippy Remix) - Bonus Track",
+        "album": "good kid, m.A.A.d city (Deluxe)",
+        "spotify_url": "https://open.spotify.com/track/5UHjWOJA6MDl1g3x2HC68V",
+        "plays": 2
+      },
+      {
+        "name": "The Recipe - Bonus Track",
+        "album": "good kid, m.A.A.d city (Deluxe)",
+        "spotify_url": "https://open.spotify.com/track/1eRBW1HcyM1zPlxO26cScZ",
+        "plays": 2
+      },
+      {
         "name": "tv off (feat. lefty gunplay)",
         "album": "GNX",
         "spotify_url": "https://open.spotify.com/track/0aB0v4027ukVziUGwVGYpG",
         "plays": 2
       },
       {
-        "name": "The Recipe (Black Hippy Remix) - Bonus Track",
-        "album": "good kid, m.A.A.d city (Deluxe)",
-        "spotify_url": "https://open.spotify.com/track/5UHjWOJA6MDl1g3x2HC68V",
-        "plays": 1
+        "name": "King Kunta",
+        "album": "To Pimp A Butterfly",
+        "spotify_url": "https://open.spotify.com/track/0N3W5peJUQtI4eyR6GJT5O",
+        "plays": 2
       },
       {
         "name": "FEEL.",
@@ -10471,12 +10627,6 @@
         "plays": 1
       },
       {
-        "name": "The Recipe - Bonus Track",
-        "album": "good kid, m.A.A.d city (Deluxe)",
-        "spotify_url": "https://open.spotify.com/track/1eRBW1HcyM1zPlxO26cScZ",
-        "plays": 1
-      },
-      {
         "name": "LOYALTY. FEAT. RIHANNA.",
         "album": "DAMN.",
         "spotify_url": "https://open.spotify.com/track/6SwRhMLwNqEi6alNPVG00n",
@@ -10486,12 +10636,6 @@
         "name": "XXX. FEAT. U2.",
         "album": "DAMN.",
         "spotify_url": "https://open.spotify.com/track/4iYRa2btalAzPZoSYfROqF",
-        "plays": 1
-      },
-      {
-        "name": "Sing About Me, I'm Dying Of Thirst",
-        "album": "good kid, m.A.A.d city (Deluxe)",
-        "spotify_url": "https://open.spotify.com/track/3q2v8QaTnHLveAQzR6gvYm",
         "plays": 1
       },
       {
@@ -10537,9 +10681,93 @@
         "plays": 1
       },
       {
-        "name": "King Kunta",
-        "album": "To Pimp A Butterfly",
-        "spotify_url": "https://open.spotify.com/track/0N3W5peJUQtI4eyR6GJT5O",
+        "name": "F*ck Your Ethnicity",
+        "album": "Section.80",
+        "spotify_url": "https://open.spotify.com/track/1gXH8hT9dxsBqbRy7h2iC8",
+        "plays": 1
+      },
+      {
+        "name": "Bitch, Don’t Kill My Vibe - Remix",
+        "album": "good kid, m.A.A.d city (Deluxe)",
+        "spotify_url": "https://open.spotify.com/track/7ALEBJ8LOQqXVJ2tqnXtoH",
+        "plays": 1
+      },
+      {
+        "name": "Now Or Never - Bonus Track",
+        "album": "good kid, m.A.A.d city (Deluxe)",
+        "spotify_url": "https://open.spotify.com/track/4KjnaUNYPwGnJjoeTFlt91",
+        "plays": 1
+      },
+      {
+        "name": "Black Boy Fly - Bonus Track",
+        "album": "good kid, m.A.A.d city (Deluxe)",
+        "spotify_url": "https://open.spotify.com/track/1H7yy9jlDYS2EBF41J6Yf5",
+        "plays": 1
+      },
+      {
+        "name": "Compton",
+        "album": "good kid, m.A.A.d city (Deluxe)",
+        "spotify_url": "https://open.spotify.com/track/1wf4LnpdAhLaoI2WwYDKAE",
+        "plays": 1
+      },
+      {
+        "name": "Real",
+        "album": "good kid, m.A.A.d city (Deluxe)",
+        "spotify_url": "https://open.spotify.com/track/5d8yMIlqJH78lwOUP7T3oF",
+        "plays": 1
+      },
+      {
+        "name": "Swimming Pools (Drank) - Extended Version",
+        "album": "good kid, m.A.A.d city (Deluxe)",
+        "spotify_url": "https://open.spotify.com/track/5ujh1I7NZH5agbwf7Hp8Hc",
+        "plays": 1
+      },
+      {
+        "name": "m.A.A.d city",
+        "album": "good kid, m.A.A.d city (Deluxe)",
+        "spotify_url": "https://open.spotify.com/track/2cDCojn6uIBM6A5xTAbl3H",
+        "plays": 1
+      },
+      {
+        "name": "good kid",
+        "album": "good kid, m.A.A.d city (Deluxe)",
+        "spotify_url": "https://open.spotify.com/track/5vuJuBqwzHJgCA1ysRfwxZ",
+        "plays": 1
+      },
+      {
+        "name": "Poetic Justice",
+        "album": "good kid, m.A.A.d city (Deluxe)",
+        "spotify_url": "https://open.spotify.com/track/2P3SLxeQHPqh8qKB6gtJY2",
+        "plays": 1
+      },
+      {
+        "name": "Money Trees",
+        "album": "good kid, m.A.A.d city (Deluxe)",
+        "spotify_url": "https://open.spotify.com/track/0AOvNRgl0SMfOibWA5bP8o",
+        "plays": 1
+      },
+      {
+        "name": "The Art of Peer Pressure",
+        "album": "good kid, m.A.A.d city (Deluxe)",
+        "spotify_url": "https://open.spotify.com/track/0d0jsoba88SpOoFxCxA2rZ",
+        "plays": 1
+      },
+      {
+        "name": "Backseat Freestyle",
+        "album": "good kid, m.A.A.d city (Deluxe)",
+        "spotify_url": "https://open.spotify.com/track/3aGibUHhQyBsyumYHylw0K",
+        "plays": 1
+      },
+      {
+        "name": "Bitch, Don’t Kill My Vibe",
+        "album": "good kid, m.A.A.d city (Deluxe)",
+        "spotify_url": "https://open.spotify.com/track/712uvW1Vezq8WpQi38v2L9",
+        "plays": 1
+      },
+      {
+        "name": "Sherane a.k.a Master Splinter’s Daughter",
+        "album": "good kid, m.A.A.d city (Deluxe)",
+        "spotify_url": "https://open.spotify.com/track/0qGFnxDIqGBIq2D3zNbjk9",
         "plays": 1
       },
       {
@@ -11760,9 +11988,9 @@
     "id": "0EdvGhlC1FkGItLOWQzG4J",
     "name": "Sublime",
     "spotify_url": "https://open.spotify.com/artist/0EdvGhlC1FkGItLOWQzG4J",
-    "total_plays": 23,
+    "total_plays": 26,
     "first_seen": "2026-03-03",
-    "last_seen": "2026-05-28",
+    "last_seen": "2026-06-12",
     "genres": [
       "reggae rock",
       "ska punk",
@@ -11796,6 +12024,12 @@
         "name": "D.J.'s",
         "album": "40oz. To Freedom",
         "spotify_url": "https://open.spotify.com/track/0dUQI22joLSJc0kSLNnRi4",
+        "plays": 2
+      },
+      {
+        "name": "Wizard",
+        "album": "Until The Sun Explodes",
+        "spotify_url": "https://open.spotify.com/track/6VuDLRGS49bLI1Fjv0HG8N",
         "plays": 2
       },
       {
@@ -11898,6 +12132,12 @@
         "name": "April 29, 1992 (Miami)",
         "album": "Sublime",
         "spotify_url": "https://open.spotify.com/track/2CLSHTGF4jYXx2RCz1h0dS",
+        "plays": 1
+      },
+      {
+        "name": "Ensenada",
+        "album": "Until The Sun Explodes",
+        "spotify_url": "https://open.spotify.com/track/5wCtcRIhYbHZqjIjXNuWra",
         "plays": 1
       },
       {
@@ -17516,9 +17756,9 @@
     "id": "3nFkdlSjzX9mRTtwJOzDYB",
     "name": "JAŸ-Z",
     "spotify_url": "https://open.spotify.com/artist/3nFkdlSjzX9mRTtwJOzDYB",
-    "total_plays": 4,
+    "total_plays": 5,
     "first_seen": "2026-03-11",
-    "last_seen": "2026-04-05",
+    "last_seen": "2026-06-10",
     "genres": [
       "hip hop",
       "east coast hip hop",
@@ -17567,6 +17807,12 @@
         "plays": 1
       },
       {
+        "name": "Otis",
+        "album": "Watch The Throne",
+        "spotify_url": "https://open.spotify.com/track/14I61w6cyYUHiV2n28IYdP",
+        "plays": 1
+      },
+      {
         "name": "Bitch, Don’t Kill My Vibe - Remix",
         "album": "good kid, m.A.A.d city",
         "spotify_url": "https://open.spotify.com/track/7635mlfbjmTS7t17pKtl6r",
@@ -17576,12 +17822,6 @@
         "name": "Gotta Have It",
         "album": "Watch The Throne",
         "spotify_url": "https://open.spotify.com/track/6JFLZH9vCzgqnUToBdiHQb",
-        "plays": 1
-      },
-      {
-        "name": "Otis",
-        "album": "Watch The Throne",
-        "spotify_url": "https://open.spotify.com/track/14I61w6cyYUHiV2n28IYdP",
         "plays": 1
       }
     ]
@@ -17627,9 +17867,9 @@
     "id": "4F7Q5NV6h5TSwCainz8S5A",
     "name": "Duke Ellington",
     "spotify_url": "https://open.spotify.com/artist/4F7Q5NV6h5TSwCainz8S5A",
-    "total_plays": 2,
+    "total_plays": 3,
     "first_seen": "2026-03-11",
-    "last_seen": "2026-03-11",
+    "last_seen": "2026-06-15",
     "genres": [
       "jazz",
       "big band",
@@ -17673,6 +17913,12 @@
         "plays": 1
       },
       {
+        "name": "In A Sentimental Mood",
+        "album": "Duke Ellington & John Coltrane",
+        "spotify_url": "https://open.spotify.com/track/0E8q2Fx2XuzXCO2NSAppkR",
+        "plays": 1
+      },
+      {
         "name": "Take The Coltrane",
         "album": "Late Night John Coltrane",
         "spotify_url": "https://open.spotify.com/track/3d8AVEnq3ZJ4nJiXlDMDw9",
@@ -17688,12 +17934,6 @@
         "name": "Angelica",
         "album": "Late Night John Coltrane",
         "spotify_url": "https://open.spotify.com/track/5TH5dnCkxE1LUy6iutVJ0R",
-        "plays": 2
-      },
-      {
-        "name": "In A Sentimental Mood",
-        "album": "Duke Ellington & John Coltrane",
-        "spotify_url": "https://open.spotify.com/track/0E8q2Fx2XuzXCO2NSAppkR",
         "plays": 2
       },
       {
@@ -32759,7 +32999,7 @@
     "id": "6AOWTKUQBsRamW22wk4ptr",
     "name": "Ninjaman",
     "spotify_url": "https://open.spotify.com/artist/6AOWTKUQBsRamW22wk4ptr",
-    "total_plays": 10,
+    "total_plays": 11,
     "first_seen": "2026-06-07",
     "last_seen": "2026-06-08",
     "genres": [
@@ -32792,6 +33032,12 @@
         "album": "Monsters Of Dancehall",
         "spotify_url": "https://open.spotify.com/track/14KuaLOZIXq9nUnKpLuawo",
         "plays": 4
+      },
+      {
+        "name": "Two White Rat",
+        "album": "Monsters Of Dancehall",
+        "spotify_url": "https://open.spotify.com/track/3F0GWeDzBhltnxajLj06h3",
+        "plays": 1
       },
       {
         "name": "Bring In The Gun",
@@ -33320,6 +33566,1616 @@
       }
     ]
   },
+  "level-42": {
+    "id": "0L9xkvBPcEp1nrhDrodxc5",
+    "name": "Level 42",
+    "spotify_url": "https://open.spotify.com/artist/0L9xkvBPcEp1nrhDrodxc5",
+    "total_plays": 1,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14",
+    "genres": [
+      "synthpop"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebc416e89fd5d1eedab418f8de",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174c416e89fd5d1eedab418f8de",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178c416e89fd5d1eedab418f8de",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Something About You",
+        "album": "World Machine",
+        "spotify_url": "https://open.spotify.com/track/77NwdlKUIMS3gvvJeO5KK1",
+        "plays": 1
+      }
+    ]
+  },
+  "pet-shop-boys": {
+    "id": "2ycnb8Er79LoH2AsR5ldjh",
+    "name": "Pet Shop Boys",
+    "spotify_url": "https://open.spotify.com/artist/2ycnb8Er79LoH2AsR5ldjh",
+    "total_plays": 1,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14",
+    "genres": [
+      "synthpop",
+      "new wave"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebd24f448b409b6304c2880614",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174d24f448b409b6304c2880614",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178d24f448b409b6304c2880614",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "West End Girls - 2018 Remaster",
+        "album": "Please: Further Listening 1984 - 1986 (2018 Remaster)",
+        "spotify_url": "https://open.spotify.com/track/2Di0qFNb7ATroCGB3q0Ka7",
+        "plays": 1
+      }
+    ]
+  },
+  "inxs": {
+    "id": "1eClJfHLoDI4rZe5HxzBFv",
+    "name": "INXS",
+    "spotify_url": "https://open.spotify.com/artist/1eClJfHLoDI4rZe5HxzBFv",
+    "total_plays": 2,
+    "first_seen": "2026-06-13",
+    "last_seen": "2026-06-14",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb9bfd44c9bd2aae22edfd99bf",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051749bfd44c9bd2aae22edfd99bf",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1789bfd44c9bd2aae22edfd99bf",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Need You Tonight",
+        "album": "Kick",
+        "spotify_url": "https://open.spotify.com/track/5eU8qMd0TpaLqTGDZJaLDs",
+        "plays": 2
+      }
+    ]
+  },
+  "culture-club": {
+    "id": "6kz53iCdBSqhQCZ21CoLcc",
+    "name": "Culture Club",
+    "spotify_url": "https://open.spotify.com/artist/6kz53iCdBSqhQCZ21CoLcc",
+    "total_plays": 2,
+    "first_seen": "2026-06-13",
+    "last_seen": "2026-06-13",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb5903965a15551fd12feb8b87",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051745903965a15551fd12feb8b87",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1785903965a15551fd12feb8b87",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Do You Really Want To Hurt Me",
+        "album": "Kissing To Be Clever",
+        "spotify_url": "https://open.spotify.com/track/1I6q6nwNjNgik1Qe8Oi0Y7",
+        "plays": 1
+      },
+      {
+        "name": "Time (Clock Of The Heart)",
+        "album": "The Best Of Culture Club",
+        "spotify_url": "https://open.spotify.com/track/7J2Oy8QVCd5DWMMnBuDzd0",
+        "plays": 1
+      }
+    ]
+  },
+  "the-sick-man-of-europe": {
+    "id": "4MfLAsjMG5jsbPxD4r5DuD",
+    "name": "The Sick Man Of Europe",
+    "spotify_url": "https://open.spotify.com/artist/4MfLAsjMG5jsbPxD4r5DuD",
+    "total_plays": 3,
+    "first_seen": "2026-06-12",
+    "last_seen": "2026-06-12",
+    "genres": [
+      "cold wave",
+      "post-punk",
+      "krautrock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebf14e9c02beea1bc507d0dcd5",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174f14e9c02beea1bc507d0dcd5",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178f14e9c02beea1bc507d0dcd5",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Transactional",
+        "album": "The Sick Man Of Europe",
+        "spotify_url": "https://open.spotify.com/track/3GxJunqJzJF9kH9BfEJFOA",
+        "plays": 2
+      },
+      {
+        "name": "Obsolete",
+        "album": "The Sick Man Of Europe",
+        "spotify_url": "https://open.spotify.com/track/4pKfcouDlc8iYHSG6ZoJPf",
+        "plays": 1
+      }
+    ]
+  },
+  "less-than-jake": {
+    "id": "20oQv3LStCKCjI9oQ0JNha",
+    "name": "Less Than Jake",
+    "spotify_url": "https://open.spotify.com/artist/20oQv3LStCKCjI9oQ0JNha",
+    "total_plays": 1,
+    "first_seen": "2026-06-12",
+    "last_seen": "2026-06-12",
+    "genres": [
+      "ska punk",
+      "ska",
+      "punk",
+      "skate punk",
+      "pop punk"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb768516690f8c06f29608b827",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174768516690f8c06f29608b827",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178768516690f8c06f29608b827",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Johnny Quest Thinks We're Sellouts",
+        "album": "Losing Streak",
+        "spotify_url": "https://open.spotify.com/track/3Sl62Dyoh3wI3gLIJSypnb",
+        "plays": 1
+      }
+    ]
+  },
+  "social-distortion": {
+    "id": "16nn7kCHPWIB6uK09GQCNI",
+    "name": "Social Distortion",
+    "spotify_url": "https://open.spotify.com/artist/16nn7kCHPWIB6uK09GQCNI",
+    "total_plays": 2,
+    "first_seen": "2026-06-12",
+    "last_seen": "2026-06-12",
+    "genres": [
+      "punk",
+      "skate punk",
+      "ska punk",
+      "psychobilly"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebd3870d0ed0f0453fefa2f975",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174d3870d0ed0f0453fefa2f975",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178d3870d0ed0f0453fefa2f975",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Don't Take Me For Granted",
+        "album": "Sex, Love And Rock 'N' Roll",
+        "spotify_url": "https://open.spotify.com/track/09NRBlKCJmHPedMcOeOz1Y",
+        "plays": 1
+      },
+      {
+        "name": "Story of My Life",
+        "album": "Social Distortion",
+        "spotify_url": "https://open.spotify.com/track/4Q4w8aRdfhIIEhBututktL",
+        "plays": 1
+      }
+    ]
+  },
+  "the-bouncing-souls": {
+    "id": "3mvTAjG7rcyk7DQzLwauzV",
+    "name": "The Bouncing Souls",
+    "spotify_url": "https://open.spotify.com/artist/3mvTAjG7rcyk7DQzLwauzV",
+    "total_plays": 1,
+    "first_seen": "2026-06-12",
+    "last_seen": "2026-06-12",
+    "genres": [
+      "punk",
+      "skate punk",
+      "ska punk",
+      "ska",
+      "melodic hardcore",
+      "pop punk"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb654945accd171c7aef5638f3",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174654945accd171c7aef5638f3",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178654945accd171c7aef5638f3",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "True Believers",
+        "album": "How I Spent My Summer Vacation",
+        "spotify_url": "https://open.spotify.com/track/4fRmFVMd0c1SGfzazBJIM8",
+        "plays": 1
+      }
+    ]
+  },
+  "rancid": {
+    "id": "6xTk3EK5T9UzudENVvu9YB",
+    "name": "Rancid",
+    "spotify_url": "https://open.spotify.com/artist/6xTk3EK5T9UzudENVvu9YB",
+    "total_plays": 4,
+    "first_seen": "2026-06-12",
+    "last_seen": "2026-06-12",
+    "genres": [
+      "punk",
+      "ska punk",
+      "ska",
+      "skate punk",
+      "hardcore punk"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb9ef1337f472668ab2c5aedcd",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051749ef1337f472668ab2c5aedcd",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1789ef1337f472668ab2c5aedcd",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Fall Back Down",
+        "album": "Indestructible",
+        "spotify_url": "https://open.spotify.com/track/3pdHJCTk85ls2SGGXIJ7XH",
+        "plays": 2
+      },
+      {
+        "name": "Ruby Soho",
+        "album": "...And Out Come The Wolves",
+        "spotify_url": "https://open.spotify.com/track/0vfhk1lH3zYesFN1x7vV46",
+        "plays": 1
+      },
+      {
+        "name": "Olympia, WA",
+        "album": "...And Out Come The Wolves",
+        "spotify_url": "https://open.spotify.com/track/0PcLpuKMkdy3hiG0rOJKll",
+        "plays": 1
+      }
+    ]
+  },
+  "against-me": {
+    "id": "29lz7gs8edwnnfuXW4FhMl",
+    "name": "Against Me!",
+    "spotify_url": "https://open.spotify.com/artist/29lz7gs8edwnnfuXW4FhMl",
+    "total_plays": 1,
+    "first_seen": "2026-06-12",
+    "last_seen": "2026-06-12",
+    "genres": [
+      "queercore",
+      "folk punk",
+      "punk",
+      "skate punk"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/8294eb1685d99a6d557049dba7c7760d0889c3df",
+        "height": 563,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/571b57db413699f64ba8f807897d04c9970d1537",
+        "height": 360,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/6f6f80c6202ea91a6ea88c9a7e8b02ee2a810e7f",
+        "height": 113,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/d7e533c9158d79aae7ee1019c4c152df687f994b",
+        "height": 36,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Thrash Unreal",
+        "album": "New Wave (U.S. Version)",
+        "spotify_url": "https://open.spotify.com/track/3c3XnCPwxGhQEHFxxjQcWe",
+        "plays": 1
+      }
+    ]
+  },
+  "common-rider": {
+    "id": "69T2QHCVGz2Y4hbkkVqbqi",
+    "name": "Common Rider",
+    "spotify_url": "https://open.spotify.com/artist/69T2QHCVGz2Y4hbkkVqbqi",
+    "total_plays": 1,
+    "first_seen": "2026-06-12",
+    "last_seen": "2026-06-12",
+    "genres": [
+      "ska punk",
+      "ska",
+      "punk"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb663a254ed01d6c720eb1df5c",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174663a254ed01d6c720eb1df5c",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178663a254ed01d6c720eb1df5c",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Classics Of Love",
+        "album": "Last Wave Rockers",
+        "spotify_url": "https://open.spotify.com/track/0HifoqtK5tIbF042t3DIeY",
+        "plays": 1
+      }
+    ]
+  },
+  "bad-religion": {
+    "id": "2yJwXpWAQOOl5XFzbCxLs9",
+    "name": "Bad Religion",
+    "spotify_url": "https://open.spotify.com/artist/2yJwXpWAQOOl5XFzbCxLs9",
+    "total_plays": 1,
+    "first_seen": "2026-06-12",
+    "last_seen": "2026-06-12",
+    "genres": [
+      "punk",
+      "skate punk",
+      "hardcore punk",
+      "melodic hardcore",
+      "ska punk"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb785d6af86b16c8747ff61e42",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174785d6af86b16c8747ff61e42",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178785d6af86b16c8747ff61e42",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Sorrow",
+        "album": "The Process Of Belief",
+        "spotify_url": "https://open.spotify.com/track/5KiS8SFnu21xI74mHgfZ3D",
+        "plays": 1
+      }
+    ]
+  },
+  "the-moldy-peaches": {
+    "id": "7GGv4mV9JTJK9e7nIzUliU",
+    "name": "The Moldy Peaches",
+    "spotify_url": "https://open.spotify.com/artist/7GGv4mV9JTJK9e7nIzUliU",
+    "total_plays": 1,
+    "first_seen": "2026-06-12",
+    "last_seen": "2026-06-12",
+    "genres": [
+      "anti-folk",
+      "folk punk"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b273a6b3afcdd15b2b561e684337",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e02a6b3afcdd15b2b561e684337",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00004851a6b3afcdd15b2b561e684337",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Lucky Number Nine",
+        "album": "The Moldy Peaches",
+        "spotify_url": "https://open.spotify.com/track/5g0oDsrplDgTiN7FkDgbXx",
+        "plays": 1
+      }
+    ]
+  },
+  "sleaford-mods": {
+    "id": "0otAqZw8htTsGHfqR491Yh",
+    "name": "Sleaford Mods",
+    "spotify_url": "https://open.spotify.com/artist/0otAqZw8htTsGHfqR491Yh",
+    "total_plays": 1,
+    "first_seen": "2026-06-12",
+    "last_seen": "2026-06-12",
+    "genres": [
+      "post-punk"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb224b9d8f525e6059ed11ab48",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174224b9d8f525e6059ed11ab48",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178224b9d8f525e6059ed11ab48",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "West End Girls",
+        "album": "West End Girls",
+        "spotify_url": "https://open.spotify.com/track/2shbrAWdjOXxyJexfxi7DC",
+        "plays": 1
+      }
+    ]
+  },
+  "modest-mussorgsky": {
+    "id": "284mnx33IWcymQEpMxyfHl",
+    "name": "Modest Mussorgsky",
+    "spotify_url": "https://open.spotify.com/artist/284mnx33IWcymQEpMxyfHl",
+    "total_plays": 11,
+    "first_seen": "2026-06-11",
+    "last_seen": "2026-06-12",
+    "genres": [
+      "classical",
+      "orchestral"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/20b923e03dd0fb8cd20fb93559b9ed9a0e7aefbc",
+        "height": 1291,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/3e128653fdcf2f4a0f563a6d658a2aff945adb99",
+        "height": 826,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/e6c99bfcb3d04655f541268cae3efdf7cf35de7e",
+        "height": 258,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/7b78362a6ff6c8b866adb2fca13f9d5a25ec2c5d",
+        "height": 83,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Pictures at an Exhibition: I. Gnomus",
+        "album": "Mussorgsky: Pictures at an Exhibition & Night on Bald Mountain",
+        "spotify_url": "https://open.spotify.com/track/03XYbdLMaapuFUBeu6mJRY",
+        "plays": 2
+      },
+      {
+        "name": "Pictures at an Exhibition: VI. Samuel Goldenberg und Schmuÿle",
+        "album": "Mussorgsky: Pictures at an Exhibition & Night on Bald Mountain",
+        "spotify_url": "https://open.spotify.com/track/7aYr8hN9tECfmL3ktOgoPu",
+        "plays": 1
+      },
+      {
+        "name": "Pictures at an Exhibition: V. Ballet of the Unhatched Chicks",
+        "album": "Mussorgsky: Pictures at an Exhibition & Night on Bald Mountain",
+        "spotify_url": "https://open.spotify.com/track/6YLKy1LEBoTcjbxjEiuVGF",
+        "plays": 1
+      },
+      {
+        "name": "Pictures at an Exhibition: Promenade IV",
+        "album": "Mussorgsky: Pictures at an Exhibition & Night on Bald Mountain",
+        "spotify_url": "https://open.spotify.com/track/06SOmihfm2RGfskpq4G5xm",
+        "plays": 1
+      },
+      {
+        "name": "Pictures at an Exhibition: IV. Bydlo",
+        "album": "Mussorgsky: Pictures at an Exhibition & Night on Bald Mountain",
+        "spotify_url": "https://open.spotify.com/track/6tMKnSscNG8x63pcLWwaay",
+        "plays": 1
+      },
+      {
+        "name": "Pictures at an Exhibition: III. Tuileries (Dispute d'enfants après jeux)",
+        "album": "Mussorgsky: Pictures at an Exhibition & Night on Bald Mountain",
+        "spotify_url": "https://open.spotify.com/track/4IwoxtzH3afbB5DTsdvVcr",
+        "plays": 1
+      },
+      {
+        "name": "Pictures at an Exhibition: Promenade III",
+        "album": "Mussorgsky: Pictures at an Exhibition & Night on Bald Mountain",
+        "spotify_url": "https://open.spotify.com/track/4FICyImowefpGBBETxWu6Z",
+        "plays": 1
+      },
+      {
+        "name": "Pictures at an Exhibition: II. Il vecchio castello",
+        "album": "Mussorgsky: Pictures at an Exhibition & Night on Bald Mountain",
+        "spotify_url": "https://open.spotify.com/track/4lUIyE2uCLCitPs76Z727J",
+        "plays": 1
+      },
+      {
+        "name": "Pictures at an Exhibition: Promenade II",
+        "album": "Mussorgsky: Pictures at an Exhibition & Night on Bald Mountain",
+        "spotify_url": "https://open.spotify.com/track/6R4MMSxB9KsKRRXmklMJvu",
+        "plays": 1
+      },
+      {
+        "name": "Pictures at an Exhibition: Promenade I",
+        "album": "Mussorgsky: Pictures at an Exhibition & Night on Bald Mountain",
+        "spotify_url": "https://open.spotify.com/track/1ABAPGdQgZ8caIy2yVPrbd",
+        "plays": 1
+      },
+      {
+        "name": "Pictures at an Exhibition: Promenade 2",
+        "album": "Classical Composure: Piano Works",
+        "spotify_url": "https://open.spotify.com/track/3VCyBWiXufJWHWWyHm4e2r",
+        "plays": 2
+      },
+      {
+        "name": "Pictures at an Exhibition (Orch. Ravel): Promenade II",
+        "album": "Mussorgsky: Pictures At An Exhibition",
+        "spotify_url": "https://open.spotify.com/track/7etkHCIevRXLnNIg0bvxKi",
+        "plays": 2
+      },
+      {
+        "name": "Pictures At An Exhibition: Promenade - II",
+        "album": "Mussorgsky: Pictures at an Exhibition",
+        "spotify_url": "https://open.spotify.com/track/1pDCv7N2OZ7oGcjH5ntjW9",
+        "plays": 2
+      },
+      {
+        "name": "Pictures at an Exhibition: Promenade. Moderato commodo assai e con delicatezza - attacca",
+        "album": "Mussorgsky: Pictures at an Exhibition / Ravel: Valses nobles",
+        "spotify_url": "https://open.spotify.com/track/7k8R3AMbEl1XHr1tIA7piW",
+        "plays": 1
+      },
+      {
+        "name": "Pictures at an Exhibition (Orch. M. Ravel): Promenade II",
+        "album": "Ravel: Orchestral Works, Vol. 3 – Orchestrations",
+        "spotify_url": "https://open.spotify.com/track/5uONLpSzdrUP6N1rSKRU8o",
+        "plays": 1
+      },
+      {
+        "name": "Pictures at an Exhibition (Orch. Ravel): VIIIb. Cum mortuis in lingua mortua",
+        "album": "Mussorgsky: Pictures At An Exhibition",
+        "spotify_url": "https://open.spotify.com/track/3vUKiu1KUSA0a790dw8l2o",
+        "plays": 1
+      }
+    ]
+  },
+  "ottorino-respighi": {
+    "id": "7KkUirCiJZhgRN3NbgG98L",
+    "name": "Ottorino Respighi",
+    "spotify_url": "https://open.spotify.com/artist/7KkUirCiJZhgRN3NbgG98L",
+    "total_plays": 1,
+    "first_seen": "2026-06-11",
+    "last_seen": "2026-06-11",
+    "genres": [
+      "impressionism",
+      "classical piano",
+      "classical",
+      "neoclassical"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/6f1664190b39f8b288ab3ce0e32884cc33cfb2cd",
+        "height": 1000,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/0fc5f3a115ed10d13f22f7c1216ee4b8d721119e",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/5bb64126830ff9249bcf930d5e379610b205faa5",
+        "height": 200,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/dde6aac764cfd79f2cc90a5624b98788618b83a6",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Respighi: Trittico botticelliano, P. 151: I. La Primavera",
+        "album": "Respighi: Orchestral Works",
+        "spotify_url": "https://open.spotify.com/track/3XJCwwryT2hgAfUDq0DmCp",
+        "plays": 1
+      },
+      {
+        "name": "Suite No. 3, P. 172: I. Italiana: Andantino",
+        "album": "Respighi: Ancient Airs And Dances, Suites Nos. 1-3",
+        "spotify_url": "https://open.spotify.com/track/04A0DEE7bul6oA3xmGhiQp",
+        "plays": 2
+      },
+      {
+        "name": "6 Pezzi, P. 44: No. 6. Internmezzo-serenata",
+        "album": "Respighi: Piano Music",
+        "spotify_url": "https://open.spotify.com/track/5fVw7TjMRqG183RyPIUoba",
+        "plays": 2
+      },
+      {
+        "name": "Antiche Danze Ed Arie Per Liuto (Ancient Airs And Dances), P. 114: I. Balletto Detto 'Il Conte Orlando'",
+        "album": "Respighi: Piano Music",
+        "spotify_url": "https://open.spotify.com/track/5pXGaOCnwIuKdu1PIA5maJ",
+        "plays": 2
+      },
+      {
+        "name": "6 Pezzi, P. 44: No. 5. Studio",
+        "album": "Respighi: Piano Music",
+        "spotify_url": "https://open.spotify.com/track/0EGKIwHF13Gry0Ov0hpVpT",
+        "plays": 2
+      },
+      {
+        "name": "Gli uccelli (The Birds), P. 154: V. Il cucu: Allegro",
+        "album": "Respighi: Suite in G Major, P. 58, Trittico botticelliano, The Birds, & Serenata",
+        "spotify_url": "https://open.spotify.com/track/25V8y1DL6EKMhpwKxPuyRK",
+        "plays": 2
+      },
+      {
+        "name": "3 Preludi Sopra Melodie Gregoriane, P. 131: I. Molto Lento",
+        "album": "Respighi: Piano Music",
+        "spotify_url": "https://open.spotify.com/track/1ONzRvx7L9jhvyyqZJoh9m",
+        "plays": 2
+      },
+      {
+        "name": "Antiche Danze Ed Arie Per Liuto (Ancient Airs And Dances), P. 114: VI. Passacaglia",
+        "album": "Respighi: Piano Music",
+        "spotify_url": "https://open.spotify.com/track/3ByR24hDhHVR0kCjIlLw8P",
+        "plays": 2
+      },
+      {
+        "name": "Antiche Danze Ed Arie Per Liuto (Ancient Airs And Dances), P. 114: II. Villanella (Quadro III",
+        "album": "Respighi: Piano Music",
+        "spotify_url": "https://open.spotify.com/track/7kdEXrpgmqoUaJN6Y3hYm1",
+        "plays": 2
+      },
+      {
+        "name": "Suite in G Major, P. 58 (Original Version): III. Pastorale: Andante molto sostenuto",
+        "album": "Respighi: Suite in G Major, P. 58, Trittico botticelliano, The Birds, & Serenata",
+        "spotify_url": "https://open.spotify.com/track/7xUtAua8LoSUPNJZSlo9Qd",
+        "plays": 2
+      },
+      {
+        "name": "La pentola magica, P. 129: Preludio",
+        "album": "Respighi: Astuzie De Columbina (Le) / La Pentola Magica",
+        "spotify_url": "https://open.spotify.com/track/10i5u8aKyqP76Pi2G3g7oQ",
+        "plays": 2
+      },
+      {
+        "name": "Antiche Danze Ed Arie Per Liuto (Ancient Airs And Dances), P. 114: IV. Italiana",
+        "album": "Respighi: Piano Music",
+        "spotify_url": "https://open.spotify.com/track/73p40DaAebttScQi46SEow",
+        "plays": 1
+      },
+      {
+        "name": "6 Pezzi, P. 44: No. 3. Notturno",
+        "album": "Respighi: Piano Music",
+        "spotify_url": "https://open.spotify.com/track/4z9lWT4B9ILqOPcA58TUM1",
+        "plays": 1
+      },
+      {
+        "name": "6 Pezzi, P. 44: No. 1. Valse Caressante",
+        "album": "Respighi: Piano Music",
+        "spotify_url": "https://open.spotify.com/track/5A4wpjkIzZ8R9v9PxolrSo",
+        "plays": 1
+      },
+      {
+        "name": "Antiche Danze Ed Arie Per Liuto (Ancient Airs And Dances), P. 114: V. Siciliana",
+        "album": "Respighi: Piano Music",
+        "spotify_url": "https://open.spotify.com/track/25zuTyYgArAIuecFZbV8fx",
+        "plays": 1
+      },
+      {
+        "name": "6 Pezzi, P. 44: No. 4. Minuetto",
+        "album": "Respighi: Piano Music",
+        "spotify_url": "https://open.spotify.com/track/1cLlz5G14b3XaRu8CmBauE",
+        "plays": 1
+      },
+      {
+        "name": "Antiche Danze Ed Arie Per Liuto (Ancient Airs And Dances), P. 114: III. Gagliarda",
+        "album": "Respighi: Piano Music",
+        "spotify_url": "https://open.spotify.com/track/7BCS2gPliMtnXii3NyPG1T",
+        "plays": 1
+      },
+      {
+        "name": "3 Corali, P. 167: No. 2, Andante con moto e scherzando (After J.S. Bach's BWV 648)",
+        "album": "Respighi: Orchestral Works",
+        "spotify_url": "https://open.spotify.com/track/2v7gGdmQx4eQBqceboMLJi",
+        "plays": 1
+      }
+    ]
+  },
+  "chris-smither": {
+    "id": "4PM86aECDhcdwuJNZNrR22",
+    "name": "Chris Smither",
+    "spotify_url": "https://open.spotify.com/artist/4PM86aECDhcdwuJNZNrR22",
+    "total_plays": 1,
+    "first_seen": "2026-06-10",
+    "last_seen": "2026-06-10",
+    "genres": [
+      "country blues",
+      "americana",
+      "blues"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb417552d79f541836a1fb7344",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174417552d79f541836a1fb7344",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178417552d79f541836a1fb7344",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Leave The Light On",
+        "album": "Leave The Light On",
+        "spotify_url": "https://open.spotify.com/track/7aRdZmAwQbUt8e8cDBbBHQ",
+        "plays": 1
+      }
+    ]
+  },
+  "waxahatchee": {
+    "id": "5IWCU0V9evBlW4gIeGY4zF",
+    "name": "Waxahatchee",
+    "spotify_url": "https://open.spotify.com/artist/5IWCU0V9evBlW4gIeGY4zF",
+    "total_plays": 2,
+    "first_seen": "2026-06-10",
+    "last_seen": "2026-06-10",
+    "genres": [
+      "alt country"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebbb6b88ebf5a74e636bcf09eb",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174bb6b88ebf5a74e636bcf09eb",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178bb6b88ebf5a74e636bcf09eb",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Light of a Clear Blue Morning",
+        "album": "Saint Cloud +3",
+        "spotify_url": "https://open.spotify.com/track/3DwpGQVgNbjl9W6Wngidln",
+        "plays": 1
+      },
+      {
+        "name": "The Eye",
+        "album": "Saint Cloud",
+        "spotify_url": "https://open.spotify.com/track/3fU8MYC7Onfj5TYuR6tAKq",
+        "plays": 1
+      }
+    ]
+  },
+  "iris-dement": {
+    "id": "3NPZs8XgXtaWslUcnIw6rY",
+    "name": "Iris DeMent",
+    "spotify_url": "https://open.spotify.com/artist/3NPZs8XgXtaWslUcnIw6rY",
+    "total_plays": 4,
+    "first_seen": "2026-06-10",
+    "last_seen": "2026-06-10",
+    "genres": [
+      "americana",
+      "folk",
+      "alt country",
+      "singer-songwriter"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb9e84178e0c99851ee26f228b",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051749e84178e0c99851ee26f228b",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1789e84178e0c99851ee26f228b",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Mama's Opry",
+        "album": "Infamous Angel",
+        "spotify_url": "https://open.spotify.com/track/7v9pAV0y6AiW6kOlzLPhne",
+        "plays": 1
+      },
+      {
+        "name": "Let the Mystery Be",
+        "album": "Transatlantic Sessions - Series 1: Volume One",
+        "spotify_url": "https://open.spotify.com/track/5irmuV4DegIrkorpqXCiB6",
+        "plays": 1
+      },
+      {
+        "name": "Our Town",
+        "album": "Infamous Angel",
+        "spotify_url": "https://open.spotify.com/track/43nP4jKb7yRoyN6onAJ684",
+        "plays": 1
+      },
+      {
+        "name": "Let the Mystery Be",
+        "album": "Infamous Angel",
+        "spotify_url": "https://open.spotify.com/track/7MQivOZVwEtP6U6gvidRAP",
+        "plays": 1
+      },
+      {
+        "name": "In Spite of Ourselves (feat. Iris DeMent)",
+        "album": "In Spite of Ourselves",
+        "spotify_url": "https://open.spotify.com/track/1k691v8ChLgDiuLLKnjyj6",
+        "plays": 2
+      }
+    ]
+  },
+  "uncle-tupelo": {
+    "id": "2Plkkomsc4DKawkCioLKjc",
+    "name": "Uncle Tupelo",
+    "spotify_url": "https://open.spotify.com/artist/2Plkkomsc4DKawkCioLKjc",
+    "total_plays": 1,
+    "first_seen": "2026-06-10",
+    "last_seen": "2026-06-10",
+    "genres": [
+      "alt country",
+      "americana",
+      "roots rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/4f563f149fe787868e25f329973318036789d586",
+        "height": 887,
+        "width": 884
+      },
+      {
+        "url": "https://i.scdn.co/image/f213b7e3bcadccc18f448400a82b2c7d62f476ff",
+        "height": 642,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/4a699c313e331213793364380d84ce203b20e526",
+        "height": 201,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/75228e3959945323011beabba49d47c319c0ee55",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Sandusky",
+        "album": "March 16-20, 1992",
+        "spotify_url": "https://open.spotify.com/track/0rib9hiYy1NWL0w8BUYgmd",
+        "plays": 1
+      },
+      {
+        "name": "Atomic Power",
+        "album": "March 16-20, 1992",
+        "spotify_url": "https://open.spotify.com/track/0rVrDzOeAXrTJZ71ZpJvZO",
+        "plays": 2
+      },
+      {
+        "name": "No Depression",
+        "album": "No Depression",
+        "spotify_url": "https://open.spotify.com/track/1OTH0AgyDuo6KZ8BwHVRD1",
+        "plays": 2
+      },
+      {
+        "name": "New Madrid",
+        "album": "Anodyne",
+        "spotify_url": "https://open.spotify.com/track/4Ssgx7QJr0fzabt4D4JZ1b",
+        "plays": 1
+      }
+    ]
+  },
+  "son-volt": {
+    "id": "7AhDVqsNA5q46WKsRPXvoe",
+    "name": "Son Volt",
+    "spotify_url": "https://open.spotify.com/artist/7AhDVqsNA5q46WKsRPXvoe",
+    "total_plays": 2,
+    "first_seen": "2026-06-10",
+    "last_seen": "2026-06-10",
+    "genres": [
+      "alt country",
+      "americana",
+      "roots rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb4bb113e9e2a5e9b99a938207",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051744bb113e9e2a5e9b99a938207",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1784bb113e9e2a5e9b99a938207",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Mystifies Me",
+        "album": "Trace",
+        "spotify_url": "https://open.spotify.com/track/6bRoGiWRuKvl4gyEH9xELG",
+        "plays": 1
+      },
+      {
+        "name": "Tear Stained Eye - 2015 Remaster",
+        "album": "Trace (Remastered)",
+        "spotify_url": "https://open.spotify.com/track/69BCRKCiQhrhrg7gkbNUNd",
+        "plays": 1
+      }
+    ]
+  },
+  "blaze-foley": {
+    "id": "1TlScGwN8MmIZ7kIYGjSZA",
+    "name": "Blaze Foley",
+    "spotify_url": "https://open.spotify.com/artist/1TlScGwN8MmIZ7kIYGjSZA",
+    "total_plays": 1,
+    "first_seen": "2026-06-10",
+    "last_seen": "2026-06-10",
+    "genres": [
+      "folk",
+      "outlaw country",
+      "americana",
+      "singer-songwriter",
+      "alt country"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb23175a7b536e95810a672e7e",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517423175a7b536e95810a672e7e",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17823175a7b536e95810a672e7e",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Clay Pigeons",
+        "album": "Live at the Austin Outhouse",
+        "spotify_url": "https://open.spotify.com/track/2HY7upKQSwkWGpNEhAxt7c",
+        "plays": 1
+      }
+    ]
+  },
+  "justin-townes-earle": {
+    "id": "3znXuXT3xkCtjgOxXBBVnq",
+    "name": "Justin Townes Earle",
+    "spotify_url": "https://open.spotify.com/artist/3znXuXT3xkCtjgOxXBBVnq",
+    "total_plays": 2,
+    "first_seen": "2026-06-10",
+    "last_seen": "2026-06-10",
+    "genres": [
+      "alt country",
+      "americana",
+      "bluegrass"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebab1dc2ce10e910ac96d9f2cb",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174ab1dc2ce10e910ac96d9f2cb",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178ab1dc2ce10e910ac96d9f2cb",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Yuma - Remastered",
+        "album": "Yuma (Remastered)",
+        "spotify_url": "https://open.spotify.com/track/6r674yB7uC3NdEpV5kicsN",
+        "plays": 1
+      },
+      {
+        "name": "Graceland",
+        "album": "ALL IN: Unreleased & Rarities (The New West Years)",
+        "spotify_url": "https://open.spotify.com/track/7AchGSmyabkBIwXZ4cextH",
+        "plays": 1
+      },
+      {
+        "name": "Graceland",
+        "album": "Maybe A Moment / Graceland",
+        "spotify_url": "https://open.spotify.com/track/2UduNMj9tpsEcBTur8VwH2",
+        "plays": 1
+      }
+    ]
+  },
+  "mary-gauthier": {
+    "id": "4SK1IgkcWWc5HC1TOBq1VS",
+    "name": "Mary Gauthier",
+    "spotify_url": "https://open.spotify.com/artist/4SK1IgkcWWc5HC1TOBq1VS",
+    "total_plays": 1,
+    "first_seen": "2026-06-10",
+    "last_seen": "2026-06-10",
+    "genres": [
+      "americana",
+      "alt country",
+      "folk",
+      "singer-songwriter"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb9d87eb01be131943865a735e",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051749d87eb01be131943865a735e",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1789d87eb01be131943865a735e",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Mercy Now",
+        "album": "Mercy Now",
+        "spotify_url": "https://open.spotify.com/track/6684GUHy1jpyhJVzpz5OFr",
+        "plays": 1
+      }
+    ]
+  },
+  "tift-merritt": {
+    "id": "2jL1PBvL0gBZBPk6B38p3z",
+    "name": "Tift Merritt",
+    "spotify_url": "https://open.spotify.com/artist/2jL1PBvL0gBZBPk6B38p3z",
+    "total_plays": 1,
+    "first_seen": "2026-06-10",
+    "last_seen": "2026-06-10",
+    "genres": [
+      "americana",
+      "alt country",
+      "folk",
+      "singer-songwriter"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb32c5c9517386a38b77c7e21c",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517432c5c9517386a38b77c7e21c",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17832c5c9517386a38b77c7e21c",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Traveling Alone",
+        "album": "Traveling Alone",
+        "spotify_url": "https://open.spotify.com/track/4LJIX18V7BHO9k44yn7vfk",
+        "plays": 1
+      }
+    ]
+  },
+  "dave-rawlings-machine": {
+    "id": "4tlnuBsCPe8BHUuADPvUSL",
+    "name": "Dave Rawlings Machine",
+    "spotify_url": "https://open.spotify.com/artist/4tlnuBsCPe8BHUuADPvUSL",
+    "total_plays": 1,
+    "first_seen": "2026-06-10",
+    "last_seen": "2026-06-10",
+    "genres": [
+      "americana",
+      "bluegrass",
+      "alt country",
+      "newgrass"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb50a9a00e2cea7fd8ab0ba560",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517450a9a00e2cea7fd8ab0ba560",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17850a9a00e2cea7fd8ab0ba560",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "The Weekend",
+        "album": "Nashville Obsolete",
+        "spotify_url": "https://open.spotify.com/track/6dFfDhEF4IEWq0mxRoAfd3",
+        "plays": 1
+      },
+      {
+        "name": "I Hear Them All",
+        "album": "A Friend Of A Friend",
+        "spotify_url": "https://open.spotify.com/track/1VbNiIJyEG0DgojlNREOrQ",
+        "plays": 1
+      }
+    ]
+  },
+  "billy-bragg": {
+    "id": "5yXAFDZNUNyO92l5WTImkO",
+    "name": "Billy Bragg",
+    "spotify_url": "https://open.spotify.com/artist/5yXAFDZNUNyO92l5WTImkO",
+    "total_plays": 1,
+    "first_seen": "2026-06-10",
+    "last_seen": "2026-06-10",
+    "genres": [
+      "anti-folk",
+      "alt country",
+      "folk punk",
+      "singer-songwriter",
+      "americana"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebc23d0e19d887a9d67a77ea9b",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174c23d0e19d887a9d67a77ea9b",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178c23d0e19d887a9d67a77ea9b",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Remember The Mountain Bed",
+        "album": "Mermaid Avenue Vol. II",
+        "spotify_url": "https://open.spotify.com/track/2H6IfHWdKTDWEJWMZ9x5jI",
+        "plays": 1
+      },
+      {
+        "name": "When The Roses Bloom Again",
+        "album": "Mermaid Avenue: The Complete Sessions",
+        "spotify_url": "https://open.spotify.com/track/2aczN5ldKR3HUFRrz65Sr7",
+        "plays": 2
+      },
+      {
+        "name": "Ingrid Bergman",
+        "album": "Mermaid Avenue",
+        "spotify_url": "https://open.spotify.com/track/0oam3WUXBXObolzvaIIGTc",
+        "plays": 1
+      }
+    ]
+  },
+  "mf-doom": {
+    "id": "2pAWfrd7WFF3XhVt9GooDL",
+    "name": "MF DOOM",
+    "spotify_url": "https://open.spotify.com/artist/2pAWfrd7WFF3XhVt9GooDL",
+    "total_plays": 1,
+    "first_seen": "2026-06-10",
+    "last_seen": "2026-06-10",
+    "genres": [
+      "experimental hip hop",
+      "east coast hip hop",
+      "jazz rap",
+      "alternative hip hop"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb6c8167ef48a872b6f190078f",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051746c8167ef48a872b6f190078f",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1786c8167ef48a872b6f190078f",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Rapp Snitch Knishes",
+        "album": "MM..FOOD",
+        "spotify_url": "https://open.spotify.com/track/5KUNwkaNf8l5A9sXZhiCgI",
+        "plays": 1
+      },
+      {
+        "name": "Old School Rules",
+        "album": "THE MOUSE & THE MASK",
+        "spotify_url": "https://open.spotify.com/track/0cq0D853bAxP47bhFU9RKV",
+        "plays": 2
+      },
+      {
+        "name": "THAT'S THAT",
+        "album": "BORN LIKE THIS",
+        "spotify_url": "https://open.spotify.com/track/2Vy16OMt19FH30uQNTFdLk",
+        "plays": 2
+      },
+      {
+        "name": "Benzi Box",
+        "album": "THE MOUSE & THE MASK",
+        "spotify_url": "https://open.spotify.com/track/6bmJYo1KS2X2nzQrCGzdOe",
+        "plays": 2
+      },
+      {
+        "name": "Jason & The Czargonauts",
+        "album": "Super What?",
+        "spotify_url": "https://open.spotify.com/track/29DtFTbvA79yZv6DhexwwE",
+        "plays": 2
+      },
+      {
+        "name": "Curls",
+        "album": "Madvillainy",
+        "spotify_url": "https://open.spotify.com/track/0V3nTTKA24XKCayp8igU4l",
+        "plays": 1
+      },
+      {
+        "name": "Rock Co.Kane Flow (feat. MF DOOM)",
+        "album": "The Grind Date",
+        "spotify_url": "https://open.spotify.com/track/5eWj4hoqE9cf8mCE1pkB7M",
+        "plays": 1
+      },
+      {
+        "name": "Viberian Son",
+        "album": "Key to the Kuffs (Redux)",
+        "spotify_url": "https://open.spotify.com/track/577nOaMzEgDK4zCRkla7pN",
+        "plays": 1
+      }
+    ]
+  },
+  "the-pharcyde": {
+    "id": "7yk35uHNQclPXFGFoTU44w",
+    "name": "The Pharcyde",
+    "spotify_url": "https://open.spotify.com/artist/7yk35uHNQclPXFGFoTU44w",
+    "total_plays": 1,
+    "first_seen": "2026-06-10",
+    "last_seen": "2026-06-10",
+    "genres": [
+      "jazz rap",
+      "west coast hip hop",
+      "old school hip hop",
+      "hip hop"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/db124909dcc277881bf55ed159bd417d82e2ced1",
+        "height": 1394,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/01126acfcb317eaa068dfb1699006946abe51262",
+        "height": 892,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/379f08564c1550cf56734267857226bb1a0b7bee",
+        "height": 279,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/7959e017ada2921da27ba3d8e93222d70b121733",
+        "height": 89,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Runnin'",
+        "album": "Labcabincalifornia (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/0XgpiStoxq1IJncYlPrvZ5",
+        "plays": 1
+      },
+      {
+        "name": "Passin' Me By",
+        "album": "Bizarre Ride II The Pharcyde",
+        "spotify_url": "https://open.spotify.com/track/4G3dZN9o3o2X4VKwt4CLts",
+        "plays": 2
+      },
+      {
+        "name": "Moment In Time",
+        "album": "Labcabincalifornia (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/0BVXmJ0LW75WTqu82nxkuM",
+        "plays": 2
+      },
+      {
+        "name": "Somethin' That Means Somethin'",
+        "album": "Labcabincalifornia (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/0zDQvPKS56nrUSa4QNGBe3",
+        "plays": 2
+      },
+      {
+        "name": "4 Better Or 4 Worse - DJ Nu-Mark Remix",
+        "album": "Runnin' / 4 Better Or 4 Worse (Remixes)",
+        "spotify_url": "https://open.spotify.com/track/1KHUsvQPOADCJko6Ws9H8Q",
+        "plays": 2
+      },
+      {
+        "name": "Otha Fish",
+        "album": "Bizarre Ride II The Pharcyde",
+        "spotify_url": "https://open.spotify.com/track/1KcZRMyC2tSs3CMIsng9wx",
+        "plays": 2
+      },
+      {
+        "name": "Ya Mama",
+        "album": "Bizarre Ride II The Pharcyde",
+        "spotify_url": "https://open.spotify.com/track/3Idgk0phpc2oewAJzKgoU4",
+        "plays": 2
+      },
+      {
+        "name": "Splattitorium",
+        "album": "Labcabincalifornia (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/6Y9qIPBqv8H0mpiSfx8rk4",
+        "plays": 2
+      },
+      {
+        "name": "Pandemonium",
+        "album": "Labcabincalifornia (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/7dXTYbB4dzSxPfls25UfmU",
+        "plays": 1
+      },
+      {
+        "name": "On The DL",
+        "album": "Bizarre Ride II The Pharcyde",
+        "spotify_url": "https://open.spotify.com/track/1XEhyHoErJvMksWXjZRauV",
+        "plays": 1
+      },
+      {
+        "name": "Soul Flower",
+        "album": "Heavy Rhyme Experience: Vol. 1",
+        "spotify_url": "https://open.spotify.com/track/1awqT9Qyeb5Wbyr2mBzVeh",
+        "plays": 1
+      },
+      {
+        "name": "Knew U",
+        "album": "Humboldt Beginnings",
+        "spotify_url": "https://open.spotify.com/track/2NZl9X1kLLGGmGcVcJN0wP",
+        "plays": 1
+      },
+      {
+        "name": "If I Were President (Skit)",
+        "album": "Bizarre Ride II The Pharcyde",
+        "spotify_url": "https://open.spotify.com/track/3zrqcFaZI10iKuiFwKBNlD",
+        "plays": 1
+      },
+      {
+        "name": "It's Jiggaboo Time (Skit)",
+        "album": "Bizarre Ride II The Pharcyde",
+        "spotify_url": "https://open.spotify.com/track/54X9TiXRLv9n0BBmnGWzJC",
+        "plays": 1
+      },
+      {
+        "name": "Doin' Time - Remixed By Marshall Arts",
+        "album": "Sublime (10th Anniversary Edition / Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/5uCfqIxzABOjZDSlaZl1Gf",
+        "plays": 1
+      },
+      {
+        "name": "Let It Go (feat. The Pharcyde) - Regrind 09",
+        "album": "Raiding the Vaults",
+        "spotify_url": "https://open.spotify.com/track/6xpQMq4xTYKJp1mxdCIOvT",
+        "plays": 1
+      },
+      {
+        "name": "Drop",
+        "album": "Labcabincalifornia (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/7sT3O2PXs1o12XnCKlv204",
+        "plays": 1
+      }
+    ]
+  },
+  "childish-gambino": {
+    "id": "73sIBHcqh3Z3NyqHKZ7FOL",
+    "name": "Childish Gambino",
+    "spotify_url": "https://open.spotify.com/artist/73sIBHcqh3Z3NyqHKZ7FOL",
+    "total_plays": 1,
+    "first_seen": "2026-06-10",
+    "last_seen": "2026-06-10",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebc3dc5429b676b16d451e5f77",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174c3dc5429b676b16d451e5f77",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178c3dc5429b676b16d451e5f77",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "This Is America",
+        "album": "This Is America",
+        "spotify_url": "https://open.spotify.com/track/0b9oOr2ZgvyQu88wzixux9",
+        "plays": 1
+      }
+    ]
+  },
   "gregory-isaacs": {
     "id": "6QHu71f8LLeT8n0GzfbYFc",
     "name": "Gregory Isaacs",
@@ -33408,6 +35264,434 @@
         "name": "Bad Boy Nuh Cub Scout",
         "album": "Monsters Of Dancehall",
         "spotify_url": "https://open.spotify.com/track/3b7ESZLvmXiQPnYbOzQbpZ",
+        "plays": 1
+      }
+    ]
+  },
+  "billie-holiday": {
+    "id": "1YzCsTRb22dQkh9lghPIrp",
+    "name": "Billie Holiday",
+    "spotify_url": "https://open.spotify.com/artist/1YzCsTRb22dQkh9lghPIrp",
+    "total_plays": 4,
+    "first_seen": "2026-06-15",
+    "last_seen": "2026-06-15",
+    "genres": [
+      "jazz",
+      "vocal jazz",
+      "big band",
+      "swing music"
+    ],
+    "images": [
+      {
+        "height": 828,
+        "url": "https://i.scdn.co/image/4efa6b6871a0f672b78b3d16fd5a03c6cd212d58",
+        "width": 1000
+      },
+      {
+        "height": 530,
+        "url": "https://i.scdn.co/image/11f685f3011fd163c386ce1afe7ce543ad814817",
+        "width": 640
+      },
+      {
+        "height": 166,
+        "url": "https://i.scdn.co/image/0f472c69891d82d5049f7de35426b2fdeb6051c0",
+        "width": 200
+      },
+      {
+        "height": 53,
+        "url": "https://i.scdn.co/image/73b9538798c13c7be7558d69b02019cf19e1d5db",
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Gloomy Sunday (with Teddy Wilson & His Orchestra) - Take 1",
+        "album": "Lady Day: The Complete Billie Holiday On Columbia (1933-1944)",
+        "spotify_url": "https://open.spotify.com/track/41CHb7F7SXcmkj0h8wekeF",
+        "plays": 2
+      },
+      {
+        "name": "Autumn In New York",
+        "album": "Recital",
+        "spotify_url": "https://open.spotify.com/track/6o5RbQYhmF4yRRw7ZArxGL",
+        "plays": 1
+      },
+      {
+        "name": "Gloomy Sunday",
+        "album": "The Great Depression - American Music In The 30's",
+        "spotify_url": "https://open.spotify.com/track/3Ygc3SDJwpw3e0BGeoQx1k",
+        "plays": 1
+      },
+      {
+        "name": "I'm a Fool to Want You",
+        "album": "Lady In Satin",
+        "spotify_url": "https://open.spotify.com/track/6Rvz1jM5eUqzNs2Pi8RMTG",
+        "plays": 3
+      },
+      {
+        "name": "I'm a Fool to Want You",
+        "album": "Lady In Satin: The Centennial Edition",
+        "spotify_url": "https://open.spotify.com/track/6SMbbPXKYIqOmmNulpuPSG",
+        "plays": 3
+      },
+      {
+        "name": "Blue Moon",
+        "album": "Solitude",
+        "spotify_url": "https://open.spotify.com/track/1pZn8AX1WulW8IO338hE5D",
+        "plays": 2
+      },
+      {
+        "name": "Lover Man",
+        "album": "Lover Man",
+        "spotify_url": "https://open.spotify.com/track/0DuWyzeLH09PQcnOMJiRgE",
+        "plays": 2
+      },
+      {
+        "name": "Moonglow",
+        "album": "Solitude",
+        "spotify_url": "https://open.spotify.com/track/1rUpHU45dBawthkWVugcQn",
+        "plays": 2
+      },
+      {
+        "name": "East Of The Sun (West Of The Moon)",
+        "album": "Solitude",
+        "spotify_url": "https://open.spotify.com/track/1zE0JZiHOBPlHwLsf4wBld",
+        "plays": 2
+      },
+      {
+        "name": "I Get Along Without You Very Well",
+        "album": "Lady In Satin",
+        "spotify_url": "https://open.spotify.com/track/0MwFfbwwhTxa7ZMdFjVoGp",
+        "plays": 2
+      },
+      {
+        "name": "Glad to Be Unhappy",
+        "album": "Lady In Satin",
+        "spotify_url": "https://open.spotify.com/track/0e3JeTAg6R4C659PjpMDCR",
+        "plays": 2
+      },
+      {
+        "name": "Lady Sings The Blues",
+        "album": "Lady Sings The Blues",
+        "spotify_url": "https://open.spotify.com/track/0iGu0ULXUSJRvXPCeEqHhO",
+        "plays": 2
+      },
+      {
+        "name": "Solitude",
+        "album": "Lover Man",
+        "spotify_url": "https://open.spotify.com/track/2Dx00nkJWh9UIVN3NlQoec",
+        "plays": 2
+      },
+      {
+        "name": "Sometimes I'm Happy",
+        "album": "Billie Holiday With Ray Ellis And His Orchestra",
+        "spotify_url": "https://open.spotify.com/track/2WbEYJsgFtFUBiVHinYzpE",
+        "plays": 2
+      },
+      {
+        "name": "Love Me Or Leave Me",
+        "album": "Lady Sings The Blues",
+        "spotify_url": "https://open.spotify.com/track/5ZGaS6Q8WW21pyQWajBcXs",
+        "plays": 2
+      },
+      {
+        "name": "Don't Explain",
+        "album": "The Lady Sings",
+        "spotify_url": "https://open.spotify.com/track/6GLMwwNDbiiBe4D9JcSOwP",
+        "plays": 2
+      },
+      {
+        "name": "I Only Have Eyes For You",
+        "album": "Solitude",
+        "spotify_url": "https://open.spotify.com/track/6Y8QG1S14e2o0Tx0rppi0V",
+        "plays": 2
+      },
+      {
+        "name": "You've Changed",
+        "album": "Lady In Satin",
+        "spotify_url": "https://open.spotify.com/track/6pyIYkI6eckBahwLKnAfHG",
+        "plays": 2
+      },
+      {
+        "name": "God Bless The Child",
+        "album": "Lady Sings The Blues",
+        "spotify_url": "https://open.spotify.com/track/6rX7Rgi2O5csTzLan7rL0c",
+        "plays": 2
+      },
+      {
+        "name": "Body And Soul",
+        "album": "Body and Soul",
+        "spotify_url": "https://open.spotify.com/track/7c7yHHFdYkqBzS1DG3UIFq",
+        "plays": 2
+      },
+      {
+        "name": "I Must Have That Man!",
+        "album": "Lady Sings The Blues",
+        "spotify_url": "https://open.spotify.com/track/00V6rYQ0nyE5KOLDMAlloC",
+        "plays": 2
+      },
+      {
+        "name": "These Foolish Things (Remind Me Of You)",
+        "album": "Solitude",
+        "spotify_url": "https://open.spotify.com/track/0ii3b9U8Yw0qnwEUBw0zZs",
+        "plays": 2
+      },
+      {
+        "name": "Studio Talk #5",
+        "album": "The Complete Billie Holiday On Verve 1945 - 1959",
+        "spotify_url": "https://open.spotify.com/track/0rbqKihC0VJq0INo8VB1oq",
+        "plays": 2
+      },
+      {
+        "name": "Speak Low",
+        "album": "All Or Nothing At All",
+        "spotify_url": "https://open.spotify.com/track/17SIqmKU86yUoUq41MyklH",
+        "plays": 2
+      },
+      {
+        "name": "You Turned The Tables On Me",
+        "album": "Solitude",
+        "spotify_url": "https://open.spotify.com/track/1Aa2phci2wSI0PWyoESUJA",
+        "plays": 2
+      },
+      {
+        "name": "I Gotta Right To Sing The Blues - Take 2",
+        "album": "Billie Holiday",
+        "spotify_url": "https://open.spotify.com/track/1MZIt5qgHCSH0NzJCUg5cm",
+        "plays": 2
+      },
+      {
+        "name": "It Had To Be You",
+        "album": "Music For Torching",
+        "spotify_url": "https://open.spotify.com/track/1l3tnchl5noYMXhMjjTvhf",
+        "plays": 2
+      },
+      {
+        "name": "I'll Look Around",
+        "album": "The Lady Sings",
+        "spotify_url": "https://open.spotify.com/track/1wAURZCIA0k5RNwaJN3dH3",
+        "plays": 2
+      },
+      {
+        "name": "Too Marvelous For Words",
+        "album": "Lady Sings The Blues",
+        "spotify_url": "https://open.spotify.com/track/2XOXYNVmg0Mpm6WlLC0LHx",
+        "plays": 2
+      },
+      {
+        "name": "He's Funny That Way",
+        "album": "An Evening With Billie Holiday",
+        "spotify_url": "https://open.spotify.com/track/3jG6okC06hzdqzIRcEzs7H",
+        "plays": 2
+      },
+      {
+        "name": "Just One Of Those Things - Take 8 - Master Take",
+        "album": "Songs For Distingué Lovers",
+        "spotify_url": "https://open.spotify.com/track/434Icqe1n6rfIoOSwhrYbn",
+        "plays": 2
+      },
+      {
+        "name": "Saddest Tale",
+        "album": "Ellington In Order, Volume 6 (1934-36)",
+        "spotify_url": "https://open.spotify.com/track/4gb5jPLDzsGAVCZ2KPem8g",
+        "plays": 2
+      },
+      {
+        "name": "Baby, I Don't Cry Over You",
+        "album": "The Blues Are Brewin'",
+        "spotify_url": "https://open.spotify.com/track/5gXoSVnLyvxRFdvIhUElXS",
+        "plays": 2
+      },
+      {
+        "name": "Cheek To Cheek",
+        "album": "All Or Nothing At All",
+        "spotify_url": "https://open.spotify.com/track/6qJbpvaU6MVjb3XxyHetVR",
+        "plays": 2
+      },
+      {
+        "name": "Detour Ahead",
+        "album": "Billie and Stan",
+        "spotify_url": "https://open.spotify.com/track/70HFlvpr5UtzrLQdTrUNG3",
+        "plays": 2
+      },
+      {
+        "name": "Miss Brown to you",
+        "album": "Simply ... Lady Day! (2019 Remaster)",
+        "spotify_url": "https://open.spotify.com/track/76ljbryYuL69C5Fc7GvVrN",
+        "plays": 2
+      },
+      {
+        "name": "I'll Be Seeing You",
+        "album": "Billie Holiday",
+        "spotify_url": "https://open.spotify.com/track/4smkJW6uzoHxGReZqqwHS5",
+        "plays": 1
+      },
+      {
+        "name": "On The Sunny Side Of The Street",
+        "album": "Billie Holiday",
+        "spotify_url": "https://open.spotify.com/track/16ARXAJAcL8ubHDpBLcqDQ",
+        "plays": 1
+      },
+      {
+        "name": "All of Me",
+        "album": "Lady Day: The Complete Billie Holiday On Columbia (1933-1944)",
+        "spotify_url": "https://open.spotify.com/track/1LGqJ3nvxpVXDWpEzq4DJD",
+        "plays": 1
+      },
+      {
+        "name": "Easy living",
+        "album": "Simply ... Lady Day! (2019 Remaster)",
+        "spotify_url": "https://open.spotify.com/track/44t2D1xsAwPRPrcfOQz5yL",
+        "plays": 1
+      },
+      {
+        "name": "You Go To My Head",
+        "album": "Solitude",
+        "spotify_url": "https://open.spotify.com/track/78MIFwIW5oUNdaL6Sj8hTB",
+        "plays": 1
+      },
+      {
+        "name": "Fine And Mellow",
+        "album": "Billie Holiday",
+        "spotify_url": "https://open.spotify.com/track/1QdQ4r05QWhtcTTXOgRtyA",
+        "plays": 1
+      },
+      {
+        "name": "Stormy Weather",
+        "album": "An Evening With Billie Holiday",
+        "spotify_url": "https://open.spotify.com/track/3mwIoHzwnTnGWjAUVqajLr",
+        "plays": 1
+      },
+      {
+        "name": "Tenderly",
+        "album": "Solitude",
+        "spotify_url": "https://open.spotify.com/track/4dUDfXcIhBWs1ybDWzyCd8",
+        "plays": 1
+      },
+      {
+        "name": "Love Is Here To Stay",
+        "album": "All Or Nothing At All",
+        "spotify_url": "https://open.spotify.com/track/4x4gE6oHHuZ2y7yUsGuOO1",
+        "plays": 1
+      },
+      {
+        "name": "Porgy",
+        "album": "Lover Man",
+        "spotify_url": "https://open.spotify.com/track/4zmNvhsd4kDCtQSmpQqLlf",
+        "plays": 1
+      },
+      {
+        "name": "Easy To Love",
+        "album": "Solitude",
+        "spotify_url": "https://open.spotify.com/track/5FVAdaE6kYzs49jpQviM05",
+        "plays": 1
+      },
+      {
+        "name": "The Man I Love",
+        "album": "Lady Day: The Complete Billie Holiday On Columbia (1933-1944)",
+        "spotify_url": "https://open.spotify.com/track/0ndEbK6LnERIPBG6t4gXDX",
+        "plays": 1
+      },
+      {
+        "name": "For Heaven's Sake",
+        "album": "Lady In Satin",
+        "spotify_url": "https://open.spotify.com/track/2BUxmT11iPwKGdXx1frAUb",
+        "plays": 1
+      },
+      {
+        "name": "You Go to My Head - Take 1",
+        "album": "Lady Day: The Complete Billie Holiday On Columbia (1933-1944)",
+        "spotify_url": "https://open.spotify.com/track/2gO8JWuzl0U9PtwcVnIsEa",
+        "plays": 1
+      },
+      {
+        "name": "God Bless The Child",
+        "album": "The Lady Sings",
+        "spotify_url": "https://open.spotify.com/track/2xtC6kb6H26qVX4ZdncS7f",
+        "plays": 1
+      },
+      {
+        "name": "Solitude",
+        "album": "Solitude",
+        "spotify_url": "https://open.spotify.com/track/30QD4VRP9yEneOh0eGTrtJ",
+        "plays": 1
+      },
+      {
+        "name": "April In Paris",
+        "album": "All Or Nothing At All",
+        "spotify_url": "https://open.spotify.com/track/34zhjduFdQFhkRUJ230h9T",
+        "plays": 1
+      },
+      {
+        "name": "All Of You",
+        "album": "Billie Holiday With Ray Ellis And His Orchestra",
+        "spotify_url": "https://open.spotify.com/track/3XOJhbofb4qTZdt0RLLrUq",
+        "plays": 1
+      },
+      {
+        "name": "I Thought About You",
+        "album": "Lady Sings The Blues",
+        "spotify_url": "https://open.spotify.com/track/3j3OqS6eOAepLwcCgXsz5h",
+        "plays": 1
+      },
+      {
+        "name": "As Time Goes By",
+        "album": "The Complete Commodore Recordings",
+        "spotify_url": "https://open.spotify.com/track/3lO4Z6BSp773vcovgYurHg",
+        "plays": 1
+      },
+      {
+        "name": "I Love You, Porgy",
+        "album": "Billie and Stan",
+        "spotify_url": "https://open.spotify.com/track/4U0k543bgUrBh9n0OxDxsp",
+        "plays": 1
+      },
+      {
+        "name": "Willow Weep For Me",
+        "album": "Lady Sings The Blues",
+        "spotify_url": "https://open.spotify.com/track/4W6g5kfwp0LVBFauBSdx08",
+        "plays": 1
+      },
+      {
+        "name": "Good Morning Heartache",
+        "album": "The Lady Sings",
+        "spotify_url": "https://open.spotify.com/track/5jGqJTsejbAy7QdhAH2Qwp",
+        "plays": 1
+      },
+      {
+        "name": "If The Moon Turns Green",
+        "album": "Recital",
+        "spotify_url": "https://open.spotify.com/track/3VVfyUGLBWKkTbGIuoLd1l",
+        "plays": 1
+      },
+      {
+        "name": "You're Driving Me Crazy",
+        "album": "Billie and Stan",
+        "spotify_url": "https://open.spotify.com/track/5F1RyjjdQAK6eLbw3WPc9S",
+        "plays": 1
+      },
+      {
+        "name": "You Don't Know What Love Is",
+        "album": "Lady In Satin",
+        "spotify_url": "https://open.spotify.com/track/5UPJdlkMWG2G2UwTfGSjOe",
+        "plays": 1
+      },
+      {
+        "name": "Summertime",
+        "album": "Summertime",
+        "spotify_url": "https://open.spotify.com/track/6UUPYYMdNdjohuZGfeRdtD",
+        "plays": 1
+      },
+      {
+        "name": "Do Nothin' Till You Hear From Me - 1956 Version",
+        "album": "All Or Nothing At All",
+        "spotify_url": "https://open.spotify.com/track/7ueJIjtiVTKmYmDpvQokdG",
+        "plays": 1
+      },
+      {
+        "name": "Strange Fruit",
+        "album": "Billie Holiday",
+        "spotify_url": "https://open.spotify.com/track/1CTex49P0iWwzUGsMNjgaV",
         "plays": 1
       }
     ]
@@ -39029,426 +41313,6 @@
       }
     ]
   },
-  "billie-holiday": {
-    "id": "1YzCsTRb22dQkh9lghPIrp",
-    "name": "Billie Holiday",
-    "spotify_url": "https://open.spotify.com/artist/1YzCsTRb22dQkh9lghPIrp",
-    "total_plays": 99,
-    "first_seen": "",
-    "last_seen": "",
-    "genres": [
-      "adult standards",
-      "harlem renaissance",
-      "jazz",
-      "jazz blues",
-      "soul",
-      "swing",
-      "torch song",
-      "vocal jazz"
-    ],
-    "images": [
-      {
-        "height": 828,
-        "url": "https://i.scdn.co/image/4efa6b6871a0f672b78b3d16fd5a03c6cd212d58",
-        "width": 1000
-      },
-      {
-        "height": 530,
-        "url": "https://i.scdn.co/image/11f685f3011fd163c386ce1afe7ce543ad814817",
-        "width": 640
-      },
-      {
-        "height": 166,
-        "url": "https://i.scdn.co/image/0f472c69891d82d5049f7de35426b2fdeb6051c0",
-        "width": 200
-      },
-      {
-        "height": 53,
-        "url": "https://i.scdn.co/image/73b9538798c13c7be7558d69b02019cf19e1d5db",
-        "width": 64
-      }
-    ],
-    "top_tracks": [
-      {
-        "name": "I'm a Fool to Want You",
-        "album": "Lady In Satin",
-        "spotify_url": "https://open.spotify.com/track/6Rvz1jM5eUqzNs2Pi8RMTG",
-        "plays": 3
-      },
-      {
-        "name": "I'm a Fool to Want You",
-        "album": "Lady In Satin: The Centennial Edition",
-        "spotify_url": "https://open.spotify.com/track/6SMbbPXKYIqOmmNulpuPSG",
-        "plays": 3
-      },
-      {
-        "name": "Blue Moon",
-        "album": "Solitude",
-        "spotify_url": "https://open.spotify.com/track/1pZn8AX1WulW8IO338hE5D",
-        "plays": 2
-      },
-      {
-        "name": "Lover Man",
-        "album": "Lover Man",
-        "spotify_url": "https://open.spotify.com/track/0DuWyzeLH09PQcnOMJiRgE",
-        "plays": 2
-      },
-      {
-        "name": "Moonglow",
-        "album": "Solitude",
-        "spotify_url": "https://open.spotify.com/track/1rUpHU45dBawthkWVugcQn",
-        "plays": 2
-      },
-      {
-        "name": "East Of The Sun (West Of The Moon)",
-        "album": "Solitude",
-        "spotify_url": "https://open.spotify.com/track/1zE0JZiHOBPlHwLsf4wBld",
-        "plays": 2
-      },
-      {
-        "name": "I Get Along Without You Very Well",
-        "album": "Lady In Satin",
-        "spotify_url": "https://open.spotify.com/track/0MwFfbwwhTxa7ZMdFjVoGp",
-        "plays": 2
-      },
-      {
-        "name": "Glad to Be Unhappy",
-        "album": "Lady In Satin",
-        "spotify_url": "https://open.spotify.com/track/0e3JeTAg6R4C659PjpMDCR",
-        "plays": 2
-      },
-      {
-        "name": "Lady Sings The Blues",
-        "album": "Lady Sings The Blues",
-        "spotify_url": "https://open.spotify.com/track/0iGu0ULXUSJRvXPCeEqHhO",
-        "plays": 2
-      },
-      {
-        "name": "Solitude",
-        "album": "Lover Man",
-        "spotify_url": "https://open.spotify.com/track/2Dx00nkJWh9UIVN3NlQoec",
-        "plays": 2
-      },
-      {
-        "name": "Sometimes I'm Happy",
-        "album": "Billie Holiday With Ray Ellis And His Orchestra",
-        "spotify_url": "https://open.spotify.com/track/2WbEYJsgFtFUBiVHinYzpE",
-        "plays": 2
-      },
-      {
-        "name": "Love Me Or Leave Me",
-        "album": "Lady Sings The Blues",
-        "spotify_url": "https://open.spotify.com/track/5ZGaS6Q8WW21pyQWajBcXs",
-        "plays": 2
-      },
-      {
-        "name": "Don't Explain",
-        "album": "The Lady Sings",
-        "spotify_url": "https://open.spotify.com/track/6GLMwwNDbiiBe4D9JcSOwP",
-        "plays": 2
-      },
-      {
-        "name": "I Only Have Eyes For You",
-        "album": "Solitude",
-        "spotify_url": "https://open.spotify.com/track/6Y8QG1S14e2o0Tx0rppi0V",
-        "plays": 2
-      },
-      {
-        "name": "Autumn In New York",
-        "album": "Recital",
-        "spotify_url": "https://open.spotify.com/track/6o5RbQYhmF4yRRw7ZArxGL",
-        "plays": 2
-      },
-      {
-        "name": "You've Changed",
-        "album": "Lady In Satin",
-        "spotify_url": "https://open.spotify.com/track/6pyIYkI6eckBahwLKnAfHG",
-        "plays": 2
-      },
-      {
-        "name": "God Bless The Child",
-        "album": "Lady Sings The Blues",
-        "spotify_url": "https://open.spotify.com/track/6rX7Rgi2O5csTzLan7rL0c",
-        "plays": 2
-      },
-      {
-        "name": "Body And Soul",
-        "album": "Body and Soul",
-        "spotify_url": "https://open.spotify.com/track/7c7yHHFdYkqBzS1DG3UIFq",
-        "plays": 2
-      },
-      {
-        "name": "I Must Have That Man!",
-        "album": "Lady Sings The Blues",
-        "spotify_url": "https://open.spotify.com/track/00V6rYQ0nyE5KOLDMAlloC",
-        "plays": 2
-      },
-      {
-        "name": "These Foolish Things (Remind Me Of You)",
-        "album": "Solitude",
-        "spotify_url": "https://open.spotify.com/track/0ii3b9U8Yw0qnwEUBw0zZs",
-        "plays": 2
-      },
-      {
-        "name": "Studio Talk #5",
-        "album": "The Complete Billie Holiday On Verve 1945 - 1959",
-        "spotify_url": "https://open.spotify.com/track/0rbqKihC0VJq0INo8VB1oq",
-        "plays": 2
-      },
-      {
-        "name": "Speak Low",
-        "album": "All Or Nothing At All",
-        "spotify_url": "https://open.spotify.com/track/17SIqmKU86yUoUq41MyklH",
-        "plays": 2
-      },
-      {
-        "name": "You Turned The Tables On Me",
-        "album": "Solitude",
-        "spotify_url": "https://open.spotify.com/track/1Aa2phci2wSI0PWyoESUJA",
-        "plays": 2
-      },
-      {
-        "name": "I Gotta Right To Sing The Blues - Take 2",
-        "album": "Billie Holiday",
-        "spotify_url": "https://open.spotify.com/track/1MZIt5qgHCSH0NzJCUg5cm",
-        "plays": 2
-      },
-      {
-        "name": "It Had To Be You",
-        "album": "Music For Torching",
-        "spotify_url": "https://open.spotify.com/track/1l3tnchl5noYMXhMjjTvhf",
-        "plays": 2
-      },
-      {
-        "name": "I'll Look Around",
-        "album": "The Lady Sings",
-        "spotify_url": "https://open.spotify.com/track/1wAURZCIA0k5RNwaJN3dH3",
-        "plays": 2
-      },
-      {
-        "name": "Too Marvelous For Words",
-        "album": "Lady Sings The Blues",
-        "spotify_url": "https://open.spotify.com/track/2XOXYNVmg0Mpm6WlLC0LHx",
-        "plays": 2
-      },
-      {
-        "name": "He's Funny That Way",
-        "album": "An Evening With Billie Holiday",
-        "spotify_url": "https://open.spotify.com/track/3jG6okC06hzdqzIRcEzs7H",
-        "plays": 2
-      },
-      {
-        "name": "Just One Of Those Things - Take 8 - Master Take",
-        "album": "Songs For Distingué Lovers",
-        "spotify_url": "https://open.spotify.com/track/434Icqe1n6rfIoOSwhrYbn",
-        "plays": 2
-      },
-      {
-        "name": "Saddest Tale",
-        "album": "Ellington In Order, Volume 6 (1934-36)",
-        "spotify_url": "https://open.spotify.com/track/4gb5jPLDzsGAVCZ2KPem8g",
-        "plays": 2
-      },
-      {
-        "name": "Baby, I Don't Cry Over You",
-        "album": "The Blues Are Brewin'",
-        "spotify_url": "https://open.spotify.com/track/5gXoSVnLyvxRFdvIhUElXS",
-        "plays": 2
-      },
-      {
-        "name": "Cheek To Cheek",
-        "album": "All Or Nothing At All",
-        "spotify_url": "https://open.spotify.com/track/6qJbpvaU6MVjb3XxyHetVR",
-        "plays": 2
-      },
-      {
-        "name": "Detour Ahead",
-        "album": "Billie and Stan",
-        "spotify_url": "https://open.spotify.com/track/70HFlvpr5UtzrLQdTrUNG3",
-        "plays": 2
-      },
-      {
-        "name": "Miss Brown to you",
-        "album": "Simply ... Lady Day! (2019 Remaster)",
-        "spotify_url": "https://open.spotify.com/track/76ljbryYuL69C5Fc7GvVrN",
-        "plays": 2
-      },
-      {
-        "name": "I'll Be Seeing You",
-        "album": "Billie Holiday",
-        "spotify_url": "https://open.spotify.com/track/4smkJW6uzoHxGReZqqwHS5",
-        "plays": 1
-      },
-      {
-        "name": "On The Sunny Side Of The Street",
-        "album": "Billie Holiday",
-        "spotify_url": "https://open.spotify.com/track/16ARXAJAcL8ubHDpBLcqDQ",
-        "plays": 1
-      },
-      {
-        "name": "All of Me",
-        "album": "Lady Day: The Complete Billie Holiday On Columbia (1933-1944)",
-        "spotify_url": "https://open.spotify.com/track/1LGqJ3nvxpVXDWpEzq4DJD",
-        "plays": 1
-      },
-      {
-        "name": "Easy living",
-        "album": "Simply ... Lady Day! (2019 Remaster)",
-        "spotify_url": "https://open.spotify.com/track/44t2D1xsAwPRPrcfOQz5yL",
-        "plays": 1
-      },
-      {
-        "name": "You Go To My Head",
-        "album": "Solitude",
-        "spotify_url": "https://open.spotify.com/track/78MIFwIW5oUNdaL6Sj8hTB",
-        "plays": 1
-      },
-      {
-        "name": "Fine And Mellow",
-        "album": "Billie Holiday",
-        "spotify_url": "https://open.spotify.com/track/1QdQ4r05QWhtcTTXOgRtyA",
-        "plays": 1
-      },
-      {
-        "name": "Stormy Weather",
-        "album": "An Evening With Billie Holiday",
-        "spotify_url": "https://open.spotify.com/track/3mwIoHzwnTnGWjAUVqajLr",
-        "plays": 1
-      },
-      {
-        "name": "Tenderly",
-        "album": "Solitude",
-        "spotify_url": "https://open.spotify.com/track/4dUDfXcIhBWs1ybDWzyCd8",
-        "plays": 1
-      },
-      {
-        "name": "Love Is Here To Stay",
-        "album": "All Or Nothing At All",
-        "spotify_url": "https://open.spotify.com/track/4x4gE6oHHuZ2y7yUsGuOO1",
-        "plays": 1
-      },
-      {
-        "name": "Porgy",
-        "album": "Lover Man",
-        "spotify_url": "https://open.spotify.com/track/4zmNvhsd4kDCtQSmpQqLlf",
-        "plays": 1
-      },
-      {
-        "name": "Easy To Love",
-        "album": "Solitude",
-        "spotify_url": "https://open.spotify.com/track/5FVAdaE6kYzs49jpQviM05",
-        "plays": 1
-      },
-      {
-        "name": "The Man I Love",
-        "album": "Lady Day: The Complete Billie Holiday On Columbia (1933-1944)",
-        "spotify_url": "https://open.spotify.com/track/0ndEbK6LnERIPBG6t4gXDX",
-        "plays": 1
-      },
-      {
-        "name": "For Heaven's Sake",
-        "album": "Lady In Satin",
-        "spotify_url": "https://open.spotify.com/track/2BUxmT11iPwKGdXx1frAUb",
-        "plays": 1
-      },
-      {
-        "name": "You Go to My Head - Take 1",
-        "album": "Lady Day: The Complete Billie Holiday On Columbia (1933-1944)",
-        "spotify_url": "https://open.spotify.com/track/2gO8JWuzl0U9PtwcVnIsEa",
-        "plays": 1
-      },
-      {
-        "name": "God Bless The Child",
-        "album": "The Lady Sings",
-        "spotify_url": "https://open.spotify.com/track/2xtC6kb6H26qVX4ZdncS7f",
-        "plays": 1
-      },
-      {
-        "name": "Solitude",
-        "album": "Solitude",
-        "spotify_url": "https://open.spotify.com/track/30QD4VRP9yEneOh0eGTrtJ",
-        "plays": 1
-      },
-      {
-        "name": "April In Paris",
-        "album": "All Or Nothing At All",
-        "spotify_url": "https://open.spotify.com/track/34zhjduFdQFhkRUJ230h9T",
-        "plays": 1
-      },
-      {
-        "name": "All Of You",
-        "album": "Billie Holiday With Ray Ellis And His Orchestra",
-        "spotify_url": "https://open.spotify.com/track/3XOJhbofb4qTZdt0RLLrUq",
-        "plays": 1
-      },
-      {
-        "name": "I Thought About You",
-        "album": "Lady Sings The Blues",
-        "spotify_url": "https://open.spotify.com/track/3j3OqS6eOAepLwcCgXsz5h",
-        "plays": 1
-      },
-      {
-        "name": "As Time Goes By",
-        "album": "The Complete Commodore Recordings",
-        "spotify_url": "https://open.spotify.com/track/3lO4Z6BSp773vcovgYurHg",
-        "plays": 1
-      },
-      {
-        "name": "I Love You, Porgy",
-        "album": "Billie and Stan",
-        "spotify_url": "https://open.spotify.com/track/4U0k543bgUrBh9n0OxDxsp",
-        "plays": 1
-      },
-      {
-        "name": "Willow Weep For Me",
-        "album": "Lady Sings The Blues",
-        "spotify_url": "https://open.spotify.com/track/4W6g5kfwp0LVBFauBSdx08",
-        "plays": 1
-      },
-      {
-        "name": "Good Morning Heartache",
-        "album": "The Lady Sings",
-        "spotify_url": "https://open.spotify.com/track/5jGqJTsejbAy7QdhAH2Qwp",
-        "plays": 1
-      },
-      {
-        "name": "If The Moon Turns Green",
-        "album": "Recital",
-        "spotify_url": "https://open.spotify.com/track/3VVfyUGLBWKkTbGIuoLd1l",
-        "plays": 1
-      },
-      {
-        "name": "You're Driving Me Crazy",
-        "album": "Billie and Stan",
-        "spotify_url": "https://open.spotify.com/track/5F1RyjjdQAK6eLbw3WPc9S",
-        "plays": 1
-      },
-      {
-        "name": "You Don't Know What Love Is",
-        "album": "Lady In Satin",
-        "spotify_url": "https://open.spotify.com/track/5UPJdlkMWG2G2UwTfGSjOe",
-        "plays": 1
-      },
-      {
-        "name": "Summertime",
-        "album": "Summertime",
-        "spotify_url": "https://open.spotify.com/track/6UUPYYMdNdjohuZGfeRdtD",
-        "plays": 1
-      },
-      {
-        "name": "Do Nothin' Till You Hear From Me - 1956 Version",
-        "album": "All Or Nothing At All",
-        "spotify_url": "https://open.spotify.com/track/7ueJIjtiVTKmYmDpvQokdG",
-        "plays": 1
-      },
-      {
-        "name": "Strange Fruit",
-        "album": "Billie Holiday",
-        "spotify_url": "https://open.spotify.com/track/1CTex49P0iWwzUGsMNjgaV",
-        "plays": 1
-      }
-    ]
-  },
   "ahmad-jamal-trio": {
     "id": "0BqALs1lInR9TTOulUADH7",
     "name": "Ahmad Jamal Trio",
@@ -42707,148 +44571,6 @@
         "name": "Past reflections",
         "album": "Past reflections",
         "spotify_url": "https://open.spotify.com/track/661Apu8vWjJ84fnw6DTkBt",
-        "plays": 1
-      }
-    ]
-  },
-  "ottorino-respighi": {
-    "id": "7KkUirCiJZhgRN3NbgG98L",
-    "name": "Ottorino Respighi",
-    "spotify_url": "https://open.spotify.com/artist/7KkUirCiJZhgRN3NbgG98L",
-    "total_plays": 27,
-    "first_seen": "",
-    "last_seen": "",
-    "genres": [
-      "classical",
-      "early modern classical",
-      "impressionism",
-      "italian romanticism",
-      "neoclassicism",
-      "post-romantic era"
-    ],
-    "images": [
-      {
-        "height": 1000,
-        "url": "https://i.scdn.co/image/6f1664190b39f8b288ab3ce0e32884cc33cfb2cd",
-        "width": 1000
-      },
-      {
-        "height": 640,
-        "url": "https://i.scdn.co/image/0fc5f3a115ed10d13f22f7c1216ee4b8d721119e",
-        "width": 640
-      },
-      {
-        "height": 200,
-        "url": "https://i.scdn.co/image/5bb64126830ff9249bcf930d5e379610b205faa5",
-        "width": 200
-      },
-      {
-        "height": 64,
-        "url": "https://i.scdn.co/image/dde6aac764cfd79f2cc90a5624b98788618b83a6",
-        "width": 64
-      }
-    ],
-    "top_tracks": [
-      {
-        "name": "Suite No. 3, P. 172: I. Italiana: Andantino",
-        "album": "Respighi: Ancient Airs And Dances, Suites Nos. 1-3",
-        "spotify_url": "https://open.spotify.com/track/04A0DEE7bul6oA3xmGhiQp",
-        "plays": 2
-      },
-      {
-        "name": "6 Pezzi, P. 44: No. 6. Internmezzo-serenata",
-        "album": "Respighi: Piano Music",
-        "spotify_url": "https://open.spotify.com/track/5fVw7TjMRqG183RyPIUoba",
-        "plays": 2
-      },
-      {
-        "name": "Antiche Danze Ed Arie Per Liuto (Ancient Airs And Dances), P. 114: I. Balletto Detto 'Il Conte Orlando'",
-        "album": "Respighi: Piano Music",
-        "spotify_url": "https://open.spotify.com/track/5pXGaOCnwIuKdu1PIA5maJ",
-        "plays": 2
-      },
-      {
-        "name": "6 Pezzi, P. 44: No. 5. Studio",
-        "album": "Respighi: Piano Music",
-        "spotify_url": "https://open.spotify.com/track/0EGKIwHF13Gry0Ov0hpVpT",
-        "plays": 2
-      },
-      {
-        "name": "Gli uccelli (The Birds), P. 154: V. Il cucu: Allegro",
-        "album": "Respighi: Suite in G Major, P. 58, Trittico botticelliano, The Birds, & Serenata",
-        "spotify_url": "https://open.spotify.com/track/25V8y1DL6EKMhpwKxPuyRK",
-        "plays": 2
-      },
-      {
-        "name": "3 Preludi Sopra Melodie Gregoriane, P. 131: I. Molto Lento",
-        "album": "Respighi: Piano Music",
-        "spotify_url": "https://open.spotify.com/track/1ONzRvx7L9jhvyyqZJoh9m",
-        "plays": 2
-      },
-      {
-        "name": "Antiche Danze Ed Arie Per Liuto (Ancient Airs And Dances), P. 114: VI. Passacaglia",
-        "album": "Respighi: Piano Music",
-        "spotify_url": "https://open.spotify.com/track/3ByR24hDhHVR0kCjIlLw8P",
-        "plays": 2
-      },
-      {
-        "name": "Antiche Danze Ed Arie Per Liuto (Ancient Airs And Dances), P. 114: II. Villanella (Quadro III",
-        "album": "Respighi: Piano Music",
-        "spotify_url": "https://open.spotify.com/track/7kdEXrpgmqoUaJN6Y3hYm1",
-        "plays": 2
-      },
-      {
-        "name": "Suite in G Major, P. 58 (Original Version): III. Pastorale: Andante molto sostenuto",
-        "album": "Respighi: Suite in G Major, P. 58, Trittico botticelliano, The Birds, & Serenata",
-        "spotify_url": "https://open.spotify.com/track/7xUtAua8LoSUPNJZSlo9Qd",
-        "plays": 2
-      },
-      {
-        "name": "La pentola magica, P. 129: Preludio",
-        "album": "Respighi: Astuzie De Columbina (Le) / La Pentola Magica",
-        "spotify_url": "https://open.spotify.com/track/10i5u8aKyqP76Pi2G3g7oQ",
-        "plays": 2
-      },
-      {
-        "name": "Antiche Danze Ed Arie Per Liuto (Ancient Airs And Dances), P. 114: IV. Italiana",
-        "album": "Respighi: Piano Music",
-        "spotify_url": "https://open.spotify.com/track/73p40DaAebttScQi46SEow",
-        "plays": 1
-      },
-      {
-        "name": "6 Pezzi, P. 44: No. 3. Notturno",
-        "album": "Respighi: Piano Music",
-        "spotify_url": "https://open.spotify.com/track/4z9lWT4B9ILqOPcA58TUM1",
-        "plays": 1
-      },
-      {
-        "name": "6 Pezzi, P. 44: No. 1. Valse Caressante",
-        "album": "Respighi: Piano Music",
-        "spotify_url": "https://open.spotify.com/track/5A4wpjkIzZ8R9v9PxolrSo",
-        "plays": 1
-      },
-      {
-        "name": "Antiche Danze Ed Arie Per Liuto (Ancient Airs And Dances), P. 114: V. Siciliana",
-        "album": "Respighi: Piano Music",
-        "spotify_url": "https://open.spotify.com/track/25zuTyYgArAIuecFZbV8fx",
-        "plays": 1
-      },
-      {
-        "name": "6 Pezzi, P. 44: No. 4. Minuetto",
-        "album": "Respighi: Piano Music",
-        "spotify_url": "https://open.spotify.com/track/1cLlz5G14b3XaRu8CmBauE",
-        "plays": 1
-      },
-      {
-        "name": "Antiche Danze Ed Arie Per Liuto (Ancient Airs And Dances), P. 114: III. Gagliarda",
-        "album": "Respighi: Piano Music",
-        "spotify_url": "https://open.spotify.com/track/7BCS2gPliMtnXii3NyPG1T",
-        "plays": 1
-      },
-      {
-        "name": "3 Corali, P. 167: No. 2, Andante con moto e scherzando (After J.S. Bach's BWV 648)",
-        "album": "Respighi: Orchestral Works",
-        "spotify_url": "https://open.spotify.com/track/2v7gGdmQx4eQBqceboMLJi",
         "plays": 1
       }
     ]
@@ -48484,147 +50206,6 @@
         "name": "The Book of Love",
         "album": "69 Love Songs",
         "spotify_url": "https://open.spotify.com/track/62ZYyXIsHVX5xVUj80arVu",
-        "plays": 1
-      }
-    ]
-  },
-  "the-pharcyde": {
-    "id": "7yk35uHNQclPXFGFoTU44w",
-    "name": "The Pharcyde",
-    "spotify_url": "https://open.spotify.com/artist/7yk35uHNQclPXFGFoTU44w",
-    "total_plays": 24,
-    "first_seen": "",
-    "last_seen": "",
-    "genres": [
-      "alternative hip hop",
-      "hardcore hip hop",
-      "hip hop",
-      "jazz rap",
-      "west coast rap"
-    ],
-    "images": [
-      {
-        "height": 1394,
-        "url": "https://i.scdn.co/image/db124909dcc277881bf55ed159bd417d82e2ced1",
-        "width": 1000
-      },
-      {
-        "height": 892,
-        "url": "https://i.scdn.co/image/01126acfcb317eaa068dfb1699006946abe51262",
-        "width": 640
-      },
-      {
-        "height": 279,
-        "url": "https://i.scdn.co/image/379f08564c1550cf56734267857226bb1a0b7bee",
-        "width": 200
-      },
-      {
-        "height": 89,
-        "url": "https://i.scdn.co/image/7959e017ada2921da27ba3d8e93222d70b121733",
-        "width": 64
-      }
-    ],
-    "top_tracks": [
-      {
-        "name": "Passin' Me By",
-        "album": "Bizarre Ride II The Pharcyde",
-        "spotify_url": "https://open.spotify.com/track/4G3dZN9o3o2X4VKwt4CLts",
-        "plays": 2
-      },
-      {
-        "name": "Moment In Time",
-        "album": "Labcabincalifornia (Deluxe Edition)",
-        "spotify_url": "https://open.spotify.com/track/0BVXmJ0LW75WTqu82nxkuM",
-        "plays": 2
-      },
-      {
-        "name": "Somethin' That Means Somethin'",
-        "album": "Labcabincalifornia (Deluxe Edition)",
-        "spotify_url": "https://open.spotify.com/track/0zDQvPKS56nrUSa4QNGBe3",
-        "plays": 2
-      },
-      {
-        "name": "4 Better Or 4 Worse - DJ Nu-Mark Remix",
-        "album": "Runnin' / 4 Better Or 4 Worse (Remixes)",
-        "spotify_url": "https://open.spotify.com/track/1KHUsvQPOADCJko6Ws9H8Q",
-        "plays": 2
-      },
-      {
-        "name": "Otha Fish",
-        "album": "Bizarre Ride II The Pharcyde",
-        "spotify_url": "https://open.spotify.com/track/1KcZRMyC2tSs3CMIsng9wx",
-        "plays": 2
-      },
-      {
-        "name": "Ya Mama",
-        "album": "Bizarre Ride II The Pharcyde",
-        "spotify_url": "https://open.spotify.com/track/3Idgk0phpc2oewAJzKgoU4",
-        "plays": 2
-      },
-      {
-        "name": "Splattitorium",
-        "album": "Labcabincalifornia (Deluxe Edition)",
-        "spotify_url": "https://open.spotify.com/track/6Y9qIPBqv8H0mpiSfx8rk4",
-        "plays": 2
-      },
-      {
-        "name": "Pandemonium",
-        "album": "Labcabincalifornia (Deluxe Edition)",
-        "spotify_url": "https://open.spotify.com/track/7dXTYbB4dzSxPfls25UfmU",
-        "plays": 1
-      },
-      {
-        "name": "Runnin'",
-        "album": "Labcabincalifornia (Deluxe Edition)",
-        "spotify_url": "https://open.spotify.com/track/0XgpiStoxq1IJncYlPrvZ5",
-        "plays": 1
-      },
-      {
-        "name": "On The DL",
-        "album": "Bizarre Ride II The Pharcyde",
-        "spotify_url": "https://open.spotify.com/track/1XEhyHoErJvMksWXjZRauV",
-        "plays": 1
-      },
-      {
-        "name": "Soul Flower",
-        "album": "Heavy Rhyme Experience: Vol. 1",
-        "spotify_url": "https://open.spotify.com/track/1awqT9Qyeb5Wbyr2mBzVeh",
-        "plays": 1
-      },
-      {
-        "name": "Knew U",
-        "album": "Humboldt Beginnings",
-        "spotify_url": "https://open.spotify.com/track/2NZl9X1kLLGGmGcVcJN0wP",
-        "plays": 1
-      },
-      {
-        "name": "If I Were President (Skit)",
-        "album": "Bizarre Ride II The Pharcyde",
-        "spotify_url": "https://open.spotify.com/track/3zrqcFaZI10iKuiFwKBNlD",
-        "plays": 1
-      },
-      {
-        "name": "It's Jiggaboo Time (Skit)",
-        "album": "Bizarre Ride II The Pharcyde",
-        "spotify_url": "https://open.spotify.com/track/54X9TiXRLv9n0BBmnGWzJC",
-        "plays": 1
-      },
-      {
-        "name": "Doin' Time - Remixed By Marshall Arts",
-        "album": "Sublime (10th Anniversary Edition / Deluxe Edition)",
-        "spotify_url": "https://open.spotify.com/track/5uCfqIxzABOjZDSlaZl1Gf",
-        "plays": 1
-      },
-      {
-        "name": "Let It Go (feat. The Pharcyde) - Regrind 09",
-        "album": "Raiding the Vaults",
-        "spotify_url": "https://open.spotify.com/track/6xpQMq4xTYKJp1mxdCIOvT",
-        "plays": 1
-      },
-      {
-        "name": "Drop",
-        "album": "Labcabincalifornia (Deluxe Edition)",
-        "spotify_url": "https://open.spotify.com/track/7sT3O2PXs1o12XnCKlv204",
         "plays": 1
       }
     ]
@@ -60528,80 +62109,6 @@
       }
     ]
   },
-  "modest-mussorgsky": {
-    "id": "284mnx33IWcymQEpMxyfHl",
-    "name": "Modest Mussorgsky",
-    "spotify_url": "https://open.spotify.com/artist/284mnx33IWcymQEpMxyfHl",
-    "total_plays": 9,
-    "first_seen": "",
-    "last_seen": "",
-    "genres": [
-      "classical",
-      "early modern classical",
-      "late romantic era",
-      "russian romanticism"
-    ],
-    "images": [
-      {
-        "height": 1291,
-        "url": "https://i.scdn.co/image/20b923e03dd0fb8cd20fb93559b9ed9a0e7aefbc",
-        "width": 1000
-      },
-      {
-        "height": 826,
-        "url": "https://i.scdn.co/image/3e128653fdcf2f4a0f563a6d658a2aff945adb99",
-        "width": 640
-      },
-      {
-        "height": 258,
-        "url": "https://i.scdn.co/image/e6c99bfcb3d04655f541268cae3efdf7cf35de7e",
-        "width": 200
-      },
-      {
-        "height": 83,
-        "url": "https://i.scdn.co/image/7b78362a6ff6c8b866adb2fca13f9d5a25ec2c5d",
-        "width": 64
-      }
-    ],
-    "top_tracks": [
-      {
-        "name": "Pictures at an Exhibition: Promenade 2",
-        "album": "Classical Composure: Piano Works",
-        "spotify_url": "https://open.spotify.com/track/3VCyBWiXufJWHWWyHm4e2r",
-        "plays": 2
-      },
-      {
-        "name": "Pictures at an Exhibition (Orch. Ravel): Promenade II",
-        "album": "Mussorgsky: Pictures At An Exhibition",
-        "spotify_url": "https://open.spotify.com/track/7etkHCIevRXLnNIg0bvxKi",
-        "plays": 2
-      },
-      {
-        "name": "Pictures At An Exhibition: Promenade - II",
-        "album": "Mussorgsky: Pictures at an Exhibition",
-        "spotify_url": "https://open.spotify.com/track/1pDCv7N2OZ7oGcjH5ntjW9",
-        "plays": 2
-      },
-      {
-        "name": "Pictures at an Exhibition: Promenade. Moderato commodo assai e con delicatezza - attacca",
-        "album": "Mussorgsky: Pictures at an Exhibition / Ravel: Valses nobles",
-        "spotify_url": "https://open.spotify.com/track/7k8R3AMbEl1XHr1tIA7piW",
-        "plays": 1
-      },
-      {
-        "name": "Pictures at an Exhibition (Orch. M. Ravel): Promenade II",
-        "album": "Ravel: Orchestral Works, Vol. 3 – Orchestrations",
-        "spotify_url": "https://open.spotify.com/track/5uONLpSzdrUP6N1rSKRU8o",
-        "plays": 1
-      },
-      {
-        "name": "Pictures at an Exhibition (Orch. Ravel): VIIIb. Cum mortuis in lingua mortua",
-        "album": "Mussorgsky: Pictures At An Exhibition",
-        "spotify_url": "https://open.spotify.com/track/3vUKiu1KUSA0a790dw8l2o",
-        "plays": 1
-      }
-    ]
-  },
   "elvis-costello": {
     "id": "2BGRfQgtzikz1pzAD0kaEn",
     "name": "Elvis Costello",
@@ -60761,62 +62268,6 @@
         "name": "For Heaven's Sake",
         "album": "Nights Of Ballads & Blues",
         "spotify_url": "https://open.spotify.com/track/4hZ1oZezePDpNnNfYjoyqw",
-        "plays": 1
-      }
-    ]
-  },
-  "uncle-tupelo": {
-    "id": "2Plkkomsc4DKawkCioLKjc",
-    "name": "Uncle Tupelo",
-    "spotify_url": "https://open.spotify.com/artist/2Plkkomsc4DKawkCioLKjc",
-    "total_plays": 5,
-    "first_seen": "",
-    "last_seen": "",
-    "genres": [
-      "alternative country",
-      "heartland rock",
-      "roots rock",
-      "singer-songwriter"
-    ],
-    "images": [
-      {
-        "height": 733,
-        "url": "https://i.scdn.co/image/d301a16b58cfbaaa295938b14b8d305061538401",
-        "width": 1000
-      },
-      {
-        "height": 469,
-        "url": "https://i.scdn.co/image/07a1b64554dae8b2d7da02e8c8f02ee0513dd73c",
-        "width": 640
-      },
-      {
-        "height": 147,
-        "url": "https://i.scdn.co/image/10f80a736acc58b108ebf96061b8c74d2e25de13",
-        "width": 200
-      },
-      {
-        "height": 47,
-        "url": "https://i.scdn.co/image/739df3fdbcf418fac6141692077d495066a95a87",
-        "width": 64
-      }
-    ],
-    "top_tracks": [
-      {
-        "name": "Atomic Power",
-        "album": "March 16-20, 1992",
-        "spotify_url": "https://open.spotify.com/track/0rVrDzOeAXrTJZ71ZpJvZO",
-        "plays": 2
-      },
-      {
-        "name": "No Depression",
-        "album": "No Depression",
-        "spotify_url": "https://open.spotify.com/track/1OTH0AgyDuo6KZ8BwHVRD1",
-        "plays": 2
-      },
-      {
-        "name": "New Madrid",
-        "album": "Anodyne",
-        "spotify_url": "https://open.spotify.com/track/4Ssgx7QJr0fzabt4D4JZ1b",
         "plays": 1
       }
     ]

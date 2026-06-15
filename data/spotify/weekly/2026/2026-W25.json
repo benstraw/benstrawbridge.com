@@ -1,0 +1,141 @@
+{
+  "week": "2026-W25",
+  "title": "Week of Jun 15, 2026",
+  "year": 2026,
+  "week_num": 25,
+  "date_start": "2026-06-15",
+  "date_end": "2026-06-21",
+  "total_plays": 5,
+  "unique_artists": 2,
+  "topArtistName": "Billie Holiday",
+  "topArtistImages": [
+    {
+      "height": 828,
+      "url": "https://i.scdn.co/image/4efa6b6871a0f672b78b3d16fd5a03c6cd212d58",
+      "width": 1000
+    },
+    {
+      "height": 530,
+      "url": "https://i.scdn.co/image/11f685f3011fd163c386ce1afe7ce543ad814817",
+      "width": 640
+    },
+    {
+      "height": 166,
+      "url": "https://i.scdn.co/image/0f472c69891d82d5049f7de35426b2fdeb6051c0",
+      "width": 200
+    },
+    {
+      "height": 53,
+      "url": "https://i.scdn.co/image/73b9538798c13c7be7558d69b02019cf19e1d5db",
+      "width": 64
+    }
+  ],
+  "top_genres": [
+    {
+      "name": "jazz",
+      "plays": 5
+    },
+    {
+      "name": "big band",
+      "plays": 5
+    },
+    {
+      "name": "swing music",
+      "plays": 5
+    },
+    {
+      "name": "vocal jazz",
+      "plays": 4
+    },
+    {
+      "name": "cool jazz",
+      "plays": 1
+    },
+    {
+      "name": "jazz ballads",
+      "plays": 1
+    }
+  ],
+  "top_artists": [
+    {
+      "slug": "billie-holiday",
+      "name": "Billie Holiday",
+      "plays": 4,
+      "images": [
+        {
+          "height": 828,
+          "url": "https://i.scdn.co/image/4efa6b6871a0f672b78b3d16fd5a03c6cd212d58",
+          "width": 1000
+        },
+        {
+          "height": 530,
+          "url": "https://i.scdn.co/image/11f685f3011fd163c386ce1afe7ce543ad814817",
+          "width": 640
+        },
+        {
+          "height": 166,
+          "url": "https://i.scdn.co/image/0f472c69891d82d5049f7de35426b2fdeb6051c0",
+          "width": 200
+        },
+        {
+          "height": 53,
+          "url": "https://i.scdn.co/image/73b9538798c13c7be7558d69b02019cf19e1d5db",
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "duke-ellington",
+      "name": "Duke Ellington",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/1e24691a352233bbe989a311d921f17e7892a87e",
+          "height": 1154,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/c169af91bf56ac7d3962000f6ab237e1586d9732",
+          "height": 739,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/b6a297e56436a75ffcab7f594dafc46c9872f793",
+          "height": 231,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/2ac71fb8c2ff235d2484d40d274473767eaf07b5",
+          "height": 74,
+          "width": 64
+        }
+      ]
+    }
+  ],
+  "top_tracks": [
+    {
+      "name": "Gloomy Sunday (with Teddy Wilson & His Orchestra) - Take 1",
+      "artist": "Billie Holiday",
+      "artist_slug": "billie-holiday",
+      "plays": 2
+    },
+    {
+      "name": "In A Sentimental Mood",
+      "artist": "Duke Ellington",
+      "artist_slug": "duke-ellington",
+      "plays": 1
+    },
+    {
+      "name": "Autumn In New York",
+      "artist": "Billie Holiday",
+      "artist_slug": "billie-holiday",
+      "plays": 1
+    },
+    {
+      "name": "Gloomy Sunday",
+      "artist": "Billie Holiday",
+      "artist_slug": "billie-holiday",
+      "plays": 1
+    }
+  ]
+}

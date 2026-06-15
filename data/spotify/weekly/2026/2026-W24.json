@@ -5,69 +5,144 @@
   "week_num": 24,
   "date_start": "2026-06-08",
   "date_end": "2026-06-14",
-  "total_plays": 9,
-  "unique_artists": 3,
-  "topArtistName": "Ninjaman",
+  "total_plays": 125,
+  "unique_artists": 41,
+  "topArtistName": "Gillian Welch",
   "topArtistImages": [
     {
-      "url": "https://i.scdn.co/image/ab67616d0000b273ccb7c2998a4f65e7cd20d655",
       "height": 640,
+      "url": "https://i.scdn.co/image/ab6761610000e5ebbf3ed488c6ff47a5b3a980ac",
       "width": 640
     },
     {
-      "url": "https://i.scdn.co/image/ab67616d00001e021bc7615799aab490b532bd8a",
-      "height": 300,
-      "width": 300
+      "height": 320,
+      "url": "https://i.scdn.co/image/ab67616100005174bf3ed488c6ff47a5b3a980ac",
+      "width": 320
     },
     {
-      "url": "https://i.scdn.co/image/ab67616d0000485114ed9119071a5bae0b2274f0",
-      "height": 64,
-      "width": 64
+      "height": 160,
+      "url": "https://i.scdn.co/image/ab6761610000f178bf3ed488c6ff47a5b3a980ac",
+      "width": 160
     }
   ],
   "top_genres": [
     {
-      "name": "ragga",
-      "plays": 9
+      "name": "alt country",
+      "plays": 49
     },
     {
-      "name": "reggae",
-      "plays": 9
+      "name": "americana",
+      "plays": 48
     },
     {
-      "name": "lovers rock",
-      "plays": 9
+      "name": "folk",
+      "plays": 40
     },
     {
-      "name": "dancehall",
-      "plays": 8
+      "name": "bluegrass",
+      "plays": 36
     },
     {
-      "name": "jungle",
-      "plays": 7
+      "name": "southern gothic",
+      "plays": 33
     },
     {
-      "name": "roots reggae",
-      "plays": 1
+      "name": "hip hop",
+      "plays": 25
     },
     {
-      "name": "rocksteady",
-      "plays": 1
+      "name": "west coast hip hop",
+      "plays": 21
     },
     {
-      "name": "dub",
-      "plays": 1
+      "name": "ska punk",
+      "plays": 13
     },
     {
-      "name": "riddim",
-      "plays": 1
+      "name": "classical",
+      "plays": 12
+    },
+    {
+      "name": "orchestral",
+      "plays": 11
     }
   ],
   "top_artists": [
     {
+      "slug": "gillian-welch",
+      "name": "Gillian Welch",
+      "plays": 33,
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebbf3ed488c6ff47a5b3a980ac",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174bf3ed488c6ff47a5b3a980ac",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178bf3ed488c6ff47a5b3a980ac",
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "kendrick-lamar",
+      "name": "Kendrick Lamar",
+      "plays": 20,
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb437b9e2a82505b3d93ff1022",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174437b9e2a82505b3d93ff1022",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178437b9e2a82505b3d93ff1022",
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "modest-mussorgsky",
+      "name": "Modest Mussorgsky",
+      "plays": 11,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/20b923e03dd0fb8cd20fb93559b9ed9a0e7aefbc",
+          "height": 1291,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/3e128653fdcf2f4a0f563a6d658a2aff945adb99",
+          "height": 826,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/e6c99bfcb3d04655f541268cae3efdf7cf35de7e",
+          "height": 258,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/7b78362a6ff6c8b866adb2fca13f9d5a25ec2c5d",
+          "height": 83,
+          "width": 64
+        }
+      ]
+    },
+    {
       "slug": "ninjaman",
       "name": "Ninjaman",
-      "plays": 7,
+      "plays": 8,
       "images": [
         {
           "url": "https://i.scdn.co/image/ab67616d0000b273ccb7c2998a4f65e7cd20d655",
@@ -83,6 +158,801 @@
           "url": "https://i.scdn.co/image/ab67616d0000485114ed9119071a5bae0b2274f0",
           "height": 64,
           "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "rancid",
+      "name": "Rancid",
+      "plays": 4,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb9ef1337f472668ab2c5aedcd",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051749ef1337f472668ab2c5aedcd",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1789ef1337f472668ab2c5aedcd",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "iris-dement",
+      "name": "Iris DeMent",
+      "plays": 4,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb9e84178e0c99851ee26f228b",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051749e84178e0c99851ee26f228b",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1789e84178e0c99851ee26f228b",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "sublime",
+      "name": "Sublime",
+      "plays": 3,
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebe726280500259dbdb97a8be4",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174e726280500259dbdb97a8be4",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178e726280500259dbdb97a8be4",
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "the-sick-man-of-europe",
+      "name": "The Sick Man Of Europe",
+      "plays": 3,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebf14e9c02beea1bc507d0dcd5",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174f14e9c02beea1bc507d0dcd5",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178f14e9c02beea1bc507d0dcd5",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "inxs",
+      "name": "INXS",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb9bfd44c9bd2aae22edfd99bf",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051749bfd44c9bd2aae22edfd99bf",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1789bfd44c9bd2aae22edfd99bf",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "culture-club",
+      "name": "Culture Club",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb5903965a15551fd12feb8b87",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051745903965a15551fd12feb8b87",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1785903965a15551fd12feb8b87",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "social-distortion",
+      "name": "Social Distortion",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebd3870d0ed0f0453fefa2f975",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174d3870d0ed0f0453fefa2f975",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178d3870d0ed0f0453fefa2f975",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "waxahatchee",
+      "name": "Waxahatchee",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebbb6b88ebf5a74e636bcf09eb",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174bb6b88ebf5a74e636bcf09eb",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178bb6b88ebf5a74e636bcf09eb",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "son-volt",
+      "name": "Son Volt",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb4bb113e9e2a5e9b99a938207",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051744bb113e9e2a5e9b99a938207",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1784bb113e9e2a5e9b99a938207",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "justin-townes-earle",
+      "name": "Justin Townes Earle",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebab1dc2ce10e910ac96d9f2cb",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174ab1dc2ce10e910ac96d9f2cb",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178ab1dc2ce10e910ac96d9f2cb",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "level-42",
+      "name": "Level 42",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebc416e89fd5d1eedab418f8de",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174c416e89fd5d1eedab418f8de",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178c416e89fd5d1eedab418f8de",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "pet-shop-boys",
+      "name": "Pet Shop Boys",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebd24f448b409b6304c2880614",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174d24f448b409b6304c2880614",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178d24f448b409b6304c2880614",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "less-than-jake",
+      "name": "Less Than Jake",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb768516690f8c06f29608b827",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174768516690f8c06f29608b827",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178768516690f8c06f29608b827",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "the-bouncing-souls",
+      "name": "The Bouncing Souls",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb654945accd171c7aef5638f3",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174654945accd171c7aef5638f3",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178654945accd171c7aef5638f3",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "against-me",
+      "name": "Against Me!",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/8294eb1685d99a6d557049dba7c7760d0889c3df",
+          "height": 563,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/571b57db413699f64ba8f807897d04c9970d1537",
+          "height": 360,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/6f6f80c6202ea91a6ea88c9a7e8b02ee2a810e7f",
+          "height": 113,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/d7e533c9158d79aae7ee1019c4c152df687f994b",
+          "height": 36,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "common-rider",
+      "name": "Common Rider",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb663a254ed01d6c720eb1df5c",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174663a254ed01d6c720eb1df5c",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178663a254ed01d6c720eb1df5c",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "bad-religion",
+      "name": "Bad Religion",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb785d6af86b16c8747ff61e42",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174785d6af86b16c8747ff61e42",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178785d6af86b16c8747ff61e42",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "the-moldy-peaches",
+      "name": "The Moldy Peaches",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000b273a6b3afcdd15b2b561e684337",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00001e02a6b3afcdd15b2b561e684337",
+          "height": 300,
+          "width": 300
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00004851a6b3afcdd15b2b561e684337",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "sleaford-mods",
+      "name": "Sleaford Mods",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb224b9d8f525e6059ed11ab48",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174224b9d8f525e6059ed11ab48",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178224b9d8f525e6059ed11ab48",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "ottorino-respighi",
+      "name": "Ottorino Respighi",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/6f1664190b39f8b288ab3ce0e32884cc33cfb2cd",
+          "height": 1000,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/0fc5f3a115ed10d13f22f7c1216ee4b8d721119e",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/5bb64126830ff9249bcf930d5e379610b205faa5",
+          "height": 200,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/dde6aac764cfd79f2cc90a5624b98788618b83a6",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "chris-smither",
+      "name": "Chris Smither",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb417552d79f541836a1fb7344",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174417552d79f541836a1fb7344",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178417552d79f541836a1fb7344",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "uncle-tupelo",
+      "name": "Uncle Tupelo",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/4f563f149fe787868e25f329973318036789d586",
+          "height": 887,
+          "width": 884
+        },
+        {
+          "url": "https://i.scdn.co/image/f213b7e3bcadccc18f448400a82b2c7d62f476ff",
+          "height": 642,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/4a699c313e331213793364380d84ce203b20e526",
+          "height": 201,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/75228e3959945323011beabba49d47c319c0ee55",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "blaze-foley",
+      "name": "Blaze Foley",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb23175a7b536e95810a672e7e",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517423175a7b536e95810a672e7e",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17823175a7b536e95810a672e7e",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "mary-gauthier",
+      "name": "Mary Gauthier",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb9d87eb01be131943865a735e",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051749d87eb01be131943865a735e",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1789d87eb01be131943865a735e",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "tift-merritt",
+      "name": "Tift Merritt",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb32c5c9517386a38b77c7e21c",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517432c5c9517386a38b77c7e21c",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17832c5c9517386a38b77c7e21c",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "dave-rawlings-machine",
+      "name": "Dave Rawlings Machine",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb50a9a00e2cea7fd8ab0ba560",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517450a9a00e2cea7fd8ab0ba560",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17850a9a00e2cea7fd8ab0ba560",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "billy-bragg",
+      "name": "Billy Bragg",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebc23d0e19d887a9d67a77ea9b",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174c23d0e19d887a9d67a77ea9b",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178c23d0e19d887a9d67a77ea9b",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "wu-tang-clan",
+      "name": "Wu-Tang Clan",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebe60866298962b71792b2bf1a",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174e60866298962b71792b2bf1a",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178e60866298962b71792b2bf1a",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "mf-doom",
+      "name": "MF DOOM",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb6c8167ef48a872b6f190078f",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051746c8167ef48a872b6f190078f",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1786c8167ef48a872b6f190078f",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "the-notorious-big",
+      "name": "The Notorious B.I.G.",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/1b4858fbd24046a81cace5ee18d19c868262b91f",
+          "height": 1250,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/9bb42de208edcb69653a8e7951fa93b13f598cdd",
+          "height": 800,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/e56612ae56c9007e99ab36b83efd4faf6401260d",
+          "height": 250,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/fc074d287739cca12a89c76fd338ff7d4aa4acee",
+          "height": 80,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "the-pharcyde",
+      "name": "The Pharcyde",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/db124909dcc277881bf55ed159bd417d82e2ced1",
+          "height": 1394,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/01126acfcb317eaa068dfb1699006946abe51262",
+          "height": 892,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/379f08564c1550cf56734267857226bb1a0b7bee",
+          "height": 279,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/7959e017ada2921da27ba3d8e93222d70b121733",
+          "height": 89,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "childish-gambino",
+      "name": "Childish Gambino",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebc3dc5429b676b16d451e5f77",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174c3dc5429b676b16d451e5f77",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178c3dc5429b676b16d451e5f77",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "a-tribe-called-quest",
+      "name": "A Tribe Called Quest",
+      "plays": 1,
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb774d73ae6796b6f437d89db9",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174774d73ae6796b6f437d89db9",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178774d73ae6796b6f437d89db9",
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "de-la-soul",
+      "name": "De La Soul",
+      "plays": 1,
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebc443011311dcf7f6eeaf507d",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174c443011311dcf7f6eeaf507d",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178c443011311dcf7f6eeaf507d",
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "jay-z",
+      "name": "JAŸ-Z",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb219724d177787df4dc9d8614",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174219724d177787df4dc9d8614",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178219724d177787df4dc9d8614",
+          "height": 160,
+          "width": 160
         }
       ]
     },
@@ -137,6 +1007,612 @@
     }
   ],
   "top_tracks": [
+    {
+      "name": "Orphan Girl",
+      "artist": "Gillian Welch",
+      "artist_slug": "gillian-welch",
+      "plays": 3
+    },
+    {
+      "name": "Need You Tonight",
+      "artist": "INXS",
+      "artist_slug": "inxs",
+      "plays": 2
+    },
+    {
+      "name": "Wizard",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 2
+    },
+    {
+      "name": "Transactional",
+      "artist": "The Sick Man Of Europe",
+      "artist_slug": "the-sick-man-of-europe",
+      "plays": 2
+    },
+    {
+      "name": "Fall Back Down",
+      "artist": "Rancid",
+      "artist_slug": "rancid",
+      "plays": 2
+    },
+    {
+      "name": "Pictures at an Exhibition: I. Gnomus",
+      "artist": "Modest Mussorgsky",
+      "artist_slug": "modest-mussorgsky",
+      "plays": 2
+    },
+    {
+      "name": "Down Along The Dixie Line",
+      "artist": "Gillian Welch",
+      "artist_slug": "gillian-welch",
+      "plays": 2
+    },
+    {
+      "name": "Everything Is Free",
+      "artist": "Gillian Welch",
+      "artist_slug": "gillian-welch",
+      "plays": 2
+    },
+    {
+      "name": "I Want To Sing That Rock And Roll",
+      "artist": "Gillian Welch",
+      "artist_slug": "gillian-welch",
+      "plays": 2
+    },
+    {
+      "name": "Dear Someone",
+      "artist": "Gillian Welch",
+      "artist_slug": "gillian-welch",
+      "plays": 2
+    },
+    {
+      "name": "Revelator",
+      "artist": "Gillian Welch",
+      "artist_slug": "gillian-welch",
+      "plays": 2
+    },
+    {
+      "name": "Pass You By",
+      "artist": "Gillian Welch",
+      "artist_slug": "gillian-welch",
+      "plays": 2
+    },
+    {
+      "name": "Annabelle",
+      "artist": "Gillian Welch",
+      "artist_slug": "gillian-welch",
+      "plays": 2
+    },
+    {
+      "name": "Sing About Me, I'm Dying Of Thirst",
+      "artist": "Kendrick Lamar",
+      "artist_slug": "kendrick-lamar",
+      "plays": 2
+    },
+    {
+      "name": "Something About You",
+      "artist": "Level 42",
+      "artist_slug": "level-42",
+      "plays": 1
+    },
+    {
+      "name": "West End Girls - 2018 Remaster",
+      "artist": "Pet Shop Boys",
+      "artist_slug": "pet-shop-boys",
+      "plays": 1
+    },
+    {
+      "name": "Do You Really Want To Hurt Me",
+      "artist": "Culture Club",
+      "artist_slug": "culture-club",
+      "plays": 1
+    },
+    {
+      "name": "Time (Clock Of The Heart)",
+      "artist": "Culture Club",
+      "artist_slug": "culture-club",
+      "plays": 1
+    },
+    {
+      "name": "Ensenada",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Obsolete",
+      "artist": "The Sick Man Of Europe",
+      "artist_slug": "the-sick-man-of-europe",
+      "plays": 1
+    },
+    {
+      "name": "Johnny Quest Thinks We're Sellouts",
+      "artist": "Less Than Jake",
+      "artist_slug": "less-than-jake",
+      "plays": 1
+    },
+    {
+      "name": "Don't Take Me For Granted",
+      "artist": "Social Distortion",
+      "artist_slug": "social-distortion",
+      "plays": 1
+    },
+    {
+      "name": "True Believers",
+      "artist": "The Bouncing Souls",
+      "artist_slug": "the-bouncing-souls",
+      "plays": 1
+    },
+    {
+      "name": "Thrash Unreal",
+      "artist": "Against Me!",
+      "artist_slug": "against-me",
+      "plays": 1
+    },
+    {
+      "name": "Classics Of Love",
+      "artist": "Common Rider",
+      "artist_slug": "common-rider",
+      "plays": 1
+    },
+    {
+      "name": "Sorrow",
+      "artist": "Bad Religion",
+      "artist_slug": "bad-religion",
+      "plays": 1
+    },
+    {
+      "name": "Story of My Life",
+      "artist": "Social Distortion",
+      "artist_slug": "social-distortion",
+      "plays": 1
+    },
+    {
+      "name": "Ruby Soho",
+      "artist": "Rancid",
+      "artist_slug": "rancid",
+      "plays": 1
+    },
+    {
+      "name": "Olympia, WA",
+      "artist": "Rancid",
+      "artist_slug": "rancid",
+      "plays": 1
+    },
+    {
+      "name": "Lucky Number Nine",
+      "artist": "The Moldy Peaches",
+      "artist_slug": "the-moldy-peaches",
+      "plays": 1
+    },
+    {
+      "name": "West End Girls",
+      "artist": "Sleaford Mods",
+      "artist_slug": "sleaford-mods",
+      "plays": 1
+    },
+    {
+      "name": "Pictures at an Exhibition: VI. Samuel Goldenberg und Schmuÿle",
+      "artist": "Modest Mussorgsky",
+      "artist_slug": "modest-mussorgsky",
+      "plays": 1
+    },
+    {
+      "name": "Pictures at an Exhibition: V. Ballet of the Unhatched Chicks",
+      "artist": "Modest Mussorgsky",
+      "artist_slug": "modest-mussorgsky",
+      "plays": 1
+    },
+    {
+      "name": "Pictures at an Exhibition: Promenade IV",
+      "artist": "Modest Mussorgsky",
+      "artist_slug": "modest-mussorgsky",
+      "plays": 1
+    },
+    {
+      "name": "Pictures at an Exhibition: IV. Bydlo",
+      "artist": "Modest Mussorgsky",
+      "artist_slug": "modest-mussorgsky",
+      "plays": 1
+    },
+    {
+      "name": "Pictures at an Exhibition: III. Tuileries (Dispute d'enfants après jeux)",
+      "artist": "Modest Mussorgsky",
+      "artist_slug": "modest-mussorgsky",
+      "plays": 1
+    },
+    {
+      "name": "Pictures at an Exhibition: Promenade III",
+      "artist": "Modest Mussorgsky",
+      "artist_slug": "modest-mussorgsky",
+      "plays": 1
+    },
+    {
+      "name": "Pictures at an Exhibition: II. Il vecchio castello",
+      "artist": "Modest Mussorgsky",
+      "artist_slug": "modest-mussorgsky",
+      "plays": 1
+    },
+    {
+      "name": "Pictures at an Exhibition: Promenade II",
+      "artist": "Modest Mussorgsky",
+      "artist_slug": "modest-mussorgsky",
+      "plays": 1
+    },
+    {
+      "name": "Pictures at an Exhibition: Promenade I",
+      "artist": "Modest Mussorgsky",
+      "artist_slug": "modest-mussorgsky",
+      "plays": 1
+    },
+    {
+      "name": "Respighi: Trittico botticelliano, P. 151: I. La Primavera",
+      "artist": "Ottorino Respighi",
+      "artist_slug": "ottorino-respighi",
+      "plays": 1
+    },
+    {
+      "name": "Leave The Light On",
+      "artist": "Chris Smither",
+      "artist_slug": "chris-smither",
+      "plays": 1
+    },
+    {
+      "name": "Light of a Clear Blue Morning",
+      "artist": "Waxahatchee",
+      "artist_slug": "waxahatchee",
+      "plays": 1
+    },
+    {
+      "name": "Mama's Opry",
+      "artist": "Iris DeMent",
+      "artist_slug": "iris-dement",
+      "plays": 1
+    },
+    {
+      "name": "Sandusky",
+      "artist": "Uncle Tupelo",
+      "artist_slug": "uncle-tupelo",
+      "plays": 1
+    },
+    {
+      "name": "Mystifies Me",
+      "artist": "Son Volt",
+      "artist_slug": "son-volt",
+      "plays": 1
+    },
+    {
+      "name": "Clay Pigeons",
+      "artist": "Blaze Foley",
+      "artist_slug": "blaze-foley",
+      "plays": 1
+    },
+    {
+      "name": "The Eye",
+      "artist": "Waxahatchee",
+      "artist_slug": "waxahatchee",
+      "plays": 1
+    },
+    {
+      "name": "Let the Mystery Be",
+      "artist": "Iris DeMent",
+      "artist_slug": "iris-dement",
+      "plays": 1
+    },
+    {
+      "name": "Yuma - Remastered",
+      "artist": "Justin Townes Earle",
+      "artist_slug": "justin-townes-earle",
+      "plays": 1
+    },
+    {
+      "name": "Make Me A Pallet On Your Floor",
+      "artist": "Gillian Welch",
+      "artist_slug": "gillian-welch",
+      "plays": 1
+    },
+    {
+      "name": "I Dream A Highway",
+      "artist": "Gillian Welch",
+      "artist_slug": "gillian-welch",
+      "plays": 1
+    },
+    {
+      "name": "Ruination Day Part 2",
+      "artist": "Gillian Welch",
+      "artist_slug": "gillian-welch",
+      "plays": 1
+    },
+    {
+      "name": "Elvis Presley Blues",
+      "artist": "Gillian Welch",
+      "artist_slug": "gillian-welch",
+      "plays": 1
+    },
+    {
+      "name": "April the 14th Part 1",
+      "artist": "Gillian Welch",
+      "artist_slug": "gillian-welch",
+      "plays": 1
+    },
+    {
+      "name": "Red Clay Halo",
+      "artist": "Gillian Welch",
+      "artist_slug": "gillian-welch",
+      "plays": 1
+    },
+    {
+      "name": "My First Lover",
+      "artist": "Gillian Welch",
+      "artist_slug": "gillian-welch",
+      "plays": 1
+    },
+    {
+      "name": "Mercy Now",
+      "artist": "Mary Gauthier",
+      "artist_slug": "mary-gauthier",
+      "plays": 1
+    },
+    {
+      "name": "Tear Stained Eye - 2015 Remaster",
+      "artist": "Son Volt",
+      "artist_slug": "son-volt",
+      "plays": 1
+    },
+    {
+      "name": "Our Town",
+      "artist": "Iris DeMent",
+      "artist_slug": "iris-dement",
+      "plays": 1
+    },
+    {
+      "name": "Wrecking Ball",
+      "artist": "Gillian Welch",
+      "artist_slug": "gillian-welch",
+      "plays": 1
+    },
+    {
+      "name": "Traveling Alone",
+      "artist": "Tift Merritt",
+      "artist_slug": "tift-merritt",
+      "plays": 1
+    },
+    {
+      "name": "The Weekend",
+      "artist": "Dave Rawlings Machine",
+      "artist_slug": "dave-rawlings-machine",
+      "plays": 1
+    },
+    {
+      "name": "Remember The Mountain Bed",
+      "artist": "Billy Bragg",
+      "artist_slug": "billy-bragg",
+      "plays": 1
+    },
+    {
+      "name": "Graceland",
+      "artist": "Justin Townes Earle",
+      "artist_slug": "justin-townes-earle",
+      "plays": 1
+    },
+    {
+      "name": "Let the Mystery Be",
+      "artist": "Iris DeMent",
+      "artist_slug": "iris-dement",
+      "plays": 1
+    },
+    {
+      "name": "Hard Times",
+      "artist": "Gillian Welch",
+      "artist_slug": "gillian-welch",
+      "plays": 1
+    },
+    {
+      "name": "Only One And Only",
+      "artist": "Gillian Welch",
+      "artist_slug": "gillian-welch",
+      "plays": 1
+    },
+    {
+      "name": "Acony Bell",
+      "artist": "Gillian Welch",
+      "artist_slug": "gillian-welch",
+      "plays": 1
+    },
+    {
+      "name": "Tear My Stillhouse Down",
+      "artist": "Gillian Welch",
+      "artist_slug": "gillian-welch",
+      "plays": 1
+    },
+    {
+      "name": "Paper Wings",
+      "artist": "Gillian Welch",
+      "artist_slug": "gillian-welch",
+      "plays": 1
+    },
+    {
+      "name": "By The Mark",
+      "artist": "Gillian Welch",
+      "artist_slug": "gillian-welch",
+      "plays": 1
+    },
+    {
+      "name": "One More Dollar",
+      "artist": "Gillian Welch",
+      "artist_slug": "gillian-welch",
+      "plays": 1
+    },
+    {
+      "name": "Barroom Girls",
+      "artist": "Gillian Welch",
+      "artist_slug": "gillian-welch",
+      "plays": 1
+    },
+    {
+      "name": "Wu-Tang: 7th Chamber",
+      "artist": "Wu-Tang Clan",
+      "artist_slug": "wu-tang-clan",
+      "plays": 1
+    },
+    {
+      "name": "Rapp Snitch Knishes",
+      "artist": "MF DOOM",
+      "artist_slug": "mf-doom",
+      "plays": 1
+    },
+    {
+      "name": "Warning - 2005 Remaster",
+      "artist": "The Notorious B.I.G.",
+      "artist_slug": "the-notorious-big",
+      "plays": 1
+    },
+    {
+      "name": "F*ck Your Ethnicity",
+      "artist": "Kendrick Lamar",
+      "artist_slug": "kendrick-lamar",
+      "plays": 1
+    },
+    {
+      "name": "Runnin'",
+      "artist": "The Pharcyde",
+      "artist_slug": "the-pharcyde",
+      "plays": 1
+    },
+    {
+      "name": "This Is America",
+      "artist": "Childish Gambino",
+      "artist_slug": "childish-gambino",
+      "plays": 1
+    },
+    {
+      "name": "The Hop",
+      "artist": "A Tribe Called Quest",
+      "artist_slug": "a-tribe-called-quest",
+      "plays": 1
+    },
+    {
+      "name": "Rock Co.Kane Flow - feat. MF DOOM",
+      "artist": "De La Soul",
+      "artist_slug": "de-la-soul",
+      "plays": 1
+    },
+    {
+      "name": "Otis",
+      "artist": "JAŸ-Z",
+      "artist_slug": "jay-z",
+      "plays": 1
+    },
+    {
+      "name": "King Kunta",
+      "artist": "Kendrick Lamar",
+      "artist_slug": "kendrick-lamar",
+      "plays": 1
+    },
+    {
+      "name": "Bitch, Don’t Kill My Vibe - Remix",
+      "artist": "Kendrick Lamar",
+      "artist_slug": "kendrick-lamar",
+      "plays": 1
+    },
+    {
+      "name": "The Recipe (Black Hippy Remix) - Bonus Track",
+      "artist": "Kendrick Lamar",
+      "artist_slug": "kendrick-lamar",
+      "plays": 1
+    },
+    {
+      "name": "Now Or Never - Bonus Track",
+      "artist": "Kendrick Lamar",
+      "artist_slug": "kendrick-lamar",
+      "plays": 1
+    },
+    {
+      "name": "Black Boy Fly - Bonus Track",
+      "artist": "Kendrick Lamar",
+      "artist_slug": "kendrick-lamar",
+      "plays": 1
+    },
+    {
+      "name": "The Recipe - Bonus Track",
+      "artist": "Kendrick Lamar",
+      "artist_slug": "kendrick-lamar",
+      "plays": 1
+    },
+    {
+      "name": "Compton",
+      "artist": "Kendrick Lamar",
+      "artist_slug": "kendrick-lamar",
+      "plays": 1
+    },
+    {
+      "name": "Real",
+      "artist": "Kendrick Lamar",
+      "artist_slug": "kendrick-lamar",
+      "plays": 1
+    },
+    {
+      "name": "Swimming Pools (Drank) - Extended Version",
+      "artist": "Kendrick Lamar",
+      "artist_slug": "kendrick-lamar",
+      "plays": 1
+    },
+    {
+      "name": "m.A.A.d city",
+      "artist": "Kendrick Lamar",
+      "artist_slug": "kendrick-lamar",
+      "plays": 1
+    },
+    {
+      "name": "good kid",
+      "artist": "Kendrick Lamar",
+      "artist_slug": "kendrick-lamar",
+      "plays": 1
+    },
+    {
+      "name": "Poetic Justice",
+      "artist": "Kendrick Lamar",
+      "artist_slug": "kendrick-lamar",
+      "plays": 1
+    },
+    {
+      "name": "Money Trees",
+      "artist": "Kendrick Lamar",
+      "artist_slug": "kendrick-lamar",
+      "plays": 1
+    },
+    {
+      "name": "The Art of Peer Pressure",
+      "artist": "Kendrick Lamar",
+      "artist_slug": "kendrick-lamar",
+      "plays": 1
+    },
+    {
+      "name": "Backseat Freestyle",
+      "artist": "Kendrick Lamar",
+      "artist_slug": "kendrick-lamar",
+      "plays": 1
+    },
+    {
+      "name": "Bitch, Don’t Kill My Vibe",
+      "artist": "Kendrick Lamar",
+      "artist_slug": "kendrick-lamar",
+      "plays": 1
+    },
+    {
+      "name": "Sherane a.k.a Master Splinter’s Daughter",
+      "artist": "Kendrick Lamar",
+      "artist_slug": "kendrick-lamar",
+      "plays": 1
+    },
+    {
+      "name": "Two White Rat",
+      "artist": "Ninjaman",
+      "artist_slug": "ninjaman",
+      "plays": 1
+    },
     {
       "name": "Bring In The Gun",
       "artist": "Ninjaman",
