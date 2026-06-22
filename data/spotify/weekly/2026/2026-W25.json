@@ -5,32 +5,51 @@
   "week_num": 25,
   "date_start": "2026-06-15",
   "date_end": "2026-06-21",
-  "total_plays": 5,
-  "unique_artists": 2,
-  "topArtistName": "Billie Holiday",
+  "total_plays": 53,
+  "unique_artists": 16,
+  "topArtistName": "John Prine",
   "topArtistImages": [
     {
-      "height": 828,
-      "url": "https://i.scdn.co/image/4efa6b6871a0f672b78b3d16fd5a03c6cd212d58",
-      "width": 1000
-    },
-    {
-      "height": 530,
-      "url": "https://i.scdn.co/image/11f685f3011fd163c386ce1afe7ce543ad814817",
+      "url": "https://i.scdn.co/image/ab6761610000e5ebf109851845669becdc5c63f6",
+      "height": 640,
       "width": 640
     },
     {
-      "height": 166,
-      "url": "https://i.scdn.co/image/0f472c69891d82d5049f7de35426b2fdeb6051c0",
-      "width": 200
+      "url": "https://i.scdn.co/image/ab67616100005174f109851845669becdc5c63f6",
+      "height": 320,
+      "width": 320
     },
     {
-      "height": 53,
-      "url": "https://i.scdn.co/image/73b9538798c13c7be7558d69b02019cf19e1d5db",
-      "width": 64
+      "url": "https://i.scdn.co/image/ab6761610000f178f109851845669becdc5c63f6",
+      "height": 160,
+      "width": 160
     }
   ],
   "top_genres": [
+    {
+      "name": "americana",
+      "plays": 30
+    },
+    {
+      "name": "alt country",
+      "plays": 29
+    },
+    {
+      "name": "folk",
+      "plays": 27
+    },
+    {
+      "name": "singer-songwriter",
+      "plays": 26
+    },
+    {
+      "name": "rap",
+      "plays": 13
+    },
+    {
+      "name": "hip hop",
+      "plays": 13
+    },
     {
       "name": "jazz",
       "plays": 5
@@ -46,17 +65,53 @@
     {
       "name": "vocal jazz",
       "plays": 4
-    },
-    {
-      "name": "cool jazz",
-      "plays": 1
-    },
-    {
-      "name": "jazz ballads",
-      "plays": 1
     }
   ],
   "top_artists": [
+    {
+      "slug": "john-prine",
+      "name": "John Prine",
+      "plays": 20,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebf109851845669becdc5c63f6",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174f109851845669becdc5c63f6",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178f109851845669becdc5c63f6",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "eminem",
+      "name": "Eminem",
+      "plays": 13,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eba00b11c129b27a88fc72f36b",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174a00b11c129b27a88fc72f36b",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178a00b11c129b27a88fc72f36b",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
     {
       "slug": "billie-holiday",
       "name": "Billie Holiday",
@@ -81,6 +136,280 @@
           "height": 53,
           "url": "https://i.scdn.co/image/73b9538798c13c7be7558d69b02019cf19e1d5db",
           "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "patty-griffin",
+      "name": "Patty Griffin",
+      "plays": 3,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb524e0137afffe4d2ad09bd76",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174524e0137afffe4d2ad09bd76",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178524e0137afffe4d2ad09bd76",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "iris-dement",
+      "name": "Iris DeMent",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb9e84178e0c99851ee26f228b",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051749e84178e0c99851ee26f228b",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1789e84178e0c99851ee26f228b",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "loudon-wainwright-iii",
+      "name": "Loudon Wainwright III",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb386067d241fbc8ac18c1e89f",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174386067d241fbc8ac18c1e89f",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178386067d241fbc8ac18c1e89f",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "billy-bragg",
+      "name": "Billy Bragg",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebc23d0e19d887a9d67a77ea9b",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174c23d0e19d887a9d67a77ea9b",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178c23d0e19d887a9d67a77ea9b",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "mary-gauthier",
+      "name": "Mary Gauthier",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb9d87eb01be131943865a735e",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051749d87eb01be131943865a735e",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1789d87eb01be131943865a735e",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "uncle-tupelo",
+      "name": "Uncle Tupelo",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/4f563f149fe787868e25f329973318036789d586",
+          "height": 887,
+          "width": 884
+        },
+        {
+          "url": "https://i.scdn.co/image/f213b7e3bcadccc18f448400a82b2c7d62f476ff",
+          "height": 642,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/4a699c313e331213793364380d84ce203b20e526",
+          "height": 201,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/75228e3959945323011beabba49d47c319c0ee55",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "john-hartford",
+      "name": "John Hartford",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/aafb8bb33b29dc9e3eb83bfec71467e153feeccd",
+          "height": 733,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/996c01c59d6aacf63874a6e8d6f17c9839ad542c",
+          "height": 469,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/7ee19bc07fb3920e19b36b84a101d7957ba8e512",
+          "height": 147,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/9ad5b2696d9021e7acbcae2431ba4173afc8d919",
+          "height": 47,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "dan-reeder",
+      "name": "Dan Reeder",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb521a0de2066d4a71076fe45d",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174521a0de2066d4a71076fe45d",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178521a0de2066d4a71076fe45d",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "sierra-ferrell",
+      "name": "Sierra Ferrell",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb871c90e9904cac69a6c31697",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174871c90e9904cac69a6c31697",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178871c90e9904cac69a6c31697",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "dillard-clark",
+      "name": "Dillard & Clark",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000b273fb30ef03cc2fee16cd2b8918",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00001e02fb30ef03cc2fee16cd2b8918",
+          "height": 300,
+          "width": 300
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00004851fb30ef03cc2fee16cd2b8918",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "warren-zevon",
+      "name": "Warren Zevon",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebcb844c45233a84f9f81c9ec4",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174cb844c45233a84f9f81c9ec4",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178cb844c45233a84f9f81c9ec4",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "verdezul",
+      "name": "Verdèzul",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebde992585da11c3567cabaa5a",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174de992585da11c3567cabaa5a",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178de992585da11c3567cabaa5a",
+          "height": 160,
+          "width": 160
         }
       ]
     },
@@ -118,6 +447,294 @@
       "artist": "Billie Holiday",
       "artist_slug": "billie-holiday",
       "plays": 2
+    },
+    {
+      "name": "Long Ride Home",
+      "artist": "Patty Griffin",
+      "artist_slug": "patty-griffin",
+      "plays": 1
+    },
+    {
+      "name": "Be Careful",
+      "artist": "Patty Griffin",
+      "artist_slug": "patty-griffin",
+      "plays": 1
+    },
+    {
+      "name": "Making Pies",
+      "artist": "Patty Griffin",
+      "artist_slug": "patty-griffin",
+      "plays": 1
+    },
+    {
+      "name": "Guilty Conscience 2",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 1
+    },
+    {
+      "name": "Breaking News - skit",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 1
+    },
+    {
+      "name": "Houdini",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 1
+    },
+    {
+      "name": "Road Rage",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 1
+    },
+    {
+      "name": "Fuel",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 1
+    },
+    {
+      "name": "Antichrist",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 1
+    },
+    {
+      "name": "Lucifer",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 1
+    },
+    {
+      "name": "All You Got - skit",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 1
+    },
+    {
+      "name": "Evil",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 1
+    },
+    {
+      "name": "Brand New Dance",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 1
+    },
+    {
+      "name": "Trouble",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 1
+    },
+    {
+      "name": "Habits",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 1
+    },
+    {
+      "name": "Renaissance",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 1
+    },
+    {
+      "name": "The Swimming Song",
+      "artist": "Loudon Wainwright III",
+      "artist_slug": "loudon-wainwright-iii",
+      "plays": 1
+    },
+    {
+      "name": "Summer's End",
+      "artist": "John Prine",
+      "artist_slug": "john-prine",
+      "plays": 1
+    },
+    {
+      "name": "Walt Whitman's Niece",
+      "artist": "Billy Bragg",
+      "artist_slug": "billy-bragg",
+      "plays": 1
+    },
+    {
+      "name": "Paradise",
+      "artist": "John Prine",
+      "artist_slug": "john-prine",
+      "plays": 1
+    },
+    {
+      "name": "Clocks and Spoons",
+      "artist": "John Prine",
+      "artist_slug": "john-prine",
+      "plays": 1
+    },
+    {
+      "name": "Long Monday",
+      "artist": "John Prine",
+      "artist_slug": "john-prine",
+      "plays": 1
+    },
+    {
+      "name": "Mercy Now",
+      "artist": "Mary Gauthier",
+      "artist_slug": "mary-gauthier",
+      "plays": 1
+    },
+    {
+      "name": "Illegal Smile",
+      "artist": "John Prine",
+      "artist_slug": "john-prine",
+      "plays": 1
+    },
+    {
+      "name": "Angel from Montgomery",
+      "artist": "John Prine",
+      "artist_slug": "john-prine",
+      "plays": 1
+    },
+    {
+      "name": "New Madrid",
+      "artist": "Uncle Tupelo",
+      "artist_slug": "uncle-tupelo",
+      "plays": 1
+    },
+    {
+      "name": "In Tall Buildings",
+      "artist": "John Hartford",
+      "artist_slug": "john-hartford",
+      "plays": 1
+    },
+    {
+      "name": "maybe",
+      "artist": "Dan Reeder",
+      "artist_slug": "dan-reeder",
+      "plays": 1
+    },
+    {
+      "name": "Our Town",
+      "artist": "Iris DeMent",
+      "artist_slug": "iris-dement",
+      "plays": 1
+    },
+    {
+      "name": "How Lucky",
+      "artist": "John Prine",
+      "artist_slug": "john-prine",
+      "plays": 1
+    },
+    {
+      "name": "In Spite of Ourselves",
+      "artist": "John Prine",
+      "artist_slug": "john-prine",
+      "plays": 1
+    },
+    {
+      "name": "I Remember Everything",
+      "artist": "John Prine",
+      "artist_slug": "john-prine",
+      "plays": 1
+    },
+    {
+      "name": "Hey Me, Hey Mama",
+      "artist": "Sierra Ferrell",
+      "artist_slug": "sierra-ferrell",
+      "plays": 1
+    },
+    {
+      "name": "Don't Let Me Down",
+      "artist": "Dillard & Clark",
+      "artist_slug": "dillard-clark",
+      "plays": 1
+    },
+    {
+      "name": "All the Best",
+      "artist": "John Prine",
+      "artist_slug": "john-prine",
+      "plays": 1
+    },
+    {
+      "name": "Let the Mystery Be",
+      "artist": "Iris DeMent",
+      "artist_slug": "iris-dement",
+      "plays": 1
+    },
+    {
+      "name": "When I Get to Heaven",
+      "artist": "John Prine",
+      "artist_slug": "john-prine",
+      "plays": 1
+    },
+    {
+      "name": "Pretty Good",
+      "artist": "John Prine",
+      "artist_slug": "john-prine",
+      "plays": 1
+    },
+    {
+      "name": "Knockin' on Your Screen Door",
+      "artist": "John Prine",
+      "artist_slug": "john-prine",
+      "plays": 1
+    },
+    {
+      "name": "That's the Way That the World Goes 'Round",
+      "artist": "John Prine",
+      "artist_slug": "john-prine",
+      "plays": 1
+    },
+    {
+      "name": "Hello in There",
+      "artist": "John Prine",
+      "artist_slug": "john-prine",
+      "plays": 1
+    },
+    {
+      "name": "Fish and Whistle",
+      "artist": "John Prine",
+      "artist_slug": "john-prine",
+      "plays": 1
+    },
+    {
+      "name": "Sam Stone",
+      "artist": "John Prine",
+      "artist_slug": "john-prine",
+      "plays": 1
+    },
+    {
+      "name": "Bruised Orange (Chain of Sorrow)",
+      "artist": "John Prine",
+      "artist_slug": "john-prine",
+      "plays": 1
+    },
+    {
+      "name": "Sweet Revenge",
+      "artist": "John Prine",
+      "artist_slug": "john-prine",
+      "plays": 1
+    },
+    {
+      "name": "Speed of the Sound of Loneliness",
+      "artist": "John Prine",
+      "artist_slug": "john-prine",
+      "plays": 1
+    },
+    {
+      "name": "Carmelita",
+      "artist": "Warren Zevon",
+      "artist_slug": "warren-zevon",
+      "plays": 1
+    },
+    {
+      "name": "Poppin' Gums",
+      "artist": "Verdèzul",
+      "artist_slug": "verdezul",
+      "plays": 1
     },
     {
       "name": "In A Sentimental Mood",

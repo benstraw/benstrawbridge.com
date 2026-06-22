@@ -381,9 +381,9 @@
     "id": "0nJUwPwC9Ti4vvuJ0q3MfT",
     "name": "John Prine",
     "spotify_url": "https://open.spotify.com/artist/0nJUwPwC9Ti4vvuJ0q3MfT",
-    "total_plays": 32,
+    "total_plays": 52,
     "first_seen": "2026-02-13",
-    "last_seen": "2026-05-14",
+    "last_seen": "2026-06-17",
     "genres": [
       "americana",
       "folk",
@@ -412,7 +412,7 @@
         "name": "In Spite of Ourselves",
         "album": "In Spite Of Ourselves",
         "spotify_url": "https://open.spotify.com/track/2K2eLVi9HJ84T1dkifkQ9O",
-        "plays": 7
+        "plays": 8
       },
       {
         "name": "I Know One",
@@ -430,24 +430,48 @@
         "name": "Pretty Good",
         "album": "John Prine",
         "spotify_url": "https://open.spotify.com/track/3w5YryukHLwgjlYMP3M2le",
-        "plays": 3
+        "plays": 4
       },
       {
         "name": "Fish and Whistle",
         "album": "Bruised Orange",
         "spotify_url": "https://open.spotify.com/track/4qA8M5hJn45rtFyWH5Ixar",
-        "plays": 2
+        "plays": 3
       },
       {
         "name": "Angel from Montgomery",
         "album": "John Prine",
         "spotify_url": "https://open.spotify.com/track/2qWKpYIleSvBT6aUMXoia5",
-        "plays": 2
+        "plays": 3
       },
       {
         "name": "Illegal Smile",
         "album": "John Prine",
         "spotify_url": "https://open.spotify.com/track/1h0R5cstHZ070tevUAfEo7",
+        "plays": 3
+      },
+      {
+        "name": "Clocks and Spoons",
+        "album": "Diamonds in the Rough",
+        "spotify_url": "https://open.spotify.com/track/57M2Tzakrrj4pecyVet6kM",
+        "plays": 2
+      },
+      {
+        "name": "When I Get to Heaven",
+        "album": "The Tree of Forgiveness",
+        "spotify_url": "https://open.spotify.com/track/2FZaryIRIjIq6HloMNWdHS",
+        "plays": 2
+      },
+      {
+        "name": "Paradise",
+        "album": "John Prine",
+        "spotify_url": "https://open.spotify.com/track/47QsP5uPZp3he5UrVsK8bs",
+        "plays": 2
+      },
+      {
+        "name": "How Lucky",
+        "album": "Pink Cadillac",
+        "spotify_url": "https://open.spotify.com/track/3CxtTy4XoZunbtHsET1Mxq",
         "plays": 2
       },
       {
@@ -457,33 +481,75 @@
         "plays": 1
       },
       {
-        "name": "Clocks and Spoons",
-        "album": "Diamonds in the Rough",
-        "spotify_url": "https://open.spotify.com/track/57M2Tzakrrj4pecyVet6kM",
-        "plays": 1
-      },
-      {
-        "name": "When I Get to Heaven",
-        "album": "The Tree of Forgiveness",
-        "spotify_url": "https://open.spotify.com/track/2FZaryIRIjIq6HloMNWdHS",
-        "plays": 1
-      },
-      {
         "name": "In Spite of Ourselves",
         "album": "In Spite Of Ourselves",
         "spotify_url": "https://open.spotify.com/track/10NUYHAQabCKTOnRfEegUc",
         "plays": 1
       },
       {
-        "name": "Paradise",
-        "album": "John Prine",
-        "spotify_url": "https://open.spotify.com/track/47QsP5uPZp3he5UrVsK8bs",
+        "name": "Summer's End",
+        "album": "The Tree of Forgiveness",
+        "spotify_url": "https://open.spotify.com/track/0l9usaQxyyTaDe5aFGRaIz",
         "plays": 1
       },
       {
-        "name": "How Lucky",
-        "album": "Pink Cadillac",
-        "spotify_url": "https://open.spotify.com/track/3CxtTy4XoZunbtHsET1Mxq",
+        "name": "Long Monday",
+        "album": "Fair and Square",
+        "spotify_url": "https://open.spotify.com/track/7M7NpOyYmYdhxCFTs6KrAs",
+        "plays": 1
+      },
+      {
+        "name": "I Remember Everything",
+        "album": "I Remember Everything",
+        "spotify_url": "https://open.spotify.com/track/2toWFdIA3M3ZCt8I9xdGSZ",
+        "plays": 1
+      },
+      {
+        "name": "All the Best",
+        "album": "The Missing Years",
+        "spotify_url": "https://open.spotify.com/track/0KN2tNTeW1oGasiDuEZjV7",
+        "plays": 1
+      },
+      {
+        "name": "Knockin' on Your Screen Door",
+        "album": "The Tree of Forgiveness",
+        "spotify_url": "https://open.spotify.com/track/2Mq1qAIG7xjLFMyB8EtZ9K",
+        "plays": 1
+      },
+      {
+        "name": "That's the Way That the World Goes 'Round",
+        "album": "Bruised Orange",
+        "spotify_url": "https://open.spotify.com/track/6IcU0P6Ec5CM9qVqV1U2JH",
+        "plays": 1
+      },
+      {
+        "name": "Hello in There",
+        "album": "John Prine",
+        "spotify_url": "https://open.spotify.com/track/7IijX5DkLaf3G4qF6xDLYa",
+        "plays": 1
+      },
+      {
+        "name": "Sam Stone",
+        "album": "John Prine",
+        "spotify_url": "https://open.spotify.com/track/4BIej0swGWja46j5B7l4s1",
+        "plays": 1
+      },
+      {
+        "name": "Bruised Orange (Chain of Sorrow)",
+        "album": "Bruised Orange",
+        "spotify_url": "https://open.spotify.com/track/6qrqlVEfMTQUBZCwqNTUI3",
+        "plays": 1
+      },
+      {
+        "name": "Sweet Revenge",
+        "album": "Sweet Revenge",
+        "spotify_url": "https://open.spotify.com/track/3OjQfS3lbILlruNItB3ShG",
+        "plays": 1
+      },
+      {
+        "name": "Speed of the Sound of Loneliness",
+        "album": "German Afternoons",
+        "spotify_url": "https://open.spotify.com/track/7rlvfps48KinHYs42B7M27",
         "plays": 1
       },
       {
@@ -6795,9 +6861,9 @@
     "id": "7dGJo4pcD2V6oG8kP0tJRR",
     "name": "Eminem",
     "spotify_url": "https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR",
-    "total_plays": 69,
+    "total_plays": 82,
     "first_seen": "2026-02-26",
-    "last_seen": "2026-05-06",
+    "last_seen": "2026-06-17",
     "genres": [
       "rap",
       "hip hop"
@@ -6824,7 +6890,7 @@
         "name": "Houdini",
         "album": "The Death of Slim Shady (Coup De Grâce)",
         "spotify_url": "https://open.spotify.com/track/1CDQzbCz4KSQxHe7LMEgRM",
-        "plays": 7
+        "plays": 8
       },
       {
         "name": "Trouble",
@@ -6959,6 +7025,12 @@
         "plays": 2
       },
       {
+        "name": "Fuel",
+        "album": "The Death of Slim Shady (Coup De Grâce)",
+        "spotify_url": "https://open.spotify.com/track/5In8B6Om5OKrhwBMB4tXSi",
+        "plays": 2
+      },
+      {
         "name": "Love Game",
         "album": "The Marshall Mathers LP2 (Deluxe)",
         "spotify_url": "https://open.spotify.com/track/0iMN420Q45isZVNlAqzPTW",
@@ -7049,9 +7121,69 @@
         "plays": 1
       },
       {
-        "name": "Fuel",
+        "name": "Guilty Conscience 2",
         "album": "The Death of Slim Shady (Coup De Grâce)",
-        "spotify_url": "https://open.spotify.com/track/5In8B6Om5OKrhwBMB4tXSi",
+        "spotify_url": "https://open.spotify.com/track/3LkXOTWDwskwciQoARFDzu",
+        "plays": 1
+      },
+      {
+        "name": "Breaking News - skit",
+        "album": "The Death of Slim Shady (Coup De Grâce)",
+        "spotify_url": "https://open.spotify.com/track/0TDXeyH0hdiz0SZQo5w1nm",
+        "plays": 1
+      },
+      {
+        "name": "Road Rage",
+        "album": "The Death of Slim Shady (Coup De Grâce)",
+        "spotify_url": "https://open.spotify.com/track/0bBnrokPXtfwXQarqCu1Gz",
+        "plays": 1
+      },
+      {
+        "name": "Antichrist",
+        "album": "The Death of Slim Shady (Coup De Grâce)",
+        "spotify_url": "https://open.spotify.com/track/0DIcssPpatAMqFXLZCxZMN",
+        "plays": 1
+      },
+      {
+        "name": "Lucifer",
+        "album": "The Death of Slim Shady (Coup De Grâce)",
+        "spotify_url": "https://open.spotify.com/track/50No7LiVffAJCWIChZodmU",
+        "plays": 1
+      },
+      {
+        "name": "All You Got - skit",
+        "album": "The Death of Slim Shady (Coup De Grâce)",
+        "spotify_url": "https://open.spotify.com/track/7y8n4wbMzsLMzTI6Qan02f",
+        "plays": 1
+      },
+      {
+        "name": "Evil",
+        "album": "The Death of Slim Shady (Coup De Grâce)",
+        "spotify_url": "https://open.spotify.com/track/21LCotDEwR7R8qOnqPVzi9",
+        "plays": 1
+      },
+      {
+        "name": "Brand New Dance",
+        "album": "The Death of Slim Shady (Coup De Grâce)",
+        "spotify_url": "https://open.spotify.com/track/77pfjsq0gSZwO8bYVTVROo",
+        "plays": 1
+      },
+      {
+        "name": "Trouble",
+        "album": "The Death of Slim Shady (Coup De Grâce)",
+        "spotify_url": "https://open.spotify.com/track/59151GHN7yr5g9B3bqlGdR",
+        "plays": 1
+      },
+      {
+        "name": "Habits",
+        "album": "The Death of Slim Shady (Coup De Grâce)",
+        "spotify_url": "https://open.spotify.com/track/7I3RalBqE7ZE0RSxgGlGlm",
+        "plays": 1
+      },
+      {
+        "name": "Renaissance",
+        "album": "The Death of Slim Shady (Coup De Grâce)",
+        "spotify_url": "https://open.spotify.com/track/55u5QIlEuzCipJBtZPdJio",
         "plays": 1
       },
       {
@@ -18812,9 +18944,9 @@
     "id": "1zf7vVM2XaoaTD3hXWR1If",
     "name": "Verdèzul",
     "spotify_url": "https://open.spotify.com/artist/1zf7vVM2XaoaTD3hXWR1If",
-    "total_plays": 32,
+    "total_plays": 33,
     "first_seen": "2026-03-21",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-17",
     "genres": [],
     "images": [
       {
@@ -18895,6 +19027,12 @@
         "plays": 2
       },
       {
+        "name": "Poppin' Gums",
+        "album": "Poppin' Gums",
+        "spotify_url": "https://open.spotify.com/track/53nwJwkVSHxAPTXcYmHrHm",
+        "plays": 2
+      },
+      {
         "name": "EPC",
         "album": "Earthtones & Shades of Blue and Green",
         "spotify_url": "https://open.spotify.com/track/7gE15QeiutXXesSoGznk8p",
@@ -18922,12 +19060,6 @@
         "name": "Love Somebody (Chopped & Screwed)",
         "album": "Love Somebody (Chopped & Screwed)",
         "spotify_url": "https://open.spotify.com/track/3kRysviqU0RwqgGILk4a0k",
-        "plays": 1
-      },
-      {
-        "name": "Poppin' Gums",
-        "album": "Poppin' Gums",
-        "spotify_url": "https://open.spotify.com/track/53nwJwkVSHxAPTXcYmHrHm",
         "plays": 1
       }
     ]
@@ -21125,9 +21257,9 @@
     "id": "3mY9Ii0cL5SQxpOTAm8SHx",
     "name": "Warren Zevon",
     "spotify_url": "https://open.spotify.com/artist/3mY9Ii0cL5SQxpOTAm8SHx",
-    "total_plays": 3,
+    "total_plays": 4,
     "first_seen": "2026-03-28",
-    "last_seen": "2026-04-21",
+    "last_seen": "2026-06-17",
     "genres": [
       "singer-songwriter"
     ],
@@ -21153,7 +21285,7 @@
         "name": "Carmelita",
         "album": "Warren Zevon",
         "spotify_url": "https://open.spotify.com/track/7hIdRDgUBPbqiQ7duhCyux",
-        "plays": 2
+        "plays": 3
       },
       {
         "name": "Lawyers, Guns and Money",
@@ -34492,9 +34624,9 @@
     "id": "3NPZs8XgXtaWslUcnIw6rY",
     "name": "Iris DeMent",
     "spotify_url": "https://open.spotify.com/artist/3NPZs8XgXtaWslUcnIw6rY",
-    "total_plays": 4,
+    "total_plays": 6,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-10",
+    "last_seen": "2026-06-17",
     "genres": [
       "americana",
       "folk",
@@ -34520,6 +34652,18 @@
     ],
     "top_tracks": [
       {
+        "name": "Our Town",
+        "album": "Infamous Angel",
+        "spotify_url": "https://open.spotify.com/track/43nP4jKb7yRoyN6onAJ684",
+        "plays": 2
+      },
+      {
+        "name": "Let the Mystery Be",
+        "album": "Infamous Angel",
+        "spotify_url": "https://open.spotify.com/track/7MQivOZVwEtP6U6gvidRAP",
+        "plays": 2
+      },
+      {
         "name": "Mama's Opry",
         "album": "Infamous Angel",
         "spotify_url": "https://open.spotify.com/track/7v9pAV0y6AiW6kOlzLPhne",
@@ -34529,18 +34673,6 @@
         "name": "Let the Mystery Be",
         "album": "Transatlantic Sessions - Series 1: Volume One",
         "spotify_url": "https://open.spotify.com/track/5irmuV4DegIrkorpqXCiB6",
-        "plays": 1
-      },
-      {
-        "name": "Our Town",
-        "album": "Infamous Angel",
-        "spotify_url": "https://open.spotify.com/track/43nP4jKb7yRoyN6onAJ684",
-        "plays": 1
-      },
-      {
-        "name": "Let the Mystery Be",
-        "album": "Infamous Angel",
-        "spotify_url": "https://open.spotify.com/track/7MQivOZVwEtP6U6gvidRAP",
         "plays": 1
       },
       {
@@ -34555,9 +34687,9 @@
     "id": "2Plkkomsc4DKawkCioLKjc",
     "name": "Uncle Tupelo",
     "spotify_url": "https://open.spotify.com/artist/2Plkkomsc4DKawkCioLKjc",
-    "total_plays": 1,
+    "total_plays": 2,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-10",
+    "last_seen": "2026-06-17",
     "genres": [
       "alt country",
       "americana",
@@ -34593,6 +34725,12 @@
         "plays": 1
       },
       {
+        "name": "New Madrid",
+        "album": "Anodyne",
+        "spotify_url": "https://open.spotify.com/track/4Ssgx7QJr0fzabt4D4JZ1b",
+        "plays": 1
+      },
+      {
         "name": "Atomic Power",
         "album": "March 16-20, 1992",
         "spotify_url": "https://open.spotify.com/track/0rVrDzOeAXrTJZ71ZpJvZO",
@@ -34603,12 +34741,6 @@
         "album": "No Depression",
         "spotify_url": "https://open.spotify.com/track/1OTH0AgyDuo6KZ8BwHVRD1",
         "plays": 2
-      },
-      {
-        "name": "New Madrid",
-        "album": "Anodyne",
-        "spotify_url": "https://open.spotify.com/track/4Ssgx7QJr0fzabt4D4JZ1b",
-        "plays": 1
       }
     ]
   },
@@ -34750,9 +34882,9 @@
     "id": "4SK1IgkcWWc5HC1TOBq1VS",
     "name": "Mary Gauthier",
     "spotify_url": "https://open.spotify.com/artist/4SK1IgkcWWc5HC1TOBq1VS",
-    "total_plays": 1,
+    "total_plays": 2,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-10",
+    "last_seen": "2026-06-17",
     "genres": [
       "americana",
       "alt country",
@@ -34781,7 +34913,7 @@
         "name": "Mercy Now",
         "album": "Mercy Now",
         "spotify_url": "https://open.spotify.com/track/6684GUHy1jpyhJVzpz5OFr",
-        "plays": 1
+        "plays": 2
       }
     ]
   },
@@ -34873,9 +35005,9 @@
     "id": "5yXAFDZNUNyO92l5WTImkO",
     "name": "Billy Bragg",
     "spotify_url": "https://open.spotify.com/artist/5yXAFDZNUNyO92l5WTImkO",
-    "total_plays": 1,
+    "total_plays": 2,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-10",
+    "last_seen": "2026-06-17",
     "genres": [
       "anti-folk",
       "alt country",
@@ -34905,6 +35037,12 @@
         "name": "Remember The Mountain Bed",
         "album": "Mermaid Avenue Vol. II",
         "spotify_url": "https://open.spotify.com/track/2H6IfHWdKTDWEJWMZ9x5jI",
+        "plays": 1
+      },
+      {
+        "name": "Walt Whitman's Niece",
+        "album": "Mermaid Avenue",
+        "spotify_url": "https://open.spotify.com/track/52aPbfBoUmoRbBe64u0sMv",
         "plays": 1
       },
       {
@@ -35264,6 +35402,288 @@
         "name": "Bad Boy Nuh Cub Scout",
         "album": "Monsters Of Dancehall",
         "spotify_url": "https://open.spotify.com/track/3b7ESZLvmXiQPnYbOzQbpZ",
+        "plays": 1
+      }
+    ]
+  },
+  "patty-griffin": {
+    "id": "7tNLRmiAN8hpmFrbIHiHsy",
+    "name": "Patty Griffin",
+    "spotify_url": "https://open.spotify.com/artist/7tNLRmiAN8hpmFrbIHiHsy",
+    "total_plays": 3,
+    "first_seen": "2026-06-18",
+    "last_seen": "2026-06-18",
+    "genres": [
+      "americana",
+      "folk",
+      "alt country"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb524e0137afffe4d2ad09bd76",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174524e0137afffe4d2ad09bd76",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178524e0137afffe4d2ad09bd76",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Long Ride Home",
+        "album": "1000 Kisses",
+        "spotify_url": "https://open.spotify.com/track/1v76gn29TvpZg2areWXbxP",
+        "plays": 1
+      },
+      {
+        "name": "Be Careful",
+        "album": "1000 Kisses",
+        "spotify_url": "https://open.spotify.com/track/5Zm2BnGdRDUFx0hzAOOOU5",
+        "plays": 1
+      },
+      {
+        "name": "Making Pies",
+        "album": "1000 Kisses",
+        "spotify_url": "https://open.spotify.com/track/1hypKxsd3jDj2TzYFnwaXC",
+        "plays": 1
+      }
+    ]
+  },
+  "loudon-wainwright-iii": {
+    "id": "3loACRmkzdtOMNJEaB6j8L",
+    "name": "Loudon Wainwright III",
+    "spotify_url": "https://open.spotify.com/artist/3loACRmkzdtOMNJEaB6j8L",
+    "total_plays": 1,
+    "first_seen": "2026-06-17",
+    "last_seen": "2026-06-17",
+    "genres": [
+      "folk",
+      "singer-songwriter"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb386067d241fbc8ac18c1e89f",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174386067d241fbc8ac18c1e89f",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178386067d241fbc8ac18c1e89f",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "The Swimming Song",
+        "album": "Attempted Mustache",
+        "spotify_url": "https://open.spotify.com/track/6scUEism6pBnY0IXYr8fw3",
+        "plays": 1
+      },
+      {
+        "name": "Come A Long Way",
+        "album": "Attempted Mustache",
+        "spotify_url": "https://open.spotify.com/track/4bFqTEA1bVO977nOfOax41",
+        "plays": 1
+      }
+    ]
+  },
+  "john-hartford": {
+    "id": "0NAr5zThPfMx26ISgooQK6",
+    "name": "John Hartford",
+    "spotify_url": "https://open.spotify.com/artist/0NAr5zThPfMx26ISgooQK6",
+    "total_plays": 1,
+    "first_seen": "2026-06-17",
+    "last_seen": "2026-06-17",
+    "genres": [
+      "bluegrass",
+      "newgrass",
+      "americana"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/aafb8bb33b29dc9e3eb83bfec71467e153feeccd",
+        "height": 733,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/996c01c59d6aacf63874a6e8d6f17c9839ad542c",
+        "height": 469,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/7ee19bc07fb3920e19b36b84a101d7957ba8e512",
+        "height": 147,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/9ad5b2696d9021e7acbcae2431ba4173afc8d919",
+        "height": 47,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "In Tall Buildings",
+        "album": "Nobody Knows What You Do",
+        "spotify_url": "https://open.spotify.com/track/2XRwHP0xxXbkPPFj1p5mId",
+        "plays": 1
+      }
+    ]
+  },
+  "dan-reeder": {
+    "id": "4pzjm2iMtclScYmoJ7q9tD",
+    "name": "Dan Reeder",
+    "spotify_url": "https://open.spotify.com/artist/4pzjm2iMtclScYmoJ7q9tD",
+    "total_plays": 1,
+    "first_seen": "2026-06-17",
+    "last_seen": "2026-06-17",
+    "genres": [
+      "new americana"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb521a0de2066d4a71076fe45d",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174521a0de2066d4a71076fe45d",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178521a0de2066d4a71076fe45d",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "maybe",
+        "album": "this new century",
+        "spotify_url": "https://open.spotify.com/track/1D4gj6Csyu30S8v0ZN8LP8",
+        "plays": 1
+      },
+      {
+        "name": "Raft to Freedom",
+        "album": "Every Which Way",
+        "spotify_url": "https://open.spotify.com/track/009D223AuFSguPudljSrsp",
+        "plays": 2
+      },
+      {
+        "name": "Cowboy Song",
+        "album": "Sweetheart",
+        "spotify_url": "https://open.spotify.com/track/7cX9IJwuoc5PyM0vPabvuC",
+        "plays": 2
+      },
+      {
+        "name": "I Don't Really Want to Talk to You",
+        "album": "Sweetheart",
+        "spotify_url": "https://open.spotify.com/track/18S89VggeKXhSovaV6GUHw",
+        "plays": 1
+      },
+      {
+        "name": "Three Chords",
+        "album": "Dan Reeder",
+        "spotify_url": "https://open.spotify.com/track/2zEbDmmQ64bEPxf5xCfGbk",
+        "plays": 1
+      },
+      {
+        "name": "You'll Never Surf Again",
+        "album": "Sweetheart",
+        "spotify_url": "https://open.spotify.com/track/3TgoAV7KUZsDGvYhO0436P",
+        "plays": 1
+      }
+    ]
+  },
+  "sierra-ferrell": {
+    "id": "3oVcF3VdpMuvMvLLyHPT4t",
+    "name": "Sierra Ferrell",
+    "spotify_url": "https://open.spotify.com/artist/3oVcF3VdpMuvMvLLyHPT4t",
+    "total_plays": 1,
+    "first_seen": "2026-06-17",
+    "last_seen": "2026-06-17",
+    "genres": [
+      "americana",
+      "bluegrass",
+      "alt country"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb871c90e9904cac69a6c31697",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174871c90e9904cac69a6c31697",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178871c90e9904cac69a6c31697",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Hey Me, Hey Mama",
+        "album": "Hey Me, Hey Mama",
+        "spotify_url": "https://open.spotify.com/track/4MeXcqcyx5vMVUJAKTqKRv",
+        "plays": 1
+      },
+      {
+        "name": "Jeremiah",
+        "album": "Long Time Coming",
+        "spotify_url": "https://open.spotify.com/track/23ZnVd3Qa0kwsTJcfHVjJ0",
+        "plays": 2
+      }
+    ]
+  },
+  "dillard-clark": {
+    "id": "3QcM2tU8CDY3LyzvwCj1CI",
+    "name": "Dillard & Clark",
+    "spotify_url": "https://open.spotify.com/artist/3QcM2tU8CDY3LyzvwCj1CI",
+    "total_plays": 1,
+    "first_seen": "2026-06-17",
+    "last_seen": "2026-06-17",
+    "genres": [
+      "country rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b273fb30ef03cc2fee16cd2b8918",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e02fb30ef03cc2fee16cd2b8918",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00004851fb30ef03cc2fee16cd2b8918",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Don't Let Me Down",
+        "album": "Through The Morning, Through The Night",
+        "spotify_url": "https://open.spotify.com/track/1PsDNPG1j7ySpFpxjHB5xb",
         "plays": 1
       }
     ]
@@ -57425,66 +57845,6 @@
         "name": "I Remember You",
         "album": "Motion",
         "spotify_url": "https://open.spotify.com/track/5eMz1VtT2zNtsyh1bDgDhb",
-        "plays": 1
-      }
-    ]
-  },
-  "dan-reeder": {
-    "id": "4pzjm2iMtclScYmoJ7q9tD",
-    "name": "Dan Reeder",
-    "spotify_url": "https://open.spotify.com/artist/4pzjm2iMtclScYmoJ7q9tD",
-    "total_plays": 7,
-    "first_seen": "",
-    "last_seen": "",
-    "genres": [
-      "new americana"
-    ],
-    "images": [
-      {
-        "height": 640,
-        "url": "https://i.scdn.co/image/ab6761610000e5eb7608a19be6c5d9258d1d901f",
-        "width": 640
-      },
-      {
-        "height": 320,
-        "url": "https://i.scdn.co/image/ab676161000051747608a19be6c5d9258d1d901f",
-        "width": 320
-      },
-      {
-        "height": 160,
-        "url": "https://i.scdn.co/image/ab6761610000f1787608a19be6c5d9258d1d901f",
-        "width": 160
-      }
-    ],
-    "top_tracks": [
-      {
-        "name": "Raft to Freedom",
-        "album": "Every Which Way",
-        "spotify_url": "https://open.spotify.com/track/009D223AuFSguPudljSrsp",
-        "plays": 2
-      },
-      {
-        "name": "Cowboy Song",
-        "album": "Sweetheart",
-        "spotify_url": "https://open.spotify.com/track/7cX9IJwuoc5PyM0vPabvuC",
-        "plays": 2
-      },
-      {
-        "name": "I Don't Really Want to Talk to You",
-        "album": "Sweetheart",
-        "spotify_url": "https://open.spotify.com/track/18S89VggeKXhSovaV6GUHw",
-        "plays": 1
-      },
-      {
-        "name": "Three Chords",
-        "album": "Dan Reeder",
-        "spotify_url": "https://open.spotify.com/track/2zEbDmmQ64bEPxf5xCfGbk",
-        "plays": 1
-      },
-      {
-        "name": "You'll Never Surf Again",
-        "album": "Sweetheart",
-        "spotify_url": "https://open.spotify.com/track/3TgoAV7KUZsDGvYhO0436P",
         "plays": 1
       }
     ]
