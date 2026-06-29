@@ -2351,9 +2351,9 @@
     "id": "2QsynagSdAqZj3U9HgDzjD",
     "name": "Bob Marley & The Wailers",
     "spotify_url": "https://open.spotify.com/artist/2QsynagSdAqZj3U9HgDzjD",
-    "total_plays": 24,
+    "total_plays": 37,
     "first_seen": "2026-02-16",
-    "last_seen": "2026-03-17",
+    "last_seen": "2026-06-27",
     "genres": [
       "reggae",
       "roots reggae"
@@ -2400,6 +2400,24 @@
         "plays": 2
       },
       {
+        "name": "Work",
+        "album": "Uprising",
+        "spotify_url": "https://open.spotify.com/track/1He5SVrXc9r2rC4lyyWcO1",
+        "plays": 2
+      },
+      {
+        "name": "Coming In From The Cold",
+        "album": "Uprising",
+        "spotify_url": "https://open.spotify.com/track/6lmLUNd7mcyYqKcg6EIAOu",
+        "plays": 2
+      },
+      {
+        "name": "Could You Be Loved",
+        "album": "Uprising",
+        "spotify_url": "https://open.spotify.com/track/5O4erNlJ74PIF6kGol1ZrC",
+        "plays": 2
+      },
+      {
         "name": "Is This Love",
         "album": "Kaya",
         "spotify_url": "https://open.spotify.com/track/6JRLFiX9NJSoRRKxowlBYr",
@@ -2424,27 +2442,69 @@
         "plays": 1
       },
       {
-        "name": "Work",
-        "album": "Uprising",
-        "spotify_url": "https://open.spotify.com/track/1He5SVrXc9r2rC4lyyWcO1",
-        "plays": 1
-      },
-      {
         "name": "Babylon System",
         "album": "Survival",
         "spotify_url": "https://open.spotify.com/track/6xbtDXk8utIS8rOWD0X9XA",
         "plays": 1
       },
       {
-        "name": "Coming In From The Cold",
-        "album": "Uprising",
-        "spotify_url": "https://open.spotify.com/track/6lmLUNd7mcyYqKcg6EIAOu",
+        "name": "Exodus",
+        "album": "Exodus",
+        "spotify_url": "https://open.spotify.com/track/1lRkDJ9hMuiE1GZOlbgkam",
         "plays": 1
       },
       {
-        "name": "Could You Be Loved",
+        "name": "Could You Be Loved - Errol Brown and Alex Sadkin Remix / Bonus Track",
         "album": "Uprising",
-        "spotify_url": "https://open.spotify.com/track/5O4erNlJ74PIF6kGol1ZrC",
+        "spotify_url": "https://open.spotify.com/track/1Rb4eWCv2mPz7bVyrwbwvP",
+        "plays": 1
+      },
+      {
+        "name": "Redemption Song - Band Version / Bonus Track",
+        "album": "Uprising",
+        "spotify_url": "https://open.spotify.com/track/6ylXXB6zqjkHsfXu8Ia2VG",
+        "plays": 1
+      },
+      {
+        "name": "Redemption Song",
+        "album": "Uprising",
+        "spotify_url": "https://open.spotify.com/track/26PwuMotZqcczKLHi4Htz3",
+        "plays": 1
+      },
+      {
+        "name": "Forever Loving Jah",
+        "album": "Uprising",
+        "spotify_url": "https://open.spotify.com/track/1CAEHafiiJKjp6t9hfYX7f",
+        "plays": 1
+      },
+      {
+        "name": "Pimper's Paradise",
+        "album": "Uprising",
+        "spotify_url": "https://open.spotify.com/track/5JqCmd41S3PZ2AS6GuHqcR",
+        "plays": 1
+      },
+      {
+        "name": "Zion Train",
+        "album": "Uprising",
+        "spotify_url": "https://open.spotify.com/track/2Uqayp7267V5SJYOf7fLmV",
+        "plays": 1
+      },
+      {
+        "name": "We And Dem",
+        "album": "Uprising",
+        "spotify_url": "https://open.spotify.com/track/0FyHNCvSDKV3ZJ9iqSyWNj",
+        "plays": 1
+      },
+      {
+        "name": "Bad Card",
+        "album": "Uprising",
+        "spotify_url": "https://open.spotify.com/track/2Zw5FtdFtvKWg4h44GOv3R",
+        "plays": 1
+      },
+      {
+        "name": "Real Situation",
+        "album": "Uprising",
+        "spotify_url": "https://open.spotify.com/track/6d4B82vt7pjdzumBmV6HiZ",
         "plays": 1
       },
       {
@@ -2508,12 +2568,6 @@
         "plays": 2
       },
       {
-        "name": "We And Dem",
-        "album": "Uprising",
-        "spotify_url": "https://open.spotify.com/track/0FyHNCvSDKV3ZJ9iqSyWNj",
-        "plays": 2
-      },
-      {
         "name": "I Know",
         "album": "Confrontation",
         "spotify_url": "https://open.spotify.com/track/1cFPuvgwmSt5cBMVBy90nj",
@@ -2535,12 +2589,6 @@
         "name": "Trench Town",
         "album": "Confrontation",
         "spotify_url": "https://open.spotify.com/track/6cLeIanzsJy9LmohPWsg21",
-        "plays": 2
-      },
-      {
-        "name": "Real Situation",
-        "album": "Uprising",
-        "spotify_url": "https://open.spotify.com/track/6d4B82vt7pjdzumBmV6HiZ",
         "plays": 2
       },
       {
@@ -2613,12 +2661,6 @@
         "name": "Three Little Birds",
         "album": "Exodus",
         "spotify_url": "https://open.spotify.com/track/7yFvSYKk3g5g8e7Ffl16ws",
-        "plays": 1
-      },
-      {
-        "name": "Exodus",
-        "album": "Exodus",
-        "spotify_url": "https://open.spotify.com/track/1lRkDJ9hMuiE1GZOlbgkam",
         "plays": 1
       },
       {
@@ -13278,9 +13320,9 @@
     "id": "7nW46aJfNHxK9Y3M5Dhadk",
     "name": "Jack Van Cleaf",
     "spotify_url": "https://open.spotify.com/artist/7nW46aJfNHxK9Y3M5Dhadk",
-    "total_plays": 26,
+    "total_plays": 29,
     "first_seen": "2026-03-04",
-    "last_seen": "2026-06-06",
+    "last_seen": "2026-06-24",
     "genres": [],
     "images": [
       {
@@ -13304,7 +13346,7 @@
         "name": "Green",
         "album": "JVC",
         "spotify_url": "https://open.spotify.com/track/1y0irYFXbGGPmAUjK8bFNA",
-        "plays": 4
+        "plays": 6
       },
       {
         "name": "Santa Anas",
@@ -13313,15 +13355,15 @@
         "plays": 3
       },
       {
-        "name": "Siri, Cancel My Plans",
-        "album": "Siri, Cancel My Plans",
-        "spotify_url": "https://open.spotify.com/track/3nHAw1ypqCG5wS51ipil5i",
-        "plays": 2
-      },
-      {
         "name": "Using You",
         "album": "JVC",
         "spotify_url": "https://open.spotify.com/track/2bWlEirBgnK78PY6ITEcZG",
+        "plays": 3
+      },
+      {
+        "name": "Siri, Cancel My Plans",
+        "album": "Siri, Cancel My Plans",
+        "spotify_url": "https://open.spotify.com/track/3nHAw1ypqCG5wS51ipil5i",
         "plays": 2
       },
       {
@@ -21906,9 +21948,9 @@
     "id": "1ZN1c1qWEGZNX1pGeKCPpf",
     "name": "Billy Strings",
     "spotify_url": "https://open.spotify.com/artist/1ZN1c1qWEGZNX1pGeKCPpf",
-    "total_plays": 31,
+    "total_plays": 34,
     "first_seen": "2026-03-28",
-    "last_seen": "2026-05-14",
+    "last_seen": "2026-06-24",
     "genres": [
       "bluegrass",
       "newgrass",
@@ -21937,7 +21979,7 @@
         "name": "Gild the Lily",
         "album": "Highway Prayers",
         "spotify_url": "https://open.spotify.com/track/181YsWsKwhTmoHYZ4xtiuZ",
-        "plays": 5
+        "plays": 6
       },
       {
         "name": "Watch It Fall",
@@ -22045,6 +22087,18 @@
         "name": "Know It All",
         "album": "Renewal",
         "spotify_url": "https://open.spotify.com/track/687SHqnUp3yGfGiuwgE2WG",
+        "plays": 1
+      },
+      {
+        "name": "Slow Train",
+        "album": "Billy Strings - EP",
+        "spotify_url": "https://open.spotify.com/track/3PG4uLlLl8AyRMFTFjqAot",
+        "plays": 1
+      },
+      {
+        "name": "If You're Gonna Be Dumb, You Gotta Be Tough (from jackass: best and last)",
+        "album": "If You're Gonna Be Dumb, You Gotta Be Tough (from jackass: best and last)",
+        "spotify_url": "https://open.spotify.com/track/4fDZIUFr4ntAQvqCHCvl3k",
         "plays": 1
       }
     ]
@@ -26355,9 +26409,9 @@
     "id": "3vDpQbGnzRbRVirXlfQagB",
     "name": "Sturgill Simpson",
     "spotify_url": "https://open.spotify.com/artist/3vDpQbGnzRbRVirXlfQagB",
-    "total_plays": 1,
+    "total_plays": 2,
     "first_seen": "2026-05-03",
-    "last_seen": "2026-05-03",
+    "last_seen": "2026-06-23",
     "genres": [
       "outlaw country",
       "alt country",
@@ -26389,6 +26443,12 @@
         "name": "In Bloom",
         "album": "A Sailor's Guide to Earth",
         "spotify_url": "https://open.spotify.com/track/5StrN0F4XI5e0BHP32THhl",
+        "plays": 1
+      },
+      {
+        "name": "Paradise",
+        "album": "Broken Hearts & Dirty Windows: Songs of John Prine, Vol. 2",
+        "spotify_url": "https://open.spotify.com/track/1ZS3ON442UGUMg87rNdo8v",
         "plays": 1
       }
     ]
@@ -35612,9 +35672,9 @@
     "id": "3oVcF3VdpMuvMvLLyHPT4t",
     "name": "Sierra Ferrell",
     "spotify_url": "https://open.spotify.com/artist/3oVcF3VdpMuvMvLLyHPT4t",
-    "total_plays": 1,
+    "total_plays": 2,
     "first_seen": "2026-06-17",
-    "last_seen": "2026-06-17",
+    "last_seen": "2026-06-23",
     "genres": [
       "americana",
       "bluegrass",
@@ -35642,6 +35702,12 @@
         "name": "Hey Me, Hey Mama",
         "album": "Hey Me, Hey Mama",
         "spotify_url": "https://open.spotify.com/track/4MeXcqcyx5vMVUJAKTqKRv",
+        "plays": 1
+      },
+      {
+        "name": "I Could Drive You Crazy",
+        "album": "Trail Of Flowers",
+        "spotify_url": "https://open.spotify.com/track/6xgCx5NI5sE0yQ7Of1rkFo",
         "plays": 1
       },
       {
@@ -36112,6 +36178,276 @@
         "name": "Strange Fruit",
         "album": "Billie Holiday",
         "spotify_url": "https://open.spotify.com/track/1CTex49P0iWwzUGsMNjgaV",
+        "plays": 1
+      }
+    ]
+  },
+  "peter-tosh": {
+    "id": "0oea1hwGMfUxZbLxJc1XUN",
+    "name": "Peter Tosh",
+    "spotify_url": "https://open.spotify.com/artist/0oea1hwGMfUxZbLxJc1XUN",
+    "total_plays": 1,
+    "first_seen": "2026-06-27",
+    "last_seen": "2026-06-27",
+    "genres": [
+      "reggae",
+      "ragga",
+      "roots reggae"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/c935305719f26d05c9d9b51b5b838d5448b44a27",
+        "height": 667,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/ff0dc4f22c8e5074d7996313d785785a555e46bb",
+        "height": 427,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/aa79350754a8e9ef651229e7cc5a6d127940c8df",
+        "height": 133,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/1bbc9aa845b04995c75e7e06f7b5649aa3dd5605",
+        "height": 43,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Wanted Dread and Alive - 2002 Remaster",
+        "album": "Wanted Dread and Alive",
+        "spotify_url": "https://open.spotify.com/track/5jkxC8SIZJ4qqusxRPVS5s",
+        "plays": 1
+      }
+    ]
+  },
+  "sister-nancy": {
+    "id": "21pMSs2JHWwwy2kp1QIIVB",
+    "name": "Sister Nancy",
+    "spotify_url": "https://open.spotify.com/artist/21pMSs2JHWwwy2kp1QIIVB",
+    "total_plays": 1,
+    "first_seen": "2026-06-27",
+    "last_seen": "2026-06-27",
+    "genres": [
+      "reggae",
+      "roots reggae",
+      "rocksteady",
+      "ragga",
+      "dub"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb384861d11524fdcb45556a43",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174384861d11524fdcb45556a43",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178384861d11524fdcb45556a43",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "One Two",
+        "album": "One Two",
+        "spotify_url": "https://open.spotify.com/track/4CzVVIrkZE2IulKqwQiqh1",
+        "plays": 1
+      }
+    ]
+  },
+  "damian-marley": {
+    "id": "3QJzdZJYIAcoET1GcfpNGi",
+    "name": "Damian Marley",
+    "spotify_url": "https://open.spotify.com/artist/3QJzdZJYIAcoET1GcfpNGi",
+    "total_plays": 1,
+    "first_seen": "2026-06-27",
+    "last_seen": "2026-06-27",
+    "genres": [
+      "reggae",
+      "ragga",
+      "rocksteady"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6772690000c46c297e4428eb2a582e0b0c0ebc",
+        "height": 1000,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6772690000dd22297e4428eb2a582e0b0c0ebc",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6772690000bac3297e4428eb2a582e0b0c0ebc",
+        "height": 200,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67726900008f74297e4428eb2a582e0b0c0ebc",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "My Sweet Lord",
+        "album": "My Sweet Lord",
+        "spotify_url": "https://open.spotify.com/track/0gVCFdvavY7YRsIpssaxaz",
+        "plays": 1
+      }
+    ]
+  },
+  "strawberry-farm": {
+    "id": "0jCfyvVAM43XDoID5AH1Rd",
+    "name": "Strawberry Farm",
+    "spotify_url": "https://open.spotify.com/artist/0jCfyvVAM43XDoID5AH1Rd",
+    "total_plays": 2,
+    "first_seen": "2026-06-24",
+    "last_seen": "2026-06-24",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb2658556349805a344e09a496",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051742658556349805a344e09a496",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1782658556349805a344e09a496",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Kazoo",
+        "album": "Kazoo",
+        "spotify_url": "https://open.spotify.com/track/5dG0K5TOMnUZJXP7oA05o7",
+        "plays": 2
+      }
+    ]
+  },
+  "johnny-blue-skies": {
+    "id": "5R55ruC73ANyzDSOzIZjNc",
+    "name": "Johnny Blue Skies",
+    "spotify_url": "https://open.spotify.com/artist/5R55ruC73ANyzDSOzIZjNc",
+    "total_plays": 1,
+    "first_seen": "2026-06-23",
+    "last_seen": "2026-06-23",
+    "genres": [
+      "alt country"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebf69a05334162fa60d57f6349",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174f69a05334162fa60d57f6349",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178f69a05334162fa60d57f6349",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "A Whiter Shade of Pale",
+        "album": "Mutiny After Midnight (Extended Edition)",
+        "spotify_url": "https://open.spotify.com/track/06L4a5JnNqZAfaOerHnfYt",
+        "plays": 1
+      }
+    ]
+  },
+  "charles-wesley-godwin": {
+    "id": "2ErsJAz6qJ5cqjoVAvfvaC",
+    "name": "Charles Wesley Godwin",
+    "spotify_url": "https://open.spotify.com/artist/2ErsJAz6qJ5cqjoVAvfvaC",
+    "total_plays": 1,
+    "first_seen": "2026-06-23",
+    "last_seen": "2026-06-23",
+    "genres": [
+      "red dirt",
+      "country"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebbf4f605fc86259ad71b45794",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174bf4f605fc86259ad71b45794",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178bf4f605fc86259ad71b45794",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Hey There Son (feat. Wyatt Flores)",
+        "album": "Hey There Son",
+        "spotify_url": "https://open.spotify.com/track/6bxxxlnPtYLDCFJiHEnJ9s",
+        "plays": 1
+      }
+    ]
+  },
+  "jesse-welles": {
+    "id": "366xgdzfRGQoiDRGidGlDJ",
+    "name": "Jesse Welles",
+    "spotify_url": "https://open.spotify.com/artist/366xgdzfRGQoiDRGidGlDJ",
+    "total_plays": 1,
+    "first_seen": "2026-06-23",
+    "last_seen": "2026-06-23",
+    "genres": [
+      "folk punk",
+      "folk"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb7746015c7c118e51d7e1570a",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051747746015c7c118e51d7e1570a",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1787746015c7c118e51d7e1570a",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Red",
+        "album": "Masks Off",
+        "spotify_url": "https://open.spotify.com/track/4nf294FQhYPL14ffef391d",
         "plays": 1
       }
     ]
