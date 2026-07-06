@@ -2351,9 +2351,9 @@
     "id": "2QsynagSdAqZj3U9HgDzjD",
     "name": "Bob Marley & The Wailers",
     "spotify_url": "https://open.spotify.com/artist/2QsynagSdAqZj3U9HgDzjD",
-    "total_plays": 37,
+    "total_plays": 38,
     "first_seen": "2026-02-16",
-    "last_seen": "2026-06-27",
+    "last_seen": "2026-07-04",
     "genres": [
       "reggae",
       "roots reggae"
@@ -2394,6 +2394,12 @@
         "plays": 6
       },
       {
+        "name": "Coming In From The Cold",
+        "album": "Uprising",
+        "spotify_url": "https://open.spotify.com/track/6lmLUNd7mcyYqKcg6EIAOu",
+        "plays": 3
+      },
+      {
         "name": "Zimbabwe",
         "album": "Survival",
         "spotify_url": "https://open.spotify.com/track/5ApfJDLibIoWL0mRZ5uOKu",
@@ -2403,12 +2409,6 @@
         "name": "Work",
         "album": "Uprising",
         "spotify_url": "https://open.spotify.com/track/1He5SVrXc9r2rC4lyyWcO1",
-        "plays": 2
-      },
-      {
-        "name": "Coming In From The Cold",
-        "album": "Uprising",
-        "spotify_url": "https://open.spotify.com/track/6lmLUNd7mcyYqKcg6EIAOu",
         "plays": 2
       },
       {
@@ -10416,9 +10416,9 @@
     "id": "1G9G7WwrXka3Z1r7aIDjI7",
     "name": "Outkast",
     "spotify_url": "https://open.spotify.com/artist/1G9G7WwrXka3Z1r7aIDjI7",
-    "total_plays": 2,
+    "total_plays": 3,
     "first_seen": "2026-03-06",
-    "last_seen": "2026-03-06",
+    "last_seen": "2026-07-04",
     "genres": [
       "southern hip hop",
       "hip hop"
@@ -10451,6 +10451,12 @@
         "name": "Wheelz of Steel",
         "album": "ATLiens",
         "spotify_url": "https://open.spotify.com/track/5qKqRkWnRTXNVWbEOOmGxk",
+        "plays": 1
+      },
+      {
+        "name": "B.O.B. - Bombs Over Baghdad",
+        "album": "Stankonia",
+        "spotify_url": "https://open.spotify.com/track/3WibbMr6canxRJXhNtAvLU",
         "plays": 1
       },
       {
@@ -17545,9 +17551,9 @@
     "id": "4qmHkMxr6pTWh5Zo74odpH",
     "name": "Elvis Costello & The Attractions",
     "spotify_url": "https://open.spotify.com/artist/4qmHkMxr6pTWh5Zo74odpH",
-    "total_plays": 3,
+    "total_plays": 20,
     "first_seen": "2026-03-13",
-    "last_seen": "2026-03-14",
+    "last_seen": "2026-06-29",
     "genres": [
       "new wave",
       "power pop"
@@ -17582,9 +17588,105 @@
         "plays": 3
       },
       {
+        "name": "Green Shirt",
+        "album": "Armed Forces (Super Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/5CrQHNvMHKjq794ZvXHENu",
+        "plays": 1
+      },
+      {
+        "name": "The Beat - 2021 Remaster",
+        "album": "This Year's Model (2021 Remaster)",
+        "spotify_url": "https://open.spotify.com/track/1bqlDsBlBPxjK0zuFQcSXq",
+        "plays": 1
+      },
+      {
+        "name": "Man Out Of Time",
+        "album": "Imperial Bedroom",
+        "spotify_url": "https://open.spotify.com/track/0hFJ8V0qfcKiy0ZWk0ukne",
+        "plays": 1
+      },
+      {
+        "name": "New Amsterdam",
+        "album": "Get Happy",
+        "spotify_url": "https://open.spotify.com/track/0cUqdLp20Oz7zolsvB9oxS",
+        "plays": 1
+      },
+      {
+        "name": "Watch Your Step",
+        "album": "Trust",
+        "spotify_url": "https://open.spotify.com/track/4XbcBk2uoj7DZKxlVjjtLM",
+        "plays": 1
+      },
+      {
+        "name": "This Year's Girl - 2021 Remaster",
+        "album": "This Year's Model (2021 Remaster)",
+        "spotify_url": "https://open.spotify.com/track/1fdZTOJXydtRzCwBbHlJco",
+        "plays": 1
+      },
+      {
+        "name": "Shipbuilding",
+        "album": "Punch The Clock",
+        "spotify_url": "https://open.spotify.com/track/7DV1fLakiEgpJ1OuMQH4yb",
+        "plays": 1
+      },
+      {
+        "name": "I Want You",
+        "album": "Blood And Chocolate",
+        "spotify_url": "https://open.spotify.com/track/1VN8ew9KECPqYS3sVbnZRr",
+        "plays": 1
+      },
+      {
+        "name": "Accidents Will Happen",
+        "album": "Armed Forces (Super Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/2Rv3hGdKSLeX30V55asE3s",
+        "plays": 1
+      },
+      {
+        "name": "Radio, Radio - 2021 Remaster",
+        "album": "This Year's Model (2021 Remaster)",
+        "spotify_url": "https://open.spotify.com/track/0qvo5kciIqZJn1t8jdfqDn",
+        "plays": 1
+      },
+      {
+        "name": "Beyond Belief",
+        "album": "Imperial Bedroom",
+        "spotify_url": "https://open.spotify.com/track/5qIWEtVAzylkR5zzMEk5uA",
+        "plays": 1
+      },
+      {
+        "name": "I Can't Stand Up For Falling Down",
+        "album": "Get Happy",
+        "spotify_url": "https://open.spotify.com/track/2Hd2wSNaIujq6CYVp2wLl6",
+        "plays": 1
+      },
+      {
+        "name": "(What's So Funny 'Bout) Peace, Love And Understanding",
+        "album": "Armed Forces (Super Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/0xedT3pJWCBjoh0Nyqeuxj",
+        "plays": 1
+      },
+      {
+        "name": "(I Don't Want To Go To) Chelsea - 2021 Remaster",
+        "album": "This Year's Model (2021 Remaster)",
+        "spotify_url": "https://open.spotify.com/track/7uYyLVNjKY49L8o3AouXZd",
+        "plays": 1
+      },
+      {
         "name": "Good Year For The Roses",
         "album": "Almost Blue",
         "spotify_url": "https://open.spotify.com/track/4RZCoFsZHw9XvDZdv2jtkK",
+        "plays": 1
+      },
+      {
+        "name": "Everyday I Write The Book",
+        "album": "Punch The Clock",
+        "spotify_url": "https://open.spotify.com/track/1P9523tBg56NRc78lX2i4l",
+        "plays": 1
+      },
+      {
+        "name": "Oliver's Army",
+        "album": "Armed Forces (Super Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/1fK4o91ATUTpvBCOZ2GKDh",
         "plays": 1
       }
     ]
@@ -23073,9 +23175,9 @@
     "id": "3apnkNwaHdhoNIvKVMiC5S",
     "name": "Gregory Uhlmann",
     "spotify_url": "https://open.spotify.com/artist/3apnkNwaHdhoNIvKVMiC5S",
-    "total_plays": 1,
+    "total_plays": 3,
     "first_seen": "2026-04-05",
-    "last_seen": "2026-04-05",
+    "last_seen": "2026-07-04",
     "genres": [
       "ambient jazz"
     ],
@@ -23101,7 +23203,7 @@
         "name": "The Fool on the Hill",
         "album": "Uhlmann Johnson Wilkes",
         "spotify_url": "https://open.spotify.com/track/3T9p47fkoYc8QdJF9JlT9X",
-        "plays": 1
+        "plays": 3
       }
     ]
   },
@@ -26178,9 +26280,9 @@
     "id": "3GjVVVcFmUgEJEAAsbGkf4",
     "name": "Trampled by Turtles",
     "spotify_url": "https://open.spotify.com/artist/3GjVVVcFmUgEJEAAsbGkf4",
-    "total_plays": 6,
+    "total_plays": 7,
     "first_seen": "2026-04-21",
-    "last_seen": "2026-05-06",
+    "last_seen": "2026-07-04",
     "genres": [
       "bluegrass",
       "newgrass",
@@ -26210,7 +26312,7 @@
         "name": "Where Is My Mind?",
         "album": "Where Is My Mind?",
         "spotify_url": "https://open.spotify.com/track/2dJrn376fJPUCj1f4txnRQ",
-        "plays": 3
+        "plays": 4
       },
       {
         "name": "At Your Window",
@@ -28546,9 +28648,9 @@
     "id": "7jnWKcHAIv81blyiWv47Kp",
     "name": "Roger Glenn",
     "spotify_url": "https://open.spotify.com/artist/7jnWKcHAIv81blyiWv47Kp",
-    "total_plays": 3,
+    "total_plays": 5,
     "first_seen": "2026-05-07",
-    "last_seen": "2026-05-07",
+    "last_seen": "2026-07-04",
     "genres": [
       "jazz funk",
       "jazz fusion",
@@ -28573,6 +28675,12 @@
     ],
     "top_tracks": [
       {
+        "name": "Cal's Guajira",
+        "album": "My Latin Heart",
+        "spotify_url": "https://open.spotify.com/track/4VkqXzYMxSGNoqe1Lv8EWw",
+        "plays": 3
+      },
+      {
         "name": "A Night of Love",
         "album": "My Latin Heart",
         "spotify_url": "https://open.spotify.com/track/2JZZu3hK7xieyT4ZhyI8Ei",
@@ -28582,12 +28690,6 @@
         "name": "Brother Marshall",
         "album": "My Latin Heart",
         "spotify_url": "https://open.spotify.com/track/4vBcNtrSXdQGbMv5Njahdr",
-        "plays": 1
-      },
-      {
-        "name": "Cal's Guajira",
-        "album": "My Latin Heart",
-        "spotify_url": "https://open.spotify.com/track/4VkqXzYMxSGNoqe1Lv8EWw",
         "plays": 1
       }
     ]
@@ -28635,9 +28737,9 @@
     "id": "11zHPjHnZN0ACA50rSnTcy",
     "name": "Nada Surf",
     "spotify_url": "https://open.spotify.com/artist/11zHPjHnZN0ACA50rSnTcy",
-    "total_plays": 3,
+    "total_plays": 4,
     "first_seen": "2026-05-06",
-    "last_seen": "2026-05-06",
+    "last_seen": "2026-07-04",
     "genres": [
       "power pop"
     ],
@@ -28663,7 +28765,7 @@
         "name": "Where Is My Mind",
         "album": "Where Is My Mind",
         "spotify_url": "https://open.spotify.com/track/2AsIm3Hr3GS4P4nntYSs2Q",
-        "plays": 3
+        "plays": 4
       }
     ]
   },
@@ -28930,9 +29032,9 @@
     "id": "6zvul52xwTWzilBZl6BUbT",
     "name": "Pixies",
     "spotify_url": "https://open.spotify.com/artist/6zvul52xwTWzilBZl6BUbT",
-    "total_plays": 2,
+    "total_plays": 3,
     "first_seen": "2026-05-06",
-    "last_seen": "2026-05-06",
+    "last_seen": "2026-07-04",
     "genres": [
       "alternative rock"
     ],
@@ -28958,7 +29060,7 @@
         "name": "Where Is My Mind? - 2007 Remaster",
         "album": "Surfer Rosa (2007 Remaster)",
         "spotify_url": "https://open.spotify.com/track/7wCmS9TTVUcIhRalDYFgPy",
-        "plays": 2
+        "plays": 3
       },
       {
         "name": "Hey",
@@ -32182,9 +32284,9 @@
     "id": "62BcWP4fzR8axESibNQEhs",
     "name": "Butthole Surfers",
     "spotify_url": "https://open.spotify.com/artist/62BcWP4fzR8axESibNQEhs",
-    "total_plays": 2,
+    "total_plays": 13,
     "first_seen": "2026-05-27",
-    "last_seen": "2026-05-28",
+    "last_seen": "2026-07-04",
     "genres": [
       "noise rock"
     ],
@@ -32212,15 +32314,69 @@
     ],
     "top_tracks": [
       {
+        "name": "Who Was In My Room Last Night?",
+        "album": "Independent Worm Saloon",
+        "spotify_url": "https://open.spotify.com/track/6DVNQXL9LRzKq8zjyFEuTC",
+        "plays": 3
+      },
+      {
         "name": "Intelligent Guy - Astronaut Version",
         "album": "Intelligent Guy (Astronaut Version)",
         "spotify_url": "https://open.spotify.com/track/5Yahflz0je7OMkf0gr2Tck",
         "plays": 1
       },
       {
-        "name": "Who Was In My Room Last Night?",
+        "name": "Dancing Fool",
         "album": "Independent Worm Saloon",
-        "spotify_url": "https://open.spotify.com/track/6DVNQXL9LRzKq8zjyFEuTC",
+        "spotify_url": "https://open.spotify.com/track/3Fp670h07h3IrjIUtXYy5b",
+        "plays": 1
+      },
+      {
+        "name": "Some Dispute Over T-Shirt Sales",
+        "album": "Independent Worm Saloon",
+        "spotify_url": "https://open.spotify.com/track/7FObPpGXeCp9AfWQvG2S5I",
+        "plays": 1
+      },
+      {
+        "name": "Strawberry",
+        "album": "Independent Worm Saloon",
+        "spotify_url": "https://open.spotify.com/track/3PZhosNQBVKW4zNoTeYYpe",
+        "plays": 1
+      },
+      {
+        "name": "Dog Inside Your Body",
+        "album": "Independent Worm Saloon",
+        "spotify_url": "https://open.spotify.com/track/7GAJcFwACPs9jSs7bhSoZW",
+        "plays": 1
+      },
+      {
+        "name": "Alcohol",
+        "album": "Independent Worm Saloon",
+        "spotify_url": "https://open.spotify.com/track/2U0JwDp1MRw5L9cV2cYcyz",
+        "plays": 1
+      },
+      {
+        "name": "Goofy's Concern",
+        "album": "Independent Worm Saloon",
+        "spotify_url": "https://open.spotify.com/track/4BW55ofrMAaJ05qkgwHxED",
+        "plays": 1
+      },
+      {
+        "name": "Chewin' George Lucas' Chocolate",
+        "album": "Independent Worm Saloon",
+        "spotify_url": "https://open.spotify.com/track/24YtMiZiFsOHWG5el416Zv",
+        "plays": 1
+      },
+      {
+        "name": "Tongue",
+        "album": "Independent Worm Saloon",
+        "spotify_url": "https://open.spotify.com/track/7IaKBTr6zkZeXwrEDqPZ3d",
+        "plays": 1
+      },
+      {
+        "name": "The Wooden Song",
+        "album": "Independent Worm Saloon",
+        "spotify_url": "https://open.spotify.com/track/3j2lwmlUNp1JuUtlxzwA89",
         "plays": 1
       },
       {
@@ -32476,12 +32632,6 @@
         "plays": 1
       },
       {
-        "name": "The Wooden Song",
-        "album": "Independent Worm Saloon",
-        "spotify_url": "https://open.spotify.com/track/3j2lwmlUNp1JuUtlxzwA89",
-        "plays": 1
-      },
-      {
         "name": "Waiting For Jimmy To Kick",
         "album": "Rembrandt Pussyhorse",
         "spotify_url": "https://open.spotify.com/track/3ogPvRixRLEiuRwtoWv8IY",
@@ -32497,12 +32647,6 @@
         "name": "Cowboy Bob",
         "album": "Psychic.... Powerless.... Another Man's Sac",
         "spotify_url": "https://open.spotify.com/track/445BSxJUCI6geRLHqqoLuX",
-        "plays": 1
-      },
-      {
-        "name": "Goofy's Concern",
-        "album": "Independent Worm Saloon",
-        "spotify_url": "https://open.spotify.com/track/4BW55ofrMAaJ05qkgwHxED",
         "plays": 1
       },
       {
@@ -32569,18 +32713,6 @@
         "name": "Jingle Of A Dog's Collar",
         "album": "Electriclarryland",
         "spotify_url": "https://open.spotify.com/track/5mVYe5DEVNOyv3RQujgsvJ",
-        "plays": 1
-      },
-      {
-        "name": "Dog Inside Your Body",
-        "album": "Independent Worm Saloon",
-        "spotify_url": "https://open.spotify.com/track/7GAJcFwACPs9jSs7bhSoZW",
-        "plays": 1
-      },
-      {
-        "name": "Tongue",
-        "album": "Independent Worm Saloon",
-        "spotify_url": "https://open.spotify.com/track/7IaKBTr6zkZeXwrEDqPZ3d",
         "plays": 1
       }
     ]
@@ -36448,6 +36580,832 @@
         "name": "Red",
         "album": "Masks Off",
         "spotify_url": "https://open.spotify.com/track/4nf294FQhYPL14ffef391d",
+        "plays": 1
+      }
+    ]
+  },
+  "johnny-cash": {
+    "id": "6kACVPfCOnqzgfEF5ryl0x",
+    "name": "Johnny Cash",
+    "spotify_url": "https://open.spotify.com/artist/6kACVPfCOnqzgfEF5ryl0x",
+    "total_plays": 1,
+    "first_seen": "2026-07-03",
+    "last_seen": "2026-07-03",
+    "genres": [
+      "classic country",
+      "outlaw country",
+      "country"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb94a8326675bfcafb20f0a235",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517494a8326675bfcafb20f0a235",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17894a8326675bfcafb20f0a235",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Five Feet High and Rising - Live at Madison Square Garden, New York, NY - December 1969",
+        "album": "At Madison Square Garden",
+        "spotify_url": "https://open.spotify.com/track/3y2z7rgsw4jat1ezeSXikB",
+        "plays": 1
+      }
+    ]
+  },
+  "zach-palmer": {
+    "id": "0lw1SGS8qxVBwjvy49sy0s",
+    "name": "Zach Palmer",
+    "spotify_url": "https://open.spotify.com/artist/0lw1SGS8qxVBwjvy49sy0s",
+    "total_plays": 10,
+    "first_seen": "2026-06-30",
+    "last_seen": "2026-06-30",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb827a2636b9859b2830177b42",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174827a2636b9859b2830177b42",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178827a2636b9859b2830177b42",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "The Roads",
+        "album": "The Roads",
+        "spotify_url": "https://open.spotify.com/track/7D1KWaRTSLXof2p6z8D3Ll",
+        "plays": 3
+      },
+      {
+        "name": "Nothing's Embarrassing",
+        "album": "Nothing's Embarrassing",
+        "spotify_url": "https://open.spotify.com/track/5PsGt2B9216UnXWqPdfAnY",
+        "plays": 1
+      },
+      {
+        "name": "the cattle",
+        "album": "the cattle",
+        "spotify_url": "https://open.spotify.com/track/5yJM8eDf8cIfD6KI6pkpcF",
+        "plays": 1
+      },
+      {
+        "name": "Ethan",
+        "album": "Ethan",
+        "spotify_url": "https://open.spotify.com/track/4Umm17NNOaSBxvQNqFi6ir",
+        "plays": 1
+      },
+      {
+        "name": "Bleed Out",
+        "album": "Bleed Out",
+        "spotify_url": "https://open.spotify.com/track/2CoiKmiJFE0a0KbzN1Og0c",
+        "plays": 1
+      },
+      {
+        "name": "the seconds before",
+        "album": "the seconds before",
+        "spotify_url": "https://open.spotify.com/track/7t1xESTHKzJCjzQkQexRBk",
+        "plays": 1
+      },
+      {
+        "name": "I think I waited for you",
+        "album": "I think I waited for you",
+        "spotify_url": "https://open.spotify.com/track/0bEjH2VyPdRqpVwLLdBDj7",
+        "plays": 1
+      },
+      {
+        "name": "Mountains",
+        "album": "Mountains",
+        "spotify_url": "https://open.spotify.com/track/3DctGiu4pFFCwLrVLBiRKi",
+        "plays": 1
+      }
+    ]
+  },
+  "aaron-marcus": {
+    "id": "2072bkZ3uE0GVj67uUpYoW",
+    "name": "Aaron Marcus",
+    "spotify_url": "https://open.spotify.com/artist/2072bkZ3uE0GVj67uUpYoW",
+    "total_plays": 1,
+    "first_seen": "2026-06-30",
+    "last_seen": "2026-06-30",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb143c76dc40b5e2edd65f385e",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174143c76dc40b5e2edd65f385e",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178143c76dc40b5e2edd65f385e",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "MEMORIAL",
+        "album": "MEMORIAL",
+        "spotify_url": "https://open.spotify.com/track/5XolRGOWy9uR8HWla1PQ5T",
+        "plays": 1
+      }
+    ]
+  },
+  "zach-webb": {
+    "id": "7xY48N1Fs8R9DDKcUrevke",
+    "name": "Zach Webb",
+    "spotify_url": "https://open.spotify.com/artist/7xY48N1Fs8R9DDKcUrevke",
+    "total_plays": 1,
+    "first_seen": "2026-06-30",
+    "last_seen": "2026-06-30",
+    "genres": [
+      "christian folk"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebfb8bb9047f24d3f8ca484681",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174fb8bb9047f24d3f8ca484681",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178fb8bb9047f24d3f8ca484681",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Fall in Love With You Again",
+        "album": "Take My Hand",
+        "spotify_url": "https://open.spotify.com/track/2bv4gWQpwbeJoXkQyqkkT1",
+        "plays": 1
+      }
+    ]
+  },
+  "dylan-hughes": {
+    "id": "1Tb9g8gVybdlkkqVgd7rUw",
+    "name": "Dylan Hughes",
+    "spotify_url": "https://open.spotify.com/artist/1Tb9g8gVybdlkkqVgd7rUw",
+    "total_plays": 5,
+    "first_seen": "2026-06-30",
+    "last_seen": "2026-06-30",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb0fff5c06ae4d5553b42fca1e",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051740fff5c06ae4d5553b42fca1e",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1780fff5c06ae4d5553b42fca1e",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Crows",
+        "album": "Somewhere, Between My Ribs",
+        "spotify_url": "https://open.spotify.com/track/3S0mOPVpfSQ8g5rMofROOo",
+        "plays": 1
+      },
+      {
+        "name": "Beneath The Trees",
+        "album": "Somewhere, Between My Ribs",
+        "spotify_url": "https://open.spotify.com/track/5r1j89yVOGYjuRs4Pph0Ju",
+        "plays": 1
+      },
+      {
+        "name": "Float Back East To Me",
+        "album": "Somewhere, Between My Ribs",
+        "spotify_url": "https://open.spotify.com/track/5KfFtdW0s0uZtTcKAZR7i9",
+        "plays": 1
+      },
+      {
+        "name": "Always Been For You",
+        "album": "Somewhere, Between My Ribs",
+        "spotify_url": "https://open.spotify.com/track/77eNLooAJwF3g7hzNI1F5f",
+        "plays": 1
+      },
+      {
+        "name": "Till Time Forgets",
+        "album": "Somewhere, Between My Ribs",
+        "spotify_url": "https://open.spotify.com/track/7ma4jEcBfwjIqvCVEgp6LK",
+        "plays": 1
+      }
+    ]
+  },
+  "brothers-page": {
+    "id": "3WEpQkwVA27jpSU3qzNyCA",
+    "name": "Brothers Page",
+    "spotify_url": "https://open.spotify.com/artist/3WEpQkwVA27jpSU3qzNyCA",
+    "total_plays": 1,
+    "first_seen": "2026-06-30",
+    "last_seen": "2026-06-30",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb8f2ea8fa2869bb9c8ab8f554",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051748f2ea8fa2869bb9c8ab8f554",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1788f2ea8fa2869bb9c8ab8f554",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "So Many Alive - Guitar Version",
+        "album": "So Many Alive (Guitar Version)",
+        "spotify_url": "https://open.spotify.com/track/7kSbjK3LBn5Wb6a6ewDDzq",
+        "plays": 1
+      }
+    ]
+  },
+  "cassey-harrold": {
+    "id": "3ajzE4eAE9toqJ0Z4KWNlQ",
+    "name": "CASSEY HARROLD",
+    "spotify_url": "https://open.spotify.com/artist/3ajzE4eAE9toqJ0Z4KWNlQ",
+    "total_plays": 1,
+    "first_seen": "2026-06-30",
+    "last_seen": "2026-06-30",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b2739008c6cce96ffb89141317ca",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e029008c6cce96ffb89141317ca",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d000048519008c6cce96ffb89141317ca",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Must Be Frank",
+        "album": "Must Be Frank",
+        "spotify_url": "https://open.spotify.com/track/5hAl1aF4H000SLijWTAyBf",
+        "plays": 1
+      }
+    ]
+  },
+  "hayley-sakkara": {
+    "id": "12xUsyKfDFPPbKWP15jzAF",
+    "name": "Hayley Sakkara",
+    "spotify_url": "https://open.spotify.com/artist/12xUsyKfDFPPbKWP15jzAF",
+    "total_plays": 1,
+    "first_seen": "2026-06-30",
+    "last_seen": "2026-06-30",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb1177a76ec5876a8592f31253",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051741177a76ec5876a8592f31253",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1781177a76ec5876a8592f31253",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Fragile",
+        "album": "Fragile",
+        "spotify_url": "https://open.spotify.com/track/0Uc0pOQEYs2fKPHheS0DKn",
+        "plays": 1
+      }
+    ]
+  },
+  "annie-omalley": {
+    "id": "0TEaL7Y50jr7N3mjxqFGBK",
+    "name": "annie omalley",
+    "spotify_url": "https://open.spotify.com/artist/0TEaL7Y50jr7N3mjxqFGBK",
+    "total_plays": 1,
+    "first_seen": "2026-06-30",
+    "last_seen": "2026-06-30",
+    "genres": [
+      "stutter house"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb113387f0bc1b21f9f3d4cb44",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174113387f0bc1b21f9f3d4cb44",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178113387f0bc1b21f9f3d4cb44",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "rekovering overthinker",
+        "album": "rekovering overthinker",
+        "spotify_url": "https://open.spotify.com/track/0zg8OOabiPnACIORaXdbwI",
+        "plays": 1
+      }
+    ]
+  },
+  "india-krattinger": {
+    "id": "0lreVsNNo54Xwkv65ePOkq",
+    "name": "India Krattinger",
+    "spotify_url": "https://open.spotify.com/artist/0lreVsNNo54Xwkv65ePOkq",
+    "total_plays": 1,
+    "first_seen": "2026-06-30",
+    "last_seen": "2026-06-30",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb8d5a716941019f8167bf0607",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051748d5a716941019f8167bf0607",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1788d5a716941019f8167bf0607",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Too Far Gone",
+        "album": "Too Far Gone",
+        "spotify_url": "https://open.spotify.com/track/6dKmj6sHpTlfiA9mEHz4j9",
+        "plays": 1
+      }
+    ]
+  },
+  "gabriel-marcel": {
+    "id": "6NSfErRJFyb3X5mKyV9MP4",
+    "name": "Gabriel Marcel",
+    "spotify_url": "https://open.spotify.com/artist/6NSfErRJFyb3X5mKyV9MP4",
+    "total_plays": 1,
+    "first_seen": "2026-06-30",
+    "last_seen": "2026-06-30",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b273d36a50ecbed81fe78199358b",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e02d36a50ecbed81fe78199358b",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00004851d36a50ecbed81fe78199358b",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Steep",
+        "album": "Steep",
+        "spotify_url": "https://open.spotify.com/track/1B71vp9zAbmrnVifdyhoRa",
+        "plays": 1
+      }
+    ]
+  },
+  "yaeow": {
+    "id": "4Abe9XH0fplj8dbOddoYgH",
+    "name": "yaeow",
+    "spotify_url": "https://open.spotify.com/artist/4Abe9XH0fplj8dbOddoYgH",
+    "total_plays": 1,
+    "first_seen": "2026-06-30",
+    "last_seen": "2026-06-30",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb600a04b9bf7515405144234d",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174600a04b9bf7515405144234d",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178600a04b9bf7515405144234d",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "say goodbye love",
+        "album": "say goodbye love",
+        "spotify_url": "https://open.spotify.com/track/1EbHmgemvipY8fC2S8rmm4",
+        "plays": 1
+      }
+    ]
+  },
+  "jesse-mac-cormack": {
+    "id": "2H8M8TXbgq7ZF676K4Zm2C",
+    "name": "Jesse Mac Cormack",
+    "spotify_url": "https://open.spotify.com/artist/2H8M8TXbgq7ZF676K4Zm2C",
+    "total_plays": 1,
+    "first_seen": "2026-06-30",
+    "last_seen": "2026-06-30",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb3a840a2036cd462e5edad8c2",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051743a840a2036cd462e5edad8c2",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1783a840a2036cd462e5edad8c2",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Out of The water",
+        "album": "Out of The Water",
+        "spotify_url": "https://open.spotify.com/track/4X2nPKm1mA721rlOdDHzzO",
+        "plays": 1
+      }
+    ]
+  },
+  "sierra-carson": {
+    "id": "5Q09kcqyq7Ova3Xwfv04RK",
+    "name": "Sierra Carson",
+    "spotify_url": "https://open.spotify.com/artist/5Q09kcqyq7Ova3Xwfv04RK",
+    "total_plays": 1,
+    "first_seen": "2026-06-30",
+    "last_seen": "2026-06-30",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebd19785fa4c443fe437b3b4f1",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174d19785fa4c443fe437b3b4f1",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178d19785fa4c443fe437b3b4f1",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Me Thing",
+        "album": "Me Thing",
+        "spotify_url": "https://open.spotify.com/track/2dZzC2AuVMA3rWCrYo59S8",
+        "plays": 1
+      }
+    ]
+  },
+  "stella-miller": {
+    "id": "0F9AhYVEouRCOrwHmU1F7Q",
+    "name": "Stella Miller",
+    "spotify_url": "https://open.spotify.com/artist/0F9AhYVEouRCOrwHmU1F7Q",
+    "total_plays": 1,
+    "first_seen": "2026-06-30",
+    "last_seen": "2026-06-30",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebecb3310a2c5a81b974580f5b",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174ecb3310a2c5a81b974580f5b",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178ecb3310a2c5a81b974580f5b",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Reciprocation",
+        "album": "Reciprocation",
+        "spotify_url": "https://open.spotify.com/track/7drj0teLye5PgCqHOyUaYA",
+        "plays": 1
+      }
+    ]
+  },
+  "crash": {
+    "id": "5JLTSnjifdEqjXpqB6d02y",
+    "name": "Crash",
+    "spotify_url": "https://open.spotify.com/artist/5JLTSnjifdEqjXpqB6d02y",
+    "total_plays": 1,
+    "first_seen": "2026-06-30",
+    "last_seen": "2026-06-30",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb04d3feba9c0f15de1e05c7d0",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517404d3feba9c0f15de1e05c7d0",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17804d3feba9c0f15de1e05c7d0",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Montauk",
+        "album": "GALAXYGUY96ULTRASOUND",
+        "spotify_url": "https://open.spotify.com/track/2WOkdn7NGp3yHd3RMZMOkU",
+        "plays": 1
+      }
+    ]
+  },
+  "frankie-white": {
+    "id": "6D6k2ClWxVpnpsXtIdWTNu",
+    "name": "Frankie White",
+    "spotify_url": "https://open.spotify.com/artist/6D6k2ClWxVpnpsXtIdWTNu",
+    "total_plays": 1,
+    "first_seen": "2026-06-30",
+    "last_seen": "2026-06-30",
+    "genres": [
+      "christian folk"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb32101c2dd5cbf6798274e17b",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517432101c2dd5cbf6798274e17b",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17832101c2dd5cbf6798274e17b",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Heart Shaped Box - sad girl version",
+        "album": "Heart Shaped Box (sad girl version)",
+        "spotify_url": "https://open.spotify.com/track/3CC3QQMpMBalGa3RLisdB5",
+        "plays": 1
+      }
+    ]
+  },
+  "ivywild": {
+    "id": "1j9UDmDUVs3lCu3MfbPPjg",
+    "name": "ivywild",
+    "spotify_url": "https://open.spotify.com/artist/1j9UDmDUVs3lCu3MfbPPjg",
+    "total_plays": 1,
+    "first_seen": "2026-06-30",
+    "last_seen": "2026-06-30",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb10687d60aed3eb6a72b503d9",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517410687d60aed3eb6a72b503d9",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17810687d60aed3eb6a72b503d9",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "I Love It",
+        "album": "I Love It",
+        "spotify_url": "https://open.spotify.com/track/5LXNl7jqbvMo08TYRc9GSk",
+        "plays": 1
+      }
+    ]
+  },
+  "karina-grace": {
+    "id": "1AdlTCptosPR3D2zT18GwI",
+    "name": "Karina Grace",
+    "spotify_url": "https://open.spotify.com/artist/1AdlTCptosPR3D2zT18GwI",
+    "total_plays": 1,
+    "first_seen": "2026-06-30",
+    "last_seen": "2026-06-30",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb8d6a4d82c326d83d4e3de100",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051748d6a4d82c326d83d4e3de100",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1788d6a4d82c326d83d4e3de100",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "where do i put all this anger and sadness?",
+        "album": "where do i put all this anger and sadness?",
+        "spotify_url": "https://open.spotify.com/track/2US8Kjb5qivKGmbM52pgkk",
+        "plays": 1
+      }
+    ]
+  },
+  "luz": {
+    "id": "3cdI6SvJ24KsOcvYyBwH9c",
+    "name": "Luz",
+    "spotify_url": "https://open.spotify.com/artist/3cdI6SvJ24KsOcvYyBwH9c",
+    "total_plays": 1,
+    "first_seen": "2026-06-30",
+    "last_seen": "2026-06-30",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebdce0d0c93ea1a565d15227c6",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174dce0d0c93ea1a565d15227c6",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178dce0d0c93ea1a565d15227c6",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "stepping outside",
+        "album": "stepping outside",
+        "spotify_url": "https://open.spotify.com/track/6i7QPGVpVmltzVDNDnRhPV",
+        "plays": 1
+      }
+    ]
+  },
+  "naomi-sharon": {
+    "id": "27WVFBOddxovimxMmBN4fb",
+    "name": "Naomi Sharon",
+    "spotify_url": "https://open.spotify.com/artist/27WVFBOddxovimxMmBN4fb",
+    "total_plays": 1,
+    "first_seen": "2026-06-30",
+    "last_seen": "2026-06-30",
+    "genres": [
+      "afro house"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb550e926e2a53f2f24f2100e6",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174550e926e2a53f2f24f2100e6",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178550e926e2a53f2f24f2100e6",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Untitled",
+        "album": "No Sleep In Paradise",
+        "spotify_url": "https://open.spotify.com/track/1Nw0Cpy4dc3SnpxiRpT9s3",
+        "plays": 1
+      }
+    ]
+  },
+  "aimee-vant": {
+    "id": "4j2LiaymZa7V1F8sfSC4TO",
+    "name": "Aimee Vant",
+    "spotify_url": "https://open.spotify.com/artist/4j2LiaymZa7V1F8sfSC4TO",
+    "total_plays": 1,
+    "first_seen": "2026-06-30",
+    "last_seen": "2026-06-30",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebb2b1f58ae4644f2e193a3903",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174b2b1f58ae4644f2e193a3903",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178b2b1f58ae4644f2e193a3903",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Old Soul",
+        "album": "Old Soul",
+        "spotify_url": "https://open.spotify.com/track/3FWONEQk9IlwKREsxHbjBM",
         "plays": 1
       }
     ]

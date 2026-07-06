@@ -304,6 +304,28 @@
     ],
     "last_updated": "2026-03-18"
   },
+  "0F9AhYVEouRCOrwHmU1F7Q": {
+    "name": "Stella Miller",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebecb3310a2c5a81b974580f5b",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174ecb3310a2c5a81b974580f5b",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178ecb3310a2c5a81b974580f5b",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-06-30"
+  },
   "0FI0kxP0BWurTz8cB8BBug": {
     "name": "Mark Knopfler",
     "genres": [
@@ -635,6 +657,30 @@
       }
     ],
     "last_updated": "2026-03-18"
+  },
+  "0TEaL7Y50jr7N3mjxqFGBK": {
+    "name": "annie omalley",
+    "genres": [
+      "stutter house"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb113387f0bc1b21f9f3d4cb44",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174113387f0bc1b21f9f3d4cb44",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178113387f0bc1b21f9f3d4cb44",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-06-30"
   },
   "0Ti1YY2v4KtYkz7JemXJpE": {
     "name": "Vandoliers",
@@ -1217,6 +1263,50 @@
     ],
     "last_updated": "2026-03-18"
   },
+  "0lreVsNNo54Xwkv65ePOkq": {
+    "name": "India Krattinger",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb8d5a716941019f8167bf0607",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051748d5a716941019f8167bf0607",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1788d5a716941019f8167bf0607",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-06-30"
+  },
+  "0lw1SGS8qxVBwjvy49sy0s": {
+    "name": "Zach Palmer",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb827a2636b9859b2830177b42",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174827a2636b9859b2830177b42",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178827a2636b9859b2830177b42",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-06-30"
+  },
   "0mFblCBw0GcoY7zY1P8tzE": {
     "name": "Domenico Scarlatti",
     "genres": [
@@ -1517,6 +1607,28 @@
     ],
     "last_updated": "2026-05-06"
   },
+  "12xUsyKfDFPPbKWP15jzAF": {
+    "name": "Hayley Sakkara",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb1177a76ec5876a8592f31253",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051741177a76ec5876a8592f31253",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1781177a76ec5876a8592f31253",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-06-30"
+  },
   "13dkPjqmbcchm8cXjEJQeP": {
     "name": "Glenn Gould",
     "genres": [
@@ -1669,6 +1781,28 @@
       }
     ],
     "last_updated": "2026-06-12"
+  },
+  "1AdlTCptosPR3D2zT18GwI": {
+    "name": "Karina Grace",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb8d6a4d82c326d83d4e3de100",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051748d6a4d82c326d83d4e3de100",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1788d6a4d82c326d83d4e3de100",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-06-30"
   },
   "1CYsQCypByMVgnv17qsSbQ": {
     "name": "Crosby, Stills, Nash \u0026 Young",
@@ -1955,6 +2089,28 @@
       }
     ],
     "last_updated": "2026-04-21"
+  },
+  "1Tb9g8gVybdlkkqVgd7rUw": {
+    "name": "Dylan Hughes",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb0fff5c06ae4d5553b42fca1e",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051740fff5c06ae4d5553b42fca1e",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1780fff5c06ae4d5553b42fca1e",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-06-30"
   },
   "1ThoqLcyIYvZn7iWbj8fsj": {
     "name": "Bill Withers",
@@ -2474,6 +2630,28 @@
     ],
     "last_updated": "2026-04-05"
   },
+  "1j9UDmDUVs3lCu3MfbPPjg": {
+    "name": "ivywild",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb10687d60aed3eb6a72b503d9",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517410687d60aed3eb6a72b503d9",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17810687d60aed3eb6a72b503d9",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-06-30"
+  },
   "1lGt9WgdYGpMnmwGkcCm05": {
     "name": "Stanley Clarke",
     "genres": [
@@ -2630,6 +2808,28 @@
       }
     ],
     "last_updated": "2026-03-26"
+  },
+  "2072bkZ3uE0GVj67uUpYoW": {
+    "name": "Aaron Marcus",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb143c76dc40b5e2edd65f385e",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174143c76dc40b5e2edd65f385e",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178143c76dc40b5e2edd65f385e",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-06-30"
   },
   "20oQv3LStCKCjI9oQ0JNha": {
     "name": "Less Than Jake",
@@ -2902,6 +3102,30 @@
     ],
     "last_updated": "2026-04-26"
   },
+  "27WVFBOddxovimxMmBN4fb": {
+    "name": "Naomi Sharon",
+    "genres": [
+      "afro house"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb550e926e2a53f2f24f2100e6",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174550e926e2a53f2f24f2100e6",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178550e926e2a53f2f24f2100e6",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-06-30"
+  },
   "284mnx33IWcymQEpMxyfHl": {
     "name": "Modest Mussorgsky",
     "genres": [
@@ -3139,6 +3363,28 @@
       }
     ],
     "last_updated": "2026-03-18"
+  },
+  "2H8M8TXbgq7ZF676K4Zm2C": {
+    "name": "Jesse Mac Cormack",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb3a840a2036cd462e5edad8c2",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051743a840a2036cd462e5edad8c2",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1783a840a2036cd462e5edad8c2",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-06-30"
   },
   "2Kx7MNY7cI1ENniW7vT30N": {
     "name": "Norah Jones",
@@ -5060,6 +5306,28 @@
     ],
     "last_updated": "2026-04-05"
   },
+  "3WEpQkwVA27jpSU3qzNyCA": {
+    "name": "Brothers Page",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb8f2ea8fa2869bb9c8ab8f554",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051748f2ea8fa2869bb9c8ab8f554",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1788f2ea8fa2869bb9c8ab8f554",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-06-30"
+  },
   "3WGpXCj9YhhfX11TToZcXP": {
     "name": "Troye Sivan",
     "genres": [],
@@ -5262,6 +5530,28 @@
     ],
     "last_updated": "2026-03-18"
   },
+  "3ajzE4eAE9toqJ0Z4KWNlQ": {
+    "name": "CASSEY HARROLD",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b2739008c6cce96ffb89141317ca",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e029008c6cce96ffb89141317ca",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d000048519008c6cce96ffb89141317ca",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "last_updated": "2026-06-30"
+  },
   "3apnkNwaHdhoNIvKVMiC5S": {
     "name": "Gregory Uhlmann",
     "genres": [
@@ -5285,6 +5575,28 @@
       }
     ],
     "last_updated": "2026-04-05"
+  },
+  "3cdI6SvJ24KsOcvYyBwH9c": {
+    "name": "Luz",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebdce0d0c93ea1a565d15227c6",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174dce0d0c93ea1a565d15227c6",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178dce0d0c93ea1a565d15227c6",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-06-30"
   },
   "3eskO5m0H4yiF64vRySBjr": {
     "name": "Buffalo Springfield",
@@ -6271,6 +6583,28 @@
     ],
     "last_updated": "2026-03-18"
   },
+  "4Abe9XH0fplj8dbOddoYgH": {
+    "name": "yaeow",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb600a04b9bf7515405144234d",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174600a04b9bf7515405144234d",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178600a04b9bf7515405144234d",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-06-30"
+  },
   "4DBi4EYXgiqbkxvWUXUzMi": {
     "name": "Old Crow Medicine Show",
     "genres": [
@@ -6961,6 +7295,28 @@
     ],
     "last_updated": "2026-04-05"
   },
+  "4j2LiaymZa7V1F8sfSC4TO": {
+    "name": "Aimee Vant",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebb2b1f58ae4644f2e193a3903",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174b2b1f58ae4644f2e193a3903",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178b2b1f58ae4644f2e193a3903",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-06-30"
+  },
   "4jXfFzeP66Zy67HM2mvIIF": {
     "name": "Bill Evans",
     "genres": [
@@ -7517,6 +7873,28 @@
     ],
     "last_updated": "2026-04-26"
   },
+  "5JLTSnjifdEqjXpqB6d02y": {
+    "name": "Crash",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb04d3feba9c0f15de1e05c7d0",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517404d3feba9c0f15de1e05c7d0",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17804d3feba9c0f15de1e05c7d0",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-06-30"
+  },
   "5JiwO4LnQq3F6MGCRh3D31": {
     "name": "Kitchen Dwellers",
     "genres": [
@@ -7591,6 +7969,28 @@
       }
     ],
     "last_updated": "2026-04-21"
+  },
+  "5Q09kcqyq7Ova3Xwfv04RK": {
+    "name": "Sierra Carson",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebd19785fa4c443fe437b3b4f1",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174d19785fa4c443fe437b3b4f1",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178d19785fa4c443fe437b3b4f1",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-06-30"
   },
   "5QNm7E7RU2m64l6Gliu8Oy": {
     "name": "HARDY",
@@ -8791,6 +9191,30 @@
     ],
     "last_updated": "2026-05-19"
   },
+  "6D6k2ClWxVpnpsXtIdWTNu": {
+    "name": "Frankie White",
+    "genres": [
+      "christian folk"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb32101c2dd5cbf6798274e17b",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517432101c2dd5cbf6798274e17b",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17832101c2dd5cbf6798274e17b",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-06-30"
+  },
   "6D9uGmfgrCZnR5AxBFxZXj": {
     "name": "Cuir",
     "genres": [
@@ -9053,6 +9477,28 @@
       }
     ],
     "last_updated": "2026-03-18"
+  },
+  "6NSfErRJFyb3X5mKyV9MP4": {
+    "name": "Gabriel Marcel",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b273d36a50ecbed81fe78199358b",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e02d36a50ecbed81fe78199358b",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00004851d36a50ecbed81fe78199358b",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "last_updated": "2026-06-30"
   },
   "6OMYcSur3Y0DthpzbVkxAx": {
     "name": "Joel Lyssarides",
@@ -9577,6 +10023,32 @@
       }
     ],
     "last_updated": "2026-06-06"
+  },
+  "6kACVPfCOnqzgfEF5ryl0x": {
+    "name": "Johnny Cash",
+    "genres": [
+      "classic country",
+      "outlaw country",
+      "country"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb94a8326675bfcafb20f0a235",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517494a8326675bfcafb20f0a235",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17894a8326675bfcafb20f0a235",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-07-03"
   },
   "6kPXTIsluODISnUy2JBlI6": {
     "name": "Sheffy Oren Bach",
@@ -11071,6 +11543,30 @@
       }
     ],
     "last_updated": "2026-03-28"
+  },
+  "7xY48N1Fs8R9DDKcUrevke": {
+    "name": "Zach Webb",
+    "genres": [
+      "christian folk"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebfb8bb9047f24d3f8ca484681",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174fb8bb9047f24d3f8ca484681",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178fb8bb9047f24d3f8ca484681",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-06-30"
   },
   "7yTltkMBvChBkA86Tz8WfW": {
     "name": "The Infamous Stringdusters",
