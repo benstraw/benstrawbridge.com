@@ -1,4 +1,30 @@
 {
+  "00ByTA04jKtjHCSCEjKFID": {
+    "name": "Screaming Lord Sutch",
+    "genres": [
+      "psychobilly",
+      "horror punk",
+      "rockabilly"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b2737401398491a0b7601279bfeb",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e027401398491a0b7601279bfeb",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d000048517401398491a0b7601279bfeb",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "last_updated": "2026-07-10"
+  },
   "010wxklenCFtHumkvnpUXg": {
     "name": "Rooskin",
     "genres": [
@@ -409,6 +435,35 @@
     ],
     "last_updated": "2026-03-18"
   },
+  "0IecGJbdBeYSOVtSPRehh5": {
+    "name": "Billy Preston",
+    "genres": [
+      "motown"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/49bc10d9841773e35824e64018df6bcffe20be8b",
+        "height": 1000,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/2844d12d73df54435d13122a37286fe532de3a07",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/6187ef7f25d7c98f41acbb46f4ece2f3b5ecf81a",
+        "height": 200,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/22074964a11f701c1d510d60ff23c418140853b4",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "last_updated": "2026-07-12"
+  },
   "0IwfuIL3gUJxjzUqY3wJ3j": {
     "name": "Billy Cobham",
     "genres": [
@@ -577,6 +632,37 @@
       }
     ],
     "last_updated": "2026-05-06"
+  },
+  "0Mz5XE0kb1GBnbLQm2VbcO": {
+    "name": "Mos Def",
+    "genres": [
+      "east coast hip hop",
+      "old school hip hop",
+      "hip hop"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/d39cd5769332fb51014cc1cc9934c8890fcd49f7",
+        "height": 1000,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/eae06411463fb7ffea6a433c9d22f11418a1f7da",
+        "height": 764,
+        "width": 600
+      },
+      {
+        "url": "https://i.scdn.co/image/d5fec1743c5af5eb5fccecee7b5a6037eb3bfa87",
+        "height": 255,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/cc0165937957a92af9a0b6cf5e85f61ab8ed043b",
+        "height": 81,
+        "width": 64
+      }
+    ],
+    "last_updated": "2026-07-11"
   },
   "0NAr5zThPfMx26ISgooQK6": {
     "name": "John Hartford",
@@ -1070,6 +1156,30 @@
     ],
     "last_updated": "2026-04-10"
   },
+  "0gKywfovGU7oZLYRh1XGON": {
+    "name": "The Squires",
+    "genres": [
+      "garage rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b273dbf0685b1f16c9e6d560d83e",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e02dbf0685b1f16c9e6d560d83e",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00004851dbf0685b1f16c9e6d560d83e",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "last_updated": "2026-07-09"
+  },
   "0gqIrDRL7CEPBWMmkuZPdQ": {
     "name": "Digable Planets",
     "genres": [
@@ -1262,6 +1372,56 @@
       }
     ],
     "last_updated": "2026-03-18"
+  },
+  "0l7TxYWNUtEgWocjz8IaOt": {
+    "name": "The Equals",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebd562297fbc1cc69abcd0bef6",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174d562297fbc1cc69abcd0bef6",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178d562297fbc1cc69abcd0bef6",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-07-10"
+  },
+  "0ldU0QJm31y0d6f57R1G2A": {
+    "name": "Oscar Peterson Trio",
+    "genres": [
+      "jazz",
+      "cool jazz",
+      "jazz ballads",
+      "bebop",
+      "hard bop"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b273947b5cc535d76394a2d98e37",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e02947b5cc535d76394a2d98e37",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00004851947b5cc535d76394a2d98e37",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "last_updated": "2026-07-13"
   },
   "0lreVsNNo54Xwkv65ePOkq": {
     "name": "India Krattinger",
@@ -1521,6 +1681,30 @@
     ],
     "last_updated": "2026-04-27"
   },
+  "0rpMdBzQXf7aYRnu5fDBJy": {
+    "name": "Violent Femmes",
+    "genres": [
+      "folk punk"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebb3c3b161756ef6f9c9afef38",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174b3c3b161756ef6f9c9afef38",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178b3c3b161756ef6f9c9afef38",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-07-08"
+  },
   "0tGZBRO4tZjpUOZcD7tMeS": {
     "name": "Half Pint",
     "genres": [
@@ -1681,6 +1865,38 @@
       }
     ],
     "last_updated": "2026-04-29"
+  },
+  "165ZgPlLkK7bf5bDoFc6Sb": {
+    "name": "Limp Bizkit",
+    "genres": [
+      "nu metal",
+      "rap metal",
+      "alternative metal",
+      "rap rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/4654955890cb62a6abe9daadfd2b3ecdee8036e4",
+        "height": 1006,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/c8e241c3b7ddb2839be99acf9a1ad2d73f04b936",
+        "height": 644,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/38532b2db9bc627567271da917855a59be788860",
+        "height": 201,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/67ab66b1154c3115005086d60853fc954717a2ea",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "last_updated": "2026-07-10"
   },
   "16PbhgSXhAg8s0hvaAx90y": {
     "name": "Total Blue",
@@ -2652,6 +2868,33 @@
     ],
     "last_updated": "2026-06-30"
   },
+  "1kkpNi8Ii5MhBMxmUhN5g9": {
+    "name": "The Electric Prunes",
+    "genres": [
+      "acid rock",
+      "psychedelic rock",
+      "proto-punk",
+      "garage rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b2730483232f2c2961c731e9346e",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e020483232f2c2961c731e9346e",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d000048513930d4953ac00bf00a23588d",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "last_updated": "2026-07-10"
+  },
   "1lGt9WgdYGpMnmwGkcCm05": {
     "name": "Stanley Clarke",
     "genres": [
@@ -2678,6 +2921,32 @@
       }
     ],
     "last_updated": "2026-04-29"
+  },
+  "1nyQBzKgZ2hBLr7PnyV7cI": {
+    "name": "Strawberry Alarm Clock",
+    "genres": [
+      "psychedelic rock",
+      "acid rock",
+      "baroque pop"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b273668eef9a15023a800efdbbba",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e02668eef9a15023a800efdbbba",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00004851668eef9a15023a800efdbbba",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "last_updated": "2026-07-10"
   },
   "1pBsvSnrhmgDZqisT13SFA": {
     "name": "Agent Orange",
@@ -2760,6 +3029,85 @@
       }
     ],
     "last_updated": "2026-05-03"
+  },
+  "1sXbwvCQLGZnaH0Jp2HTVc": {
+    "name": "Linda Ronstadt",
+    "genres": [
+      "country rock",
+      "mariachi"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb7e0b6e9db0b1bf2f62a81638",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051747e0b6e9db0b1bf2f62a81638",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1787e0b6e9db0b1bf2f62a81638",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-07-08"
+  },
+  "1t7mxwEpf9eDpTDVETuQ2j": {
+    "name": "We The People",
+    "genres": [
+      "garage rock",
+      "proto-punk",
+      "psychedelic rock",
+      "acid rock",
+      "roots reggae"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b273e6e7dfadd69cfd414a9912bc",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e02e6e7dfadd69cfd414a9912bc",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00004851e6e7dfadd69cfd414a9912bc",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "last_updated": "2026-07-10"
+  },
+  "1ugjd9v0PsqxOuoni63PCC": {
+    "name": "The Golden Cups",
+    "genres": [
+      "kayōkyoku",
+      "enka",
+      "garage rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b27306fd6c2c5c1f29821b41b8e5",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e0206fd6c2c5c1f29821b41b8e5",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000485106fd6c2c5c1f29821b41b8e5",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "last_updated": "2026-07-09"
   },
   "1yAwtBaoHLEDWAnWR87hBT": {
     "name": "Modest Mouse",
@@ -3779,6 +4127,30 @@
     ],
     "last_updated": "2026-03-18"
   },
+  "2cPgepQGRYe9Lbw8PA8hEp": {
+    "name": "Gary Walker",
+    "genres": [
+      "psychedelic rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b273e9f13a5dda6c3c20bb0f1b06",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e02e9f13a5dda6c3c20bb0f1b06",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00004851e9f13a5dda6c3c20bb0f1b06",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "last_updated": "2026-07-10"
+  },
   "2d0hyoQ5ynDBnkvAbJKORj": {
     "name": "Rage Against The Machine",
     "genres": [
@@ -3907,6 +4279,33 @@
     ],
     "last_updated": "2026-05-01"
   },
+  "2dvvGdLX5oPd1Dx7T6cNFC": {
+    "name": "The Open Mind",
+    "genres": [
+      "acid rock",
+      "psychedelic rock",
+      "proto-punk",
+      "garage rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b2734fed088464b110fe8356857a",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e024fed088464b110fe8356857a",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d000048514fed088464b110fe8356857a",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "last_updated": "2026-07-09"
+  },
   "2eam0iDomRHGBypaDQLwWI": {
     "name": "Bleachers",
     "genres": [],
@@ -4008,6 +4407,37 @@
       }
     ],
     "last_updated": "2026-03-18"
+  },
+  "2iIn8H3l2NNBNHFpYKWbfo": {
+    "name": "The Kingsmen",
+    "genres": [
+      "proto-punk",
+      "garage rock",
+      "southern gospel"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/7700cff2bbd6cb056e5de2cc3b5e6e0476f5a648",
+        "height": 1211,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/6d9c57606bb83dd1db28994faddff08369fd4298",
+        "height": 775,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/3ccff15557c9fbafe8493b1ef410afbfdcdba57c",
+        "height": 242,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/9fabef4610cf7638e190f382152a457a9723e20d",
+        "height": 78,
+        "width": 64
+      }
+    ],
+    "last_updated": "2026-07-09"
   },
   "2jL1PBvL0gBZBPk6B38p3z": {
     "name": "Tift Merritt",
@@ -4216,6 +4646,32 @@
       }
     ],
     "last_updated": "2026-03-28"
+  },
+  "2qc41rNTtdLK0tV3mJn2Pm": {
+    "name": "Ryan Adams",
+    "genres": [
+      "alt country",
+      "americana",
+      "singer-songwriter"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb46dbea8d8ce2f2a21d9f0702",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517446dbea8d8ce2f2a21d9f0702",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17846dbea8d8ce2f2a21d9f0702",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-07-11"
   },
   "2r5elgyPQ19vDG3xSQn39k": {
     "name": "mark william lewis",
@@ -5628,6 +6084,35 @@
     ],
     "last_updated": "2026-03-18"
   },
+  "3f121mss4A4LwR25ErGzP0": {
+    "name": "The Dakotas",
+    "genres": [
+      "indorock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/c49936d201bcf3fb36dadef2a29845121823e309",
+        "height": 738,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/8ca5bc363d6bdc53b9bc1d94d0f7ee54968c5237",
+        "height": 472,
+        "width": 639
+      },
+      {
+        "url": "https://i.scdn.co/image/28268d87ad4d0f35b43b45ffb261f62eff496964",
+        "height": 148,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/7e493d5e57bd5735e8e63247260f7134f8597f70",
+        "height": 47,
+        "width": 64
+      }
+    ],
+    "last_updated": "2026-07-10"
+  },
   "3fmjIu8f1q5tzSxycTsi33": {
     "name": "Songs of Disappearance",
     "genres": [],
@@ -5850,6 +6335,11 @@
       }
     ],
     "last_updated": "2026-06-12"
+  },
+  "3nBiKbXkOdRsOyoBpi6fnE": {
+    "name": "The Shaynes",
+    "genres": [],
+    "last_updated": "2026-07-10"
   },
   "3nFkdlSjzX9mRTtwJOzDYB": {
     "name": "JAŸ-Z",
@@ -6465,6 +6955,28 @@
     ],
     "last_updated": "2026-04-21"
   },
+  "44NX2ffIYHr6D4n7RaZF7A": {
+    "name": "Van Morrison",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb61978f04a57032e5fec7819f",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517461978f04a57032e5fec7819f",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17861978f04a57032e5fec7819f",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-07-12"
+  },
   "450o9jw6AtiQlQkHCdH6Ru": {
     "name": "Funkadelic",
     "genres": [
@@ -6655,6 +7167,40 @@
       }
     ],
     "last_updated": "2026-03-26"
+  },
+  "4EnEZVjo3w1cwcQYePccay": {
+    "name": "N.W.A.",
+    "genres": [
+      "old school hip hop",
+      "gangster rap",
+      "west coast hip hop",
+      "hip hop",
+      "rap",
+      "g-funk"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/4f36d3f900eaf8381b0d3f5febe0e5bf8c94dbea",
+        "height": 1000,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/6c6c5456aa373c9cbf4f385c2dd69c4177e6e3fa",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/e3e634272efd0251c2b8298b25fcd4b659993178",
+        "height": 200,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/8bf427fbb118c36cd56439a06f0bfb77e4e7bdf3",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "last_updated": "2026-07-10"
   },
   "4F7Q5NV6h5TSwCainz8S5A": {
     "name": "Duke Ellington",
@@ -6848,6 +7394,31 @@
       }
     ],
     "last_updated": "2026-05-01"
+  },
+  "4Otx4bRLSfpah5kX8hdgDC": {
+    "name": "Naughty By Nature",
+    "genres": [
+      "old school hip hop",
+      "east coast hip hop"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb4cfb4db377be25e51eecc324",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051744cfb4db377be25e51eecc324",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1784cfb4db377be25e51eecc324",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-07-10"
   },
   "4P0dddbxPil35MNN9G2MEX": {
     "name": "Cypress Hill",
@@ -7572,6 +8143,61 @@
     ],
     "last_updated": "2026-03-28"
   },
+  "50NoVNy9GU1lCrDV8iGpyu": {
+    "name": "Ol' Dirty Bastard",
+    "genres": [
+      "east coast hip hop",
+      "old school hip hop",
+      "hardcore hip hop"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/cdcf0ecd5b041452681badedca98f7d3b8494c52",
+        "height": 693,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/e3e39e2ee5b5929aed7d2b33791f0d8089217954",
+        "height": 443,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/459d62eea68686dd2fe8be21173f9cd1e448eb83",
+        "height": 139,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/c073d8d9f384061615625887756c771f2bab4209",
+        "height": 44,
+        "width": 64
+      }
+    ],
+    "last_updated": "2026-07-11"
+  },
+  "51C9KUd8WtERvH9xVW19Yc": {
+    "name": "The Young Tyrants",
+    "genres": [
+      "garage rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b273599440202f743d08eb5be45f",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e02599440202f743d08eb5be45f",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00004851599440202f743d08eb5be45f",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "last_updated": "2026-07-10"
+  },
   "55Aa2cqylxrFIXC767Z865": {
     "name": "Lil Wayne",
     "genres": [
@@ -7674,6 +8300,38 @@
       }
     ],
     "last_updated": "2026-05-16"
+  },
+  "57WXdjUf5Vlq3klNZegeTP": {
+    "name": "Count Five",
+    "genres": [
+      "proto-punk",
+      "psychedelic rock",
+      "garage rock",
+      "acid rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6772690000c46c80582de6930efc183979cba6",
+        "height": 1000,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6772690000dd2280582de6930efc183979cba6",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6772690000bac380582de6930efc183979cba6",
+        "height": 200,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67726900008f7480582de6930efc183979cba6",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "last_updated": "2026-07-10"
   },
   "59QxeZBL6k9L4oJBGSyukd": {
     "name": "The Marshall Tucker Band",
@@ -7970,6 +8628,11 @@
     ],
     "last_updated": "2026-04-21"
   },
+  "5Nmemek3U8c7fL50jHpHYL": {
+    "name": "The Novas",
+    "genres": [],
+    "last_updated": "2026-07-10"
+  },
   "5Q09kcqyq7Ova3Xwfv04RK": {
     "name": "Sierra Carson",
     "genres": [],
@@ -8236,6 +8899,33 @@
       }
     ],
     "last_updated": "2026-03-29"
+  },
+  "5cMgGlA1xGyeAB2ctYlRdZ": {
+    "name": "Gang Starr",
+    "genres": [
+      "east coast hip hop",
+      "old school hip hop",
+      "hip hop",
+      "boom bap"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb85ee94998a936ef47231db39",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517485ee94998a936ef47231db39",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17885ee94998a936ef47231db39",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-07-10"
   },
   "5cudslRGWg0GsXaN79Wifs": {
     "name": "Town Mountain",
@@ -9613,6 +10303,33 @@
     ],
     "last_updated": "2026-05-27"
   },
+  "6SdO3dLXggmHcby5EkO06o": {
+    "name": "The Third Bardo",
+    "genres": [
+      "proto-punk",
+      "garage rock",
+      "psychedelic rock",
+      "acid rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b27362f8310af5f0ff3ef9abc9c9",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e0262f8310af5f0ff3ef9abc9c9",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000485162f8310af5f0ff3ef9abc9c9",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "last_updated": "2026-07-10"
+  },
   "6T46cZo3M8wXq5eOoXbZBx": {
     "name": "Maurice White",
     "genres": [
@@ -9814,6 +10531,37 @@
       }
     ],
     "last_updated": "2026-05-01"
+  },
+  "6aVjo0xHSiuW5hkasoYSR3": {
+    "name": "Melvins",
+    "genres": [
+      "sludge metal",
+      "grunge",
+      "stoner metal",
+      "stoner rock",
+      "doom metal",
+      "noise rock",
+      "drone metal",
+      "post-grunge"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb7c310dd6a7f9b800b2fb8728",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051747c310dd6a7f9b800b2fb8728",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1787c310dd6a7f9b800b2fb8728",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-07-08"
   },
   "6clbbhnIqpHnqxwtOWcilg": {
     "name": "Little River Band",
@@ -10385,6 +11133,33 @@
     ],
     "last_updated": "2026-03-18"
   },
+  "6wvtyGNtNtLlkHONVzOocm": {
+    "name": "The Litter",
+    "genres": [
+      "acid rock",
+      "garage rock",
+      "proto-punk",
+      "psychedelic rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b273b963b5982e69e22238c9f934",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e02b963b5982e69e22238c9f934",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00004851b963b5982e69e22238c9f934",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "last_updated": "2026-07-10"
+  },
   "6xKRT9Uw0XOxNsmWX2vNBr": {
     "name": "Dana and Alden",
     "genres": [
@@ -10796,6 +11571,28 @@
     ],
     "last_updated": "2026-03-28"
   },
+  "7AQzXO3NPNQsI7oNu5rC3r": {
+    "name": "Marcy Playground",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebc12f77e7db22099b40c86f74",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174c12f77e7db22099b40c86f74",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178c12f77e7db22099b40c86f74",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-07-08"
+  },
   "7AhDVqsNA5q46WKsRPXvoe": {
     "name": "Son Volt",
     "genres": [
@@ -11018,6 +11815,33 @@
       }
     ],
     "last_updated": "2026-06-11"
+  },
+  "7LLENeHlkhYD6dL1Zf5kdl": {
+    "name": "The Wimple Winch",
+    "genres": [
+      "proto-punk",
+      "garage rock",
+      "psychedelic rock",
+      "acid rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b273092a0b3ef6394ecd7fe0ce64",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e02092a0b3ef6394ecd7fe0ce64",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00004851092a0b3ef6394ecd7fe0ce64",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "last_updated": "2026-07-10"
   },
   "7MSoMSIgrEtwDJ0iUCJwSD": {
     "name": "Eddie Chacon",

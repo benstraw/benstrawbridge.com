@@ -1,0 +1,196 @@
+{
+  "week": "2026-W29",
+  "title": "Week of Jul 13, 2026",
+  "year": 2026,
+  "week_num": 29,
+  "date_start": "2026-07-13",
+  "date_end": "2026-07-19",
+  "total_plays": 21,
+  "unique_artists": 1,
+  "topArtistName": "Oscar Peterson Trio",
+  "topArtistImages": [
+    {
+      "url": "https://i.scdn.co/image/ab67616d0000b273947b5cc535d76394a2d98e37",
+      "height": 640,
+      "width": 640
+    },
+    {
+      "url": "https://i.scdn.co/image/ab67616d00001e02947b5cc535d76394a2d98e37",
+      "height": 300,
+      "width": 300
+    },
+    {
+      "url": "https://i.scdn.co/image/ab67616d00004851947b5cc535d76394a2d98e37",
+      "height": 64,
+      "width": 64
+    }
+  ],
+  "top_genres": [
+    {
+      "name": "jazz",
+      "plays": 21
+    },
+    {
+      "name": "cool jazz",
+      "plays": 21
+    },
+    {
+      "name": "jazz ballads",
+      "plays": 21
+    },
+    {
+      "name": "bebop",
+      "plays": 21
+    },
+    {
+      "name": "hard bop",
+      "plays": 21
+    }
+  ],
+  "top_artists": [
+    {
+      "slug": "oscar-peterson-trio",
+      "name": "Oscar Peterson Trio",
+      "plays": 21,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000b273947b5cc535d76394a2d98e37",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00001e02947b5cc535d76394a2d98e37",
+          "height": 300,
+          "width": 300
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00004851947b5cc535d76394a2d98e37",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    }
+  ],
+  "top_tracks": [
+    {
+      "name": "Autumn Leaves - Live",
+      "artist": "Oscar Peterson Trio",
+      "artist_slug": "oscar-peterson-trio",
+      "plays": 2
+    },
+    {
+      "name": "Let There Be Love - Live",
+      "artist": "Oscar Peterson Trio",
+      "artist_slug": "oscar-peterson-trio",
+      "plays": 1
+    },
+    {
+      "name": "I Remember Clifford - Live",
+      "artist": "Oscar Peterson Trio",
+      "artist_slug": "oscar-peterson-trio",
+      "plays": 1
+    },
+    {
+      "name": "S'Posin' - Live",
+      "artist": "Oscar Peterson Trio",
+      "artist_slug": "oscar-peterson-trio",
+      "plays": 1
+    },
+    {
+      "name": "Softly, As In A Morning Sunrise - Live",
+      "artist": "Oscar Peterson Trio",
+      "artist_slug": "oscar-peterson-trio",
+      "plays": 1
+    },
+    {
+      "name": "Yesterdays - Live",
+      "artist": "Oscar Peterson Trio",
+      "artist_slug": "oscar-peterson-trio",
+      "plays": 1
+    },
+    {
+      "name": "Liza (All The Clouds'll Roll Away) - Live",
+      "artist": "Oscar Peterson Trio",
+      "artist_slug": "oscar-peterson-trio",
+      "plays": 1
+    },
+    {
+      "name": "I Didn't Know What Time It Was - Live",
+      "artist": "Oscar Peterson Trio",
+      "artist_slug": "oscar-peterson-trio",
+      "plays": 1
+    },
+    {
+      "name": "Where Do I Go From Here? - Live",
+      "artist": "Oscar Peterson Trio",
+      "artist_slug": "oscar-peterson-trio",
+      "plays": 1
+    },
+    {
+      "name": "Politics And Poker - Live",
+      "artist": "Oscar Peterson Trio",
+      "artist_slug": "oscar-peterson-trio",
+      "plays": 1
+    },
+    {
+      "name": "Dancing On The Ceiling - Live",
+      "artist": "Oscar Peterson Trio",
+      "artist_slug": "oscar-peterson-trio",
+      "plays": 1
+    },
+    {
+      "name": "Closing/Blues For Big Scotia - Live",
+      "artist": "Oscar Peterson Trio",
+      "artist_slug": "oscar-peterson-trio",
+      "plays": 1
+    },
+    {
+      "name": "I Love You - Live",
+      "artist": "Oscar Peterson Trio",
+      "artist_slug": "oscar-peterson-trio",
+      "plays": 1
+    },
+    {
+      "name": "Chicago - Live",
+      "artist": "Oscar Peterson Trio",
+      "artist_slug": "oscar-peterson-trio",
+      "plays": 1
+    },
+    {
+      "name": "Ill Wind - Live",
+      "artist": "Oscar Peterson Trio",
+      "artist_slug": "oscar-peterson-trio",
+      "plays": 1
+    },
+    {
+      "name": "The Touch Of Your Lips - Live",
+      "artist": "Oscar Peterson Trio",
+      "artist_slug": "oscar-peterson-trio",
+      "plays": 1
+    },
+    {
+      "name": "Closing/Billy Boy - Live",
+      "artist": "Oscar Peterson Trio",
+      "artist_slug": "oscar-peterson-trio",
+      "plays": 1
+    },
+    {
+      "name": "Whisper Not - Live",
+      "artist": "Oscar Peterson Trio",
+      "artist_slug": "oscar-peterson-trio",
+      "plays": 1
+    },
+    {
+      "name": "Confirmation - Live",
+      "artist": "Oscar Peterson Trio",
+      "artist_slug": "oscar-peterson-trio",
+      "plays": 1
+    },
+    {
+      "name": "Django - Live",
+      "artist": "Oscar Peterson Trio",
+      "artist_slug": "oscar-peterson-trio",
+      "plays": 1
+    }
+  ]
+}

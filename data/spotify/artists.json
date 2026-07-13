@@ -7434,9 +7434,9 @@
     "id": "5me0Irg2ANcsgc93uaYrpb",
     "name": "The Notorious B.I.G.",
     "spotify_url": "https://open.spotify.com/artist/5me0Irg2ANcsgc93uaYrpb",
-    "total_plays": 21,
+    "total_plays": 22,
     "first_seen": "2026-02-26",
-    "last_seen": "2026-06-10",
+    "last_seen": "2026-07-10",
     "genres": [
       "old school hip hop",
       "gangster rap",
@@ -7548,6 +7548,12 @@
         "name": "Warning - 2005 Remaster",
         "album": "Ready to Die (The Remaster)",
         "spotify_url": "https://open.spotify.com/track/33rsCCLHklTQav9klbpnAi",
+        "plays": 1
+      },
+      {
+        "name": "The What - 2005 Remaster",
+        "album": "Ready to Die (The Remaster)",
+        "spotify_url": "https://open.spotify.com/track/4dTtYVQzlwBMpVyQ4h3wy2",
         "plays": 1
       },
       {
@@ -7832,9 +7838,9 @@
     "id": "03r4iKL2g2442PT9n2UKsx",
     "name": "Beastie Boys",
     "spotify_url": "https://open.spotify.com/artist/03r4iKL2g2442PT9n2UKsx",
-    "total_plays": 170,
+    "total_plays": 172,
     "first_seen": "2026-02-26",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-07-11",
     "genres": [
       "rap rock",
       "old school hip hop",
@@ -7919,6 +7925,12 @@
         "plays": 2
       },
       {
+        "name": "Get It Together",
+        "album": "Ill Communication",
+        "spotify_url": "https://open.spotify.com/track/6aaPceG6TnixvAZQ1wBMdp",
+        "plays": 2
+      },
+      {
         "name": "I Don't Know - Remastered 2009",
         "album": "Hello Nasty (Deluxe Edition/Remastered)",
         "spotify_url": "https://open.spotify.com/track/10FLYqpqDN4uo6eWtD6WEB",
@@ -7970,12 +7982,6 @@
         "name": "Root Down",
         "album": "Ill Communication",
         "spotify_url": "https://open.spotify.com/track/18tgx070tbAM4TKxEwzWaG",
-        "plays": 1
-      },
-      {
-        "name": "Get It Together",
-        "album": "Ill Communication",
-        "spotify_url": "https://open.spotify.com/track/6aaPceG6TnixvAZQ1wBMdp",
         "plays": 1
       },
       {
@@ -8753,6 +8759,12 @@
         "plays": 1
       },
       {
+        "name": "Posse In Effect",
+        "album": "Licensed To Ill",
+        "spotify_url": "https://open.spotify.com/track/478mMi69Mnt72YtdgiTorO",
+        "plays": 1
+      },
+      {
         "name": "Super Disco Breakin' - Remastered 2009",
         "album": "Hello Nasty (Deluxe Edition/Remastered)",
         "spotify_url": "https://open.spotify.com/track/1k4lRM7YrGxJerGbf9VzXk",
@@ -8792,12 +8804,6 @@
         "name": "She's Crafty",
         "album": "Licensed To Ill",
         "spotify_url": "https://open.spotify.com/track/2dbFLEQojkH0Z7xBL7uvMl",
-        "plays": 1
-      },
-      {
-        "name": "Posse In Effect",
-        "album": "Licensed To Ill",
-        "spotify_url": "https://open.spotify.com/track/478mMi69Mnt72YtdgiTorO",
         "plays": 1
       },
       {
@@ -10234,9 +10240,9 @@
     "id": "16eRpMNXSQ15wuJoeqguaB",
     "name": "The Flaming Lips",
     "spotify_url": "https://open.spotify.com/artist/16eRpMNXSQ15wuJoeqguaB",
-    "total_plays": 1,
+    "total_plays": 2,
     "first_seen": "2026-03-08",
-    "last_seen": "2026-03-08",
+    "last_seen": "2026-07-08",
     "genres": [
       "neo-psychedelic"
     ],
@@ -10262,6 +10268,12 @@
         "name": "Yoshimi Battles the Pink Robots, Pt. 1",
         "album": "Yoshimi Battles the Pink Robots",
         "spotify_url": "https://open.spotify.com/track/0ccCwNzXvr1Yoz91vKz31Z",
+        "plays": 1
+      },
+      {
+        "name": "She Don't Use Jelly",
+        "album": "Transmissions From the Satellite Heart",
+        "spotify_url": "https://open.spotify.com/track/1dJuteDIOkGfDSN7zPkzNv",
         "plays": 1
       }
     ]
@@ -10320,9 +10332,9 @@
     "id": "22WZ7M8sxp5THdruNY3gXt",
     "name": "The Doors",
     "spotify_url": "https://open.spotify.com/artist/22WZ7M8sxp5THdruNY3gXt",
-    "total_plays": 4,
+    "total_plays": 5,
     "first_seen": "2026-03-04",
-    "last_seen": "2026-03-29",
+    "last_seen": "2026-07-12",
     "genres": [
       "psychedelic rock",
       "classic rock",
@@ -10357,6 +10369,12 @@
         "album": "The Soft Parade",
         "spotify_url": "https://open.spotify.com/track/0YMzPd9mYx4txOuCnhYUGU",
         "plays": 2
+      },
+      {
+        "name": "Peace Frog",
+        "album": "Morrison Hotel",
+        "spotify_url": "https://open.spotify.com/track/5piJiL6aRhvrKBa9YuEfS9",
+        "plays": 1
       },
       {
         "name": "People Are Strange",
@@ -12013,9 +12031,9 @@
     "id": "0k17h0D3J5VfsdmQ1iZtE9",
     "name": "Pink Floyd",
     "spotify_url": "https://open.spotify.com/artist/0k17h0D3J5VfsdmQ1iZtE9",
-    "total_plays": 18,
+    "total_plays": 19,
     "first_seen": "2026-03-04",
-    "last_seen": "2026-05-02",
+    "last_seen": "2026-07-12",
     "genres": [
       "progressive rock",
       "psychedelic rock",
@@ -12045,7 +12063,7 @@
         "name": "Fearless",
         "album": "Meddle",
         "spotify_url": "https://open.spotify.com/track/7AalBKBoLDR4UmRYRJpdbj",
-        "plays": 4
+        "plays": 5
       },
       {
         "name": "Matilda Mother",
@@ -21443,9 +21461,9 @@
     "id": "22bE4uQ6baNwSHPVcDxLCe",
     "name": "The Rolling Stones",
     "spotify_url": "https://open.spotify.com/artist/22bE4uQ6baNwSHPVcDxLCe",
-    "total_plays": 4,
+    "total_plays": 36,
     "first_seen": "2026-03-28",
-    "last_seen": "2026-03-28",
+    "last_seen": "2026-07-12",
     "genres": [
       "classic rock",
       "rock"
@@ -21469,6 +21487,24 @@
     ],
     "top_tracks": [
       {
+        "name": "Dancing In The Light",
+        "album": "Exile On Main Street (Deluxe Version)",
+        "spotify_url": "https://open.spotify.com/track/0c1g0H2Kky6iBg2WkjGaOI",
+        "plays": 2
+      },
+      {
+        "name": "Happy",
+        "album": "Exile On Main Street (Deluxe Version)",
+        "spotify_url": "https://open.spotify.com/track/5fXRPS1tp70DbqsBZVyG4e",
+        "plays": 2
+      },
+      {
+        "name": "Sweet Virginia",
+        "album": "Exile On Main Street (Deluxe Version)",
+        "spotify_url": "https://open.spotify.com/track/3thuVspq7oLlgDE7d7HTqz",
+        "plays": 2
+      },
+      {
         "name": "You Can't Always Get What You Want",
         "album": "Let It Bleed",
         "spotify_url": "https://open.spotify.com/track/6lFZbCc7pn6Lme1NP7qQqQ",
@@ -21490,6 +21526,162 @@
         "name": "Tumbling Dice",
         "album": "Exile On Main Street (2010 Re-Mastered)",
         "spotify_url": "https://open.spotify.com/track/4hq0S6wznq7SHDyMOFXL9i",
+        "plays": 1
+      },
+      {
+        "name": "Dead Flowers - 2009 Mix",
+        "album": "Sticky Fingers (Remastered)",
+        "spotify_url": "https://open.spotify.com/track/3oJtUnnt5uYPtzulIbLw3D",
+        "plays": 1
+      },
+      {
+        "name": "Monkey Man",
+        "album": "Let It Bleed",
+        "spotify_url": "https://open.spotify.com/track/5m6livL7ccIS92wq16n52r",
+        "plays": 1
+      },
+      {
+        "name": "Title 5",
+        "album": "Exile On Main Street (Deluxe Version)",
+        "spotify_url": "https://open.spotify.com/track/0L9upeBPGyAEVtJTeMS0NZ",
+        "plays": 1
+      },
+      {
+        "name": "Good Time Women",
+        "album": "Exile On Main Street (Deluxe Version)",
+        "spotify_url": "https://open.spotify.com/track/1Y7a8V3ihh9zpmmiqJ3sue",
+        "plays": 1
+      },
+      {
+        "name": "Soul Survivor - Alternate Take",
+        "album": "Exile On Main Street (Deluxe Version)",
+        "spotify_url": "https://open.spotify.com/track/7k1bo4ZVPHL3Ofu2Sqhyb2",
+        "plays": 1
+      },
+      {
+        "name": "Loving Cup - Alternate Take",
+        "album": "Exile On Main Street (Deluxe Version)",
+        "spotify_url": "https://open.spotify.com/track/2skiGld2KxenMUceC79a30",
+        "plays": 1
+      },
+      {
+        "name": "So Divine (Aladdin Story)",
+        "album": "Exile On Main Street (Deluxe Version)",
+        "spotify_url": "https://open.spotify.com/track/0EHtgDgLhb44gcRb41p1AK",
+        "plays": 1
+      },
+      {
+        "name": "Following The River",
+        "album": "Exile On Main Street (Deluxe Version)",
+        "spotify_url": "https://open.spotify.com/track/5YBVKx51h8YouVHkpDM3A3",
+        "plays": 1
+      },
+      {
+        "name": "I'm Not Signifying",
+        "album": "Exile On Main Street (Deluxe Version)",
+        "spotify_url": "https://open.spotify.com/track/6RGzYkvUeDxTHPgvud1He8",
+        "plays": 1
+      },
+      {
+        "name": "Plundered My Soul",
+        "album": "Exile On Main Street (Deluxe Version)",
+        "spotify_url": "https://open.spotify.com/track/77JJtpB6aAxGI9jNTBVbWu",
+        "plays": 1
+      },
+      {
+        "name": "Pass The Wine (Sophia Loren)",
+        "album": "Exile On Main Street (Deluxe Version)",
+        "spotify_url": "https://open.spotify.com/track/0AhnC2WcLw6ZX1oXoD75gK",
+        "plays": 1
+      },
+      {
+        "name": "Soul Survivor",
+        "album": "Exile On Main Street (Deluxe Version)",
+        "spotify_url": "https://open.spotify.com/track/4A4dDKVaoruaFbgUJIufXk",
+        "plays": 1
+      },
+      {
+        "name": "Shine A Light",
+        "album": "Exile On Main Street (Deluxe Version)",
+        "spotify_url": "https://open.spotify.com/track/2EH595eXhTlOp8BlcOX5Y4",
+        "plays": 1
+      },
+      {
+        "name": "Stop Breaking Down",
+        "album": "Exile On Main Street (Deluxe Version)",
+        "spotify_url": "https://open.spotify.com/track/30t7Yif8FyeCANkW2Beii3",
+        "plays": 1
+      },
+      {
+        "name": "All Down The Line",
+        "album": "Exile On Main Street (Deluxe Version)",
+        "spotify_url": "https://open.spotify.com/track/2tPYeRNVROwJpG7tOHXJTZ",
+        "plays": 1
+      },
+      {
+        "name": "Let It Loose",
+        "album": "Exile On Main Street (Deluxe Version)",
+        "spotify_url": "https://open.spotify.com/track/7D2f7zoIwRxeIhmeer8aWm",
+        "plays": 1
+      },
+      {
+        "name": "I Just Want To See His Face",
+        "album": "Exile On Main Street (Deluxe Version)",
+        "spotify_url": "https://open.spotify.com/track/2s9SV3uTSdEf2Z3pSfou6d",
+        "plays": 1
+      },
+      {
+        "name": "Ventilator Blues",
+        "album": "Exile On Main Street (Deluxe Version)",
+        "spotify_url": "https://open.spotify.com/track/4qI7G7K9MNbekIXmCI3m18",
+        "plays": 1
+      },
+      {
+        "name": "Turd On The Run",
+        "album": "Exile On Main Street (Deluxe Version)",
+        "spotify_url": "https://open.spotify.com/track/3aZyQJSjtrzPXi670Dp7dN",
+        "plays": 1
+      },
+      {
+        "name": "Loving Cup",
+        "album": "Exile On Main Street (Deluxe Version)",
+        "spotify_url": "https://open.spotify.com/track/34OzAaQeAWlFnZBSyUAtRh",
+        "plays": 1
+      },
+      {
+        "name": "Sweet Black Angel",
+        "album": "Exile On Main Street (Deluxe Version)",
+        "spotify_url": "https://open.spotify.com/track/4Cg8Nl5JjI4Df0AMbm18u7",
+        "plays": 1
+      },
+      {
+        "name": "Torn And Frayed",
+        "album": "Exile On Main Street (Deluxe Version)",
+        "spotify_url": "https://open.spotify.com/track/6dE1etqLwt5GUUBVQdIgBB",
+        "plays": 1
+      },
+      {
+        "name": "Tumbling Dice",
+        "album": "Exile On Main Street (Deluxe Version)",
+        "spotify_url": "https://open.spotify.com/track/6DjtOcS3xQO8LETk8O4qgE",
+        "plays": 1
+      },
+      {
+        "name": "Casino Boogie",
+        "album": "Exile On Main Street (Deluxe Version)",
+        "spotify_url": "https://open.spotify.com/track/4vUBoA4crmrgd97GH8j01B",
+        "plays": 1
+      },
+      {
+        "name": "Shake Your Hips",
+        "album": "Exile On Main Street (Deluxe Version)",
+        "spotify_url": "https://open.spotify.com/track/3JhfyWKIYR3opA4DpHxP1w",
+        "plays": 1
+      },
+      {
+        "name": "Rip This Joint",
+        "album": "Exile On Main Street (Deluxe Version)",
+        "spotify_url": "https://open.spotify.com/track/5F5UNt3WBzmUJ3irvfAi8w",
         "plays": 1
       },
       {
@@ -28127,9 +28319,9 @@
     "id": "02NfyD6AlLA12crYzw5YcR",
     "name": "Jane's Addiction",
     "spotify_url": "https://open.spotify.com/artist/02NfyD6AlLA12crYzw5YcR",
-    "total_plays": 1,
+    "total_plays": 2,
     "first_seen": "2026-04-29",
-    "last_seen": "2026-04-29",
+    "last_seen": "2026-07-08",
     "genres": [
       "funk rock",
       "grunge"
@@ -28156,6 +28348,12 @@
         "name": "Mountain Song",
         "album": "Nothing's Shocking",
         "spotify_url": "https://open.spotify.com/track/5fKZJHzJ9d3MADArbm9muW",
+        "plays": 1
+      },
+      {
+        "name": "Summertime Rolls",
+        "album": "Nothing's Shocking",
+        "spotify_url": "https://open.spotify.com/track/2ziWygUNToqsrm3yNOD6SZ",
         "plays": 1
       },
       {
@@ -32284,9 +32482,9 @@
     "id": "62BcWP4fzR8axESibNQEhs",
     "name": "Butthole Surfers",
     "spotify_url": "https://open.spotify.com/artist/62BcWP4fzR8axESibNQEhs",
-    "total_plays": 13,
+    "total_plays": 37,
     "first_seen": "2026-05-27",
-    "last_seen": "2026-07-04",
+    "last_seen": "2026-07-09",
     "genres": [
       "noise rock"
     ],
@@ -32317,7 +32515,55 @@
         "name": "Who Was In My Room Last Night?",
         "album": "Independent Worm Saloon",
         "spotify_url": "https://open.spotify.com/track/6DVNQXL9LRzKq8zjyFEuTC",
-        "plays": 3
+        "plays": 4
+      },
+      {
+        "name": "Dancing Fool",
+        "album": "Independent Worm Saloon",
+        "spotify_url": "https://open.spotify.com/track/3Fp670h07h3IrjIUtXYy5b",
+        "plays": 2
+      },
+      {
+        "name": "Some Dispute Over T-Shirt Sales",
+        "album": "Independent Worm Saloon",
+        "spotify_url": "https://open.spotify.com/track/7FObPpGXeCp9AfWQvG2S5I",
+        "plays": 2
+      },
+      {
+        "name": "Strawberry",
+        "album": "Independent Worm Saloon",
+        "spotify_url": "https://open.spotify.com/track/3PZhosNQBVKW4zNoTeYYpe",
+        "plays": 2
+      },
+      {
+        "name": "Dog Inside Your Body",
+        "album": "Independent Worm Saloon",
+        "spotify_url": "https://open.spotify.com/track/7GAJcFwACPs9jSs7bhSoZW",
+        "plays": 2
+      },
+      {
+        "name": "Alcohol",
+        "album": "Independent Worm Saloon",
+        "spotify_url": "https://open.spotify.com/track/2U0JwDp1MRw5L9cV2cYcyz",
+        "plays": 2
+      },
+      {
+        "name": "Goofy's Concern",
+        "album": "Independent Worm Saloon",
+        "spotify_url": "https://open.spotify.com/track/4BW55ofrMAaJ05qkgwHxED",
+        "plays": 2
+      },
+      {
+        "name": "Chewin' George Lucas' Chocolate",
+        "album": "Independent Worm Saloon",
+        "spotify_url": "https://open.spotify.com/track/24YtMiZiFsOHWG5el416Zv",
+        "plays": 2
+      },
+      {
+        "name": "Tongue",
+        "album": "Independent Worm Saloon",
+        "spotify_url": "https://open.spotify.com/track/7IaKBTr6zkZeXwrEDqPZ3d",
+        "plays": 2
       },
       {
         "name": "Intelligent Guy - Astronaut Version",
@@ -32326,57 +32572,99 @@
         "plays": 1
       },
       {
-        "name": "Dancing Fool",
-        "album": "Independent Worm Saloon",
-        "spotify_url": "https://open.spotify.com/track/3Fp670h07h3IrjIUtXYy5b",
-        "plays": 1
-      },
-      {
-        "name": "Some Dispute Over T-Shirt Sales",
-        "album": "Independent Worm Saloon",
-        "spotify_url": "https://open.spotify.com/track/7FObPpGXeCp9AfWQvG2S5I",
-        "plays": 1
-      },
-      {
-        "name": "Strawberry",
-        "album": "Independent Worm Saloon",
-        "spotify_url": "https://open.spotify.com/track/3PZhosNQBVKW4zNoTeYYpe",
-        "plays": 1
-      },
-      {
-        "name": "Dog Inside Your Body",
-        "album": "Independent Worm Saloon",
-        "spotify_url": "https://open.spotify.com/track/7GAJcFwACPs9jSs7bhSoZW",
-        "plays": 1
-      },
-      {
-        "name": "Alcohol",
-        "album": "Independent Worm Saloon",
-        "spotify_url": "https://open.spotify.com/track/2U0JwDp1MRw5L9cV2cYcyz",
-        "plays": 1
-      },
-      {
-        "name": "Goofy's Concern",
-        "album": "Independent Worm Saloon",
-        "spotify_url": "https://open.spotify.com/track/4BW55ofrMAaJ05qkgwHxED",
-        "plays": 1
-      },
-      {
-        "name": "Chewin' George Lucas' Chocolate",
-        "album": "Independent Worm Saloon",
-        "spotify_url": "https://open.spotify.com/track/24YtMiZiFsOHWG5el416Zv",
-        "plays": 1
-      },
-      {
-        "name": "Tongue",
-        "album": "Independent Worm Saloon",
-        "spotify_url": "https://open.spotify.com/track/7IaKBTr6zkZeXwrEDqPZ3d",
-        "plays": 1
-      },
-      {
         "name": "The Wooden Song",
         "album": "Independent Worm Saloon",
         "spotify_url": "https://open.spotify.com/track/3j2lwmlUNp1JuUtlxzwA89",
+        "plays": 1
+      },
+      {
+        "name": "Kuntz",
+        "album": "Locust Abortion Technician",
+        "spotify_url": "https://open.spotify.com/track/1nIJL4WG1uQiPSEIbpgc2b",
+        "plays": 1
+      },
+      {
+        "name": "The Colored F.B.I. Guy",
+        "album": "Pioughd + Widowermaker!",
+        "spotify_url": "https://open.spotify.com/track/13hip1g1RKTvBml4mUbUXc",
+        "plays": 1
+      },
+      {
+        "name": "Jet Fighter",
+        "album": "After The Astronaut",
+        "spotify_url": "https://open.spotify.com/track/1R8iRyetviJlKuBjFCE9wJ",
+        "plays": 1
+      },
+      {
+        "name": "Mexican Caravan",
+        "album": "Psychic.... Powerless.... Another Man's Sac",
+        "spotify_url": "https://open.spotify.com/track/118F5fXQ3A0Hx87MtMfaLS",
+        "plays": 1
+      },
+      {
+        "name": "Lady Sniff",
+        "album": "Psychic.... Powerless.... Another Man's Sac",
+        "spotify_url": "https://open.spotify.com/track/7HVJ7ZmdSJYOb4GZ34qYIZ",
+        "plays": 1
+      },
+      {
+        "name": "Mexico",
+        "album": "After The Astronaut",
+        "spotify_url": "https://open.spotify.com/track/3JYYlcVNsGV3DKrF4pTNZ3",
+        "plays": 1
+      },
+      {
+        "name": "Jingle Of A Dog's Collar",
+        "album": "Electriclarryland",
+        "spotify_url": "https://open.spotify.com/track/5mVYe5DEVNOyv3RQujgsvJ",
+        "plays": 1
+      },
+      {
+        "name": "Birds",
+        "album": "Electriclarryland",
+        "spotify_url": "https://open.spotify.com/track/1z8Lb6r4KRHlT3iKj56alU",
+        "plays": 1
+      },
+      {
+        "name": "Clean It Up",
+        "album": "Independent Worm Saloon",
+        "spotify_url": "https://open.spotify.com/track/0CaUeZ6zxKYNtzJLeq1g0c",
+        "plays": 1
+      },
+      {
+        "name": "The Ballad Of Naked Man",
+        "album": "Independent Worm Saloon",
+        "spotify_url": "https://open.spotify.com/track/2VVVgBjMFEyUMOWFiFCeSs",
+        "plays": 1
+      },
+      {
+        "name": "Edgar",
+        "album": "Independent Worm Saloon",
+        "spotify_url": "https://open.spotify.com/track/4Ej22PvKHg1ndxGApz9H0o",
+        "plays": 1
+      },
+      {
+        "name": "Leave Me Alone",
+        "album": "Independent Worm Saloon",
+        "spotify_url": "https://open.spotify.com/track/4QA9JrLSvhW36kpPDuiMSn",
+        "plays": 1
+      },
+      {
+        "name": "Dust Devil",
+        "album": "Independent Worm Saloon",
+        "spotify_url": "https://open.spotify.com/track/4cp8e8FMZXEXsOBZjaTdm5",
+        "plays": 1
+      },
+      {
+        "name": "The Annoying Song",
+        "album": "Independent Worm Saloon",
+        "spotify_url": "https://open.spotify.com/track/034VuXe5JVlGTVRtSEIQq8",
+        "plays": 1
+      },
+      {
+        "name": "You Don't Know Me",
+        "album": "Independent Worm Saloon",
+        "spotify_url": "https://open.spotify.com/track/59UFSLNBGdiy1rKsIfJ9aj",
         "plays": 1
       },
       {
@@ -32410,21 +32698,9 @@
         "plays": 2
       },
       {
-        "name": "Mexican Caravan",
-        "album": "Psychic.... Powerless.... Another Man's Sac",
-        "spotify_url": "https://open.spotify.com/track/118F5fXQ3A0Hx87MtMfaLS",
-        "plays": 2
-      },
-      {
         "name": "Eye of the Chicken",
         "album": "Psychic.... Powerless.... Another Man's Sac",
         "spotify_url": "https://open.spotify.com/track/1KrsrXHP1GUneSqA4rm0i8",
-        "plays": 2
-      },
-      {
-        "name": "Birds",
-        "album": "Electriclarryland",
-        "spotify_url": "https://open.spotify.com/track/1z8Lb6r4KRHlT3iKj56alU",
         "plays": 2
       },
       {
@@ -32536,12 +32812,6 @@
         "plays": 1
       },
       {
-        "name": "Kuntz",
-        "album": "Locust Abortion Technician",
-        "spotify_url": "https://open.spotify.com/track/1nIJL4WG1uQiPSEIbpgc2b",
-        "plays": 1
-      },
-      {
         "name": "Julio Iglesias - 2024 Remaster",
         "album": "Hairway To Steven (2024 Remaster)",
         "spotify_url": "https://open.spotify.com/track/2hIKB6nHGGt9vVVc7bwmVH",
@@ -32590,12 +32860,6 @@
         "plays": 1
       },
       {
-        "name": "The Colored F.B.I. Guy",
-        "album": "Pioughd + Widowermaker!",
-        "spotify_url": "https://open.spotify.com/track/13hip1g1RKTvBml4mUbUXc",
-        "plays": 1
-      },
-      {
         "name": "Lady Sniff - 2024 Remaster",
         "album": "Psychic.... Powerless.... Another Man's Sac (2024 Remaster)",
         "spotify_url": "https://open.spotify.com/track/1CirjLcXtRvhb52K6DsNe1",
@@ -32605,12 +32869,6 @@
         "name": "Ricky",
         "album": "Hairway To Steven",
         "spotify_url": "https://open.spotify.com/track/1G7a8c49uspejx42hxRlmu",
-        "plays": 1
-      },
-      {
-        "name": "The Ballad Of Naked Man",
-        "album": "Independent Worm Saloon",
-        "spotify_url": "https://open.spotify.com/track/2VVVgBjMFEyUMOWFiFCeSs",
         "plays": 1
       },
       {
@@ -32653,12 +32911,6 @@
         "name": "Perry",
         "album": "Rembrandt Pussyhorse",
         "spotify_url": "https://open.spotify.com/track/4EJQOL4BN3kib0jGludlf9",
-        "plays": 1
-      },
-      {
-        "name": "Edgar",
-        "album": "Independent Worm Saloon",
-        "spotify_url": "https://open.spotify.com/track/4Ej22PvKHg1ndxGApz9H0o",
         "plays": 1
       },
       {
@@ -32707,12 +32959,6 @@
         "name": "American Woman",
         "album": "Rembrandt Pussyhorse",
         "spotify_url": "https://open.spotify.com/track/5Hw7zxTiWAqaeHg87HKEAQ",
-        "plays": 1
-      },
-      {
-        "name": "Jingle Of A Dog's Collar",
-        "album": "Electriclarryland",
-        "spotify_url": "https://open.spotify.com/track/5mVYe5DEVNOyv3RQujgsvJ",
         "plays": 1
       }
     ]
@@ -32978,9 +33224,9 @@
     "id": "62sC6lUEWRjbFqXpMmOk4G",
     "name": "Fugazi",
     "spotify_url": "https://open.spotify.com/artist/62sC6lUEWRjbFqXpMmOk4G",
-    "total_plays": 1,
+    "total_plays": 3,
     "first_seen": "2026-05-28",
-    "last_seen": "2026-05-28",
+    "last_seen": "2026-07-08",
     "genres": [
       "post-hardcore",
       "punk",
@@ -33012,6 +33258,18 @@
         "plays": 1
       },
       {
+        "name": "Suggestion",
+        "album": "13 Songs",
+        "spotify_url": "https://open.spotify.com/track/6eD7yC9Z7pLlmF3D0cdBdE",
+        "plays": 1
+      },
+      {
+        "name": "Waiting Room",
+        "album": "13 Songs",
+        "spotify_url": "https://open.spotify.com/track/2DBlfjL5chsdeULzhTp5K8",
+        "plays": 1
+      },
+      {
         "name": "Give Me The Cure",
         "album": "13 Songs",
         "spotify_url": "https://open.spotify.com/track/0QNJgmPIaESS4Ko2MFpp5h",
@@ -33027,12 +33285,6 @@
         "name": "Burning",
         "album": "13 Songs",
         "spotify_url": "https://open.spotify.com/track/2X6mS6sYa7MzrmG2bmRDA8",
-        "plays": 2
-      },
-      {
-        "name": "Suggestion",
-        "album": "13 Songs",
-        "spotify_url": "https://open.spotify.com/track/6eD7yC9Z7pLlmF3D0cdBdE",
         "plays": 2
       },
       {
@@ -33057,12 +33309,6 @@
         "name": "Bulldog Front",
         "album": "13 Songs",
         "spotify_url": "https://open.spotify.com/track/1AfeuOqJYIlRFduHI6uXLE",
-        "plays": 1
-      },
-      {
-        "name": "Waiting Room",
-        "album": "13 Songs",
-        "spotify_url": "https://open.spotify.com/track/2DBlfjL5chsdeULzhTp5K8",
         "plays": 1
       },
       {
@@ -33855,9 +34101,9 @@
     "id": "64mPnRMMeudAet0E62ypkx",
     "name": "Primus",
     "spotify_url": "https://open.spotify.com/artist/64mPnRMMeudAet0E62ypkx",
-    "total_plays": 1,
+    "total_plays": 2,
     "first_seen": "2026-06-02",
-    "last_seen": "2026-06-02",
+    "last_seen": "2026-07-08",
     "genres": [
       "funk rock",
       "alternative metal",
@@ -33886,6 +34132,12 @@
         "name": "Wynona's Big Brown Beaver",
         "album": "Tales From The Punchbowl",
         "spotify_url": "https://open.spotify.com/track/5WzdX4iArSQZELuxI0Oq5Q",
+        "plays": 1
+      },
+      {
+        "name": "Those Damned Blue-Collar Tweekers",
+        "album": "Sailing The Seas Of Cheese",
+        "spotify_url": "https://open.spotify.com/track/7sIjZxhdIOKB92n8oaZ4hK",
         "plays": 1
       }
     ]
@@ -36588,9 +36840,9 @@
     "id": "6kACVPfCOnqzgfEF5ryl0x",
     "name": "Johnny Cash",
     "spotify_url": "https://open.spotify.com/artist/6kACVPfCOnqzgfEF5ryl0x",
-    "total_plays": 1,
+    "total_plays": 2,
     "first_seen": "2026-07-03",
-    "last_seen": "2026-07-03",
+    "last_seen": "2026-07-12",
     "genres": [
       "classic country",
       "outlaw country",
@@ -36618,7 +36870,7 @@
         "name": "Five Feet High and Rising - Live at Madison Square Garden, New York, NY - December 1969",
         "album": "At Madison Square Garden",
         "spotify_url": "https://open.spotify.com/track/3y2z7rgsw4jat1ezeSXikB",
-        "plays": 1
+        "plays": 2
       }
     ]
   },
@@ -37406,6 +37658,1660 @@
         "name": "Old Soul",
         "album": "Old Soul",
         "spotify_url": "https://open.spotify.com/track/3FWONEQk9IlwKREsxHbjBM",
+        "plays": 1
+      }
+    ]
+  },
+  "billy-preston": {
+    "id": "0IecGJbdBeYSOVtSPRehh5",
+    "name": "Billy Preston",
+    "spotify_url": "https://open.spotify.com/artist/0IecGJbdBeYSOVtSPRehh5",
+    "total_plays": 2,
+    "first_seen": "2026-07-12",
+    "last_seen": "2026-07-12",
+    "genres": [
+      "motown"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/49bc10d9841773e35824e64018df6bcffe20be8b",
+        "height": 1000,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/2844d12d73df54435d13122a37286fe532de3a07",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/6187ef7f25d7c98f41acbb46f4ece2f3b5ecf81a",
+        "height": 200,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/22074964a11f701c1d510d60ff23c418140853b4",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "That's The Way God Planned It - Live",
+        "album": "The Concert for Bangladesh",
+        "spotify_url": "https://open.spotify.com/track/4Hk7Tpn0EyaFEXo45o4C0n",
+        "plays": 2
+      }
+    ]
+  },
+  "van-morrison": {
+    "id": "44NX2ffIYHr6D4n7RaZF7A",
+    "name": "Van Morrison",
+    "spotify_url": "https://open.spotify.com/artist/44NX2ffIYHr6D4n7RaZF7A",
+    "total_plays": 3,
+    "first_seen": "2026-07-12",
+    "last_seen": "2026-07-12",
+    "genres": [
+      "classic rock",
+      "folk",
+      "folk rock",
+      "mellow gold",
+      "rock",
+      "singer-songwriter",
+      "soft rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb61978f04a57032e5fec7819f",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517461978f04a57032e5fec7819f",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17861978f04a57032e5fec7819f",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "And It Stoned Me - 2013 Remaster",
+        "album": "Moondance (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/3n5iUh2Z6P7cnWins22W0F",
+        "plays": 1
+      },
+      {
+        "name": "Sweet Thing - 1999 Remaster",
+        "album": "Astral Weeks",
+        "spotify_url": "https://open.spotify.com/track/4dBI72rgkmG0gTzswyBTzz",
+        "plays": 1
+      },
+      {
+        "name": "Astral Weeks - 1999 Remaster",
+        "album": "Astral Weeks",
+        "spotify_url": "https://open.spotify.com/track/0vz4iTEfsp2lunsRJeMzjj",
+        "plays": 1
+      },
+      {
+        "name": "Domino - 1999 Remaster",
+        "album": "His Band and the Street Choir",
+        "spotify_url": "https://open.spotify.com/track/0eti3iRdEgUxwcIcN2N9DY",
+        "plays": 2
+      },
+      {
+        "name": "Crazy Love - 2013 Remaster",
+        "album": "Moondance (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/2hjAc6x8EoSLhGxRNg8KEw",
+        "plays": 2
+      },
+      {
+        "name": "Into the Mystic - 2013 Remaster",
+        "album": "Moondance",
+        "spotify_url": "https://open.spotify.com/track/3lh3iiiJeiBXHSZw6u0kh6",
+        "plays": 2
+      },
+      {
+        "name": "Wild Night",
+        "album": "The Essential Van Morrison",
+        "spotify_url": "https://open.spotify.com/track/1A7hIo1C8jacIQ5ZiCjc8g",
+        "plays": 1
+      },
+      {
+        "name": "Brown Eyed Girl",
+        "album": "Blowin' Your Mind!",
+        "spotify_url": "https://open.spotify.com/track/3yrSvpt2l1xhsV9Em88Pul",
+        "plays": 1
+      }
+    ]
+  },
+  "ryan-adams": {
+    "id": "2qc41rNTtdLK0tV3mJn2Pm",
+    "name": "Ryan Adams",
+    "spotify_url": "https://open.spotify.com/artist/2qc41rNTtdLK0tV3mJn2Pm",
+    "total_plays": 3,
+    "first_seen": "2026-07-11",
+    "last_seen": "2026-07-12",
+    "genres": [
+      "alt country",
+      "americana",
+      "singer-songwriter"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb46dbea8d8ce2f2a21d9f0702",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517446dbea8d8ce2f2a21d9f0702",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17846dbea8d8ce2f2a21d9f0702",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "To Be Young (Is to Be Sad, Is to Be High)",
+        "album": "Heartbreaker",
+        "spotify_url": "https://open.spotify.com/track/0aLk2Za7r0eGlLOepW2hzL",
+        "plays": 1
+      },
+      {
+        "name": "Nobody Girl",
+        "album": "Gold",
+        "spotify_url": "https://open.spotify.com/track/2YqjAMK5eeSkdnNBF7Omsm",
+        "plays": 1
+      },
+      {
+        "name": "When The Stars Go Blue",
+        "album": "Gold",
+        "spotify_url": "https://open.spotify.com/track/04rMpRstoJt3uvqyNGKczX",
+        "plays": 1
+      }
+    ]
+  },
+  "mos-def": {
+    "id": "0Mz5XE0kb1GBnbLQm2VbcO",
+    "name": "Mos Def",
+    "spotify_url": "https://open.spotify.com/artist/0Mz5XE0kb1GBnbLQm2VbcO",
+    "total_plays": 1,
+    "first_seen": "2026-07-10",
+    "last_seen": "2026-07-10",
+    "genres": [
+      "east coast hip hop",
+      "old school hip hop",
+      "hip hop"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/d39cd5769332fb51014cc1cc9934c8890fcd49f7",
+        "height": 1000,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/eae06411463fb7ffea6a433c9d22f11418a1f7da",
+        "height": 764,
+        "width": 600
+      },
+      {
+        "url": "https://i.scdn.co/image/d5fec1743c5af5eb5fccecee7b5a6037eb3bfa87",
+        "height": 255,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/cc0165937957a92af9a0b6cf5e85f61ab8ed043b",
+        "height": 81,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Ms. Fat Booty",
+        "album": "Black On Both Sides",
+        "spotify_url": "https://open.spotify.com/track/0IVAlb0cFCH1cQ974iR1TU",
+        "plays": 1
+      },
+      {
+        "name": "Big Brother Beat",
+        "album": "Stakes Is High",
+        "spotify_url": "https://open.spotify.com/track/7c6nUOPXlVUwsvScqsBoL7",
+        "plays": 2
+      },
+      {
+        "name": "The Corner",
+        "album": "My Homies, Pt. 2",
+        "spotify_url": "https://open.spotify.com/track/6r9C3Yxdcn7zfiLbzr0WvI",
+        "plays": 1
+      }
+    ]
+  },
+  "ol-dirty-bastard": {
+    "id": "50NoVNy9GU1lCrDV8iGpyu",
+    "name": "Ol' Dirty Bastard",
+    "spotify_url": "https://open.spotify.com/artist/50NoVNy9GU1lCrDV8iGpyu",
+    "total_plays": 2,
+    "first_seen": "2026-07-10",
+    "last_seen": "2026-07-10",
+    "genres": [
+      "east coast hip hop",
+      "old school hip hop",
+      "hardcore hip hop"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/cdcf0ecd5b041452681badedca98f7d3b8494c52",
+        "height": 693,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/e3e39e2ee5b5929aed7d2b33791f0d8089217954",
+        "height": 443,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/459d62eea68686dd2fe8be21173f9cd1e448eb83",
+        "height": 139,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/c073d8d9f384061615625887756c771f2bab4209",
+        "height": 44,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Hippa to da Hoppa",
+        "album": "Return to the 36 Chambers: The Dirty Version",
+        "spotify_url": "https://open.spotify.com/track/3cFT8G5sU4ind7VmAPsV5d",
+        "plays": 2
+      },
+      {
+        "name": "Shimmy Shimmy Ya",
+        "album": "Return to the 36 Chambers: The Dirty Version",
+        "spotify_url": "https://open.spotify.com/track/3ABG1UQTk0eLYUAeWkmfMi",
+        "plays": 2
+      },
+      {
+        "name": "As High as Wu-Tang Get (feat. Ol' Dirty Bastard, GZA & Method Man)",
+        "album": "Wu-Tang Forever",
+        "spotify_url": "https://open.spotify.com/track/1XbqOF6nx3tJsyQjXRh9ux",
+        "plays": 1
+      }
+    ]
+  },
+  "naughty-by-nature": {
+    "id": "4Otx4bRLSfpah5kX8hdgDC",
+    "name": "Naughty By Nature",
+    "spotify_url": "https://open.spotify.com/artist/4Otx4bRLSfpah5kX8hdgDC",
+    "total_plays": 1,
+    "first_seen": "2026-07-10",
+    "last_seen": "2026-07-10",
+    "genres": [
+      "old school hip hop",
+      "east coast hip hop"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb4cfb4db377be25e51eecc324",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051744cfb4db377be25e51eecc324",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1784cfb4db377be25e51eecc324",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Feel Me Flow",
+        "album": "Poverty's Paradise (25th Anniversary - Remastered)",
+        "spotify_url": "https://open.spotify.com/track/4dbZObCjUs95HtmEHfKbnU",
+        "plays": 1
+      }
+    ]
+  },
+  "nwa": {
+    "id": "4EnEZVjo3w1cwcQYePccay",
+    "name": "N.W.A.",
+    "spotify_url": "https://open.spotify.com/artist/4EnEZVjo3w1cwcQYePccay",
+    "total_plays": 5,
+    "first_seen": "2026-07-10",
+    "last_seen": "2026-07-10",
+    "genres": [
+      "old school hip hop",
+      "gangster rap",
+      "west coast hip hop",
+      "hip hop",
+      "rap",
+      "g-funk"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/4f36d3f900eaf8381b0d3f5febe0e5bf8c94dbea",
+        "height": 1000,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/6c6c5456aa373c9cbf4f385c2dd69c4177e6e3fa",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/e3e634272efd0251c2b8298b25fcd4b659993178",
+        "height": 200,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/8bf427fbb118c36cd56439a06f0bfb77e4e7bdf3",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "A Bitch Iz A Bitch",
+        "album": "Express Yourself",
+        "spotify_url": "https://open.spotify.com/track/09b84uwrksszAvJwM6J28L",
+        "plays": 2
+      },
+      {
+        "name": "Straight Outta Compton",
+        "album": "Straight Outta Compton",
+        "spotify_url": "https://open.spotify.com/track/6KIKRz9eSTXdNsGUnomdtW",
+        "plays": 1
+      },
+      {
+        "name": "Express Yourself",
+        "album": "Straight Outta Compton",
+        "spotify_url": "https://open.spotify.com/track/52IuMfbQa9aqRPz2oYPAI8",
+        "plays": 1
+      },
+      {
+        "name": "Dope Man",
+        "album": "N.W.A. And The Posse",
+        "spotify_url": "https://open.spotify.com/track/4fukZMkYV1JgJ68NegVLtN",
+        "plays": 1
+      }
+    ]
+  },
+  "limp-bizkit": {
+    "id": "165ZgPlLkK7bf5bDoFc6Sb",
+    "name": "Limp Bizkit",
+    "spotify_url": "https://open.spotify.com/artist/165ZgPlLkK7bf5bDoFc6Sb",
+    "total_plays": 1,
+    "first_seen": "2026-07-10",
+    "last_seen": "2026-07-10",
+    "genres": [
+      "nu metal",
+      "rap metal",
+      "alternative metal",
+      "rap rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/4654955890cb62a6abe9daadfd2b3ecdee8036e4",
+        "height": 1006,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/c8e241c3b7ddb2839be99acf9a1ad2d73f04b936",
+        "height": 644,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/38532b2db9bc627567271da917855a59be788860",
+        "height": 201,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/67ab66b1154c3115005086d60853fc954717a2ea",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "N 2 Gether Now",
+        "album": "Significant Other",
+        "spotify_url": "https://open.spotify.com/track/5SEBSAio1N77Vbrj1cAEGb",
+        "plays": 1
+      }
+    ]
+  },
+  "gang-starr": {
+    "id": "5cMgGlA1xGyeAB2ctYlRdZ",
+    "name": "Gang Starr",
+    "spotify_url": "https://open.spotify.com/artist/5cMgGlA1xGyeAB2ctYlRdZ",
+    "total_plays": 1,
+    "first_seen": "2026-07-10",
+    "last_seen": "2026-07-10",
+    "genres": [
+      "east coast hip hop",
+      "old school hip hop",
+      "hip hop",
+      "boom bap"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb85ee94998a936ef47231db39",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517485ee94998a936ef47231db39",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17885ee94998a936ef47231db39",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Work",
+        "album": "Moment Of Truth",
+        "spotify_url": "https://open.spotify.com/track/1EiLrPd8JMTcQUr1aLEUKi",
+        "plays": 1
+      },
+      {
+        "name": "What I'm Here 4",
+        "album": "Moment Of Truth",
+        "spotify_url": "https://open.spotify.com/track/6NjXLhejj5dVjTyeU8SbVM",
+        "plays": 3
+      },
+      {
+        "name": "Execution Of A Chump",
+        "album": "Step In The Arena",
+        "spotify_url": "https://open.spotify.com/track/2GLQCyOGdqpDbR9RszgKaL",
+        "plays": 2
+      },
+      {
+        "name": "Speak Ya Clout",
+        "album": "Hard To Earn",
+        "spotify_url": "https://open.spotify.com/track/2aVQ1EUT7IsYFEWDc5muqR",
+        "plays": 2
+      },
+      {
+        "name": "Now You're Mine",
+        "album": "Hard To Earn",
+        "spotify_url": "https://open.spotify.com/track/0qa61a11y8VvXD55YqLMMc",
+        "plays": 1
+      },
+      {
+        "name": "Full Clip",
+        "album": "Full Clip: A Decade Of Gang Starr",
+        "spotify_url": "https://open.spotify.com/track/30oTS7bm0aH3p7lqjEIu8q",
+        "plays": 1
+      },
+      {
+        "name": "Code Of The Streets",
+        "album": "Hard To Earn",
+        "spotify_url": "https://open.spotify.com/track/2mLjLAlChZXZpIZfyPF8Le",
+        "plays": 1
+      },
+      {
+        "name": "Mass Appeal",
+        "album": "Hard To Earn",
+        "spotify_url": "https://open.spotify.com/track/3lGBvPUgO7MJltUnBlOpe9",
+        "plays": 1
+      },
+      {
+        "name": "Battle",
+        "album": "8 Mile (Music From And Inspired By The Motion Picture)",
+        "spotify_url": "https://open.spotify.com/track/4Ix8BBZ5b2V61R2kABW4Hy",
+        "plays": 1
+      },
+      {
+        "name": "Bad Name",
+        "album": "One Of The Best Yet",
+        "spotify_url": "https://open.spotify.com/track/544S44LQ1kkDoQLoEkxYNx",
+        "plays": 1
+      }
+    ]
+  },
+  "count-five": {
+    "id": "57WXdjUf5Vlq3klNZegeTP",
+    "name": "Count Five",
+    "spotify_url": "https://open.spotify.com/artist/57WXdjUf5Vlq3klNZegeTP",
+    "total_plays": 1,
+    "first_seen": "2026-07-10",
+    "last_seen": "2026-07-10",
+    "genres": [
+      "proto-punk",
+      "psychedelic rock",
+      "garage rock",
+      "acid rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6772690000c46c80582de6930efc183979cba6",
+        "height": 1000,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6772690000dd2280582de6930efc183979cba6",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6772690000bac380582de6930efc183979cba6",
+        "height": 200,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67726900008f7480582de6930efc183979cba6",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Pretty Big Mouth",
+        "album": "Psychotic Reaction",
+        "spotify_url": "https://open.spotify.com/track/2rzsi8v63YA1LGJE4yLRBQ",
+        "plays": 1
+      },
+      {
+        "name": "Psychotic Reaction",
+        "album": "Psychotic Reaction",
+        "spotify_url": "https://open.spotify.com/track/5JcaA4A9ZoXthwEnxOxWvP",
+        "plays": 1
+      }
+    ]
+  },
+  "strawberry-alarm-clock": {
+    "id": "1nyQBzKgZ2hBLr7PnyV7cI",
+    "name": "Strawberry Alarm Clock",
+    "spotify_url": "https://open.spotify.com/artist/1nyQBzKgZ2hBLr7PnyV7cI",
+    "total_plays": 2,
+    "first_seen": "2026-07-10",
+    "last_seen": "2026-07-10",
+    "genres": [
+      "psychedelic rock",
+      "acid rock",
+      "baroque pop"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b273668eef9a15023a800efdbbba",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e02668eef9a15023a800efdbbba",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00004851668eef9a15023a800efdbbba",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Rainy Day Mushroom Pillow",
+        "album": "Incense And Peppermints",
+        "spotify_url": "https://open.spotify.com/track/35VcWn3lZ4ne9mhN8uMrFm",
+        "plays": 1
+      },
+      {
+        "name": "I'm Comin' Home (2025 Remaster)",
+        "album": "Nuggets: Original Artyfacts from the First Psychedelic Era, 1965–1968",
+        "spotify_url": "https://open.spotify.com/track/4cQ3aLj6O73Df3gvHXfHb6",
+        "plays": 1
+      }
+    ]
+  },
+  "the-kingsmen": {
+    "id": "2iIn8H3l2NNBNHFpYKWbfo",
+    "name": "The Kingsmen",
+    "spotify_url": "https://open.spotify.com/artist/2iIn8H3l2NNBNHFpYKWbfo",
+    "total_plays": 4,
+    "first_seen": "2026-07-09",
+    "last_seen": "2026-07-10",
+    "genres": [
+      "proto-punk",
+      "garage rock",
+      "southern gospel"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/7700cff2bbd6cb056e5de2cc3b5e6e0476f5a648",
+        "height": 1211,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/6d9c57606bb83dd1db28994faddff08369fd4298",
+        "height": 775,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/3ccff15557c9fbafe8493b1ef410afbfdcdba57c",
+        "height": 242,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/9fabef4610cf7638e190f382152a457a9723e20d",
+        "height": 78,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "If I Needed Someone ('66 Single Version)",
+        "album": "Nuggets: Original Artyfacts from the First Psychedelic Era, 1965–1968",
+        "spotify_url": "https://open.spotify.com/track/4sJP6Ov80FQZkHY1hCiMSb",
+        "plays": 3
+      },
+      {
+        "name": "Under My Thumb",
+        "album": "House Party",
+        "spotify_url": "https://open.spotify.com/track/2oe3Zq49W6thINKVu6vDgI",
+        "plays": 1
+      }
+    ]
+  },
+  "we-the-people": {
+    "id": "1t7mxwEpf9eDpTDVETuQ2j",
+    "name": "We The People",
+    "spotify_url": "https://open.spotify.com/artist/1t7mxwEpf9eDpTDVETuQ2j",
+    "total_plays": 1,
+    "first_seen": "2026-07-10",
+    "last_seen": "2026-07-10",
+    "genres": [
+      "garage rock",
+      "proto-punk",
+      "psychedelic rock",
+      "acid rock",
+      "roots reggae"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b273e6e7dfadd69cfd414a9912bc",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e02e6e7dfadd69cfd414a9912bc",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00004851e6e7dfadd69cfd414a9912bc",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "My Brother the Man",
+        "album": "Too Much Noise",
+        "spotify_url": "https://open.spotify.com/track/1nTYUY6vY2P2ro39yAVtRB",
+        "plays": 1
+      }
+    ]
+  },
+  "the-litter": {
+    "id": "6wvtyGNtNtLlkHONVzOocm",
+    "name": "The Litter",
+    "spotify_url": "https://open.spotify.com/artist/6wvtyGNtNtLlkHONVzOocm",
+    "total_plays": 1,
+    "first_seen": "2026-07-10",
+    "last_seen": "2026-07-10",
+    "genres": [
+      "acid rock",
+      "garage rock",
+      "proto-punk",
+      "psychedelic rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b273b963b5982e69e22238c9f934",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e02b963b5982e69e22238c9f934",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00004851b963b5982e69e22238c9f934",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Action Woman",
+        "album": "Distortions",
+        "spotify_url": "https://open.spotify.com/track/08T9ONipiFiuJSoXm8vag3",
+        "plays": 1
+      }
+    ]
+  },
+  "the-wimple-winch": {
+    "id": "7LLENeHlkhYD6dL1Zf5kdl",
+    "name": "The Wimple Winch",
+    "spotify_url": "https://open.spotify.com/artist/7LLENeHlkhYD6dL1Zf5kdl",
+    "total_plays": 1,
+    "first_seen": "2026-07-10",
+    "last_seen": "2026-07-10",
+    "genres": [
+      "proto-punk",
+      "garage rock",
+      "psychedelic rock",
+      "acid rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b273092a0b3ef6394ecd7fe0ce64",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e02092a0b3ef6394ecd7fe0ce64",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00004851092a0b3ef6394ecd7fe0ce64",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Save My Soul",
+        "album": "A Kaleidoscope Of Sounds: Psychedelic & Freakbeat Masterpieces",
+        "spotify_url": "https://open.spotify.com/track/2U0xN9PCNzQBUe7atWU7Kp",
+        "plays": 1
+      }
+    ]
+  },
+  "the-electric-prunes": {
+    "id": "1kkpNi8Ii5MhBMxmUhN5g9",
+    "name": "The Electric Prunes",
+    "spotify_url": "https://open.spotify.com/artist/1kkpNi8Ii5MhBMxmUhN5g9",
+    "total_plays": 1,
+    "first_seen": "2026-07-10",
+    "last_seen": "2026-07-10",
+    "genres": [
+      "acid rock",
+      "psychedelic rock",
+      "proto-punk",
+      "garage rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b2730483232f2c2961c731e9346e",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e020483232f2c2961c731e9346e",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d000048513930d4953ac00bf00a23588d",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "I Had Too Much to Dream (Last Night)",
+        "album": "I Had Too Much To Dream (Last Night)",
+        "spotify_url": "https://open.spotify.com/track/5YgCmkSdGukXqK3fJlX4pQ",
+        "plays": 1
+      }
+    ]
+  },
+  "the-third-bardo": {
+    "id": "6SdO3dLXggmHcby5EkO06o",
+    "name": "The Third Bardo",
+    "spotify_url": "https://open.spotify.com/artist/6SdO3dLXggmHcby5EkO06o",
+    "total_plays": 1,
+    "first_seen": "2026-07-10",
+    "last_seen": "2026-07-10",
+    "genres": [
+      "proto-punk",
+      "garage rock",
+      "psychedelic rock",
+      "acid rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b27362f8310af5f0ff3ef9abc9c9",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e0262f8310af5f0ff3ef9abc9c9",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000485162f8310af5f0ff3ef9abc9c9",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "I'm Five Years Ahead of My Time",
+        "album": "I'm Five Years Ahead of My Time",
+        "spotify_url": "https://open.spotify.com/track/7tdPaJEmAVKrqMQh1YtlP3",
+        "plays": 1
+      }
+    ]
+  },
+  "the-shaynes": {
+    "id": "3nBiKbXkOdRsOyoBpi6fnE",
+    "name": "The Shaynes",
+    "spotify_url": "https://open.spotify.com/artist/3nBiKbXkOdRsOyoBpi6fnE",
+    "total_plays": 1,
+    "first_seen": "2026-07-10",
+    "last_seen": "2026-07-10",
+    "genres": [],
+    "top_tracks": [
+      {
+        "name": "From My Window",
+        "album": "Nuggets: Original Artyfacts from the First Psychedelic Era, 1965–1968",
+        "spotify_url": "https://open.spotify.com/track/2X1JckdVXQVnyrk25dHVL3",
+        "plays": 1
+      }
+    ]
+  },
+  "the-novas": {
+    "id": "5Nmemek3U8c7fL50jHpHYL",
+    "name": "The Novas",
+    "spotify_url": "https://open.spotify.com/artist/5Nmemek3U8c7fL50jHpHYL",
+    "total_plays": 1,
+    "first_seen": "2026-07-10",
+    "last_seen": "2026-07-10",
+    "genres": [],
+    "top_tracks": [
+      {
+        "name": "The Crusher",
+        "album": "Nuggets: Original Artyfacts from the First Psychedelic Era, 1965–1968",
+        "spotify_url": "https://open.spotify.com/track/2ZIA5xqONbtzZCNPCIB69Q",
+        "plays": 1
+      }
+    ]
+  },
+  "the-young-tyrants": {
+    "id": "51C9KUd8WtERvH9xVW19Yc",
+    "name": "The Young Tyrants",
+    "spotify_url": "https://open.spotify.com/artist/51C9KUd8WtERvH9xVW19Yc",
+    "total_plays": 2,
+    "first_seen": "2026-07-10",
+    "last_seen": "2026-07-10",
+    "genres": [
+      "garage rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b273599440202f743d08eb5be45f",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e02599440202f743d08eb5be45f",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00004851599440202f743d08eb5be45f",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "I Try !",
+        "album": "Nuggets: Original Artyfacts from the First Psychedelic Era, 1965–1968",
+        "spotify_url": "https://open.spotify.com/track/2oeKPGupIxSSGt2eBan77J",
+        "plays": 2
+      }
+    ]
+  },
+  "screaming-lord-sutch": {
+    "id": "00ByTA04jKtjHCSCEjKFID",
+    "name": "Screaming Lord Sutch",
+    "spotify_url": "https://open.spotify.com/artist/00ByTA04jKtjHCSCEjKFID",
+    "total_plays": 1,
+    "first_seen": "2026-07-10",
+    "last_seen": "2026-07-10",
+    "genres": [
+      "psychobilly",
+      "horror punk",
+      "rockabilly"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b2737401398491a0b7601279bfeb",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e027401398491a0b7601279bfeb",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d000048517401398491a0b7601279bfeb",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "She Was A Cheat",
+        "album": "Nuggets: Original Artyfacts from the First Psychedelic Era, 1965–1968",
+        "spotify_url": "https://open.spotify.com/track/7nzcJ81jR52qDbuxWW4SAF",
+        "plays": 1
+      }
+    ]
+  },
+  "the-dakotas": {
+    "id": "3f121mss4A4LwR25ErGzP0",
+    "name": "The Dakotas",
+    "spotify_url": "https://open.spotify.com/artist/3f121mss4A4LwR25ErGzP0",
+    "total_plays": 2,
+    "first_seen": "2026-07-10",
+    "last_seen": "2026-07-10",
+    "genres": [
+      "indorock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/c49936d201bcf3fb36dadef2a29845121823e309",
+        "height": 738,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/8ca5bc363d6bdc53b9bc1d94d0f7ee54968c5237",
+        "height": 472,
+        "width": 639
+      },
+      {
+        "url": "https://i.scdn.co/image/28268d87ad4d0f35b43b45ffb261f62eff496964",
+        "height": 148,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/7e493d5e57bd5735e8e63247260f7134f8597f70",
+        "height": 47,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "The Spider And The Fly",
+        "album": "Nuggets: Original Artyfacts from the First Psychedelic Era, 1965–1968",
+        "spotify_url": "https://open.spotify.com/track/1UhhGaRrR09Xxdx81e6Y0z",
+        "plays": 2
+      }
+    ]
+  },
+  "gary-walker": {
+    "id": "2cPgepQGRYe9Lbw8PA8hEp",
+    "name": "Gary Walker",
+    "spotify_url": "https://open.spotify.com/artist/2cPgepQGRYe9Lbw8PA8hEp",
+    "total_plays": 1,
+    "first_seen": "2026-07-10",
+    "last_seen": "2026-07-10",
+    "genres": [
+      "psychedelic rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b273e9f13a5dda6c3c20bb0f1b06",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e02e9f13a5dda6c3c20bb0f1b06",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00004851e9f13a5dda6c3c20bb0f1b06",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "You Don't Love Me",
+        "album": "Nuggets: Original Artyfacts from the First Psychedelic Era, 1965–1968",
+        "spotify_url": "https://open.spotify.com/track/7adhvShhxw6WBbFk0LCdf3",
+        "plays": 1
+      }
+    ]
+  },
+  "the-equals": {
+    "id": "0l7TxYWNUtEgWocjz8IaOt",
+    "name": "The Equals",
+    "spotify_url": "https://open.spotify.com/artist/0l7TxYWNUtEgWocjz8IaOt",
+    "total_plays": 1,
+    "first_seen": "2026-07-10",
+    "last_seen": "2026-07-10",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebd562297fbc1cc69abcd0bef6",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174d562297fbc1cc69abcd0bef6",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178d562297fbc1cc69abcd0bef6",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Baby, Come Back (2026 Remaster)",
+        "album": "Nuggets: Original Artyfacts from the First Psychedelic Era, 1965–1968",
+        "spotify_url": "https://open.spotify.com/track/5NT6LQSuGMV8GKZkA5lyja",
+        "plays": 1
+      }
+    ]
+  },
+  "the-squires": {
+    "id": "0gKywfovGU7oZLYRh1XGON",
+    "name": "The Squires",
+    "spotify_url": "https://open.spotify.com/artist/0gKywfovGU7oZLYRh1XGON",
+    "total_plays": 2,
+    "first_seen": "2026-07-09",
+    "last_seen": "2026-07-09",
+    "genres": [
+      "garage rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b273dbf0685b1f16c9e6d560d83e",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e02dbf0685b1f16c9e6d560d83e",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00004851dbf0685b1f16c9e6d560d83e",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Pieces",
+        "album": "Nuggets: Original Artyfacts from the First Psychedelic Era, 1965–1968",
+        "spotify_url": "https://open.spotify.com/track/5C43YE0PW1oVQaMB40mgIC",
+        "plays": 2
+      }
+    ]
+  },
+  "the-golden-cups": {
+    "id": "1ugjd9v0PsqxOuoni63PCC",
+    "name": "The Golden Cups",
+    "spotify_url": "https://open.spotify.com/artist/1ugjd9v0PsqxOuoni63PCC",
+    "total_plays": 2,
+    "first_seen": "2026-07-09",
+    "last_seen": "2026-07-09",
+    "genres": [
+      "kayōkyoku",
+      "enka",
+      "garage rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b27306fd6c2c5c1f29821b41b8e5",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e0206fd6c2c5c1f29821b41b8e5",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000485106fd6c2c5c1f29821b41b8e5",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "This Bad Girl",
+        "album": "Nuggets: Original Artyfacts from the First Psychedelic Era, 1965–1968",
+        "spotify_url": "https://open.spotify.com/track/4Koi9Ocbj9ySCJIDN3ZhGM",
+        "plays": 2
+      }
+    ]
+  },
+  "the-open-mind": {
+    "id": "2dvvGdLX5oPd1Dx7T6cNFC",
+    "name": "The Open Mind",
+    "spotify_url": "https://open.spotify.com/artist/2dvvGdLX5oPd1Dx7T6cNFC",
+    "total_plays": 3,
+    "first_seen": "2026-07-09",
+    "last_seen": "2026-07-09",
+    "genres": [
+      "acid rock",
+      "psychedelic rock",
+      "proto-punk",
+      "garage rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b2734fed088464b110fe8356857a",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e024fed088464b110fe8356857a",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d000048514fed088464b110fe8356857a",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Magic Potion (Stereo Mix 2026)",
+        "album": "Nuggets: Original Artyfacts from the First Psychedelic Era, 1965–1968",
+        "spotify_url": "https://open.spotify.com/track/5wxLDMQFDn2wdA3mlu7iFv",
+        "plays": 3
+      }
+    ]
+  },
+  "linda-ronstadt": {
+    "id": "1sXbwvCQLGZnaH0Jp2HTVc",
+    "name": "Linda Ronstadt",
+    "spotify_url": "https://open.spotify.com/artist/1sXbwvCQLGZnaH0Jp2HTVc",
+    "total_plays": 3,
+    "first_seen": "2026-07-08",
+    "last_seen": "2026-07-08",
+    "genres": [
+      "country rock",
+      "mariachi"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb7e0b6e9db0b1bf2f62a81638",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051747e0b6e9db0b1bf2f62a81638",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1787e0b6e9db0b1bf2f62a81638",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Faithless Love",
+        "album": "Heart Like A Wheel",
+        "spotify_url": "https://open.spotify.com/track/3zDSKru7tGt3p3jHKJPiH5",
+        "plays": 1
+      },
+      {
+        "name": "It Doesn't Matter Anymore",
+        "album": "Heart Like A Wheel",
+        "spotify_url": "https://open.spotify.com/track/3tWBLzt1QY9A9brUfWWEPO",
+        "plays": 1
+      },
+      {
+        "name": "You're No Good",
+        "album": "Heart Like A Wheel",
+        "spotify_url": "https://open.spotify.com/track/23DZLSxCK6kM8FF2RlzKDl",
+        "plays": 1
+      }
+    ]
+  },
+  "melvins": {
+    "id": "6aVjo0xHSiuW5hkasoYSR3",
+    "name": "Melvins",
+    "spotify_url": "https://open.spotify.com/artist/6aVjo0xHSiuW5hkasoYSR3",
+    "total_plays": 2,
+    "first_seen": "2026-07-08",
+    "last_seen": "2026-07-08",
+    "genres": [
+      "sludge metal",
+      "grunge",
+      "stoner metal",
+      "stoner rock",
+      "doom metal",
+      "noise rock",
+      "drone metal",
+      "post-grunge"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb7c310dd6a7f9b800b2fb8728",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051747c310dd6a7f9b800b2fb8728",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1787c310dd6a7f9b800b2fb8728",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Honey Bucket",
+        "album": "Houdini",
+        "spotify_url": "https://open.spotify.com/track/5oABn2E9jiDrmhDdiNWbKS",
+        "plays": 1
+      },
+      {
+        "name": "Revolve",
+        "album": "Stoner Witch",
+        "spotify_url": "https://open.spotify.com/track/09hctAvAEUpm7MKl1RBK2j",
+        "plays": 1
+      }
+    ]
+  },
+  "marcy-playground": {
+    "id": "7AQzXO3NPNQsI7oNu5rC3r",
+    "name": "Marcy Playground",
+    "spotify_url": "https://open.spotify.com/artist/7AQzXO3NPNQsI7oNu5rC3r",
+    "total_plays": 1,
+    "first_seen": "2026-07-08",
+    "last_seen": "2026-07-08",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebc12f77e7db22099b40c86f74",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174c12f77e7db22099b40c86f74",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178c12f77e7db22099b40c86f74",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Poppies",
+        "album": "Marcy Playground",
+        "spotify_url": "https://open.spotify.com/track/2U4FtN8jDqDKSzGpVC1iLf",
+        "plays": 1
+      }
+    ]
+  },
+  "violent-femmes": {
+    "id": "0rpMdBzQXf7aYRnu5fDBJy",
+    "name": "Violent Femmes",
+    "spotify_url": "https://open.spotify.com/artist/0rpMdBzQXf7aYRnu5fDBJy",
+    "total_plays": 1,
+    "first_seen": "2026-07-08",
+    "last_seen": "2026-07-08",
+    "genres": [
+      "folk punk"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebb3c3b161756ef6f9c9afef38",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174b3c3b161756ef6f9c9afef38",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178b3c3b161756ef6f9c9afef38",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Please Do Not Go",
+        "album": "Violent Femmes",
+        "spotify_url": "https://open.spotify.com/track/4sxVoAf7uvxCSgTCRNDohP",
+        "plays": 1
+      },
+      {
+        "name": "Blister In The Sun",
+        "album": "Violent Femmes",
+        "spotify_url": "https://open.spotify.com/track/7jIAttgQTpLDoNtykIQXjH",
+        "plays": 2
+      },
+      {
+        "name": "Gone Daddy Gone",
+        "album": "Violent Femmes",
+        "spotify_url": "https://open.spotify.com/track/7mVoBnU3mxV5Q6n4DmOv6K",
+        "plays": 2
+      },
+      {
+        "name": "Gimme The Car - 1983 Rough Trade UK Single",
+        "album": "Violent Femmes",
+        "spotify_url": "https://open.spotify.com/track/0qRA1swyb72C7RzqN2BIBD",
+        "plays": 2
+      },
+      {
+        "name": "Never Tell",
+        "album": "Hallowed Ground",
+        "spotify_url": "https://open.spotify.com/track/1OdicOW5M1kZxlT5tE3nNe",
+        "plays": 2
+      },
+      {
+        "name": "To The Kill",
+        "album": "Violent Femmes",
+        "spotify_url": "https://open.spotify.com/track/2d8J4UoiJu4R64s16udj6r",
+        "plays": 2
+      },
+      {
+        "name": "Kiss Off",
+        "album": "Violent Femmes",
+        "spotify_url": "https://open.spotify.com/track/5fj76kVAnqRKKhAw5d06jj",
+        "plays": 1
+      },
+      {
+        "name": "Add It Up",
+        "album": "Violent Femmes",
+        "spotify_url": "https://open.spotify.com/track/61QW3AcU1jm5ttPOn8eZhn",
+        "plays": 1
+      },
+      {
+        "name": "Prove My Love",
+        "album": "Violent Femmes",
+        "spotify_url": "https://open.spotify.com/track/2vU1H8XKsK6bUff94gTorE",
+        "plays": 1
+      },
+      {
+        "name": "Ugly - 1983 Rough Trade UK Single",
+        "album": "Violent Femmes",
+        "spotify_url": "https://open.spotify.com/track/1GMashJIJNJ1BlaAL9XRWb",
+        "plays": 1
+      },
+      {
+        "name": "Promise",
+        "album": "Violent Femmes",
+        "spotify_url": "https://open.spotify.com/track/4qy72YGWzFgO7skuy7MlcB",
+        "plays": 1
+      },
+      {
+        "name": "Hallowed Ground",
+        "album": "Hallowed Ground",
+        "spotify_url": "https://open.spotify.com/track/5tgeZkbexopRqBOU8vKc0s",
+        "plays": 1
+      }
+    ]
+  },
+  "oscar-peterson-trio": {
+    "id": "0ldU0QJm31y0d6f57R1G2A",
+    "name": "Oscar Peterson Trio",
+    "spotify_url": "https://open.spotify.com/artist/0ldU0QJm31y0d6f57R1G2A",
+    "total_plays": 21,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "genres": [
+      "jazz",
+      "cool jazz",
+      "jazz ballads",
+      "bebop",
+      "hard bop"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b273947b5cc535d76394a2d98e37",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e02947b5cc535d76394a2d98e37",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00004851947b5cc535d76394a2d98e37",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Autumn Leaves - Live",
+        "album": "At Baker’s Keyboard Lounge: The Complete Recordings",
+        "spotify_url": "https://open.spotify.com/track/7c06pUDtjmLMkMQGYtrkrZ",
+        "plays": 2
+      },
+      {
+        "name": "Let There Be Love - Live",
+        "album": "At Baker’s Keyboard Lounge: The Complete Recordings",
+        "spotify_url": "https://open.spotify.com/track/6QV4rnmKCHo8EJccoQHu1q",
+        "plays": 1
+      },
+      {
+        "name": "I Remember Clifford - Live",
+        "album": "At Baker’s Keyboard Lounge: The Complete Recordings",
+        "spotify_url": "https://open.spotify.com/track/0U1Cr8T8YjYKGJyrOe25Mu",
+        "plays": 1
+      },
+      {
+        "name": "S'Posin' - Live",
+        "album": "At Baker’s Keyboard Lounge: The Complete Recordings",
+        "spotify_url": "https://open.spotify.com/track/4e3xGJE8MC1TMSnXTDKgEW",
+        "plays": 1
+      },
+      {
+        "name": "Softly, As In A Morning Sunrise - Live",
+        "album": "At Baker’s Keyboard Lounge: The Complete Recordings",
+        "spotify_url": "https://open.spotify.com/track/6I3xLdF6mUh9HR65TL5bQG",
+        "plays": 1
+      },
+      {
+        "name": "Yesterdays - Live",
+        "album": "At Baker’s Keyboard Lounge: The Complete Recordings",
+        "spotify_url": "https://open.spotify.com/track/7LAGXYvLYDCFiFZROy7Hmt",
+        "plays": 1
+      },
+      {
+        "name": "Liza (All The Clouds'll Roll Away) - Live",
+        "album": "At Baker’s Keyboard Lounge: The Complete Recordings",
+        "spotify_url": "https://open.spotify.com/track/1pflPHVbPn3AZxvKrAD1NV",
+        "plays": 1
+      },
+      {
+        "name": "I Didn't Know What Time It Was - Live",
+        "album": "At Baker’s Keyboard Lounge: The Complete Recordings",
+        "spotify_url": "https://open.spotify.com/track/2t8sapjMnVwQCAF5UXr2Td",
+        "plays": 1
+      },
+      {
+        "name": "Where Do I Go From Here? - Live",
+        "album": "At Baker’s Keyboard Lounge: The Complete Recordings",
+        "spotify_url": "https://open.spotify.com/track/7fysZVjvcawvoecqwnkOL5",
+        "plays": 1
+      },
+      {
+        "name": "Politics And Poker - Live",
+        "album": "At Baker’s Keyboard Lounge: The Complete Recordings",
+        "spotify_url": "https://open.spotify.com/track/5VlnQ4asgKvnfYaK86uE4W",
+        "plays": 1
+      },
+      {
+        "name": "Dancing On The Ceiling - Live",
+        "album": "At Baker’s Keyboard Lounge: The Complete Recordings",
+        "spotify_url": "https://open.spotify.com/track/3RroOQ5ldOUutoSghqVwi3",
+        "plays": 1
+      },
+      {
+        "name": "Closing/Blues For Big Scotia - Live",
+        "album": "At Baker’s Keyboard Lounge: The Complete Recordings",
+        "spotify_url": "https://open.spotify.com/track/5RdOv8PtZhq3VDTDPWhtyt",
+        "plays": 1
+      },
+      {
+        "name": "I Love You - Live",
+        "album": "At Baker’s Keyboard Lounge: The Complete Recordings",
+        "spotify_url": "https://open.spotify.com/track/3Z659kBvE4gWtfO92pYIB3",
+        "plays": 1
+      },
+      {
+        "name": "Chicago - Live",
+        "album": "At Baker’s Keyboard Lounge: The Complete Recordings",
+        "spotify_url": "https://open.spotify.com/track/6feWl4vpvteSMzBEisigAY",
+        "plays": 1
+      },
+      {
+        "name": "Ill Wind - Live",
+        "album": "At Baker’s Keyboard Lounge: The Complete Recordings",
+        "spotify_url": "https://open.spotify.com/track/463LhmQqIxEeWuE0IxWGIw",
+        "plays": 1
+      },
+      {
+        "name": "The Touch Of Your Lips - Live",
+        "album": "At Baker’s Keyboard Lounge: The Complete Recordings",
+        "spotify_url": "https://open.spotify.com/track/5zdgfTEAAMe5H47RIQ2D67",
+        "plays": 1
+      },
+      {
+        "name": "Closing/Billy Boy - Live",
+        "album": "At Baker’s Keyboard Lounge: The Complete Recordings",
+        "spotify_url": "https://open.spotify.com/track/4bAFXwXRXSiS9geep3AiPp",
+        "plays": 1
+      },
+      {
+        "name": "Whisper Not - Live",
+        "album": "At Baker’s Keyboard Lounge: The Complete Recordings",
+        "spotify_url": "https://open.spotify.com/track/3qtymlLsRxOM1ICoyG0IZq",
+        "plays": 1
+      },
+      {
+        "name": "Confirmation - Live",
+        "album": "At Baker’s Keyboard Lounge: The Complete Recordings",
+        "spotify_url": "https://open.spotify.com/track/5IgwxfVBtoWvHgi9746Pst",
+        "plays": 1
+      },
+      {
+        "name": "Django - Live",
+        "album": "At Baker’s Keyboard Lounge: The Complete Recordings",
+        "spotify_url": "https://open.spotify.com/track/6ZOuTlKDz0aosNiGVCQBW3",
+        "plays": 1
+      },
+      {
+        "name": "Stardust",
+        "album": "The President Plays With The Oscar Peterson Trio",
+        "spotify_url": "https://open.spotify.com/track/5gHPj9g3L9e2cu81LZUc5F",
+        "plays": 2
+      },
+      {
+        "name": "C Jam Blues",
+        "album": "Night Train (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/4aThNuFztJ15YremppiZUJ",
+        "plays": 1
+      },
+      {
+        "name": "Night Train",
+        "album": "Night Train (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/4fGgxzrQRyBTMcxtXzXQZj",
+        "plays": 1
+      },
+      {
+        "name": "Days Of Wine And Roses",
+        "album": "Oscar Peterson: Hits & Rarities",
+        "spotify_url": "https://open.spotify.com/track/4gsNHQt1OiVlGHDarFocYP",
+        "plays": 1
+      },
+      {
+        "name": "Quiet Nights Of Quiet Stars (Corcovado)",
+        "album": "Work From Home with Oscar Peterson",
+        "spotify_url": "https://open.spotify.com/track/3lTyliusZgm29TXJyfFO3B",
+        "plays": 1
+      },
+      {
+        "name": "I Got It Bad And That Ain't Good",
+        "album": "Night Train (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/4ol2UyMTiklHVujAWg02nE",
+        "plays": 1
+      },
+      {
+        "name": "There Will Never Be Another You",
+        "album": "The President Plays With The Oscar Peterson Trio",
+        "spotify_url": "https://open.spotify.com/track/6oSm3mBWFxJHEnjE2IqhmA",
+        "plays": 1
+      },
+      {
+        "name": "Georgia On My Mind",
+        "album": "Night Train (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/7p6ZeiNtEHJKmc4YWBZELG",
+        "plays": 1
+      },
+      {
+        "name": "I Can't Get Started",
+        "album": "The President Plays With The Oscar Peterson Trio",
+        "spotify_url": "https://open.spotify.com/track/0kC4Rrdb4B4hAgt3PMoARe",
+        "plays": 1
+      },
+      {
+        "name": "Just In Time",
+        "album": "A Jazz Portrait Of Frank Sinatra",
+        "spotify_url": "https://open.spotify.com/track/3h4ZP7VmfLJIu45pIlVOri",
+        "plays": 1
+      },
+      {
+        "name": "Volare",
+        "album": "Night Train (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/5dIvbV5t3zSKYp1W1kr77v",
+        "plays": 1
+      },
+      {
+        "name": "My One And Only Love",
+        "album": "Oscar Peterson For Lovers (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/7Gf896pRsrMkQpQTkqMI09",
         "plays": 1
       }
     ]
@@ -48084,104 +49990,6 @@
       }
     ]
   },
-  "violent-femmes": {
-    "id": "0rpMdBzQXf7aYRnu5fDBJy",
-    "name": "Violent Femmes",
-    "spotify_url": "https://open.spotify.com/artist/0rpMdBzQXf7aYRnu5fDBJy",
-    "total_plays": 16,
-    "first_seen": "",
-    "last_seen": "",
-    "genres": [
-      "acoustic punk",
-      "alternative rock",
-      "punk"
-    ],
-    "images": [
-      {
-        "height": 640,
-        "url": "https://i.scdn.co/image/ab6761610000e5ebb3c3b161756ef6f9c9afef38",
-        "width": 640
-      },
-      {
-        "height": 320,
-        "url": "https://i.scdn.co/image/ab67616100005174b3c3b161756ef6f9c9afef38",
-        "width": 320
-      },
-      {
-        "height": 160,
-        "url": "https://i.scdn.co/image/ab6761610000f178b3c3b161756ef6f9c9afef38",
-        "width": 160
-      }
-    ],
-    "top_tracks": [
-      {
-        "name": "Blister In The Sun",
-        "album": "Violent Femmes",
-        "spotify_url": "https://open.spotify.com/track/7jIAttgQTpLDoNtykIQXjH",
-        "plays": 2
-      },
-      {
-        "name": "Gone Daddy Gone",
-        "album": "Violent Femmes",
-        "spotify_url": "https://open.spotify.com/track/7mVoBnU3mxV5Q6n4DmOv6K",
-        "plays": 2
-      },
-      {
-        "name": "Gimme The Car - 1983 Rough Trade UK Single",
-        "album": "Violent Femmes",
-        "spotify_url": "https://open.spotify.com/track/0qRA1swyb72C7RzqN2BIBD",
-        "plays": 2
-      },
-      {
-        "name": "Never Tell",
-        "album": "Hallowed Ground",
-        "spotify_url": "https://open.spotify.com/track/1OdicOW5M1kZxlT5tE3nNe",
-        "plays": 2
-      },
-      {
-        "name": "To The Kill",
-        "album": "Violent Femmes",
-        "spotify_url": "https://open.spotify.com/track/2d8J4UoiJu4R64s16udj6r",
-        "plays": 2
-      },
-      {
-        "name": "Kiss Off",
-        "album": "Violent Femmes",
-        "spotify_url": "https://open.spotify.com/track/5fj76kVAnqRKKhAw5d06jj",
-        "plays": 1
-      },
-      {
-        "name": "Add It Up",
-        "album": "Violent Femmes",
-        "spotify_url": "https://open.spotify.com/track/61QW3AcU1jm5ttPOn8eZhn",
-        "plays": 1
-      },
-      {
-        "name": "Prove My Love",
-        "album": "Violent Femmes",
-        "spotify_url": "https://open.spotify.com/track/2vU1H8XKsK6bUff94gTorE",
-        "plays": 1
-      },
-      {
-        "name": "Ugly - 1983 Rough Trade UK Single",
-        "album": "Violent Femmes",
-        "spotify_url": "https://open.spotify.com/track/1GMashJIJNJ1BlaAL9XRWb",
-        "plays": 1
-      },
-      {
-        "name": "Promise",
-        "album": "Violent Femmes",
-        "spotify_url": "https://open.spotify.com/track/4qy72YGWzFgO7skuy7MlcB",
-        "plays": 1
-      },
-      {
-        "name": "Hallowed Ground",
-        "album": "Hallowed Ground",
-        "spotify_url": "https://open.spotify.com/track/5tgeZkbexopRqBOU8vKc0s",
-        "plays": 1
-      }
-    ]
-  },
   "junior-mance": {
     "id": "1KTUh4AYegM2fSdac5xqPb",
     "name": "Junior Mance",
@@ -49469,111 +51277,6 @@
       }
     ]
   },
-  "oscar-peterson-trio": {
-    "id": "0ldU0QJm31y0d6f57R1G2A",
-    "name": "Oscar Peterson Trio",
-    "spotify_url": "https://open.spotify.com/artist/0ldU0QJm31y0d6f57R1G2A",
-    "total_plays": 13,
-    "first_seen": "",
-    "last_seen": "",
-    "genres": [
-      "bebop",
-      "contemporary post-bop",
-      "jazz",
-      "jazz trio"
-    ],
-    "images": [
-      {
-        "height": 640,
-        "url": "https://i.scdn.co/image/ab67616d0000b273947b5cc535d76394a2d98e37",
-        "width": 640
-      },
-      {
-        "height": 300,
-        "url": "https://i.scdn.co/image/ab67616d00001e02947b5cc535d76394a2d98e37",
-        "width": 300
-      },
-      {
-        "height": 64,
-        "url": "https://i.scdn.co/image/ab67616d00004851947b5cc535d76394a2d98e37",
-        "width": 64
-      }
-    ],
-    "top_tracks": [
-      {
-        "name": "Stardust",
-        "album": "The President Plays With The Oscar Peterson Trio",
-        "spotify_url": "https://open.spotify.com/track/5gHPj9g3L9e2cu81LZUc5F",
-        "plays": 2
-      },
-      {
-        "name": "C Jam Blues",
-        "album": "Night Train (Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/4aThNuFztJ15YremppiZUJ",
-        "plays": 1
-      },
-      {
-        "name": "Night Train",
-        "album": "Night Train (Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/4fGgxzrQRyBTMcxtXzXQZj",
-        "plays": 1
-      },
-      {
-        "name": "Days Of Wine And Roses",
-        "album": "Oscar Peterson: Hits & Rarities",
-        "spotify_url": "https://open.spotify.com/track/4gsNHQt1OiVlGHDarFocYP",
-        "plays": 1
-      },
-      {
-        "name": "Quiet Nights Of Quiet Stars (Corcovado)",
-        "album": "Work From Home with Oscar Peterson",
-        "spotify_url": "https://open.spotify.com/track/3lTyliusZgm29TXJyfFO3B",
-        "plays": 1
-      },
-      {
-        "name": "I Got It Bad And That Ain't Good",
-        "album": "Night Train (Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/4ol2UyMTiklHVujAWg02nE",
-        "plays": 1
-      },
-      {
-        "name": "There Will Never Be Another You",
-        "album": "The President Plays With The Oscar Peterson Trio",
-        "spotify_url": "https://open.spotify.com/track/6oSm3mBWFxJHEnjE2IqhmA",
-        "plays": 1
-      },
-      {
-        "name": "Georgia On My Mind",
-        "album": "Night Train (Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/7p6ZeiNtEHJKmc4YWBZELG",
-        "plays": 1
-      },
-      {
-        "name": "I Can't Get Started",
-        "album": "The President Plays With The Oscar Peterson Trio",
-        "spotify_url": "https://open.spotify.com/track/0kC4Rrdb4B4hAgt3PMoARe",
-        "plays": 1
-      },
-      {
-        "name": "Just In Time",
-        "album": "A Jazz Portrait Of Frank Sinatra",
-        "spotify_url": "https://open.spotify.com/track/3h4ZP7VmfLJIu45pIlVOri",
-        "plays": 1
-      },
-      {
-        "name": "Volare",
-        "album": "Night Train (Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/5dIvbV5t3zSKYp1W1kr77v",
-        "plays": 1
-      },
-      {
-        "name": "My One And Only Love",
-        "album": "Oscar Peterson For Lovers (Deluxe Edition)",
-        "spotify_url": "https://open.spotify.com/track/7Gf896pRsrMkQpQTkqMI09",
-        "plays": 1
-      }
-    ]
-  },
   "10-ft-ganja-plant": {
     "id": "0lsuCH8qG9UM8BihdL1Vsc",
     "name": "10 Ft. Ganja Plant",
@@ -50026,99 +51729,6 @@
         "name": "Knife In A Pocket",
         "album": "Moon, Wisdom & Slackness",
         "spotify_url": "https://open.spotify.com/track/553AetzeEUxKEqZOyMyjLN",
-        "plays": 1
-      }
-    ]
-  },
-  "gang-starr": {
-    "id": "5cMgGlA1xGyeAB2ctYlRdZ",
-    "name": "Gang Starr",
-    "spotify_url": "https://open.spotify.com/artist/5cMgGlA1xGyeAB2ctYlRdZ",
-    "total_plays": 14,
-    "first_seen": "",
-    "last_seen": "",
-    "genres": [
-      "alternative hip hop",
-      "conscious hip hop",
-      "east coast hip hop",
-      "hip hop"
-    ],
-    "images": [
-      {
-        "height": 640,
-        "url": "https://i.scdn.co/image/ab6761610000e5eb85ee94998a936ef47231db39",
-        "width": 640
-      },
-      {
-        "height": 320,
-        "url": "https://i.scdn.co/image/ab6761610000517485ee94998a936ef47231db39",
-        "width": 320
-      },
-      {
-        "height": 160,
-        "url": "https://i.scdn.co/image/ab6761610000f17885ee94998a936ef47231db39",
-        "width": 160
-      }
-    ],
-    "top_tracks": [
-      {
-        "name": "What I'm Here 4",
-        "album": "Moment Of Truth",
-        "spotify_url": "https://open.spotify.com/track/6NjXLhejj5dVjTyeU8SbVM",
-        "plays": 3
-      },
-      {
-        "name": "Execution Of A Chump",
-        "album": "Step In The Arena",
-        "spotify_url": "https://open.spotify.com/track/2GLQCyOGdqpDbR9RszgKaL",
-        "plays": 2
-      },
-      {
-        "name": "Speak Ya Clout",
-        "album": "Hard To Earn",
-        "spotify_url": "https://open.spotify.com/track/2aVQ1EUT7IsYFEWDc5muqR",
-        "plays": 2
-      },
-      {
-        "name": "Work",
-        "album": "Moment Of Truth",
-        "spotify_url": "https://open.spotify.com/track/1EiLrPd8JMTcQUr1aLEUKi",
-        "plays": 1
-      },
-      {
-        "name": "Now You're Mine",
-        "album": "Hard To Earn",
-        "spotify_url": "https://open.spotify.com/track/0qa61a11y8VvXD55YqLMMc",
-        "plays": 1
-      },
-      {
-        "name": "Full Clip",
-        "album": "Full Clip: A Decade Of Gang Starr",
-        "spotify_url": "https://open.spotify.com/track/30oTS7bm0aH3p7lqjEIu8q",
-        "plays": 1
-      },
-      {
-        "name": "Code Of The Streets",
-        "album": "Hard To Earn",
-        "spotify_url": "https://open.spotify.com/track/2mLjLAlChZXZpIZfyPF8Le",
-        "plays": 1
-      },
-      {
-        "name": "Mass Appeal",
-        "album": "Hard To Earn",
-        "spotify_url": "https://open.spotify.com/track/3lGBvPUgO7MJltUnBlOpe9",
-        "plays": 1
-      },
-      {
-        "name": "Battle",
-        "album": "8 Mile (Music From And Inspired By The Motion Picture)",
-        "spotify_url": "https://open.spotify.com/track/4Ix8BBZ5b2V61R2kABW4Hy",
-        "plays": 1
-      },
-      {
-        "name": "Bad Name",
-        "album": "One Of The Best Yet",
-        "spotify_url": "https://open.spotify.com/track/544S44LQ1kkDoQLoEkxYNx",
         "plays": 1
       }
     ]
@@ -58733,72 +60343,6 @@
         "name": "Summertime",
         "album": "All Kinds Of Weather",
         "spotify_url": "https://open.spotify.com/track/2LbZAHc70WVU9H7Zp850OL",
-        "plays": 1
-      }
-    ]
-  },
-  "van-morrison": {
-    "id": "44NX2ffIYHr6D4n7RaZF7A",
-    "name": "Van Morrison",
-    "spotify_url": "https://open.spotify.com/artist/44NX2ffIYHr6D4n7RaZF7A",
-    "total_plays": 8,
-    "first_seen": "",
-    "last_seen": "",
-    "genres": [
-      "classic rock",
-      "folk",
-      "folk rock",
-      "mellow gold",
-      "rock",
-      "singer-songwriter",
-      "soft rock"
-    ],
-    "images": [
-      {
-        "height": 640,
-        "url": "https://i.scdn.co/image/ab6761610000e5eb5885f6c2d3ecf8e08bdfa472",
-        "width": 640
-      },
-      {
-        "height": 320,
-        "url": "https://i.scdn.co/image/ab676161000051745885f6c2d3ecf8e08bdfa472",
-        "width": 320
-      },
-      {
-        "height": 160,
-        "url": "https://i.scdn.co/image/ab6761610000f1785885f6c2d3ecf8e08bdfa472",
-        "width": 160
-      }
-    ],
-    "top_tracks": [
-      {
-        "name": "Domino - 1999 Remaster",
-        "album": "His Band and the Street Choir",
-        "spotify_url": "https://open.spotify.com/track/0eti3iRdEgUxwcIcN2N9DY",
-        "plays": 2
-      },
-      {
-        "name": "Crazy Love - 2013 Remaster",
-        "album": "Moondance (Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/2hjAc6x8EoSLhGxRNg8KEw",
-        "plays": 2
-      },
-      {
-        "name": "Into the Mystic - 2013 Remaster",
-        "album": "Moondance",
-        "spotify_url": "https://open.spotify.com/track/3lh3iiiJeiBXHSZw6u0kh6",
-        "plays": 2
-      },
-      {
-        "name": "Wild Night",
-        "album": "The Essential Van Morrison",
-        "spotify_url": "https://open.spotify.com/track/1A7hIo1C8jacIQ5ZiCjc8g",
-        "plays": 1
-      },
-      {
-        "name": "Brown Eyed Girl",
-        "album": "Blowin' Your Mind!",
-        "spotify_url": "https://open.spotify.com/track/3yrSvpt2l1xhsV9Em88Pul",
         "plays": 1
       }
     ]
