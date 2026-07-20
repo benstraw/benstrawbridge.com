@@ -5,8 +5,8 @@
   "week_num": 29,
   "date_start": "2026-07-13",
   "date_end": "2026-07-19",
-  "total_plays": 21,
-  "unique_artists": 1,
+  "total_plays": 89,
+  "unique_artists": 22,
   "topArtistName": "Oscar Peterson Trio",
   "topArtistImages": [
     {
@@ -28,30 +28,50 @@
   "top_genres": [
     {
       "name": "jazz",
-      "plays": 21
-    },
-    {
-      "name": "cool jazz",
-      "plays": 21
-    },
-    {
-      "name": "jazz ballads",
-      "plays": 21
-    },
-    {
-      "name": "bebop",
-      "plays": 21
+      "plays": 76
     },
     {
       "name": "hard bop",
-      "plays": 21
+      "plays": 72
+    },
+    {
+      "name": "cool jazz",
+      "plays": 67
+    },
+    {
+      "name": "bebop",
+      "plays": 62
+    },
+    {
+      "name": "jazz ballads",
+      "plays": 58
+    },
+    {
+      "name": "funk",
+      "plays": 11
+    },
+    {
+      "name": "funk rock",
+      "plays": 9
+    },
+    {
+      "name": "psychedelic rock",
+      "plays": 9
+    },
+    {
+      "name": "free jazz",
+      "plays": 3
+    },
+    {
+      "name": "afro-cuban jazz",
+      "plays": 3
     }
   ],
   "top_artists": [
     {
       "slug": "oscar-peterson-trio",
       "name": "Oscar Peterson Trio",
-      "plays": 21,
+      "plays": 31,
       "images": [
         {
           "url": "https://i.scdn.co/image/ab67616d0000b273947b5cc535d76394a2d98e37",
@@ -69,9 +89,536 @@
           "width": 64
         }
       ]
+    },
+    {
+      "slug": "tommy-flanagan-trio",
+      "name": "Tommy Flanagan Trio",
+      "plays": 10,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000b273e64667b70edf1233bbc498b3",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00001e02e64667b70edf1233bbc498b3",
+          "height": 300,
+          "width": 300
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00004851e64667b70edf1233bbc498b3",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "funkadelic",
+      "name": "Funkadelic",
+      "plays": 9,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/dfd7b11d97bc9159e9d085c5fd925b70cd192178",
+          "height": 740,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/62458dad056210b6511d375b8a590ac52d551d3f",
+          "height": 474,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/6aeb0becd14d0a37bb63a4885ac6dc69267f17d5",
+          "height": 148,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/cde417911c59c87190b352f549f76f99d8bdcb18",
+          "height": 47,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "ray-bryant-trio",
+      "name": "Ray Bryant Trio",
+      "plays": 6,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000b2736c59e931889428c321466ef0",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00001e026c59e931889428c321466ef0",
+          "height": 300,
+          "width": 300
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d000048516c59e931889428c321466ef0",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "bobby-timmons",
+      "name": "Bobby Timmons",
+      "plays": 5,
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebb724a6d272499aaf94f8bced",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174b724a6d272499aaf94f8bced",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178b724a6d272499aaf94f8bced",
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "john-coltrane-quartet",
+      "name": "John Coltrane Quartet",
+      "plays": 3,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000b273a3d4884d3433efed2c4a0563",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00001e02a3d4884d3433efed2c4a0563",
+          "height": 300,
+          "width": 300
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00004851a3d4884d3433efed2c4a0563",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "gerry-mulligan-sextet",
+      "name": "Gerry Mulligan Sextet",
+      "plays": 3,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000b2735b49e34e89bc550a8dfd9f2b",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00001e025b49e34e89bc550a8dfd9f2b",
+          "height": 300,
+          "width": 300
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d000048515b49e34e89bc550a8dfd9f2b",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "hampton-hawes-trio",
+      "name": "Hampton Hawes Trio",
+      "plays": 3,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000b273622281583f5aeb3e23b4b026",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00001e02622281583f5aeb3e23b4b026",
+          "height": 300,
+          "width": 300
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00004851622281583f5aeb3e23b4b026",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "kenny-dorham",
+      "name": "Kenny Dorham",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6772690000c46c29b22dfe4ecdefd1f5a6b37a",
+          "height": 1000,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6772690000dd2229b22dfe4ecdefd1f5a6b37a",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6772690000bac329b22dfe4ecdefd1f5a6b37a",
+          "height": 200,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67726900008f7429b22dfe4ecdefd1f5a6b37a",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "sonny-clark-trio",
+      "name": "Sonny Clark Trio",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000b273952879e2607246808a5fb2d2",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00001e02952879e2607246808a5fb2d2",
+          "height": 300,
+          "width": 300
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00004851952879e2607246808a5fb2d2",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "kenny-drew",
+      "name": "Kenny Drew",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6772690000c46c2c57d09bd4ce9955e9f31476",
+          "height": 1000,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6772690000dd222c57d09bd4ce9955e9f31476",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6772690000bac32c57d09bd4ce9955e9f31476",
+          "height": 200,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67726900008f742c57d09bd4ce9955e9f31476",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "billy-taylor",
+      "name": "Billy Taylor",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/14430ae0a3c9bc2e9a2e25617f6d1f8503e93e21",
+          "height": 703,
+          "width": 664
+        },
+        {
+          "url": "https://i.scdn.co/image/24984c8dc13afe8af90eee792c8deef955ac7132",
+          "height": 678,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/87b8383927367e34870128c82eccc47476f249cb",
+          "height": 212,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/2a9b9ad33bc1e14d37a88095e64614703cac1f95",
+          "height": 68,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "tommy-flanagan",
+      "name": "Tommy Flanagan",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/8502de1776934833e9bdfc8d080bb6eb1c14f5c5",
+          "height": 1058,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/31f1c746ceb3ed6b0762801064c3c0ce354340dc",
+          "height": 677,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/a59da87218b4693e2336d1af63764eddf7581124",
+          "height": 212,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/dde98f2f547ae7e03643fd29e26ecd6d6e5c325f",
+          "height": 68,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "cymande",
+      "name": "Cymande",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb938fabe2c9a04b946605308d",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174938fabe2c9a04b946605308d",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178938fabe2c9a04b946605308d",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "camille-yarbrough",
+      "name": "Camille Yarbrough",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000b27304f172c4cdedfa6f813b0c57",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00001e0204f172c4cdedfa6f813b0c57",
+          "height": 300,
+          "width": 300
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000485104f172c4cdedfa6f813b0c57",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "rufus-chaka-khan",
+      "name": "Rufus & Chaka Khan",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/d1995c2dfdf8c3ec007a1e0abb032a6c8b9d2616",
+          "height": 682,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/93fffe82a671c84185baef3f5b1d9bbec9f98456",
+          "height": 437,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/36bbc88dd826671a8858dbab9624e654e26fdf11",
+          "height": 136,
+          "width": 199
+        },
+        {
+          "url": "https://i.scdn.co/image/29f048a889aa560b0924429787c6b03c3c775231",
+          "height": 44,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "king-curtis",
+      "name": "King Curtis",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ea32aa5e50ec26a6ea889d71a33d60e98e168cf8",
+          "height": 1167,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/e6f3bfe7da25da27be801e73a3b9feadc299764a",
+          "height": 747,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/e3b1567265a6af7d612f730ea7b13101886f8622",
+          "height": 233,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/e3ee4af75d6b3a85e6c75e0c584dcc8eaf55c832",
+          "height": 75,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "wes-montgomery-trio",
+      "name": "Wes Montgomery Trio",
+      "plays": 1,
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab67616d0000b27316527ecf2808e6268f431422",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://i.scdn.co/image/ab67616d00001e0216527ecf2808e6268f431422",
+          "width": 300
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/ab67616d0000485116527ecf2808e6268f431422",
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "earl-hines",
+      "name": "Earl Hines",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebcea168ad5944d5848f4d6a34",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174cea168ad5944d5848f4d6a34",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178cea168ad5944d5848f4d6a34",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "zoot-sims",
+      "name": "Zoot Sims",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000b273965cab07549137cd4c73bb0a",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00001e02965cab07549137cd4c73bb0a",
+          "height": 300,
+          "width": 300
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00004851965cab07549137cd4c73bb0a",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "phineas-newborn-jr",
+      "name": "Phineas Newborn Jr.",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000b273c3b77abaa8abe6ff3ba235ec",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00001e02c3b77abaa8abe6ff3ba235ec",
+          "height": 300,
+          "width": 300
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00004851c3b77abaa8abe6ff3ba235ec",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "ray-bryant",
+      "name": "Ray Bryant",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb354cd7878877b1b05eedc61c",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174354cd7878877b1b05eedc61c",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178354cd7878877b1b05eedc61c",
+          "height": 160,
+          "width": 160
+        }
+      ]
     }
   ],
   "top_tracks": [
+    {
+      "name": "Maggot Brain",
+      "artist": "Funkadelic",
+      "artist_slug": "funkadelic",
+      "plays": 2
+    },
+    {
+      "name": "In The Wee Small Hours Of The Morning",
+      "artist": "Gerry Mulligan Sextet",
+      "artist_slug": "gerry-mulligan-sextet",
+      "plays": 2
+    },
+    {
+      "name": "Willow Weep for Me",
+      "artist": "Tommy Flanagan",
+      "artist_slug": "tommy-flanagan",
+      "plays": 2
+    },
+    {
+      "name": "Velvet Moon",
+      "artist": "Tommy Flanagan Trio",
+      "artist_slug": "tommy-flanagan-trio",
+      "plays": 2
+    },
+    {
+      "name": "Let There Be Love - Live",
+      "artist": "Oscar Peterson Trio",
+      "artist_slug": "oscar-peterson-trio",
+      "plays": 2
+    },
     {
       "name": "Autumn Leaves - Live",
       "artist": "Oscar Peterson Trio",
@@ -79,7 +626,355 @@
       "plays": 2
     },
     {
-      "name": "Let There Be Love - Live",
+      "name": "The Message",
+      "artist": "Cymande",
+      "artist_slug": "cymande",
+      "plays": 1
+    },
+    {
+      "name": "Take Yo' Praise",
+      "artist": "Camille Yarbrough",
+      "artist_slug": "camille-yarbrough",
+      "plays": 1
+    },
+    {
+      "name": "Tell Me Something Good",
+      "artist": "Rufus & Chaka Khan",
+      "artist_slug": "rufus-chaka-khan",
+      "plays": 1
+    },
+    {
+      "name": "Standing On The Verge Of Getting It On",
+      "artist": "Funkadelic",
+      "artist_slug": "funkadelic",
+      "plays": 1
+    },
+    {
+      "name": "Memphis Soul Stew",
+      "artist": "King Curtis",
+      "artist_slug": "king-curtis",
+      "plays": 1
+    },
+    {
+      "name": "Wars Of Armageddon",
+      "artist": "Funkadelic",
+      "artist_slug": "funkadelic",
+      "plays": 1
+    },
+    {
+      "name": "Back In Our Minds",
+      "artist": "Funkadelic",
+      "artist_slug": "funkadelic",
+      "plays": 1
+    },
+    {
+      "name": "Super Stupid",
+      "artist": "Funkadelic",
+      "artist_slug": "funkadelic",
+      "plays": 1
+    },
+    {
+      "name": "You And Your Folks, Me And My Folks",
+      "artist": "Funkadelic",
+      "artist_slug": "funkadelic",
+      "plays": 1
+    },
+    {
+      "name": "Hit It and Quit It",
+      "artist": "Funkadelic",
+      "artist_slug": "funkadelic",
+      "plays": 1
+    },
+    {
+      "name": "Can You Get To That",
+      "artist": "Funkadelic",
+      "artist_slug": "funkadelic",
+      "plays": 1
+    },
+    {
+      "name": "Autumn In New York - Set 1 / Live At Cafe Bohemia, May 31, 1956",
+      "artist": "Kenny Dorham",
+      "artist_slug": "kenny-dorham",
+      "plays": 1
+    },
+    {
+      "name": "Soul Eyes",
+      "artist": "John Coltrane Quartet",
+      "artist_slug": "john-coltrane-quartet",
+      "plays": 1
+    },
+    {
+      "name": "Daahoud",
+      "artist": "Ray Bryant Trio",
+      "artist_slug": "ray-bryant-trio",
+      "plays": 1
+    },
+    {
+      "name": "Chelsea Bridge",
+      "artist": "Tommy Flanagan Trio",
+      "artist_slug": "tommy-flanagan-trio",
+      "plays": 1
+    },
+    {
+      "name": "I'll Remember April - Remastered 2001/Rudy Van Gelder Edition",
+      "artist": "Sonny Clark Trio",
+      "artist_slug": "sonny-clark-trio",
+      "plays": 1
+    },
+    {
+      "name": "52nd Street Theme",
+      "artist": "Kenny Drew",
+      "artist_slug": "kenny-drew",
+      "plays": 1
+    },
+    {
+      "name": "Dat Dere",
+      "artist": "Bobby Timmons",
+      "artist_slug": "bobby-timmons",
+      "plays": 1
+    },
+    {
+      "name": "Night Lights",
+      "artist": "Gerry Mulligan Sextet",
+      "artist_slug": "gerry-mulligan-sextet",
+      "plays": 1
+    },
+    {
+      "name": "Jes' Fine",
+      "artist": "Tommy Flanagan Trio",
+      "artist_slug": "tommy-flanagan-trio",
+      "plays": 1
+    },
+    {
+      "name": "Golden Earrings",
+      "artist": "Ray Bryant Trio",
+      "artist_slug": "ray-bryant-trio",
+      "plays": 1
+    },
+    {
+      "name": "It's Easy To Remember",
+      "artist": "John Coltrane Quartet",
+      "artist_slug": "john-coltrane-quartet",
+      "plays": 1
+    },
+    {
+      "name": "'Round Midnight",
+      "artist": "Wes Montgomery Trio",
+      "artist_slug": "wes-montgomery-trio",
+      "plays": 1
+    },
+    {
+      "name": "Fantastic, That's You",
+      "artist": "Earl Hines",
+      "artist_slug": "earl-hines",
+      "plays": 1
+    },
+    {
+      "name": "Skal Brothers",
+      "artist": "Tommy Flanagan Trio",
+      "artist_slug": "tommy-flanagan-trio",
+      "plays": 1
+    },
+    {
+      "name": "Lush Life",
+      "artist": "Bobby Timmons",
+      "artist_slug": "bobby-timmons",
+      "plays": 1
+    },
+    {
+      "name": "Evening In Paris",
+      "artist": "Zoot Sims",
+      "artist_slug": "zoot-sims",
+      "plays": 1
+    },
+    {
+      "name": "Solace",
+      "artist": "Billy Taylor",
+      "artist_slug": "billy-taylor",
+      "plays": 1
+    },
+    {
+      "name": "Born To Be Blue",
+      "artist": "Tommy Flanagan Trio",
+      "artist_slug": "tommy-flanagan-trio",
+      "plays": 1
+    },
+    {
+      "name": "Angel Eyes",
+      "artist": "Ray Bryant Trio",
+      "artist_slug": "ray-bryant-trio",
+      "plays": 1
+    },
+    {
+      "name": "My Ideal",
+      "artist": "Kenny Dorham",
+      "artist_slug": "kenny-dorham",
+      "plays": 1
+    },
+    {
+      "name": "Prelude To A Kiss",
+      "artist": "Bobby Timmons",
+      "artist_slug": "bobby-timmons",
+      "plays": 1
+    },
+    {
+      "name": "Nancy (With The Laughing Face)",
+      "artist": "John Coltrane Quartet",
+      "artist_slug": "john-coltrane-quartet",
+      "plays": 1
+    },
+    {
+      "name": "Dalarna",
+      "artist": "Tommy Flanagan Trio",
+      "artist_slug": "tommy-flanagan-trio",
+      "plays": 1
+    },
+    {
+      "name": "Time And Again",
+      "artist": "Oscar Peterson Trio",
+      "artist_slug": "oscar-peterson-trio",
+      "plays": 1
+    },
+    {
+      "name": "Django",
+      "artist": "Ray Bryant Trio",
+      "artist_slug": "ray-bryant-trio",
+      "plays": 1
+    },
+    {
+      "name": "My Funny Valentine",
+      "artist": "Bobby Timmons",
+      "artist_slug": "bobby-timmons",
+      "plays": 1
+    },
+    {
+      "name": "In A Sentimental Mood",
+      "artist": "Tommy Flanagan Trio",
+      "artist_slug": "tommy-flanagan-trio",
+      "plays": 1
+    },
+    {
+      "name": "In The Blue Of The Evening",
+      "artist": "Tommy Flanagan Trio",
+      "artist_slug": "tommy-flanagan-trio",
+      "plays": 1
+    },
+    {
+      "name": "Afternoon in Paris",
+      "artist": "Phineas Newborn Jr.",
+      "artist_slug": "phineas-newborn-jr",
+      "plays": 1
+    },
+    {
+      "name": "Philadelphia Bound",
+      "artist": "Ray Bryant",
+      "artist_slug": "ray-bryant",
+      "plays": 1
+    },
+    {
+      "name": "The Party's Over",
+      "artist": "Bobby Timmons",
+      "artist_slug": "bobby-timmons",
+      "plays": 1
+    },
+    {
+      "name": "The Thrill Is Gone",
+      "artist": "Ray Bryant Trio",
+      "artist_slug": "ray-bryant-trio",
+      "plays": 1
+    },
+    {
+      "name": "What Is This Thing Called Love",
+      "artist": "Hampton Hawes Trio",
+      "artist_slug": "hampton-hawes-trio",
+      "plays": 1
+    },
+    {
+      "name": "Delarna",
+      "artist": "Tommy Flanagan Trio",
+      "artist_slug": "tommy-flanagan-trio",
+      "plays": 1
+    },
+    {
+      "name": "Softly As In A Morning Sunrise - Remastered 2001/Rudy Van Gelder Edition",
+      "artist": "Sonny Clark Trio",
+      "artist_slug": "sonny-clark-trio",
+      "plays": 1
+    },
+    {
+      "name": "Can You Tell by Looking at Me",
+      "artist": "Billy Taylor",
+      "artist_slug": "billy-taylor",
+      "plays": 1
+    },
+    {
+      "name": "Lo Flame",
+      "artist": "Kenny Drew",
+      "artist_slug": "kenny-drew",
+      "plays": 1
+    },
+    {
+      "name": "Blues Changes",
+      "artist": "Ray Bryant Trio",
+      "artist_slug": "ray-bryant-trio",
+      "plays": 1
+    },
+    {
+      "name": "Blues The Most",
+      "artist": "Hampton Hawes Trio",
+      "artist_slug": "hampton-hawes-trio",
+      "plays": 1
+    },
+    {
+      "name": "All The Things You Are",
+      "artist": "Hampton Hawes Trio",
+      "artist_slug": "hampton-hawes-trio",
+      "plays": 1
+    },
+    {
+      "name": "Honey Dripper",
+      "artist": "Oscar Peterson Trio",
+      "artist_slug": "oscar-peterson-trio",
+      "plays": 1
+    },
+    {
+      "name": "Closing/Intros/Billy Boy/ When The Saints Go Marching In - Live",
+      "artist": "Oscar Peterson Trio",
+      "artist_slug": "oscar-peterson-trio",
+      "plays": 1
+    },
+    {
+      "name": "Scrapple From The Apple - Live",
+      "artist": "Oscar Peterson Trio",
+      "artist_slug": "oscar-peterson-trio",
+      "plays": 1
+    },
+    {
+      "name": "My Funny Valentine - Live",
+      "artist": "Oscar Peterson Trio",
+      "artist_slug": "oscar-peterson-trio",
+      "plays": 1
+    },
+    {
+      "name": "Woody ’N’ You - Live",
+      "artist": "Oscar Peterson Trio",
+      "artist_slug": "oscar-peterson-trio",
+      "plays": 1
+    },
+    {
+      "name": "Satin Doll - Live",
+      "artist": "Oscar Peterson Trio",
+      "artist_slug": "oscar-peterson-trio",
+      "plays": 1
+    },
+    {
+      "name": "Closing/Intros/Blues For Big Scotia - Live",
+      "artist": "Oscar Peterson Trio",
+      "artist_slug": "oscar-peterson-trio",
+      "plays": 1
+    },
+    {
+      "name": "Swamp Fire - Live",
       "artist": "Oscar Peterson Trio",
       "artist_slug": "oscar-peterson-trio",
       "plays": 1

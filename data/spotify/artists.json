@@ -3268,9 +3268,9 @@
     "id": "450o9jw6AtiQlQkHCdH6Ru",
     "name": "Funkadelic",
     "spotify_url": "https://open.spotify.com/artist/450o9jw6AtiQlQkHCdH6Ru",
-    "total_plays": 10,
+    "total_plays": 19,
     "first_seen": "2026-03-01",
-    "last_seen": "2026-03-01",
+    "last_seen": "2026-07-18",
     "genres": [
       "funk",
       "funk rock",
@@ -3300,6 +3300,48 @@
     ],
     "top_tracks": [
       {
+        "name": "Maggot Brain",
+        "album": "Maggot Brain",
+        "spotify_url": "https://open.spotify.com/track/5WJU527RQNyMLuKecjsL8V",
+        "plays": 3
+      },
+      {
+        "name": "Wars Of Armageddon",
+        "album": "Maggot Brain",
+        "spotify_url": "https://open.spotify.com/track/5kyqgKXp6HdMXdNMsp22EJ",
+        "plays": 2
+      },
+      {
+        "name": "Back In Our Minds",
+        "album": "Maggot Brain",
+        "spotify_url": "https://open.spotify.com/track/25XlPV3Khx2RVhwCBC6HNe",
+        "plays": 2
+      },
+      {
+        "name": "Super Stupid",
+        "album": "Maggot Brain",
+        "spotify_url": "https://open.spotify.com/track/2X6qfjDzhKQA7UqhzyJrQP",
+        "plays": 2
+      },
+      {
+        "name": "You And Your Folks, Me And My Folks",
+        "album": "Maggot Brain",
+        "spotify_url": "https://open.spotify.com/track/1alxqrqIYG7YIlaCmwzl6p",
+        "plays": 2
+      },
+      {
+        "name": "Hit It and Quit It",
+        "album": "Maggot Brain",
+        "spotify_url": "https://open.spotify.com/track/2w7R3CQgvl8PIKJlwtT9Mv",
+        "plays": 2
+      },
+      {
+        "name": "Can You Get To That",
+        "album": "Maggot Brain",
+        "spotify_url": "https://open.spotify.com/track/5lc9L9FeLBwlJPgEbq9uEw",
+        "plays": 2
+      },
+      {
         "name": "I'll Stay",
         "album": "Standing On The Verge Of Getting It On",
         "spotify_url": "https://open.spotify.com/track/5ZjLReKZ5EErHjlblKedFv",
@@ -3318,45 +3360,9 @@
         "plays": 1
       },
       {
-        "name": "Wars Of Armageddon",
-        "album": "Maggot Brain",
-        "spotify_url": "https://open.spotify.com/track/5kyqgKXp6HdMXdNMsp22EJ",
-        "plays": 1
-      },
-      {
-        "name": "Back In Our Minds",
-        "album": "Maggot Brain",
-        "spotify_url": "https://open.spotify.com/track/25XlPV3Khx2RVhwCBC6HNe",
-        "plays": 1
-      },
-      {
-        "name": "Super Stupid",
-        "album": "Maggot Brain",
-        "spotify_url": "https://open.spotify.com/track/2X6qfjDzhKQA7UqhzyJrQP",
-        "plays": 1
-      },
-      {
-        "name": "You And Your Folks, Me And My Folks",
-        "album": "Maggot Brain",
-        "spotify_url": "https://open.spotify.com/track/1alxqrqIYG7YIlaCmwzl6p",
-        "plays": 1
-      },
-      {
-        "name": "Hit It and Quit It",
-        "album": "Maggot Brain",
-        "spotify_url": "https://open.spotify.com/track/2w7R3CQgvl8PIKJlwtT9Mv",
-        "plays": 1
-      },
-      {
-        "name": "Can You Get To That",
-        "album": "Maggot Brain",
-        "spotify_url": "https://open.spotify.com/track/5lc9L9FeLBwlJPgEbq9uEw",
-        "plays": 1
-      },
-      {
-        "name": "Maggot Brain",
-        "album": "Maggot Brain",
-        "spotify_url": "https://open.spotify.com/track/5WJU527RQNyMLuKecjsL8V",
+        "name": "Standing On The Verge Of Getting It On",
+        "album": "Standing On The Verge Of Getting It On",
+        "spotify_url": "https://open.spotify.com/track/3JMtGlh9gg0UCN7E2MLZUj",
         "plays": 1
       },
       {
@@ -3483,12 +3489,6 @@
         "name": "Alice In My Fantasies",
         "album": "Standing On The Verge Of Getting It On",
         "spotify_url": "https://open.spotify.com/track/392dhYxrzURH9VpvCKkBd4",
-        "plays": 1
-      },
-      {
-        "name": "Standing On The Verge Of Getting It On",
-        "album": "Standing On The Verge Of Getting It On",
-        "spotify_url": "https://open.spotify.com/track/3JMtGlh9gg0UCN7E2MLZUj",
         "plays": 1
       },
       {
@@ -39090,13 +39090,1113 @@
       }
     ]
   },
+  "cymande": {
+    "id": "4hfcSstwnyuBoek1dQwLkG",
+    "name": "Cymande",
+    "spotify_url": "https://open.spotify.com/artist/4hfcSstwnyuBoek1dQwLkG",
+    "total_plays": 1,
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "genres": [
+      "funk",
+      "afrobeat"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb938fabe2c9a04b946605308d",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174938fabe2c9a04b946605308d",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178938fabe2c9a04b946605308d",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "The Message",
+        "album": "Cymande",
+        "spotify_url": "https://open.spotify.com/track/2bGrfkV1IYY0nUUJO53xtG",
+        "plays": 1
+      }
+    ]
+  },
+  "camille-yarbrough": {
+    "id": "1bSCGVnnijnSf8R9maUeJ9",
+    "name": "Camille Yarbrough",
+    "spotify_url": "https://open.spotify.com/artist/1bSCGVnnijnSf8R9maUeJ9",
+    "total_plays": 1,
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b27304f172c4cdedfa6f813b0c57",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e0204f172c4cdedfa6f813b0c57",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000485104f172c4cdedfa6f813b0c57",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Take Yo' Praise",
+        "album": "The Iron Pot Cooker",
+        "spotify_url": "https://open.spotify.com/track/2c4zwlPMc5dHS3Kg6oeUjk",
+        "plays": 1
+      }
+    ]
+  },
+  "rufus-chaka-khan": {
+    "id": "1YLsqPcFg1rj7VvhfwnDWm",
+    "name": "Rufus & Chaka Khan",
+    "spotify_url": "https://open.spotify.com/artist/1YLsqPcFg1rj7VvhfwnDWm",
+    "total_plays": 1,
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "genres": [
+      "funk",
+      "classic soul"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/d1995c2dfdf8c3ec007a1e0abb032a6c8b9d2616",
+        "height": 682,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/93fffe82a671c84185baef3f5b1d9bbec9f98456",
+        "height": 437,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/36bbc88dd826671a8858dbab9624e654e26fdf11",
+        "height": 136,
+        "width": 199
+      },
+      {
+        "url": "https://i.scdn.co/image/29f048a889aa560b0924429787c6b03c3c775231",
+        "height": 44,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Tell Me Something Good",
+        "album": "Rags To Rufus",
+        "spotify_url": "https://open.spotify.com/track/1OO2Fp9PsnaayiekeXuGJX",
+        "plays": 1
+      }
+    ]
+  },
+  "king-curtis": {
+    "id": "0WxOgeRxUt0MwPrI7A5atQ",
+    "name": "King Curtis",
+    "spotify_url": "https://open.spotify.com/artist/0WxOgeRxUt0MwPrI7A5atQ",
+    "total_plays": 1,
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "genres": [
+      "soul jazz",
+      "classic soul"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ea32aa5e50ec26a6ea889d71a33d60e98e168cf8",
+        "height": 1167,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/e6f3bfe7da25da27be801e73a3b9feadc299764a",
+        "height": 747,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/e3b1567265a6af7d612f730ea7b13101886f8622",
+        "height": 233,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/e3ee4af75d6b3a85e6c75e0c584dcc8eaf55c832",
+        "height": 75,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Memphis Soul Stew",
+        "album": "King Size Soul",
+        "spotify_url": "https://open.spotify.com/track/6MqfTP3OwngywVTOS5OAFt",
+        "plays": 1
+      }
+    ]
+  },
+  "kenny-dorham": {
+    "id": "2fMvylhnE23sAlyePKK8er",
+    "name": "Kenny Dorham",
+    "spotify_url": "https://open.spotify.com/artist/2fMvylhnE23sAlyePKK8er",
+    "total_plays": 2,
+    "first_seen": "2026-07-15",
+    "last_seen": "2026-07-16",
+    "genres": [
+      "hard bop",
+      "jazz",
+      "afro-cuban jazz",
+      "bebop",
+      "jazz ballads",
+      "cool jazz",
+      "latin jazz"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6772690000c46c29b22dfe4ecdefd1f5a6b37a",
+        "height": 1000,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6772690000dd2229b22dfe4ecdefd1f5a6b37a",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6772690000bac329b22dfe4ecdefd1f5a6b37a",
+        "height": 200,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67726900008f7429b22dfe4ecdefd1f5a6b37a",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Autumn In New York - Set 1 / Live At Cafe Bohemia, May 31, 1956",
+        "album": "The Complete 'Round About Midnight At The Cafe Bohemia (Live)",
+        "spotify_url": "https://open.spotify.com/track/4FgsX8sfaIUErvFzlaD3tN",
+        "plays": 1
+      },
+      {
+        "name": "My Ideal",
+        "album": "Quiet Kenny",
+        "spotify_url": "https://open.spotify.com/track/20iVJu5WfnEKda2uFhLP7d",
+        "plays": 1
+      },
+      {
+        "name": "Dorham's Epitaph - Remastered 2014",
+        "album": "Whistle Stop (Remastered 2014)",
+        "spotify_url": "https://open.spotify.com/track/28UC4Sk3EHAuEbTSQxoGsP",
+        "plays": 2
+      },
+      {
+        "name": "Alone Together - Rudy Van Gelder Remaster 2006",
+        "album": "Quiet Kenny",
+        "spotify_url": "https://open.spotify.com/track/3GOZbK2epuHzCt5YvvVFHO",
+        "plays": 2
+      },
+      {
+        "name": "I Had The Craziest Dream",
+        "album": "Quiet Kenny",
+        "spotify_url": "https://open.spotify.com/track/2awC8Pix7qe8lIXKncuwsS",
+        "plays": 2
+      },
+      {
+        "name": "Lotus Flower - Rudy Van Gelder Edition/2007 Digital Remaster",
+        "album": "Afro-Cuban (Rudy Van Gelder Edition)",
+        "spotify_url": "https://open.spotify.com/track/5LCOngkOEmtgLf0Igfu63k",
+        "plays": 1
+      },
+      {
+        "name": "Lotus Blossom",
+        "album": "Quiet Kenny",
+        "spotify_url": "https://open.spotify.com/track/4JfOUrNqNVsy1XWC99JdmV",
+        "plays": 1
+      },
+      {
+        "name": "Afrodisia - Remastered/Rudy Van Gelder Edition",
+        "album": "Afro-Cuban (Rudy Van Gelder Edition)",
+        "spotify_url": "https://open.spotify.com/track/2hpMxW0cUf6CUoiUf8lFFh",
+        "plays": 1
+      },
+      {
+        "name": "Monaco - Set 1 / Live From Cafe Bohemia/1956",
+        "album": "The Complete 'Round About Midnight At The Cafe Bohemia (Live)",
+        "spotify_url": "https://open.spotify.com/track/3xPGQOckEwKVv4JpqcVLpi",
+        "plays": 1
+      },
+      {
+        "name": "Mack The Knife",
+        "album": "Quiet Kenny",
+        "spotify_url": "https://open.spotify.com/track/6DN6vzoIVXSSqIEGO5rLbG",
+        "plays": 1
+      },
+      {
+        "name": "If Ever I Would Leave You - Remasted 1998/ Rudy Van Gelder Edition",
+        "album": "Una Mas",
+        "spotify_url": "https://open.spotify.com/track/2DPcK58j3Zms6ybVIKSIIY",
+        "plays": 1
+      },
+      {
+        "name": "Old Folks",
+        "album": "Quiet Kenny",
+        "spotify_url": "https://open.spotify.com/track/5L2m3nl85t68HHbULBvFBH",
+        "plays": 1
+      }
+    ]
+  },
+  "john-coltrane-quartet": {
+    "id": "67PZTxaHKMZBFRUh8wIzCy",
+    "name": "John Coltrane Quartet",
+    "spotify_url": "https://open.spotify.com/artist/67PZTxaHKMZBFRUh8wIzCy",
+    "total_plays": 3,
+    "first_seen": "2026-07-15",
+    "last_seen": "2026-07-16",
+    "genres": [
+      "jazz",
+      "jazz ballads",
+      "cool jazz",
+      "hard bop",
+      "free jazz",
+      "bebop"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b273a3d4884d3433efed2c4a0563",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e02a3d4884d3433efed2c4a0563",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00004851a3d4884d3433efed2c4a0563",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Soul Eyes",
+        "album": "Coltrane (Deluxe Edition - Rudy Van Gelder Remaster)",
+        "spotify_url": "https://open.spotify.com/track/2h1o6yFR9Gjh8DqHwTy3M9",
+        "plays": 1
+      },
+      {
+        "name": "It's Easy To Remember",
+        "album": "Ballads (Deluxe Edition - Rudy Van Gelder Remaster)",
+        "spotify_url": "https://open.spotify.com/track/1lZ41PumDFX0e82XTGx4sE",
+        "plays": 1
+      },
+      {
+        "name": "Nancy (With The Laughing Face)",
+        "album": "Ballads (Deluxe Edition - Rudy Van Gelder Remaster)",
+        "spotify_url": "https://open.spotify.com/track/2HdvZsLXBmO9sc4cV8d4BA",
+        "plays": 1
+      },
+      {
+        "name": "Say It (Over And Over Again)",
+        "album": "Ballads (Deluxe Edition - Rudy Van Gelder Remaster)",
+        "spotify_url": "https://open.spotify.com/track/016HKF7A4O7tatoJ9BgZM1",
+        "plays": 2
+      },
+      {
+        "name": "They Say It's Wonderful",
+        "album": "Ballads (Deluxe Edition - Rudy Van Gelder Remaster)",
+        "spotify_url": "https://open.spotify.com/track/2TFzmt2xRoSd3KNelJcUxZ",
+        "plays": 1
+      }
+    ]
+  },
+  "ray-bryant-trio": {
+    "id": "2bOo3sgzNcQcS9525WR9Ku",
+    "name": "Ray Bryant Trio",
+    "spotify_url": "https://open.spotify.com/artist/2bOo3sgzNcQcS9525WR9Ku",
+    "total_plays": 6,
+    "first_seen": "2026-07-15",
+    "last_seen": "2026-07-16",
+    "genres": [
+      "hard bop",
+      "jazz",
+      "cool jazz"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b2736c59e931889428c321466ef0",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e026c59e931889428c321466ef0",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d000048516c59e931889428c321466ef0",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Daahoud",
+        "album": "Ray Bryant Trio",
+        "spotify_url": "https://open.spotify.com/track/41QOF4wcH68dnQlFS9vRHZ",
+        "plays": 1
+      },
+      {
+        "name": "Golden Earrings",
+        "album": "Ray Bryant Trio",
+        "spotify_url": "https://open.spotify.com/track/7GjMSAdmOGTsyOsiN9pjO0",
+        "plays": 1
+      },
+      {
+        "name": "Angel Eyes",
+        "album": "Ray Bryant Trio",
+        "spotify_url": "https://open.spotify.com/track/2cWsIj1ODMC3fQcMedhFOo",
+        "plays": 1
+      },
+      {
+        "name": "Django",
+        "album": "Ray Bryant Trio",
+        "spotify_url": "https://open.spotify.com/track/5FymcyxHUFqllo6qe8WRjM",
+        "plays": 1
+      },
+      {
+        "name": "The Thrill Is Gone",
+        "album": "Ray Bryant Trio",
+        "spotify_url": "https://open.spotify.com/track/330g7tzHYieeUTNXiG7y5X",
+        "plays": 1
+      },
+      {
+        "name": "Blues Changes",
+        "album": "Ray Bryant Trio",
+        "spotify_url": "https://open.spotify.com/track/1IqFUR34LQK2Lp9hYMHiqf",
+        "plays": 1
+      }
+    ]
+  },
+  "tommy-flanagan-trio": {
+    "id": "5N8jNQsfW9SHBkhVqqnXbU",
+    "name": "Tommy Flanagan Trio",
+    "spotify_url": "https://open.spotify.com/artist/5N8jNQsfW9SHBkhVqqnXbU",
+    "total_plays": 10,
+    "first_seen": "2026-07-15",
+    "last_seen": "2026-07-16",
+    "genres": [
+      "jazz",
+      "hard bop",
+      "jazz ballads",
+      "cool jazz",
+      "bebop"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b273e64667b70edf1233bbc498b3",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e02e64667b70edf1233bbc498b3",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00004851e64667b70edf1233bbc498b3",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Velvet Moon",
+        "album": "Tommy Flanagan Trio",
+        "spotify_url": "https://open.spotify.com/track/1eQnTVNUwVaU7dXglhgCFr",
+        "plays": 2
+      },
+      {
+        "name": "Chelsea Bridge",
+        "album": "Overseas Blues",
+        "spotify_url": "https://open.spotify.com/track/0lZRoPZuuoaThDtBBCjAub",
+        "plays": 1
+      },
+      {
+        "name": "Jes' Fine",
+        "album": "Tommy Flanagan Trio",
+        "spotify_url": "https://open.spotify.com/track/0d6aCxm52mrXa67DkVjsaW",
+        "plays": 1
+      },
+      {
+        "name": "Skal Brothers",
+        "album": "Piano Reflections",
+        "spotify_url": "https://open.spotify.com/track/2sWjhayz8FezdRhrLACmSl",
+        "plays": 1
+      },
+      {
+        "name": "Born To Be Blue",
+        "album": "Tommy Flanagan Trio",
+        "spotify_url": "https://open.spotify.com/track/0q2B8hRHzThL8CTlzCv06e",
+        "plays": 1
+      },
+      {
+        "name": "Dalarna",
+        "album": "Piano Reflections",
+        "spotify_url": "https://open.spotify.com/track/6g6uGtkdD3Gu1b68ZoKrz7",
+        "plays": 1
+      },
+      {
+        "name": "In A Sentimental Mood",
+        "album": "Tommy Flanagan Trio",
+        "spotify_url": "https://open.spotify.com/track/6WzMl7FoqNmET1OpHNiC09",
+        "plays": 1
+      },
+      {
+        "name": "In The Blue Of The Evening",
+        "album": "Tommy Flanagan Trio",
+        "spotify_url": "https://open.spotify.com/track/30elPK31lRDN1kFjnt7HRQ",
+        "plays": 1
+      },
+      {
+        "name": "Delarna",
+        "album": "Overseas Blues",
+        "spotify_url": "https://open.spotify.com/track/4SuiGgn2C0jVdxMdqmjHl9",
+        "plays": 1
+      },
+      {
+        "name": "Relaxin' at Camarillo",
+        "album": "Presenting The Tommy Flanagan Trio",
+        "spotify_url": "https://open.spotify.com/track/1KqCGnVcrn9UBI10I7LFFf",
+        "plays": 2
+      },
+      {
+        "name": "Verdandi",
+        "album": "Presenting The Tommy Flanagan Trio",
+        "spotify_url": "https://open.spotify.com/track/3CT6ECWAcRWgbcxkvTR7RB",
+        "plays": 2
+      },
+      {
+        "name": "Delarna",
+        "album": "Presenting The Tommy Flanagan Trio",
+        "spotify_url": "https://open.spotify.com/track/2tcVqUcQ4qrzJEr9AXqokl",
+        "plays": 1
+      }
+    ]
+  },
+  "sonny-clark-trio": {
+    "id": "7CZmsRaJUmKd1tGyfveLGw",
+    "name": "Sonny Clark Trio",
+    "spotify_url": "https://open.spotify.com/artist/7CZmsRaJUmKd1tGyfveLGw",
+    "total_plays": 2,
+    "first_seen": "2026-07-15",
+    "last_seen": "2026-07-16",
+    "genres": [
+      "hard bop",
+      "jazz",
+      "bebop"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b273952879e2607246808a5fb2d2",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e02952879e2607246808a5fb2d2",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00004851952879e2607246808a5fb2d2",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "I'll Remember April - Remastered 2001/Rudy Van Gelder Edition",
+        "album": "Sonny Clark Trio (Remastered 2001/Rudy Van Gelder Edition)",
+        "spotify_url": "https://open.spotify.com/track/7MEXnWPBAUal9Zd7yWdU3G",
+        "plays": 1
+      },
+      {
+        "name": "Softly As In A Morning Sunrise - Remastered 2001/Rudy Van Gelder Edition",
+        "album": "Sonny Clark Trio (Remastered 2001/Rudy Van Gelder Edition)",
+        "spotify_url": "https://open.spotify.com/track/3DZShPBwoWAfFgPKBUcFFJ",
+        "plays": 1
+      }
+    ]
+  },
+  "kenny-drew": {
+    "id": "65uKPt40QH8dMBLuoJHPVY",
+    "name": "Kenny Drew",
+    "spotify_url": "https://open.spotify.com/artist/65uKPt40QH8dMBLuoJHPVY",
+    "total_plays": 2,
+    "first_seen": "2026-07-15",
+    "last_seen": "2026-07-16",
+    "genres": [
+      "hard bop",
+      "jazz ballads",
+      "bebop",
+      "jazz",
+      "cool jazz"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6772690000c46c2c57d09bd4ce9955e9f31476",
+        "height": 1000,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6772690000dd222c57d09bd4ce9955e9f31476",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6772690000bac32c57d09bd4ce9955e9f31476",
+        "height": 200,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67726900008f742c57d09bd4ce9955e9f31476",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "52nd Street Theme",
+        "album": "Kenny Drew And His Progressive Piano",
+        "spotify_url": "https://open.spotify.com/track/63AH56BdSoBHKJAnsB6KiR",
+        "plays": 1
+      },
+      {
+        "name": "Lo Flame",
+        "album": "Kenny Drew And His Progressive Piano",
+        "spotify_url": "https://open.spotify.com/track/7KacI4KoH8ESNyFjrRq9xv",
+        "plays": 1
+      },
+      {
+        "name": "Bluesville",
+        "album": "Kenny Drew And His Progressive Piano",
+        "spotify_url": "https://open.spotify.com/track/12O4AISrTgMpgpIMnS09lA",
+        "plays": 2
+      },
+      {
+        "name": "Chartreuse",
+        "album": "Kenny Drew And His Progressive Piano",
+        "spotify_url": "https://open.spotify.com/track/3AF40YsNhI8LfFnxKvcgGB",
+        "plays": 2
+      },
+      {
+        "name": "Four And Five",
+        "album": "Kenny Drew And His Progressive Piano",
+        "spotify_url": "https://open.spotify.com/track/5U4Io4DxCYZ788PBsvmhZA",
+        "plays": 2
+      },
+      {
+        "name": "Many Miles Away",
+        "album": "Kenny Drew And His Progressive Piano",
+        "spotify_url": "https://open.spotify.com/track/4cELGthlcsgrd6s4jFLHJe",
+        "plays": 1
+      },
+      {
+        "name": "Angie",
+        "album": "Kenny Drew And His Progressive Piano",
+        "spotify_url": "https://open.spotify.com/track/3muCX1wAFvCtCBrbzlkeJ8",
+        "plays": 1
+      }
+    ]
+  },
+  "bobby-timmons": {
+    "id": "0xRqtLGIVSzXM9yg2wFMLC",
+    "name": "Bobby Timmons",
+    "spotify_url": "https://open.spotify.com/artist/0xRqtLGIVSzXM9yg2wFMLC",
+    "total_plays": 5,
+    "first_seen": "2026-07-15",
+    "last_seen": "2026-07-16",
+    "genres": [
+      "hard bop",
+      "jazz",
+      "bebop",
+      "cool jazz"
+    ],
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab6761610000e5ebb724a6d272499aaf94f8bced",
+        "width": 640
+      },
+      {
+        "height": 320,
+        "url": "https://i.scdn.co/image/ab67616100005174b724a6d272499aaf94f8bced",
+        "width": 320
+      },
+      {
+        "height": 160,
+        "url": "https://i.scdn.co/image/ab6761610000f178b724a6d272499aaf94f8bced",
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Dat Dere",
+        "album": "This Here Is Bobby Timmons",
+        "spotify_url": "https://open.spotify.com/track/5DLMl8htquCxvOnO1k60dy",
+        "plays": 1
+      },
+      {
+        "name": "Lush Life",
+        "album": "This Here Is Bobby Timmons",
+        "spotify_url": "https://open.spotify.com/track/6E81pDQAoxgGEAGqVbPgYr",
+        "plays": 1
+      },
+      {
+        "name": "Prelude To A Kiss",
+        "album": "This Here Is Bobby Timmons",
+        "spotify_url": "https://open.spotify.com/track/4NBGEa1LwQoMjbdRrZZN0V",
+        "plays": 1
+      },
+      {
+        "name": "My Funny Valentine",
+        "album": "This Here Is Bobby Timmons",
+        "spotify_url": "https://open.spotify.com/track/2fBBNZ4DkCRy0wR0jBUIWf",
+        "plays": 1
+      },
+      {
+        "name": "The Party's Over",
+        "album": "This Here Is Bobby Timmons",
+        "spotify_url": "https://open.spotify.com/track/4RCInCQO7MfS7HyuadswHJ",
+        "plays": 1
+      },
+      {
+        "name": "This Here",
+        "album": "This Here Is Bobby Timmons",
+        "spotify_url": "https://open.spotify.com/track/77tXih9Z5Jid24z21GOJE5",
+        "plays": 2
+      },
+      {
+        "name": "Moanin'",
+        "album": "This Here Is Bobby Timmons",
+        "spotify_url": "https://open.spotify.com/track/1qLlkVWv58M8mcoRZPHD3I",
+        "plays": 2
+      },
+      {
+        "name": "So Tired",
+        "album": "Soul Time",
+        "spotify_url": "https://open.spotify.com/track/6XI8KS3xMhQTfrRysGd6tZ",
+        "plays": 2
+      },
+      {
+        "name": "Autumn In New York",
+        "album": "Young Chet",
+        "spotify_url": "https://open.spotify.com/track/6Ad2BCQGByNSDSYAdn9iEk",
+        "plays": 1
+      },
+      {
+        "name": "The Touch Of Your Lips",
+        "album": "Soul Time",
+        "spotify_url": "https://open.spotify.com/track/4IbtQT0EjHEtLbdTx949TV",
+        "plays": 1
+      },
+      {
+        "name": "Soul Time",
+        "album": "Soul Time",
+        "spotify_url": "https://open.spotify.com/track/5Ds5ZkIHtou33wHUJNVonN",
+        "plays": 1
+      },
+      {
+        "name": "The Sweetest Sounds",
+        "album": "Sweet And Soulful Sounds",
+        "spotify_url": "https://open.spotify.com/track/7AkQHS58Sq3nyrVcmxTRrP",
+        "plays": 1
+      },
+      {
+        "name": "Come Rain Or Come Shine",
+        "album": "This Here Is Bobby Timmons",
+        "spotify_url": "https://open.spotify.com/track/0kwXYg8kpyTP3bzBcwGgMY",
+        "plays": 1
+      },
+      {
+        "name": "Joyride",
+        "album": "This Here Is Bobby Timmons",
+        "spotify_url": "https://open.spotify.com/track/6xJRdQChXeZZ8GVDitl7fX",
+        "plays": 1
+      }
+    ]
+  },
+  "gerry-mulligan-sextet": {
+    "id": "6tzN9Ew9w6JB0UQr8culs1",
+    "name": "Gerry Mulligan Sextet",
+    "spotify_url": "https://open.spotify.com/artist/6tzN9Ew9w6JB0UQr8culs1",
+    "total_plays": 3,
+    "first_seen": "2026-07-15",
+    "last_seen": "2026-07-16",
+    "genres": [
+      "cool jazz",
+      "jazz",
+      "jazz ballads"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b2735b49e34e89bc550a8dfd9f2b",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e025b49e34e89bc550a8dfd9f2b",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d000048515b49e34e89bc550a8dfd9f2b",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "In The Wee Small Hours Of The Morning",
+        "album": "Night Lights (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/4c9u4ruTL1xWv2YcnS8AjN",
+        "plays": 2
+      },
+      {
+        "name": "Night Lights",
+        "album": "Night Lights (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/5eVERkVvJKBgV2FziCoLDE",
+        "plays": 1
+      },
+      {
+        "name": "Morning Of The Carnival - From \"Black Orpheus\"",
+        "album": "Night Lights (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/6GQ6rapsknPIutGbpv0DTR",
+        "plays": 2
+      },
+      {
+        "name": "Prelude In E Minor",
+        "album": "Night Lights (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/17OHsQ5RBrU6b9lTaPP0vh",
+        "plays": 1
+      },
+      {
+        "name": "Tell Me When",
+        "album": "Night Lights (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/358K63AaaKKNFryT2zJ2Ib",
+        "plays": 1
+      }
+    ]
+  },
+  "wes-montgomery-trio": {
+    "id": "6WbUlW1uuChmQumXueDmgp",
+    "name": "Wes Montgomery Trio",
+    "spotify_url": "https://open.spotify.com/artist/6WbUlW1uuChmQumXueDmgp",
+    "total_plays": 1,
+    "first_seen": "2026-07-16",
+    "last_seen": "2026-07-16",
+    "genres": [
+      "jazz",
+      "jazz ballads",
+      "hard bop",
+      "cool jazz"
+    ],
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b27316527ecf2808e6268f431422",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e0216527ecf2808e6268f431422",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d0000485116527ecf2808e6268f431422",
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "'Round Midnight",
+        "album": "The Wes Montgomery Trio (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/5M3K9hIHwyHYWxR2GTpXEd",
+        "plays": 1
+      },
+      {
+        "name": "Missile Blues - Take 5",
+        "album": "The Wes Montgomery Trio (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/6SWajIHqwoLX9gGuMI7OJl",
+        "plays": 3
+      },
+      {
+        "name": "Yesterdays",
+        "album": "The Wes Montgomery Trio (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/6syzakkI2K7KOdgL8ubC9h",
+        "plays": 2
+      },
+      {
+        "name": "The Way You Look Tonight - Take 2",
+        "album": "Guitar On The Go",
+        "spotify_url": "https://open.spotify.com/track/36ueR1ov7f2PNLPibP3QCm",
+        "plays": 2
+      },
+      {
+        "name": "Geno",
+        "album": "Guitar On The Go",
+        "spotify_url": "https://open.spotify.com/track/7BHr7YcfeurMipWKh3I7eU",
+        "plays": 1
+      },
+      {
+        "name": "Ecaroh",
+        "album": "The Wes Montgomery Trio (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/0Lf9riF2A1IimuxvLjPVBu",
+        "plays": 1
+      },
+      {
+        "name": "The End Of A Love Affair",
+        "album": "The Wes Montgomery Trio (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/0xMLwwcapZvc0XKxNx6tFW",
+        "plays": 1
+      },
+      {
+        "name": "Too Late Now",
+        "album": "The Wes Montgomery Trio (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/21jd6AnhN9VwpmZnsSOWAt",
+        "plays": 1
+      },
+      {
+        "name": "Yesterday's Child",
+        "album": "Portrait Of Wes",
+        "spotify_url": "https://open.spotify.com/track/3fqZrbgdXUFxigrDce5N4v",
+        "plays": 1
+      },
+      {
+        "name": "Freddie Freeloader",
+        "album": "Portrait Of Wes",
+        "spotify_url": "https://open.spotify.com/track/4bWxamySnXJ0cIKSaIQM9U",
+        "plays": 1
+      },
+      {
+        "name": "Whisper Not",
+        "album": "The Wes Montgomery Trio (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/4D0cBAJzf8mVjkVb09ozEw",
+        "plays": 1
+      },
+      {
+        "name": "Fried Pies",
+        "album": "Guitar On The Go",
+        "spotify_url": "https://open.spotify.com/track/6CnxiFBqcqnEluRettMCox",
+        "plays": 1
+      },
+      {
+        "name": "Satin Doll - Take 7",
+        "album": "The Wes Montgomery Trio (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/63JrlMKEinao3JIrvCmJqq",
+        "plays": 1
+      },
+      {
+        "name": "Moanin' - Take 10 / Alternate",
+        "album": "Portrait Of Wes",
+        "spotify_url": "https://open.spotify.com/track/7KpMNaml5PADLm6w5Suszz",
+        "plays": 1
+      },
+      {
+        "name": "Missile Blues - Take 6",
+        "album": "The Wes Montgomery Trio (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/0goILZsvdPeZwXzdnn4ZZA",
+        "plays": 1
+      },
+      {
+        "name": "Jingles",
+        "album": "The Wes Montgomery Trio (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/3MP0q8nE5J9xM0voN84QJG",
+        "plays": 1
+      },
+      {
+        "name": "Dreamsville",
+        "album": "Guitar On The Go",
+        "spotify_url": "https://open.spotify.com/track/3YNkdXJJLi13aPOTuZ7jqx",
+        "plays": 1
+      },
+      {
+        "name": "For All We Know",
+        "album": "Guitar On The Go",
+        "spotify_url": "https://open.spotify.com/track/7Fxbp22O14RQNhCgELrTlr",
+        "plays": 1
+      },
+      {
+        "name": "Mi Cosa - Take 1",
+        "album": "Guitar On The Go",
+        "spotify_url": "https://open.spotify.com/track/0XtacS0xmGwfrLbPyKlGJF",
+        "plays": 1
+      }
+    ]
+  },
+  "earl-hines": {
+    "id": "2mY5u4CceAPrpBnse1WpFr",
+    "name": "Earl Hines",
+    "spotify_url": "https://open.spotify.com/artist/2mY5u4CceAPrpBnse1WpFr",
+    "total_plays": 1,
+    "first_seen": "2026-07-16",
+    "last_seen": "2026-07-16",
+    "genres": [
+      "swing music",
+      "jazz",
+      "ragtime",
+      "big band",
+      "boogie-woogie",
+      "jazz ballads"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebcea168ad5944d5848f4d6a34",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174cea168ad5944d5848f4d6a34",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178cea168ad5944d5848f4d6a34",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Fantastic, That's You",
+        "album": "Once Upon A Time",
+        "spotify_url": "https://open.spotify.com/track/0JUg0sZeed300oK3FIP4Ak",
+        "plays": 1
+      }
+    ]
+  },
+  "zoot-sims": {
+    "id": "1pwr5rTWLVfqhvHfB7Reap",
+    "name": "Zoot Sims",
+    "spotify_url": "https://open.spotify.com/artist/1pwr5rTWLVfqhvHfB7Reap",
+    "total_plays": 1,
+    "first_seen": "2026-07-16",
+    "last_seen": "2026-07-16",
+    "genres": [
+      "cool jazz",
+      "jazz",
+      "jazz ballads",
+      "hard bop",
+      "bebop"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b273965cab07549137cd4c73bb0a",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e02965cab07549137cd4c73bb0a",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00004851965cab07549137cd4c73bb0a",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Evening In Paris",
+        "album": "Zoot Sims avec Henri Renaud et son orchestre",
+        "spotify_url": "https://open.spotify.com/track/36NzG0ptwi4k798mpIS3Oz",
+        "plays": 1
+      },
+      {
+        "name": "How Long Has This Been Going On?",
+        "album": "Zoot Sims And The Gershwin Brothers",
+        "spotify_url": "https://open.spotify.com/track/2bteVSwQdsVK2mg1T5Ezpa",
+        "plays": 2
+      }
+    ]
+  },
+  "billy-taylor": {
+    "id": "2jiQ4lRvpc4ZTtUFMB3dGF",
+    "name": "Billy Taylor",
+    "spotify_url": "https://open.spotify.com/artist/2jiQ4lRvpc4ZTtUFMB3dGF",
+    "total_plays": 2,
+    "first_seen": "2026-07-15",
+    "last_seen": "2026-07-15",
+    "genres": [
+      "hard bop",
+      "jazz",
+      "jazz ballads"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/14430ae0a3c9bc2e9a2e25617f6d1f8503e93e21",
+        "height": 703,
+        "width": 664
+      },
+      {
+        "url": "https://i.scdn.co/image/24984c8dc13afe8af90eee792c8deef955ac7132",
+        "height": 678,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/87b8383927367e34870128c82eccc47476f249cb",
+        "height": 212,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/2a9b9ad33bc1e14d37a88095e64614703cac1f95",
+        "height": 68,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Solace",
+        "album": "Separate Keyboards",
+        "spotify_url": "https://open.spotify.com/track/1fAlsS0aIrI0hUWUiN0Ehd",
+        "plays": 1
+      },
+      {
+        "name": "Can You Tell by Looking at Me",
+        "album": "The Billy Taylor Touch",
+        "spotify_url": "https://open.spotify.com/track/1UXTRZ15jRAy9xQw8zij1u",
+        "plays": 1
+      },
+      {
+        "name": "That's for Sure",
+        "album": "One For Fun",
+        "spotify_url": "https://open.spotify.com/track/5gNobg7jzXK5Rgr9kmOHYh",
+        "plays": 1
+      }
+    ]
+  },
   "oscar-peterson-trio": {
     "id": "0ldU0QJm31y0d6f57R1G2A",
     "name": "Oscar Peterson Trio",
     "spotify_url": "https://open.spotify.com/artist/0ldU0QJm31y0d6f57R1G2A",
-    "total_plays": 21,
+    "total_plays": 31,
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-13",
+    "last_seen": "2026-07-15",
     "genres": [
       "jazz",
       "cool jazz",
@@ -39123,15 +40223,69 @@
     ],
     "top_tracks": [
       {
+        "name": "Let There Be Love - Live",
+        "album": "At Baker’s Keyboard Lounge: The Complete Recordings",
+        "spotify_url": "https://open.spotify.com/track/6QV4rnmKCHo8EJccoQHu1q",
+        "plays": 2
+      },
+      {
         "name": "Autumn Leaves - Live",
         "album": "At Baker’s Keyboard Lounge: The Complete Recordings",
         "spotify_url": "https://open.spotify.com/track/7c06pUDtjmLMkMQGYtrkrZ",
         "plays": 2
       },
       {
-        "name": "Let There Be Love - Live",
+        "name": "Time And Again",
+        "album": "Oscar Peterson For Lovers (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/18epPmynZUEZcGSUhTxK2t",
+        "plays": 1
+      },
+      {
+        "name": "Honey Dripper",
+        "album": "Night Train (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/0V75nAVrYddcZA41d8MtKn",
+        "plays": 1
+      },
+      {
+        "name": "Closing/Intros/Billy Boy/ When The Saints Go Marching In - Live",
         "album": "At Baker’s Keyboard Lounge: The Complete Recordings",
-        "spotify_url": "https://open.spotify.com/track/6QV4rnmKCHo8EJccoQHu1q",
+        "spotify_url": "https://open.spotify.com/track/5QRhVOfxSbqJ8mfRkVkdsq",
+        "plays": 1
+      },
+      {
+        "name": "Scrapple From The Apple - Live",
+        "album": "At Baker’s Keyboard Lounge: The Complete Recordings",
+        "spotify_url": "https://open.spotify.com/track/7a0i34AhOOQT8wcCbVJeVA",
+        "plays": 1
+      },
+      {
+        "name": "My Funny Valentine - Live",
+        "album": "At Baker’s Keyboard Lounge: The Complete Recordings",
+        "spotify_url": "https://open.spotify.com/track/1V5nTnGnXQcn2v4VD1aFIE",
+        "plays": 1
+      },
+      {
+        "name": "Woody ’N’ You - Live",
+        "album": "At Baker’s Keyboard Lounge: The Complete Recordings",
+        "spotify_url": "https://open.spotify.com/track/1NFXDB9FBPQNqFUZi537mA",
+        "plays": 1
+      },
+      {
+        "name": "Satin Doll - Live",
+        "album": "At Baker’s Keyboard Lounge: The Complete Recordings",
+        "spotify_url": "https://open.spotify.com/track/0dAqrGoP6ZCOXuDTO13R5S",
+        "plays": 1
+      },
+      {
+        "name": "Closing/Intros/Blues For Big Scotia - Live",
+        "album": "At Baker’s Keyboard Lounge: The Complete Recordings",
+        "spotify_url": "https://open.spotify.com/track/2RqYVgwZVGoSo2yFyoUGCy",
+        "plays": 1
+      },
+      {
+        "name": "Swamp Fire - Live",
+        "album": "At Baker’s Keyboard Lounge: The Complete Recordings",
+        "spotify_url": "https://open.spotify.com/track/6hAt0Vmeku2O7YNIexfmkC",
         "plays": 1
       },
       {
@@ -39312,6 +40466,263 @@
         "name": "My One And Only Love",
         "album": "Oscar Peterson For Lovers (Deluxe Edition)",
         "spotify_url": "https://open.spotify.com/track/7Gf896pRsrMkQpQTkqMI09",
+        "plays": 1
+      }
+    ]
+  },
+  "tommy-flanagan": {
+    "id": "6dUZplQfg5blo0h9HiJ94d",
+    "name": "Tommy Flanagan",
+    "spotify_url": "https://open.spotify.com/artist/6dUZplQfg5blo0h9HiJ94d",
+    "total_plays": 2,
+    "first_seen": "2026-07-15",
+    "last_seen": "2026-07-15",
+    "genres": [
+      "hard bop",
+      "jazz",
+      "jazz ballads",
+      "bebop",
+      "cool jazz"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/8502de1776934833e9bdfc8d080bb6eb1c14f5c5",
+        "height": 1058,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/31f1c746ceb3ed6b0762801064c3c0ce354340dc",
+        "height": 677,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/a59da87218b4693e2336d1af63764eddf7581124",
+        "height": 212,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/dde98f2f547ae7e03643fd29e26ecd6d6e5c325f",
+        "height": 68,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Willow Weep for Me",
+        "album": "Keys To The City",
+        "spotify_url": "https://open.spotify.com/track/1oRulP3iXNzlL103A2hnKC",
+        "plays": 2
+      },
+      {
+        "name": "St. Thomas",
+        "album": "Saxophone Colossus",
+        "spotify_url": "https://open.spotify.com/track/05LNBtMuc26HSAHh7C6iG8",
+        "plays": 2
+      },
+      {
+        "name": "Denzil's Best",
+        "album": "Eclypso",
+        "spotify_url": "https://open.spotify.com/track/6IuiRJsGQ1pCqyGwc9lBgi",
+        "plays": 2
+      },
+      {
+        "name": "You Don't Know What Love Is - Rudy Van Gelder Remaster",
+        "album": "Saxophone Colossus",
+        "spotify_url": "https://open.spotify.com/track/1to5IySvboywOgXW9jCjDn",
+        "plays": 2
+      },
+      {
+        "name": "Blue 7 - Rudy Van Gelder Remaster",
+        "album": "Saxophone Colossus",
+        "spotify_url": "https://open.spotify.com/track/3oWcCZ9K9R1fHUbAKxo99m",
+        "plays": 2
+      },
+      {
+        "name": "Skal Brothers",
+        "album": "Keyboard Virtuoso",
+        "spotify_url": "https://open.spotify.com/track/5pZctiRuY12nxYpxM3VbPH",
+        "plays": 1
+      },
+      {
+        "name": "Relaxin' at Camarillo",
+        "album": "Keyboard Virtuoso",
+        "spotify_url": "https://open.spotify.com/track/0I25KRPHOe8qLUVOIjFKK1",
+        "plays": 1
+      },
+      {
+        "name": "Beats Up",
+        "album": "Keyboard Virtuoso",
+        "spotify_url": "https://open.spotify.com/track/1LQymeqXW4OjFUcXQoHAw7",
+        "plays": 1
+      },
+      {
+        "name": "Chelsea Bridge",
+        "album": "The Art of the Piano, Vol. 6",
+        "spotify_url": "https://open.spotify.com/track/2pW1iCPHWpuQUMlA90zI6Q",
+        "plays": 1
+      },
+      {
+        "name": "Delarna (Take 2)",
+        "album": "Beats up in Stockholm! Tommy Flanagan, August 1957",
+        "spotify_url": "https://open.spotify.com/track/3maKU90RWKn0dfRFx06Zni",
+        "plays": 1
+      }
+    ]
+  },
+  "phineas-newborn-jr": {
+    "id": "1WsMRWV5KEC2AxpYkeb2Cf",
+    "name": "Phineas Newborn Jr.",
+    "spotify_url": "https://open.spotify.com/artist/1WsMRWV5KEC2AxpYkeb2Cf",
+    "total_plays": 1,
+    "first_seen": "2026-07-15",
+    "last_seen": "2026-07-15",
+    "genres": [
+      "hard bop",
+      "bebop",
+      "jazz",
+      "cool jazz"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b273c3b77abaa8abe6ff3ba235ec",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e02c3b77abaa8abe6ff3ba235ec",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00004851c3b77abaa8abe6ff3ba235ec",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Afternoon in Paris",
+        "album": "Here Is Phineas",
+        "spotify_url": "https://open.spotify.com/track/1oYgSqvxcijRk3ksFE0HTa",
+        "plays": 1
+      }
+    ]
+  },
+  "ray-bryant": {
+    "id": "617L0tV5Y7lMvUHGHR43AR",
+    "name": "Ray Bryant",
+    "spotify_url": "https://open.spotify.com/artist/617L0tV5Y7lMvUHGHR43AR",
+    "total_plays": 1,
+    "first_seen": "2026-07-15",
+    "last_seen": "2026-07-15",
+    "genres": [
+      "jazz",
+      "afro-cuban jazz",
+      "vocal jazz",
+      "hard bop"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb354cd7878877b1b05eedc61c",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174354cd7878877b1b05eedc61c",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178354cd7878877b1b05eedc61c",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Philadelphia Bound",
+        "album": "Dynamic Piano Collection",
+        "spotify_url": "https://open.spotify.com/track/0RQZOv9z95sCdDkKa032ij",
+        "plays": 1
+      },
+      {
+        "name": "A Hundred Dreams from Now",
+        "album": "Presenting Ray Bryant",
+        "spotify_url": "https://open.spotify.com/track/0VIr8A09UYvMTrGw0Um7op",
+        "plays": 1
+      }
+    ]
+  },
+  "hampton-hawes-trio": {
+    "id": "6EDLWCpiBEWX51V16atdRN",
+    "name": "Hampton Hawes Trio",
+    "spotify_url": "https://open.spotify.com/artist/6EDLWCpiBEWX51V16atdRN",
+    "total_plays": 3,
+    "first_seen": "2026-07-15",
+    "last_seen": "2026-07-15",
+    "genres": [
+      "hard bop",
+      "bebop",
+      "jazz"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b273622281583f5aeb3e23b4b026",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e02622281583f5aeb3e23b4b026",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00004851622281583f5aeb3e23b4b026",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "What Is This Thing Called Love",
+        "album": "Hampton Hawes Trio, Vol. 1",
+        "spotify_url": "https://open.spotify.com/track/4wN3gnjYsVHcPM9Do8EkGT",
+        "plays": 1
+      },
+      {
+        "name": "Blues The Most",
+        "album": "Hampton Hawes Trio, Vol. 1",
+        "spotify_url": "https://open.spotify.com/track/0MkqBRxZVVDAowpfu7pcq9",
+        "plays": 1
+      },
+      {
+        "name": "All The Things You Are",
+        "album": "Hampton Hawes Trio, Vol. 1",
+        "spotify_url": "https://open.spotify.com/track/49urR10kp9wLLtaEqWVZFQ",
+        "plays": 1
+      },
+      {
+        "name": "Hamp's Blues",
+        "album": "Hampton Hawes Trio, Vol. 1",
+        "spotify_url": "https://open.spotify.com/track/03obDbgBJszoFnutoBTCxz",
+        "plays": 2
+      },
+      {
+        "name": "Feelin' Fine",
+        "album": "Hampton Hawes Trio, Vol. 1",
+        "spotify_url": "https://open.spotify.com/track/5a7kjZpQdXKqK4ITHZ9tDj",
+        "plays": 2
+      },
+      {
+        "name": "Carioca",
+        "album": "Hampton Hawes Trio, Vol. 1",
+        "spotify_url": "https://open.spotify.com/track/5KTGOxbL6BYlQ7uSlp3VwM",
+        "plays": 1
+      },
+      {
+        "name": "I Got Rhythm",
+        "album": "Hampton Hawes Trio, Vol. 1",
+        "spotify_url": "https://open.spotify.com/track/4l1Z9L2l0bBSHFxYtReBUk",
         "plays": 1
       }
     ]
@@ -44449,152 +45860,6 @@
       }
     ]
   },
-  "wes-montgomery-trio": {
-    "id": "6WbUlW1uuChmQumXueDmgp",
-    "name": "Wes Montgomery Trio",
-    "spotify_url": "https://open.spotify.com/artist/6WbUlW1uuChmQumXueDmgp",
-    "total_plays": 23,
-    "first_seen": "",
-    "last_seen": "",
-    "genres": [
-      "jazz guitar",
-      "jazz guitar trio",
-      "jazz trio"
-    ],
-    "images": [
-      {
-        "height": 640,
-        "url": "https://i.scdn.co/image/ab67616d0000b27316527ecf2808e6268f431422",
-        "width": 640
-      },
-      {
-        "height": 300,
-        "url": "https://i.scdn.co/image/ab67616d00001e0216527ecf2808e6268f431422",
-        "width": 300
-      },
-      {
-        "height": 64,
-        "url": "https://i.scdn.co/image/ab67616d0000485116527ecf2808e6268f431422",
-        "width": 64
-      }
-    ],
-    "top_tracks": [
-      {
-        "name": "Missile Blues - Take 5",
-        "album": "The Wes Montgomery Trio (Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/6SWajIHqwoLX9gGuMI7OJl",
-        "plays": 3
-      },
-      {
-        "name": "Yesterdays",
-        "album": "The Wes Montgomery Trio (Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/6syzakkI2K7KOdgL8ubC9h",
-        "plays": 2
-      },
-      {
-        "name": "The Way You Look Tonight - Take 2",
-        "album": "Guitar On The Go",
-        "spotify_url": "https://open.spotify.com/track/36ueR1ov7f2PNLPibP3QCm",
-        "plays": 2
-      },
-      {
-        "name": "Geno",
-        "album": "Guitar On The Go",
-        "spotify_url": "https://open.spotify.com/track/7BHr7YcfeurMipWKh3I7eU",
-        "plays": 1
-      },
-      {
-        "name": "'Round Midnight",
-        "album": "The Wes Montgomery Trio (Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/5M3K9hIHwyHYWxR2GTpXEd",
-        "plays": 1
-      },
-      {
-        "name": "Ecaroh",
-        "album": "The Wes Montgomery Trio (Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/0Lf9riF2A1IimuxvLjPVBu",
-        "plays": 1
-      },
-      {
-        "name": "The End Of A Love Affair",
-        "album": "The Wes Montgomery Trio (Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/0xMLwwcapZvc0XKxNx6tFW",
-        "plays": 1
-      },
-      {
-        "name": "Too Late Now",
-        "album": "The Wes Montgomery Trio (Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/21jd6AnhN9VwpmZnsSOWAt",
-        "plays": 1
-      },
-      {
-        "name": "Yesterday's Child",
-        "album": "Portrait Of Wes",
-        "spotify_url": "https://open.spotify.com/track/3fqZrbgdXUFxigrDce5N4v",
-        "plays": 1
-      },
-      {
-        "name": "Freddie Freeloader",
-        "album": "Portrait Of Wes",
-        "spotify_url": "https://open.spotify.com/track/4bWxamySnXJ0cIKSaIQM9U",
-        "plays": 1
-      },
-      {
-        "name": "Whisper Not",
-        "album": "The Wes Montgomery Trio (Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/4D0cBAJzf8mVjkVb09ozEw",
-        "plays": 1
-      },
-      {
-        "name": "Fried Pies",
-        "album": "Guitar On The Go",
-        "spotify_url": "https://open.spotify.com/track/6CnxiFBqcqnEluRettMCox",
-        "plays": 1
-      },
-      {
-        "name": "Satin Doll - Take 7",
-        "album": "The Wes Montgomery Trio (Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/63JrlMKEinao3JIrvCmJqq",
-        "plays": 1
-      },
-      {
-        "name": "Moanin' - Take 10 / Alternate",
-        "album": "Portrait Of Wes",
-        "spotify_url": "https://open.spotify.com/track/7KpMNaml5PADLm6w5Suszz",
-        "plays": 1
-      },
-      {
-        "name": "Missile Blues - Take 6",
-        "album": "The Wes Montgomery Trio (Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/0goILZsvdPeZwXzdnn4ZZA",
-        "plays": 1
-      },
-      {
-        "name": "Jingles",
-        "album": "The Wes Montgomery Trio (Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/3MP0q8nE5J9xM0voN84QJG",
-        "plays": 1
-      },
-      {
-        "name": "Dreamsville",
-        "album": "Guitar On The Go",
-        "spotify_url": "https://open.spotify.com/track/3YNkdXJJLi13aPOTuZ7jqx",
-        "plays": 1
-      },
-      {
-        "name": "For All We Know",
-        "album": "Guitar On The Go",
-        "spotify_url": "https://open.spotify.com/track/7Fxbp22O14RQNhCgELrTlr",
-        "plays": 1
-      },
-      {
-        "name": "Mi Cosa - Take 1",
-        "album": "Guitar On The Go",
-        "spotify_url": "https://open.spotify.com/track/0XtacS0xmGwfrLbPyKlGJF",
-        "plays": 1
-      }
-    ]
-  },
   "franz-schubert": {
     "id": "2p0UyoPfYfI76PCStuXfOP",
     "name": "Franz Schubert",
@@ -45426,122 +46691,6 @@
         "name": "Into the Groove",
         "album": "Celebration (double disc version)",
         "spotify_url": "https://open.spotify.com/track/2m0M7YqCy4lXfedh18qd8N",
-        "plays": 1
-      }
-    ]
-  },
-  "bobby-timmons": {
-    "id": "0xRqtLGIVSzXM9yg2wFMLC",
-    "name": "Bobby Timmons",
-    "spotify_url": "https://open.spotify.com/artist/0xRqtLGIVSzXM9yg2wFMLC",
-    "total_plays": 19,
-    "first_seen": "",
-    "last_seen": "",
-    "genres": [
-      "bebop",
-      "hard bop",
-      "jazz piano"
-    ],
-    "images": [
-      {
-        "height": 640,
-        "url": "https://i.scdn.co/image/ab6761610000e5ebb724a6d272499aaf94f8bced",
-        "width": 640
-      },
-      {
-        "height": 320,
-        "url": "https://i.scdn.co/image/ab67616100005174b724a6d272499aaf94f8bced",
-        "width": 320
-      },
-      {
-        "height": 160,
-        "url": "https://i.scdn.co/image/ab6761610000f178b724a6d272499aaf94f8bced",
-        "width": 160
-      }
-    ],
-    "top_tracks": [
-      {
-        "name": "Lush Life",
-        "album": "This Here Is Bobby Timmons",
-        "spotify_url": "https://open.spotify.com/track/6E81pDQAoxgGEAGqVbPgYr",
-        "plays": 2
-      },
-      {
-        "name": "This Here",
-        "album": "This Here Is Bobby Timmons",
-        "spotify_url": "https://open.spotify.com/track/77tXih9Z5Jid24z21GOJE5",
-        "plays": 2
-      },
-      {
-        "name": "My Funny Valentine",
-        "album": "This Here Is Bobby Timmons",
-        "spotify_url": "https://open.spotify.com/track/2fBBNZ4DkCRy0wR0jBUIWf",
-        "plays": 2
-      },
-      {
-        "name": "Moanin'",
-        "album": "This Here Is Bobby Timmons",
-        "spotify_url": "https://open.spotify.com/track/1qLlkVWv58M8mcoRZPHD3I",
-        "plays": 2
-      },
-      {
-        "name": "So Tired",
-        "album": "Soul Time",
-        "spotify_url": "https://open.spotify.com/track/6XI8KS3xMhQTfrRysGd6tZ",
-        "plays": 2
-      },
-      {
-        "name": "Autumn In New York",
-        "album": "Young Chet",
-        "spotify_url": "https://open.spotify.com/track/6Ad2BCQGByNSDSYAdn9iEk",
-        "plays": 1
-      },
-      {
-        "name": "Prelude To A Kiss",
-        "album": "This Here Is Bobby Timmons",
-        "spotify_url": "https://open.spotify.com/track/4NBGEa1LwQoMjbdRrZZN0V",
-        "plays": 1
-      },
-      {
-        "name": "The Touch Of Your Lips",
-        "album": "Soul Time",
-        "spotify_url": "https://open.spotify.com/track/4IbtQT0EjHEtLbdTx949TV",
-        "plays": 1
-      },
-      {
-        "name": "Dat Dere",
-        "album": "This Here Is Bobby Timmons",
-        "spotify_url": "https://open.spotify.com/track/5DLMl8htquCxvOnO1k60dy",
-        "plays": 1
-      },
-      {
-        "name": "Soul Time",
-        "album": "Soul Time",
-        "spotify_url": "https://open.spotify.com/track/5Ds5ZkIHtou33wHUJNVonN",
-        "plays": 1
-      },
-      {
-        "name": "The Sweetest Sounds",
-        "album": "Sweet And Soulful Sounds",
-        "spotify_url": "https://open.spotify.com/track/7AkQHS58Sq3nyrVcmxTRrP",
-        "plays": 1
-      },
-      {
-        "name": "Come Rain Or Come Shine",
-        "album": "This Here Is Bobby Timmons",
-        "spotify_url": "https://open.spotify.com/track/0kwXYg8kpyTP3bzBcwGgMY",
-        "plays": 1
-      },
-      {
-        "name": "The Party's Over",
-        "album": "This Here Is Bobby Timmons",
-        "spotify_url": "https://open.spotify.com/track/4RCInCQO7MfS7HyuadswHJ",
-        "plays": 1
-      },
-      {
-        "name": "Joyride",
-        "album": "This Here Is Bobby Timmons",
-        "spotify_url": "https://open.spotify.com/track/6xJRdQChXeZZ8GVDitl7fX",
         "plays": 1
       }
     ]
@@ -48593,105 +49742,6 @@
         "name": "5 Little Preludes, BWV 939-943: Prelude In A Minor, BWV 942",
         "album": "J. S. Bach: Italian Concerto / Chromatic Fantasia And Fugue / 12 Little Preludes",
         "spotify_url": "https://open.spotify.com/track/6xxypuJ3g1Pg6OdnAFOXk5",
-        "plays": 1
-      }
-    ]
-  },
-  "kenny-dorham": {
-    "id": "2fMvylhnE23sAlyePKK8er",
-    "name": "Kenny Dorham",
-    "spotify_url": "https://open.spotify.com/artist/2fMvylhnE23sAlyePKK8er",
-    "total_plays": 14,
-    "first_seen": "",
-    "last_seen": "",
-    "genres": [
-      "bebop",
-      "hard bop",
-      "jazz",
-      "jazz trumpet"
-    ],
-    "images": [
-      {
-        "height": 640,
-        "url": "https://i.scdn.co/image/ab67616d0000b273028ede8b512bcdad84b887e1",
-        "width": 640
-      },
-      {
-        "height": 300,
-        "url": "https://i.scdn.co/image/ab67616d00001e02028ede8b512bcdad84b887e1",
-        "width": 300
-      },
-      {
-        "height": 64,
-        "url": "https://i.scdn.co/image/ab67616d00004851028ede8b512bcdad84b887e1",
-        "width": 64
-      }
-    ],
-    "top_tracks": [
-      {
-        "name": "Dorham's Epitaph - Remastered 2014",
-        "album": "Whistle Stop (Remastered 2014)",
-        "spotify_url": "https://open.spotify.com/track/28UC4Sk3EHAuEbTSQxoGsP",
-        "plays": 2
-      },
-      {
-        "name": "Alone Together - Rudy Van Gelder Remaster 2006",
-        "album": "Quiet Kenny",
-        "spotify_url": "https://open.spotify.com/track/3GOZbK2epuHzCt5YvvVFHO",
-        "plays": 2
-      },
-      {
-        "name": "I Had The Craziest Dream",
-        "album": "Quiet Kenny",
-        "spotify_url": "https://open.spotify.com/track/2awC8Pix7qe8lIXKncuwsS",
-        "plays": 2
-      },
-      {
-        "name": "Lotus Flower - Rudy Van Gelder Edition/2007 Digital Remaster",
-        "album": "Afro-Cuban (Rudy Van Gelder Edition)",
-        "spotify_url": "https://open.spotify.com/track/5LCOngkOEmtgLf0Igfu63k",
-        "plays": 1
-      },
-      {
-        "name": "Lotus Blossom",
-        "album": "Quiet Kenny",
-        "spotify_url": "https://open.spotify.com/track/4JfOUrNqNVsy1XWC99JdmV",
-        "plays": 1
-      },
-      {
-        "name": "My Ideal",
-        "album": "Quiet Kenny",
-        "spotify_url": "https://open.spotify.com/track/20iVJu5WfnEKda2uFhLP7d",
-        "plays": 1
-      },
-      {
-        "name": "Afrodisia - Remastered/Rudy Van Gelder Edition",
-        "album": "Afro-Cuban (Rudy Van Gelder Edition)",
-        "spotify_url": "https://open.spotify.com/track/2hpMxW0cUf6CUoiUf8lFFh",
-        "plays": 1
-      },
-      {
-        "name": "Monaco - Set 1 / Live From Cafe Bohemia/1956",
-        "album": "The Complete 'Round About Midnight At The Cafe Bohemia (Live)",
-        "spotify_url": "https://open.spotify.com/track/3xPGQOckEwKVv4JpqcVLpi",
-        "plays": 1
-      },
-      {
-        "name": "Mack The Knife",
-        "album": "Quiet Kenny",
-        "spotify_url": "https://open.spotify.com/track/6DN6vzoIVXSSqIEGO5rLbG",
-        "plays": 1
-      },
-      {
-        "name": "If Ever I Would Leave You - Remasted 1998/ Rudy Van Gelder Edition",
-        "album": "Una Mas",
-        "spotify_url": "https://open.spotify.com/track/2DPcK58j3Zms6ybVIKSIIY",
-        "plays": 1
-      },
-      {
-        "name": "Old Folks",
-        "album": "Quiet Kenny",
-        "spotify_url": "https://open.spotify.com/track/5L2m3nl85t68HHbULBvFBH",
         "plays": 1
       }
     ]
@@ -56025,97 +57075,6 @@
       }
     ]
   },
-  "tommy-flanagan": {
-    "id": "6dUZplQfg5blo0h9HiJ94d",
-    "name": "Tommy Flanagan",
-    "spotify_url": "https://open.spotify.com/artist/6dUZplQfg5blo0h9HiJ94d",
-    "total_plays": 13,
-    "first_seen": "",
-    "last_seen": "",
-    "genres": [
-      "bebop",
-      "jazz",
-      "jazz piano"
-    ],
-    "images": [
-      {
-        "height": 1226,
-        "url": "https://i.scdn.co/image/c68fcdfc2f1bf369586702522f9b4febd35e8847",
-        "width": 1000
-      },
-      {
-        "height": 785,
-        "url": "https://i.scdn.co/image/046d674328294eb979f2ab3cb91e45fcc4d454a8",
-        "width": 640
-      },
-      {
-        "height": 245,
-        "url": "https://i.scdn.co/image/ca7cb2a6d4ddcad0163f668a83e37cbdc7063976",
-        "width": 200
-      },
-      {
-        "height": 78,
-        "url": "https://i.scdn.co/image/d56984441fcbb2f3628f5caf58f21685352c2df7",
-        "width": 64
-      }
-    ],
-    "top_tracks": [
-      {
-        "name": "St. Thomas",
-        "album": "Saxophone Colossus",
-        "spotify_url": "https://open.spotify.com/track/05LNBtMuc26HSAHh7C6iG8",
-        "plays": 2
-      },
-      {
-        "name": "Denzil's Best",
-        "album": "Eclypso",
-        "spotify_url": "https://open.spotify.com/track/6IuiRJsGQ1pCqyGwc9lBgi",
-        "plays": 2
-      },
-      {
-        "name": "You Don't Know What Love Is - Rudy Van Gelder Remaster",
-        "album": "Saxophone Colossus",
-        "spotify_url": "https://open.spotify.com/track/1to5IySvboywOgXW9jCjDn",
-        "plays": 2
-      },
-      {
-        "name": "Blue 7 - Rudy Van Gelder Remaster",
-        "album": "Saxophone Colossus",
-        "spotify_url": "https://open.spotify.com/track/3oWcCZ9K9R1fHUbAKxo99m",
-        "plays": 2
-      },
-      {
-        "name": "Skal Brothers",
-        "album": "Keyboard Virtuoso",
-        "spotify_url": "https://open.spotify.com/track/5pZctiRuY12nxYpxM3VbPH",
-        "plays": 1
-      },
-      {
-        "name": "Relaxin' at Camarillo",
-        "album": "Keyboard Virtuoso",
-        "spotify_url": "https://open.spotify.com/track/0I25KRPHOe8qLUVOIjFKK1",
-        "plays": 1
-      },
-      {
-        "name": "Beats Up",
-        "album": "Keyboard Virtuoso",
-        "spotify_url": "https://open.spotify.com/track/1LQymeqXW4OjFUcXQoHAw7",
-        "plays": 1
-      },
-      {
-        "name": "Chelsea Bridge",
-        "album": "The Art of the Piano, Vol. 6",
-        "spotify_url": "https://open.spotify.com/track/2pW1iCPHWpuQUMlA90zI6Q",
-        "plays": 1
-      },
-      {
-        "name": "Delarna (Take 2)",
-        "album": "Beats up in Stockholm! Tommy Flanagan, August 1957",
-        "spotify_url": "https://open.spotify.com/track/3maKU90RWKn0dfRFx06Zni",
-        "plays": 1
-      }
-    ]
-  },
   "lord-finesse": {
     "id": "1C6G15UmVQMDGpYbdsf1Oi",
     "name": "Lord Finesse",
@@ -58894,72 +59853,6 @@
       }
     ]
   },
-  "tommy-flanagan-trio": {
-    "id": "5N8jNQsfW9SHBkhVqqnXbU",
-    "name": "Tommy Flanagan Trio",
-    "spotify_url": "https://open.spotify.com/artist/5N8jNQsfW9SHBkhVqqnXbU",
-    "total_plays": 9,
-    "first_seen": "",
-    "last_seen": "",
-    "genres": [
-      "jazz trio"
-    ],
-    "images": [
-      {
-        "height": 640,
-        "url": "https://i.scdn.co/image/ab67616d0000b273e64667b70edf1233bbc498b3",
-        "width": 640
-      },
-      {
-        "height": 300,
-        "url": "https://i.scdn.co/image/ab67616d00001e02e64667b70edf1233bbc498b3",
-        "width": 300
-      },
-      {
-        "height": 64,
-        "url": "https://i.scdn.co/image/ab67616d00004851e64667b70edf1233bbc498b3",
-        "width": 64
-      }
-    ],
-    "top_tracks": [
-      {
-        "name": "Jes' Fine",
-        "album": "Tommy Flanagan Trio",
-        "spotify_url": "https://open.spotify.com/track/0d6aCxm52mrXa67DkVjsaW",
-        "plays": 2
-      },
-      {
-        "name": "Relaxin' at Camarillo",
-        "album": "Presenting The Tommy Flanagan Trio",
-        "spotify_url": "https://open.spotify.com/track/1KqCGnVcrn9UBI10I7LFFf",
-        "plays": 2
-      },
-      {
-        "name": "Verdandi",
-        "album": "Presenting The Tommy Flanagan Trio",
-        "spotify_url": "https://open.spotify.com/track/3CT6ECWAcRWgbcxkvTR7RB",
-        "plays": 2
-      },
-      {
-        "name": "Born To Be Blue",
-        "album": "Tommy Flanagan Trio",
-        "spotify_url": "https://open.spotify.com/track/0q2B8hRHzThL8CTlzCv06e",
-        "plays": 1
-      },
-      {
-        "name": "Delarna",
-        "album": "Presenting The Tommy Flanagan Trio",
-        "spotify_url": "https://open.spotify.com/track/2tcVqUcQ4qrzJEr9AXqokl",
-        "plays": 1
-      },
-      {
-        "name": "In The Blue Of The Evening",
-        "album": "Tommy Flanagan Trio",
-        "spotify_url": "https://open.spotify.com/track/30elPK31lRDN1kFjnt7HRQ",
-        "plays": 1
-      }
-    ]
-  },
   "stevie-ray-vaughan": {
     "id": "5fsDcuclIe8ZiBD5P787K1",
     "name": "Stevie Ray Vaughan",
@@ -59101,74 +59994,6 @@
         "name": "Love Struck Baby",
         "album": "Texas Flood (Legacy Edition)",
         "spotify_url": "https://open.spotify.com/track/5MVMARaMoclifNmBtPu0dD",
-        "plays": 1
-      }
-    ]
-  },
-  "kenny-drew": {
-    "id": "65uKPt40QH8dMBLuoJHPVY",
-    "name": "Kenny Drew",
-    "spotify_url": "https://open.spotify.com/artist/65uKPt40QH8dMBLuoJHPVY",
-    "total_plays": 9,
-    "first_seen": "",
-    "last_seen": "",
-    "genres": [
-      "bebop",
-      "hard bop",
-      "jazz piano"
-    ],
-    "images": [
-      {
-        "height": 640,
-        "url": "https://i.scdn.co/image/ab67616d0000b273e3fc77d913301886a7cc7d17",
-        "width": 640
-      },
-      {
-        "height": 300,
-        "url": "https://i.scdn.co/image/ab67616d00001e02e3fc77d913301886a7cc7d17",
-        "width": 300
-      },
-      {
-        "height": 64,
-        "url": "https://i.scdn.co/image/ab67616d00004851e3fc77d913301886a7cc7d17",
-        "width": 64
-      }
-    ],
-    "top_tracks": [
-      {
-        "name": "Bluesville",
-        "album": "Kenny Drew And His Progressive Piano",
-        "spotify_url": "https://open.spotify.com/track/12O4AISrTgMpgpIMnS09lA",
-        "plays": 2
-      },
-      {
-        "name": "Chartreuse",
-        "album": "Kenny Drew And His Progressive Piano",
-        "spotify_url": "https://open.spotify.com/track/3AF40YsNhI8LfFnxKvcgGB",
-        "plays": 2
-      },
-      {
-        "name": "Four And Five",
-        "album": "Kenny Drew And His Progressive Piano",
-        "spotify_url": "https://open.spotify.com/track/5U4Io4DxCYZ788PBsvmhZA",
-        "plays": 2
-      },
-      {
-        "name": "Many Miles Away",
-        "album": "Kenny Drew And His Progressive Piano",
-        "spotify_url": "https://open.spotify.com/track/4cELGthlcsgrd6s4jFLHJe",
-        "plays": 1
-      },
-      {
-        "name": "Angie",
-        "album": "Kenny Drew And His Progressive Piano",
-        "spotify_url": "https://open.spotify.com/track/3muCX1wAFvCtCBrbzlkeJ8",
-        "plays": 1
-      },
-      {
-        "name": "52nd Street Theme",
-        "album": "Kenny Drew And His Progressive Piano",
-        "spotify_url": "https://open.spotify.com/track/63AH56BdSoBHKJAnsB6KiR",
         "plays": 1
       }
     ]
@@ -63502,173 +64327,6 @@
         "name": "Dust My Broom",
         "album": "Getting Ready... (World)",
         "spotify_url": "https://open.spotify.com/track/3d5FEg4ALbi4TXJGpdMIMY",
-        "plays": 1
-      }
-    ]
-  },
-  "john-coltrane-quartet": {
-    "id": "67PZTxaHKMZBFRUh8wIzCy",
-    "name": "John Coltrane Quartet",
-    "spotify_url": "https://open.spotify.com/artist/67PZTxaHKMZBFRUh8wIzCy",
-    "total_plays": 7,
-    "first_seen": "",
-    "last_seen": "",
-    "genres": [
-      "bebop",
-      "contemporary post-bop",
-      "hard bop",
-      "jazz",
-      "jazz quartet",
-      "jazz saxophone"
-    ],
-    "images": [
-      {
-        "height": 640,
-        "url": "https://i.scdn.co/image/ab67616d0000b273a3d4884d3433efed2c4a0563",
-        "width": 640
-      },
-      {
-        "height": 300,
-        "url": "https://i.scdn.co/image/ab67616d00001e02a3d4884d3433efed2c4a0563",
-        "width": 300
-      },
-      {
-        "height": 64,
-        "url": "https://i.scdn.co/image/ab67616d00004851a3d4884d3433efed2c4a0563",
-        "width": 64
-      }
-    ],
-    "top_tracks": [
-      {
-        "name": "Nancy (With The Laughing Face)",
-        "album": "Ballads (Deluxe Edition - Rudy Van Gelder Remaster)",
-        "spotify_url": "https://open.spotify.com/track/2HdvZsLXBmO9sc4cV8d4BA",
-        "plays": 2
-      },
-      {
-        "name": "Say It (Over And Over Again)",
-        "album": "Ballads (Deluxe Edition - Rudy Van Gelder Remaster)",
-        "spotify_url": "https://open.spotify.com/track/016HKF7A4O7tatoJ9BgZM1",
-        "plays": 2
-      },
-      {
-        "name": "It's Easy To Remember",
-        "album": "Ballads (Deluxe Edition - Rudy Van Gelder Remaster)",
-        "spotify_url": "https://open.spotify.com/track/1lZ41PumDFX0e82XTGx4sE",
-        "plays": 2
-      },
-      {
-        "name": "They Say It's Wonderful",
-        "album": "Ballads (Deluxe Edition - Rudy Van Gelder Remaster)",
-        "spotify_url": "https://open.spotify.com/track/2TFzmt2xRoSd3KNelJcUxZ",
-        "plays": 1
-      }
-    ]
-  },
-  "hampton-hawes-trio": {
-    "id": "6EDLWCpiBEWX51V16atdRN",
-    "name": "Hampton Hawes Trio",
-    "spotify_url": "https://open.spotify.com/artist/6EDLWCpiBEWX51V16atdRN",
-    "total_plays": 6,
-    "first_seen": "",
-    "last_seen": "",
-    "genres": [
-      "jazz trio"
-    ],
-    "images": [
-      {
-        "height": 640,
-        "url": "https://i.scdn.co/image/ab67616d0000b273622281583f5aeb3e23b4b026",
-        "width": 640
-      },
-      {
-        "height": 300,
-        "url": "https://i.scdn.co/image/ab67616d00001e02622281583f5aeb3e23b4b026",
-        "width": 300
-      },
-      {
-        "height": 64,
-        "url": "https://i.scdn.co/image/ab67616d00004851622281583f5aeb3e23b4b026",
-        "width": 64
-      }
-    ],
-    "top_tracks": [
-      {
-        "name": "Hamp's Blues",
-        "album": "Hampton Hawes Trio, Vol. 1",
-        "spotify_url": "https://open.spotify.com/track/03obDbgBJszoFnutoBTCxz",
-        "plays": 2
-      },
-      {
-        "name": "Feelin' Fine",
-        "album": "Hampton Hawes Trio, Vol. 1",
-        "spotify_url": "https://open.spotify.com/track/5a7kjZpQdXKqK4ITHZ9tDj",
-        "plays": 2
-      },
-      {
-        "name": "Carioca",
-        "album": "Hampton Hawes Trio, Vol. 1",
-        "spotify_url": "https://open.spotify.com/track/5KTGOxbL6BYlQ7uSlp3VwM",
-        "plays": 1
-      },
-      {
-        "name": "I Got Rhythm",
-        "album": "Hampton Hawes Trio, Vol. 1",
-        "spotify_url": "https://open.spotify.com/track/4l1Z9L2l0bBSHFxYtReBUk",
-        "plays": 1
-      }
-    ]
-  },
-  "gerry-mulligan-sextet": {
-    "id": "6tzN9Ew9w6JB0UQr8culs1",
-    "name": "Gerry Mulligan Sextet",
-    "spotify_url": "https://open.spotify.com/artist/6tzN9Ew9w6JB0UQr8culs1",
-    "total_plays": 5,
-    "first_seen": "",
-    "last_seen": "",
-    "genres": [
-      "cool jazz"
-    ],
-    "images": [
-      {
-        "height": 640,
-        "url": "https://i.scdn.co/image/ab67616d0000b2731f9a8489ece76072b2a77f7a",
-        "width": 640
-      },
-      {
-        "height": 300,
-        "url": "https://i.scdn.co/image/ab67616d00001e021f9a8489ece76072b2a77f7a",
-        "width": 300
-      },
-      {
-        "height": 64,
-        "url": "https://i.scdn.co/image/ab67616d000048511f9a8489ece76072b2a77f7a",
-        "width": 64
-      }
-    ],
-    "top_tracks": [
-      {
-        "name": "Morning Of The Carnival - From \"Black Orpheus\"",
-        "album": "Night Lights (Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/6GQ6rapsknPIutGbpv0DTR",
-        "plays": 2
-      },
-      {
-        "name": "Prelude In E Minor",
-        "album": "Night Lights (Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/17OHsQ5RBrU6b9lTaPP0vh",
-        "plays": 1
-      },
-      {
-        "name": "Tell Me When",
-        "album": "Night Lights (Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/358K63AaaKKNFryT2zJ2Ib",
-        "plays": 1
-      },
-      {
-        "name": "In The Wee Small Hours Of The Morning",
-        "album": "Night Lights (Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/4c9u4ruTL1xWv2YcnS8AjN",
         "plays": 1
       }
     ]
