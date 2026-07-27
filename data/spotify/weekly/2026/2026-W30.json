@@ -1,0 +1,259 @@
+{
+  "week": "2026-W30",
+  "title": "Week of Jul 20, 2026",
+  "year": 2026,
+  "week_num": 30,
+  "date_start": "2026-07-20",
+  "date_end": "2026-07-26",
+  "total_plays": 9,
+  "unique_artists": 6,
+  "topArtistName": "Parliament",
+  "topArtistImages": [
+    {
+      "url": "https://i.scdn.co/image/ab6761610000e5eb6d32e1e62d928ac057284b4c",
+      "height": 640,
+      "width": 640
+    },
+    {
+      "url": "https://i.scdn.co/image/ab676161000051746d32e1e62d928ac057284b4c",
+      "height": 320,
+      "width": 320
+    },
+    {
+      "url": "https://i.scdn.co/image/ab6761610000f1786d32e1e62d928ac057284b4c",
+      "height": 160,
+      "width": 160
+    }
+  ],
+  "top_genres": [
+    {
+      "name": "funk",
+      "plays": 5
+    },
+    {
+      "name": "funk rock",
+      "plays": 3
+    },
+    {
+      "name": "disco",
+      "plays": 2
+    },
+    {
+      "name": "bluegrass",
+      "plays": 1
+    },
+    {
+      "name": "newgrass",
+      "plays": 1
+    },
+    {
+      "name": "jam band",
+      "plays": 1
+    },
+    {
+      "name": "americana",
+      "plays": 1
+    },
+    {
+      "name": "modern blues",
+      "plays": 1
+    },
+    {
+      "name": "blues rock",
+      "plays": 1
+    },
+    {
+      "name": "motown",
+      "plays": 1
+    }
+  ],
+  "top_artists": [
+    {
+      "slug": "parliament",
+      "name": "Parliament",
+      "plays": 3,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb6d32e1e62d928ac057284b4c",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051746d32e1e62d928ac057284b4c",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1786d32e1e62d928ac057284b4c",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "earth-wind-fire",
+      "name": "Earth, Wind & Fire",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb9722e16a886767adf1178f92",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051749722e16a886767adf1178f92",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1789722e16a886767adf1178f92",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "billy-strings",
+      "name": "Billy Strings",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb532fd0e6740fd3db38933afb",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174532fd0e6740fd3db38933afb",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178532fd0e6740fd3db38933afb",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "marcus-king",
+      "name": "Marcus King",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb61b1755ae106870fd27b03e0",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517461b1755ae106870fd27b03e0",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17861b1755ae106870fd27b03e0",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "kacey-musgraves",
+      "name": "Kacey Musgraves",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb81a4837fda8c9e356bfb6252",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517481a4837fda8c9e356bfb6252",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17881a4837fda8c9e356bfb6252",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "stevie-wonder",
+      "name": "Stevie Wonder",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/c59faacbed7aa770266bad048660810eca204108",
+          "height": 1008,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/37c7875911b1d8195b05d40061a86bd01908a0d9",
+          "height": 645,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/3b24b51bf11404089c4d66acd0c612539c77e7e7",
+          "height": 202,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/05489744160e3f6f94f707fa1e2a6d4bbd14a298",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    }
+  ],
+  "top_tracks": [
+    {
+      "name": "Give Up The Funk (Tear The Roof Off The Sucker)",
+      "artist": "Parliament",
+      "artist_slug": "parliament",
+      "plays": 2
+    },
+    {
+      "name": "Turmoil & Tinfoil",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 1
+    },
+    {
+      "name": "Dirt (feat. Billy Strings) - Nashville version",
+      "artist": "Marcus King",
+      "artist_slug": "marcus-king",
+      "plays": 1
+    },
+    {
+      "name": "Everybody Wants To Be A Cowboy (feat. Billy Strings)",
+      "artist": "Kacey Musgraves",
+      "artist_slug": "kacey-musgraves",
+      "plays": 1
+    },
+    {
+      "name": "Higher Ground",
+      "artist": "Stevie Wonder",
+      "artist_slug": "stevie-wonder",
+      "plays": 1
+    },
+    {
+      "name": "Flash Light",
+      "artist": "Parliament",
+      "artist_slug": "parliament",
+      "plays": 1
+    },
+    {
+      "name": "Boogie Wonderland (with The Emotions)",
+      "artist": "Earth, Wind & Fire",
+      "artist_slug": "earth-wind-fire",
+      "plays": 1
+    },
+    {
+      "name": "Shining Star",
+      "artist": "Earth, Wind & Fire",
+      "artist_slug": "earth-wind-fire",
+      "plays": 1
+    }
+  ]
+}

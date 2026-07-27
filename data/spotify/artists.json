@@ -22242,9 +22242,9 @@
     "id": "1ZN1c1qWEGZNX1pGeKCPpf",
     "name": "Billy Strings",
     "spotify_url": "https://open.spotify.com/artist/1ZN1c1qWEGZNX1pGeKCPpf",
-    "total_plays": 34,
+    "total_plays": 35,
     "first_seen": "2026-03-28",
-    "last_seen": "2026-06-24",
+    "last_seen": "2026-07-25",
     "genres": [
       "bluegrass",
       "newgrass",
@@ -22393,6 +22393,12 @@
         "name": "If You're Gonna Be Dumb, You Gotta Be Tough (from jackass: best and last)",
         "album": "If You're Gonna Be Dumb, You Gotta Be Tough (from jackass: best and last)",
         "spotify_url": "https://open.spotify.com/track/4fDZIUFr4ntAQvqCHCvl3k",
+        "plays": 1
+      },
+      {
+        "name": "Turmoil & Tinfoil",
+        "album": "Turmoil & Tinfoil",
+        "spotify_url": "https://open.spotify.com/track/3kipE3F3ghfvZHPxDvbNQF",
         "plays": 1
       }
     ]
@@ -24121,9 +24127,9 @@
     "id": "7guDJrEfX3qb6FEbdPA5qi",
     "name": "Stevie Wonder",
     "spotify_url": "https://open.spotify.com/artist/7guDJrEfX3qb6FEbdPA5qi",
-    "total_plays": 11,
+    "total_plays": 12,
     "first_seen": "2026-03-31",
-    "last_seen": "2026-03-31",
+    "last_seen": "2026-07-25",
     "genres": [
       "motown",
       "classic soul",
@@ -24216,6 +24222,12 @@
         "name": "Love's In Need Of Love Today",
         "album": "Songs In The Key Of Life",
         "spotify_url": "https://open.spotify.com/track/39sdlCugrGBsoC4Flos0HO",
+        "plays": 1
+      },
+      {
+        "name": "Higher Ground",
+        "album": "Innervisions",
+        "spotify_url": "https://open.spotify.com/track/0dMd4rilfd6gPbXaLpNYhu",
         "plays": 1
       }
     ]
@@ -27061,9 +27073,9 @@
     "id": "70kkdajctXSbqSMJbQO424",
     "name": "Kacey Musgraves",
     "spotify_url": "https://open.spotify.com/artist/70kkdajctXSbqSMJbQO424",
-    "total_plays": 17,
+    "total_plays": 18,
     "first_seen": "2026-05-01",
-    "last_seen": "2026-05-08",
+    "last_seen": "2026-07-25",
     "genres": [],
     "images": [
       {
@@ -27087,6 +27099,12 @@
         "name": "Horses and Divorces (feat. Miranda Lambert)",
         "album": "Middle of Nowhere",
         "spotify_url": "https://open.spotify.com/track/44tr6kkaMRgd2UVG44wqv7",
+        "plays": 2
+      },
+      {
+        "name": "Everybody Wants To Be A Cowboy (feat. Billy Strings)",
+        "album": "Middle of Nowhere",
+        "spotify_url": "https://open.spotify.com/track/6ULjjAbwB2BoTZthQKv1Q2",
         "plays": 2
       },
       {
@@ -27129,12 +27147,6 @@
         "name": "Biscuits",
         "album": "Pageant Material",
         "spotify_url": "https://open.spotify.com/track/4vHVfwVi2CEc4r7P1Pr9iu",
-        "plays": 1
-      },
-      {
-        "name": "Everybody Wants To Be A Cowboy (feat. Billy Strings)",
-        "album": "Middle of Nowhere",
-        "spotify_url": "https://open.spotify.com/track/6ULjjAbwB2BoTZthQKv1Q2",
         "plays": 1
       },
       {
@@ -40723,6 +40735,141 @@
         "name": "I Got Rhythm",
         "album": "Hampton Hawes Trio, Vol. 1",
         "spotify_url": "https://open.spotify.com/track/4l1Z9L2l0bBSHFxYtReBUk",
+        "plays": 1
+      }
+    ]
+  },
+  "marcus-king": {
+    "id": "0FeWKiZSwBRdGzqeCdlH1a",
+    "name": "Marcus King",
+    "spotify_url": "https://open.spotify.com/artist/0FeWKiZSwBRdGzqeCdlH1a",
+    "total_plays": 1,
+    "first_seen": "2026-07-25",
+    "last_seen": "2026-07-25",
+    "genres": [
+      "modern blues",
+      "blues rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb61b1755ae106870fd27b03e0",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517461b1755ae106870fd27b03e0",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17861b1755ae106870fd27b03e0",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Dirt (feat. Billy Strings) - Nashville version",
+        "album": "Darling Blue",
+        "spotify_url": "https://open.spotify.com/track/6JWRyzC0GrtxO3D2TNoGsL",
+        "plays": 1
+      }
+    ]
+  },
+  "parliament": {
+    "id": "5SMVzTJyKFJ7TUb46DglcH",
+    "name": "Parliament",
+    "spotify_url": "https://open.spotify.com/artist/5SMVzTJyKFJ7TUb46DglcH",
+    "total_plays": 3,
+    "first_seen": "2026-07-24",
+    "last_seen": "2026-07-25",
+    "genres": [
+      "funk",
+      "funk rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb6d32e1e62d928ac057284b4c",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051746d32e1e62d928ac057284b4c",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1786d32e1e62d928ac057284b4c",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Give Up The Funk (Tear The Roof Off The Sucker)",
+        "album": "Mothership Connection",
+        "spotify_url": "https://open.spotify.com/track/4XRkQloZFcRrCONN7ZQ49Y",
+        "plays": 2
+      },
+      {
+        "name": "Flash Light",
+        "album": "Funkentelechy Vs. The Placebo Syndrome",
+        "spotify_url": "https://open.spotify.com/track/1v1PV2wERHiMPesMWX0qmO",
+        "plays": 1
+      },
+      {
+        "name": "Straight from #1 Bimini Road (Dancin' Down)",
+        "album": "Straight from #1 Bimini Road",
+        "spotify_url": "https://open.spotify.com/track/7AFk6AtGGnGxnXfejkqHa7",
+        "plays": 2
+      },
+      {
+        "name": "Mothership Reconnection (feat. Parliament/Funkadelic) - (Daft Punk Remix)",
+        "album": "Musique, Vol. 1",
+        "spotify_url": "https://open.spotify.com/track/5aWVNrjqFHCATLIhS2na3t",
+        "plays": 1
+      }
+    ]
+  },
+  "earth-wind-fire": {
+    "id": "4QQgXkCYTt3BlENzhyNETg",
+    "name": "Earth, Wind & Fire",
+    "spotify_url": "https://open.spotify.com/artist/4QQgXkCYTt3BlENzhyNETg",
+    "total_plays": 2,
+    "first_seen": "2026-07-24",
+    "last_seen": "2026-07-24",
+    "genres": [
+      "funk",
+      "disco"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb9722e16a886767adf1178f92",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051749722e16a886767adf1178f92",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1789722e16a886767adf1178f92",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Boogie Wonderland (with The Emotions)",
+        "album": "I Am",
+        "spotify_url": "https://open.spotify.com/track/6ztstiyZL6FXzh4aG46ZPD",
+        "plays": 1
+      },
+      {
+        "name": "Shining Star",
+        "album": "That's The Way Of The World",
+        "spotify_url": "https://open.spotify.com/track/0RgcOUQg4qYAEt9RIdf3oB",
         "plays": 1
       }
     ]
