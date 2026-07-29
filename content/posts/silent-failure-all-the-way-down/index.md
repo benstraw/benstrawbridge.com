@@ -4,6 +4,7 @@ date = 2026-07-29T01:00:00-07:00
 draft = true
 hideAsideBar = true
 summary = "What upgrading the Ryder Hugo theme to v0.3.0 taught me about failures that look like success—and about testing the detectors built to catch them."
+description = "What upgrading the Ryder Hugo theme to v0.3.0 taught me about failures that look like success—and about testing the detectors built to catch them."
 homeFeatureIcon = "fa-solid fa-dog"
 tags = [
   "hugo",
@@ -13,6 +14,8 @@ tags = [
   "testing"
 ]
 +++
+
+*Published July 29, 2026*
 
 I clicked the “Latest release” badge in Ryder’s README and landed on `v0.0.1-alpha`, dated January 2024.
 
