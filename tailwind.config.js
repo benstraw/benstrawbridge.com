@@ -1,7 +1,13 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
-const typography = require('@tailwindcss/typography');
 
+/**
+ * Ryder v0.3.0 splits its Tailwind config into a preset carrying theme,
+ * darkMode and plugins, with no `content` — content globs resolve from the
+ * consuming site's project root, which a theme cannot know. The `theme.extend`
+ * keys below merge on top of the preset's.
+ */
 module.exports = {
+  presets: [require("./themes/ryder/tailwind.preset.js")],
   content: [
     "./hugo_stats.json",
     "./config/**/*.toml",
@@ -9,7 +15,6 @@ module.exports = {
     "./layouts/**/*.html",
     "./content/**/*.md",
   ],
-  darkMode: 'class',
   theme: {
     extend: {
       backgroundImage: {

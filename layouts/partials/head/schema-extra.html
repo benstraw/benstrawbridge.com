@@ -1,0 +1,108 @@
+{{- /*
+  Structured data for walking/hiking tour pages (front matter `tour = true`).
+
+  This shadows the theme's no-op head/schema-extra.html hook, which Ryder v0.3.0
+  calls right after head/schema.html. Using the hook rather than overriding
+  head/schema.html means the theme's own WebPage, BlogPosting, site entity and
+  BreadcrumbList blocks all still render.
+
+  Ported from the old layouts/partials/schema-tour.html, which hand-wrote JSON
+  inside a <script> tag — the pattern v0.3.0 exists to remove. Everything here is
+  built as dicts and piped through `jsonify | safeJS`. Without safeJS Go's
+  contextual escaper treats the <script> as JavaScript and emits the JSON as a
+  quoted string, which parses as a string rather than an object and is silently
+  worthless as metadata.
+
+  Note the theme already emits BlogPosting (a subtype of Article) for these
+  pages. The Article block below is kept because it carries the TouristTrip
+  mainEntity, geo and address; if that duplication ever becomes a problem, the
+  TouristTrip can be promoted to a top-level block on its own.
+*/ -}}
+
+{{- if .Params.tour }}
+
+  {{- $author := dict
+        "@type" "Person"
+        "name" "Ben Strawbridge"
+        "url" "https://www.benstrawbridge.com"
+  -}}
+
+  {{- $article := dict
+        "@context" "https://schema.org"
+        "@type" "Article"
+        "name" .Title
+        "description" .Description
+        "url" .Permalink
+        "author" $author
+        "datePublished" (.Date.Format "2006-01-02")
+        "dateModified" (.Lastmod.Format "2006-01-02")
+  -}}
+
+  {{- with .Params.geo }}
+    {{- $trip := dict
+          "@type" "TouristTrip"
+          "name" $.Title
+          "description" $.Description
+          "touristType" (slice "Dog owners" "Hikers" "Families")
+    -}}
+
+    {{- with $.Params.stops }}
+      {{- $items := slice -}}
+      {{- range . }}
+        {{- $stop := . -}}
+        {{- $place := dict "@type" "Place" "name" $stop.name -}}
+        {{- if $stop.lat }}
+          {{- $place = merge $place (dict "geo" (dict
+                "@type" "GeoCoordinates"
+                "latitude" (printf "%v" $stop.lat)
+                "longitude" (printf "%v" $stop.lon)
+          )) -}}
+        {{- end }}
+        {{- $items = $items | append (dict
+              "@type" "ListItem"
+              "position" $stop.order
+              "item" $place
+        ) -}}
+      {{- end }}
+      {{- $trip = merge $trip (dict "itinerary" (dict
+            "@type" "ItemList"
+            "itemListElement" $items
+      )) -}}
+    {{- end }}
+
+    {{- $article = merge $article (dict
+          "mainEntity" $trip
+          "geo" (dict
+            "@type" "GeoCoordinates"
+            "latitude" (printf "%v" .lat)
+            "longitude" (printf "%v" .lon)
+          )
+          "address" (dict
+            "@type" "PostalAddress"
+            "addressLocality" .city
+            "addressRegion" .state
+            "addressCountry" "US"
+          )
+    ) -}}
+  {{- end }}
+
+  <script type="application/ld+json">{{ $article | jsonify | safeJS }}</script>
+
+  {{- with .Params.faq }}
+    {{- $questions := slice -}}
+    {{- range . }}
+      {{- $questions = $questions | append (dict
+            "@type" "Question"
+            "name" .question
+            "acceptedAnswer" (dict "@type" "Answer" "text" .answer)
+      ) -}}
+    {{- end }}
+    {{- $faq := dict
+          "@context" "https://schema.org"
+          "@type" "FAQPage"
+          "mainEntity" $questions
+    -}}
+  <script type="application/ld+json">{{ $faq | jsonify | safeJS }}</script>
+  {{- end }}
+
+{{- end }}

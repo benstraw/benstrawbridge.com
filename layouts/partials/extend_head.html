@@ -1,5 +1,6 @@
+{{- /* Tour JSON-LD lives in head/schema-extra.html, the hook Ryder v0.3.0 calls
+       after head/schema.html. Only the plain geo meta tags belong here. */ -}}
 {{- if .Params.tour }}
-  {{- partial "schema-tour.html" . }}
   {{- with .Params.geo }}
   <meta name="geo.region" content="US-{{ .state }}" />
   <meta name="geo.placename" content="{{ .neighborhood }}{{ with .city }}, {{ . }}{{ end }}" />

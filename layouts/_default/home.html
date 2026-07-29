@@ -1,20 +1,33 @@
 {{/* Override of themes/ryder/layouts/_default/home.html
-     Copied from theme commit 9578fc1.
-     Only change: inserted home-links-module partial between Featured and Latest Stuff. */}}
+     Rebased onto theme v0.3.0. Three site-specific changes, all marked SITE below:
+       1. Featured loop skips /links pages that have no link_url.
+       2. Feed loop skips /links pages with no link_url, and keeps link pages
+          that do have one even when they have no summary.
+       3. home-links-module partial inserted between Featured and Latest Stuff.
+       4. Card wrapper gated on its contents rather than on `or .Title .Content`. */}}
 {{- define "main" }}
 <div class="p-2 max-w-screen-lg mx-auto ">
-  {{- if or .Title .Content }}
-    {{- if and .Title site.Params.showHomeTitle}}
-    <h2 itemprop="headline" class="text-2xl p-3 ">
-      {{- if .Params.homeFeatureIcon }} <i class="{{ .Params.homeFeatureIcon }} mr-2 text-3xl"></i> {{- end }}
-      {{- .Title }}
-    </h2>
+  {{/*  SITE: the theme gates this card on `or .Title .Content`, but the title
+        inside it also requires showHomeTitle. This home page has a title, no
+        body, and showHomeTitle unset, so the theme's condition renders an empty
+        bordered card. Gate on what actually gets emitted instead.  */}}
+  {{- $showHomeTitle := and .Title site.Params.showHomeTitle }}
+  {{- if or $showHomeTitle .Content }}
+  <div class="my-4 rounded-xl border border-neutral-200 dark:border-neutral-700 bg-white dark:bg-neutral-800 shadow-sm overflow-hidden">
+    {{- if $showHomeTitle }}
+    <div class="px-6 pt-6 pb-2 border-b border-neutral-100 dark:border-neutral-700">
+      <h2 itemprop="headline" class="text-2xl font-bold flex items-center gap-3 text-neutral-800 dark:text-neutral-100">
+        {{- if .Params.homeFeatureIcon }}<i class="{{ .Params.homeFeatureIcon }} text-2xl opacity-70"></i>{{- end }}
+        {{- .Title }}
+      </h2>
+    </div>
     {{- end }}
     {{- if .Content }}
-    <div itemprop="articleBody" class="articleBody max-w-xl mx-auto prose dark:prose-invert px-3 pb-4">
+    <div itemprop="articleBody" class="articleBody px-6 py-5 max-w-none prose dark:prose-invert">
       {{- .Content }}
     </div>
     {{- end }}
+  </div>
   {{- end }}
 
   {{/*  Set up the content loop  */}}
@@ -24,9 +37,13 @@
   {{/*  remove the current page b/c it was displayed at the top of the page.  */}}
   {{- $pages = where $pages "Permalink" "ne" $current }}
 
-  {{/*  Prepare feed. Do not call .Paginator before filtering because Hugo caches the first paginator.  */}}
-  {{- $showHomeFeed := site.Params.showHomeFeed | default true }}
-  {{- $paginator := false }}
+  {{/*  Prepare feed and create paginator after filtering to avoid Hugo's paginator cache issue  */}}
+  {{/*  .Param (not site.Params): showHomeFeed used to be site-scoped only, which made it a
+        no-op for any site overriding this layout with front matter set on the home page
+        itself (e.g. via a cascade). .Param still falls back to the site config value.  */}}
+  {{- $showHomeFeed := .Param "showHomeFeed" | default true }}
+  {{- $pageNum := 1 }}
+  {{- $paginator := dict }}
   {{- if $showHomeFeed }}
     {{- $feed := where $pages "Params.homeFeature" "ne" true }}
     {{- $excludedSections := site.Params.excludedSections | default slice }}
@@ -53,9 +70,12 @@
       {{- if in $excludedSections .Section }}
         {{- continue }}
       {{- end }}
+      {{/*  SITE: a /links page without a link_url is an empty stub — never feed it.  */}}
       {{- if and (eq .Section "links") (not (index .Params "link_url")) }}
         {{- continue }}
       {{- end }}
+      {{/*  SITE: link pages carry their payload in link_url, not in a summary, so
+            only require a summary from everything else.  */}}
       {{- if and (not (index .Params "link_url")) (eq .Summary "") }}
         {{- continue }}
       {{- end }}
@@ -64,16 +84,13 @@
     {{- $sortBy := .Param "listSortBy" | default "Date" }}
     {{- $sortOrder := .Param "listSortOrder" | default "desc" }}
     {{- $paginator = .Paginate (sort $filteredPages $sortBy $sortOrder) }}
-  {{- end }}
-
-  {{- $pageNumber := 1 }}
-  {{- if $paginator }}
-    {{- $pageNumber = $paginator.PageNumber }}
+    {{- $pageNum = $paginator.PageNumber }}
   {{- end }}
 
   {{/*  Featured content loop - only show on page 1  */}}
-  {{- if eq $pageNumber 1 }}
+  {{- if eq $pageNum 1 }}
     {{- $features := where $pages "Params.homeFeature" "eq" true }}
+    {{/*  SITE: same link_url stub guard as the feed loop above.  */}}
     {{- $visibleFeatures := slice -}}
     {{- range $features -}}
       {{- if and (eq .Section "links") (not (index .Params "link_url")) -}}
@@ -84,7 +101,7 @@
     {{- if $visibleFeatures }}
     {{- $featureHeader := site.Params.homePageFeatureHeader }}
     {{- if $featureHeader }}
-      <h2 class="flex p-3 items-center mb-2 text-3xl uppercase">{{ $featureHeader }}</h2>
+      <h2 class="flex p-3 items-center mb-2 text-3xl uppercase font-bold tracking-wide border-b border-neutral-300 dark:border-neutral-700">{{ $featureHeader }}</h2>
     {{- end }}
     <div class="p-2 mx-auto grid md:grid-cols-2 gap-6 mb-5">
     {{ $homeFeatureListCardType := .Param "homeFeatureListCardType" | default "-category-color" }}
@@ -95,8 +112,8 @@
     {{- end }}
   {{- end }}
 
-  {{/*  Links module - only show on page 1  */}}
-  {{- if eq $pageNumber 1 }}
+  {{/*  SITE: Links module - only show on page 1  */}}
+  {{- if eq $pageNum 1 }}
     {{- partial "home-links-module.html" . }}
   {{- end }}
 
@@ -104,7 +121,7 @@
   {{- if $showHomeFeed }}
     {{- $feedHeader := default "Latest stuff" (site.Params.homePageFeedHeader) }}
     <div class="md:grid-cols-2 p-2 mx-auto grid grid-cols-1 gap-6 mb-5">
-      <h2 class="md:col-span-2 flex my-2 items-center mb-2 text-3xl uppercase">{{ $feedHeader }}</h2>
+      <h2 class="md:col-span-2 flex my-2 items-center mb-2 text-3xl uppercase font-bold tracking-wide border-b border-neutral-300 dark:border-neutral-700">{{ $feedHeader }}</h2>
       {{ $homeListCardType := .Param "homeListCardType" | default "-category-color" }}
       {{- range $paginator.Pages -}}
         {{- partial (printf "card%s.html" $homeListCardType) . -}}
