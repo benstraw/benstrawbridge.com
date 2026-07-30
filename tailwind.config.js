@@ -9,12 +9,20 @@ const defaultTheme = require("tailwindcss/defaultTheme");
 module.exports = {
   presets: [require("./themes/ryder/tailwind.preset.js")],
   content: [
-    "./hugo_stats.json",
     "./config/**/*.toml",
     "./themes/ryder/layouts/**/*.html",
     "./layouts/**/*.html",
     "./content/**/*.md",
   ],
+  /**
+   * The theme's share-buttons partial assembles these class names by
+   * interpolation (`resp-sharing-button--{{ $buttonSize }}` and
+   * `resp-sharing-button__icon--{{ $icon }}`), so no literal ever appears in a
+   * template for Tailwind to find. They live in `@layer components` in the
+   * theme's main.css, which Tailwind tree-shakes — without this they are
+   * purged. This is what `./hugo_stats.json` in `content` used to cover.
+   */
+  safelist: [{ pattern: /^resp-sharing-button(--|__icon--)[a-z]+$/ }],
   theme: {
     extend: {
       backgroundImage: {

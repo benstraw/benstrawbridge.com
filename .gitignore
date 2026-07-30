@@ -1,6 +1,11 @@
 # Hugo
 /public/
 /resources/
+# Build artifact: written by build.writeStats on every build. No longer a
+# Tailwind `content` input — the one thing it uniquely provided (the theme's
+# interpolated resp-sharing-button classes) is covered by `safelist` in
+# tailwind.config.js.
+/hugo_stats.json
 /themes/*/exampleSite/
 /themes/ryder-dev
 /themes/art-collection-theme
