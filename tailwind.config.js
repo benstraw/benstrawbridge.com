@@ -1,15 +1,28 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
-const typography = require('@tailwindcss/typography');
 
+/**
+ * Ryder v0.3.0 splits its Tailwind config into a preset carrying theme,
+ * darkMode and plugins, with no `content` — content globs resolve from the
+ * consuming site's project root, which a theme cannot know. The `theme.extend`
+ * keys below merge on top of the preset's.
+ */
 module.exports = {
+  presets: [require("./themes/ryder/tailwind.preset.js")],
   content: [
-    "./hugo_stats.json",
     "./config/**/*.toml",
     "./themes/ryder/layouts/**/*.html",
     "./layouts/**/*.html",
     "./content/**/*.md",
   ],
-  darkMode: 'class',
+  /**
+   * The theme's share-buttons partial assembles these class names by
+   * interpolation (`resp-sharing-button--{{ $buttonSize }}` and
+   * `resp-sharing-button__icon--{{ $icon }}`), so no literal ever appears in a
+   * template for Tailwind to find. They live in `@layer components` in the
+   * theme's main.css, which Tailwind tree-shakes — without this they are
+   * purged. This is what `./hugo_stats.json` in `content` used to cover.
+   */
+  safelist: [{ pattern: /^resp-sharing-button(--|__icon--)[a-z]+$/ }],
   theme: {
     extend: {
       backgroundImage: {

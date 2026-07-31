@@ -109,13 +109,15 @@ Root-level `layouts/` contains section-specific overrides:
 ### Asset Management
 - **Images**: Stored in `assets/images/` with subdirectories by project/section
 - **JavaScript**: `assets/js/extended.js` for custom site functionality
-- **Hugo stats**: `hugo_stats.json` is mounted to assets for Tailwind purging
+- **Hugo stats**: `hugo_stats.json` is generated and mounted to assets for Hugo
+  cache busting, but is gitignored and is no longer a Tailwind content input
 
 ## Notes
 
 - Theme is a git submodule; changes to theme should be made in the upstream repo
-- Tailwind config reads from `hugo_stats.json` for content purging
+- Tailwind scans the site and theme templates/config directly; dynamically
+  assembled share-button classes are covered by the config safelist
 - Site uses Hugo's timeout of 60s for longer builds
 - Timezone set to `America/Los_Angeles`
-- Minimum Hugo version: 0.121.1 (non-extended)
+- Minimum Hugo version: 0.146.0 extended
 - When adding or changing anything that loads from outside the site, inspect the built HTML for the page and verify the CSP covers the actual hosts in use. This includes map tiles, Spotify images, PostHog, Leaflet plugins, embeds, and remote fonts.

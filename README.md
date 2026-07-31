@@ -26,17 +26,22 @@ Make sure to update `tailwind.config.js`, `package.json`, `main.css` and the css
 ```bash
 cd themes/benstraw
 npm init -y
-npm install --save-dev tailwindcss
+npm install --save-dev tailwindcss@^3.4.0
 npx tailwindcss init
-touch assets/css/style.css
-npm run build-tw
 ```
+
+Pin Tailwind to v3 — a bare `npm i -D tailwindcss` installs v4, whose PostCSS
+plugin moved to `@tailwindcss/postcss`, and the Hugo build fails.
 
 make sure you update the build to install the stuff that is needed
 
 ```bash
 npm install -D postcss-cli tailwindcss postcss autoprefixer @tailwindcss/typography
 ```
+
+There is no separate CSS compilation step. Tailwind runs inside the Hugo build
+via `css.PostCSS` in the theme's `head/css.html` plus `postcss.config.js`, so
+`hugo server` on its own is the whole dev workflow.
 
 ### Creating Link Content
 
