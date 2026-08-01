@@ -114,6 +114,13 @@ Root-level `layouts/` contains section-specific overrides:
 
 ## Claude Code on the web (remote sessions)
 
+Run these sessions in the **Ryder / Hugo** cloud environment
+(`env_01MrAybFDCw6e1U8bKcqRkWi`), shared by every site on the theme. It carries
+the Hugo extended toolchain and the `gohugo.io` network allowlist entry that
+build-time content adaptors need. Pick it in the environment selector when
+starting a session — the choice decides which container clones the repo, so no
+committed setting can make it for you.
+
 A fresh remote container clones this repo with an uninitialized Ryder submodule,
 no Hugo binary, and no `node_modules`. `.claude/hooks/session-start.sh` restores
 all of it at session start and no-ops on local machines. If a session begins and
