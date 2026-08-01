@@ -1,4 +1,7 @@
 {
+  "remote": {
+    "defaultEnvironmentId": "env_01MrAybFDCw6e1U8bKcqRkWi"
+  },
   "permissions": {
     "allow": [
       "mcp__chrome-devtools__*",
