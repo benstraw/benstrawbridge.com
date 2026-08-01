@@ -112,6 +112,57 @@ Root-level `layouts/` contains section-specific overrides:
 - **Hugo stats**: `hugo_stats.json` is generated and mounted to assets for Hugo
   cache busting, but is gitignored and is no longer a Tailwind content input
 
+## Claude Code on the web (remote sessions)
+
+A fresh remote container clones this repo with an uninitialized Ryder submodule,
+no Hugo binary, and no `node_modules`. `.claude/hooks/session-start.sh` restores
+all of it at session start and no-ops on local machines. If a session begins and
+`themes/ryder` is empty, the hook did not run — fix that before trusting
+anything you read in `layouts/`, because an empty theme makes the site look like
+it has a fraction of the templates it really has.
+
+The hook downloads Hugo itself, which costs about a minute on a cold container.
+Anything the hook installs lands *after* the environment snapshot is taken, so
+it is not cached between new sessions. Installing Hugo from the environment's
+**setup script** instead puts it in the cached snapshot; the hook detects the
+existing binary and skips the download, so the two are safe together.
+
+### Theme resolution differs by environment
+- `config/_default` sets `theme = 'ryder-dev'`, a **gitignored** path that is
+  normally a local working checkout of the theme.
+- `config/production` sets `theme = "ryder"`, the submodule.
+- The hook symlinks `themes/ryder-dev` → `ryder` so the development environment
+  can resolve a theme at all. Nothing else creates that path.
+
+### Build with `--environment development`
+`hugo build` defaults to the production environment, where `postcss.config.js`
+enables autoprefixer. Autoprefixer resolves targets through browserslist, which
+walks above the repo root looking for config and trips the container's
+filesystem boundary (`ERR_ACCESS_DENIED / FileSystemRead`). A `.browserslistrc`
+does not fix it — the second lookup, for `browserslist-stats.json`, traverses
+regardless. Use `hugo build --environment development` in remote sessions; real
+production builds happen on AWS Amplify.
+
+### Build-time remote fetches are blocked
+Two call sites use `resources.GetRemote` *while building*. Both fail in a remote
+container, and the build dies during content processing before any page renders.
+
+**`gohugo.io`** — `content/projects/content-adaptors/books/_content.gotmpl`.
+Not in the default Trusted allowlist. Fixable: set the environment's network
+access to **Custom**, add `gohugo.io`, and keep "include default list of common
+package managers" checked.
+
+**`api.github.com`** — the theme's `highlight-github` shortcode, used by
+`content/posts/recipe-template-for-ryder-theme/index.md`. *Not* an allowlist
+problem: the host is already in the Trusted defaults, but all GitHub traffic is
+intercepted by a credential proxy that only serves git operations and the
+built-in GitHub tools. Direct requests from `curl` or `resources.GetRemote` get
+403 regardless of network settings. Expect this shortcode to fail in every cloud
+session; it works locally.
+
+This is all separate from `params.csp`, which governs what the *browser* may
+load at runtime. A host can be fine for one and blocked for the other.
+
 ## Notes
 
 - Theme is a git submodule; changes to theme should be made in the upstream repo
