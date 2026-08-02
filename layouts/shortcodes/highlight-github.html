@@ -114,16 +114,18 @@ Upstream this to the theme and delete this file once the theme carries it.
 
   {{- if $failure }}
 
-    {{- /* Amplify has open network, so a failure there is real. */}}
+    {{- /* Amplify has open network, so a failure there is real: stop the build
+    and emit nothing, so a degraded sample can never reach the rendered page.
+    Elsewhere, degrade to a link. */}}
     {{- if eq hugo.Environment "production" }}
       {{- errorf "The %q shortcode was unable to get remote resource %s. See %s" .Name $failure .Position }}
-    {{- end }}
-
-    {{- warnf "The %q shortcode was unable to get remote resource %s — rendering a link instead. See %s" .Name $failure .Position }}
-    {{- $href := urls.JoinPath "https://" $tld $owner $repo "blob" (or $branch "HEAD") $path }}
+    {{- else }}
+      {{- warnf "The %q shortcode was unable to get remote resource %s — rendering a link instead. See %s" .Name $failure .Position }}
+      {{- $href := urls.JoinPath "https://" $tld $owner $repo "blob" (or $branch "HEAD") $path }}
     <div class="highlight-github-unavailable not-prose my-4 rounded border border-dashed border-gray-400 p-4 text-sm dark:border-gray-600">
       <p>Code sample unavailable at build time. View <a href="{{ $href }}"><code>{{ $path }}</code></a> on GitHub.</p>
     </div>
+    {{- end }}
 
   {{- else }}
 
