@@ -128,11 +128,12 @@ all of it at session start and no-ops on local machines. If a session begins and
 anything you read in `layouts/`, because an empty theme makes the site look like
 it has a fraction of the templates it really has.
 
-The hook downloads Hugo itself, which costs about a minute on a cold container.
-Anything the hook installs lands *after* the environment snapshot is taken, so
-it is not cached between new sessions. Installing Hugo from the environment's
-**setup script** instead puts it in the cached snapshot; the hook detects the
-existing binary and skips the download, so the two are safe together.
+Hugo comes from the **Ryder / Hugo** environment's setup script, which runs
+before Claude Code launches and lands in the cached filesystem snapshot, so new
+sessions start with the binary already present. The hook checks for it and skips
+the download when it finds it. In any other environment the hook installs Hugo
+itself, which costs about a minute — correct, but uncached, because anything the
+hook writes happens *after* the snapshot is taken.
 
 ### Theme resolution differs by environment
 - `config/_default` sets `theme = 'ryder-dev'`, a **gitignored** path that is
@@ -150,14 +151,16 @@ does not fix it — the second lookup, for `browserslist-stats.json`, traverses
 regardless. Use `hugo build --environment development` in remote sessions; real
 production builds happen on AWS Amplify.
 
-### Build-time remote fetches are blocked
-Two call sites use `resources.GetRemote` *while building*. Both fail in a remote
-container, and the build dies during content processing before any page renders.
+### Build-time remote fetches
+Two call sites use `resources.GetRemote` *while building*. A blocked host here
+kills the build during content processing, before any page renders, so the
+failure looks nothing like a network error.
 
 **`gohugo.io`** — `content/projects/content-adaptors/books/_content.gotmpl`.
-Not in the default Trusted allowlist. Fixable: set the environment's network
-access to **Custom**, add `gohugo.io`, and keep "include default list of common
-package managers" checked.
+Not in the default Trusted allowlist, so the **Ryder / Hugo** environment uses
+**Custom** network access with `gohugo.io` added and "include default list of
+common package managers" left checked. A session in any other environment fails
+on this file.
 
 **`api.github.com`** — the theme's `highlight-github` shortcode, used by
 `content/posts/recipe-template-for-ryder-theme/index.md`. *Not* an allowlist
