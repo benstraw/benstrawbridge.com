@@ -152,9 +152,10 @@ regardless. Use `hugo build --environment development` in remote sessions; real
 production builds happen on AWS Amplify.
 
 ### Build-time remote fetches
-Two call sites use `resources.GetRemote` *while building*. A blocked host here
-kills the build during content processing, before any page renders, so the
-failure looks nothing like a network error.
+Two call sites use `resources.GetRemote` *while building*. Both now degrade to a
+local fallback instead of killing the build, but **only outside production** —
+see "Fallbacks" below. Read the rest of this section for why the hosts fail;
+the fallback keeps a cloud session usable, it does not make the fetches work.
 
 **`gohugo.io`** — `content/projects/content-adaptors/books/_content.gotmpl`.
 Not in the default Trusted allowlist, so the **Ryder / Hugo** environment uses
@@ -185,6 +186,40 @@ intercepted by a credential proxy that only serves git operations and the
 built-in GitHub tools. Direct requests from `curl` or `resources.GetRemote` get
 403 regardless of network settings. Expect this shortcode to fail in every cloud
 session; it works locally.
+
+Note that `https://api.github.com/` itself returns **200** — only real API paths
+such as `/repos/{owner}/{repo}` return 403. Probing the root is therefore a
+misleading health check; it looks green while every request the shortcode
+actually makes is blocked.
+
+#### Fallbacks
+Neither host can be fixed from inside a cloud session, so both call sites catch
+the failure and degrade:
+
+- **Books covers** — `_content.gotmpl` falls back to
+  `assets/images/books/placeholder-cover.png` (a flat 400×600 PNG, so
+  `.Width`/`.Height` still resolve in `layouts/books/single.html`). Alt text
+  becomes "<title> (cover image unavailable)" and the resource carries
+  `placeholder = true`.
+- **Code samples** — `layouts/shortcodes/highlight-github.html`, a **site
+  override** of the theme's shortcode, renders a dashed box linking to the file
+  on GitHub instead of the highlighted source.
+
+Both wrap the call in `try`. This matters: a blocked host raises a *hard
+template error* from `resources.GetRemote` rather than setting `.Err`, so the
+theme's original `{{ with … }}{{ else }}` never catches it. `try` requires Hugo
+0.141+; `module.toml` floors at 0.146.
+
+Both fall back only when `hugo.Environment` is not `production`. Amplify builds
+with open network, so a failed fetch there is real and still stops the build —
+verified: the same cover fetch logs `WARN` under `--environment development` and
+`ERROR` under `--environment production`. Failures are always logged, so a
+degraded local build is never silent.
+
+The shortcode override is a full copy of the theme file (Hugo cannot delegate to
+a same-named theme shortcode) and will not track theme updates. Upstream the
+`try` guard to the Ryder repo and delete
+`layouts/shortcodes/highlight-github.html` once the theme carries it.
 
 This is all separate from `params.csp`, which governs what the *browser* may
 load at runtime. A host can be fine for one and blocked for the other.

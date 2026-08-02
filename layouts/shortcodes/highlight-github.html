@@ -1,0 +1,199 @@
+{{- /*
+Copyright 2024 Veriphor LLC
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not
+use this file except in compliance with the License. You may obtain a copy of
+the License at
+
+https://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+License for the specific language governing permissions and limitations under
+the License.
+*/}}
+
+{{- /*
+SITE OVERRIDE of themes/ryder/layouts/shortcodes/highlight-github.html.
+
+Identical to the theme's shortcode except that the two api.github.com fetches
+are wrapped in `try` and degrade to a link instead of aborting the build.
+
+Why: in Claude Code on the web all GitHub traffic is intercepted by a
+credential proxy that serves only git operations and the built-in GitHub
+tools, so resources.GetRemote gets 403 no matter how the network allowlist is
+configured. The unguarded shortcode kills the whole build, which leaves no way
+to preview any page of the site from a cloud session.
+
+Production builds run on AWS Amplify with open network, so there a failed
+fetch is a real problem and still stops the build.
+
+Upstream this to the theme and delete this file once the theme carries it.
+
+@param {string} owner The repository owner.
+@param {string} repo The repository name.
+@param {string} path The path to the file.
+@param {string} [branch=default] The repository branch or commit hash.
+@param {string} [lines] The lines to include, in the format n-n (first-last).
+@param {string} [hl_lines] The lines to highlight, in the format n-n (first-last).
+@param {string} [lang] The code language, defaults to file extension, falling back to text.
+@param {any} [linenos=inline] One of true, false, inline, or table.
+@param {bool} [showlink=true] Whether to display a link to the file.
+@param {string} [style] The CSS styles to apply to the highlighted code.
+
+@returns {template.HTML}
+*/}}
+
+{{- /* Verify minimum required version. */}}
+{{- $minHugoVersion := "0.141.0" }}
+{{- if lt hugo.Version $minHugoVersion }}
+  {{- errorf "The %s shortcode requires Hugo v%s or later." .Name $minHugoVersion }}
+{{- end }}
+
+{{- /* Set defaults */}}
+{{- $lineNos := "inline" }}
+{{- $showLink := true }}
+
+{{- /* Set constants. */}}
+{{- $tld := "github.com" }}
+{{- $apiBase := "https://api.github.com" }}
+
+{{- /* Get required parameters. */}}
+{{- $owner := or (.Get "owner") "" }}
+{{- $repo := or (.Get "repo") "" }}
+{{- $path := or (.Get "path") "" }}
+
+{{- if and $owner $repo $path }}
+
+  {{- /* A blocked host raises a hard template error rather than setting .Err,
+  so every remote call goes through `try`. $failure holds the first problem. */}}
+  {{- $failure := "" }}
+
+  {{- /* Get branch. */}}
+  {{- $branch := or (.Get "branch") "" }}
+  {{- if not $branch }}
+    {{- $apiEndPoint := urls.JoinPath $apiBase "repos" $owner $repo }}
+    {{- $attempt := try (resources.GetRemote $apiEndPoint) }}
+    {{- with $attempt.Err }}
+      {{- $failure = printf "%s: %s" $apiEndPoint . }}
+    {{- else }}
+      {{- with $attempt.Value }}
+        {{- with .Err }}
+          {{- $failure = printf "%s: %s" $apiEndPoint . }}
+        {{- else }}
+          {{- $branch = ($attempt.Value | transform.Unmarshal).default_branch }}
+        {{- end }}
+      {{- else }}
+        {{- $failure = printf "%s: no resource returned" $apiEndPoint }}
+      {{- end }}
+    {{- end }}
+  {{- end }}
+
+  {{- /* Get content. */}}
+  {{- $content := "" }}
+  {{- if not $failure }}
+    {{- $apiEndPoint := urls.JoinPath $apiBase "repos" $owner $repo "contents" $path }}
+    {{- $query := querify "ref" $branch }}
+    {{- $apiEndPoint = printf "%s?%s" $apiEndPoint $query }}
+    {{- $attempt := try (resources.GetRemote $apiEndPoint) }}
+    {{- with $attempt.Err }}
+      {{- $failure = printf "%s: %s" $apiEndPoint . }}
+    {{- else }}
+      {{- with $attempt.Value }}
+        {{- with .Err }}
+          {{- $failure = printf "%s: %s" $apiEndPoint . }}
+        {{- else }}
+          {{- $content = (($attempt.Value | transform.Unmarshal).content | base64Decode) }}
+        {{- end }}
+      {{- else }}
+        {{- $failure = printf "%s: no resource returned" $apiEndPoint }}
+      {{- end }}
+    {{- end }}
+  {{- end }}
+
+  {{- if $failure }}
+
+    {{- /* Amplify has open network, so a failure there is real. */}}
+    {{- if eq hugo.Environment "production" }}
+      {{- errorf "The %q shortcode was unable to get remote resource %s. See %s" .Name $failure .Position }}
+    {{- end }}
+
+    {{- warnf "The %q shortcode was unable to get remote resource %s — rendering a link instead. See %s" .Name $failure .Position }}
+    {{- $href := urls.JoinPath "https://" $tld $owner $repo "blob" (or $branch "HEAD") $path }}
+    <div class="highlight-github-unavailable not-prose my-4 rounded border border-dashed border-gray-400 p-4 text-sm dark:border-gray-600">
+      <p>Code sample unavailable at build time. View <a href="{{ $href }}"><code>{{ $path }}</code></a> on GitHub.</p>
+    </div>
+
+  {{- else }}
+
+    {{- /* Get subset of content if lines parameter is set. */}}
+    {{- $lineNoStart := 1 }}
+    {{- $lineNoEnd := 0 }}
+    {{- with .Get "lines" }}
+      {{- if findRE `^\d+-\d+` . }}
+        {{- $lineNoStart = index (split . "-") 0 | int }}
+        {{- $lineNoEnd = index (split . "-") 1 | int }}
+        {{- $contentLines := split $content "\n" }}
+        {{- $contentLines = $contentLines | after (sub $lineNoStart 1) | first (add 1 (sub $lineNoEnd $lineNoStart ))}}
+        {{- $content = add (delimit $contentLines "\n") "\n" }}
+      {{- else }}
+        {{- errorf "The %q shortcode requires the lines parameter to have the format n-n. See %s" $.Name $.Position }}
+      {{- end }}
+    {{- end }}
+
+    {{- /* Determine which lines to highlight, if any. */}}
+    {{- $hl_lines := "" }}
+    {{- with .Get "hl_lines" }}
+      {{- if findRE `^\d+-\d+` . }}
+        {{- $hl_start := add 1 (sub (index (split . "-") 0 | int) $lineNoStart) }}
+        {{- $hl_end := add 1 (sub (index (split . "-") 1 | int) $lineNoStart) }}
+        {{- $hl_lines = printf "%d-%d" $hl_start $hl_end }}
+      {{- else }}
+        {{- errorf "The %q shortcode requires the lines parameter to have the format n-n. See %s" $.Name $.Position }}
+      {{- end }}
+    {{- end }}
+
+    {{- /* Set highlighting options. */}}
+    {{- $temp := .Get "linenos" }}
+    {{- if in (slice "false" false 0) $temp }}
+      {{- $lineNos = false }}
+    {{- else if in (slice "true" true 1) $temp }}
+      {{- $lineNos = true }}
+    {{- else if in (slice "inline" "table") $temp }}
+      {{- $lineNos = $temp }}
+    {{- end }}
+    {{- $opts := dict "linenostart" $lineNoStart "linenos" $lineNos }}
+    {{- with $hl_lines }}
+      {{- $opts = merge $opts (dict "hl_lines" $hl_lines) }}
+    {{- end }}
+    {{- with .Get "style" }}
+      {{- $opts = merge $opts (dict "style" .) }}
+    {{- end }}
+
+    {{- /* Determine language and highlight the code. */}}
+    {{- $lang := or (.Get "lang") (path.Ext $path | strings.TrimPrefix "." ) "text" }}
+    {{- highlight $content $lang $opts }}
+
+    {{- /* Render link to blob. */}}
+    {{- $temp := .Get "showlink" }}
+    {{- if in (slice "false" false 0) $temp }}
+      {{- $showLink = false }}
+    {{- else if in (slice "true" true 1) $temp }}
+      {{- $showLink = true }}
+    {{- end }}
+    {{- if $showLink }}
+      {{- $href := urls.JoinPath "https://" $tld $owner $repo "blob" $branch $path }}
+      {{- if $lineNoEnd }}
+        {{- $href = printf "%s#%s" $href (printf "L%d-L%d" $lineNoStart $lineNoEnd) }}
+      {{- end }}
+      <div class="highlight-github-link">
+        <a href="{{ $href }}">{{ $href }}</a>
+      </div>
+    {{- end }}
+
+  {{- end }}
+
+{{- else }}
+  {{- errorf "The %q shortcode requires three named parameters: owner, repo, and path. See %s" .Name .Position }}
+{{- end }}
