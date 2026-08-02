@@ -162,8 +162,24 @@ Not in the default Trusted allowlist, so the **Ryder / Hugo** environment uses
 common package managers" left checked. A session in any other environment fails
 on this file.
 
+Verify that entry is actually in effect rather than assuming it. On 2026-08-02 a
+session in the **Ryder / Hugo** environment — Hugo already installed by the setup
+script, so the environment was the right one — still got `CONNECT tunnel failed,
+response 403` for `gohugo.io`, and the build died on the books adaptor. Check it
+in one command before a build:
+
+```bash
+curl -sS -o /dev/null -w '%{http_code}\n' https://gohugo.io/
+```
+
+A 403 or a CONNECT failure means the allowlist entry is missing or was not
+applied to this session; re-check **Custom** network access in the environment
+settings.
+
 **`api.github.com`** — the theme's `highlight-github` shortcode, used by
-`content/posts/recipe-template-for-ryder-theme/index.md`. *Not* an allowlist
+`content/posts/tag-cloud/index.md`, `content/posts/ingredients-section/index.md`
+and `content/posts/recipe-template-for-ryder-theme/index.md`. A build that gets
+past one of them fails on the next. *Not* an allowlist
 problem: the host is already in the Trusted defaults, but all GitHub traffic is
 intercepted by a credential proxy that only serves git operations and the
 built-in GitHub tools. Direct requests from `curl` or `resources.GetRemote` get
