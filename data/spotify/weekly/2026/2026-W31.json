@@ -1,0 +1,890 @@
+{
+  "week": "2026-W31",
+  "title": "Week of Jul 27, 2026",
+  "year": 2026,
+  "week_num": 31,
+  "date_start": "2026-07-27",
+  "date_end": "2026-08-02",
+  "total_plays": 43,
+  "unique_artists": 25,
+  "topArtistName": "Butthole Surfers",
+  "topArtistImages": [
+    {
+      "height": 665,
+      "url": "https://i.scdn.co/image/dabd2920676f2ae15862ed8dfcf89a8ddb9d11ee",
+      "width": 1000
+    },
+    {
+      "height": 425,
+      "url": "https://i.scdn.co/image/4136eafc38bb9a7e6db382c5e027380e6a527be1",
+      "width": 639
+    },
+    {
+      "height": 133,
+      "url": "https://i.scdn.co/image/13fb78d8c965a8a3637a659442fead75890e1c07",
+      "width": 200
+    },
+    {
+      "height": 43,
+      "url": "https://i.scdn.co/image/b18f1417a0d867c8af95ec56c810e02176d86500",
+      "width": 64
+    }
+  ],
+  "top_genres": [
+    {
+      "name": "americana",
+      "plays": 15
+    },
+    {
+      "name": "outlaw country",
+      "plays": 12
+    },
+    {
+      "name": "alt country",
+      "plays": 12
+    },
+    {
+      "name": "country",
+      "plays": 12
+    },
+    {
+      "name": "bluegrass",
+      "plays": 10
+    },
+    {
+      "name": "newgrass",
+      "plays": 10
+    },
+    {
+      "name": "folk",
+      "plays": 7
+    },
+    {
+      "name": "noise rock",
+      "plays": 6
+    },
+    {
+      "name": "red dirt",
+      "plays": 6
+    },
+    {
+      "name": "classic country",
+      "plays": 6
+    }
+  ],
+  "top_artists": [
+    {
+      "slug": "butthole-surfers",
+      "name": "Butthole Surfers",
+      "plays": 6,
+      "images": [
+        {
+          "height": 665,
+          "url": "https://i.scdn.co/image/dabd2920676f2ae15862ed8dfcf89a8ddb9d11ee",
+          "width": 1000
+        },
+        {
+          "height": 425,
+          "url": "https://i.scdn.co/image/4136eafc38bb9a7e6db382c5e027380e6a527be1",
+          "width": 639
+        },
+        {
+          "height": 133,
+          "url": "https://i.scdn.co/image/13fb78d8c965a8a3637a659442fead75890e1c07",
+          "width": 200
+        },
+        {
+          "height": 43,
+          "url": "https://i.scdn.co/image/b18f1417a0d867c8af95ec56c810e02176d86500",
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "sturgill-simpson",
+      "name": "Sturgill Simpson",
+      "plays": 5,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb1791f31121a24318e91cbda3",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051741791f31121a24318e91cbda3",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1781791f31121a24318e91cbda3",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "johnny-cash",
+      "name": "Johnny Cash",
+      "plays": 3,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb94a8326675bfcafb20f0a235",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517494a8326675bfcafb20f0a235",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17894a8326675bfcafb20f0a235",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "herbie-hancock",
+      "name": "Herbie Hancock",
+      "plays": 3,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebca17170af02af227d6ea0c31",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174ca17170af02af227d6ea0c31",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178ca17170af02af227d6ea0c31",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "old-crow-medicine-show",
+      "name": "Old Crow Medicine Show",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eba055968bc8c4b9d8901b1e1e",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174a055968bc8c4b9d8901b1e1e",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178a055968bc8c4b9d8901b1e1e",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "john-prine",
+      "name": "John Prine",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebf109851845669becdc5c63f6",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174f109851845669becdc5c63f6",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178f109851845669becdc5c63f6",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "stephen-wilson-jr",
+      "name": "Stephen Wilson Jr.",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb2e25871e208b1befa79b4c44",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051742e25871e208b1befa79b4c44",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1782e25871e208b1befa79b4c44",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "taj-mahal",
+      "name": "Taj Mahal",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eba82aabb7544cb90acc200370",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174a82aabb7544cb90acc200370",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178a82aabb7544cb90acc200370",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "dangar-island-open-mic",
+      "name": "Dangar Island Open Mic",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000b27349a8a2d894818600936085c8",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00001e0249a8a2d894818600936085c8",
+          "height": 300,
+          "width": 300
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000485149a8a2d894818600936085c8",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "willie-nelson",
+      "name": "Willie Nelson",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6772690000c46c8ff3385555930af73293254b",
+          "height": 1000,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6772690000dd228ff3385555930af73293254b",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6772690000bac38ff3385555930af73293254b",
+          "height": 200,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67726900008f748ff3385555930af73293254b",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "the-band",
+      "name": "The Band",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebf4f262f1f5d28fcdc4c4226f",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174f4f262f1f5d28fcdc4c4226f",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178f4f262f1f5d28fcdc4c4226f",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "hank-williams-jr",
+      "name": "Hank Williams, Jr.",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebf2335981837c8ac955769cd0",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174f2335981837c8ac955769cd0",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178f2335981837c8ac955769cd0",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "watchhouse",
+      "name": "Watchhouse",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebbf832300f2032e64d42fe763",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174bf832300f2032e64d42fe763",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178bf832300f2032e64d42fe763",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "trampled-by-turtles",
+      "name": "Trampled by Turtles",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebd4cf2946b17505a08693a3d9",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174d4cf2946b17505a08693a3d9",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178d4cf2946b17505a08693a3d9",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "the-steeldrivers",
+      "name": "The Steeldrivers",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebdc908a34abcbb9b335b94c14",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174dc908a34abcbb9b335b94c14",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178dc908a34abcbb9b335b94c14",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "tanya-tucker",
+      "name": "Tanya Tucker",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebacc786c55075e7d82a414e15",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174acc786c55075e7d82a414e15",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178acc786c55075e7d82a414e15",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "state-of-the-union",
+      "name": "State Of The Union",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000b2739daf1aeb94ed77d363ebacac",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00001e029daf1aeb94ed77d363ebacac",
+          "height": 300,
+          "width": 300
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d000048519daf1aeb94ed77d363ebacac",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "luther-dickinson",
+      "name": "Luther Dickinson",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebf8ab9ca4caee03fd60cd0dbe",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174f8ab9ca4caee03fd60cd0dbe",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178f8ab9ca4caee03fd60cd0dbe",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "martin-sexton",
+      "name": "Martin Sexton",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb309750daa237a8866a95a646",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174309750daa237a8866a95a646",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178309750daa237a8866a95a646",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "greg-brown",
+      "name": "Greg Brown",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/d60edbc1fdb3df23debb9600f799fa0fb21394a2",
+          "height": 450,
+          "width": 600
+        },
+        {
+          "url": "https://i.scdn.co/image/6e835cce60743be699c271ec168ed7319e8f52ce",
+          "height": 150,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/dd38dde68ff428f88a79a07ac384727ee58eea12",
+          "height": 48,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "the-blind-boys-of-alabama",
+      "name": "The Blind Boys Of Alabama",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb11a14986a23f120d8a748456",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517411a14986a23f120d8a748456",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17811a14986a23f120d8a748456",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "leon-redbone",
+      "name": "Leon Redbone",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/7ffd242790bc626593434af588afb9d0b86dfc6a",
+          "height": 1010,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/8f0933c48e2b6c483284c6a13e5b882943b9d989",
+          "height": 647,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/5338150a039197a1b2d0d7917c0f5c63c992b4fe",
+          "height": 202,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/88b1f531a2d70196c87ce9287c4ad5ee581e22aa",
+          "height": 65,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "eric-bibb",
+      "name": "Eric Bibb",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebe256c255d0e965ebd840c898",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174e256c255d0e965ebd840c898",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178e256c255d0e965ebd840c898",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "vilray",
+      "name": "Vilray",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eba06b9ac9cfa3d09339dd1fa3",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174a06b9ac9cfa3d09339dd1fa3",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178a06b9ac9cfa3d09339dd1fa3",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "glen-hansard",
+      "name": "Glen Hansard",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eba7ceef9771c8bacac8a9be55",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174a7ceef9771c8bacac8a9be55",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178a7ceef9771c8bacac8a9be55",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    }
+  ],
+  "top_tracks": [
+    {
+      "name": "Ol' Dood (Pt. II)",
+      "artist": "Sturgill Simpson",
+      "artist_slug": "sturgill-simpson",
+      "plays": 2
+    },
+    {
+      "name": "Sam",
+      "artist": "Sturgill Simpson",
+      "artist_slug": "sturgill-simpson",
+      "plays": 2
+    },
+    {
+      "name": "Shotgun Willie",
+      "artist": "Willie Nelson",
+      "artist_slug": "willie-nelson",
+      "plays": 1
+    },
+    {
+      "name": "Folsom Prison Blues (2017 Remaster)",
+      "artist": "Johnny Cash",
+      "artist_slug": "johnny-cash",
+      "plays": 1
+    },
+    {
+      "name": "The Night They Drove Old Dixie Down",
+      "artist": "The Band",
+      "artist_slug": "the-band",
+      "plays": 1
+    },
+    {
+      "name": "Family Tradition",
+      "artist": "Hank Williams, Jr.",
+      "artist_slug": "hank-williams-jr",
+      "plays": 1
+    },
+    {
+      "name": "Tell It To Me",
+      "artist": "Old Crow Medicine Show",
+      "artist_slug": "old-crow-medicine-show",
+      "plays": 1
+    },
+    {
+      "name": "Spanish Pipedream",
+      "artist": "John Prine",
+      "artist_slug": "john-prine",
+      "plays": 1
+    },
+    {
+      "name": "Wildfire",
+      "artist": "Watchhouse",
+      "artist_slug": "watchhouse",
+      "plays": 1
+    },
+    {
+      "name": "Ain't No Use in Tryin'",
+      "artist": "Trampled by Turtles",
+      "artist_slug": "trampled-by-turtles",
+      "plays": 1
+    },
+    {
+      "name": "Drinkin' Dark Whiskey",
+      "artist": "The Steeldrivers",
+      "artist_slug": "the-steeldrivers",
+      "plays": 1
+    },
+    {
+      "name": "A Little Light",
+      "artist": "Sturgill Simpson",
+      "artist_slug": "sturgill-simpson",
+      "plays": 1
+    },
+    {
+      "name": "Wagon Wheel",
+      "artist": "Old Crow Medicine Show",
+      "artist_slug": "old-crow-medicine-show",
+      "plays": 1
+    },
+    {
+      "name": "In Spite of Ourselves",
+      "artist": "John Prine",
+      "artist_slug": "john-prine",
+      "plays": 1
+    },
+    {
+      "name": "Delta Dawn",
+      "artist": "Tanya Tucker",
+      "artist_slug": "tanya-tucker",
+      "plays": 1
+    },
+    {
+      "name": "I Walk the Line (2017 Remaster)",
+      "artist": "Johnny Cash",
+      "artist_slug": "johnny-cash",
+      "plays": 1
+    },
+    {
+      "name": "I've Been Everywhere",
+      "artist": "Johnny Cash",
+      "artist_slug": "johnny-cash",
+      "plays": 1
+    },
+    {
+      "name": "Preacher’s Kid",
+      "artist": "Stephen Wilson Jr.",
+      "artist_slug": "stephen-wilson-jr",
+      "plays": 1
+    },
+    {
+      "name": "Hardwired (feat. Miranda Lambert)",
+      "artist": "Stephen Wilson Jr.",
+      "artist_slug": "stephen-wilson-jr",
+      "plays": 1
+    },
+    {
+      "name": "Jonesin' Over You",
+      "artist": "State Of The Union",
+      "artist_slug": "state-of-the-union",
+      "plays": 1
+    },
+    {
+      "name": "Mean Ol' Wind Died Down",
+      "artist": "Luther Dickinson",
+      "artist_slug": "luther-dickinson",
+      "plays": 1
+    },
+    {
+      "name": "Way I Am",
+      "artist": "Martin Sexton",
+      "artist_slug": "martin-sexton",
+      "plays": 1
+    },
+    {
+      "name": "Fishin' Blues",
+      "artist": "Taj Mahal",
+      "artist_slug": "taj-mahal",
+      "plays": 1
+    },
+    {
+      "name": "The Train Carrying Jimmy Rodgers Home",
+      "artist": "Greg Brown",
+      "artist_slug": "greg-brown",
+      "plays": 1
+    },
+    {
+      "name": "Plane Wreck at Los Gatos",
+      "artist": "Dangar Island Open Mic",
+      "artist_slug": "dangar-island-open-mic",
+      "plays": 1
+    },
+    {
+      "name": "Freedom Road",
+      "artist": "The Blind Boys Of Alabama",
+      "artist_slug": "the-blind-boys-of-alabama",
+      "plays": 1
+    },
+    {
+      "name": "Polly Wolly Doodle",
+      "artist": "Leon Redbone",
+      "artist_slug": "leon-redbone",
+      "plays": 1
+    },
+    {
+      "name": "Just Keep Going On",
+      "artist": "Eric Bibb",
+      "artist_slug": "eric-bibb",
+      "plays": 1
+    },
+    {
+      "name": "Cakewalk into Town",
+      "artist": "Taj Mahal",
+      "artist_slug": "taj-mahal",
+      "plays": 1
+    },
+    {
+      "name": "Lord, Take That Man",
+      "artist": "Vilray",
+      "artist_slug": "vilray",
+      "plays": 1
+    },
+    {
+      "name": "Hasagawa General Store",
+      "artist": "Dangar Island Open Mic",
+      "artist_slug": "dangar-island-open-mic",
+      "plays": 1
+    },
+    {
+      "name": "High Hope",
+      "artist": "Glen Hansard",
+      "artist_slug": "glen-hansard",
+      "plays": 1
+    },
+    {
+      "name": "The Egg - Remastered",
+      "artist": "Herbie Hancock",
+      "artist_slug": "herbie-hancock",
+      "plays": 1
+    },
+    {
+      "name": "Cantaloupe Island - Remastered 1999/Rudy Van Gelder Edition",
+      "artist": "Herbie Hancock",
+      "artist_slug": "herbie-hancock",
+      "plays": 1
+    },
+    {
+      "name": "Oliloqui Valley - Remastered",
+      "artist": "Herbie Hancock",
+      "artist_slug": "herbie-hancock",
+      "plays": 1
+    },
+    {
+      "name": "Alcohol",
+      "artist": "Butthole Surfers",
+      "artist_slug": "butthole-surfers",
+      "plays": 1
+    },
+    {
+      "name": "Goofy's Concern",
+      "artist": "Butthole Surfers",
+      "artist_slug": "butthole-surfers",
+      "plays": 1
+    },
+    {
+      "name": "Chewin' George Lucas' Chocolate",
+      "artist": "Butthole Surfers",
+      "artist_slug": "butthole-surfers",
+      "plays": 1
+    },
+    {
+      "name": "Tongue",
+      "artist": "Butthole Surfers",
+      "artist_slug": "butthole-surfers",
+      "plays": 1
+    },
+    {
+      "name": "The Wooden Song",
+      "artist": "Butthole Surfers",
+      "artist_slug": "butthole-surfers",
+      "plays": 1
+    },
+    {
+      "name": "Who Was In My Room Last Night?",
+      "artist": "Butthole Surfers",
+      "artist_slug": "butthole-surfers",
+      "plays": 1
+    }
+  ]
+}

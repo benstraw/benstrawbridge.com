@@ -330,6 +330,31 @@
     ],
     "last_updated": "2026-03-18"
   },
+  "0F3Aew9DSd6fb6192K1K0Y": {
+    "name": "Keith Jarrett",
+    "genres": [
+      "jazz",
+      "jazz ballads"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb8757d081b1451ea9415230cb",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051748757d081b1451ea9415230cb",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1788757d081b1451ea9415230cb",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-08-03"
+  },
   "0F9AhYVEouRCOrwHmU1F7Q": {
     "name": "Stella Miller",
     "genres": [],
@@ -869,6 +894,32 @@
       }
     ],
     "last_updated": "2026-03-18"
+  },
+  "0VyOgubdcDnrJ0AWL2TRDN": {
+    "name": "Bob Wills \u0026 His Texas Playboys",
+    "genres": [
+      "traditional country",
+      "classic country",
+      "honky tonk"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/fab2c735c62e7e931138af8c27b854e4c5ad181b",
+        "height": 273,
+        "width": 544
+      },
+      {
+        "url": "https://i.scdn.co/image/027471086f3ca1bbe635325d9f4435826c13f054",
+        "height": 100,
+        "width": 199
+      },
+      {
+        "url": "https://i.scdn.co/image/f329ef342588a1bd2059f8562caa08c67ce7c056",
+        "height": 32,
+        "width": 64
+      }
+    ],
+    "last_updated": "2026-08-03"
   },
   "0WQh63ofwTzWOy1ubiHMdk": {
     "name": "Peech.",
@@ -1610,6 +1661,32 @@
     ],
     "last_updated": "2026-03-18"
   },
+  "0nnDCl6emTFoWtygqSs4Jy": {
+    "name": "Greg Brown",
+    "genres": [
+      "americana",
+      "folk",
+      "alt country"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/d60edbc1fdb3df23debb9600f799fa0fb21394a2",
+        "height": 450,
+        "width": 600
+      },
+      {
+        "url": "https://i.scdn.co/image/6e835cce60743be699c271ec168ed7319e8f52ce",
+        "height": 150,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/dd38dde68ff428f88a79a07ac384727ee58eea12",
+        "height": 48,
+        "width": 64
+      }
+    ],
+    "last_updated": "2026-08-01"
+  },
   "0oNT7doR0CV9mAXYDSk8Tx": {
     "name": "FLOOR CRY",
     "genres": [
@@ -1979,6 +2056,28 @@
       }
     ],
     "last_updated": "2026-07-10"
+  },
+  "16HLVuiCN8iGYhBca7lsqE": {
+    "name": "Martin Sexton",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb309750daa237a8866a95a646",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174309750daa237a8866a95a646",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178309750daa237a8866a95a646",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-08-01"
   },
   "16PbhgSXhAg8s0hvaAx90y": {
     "name": "Total Blue",
@@ -2388,6 +2487,38 @@
     ],
     "last_updated": "2026-04-21"
   },
+  "1SvG3y1gYAFOsv9785Xu9T": {
+    "name": "Tom T. Hall",
+    "genres": [
+      "classic country",
+      "outlaw country",
+      "traditional country",
+      "honky tonk"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/67742f64f013fca4bf85ca63460bc98810063dda",
+        "height": 782,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/0f4320e016161fa6d5bff574554d18d693c66453",
+        "height": 500,
+        "width": 639
+      },
+      {
+        "url": "https://i.scdn.co/image/faa692915c78c4f39412c3c3db05906858909bb9",
+        "height": 156,
+        "width": 199
+      },
+      {
+        "url": "https://i.scdn.co/image/9a8d3c6669af157be20e76ae188020d5e80af040",
+        "height": 50,
+        "width": 64
+      }
+    ],
+    "last_updated": "2026-08-03"
+  },
   "1Tb9g8gVybdlkkqVgd7rUw": {
     "name": "Dylan Hughes",
     "genres": [],
@@ -2784,6 +2915,34 @@
       }
     ],
     "last_updated": "2026-05-01"
+  },
+  "1aTDTChWWyiJH3SEnYrdVp": {
+    "name": "Taj Mahal",
+    "genres": [
+      "classic blues",
+      "blues",
+      "country blues",
+      "blues rock",
+      "modern blues"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eba82aabb7544cb90acc200370",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174a82aabb7544cb90acc200370",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178a82aabb7544cb90acc200370",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-08-01"
   },
   "1bSCGVnnijnSf8R9maUeJ9": {
     "name": "Camille Yarbrough",
@@ -3639,6 +3798,30 @@
     ],
     "last_updated": "2026-04-26"
   },
+  "26cwiXP1MK0Ch1o7dvORO7": {
+    "name": "Vilray",
+    "genres": [
+      "christian jazz"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eba06b9ac9cfa3d09339dd1fa3",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174a06b9ac9cfa3d09339dd1fa3",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178a06b9ac9cfa3d09339dd1fa3",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-08-01"
+  },
   "27WVFBOddxovimxMmBN4fb": {
     "name": "Naomi Sharon",
     "genres": [
@@ -3824,6 +4007,38 @@
       }
     ],
     "last_updated": "2026-06-24"
+  },
+  "2FMZn5P3WATd7Il6FgPJNu": {
+    "name": "Buck Owens",
+    "genres": [
+      "classic country",
+      "honky tonk",
+      "traditional country",
+      "outlaw country"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/d0599c6fc86ed31cac9dd2b52ee58e1e1b01d17c",
+        "height": 1259,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/13f0431aaaef4e5cd9d9914c0c4b03c19429c6bc",
+        "height": 806,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/fdca9c93a29157fe201d6877399b8871bfe07271",
+        "height": 252,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/4838ad19b2bbc88a81f4853eeda455f59b6c1f43",
+        "height": 81,
+        "width": 64
+      }
+    ],
+    "last_updated": "2026-08-03"
   },
   "2FXC3k01G6Gw61bmprjgqS": {
     "name": "Hozier",
@@ -4316,6 +4531,34 @@
     ],
     "last_updated": "2026-03-18"
   },
+  "2ZvrvbQNrHKwjT7qfGFFUW": {
+    "name": "Herbie Hancock",
+    "genres": [
+      "jazz",
+      "jazz fusion",
+      "jazz funk",
+      "hard bop",
+      "cool jazz"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebca17170af02af227d6ea0c31",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174ca17170af02af227d6ea0c31",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178ca17170af02af227d6ea0c31",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-07-30"
+  },
   "2bOo3sgzNcQcS9525WR9Ku": {
     "name": "Ray Bryant Trio",
     "genres": [
@@ -4520,6 +4763,34 @@
       }
     ],
     "last_updated": "2026-07-09"
+  },
+  "2dyeCWctcFRt3Pha76ONgb": {
+    "name": "Hank Williams, Jr.",
+    "genres": [
+      "outlaw country",
+      "classic country",
+      "country",
+      "honky tonk",
+      "country rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebf2335981837c8ac955769cd0",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174f2335981837c8ac955769cd0",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178f2335981837c8ac955769cd0",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-08-03"
   },
   "2eam0iDomRHGBypaDQLwWI": {
     "name": "Bleachers",
@@ -5005,6 +5276,34 @@
     ],
     "last_updated": "2026-04-05"
   },
+  "2uNcfNhlVJUyEX0t0NG1m1": {
+    "name": "Eric Bibb",
+    "genres": [
+      "modern blues",
+      "country blues",
+      "blues",
+      "classic blues",
+      "blues rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebe256c255d0e965ebd840c898",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174e256c255d0e965ebd840c898",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178e256c255d0e965ebd840c898",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-08-01"
+  },
   "2uvY5pgdD9t1CZ5zMNw1rl": {
     "name": "Lucy Rose",
     "genres": [
@@ -5430,6 +5729,39 @@
     ],
     "last_updated": "2026-03-28"
   },
+  "35iymrFS4VnsKn35ebHKX9": {
+    "name": "Red Garland",
+    "genres": [
+      "jazz",
+      "jazz ballads",
+      "hard bop",
+      "cool jazz",
+      "bebop"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/d2eb2b8d27ed067ff0a649c74d280a04446d7211",
+        "height": 1151,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/dd5c21173bc998548a20343ca189adc300ad6a66",
+        "height": 737,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/0b399a318feadaa400a3ae3eb274fe395c370191",
+        "height": 230,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/64c6305f23cee4433f2898095e76705e41b248d2",
+        "height": 74,
+        "width": 64
+      }
+    ],
+    "last_updated": "2026-08-03"
+  },
   "366xgdzfRGQoiDRGidGlDJ": {
     "name": "Jesse Welles",
     "genres": [
@@ -5637,6 +5969,28 @@
       }
     ],
     "last_updated": "2026-03-18"
+  },
+  "3Caot8EtHX6wLpNF2wRzS0": {
+    "name": "Glen Hansard",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eba7ceef9771c8bacac8a9be55",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174a7ceef9771c8bacac8a9be55",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178a7ceef9771c8bacac8a9be55",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-08-01"
   },
   "3Cp20KSVlMlFuOdqiqHFGR": {
     "name": "Mei Semones",
@@ -6046,6 +6400,74 @@
     ],
     "last_updated": "2026-05-29"
   },
+  "3T0CG1MKkAu9rxA2ezgyLC": {
+    "name": "The Soggy Bottom Boys",
+    "genres": [
+      "bluegrass",
+      "outlaw country"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6742d3000053b7e41f1033a835a57a92332ead",
+        "height": 720,
+        "width": 1280
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6742d3000052b7e41f1033a835a57a92332ead",
+        "height": 360,
+        "width": 640
+      }
+    ],
+    "last_updated": "2026-08-03"
+  },
+  "3TmSI8fXEnY6MViKmhu8Rp": {
+    "name": "State Of The Union",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b2739daf1aeb94ed77d363ebacac",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e029daf1aeb94ed77d363ebacac",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d000048519daf1aeb94ed77d363ebacac",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "last_updated": "2026-08-01"
+  },
+  "3U7k7hBsHF9dy4ELW53Wrv": {
+    "name": "John Anderson",
+    "genres": [
+      "classic country",
+      "country",
+      "traditional country"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebcf8aa2acfb7c247651a08292",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174cf8aa2acfb7c247651a08292",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178cf8aa2acfb7c247651a08292",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-08-03"
+  },
   "3UgcksTtuB1Jnn8BrisEiC": {
     "name": "Emma-Jean Thackray",
     "genres": [
@@ -6071,6 +6493,38 @@
       }
     ],
     "last_updated": "2026-04-05"
+  },
+  "3VEG6gxFIMfl4Cdog26avS": {
+    "name": "Bill Evans Trio",
+    "genres": [
+      "jazz",
+      "jazz ballads",
+      "cool jazz",
+      "hard bop"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6772690000c46c2539dd4ebc808824e4039205",
+        "height": 1000,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6772690000dd222539dd4ebc808824e4039205",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6772690000bac32539dd4ebc808824e4039205",
+        "height": 200,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67726900008f742539dd4ebc808824e4039205",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "last_updated": "2026-08-03"
   },
   "3WEpQkwVA27jpSU3qzNyCA": {
     "name": "Brothers Page",
@@ -6245,6 +6699,32 @@
     ],
     "last_updated": "2026-03-18"
   },
+  "3YeRGjR8sa1PHjTUMjqsQg": {
+    "name": "Bob Wills",
+    "genres": [
+      "classic country",
+      "traditional country",
+      "honky tonk"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/3f3642d76eac15dd93668f8de699bbf5ddc1b86c",
+        "height": 672,
+        "width": 638
+      },
+      {
+        "url": "https://i.scdn.co/image/c8b7f83097d04607b58d757fb8137125a33ff2bf",
+        "height": 211,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/41bb61d4a9db74b6a4a672228f52e676b8fc2109",
+        "height": 67,
+        "width": 64
+      }
+    ],
+    "last_updated": "2026-08-03"
+  },
   "3ZBIKwEmexGQHro1PDM75t": {
     "name": "The Stills-Young Band",
     "genres": [],
@@ -6341,6 +6821,36 @@
       }
     ],
     "last_updated": "2026-04-05"
+  },
+  "3bLSAQPeix7Xm2e5Gtn48R": {
+    "name": "The Steeldrivers",
+    "genres": [
+      "bluegrass",
+      "newgrass",
+      "outlaw country",
+      "americana",
+      "red dirt",
+      "country",
+      "alt country"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebdc908a34abcbb9b335b94c14",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174dc908a34abcbb9b335b94c14",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178dc908a34abcbb9b335b94c14",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-08-02"
   },
   "3cdI6SvJ24KsOcvYyBwH9c": {
     "name": "Luz",
@@ -6547,6 +7057,34 @@
       }
     ],
     "last_updated": "2026-06-17"
+  },
+  "3mSAqBoXQgdlpwzWsIgBzL": {
+    "name": "Merle Haggard \u0026 The Strangers",
+    "genres": [
+      "classic country",
+      "outlaw country",
+      "honky tonk",
+      "traditional country",
+      "country"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b273915793347f4c2890b967552c",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e02915793347f4c2890b967552c",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00004851915793347f4c2890b967552c",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "last_updated": "2026-08-03"
   },
   "3mXvO1rdMCgdOYNiWeduWG": {
     "name": "Christian Borle",
@@ -7808,6 +8346,32 @@
     ],
     "last_updated": "2026-07-24"
   },
+  "4QonkOS6ybWrJVYFWEHMZY": {
+    "name": "Terry Allen",
+    "genres": [
+      "outlaw country",
+      "alt country",
+      "americana"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb3ee4e2537febe00d858e5a6f",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051743ee4e2537febe00d858e5a6f",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1783ee4e2537febe00d858e5a6f",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-08-03"
+  },
   "4QtPvWkKXNZ5NJ4KRaKWql": {
     "name": "The Royal Scots Dragoon Guards",
     "genres": [
@@ -8068,6 +8632,33 @@
     ],
     "last_updated": "2026-04-07"
   },
+  "4bsWHdJkFtq1r3TcXtKGdv": {
+    "name": "Dave Dudley",
+    "genres": [
+      "classic country",
+      "outlaw country",
+      "honky tonk",
+      "traditional country"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b273e19c6ff062e29d8269149dad",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e02e19c6ff062e29d8269149dad",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00004851e19c6ff062e29d8269149dad",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "last_updated": "2026-08-03"
+  },
   "4dDqxbEKfPN3RZYrGr36y8": {
     "name": "Fruition",
     "genres": [
@@ -8117,6 +8708,35 @@
       }
     ],
     "last_updated": "2026-03-26"
+  },
+  "4gQ8biCMcMrOuBdJx639Q0": {
+    "name": "Ray Wylie Hubbard",
+    "genres": [
+      "outlaw country",
+      "red dirt",
+      "texas country",
+      "alt country",
+      "americana",
+      "southern rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb358423c1d136f96461c0e04c",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174358423c1d136f96461c0e04c",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178358423c1d136f96461c0e04c",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-08-03"
   },
   "4hdVPbHhsWAn2XTXVRJoxB": {
     "name": "Chris Potter",
@@ -8609,6 +9229,38 @@
       }
     ],
     "last_updated": "2026-03-18"
+  },
+  "55Ptzry7mHvRycwsNqfZhY": {
+    "name": "Junior Brown",
+    "genres": [
+      "honky tonk",
+      "outlaw country",
+      "classic country",
+      "rockabilly"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/d9ade4d4f1b96dd944fc5a4634eed4f489999d7c",
+        "height": 1195,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/102bfa2d2eb78e0af1ac3c08075ab6fb948f2243",
+        "height": 765,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/6dc26ad62e805a28c97c650e710bea6e54dce802",
+        "height": 239,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/5b4d4e3a7d7ad411bb6c85be1fe145765d486a4a",
+        "height": 76,
+        "width": 64
+      }
+    ],
+    "last_updated": "2026-08-03"
   },
   "56qrzp61GEif1i0UjqkHrz": {
     "name": "Melissa Aldana",
@@ -9201,6 +9853,30 @@
     ],
     "last_updated": "2026-03-18"
   },
+  "5TVL4FXEntBYZb3ujyt6fH": {
+    "name": "The Blind Boys Of Alabama",
+    "genres": [
+      "traditional gospel"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb11a14986a23f120d8a748456",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517411a14986a23f120d8a748456",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17811a14986a23f120d8a748456",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-08-01"
+  },
   "5UUG83KSlqPhrBssrducWV": {
     "name": "Spotify",
     "genres": [],
@@ -9254,6 +9930,39 @@
       }
     ],
     "last_updated": "2026-03-18"
+  },
+  "5W5bDNCqJ1jbCgTxDD0Cb3": {
+    "name": "Willie Nelson",
+    "genres": [
+      "outlaw country",
+      "classic country",
+      "country",
+      "traditional country",
+      "honky tonk"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6772690000c46c8ff3385555930af73293254b",
+        "height": 1000,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6772690000dd228ff3385555930af73293254b",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6772690000bac38ff3385555930af73293254b",
+        "height": 200,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67726900008f748ff3385555930af73293254b",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "last_updated": "2026-08-03"
   },
   "5aIqB5nVVvmFsvSdExz408": {
     "name": "Johann Sebastian Bach",
@@ -9339,6 +10048,34 @@
       }
     ],
     "last_updated": "2026-07-10"
+  },
+  "5cbutZUQE7SUCA6MsEMbBv": {
+    "name": "Hank Mobley",
+    "genres": [
+      "hard bop",
+      "jazz",
+      "bebop",
+      "jazz ballads",
+      "cool jazz"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb58136a57ebcbd783ab43d363",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517458136a57ebcbd783ab43d363",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17858136a57ebcbd783ab43d363",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-08-03"
   },
   "5cudslRGWg0GsXaN79Wifs": {
     "name": "Town Mountain",
@@ -10143,6 +10880,33 @@
     ],
     "last_updated": "2026-04-26"
   },
+  "675tsBPpaZtqyiBwEf3ZEP": {
+    "name": "Watchhouse",
+    "genres": [
+      "bluegrass",
+      "americana",
+      "newgrass",
+      "folk"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebbf832300f2032e64d42fe763",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174bf832300f2032e64d42fe763",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178bf832300f2032e64d42fe763",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-08-02"
+  },
   "67PZTxaHKMZBFRUh8wIzCy": {
     "name": "John Coltrane Quartet",
     "genres": [
@@ -10233,6 +10997,34 @@
       }
     ],
     "last_updated": "2026-03-18"
+  },
+  "67meObnM9NdAyCO373aaEp": {
+    "name": "Dale Watson",
+    "genres": [
+      "honky tonk",
+      "outlaw country",
+      "alt country",
+      "texas country",
+      "americana"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebefc0ecf131b16708f920da24",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174efc0ecf131b16708f920da24",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178efc0ecf131b16708f920da24",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-08-03"
   },
   "68YD0oUAF8k1NqEFAIx60M": {
     "name": "Thandii",
@@ -10617,6 +11409,28 @@
       }
     ],
     "last_updated": "2026-05-06"
+  },
+  "6KwPTMuJaTKVlehhRp8vqc": {
+    "name": "Dangar Island Open Mic",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b27349a8a2d894818600936085c8",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e0249a8a2d894818600936085c8",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000485149a8a2d894818600936085c8",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "last_updated": "2026-08-01"
   },
   "6MERXsiRbur2oJZFgYRDKz": {
     "name": "Vitamin String Quartet",
@@ -12085,6 +12899,36 @@
     ],
     "last_updated": "2026-03-28"
   },
+  "75d2SGqtUsggybmf1BlbPd": {
+    "name": "The Whites",
+    "genres": [
+      "bluegrass",
+      "christian bluegrass"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/a9cf9a02de8f7b59a5c5967b640c81c23e34ed84",
+        "height": 988,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/36325220a3e5a532ca8a3879e47e857a0f102d0f",
+        "height": 633,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/51cce2ba3d9ef188c1c93750a60592381bf4fa3e",
+        "height": 198,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/8289260dbbbbebf4a72081e33683e6130d95967f",
+        "height": 63,
+        "width": 64
+      }
+    ],
+    "last_updated": "2026-08-03"
+  },
   "776Uo845nYHJpNaStv1Ds4": {
     "name": "Jimi Hendrix",
     "genres": [
@@ -12604,6 +13448,32 @@
     ],
     "last_updated": "2026-03-18"
   },
+  "7dmeVSH4lJqxXU7C87dKIB": {
+    "name": "Tanya Tucker",
+    "genres": [
+      "classic country",
+      "country",
+      "outlaw country"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebacc786c55075e7d82a414e15",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174acc786c55075e7d82a414e15",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178acc786c55075e7d82a414e15",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-08-02"
+  },
   "7g9DeYASD3RzlT4kDchsQZ": {
     "name": "Gil Evans",
     "genres": [
@@ -12728,6 +13598,36 @@
     ],
     "last_updated": "2026-03-18"
   },
+  "7hYKC5uBED0V5rpKQkqgQ5": {
+    "name": "Leon Redbone",
+    "genres": [
+      "christmas",
+      "ragtime"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/7ffd242790bc626593434af588afb9d0b86dfc6a",
+        "height": 1010,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/8f0933c48e2b6c483284c6a13e5b882943b9d989",
+        "height": 647,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/5338150a039197a1b2d0d7917c0f5c63c992b4fe",
+        "height": 202,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/88b1f531a2d70196c87ce9287c4ad5ee581e22aa",
+        "height": 65,
+        "width": 64
+      }
+    ],
+    "last_updated": "2026-08-01"
+  },
   "7ie36YytMoKtPiL7tUvmoE": {
     "name": "Igor Stravinsky",
     "genres": [
@@ -12813,6 +13713,38 @@
       }
     ],
     "last_updated": "2026-05-07"
+  },
+  "7lRFrrINQTY35g8hq0kXY5": {
+    "name": "Johnny Hodges",
+    "genres": [
+      "jazz",
+      "jazz ballads",
+      "cool jazz",
+      "swing music"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/7e711118c7f8d070519b8b30fb1a7df921736bb2",
+        "height": 1011,
+        "width": 947
+      },
+      {
+        "url": "https://i.scdn.co/image/3d0eb92c8c6c640cffecf979802adb8c45a9e5c0",
+        "height": 683,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/0b6e4502733b64f3283026d27a52dfde429fb0a0",
+        "height": 214,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/7b509e239c7c19f269a2135384b320cfd3b41c10",
+        "height": 68,
+        "width": 64
+      }
+    ],
+    "last_updated": "2026-08-03"
   },
   "7mnBLXK823vNxN3UWB7Gfz": {
     "name": "The Black Keys",
@@ -12914,6 +13846,28 @@
     ],
     "last_updated": "2026-04-29"
   },
+  "7pOVIu213yYI9X7Ylfyh2K": {
+    "name": "The Brudi Brothers",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb6ee58080f2e09917ba420290",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051746ee58080f2e09917ba420290",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1786ee58080f2e09917ba420290",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-08-03"
+  },
   "7rrTqtOUOwva4sgTx9C9F9": {
     "name": "Joy Oladokun",
     "genres": [],
@@ -13007,6 +13961,34 @@
       }
     ],
     "last_updated": "2026-03-28"
+  },
+  "7wCjDgV6nqBsHguQXPAaIM": {
+    "name": "Waylon Jennings",
+    "genres": [
+      "outlaw country",
+      "classic country",
+      "country",
+      "honky tonk",
+      "traditional country"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebbb45c7bb750374d4e5a4577a",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174bb45c7bb750374d4e5a4577a",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178bb45c7bb750374d4e5a4577a",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-08-03"
   },
   "7xY48N1Fs8R9DDKcUrevke": {
     "name": "Zach Webb",
