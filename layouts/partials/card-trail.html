@@ -1,0 +1,75 @@
+{{- /*
+Feed card for /trails/ pages. Selected per page by utils/card-type.html via
+`cardType = "-trail"` in the content/trails/_index.md cascade.
+
+The card's visual is content/trails/<slug>/og-cover.jpg — the trail's GPX track
+on a real basemap, screenshotted from layouts/trails/single.ogcard.html by
+`npm run og:trails`. That image already has the trail name, the location and the
+wordmark burned into it, so this card renders no visible title: repeating it
+would print the same words twice. The heading survives as sr-only for schema.org
+and screen readers.
+
+Structure otherwise mirrors themes/ryder/layouts/partials/card-category-color.html
+so the card drops into the same grid — same wrapper, same homeFeatureWide span,
+same gradient ring, same .link-overlay.
+*/ -}}
+{{- $m := partial "utils/card-meta.html" . -}}
+
+{{- /* Existing resolver: honours og_image ahead of everything else
+       (get-featured-image.html:7-22), so this is the committed og-cover.jpg.
+       Already called for this page in <head> by opengraph.html / twitter_cards.html
+       / schema.html, so it is a same-build cache hit rather than extra work. It
+       never returns nil — a trail that somehow lost its card degrades to the
+       generated title-on-template image instead of leaving a hole. */ -}}
+{{- $img := partial "common-partials/opengraph/get-featured-image.html" . -}}
+{{- $tourType := .Params.tourType | default "Walking Tour" -}}
+
+{{- /* arizona-hotspring, san-gabriel-... and wisdon-tree-... all have
+       description = "", so the .Summary fallback is load-bearing. But .Summary is
+       a ~100-word auto-summary of the body and arrives as HTML, which on a card
+       whose point is the image runs to a wall of text — on the 3-column /trails/
+       grid it made one card twice its neighbours' height. Flatten and clamp so
+       every trail card is about the same size regardless of which one it is.
+
+       htmlUnescape is not optional here: plainify strips the tags but leaves the
+       entities Goldmark produced for smart quotes, so without it the card printed
+       a literal "Year&rsquo;s" once Hugo re-escaped the ampersand on output. */ -}}
+{{- $blurb := or .Description .Summary | plainify | htmlUnescape | strings.TrimSpace | truncate 180 -}}
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article {{ with .Param "homeFeatureWide" }}md:col-span-2 md:order-first{{ end }}">
+  <div class="article-content relative p-1 rounded-xl {{ $m.headerStyle }}">
+    <div class="w-full h-full rounded-lg overflow-hidden bg-neutral-100 text-neutral-900 dark:bg-neutral-800 dark:text-neutral-100">
+      {{- if $m.showCardLinkOverlay }}
+      <a itemprop="url" aria-label="{{ .Title }}" href="{{ $m.cardURL }}" class="link-overlay"> </a>
+      {{- end }}
+
+      <h2 itemprop="headline" class="sr-only">
+        {{- if not $m.showCardLinkOverlay }}<a itemprop="url" href="{{ $m.cardURL }}">{{ end }}
+        {{- .Title }}
+        {{- if not $m.showCardLinkOverlay }}</a>{{ end }}
+      </h2>
+
+      {{- with $img }}
+        {{- /* The feed is grid-cols-1 md:grid-cols-2 inside max-w-screen-lg, so a
+               card is ~490px from `md` up and full-width below it. */ -}}
+        {{- $small := .Resize "480x webp q82" -}}
+        {{- $mid := .Resize "760x webp q82" -}}
+        {{- $large := .Resize "1200x webp q82" -}}
+        <img src="{{ $mid.RelPermalink }}"
+             srcset="{{ $small.RelPermalink }} 480w, {{ $mid.RelPermalink }} 760w, {{ $large.RelPermalink }} 1200w"
+             sizes="(min-width: 768px) 480px, 100vw"
+             width="{{ $large.Width }}" height="{{ $large.Height }}"
+             alt="{{ $.Title }} trail map"
+             loading="lazy" decoding="async"
+             class="block w-full h-auto aspect-[1200/630] object-cover">
+      {{- end }}
+
+      <div class="p-3">
+        <span class="inline-block mb-2 px-2 py-0.5 rounded text-xs font-bold uppercase tracking-wide bg-neutral-200 text-neutral-700 dark:bg-neutral-700 dark:text-neutral-200">{{ $tourType }}</span>
+        {{- with $blurb }}
+        <div itemprop="articleBody" class="articleBody">{{ . }}</div>
+        {{- end }}
+      </div>
+    </div>
+  </div>
+</div>
