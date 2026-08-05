@@ -1,13 +1,19 @@
 {{ define "main" }}
-<div class="p-2 max-w-screen-xl mx-auto">
-  <header class="max-w-screen-xl prose lg:prose-xl dark:prose-invert">
+<div class="p-2 max-w-screen-lg mx-auto">
+  <header class="prose lg:prose-xl dark:prose-invert">
     <h1>{{ .Title }}</h1>
     {{ .Content }}
   </header>
-  <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 gap-4 mt-4">
-    {{ $paginator := .Paginate (.Pages.ByDate.Reverse) }}
-    {{ range $paginator.Pages }}
-      {{- partial "card-weekly.html" . -}}
+  {{ $paginator := .Paginate (.Pages.ByDate.Reverse) }}
+  {{/* Same 1 / 2 / 4 grid as the listening landing page. The lead row goes
+       double only on page 1, where those are genuinely the newest weeks. */}}
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-4">
+    {{ range $i, $w := $paginator.Pages }}
+      {{- $wideFrom := "" -}}
+      {{- if eq $paginator.PageNumber 1 -}}
+        {{- if eq $i 0 -}}{{- $wideFrom = "md" -}}{{- else if eq $i 1 -}}{{- $wideFrom = "lg" -}}{{- end -}}
+      {{- end -}}
+      {{- partial "card-weekly.html" (dict "page" $w "wideFrom" $wideFrom) -}}
     {{ end }}
   </div>
   {{ template "_internal/pagination.html" . }}

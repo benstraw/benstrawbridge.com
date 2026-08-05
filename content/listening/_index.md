@@ -7,6 +7,6 @@ hideAsideBar = true
   sectionTitle = "Benstraw's Music Brain"
 +++
 
-{{< font-awesome "fab fa-spotify text-7xl mr-2 text-emerald-500 inline-block align-middle max-w-16 fill-current" >}}  What I'm listening to on Spotify. Play history collected automatically 5× per day. Browse by [artist](/listening/artists/) or by [week](/listening/weekly/), or explore the [musical genres](/musical-genres/) taxonomy.
+{{< font-awesome "fab fa-spotify text-7xl mr-2 text-emerald-500 inline-block align-middle max-w-16 fill-current" >}}  What I'm listening to on Spotify. Play history collected automatically 5× per day by [Obsidian Music Garden](https://github.com/benstraw/obsidian-music-garden), an open source project I wrote. Browse by [artist](/listening/artists/) or by [week](/listening/weekly/), or explore the [musical genres](/musical-genres/) taxonomy.
 
 <!--more-->

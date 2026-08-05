@@ -51,8 +51,8 @@ git add themes/ryder
 ## Architecture
 
 ### Theme Structure
-- **Theme**: Uses `ryder-dev` theme (git submodule at `themes/ryder`)
-- **Theme config**: Set in `config/_default/hugo.toml` as `theme = 'ryder-dev'`
+- **Theme**: Uses the Ryder theme (git submodule at `themes/ryder`, pinned to v0.3.2)
+- **Theme config**: Set in `config/_default/hugo.toml` as `theme = 'ryder'`, matching production
 - **Layout overrides**: Root-level `layouts/` directory overrides theme layouts for custom sections
 - **Assets**: Root-level `assets/` directory contains site-specific JS, images, and extended functionality
 
@@ -135,12 +135,14 @@ the download when it finds it. In any other environment the hook installs Hugo
 itself, which costs about a minute — correct, but uncached, because anything the
 hook writes happens *after* the snapshot is taken.
 
-### Theme resolution differs by environment
-- `config/_default` sets `theme = 'ryder-dev'`, a **gitignored** path that is
-  normally a local working checkout of the theme.
-- `config/production` sets `theme = "ryder"`, the submodule.
-- The hook symlinks `themes/ryder-dev` → `ryder` so the development environment
-  can resolve a theme at all. Nothing else creates that path.
+### Theme resolution
+Both `config/_default` and `config/production` set `theme = "ryder"`, the
+submodule, so every environment builds against the same pinned theme. There is
+no separate development theme path: the site previously pointed `config/_default`
+at a gitignored `themes/ryder-dev` symlink so it could build against a local
+working checkout, and that indirection has been removed. To test unreleased
+theme work, check the branch out inside `themes/ryder` rather than reintroducing
+a second theme path.
 
 ### Build with `--environment development`
 `hugo build` defaults to the production environment, where `postcss.config.js`

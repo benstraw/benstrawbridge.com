@@ -24,16 +24,7 @@ HUGO_SHA256="fea17b8c076f950bb2e9f9486667bdaa29422883888d509d63931c73e8a9b3a4"
 #    layout, partial and design token resolves to nothing.
 git submodule update --init --recursive
 
-# 2. config/_default sets `theme = 'ryder-dev'`, which is gitignored because it
-#    is normally a local working checkout of the theme. `hugo server` runs in
-#    the development environment and would fail outright without it, so point
-#    it at the submodule. Production (config/production sets `theme = "ryder"`)
-#    does not use this path and is unaffected.
-if [ ! -e themes/ryder-dev ]; then
-  ln -s ryder themes/ryder-dev
-fi
-
-# 3. Hugo extended. Not in the base image, and the plain (non-extended) build
+# 2. Hugo extended. Not in the base image, and the plain (non-extended) build
 #    will not satisfy module.toml.
 if ! hugo version 2>/dev/null | grep -q "v${HUGO_VERSION}.*extended"; then
   arch="$(uname -m)"
@@ -52,7 +43,7 @@ if ! hugo version 2>/dev/null | grep -q "v${HUGO_VERSION}.*extended"; then
   install -m 0755 "$tmp/hugo" /usr/local/bin/hugo
 fi
 
-# 4. npm deps: Tailwind and PostCSS drive the CSS pipeline, Font Awesome backs
+# 3. npm deps: Tailwind and PostCSS drive the CSS pipeline, Font Awesome backs
 #    `npm run test:fa-icons`. `install` rather than `ci` so the cached container
 #    state is reused on later sessions.
 npm install --no-audit --no-fund
