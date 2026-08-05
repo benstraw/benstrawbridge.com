@@ -66,9 +66,11 @@ Upstream this to the theme and delete this file once the theme carries it.
 
 {{- if and $owner $repo $path }}
 
-  {{- /* A blocked host raises a hard template error, and as of Hugo 0.158 so
-  does an HTTP-status failure — the resource no longer carries an .Err field.
-  So every remote call goes through `try`. $failure holds the first problem. */}}
+  {{- /* A blocked host raises a hard template error, and on Hugo 0.164 so does
+  an HTTP-status failure — the resource no longer carries an .Err field, and
+  reading it aborts the build. (0.164 is where this was verified; the exact
+  release that changed it was not established.) So every remote call goes
+  through `try`. $failure holds the first problem. */}}
   {{- $failure := "" }}
 
   {{- /* Get branch. */}}
