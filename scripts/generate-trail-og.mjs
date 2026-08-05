@@ -102,12 +102,22 @@ async function loadPlaywright() {
  * means it keeps working when the image bumps its Chromium build number.
  */
 async function launchChromium(chromium) {
+  /* Chromium does not pick up HTTPS_PROXY the way curl does — left alone in a
+     proxied sandbox its tile requests hang rather than fail. Unset on a normal
+     machine, so this is a no-op there. */
+  const proxyServer = process.env.HTTPS_PROXY || process.env.https_proxy;
+  const opts = proxyServer
+    ? // The bypass is essential: without it the loopback server this script
+      // runs is proxied too, and the card page itself fails to load.
+      { proxy: { server: proxyServer, bypass: '127.0.0.1,localhost,::1' } }
+    : {};
+
   try {
-    return await chromium.launch();
+    return await chromium.launch(opts);
   } catch (err) {
     if (!existsSync(PREINSTALLED_CHROMIUM)) throw err;
     console.warn(`› playwright's own browser is missing; using ${PREINSTALLED_CHROMIUM}`);
-    return chromium.launch({ executablePath: PREINSTALLED_CHROMIUM });
+    return chromium.launch({ ...opts, executablePath: PREINSTALLED_CHROMIUM });
   }
 }
 
@@ -210,8 +220,22 @@ async function shoot(page, port, slug, stubTiles) {
         timeout: READY_TIMEOUT_MS,
       });
     } catch {
+      // Report what the page got to, so a hang is distinguishable from a crash.
+      const state = await page
+        .evaluate(() => ({
+          tiles: window.__ogCardTilesLoaded,
+          errors: window.__ogCardTileErrors,
+        }))
+        .catch(() => null);
+      const detail = state
+        ? `${state.tiles} tile(s) loaded, ${state.errors} failed` +
+          (state.tiles === 0 && state.errors === 0
+            ? ' — tile requests are hanging, so the browser is probably not ' +
+              'reaching the tile host at all'
+            : '')
+        : 'page state unavailable';
       throw new Error(
-        `card never signalled ready within ${READY_TIMEOUT_MS / 1000}s` +
+        `card never signalled ready within ${READY_TIMEOUT_MS / 1000}s (${detail})` +
           (consoleErrors.length ? `\n    console: ${consoleErrors[0]}` : '')
       );
     }

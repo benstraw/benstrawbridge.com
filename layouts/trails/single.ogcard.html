@@ -263,9 +263,17 @@
   baseLayer.addTo(map);
 
   // Readiness handshake for scripts/generate-trail-og.mjs. The screenshot is
-  // only worth taking once the track is drawn AND the tiles that fitBounds
-  // pulled in have all settled, so this waits for a quiet period after the
-  // last tile layer 'load' rather than a fixed sleep.
+  // only worth taking once the track is drawn AND real tiles are on screen, so
+  // this waits for a quiet period after the last tile event rather than a fixed
+  // sleep.
+  //
+  // tilesLoaded is load-bearing, not decoration. An earlier version signalled
+  // ready off the GPX alone, which meant that when tile requests hung — no
+  // response, no error, just pending forever, as happens behind a proxy the
+  // browser is not using — the card was photographed with a blank map and the
+  // generator reported success. Requiring a tile to have actually rendered
+  // turns that into a timeout the generator can fail on.
+  var tilesLoaded = 0;
   var tileErrors = 0;
   var gpxLoaded = false;
   var quietTimer = null;
@@ -273,19 +281,25 @@
   window.__ogCardReady = false;
   window.__ogCardError = null;
   window.__ogCardTileErrors = 0;
+  window.__ogCardTilesLoaded = 0;
 
   function settle() {
-    if (!gpxLoaded) return;
+    if (!gpxLoaded || tilesLoaded === 0) return;
     clearTimeout(quietTimer);
     quietTimer = setTimeout(function() {
-      window.__ogCardTileErrors = tileErrors;
       window.__ogCardReady = true;
     }, 400);
   }
 
+  baseLayer.on('tileload', function() {
+    tilesLoaded++;
+    window.__ogCardTilesLoaded = tilesLoaded;
+    settle();
+  });
   baseLayer.on('tileerror', function() {
     tileErrors++;
     window.__ogCardTileErrors = tileErrors;
+    settle();
   });
   baseLayer.on('load', settle);
 

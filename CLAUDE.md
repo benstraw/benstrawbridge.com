@@ -256,32 +256,38 @@ Cards are JPEG at quality 88. They were PNG originally, which for screenshots
 of photographic topo tiles ran 0.85–1.4MB each — roughly 5× the JPEG for no
 visible difference. Any leftover `og-cover.png` is deleted as its JPEG lands.
 
-### Running it in a cloud session
+### Cloud sessions cannot generate cards — generate them locally
 
-Two things have to be right, and only one of them lives in this repo.
+`basemap.nationalmap.gov` and `*.basemaps.cartocdn.com` are in the **Ryder /
+Hugo** environment's **Custom** network access list, and `curl` reaches both
+with a 200. That is necessary but *not* sufficient: Chromium's tile requests
+still die with `ERR_CONNECTION_RESET` through the agent proxy, verified
+2026-08-05. The generator launches with `proxy` set (bypassing loopback, or the
+card page itself 405s) and still gets nothing.
 
-**Tile hosts must be allowlisted.** The card is a live Leaflet map, so the
-screenshotter needs the same tile CDNs a visitor would. Add both to the
-**Ryder / Hugo** environment's **Custom** network access list, alongside the
-existing `gohugo.io` entry:
+So the script fails loudly in a cloud session:
 
 ```
-basemap.nationalmap.gov
-*.basemaps.cartocdn.com
+card never signalled ready within 45s (0 tile(s) loaded, 18 failed)
 ```
 
-The wildcard is not optional — Leaflet's `{s}` placeholder rotates across `a.`,
-`b.` and `c.`, so a bare hostname covers none of the requests. Verify rather
-than assume, the same way as `gohugo.io`:
+That is the correct outcome and no card is written. **Run `npm run og:trails`
+on a real machine.**
+
+The failure used to be much worse. The readiness handshake keyed off the GPX
+alone, so when tile requests *hung* — no response, no error — the card was
+photographed with a blank map and the run reported success. The template now
+requires `tilesLoaded > 0` before signalling ready, which converts a silent
+blank card into a timeout. Do not weaken that check.
+
+If the allowlist itself ever needs re-verifying, the wildcard is not optional —
+Leaflet's `{s}` rotates across `a.`, `b.` and `c.`, so a bare hostname matches
+none of the requests:
 
 ```bash
 curl -sS -o /dev/null -w '%{http_code}\n' \
   https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/tile/12/1633/703
 ```
-
-A 403 or `CONNECT tunnel failed` means the entry is missing or was not applied
-to this session. Without it the script exits non-zero rather than saving a card
-with holes in it.
 
 **The browser is handled already.** `npm install` may resolve a `playwright`
 whose expected Chromium build is not the one baked into the image, which fails
