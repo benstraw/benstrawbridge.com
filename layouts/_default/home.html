@@ -4,7 +4,11 @@
        2. Feed loop skips /links pages with no link_url, and keeps link pages
           that do have one even when they have no summary.
        3. home-links-module partial inserted between Featured and Latest Stuff.
-       4. Card wrapper gated on its contents rather than on `or .Title .Content`. */}}
+       4. Card wrapper gated on its contents rather than on `or .Title .Content`.
+       5. Card partial resolved per page via utils/card-type.html instead of once
+          per grid, so a section or a category can opt into its own card. The
+          theme's homeListCardType / homeFeatureListCardType still supply the
+          default for pages that do not. */}}
 {{- define "main" }}
 <div class="p-2 max-w-screen-lg mx-auto ">
   {{/*  SITE: the theme gates this card on `or .Title .Content`, but the title
@@ -104,9 +108,11 @@
       <h2 class="flex p-3 items-center mb-2 text-3xl uppercase font-bold tracking-wide border-b border-neutral-300 dark:border-neutral-700">{{ $featureHeader }}</h2>
     {{- end }}
     <div class="p-2 mx-auto grid md:grid-cols-2 gap-6 mb-5">
+    {{/*  SITE: see delta 5 in the header comment.  */}}
     {{ $homeFeatureListCardType := .Param "homeFeatureListCardType" | default "-category-color" }}
     {{- range $visibleFeatures }}
-      {{- partial (printf "card%s.html" $homeFeatureListCardType) . -}}
+      {{- $cardType := partial "utils/card-type.html" (dict "page" . "default" $homeFeatureListCardType) -}}
+      {{- partial (printf "card%s.html" $cardType) . -}}
     {{- end }}
     </div>
     {{- end }}
@@ -122,9 +128,11 @@
     {{- $feedHeader := default "Latest stuff" (site.Params.homePageFeedHeader) }}
     <div class="md:grid-cols-2 p-2 mx-auto grid grid-cols-1 gap-6 mb-5">
       <h2 class="md:col-span-2 flex my-2 items-center mb-2 text-3xl uppercase font-bold tracking-wide border-b border-neutral-300 dark:border-neutral-700">{{ $feedHeader }}</h2>
+      {{/*  SITE: see delta 5 in the header comment.  */}}
       {{ $homeListCardType := .Param "homeListCardType" | default "-category-color" }}
       {{- range $paginator.Pages -}}
-        {{- partial (printf "card%s.html" $homeListCardType) . -}}
+        {{- $cardType := partial "utils/card-type.html" (dict "page" . "default" $homeListCardType) -}}
+        {{- partial (printf "card%s.html" $cardType) . -}}
       {{- end }}
         <div class="md:col-span-2 flex p-3 justify-center items-center">
           {{- template "_internal/pagination.html" . }}
