@@ -174,20 +174,15 @@ npm run og:trails -- --only <slug>
 
 This needs the tile hosts (`basemap.nationalmap.gov`,
 `*.basemaps.cartocdn.com`), which Claude Code on the web blocks — **run it
-locally**. It writes `content/trails/<slug>/og-cover.png`.
+locally**. It writes `content/trails/<slug>/og-cover.jpg` and adds
+`og_image = "og-cover.jpg"` to the page's front matter for you.
 
-Then point the page at it:
+Commit the image and `index.md` together. The OG partial calls `errorf` on an
+`og_image` it cannot resolve, so the two must never be split across commits.
 
-```toml
-og_image = "og-cover.png"
-```
-
-Add that line in the **same commit as the PNG**. The OG partial calls `errorf`
-when `og_image` names a file that does not exist, so front matter that lands
-first breaks the build for everyone.
-
-If the title is long enough to wrap past two lines on the card, add
-`ogTitleText = "Shorter Name"` — the card uses it in place of `title`.
+If the title is long enough to wrap past two lines on the card, set
+`ogTitleText = "Shorter Name"` **before** generating — the card uses it in
+place of `title`.
 
 ## Step 3: Verify checklist
 
@@ -198,5 +193,5 @@ If the title is long enough to wrap past two lines on the card, add
 - [ ] Stop `order` values are sequential starting at 1
 - [ ] Main entrance / primary stop is `order: 1` (gets the amber star icon)
 - [ ] `geo.lat` / `geo.lon` set to approximate tour center
-- [ ] `og-cover.png` generated locally, and `og_image = "og-cover.png"` added in
-      the same commit
+- [ ] `og-cover.jpg` generated locally, committed together with the `og_image`
+      line the script adds to `index.md`

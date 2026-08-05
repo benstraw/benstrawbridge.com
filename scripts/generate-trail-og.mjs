@@ -5,7 +5,9 @@
  * Hugo renders the card source to /trails/<slug>/og-card.html (the OGCard
  * output format, template at layouts/trails/single.ogcard.html). This script
  * builds the site, serves public/ locally, photographs each card at 1200x630,
- * and writes the PNG into the trail's page bundle as og-cover.png.
+ * writes og-cover.jpg into the trail's page bundle, and points that page's
+ * front matter at it. Front matter is only touched once every card has
+ * succeeded, so a page can never end up naming an image that is not on disk.
  *
  * The card is a live Leaflet map, so this needs the tile hosts to be reachable:
  *   basemap.nationalmap.gov   (USGS topo, Hiking Tours)
@@ -29,7 +31,12 @@ import { fileURLToPath } from 'node:url';
 const REPO_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const PUBLIC_DIR = path.join(REPO_ROOT, 'public');
 const TRAILS_CONTENT = path.join(REPO_ROOT, 'content', 'trails');
-const CARD_NAME = 'og-cover.png';
+const CARD_NAME = 'og-cover.jpg';
+/* Cards used to be PNG. A screenshot of photographic topo tiles compresses
+   terribly as PNG — the originals ran 0.85-1.4MB each against ~150KB as JPEG,
+   for no visible difference. Any leftover PNG is deleted as its JPEG lands. */
+const LEGACY_CARD_NAME = 'og-cover.png';
+const JPEG_QUALITY = 88;
 const WIDTH = 1200;
 const HEIGHT = 630;
 const READY_TIMEOUT_MS = 45_000;
@@ -201,11 +208,56 @@ async function shoot(page, port, slug, stubTiles) {
     }
 
     const out = path.join(TRAILS_CONTENT, slug, CARD_NAME);
-    await page.screenshot({ path: out, type: 'png' });
+    await page.screenshot({ path: out, type: 'jpeg', quality: JPEG_QUALITY });
     return path.relative(REPO_ROOT, out);
   } finally {
     page.off('console', onConsole);
   }
+}
+
+/* Point a trail's front matter at the card and drop any stale PNG.
+ *
+ * The partial that consumes og_image (the theme's get-featured-image.html)
+ * calls errorf when it cannot resolve the path, so front matter that names a
+ * missing file breaks the build for everyone. Having this script own both
+ * sides means they cannot drift: the line is only written once the image it
+ * names is on disk, and the whole pass only runs after every card succeeded.
+ */
+async function finalize(slug) {
+  const changes = [];
+  const bundle = path.join(TRAILS_CONTENT, slug);
+
+  const legacy = path.join(bundle, LEGACY_CARD_NAME);
+  try {
+    await fs.unlink(legacy);
+    changes.push(`removed ${LEGACY_CARD_NAME}`);
+  } catch {
+    // Nothing to clean up.
+  }
+
+  const indexPath = path.join(bundle, 'index.md');
+  const source = await fs.readFile(indexPath, 'utf8');
+  const wanted = `og_image = "${CARD_NAME}"`;
+
+  if (source.includes(`\n${wanted}\n`)) return changes;
+
+  let updated;
+  if (/^og_image\s*=.*$/m.test(source)) {
+    updated = source.replace(/^og_image\s*=.*$/m, wanted);
+  } else if (/^gpx\s*=.*$/m.test(source)) {
+    // Sits with the other resource-naming keys rather than at the top.
+    updated = source.replace(/^(gpx\s*=.*)$/m, `$1\n${wanted}`);
+  } else {
+    updated = source.replace(/^\+\+\+\n/, `+++\n${wanted}\n`);
+  }
+
+  if (updated === source) {
+    throw new Error(`could not place og_image in ${path.relative(REPO_ROOT, indexPath)}`);
+  }
+
+  await fs.writeFile(indexPath, updated);
+  changes.push('set og_image');
+  return changes;
 }
 
 async function main() {
@@ -227,7 +279,10 @@ async function main() {
   // Verification hook: answer every tile request locally so the rest of the
   // pipeline can be exercised where the tile CDNs are unreachable.
   if (opts.stubTiles) {
-    console.warn('› --stub-tiles: cards will have NO real map. Pipeline check only.');
+    console.warn(
+      '› --stub-tiles: cards will have NO real map, and committed ones will be\n' +
+        '  overwritten. Pipeline check only — `git checkout content/trails/` after.'
+    );
     await context.route(
       (url) =>
         url.hostname === 'basemap.nationalmap.gov' ||
@@ -239,12 +294,14 @@ async function main() {
   const page = await context.newPage();
 
   const failures = [];
+  const shot = [];
   try {
     for (const slug of slugs) {
       process.stdout.write(`  ${slug} … `);
       try {
         const out = await shoot(page, port, slug, opts.stubTiles);
         console.log(`✓ ${out}`);
+        shot.push(slug);
       } catch (err) {
         console.log('✗');
         failures.push(`${slug}: ${err.message}`);
@@ -258,14 +315,20 @@ async function main() {
   if (failures.length > 0) {
     console.error(`\n${failures.length} card(s) failed:`);
     for (const failure of failures) console.error(`  - ${failure}`);
+    console.error('\nNo front matter was touched — fix the above and re-run.');
     process.exitCode = 1;
     return;
   }
 
-  console.log(
-    `\nDone. Remember each trail needs og_image = "${CARD_NAME}" in its front ` +
-      'matter — commit that alongside the PNG, never before it.'
-  );
+  // Only once every card is on disk, so a partial run can never leave a page
+  // pointing at an image that is not there.
+  console.log('› updating front matter');
+  for (const slug of shot) {
+    const changes = await finalize(slug);
+    if (changes.length > 0) console.log(`  ${slug} … ${changes.join(', ')}`);
+  }
+
+  console.log('\nDone. Review the cards, then commit the images and index.md together.');
 }
 
 main().catch((err) => {
