@@ -1,0 +1,33 @@
+{{/* Home page listening module — the latest weekly listening card, double wide,
+     plus a link into the weekly archive. Mirrors home-links-module.html.
+
+     "listening" is in params.excludedSections, so weekly pages never reach the
+     Latest stuff feed; this module is the only place they surface on the home
+     page. The inner grid is md:grid-cols-2 and the card is asked to go wide from
+     md up, so it spans both columns as a single full-width sleeve. */}}
+
+{{- $weeks := where .Site.RegularPages "Type" "listening-weekly" }}
+{{- $latest := "" }}
+{{- with $weeks }}
+  {{- $latest = index (sort . "Date" "desc") 0 }}
+{{- end }}
+
+{{- with $latest }}
+<div class="p-2 mx-auto mb-5">
+  <div class="border border-neutral-200 dark:border-neutral-700 rounded-lg overflow-hidden">
+    {{/* Header bar */}}
+    <div class="bg-gradient-to-r from-emerald-600 to-green-600 px-4 py-2 flex items-center justify-between">
+      <h2 class="text-white text-lg font-semibold uppercase tracking-wide">
+        <i class="fab fa-spotify mr-2"></i>Listening
+      </h2>
+      <a href="{{ "/listening/weekly/" | relURL }}" class="text-white/80 hover:text-white text-sm transition-colors">
+        All weeks <i class="fa-solid fa-arrow-right ml-1"></i>
+      </a>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-3 p-3">
+      {{- partial "card-weekly.html" (dict "page" . "wideFrom" "md") -}}
+    </div>
+  </div>
+</div>
+{{- end }}
