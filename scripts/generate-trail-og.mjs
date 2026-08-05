@@ -23,7 +23,7 @@
 
 import { createServer } from 'node:http';
 import { execFileSync } from 'node:child_process';
-import { createReadStream } from 'node:fs';
+import { createReadStream, existsSync } from 'node:fs';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -37,6 +37,11 @@ const CARD_NAME = 'og-cover.jpg';
    for no visible difference. Any leftover PNG is deleted as its JPEG lands. */
 const LEGACY_CARD_NAME = 'og-cover.png';
 const JPEG_QUALITY = 88;
+/* Claude Code on the web ships one Chromium build under PLAYWRIGHT_BROWSERS_PATH,
+   and npm may well resolve a playwright that wants a different one. This symlink
+   points straight at the binary, so using it as executablePath sidesteps the
+   version registry. See launchChromium. */
+const PREINSTALLED_CHROMIUM = '/opt/pw-browsers/chromium';
 const WIDTH = 1200;
 const HEIGHT = 630;
 const READY_TIMEOUT_MS = 45_000;
@@ -88,6 +93,21 @@ async function loadPlaywright() {
       'playwright is not installed. Run `npm install`, then ' +
         '`npx playwright install chromium`.'
     );
+  }
+}
+
+/* Try the browser playwright expects first, and only reach for the container's
+ * preinstalled one when that is genuinely absent. Attempting the launch rather
+ * than checking a path first keeps this invisible on a normal machine, and
+ * means it keeps working when the image bumps its Chromium build number.
+ */
+async function launchChromium(chromium) {
+  try {
+    return await chromium.launch();
+  } catch (err) {
+    if (!existsSync(PREINSTALLED_CHROMIUM)) throw err;
+    console.warn(`› playwright's own browser is missing; using ${PREINSTALLED_CHROMIUM}`);
+    return chromium.launch({ executablePath: PREINSTALLED_CHROMIUM });
   }
 }
 
@@ -270,7 +290,7 @@ async function main() {
   const { server, port } = await serve();
   console.log(`› serving public/ on 127.0.0.1:${port}`);
 
-  const browser = await chromium.launch();
+  const browser = await launchChromium(chromium);
   const context = await browser.newContext({
     viewport: { width: WIDTH, height: HEIGHT },
     deviceScaleFactor: 1,

@@ -256,12 +256,43 @@ Cards are JPEG at quality 88. They were PNG originally, which for screenshots
 of photographic topo tiles ran 0.85–1.4MB each — roughly 5× the JPEG for no
 visible difference. Any leftover `og-cover.png` is deleted as its JPEG lands.
 
-**It does not work in a cloud session.** Both tile hosts are 403 through the
-agent proxy, same as `gohugo.io` and `api.github.com`. The script fails loudly
-rather than saving a card with holes in it. `--stub-tiles` exists only to
-exercise the plumbing: it produces a flat colour where the map should be and
-*will* overwrite committed cards, so `git checkout content/trails/` afterwards.
-Generate real cards locally.
+### Running it in a cloud session
+
+Two things have to be right, and only one of them lives in this repo.
+
+**Tile hosts must be allowlisted.** The card is a live Leaflet map, so the
+screenshotter needs the same tile CDNs a visitor would. Add both to the
+**Ryder / Hugo** environment's **Custom** network access list, alongside the
+existing `gohugo.io` entry:
+
+```
+basemap.nationalmap.gov
+*.basemaps.cartocdn.com
+```
+
+The wildcard is not optional — Leaflet's `{s}` placeholder rotates across `a.`,
+`b.` and `c.`, so a bare hostname covers none of the requests. Verify rather
+than assume, the same way as `gohugo.io`:
+
+```bash
+curl -sS -o /dev/null -w '%{http_code}\n' \
+  https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/tile/12/1633/703
+```
+
+A 403 or `CONNECT tunnel failed` means the entry is missing or was not applied
+to this session. Without it the script exits non-zero rather than saving a card
+with holes in it.
+
+**The browser is handled already.** `npm install` may resolve a `playwright`
+whose expected Chromium build is not the one baked into the image, which fails
+with "Executable doesn't exist … run npx playwright install". Do not run that —
+it downloads ~170MB per session. `launchChromium` in the script already falls
+back to `/opt/pw-browsers/chromium`, a stable symlink to the binary that
+sidesteps the version registry.
+
+`--stub-tiles` exists only to exercise the plumbing: it produces a flat colour
+where the map should be, *will* overwrite committed cards, and rewrites front
+matter — so `git checkout content/trails/` afterwards.
 
 No CSP change is involved: tiles are fetched by the screenshotter at generation
 time, never by a visitor, and the `og:image` itself is same-origin.
