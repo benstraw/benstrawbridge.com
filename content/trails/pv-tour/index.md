@@ -5,6 +5,7 @@ lastmod = 2026-04-02
 description = "A self-guided walking tour of Playa Vista's best parks and green spaces — with maps, dog park reviews, parking tips, and the local's guide to parking for Bluff Creek Trail."
 tour = true
 gpx = "playa-vista-parks-walking-tour.gpx"
+og_image = "og-cover.png"
 hideAsideBar = true
 tags = ["Playa-Vista", "Walking-Tour", "Dog-Friendly", "Bluff-Creek"]
 keywords = ["Playa Vista parks", "Playa Vista walking tour", "Bluff Creek Trail parking", "Oberreider dog park", "Playa Vista dog parks", "things to do Playa Vista", "Ballona Wetlands", "West LA walks", "dog-friendly walks Los Angeles"]

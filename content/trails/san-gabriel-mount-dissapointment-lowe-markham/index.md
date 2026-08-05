@@ -3,6 +3,7 @@ title = "Mount Disappointment, Lowe & Markham via Mt Lowe Motorway"
 date = 2026-04-01
 description = ""
 gpx = "San_Gabriel_Mount_Disappointment_Lowe_Markham_via_Mt_Lowe_Motorway.gpx"
+og_image = "og-cover.png"
 tour = true
 tourType = "Hiking Tour"
 
