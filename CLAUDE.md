@@ -224,6 +224,41 @@ a same-named theme shortcode) and will not track theme updates. Upstream the
 This is all separate from `params.csp`, which governs what the *browser* may
 load at runtime. A host can be fine for one and blocked for the other.
 
+## Trail OG cards
+
+Trail pages under `/trails/` have their own Open Graph image: the page's map
+with the GPX track drawn on it, the logo words top-left, and the trail name plus
+location bottom-left.
+
+Hugo cannot draw a polyline or stitch tiles, so the card is a **screenshot of a
+Hugo-rendered page**, not a build-time composite:
+
+- `[outputFormats.OGCard]` in `config/_default/hugo.toml`, cascaded onto trail
+  pages by `outputs` in `content/trails/_index.md`, renders
+  `layouts/trails/single.ogcard.html` to `/trails/<slug>/og-card.html`.
+- That template mirrors `layouts/shortcodes/tour-map.html` — same local Leaflet,
+  same tile source keyed off `tourType` (USGS topo for Hiking Tours, CARTO
+  voyager for Walking Tours), same GPX and track colour. **Keep the two in sync.**
+- `scripts/generate-trail-og.mjs` (`npm run og:trails`) builds the site, serves
+  `public/`, waits on the card's `window.__ogCardReady` handshake, and writes
+  `content/trails/<slug>/og-cover.png`.
+- Each trail then sets `og_image = "og-cover.png"`, which the theme's
+  `get-featured-image.html` picks up ahead of everything else.
+
+Two things to know before running it:
+
+- **It does not work in a cloud session.** Both tile hosts are 403 through the
+  agent proxy, same as `gohugo.io` and `api.github.com`. The script fails loudly
+  rather than saving a card with holes in it — `--stub-tiles` exists only to
+  exercise the plumbing and produces a flat colour where the map should be.
+  Generate cards locally.
+- **`og_image` must land in the same commit as the PNG.**
+  `get-featured-image.html` calls `errorf` when it cannot resolve the path, so
+  front matter committed ahead of the image breaks the build for everyone.
+
+No CSP change is involved: tiles are fetched by the screenshotter at generation
+time, never by a visitor, and the `og:image` itself is same-origin.
+
 ## Notes
 
 - Theme is a git submodule; changes to theme should be made in the upstream repo

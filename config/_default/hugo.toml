@@ -21,6 +21,17 @@ copyright = '<i class="fa-regular fa-copyright"></i>  2026 benstrawbridge.com'
 [outputs]
   home = ["HTML", "RSS", "LLMSTxt"]
 
+# Source document for the trail social cards. Rendered by
+# layouts/trails/single.ogcard.html to /trails/<slug>/og-card.html, screenshotted
+# by scripts/generate-trail-og.mjs, never linked from the site — hence
+# notAlternative, and a `noindex` meta in the template itself. The distinct
+# baseName is what keeps it from colliding with the page's real HTML output.
+[outputFormats.OGCard]
+  mediaType = "text/html"
+  baseName = "og-card"
+  isHTML = true
+  notAlternative = true
+
 [frontmatter]
   lastmod = ["lastmod", "date"]
   date = ["date"]

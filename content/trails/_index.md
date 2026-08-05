@@ -7,6 +7,9 @@ description = "Self-guided hiking and walking tour guides for Los Angeles — wi
   weight = 5
   identifier = "Trails"
 [cascade]
+  # OGCard renders the social card source at /trails/<slug>/og-card.html.
+  # See scripts/generate-trail-og.mjs.
+  outputs = ["HTML", "OGCard"]
   logo_tagline = "HIKING MAPS AND GUIDES"
   sectionTitle = "benstrawbridge.com"
   cardCategoryColorsDefault = "bg-gradient-to-r from-blue-600 to-violet-600 text-neutral-200"
