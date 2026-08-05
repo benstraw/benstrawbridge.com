@@ -4,6 +4,7 @@ date = 2026-04-01
 lastmod = 2026-04-02
 description = "A 4-mile loop trail on the bluffs below LMU with mountain, ocean, and city views — plus access points, parking, and dog-friendly info."
 gpx = "Bluff Creek Trail.gpx"
+og_image = "og-cover.jpg"
 tour = true
 tourType = "Walking Tour"
 hideAsideBar = true

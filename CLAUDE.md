@@ -224,6 +224,48 @@ a same-named theme shortcode) and will not track theme updates. Upstream the
 This is all separate from `params.csp`, which governs what the *browser* may
 load at runtime. A host can be fine for one and blocked for the other.
 
+## Trail OG cards
+
+Trail pages under `/trails/` have their own Open Graph image: the page's map
+with the GPX track drawn on it, the logo words top-left, and the trail name plus
+location bottom-left.
+
+Hugo cannot draw a polyline or stitch tiles, so the card is a **screenshot of a
+Hugo-rendered page**, not a build-time composite:
+
+- `[outputFormats.OGCard]` in `config/_default/hugo.toml`, cascaded onto trail
+  pages by `outputs` in `content/trails/_index.md`, renders
+  `layouts/trails/single.ogcard.html` to `/trails/<slug>/og-card.html`.
+- That template mirrors `layouts/shortcodes/tour-map.html` — same local Leaflet,
+  same tile source keyed off `tourType` (USGS topo for Hiking Tours, CARTO
+  voyager for Walking Tours), same GPX and track colour. **Keep the two in sync.**
+- `scripts/generate-trail-og.mjs` (`npm run og:trails`) builds the site, serves
+  `public/`, waits on the card's `window.__ogCardReady` handshake, writes
+  `content/trails/<slug>/og-cover.jpg`, and sets `og_image = "og-cover.jpg"` in
+  that page's front matter — which the theme's `get-featured-image.html` picks
+  up ahead of everything else.
+
+The script owns both the image and the front-matter line on purpose.
+`get-featured-image.html` calls `errorf` on an `og_image` it cannot resolve, so
+the two drifting apart breaks the build for everyone. It writes front matter
+only after every card has succeeded, so a partial run cannot leave a page
+pointing at an image that is not there. Commit the images and the `index.md`
+changes together.
+
+Cards are JPEG at quality 88. They were PNG originally, which for screenshots
+of photographic topo tiles ran 0.85–1.4MB each — roughly 5× the JPEG for no
+visible difference. Any leftover `og-cover.png` is deleted as its JPEG lands.
+
+**It does not work in a cloud session.** Both tile hosts are 403 through the
+agent proxy, same as `gohugo.io` and `api.github.com`. The script fails loudly
+rather than saving a card with holes in it. `--stub-tiles` exists only to
+exercise the plumbing: it produces a flat colour where the map should be and
+*will* overwrite committed cards, so `git checkout content/trails/` afterwards.
+Generate real cards locally.
+
+No CSP change is involved: tiles are fetched by the screenshotter at generation
+time, never by a visitor, and the `og:image` itself is same-origin.
+
 ## Notes
 
 - Theme is a git submodule; changes to theme should be made in the upstream repo

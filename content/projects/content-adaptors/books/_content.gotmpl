@@ -39,8 +39,8 @@
   {{ with $url := $item.cover }}
 
     {{/* Fetch the cover. A blocked or unreachable host raises a hard template
-    error rather than setting .Err, so wrap the call in `try` to catch both
-    that and an HTTP-status failure. */}}
+    error, and as of Hugo 0.158 so does an HTTP-status failure — the resource
+    no longer carries an .Err field. `try` catches both. */}}
     {{ $cover := "" }}
     {{ $err := "" }}
     {{ $attempt := try (resources.GetRemote $url) }}
@@ -48,11 +48,7 @@
       {{ $err = . }}
     {{ else }}
       {{ with $attempt.Value }}
-        {{ with .Err }}
-          {{ $err = . }}
-        {{ else }}
-          {{ $cover = $attempt.Value }}
-        {{ end }}
+        {{ $cover = . }}
       {{ else }}
         {{ $err = "no resource returned" }}
       {{ end }}
