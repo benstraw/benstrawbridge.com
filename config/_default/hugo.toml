@@ -43,7 +43,9 @@ copyright = '<i class="fa-regular fa-copyright"></i>  2026 benstrawbridge.com'
   # enabledebugpanel = true 
   # navbar_fixed = true
   # homepage list exclusion... 
-  excludedSections = ["fineprint", "portfolio", "goals", "consulting", "everything-everywhere", "links"]
+  # "listening" is excluded because its weekly + artist pages would swamp the
+  # feed; the latest week gets its own module instead (home-listening-module).
+  excludedSections = ["fineprint", "portfolio", "goals", "consulting", "everything-everywhere", "links", "listening"]
   excludedCategories = ["catalog"]
   showDarkToggle = true
   showShareButtons = true
