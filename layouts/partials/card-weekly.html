@@ -1,3 +1,38 @@
+{{/* Weekly listening card.
+
+     Call with a page for a permanently narrow card:
+       {{ partial "card-weekly.html" . }}
+     or with a dict to let it go double-wide from a given breakpoint up:
+       {{ partial "card-weekly.html" (dict "page" . "wideFrom" "md") }}
+
+     wideFrom is "md" or "lg" — the breakpoint at which the card both spans two
+     grid columns and switches from the stacked layout to the sleeve layout.
+     Those two have to move together: a card that spans two columns but keeps
+     the stacked layout looks stretched, and a sleeve layout in a single column
+     is too cramped. Grids therefore pick the breakpoint to match where they
+     gain the columns to spare — see listening/list.html.
+
+     Every class is written out per variant rather than assembled from a
+     breakpoint variable, because Tailwind only sees literals in the source. */}}
+
+{{- $page := . -}}
+{{- $wideFrom := "" -}}
+{{- if reflect.IsMap . -}}
+  {{- $page = .page -}}
+  {{- $wideFrom = .wideFrom | default "" -}}
+{{- end -}}
+
+{{- $variants := dict
+  ""   (dict "root" ""                          "panel" ""                     "content" ""                  "icon" "hidden" "dateInline" "hidden" "title" ""              "narrowLine" ""          "topArtist" "hidden" "bars" "hidden" "chip3" "hidden" "tracks" "hidden")
+  "md" (dict "root" "md:col-span-2 md:flex-row" "panel" "md:w-[38%] md:h-full" "content" "md:p-5 md:gap-2.5" "icon" "hidden md:inline-block" "dateInline" "hidden md:inline" "title" "md:text-[22px]" "narrowLine" "md:hidden" "topArtist" "hidden md:block" "bars" "hidden md:block" "chip3" "hidden md:inline-block" "tracks" "hidden md:inline")
+  "lg" (dict "root" "lg:col-span-2 lg:flex-row" "panel" "lg:w-[38%] lg:h-full" "content" "lg:p-5 lg:gap-2.5" "icon" "hidden lg:inline-block" "dateInline" "hidden lg:inline" "title" "lg:text-[22px]" "narrowLine" "lg:hidden" "topArtist" "hidden lg:block" "bars" "hidden lg:block" "chip3" "hidden lg:inline-block" "tracks" "hidden lg:inline")
+-}}
+{{/* Unknown wideFrom falls back to the never-wide variant rather than erroring
+     on a nil lookup deep in the markup. */}}
+{{- $v := index $variants $wideFrom | default (index $variants "") -}}
+
+{{- with $page -}}
+
 {{- $images := .Params.topArtistImages | default slice -}}
 {{- $img := dict -}}
 {{- range $images -}}
@@ -7,22 +42,127 @@
 {{- end -}}
 {{- if and (not $img.url) (gt (len $images) 0) -}}{{- $img = index $images 0 -}}{{- end -}}
 
-<a href="{{ .RelPermalink }}" class="group flex flex-col rounded-xl overflow-hidden bg-neutral-100 dark:bg-neutral-800 hover:ring-2 hover:ring-emerald-500 transition">
-  <div class="aspect-square w-full overflow-hidden bg-neutral-200 dark:bg-neutral-700 relative">
+{{/* top_artists / top_genres / top_tracks are not page params — pull them from
+     the same week data the single layout reads. */}}
+{{- $weekData := dict -}}
+{{- with .Params.yearDataKey -}}
+  {{- with index site.Data.spotify.weekly . -}}
+    {{- $weekData = index . ($page.Params.weekDataKey | string) | default dict -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $topArtists := first 3 ($weekData.top_artists | default slice) -}}
+{{- $topGenres  := first 3 ($weekData.top_genres  | default slice) -}}
+{{- $trackCount := len ($weekData.top_tracks | default slice) -}}
+
+{{- $maxPlays := 1 -}}
+{{- with $topArtists -}}{{- $maxPlays = (index . 0).plays | default 1 -}}{{- end -}}
+
+{{- $topArtistName := .Params.topArtistName -}}
+{{- $topArtistSlug := "" -}}
+{{- with $weekData.top_artists -}}{{- $topArtistSlug = (index . 0).slug -}}{{- end -}}
+
+{{- $dates := "" -}}
+{{- with .Params.date_start -}}
+  {{- $dates = (time.AsTime .).Format "Jan 2" -}}
+  {{- with $page.Params.date_end -}}
+    {{- $dates = printf "%s – %s" $dates ((time.AsTime .).Format "Jan 2") -}}
+  {{- end -}}
+{{- end -}}
+
+<article class="group relative flex flex-col h-[316px] overflow-hidden {{ $v.root }}
+                bg-[#f5f1e8] dark:bg-[#1b2723]
+                border border-[#dcd5c4] dark:border-[#2c3a35]
+                hover:border-emerald-600 dark:hover:border-emerald-400 transition-colors">
+
+  {{/* ─── Image panel: full-width band when stacked, left 38% in the sleeve ─── */}}
+  <div class="w-full h-[148px] shrink-0 overflow-hidden bg-[#e6e0d1] dark:bg-[#2c3a35] {{ $v.panel }}">
     {{- with $img.url -}}
-    <img src="{{ . }}" width="{{ $img.width }}" height="{{ $img.height }}" alt="{{ $.Params.topArtistName }}"
-         class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+    <img src="{{ . }}" width="{{ $img.width }}" height="{{ $img.height }}" alt="{{ $topArtistName }}"
+         class="w-full h-full object-cover object-top">
     {{- else -}}
-    <div class="w-full h-full flex items-center justify-center text-neutral-400 dark:text-neutral-500">
-      <i class="fab fa-spotify text-4xl text-emerald-400"></i>
+    <div class="w-full h-full flex items-center justify-center">
+      <i class="fab fa-spotify text-4xl text-emerald-600 dark:text-emerald-400"></i>
     </div>
     {{- end -}}
-    <div class="absolute bottom-0 left-0 right-0 p-2">
-      <span class="inline-block bg-black/60 text-white text-xs font-medium rounded-full px-2 py-0.5">{{ .Params.topArtistName }}</span>
+  </div>
+
+  <div class="flex-1 min-w-0 flex flex-col gap-1.5 p-4 {{ $v.content }}">
+
+    {{/* ─── Week code + date range ─── */}}
+    <div class="flex items-center gap-2 min-w-0">
+      <i class="fab fa-spotify text-emerald-600 dark:text-emerald-400 text-sm shrink-0 {{ $v.icon }}"></i>
+      <span class="text-[11px] font-bold uppercase tracking-[0.18em] text-emerald-600 dark:text-emerald-400">{{ .Params.week }}</span>
+      {{- with $dates -}}
+      <span class="text-[11px] text-[#8a8271] dark:text-[#8d9a93] truncate {{ $v.dateInline }}">{{ . }}</span>
+      {{- end -}}
     </div>
+
+    <h3 class="text-[15px] font-bold tracking-[-0.01em] text-[#14201c] dark:text-[#f0ece1] leading-snug {{ $v.title }}">
+      <a href="{{ .RelPermalink }}" class="before:absolute before:inset-0 before:content-['']">{{ .Title }}</a>
+    </h3>
+
+    {{/* ─── Stacked: date · top artist ─── */}}
+    <p class="text-[11px] text-[#8a8271] dark:text-[#8d9a93] truncate {{ $v.narrowLine }}">
+      {{- with $dates }}{{ . }}{{ end -}}
+      {{- with $topArtistName }}{{ with $dates }} · {{ end }}<span class="font-semibold text-[#4a5c54] dark:text-[#b9c6bf]">{{ . }}</span>{{ end -}}
+    </p>
+
+    {{/* ─── Sleeve: top artist + top 3 artist bars ─── */}}
+    {{- with $topArtistName -}}
+    <p class="text-[13px] text-[#6b6455] dark:text-[#8d9a93] {{ $v.topArtist }}">
+      Top artist
+      {{- with $topArtistSlug }}
+      <a href="{{ relURL (printf "/listening/artists/%s/" .) }}"
+         class="relative font-bold text-[#14201c] dark:text-[#f0ece1] hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">{{ $topArtistName }}</a>
+      {{- else }}
+      <span class="font-bold text-[#14201c] dark:text-[#f0ece1]">{{ . }}</span>
+      {{- end }}
+    </p>
+    {{- end -}}
+
+    {{- with $topArtists -}}
+    <ol class="space-y-2 mt-0.5 {{ $v.bars }}">
+      {{- range . -}}
+      {{- $pct := 0 -}}
+      {{- if gt $maxPlays 0 -}}{{- $pct = div (mul .plays 100) $maxPlays -}}{{- end -}}
+      <li class="flex items-center gap-3 text-[12px]">
+        <span class="flex-1 min-w-0 truncate text-[#4a5c54] dark:text-[#b9c6bf]">{{ .name }}</span>
+        <span class="relative block w-24 h-[3px] shrink-0 bg-[#e2dbc9] dark:bg-[#2c3a35]">
+          <span class="absolute inset-y-0 left-0 bg-emerald-600 dark:bg-emerald-400" style="width: {{ $pct }}%"></span>
+        </span>
+        <span class="w-8 shrink-0 text-right tabular-nums text-[#6b6455] dark:text-[#8d9a93]">{{ .plays }}×</span>
+      </li>
+      {{- end -}}
+    </ol>
+    {{- end -}}
+
+    {{/* ─── Pinned bottom: genre chips + stats rail ─── */}}
+    <div class="mt-auto">
+      {{- with $topGenres -}}
+      <div class="flex flex-wrap gap-1.5">
+        {{- range $i, $g := . -}}
+        <a href="{{ relURL (printf "/musical-genres/%s/" ($g.name | urlize)) }}"
+           class="relative {{ if ge $i 2 }}{{ $v.chip3 }} {{ end }}text-[10px] text-[#4a5c54] dark:text-[#b9c6bf]
+                  border border-[#d3cbb8] dark:border-[#2c3a35] rounded-full px-2.5 py-0.5
+                  hover:border-emerald-600 dark:hover:border-emerald-400 transition-colors">{{ $g.name }}</a>
+        {{- end -}}
+      </div>
+      {{- end -}}
+
+      <div class="flex items-center gap-x-2 gap-y-1 mt-3 pt-3 border-t border-[#e2dbc9] dark:border-[#2c3a35]
+                  text-[11px] tabular-nums text-[#6b6455] dark:text-[#8d9a93]">
+        <span><span class="font-bold text-[#14201c] dark:text-[#f0ece1]">{{ .Params.total_plays }}</span> plays</span>
+        <span aria-hidden="true">·</span>
+        <span><span class="font-bold text-[#14201c] dark:text-[#f0ece1]">{{ .Params.unique_artists }}</span> artists</span>
+        {{- if gt $trackCount 0 -}}
+        <span aria-hidden="true" class="{{ $v.tracks }}">·</span>
+        <span class="{{ $v.tracks }}"><span class="font-bold text-[#14201c] dark:text-[#f0ece1]">{{ $trackCount }}</span> tracks</span>
+        {{- end -}}
+      </div>
+    </div>
+
   </div>
-  <div class="p-2">
-    <p class="font-semibold text-sm text-neutral-900 dark:text-neutral-100">{{ .Title }}</p>
-    <p class="text-xs text-neutral-500 dark:text-neutral-400">{{ .Params.total_plays }} plays · {{ .Params.unique_artists }} artists</p>
-  </div>
-</a>
+</article>
+
+{{- end -}}

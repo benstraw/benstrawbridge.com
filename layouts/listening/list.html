@@ -9,9 +9,14 @@
   {{- if gt (len $weeks) 0 -}}
   <section class="mt-8">
     <h2 class="text-2xl font-bold mb-4">Recent Weeks</h2>
-    <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
-      {{- range first 6 ($weeks.ByDate.Reverse) -}}
-        {{- partial "card-weekly.html" . -}}
+    {{/* 1 / 2 / 4 columns — never 3, so the double-wide cards always tile evenly.
+         Only the first row goes double: two of the four columns each at lg, and
+         the single pair of columns at md. */}}
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+      {{- range $i, $w := first 6 ($weeks.ByDate.Reverse) -}}
+        {{- $wideFrom := "" -}}
+        {{- if eq $i 0 -}}{{- $wideFrom = "md" -}}{{- else if eq $i 1 -}}{{- $wideFrom = "lg" -}}{{- end -}}
+        {{- partial "card-weekly.html" (dict "page" $w "wideFrom" $wideFrom) -}}
       {{- end -}}
     </div>
     {{- if gt (len $weeks) 6 -}}
