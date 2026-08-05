@@ -3,7 +3,7 @@ title = "Strawberry Peak via Redbox Canyon"
 date = 2026-03-22
 description = "A challenging hike to the summit of Strawberry Peak."
 gpx = "strawbpk.gpx"
-og_image = "og-cover.png"
+og_image = "og-cover.jpg"
 tour = true
 tourType = "Hiking Tour"
 

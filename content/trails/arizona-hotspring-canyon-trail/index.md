@@ -3,7 +3,7 @@ title = "Arizona Hot Spring Canyon Trail"
 date = 2026-04-01
 description = ""
 gpx = "Arizona Hot Spring Canyon Trail.gpx"
-og_image = "og-cover.png"
+og_image = "og-cover.jpg"
 tour = true
 tourType = "Hiking Tour"
 
