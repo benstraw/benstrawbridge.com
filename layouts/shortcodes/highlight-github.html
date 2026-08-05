@@ -66,8 +66,9 @@ Upstream this to the theme and delete this file once the theme carries it.
 
 {{- if and $owner $repo $path }}
 
-  {{- /* A blocked host raises a hard template error rather than setting .Err,
-  so every remote call goes through `try`. $failure holds the first problem. */}}
+  {{- /* A blocked host raises a hard template error, and as of Hugo 0.158 so
+  does an HTTP-status failure — the resource no longer carries an .Err field.
+  So every remote call goes through `try`. $failure holds the first problem. */}}
   {{- $failure := "" }}
 
   {{- /* Get branch. */}}
@@ -79,11 +80,7 @@ Upstream this to the theme and delete this file once the theme carries it.
       {{- $failure = printf "%s: %s" $apiEndPoint . }}
     {{- else }}
       {{- with $attempt.Value }}
-        {{- with .Err }}
-          {{- $failure = printf "%s: %s" $apiEndPoint . }}
-        {{- else }}
-          {{- $branch = ($attempt.Value | transform.Unmarshal).default_branch }}
-        {{- end }}
+        {{- $branch = (. | transform.Unmarshal).default_branch }}
       {{- else }}
         {{- $failure = printf "%s: no resource returned" $apiEndPoint }}
       {{- end }}
@@ -101,11 +98,7 @@ Upstream this to the theme and delete this file once the theme carries it.
       {{- $failure = printf "%s: %s" $apiEndPoint . }}
     {{- else }}
       {{- with $attempt.Value }}
-        {{- with .Err }}
-          {{- $failure = printf "%s: %s" $apiEndPoint . }}
-        {{- else }}
-          {{- $content = (($attempt.Value | transform.Unmarshal).content | base64Decode) }}
-        {{- end }}
+        {{- $content = ((. | transform.Unmarshal).content | base64Decode) }}
       {{- else }}
         {{- $failure = printf "%s: no resource returned" $apiEndPoint }}
       {{- end }}
