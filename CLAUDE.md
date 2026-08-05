@@ -201,25 +201,25 @@ the failure and degrade:
   `.Width`/`.Height` still resolve in `layouts/books/single.html`). Alt text
   becomes "<title> (cover image unavailable)" and the resource carries
   `placeholder = true`.
-- **Code samples** — `layouts/shortcodes/highlight-github.html`, a **site
-  override** of the theme's shortcode, renders a dashed box linking to the file
-  on GitHub instead of the highlighted source.
+- **Code samples** — handled by the **theme** as of Ryder v0.3.2: the shortcode
+  warns and renders a link to the file on GitHub instead of the highlighted
+  source. `params.highlightGithubStrict = true` in `config/production` keeps the
+  hard failure on Amplify. The site override that used to do this was deleted
+  when the submodule moved to v0.3.2 — do not reintroduce it.
 
 Both wrap the call in `try`. This matters: a blocked host raises a *hard
-template error* from `resources.GetRemote` rather than setting `.Err`, so the
-theme's original `{{ with … }}{{ else }}` never catches it. `try` requires Hugo
-0.141+; `module.toml` floors at 0.146.
+template error* from `resources.GetRemote` rather than setting `.Err`, so a
+plain `{{ with … }}{{ else }}` never catches it. `.Err` on the returned
+resource was removed in Hugo 0.141, below this repo's 0.146 floor, so reading
+it is always a build-aborting error — `try` is the only way to see either
+failure. `$attempt.Err` (the `try` result) is a different thing and is correct.
 
-Both fall back only when `hugo.Environment` is not `production`. Amplify builds
-with open network, so a failed fetch there is real and still stops the build —
-verified: the same cover fetch logs `WARN` under `--environment development` and
-`ERROR` under `--environment production`. Failures are always logged, so a
-degraded local build is never silent.
-
-The shortcode override is a full copy of the theme file (Hugo cannot delegate to
-a same-named theme shortcode) and will not track theme updates. Upstream the
-`try` guard to the Ryder repo and delete
-`layouts/shortcodes/highlight-github.html` once the theme carries it.
+The books fallback applies only when `hugo.Environment` is not `production`;
+the shortcode draws the same distinction through `highlightGithubStrict`.
+Amplify builds with open network, so a failed fetch there is real and still
+stops the build — verified: the same cover fetch logs `WARN` under
+`--environment development` and `ERROR` under `--environment production`.
+Failures are always logged, so a degraded local build is never silent.
 
 This is all separate from `params.csp`, which governs what the *browser* may
 load at runtime. A host can be fine for one and blocked for the other.

@@ -39,10 +39,9 @@
   {{ with $url := $item.cover }}
 
     {{/* Fetch the cover. A blocked or unreachable host raises a hard template
-    error, and on Hugo 0.164 so does an HTTP-status failure — the resource no
-    longer carries an .Err field, and reading it aborts the build. (0.164 is
-    where this was verified; the exact release that changed it was not
-    established.) `try` catches both. */}}
+    error, and .Err was removed from the returned resource in Hugo 0.141 — below
+    this repo's 0.146 floor — so reading it aborts the build too. `try` catches
+    both; .Err on the `try` result below is a different field and is fine. */}}
     {{ $cover := "" }}
     {{ $err := "" }}
     {{ $attempt := try (resources.GetRemote $url) }}
