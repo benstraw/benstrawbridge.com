@@ -119,3 +119,6 @@ logo_firstWord = 'Ben'
     name = 'Recipe Index'
     url = '/recipes/'
     weight = 30
+
+[params.colors]
+  legacyAccents = true
