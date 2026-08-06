@@ -51,7 +51,7 @@ git add themes/ryder
 ## Architecture
 
 ### Theme Structure
-- **Theme**: Uses the Ryder theme (git submodule at `themes/ryder`, pinned to v0.3.2)
+- **Theme**: Uses the Ryder theme (git submodule at `themes/ryder`, pinned to v0.4.1)
 - **Theme config**: Set in `config/_default/hugo.toml` as `theme = 'ryder'`, matching production
 - **Layout overrides**: Root-level `layouts/` directory overrides theme layouts for custom sections
 - **Assets**: Root-level `assets/` directory contains site-specific JS, images, and extended functionality
@@ -87,6 +87,14 @@ Content sections use `sectionTitle` cascade parameter in `_index.md` frontmatter
   - Custom breakpoints (max 2xl at 1280px)
 - **PostCSS**: Used for Tailwind processing (`postcss.config.js`)
 - **Alpine.js**: Included via npm dependencies for interactive components
+- **Color tokens** (Ryder v0.4.0+): theme colors resolve through `--ryder-*` CSS
+  custom properties, exposed as Tailwind classes by the theme preset —
+  `text-ryder-brand-800`, `border-ryder-accent-500`, `bg-ryder-brand-alt-50`.
+  Defaults are unchanged from the old literals (`--ryder-brand` is sky-800,
+  `--ryder-brand-alt` is lime-800, `--ryder-accent` is rose-500). Repoint them
+  with `[params.colors]` in `hugo.toml` using **RGB channel triplets, not hex**
+  (`"244 63 94"`) — a hex silently breaks every opacity modifier. Site class
+  strings in `[params.twClasses]` are literal and deliberately not tokenized.
 - **Dark mode**: Enabled with class-based toggle (`darkMode: 'class'` in Tailwind)
 
 ### Custom Features
