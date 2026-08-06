@@ -4,7 +4,7 @@
 #
 # A fresh remote container clones this repo with an uninitialized Ryder
 # submodule, no Hugo binary, and no node_modules — so nothing builds and no
-# check runs. This restores all four things the site needs. It is a no-op on a
+# check runs. This restores all three things the site needs. It is a no-op on a
 # local machine, which has its own setup.
 #
 set -euo pipefail
