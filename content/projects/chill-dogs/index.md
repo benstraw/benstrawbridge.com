@@ -17,6 +17,8 @@ homeFeatureTitle = "chill-dogs"
 
 <!--more-->
 
+{{< figure src="chill-dogs-homepage.png" alt="The chill-dogs.com home page: the Chill-Dogs paw logo beside a Cool Off, Calm Down, Settle In, and Gear Up category panel, with the latest guide featured below" >}}
+
 I built it as a solo project to explore affiliate and performance marketing strategies: fast static pages, research-backed product picks, and no filler. The site runs on a modular conversion system where every page has a defined type and a single job, with reusable components that can be mixed and configured rather than rebuilt. The goal is a site that's fast, focused, and easy to extend without accumulating cruft.
 
 Built with [Astro 5](https://astro.build) and deployed on Vercel.
