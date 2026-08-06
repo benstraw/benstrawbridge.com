@@ -1,0 +1,343 @@
+{{- /*
+  Source document for a trail's Open Graph card.
+
+  Rendered to /trails/<slug>/og-card.html by the OGCard output format
+  (config/_default/hugo.toml) and screenshotted to og-cover.png by
+  scripts/generate-trail-og.mjs. Nothing links here and nothing on the site
+  loads it — it exists only to be photographed, at exactly 1200x630.
+
+  The map mirrors layouts/shortcodes/tour-map.html: same local Leaflet, same
+  tile sources keyed off tourType, same GPX and polyline colour. Keep the two
+  in sync when either changes.
+*/ -}}
+{{- $isHike := eq (.Params.tourType | default "Walking Tour") "Hiking Tour" -}}
+{{- $page := .OutputFormats.Get "html" -}}
+{{- $gpxURL := printf "%s%s" $page.RelPermalink .Params.gpx -}}
+{{- $title := .Param "ogTitleText" | default .Title -}}
+{{- $font := resources.Get "common-partials/opengraph/TitilliumWeb-Regular.ttf" -}}
+
+{{- /* The logo words, rebuilt from the same params the site header uses
+       (themes/ryder/layouts/partials/logo.html) rather than
+       assets/images/bs_full_wordmark.png — that PNG is RGB with an opaque grey
+       plate baked in, which reads as a box inside a box on top of a map. Text
+       also means the tagline follows the section: trail pages cascade
+       logo_tagline = "HIKING MAPS AND GUIDES". */ -}}
+{{- $logoFirst := .Param "logo_firstWord" -}}
+{{- $logoLast := .Param "logo_lastWord" -}}
+{{- $logoTagline := .Param "logo_tagline" -}}
+
+{{- /* Title tiers. The block is ~1000px wide; these keep the longest trail
+       name in the section ("Playa Vista Parks Walking Tour — A Self-Guided
+       Dog-Friendly Loop", 63 chars) inside three lines. Set ogTitleText in
+       front matter to override with something shorter. */ -}}
+{{- $titleSize := 76 -}}
+{{- $n := len $title -}}
+{{- if gt $n 60 }}{{ $titleSize = 42 }}
+{{- else if gt $n 40 }}{{ $titleSize = 50 }}
+{{- else if gt $n 22 }}{{ $titleSize = 62 }}
+{{- end -}}
+
+{{- /* neighborhood · city, state — skipping whatever the page leaves empty. */ -}}
+{{- $geo := .Params.geo | default dict -}}
+{{- $place := slice -}}
+{{- with $geo.city -}}
+  {{- $cityState := . -}}
+  {{- with $geo.state }}{{ $cityState = printf "%s, %s" $cityState . }}{{ end -}}
+  {{- $place = $place | append $cityState -}}
+{{- else -}}
+  {{- with $geo.state }}{{ $place = $place | append . }}{{ end -}}
+{{- end -}}
+{{- $location := "" -}}
+{{- with $geo.neighborhood }}{{ $place = (slice .) | append $place }}{{ end -}}
+{{- with $place }}{{ $location = delimit . " · " }}{{ end -}}
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="robots" content="noindex, nofollow" />
+<title>{{ $title }} — OG card source</title>
+<link rel="stylesheet" href="/css/leaflet.1.9.4.css" />
+<style>
+  /* Local TTF, not the site's Google Fonts link: the screenshotter must render
+     the same glyphs every time, with no network in the loop. Only weight 400
+     ships with the theme, so the title leans on size rather than boldness. */
+  @font-face {
+    font-family: "OG Titillium";
+    src: url("{{ $font.RelPermalink }}") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 1200px;
+    height: 630px;
+    overflow: hidden;
+    background: #e8e4dc;
+    font-family: "OG Titillium", "Titillium Web", Helvetica, Arial, sans-serif;
+  }
+
+  #og-card {
+    position: relative;
+    width: 1200px;
+    height: 630px;
+    overflow: hidden;
+  }
+
+  #og-map {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    background: #e8e4dc;
+  }
+
+  /* Leaflet's own panes sit at z-index 400-800. Everything painted on top of
+     the map has to clear that or it disappears behind the tiles. */
+  #og-wordmark,
+  #og-scrim,
+  #og-text,
+  #og-attribution {
+    z-index: 1000;
+  }
+
+  /* Tailwind's prose reset strips SVG presentation attributes on the real page;
+     this document has no Tailwind, but pin the stroke anyway so the track can
+     never render as a filled blob. */
+  #og-map path.leaflet-interactive {
+    fill: none !important;
+    stroke: #2D6A4F !important;
+  }
+
+  /* Same neutral chip the site header puts the text mark in, sized up for OG
+     and given a shadow so it holds over both tan topo and CARTO street tiles.
+     Colours are the Tailwind classes logo.html uses: sky-800, lime-800,
+     stone-900 on neutral-200. */
+  #og-wordmark {
+    position: absolute;
+    top: 36px;
+    left: 44px;
+    padding: 14px 20px 12px;
+    background: #e5e5e5;
+    border-radius: 12px;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.22);
+  }
+  #og-logo-words {
+    font-size: 44px;
+    line-height: 1.05;
+    white-space: nowrap;
+  }
+  #og-logo-first { color: #075985; }
+  #og-logo-last { color: #3f6212; }
+  #og-logo-tagline {
+    display: block;
+    margin-top: -0.15em;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.4em;
+    color: #1c1917;
+  }
+
+  #og-scrim {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 320px;
+    background: linear-gradient(
+      to bottom,
+      rgba(9, 20, 14, 0) 0%,
+      rgba(9, 20, 14, 0.55) 45%,
+      rgba(9, 20, 14, 0.88) 100%
+    );
+  }
+
+  #og-text {
+    position: absolute;
+    left: 44px;
+    right: 44px;
+    bottom: 44px;
+    color: #ffffff;
+  }
+
+  #og-title {
+    margin: 0;
+    font-size: {{ $titleSize }}px;
+    line-height: 1.08;
+    letter-spacing: -0.015em;
+    max-width: 1000px;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.45);
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  #og-location {
+    margin: 16px 0 0;
+    font-size: 26px;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    color: #cfe6d5;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  }
+
+  #og-attribution {
+    position: absolute;
+    right: 14px;
+    bottom: 10px;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.62);
+    letter-spacing: 0.02em;
+  }
+</style>
+</head>
+<body>
+<div id="og-card">
+  <div id="og-map"></div>
+  <div id="og-scrim"></div>
+
+  {{ if $logoFirst }}
+    <div id="og-wordmark">
+      <div id="og-logo-words">
+        <span id="og-logo-first">{{ $logoFirst }}</span>
+        <span id="og-logo-last">{{ $logoLast }}</span>
+      </div>
+      {{ with $logoTagline }}<span id="og-logo-tagline">{{ . }}</span>{{ end }}
+    </div>
+  {{ end }}
+
+  <div id="og-text">
+    <h1 id="og-title">{{ $title }}</h1>
+    {{ with $location }}<p id="og-location">{{ . }}</p>{{ end }}
+  </div>
+
+  <div id="og-attribution">
+    {{ if $isHike }}USGS The National Map{{ else }}© OpenStreetMap contributors © CARTO{{ end }}
+  </div>
+</div>
+
+<script src="/js/leaflet.1.9.4.js"></script>
+<script src="/js/leaflet-gpx.1.7.0.js"></script>
+<script>
+(function() {
+  // Same patch as tour-map.html: leaflet-gpx only fires its callback on a
+  // literal 200, so a cached 304 silently kills the track.
+  L.GPX.prototype._load_xml = function(url, cb, options, async) {
+    if (options == null) options = this.options;
+    var self = this;
+    fetch(url, { cache: 'no-store' })
+      .then(function(res) { return res.text(); })
+      .then(function(text) {
+        cb(new DOMParser().parseFromString(text, 'text/xml'), options);
+      })
+      .catch(function() {
+        self.fire('error', { err: 'Failed to load GPX' });
+      });
+  };
+
+  var map = L.map('og-map', {
+    zoomControl: false,
+    attributionControl: false,
+    dragging: false,
+    scrollWheelZoom: false,
+    doubleClickZoom: false,
+    boxZoom: false,
+    keyboard: false,
+    touchZoom: false,
+    zoomSnap: 0.25,
+    fadeAnimation: false,
+    zoomAnimation: false
+  });
+
+  var baseLayer = L.tileLayer(
+    {{ if $isHike }}
+      'https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/tile/{z}/{y}/{x}',
+      { maxNativeZoom: 16, maxZoom: 19, crossOrigin: true }
+    {{ else }}
+      'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png',
+      { maxZoom: 19, crossOrigin: true }
+    {{ end }}
+  );
+  baseLayer.addTo(map);
+
+  // Readiness handshake for scripts/generate-trail-og.mjs. The screenshot is
+  // only worth taking once the track is drawn AND real tiles are on screen, so
+  // this waits for a quiet period after the last tile event rather than a fixed
+  // sleep.
+  //
+  // tilesLoaded is load-bearing, not decoration. An earlier version signalled
+  // ready off the GPX alone, which meant that when tile requests hung — no
+  // response, no error, just pending forever, as happens behind a proxy the
+  // browser is not using — the card was photographed with a blank map and the
+  // generator reported success. Requiring a tile to have actually rendered
+  // turns that into a timeout the generator can fail on.
+  var tilesLoaded = 0;
+  var tileErrors = 0;
+  var gpxLoaded = false;
+  var quietTimer = null;
+
+  window.__ogCardReady = false;
+  window.__ogCardError = null;
+  window.__ogCardTileErrors = 0;
+  window.__ogCardTilesLoaded = 0;
+
+  function settle() {
+    if (!gpxLoaded || tilesLoaded === 0) return;
+    clearTimeout(quietTimer);
+    quietTimer = setTimeout(function() {
+      window.__ogCardReady = true;
+    }, 400);
+  }
+
+  baseLayer.on('tileload', function() {
+    tilesLoaded++;
+    window.__ogCardTilesLoaded = tilesLoaded;
+    settle();
+  });
+  baseLayer.on('tileerror', function() {
+    tileErrors++;
+    window.__ogCardTileErrors = tileErrors;
+    settle();
+  });
+  baseLayer.on('load', settle);
+
+  new L.GPX({{ $gpxURL }}, {
+    async: true,
+    marker_options: {
+      startIconUrl: null, endIconUrl: null,
+      shadowUrl: null, wptIconUrls: { '': null }
+    },
+    polyline_options: {
+      // Heavier than the 3px on-page track: at OG thumbnail size a thin line
+      // disappears into the contour lines.
+      color: '#2D6A4F', weight: 6, opacity: 0.95,
+      lineCap: 'round', lineJoin: 'round'
+    }
+  }).on('loaded', function(e) {
+    var bounds = e.target.getBounds();
+    if (bounds.isValid()) {
+      // Keep the track clear of the wordmark pill and the title text. Kept
+      // tight on purpose: a north-south track is height-limited in a 1200x630
+      // frame, and generous padding shrinks it to a squiggle. The track may
+      // run under the top of the scrim gradient — that reads fine.
+      map.fitBounds(bounds, {
+        paddingTopLeft: [60, 100],
+        paddingBottomRight: [60, 170]
+      });
+    } else {
+      map.setView([{{ $geo.lat | default 34.0 }}, {{ $geo.lon | default -118.25 }}], 14);
+    }
+    gpxLoaded = true;
+    settle();
+  }).on('error', function() {
+    window.__ogCardError = 'GPX failed to load: {{ $gpxURL }}';
+    map.setView([{{ $geo.lat | default 34.0 }}, {{ $geo.lon | default -118.25 }}], 14);
+    gpxLoaded = true;
+    settle();
+  }).addTo(map);
+}());
+</script>
+</body>
+</html>

@@ -6,7 +6,7 @@ summaryLength = 100
 timeout = "60s"
 enableEmoji = true
 enableGitInfo = false
-theme = 'ryder-dev'
+theme = 'ryder'
 timeZone = "America/Los_Angeles"
 refLinksErrorLevel = "WARNING"
 title = "Ben Strawbridge Dot Com Consulting"
@@ -14,6 +14,23 @@ description = 'My place to work on my online projects and experiment with the we
 copyright = '<i class="fa-regular fa-copyright"></i>  2026 benstrawbridge.com'
 [imaging]
   autoOrient = true
+
+# Not inherited from the theme, despite outputFormats being inherited. Without
+# this block Hugo falls back to its own default of ["html", "rss"] and /llms.txt
+# is never written.
+[outputs]
+  home = ["HTML", "RSS", "LLMSTxt"]
+
+# Source document for the trail social cards. Rendered by
+# layouts/trails/single.ogcard.html to /trails/<slug>/og-card.html, screenshotted
+# by scripts/generate-trail-og.mjs, never linked from the site — hence
+# notAlternative, and a `noindex` meta in the template itself. The distinct
+# baseName is what keeps it from colliding with the page's real HTML output.
+[outputFormats.OGCard]
+  mediaType = "text/html"
+  baseName = "og-card"
+  isHTML = true
+  notAlternative = true
 
 [frontmatter]
   lastmod = ["lastmod", "date"]
@@ -26,7 +43,9 @@ copyright = '<i class="fa-regular fa-copyright"></i>  2026 benstrawbridge.com'
   # enabledebugpanel = true 
   # navbar_fixed = true
   # homepage list exclusion... 
-  excludedSections = ["fineprint", "portfolio", "goals", "consulting", "everything-everywhere", "links"]
+  # "listening" is excluded because its weekly + artist pages would swamp the
+  # feed; the latest week gets its own module instead (home-listening-module).
+  excludedSections = ["fineprint", "portfolio", "goals", "consulting", "everything-everywhere", "links", "listening"]
   excludedCategories = ["catalog"]
   showDarkToggle = true
   showShareButtons = true
@@ -60,6 +79,11 @@ logo_firstWord = 'Ben'
     name = "musical-genres"
     title = "Musical Genres"
     minCount = 12
+  [params.schema]
+    # Site-wide JSON-LD entity type. Theme default is Organization; this is a
+    # personal site. Per-page structured data lives in
+    # layouts/partials/head/schema-extra.html.
+    type = "Person"
   [params.csp]
     imgSrc = "https://*.tile.openstreetmap.org https://*.basemaps.cartocdn.com https://server.arcgisonline.com https://basemap.nationalmap.gov https://i.scdn.co"
 # [[params.alphaAlert]]
@@ -95,3 +119,6 @@ logo_firstWord = 'Ben'
     name = 'Recipe Index'
     url = '/recipes/'
     weight = 30
+
+[params.colors]
+  legacyAccents = true

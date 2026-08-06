@@ -3,12 +3,36 @@ enableGitInfo = false
 
 [params]
   env = "production"
+
+  # Ryder v0.3.2 made highlight-github warn and degrade to a link instead of
+  # killing the build, which is what a cloud session needs — api.github.com is
+  # unreachable there no matter how the network is configured. Amplify builds
+  # with open network, so a failure here is real and should still stop the
+  # build. This replaces the site-level shortcode override that used to draw
+  # the same distinction with `hugo.Environment`.
+  highlightGithubStrict = true
   analytics_provider = "posthog"
   posthog_host = "https://t.benstrawbridge.com"
   posthog_ui_host = "https://us.posthog.com"
   posthog_cookie_domain = ".benstrawbridge.com"
   posthog_defaults = "2026-01-30"
   posthog_person_profiles = "identified_only"
+
+  # Ryder v0.3.0 stopped adding 'unsafe-inline' to script-src as a side effect of
+  # enabling PostHog. This site still needs it: the tour-map shortcode builds a
+  # different inline script per trail page (it interpolates the GPX path and the
+  # stops JSON, so a hash cannot cover it) and uses inline onclick/onmouseover
+  # attributes, which no hash can ever cover. layouts/trails/single.html and
+  # layouts/grid-basic/baseof.html carry inline scripts too.
+  #
+  # Declaring it here keeps today's effective policy byte-for-byte while making
+  # the widening deliberate rather than automatic. To drop it: move those scripts
+  # into assets/js/extended.js and convert the on* attributes to addEventListener,
+  # passing page data via data-* attributes.
+  #
+  # Merges with [params.csp] in config/_default/hugo.toml, which sets imgSrc.
+  [params.csp]
+    scriptSrc = "'unsafe-inline'"
 
 # [services]
 #   [services.googleAnalytics]

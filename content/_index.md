@@ -4,6 +4,8 @@ title = 'Ben Strawbridge Dot Com Consulting'
 # featured_image = '/images/maui-sunset.webp'
 date = 2024-01-02T11:58:15-08:00
 draft = false 
+# Paginated home-feed cards can contain Leaflet shortcodes in their summaries.
+loadLeaflet = true
 listSortBy = "Lastmod"
 listSortOrder = "desc"
 # enabledebugpanel = true
@@ -13,4 +15,3 @@ listSortOrder = "desc"
 # [twClasses]
     # headerBackgroundFrame = "bg-gradient-to-r from-violet-950 to-rose-950 text-neutral-100  border-b border-fuchsia-600"
 +++
-

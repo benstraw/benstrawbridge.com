@@ -37,18 +37,54 @@
   {{/* Add page resource. */}}
   {{ $item := . }}
   {{ with $url := $item.cover }}
-    {{ with resources.GetRemote $url }}
+
+    {{/* Fetch the cover. A blocked or unreachable host raises a hard template
+    error, and .Err was removed from the returned resource in Hugo 0.141 — below
+    this repo's 0.146 floor — so reading it aborts the build too. `try` catches
+    both; .Err on the `try` result below is a different field and is fine. */}}
+    {{ $cover := "" }}
+    {{ $err := "" }}
+    {{ $attempt := try (resources.GetRemote $url) }}
+    {{ with $attempt.Err }}
+      {{ $err = . }}
+    {{ else }}
+      {{ with $attempt.Value }}
+        {{ $cover = . }}
+      {{ else }}
+        {{ $err = "no resource returned" }}
+      {{ end }}
+    {{ end }}
+
+    {{/* Production builds run on Amplify with open network, so a failure there
+    is real and must stop the build. Elsewhere — notably Claude Code on the web,
+    where gohugo.io is not reachable through the proxy — fall back to a local
+    placeholder so the site still builds and every other page can be checked. */}}
+    {{ $isPlaceholder := false }}
+    {{ with $err }}
+      {{ if eq hugo.Environment "production" }}
+        {{ errorf "Unable to get remote resource %s: %s" $url . }}
+      {{ else }}
+        {{ warnf "Unable to get remote resource %s: %s — using local placeholder cover" $url . }}
+        {{ $cover = resources.Get "images/books/placeholder-cover.png" }}
+        {{ $isPlaceholder = true }}
+      {{ end }}
+    {{ end }}
+
+    {{ with $cover }}
+      {{ $alt := $item.title }}
+      {{ if $isPlaceholder }}
+        {{ $alt = printf "%s (cover image unavailable)" $item.title }}
+      {{ end }}
       {{ $content := dict "mediaType" .MediaType.Type "value" .Content }}
-      {{ $params := dict "alt" $item.title }}
+      {{ $params := dict "alt" $alt "placeholder" $isPlaceholder }}
       {{ $resource := dict
         "content" $content
         "params" $params
         "path" (printf "%s/feature_cover.%s" $item.title .MediaType.SubType)
       }}
       {{ $.AddResource $resource }}
-    {{ else }}
-      {{ errorf "Unable to get remote resource %s" $url }}
     {{ end }}
+
   {{ end }}
 
 {{ end }}

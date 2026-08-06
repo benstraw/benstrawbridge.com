@@ -1,0 +1,56 @@
+{{- /*
+Resolves which card partial a single page should render with, so one feed can
+mix card styles instead of the container picking one for everything in it.
+
+The theme's `homeListCardType` / `homeFeatureListCardType` / `listCardType` are
+container-level settings — "what card does this grid use by default" — and are
+read once, outside the range (see themes/ryder/layouts/_default/list.html:27).
+`cardType` is the per-page counterpart: "what card does *this* page use". They
+compose; the container value arrives here as `default`.
+
+Precedence, highest first:
+  1. cardType on the page — front matter, or a section _index.md [cascade].
+     Read via .Params, not .Param, on purpose: .Param falls back to site params,
+     which would let a site-wide default outrank the category lookup below and
+     make step 2 unreachable.
+  2. cardType on the page's first `categories` term page. Same lookup
+     utils/card-meta.html:36-46 uses for cardCategoryColorsDefault, so a
+     category configures its colours and its card the same way.
+  3. The caller's `default`.
+
+Regular pages only. Hugo's [cascade] applies to the node that declares it as
+well as to its descendants, so `cardType` in content/<section>/_index.md lands
+on that section's own list page too — and the home feed ranges .Site.Pages, not
+.RegularPages, so the list page is in it. Without this guard the /trails/ index
+rendered as a trail card, badged "Walking Tour" over a composited placeholder,
+because it has no GPX and no og-cover.jpg. Any card keyed to a per-item artifact
+has that problem, so it is fixed once here rather than per section. A list page's
+own card is the container's business anyway — that is what the theme's
+listCardType / homeListCardType are for.
+
+@param  page     the page to resolve a card for
+@param  default  suffix to fall back to, e.g. "-category-color"
+@returns string  a card suffix, to be formatted as card<suffix>.html
+*/ -}}
+{{- $page := .page -}}
+{{- $type := .default -}}
+
+{{- /* Single top-level return: Hugo rejects a second one, including an early
+       return nested inside an if. */ -}}
+{{- if eq $page.Kind "page" -}}
+
+  {{- with $page.GetTerms "categories" -}}
+    {{- with $page.Site.GetPage (printf "categories/%s" (index . 0).Title) -}}
+      {{- with .Params.cardType -}}
+        {{- $type = . -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- with $page.Params.cardType -}}
+    {{- $type = . -}}
+  {{- end -}}
+
+{{- end -}}
+
+{{- return $type -}}

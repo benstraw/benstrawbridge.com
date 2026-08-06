@@ -161,6 +161,29 @@ summit = max(pts, key=lambda p: float(p.find(f'{{{ns}}}ele').text))
 print(summit.attrib['lat'], summit.attrib['lon'], summit.find(f'{{{ns}}}ele').text)
 ```
 
+### Social card
+
+Every trail gets its own Open Graph image — the page's map with the trail drawn
+on it, the logo words, and the trail name. It is a screenshot of a Hugo-rendered
+card (`layouts/trails/single.ogcard.html`), not something Hugo composes on its
+own, so it has to be generated and committed:
+
+```bash
+npm run og:trails -- --only <slug>
+```
+
+This needs the tile hosts (`basemap.nationalmap.gov`,
+`*.basemaps.cartocdn.com`), which Claude Code on the web blocks — **run it
+locally**. It writes `content/trails/<slug>/og-cover.jpg` and adds
+`og_image = "og-cover.jpg"` to the page's front matter for you.
+
+Commit the image and `index.md` together. The OG partial calls `errorf` on an
+`og_image` it cannot resolve, so the two must never be split across commits.
+
+If the title is long enough to wrap past two lines on the card, set
+`ogTitleText = "Shorter Name"` **before** generating — the card uses it in
+place of `title`.
+
 ## Step 3: Verify checklist
 
 - [ ] GPX file is in the same directory as `index.md`
@@ -170,3 +193,5 @@ print(summit.attrib['lat'], summit.attrib['lon'], summit.find(f'{{{ns}}}ele').te
 - [ ] Stop `order` values are sequential starting at 1
 - [ ] Main entrance / primary stop is `order: 1` (gets the amber star icon)
 - [ ] `geo.lat` / `geo.lon` set to approximate tour center
+- [ ] `og-cover.jpg` generated locally, committed together with the `og_image`
+      line the script adds to `index.md`
