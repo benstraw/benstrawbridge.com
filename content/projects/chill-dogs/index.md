@@ -11,6 +11,12 @@ tags = [
 ]
 homeFeatureIcon = "fa-solid fa-dog"
 homeFeatureTitle = "chill-dogs"
+# Render this page's card with the home page screenshot on it wherever it is
+# listed. cardType picks layouts/partials/card-image.html (resolved per page by
+# utils/card-type.html); cardImage names the resource it draws.
+cardType = "-image"
+cardImage = "chill-dogs-homepage.png"
+cardImageAlt = "The chill-dogs.com home page"
 +++
 
 [chill-dogs](https://chill-dogs.com) is a curated product site that helps dog owners find cooling and calming gear — from summer heat relief to anxiety-friendly comfort products.
