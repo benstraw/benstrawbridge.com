@@ -1,0 +1,72 @@
+{{- /* Site override of themes/ryder/layouts/shortcodes/affiliate-link-builder-form.html.
+
+  Two things differ from the theme version, both of which broke /link-builder/:
+
+  1. The theme renders the generated link with
+       x-html="affiliateLink || 'Enter an ASIN…'"
+     and the theme bundles @alpinejs/csp, which refuses x-html outright:
+       Uncaught Error: Using the x-html directive is prohibited in the CSP build
+     The result div therefore never rendered anything at all — not even the
+     "Enter an ASIN…" placeholder — so Generate Link looked dead. Here the
+     anchor is real markup bound with :href / x-text, and the component
+     (amazonLinkBuilder, in assets/js/extended.js) hands over plain values.
+
+  2. The theme reads site.Params.amazonAffiliateTags, which this site does not
+     set — it has amazon_associate_id, the param every other affiliate
+     template here uses. The result was data-default-tag="" and links built as
+     ?tag=, i.e. no associate credit at all. Fall back to it.
+
+  Keep this in sync with the theme shortcode if it changes upstream; the fix
+  belongs there eventually. */ -}}
+
+{{- $tags := slice -}}
+{{- with site.Params.amazonAffiliateTags -}}
+  {{- $tags = . -}}
+{{- else -}}
+  {{- with site.Params.amazon_associate_id -}}
+    {{- $tags = slice . -}}
+  {{- end -}}
+{{- end -}}
+{{- $defaultTag := "" -}}
+{{- if gt (len $tags) 0 -}}
+  {{- $defaultTag = index $tags 0 -}}
+{{- else -}}
+  {{- warnf "affiliate-link-builder-form (%s): neither params.amazonAffiliateTags nor params.amazon_associate_id is set, so generated links will carry no affiliate tag." .Page.File.Path -}}
+{{- end -}}
+
+<div class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 w-full" x-data="amazonLinkBuilder" data-default-tag="{{ $defaultTag }}">
+  <form>
+    <div class="-mx-3 mb-6">
+      <div class="w-full px-3">
+        <label class="block uppercase tracking-wide text-gray-700 font-bold mb-2" for="asin"> ASIN </label>
+        <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="asin" type="text" placeholder="Enter ASIN" x-model="asin" :class="{'border-red-500': showAsinError()}" @input="validateAsin">
+        <p class="text-red-500 text-xs italic" x-show="showAsinError()">Please enter a valid ASIN.</p>
+      </div>
+    </div>
+    {{- if gt (len $tags) 1 }}
+    <div class="-mx-3 mb-6">
+      <div class="w-full px-3">
+        <label class="block uppercase tracking-wide text-gray-700 font-bold mb-2" for="affiliate-tag"> Affiliate Tag </label>
+        <select class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="affiliate-tag" x-model="affiliateTag">
+          {{- range $tags }}
+          <option value="{{ . }}">{{ . }}</option>
+          {{- end }}
+        </select>
+      </div>
+    </div>
+    {{- end }}
+    <div class="-mx-3 mb-6">
+      <div class="w-full px-3">
+        <button aria-label="Generate Link" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button" @click="generateAffiliateLink" :disabled="!isValidAsin(asin)">
+          Generate Link
+        </button>
+      </div>
+    </div>
+  </form>
+  <div class="text-gray-700" id="affiliate-link" aria-live="polite">
+    <span x-show="!generated">Enter an ASIN and click Generate Link to get started</span>
+    <span x-show="generated">View ASIN
+      <a class="bg-yellow-400 text-black font-medium py-2 mt-4 px-4 rounded-full border-2 border-yellow-500 hover:bg-yellow-500 hover:border-yellow-600 focus:outline-none focus:ring-2 focus:ring-yellow-300 no-underline inline-block text-center break-words" :href="affiliateUrl" x-text="asin"></a>
+      on Amazon.com</span>
+  </div>
+</div>
