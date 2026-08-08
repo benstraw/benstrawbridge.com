@@ -2,6 +2,9 @@
 title = 'Consulting'
 date = 2024-02-14T15:16:41-08:00
 # draft = true
+# Prose section with no child pages — list.html would paginate an empty
+# collection and render the "Nothing here yet" empty state below the copy.
+layout = "list-plain"
 [cascade]
   categories = ["consulting"]
   homeFeatureIcon = "fa-solid fa-jedi"
