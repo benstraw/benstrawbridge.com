@@ -14,7 +14,24 @@ enableGitInfo = false
   analytics_provider = "posthog"
   posthog_host = "https://t.benstrawbridge.com"
   posthog_ui_host = "https://us.posthog.com"
-  posthog_cookie_domain = ".benstrawbridge.com"
+
+  # Deliberately no posthog_cookie_domain. The theme partial forwards it as
+  # `cookie_domain` in posthog.init(), but posthog-js has no such option —
+  # verified against 1.414.0, where the string appears nowhere in lib/ or any
+  # dist/ bundle. It was silently dropped, so the value here only ever looked
+  # like it pinned the cookie domain.
+  #
+  # What actually governs the domain is `cross_subdomain_cookie`, which
+  # defaults to on and makes posthog-js discover the domain by probing. That
+  # probe walks inward from the TLD, so its first attempt is always
+  # `domain=.com` — a public suffix — and the browser logs
+  #   Cookie "dmn_chk_<uuidv7>" has been rejected for invalid domain.
+  # once per page load before the next attempt (.benstrawbridge.com) sticks.
+  # That console line is expected and costs nothing; cookies work. Turning it
+  # off means overriding layouts/partials/posthog.html to pass
+  # cross_subdomain_cookie = false, which scopes cookies to www alone and
+  # breaks identity continuity across any future subdomain. Not worth it.
+
   posthog_defaults = "2026-01-30"
   posthog_person_profiles = "identified_only"
 
