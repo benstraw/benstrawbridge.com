@@ -7,6 +7,40 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_ROOT="$(dirname "$SCRIPT_DIR")"
 GARDEN_DIR="${1:-${REPO_ROOT}/../obsidian-music-garden}"
 SPOTIFY_DATA="${REPO_ROOT}/data/spotify"
+PUBLIC_SOURCE="${GARDEN_DIR}/data/published/v1"
+PUBLIC_TARGET="${REPO_ROOT}/data/music_garden/v1"
+
+if [[ -f "${PUBLIC_SOURCE}/manifest.json" ]]; then
+  echo "Syncing validated Music Garden public-v1 contract"
+  TEMP_ROOT="$(mktemp -d)"
+  trap 'rm -rf "${TEMP_ROOT}"' EXIT
+  CANDIDATE="${TEMP_ROOT}/candidate"
+  STAGED_DATA="${TEMP_ROOT}/data"
+  mkdir -p "${CANDIDATE}" "${STAGED_DATA}"
+  cp -R "${PUBLIC_SOURCE}/." "${CANDIDATE}/"
+  python3 "${SCRIPT_DIR}/validate-music-garden-export.py" "${CANDIDATE}"
+
+  cp -R "${REPO_ROOT}/data/." "${STAGED_DATA}/"
+  mkdir -p "${STAGED_DATA}/music_garden"
+  rm -rf "${STAGED_DATA}/music_garden/v1"
+  cp -R "${CANDIDATE}" "${STAGED_DATA}/music_garden/v1"
+  HUGO_DATADIR="${STAGED_DATA}" hugo --gc --minify --environment production --destination "${TEMP_ROOT}/public"
+  python3 "${SCRIPT_DIR}/check-music-atlas-build.py" "${CANDIDATE}" "${TEMP_ROOT}/public"
+
+  mkdir -p "$(dirname "${PUBLIC_TARGET}")"
+  BACKUP="${TEMP_ROOT}/previous"
+  if [[ -d "${PUBLIC_TARGET}" ]]; then
+    mv "${PUBLIC_TARGET}" "${BACKUP}"
+  fi
+  if ! mv "${CANDIDATE}" "${PUBLIC_TARGET}"; then
+    [[ -d "${BACKUP}" ]] && mv "${BACKUP}" "${PUBLIC_TARGET}"
+    exit 1
+  fi
+  echo "Installed validated public-v1 data after a successful production build."
+  exit 0
+fi
+
+echo "No public-v1 manifest found; retaining the legacy Spotify pipeline."
 
 echo "Syncing Spotify data"
 echo "  Garden: ${GARDEN_DIR}"

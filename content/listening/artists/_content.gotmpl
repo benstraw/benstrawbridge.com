@@ -1,34 +1,53 @@
-{{/* TODO: artist pages have no "dates" key set, so they sort to the bottom of the home feed.
-     Fix: derive date from $artist.last_seen and pass "dates" (dict "date" $date) in $page. */}}
-{{ $artists := site.Data.spotify.artists }}
-
-{{ range $slug, $artist := $artists }}
-  {{ $genreStr := delimit $artist.genres " · " }}
-  {{ $plays := $artist.total_plays | int }}
-  {{ $summary := printf "%d plays" $plays }}
-  {{ if $genreStr }}
-    {{ $summary = printf "%d plays · %s" $plays $genreStr }}
+{{ $v1 := dict }}
+{{ with site.Data.music_garden }}{{ with .v1 }}{{ $v1 = . }}{{ end }}{{ end }}
+{{ if $v1.manifest }}
+  {{ range $slug, $artist := $v1.artists }}
+    {{ if $artist.publication.indexed }}
+      {{ $aliases := slice }}
+      {{ range $from, $to := $v1.redirects.artists }}
+        {{ if eq $to $slug }}{{ $aliases = $aliases | append (printf "/listening/artists/%s/" $from) }}{{ end }}
+      {{ end }}
+      {{ $note := "" }}
+      {{ with resources.Get (printf "listening-notes/artists/%s.md" $slug) }}{{ $note = .Content }}{{ end }}
+      {{ $params := dict
+        "hideAsideBar" true
+        "musicGardenV1" true
+        "record" $artist
+        "musicalGenres" $artist.genres
+        "total_plays" $artist.total_plays
+        "first_seen" $artist.first_seen
+        "last_seen" $artist.last_seen
+        "spotifyUrl" $artist.spotify_url
+        "spotifyId" $artist.spotify_id
+        "spotifyImages" $artist.spotify_images
+        "topTracks" $artist.top_tracks
+        "personalNote" $note
+      }}
+      {{ $page := dict
+        "content" (dict "mediaType" "text/markdown" "value" ($artist.summary | default (printf "%d plays in my listening history." ($artist.total_plays | int))))
+        "kind" "page"
+        "title" $artist.name
+        "type" "listening-artist"
+        "params" $params
+        "path" $slug
+        "aliases" $aliases
+        "dates" (dict "date" (time.AsTime (printf "%sT00:00:00Z" $artist.last_seen)))
+      }}
+      {{ $.AddPage $page }}
+    {{ end }}
   {{ end }}
-
-  {{ $params := dict
-    "hideAsideBar" true
-    "musicalGenres" $artist.genres
-    "musical-genres" $artist.genres
-    "total_plays" $artist.total_plays
-    "first_seen" $artist.first_seen
-    "last_seen" $artist.last_seen
-    "spotifyUrl" $artist.spotify_url
-    "spotifyId" $artist.id
-    "spotifyImages" $artist.images
-    "topTracks" $artist.top_tracks
-  }}
-  {{ $page := dict
-    "content" (dict "mediaType" "text/markdown" "value" $summary)
-    "kind" "page"
-    "title" $artist.name
-    "type" "listening-artist"
-    "params" $params
-    "path" $slug
-  }}
-  {{ $.AddPage $page }}
+  {{ range $from, $to := $v1.redirects.artists }}
+    {{ $page := dict "content" (dict "mediaType" "text/markdown" "value" "This artist has moved to its canonical atlas address.") "kind" "page" "title" "Artist redirect" "type" "music-atlas-redirect" "params" (dict "destination" (printf "/listening/artists/%s/" $to) "hideAsideBar" true) "path" $from }}
+    {{ $.AddPage $page }}
+  {{ end }}
+{{ else }}
+  {{ range $slug, $artist := site.Data.spotify.artists }}
+    {{ $genreStr := delimit $artist.genres " · " }}
+    {{ $plays := $artist.total_plays | int }}
+    {{ $summary := printf "%d plays" $plays }}
+    {{ if $genreStr }}{{ $summary = printf "%d plays · %s" $plays $genreStr }}{{ end }}
+    {{ $params := dict "hideAsideBar" true "musicalGenres" $artist.genres "musical-genres" $artist.genres "total_plays" $artist.total_plays "first_seen" $artist.first_seen "last_seen" $artist.last_seen "spotifyUrl" $artist.spotify_url "spotifyId" $artist.id "spotifyImages" $artist.images "topTracks" $artist.top_tracks }}
+    {{ $page := dict "content" (dict "mediaType" "text/markdown" "value" $summary) "kind" "page" "title" $artist.name "type" "listening-artist" "params" $params "path" $slug }}
+    {{ $.AddPage $page }}
+  {{ end }}
 {{ end }}

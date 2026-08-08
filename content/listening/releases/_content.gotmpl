@@ -1,0 +1,13 @@
+{{ $v1 := dict }}
+{{ with site.Data.music_garden }}{{ with .v1 }}{{ $v1 = . }}{{ end }}{{ end }}
+{{ with $v1.releases }}
+  {{ range $slug, $release := . }}
+    {{ if $release.publication.indexed }}
+      {{ $note := "" }}
+      {{ with resources.Get (printf "listening-notes/releases/%s.md" $slug) }}{{ $note = .Content }}{{ end }}
+      {{ $params := dict "hideAsideBar" true "musicGardenV1" true "record" $release "first_listened" $release.first_listened "last_listened" $release.last_listened "personalNote" $note }}
+      {{ $page := dict "content" (dict "mediaType" "text/markdown" "value" (printf "%s by %s entered my atlas on %s." $release.name $release.primary_artist_name $release.first_listened)) "kind" "page" "title" $release.name "type" "listening-release" "params" $params "path" $slug "dates" (dict "date" (time.AsTime (printf "%sT00:00:00Z" $release.first_listened))) }}
+      {{ $.AddPage $page }}
+    {{ end }}
+  {{ end }}
+{{ end }}
