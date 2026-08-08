@@ -15,8 +15,6 @@ tags = [
 ]
 +++
 
-*Published July 29, 2026*
-
 I clicked the “Latest release” badge in Ryder’s README and landed on `v0.0.1-alpha`, dated January 2024.
 
 That would have been unremarkable if it were the latest release. It wasn’t. Ryder had shipped `v0.1.0` through `v0.2.4`, but the release workflow marked every automated release as a prerelease. GitHub excludes prereleases from that badge, so two years of releases were present, downloadable, and effectively invisible from the project’s front door.

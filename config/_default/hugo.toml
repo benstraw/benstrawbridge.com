@@ -36,6 +36,7 @@ copyright = '<i class="fa-regular fa-copyright"></i>  2026 benstrawbridge.com'
   lastmod = ["lastmod", "date"]
   date = ["date"]
 [params]
+  showDate = true
   description = 'Dot Com Consulting'
   TocOpen = true
   loadLeaflet = false
