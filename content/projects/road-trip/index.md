@@ -12,6 +12,12 @@ tags = [
   "road-trip"
 ]
 homeFeatureIcon = "fa-solid fa-map"
+# Render this page's card with the home page hero screenshot wherever it is
+# listed. cardType picks layouts/partials/card-image.html (resolved per page by
+# utils/card-type.html); cardImage names the resource it draws.
+cardType = "-image"
+cardImage = "homepage.png"
+cardImageAlt = "The road trip site's home page hero: the cross-country route drawn on a watercolor basemap"
 +++
 
 {{< alert-wrapper alertType="success" alertTitle="Explore the Journey" alertMessage="<a href='https://rt2026.benstrawbridge.com' class='underline font-semibold'>rt2026.benstrawbridge.com</a>" >}}

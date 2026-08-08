@@ -34,5 +34,7 @@ recipeIngredients = [
 ## Ingredients
 {{< recipe-ingredients-list >}}  
 
+<!--more-->
+
 ## Method
 {{< recipe-howto-steps-list >}}  

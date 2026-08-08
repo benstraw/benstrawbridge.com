@@ -10,6 +10,10 @@
 /hugo_stats.json
 /themes/*/exampleSite/
 /themes/art-collection-theme
+# Leftover from the removed ryder-dev indirection: both configs build against
+# the pinned submodule now, so a local themes/ryder-dev symlink is a stray. See
+# "Theme resolution" in CLAUDE.md before reintroducing a second theme path.
+/themes/ryder-dev
 *.log
 /_ignore/
 /node_modules

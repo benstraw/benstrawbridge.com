@@ -2,6 +2,12 @@
 title = "Projects"
 date = 2024-02-12T15:16:41-08:00
 # draft = true
+# The card the /projects/ grid renders its children with — read by
+# themes/ryder/layouts/_default/list.html, which resolves one card type for the
+# whole container rather than per page. card-image.html falls back to
+# card-category-color's markup for a project with no cardImage, so this changes
+# only the projects that declare one.
+listCardType = "-image"
 [cascade]
   sectionTitle = "Projects on BenStrawbridge.com"
   showToc = true

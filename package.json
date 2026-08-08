@@ -3,7 +3,8 @@
   "license": "ISC",
   "scripts": {
     "test:fa-icons": "node scripts/check-fa-icons.mjs",
-    "og:trails": "node scripts/generate-trail-og.mjs"
+    "og:trails": "node scripts/generate-trail-og.mjs",
+    "card:shot": "node scripts/screenshot-card.mjs"
   },
   "repository": {
     "type": "git",
