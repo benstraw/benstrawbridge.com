@@ -1,6 +1,6 @@
 +++
 title = 'A Theme Meets a Stranger'
-date = 2026-07-29T01:00:00-07:00
+date = 2026-08-08T02:19:01-07:00
 hideAsideBar = true
 summary = "A band's website was the first Ryder site that hadn't grown up alongside the theme, and it turned out to be the best test suite the theme ever had."
 description = "A band's website was the first Ryder site that hadn't grown up alongside the theme, and it turned out to be the best test suite the theme ever had."
