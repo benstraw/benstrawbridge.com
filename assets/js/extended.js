@@ -164,6 +164,55 @@ if (window.Alpine && window.Alpine !== Alpine) {
   registerLinksPage(window.Alpine)
 }
 
+// CSP-safe replacement for the theme's `affiliateLinkBuilder` component, used
+// by layouts/shortcodes/affiliate-link-builder-form.html (a site override of
+// the theme shortcode) on /link-builder/.
+//
+// The theme's version returns the result as an HTML string and the theme
+// shortcode renders it with x-html. @alpinejs/csp refuses that directive
+// outright — "Using the x-html directive is prohibited in the CSP build" —
+// so #affiliate-link stayed permanently empty: no placeholder, no generated
+// link, a Generate Link button that visibly did nothing. (Other components on
+// the page still initialised; the thrown error is scoped to this directive.)
+//
+// So the anchor is markup in the template and this component only exposes
+// plain values for it to bind to. Registered under a different name because
+// main.js registers `affiliateLinkBuilder` after this file runs (ES imports
+// are hoisted, so extended.js executes first) and would overwrite it.
+const registerAmazonLinkBuilder = (alpine) => alpine.data('amazonLinkBuilder', () => ({
+  asin: '',
+  affiliateTag: '',
+  generated: false,
+  init() {
+    this.affiliateTag = this.$el.dataset.defaultTag || ''
+  },
+  isValidAsin(asin) {
+    return /^[A-Z0-9]{10}$/.test(asin)
+  },
+  // Only complain once there is something to complain about — an untouched
+  // field is not an error.
+  showAsinError() {
+    return this.asin.length > 0 && !this.isValidAsin(this.asin)
+  },
+  validateAsin() {
+    this.asin = this.asin.toUpperCase().replace(/[^A-Z0-9]/g, '').slice(0, 10)
+    this.generated = false
+  },
+  generateAffiliateLink() {
+    if (!this.isValidAsin(this.asin)) return
+    this.generated = true
+  },
+  get affiliateUrl() {
+    return `https://www.amazon.com/dp/${encodeURIComponent(this.asin)}` +
+      `/ref=nosim?tag=${encodeURIComponent(this.affiliateTag)}`
+  },
+}))
+
+registerAmazonLinkBuilder(Alpine)
+if (window.Alpine && window.Alpine !== Alpine) {
+  registerAmazonLinkBuilder(window.Alpine)
+}
+
 // Check if the changeBackgroundImage function exists before calling it
 if (typeof changeBackgroundImage === "function") {
   changeBackgroundImage([
