@@ -116,49 +116,47 @@ Root-level `layouts/` contains section-specific overrides:
 
 ### Forked theme partials — reconcile these on every Ryder bump
 
-Two partials are **deliberate forks** of theme files, not new site-only
-templates. A theme bump that changes the upstream versions will not touch these,
-so diff them against the submodule when upgrading:
+One partial is a **deliberate fork** of a theme file, not a new site-only
+template. A theme bump that changes the upstream version will not touch it, so
+diff it against the submodule when upgrading:
 
 | Site override | Forked from |
 | --- | --- |
-| `layouts/partials/taxonomy-cloud.html` | `themes/ryder/layouts/partials/taxonomy-cloud.html` |
 | `layouts/partials/utils/taxonomy-string.html` | `themes/ryder/layouts/partials/utils/taxonomy-string.html` |
 
-Both exist because the theme versions render **every** term in a taxonomy, which
-does not survive a machine-generated taxonomy. `musical-genres` is built from
-Spotify data and has ~511 terms, 47% of them applying to a single artist; the
-unmodified theme put all 511 chips on `/musical-genres/` at up to 3.8rem and
-~78 links in the footer of every page, ordered alphabetically so "acid jazz"
-preceded "jazz".
+It exists because the theme version applies only a `minCount` floor and then
+ranges the taxonomy **map**, which is alphabetical and uncapped. `musical-genres`
+is built from Spotify data — 512 terms, 47% of them applying to a single artist —
+so the footer carried ~78 links on every page ordered such that "acid jazz" (7
+artists) preceded "jazz" (97), growing without bound as the library does.
 
-The forks order by page count and cap what they show, driven by config:
+The fork orders by page count, applies `minCount` as a floor, then caps at
+`maxTerms` on each `[[params.footer.taxonomies]]` entry. Removing `maxTerms`
+restores the theme's unbounded list for that group.
 
-- `[params.taxonomyCloud]` — `topPercent` (share of terms sized and shown
-  expanded, default 100 = theme behaviour) and `minShown` (floor for small
-  taxonomies). The remainder goes in an Alpine collapse, alphabetical, at one
-  size. **All terms stay in the HTML**, so the tail is still crawlable.
-- `maxTerms` on each `[[params.footer.taxonomies]]` entry — caps the group after
-  the existing `minCount` floor. Removing `maxTerms` restores the theme's
-  unbounded list for that group.
+Three things to know before retuning the caps:
 
-Chip markup is shared by `layouts/partials/utils/taxonomy-chip.html` (site-only,
-not a fork) so the head and tail loops don't each duplicate the gradient and
-per-term `twClasses` resolution.
+- **`minCount` decides the eligible pool, not `maxTerms`.** It filters first, so
+  a cap above the pool is inert. Measured: `musical-genres` has 512 terms but 67
+  with 10+ artists and 55 with 12+; `tags` has 263 but 33 with 5+ uses and 24
+  with 6+. Raising a cap without lowering `minCount` often changes nothing.
+- **Land caps on a clean count boundary.** Hugo does not document how `.ByCount`
+  orders terms with equal counts, so a cap that slices a tied group can
+  reshuffle the footer between builds. The configured 41 takes both 14-artist
+  genres; 33 takes all nine 5-use tags.
+- **This is a reordering and bounding change, not a size reduction.** At the
+  configured caps the footer carries 74 links against the theme's 78. What it
+  buys is useful ordering plus a fixed ceiling — not a shorter footer. If footer
+  size is the goal, the caps need to come down.
 
-Two things to preserve when touching the cloud:
+`/musical-genres/` and `/tags/` use the **theme's** `taxonomy-cloud.html`
+unmodified — all terms, alphabetical. A previous attempt to fork it and collapse
+the long tail was reverted: sorting the cloud by count replaces the interspersed
+big-and-small chips that make a tag cloud legible with a monotonic size ramp.
+Leave the cloud alone.
 
-- The font scale is computed over the **displayed** subset, not the whole
-  taxonomy. Using the full-set minimum against a filtered head flattens the
-  cloud. The `+1` on `$max` is load-bearing — it keeps `log($max) - log($min)`
-  non-zero when every shown term has the same count.
-- The collapse toggle must stay a named `Alpine.data()` component
-  (`taxonomyTail` in `assets/js/extended.js`). This site bundles
-  `@alpinejs/csp`, so an inline `expanded = !expanded` renders fine, never
-  fires, and logs nothing — the failure mode
-  `themes/ryder/assets/js/cspLint.js` exists to catch.
-
-The right long-term fix is upstreaming both to Ryder, which retires the fork.
+The right long-term fix is upstreaming the footer partial to Ryder, which retires
+the fork.
 
 ### Asset Management
 - **Images**: Stored in `assets/images/` with subdirectories by project/section

@@ -7,8 +7,13 @@
   "jazz" (97), and growing without limit as the Spotify data grows.
 
   What this does instead: order by page count, apply `minCount` as a floor, then
-  cap at `maxTerms`, and link out to the full taxonomy page. Drop `maxTerms`
-  from a group's config to get the theme's behaviour back for that group.
+  cap at `maxTerms`. Drop `maxTerms` from a group's config to get the theme's
+  behaviour back for that group.
+
+  Note this is a *reordering and bounding* change, not a size reduction: at the
+  configured caps the footer carries 74 links against the theme's 78. The value
+  is that `jazz` (97) leads instead of `acid jazz` (7), and that the count stays
+  fixed as the Spotify library grows.
 
   Reconcile this with the theme partial on any Ryder bump — see CLAUDE.md.
 */ -}}
@@ -55,13 +60,8 @@
       {{- range $shown }}
         <a href="{{ printf "%s/%s/" $taxonomy (.Name | urlize) | relURL }}" class="footer-taxonomy-link">{{ .Name }}<sup>{{ .Count }}</sup></a>
       {{- end }}
-      {{- /* Only worth an "all" link when the cap actually hid something, and
-             only when the taxonomy has a page to send people to. */ -}}
-      {{- if lt (len $shown) (len $terms) }}
-        {{- with $taxonomyPage }}
-        <a href="{{ .RelPermalink }}" class="footer-taxonomy-link">all {{ len $terms }} &rarr;</a>
-        {{- end }}
-      {{- end }}
+      {{- /* No "see all" link down here: the group heading above is already an
+             anchor to the same taxonomy page, chevron and all. */ -}}
       </div>
     </div>
   {{- end }}

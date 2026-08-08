@@ -70,29 +70,32 @@ logo_firstWord = 'Ben'
     headerBackgroundFrameInner = "bg-header-sunset-sf-coke dark:bg-header-artist-date-two h-[200px] sm:h-[250px] bg-cover bg-bottom"
     footerBackground = "bg-gradient-to-r from-slate-950 via-neutral-950 to-zinc-900 border-emerald-500"
     # navbar_fixed = "sticky top-0"
-  # Drives the site override at layouts/partials/taxonomy-cloud.html. The
-  # musical-genres taxonomy carries Spotify's long tail — 512 terms, 47% of them
-  # applying to a single artist — so the cloud leads with the most-used
-  # topPercent of terms and collapses the rest behind a toggle. minShown is a
-  # floor so a small taxonomy doesn't get cut to a handful of chips.
-  [params.taxonomyCloud]
-    topPercent = 10
-    minShown = 20
   [params.footer]
     tagCloud = true
-  # maxTerms caps each footer group after ordering by page count, which keeps
-  # footer height fixed as the taxonomies grow. minCount still applies as a
-  # floor first; drop maxTerms to get the theme's unbounded behaviour back.
+  # Drives the site override at layouts/partials/utils/taxonomy-string.html,
+  # which orders each group by page count instead of alphabetically and then
+  # caps it. minCount is the floor and applies FIRST, so it — not maxTerms — is
+  # what decides the eligible pool: musical-genres has 512 terms but only 67
+  # with 10+ artists. Drop maxTerms to get the theme's unbounded list back.
+  #
+  # Both caps land on a clean count boundary rather than slicing a group of
+  # terms tied on count, because Hugo does not document how .ByCount orders
+  # equal counts — a cap through a tie can reshuffle the footer between builds.
   [[params.footer.taxonomies]]
     name = "tags"
     title = "Tags"
-    minCount = 6
-    maxTerms = 15
+    # 33 = every tag used 5+ times. Nine tags tie at 5, so a smaller cap would
+    # show some and hide others arbitrarily. Inert at today's pool size; kept as
+    # the bound for when the pool grows past it.
+    minCount = 5
+    maxTerms = 33
   [[params.footer.taxonomies]]
     name = "musical-genres"
     title = "Musical Genres"
-    minCount = 12
-    maxTerms = 15
+    # 41 takes both 14-artist genres (red dirt, ragga) and breaks between 14
+    # and 13. A cap of 40 would split that pair.
+    minCount = 10
+    maxTerms = 41
   [params.schema]
     # Site-wide JSON-LD entity type. Theme default is Organization; this is a
     # personal site. Per-page structured data lives in
