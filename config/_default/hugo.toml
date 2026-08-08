@@ -70,16 +70,29 @@ logo_firstWord = 'Ben'
     headerBackgroundFrameInner = "bg-header-sunset-sf-coke dark:bg-header-artist-date-two h-[200px] sm:h-[250px] bg-cover bg-bottom"
     footerBackground = "bg-gradient-to-r from-slate-950 via-neutral-950 to-zinc-900 border-emerald-500"
     # navbar_fixed = "sticky top-0"
+  # Drives the site override at layouts/partials/taxonomy-cloud.html. The
+  # musical-genres taxonomy carries Spotify's long tail — 512 terms, 47% of them
+  # applying to a single artist — so the cloud leads with the most-used
+  # topPercent of terms and collapses the rest behind a toggle. minShown is a
+  # floor so a small taxonomy doesn't get cut to a handful of chips.
+  [params.taxonomyCloud]
+    topPercent = 10
+    minShown = 20
   [params.footer]
     tagCloud = true
+  # maxTerms caps each footer group after ordering by page count, which keeps
+  # footer height fixed as the taxonomies grow. minCount still applies as a
+  # floor first; drop maxTerms to get the theme's unbounded behaviour back.
   [[params.footer.taxonomies]]
     name = "tags"
     title = "Tags"
     minCount = 6
+    maxTerms = 15
   [[params.footer.taxonomies]]
     name = "musical-genres"
     title = "Musical Genres"
     minCount = 12
+    maxTerms = 15
   [params.schema]
     # Site-wide JSON-LD entity type. Theme default is Organization; this is a
     # personal site. Per-page structured data lives in

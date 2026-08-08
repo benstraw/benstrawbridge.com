@@ -213,6 +213,27 @@ if (window.Alpine && window.Alpine !== Alpine) {
   registerAmazonLinkBuilder(window.Alpine)
 }
 
+// Collapse for the long tail of a tag cloud, used by the site override at
+// layouts/partials/taxonomy-cloud.html on /musical-genres/ and /tags/.
+//
+// A named component rather than an inline `expanded = !expanded`: the site
+// bundles @alpinejs/csp, whose evaluator resolves every identifier against the
+// component scope instead of running the expression through `new Function()`.
+// An inline assignment renders fine and silently never fires — see the header
+// of themes/ryder/assets/js/cspLint.js for the outages that came from exactly
+// that. Keep the markup referencing `expanded` and `toggle` by name.
+const registerTaxonomyTail = (alpine) => alpine.data('taxonomyTail', () => ({
+  expanded: false,
+  toggle() {
+    this.expanded = !this.expanded
+  },
+}))
+
+registerTaxonomyTail(Alpine)
+if (window.Alpine && window.Alpine !== Alpine) {
+  registerTaxonomyTail(window.Alpine)
+}
+
 // Check if the changeBackgroundImage function exists before calling it
 if (typeof changeBackgroundImage === "function") {
   changeBackgroundImage([

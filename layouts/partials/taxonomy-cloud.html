@@ -1,0 +1,108 @@
+{{- /*
+  SITE OVERRIDE of themes/ryder/layouts/partials/taxonomy-cloud.html.
+
+  Why: the theme partial renders every term in the taxonomy. That is fine for a
+  hand-curated tag list, but `musical-genres` is generated from Spotify data
+  (content/listening/artists/_content.gotmpl) and carries Spotify's long tail —
+  512 terms, 243 of which apply to exactly one artist. The result was a page of
+  512 chips at up to 3.8rem with `jazz` (97 artists) visually lost among
+  hundreds of one-offs.
+
+  What this does instead: order by page count, size and show the top
+  `params.taxonomyCloud.topPercent` of terms, and put the remainder in a
+  collapsed block, alphabetical, at a uniform small size. Every term stays in
+  the HTML, so the tail is still crawlable and findable with Ctrl-F.
+
+  Reconcile this with the theme partial on any Ryder bump — see CLAUDE.md.
+*/ -}}
+
+{{- /* Default to "tags"; on a taxonomy listing use that taxonomy. Same rule as
+       the theme, so /tags/ and /musical-genres/ both land here. */ -}}
+{{- $taxonomy := "tags" }}
+{{- if eq .Page.Kind "taxonomy" }}
+  {{- $taxonomy = .Section }}
+{{- end }}
+
+{{- $cfg := site.Params.taxonomyCloud | default dict }}
+{{- $topPercent := $cfg.topPercent | default 100 | float }}
+{{- $minShown := $cfg.minShown | default 0 | int }}
+
+{{- /* .ByCount is an ordered slice, most-used first — unlike ranging the
+       taxonomy map, which is alphabetical and would make the cutoff arbitrary. */ -}}
+{{- $terms := (index site.Taxonomies $taxonomy).ByCount }}
+{{- $total := len $terms }}
+
+<div class="container tagcloud">
+{{- if gt $total 0 }}
+  {{- /* Cutoff: topPercent of the terms, never fewer than minShown, never more
+         than exist. math.Ceil so a small taxonomy still shows something. */ -}}
+  {{- $shown := math.Ceil (mul $total (div $topPercent 100.0)) | int }}
+  {{- if lt $shown $minShown }}{{ $shown = $minShown }}{{ end }}
+  {{- if gt $shown $total }}{{ $shown = $total }}{{ end }}
+
+  {{- $head := first $shown $terms }}
+  {{- $tail := after $shown $terms }}
+
+  {{- $largestFontSize := 3.8 }}
+  {{- $smallestFontSize := 0.8 }}
+
+  {{- /* Scale across the *displayed* range, not the whole taxonomy. Using the
+         full-set minimum (1 page) against a filtered head would push every
+         chip toward the bottom of the range and flatten the cloud.
+
+         The +1 on $max is load-bearing, not cosmetic: it guarantees
+         log($max) > log($min) even when every shown term has the same count,
+         which is what keeps the divisor below non-zero. */ -}}
+  {{- $max := add (len (index $head 0).Pages) 1 }}
+  {{- $min := len (index $head (sub (len $head) 1)).Pages }}
+  {{- $logSpread := sub (math.Log $max) (math.Log $min) }}
+
+  <div class="tagcloud-head">
+  {{- range $head }}
+    {{- $count := len .Pages }}
+    {{- $weight := 0.0 }}
+    {{- if gt $logSpread 0.0 }}
+      {{- $weight = div (sub (math.Log $count) (math.Log $min)) $logSpread }}
+    {{- end }}
+    {{- $fontSize := add $smallestFontSize (mul (sub $largestFontSize $smallestFontSize) $weight) }}
+    {{- partial "utils/taxonomy-chip.html" (dict
+        "taxonomy" $taxonomy
+        "name" .Name
+        "count" $count
+        "fontSize" $fontSize
+        "page" $.Page) }}
+  {{- end }}
+  </div>
+
+  {{- with $tail }}
+    {{- /* The tail is for looking up a genre you already have in mind, not for
+           comparing weights, so it is alphabetical at one size rather than
+           sorted and scaled. x-data/@click/x-show reference a named
+           Alpine.data() component (assets/js/extended.js) because this site
+           bundles @alpinejs/csp — an inline `expanded = !expanded` renders
+           fine, never fires, and logs nothing. */ -}}
+    <div class="tagcloud-tail mt-6" x-data="taxonomyTail">
+      <button type="button" @click="toggle"
+              class="inline-flex items-center gap-2 rounded-full border-2 border-ryder-accent-500 px-4 py-2 text-sm font-semibold no-underline hover:bg-ryder-accent-500 focus:outline-none focus:ring-2 focus:ring-ryder-accent-300"
+              :aria-expanded="expanded" aria-controls="tagcloud-tail-list">
+        <span x-show="!expanded">Show all {{ $total }} {{ $taxonomy | replaceRE "-" " " }}</span>
+        <span x-show="expanded" x-cloak>Show only the top {{ $shown }}</span>
+      </button>
+      <div id="tagcloud-tail-list" class="mt-4" x-show="expanded" x-cloak>
+        <p class="text-sm opacity-75 mb-2">
+          {{ len $tail }} more, alphabetically — these apply to only a few pages each.
+        </p>
+        {{- range sort $tail "Name" }}
+          {{- partial "utils/taxonomy-chip.html" (dict
+              "taxonomy" $taxonomy
+              "name" .Name
+              "count" (len .Pages)
+              "fontSize" 0.8
+              "compact" true
+              "page" $.Page) }}
+        {{- end }}
+      </div>
+    </div>
+  {{- end }}
+{{- end }}
+</div>

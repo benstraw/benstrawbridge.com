@@ -114,6 +114,52 @@ Root-level `layouts/` contains section-specific overrides:
 - `hike-with-ben/`: Custom baseof for hiking content
 - Various partials in `layouts/partials/`
 
+### Forked theme partials — reconcile these on every Ryder bump
+
+Two partials are **deliberate forks** of theme files, not new site-only
+templates. A theme bump that changes the upstream versions will not touch these,
+so diff them against the submodule when upgrading:
+
+| Site override | Forked from |
+| --- | --- |
+| `layouts/partials/taxonomy-cloud.html` | `themes/ryder/layouts/partials/taxonomy-cloud.html` |
+| `layouts/partials/utils/taxonomy-string.html` | `themes/ryder/layouts/partials/utils/taxonomy-string.html` |
+
+Both exist because the theme versions render **every** term in a taxonomy, which
+does not survive a machine-generated taxonomy. `musical-genres` is built from
+Spotify data and has ~511 terms, 47% of them applying to a single artist; the
+unmodified theme put all 511 chips on `/musical-genres/` at up to 3.8rem and
+~78 links in the footer of every page, ordered alphabetically so "acid jazz"
+preceded "jazz".
+
+The forks order by page count and cap what they show, driven by config:
+
+- `[params.taxonomyCloud]` — `topPercent` (share of terms sized and shown
+  expanded, default 100 = theme behaviour) and `minShown` (floor for small
+  taxonomies). The remainder goes in an Alpine collapse, alphabetical, at one
+  size. **All terms stay in the HTML**, so the tail is still crawlable.
+- `maxTerms` on each `[[params.footer.taxonomies]]` entry — caps the group after
+  the existing `minCount` floor. Removing `maxTerms` restores the theme's
+  unbounded list for that group.
+
+Chip markup is shared by `layouts/partials/utils/taxonomy-chip.html` (site-only,
+not a fork) so the head and tail loops don't each duplicate the gradient and
+per-term `twClasses` resolution.
+
+Two things to preserve when touching the cloud:
+
+- The font scale is computed over the **displayed** subset, not the whole
+  taxonomy. Using the full-set minimum against a filtered head flattens the
+  cloud. The `+1` on `$max` is load-bearing — it keeps `log($max) - log($min)`
+  non-zero when every shown term has the same count.
+- The collapse toggle must stay a named `Alpine.data()` component
+  (`taxonomyTail` in `assets/js/extended.js`). This site bundles
+  `@alpinejs/csp`, so an inline `expanded = !expanded` renders fine, never
+  fires, and logs nothing — the failure mode
+  `themes/ryder/assets/js/cspLint.js` exists to catch.
+
+The right long-term fix is upstreaming both to Ryder, which retires the fork.
+
 ### Asset Management
 - **Images**: Stored in `assets/images/` with subdirectories by project/section
 - **JavaScript**: `assets/js/extended.js` for custom site functionality

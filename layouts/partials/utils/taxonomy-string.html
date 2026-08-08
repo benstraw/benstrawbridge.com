@@ -1,0 +1,69 @@
+{{- /*
+  SITE OVERRIDE of themes/ryder/layouts/partials/utils/taxonomy-string.html.
+
+  Why: the theme filters each group by `minCount` and then ranges the taxonomy
+  *map*, which is alphabetical and uncapped. On this site that put ~78 links in
+  the footer of every page, ordered so that "acid jazz" (7 artists) preceded
+  "jazz" (97), and growing without limit as the Spotify data grows.
+
+  What this does instead: order by page count, apply `minCount` as a floor, then
+  cap at `maxTerms`, and link out to the full taxonomy page. Drop `maxTerms`
+  from a group's config to get the theme's behaviour back for that group.
+
+  Reconcile this with the theme partial on any Ryder bump — see CLAUDE.md.
+*/ -}}
+{{- $taxonomies := site.Params.footer.taxonomies }}
+
+{{- /* Only render if taxonomies are explicitly configured */ -}}
+{{- if $taxonomies }}
+  <div class="footer-taxonomy-groups">
+  {{- range $taxonomies }}
+    {{- $taxonomy := .name }}
+    {{- $title := .title }}
+    {{- $minCount := .minCount | default 1 }}
+    {{- $maxTerms := .maxTerms | default 0 | int }}
+
+    {{- /* The heading links to the taxonomy's own root page (/tags/, /musical-genres/)
+           when Hugo generated one. site.GetPage rather than a hand-built URL:
+           a site can disable the taxonomy kind in [outputs] or rename its path,
+           and a string-concatenated href would then point at a 404. When there
+           is no such page the heading stays plain text — a heading that looks
+           like a link and isn't is worse than one that doesn't. */ -}}
+    {{- $taxonomyPage := site.GetPage $taxonomy }}
+
+    {{- /* .ByCount is ordered most-used first, so the cap keeps the terms worth
+           showing rather than whichever ones sort early. */ -}}
+    {{- $terms := (index site.Taxonomies $taxonomy).ByCount }}
+    {{- $eligible := where $terms "Count" "ge" $minCount }}
+    {{- $shown := $eligible }}
+    {{- if and (gt $maxTerms 0) (gt (len $eligible) $maxTerms) }}
+      {{- $shown = first $maxTerms $eligible }}
+    {{- end }}
+
+    <div class="footer-taxonomy-group">
+      <h4 class="footer-section-title">
+        {{- with $taxonomyPage -}}
+        <a href="{{ .RelPermalink }}" class="footer-section-title-link">
+          <span>{{ $title }}</span>
+          <i class="fa-solid fa-angles-right footer-section-title-icon" aria-hidden="true"></i>
+        </a>
+        {{- else -}}
+        {{ $title }}
+        {{- end -}}
+      </h4>
+      <div class="footer-taxonomy-links">
+      {{- range $shown }}
+        <a href="{{ printf "%s/%s/" $taxonomy (.Name | urlize) | relURL }}" class="footer-taxonomy-link">{{ .Name }}<sup>{{ .Count }}</sup></a>
+      {{- end }}
+      {{- /* Only worth an "all" link when the cap actually hid something, and
+             only when the taxonomy has a page to send people to. */ -}}
+      {{- if lt (len $shown) (len $terms) }}
+        {{- with $taxonomyPage }}
+        <a href="{{ .RelPermalink }}" class="footer-taxonomy-link">all {{ len $terms }} &rarr;</a>
+        {{- end }}
+      {{- end }}
+      </div>
+    </div>
+  {{- end }}
+  </div>
+{{- end }}
