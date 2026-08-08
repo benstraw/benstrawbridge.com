@@ -1,10 +1,10 @@
 +++
-title = 'Silent Failure, All the Way Down'
+title = 'A Theme Meets a Stranger'
 date = 2026-07-29T01:00:00-07:00
 draft = true
 hideAsideBar = true
-summary = "What upgrading the Ryder Hugo theme to v0.3.0 taught me about failures that look like success—and about testing the detectors built to catch them."
-description = "What upgrading the Ryder Hugo theme to v0.3.0 taught me about failures that look like success—and about testing the detectors built to catch them."
+summary = "A band's website was the first Ryder site that hadn't grown up alongside the theme, and it turned out to be the best test suite the theme ever had."
+description = "A band's website was the first Ryder site that hadn't grown up alongside the theme, and it turned out to be the best test suite the theme ever had."
 homeFeatureIcon = "fa-solid fa-dog"
 tags = [
   "hugo",
@@ -21,17 +21,17 @@ I clicked the “Latest release” badge in Ryder’s README and landed on `v0.0
 
 That would have been unremarkable if it were the latest release. It wasn’t. Ryder had shipped `v0.1.0` through `v0.2.4`, but the release workflow marked every automated release as a prerelease. GitHub excludes prereleases from that badge, so two years of releases were present, downloadable, and effectively invisible from the project’s front door.
 
-Nothing had failed in the usual sense. The workflow ran. The releases existed. The badge linked to a valid page. Every component did something reasonable on its own, and together they told a lie.
-
-That stale badge became a good summary of what I learned while taking the [Ryder Hugo theme](https://github.com/arts-link/ryder) from `v0.2.3` to [`v0.3.0`](https://github.com/arts-link/ryder/releases/tag/v0.3.0): silent failure is not a bug category that gets crossed off a list. It is a property of a toolchain. It recurs at every layer, including the layers built to detect it.
-
 <!--more-->
 
-## The first real consumer
+Nothing had crashed. The workflow ran, the releases existed, and the badge linked to a valid page. Every component did something reasonable on its own, and together they told a lie.
 
-Ryder started as the theme for this site and as a learning project. It had an example site and automated tests, but those are cooperative consumers. They tend to exercise the paths the theme author already knows exist.
+I only found it because someone else finally had a reason to look. That is the short version of what taking the [Ryder Hugo theme](https://github.com/arts-link/ryder) from `v0.2.3` to [`v0.3.0`](https://github.com/arts-link/ryder/releases/tag/v0.3.0) taught me: a project gets honest the moment a stranger starts using it. Someone who doesn’t already know how it works can’t unconsciously route around the parts that don’t. Everything below came out of that one change in circumstance, and the theme is considerably better for it.
 
-[whatisverdezul.com](https://github.com/arts-link/whatisverdezul.com), a site for a band, was different. It used Ryder as a pinned Git submodule and then asked the theme to support a real design, real analytics, a real contact form, custom structured data, and a content workflow. Where Ryder had no extension point—or where an extension point did not work—the site accumulated an override.
+## What made this one different
+
+Ryder started as the theme for this site, and this site is still the most demanding thing it runs. But a theme and a site that grow up together are cooperative. Whenever the site needed something, I changed the theme, and I never had to write down what the contract between them was—I just knew. The example site and the automated tests have the same limitation for the same reason. All of them exercise paths the author already knows exist.
+
+[whatisverdezul.com](https://github.com/arts-link/whatisverdezul.com), a site for a band, was the first Ryder site in a long while, and the first that hadn't grown up alongside the theme. It used Ryder as a pinned Git submodule and then asked the theme to support a real design, real analytics, a real contact form, custom structured data, and a content workflow. Where Ryder had no extension point—or where an extension point did not work—the site accumulated an override.
 
 Reading that site as a defect report produced a [31-item change spec](https://github.com/arts-link/ryder/blob/v0.3.0/docs/specs/v0.3.md). The work shipped in three stages: [`v0.2.4`](https://github.com/arts-link/ryder/releases/tag/v0.2.4) for the most direct defects, [`v0.2.5`](https://github.com/arts-link/ryder/releases/tag/v0.2.5) for extension points and safer primitives, and `v0.3.0` for the breaking changes.
 
@@ -51,15 +51,15 @@ The immediate `v0.2.4` fix deleted the comments. The structural `v0.3.0` fix sto
 
 The release badge had the same shape. The bug was not “the workflow crashed.” It was a hardcoded `prerelease=true` on the successful path. The [fix](https://github.com/arts-link/ryder/commit/483c7910fdaa15a24e021183b9370fa6d1a94120) derives prerelease status from the version suffix and explicitly marks full releases as latest. The useful assertion is not merely that a release exists. It is that the public pointer people actually follow resolves to it.
 
-## Then the fixes failed silently
+## The fixes needed the same scrutiny
 
-The recursion started almost immediately. One item in the spec said Hugo consumers inherit the theme’s `[build]` configuration. Based on that assumption, `v0.2.4` moved `writeStats` and the Tailwind cachebuster rules into Ryder.
+The most instructive part came next, when my own corrections turned out to be subject to the same problem. One item in the spec said Hugo consumers inherit the theme’s `[build]` configuration. Based on that assumption, `v0.2.4` moved `writeStats` and the Tailwind cachebuster rules into Ryder.
 
 The change was valid TOML. Ryder’s example site built. Consumers did not inherit the block.
 
-That meant no consumer `hugo_stats.json`, which in turn meant Tailwind could miss classes assembled dynamically in templates. Most classes were still discovered through normal file globs, so a page could look fine while a small set of styles disappeared. The fix intended to detect missing CSS had become another mostly-correct state. Only a build of the actual band site proved the assumption false, and Ryder had to [restore and document the consumer-owned config](https://github.com/arts-link/ryder/commit/0b530c75a208fc1ad48d3dc5d85009c2f7d443ec).
+That meant no consumer `hugo_stats.json`, which in turn meant Tailwind could miss classes assembled dynamically in templates. Most classes were still discovered through normal file globs, so a page could look fine while a small set of styles disappeared. The fix intended to detect missing CSS had become another mostly-correct state. Only a build of the actual band site proved the assumption false, and Ryder had to [restore and document the consumer-owned config](https://github.com/arts-link/ryder/commit/0b530c73800f2b89db5101d243ee0cf58c61ce85).
 
-The same mistake appeared again in the breaking-release plan. This time the spec said consumers inherit the theme’s `[outputs]` block and could delete their duplicate. They cannot. Following the instruction would have silently removed `llms.txt` from every upgraded site. Once again, the syntax was valid and the build was green. Once again, a real consumer build—not the theme build—caught it. The final release [documents that `outputFormats` is inherited while `outputs` is not](https://github.com/arts-link/ryder/commit/3b8de2fdaf0591f4285dc503c99f0f17119f12db).
+The same mistake appeared again in the breaking-release plan. This time the spec said consumers inherit the theme’s `[outputs]` block and could delete their duplicate. They cannot. Following the instruction would have silently removed `llms.txt` from every upgraded site. Once again, the syntax was valid and the build was green. Once again, a real consumer build—not the theme build—caught it. The final release [documents that `outputFormats` is inherited while `outputs` is not](https://github.com/arts-link/ryder/commit/3b8de2f3c887b11fcab8b27d18b114222daff0c6).
 
 The repetition was useful. I had been treating “theme configuration” as one thing. Hugo treats root configuration sections independently. The correct test was never “does Hugo merge theme config?” It was “does a clean consumer inherit this specific section, and does the expected artifact exist afterward?”
 
@@ -75,7 +75,7 @@ Per CSP Level 2 and later, a nonce or hash source in `script-src` causes browser
 
 ## What started producing reliable signals
 
-The most effective changes were not more logging everywhere. They were checks placed at the boundary where an assumption becomes observable.
+By this point the pattern was clear enough to design against: a failure that still produces plausible output can turn up at any layer, including the layers built to catch it. The useful response was not more logging everywhere. It was checks placed at the boundary where an assumption becomes observable.
 
 Variant dispatch now uses `templates.Exists` before calling a partial assembled from a parameter. A typo produces a named warning and a safe fallback instead of a mysterious missing layout. PostHog configuration uses build-time warnings when the provider is enabled but its credentials cannot be read. Bad Open Graph image paths produce a named `errorf` instead of a nil-pointer failure somewhere inside image processing.
 
@@ -87,7 +87,7 @@ The last part is verifying the verifier. A green command is evidence only after 
 
 ## The deletion list
 
-The upgrade ended with what I now consider the best release metric. The band site deleted seven categories of workarounds:
+The upgrade ended with what I now consider the best release metric. Across the three staged upgrades—[`v0.2.4`](https://github.com/arts-link/whatisverdezul.com/pull/12), [`v0.2.5`](https://github.com/arts-link/whatisverdezul.com/pull/13), and [`v0.3.0`](https://github.com/arts-link/whatisverdezul.com/pull/14)—the band site deleted seven categories of workarounds:
 
 - its only `!important` body block;
 - a `body:has(...) > div:not(.fixed)` positioning hack;
@@ -97,6 +97,6 @@ The upgrade ended with what I now consider the best release metric. The band sit
 - a full `head/schema.html` override, replaced by a small additive hook;
 - and the dead `build-tw`, `watch-tw`, and `deploy-tw` scripts.
 
-The [final consumer upgrade](https://github.com/arts-link/whatisverdezul.com/pull/14) emitted more structured data after deleting its schema override: the custom `MusicGroup` and `MusicAlbum` blocks remained, while Ryder’s `WebPage`, `BlogPosting`, and breadcrumb data returned. The site finished with less code under its control and more correct output.
+The last of those emitted more structured data after deleting its schema override: the custom `MusicGroup` and `MusicAlbum` blocks remained, while Ryder’s `WebPage`, `BlogPosting`, and breadcrumb data returned. The site finished with less code under its control and more correct output.
 
 That is stronger evidence than a feature checklist. A feature list says what a release adds. The deletion list proves what it fixed.
