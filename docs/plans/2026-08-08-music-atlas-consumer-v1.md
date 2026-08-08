@@ -45,6 +45,9 @@ files or replace its last known-good data with an invalid sync.
 
 - Added public-v1 contract/version/checksum/privacy validation and a staged Hugo
   production build before atomic data replacement.
+- Pushed implementation commit `9732992`; the paired producer implementation is
+  `57d243d0`. Draft PR creation remains pending because the local GitHub CLI
+  credentials require reauthentication.
 - Added v1-first artist, genre, release, and weekly adapters; rich entity
   layouts; canonical redirect pages; optional authored-note merge points; CSP
   coverage; and build assertions for routes, privacy, redirects, and media
