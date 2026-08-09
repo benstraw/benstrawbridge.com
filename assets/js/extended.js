@@ -213,6 +213,42 @@ if (window.Alpine && window.Alpine !== Alpine) {
   registerAmazonLinkBuilder(window.Alpine)
 }
 
+// Sort toggle for the tag clouds on taxonomy listings (/musical-genres/,
+// /tags/), used by layouts/partials/taxonomy-cloud.html.
+//
+// This holds one string and nothing else. The reordering itself is CSS: the
+// partial writes each chip's negated page count into a `--oc` custom property
+// and sets `order: var(--oc)`, which stays inert until `data-sort="count"`
+// makes the container a flex row. So this component only flips an attribute —
+// it never touches the DOM, and the alphabetical default survives with JS off.
+//
+// Named component with methods and getters referenced by name, not inline
+// `sort = 'count'`: the site bundles @alpinejs/csp, whose evaluator resolves
+// identifiers against the component scope instead of running expressions
+// through `new Function()`. An inline assignment renders fine and silently
+// never fires — see the header of themes/ryder/assets/js/cspLint.js for the
+// outages that came from exactly that.
+const registerTaxonomyCloudSort = (alpine) => alpine.data('taxonomyCloudSort', () => ({
+  sort: 'alpha',
+  sortAlpha() {
+    this.sort = 'alpha'
+  },
+  sortCount() {
+    this.sort = 'count'
+  },
+  get isAlpha() {
+    return this.sort === 'alpha'
+  },
+  get isCount() {
+    return this.sort === 'count'
+  },
+}))
+
+registerTaxonomyCloudSort(Alpine)
+if (window.Alpine && window.Alpine !== Alpine) {
+  registerTaxonomyCloudSort(window.Alpine)
+}
+
 // Check if the changeBackgroundImage function exists before calling it
 if (typeof changeBackgroundImage === "function") {
   changeBackgroundImage([

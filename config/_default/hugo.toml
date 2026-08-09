@@ -70,16 +70,45 @@ logo_firstWord = 'Ben'
     headerBackgroundFrameInner = "bg-header-sunset-sf-coke dark:bg-header-artist-date-two h-[200px] sm:h-[250px] bg-cover bg-bottom"
     footerBackground = "bg-gradient-to-r from-slate-950 via-neutral-950 to-zinc-900 border-emerald-500"
     # navbar_fixed = "sticky top-0"
+  # Per-taxonomy floor for the tag cloud on /<taxonomy>/, read by the site
+  # override at layouts/partials/taxonomy-cloud.html. Terms below the floor are
+  # left out of the cloud ONLY — Hugo still builds their term pages, and artist
+  # pages still link every genre they carry
+  # (layouts/listening-artist/single.html), so a dropped genre keeps its inbound
+  # links and stays reachable. A taxonomy absent from this table, or set to 1,
+  # gets the theme's behaviour: every term.
+  #
+  # 2 removes the 243 one-artist genres — 47% of the 512 — which are Spotify's
+  # hyper-specific tail and were crowding out the genres that carry weight.
+  # /tags/ is deliberately not listed: its cloud still shows everything.
+  [params.taxonomyCloud.minCount]
+    "musical-genres" = 2
   [params.footer]
     tagCloud = true
+  # Drives the site override at layouts/partials/utils/taxonomy-string.html,
+  # which orders each group by page count instead of alphabetically and then
+  # caps it. minCount is the floor and applies FIRST, so it — not maxTerms — is
+  # what decides the eligible pool: musical-genres has 512 terms but only 67
+  # with 10+ artists. Drop maxTerms to get the theme's unbounded list back.
+  #
+  # Both caps land on a clean count boundary rather than slicing a group of
+  # terms tied on count. .ByCount tie-breaks alphabetically (observed, not
+  # documented), so slicing a tie is stable across builds — but it still shows
+  # some equally-used terms and hides others for no reason a reader can see.
   [[params.footer.taxonomies]]
     name = "tags"
     title = "Tags"
-    minCount = 6
+    # 20 = every tag used 7+ times. 21 would take one 6-use tag and leave the
+    # other three out; the next clean cap up is 23 (every tag used 6+).
+    minCount = 5
+    maxTerms = 20
   [[params.footer.taxonomies]]
     name = "musical-genres"
     title = "Musical Genres"
-    minCount = 12
+    # 34 = every genre with 16+ artists. Clean caps nearby: 39 (15+), 33 (17+),
+    # 29 (19+) — see the table in CLAUDE.md.
+    minCount = 10
+    maxTerms = 34
   [params.schema]
     # Site-wide JSON-LD entity type. Theme default is Organization; this is a
     # personal site. Per-page structured data lives in
