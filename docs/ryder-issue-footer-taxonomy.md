@@ -1,4 +1,4 @@
-# Ryder issue draft: order and cap the footer taxonomy lists
+# Ryder issue draft: taxonomy footer lists and tag cloud render every term
 
 Ready to paste into <https://github.com/arts-link/ryder/issues/new>.
 
@@ -11,15 +11,18 @@ Once the issue exists, replace this file with a link to it, or delete it — the
 reasoning it carries is duplicated in the "Forked theme partials" section of
 `CLAUDE.md`, which is the copy that needs to stay accurate.
 
-Scope note: an earlier draft of this issue also proposed capping
-`taxonomy-cloud.html` behind a collapse. That was tried on benstrawbridge.com and
-**reverted** — sorting a tag cloud by count replaces the interspersed big-and-
-small chips that make a cloud legible with a monotonic size ramp. The cloud is
-fine as the theme ships it. This issue is footer-only.
+Scope note, because an earlier draft of this file said the opposite: what was
+tried on benstrawbridge.com and **reverted** was capping the cloud behind a
+collapse *and sorting it by count*. Sorting a cloud by count replaces the
+interspersed big-and-small chips that make it legible with a monotonic size ramp,
+so the default cloud order must stay alphabetical. What the site does ship is a
+per-taxonomy **count floor** on the cloud, which is a different change and is the
+companion request near the end of this issue. Both partials are forked on the
+site today.
 
 ---
 
-**Title:** `footer taxonomy lists are alphabetical and uncapped, which doesn't survive a machine-generated taxonomy`
+**Title:** `taxonomy footer lists and tag cloud render every term, which doesn't survive a machine-generated taxonomy`
 
 **Labels:** `enhancement`, `breaking-change-minor`
 
@@ -42,13 +45,16 @@ via a content adaptor. Measured shape:
 - top counts: `jazz` 97, `hard bop` 59, `bebop` 58, `americana` 51,
   `classical piano` 42
 
-Two consequences on Ryder v0.4.1:
+Three consequences on Ryder v0.4.1:
 
 1. The footer ships **~78 taxonomy links on every page**, ordered so that
    `acid jazz` (7 artists) precedes `jazz` (97). The most useful links are not
    where a reader looks first.
 2. The list is **unbounded**. It grows every time the Spotify sync adds an
    artist, with nothing in config to stop it.
+3. `taxonomy-cloud.html` has the same problem and no lever at all — not even a
+   `minCount` — so `/musical-genres/` rendered **all 512 chips** at up to 3.8rem.
+   That is the companion request at the end of this issue.
 
 `minCount` is the only lever, and it's a blunt one: it can't express "show the
 terms that matter" without also cutting mid-tail terms. It also interacts
@@ -175,7 +181,33 @@ from the pages that carry them.
 While in that file: line 28's linear `$currentFontSize` is immediately shadowed
 by the log-weighted assignment on line 30, so it is dead.
 
-Note that 72-vs-78 was not a size win at the caps this started with — the value
+### Optional third piece: an A–Z / most-used sort toggle
+
+Mentioning this for completeness rather than asking for it — it is the most
+opinionated of the three, and a theme may reasonably not want it. The site's cloud
+fork also carries a two-button sort toggle on taxonomy listings, gated to
+`Page.Kind == "taxonomy"` so the `taxonomy-cloud` shortcode still renders a plain
+cloud mid-post.
+
+The implementation may be of interest even if the feature isn't, because it needs
+no JavaScript to reorder. Each chip carries `--oc` set to its **negated** page
+count plus `order: var(--oc)`. `order` is inert while the parent is a block
+container, so the alphabetical view — including no-JS — renders exactly as it does
+today; only `data-sort="count"` makes the container a flex row and lets `order`
+take effect. Negating the count sorts most-used first, and CSS resolves equal
+`order` values by DOM order, which is alphabetical, so count mode is "count desc,
+then A–Z" without computing a rank anywhere. The Alpine component holds one string
+and flips one attribute.
+
+Two constraints a theme-side version would inherit: the component must be a named
+`Alpine.data()` with its methods referenced by name (the CSP build's evaluator
+resolves identifiers against component scope, so an inline `sort = 'count'`
+renders fine and silently never fires), and the active-button style has to ride on
+`aria-pressed` via Tailwind's `aria-pressed:` variant rather than a class string
+returned from the component — Tailwind scans templates, so a class assembled in JS
+is never generated.
+
+Note that the first caps tried here gave 72 links against 78 — barely a win. The value
 delivered is the ordering and the fixed ceiling as the library grows. A site
 wanting a genuinely shorter footer sets lower caps (this one now runs 34 + 20 =
 54); the point is that the config makes it possible at all.
