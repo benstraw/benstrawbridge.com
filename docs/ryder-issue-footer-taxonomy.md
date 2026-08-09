@@ -63,7 +63,7 @@ Order by page count, and add a `maxTerms` cap per group:
   name     = "musical-genres"
   title    = "Musical Genres"
   minCount = 10   # existing floor, unchanged semantics
-  maxTerms = 39   # new: cap the group after the floor
+  maxTerms = 34   # new: cap the group after the floor
 ```
 
 Iterate `(index site.Taxonomies $taxonomy).ByCount` instead of the map, apply
@@ -77,9 +77,9 @@ applies first, a cap above the pool size is silently inert. On this site:
 
 | `minCount` | genres eligible | | `minCount` | tags eligible |
 |---|---|---|---|---|
-| 12 | 55 | | 6 | 24 |
+| 12 | 55 | | 6 | 23 |
 | 10 | 67 | | 5 | 33 |
-| 8 | 82 | | 4 | 43 |
+| 8 | 82 | | 4 | 40 |
 
 Raising `maxTerms` without lowering `minCount` frequently changes nothing, which
 is a confusing first experience. Worth a line in the README.
@@ -87,9 +87,9 @@ is a confusing first experience. Worth a line in the README.
 **How does `.ByCount` order terms with equal counts?** I could not find this
 documented. It matters here: a `maxTerms` that slices through a group of tied
 terms shows some and hides others, and if the tie order isn't stable the footer
-reshuffles between builds. On this site nine tags tie at 5 uses and two genres
-tie at 14, so the caps were deliberately set to land on clean count boundaries
-(41 and 33) to sidestep the question. If `.ByCount` does tie-break
+reshuffles between builds. On this site ten tags tie at 5 uses, five tie at 7,
+and two genres tie at 14, so the caps were deliberately set to land on clean
+count boundaries (34 and 20) to sidestep the question. If `.ByCount` does tie-break
 deterministically — by name, say — documenting that would let sites pick caps
 freely. If it doesn't, `maxTerms` may want to extend through a tie rather than
 cut it.
