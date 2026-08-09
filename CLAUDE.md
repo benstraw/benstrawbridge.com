@@ -140,14 +140,19 @@ Three things to know before retuning the caps:
   a cap above the pool is inert. Measured: `musical-genres` has 512 terms but 67
   with 10+ artists and 55 with 12+; `tags` has 263 but 33 with 5+ uses and 24
   with 6+. Raising a cap without lowering `minCount` often changes nothing.
-- **Land caps on a clean count boundary.** Hugo does not document how `.ByCount`
-  orders terms with equal counts, so a cap that slices a tied group can
-  reshuffle the footer between builds. The configured 41 takes both 14-artist
-  genres; 33 takes all nine 5-use tags.
+- **Land caps on a clean count boundary.** `.ByCount` tie-breaks alphabetically
+  — verified on Hugo 0.164.0, where the 15-artist genres come out `memphis
+  soul, noise rock, rock, southern soul` — so a cap through a tie is stable
+  build to build, not random. It is still arbitrary to a reader: it shows some
+  15-artist genres and hides others for no visible reason. The configured 39
+  takes every genre with 15+ artists; 33 takes all nine 5-use tags. Hugo does
+  not document the tie-break, so treat it as observed behaviour rather than a
+  guarantee.
 - **This is a reordering and bounding change, not a size reduction.** At the
-  configured caps the footer carries 74 links against the theme's 78. What it
+  configured caps the footer carries 72 links against the theme's 78. What it
   buys is useful ordering plus a fixed ceiling — not a shorter footer. If footer
-  size is the goal, the caps need to come down.
+  size is the goal, the caps need to come down: the clean genre boundaries below
+  39 are 34 (16+ artists), 33 (18+), 29 (19+) and 28 (20+).
 
 `/musical-genres/` and `/tags/` use the **theme's** `taxonomy-cloud.html`
 unmodified — all terms, alphabetical. A previous attempt to fork it and collapse

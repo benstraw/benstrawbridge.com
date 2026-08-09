@@ -63,7 +63,7 @@ Order by page count, and add a `maxTerms` cap per group:
   name     = "musical-genres"
   title    = "Musical Genres"
   minCount = 10   # existing floor, unchanged semantics
-  maxTerms = 41   # new: cap the group after the floor
+  maxTerms = 39   # new: cap the group after the floor
 ```
 
 Iterate `(index site.Taxonomies $taxonomy).ByCount` instead of the map, apply
@@ -123,10 +123,19 @@ duplication a few pixels below.
 ### Prior art
 
 Implemented as a site-level fork of the partial on benstrawbridge.com, verified
-against a development build: footer down to 74 links from 78, `jazz` leading the
-genre group, both 14-count genres present so no tie was sliced.
+against a development build: footer down to 72 links from 78, `jazz` leading the
+genre group, and the cap landing on a clean count boundary so no tied group was
+sliced.
 
-Note that 74-vs-78 is not a size win — the value delivered is the ordering and
+Worth noting for the upstream design: `.ByCount` appears to tie-break
+alphabetically (observed on Hugo 0.164.0 — the 15-artist genres emit as `memphis
+soul, noise rock, rock, southern soul`), so a cap through a tie is at least
+stable across builds. It is still arbitrary to a reader, which is why the caps
+here are chosen to land between counts. If that tie-break is intentional it is
+worth documenting; if it is incidental, a cap-aware implementation should not
+rely on it.
+
+Note that 72-vs-78 is not a size win — the value delivered is the ordering and
 the fixed ceiling as the library grows. A site wanting a genuinely shorter footer
 sets lower caps; the point is that the config makes it possible at all.
 

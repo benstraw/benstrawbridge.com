@@ -79,8 +79,9 @@ logo_firstWord = 'Ben'
   # with 10+ artists. Drop maxTerms to get the theme's unbounded list back.
   #
   # Both caps land on a clean count boundary rather than slicing a group of
-  # terms tied on count, because Hugo does not document how .ByCount orders
-  # equal counts — a cap through a tie can reshuffle the footer between builds.
+  # terms tied on count. .ByCount tie-breaks alphabetically (observed, not
+  # documented), so slicing a tie is stable across builds — but it still shows
+  # some equally-used terms and hides others for no reason a reader can see.
   [[params.footer.taxonomies]]
     name = "tags"
     title = "Tags"
@@ -92,10 +93,11 @@ logo_firstWord = 'Ben'
   [[params.footer.taxonomies]]
     name = "musical-genres"
     title = "Musical Genres"
-    # 41 takes both 14-artist genres (red dirt, ragga) and breaks between 14
-    # and 13. A cap of 40 would split that pair.
+    # 39 = every genre with 15+ artists, breaking between 15 and 14. The next
+    # clean boundary up is 41, which also takes the two 14-artist genres (red
+    # dirt, ragga); 40 would split that pair.
     minCount = 10
-    maxTerms = 41
+    maxTerms = 39
   [params.schema]
     # Site-wide JSON-LD entity type. Theme default is Organization; this is a
     # personal site. Per-page structured data lives in
