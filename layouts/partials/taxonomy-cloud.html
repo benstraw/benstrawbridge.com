@@ -25,7 +25,8 @@
 {{- /* Default to "tags"; on a taxonomy listing use that taxonomy. Same rule as
        the theme, so /tags/ and /musical-genres/ both land here. */ -}}
 {{- $taxonomy := "tags" }}
-{{- if eq .Page.Kind "taxonomy" }}
+{{- $isTaxonomyPage := eq .Page.Kind "taxonomy" }}
+{{- if $isTaxonomyPage }}
   {{- $taxonomy = .Section }}
 {{- end }}
 
@@ -38,7 +39,37 @@
   {{- end }}
 {{- end }}
 
-<div class="container tagcloud">
+{{- /* Sort toggle, taxonomy listings only — the theme's taxonomy-cloud shortcode
+       embeds this partial in ordinary content (content/posts/tag-cloud/), and a
+       set of sort controls does not belong mid-post.
+
+       How the reorder works, and why there is no JavaScript in it beyond
+       flipping one attribute: each chip carries `--oc` set to its **negated**
+       page count, and `order: var(--oc)` on the chip. `order` is inert while the
+       parent is a block container, which it is by default, so the alphabetical
+       view — including no-JS and the shortcode embed — renders exactly as it did
+       before this toggle existed. Only `data-sort="count"` turns the container
+       into a flex row, at which point `order` takes effect. Negating the count
+       puts the most-used first, and CSS resolves equal `order` values by DOM
+       order, which is alphabetical, so count mode is "count desc, then A–Z" with
+       no rank computed anywhere.
+
+       Active state rides on `aria-pressed` through Tailwind's `aria-pressed:`
+       variant rather than a class string returned from the component: Tailwind
+       scans templates, so a class assembled in JS is never generated. */ -}}
+{{- if $isTaxonomyPage }}
+<div x-data="taxonomyCloudSort">
+  <div x-cloak class="container mb-4 flex items-center gap-2 text-sm">
+    <span class="opacity-75">Sort by</span>
+    {{- $sortButton := "rounded-full border-2 border-ryder-accent-500 px-3 py-1 font-semibold no-underline focus:outline-none focus:ring-2 focus:ring-ryder-accent-300 aria-pressed:bg-ryder-accent-500 aria-pressed:border-ryder-accent-600 aria-pressed:text-white" }}
+    <button type="button" @click="sortAlpha" :aria-pressed="isAlpha" aria-pressed="true"
+            class="{{ $sortButton }}">A&ndash;Z</button>
+    <button type="button" @click="sortCount" :aria-pressed="isCount" aria-pressed="false"
+            class="{{ $sortButton }}">Most used</button>
+  </div>
+{{- end }}
+<div class="container tagcloud{{ if $isTaxonomyPage }} data-[sort=count]:flex data-[sort=count]:flex-wrap data-[sort=count]:items-baseline data-[sort=count]:gap-y-2{{ end }}"
+     {{- if $isTaxonomyPage }} data-sort="alpha" :data-sort="sort"{{ end }}>
 {{- /* .ByCount only to find the displayed range; the render loop below stays
        alphabetical. */ -}}
 {{- $eligible := where (index site.Taxonomies $taxonomy).ByCount "Count" "ge" $minCount }}
@@ -90,9 +121,12 @@
       {{- end }}
 
       <a href="{{ printf "%s%s/%s" site.BaseURL $taxonomy ($name | urlize) }}"
-         class="tagcloud-item px-2" style="font-size: {{ $fontSize }}rem;">
+         class="tagcloud-item px-2 [order:var(--oc)]" style="--oc: {{ mul $tagCount -1 }}; font-size: {{ $fontSize }}rem;">
          <span class="{{ $classes }} {{ $gradientClass }}">{{ $name }}<sup>{{ $tagCount }}</sup></span></a>
     {{- end }}
   {{- end }}
 {{- end }}
 </div>
+{{- if $isTaxonomyPage }}
+</div>
+{{- end }}

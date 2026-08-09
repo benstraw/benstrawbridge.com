@@ -187,13 +187,36 @@ term page — all 511 exist under `public/musical-genres/` — and
 `layouts/listening-artist/single.html` links every genre an artist carries, so a
 one-artist genre keeps its inbound link from that artist.
 
+On taxonomy listings the cloud also carries an **A–Z / Most used sort toggle**
+(`taxonomyCloudSort` in `assets/js/extended.js`). It is gated to
+`Page.Kind == "taxonomy"`, so the theme's `taxonomy-cloud` shortcode — which
+embeds this partial mid-post in `content/posts/tag-cloud/` — renders without it.
+
+The reordering is **CSS, not JavaScript**. Each chip carries `--oc` set to its
+negated page count plus `order: var(--oc)`, and `order` is inert while the parent
+is a block container. Only `data-sort="count"` makes the container a flex row, at
+which point `order` takes effect. Three consequences worth keeping:
+
+- The A–Z view — including no-JS, and the shortcode embed — renders exactly as it
+  did before the toggle existed. The toggle itself is `x-cloak`ed, so with JS off
+  it never appears rather than appearing dead.
+- Negating the count sorts most-used first, and CSS resolves equal `order` values
+  by DOM order, which is alphabetical. Count mode is therefore "count desc, then
+  A–Z" with no rank computed anywhere — verified in-browser: the three 33-artist
+  genres emit as `east coast hip hop, hip hop, singer-songwriter`.
+- Active state rides on `aria-pressed` via Tailwind's `aria-pressed:` variant.
+  Do not switch it to a class string returned from the component: Tailwind scans
+  templates, so a class assembled in JS is never generated.
+
 Two things to preserve when touching this fork:
 
-- **Do not reorder it.** The render loop ranges the taxonomy map, which is
-  alphabetical, so big and small chips stay interspersed. An earlier version
-  sorted by count and turned the cloud into a monotonic size ramp — a sorted
-  list with variable type, not a cloud. `.ByCount` appears in the fork *only* to
-  find the displayed min and max for the font scale.
+- **Do not reorder the default view.** The render loop ranges the taxonomy map,
+  which is alphabetical, so big and small chips stay interspersed. An earlier
+  version sorted by count in the template and turned the cloud into a monotonic
+  size ramp — a sorted list with variable type, not a cloud. That ramp is now
+  what "Most used" opts into, which is the only place it belongs. `.ByCount`
+  appears in the fork *only* to find the displayed min and max for the font
+  scale.
 - **The font scale is computed over the terms that survive the filter.**
   Anchoring `$min` to the full taxonomy's minimum (1) while showing only 2-and-up
   would strand the bottom of the range on chips that are never drawn, pushing
