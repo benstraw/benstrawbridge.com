@@ -116,23 +116,29 @@ Root-level `layouts/` contains section-specific overrides:
 
 ### Forked theme partials — reconcile these on every Ryder bump
 
-One partial is a **deliberate fork** of a theme file, not a new site-only
-template. A theme bump that changes the upstream version will not touch it, so
-diff it against the submodule when upgrading:
+Two partials are **deliberate forks** of theme files, not new site-only
+templates. A theme bump that changes the upstream versions will not touch them,
+so diff them against the submodule when upgrading:
 
 | Site override | Forked from |
 | --- | --- |
 | `layouts/partials/utils/taxonomy-string.html` | `themes/ryder/layouts/partials/utils/taxonomy-string.html` |
+| `layouts/partials/taxonomy-cloud.html` | `themes/ryder/layouts/partials/taxonomy-cloud.html` |
 
-It exists because the theme version applies only a `minCount` floor and then
-ranges the taxonomy **map**, which is alphabetical and uncapped. `musical-genres`
-is built from Spotify data — 512 terms, 47% of them applying to a single artist —
-so the footer carried ~78 links on every page ordered such that "acid jazz" (7
-artists) preceded "jazz" (97), growing without bound as the library does.
+Both exist because `musical-genres` is built from Spotify data — 512 terms, 243
+of them (47%) applying to exactly one artist — and the theme renders every term.
+
+#### Footer: `taxonomy-string.html`
+
+The theme version applies only a `minCount` floor and then ranges the taxonomy
+**map**, which is alphabetical and uncapped, so the footer carried ~78 links on
+every page ordered such that "acid jazz" (7 artists) preceded "jazz" (97),
+growing without bound as the library does.
 
 The fork orders by page count, applies `minCount` as a floor, then caps at
 `maxTerms` on each `[[params.footer.taxonomies]]` entry. Removing `maxTerms`
-restores the theme's unbounded list for that group.
+restores the theme's unbounded list for that group. Currently 24 genres + 16
+tags = **40 links**, down from 78.
 
 Three things to know before retuning the caps:
 
@@ -140,28 +146,63 @@ Three things to know before retuning the caps:
   a cap above the pool is inert. Measured: `musical-genres` has 512 terms but 67
   with 10+ artists and 55 with 12+; `tags` has 263 but 33 with 5+ uses and 24
   with 6+. Raising a cap without lowering `minCount` often changes nothing.
-- **Land caps on a clean count boundary.** `.ByCount` tie-breaks alphabetically
-  — verified on Hugo 0.164.0, where the 15-artist genres come out `memphis
-  soul, noise rock, rock, southern soul` — so a cap through a tie is stable
-  build to build, not random. It is still arbitrary to a reader: it shows some
-  15-artist genres and hides others for no visible reason. The configured 39
-  takes every genre with 15+ artists; 33 takes all nine 5-use tags. Hugo does
-  not document the tie-break, so treat it as observed behaviour rather than a
-  guarantee.
-- **This is a reordering and bounding change, not a size reduction.** At the
-  configured caps the footer carries 72 links against the theme's 78. What it
-  buys is useful ordering plus a fixed ceiling — not a shorter footer. If footer
-  size is the goal, the caps need to come down: the clean genre boundaries below
-  39 are 34 (16+ artists), 33 (18+), 29 (19+) and 28 (20+).
+- **Land caps on a clean count boundary** — one that takes every term at or above
+  a count, rather than splitting a group of terms tied on the same count.
+  `.ByCount` tie-breaks alphabetically (verified on Hugo 0.164.0: the 15-artist
+  genres come out `memphis soul, noise rock, rock, southern soul`), so slicing a
+  tie is stable build to build rather than random — but it still shows some
+  equally-used terms and hides others for no reason a reader can see. Hugo does
+  not document that tie-break, so treat it as observed, not guaranteed.
 
-`/musical-genres/` and `/tags/` use the **theme's** `taxonomy-cloud.html`
-unmodified — all terms, alphabetical. A previous attempt to fork it and collapse
-the long tail was reverted: sorting the cloud by count replaces the interspersed
-big-and-small chips that make a tag cloud legible with a monotonic size ramp.
-Leave the cloud alone.
+  Clean caps available, `cap → threshold`:
 
-The right long-term fix is upstreaming the footer partial to Ryder, which retires
-the fork.
+  | genres | | tags | |
+  | --- | --- | --- | --- |
+  | 39 | 15+ artists | 33 | 5+ uses |
+  | 34 | 16+ | 24 | 6+ |
+  | 33 | 17+ | 21 | 7+ |
+  | 29 | 19+ | **16** ← set | **8+** |
+  | 28 | 20+ | 14 | 9+ |
+  | **24** ← set | **21+** | 11 | 10+ |
+  | 21 | 22+ | 10 | 11+ |
+  | 19 | 23+ | 8 | 12+ |
+  | 17 | 24+ | 6 | 13+ |
+
+  The gaps are counts absent from the data — nothing has exactly 18, 25 or 26
+  artists, so there is no genre boundary at 30–32 or 15.
+- **Ordering and bounding matter more than size.** Even at caps that barely
+  shrink the list, the fork buys `jazz` leading instead of `acid jazz`, and a
+  fixed ceiling as the Spotify sync adds artists.
+
+#### Cloud: `taxonomy-cloud.html`
+
+`params.taxonomyCloud.minCount` is a **per-taxonomy** table read by the fork;
+a taxonomy absent from it, or set to 1, gets the theme's behaviour. Currently
+`"musical-genres" = 2`, which drops the 243 one-artist genres from
+`/musical-genres/` (512 terms → 268 chips). `/tags/` is deliberately not listed,
+so its cloud still shows all 262 terms including its 166 single-use tags.
+
+Dropping a term from the cloud does **not** orphan it. Hugo still builds every
+term page — all 511 exist under `public/musical-genres/` — and
+`layouts/listening-artist/single.html` links every genre an artist carries, so a
+one-artist genre keeps its inbound link from that artist.
+
+Two things to preserve when touching this fork:
+
+- **Do not reorder it.** The render loop ranges the taxonomy map, which is
+  alphabetical, so big and small chips stay interspersed. An earlier version
+  sorted by count and turned the cloud into a monotonic size ramp — a sorted
+  list with variable type, not a cloud. `.ByCount` appears in the fork *only* to
+  find the displayed min and max for the font scale.
+- **The font scale is computed over the terms that survive the filter.**
+  Anchoring `$min` to the full taxonomy's minimum (1) while showing only 2-and-up
+  would strand the bottom of the range on chips that are never drawn, pushing
+  every surviving chip up and flattening the size variety. The `+1` on `$max` is
+  load-bearing: it keeps `log($max) - log($min)` non-zero when every shown term
+  has the same count, and removes the theme's latent divide-by-zero on a
+  single-term taxonomy.
+
+The right long-term fix is upstreaming both to Ryder, which retires the forks.
 
 ### Asset Management
 - **Images**: Stored in `assets/images/` with subdirectories by project/section

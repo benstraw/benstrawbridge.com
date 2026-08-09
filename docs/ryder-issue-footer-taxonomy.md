@@ -123,9 +123,9 @@ duplication a few pixels below.
 ### Prior art
 
 Implemented as a site-level fork of the partial on benstrawbridge.com, verified
-against a development build: footer down to 72 links from 78, `jazz` leading the
-genre group, and the cap landing on a clean count boundary so no tied group was
-sliced.
+against a development build: footer down to 40 links from 78 (24 genres + 16
+tags), `jazz` leading the genre group, and both caps landing on a clean count
+boundary so no tied group was sliced.
 
 Worth noting for the upstream design: `.ByCount` appears to tie-break
 alphabetically (observed on Hugo 0.164.0 — the 15-artist genres emit as `memphis
@@ -135,8 +135,43 @@ here are chosen to land between counts. If that tie-break is intentional it is
 worth documenting; if it is incidental, a cap-aware implementation should not
 rely on it.
 
-Note that 72-vs-78 is not a size win — the value delivered is the ordering and
-the fixed ceiling as the library grows. A site wanting a genuinely shorter footer
-sets lower caps; the point is that the config makes it possible at all.
+### Companion request: a floor for `taxonomy-cloud.html`
 
-Happy to open a PR against Ryder that retires the fork.
+The same "every term, no exceptions" assumption bites the tag cloud, and it is
+now a second site-level fork on benstrawbridge.com. `/musical-genres/` was
+rendering all 512 chips including the 243 one-artist genres, which crowded out
+the genres that carry weight.
+
+A per-taxonomy floor would retire that fork too:
+
+```toml
+[params.taxonomyCloud.minCount]
+  "musical-genres" = 2   # absent or 1 = today's behaviour, every term
+```
+
+Two things the implementation should get right, both learned the hard way here:
+
+- **Keep ranging the taxonomy map.** Its alphabetical order is what keeps big and
+  small chips interspersed, and that scattering is what makes a cloud legible. A
+  first attempt sorted by count and produced a monotonic size ramp — a sorted
+  list with variable type. Use `.ByCount` only to find the displayed range.
+- **Compute the font scale over the terms that survive the filter.** Anchoring
+  `$min` to the unfiltered minimum while showing only 2-and-up strands the bottom
+  of the range on chips that are never drawn, pushing everything up and
+  flattening the size variety. Recomputing also removes the current partial's
+  latent divide-by-zero (`$spread` is 0 on a single-term taxonomy) and makes the
+  existing `+1` on `$max` do real work.
+
+Filtering the cloud does not orphan anything, which is worth stating in the docs
+for the option: Hugo still builds every term page, and sites typically link terms
+from the pages that carry them.
+
+While in that file: line 28's linear `$currentFontSize` is immediately shadowed
+by the log-weighted assignment on line 30, so it is dead.
+
+Note that 72-vs-78 was not a size win at the caps this started with — the value
+delivered is the ordering and the fixed ceiling as the library grows. A site
+wanting a genuinely shorter footer sets lower caps (this one now runs 24 + 16 =
+40); the point is that the config makes it possible at all.
+
+Happy to open a PR against Ryder that retires both forks.

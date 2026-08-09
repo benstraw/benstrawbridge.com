@@ -70,6 +70,19 @@ logo_firstWord = 'Ben'
     headerBackgroundFrameInner = "bg-header-sunset-sf-coke dark:bg-header-artist-date-two h-[200px] sm:h-[250px] bg-cover bg-bottom"
     footerBackground = "bg-gradient-to-r from-slate-950 via-neutral-950 to-zinc-900 border-emerald-500"
     # navbar_fixed = "sticky top-0"
+  # Per-taxonomy floor for the tag cloud on /<taxonomy>/, read by the site
+  # override at layouts/partials/taxonomy-cloud.html. Terms below the floor are
+  # left out of the cloud ONLY — Hugo still builds their term pages, and artist
+  # pages still link every genre they carry
+  # (layouts/listening-artist/single.html), so a dropped genre keeps its inbound
+  # links and stays reachable. A taxonomy absent from this table, or set to 1,
+  # gets the theme's behaviour: every term.
+  #
+  # 2 removes the 243 one-artist genres — 47% of the 512 — which are Spotify's
+  # hyper-specific tail and were crowding out the genres that carry weight.
+  # /tags/ is deliberately not listed: its cloud still shows everything.
+  [params.taxonomyCloud.minCount]
+    "musical-genres" = 2
   [params.footer]
     tagCloud = true
   # Drives the site override at layouts/partials/utils/taxonomy-string.html,
@@ -85,19 +98,16 @@ logo_firstWord = 'Ben'
   [[params.footer.taxonomies]]
     name = "tags"
     title = "Tags"
-    # 33 = every tag used 5+ times. Nine tags tie at 5, so a smaller cap would
-    # show some and hide others arbitrarily. Inert at today's pool size; kept as
-    # the bound for when the pool grows past it.
+    # 16 = every tag used 8+ times.
     minCount = 5
-    maxTerms = 33
+    maxTerms = 16
   [[params.footer.taxonomies]]
     name = "musical-genres"
     title = "Musical Genres"
-    # 39 = every genre with 15+ artists, breaking between 15 and 14. The next
-    # clean boundary up is 41, which also takes the two 14-artist genres (red
-    # dirt, ragga); 40 would split that pair.
+    # 24 = every genre with 21+ artists. Clean caps nearby: 28 (20+), 29 (19+),
+    # 21 (22+) — see the table in CLAUDE.md.
     minCount = 10
-    maxTerms = 39
+    maxTerms = 24
   [params.schema]
     # Site-wide JSON-LD entity type. Theme default is Organization; this is a
     # personal site. Per-page structured data lives in

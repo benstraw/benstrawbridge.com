@@ -1,0 +1,98 @@
+{{- /*
+  SITE OVERRIDE of themes/ryder/layouts/partials/taxonomy-cloud.html.
+
+  Why: the theme partial renders every term in the taxonomy. `musical-genres` is
+  generated from Spotify data (content/listening/artists/_content.gotmpl) and
+  carries Spotify's hyper-specific tail — 512 terms, 243 of them applying to
+  exactly one artist. Those 243 crowded out the genres that actually carry
+  weight.
+
+  What this changes, and nothing else: terms below
+  `params.taxonomyCloud.minCount.<taxonomy>` are skipped, and the font scale is
+  computed over the terms that survive. Ordering stays the theme's — ranging the
+  taxonomy map, which is alphabetical, so big and small chips stay interspersed.
+  That scattering is what makes a cloud read as a cloud; an earlier version of
+  this fork sorted by count and turned it into a monotonic size ramp. Do not
+  reorder it.
+
+  Dropping a term from the cloud does not orphan it: Hugo still builds every
+  term page, and layouts/listening-artist/single.html links every genre an
+  artist carries, so a one-artist genre keeps its inbound link from that artist.
+
+  Reconcile this with the theme partial on any Ryder bump — see CLAUDE.md.
+*/ -}}
+
+{{- /* Default to "tags"; on a taxonomy listing use that taxonomy. Same rule as
+       the theme, so /tags/ and /musical-genres/ both land here. */ -}}
+{{- $taxonomy := "tags" }}
+{{- if eq .Page.Kind "taxonomy" }}
+  {{- $taxonomy = .Section }}
+{{- end }}
+
+{{- /* Per-taxonomy floor. Absent or 1 means show everything, i.e. the theme's
+       behaviour — /tags/ is deliberately not configured. */ -}}
+{{- $minCount := 1 }}
+{{- with (site.Params.taxonomyCloud | default dict).minCount }}
+  {{- with index . $taxonomy }}
+    {{- $minCount = . | int }}
+  {{- end }}
+{{- end }}
+
+<div class="container tagcloud">
+{{- /* .ByCount only to find the displayed range; the render loop below stays
+       alphabetical. */ -}}
+{{- $eligible := where (index site.Taxonomies $taxonomy).ByCount "Count" "ge" $minCount }}
+{{- if $eligible }}
+  {{- $largestFontSize := 3.8 }}
+  {{- $smallestFontSize := 0.8 }}
+
+  {{- /* Scale across the *displayed* terms. Anchoring $min to the full
+         taxonomy's minimum (1) while only showing 2-and-up would strand the
+         bottom of the range on chips that are never drawn, pushing every
+         surviving chip up and flattening the size variety.
+
+         The +1 on $max is load-bearing, not cosmetic: it guarantees
+         log($max) > log($min) even when every shown term has the same count,
+         which is what keeps the divisor below non-zero. It also removes the
+         theme's latent divide-by-zero when a taxonomy has one term. */ -}}
+  {{- $max := add (index $eligible 0).Count 1 }}
+  {{- $min := (index $eligible (sub (len $eligible) 1)).Count }}
+  {{- $logSpread := sub (math.Log $max) (math.Log $min) }}
+
+  {{- range $name, $taxonomyPage := (index site.Taxonomies $taxonomy) }}
+    {{- $tagCount := len $taxonomyPage.Pages }}
+    {{- if ge $tagCount $minCount }}
+      {{- $weight := div (sub (math.Log $tagCount) (math.Log $min)) $logSpread }}
+      {{- $fontSize := add $smallestFontSize (mul (sub $largestFontSize $smallestFontSize) $weight) }}
+
+      {{- /* The lime gradient stays: it reads as brand-alt, and it is the
+             chip's fill. Only the border/hover/ring move to accent. See the
+             theme partial and docs/migration/v0.4.0.md for why. */ -}}
+      {{- $gradientClass := "bg-gradient-to-r from-lime-400 to-lime-500 text-zinc-900 " }}
+      {{- $chipAccent := "border-ryder-accent-500 hover:bg-ryder-accent-500 hover:border-ryder-accent-600 focus:ring-ryder-accent-300" }}
+      {{- if (site.Params.colors | default dict).legacyAccents }}
+        {{- $chipAccent = "border-yellow-500 hover:bg-yellow-500 hover:border-yellow-600 focus:ring-yellow-300" }}
+      {{- end }}
+      {{- $classes := printf "py-2 px-4 rounded-full border-2 %s focus:outline-none focus:ring-2 no-underline inline-block text-center break-words " $chipAccent }}
+
+      {{- with site.Param "twClasses.headerBackgroundFrameOuter" }}
+        {{- $gradientClass = . }}
+      {{- end }}
+      {{- /* Per-term chip fill. `with` on the GetPage rather than the theme's
+             bare $sectionData.Params: GetPage returns nil for a term page Hugo
+             did not build, and reading .Params off nil aborts the build. */ -}}
+      {{- if eq $.Page.Kind "taxonomy" }}
+        {{- with site.GetPage (printf "%s/%s" $taxonomy $name) }}
+          {{- with .Params.twClasses.headerBackgroundFrameOuter }}
+            {{- $gradientClass = . }}
+          {{- end }}
+        {{- end }}
+      {{- end }}
+
+      <a href="{{ printf "%s%s/%s" site.BaseURL $taxonomy ($name | urlize) }}"
+         class="tagcloud-item px-2" style="font-size: {{ $fontSize }}rem;">
+         <span class="{{ $classes }} {{ $gradientClass }}">{{ $name }}<sup>{{ $tagCount }}</sup></span></a>
+    {{- end }}
+  {{- end }}
+{{- end }}
+</div>
