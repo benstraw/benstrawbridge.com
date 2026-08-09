@@ -98,16 +98,17 @@ logo_firstWord = 'Ben'
   [[params.footer.taxonomies]]
     name = "tags"
     title = "Tags"
-    # 16 = every tag used 8+ times.
+    # 20 = every tag used 7+ times. 21 would take one 6-use tag and leave the
+    # other three out; the next clean cap up is 23 (every tag used 6+).
     minCount = 5
-    maxTerms = 16
+    maxTerms = 20
   [[params.footer.taxonomies]]
     name = "musical-genres"
     title = "Musical Genres"
-    # 24 = every genre with 21+ artists. Clean caps nearby: 28 (20+), 29 (19+),
-    # 21 (22+) — see the table in CLAUDE.md.
+    # 34 = every genre with 16+ artists. Clean caps nearby: 39 (15+), 33 (17+),
+    # 29 (19+) — see the table in CLAUDE.md.
     minCount = 10
-    maxTerms = 24
+    maxTerms = 34
   [params.schema]
     # Site-wide JSON-LD entity type. Theme default is Organization; this is a
     # personal site. Per-page structured data lives in

@@ -123,9 +123,15 @@ duplication a few pixels below.
 ### Prior art
 
 Implemented as a site-level fork of the partial on benstrawbridge.com, verified
-against a development build: footer down to 40 links from 78 (24 genres + 16
+against a development build: footer down to 54 links from 78 (34 genres + 20
 tags), `jazz` leading the genre group, and both caps landing on a clean count
 boundary so no tied group was sliced.
+
+A practical note for anyone documenting this option: derive the available
+boundaries from Hugo's own rendered counts, not from the source content. Counting
+`tags` out of front matter across a few hundred mixed TOML/YAML files drifted by
+one to three terms per threshold here — enough to put two configured caps mid-tie
+while looking correct.
 
 Worth noting for the upstream design: `.ByCount` appears to tie-break
 alphabetically (observed on Hugo 0.164.0 — the 15-artist genres emit as `memphis
@@ -171,7 +177,7 @@ by the log-weighted assignment on line 30, so it is dead.
 
 Note that 72-vs-78 was not a size win at the caps this started with — the value
 delivered is the ordering and the fixed ceiling as the library grows. A site
-wanting a genuinely shorter footer sets lower caps (this one now runs 24 + 16 =
-40); the point is that the config makes it possible at all.
+wanting a genuinely shorter footer sets lower caps (this one now runs 34 + 20 =
+54); the point is that the config makes it possible at all.
 
 Happy to open a PR against Ryder that retires both forks.

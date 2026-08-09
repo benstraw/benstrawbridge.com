@@ -137,8 +137,8 @@ growing without bound as the library does.
 
 The fork orders by page count, applies `minCount` as a floor, then caps at
 `maxTerms` on each `[[params.footer.taxonomies]]` entry. Removing `maxTerms`
-restores the theme's unbounded list for that group. Currently 24 genres + 16
-tags = **40 links**, down from 78.
+restores the theme's unbounded list for that group. Currently 34 genres + 20
+tags = **54 links**, down from 78.
 
 Three things to know before retuning the caps:
 
@@ -158,18 +158,26 @@ Three things to know before retuning the caps:
 
   | genres | | tags | |
   | --- | --- | --- | --- |
-  | 39 | 15+ artists | 33 | 5+ uses |
-  | 34 | 16+ | 24 | 6+ |
-  | 33 | 17+ | 21 | 7+ |
-  | 29 | 19+ | **16** ← set | **8+** |
-  | 28 | 20+ | 14 | 9+ |
-  | **24** ← set | **21+** | 11 | 10+ |
-  | 21 | 22+ | 10 | 11+ |
-  | 19 | 23+ | 8 | 12+ |
-  | 17 | 24+ | 6 | 13+ |
+  | 48 | 13+ artists | 40 | 4+ uses |
+  | 41 | 14+ | 33 | 5+ uses |
+  | 39 | 15+ | 23 | 6+ |
+  | **34** ← set | **16+** | **20** ← set | **7+** |
+  | 33 | 17+ | 15 | 8+ |
+  | 29 | 19+ | 13 | 9+ |
+  | 28 | 20+ | 11 | 10+ |
+  | 24 | 21+ | 10 | 11+ |
+  | 21 | 22+ | 8 | 12+ |
 
-  The gaps are counts absent from the data — nothing has exactly 18, 25 or 26
-  artists, so there is no genre boundary at 30–32 or 15.
+  The gaps are counts absent from the data — nothing has exactly 18 artists, so
+  there is no genre boundary between 33 and 29.
+
+  **Derive this table from built output, not from the source data.** These numbers
+  come from the rendered clouds (`public/tags/index.html` is unfiltered, so it
+  carries every term and its count). An earlier version of this table was built by
+  regex-parsing `tags` out of front matter across 291 mixed TOML/YAML files and was
+  wrong by one to three in every row — enough to put two configured caps mid-tie.
+  Genre counts happen to survive that shortcut because they are 1:1 with records in
+  `data/spotify/artists.json`; tags do not.
 - **Ordering and bounding matter more than size.** Even at caps that barely
   shrink the list, the fork buys `jazz` leading instead of `acid jazz`, and a
   fixed ceiling as the Spotify sync adds artists.
