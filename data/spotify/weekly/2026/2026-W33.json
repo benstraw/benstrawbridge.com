@@ -1,0 +1,130 @@
+{
+  "week": "2026-W33",
+  "title": "Week of Aug 10, 2026",
+  "year": 2026,
+  "week_num": 33,
+  "date_start": "2026-08-10",
+  "date_end": "2026-08-16",
+  "total_plays": 9,
+  "unique_artists": 1,
+  "topArtistName": "2Pac",
+  "topArtistImages": [
+    {
+      "url": "https://i.scdn.co/image/ab6761610000e5eb7f5cc432c9c109248ebec1ac",
+      "height": 640,
+      "width": 640
+    },
+    {
+      "url": "https://i.scdn.co/image/ab676161000051747f5cc432c9c109248ebec1ac",
+      "height": 320,
+      "width": 320
+    },
+    {
+      "url": "https://i.scdn.co/image/ab6761610000f1787f5cc432c9c109248ebec1ac",
+      "height": 160,
+      "width": 160
+    }
+  ],
+  "top_genres": [
+    {
+      "name": "old school hip hop",
+      "plays": 9
+    },
+    {
+      "name": "gangster rap",
+      "plays": 9
+    },
+    {
+      "name": "west coast hip hop",
+      "plays": 9
+    },
+    {
+      "name": "g-funk",
+      "plays": 9
+    },
+    {
+      "name": "hip hop",
+      "plays": 9
+    }
+  ],
+  "top_artists": [
+    {
+      "slug": "2pac",
+      "name": "2Pac",
+      "plays": 9,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb7f5cc432c9c109248ebec1ac",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051747f5cc432c9c109248ebec1ac",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1787f5cc432c9c109248ebec1ac",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    }
+  ],
+  "top_tracks": [
+    {
+      "name": "Tha' Lunatic",
+      "artist": "2Pac",
+      "artist_slug": "2pac",
+      "plays": 1
+    },
+    {
+      "name": "Brenda's Got A Baby",
+      "artist": "2Pac",
+      "artist_slug": "2pac",
+      "plays": 1
+    },
+    {
+      "name": "If My Homie Calls",
+      "artist": "2Pac",
+      "artist_slug": "2pac",
+      "plays": 1
+    },
+    {
+      "name": "Crooked Ass Nigga",
+      "artist": "2Pac",
+      "artist_slug": "2pac",
+      "plays": 1
+    },
+    {
+      "name": "Something Wicked",
+      "artist": "2Pac",
+      "artist_slug": "2pac",
+      "plays": 1
+    },
+    {
+      "name": "Words Of Wisdom",
+      "artist": "2Pac",
+      "artist_slug": "2pac",
+      "plays": 1
+    },
+    {
+      "name": "Violent",
+      "artist": "2Pac",
+      "artist_slug": "2pac",
+      "plays": 1
+    },
+    {
+      "name": "I Don't Give A Fuck",
+      "artist": "2Pac",
+      "artist_slug": "2pac",
+      "plays": 1
+    },
+    {
+      "name": "Soulja's Story",
+      "artist": "2Pac",
+      "artist_slug": "2pac",
+      "plays": 1
+    }
+  ]
+}
