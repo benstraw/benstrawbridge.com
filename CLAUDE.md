@@ -51,7 +51,7 @@ git add themes/ryder
 ## Architecture
 
 ### Theme Structure
-- **Theme**: Uses the Ryder theme (git submodule at `themes/ryder`, pinned to v0.4.1)
+- **Theme**: Uses the Ryder theme (git submodule at `themes/ryder`, pinned to v0.4.2)
 - **Theme config**: Set in `config/_default/hugo.toml` as `theme = 'ryder'`, matching production
 - **Layout overrides**: Root-level `layouts/` directory overrides theme layouts for custom sections
 - **Assets**: Root-level `assets/` directory contains site-specific JS, images, and extended functionality
@@ -116,7 +116,7 @@ Root-level `layouts/` contains section-specific overrides:
 
 ### Forked theme partials — reconcile these on every Ryder bump
 
-Two partials are **deliberate forks** of theme files, not new site-only
+Three partials are **deliberate forks** of theme files, not new site-only
 templates. A theme bump that changes the upstream versions will not touch them,
 so diff them against the submodule when upgrading:
 
@@ -124,9 +124,34 @@ so diff them against the submodule when upgrading:
 | --- | --- |
 | `layouts/partials/utils/taxonomy-string.html` | `themes/ryder/layouts/partials/utils/taxonomy-string.html` |
 | `layouts/partials/taxonomy-cloud.html` | `themes/ryder/layouts/partials/taxonomy-cloud.html` |
+| `layouts/partials/card-image.html` | `themes/ryder/layouts/partials/card-category-color.html` |
 
-Both exist because `musical-genres` is built from Spotify data — 512 terms, 243
-of them (47%) applying to exactly one artist — and the theme renders every term.
+The first two exist because `musical-genres` is built from Spotify data — 512
+terms, 243 of them (47%) applying to exactly one artist — and the theme renders
+every term.
+
+#### Card: `card-image.html`
+
+`card-image.html` is `card-category-color.html` with a lead image spliced in, and
+its premise is that the two are interchangeable inside one grid — so a fix to the
+shared markup has to land in both or a feed renders two different cards. This is
+not hypothetical: Ryder v0.4.2 sanitized the summary branch in
+`card-category-color.html` (arts-link/ryder#86) and the fork kept dumping
+`.Summary` as raw HTML, which left the home page rendering marked-up summaries on
+the two `cardType = "-image"` pages while every other card was plain text.
+
+The bug being guarded is worse than a cosmetic mismatch. `.Summary` is *rendered
+HTML*; absent a `<!--more-->` marker and a `summary` front-matter key, Hugo
+truncates it at `summaryLength` (100 here) words, and the cut need not land on an
+element boundary — an unclosed wrapper re-parents every card that follows it. The
+fork carries a **wider** blast radius than the theme partial, because it is both
+the section-wide `listCardType` on `/projects/` and a per-page `cardType`
+elsewhere, so it renders pages the theme partial never sees.
+
+`layouts/partials/card-trail.html` and `card-weekly.html` / `card-artist.html`
+also descend from this card, but they are not on this list: `card-trail.html`
+already runs its blurb through `plainify`, and the other two build their own
+bodies without touching `.Summary`.
 
 #### Footer: `taxonomy-string.html`
 
