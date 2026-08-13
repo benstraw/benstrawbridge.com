@@ -45,7 +45,7 @@ via a content adaptor. Measured shape:
 - top counts: `jazz` 97, `hard bop` 59, `bebop` 58, `americana` 51,
   `classical piano` 42
 
-Three consequences on Ryder v0.4.1:
+Three consequences on Ryder v0.4.2:
 
 1. The footer ships **~78 taxonomy links on every page**, ordered so that
    `acid jazz` (7 artists) precedes `jazz` (97). The most useful links are not

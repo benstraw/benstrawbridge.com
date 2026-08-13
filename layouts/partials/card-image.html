@@ -75,7 +75,18 @@ a social preview are not the same crop.
         </span>
         {{- end }}
         <div itemprop="articleBody" class="articleBody">
-          {{- or .Params.homeFeatureSummary .Summary }}
+          {{- /* Kept in step with card-category-color.html, which sanitizes this
+                 branch as of Ryder v0.4.2 (arts-link/ryder#86). .Summary is
+                 rendered HTML: with no <!--more--> marker and no `summary` front
+                 matter key Hugo truncates it at summaryLength words, and that cut
+                 need not land on an element boundary, so an unclosed wrapper
+                 re-parents every card after this one. Fixing it here as well is
+                 not optional — this card is a section-wide listCardType on
+                 /projects/ and a per-page cardType elsewhere, so it renders pages
+                 the theme partial never sees. It also keeps the two cards visually
+                 interchangeable in one feed, which is the whole premise of this
+                 fork. homeFeatureSummary stays the opt-in author blurb. */ -}}
+          {{- or .Params.homeFeatureSummary (.Summary | plainify | htmlUnescape | chomp) }}
           {{- if $m.showReadOn }}
             {{- partial "utils/btn-read-on.html" . }}
           {{- end }}
