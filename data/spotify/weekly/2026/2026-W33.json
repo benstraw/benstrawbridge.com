@@ -5,53 +5,95 @@
   "week_num": 33,
   "date_start": "2026-08-10",
   "date_end": "2026-08-16",
-  "total_plays": 9,
-  "unique_artists": 1,
-  "topArtistName": "2Pac",
+  "total_plays": 186,
+  "unique_artists": 41,
+  "topArtistName": "Sublime",
   "topArtistImages": [
     {
-      "url": "https://i.scdn.co/image/ab6761610000e5eb7f5cc432c9c109248ebec1ac",
       "height": 640,
+      "url": "https://i.scdn.co/image/ab6761610000e5ebe726280500259dbdb97a8be4",
       "width": 640
     },
     {
-      "url": "https://i.scdn.co/image/ab676161000051747f5cc432c9c109248ebec1ac",
       "height": 320,
+      "url": "https://i.scdn.co/image/ab67616100005174e726280500259dbdb97a8be4",
       "width": 320
     },
     {
-      "url": "https://i.scdn.co/image/ab6761610000f1787f5cc432c9c109248ebec1ac",
       "height": 160,
+      "url": "https://i.scdn.co/image/ab6761610000f178e726280500259dbdb97a8be4",
       "width": 160
     }
   ],
   "top_genres": [
     {
       "name": "old school hip hop",
-      "plays": 9
-    },
-    {
-      "name": "gangster rap",
-      "plays": 9
-    },
-    {
-      "name": "west coast hip hop",
-      "plays": 9
-    },
-    {
-      "name": "g-funk",
-      "plays": 9
+      "plays": 40
     },
     {
       "name": "hip hop",
-      "plays": 9
+      "plays": 38
+    },
+    {
+      "name": "reggae rock",
+      "plays": 34
+    },
+    {
+      "name": "ska punk",
+      "plays": 34
+    },
+    {
+      "name": "ska",
+      "plays": 34
+    },
+    {
+      "name": "gangster rap",
+      "plays": 34
+    },
+    {
+      "name": "west coast hip hop",
+      "plays": 33
+    },
+    {
+      "name": "g-funk",
+      "plays": 33
+    },
+    {
+      "name": "country",
+      "plays": 24
+    },
+    {
+      "name": "red dirt",
+      "plays": 23
     }
   ],
   "top_artists": [
     {
+      "slug": "sublime",
+      "name": "Sublime",
+      "plays": 34,
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebe726280500259dbdb97a8be4",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174e726280500259dbdb97a8be4",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178e726280500259dbdb97a8be4",
+          "width": 160
+        }
+      ]
+    },
+    {
       "slug": "2pac",
       "name": "2Pac",
-      "plays": 9,
+      "plays": 30,
       "images": [
         {
           "url": "https://i.scdn.co/image/ab6761610000e5eb7f5cc432c9c109248ebec1ac",
@@ -69,9 +111,1859 @@
           "width": 160
         }
       ]
+    },
+    {
+      "slug": "jid",
+      "name": "JID",
+      "plays": 16,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb02e4e47e711e07e363ecc6e0",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517402e4e47e711e07e363ecc6e0",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17802e4e47e711e07e363ecc6e0",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "flea",
+      "name": "Flea",
+      "plays": 14,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb1d3d1629faf335838faeafa3",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051741d3d1629faf335838faeafa3",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1781d3d1629faf335838faeafa3",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "charles-wesley-godwin",
+      "name": "Charles Wesley Godwin",
+      "plays": 12,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebbf4f605fc86259ad71b45794",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174bf4f605fc86259ad71b45794",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178bf4f605fc86259ad71b45794",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "stephen-wilson-jr",
+      "name": "Stephen Wilson Jr.",
+      "plays": 10,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb2e25871e208b1befa79b4c44",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051742e25871e208b1befa79b4c44",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1782e25871e208b1befa79b4c44",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "sturgill-simpson",
+      "name": "Sturgill Simpson",
+      "plays": 10,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb1791f31121a24318e91cbda3",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051741791f31121a24318e91cbda3",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1781791f31121a24318e91cbda3",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "joelton-mayfield",
+      "name": "Joelton Mayfield",
+      "plays": 6,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb8520d7dd8a2a514ab8542192",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051748520d7dd8a2a514ab8542192",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1788520d7dd8a2a514ab8542192",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "jack-van-cleaf",
+      "name": "Jack Van Cleaf",
+      "plays": 5,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebbbfa796484d4fdc57cefd2d1",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174bbfa796484d4fdc57cefd2d1",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178bbfa796484d4fdc57cefd2d1",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "okonski",
+      "name": "Okonski",
+      "plays": 4,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb9a08cd5d8997331acc191e7d",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051749a08cd5d8997331acc191e7d",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1789a08cd5d8997331acc191e7d",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "nicholas-payton",
+      "name": "Nicholas Payton",
+      "plays": 3,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb73753f065b66c415b5761c97",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517473753f065b66c415b5761c97",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17873753f065b66c415b5761c97",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "mammal-hands",
+      "name": "Mammal Hands",
+      "plays": 3,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb0dfb05dc8e6c8452f523a62e",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051740dfb05dc8e6c8452f523a62e",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1780dfb05dc8e6c8452f523a62e",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "ed-obrien",
+      "name": "Ed O'Brien",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb49cc68274110159cf749dbca",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517449cc68274110159cf749dbca",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17849cc68274110159cf749dbca",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "matthew-halsall",
+      "name": "Matthew Halsall",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb187aa328ce74db49e1b28576",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174187aa328ce74db49e1b28576",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178187aa328ce74db49e1b28576",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "ambrose-akinmusire",
+      "name": "Ambrose Akinmusire",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebd846d2d13435f6ed32e19396",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174d846d2d13435f6ed32e19396",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178d846d2d13435f6ed32e19396",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "matthew-stevens",
+      "name": "Matthew Stevens",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb52b47560a24b3b2e0d6b48d1",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517452b47560a24b3b2e0d6b48d1",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17852b47560a24b3b2e0d6b48d1",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "wild-horses",
+      "name": "Wild Horses",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebe7bc00da2a011f002007a7b8",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174e7bc00da2a011f002007a7b8",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178e7bc00da2a011f002007a7b8",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "van-morrison",
+      "name": "Van Morrison",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb61978f04a57032e5fec7819f",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517461978f04a57032e5fec7819f",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17861978f04a57032e5fec7819f",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "offset",
+      "name": "Offset",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb0f794f3394223026afa7776d",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051740f794f3394223026afa7776d",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1780f794f3394223026afa7776d",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "ol-dirty-bastard",
+      "name": "Ol' Dirty Bastard",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/cdcf0ecd5b041452681badedca98f7d3b8494c52",
+          "height": 693,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/e3e39e2ee5b5929aed7d2b33791f0d8089217954",
+          "height": 443,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/459d62eea68686dd2fe8be21173f9cd1e448eb83",
+          "height": 139,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/c073d8d9f384061615625887756c771f2bab4209",
+          "height": 44,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "dr-dre",
+      "name": "Dr. Dre",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6772690000c46c250b3af4b06e1fcf538d398b",
+          "height": 1000,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6772690000dd22250b3af4b06e1fcf538d398b",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6772690000bac3250b3af4b06e1fcf538d398b",
+          "height": 200,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67726900008f74250b3af4b06e1fcf538d398b",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "gza",
+      "name": "GZA",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb808e85831b545cca75e179ab",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174808e85831b545cca75e179ab",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178808e85831b545cca75e179ab",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "robohands",
+      "name": "Robohands",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eba2c7100de0a339744ff63244",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174a2c7100de0a339744ff63244",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178a2c7100de0a339744ff63244",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "andrew-wasylyk",
+      "name": "Andrew Wasylyk",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebb72d35f63e7fe43a1c392d2b",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174b72d35f63e7fe43a1c392d2b",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178b72d35f63e7fe43a1c392d2b",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "ancient-infinity-orchestra",
+      "name": "Ancient Infinity Orchestra",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebd9ff3265043a6391f20e904d",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174d9ff3265043a6391f20e904d",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178d9ff3265043a6391f20e904d",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "julian-lage",
+      "name": "Julian Lage",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb3c79f8b04e49c6757124e44d",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051743c79f8b04e49c6757124e44d",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1783c79f8b04e49c6757124e44d",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "daoud",
+      "name": "daoud",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb9c019f389c347bca47e6828e",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051749c019f389c347bca47e6828e",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1789c019f389c347bca47e6828e",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "gregory-uhlmann",
+      "name": "Gregory Uhlmann",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb88dd0d84a9572923ea1045de",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517488dd0d84a9572923ea1045de",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17888dd0d84a9572923ea1045de",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "bo-staloch",
+      "name": "Bo Staloch",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb43df7d3796ab8dc8412b08ad",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517443df7d3796ab8dc8412b08ad",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17843df7d3796ab8dc8412b08ad",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "the-head-and-the-heart",
+      "name": "The Head And The Heart",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebad20de0e4a289e3320c2406f",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174ad20de0e4a289e3320c2406f",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178ad20de0e4a289e3320c2406f",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "mt-joy",
+      "name": "Mt. Joy",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb7c92602e66076f1b0bf5843b",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051747c92602e66076f1b0bf5843b",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1787c92602e66076f1b0bf5843b",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "caamp",
+      "name": "Caamp",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb1e45e8b0ae27e638a2c139d2",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051741e45e8b0ae27e638a2c139d2",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1781e45e8b0ae27e638a2c139d2",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "dylan-gossett",
+      "name": "Dylan Gossett",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebeb9617b5f2b9d7ff0ae10f73",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174eb9617b5f2b9d7ff0ae10f73",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178eb9617b5f2b9d7ff0ae10f73",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "zach-bryan",
+      "name": "Zach Bryan",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebc742fbc057bdbc64834a6cdc",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174c742fbc057bdbc64834a6cdc",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178c742fbc057bdbc64834a6cdc",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "free-nationals",
+      "name": "Free Nationals",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb5ef812b9c4f227331fe33120",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051745ef812b9c4f227331fe33120",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1785ef812b9c4f227331fe33120",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "eminem",
+      "name": "Eminem",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eba00b11c129b27a88fc72f36b",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174a00b11c129b27a88fc72f36b",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178a00b11c129b27a88fc72f36b",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "imagine-dragons",
+      "name": "Imagine Dragons",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebab47d8dae2b24f5afe7f9d38",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174ab47d8dae2b24f5afe7f9d38",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178ab47d8dae2b24f5afe7f9d38",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "method-man",
+      "name": "Method Man",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/85fc66422f44f641ba86e39107c290fb9e9ea7b2",
+          "height": 1000,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/60f9c445b2ad379840fa1144faeb0f869cf39dd0",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/7388f3fe941fb23f8e63d7be8ec02ab105e56dc1",
+          "height": 200,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/d5640f1379fe80f81d2d53f77f61771679c173e3",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "wu-tang-clan",
+      "name": "Wu-Tang Clan",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebe60866298962b71792b2bf1a",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174e60866298962b71792b2bf1a",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178e60866298962b71792b2bf1a",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "nwa",
+      "name": "N.W.A.",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/4f36d3f900eaf8381b0d3f5febe0e5bf8c94dbea",
+          "height": 1000,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/6c6c5456aa373c9cbf4f385c2dd69c4177e6e3fa",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/e3e634272efd0251c2b8298b25fcd4b659993178",
+          "height": 200,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/8bf427fbb118c36cd56439a06f0bfb77e4e7bdf3",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "naughty-by-nature",
+      "name": "Naughty By Nature",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb4cfb4db377be25e51eecc324",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051744cfb4db377be25e51eecc324",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1784cfb4db377be25e51eecc324",
+          "height": 160,
+          "width": 160
+        }
+      ]
     }
   ],
   "top_tracks": [
+    {
+      "name": "Flamenco Sketches",
+      "artist": "Nicholas Payton",
+      "artist_slug": "nicholas-payton",
+      "plays": 2
+    },
+    {
+      "name": "Colour Yes - Special Edition",
+      "artist": "Matthew Halsall",
+      "artist_slug": "matthew-halsall",
+      "plays": 2
+    },
+    {
+      "name": "Who Does She Hope To Be?",
+      "artist": "Matthew Stevens",
+      "artist_slug": "matthew-stevens",
+      "plays": 2
+    },
+    {
+      "name": "Frailed",
+      "artist": "Flea",
+      "artist_slug": "flea",
+      "plays": 2
+    },
+    {
+      "name": "Right Back - 1994/Live At The Barn, Riverside",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 2
+    },
+    {
+      "name": "D.J.'s - Live",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 2
+    },
+    {
+      "name": "Roots Of Creation - Demo",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 2
+    },
+    {
+      "name": "Using You",
+      "artist": "Jack Van Cleaf",
+      "artist_slug": "jack-van-cleaf",
+      "plays": 2
+    },
+    {
+      "name": "Tupelo Honey",
+      "artist": "Van Morrison",
+      "artist_slug": "van-morrison",
+      "plays": 2
+    },
+    {
+      "name": "Mighty Beast",
+      "artist": "Stephen Wilson Jr.",
+      "artist_slug": "stephen-wilson-jr",
+      "plays": 2
+    },
+    {
+      "name": "Dance Now (feat. Kenny Mason)",
+      "artist": "JID",
+      "artist_slug": "jid",
+      "plays": 2
+    },
+    {
+      "name": "Bodies (feat. JID)",
+      "artist": "Offset",
+      "artist_slug": "offset",
+      "plays": 2
+    },
+    {
+      "name": "The Streetz R Deathrow",
+      "artist": "2Pac",
+      "artist_slug": "2pac",
+      "plays": 2
+    },
+    {
+      "name": "Point The Finga",
+      "artist": "2Pac",
+      "artist_slug": "2pac",
+      "plays": 2
+    },
+    {
+      "name": "Pac's Theme - Interlude",
+      "artist": "2Pac",
+      "artist_slug": "2pac",
+      "plays": 2
+    },
+    {
+      "name": "Freddie Freeloader",
+      "artist": "Nicholas Payton",
+      "artist_slug": "nicholas-payton",
+      "plays": 1
+    },
+    {
+      "name": "333 Revisited",
+      "artist": "Flea",
+      "artist_slug": "flea",
+      "plays": 1
+    },
+    {
+      "name": "Infinite Energetic",
+      "artist": "Robohands",
+      "artist_slug": "robohands",
+      "plays": 1
+    },
+    {
+      "name": "Vista",
+      "artist": "Okonski",
+      "artist_slug": "okonski",
+      "plays": 1
+    },
+    {
+      "name": "First Moonbeams Of Adulthood",
+      "artist": "Andrew Wasylyk",
+      "artist_slug": "andrew-wasylyk",
+      "plays": 1
+    },
+    {
+      "name": "Chant for Don Cherry",
+      "artist": "Ancient Infinity Orchestra",
+      "artist_slug": "ancient-infinity-orchestra",
+      "plays": 1
+    },
+    {
+      "name": "Alia's Abandon",
+      "artist": "Mammal Hands",
+      "artist_slug": "mammal-hands",
+      "plays": 1
+    },
+    {
+      "name": "Incantations",
+      "artist": "Ed O'Brien",
+      "artist_slug": "ed-obrien",
+      "plays": 1
+    },
+    {
+      "name": "Wind Or Vertigo",
+      "artist": "Okonski",
+      "artist_slug": "okonski",
+      "plays": 1
+    },
+    {
+      "name": "Night Shade",
+      "artist": "Julian Lage",
+      "artist_slug": "julian-lage",
+      "plays": 1
+    },
+    {
+      "name": "Soundcheck",
+      "artist": "Ambrose Akinmusire",
+      "artist_slug": "ambrose-akinmusire",
+      "plays": 1
+    },
+    {
+      "name": "Four Flowers",
+      "artist": "Mammal Hands",
+      "artist_slug": "mammal-hands",
+      "plays": 1
+    },
+    {
+      "name": "Lakebridge",
+      "artist": "Okonski",
+      "artist_slug": "okonski",
+      "plays": 1
+    },
+    {
+      "name": "333",
+      "artist": "Flea",
+      "artist_slug": "flea",
+      "plays": 1
+    },
+    {
+      "name": "dijon",
+      "artist": "daoud",
+      "artist_slug": "daoud",
+      "plays": 1
+    },
+    {
+      "name": "Prelude in the Ash",
+      "artist": "Ambrose Akinmusire",
+      "artist_slug": "ambrose-akinmusire",
+      "plays": 1
+    },
+    {
+      "name": "Window to Your World",
+      "artist": "Mammal Hands",
+      "artist_slug": "mammal-hands",
+      "plays": 1
+    },
+    {
+      "name": "Blue Morpho",
+      "artist": "Ed O'Brien",
+      "artist_slug": "ed-obrien",
+      "plays": 1
+    },
+    {
+      "name": "Flying",
+      "artist": "Okonski",
+      "artist_slug": "okonski",
+      "plays": 1
+    },
+    {
+      "name": "Pedestal of Infamy",
+      "artist": "Flea",
+      "artist_slug": "flea",
+      "plays": 1
+    },
+    {
+      "name": "The Fool on the Hill",
+      "artist": "Gregory Uhlmann",
+      "artist_slug": "gregory-uhlmann",
+      "plays": 1
+    },
+    {
+      "name": "Free As I Want to Be",
+      "artist": "Flea",
+      "artist_slug": "flea",
+      "plays": 1
+    },
+    {
+      "name": "Willow Weep for Me",
+      "artist": "Flea",
+      "artist_slug": "flea",
+      "plays": 1
+    },
+    {
+      "name": "Thinkin Bout You",
+      "artist": "Flea",
+      "artist_slug": "flea",
+      "plays": 1
+    },
+    {
+      "name": "Wichita Lineman (feat. Nick Cave)",
+      "artist": "Flea",
+      "artist_slug": "flea",
+      "plays": 1
+    },
+    {
+      "name": "Maggot Brain",
+      "artist": "Flea",
+      "artist_slug": "flea",
+      "plays": 1
+    },
+    {
+      "name": "Morning Cry",
+      "artist": "Flea",
+      "artist_slug": "flea",
+      "plays": 1
+    },
+    {
+      "name": "Traffic Lights (feat. Thom Yorke)",
+      "artist": "Flea",
+      "artist_slug": "flea",
+      "plays": 1
+    },
+    {
+      "name": "A Plea",
+      "artist": "Flea",
+      "artist_slug": "flea",
+      "plays": 1
+    },
+    {
+      "name": "Golden Wingship",
+      "artist": "Flea",
+      "artist_slug": "flea",
+      "plays": 1
+    },
+    {
+      "name": "Great Stone - Rarities Version",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "We're Only Gonna Die - Live At Kommotion, San Francisco, 1994",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "House Of Suffering - Rarities Version",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Badfish - Rarities Version",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "STP - Rarities Version",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Pawn Dub - Rarities Version",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Jailhouse - 1994/Live At The Barn, Riverside",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "New Thrash - 1994/Live At The Barn, Riverside",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Scarlet Begonias - 1994/Live On KUCI, Irvine",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Youth Are Getting Restless - Live On KUCI, Irvine, 1994",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Voodoo (Part 2) - Rarities Version",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Greatest Hits - Extended Rarities Version",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Lou Makes Friends - Rarities Version",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "One Cup Of Coffee / Judge Not - Rarities Version",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Farther I Go - Rarities Version",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Mic Control - Rarities Version",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Angelo - Rarities Version",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Get Out! - Acoustic Version",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Shame In Dem Game - Rarities Version",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "KXLU Interview - Live On The Air/1991",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "91 Freestyle - Rarities Version",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "I'm Not A Loser - Rarities Version",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Smoke Two Joints - Rarities Version",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Johnny Too Bad Freestyle - Rarities Version",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Perfect World - Rarities Version",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Date Rape Stylee - Rarities Version",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Ball And Chain - Demo",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Ebennz Change - Demo",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Down The Line",
+      "artist": "Bo Staloch",
+      "artist_slug": "bo-staloch",
+      "plays": 1
+    },
+    {
+      "name": "Off to the Races",
+      "artist": "Jack Van Cleaf",
+      "artist_slug": "jack-van-cleaf",
+      "plays": 1
+    },
+    {
+      "name": "All That's Left",
+      "artist": "Wild Horses",
+      "artist_slug": "wild-horses",
+      "plays": 1
+    },
+    {
+      "name": "Time With My Sins",
+      "artist": "The Head And The Heart",
+      "artist_slug": "the-head-and-the-heart",
+      "plays": 1
+    },
+    {
+      "name": "God Loves Weirdos",
+      "artist": "Mt. Joy",
+      "artist_slug": "mt-joy",
+      "plays": 1
+    },
+    {
+      "name": "Shade",
+      "artist": "Caamp",
+      "artist_slug": "caamp",
+      "plays": 1
+    },
+    {
+      "name": "Gem State",
+      "artist": "Jack Van Cleaf",
+      "artist_slug": "jack-van-cleaf",
+      "plays": 1
+    },
+    {
+      "name": "American Trail (feat. Noeline Hofmann)",
+      "artist": "Dylan Gossett",
+      "artist_slug": "dylan-gossett",
+      "plays": 1
+    },
+    {
+      "name": "Sioux Falls",
+      "artist": "Wild Horses",
+      "artist_slug": "wild-horses",
+      "plays": 1
+    },
+    {
+      "name": "Green",
+      "artist": "Jack Van Cleaf",
+      "artist_slug": "jack-van-cleaf",
+      "plays": 1
+    },
+    {
+      "name": "The Reason",
+      "artist": "Joelton Mayfield",
+      "artist_slug": "joelton-mayfield",
+      "plays": 1
+    },
+    {
+      "name": "Afterlife",
+      "artist": "Joelton Mayfield",
+      "artist_slug": "joelton-mayfield",
+      "plays": 1
+    },
+    {
+      "name": "The Shore",
+      "artist": "Joelton Mayfield",
+      "artist_slug": "joelton-mayfield",
+      "plays": 1
+    },
+    {
+      "name": "Blame",
+      "artist": "Joelton Mayfield",
+      "artist_slug": "joelton-mayfield",
+      "plays": 1
+    },
+    {
+      "name": "Speechwriter",
+      "artist": "Joelton Mayfield",
+      "artist_slug": "joelton-mayfield",
+      "plays": 1
+    },
+    {
+      "name": "Turpentine (You Know the One)",
+      "artist": "Joelton Mayfield",
+      "artist_slug": "joelton-mayfield",
+      "plays": 1
+    },
+    {
+      "name": "Seneca Creek",
+      "artist": "Charles Wesley Godwin",
+      "artist_slug": "charles-wesley-godwin",
+      "plays": 1
+    },
+    {
+      "name": "It’s The Little Things",
+      "artist": "Charles Wesley Godwin",
+      "artist_slug": "charles-wesley-godwin",
+      "plays": 1
+    },
+    {
+      "name": "Better That Way (feat. Luke Combs)",
+      "artist": "Charles Wesley Godwin",
+      "artist_slug": "charles-wesley-godwin",
+      "plays": 1
+    },
+    {
+      "name": "Jesse",
+      "artist": "Charles Wesley Godwin",
+      "artist_slug": "charles-wesley-godwin",
+      "plays": 1
+    },
+    {
+      "name": "Willing and Able",
+      "artist": "Charles Wesley Godwin",
+      "artist_slug": "charles-wesley-godwin",
+      "plays": 1
+    },
+    {
+      "name": "Hey There Son (feat. Wyatt Flores)",
+      "artist": "Charles Wesley Godwin",
+      "artist_slug": "charles-wesley-godwin",
+      "plays": 1
+    },
+    {
+      "name": "Hallelujah High",
+      "artist": "Charles Wesley Godwin",
+      "artist_slug": "charles-wesley-godwin",
+      "plays": 1
+    },
+    {
+      "name": "Dance in Rain",
+      "artist": "Charles Wesley Godwin",
+      "artist_slug": "charles-wesley-godwin",
+      "plays": 1
+    },
+    {
+      "name": "Temporary Town",
+      "artist": "Charles Wesley Godwin",
+      "artist_slug": "charles-wesley-godwin",
+      "plays": 1
+    },
+    {
+      "name": "Hardwood Floors",
+      "artist": "Charles Wesley Godwin",
+      "artist_slug": "charles-wesley-godwin",
+      "plays": 1
+    },
+    {
+      "name": "Jamie (feat. Charles Wesley Godwin)",
+      "artist": "Zach Bryan",
+      "artist_slug": "zach-bryan",
+      "plays": 1
+    },
+    {
+      "name": "All Again",
+      "artist": "Charles Wesley Godwin",
+      "artist_slug": "charles-wesley-godwin",
+      "plays": 1
+    },
+    {
+      "name": "Better That Way (feat. Luke Combs)",
+      "artist": "Charles Wesley Godwin",
+      "artist_slug": "charles-wesley-godwin",
+      "plays": 1
+    },
+    {
+      "name": "Werewolf",
+      "artist": "Stephen Wilson Jr.",
+      "artist_slug": "stephen-wilson-jr",
+      "plays": 1
+    },
+    {
+      "name": "American Gothic",
+      "artist": "Stephen Wilson Jr.",
+      "artist_slug": "stephen-wilson-jr",
+      "plays": 1
+    },
+    {
+      "name": "patches",
+      "artist": "Stephen Wilson Jr.",
+      "artist_slug": "stephen-wilson-jr",
+      "plays": 1
+    },
+    {
+      "name": "billy",
+      "artist": "Stephen Wilson Jr.",
+      "artist_slug": "stephen-wilson-jr",
+      "plays": 1
+    },
+    {
+      "name": "Cuckoo",
+      "artist": "Stephen Wilson Jr.",
+      "artist_slug": "stephen-wilson-jr",
+      "plays": 1
+    },
+    {
+      "name": "the devil",
+      "artist": "Stephen Wilson Jr.",
+      "artist_slug": "stephen-wilson-jr",
+      "plays": 1
+    },
+    {
+      "name": "I'm A Song - Live at The Print Shop",
+      "artist": "Stephen Wilson Jr.",
+      "artist_slug": "stephen-wilson-jr",
+      "plays": 1
+    },
+    {
+      "name": "Stand By Me - Live at The Print Shop",
+      "artist": "Stephen Wilson Jr.",
+      "artist_slug": "stephen-wilson-jr",
+      "plays": 1
+    },
+    {
+      "name": "Ol' Dood (Pt. II)",
+      "artist": "Sturgill Simpson",
+      "artist_slug": "sturgill-simpson",
+      "plays": 1
+    },
+    {
+      "name": "Epilogue",
+      "artist": "Sturgill Simpson",
+      "artist_slug": "sturgill-simpson",
+      "plays": 1
+    },
+    {
+      "name": "Go in Peace",
+      "artist": "Sturgill Simpson",
+      "artist_slug": "sturgill-simpson",
+      "plays": 1
+    },
+    {
+      "name": "Juanita (feat. Willie Nelson)",
+      "artist": "Sturgill Simpson",
+      "artist_slug": "sturgill-simpson",
+      "plays": 1
+    },
+    {
+      "name": "Sam",
+      "artist": "Sturgill Simpson",
+      "artist_slug": "sturgill-simpson",
+      "plays": 1
+    },
+    {
+      "name": "Played Out",
+      "artist": "Sturgill Simpson",
+      "artist_slug": "sturgill-simpson",
+      "plays": 1
+    },
+    {
+      "name": "Shamrock",
+      "artist": "Sturgill Simpson",
+      "artist_slug": "sturgill-simpson",
+      "plays": 1
+    },
+    {
+      "name": "One in the Saddle, One on the Ground",
+      "artist": "Sturgill Simpson",
+      "artist_slug": "sturgill-simpson",
+      "plays": 1
+    },
+    {
+      "name": "Ol' Dood (Pt. I)",
+      "artist": "Sturgill Simpson",
+      "artist_slug": "sturgill-simpson",
+      "plays": 1
+    },
+    {
+      "name": "Prologue",
+      "artist": "Sturgill Simpson",
+      "artist_slug": "sturgill-simpson",
+      "plays": 1
+    },
+    {
+      "name": "Community (with Clipse, Pusha T & Malice)",
+      "artist": "JID",
+      "artist_slug": "jid",
+      "plays": 1
+    },
+    {
+      "name": "Glory",
+      "artist": "JID",
+      "artist_slug": "jid",
+      "plays": 1
+    },
+    {
+      "name": "YouUgly (with Westside Gunn)",
+      "artist": "JID",
+      "artist_slug": "jid",
+      "plays": 1
+    },
+    {
+      "name": "No Boo (with Jessie Reyez)",
+      "artist": "JID",
+      "artist_slug": "jid",
+      "plays": 1
+    },
+    {
+      "name": "On McAfee (with Baby Kia)",
+      "artist": "JID",
+      "artist_slug": "jid",
+      "plays": 1
+    },
+    {
+      "name": "Sun (with Anycia)",
+      "artist": "JID",
+      "artist_slug": "jid",
+      "plays": 1
+    },
+    {
+      "name": "HEY TONY!",
+      "artist": "JID",
+      "artist_slug": "jid",
+      "plays": 1
+    },
+    {
+      "name": "On Sight",
+      "artist": "Free Nationals",
+      "artist_slug": "free-nationals",
+      "plays": 1
+    },
+    {
+      "name": "Workin Out",
+      "artist": "JID",
+      "artist_slug": "jid",
+      "plays": 1
+    },
+    {
+      "name": "Bruddanem (feat. Lil Durk)",
+      "artist": "JID",
+      "artist_slug": "jid",
+      "plays": 1
+    },
+    {
+      "name": "Kody Blu 31",
+      "artist": "JID",
+      "artist_slug": "jid",
+      "plays": 1
+    },
+    {
+      "name": "Raydar",
+      "artist": "JID",
+      "artist_slug": "jid",
+      "plays": 1
+    },
+    {
+      "name": "NEVER",
+      "artist": "JID",
+      "artist_slug": "jid",
+      "plays": 1
+    },
+    {
+      "name": "151 Rum",
+      "artist": "JID",
+      "artist_slug": "jid",
+      "plays": 1
+    },
+    {
+      "name": "Fuel",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 1
+    },
+    {
+      "name": "Surround Sound (feat. 21 Savage & Baby Tate)",
+      "artist": "JID",
+      "artist_slug": "jid",
+      "plays": 1
+    },
+    {
+      "name": "Enemy (with JID) - from the series Arcane League of Legends",
+      "artist": "Imagine Dragons",
+      "artist_slug": "imagine-dragons",
+      "plays": 1
+    },
+    {
+      "name": "Baby C'mon",
+      "artist": "Ol' Dirty Bastard",
+      "artist_slug": "ol-dirty-bastard",
+      "plays": 1
+    },
+    {
+      "name": "Keep Their Heads Ringin'",
+      "artist": "Dr. Dre",
+      "artist_slug": "dr-dre",
+      "plays": 1
+    },
+    {
+      "name": "Bring The Pain",
+      "artist": "Method Man",
+      "artist_slug": "method-man",
+      "plays": 1
+    },
+    {
+      "name": "C.R.E.A.M. (Cash Rules Everything Around Me)",
+      "artist": "Wu-Tang Clan",
+      "artist_slug": "wu-tang-clan",
+      "plays": 1
+    },
+    {
+      "name": "Duel Of The Iron Mic",
+      "artist": "GZA",
+      "artist_slug": "gza",
+      "plays": 1
+    },
+    {
+      "name": "Rebel Of The Underground",
+      "artist": "2Pac",
+      "artist_slug": "2pac",
+      "plays": 1
+    },
+    {
+      "name": "Gangsta Gangsta",
+      "artist": "N.W.A.",
+      "artist_slug": "nwa",
+      "plays": 1
+    },
+    {
+      "name": "Fuck Wit Dre Day (And Everybody's Celebratin')",
+      "artist": "Dr. Dre",
+      "artist_slug": "dr-dre",
+      "plays": 1
+    },
+    {
+      "name": "Yoke the Joker",
+      "artist": "Naughty By Nature",
+      "artist_slug": "naughty-by-nature",
+      "plays": 1
+    },
+    {
+      "name": "Hippa to da Hoppa",
+      "artist": "Ol' Dirty Bastard",
+      "artist_slug": "ol-dirty-bastard",
+      "plays": 1
+    },
+    {
+      "name": "Shadowboxin'",
+      "artist": "GZA",
+      "artist_slug": "gza",
+      "plays": 1
+    },
+    {
+      "name": "God Bless The Dead",
+      "artist": "2Pac",
+      "artist_slug": "2pac",
+      "plays": 1
+    },
+    {
+      "name": "5 Deadly Venomz",
+      "artist": "2Pac",
+      "artist_slug": "2pac",
+      "plays": 1
+    },
+    {
+      "name": "Papa'z Song",
+      "artist": "2Pac",
+      "artist_slug": "2pac",
+      "plays": 1
+    },
+    {
+      "name": "I Get Around",
+      "artist": "2Pac",
+      "artist_slug": "2pac",
+      "plays": 1
+    },
+    {
+      "name": "Strictly 4 My N.I.G.G.A.Z...",
+      "artist": "2Pac",
+      "artist_slug": "2pac",
+      "plays": 1
+    },
+    {
+      "name": "Keep Ya Head Up",
+      "artist": "2Pac",
+      "artist_slug": "2pac",
+      "plays": 1
+    },
+    {
+      "name": "Representin' 93",
+      "artist": "2Pac",
+      "artist_slug": "2pac",
+      "plays": 1
+    },
+    {
+      "name": "Guess Who's Back",
+      "artist": "2Pac",
+      "artist_slug": "2pac",
+      "plays": 1
+    },
+    {
+      "name": "Strugglin'",
+      "artist": "2Pac",
+      "artist_slug": "2pac",
+      "plays": 1
+    },
+    {
+      "name": "Peep Game",
+      "artist": "2Pac",
+      "artist_slug": "2pac",
+      "plays": 1
+    },
+    {
+      "name": "Souljah's Revenge",
+      "artist": "2Pac",
+      "artist_slug": "2pac",
+      "plays": 1
+    },
+    {
+      "name": "Last Wordz",
+      "artist": "2Pac",
+      "artist_slug": "2pac",
+      "plays": 1
+    },
+    {
+      "name": "Something 2 Die 4 - Interlude",
+      "artist": "2Pac",
+      "artist_slug": "2pac",
+      "plays": 1
+    },
+    {
+      "name": "Holler If Ya' Hear Me",
+      "artist": "2Pac",
+      "artist_slug": "2pac",
+      "plays": 1
+    },
     {
       "name": "Tha' Lunatic",
       "artist": "2Pac",
