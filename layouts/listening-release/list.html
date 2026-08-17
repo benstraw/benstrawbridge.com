@@ -1,0 +1,4 @@
+{{ define "main" }}
+<div class="p-2 max-w-screen-lg mx-auto"><header class="prose lg:prose-xl dark:prose-invert"><h1>New to my atlas</h1>{{ .Content }}</header>
+{{ if .Pages }}<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-6">{{ range .Pages.ByDate.Reverse }}{{ $r := .Params.record }}<a href="{{ .RelPermalink }}" class="rounded bg-neutral-100 dark:bg-neutral-800 p-4 hover:ring-2 hover:ring-emerald-500"><span class="font-bold block">{{ .Title }}</span><span class="text-sm">{{ $r.primary_artist_name }}</span><span class="text-xs text-neutral-500 block mt-2">Added {{ $r.first_listened }}</span></a>{{ end }}</div>{{ else }}<p class="mt-8">No release has crossed the album-session threshold yet. The page will populate automatically when one does.</p>{{ end }}</div>
+{{ end }}
