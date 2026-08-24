@@ -18055,9 +18055,9 @@
     "id": "0UyhOIzQ8yAuLmVlEw1Lo5",
     "name": "Okonski",
     "spotify_url": "https://open.spotify.com/artist/0UyhOIzQ8yAuLmVlEw1Lo5",
-    "total_plays": 5,
+    "total_plays": 10,
     "first_seen": "2026-03-11",
-    "last_seen": "2026-08-16",
+    "last_seen": "2026-08-22",
     "genres": [],
     "images": [
       {
@@ -18078,6 +18078,18 @@
     ],
     "top_tracks": [
       {
+        "name": "Wind Or Vertigo",
+        "album": "Entrance Music",
+        "spotify_url": "https://open.spotify.com/track/3nd4JyjkxQodjjvQd5Gmgd",
+        "plays": 2
+      },
+      {
+        "name": "Summer Storm",
+        "album": "Entrance Music",
+        "spotify_url": "https://open.spotify.com/track/0Qp66EJS2DalnLkRKmu7mX",
+        "plays": 2
+      },
+      {
         "name": "October",
         "album": "Entrance Music",
         "spotify_url": "https://open.spotify.com/track/2H5IEbMZnikxlbHki7m3Su",
@@ -18090,12 +18102,6 @@
         "plays": 1
       },
       {
-        "name": "Wind Or Vertigo",
-        "album": "Entrance Music",
-        "spotify_url": "https://open.spotify.com/track/3nd4JyjkxQodjjvQd5Gmgd",
-        "plays": 1
-      },
-      {
         "name": "Lakebridge",
         "album": "Entrance Music",
         "spotify_url": "https://open.spotify.com/track/7xzqgS9xNlvZi2AZvGBa7m",
@@ -18105,6 +18111,18 @@
         "name": "Flying",
         "album": "Flying",
         "spotify_url": "https://open.spotify.com/track/243nAji1iUHiGkcKWjyFyD",
+        "plays": 1
+      },
+      {
+        "name": "Easy",
+        "album": "Easy",
+        "spotify_url": "https://open.spotify.com/track/2S1gfyckmJTglKEDgXNqMt",
+        "plays": 1
+      },
+      {
+        "name": "Dark Moon",
+        "album": "Magnolia",
+        "spotify_url": "https://open.spotify.com/track/5mxyCS71pwJP71GOGNTyFE",
         "plays": 1
       }
     ]
@@ -23504,9 +23522,9 @@
     "id": "1j3dtntfKtyjvsyr7TpzoF",
     "name": "Momoko Gill",
     "spotify_url": "https://open.spotify.com/artist/1j3dtntfKtyjvsyr7TpzoF",
-    "total_plays": 1,
+    "total_plays": 2,
     "first_seen": "2026-04-05",
-    "last_seen": "2026-04-05",
+    "last_seen": "2026-08-17",
     "genres": [
       "soul jazz"
     ],
@@ -23532,6 +23550,12 @@
         "name": "Heavy",
         "album": "Heavy",
         "spotify_url": "https://open.spotify.com/track/4YGLCXZTvDZjIPtjvC2u5s",
+        "plays": 1
+      },
+      {
+        "name": "When Palestine Is Free",
+        "album": "Momoko",
+        "spotify_url": "https://open.spotify.com/track/6CxjhgT2bsMlBjMDxX5NtD",
         "plays": 1
       }
     ]
@@ -23613,9 +23637,9 @@
     "id": "3apnkNwaHdhoNIvKVMiC5S",
     "name": "Gregory Uhlmann",
     "spotify_url": "https://open.spotify.com/artist/3apnkNwaHdhoNIvKVMiC5S",
-    "total_plays": 4,
+    "total_plays": 5,
     "first_seen": "2026-04-05",
-    "last_seen": "2026-08-16",
+    "last_seen": "2026-08-22",
     "genres": [
       "ambient jazz"
     ],
@@ -23641,7 +23665,7 @@
         "name": "The Fool on the Hill",
         "album": "Uhlmann Johnson Wilkes",
         "spotify_url": "https://open.spotify.com/track/3T9p47fkoYc8QdJF9JlT9X",
-        "plays": 4
+        "plays": 5
       }
     ]
   },
@@ -44880,9 +44904,9 @@
     "id": "3cwVFmQ6mcUoGR6ZvIPuZ4",
     "name": "Nicholas Payton",
     "spotify_url": "https://open.spotify.com/artist/3cwVFmQ6mcUoGR6ZvIPuZ4",
-    "total_plays": 3,
+    "total_plays": 4,
     "first_seen": "2026-08-16",
-    "last_seen": "2026-08-16",
+    "last_seen": "2026-08-17",
     "genres": [
       "jazz"
     ],
@@ -44905,16 +44929,16 @@
     ],
     "top_tracks": [
       {
+        "name": "Freddie Freeloader",
+        "album": "A Supreme Blue",
+        "spotify_url": "https://open.spotify.com/track/1OteLQSr8DWef4uiPbJwx1",
+        "plays": 2
+      },
+      {
         "name": "Flamenco Sketches",
         "album": "A Supreme Blue",
         "spotify_url": "https://open.spotify.com/track/7idEBpl5KAuvyY2F1Mb2Cx",
         "plays": 2
-      },
-      {
-        "name": "Freddie Freeloader",
-        "album": "A Supreme Blue",
-        "spotify_url": "https://open.spotify.com/track/1OteLQSr8DWef4uiPbJwx1",
-        "plays": 1
       }
     ]
   },
@@ -44922,9 +44946,9 @@
     "id": "5qRtt9DQNy64ig66kCWFjX",
     "name": "Robohands",
     "spotify_url": "https://open.spotify.com/artist/5qRtt9DQNy64ig66kCWFjX",
-    "total_plays": 1,
+    "total_plays": 2,
     "first_seen": "2026-08-16",
-    "last_seen": "2026-08-16",
+    "last_seen": "2026-08-22",
     "genres": [
       "indie jazz",
       "nu jazz",
@@ -44952,6 +44976,12 @@
         "name": "Infinite Energetic",
         "album": "Infinite Energetic",
         "spotify_url": "https://open.spotify.com/track/3MPZqc1JRTCPI4KE6zGB6I",
+        "plays": 1
+      },
+      {
+        "name": "Serenity Through Forced Ego Destruction",
+        "album": "Serenity Through Forced Ego Destruction",
+        "spotify_url": "https://open.spotify.com/track/2KJBRHXK3xqWPjTD2hcR8R",
         "plays": 1
       }
     ]
@@ -45124,9 +45154,9 @@
     "id": "2TSuAchdgVzsAa9wDK1IeT",
     "name": "Julian Lage",
     "spotify_url": "https://open.spotify.com/artist/2TSuAchdgVzsAa9wDK1IeT",
-    "total_plays": 1,
+    "total_plays": 2,
     "first_seen": "2026-08-16",
-    "last_seen": "2026-08-16",
+    "last_seen": "2026-08-17",
     "genres": [
       "jazz"
     ],
@@ -45152,6 +45182,12 @@
         "name": "Night Shade",
         "album": "Scenes From Above",
         "spotify_url": "https://open.spotify.com/track/3R8kklHm29K3QuUWQYwhy3",
+        "plays": 1
+      },
+      {
+        "name": "Something More",
+        "album": "Scenes From Above",
+        "spotify_url": "https://open.spotify.com/track/3YM5xsdAn0yMqCwOeyGa3K",
         "plays": 1
       }
     ]
@@ -45750,6 +45786,408 @@
         "name": "As High as Wu-Tang Get (feat. Ol' Dirty Bastard, GZA & Method Man)",
         "album": "Wu-Tang Forever",
         "spotify_url": "https://open.spotify.com/track/1XbqOF6nx3tJsyQjXRh9ux",
+        "plays": 1
+      }
+    ]
+  },
+  "phi-psonics": {
+    "id": "2fd1Ou8fG8CtsHLBDxM3l0",
+    "name": "Phi-Psonics",
+    "spotify_url": "https://open.spotify.com/artist/2fd1Ou8fG8CtsHLBDxM3l0",
+    "total_plays": 1,
+    "first_seen": "2026-08-22",
+    "last_seen": "2026-08-22",
+    "genres": [
+      "ambient jazz",
+      "jazz"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb834c3bcc5dbd90b13f327f68",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174834c3bcc5dbd90b13f327f68",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178834c3bcc5dbd90b13f327f68",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Healing Time",
+        "album": "Expanding To One",
+        "spotify_url": "https://open.spotify.com/track/5byOpJUx0mJ82Prbs9Vy85",
+        "plays": 1
+      }
+    ]
+  },
+  "domi-jd-beck": {
+    "id": "4UpA1KitN1RgIZVyWDbZ0U",
+    "name": "DOMi & JD BECK",
+    "spotify_url": "https://open.spotify.com/artist/4UpA1KitN1RgIZVyWDbZ0U",
+    "total_plays": 1,
+    "first_seen": "2026-08-17",
+    "last_seen": "2026-08-17",
+    "genres": [
+      "jazz fusion"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb9e5003ce9038efb48bd9176f",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051749e5003ce9038efb48bd9176f",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1789e5003ce9038efb48bd9176f",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "ÉPiPHANiE",
+        "album": "WHO ASKED?",
+        "spotify_url": "https://open.spotify.com/track/1EShTy5KwE808i9wBIDFTd",
+        "plays": 1
+      }
+    ]
+  },
+  "sinsuke-fujieda-group": {
+    "id": "2sCzApKT9AXadHgZmRXu8K",
+    "name": "Sinsuke Fujieda Group",
+    "spotify_url": "https://open.spotify.com/artist/2sCzApKT9AXadHgZmRXu8K",
+    "total_plays": 1,
+    "first_seen": "2026-08-17",
+    "last_seen": "2026-08-17",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebd2dc3752e871d224740fcc1a",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174d2dc3752e871d224740fcc1a",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178d2dc3752e871d224740fcc1a",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Fukushima",
+        "album": "FUKUSHIMA",
+        "spotify_url": "https://open.spotify.com/track/6PcSYu6q7beFgzSCz94Gj2",
+        "plays": 1
+      }
+    ]
+  },
+  "yussef-dayes": {
+    "id": "2rspptKP0lPBdlJJAJHqht",
+    "name": "Yussef Dayes",
+    "spotify_url": "https://open.spotify.com/artist/2rspptKP0lPBdlJJAJHqht",
+    "total_plays": 1,
+    "first_seen": "2026-08-17",
+    "last_seen": "2026-08-17",
+    "genres": [
+      "nu jazz",
+      "indie jazz",
+      "jazz fusion"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb30c9e2fb48c800af589de019",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517430c9e2fb48c800af589de019",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17830c9e2fb48c800af589de019",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Turquoise Galaxy",
+        "album": "Black Classical Music",
+        "spotify_url": "https://open.spotify.com/track/443JNQpv6lz4wxnHZKV7wH",
+        "plays": 1
+      }
+    ]
+  },
+  "angine-de-poitrine": {
+    "id": "13NmOYYfvONNZ9mn2qn8P2",
+    "name": "Angine de Poitrine",
+    "spotify_url": "https://open.spotify.com/artist/13NmOYYfvONNZ9mn2qn8P2",
+    "total_plays": 1,
+    "first_seen": "2026-08-17",
+    "last_seen": "2026-08-17",
+    "genres": [
+      "math rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebc2c1d5a64ecc62ab882a62f2",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174c2c1d5a64ecc62ab882a62f2",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178c2c1d5a64ecc62ab882a62f2",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Mata Zyklek",
+        "album": "Vol.II",
+        "spotify_url": "https://open.spotify.com/track/0gOaJ646z6OJv4lLDpjfDt",
+        "plays": 1
+      }
+    ]
+  },
+  "hermanos-gutierrez": {
+    "id": "73mSg0dykFyhvU96tb5xQV",
+    "name": "Hermanos Gutiérrez",
+    "spotify_url": "https://open.spotify.com/artist/73mSg0dykFyhvU96tb5xQV",
+    "total_plays": 1,
+    "first_seen": "2026-08-17",
+    "last_seen": "2026-08-17",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebde8a185ee5eef8c0e73fe3e5",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174de8a185ee5eef8c0e73fe3e5",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178de8a185ee5eef8c0e73fe3e5",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Canto Andino",
+        "album": "Canto Andino",
+        "spotify_url": "https://open.spotify.com/track/2iULzJ4RcJUHGbYRZgc54P",
+        "plays": 1
+      }
+    ]
+  },
+  "peter-somuah": {
+    "id": "556nzhldvx3leEVjIBDMqU",
+    "name": "Peter Somuah",
+    "spotify_url": "https://open.spotify.com/artist/556nzhldvx3leEVjIBDMqU",
+    "total_plays": 1,
+    "first_seen": "2026-08-17",
+    "last_seen": "2026-08-17",
+    "genres": [
+      "soul jazz",
+      "highlife",
+      "indie jazz"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb4d354651a9a07ec84f9345e4",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051744d354651a9a07ec84f9345e4",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1784d354651a9a07ec84f9345e4",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "300 Meters",
+        "album": "Walking Distance",
+        "spotify_url": "https://open.spotify.com/track/5XXoZedI9Zo6vPxEREIfT8",
+        "plays": 1
+      }
+    ]
+  },
+  "jeff-parker": {
+    "id": "3AaY5O1qS0tcNPHwwMwplt",
+    "name": "Jeff Parker",
+    "spotify_url": "https://open.spotify.com/artist/3AaY5O1qS0tcNPHwwMwplt",
+    "total_plays": 1,
+    "first_seen": "2026-08-17",
+    "last_seen": "2026-08-17",
+    "genres": [
+      "ambient jazz",
+      "experimental jazz",
+      "free jazz"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebce3da339ce5013cd93217ba8",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174ce3da339ce5013cd93217ba8",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178ce3da339ce5013cd93217ba8",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Like Swimwear (part one)",
+        "album": "Like Swimwear (part one)",
+        "spotify_url": "https://open.spotify.com/track/1ttks5ebqr2Ghk3RoTEHqX",
+        "plays": 1
+      },
+      {
+        "name": "Off Om",
+        "album": "Forfolks",
+        "spotify_url": "https://open.spotify.com/track/4ofUgPvThX5qfzlr0tOSBr",
+        "plays": 1
+      }
+    ]
+  },
+  "yttling-jazz": {
+    "id": "0sHY32geV56IzTbEEomMFG",
+    "name": "Yttling Jazz",
+    "spotify_url": "https://open.spotify.com/artist/0sHY32geV56IzTbEEomMFG",
+    "total_plays": 1,
+    "first_seen": "2026-08-17",
+    "last_seen": "2026-08-17",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb9653bf8ba96d6bf6f3782781",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051749653bf8ba96d6bf6f3782781",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1789653bf8ba96d6bf6f3782781",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Illegal Hit",
+        "album": "Illegal Hit",
+        "spotify_url": "https://open.spotify.com/track/0M7WI5rF4k2Y8IbmMcaQwb",
+        "plays": 1
+      }
+    ]
+  },
+  "owelu-dreamhouse": {
+    "id": "3RnVGpfltVK29cKnGrIBXs",
+    "name": "Owelu Dreamhouse",
+    "spotify_url": "https://open.spotify.com/artist/3RnVGpfltVK29cKnGrIBXs",
+    "total_plays": 1,
+    "first_seen": "2026-08-17",
+    "last_seen": "2026-08-17",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb9090e022091b6951a3652c90",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051749090e022091b6951a3652c90",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1789090e022091b6951a3652c90",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Kellen",
+        "album": "Owelu Dreamhouse",
+        "spotify_url": "https://open.spotify.com/track/5JF3jaiN4x6PK15HYnOSc9",
+        "plays": 1
+      }
+    ]
+  },
+  "charles-lloyd": {
+    "id": "0GC1oqEWpiAjfE7jm5LQO5",
+    "name": "Charles Lloyd",
+    "spotify_url": "https://open.spotify.com/artist/0GC1oqEWpiAjfE7jm5LQO5",
+    "total_plays": 1,
+    "first_seen": "2026-08-17",
+    "last_seen": "2026-08-17",
+    "genres": [
+      "jazz",
+      "free jazz"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebc552a7771e88bee9c7a203df",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174c552a7771e88bee9c7a203df",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178c552a7771e88bee9c7a203df",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Jai Ganga",
+        "album": "Sangam & Friends",
+        "spotify_url": "https://open.spotify.com/track/0dT12w7aukOjed39Ry0Atw",
         "plays": 1
       }
     ]

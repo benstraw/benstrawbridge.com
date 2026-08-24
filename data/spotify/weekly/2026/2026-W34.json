@@ -1,0 +1,568 @@
+{
+  "week": "2026-W34",
+  "title": "Week of Aug 17, 2026",
+  "year": 2026,
+  "week_num": 34,
+  "date_start": "2026-08-17",
+  "date_end": "2026-08-23",
+  "total_plays": 21,
+  "unique_artists": 17,
+  "topArtistName": "Okonski",
+  "topArtistImages": [
+    {
+      "url": "https://i.scdn.co/image/ab6761610000e5eb9a08cd5d8997331acc191e7d",
+      "height": 640,
+      "width": 640
+    },
+    {
+      "url": "https://i.scdn.co/image/ab676161000051749a08cd5d8997331acc191e7d",
+      "height": 320,
+      "width": 320
+    },
+    {
+      "url": "https://i.scdn.co/image/ab6761610000f1789a08cd5d8997331acc191e7d",
+      "height": 160,
+      "width": 160
+    }
+  ],
+  "top_genres": [
+    {
+      "name": "ambient jazz",
+      "plays": 4
+    },
+    {
+      "name": "jazz",
+      "plays": 4
+    },
+    {
+      "name": "indie jazz",
+      "plays": 3
+    },
+    {
+      "name": "nu jazz",
+      "plays": 2
+    },
+    {
+      "name": "jazz fusion",
+      "plays": 2
+    },
+    {
+      "name": "soul jazz",
+      "plays": 2
+    },
+    {
+      "name": "free jazz",
+      "plays": 2
+    },
+    {
+      "name": "math rock",
+      "plays": 1
+    },
+    {
+      "name": "highlife",
+      "plays": 1
+    },
+    {
+      "name": "experimental jazz",
+      "plays": 1
+    }
+  ],
+  "top_artists": [
+    {
+      "slug": "okonski",
+      "name": "Okonski",
+      "plays": 5,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb9a08cd5d8997331acc191e7d",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051749a08cd5d8997331acc191e7d",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1789a08cd5d8997331acc191e7d",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "phi-psonics",
+      "name": "Phi-Psonics",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb834c3bcc5dbd90b13f327f68",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174834c3bcc5dbd90b13f327f68",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178834c3bcc5dbd90b13f327f68",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "robohands",
+      "name": "Robohands",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eba2c7100de0a339744ff63244",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174a2c7100de0a339744ff63244",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178a2c7100de0a339744ff63244",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "gregory-uhlmann",
+      "name": "Gregory Uhlmann",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb88dd0d84a9572923ea1045de",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517488dd0d84a9572923ea1045de",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17888dd0d84a9572923ea1045de",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "domi-jd-beck",
+      "name": "DOMi & JD BECK",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb9e5003ce9038efb48bd9176f",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051749e5003ce9038efb48bd9176f",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1789e5003ce9038efb48bd9176f",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "sinsuke-fujieda-group",
+      "name": "Sinsuke Fujieda Group",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebd2dc3752e871d224740fcc1a",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174d2dc3752e871d224740fcc1a",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178d2dc3752e871d224740fcc1a",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "julian-lage",
+      "name": "Julian Lage",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb3c79f8b04e49c6757124e44d",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051743c79f8b04e49c6757124e44d",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1783c79f8b04e49c6757124e44d",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "yussef-dayes",
+      "name": "Yussef Dayes",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb30c9e2fb48c800af589de019",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517430c9e2fb48c800af589de019",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17830c9e2fb48c800af589de019",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "angine-de-poitrine",
+      "name": "Angine de Poitrine",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebc2c1d5a64ecc62ab882a62f2",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174c2c1d5a64ecc62ab882a62f2",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178c2c1d5a64ecc62ab882a62f2",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "hermanos-gutierrez",
+      "name": "Hermanos Gutiérrez",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebde8a185ee5eef8c0e73fe3e5",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174de8a185ee5eef8c0e73fe3e5",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178de8a185ee5eef8c0e73fe3e5",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "peter-somuah",
+      "name": "Peter Somuah",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb4d354651a9a07ec84f9345e4",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051744d354651a9a07ec84f9345e4",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1784d354651a9a07ec84f9345e4",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "jeff-parker",
+      "name": "Jeff Parker",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebce3da339ce5013cd93217ba8",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174ce3da339ce5013cd93217ba8",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178ce3da339ce5013cd93217ba8",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "momoko-gill",
+      "name": "Momoko Gill",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb922fc2287a144da0a8ae3e32",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174922fc2287a144da0a8ae3e32",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178922fc2287a144da0a8ae3e32",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "yttling-jazz",
+      "name": "Yttling Jazz",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb9653bf8ba96d6bf6f3782781",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051749653bf8ba96d6bf6f3782781",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1789653bf8ba96d6bf6f3782781",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "owelu-dreamhouse",
+      "name": "Owelu Dreamhouse",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb9090e022091b6951a3652c90",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051749090e022091b6951a3652c90",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1789090e022091b6951a3652c90",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "charles-lloyd",
+      "name": "Charles Lloyd",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebc552a7771e88bee9c7a203df",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174c552a7771e88bee9c7a203df",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178c552a7771e88bee9c7a203df",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "nicholas-payton",
+      "name": "Nicholas Payton",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb73753f065b66c415b5761c97",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517473753f065b66c415b5761c97",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17873753f065b66c415b5761c97",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    }
+  ],
+  "top_tracks": [
+    {
+      "name": "Summer Storm",
+      "artist": "Okonski",
+      "artist_slug": "okonski",
+      "plays": 2
+    },
+    {
+      "name": "Healing Time",
+      "artist": "Phi-Psonics",
+      "artist_slug": "phi-psonics",
+      "plays": 1
+    },
+    {
+      "name": "Serenity Through Forced Ego Destruction",
+      "artist": "Robohands",
+      "artist_slug": "robohands",
+      "plays": 1
+    },
+    {
+      "name": "The Fool on the Hill",
+      "artist": "Gregory Uhlmann",
+      "artist_slug": "gregory-uhlmann",
+      "plays": 1
+    },
+    {
+      "name": "Wind Or Vertigo",
+      "artist": "Okonski",
+      "artist_slug": "okonski",
+      "plays": 1
+    },
+    {
+      "name": "ÉPiPHANiE",
+      "artist": "DOMi & JD BECK",
+      "artist_slug": "domi-jd-beck",
+      "plays": 1
+    },
+    {
+      "name": "Fukushima",
+      "artist": "Sinsuke Fujieda Group",
+      "artist_slug": "sinsuke-fujieda-group",
+      "plays": 1
+    },
+    {
+      "name": "Something More",
+      "artist": "Julian Lage",
+      "artist_slug": "julian-lage",
+      "plays": 1
+    },
+    {
+      "name": "Turquoise Galaxy",
+      "artist": "Yussef Dayes",
+      "artist_slug": "yussef-dayes",
+      "plays": 1
+    },
+    {
+      "name": "Mata Zyklek",
+      "artist": "Angine de Poitrine",
+      "artist_slug": "angine-de-poitrine",
+      "plays": 1
+    },
+    {
+      "name": "Easy",
+      "artist": "Okonski",
+      "artist_slug": "okonski",
+      "plays": 1
+    },
+    {
+      "name": "Canto Andino",
+      "artist": "Hermanos Gutiérrez",
+      "artist_slug": "hermanos-gutierrez",
+      "plays": 1
+    },
+    {
+      "name": "300 Meters",
+      "artist": "Peter Somuah",
+      "artist_slug": "peter-somuah",
+      "plays": 1
+    },
+    {
+      "name": "Like Swimwear (part one)",
+      "artist": "Jeff Parker",
+      "artist_slug": "jeff-parker",
+      "plays": 1
+    },
+    {
+      "name": "When Palestine Is Free",
+      "artist": "Momoko Gill",
+      "artist_slug": "momoko-gill",
+      "plays": 1
+    },
+    {
+      "name": "Illegal Hit",
+      "artist": "Yttling Jazz",
+      "artist_slug": "yttling-jazz",
+      "plays": 1
+    },
+    {
+      "name": "Dark Moon",
+      "artist": "Okonski",
+      "artist_slug": "okonski",
+      "plays": 1
+    },
+    {
+      "name": "Kellen",
+      "artist": "Owelu Dreamhouse",
+      "artist_slug": "owelu-dreamhouse",
+      "plays": 1
+    },
+    {
+      "name": "Jai Ganga",
+      "artist": "Charles Lloyd",
+      "artist_slug": "charles-lloyd",
+      "plays": 1
+    },
+    {
+      "name": "Freddie Freeloader",
+      "artist": "Nicholas Payton",
+      "artist_slug": "nicholas-payton",
+      "plays": 1
+    }
+  ]
+}
