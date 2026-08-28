@@ -1,0 +1,21 @@
+{{ define "main" }}
+{{ $g := .Params.record }}
+<article class="p-2 max-w-screen-lg mx-auto">
+  <header class="prose lg:prose-xl dark:prose-invert max-w-none"><p class="text-xs uppercase tracking-[0.18em] text-indigo-500 font-bold">My listening atlas · Genre</p><h1>{{ .Title }}</h1>{{ with $g.summary }}<p class="lead">{{ . }}</p>{{ end }}</header>
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
+    <main class="md:col-span-2 prose dark:prose-invert max-w-none">
+      {{ with .Params.personalNote }}<h2>My note</h2>{{ . | markdownify }}{{ end }}
+      {{ with $g.top_artists }}<h2>Top artists</h2><ol>{{ range . }}<li><a href="{{ relURL (printf "/listening/artists/%s/" .slug) }}">{{ .name }}</a> — {{ .plays }} plays</li>{{ end }}</ol>{{ end }}
+      {{ with $g.top_tracks }}<h2>Top tracks</h2><ol>{{ range . }}<li>{{ .name }} — <a href="{{ relURL (printf "/listening/artists/%s/" .artist_slug) }}">{{ .artist }}</a> ({{ .plays }}×)</li>{{ end }}</ol>{{ end }}
+      {{ with $g.listened_releases }}<h2>Listened releases</h2><ul>{{ range . }}<li><a href="{{ relURL (printf "/listening/releases/%s/" .slug) }}">{{ .name }}</a></li>{{ end }}</ul>{{ end }}
+    </main>
+    <aside>
+      <div class="rounded bg-neutral-100 dark:bg-neutral-800 p-4 text-sm"><strong class="text-3xl block">{{ $g.play_count }}</strong>plays · {{ $g.unique_artist_count }} artists<br>{{ with $g.first_seen }}{{ . }}{{ end }}{{ with $g.last_seen }} – {{ . }}{{ end }}</div>
+      {{ with $g.parent_slug }}<p class="mt-4 text-sm">Curated parent: <a class="underline" href="{{ relURL (printf "/musical-genres/%s/" .) }}">{{ . | humanize | title }}</a></p>{{ end }}
+      {{ with $g.child_slugs }}<h2 class="font-bold mt-4">Curated children</h2><ul class="text-sm">{{ range . }}<li><a class="underline" href="{{ relURL (printf "/musical-genres/%s/" .) }}">{{ . | humanize | title }}</a></li>{{ end }}</ul>{{ end }}
+      {{ with $g.listening_neighbors }}<h2 class="font-bold mt-4">Nearby in my listening</h2><ul class="text-sm">{{ range . }}<li><a class="underline" href="{{ relURL (printf "/musical-genres/%s/" .slug) }}">{{ .name }}</a> · {{ .shared_artists }} shared artists</li>{{ end }}</ul>{{ end }}
+      {{ with $g.attribution }}<p class="text-xs mt-4">Description source: <a href="{{ .page_url }}">{{ .page_title | default .source }}</a>{{ with .license }} · {{ . }}{{ end }} · retrieved {{ .retrieved_at }}</p>{{ end }}
+    </aside>
+  </div>
+</article>
+{{ end }}

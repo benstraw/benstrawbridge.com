@@ -1,160 +1,18 @@
 {{ define "main" }}
 <div class="p-2 max-w-screen-lg mx-auto">
-  {{- partial "content-header.html" . -}}
-  <div class="mt-4 prose max-w-none lg:prose-lg dark:prose-invert">
-    {{ .Content }}
-  </div>
+  {{ partial "content-header.html" . }}
+  <div class="mt-4 prose max-w-none lg:prose-lg dark:prose-invert">{{ .Content }}</div>
 
-  {{- $weeks := where .Site.RegularPages "Type" "listening-weekly" -}}
-  {{- if gt (len $weeks) 0 -}}
-  <section class="mt-8">
-    <h2 class="text-2xl font-bold mb-4">Recent Weeks</h2>
-    {{/* 1 / 2 / 4 columns — never 3, so the double-wide cards always tile evenly.
-         Only the first row goes double: two of the four columns each at lg, and
-         the single pair of columns at md. */}}
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-      {{- range $i, $w := first 6 ($weeks.ByDate.Reverse) -}}
-        {{- $wideFrom := "" -}}
-        {{- if eq $i 0 -}}{{- $wideFrom = "md" -}}{{- else if eq $i 1 -}}{{- $wideFrom = "lg" -}}{{- end -}}
-        {{- partial "card-weekly.html" (dict "page" $w "wideFrom" $wideFrom) -}}
-      {{- end -}}
-    </div>
-    {{- if gt (len $weeks) 6 -}}
-    <p class="mt-4 text-sm"><a href="{{ relURL "/listening/weekly/" }}" class="underline">All weekly archives →</a></p>
-    {{- end -}}
-  </section>
-  {{- end -}}
+  {{ $weeks := where .Site.RegularPages "Type" "listening-weekly" }}
+  {{ with $weeks }}<section class="mt-8"><h2 class="text-2xl font-bold mb-4">Recent weeks</h2><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">{{ range $i, $w := first 6 (.ByDate.Reverse) }}{{ $wideFrom := "" }}{{ if eq $i 0 }}{{ $wideFrom = "md" }}{{ else if eq $i 1 }}{{ $wideFrom = "lg" }}{{ end }}{{ partial "card-weekly.html" (dict "page" $w "wideFrom" $wideFrom) }}{{ end }}</div><p class="mt-4 text-sm"><a class="underline" href="{{ relURL "/listening/weekly/" }}">All weekly archives →</a></p></section>{{ end }}
 
-  {{- $artistPages := where .Site.RegularPages "Type" "listening-artist" -}}
-  {{- $latestPlay := time.AsTime "1970-01-01T00:00:00Z" -}}
-  {{- range $year, $weeks := site.Data.spotify.plays -}}
-    {{- range $week, $plays := $weeks -}}
-      {{- range $plays -}}
-        {{- with .played_at -}}
-          {{- $playedAt := time.AsTime . -}}
-          {{- if gt $playedAt $latestPlay -}}
-            {{- $latestPlay = $playedAt -}}
-          {{- end -}}
-        {{- end -}}
-      {{- end -}}
-    {{- end -}}
-  {{- end -}}
-  {{- $recentCutoff := $latestPlay.AddDate 0 -6 0 -}}
-  {{- $recentScratch := newScratch -}}
-  {{- $artistIDSlugs := newScratch -}}
-  {{- range $slug, $artist := site.Data.spotify.artists -}}
-    {{- with $artist.id -}}
-      {{- $artistIDSlugs.Set . $slug -}}
-    {{- end -}}
-  {{- end -}}
-  {{- range $year, $weeks := site.Data.spotify.plays -}}
-    {{- range $week, $plays := $weeks -}}
-      {{- range $plays -}}
-        {{- $play := . -}}
-        {{- with $play.played_at -}}
-          {{- $playedAt := time.AsTime . -}}
-          {{- if ge $playedAt $recentCutoff -}}
-            {{- $artistName := $play.artist_name | default "" -}}
-            {{- if $artistName -}}
-              {{- $artistSlug := $artistName | urlize -}}
-              {{- with $play.artist_id -}}
-                {{- with $artistIDSlugs.Get . -}}
-                  {{- $artistSlug = . -}}
-                {{- end -}}
-              {{- end -}}
-              {{- $artistData := index site.Data.spotify.artists $artistSlug | default dict -}}
-              {{- $images := index $artistData "images" | default slice -}}
-              {{- $current := $recentScratch.Get $artistSlug | default (dict "name" $artistName "slug" $artistSlug "plays" 0 "images" $images) -}}
-              {{- $recentScratch.Set $artistSlug (dict
-                "name" (index $current "name")
-                "slug" $artistSlug
-                "plays" (add (index $current "plays") 1)
-                "images" (index $current "images")
-              ) -}}
-            {{- end -}}
-          {{- end -}}
-        {{- end -}}
-      {{- end -}}
-    {{- end -}}
-  {{- end -}}
-  {{- $recentArtists := slice -}}
-  {{- range $recentScratch.Values -}}
-    {{- $recentArtists = $recentArtists | append . -}}
-  {{- end -}}
-  {{- if gt (len $recentArtists) 0 -}}
-  <section class="mt-8">
-    <h2 class="text-2xl font-bold mb-2">Top Recent Artists</h2>
-    <p class="mb-4 text-sm text-neutral-500 dark:text-neutral-400">
-      Most played since {{ $recentCutoff.Format "Jan 2, 2006" }}.
-    </p>
-    <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
-      {{- range first 10 (sort $recentArtists "plays" "desc") -}}
-        {{- $recentName := index . "name" -}}
-        {{- $img := dict -}}
-        {{- range (index . "images") -}}
-          {{- if and (le .width 640) (gt .width ($img.width | default 0)) -}}
-            {{- $img = . -}}
-          {{- end -}}
-        {{- end -}}
-        {{- if and (not $img.url) (gt (len (index . "images")) 0) -}}{{- $img = index (index . "images") 0 -}}{{- end -}}
-      <a href="{{ relURL (printf "/listening/artists/%s/" (index . "slug")) }}" class="group flex flex-col rounded-xl overflow-hidden bg-neutral-100 dark:bg-neutral-800 hover:ring-2 hover:ring-emerald-500 transition">
-        <div class="aspect-square w-full overflow-hidden bg-neutral-200 dark:bg-neutral-700">
-          {{- with $img.url -}}
-          <img src="{{ . }}" width="{{ $img.width }}" height="{{ $img.height }}" alt="{{ $recentName }}"
-               class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
-          {{- else -}}
-          <div class="w-full h-full flex items-center justify-center text-neutral-400 dark:text-neutral-500">
-            <i class="fab fa-spotify text-4xl text-emerald-400"></i>
-          </div>
-          {{- end -}}
-        </div>
-        <div class="p-2">
-          <p class="font-semibold text-sm truncate text-neutral-900 dark:text-neutral-100">{{ index . "name" }}</p>
-          <p class="text-xs text-neutral-500 dark:text-neutral-400">{{ index . "plays" }} recent plays</p>
-        </div>
-      </a>
-      {{- end -}}
-    </div>
-    {{- if gt (len $artistPages) 0 -}}
-    <p class="mt-4 text-sm"><a href="{{ relURL "/listening/artists/" }}" class="underline">Browse all {{ len $artistPages }} artists →</a></p>
-    {{- end -}}
-  </section>
-  {{- end -}}
+  {{ $artists := where .Site.RegularPages "Type" "listening-artist" }}
+  {{ with $artists }}<section class="mt-8"><h2 class="text-2xl font-bold mb-2">Recently heard artists</h2><p class="text-sm text-neutral-500 mb-4">Derived from public listening dates; exact play times stay private.</p><div class="grid grid-cols-2 sm:grid-cols-3 gap-4">{{ range first 9 (sort . "Params.last_seen" "desc") }}{{ partial "card-artist.html" . }}{{ end }}</div><p class="mt-4 text-sm"><a class="underline" href="{{ relURL "/listening/artists/" }}">Browse all {{ len . }} indexed artists →</a></p></section>{{ end }}
 
-  {{- $genreScratch := newScratch -}}
-  {{- range $artist := site.Data.spotify.artists -}}
-    {{- $plays := $artist.total_plays | int -}}
-    {{- if gt $plays 0 -}}
-      {{- range $artist.genres -}}
-        {{- $genreName := . -}}
-        {{- $genreSlug := $genreName | urlize -}}
-        {{- $current := $genreScratch.Get $genreSlug | default (dict "name" $genreName "slug" $genreSlug "plays" 0 "artist_count" 0) -}}
-        {{- $genreScratch.Set $genreSlug (dict
-          "name" (index $current "name")
-          "slug" $genreSlug
-          "plays" (add (index $current "plays") $plays)
-          "artist_count" (add (index $current "artist_count") 1)
-        ) -}}
-      {{- end -}}
-    {{- end -}}
-  {{- end -}}
-  {{- $genreTotals := slice -}}
-  {{- range $genreScratch.Values -}}
-    {{- $genreTotals = $genreTotals | append . -}}
-  {{- end -}}
-  {{- if gt (len $genreTotals) 0 -}}
-  <section class="mt-8">
-    <h2 class="text-2xl font-bold mb-4">Top Musical Genres</h2>
-    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
-      {{- range first 10 (sort $genreTotals "plays" "desc") -}}
-      <a href="{{ relURL (printf "/musical-genres/%s/" .slug) }}" class="block p-3 rounded bg-neutral-100 dark:bg-neutral-800 hover:ring-2 hover:ring-emerald-500 transition">
-        <span class="block font-semibold text-sm text-neutral-900 dark:text-neutral-100">{{ .name }}</span>
-        <span class="block text-xs text-neutral-500 dark:text-neutral-400">{{ .plays }} plays · {{ .artist_count }} artists</span>
-      </a>
-      {{- end -}}
-    </div>
-    <p class="mt-4 text-sm"><a href="{{ relURL "/musical-genres/" }}" class="underline">Browse all musical genres →</a></p>
-  </section>
-  {{- end -}}
+  {{ $releases := where .Site.RegularPages "Type" "listening-release" }}
+  <section class="mt-8"><h2 class="text-2xl font-bold mb-2">New to my atlas</h2>{{ with $releases }}<div class="grid grid-cols-1 sm:grid-cols-3 gap-4">{{ range first 6 (.ByDate.Reverse) }}<a href="{{ .RelPermalink }}" class="rounded bg-neutral-100 dark:bg-neutral-800 p-4 hover:ring-2 hover:ring-emerald-500"><strong>{{ .Title }}</strong><span class="block text-sm">{{ .Params.record.primary_artist_name }}</span></a>{{ end }}</div>{{ else }}<p class="text-sm text-neutral-500">No release has crossed the ordered-session threshold yet.</p>{{ end }}<p class="mt-4 text-sm"><a class="underline" href="{{ relURL "/listening/releases/" }}">Browse qualifying releases →</a></p></section>
+
+  {{ $genres := where .Site.RegularPages "Type" "listening-genre" }}
+  {{ with $genres }}<section class="mt-8"><h2 class="text-2xl font-bold mb-4">Top musical genres</h2><div class="grid grid-cols-1 sm:grid-cols-2 gap-3">{{ range first 10 (sort . "Params.play_count" "desc") }}<a href="{{ .RelPermalink }}" class="block p-3 rounded bg-neutral-100 dark:bg-neutral-800 hover:ring-2 hover:ring-indigo-500"><strong class="block">{{ .Title }}</strong><span class="text-xs text-neutral-500">{{ .Params.record.play_count }} plays · {{ .Params.record.unique_artist_count }} artists</span></a>{{ end }}</div><p class="mt-4 text-sm"><a class="underline" href="{{ relURL "/musical-genres/" }}">Browse all musical genres →</a></p></section>{{ end }}
 </div>
 {{ end }}

@@ -1,0 +1,10 @@
+{{ define "main" }}
+{{ $r := .Params.record }}
+<article class="p-2 max-w-screen-lg mx-auto"><header class="prose lg:prose-xl dark:prose-invert"><p class="text-xs uppercase tracking-[0.18em] text-emerald-500 font-bold">My listening atlas · Release</p><h1>{{ .Title }}</h1><p><a href="{{ relURL (printf "/listening/artists/%s/" $r.primary_artist_slug) }}">{{ $r.primary_artist_name }}</a></p></header>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6"><main class="md:col-span-2 prose dark:prose-invert max-w-none">
+{{ with .Params.personalNote }}<h2>My note</h2>{{ . | markdownify }}{{ end }}
+{{ with $r.editions }}{{ $edition := index . 0 }}<h2>Tracklist</h2><ol>{{ range $edition.tracks }}{{ $track := . }}{{ $played := false }}{{ $count := 0 }}{{ range $r.track_evidence }}{{ if eq .spotify_url $track.spotify_url }}{{ $played = true }}{{ $count = .plays }}{{ end }}{{ end }}<li>{{ $track.name }}{{ if $played }} <strong title="Played">✓ {{ $count }}×</strong>{{ end }}</li>{{ end }}</ol>{{ end }}
+{{ with $r.sessions }}<h2>Qualifying sessions</h2><ul>{{ range . }}<li>{{ .date }} — {{ .observed_tracks }}/{{ .total_tracks }} tracks ({{ .coverage_percent }}%)</li>{{ end }}</ul>{{ end }}
+{{ with $r.track_evidence }}<h2>Lifetime track evidence</h2><ul>{{ range . }}<li>{{ .name }} — {{ .plays }} plays</li>{{ end }}</ul>{{ end }}
+</main><aside class="text-sm"><div class="rounded bg-neutral-100 dark:bg-neutral-800 p-4"><strong>First qualifying listen</strong><br>{{ $r.first_listened }}<br><br><strong>Last qualifying listen</strong><br>{{ $r.last_listened }}{{ with $r.first_release_date }}<br><br><strong>First released</strong><br>{{ . }}{{ end }}</div></aside></div></article>
+{{ end }}

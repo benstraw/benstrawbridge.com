@@ -1,0 +1,5 @@
+{{ define "main" }}
+<meta http-equiv="refresh" content="0; url={{ relURL .Params.destination }}">
+<link rel="canonical" href="{{ absURL .Params.destination }}">
+<main class="p-8 max-w-screen-md mx-auto prose dark:prose-invert"><h1>This atlas page moved</h1><p><a href="{{ relURL .Params.destination }}">Continue to the canonical page →</a></p></main>
+{{ end }}

@@ -1,0 +1,19 @@
+{{ $v1 := dict }}
+{{ with site.Data.music_garden }}{{ with .v1 }}{{ $v1 = . }}{{ end }}{{ end }}
+{{ with $v1.genres }}
+  {{ range $slug, $genre := . }}
+    {{ if $genre.publication.indexed }}
+      {{ $aliases := slice }}
+      {{ range $from, $to := $v1.redirects.genres }}{{ if eq $to $slug }}{{ $aliases = $aliases | append (printf "/musical-genres/%s/" $from) }}{{ end }}{{ end }}
+      {{ $note := "" }}
+      {{ with resources.Get (printf "listening-notes/genres/%s.md" $slug) }}{{ $note = .Content }}{{ end }}
+      {{ $params := dict "hideAsideBar" true "musicGardenV1" true "record" $genre "play_count" $genre.play_count "personalNote" $note }}
+      {{ $page := dict "content" (dict "mediaType" "text/markdown" "value" ($genre.summary | default (printf "%d plays across %d artists." ($genre.play_count | int) ($genre.unique_artist_count | int)))) "kind" "page" "title" $genre.name "type" "listening-genre" "params" $params "path" $slug "aliases" $aliases }}
+      {{ $.AddPage $page }}
+    {{ end }}
+  {{ end }}
+  {{ range $from, $to := $v1.redirects.genres }}
+    {{ $page := dict "content" (dict "mediaType" "text/markdown" "value" "This genre has moved to its canonical atlas address.") "kind" "page" "title" "Genre redirect" "type" "music-atlas-redirect" "params" (dict "destination" (printf "/musical-genres/%s/" $to) "hideAsideBar" true) "path" $from }}
+    {{ $.AddPage $page }}
+  {{ end }}
+{{ end }}
