@@ -140,11 +140,11 @@ If no waypoints (track-only GPX — common with Garmin exports):
 - Script: `python3 -c "import xml.etree.ElementTree as ET, math; ..."` — see Section 13 for full helper
 
 ### Tile provider
-Use **Carto Voyager** (free, no API key):
+Use **OpenStreetMap Standard**:
 ```
-https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png
+https://tile.openstreetmap.org/{z}/{x}/{y}.png
 ```
-Attribution: `© OpenStreetMap contributors © CARTO`
+Attribution: `© OpenStreetMap contributors`
 
 ### Leaflet CSS conflict with Tailwind prose
 The tour map shortcode renders inside Hugo content which is wrapped in Tailwind's `prose` class. Prose resets SVG presentation attributes, which silently hides the Leaflet polyline track. **Always include this scoped CSS override in the shortcode:**
@@ -316,8 +316,8 @@ The shortcode already exists at `layouts/shortcodes/tour-map.html`. Do not recre
 <script>
 (function() {
   var map = L.map('tour-map');
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-    attribution: '&copy; OpenStreetMap contributors &copy; CARTO',
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; OpenStreetMap contributors',
     maxZoom: 19
   }).addTo(map);
 

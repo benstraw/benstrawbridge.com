@@ -111,7 +111,7 @@
   }
 
   /* Same neutral chip the site header puts the text mark in, sized up for OG
-     and given a shadow so it holds over both tan topo and CARTO street tiles.
+     and given a shadow so it holds over both tan topo and OSM street tiles.
      Colours are the Tailwind classes logo.html uses: sky-800, lime-800,
      stone-900 on neutral-200. */
   #og-wordmark {
@@ -214,7 +214,7 @@
   </div>
 
   <div id="og-attribution">
-    {{ if $isHike }}USGS The National Map{{ else }}© OpenStreetMap contributors © CARTO{{ end }}
+    {{ if $isHike }}USGS The National Map{{ else }}© OpenStreetMap contributors{{ end }}
   </div>
 </div>
 
@@ -256,7 +256,7 @@
       'https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/tile/{z}/{y}/{x}',
       { maxNativeZoom: 16, maxZoom: 19, crossOrigin: true }
     {{ else }}
-      'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png',
+      'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
       { maxZoom: 19, crossOrigin: true }
     {{ end }}
   );

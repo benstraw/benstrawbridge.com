@@ -393,8 +393,8 @@ Hugo-rendered page**, not a build-time composite:
   pages by `outputs` in `content/trails/_index.md`, renders
   `layouts/trails/single.ogcard.html` to `/trails/<slug>/og-card.html`.
 - That template mirrors `layouts/shortcodes/tour-map.html` — same local Leaflet,
-  same tile source keyed off `tourType` (USGS topo for Hiking Tours, CARTO
-  voyager for Walking Tours), same GPX and track colour. **Keep the two in sync.**
+  same tile source keyed off `tourType` (USGS topo for Hiking Tours,
+  OpenStreetMap for Walking Tours), same GPX and track colour. **Keep the two in sync.**
 - `scripts/generate-trail-og.mjs` (`npm run og:trails`) builds the site, serves
   `public/`, waits on the card's `window.__ogCardReady` handshake, writes
   `content/trails/<slug>/og-cover.jpg`, and sets `og_image = "og-cover.jpg"` in
@@ -414,7 +414,7 @@ visible difference. Any leftover `og-cover.png` is deleted as its JPEG lands.
 
 ### Cloud sessions cannot generate cards — generate them locally
 
-`basemap.nationalmap.gov` and `*.basemaps.cartocdn.com` are in the **Ryder /
+`basemap.nationalmap.gov` and `tile.openstreetmap.org` are in the **Ryder /
 Hugo** environment's **Custom** network access list, and `curl` reaches both
 with a 200. That is necessary but *not* sufficient: Chromium's tile requests
 still die with `ERR_CONNECTION_RESET` through the agent proxy, verified
@@ -436,9 +436,7 @@ photographed with a blank map and the run reported success. The template now
 requires `tilesLoaded > 0` before signalling ready, which converts a silent
 blank card into a timeout. Do not weaken that check.
 
-If the allowlist itself ever needs re-verifying, the wildcard is not optional —
-Leaflet's `{s}` rotates across `a.`, `b.` and `c.`, so a bare hostname matches
-none of the requests:
+If the allowlist itself ever needs re-verifying, test the exact tile hosts:
 
 ```bash
 curl -sS -o /dev/null -w '%{http_code}\n' \

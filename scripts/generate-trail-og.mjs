@@ -11,7 +11,7 @@
  *
  * The card is a live Leaflet map, so this needs the tile hosts to be reachable:
  *   basemap.nationalmap.gov   (USGS topo, Hiking Tours)
- *   *.basemaps.cartocdn.com   (CARTO voyager, Walking Tours)
+ *   tile.openstreetmap.org    (OpenStreetMap, Walking Tours)
  * Claude Code on the web blocks both, so run this locally.
  *
  * Usage:
@@ -330,7 +330,7 @@ async function main() {
     await context.route(
       (url) =>
         url.hostname === 'basemap.nationalmap.gov' ||
-        url.hostname.endsWith('.basemaps.cartocdn.com'),
+        url.hostname === 'tile.openstreetmap.org',
       (route) => route.fulfill({ status: 200, contentType: 'image/png', body: STUB_TILE })
     );
   }
