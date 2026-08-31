@@ -6993,9 +6993,9 @@
     "id": "7dGJo4pcD2V6oG8kP0tJRR",
     "name": "Eminem",
     "spotify_url": "https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR",
-    "total_plays": 83,
+    "total_plays": 90,
     "first_seen": "2026-02-26",
-    "last_seen": "2026-08-11",
+    "last_seen": "2026-08-25",
     "genres": [
       "rap",
       "hip hop"
@@ -7028,12 +7028,42 @@
         "name": "Trouble",
         "album": "The Death of Slim Shady (Coup De Grâce): Expanded Mourner’s Edition",
         "spotify_url": "https://open.spotify.com/track/5ZgUh87itaRiOHz3XyJrBC",
-        "plays": 3
+        "plays": 4
       },
       {
         "name": "Habits",
         "album": "The Death of Slim Shady (Coup De Grâce): Expanded Mourner’s Edition",
         "spotify_url": "https://open.spotify.com/track/53kFmhBak6PbvO0phyL4Yo",
+        "plays": 4
+      },
+      {
+        "name": "Lucifer",
+        "album": "The Death of Slim Shady (Coup De Grâce): Expanded Mourner’s Edition",
+        "spotify_url": "https://open.spotify.com/track/7rmwxGeUylxyZtMielQEhu",
+        "plays": 3
+      },
+      {
+        "name": "All You Got - skit",
+        "album": "The Death of Slim Shady (Coup De Grâce): Expanded Mourner’s Edition",
+        "spotify_url": "https://open.spotify.com/track/7vFdI157seXQORiNa94Z59",
+        "plays": 3
+      },
+      {
+        "name": "Evil",
+        "album": "The Death of Slim Shady (Coup De Grâce): Expanded Mourner’s Edition",
+        "spotify_url": "https://open.spotify.com/track/3egjuPVUzezaaKSu21wDIb",
+        "plays": 3
+      },
+      {
+        "name": "Brand New Dance",
+        "album": "The Death of Slim Shady (Coup De Grâce): Expanded Mourner’s Edition",
+        "spotify_url": "https://open.spotify.com/track/4bdMOgYZehlFLkcNmvMkT5",
+        "plays": 3
+      },
+      {
+        "name": "Renaissance",
+        "album": "The Death of Slim Shady (Coup De Grâce): Expanded Mourner’s Edition",
+        "spotify_url": "https://open.spotify.com/track/29kP1nQ0wAoGdkjlZB9f1a",
         "plays": 3
       },
       {
@@ -7130,36 +7160,6 @@
         "name": "Antichrist",
         "album": "The Death of Slim Shady (Coup De Grâce): Expanded Mourner’s Edition",
         "spotify_url": "https://open.spotify.com/track/6XhwcdZxNEPLkaFvRceYy6",
-        "plays": 2
-      },
-      {
-        "name": "Lucifer",
-        "album": "The Death of Slim Shady (Coup De Grâce): Expanded Mourner’s Edition",
-        "spotify_url": "https://open.spotify.com/track/7rmwxGeUylxyZtMielQEhu",
-        "plays": 2
-      },
-      {
-        "name": "All You Got - skit",
-        "album": "The Death of Slim Shady (Coup De Grâce): Expanded Mourner’s Edition",
-        "spotify_url": "https://open.spotify.com/track/7vFdI157seXQORiNa94Z59",
-        "plays": 2
-      },
-      {
-        "name": "Evil",
-        "album": "The Death of Slim Shady (Coup De Grâce): Expanded Mourner’s Edition",
-        "spotify_url": "https://open.spotify.com/track/3egjuPVUzezaaKSu21wDIb",
-        "plays": 2
-      },
-      {
-        "name": "Brand New Dance",
-        "album": "The Death of Slim Shady (Coup De Grâce): Expanded Mourner’s Edition",
-        "spotify_url": "https://open.spotify.com/track/4bdMOgYZehlFLkcNmvMkT5",
-        "plays": 2
-      },
-      {
-        "name": "Renaissance",
-        "album": "The Death of Slim Shady (Coup De Grâce): Expanded Mourner’s Edition",
-        "spotify_url": "https://open.spotify.com/track/29kP1nQ0wAoGdkjlZB9f1a",
         "plays": 2
       },
       {
@@ -41676,9 +41676,9 @@
     "id": "5W5bDNCqJ1jbCgTxDD0Cb3",
     "name": "Willie Nelson",
     "spotify_url": "https://open.spotify.com/artist/5W5bDNCqJ1jbCgTxDD0Cb3",
-    "total_plays": 3,
+    "total_plays": 4,
     "first_seen": "2026-08-02",
-    "last_seen": "2026-08-03",
+    "last_seen": "2026-08-26",
     "genres": [
       "outlaw country",
       "classic country",
@@ -41719,6 +41719,12 @@
         "name": "Whiskey River",
         "album": "Shotgun Willie",
         "spotify_url": "https://open.spotify.com/track/6gS6XQ4OqMddkgzHNz40E5",
+        "plays": 1
+      },
+      {
+        "name": "From Here to the Moon and Back (feat. Dolly Parton)",
+        "album": "To All The Girls...",
+        "spotify_url": "https://open.spotify.com/track/1SG91Ocs6KjP8DQlPmITgU",
         "plays": 1
       }
     ]
@@ -46188,6 +46194,357 @@
         "name": "Jai Ganga",
         "album": "Sangam & Friends",
         "spotify_url": "https://open.spotify.com/track/0dT12w7aukOjed39Ry0Atw",
+        "plays": 1
+      }
+    ]
+  },
+  "fugees": {
+    "id": "2WKdxPFRD7IqZvlIAvhMgY",
+    "name": "Fugees",
+    "spotify_url": "https://open.spotify.com/artist/2WKdxPFRD7IqZvlIAvhMgY",
+    "total_plays": 12,
+    "first_seen": "2026-08-27",
+    "last_seen": "2026-08-27",
+    "genres": [
+      "east coast hip hop"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/dd757e1fca99ac0a3da9aa6c2969bc696cc672ce",
+        "height": 1000,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/52bae8b59a21ec1ee6bc07a1e08382333bea27d6",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/40c72b016b1b8c88cd92de52ee6150b3fa4377c5",
+        "height": 200,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/e67c9e63857baf63fc06d8b06ac286d98ef20af1",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "No Woman, No Cry",
+        "album": "The Score",
+        "spotify_url": "https://open.spotify.com/track/42sOV8ZNuHmUymO6UNrWOv",
+        "plays": 1
+      },
+      {
+        "name": "Cowboys (feat. Outsidaz)",
+        "album": "The Score",
+        "spotify_url": "https://open.spotify.com/track/3B72ff9yDPp0W1Shrh6YC4",
+        "plays": 1
+      },
+      {
+        "name": "The Mask",
+        "album": "The Score",
+        "spotify_url": "https://open.spotify.com/track/5elNhhFg7KjzQcdTNAgpey",
+        "plays": 1
+      },
+      {
+        "name": "The Score (feat. Diamond D)",
+        "album": "The Score",
+        "spotify_url": "https://open.spotify.com/track/37X1fXbkwsD2Qb6TFQzLR6",
+        "plays": 1
+      },
+      {
+        "name": "Killing Me Softly with His Song",
+        "album": "The Score",
+        "spotify_url": "https://open.spotify.com/track/0EKow7JeCxHtweqQyVy5ko",
+        "plays": 1
+      },
+      {
+        "name": "Family Business (feat. John Forté)",
+        "album": "The Score",
+        "spotify_url": "https://open.spotify.com/track/5nxbjW5f5qDDswq0bM7r8r",
+        "plays": 1
+      },
+      {
+        "name": "Fu-Gee-La",
+        "album": "The Score",
+        "spotify_url": "https://open.spotify.com/track/5RM1vov4MHJ2aNQV4RJlBH",
+        "plays": 1
+      },
+      {
+        "name": "The Beast - includes Chinese restaurant skit",
+        "album": "The Score",
+        "spotify_url": "https://open.spotify.com/track/0JnsAU6ODCbreYcjqidUNt",
+        "plays": 1
+      },
+      {
+        "name": "Zealots",
+        "album": "The Score",
+        "spotify_url": "https://open.spotify.com/track/4846HUwVip7OkAJDmWqhDg",
+        "plays": 1
+      },
+      {
+        "name": "Ready or Not",
+        "album": "The Score",
+        "spotify_url": "https://open.spotify.com/track/74Yv0wbf4JLG1Rb5QVNcBJ",
+        "plays": 1
+      },
+      {
+        "name": "How Many Mics",
+        "album": "The Score",
+        "spotify_url": "https://open.spotify.com/track/744EpSVAucany6CWpwTedz",
+        "plays": 1
+      },
+      {
+        "name": "Red Intro",
+        "album": "The Score",
+        "spotify_url": "https://open.spotify.com/track/3NFyBoF2cRpK01qoW6oLot",
+        "plays": 1
+      },
+      {
+        "name": "No Woman, No Cry",
+        "album": "The Score (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/5bUVHuzQh5mkvMPjUU074i",
+        "plays": 1
+      }
+    ]
+  },
+  "dolly-parton": {
+    "id": "32vWCbZh0xZ4o9gkz4PsEU",
+    "name": "Dolly Parton",
+    "spotify_url": "https://open.spotify.com/artist/32vWCbZh0xZ4o9gkz4PsEU",
+    "total_plays": 31,
+    "first_seen": "2026-08-26",
+    "last_seen": "2026-08-27",
+    "genres": [
+      "country",
+      "classic country"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb7fbd42b2f8ddebe1a817c53a",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051747fbd42b2f8ddebe1a817c53a",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1787fbd42b2f8ddebe1a817c53a",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "After the Gold Rush - 2015 Remaster",
+        "album": "The Complete Trio Collection (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/1LyDuag8YMByCou5SIewth",
+        "plays": 4
+      },
+      {
+        "name": "Feels Like Home - 2015 Remaster",
+        "album": "The Complete Trio Collection (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/1pf6uFUyZrELnt6aeJxCrw",
+        "plays": 2
+      },
+      {
+        "name": "You'll Never Be the Sun - 2015 Remaster",
+        "album": "The Complete Trio Collection (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/6Tn5AQlBdjBEGuogXaW4Jk",
+        "plays": 2
+      },
+      {
+        "name": "I Feel the Blues Movin' In - 2015 Remaster",
+        "album": "The Complete Trio Collection (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/2np64dmVVzqyg0deRODBx3",
+        "plays": 2
+      },
+      {
+        "name": "The Blue Train - 2015 Remaster",
+        "album": "The Complete Trio Collection (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/3s9pu5VZpAwC4t1xNDwRM2",
+        "plays": 2
+      },
+      {
+        "name": "He Rode All the Way to Texas - 2015 Remaster",
+        "album": "The Complete Trio Collection (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/4bvlG8psCGHiFp3bud56y9",
+        "plays": 1
+      },
+      {
+        "name": "To Know Him Is to Love Him - 2015 Remaster",
+        "album": "The Complete Trio Collection (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/1sXxzclf5D9SkavTXMg2pG",
+        "plays": 1
+      },
+      {
+        "name": "Better Get to Livin'",
+        "album": "Diamonds & Rhinestones: The Greatest Hits Collection",
+        "spotify_url": "https://open.spotify.com/track/1ageCEpJfIWxUaTlHCrSY6",
+        "plays": 1
+      },
+      {
+        "name": "The Great Pretender",
+        "album": "The Great Pretender",
+        "spotify_url": "https://open.spotify.com/track/6yTGb39cpP5ZjwLg08BHhV",
+        "plays": 1
+      },
+      {
+        "name": "In the Ghetto",
+        "album": "My Blue Ridge Mountain Boy",
+        "spotify_url": "https://open.spotify.com/track/6GZ6O0bHsDndSAmqnxXMjn",
+        "plays": 1
+      },
+      {
+        "name": "I Believe",
+        "album": "Letter To Heaven: Songs Of Faith & Inspiration",
+        "spotify_url": "https://open.spotify.com/track/3w9ACd2NlhwxaWUKCN0K69",
+        "plays": 1
+      },
+      {
+        "name": "Why'd You Come in Here Lookin' Like That",
+        "album": "The Essential Dolly Parton",
+        "spotify_url": "https://open.spotify.com/track/1ifuFtbefF4zWaLpmuoyss",
+        "plays": 1
+      },
+      {
+        "name": "Heartbreaker",
+        "album": "Diamonds & Rhinestones: The Greatest Hits Collection",
+        "spotify_url": "https://open.spotify.com/track/1TRJhS9XiOBcFbxFuSdg3L",
+        "plays": 1
+      },
+      {
+        "name": "Blue Smoke",
+        "album": "Blue Smoke",
+        "spotify_url": "https://open.spotify.com/track/4ktJUA1L4JUwyctMoBQo59",
+        "plays": 1
+      },
+      {
+        "name": "Wrecking Ball",
+        "album": "Wrecking Ball",
+        "spotify_url": "https://open.spotify.com/track/1Fl4vSE3PegDGtkNL7JXNl",
+        "plays": 1
+      },
+      {
+        "name": "Here You Come Again",
+        "album": "Here You Come Again",
+        "spotify_url": "https://open.spotify.com/track/6H7nDglS6xWpRidbhMwI2L",
+        "plays": 1
+      },
+      {
+        "name": "Coat of Many Colors",
+        "album": "Coat Of Many Colors",
+        "spotify_url": "https://open.spotify.com/track/1l2Xmg54EUr3TDzNIaCr1z",
+        "plays": 1
+      },
+      {
+        "name": "Let It Be",
+        "album": "Rockstar (Deluxe)",
+        "spotify_url": "https://open.spotify.com/track/6OeVJSwLMZWI1Oai0QjMbx",
+        "plays": 1
+      },
+      {
+        "name": "If You Hadn’t Been There",
+        "album": "If You Hadn’t Been There",
+        "spotify_url": "https://open.spotify.com/track/5Tq0KrovwGWdApFORSRgN3",
+        "plays": 1
+      },
+      {
+        "name": "Islands in the Stream",
+        "album": "Dolly",
+        "spotify_url": "https://open.spotify.com/track/4mnOVRRXsaqg9Nb041xR8u",
+        "plays": 1
+      },
+      {
+        "name": "I Will Always Love You",
+        "album": "Jolene (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/77bNe6jYY8yHdP7orXrz5I",
+        "plays": 1
+      },
+      {
+        "name": "9 to 5",
+        "album": "9 To 5 And Odd Jobs",
+        "spotify_url": "https://open.spotify.com/track/4w3tQBXhn5345eUXDGBWZG",
+        "plays": 1
+      },
+      {
+        "name": "Love Is Like a Butterfly",
+        "album": "Diamonds & Rhinestones: The Greatest Hits Collection",
+        "spotify_url": "https://open.spotify.com/track/1qOQH30Dvvvsl7xphBRJVt",
+        "plays": 1
+      },
+      {
+        "name": "Jolene",
+        "album": "Jolene (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/5fdhThPDe6jQQDqCyWrdAn",
+        "plays": 1
+      }
+    ]
+  },
+  "sun-ra-arkestra": {
+    "id": "5V5vvh5MgM7vDuPp4lJYkh",
+    "name": "Sun Ra Arkestra",
+    "spotify_url": "https://open.spotify.com/artist/5V5vvh5MgM7vDuPp4lJYkh",
+    "total_plays": 6,
+    "first_seen": "2026-08-24",
+    "last_seen": "2026-08-25",
+    "genres": [
+      "free jazz",
+      "jazz",
+      "experimental jazz",
+      "avant-garde"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb2abb27f606f1c3dfb678a1d1",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051742abb27f606f1c3dfb678a1d1",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1782abb27f606f1c3dfb678a1d1",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Ramadan",
+        "album": "Sun Ra Arkestra Meets Salah Ragab In Egypt",
+        "spotify_url": "https://open.spotify.com/track/2JQUiuiTWswL9eb0ZHF3eS",
+        "plays": 2
+      },
+      {
+        "name": "A Farewell Theme",
+        "album": "Sun Ra Arkestra Meets Salah Ragab In Egypt",
+        "spotify_url": "https://open.spotify.com/track/6Bzca00Z6sxbau8sMHX98D",
+        "plays": 1
+      },
+      {
+        "name": "Oriental Mood",
+        "album": "Sun Ra Arkestra Meets Salah Ragab In Egypt",
+        "spotify_url": "https://open.spotify.com/track/5HSXhQ9rB566d01xUlSRQZ",
+        "plays": 1
+      },
+      {
+        "name": "Dawn",
+        "album": "Sun Ra Arkestra Meets Salah Ragab In Egypt",
+        "spotify_url": "https://open.spotify.com/track/33cWGHeD1JiPPwTTWpqMPn",
+        "plays": 1
+      },
+      {
+        "name": "Egypt Strut",
+        "album": "Sun Ra Arkestra Meets Salah Ragab In Egypt",
+        "spotify_url": "https://open.spotify.com/track/464jWQO7oRnMoMXkviZmu5",
         "plays": 1
       }
     ]

@@ -1,0 +1,488 @@
+{
+  "week": "2026-W35",
+  "title": "Week of Aug 24, 2026",
+  "year": 2026,
+  "week_num": 35,
+  "date_start": "2026-08-24",
+  "date_end": "2026-08-30",
+  "total_plays": 57,
+  "unique_artists": 5,
+  "topArtistName": "Dolly Parton",
+  "topArtistImages": [
+    {
+      "url": "https://i.scdn.co/image/ab6761610000e5eb7fbd42b2f8ddebe1a817c53a",
+      "height": 640,
+      "width": 640
+    },
+    {
+      "url": "https://i.scdn.co/image/ab676161000051747fbd42b2f8ddebe1a817c53a",
+      "height": 320,
+      "width": 320
+    },
+    {
+      "url": "https://i.scdn.co/image/ab6761610000f1787fbd42b2f8ddebe1a817c53a",
+      "height": 160,
+      "width": 160
+    }
+  ],
+  "top_genres": [
+    {
+      "name": "country",
+      "plays": 32
+    },
+    {
+      "name": "classic country",
+      "plays": 32
+    },
+    {
+      "name": "east coast hip hop",
+      "plays": 12
+    },
+    {
+      "name": "rap",
+      "plays": 7
+    },
+    {
+      "name": "hip hop",
+      "plays": 7
+    },
+    {
+      "name": "free jazz",
+      "plays": 6
+    },
+    {
+      "name": "jazz",
+      "plays": 6
+    },
+    {
+      "name": "experimental jazz",
+      "plays": 6
+    },
+    {
+      "name": "avant-garde",
+      "plays": 6
+    },
+    {
+      "name": "outlaw country",
+      "plays": 1
+    }
+  ],
+  "top_artists": [
+    {
+      "slug": "dolly-parton",
+      "name": "Dolly Parton",
+      "plays": 31,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb7fbd42b2f8ddebe1a817c53a",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051747fbd42b2f8ddebe1a817c53a",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1787fbd42b2f8ddebe1a817c53a",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "fugees",
+      "name": "Fugees",
+      "plays": 12,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/dd757e1fca99ac0a3da9aa6c2969bc696cc672ce",
+          "height": 1000,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/52bae8b59a21ec1ee6bc07a1e08382333bea27d6",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/40c72b016b1b8c88cd92de52ee6150b3fa4377c5",
+          "height": 200,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/e67c9e63857baf63fc06d8b06ac286d98ef20af1",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "eminem",
+      "name": "Eminem",
+      "plays": 7,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eba00b11c129b27a88fc72f36b",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174a00b11c129b27a88fc72f36b",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178a00b11c129b27a88fc72f36b",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "sun-ra-arkestra",
+      "name": "Sun Ra Arkestra",
+      "plays": 6,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb2abb27f606f1c3dfb678a1d1",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051742abb27f606f1c3dfb678a1d1",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1782abb27f606f1c3dfb678a1d1",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "willie-nelson",
+      "name": "Willie Nelson",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6772690000c46c8ff3385555930af73293254b",
+          "height": 1000,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6772690000dd228ff3385555930af73293254b",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6772690000bac38ff3385555930af73293254b",
+          "height": 200,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67726900008f748ff3385555930af73293254b",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    }
+  ],
+  "top_tracks": [
+    {
+      "name": "After the Gold Rush - 2015 Remaster",
+      "artist": "Dolly Parton",
+      "artist_slug": "dolly-parton",
+      "plays": 4
+    },
+    {
+      "name": "Feels Like Home - 2015 Remaster",
+      "artist": "Dolly Parton",
+      "artist_slug": "dolly-parton",
+      "plays": 2
+    },
+    {
+      "name": "You'll Never Be the Sun - 2015 Remaster",
+      "artist": "Dolly Parton",
+      "artist_slug": "dolly-parton",
+      "plays": 2
+    },
+    {
+      "name": "I Feel the Blues Movin' In - 2015 Remaster",
+      "artist": "Dolly Parton",
+      "artist_slug": "dolly-parton",
+      "plays": 2
+    },
+    {
+      "name": "The Blue Train - 2015 Remaster",
+      "artist": "Dolly Parton",
+      "artist_slug": "dolly-parton",
+      "plays": 2
+    },
+    {
+      "name": "Ramadan",
+      "artist": "Sun Ra Arkestra",
+      "artist_slug": "sun-ra-arkestra",
+      "plays": 2
+    },
+    {
+      "name": "No Woman, No Cry",
+      "artist": "Fugees",
+      "artist_slug": "fugees",
+      "plays": 1
+    },
+    {
+      "name": "Cowboys (feat. Outsidaz)",
+      "artist": "Fugees",
+      "artist_slug": "fugees",
+      "plays": 1
+    },
+    {
+      "name": "The Mask",
+      "artist": "Fugees",
+      "artist_slug": "fugees",
+      "plays": 1
+    },
+    {
+      "name": "The Score (feat. Diamond D)",
+      "artist": "Fugees",
+      "artist_slug": "fugees",
+      "plays": 1
+    },
+    {
+      "name": "Killing Me Softly with His Song",
+      "artist": "Fugees",
+      "artist_slug": "fugees",
+      "plays": 1
+    },
+    {
+      "name": "Family Business (feat. John Forté)",
+      "artist": "Fugees",
+      "artist_slug": "fugees",
+      "plays": 1
+    },
+    {
+      "name": "Fu-Gee-La",
+      "artist": "Fugees",
+      "artist_slug": "fugees",
+      "plays": 1
+    },
+    {
+      "name": "The Beast - includes Chinese restaurant skit",
+      "artist": "Fugees",
+      "artist_slug": "fugees",
+      "plays": 1
+    },
+    {
+      "name": "Zealots",
+      "artist": "Fugees",
+      "artist_slug": "fugees",
+      "plays": 1
+    },
+    {
+      "name": "Ready or Not",
+      "artist": "Fugees",
+      "artist_slug": "fugees",
+      "plays": 1
+    },
+    {
+      "name": "How Many Mics",
+      "artist": "Fugees",
+      "artist_slug": "fugees",
+      "plays": 1
+    },
+    {
+      "name": "Red Intro",
+      "artist": "Fugees",
+      "artist_slug": "fugees",
+      "plays": 1
+    },
+    {
+      "name": "He Rode All the Way to Texas - 2015 Remaster",
+      "artist": "Dolly Parton",
+      "artist_slug": "dolly-parton",
+      "plays": 1
+    },
+    {
+      "name": "To Know Him Is to Love Him - 2015 Remaster",
+      "artist": "Dolly Parton",
+      "artist_slug": "dolly-parton",
+      "plays": 1
+    },
+    {
+      "name": "From Here to the Moon and Back (feat. Dolly Parton)",
+      "artist": "Willie Nelson",
+      "artist_slug": "willie-nelson",
+      "plays": 1
+    },
+    {
+      "name": "Better Get to Livin'",
+      "artist": "Dolly Parton",
+      "artist_slug": "dolly-parton",
+      "plays": 1
+    },
+    {
+      "name": "The Great Pretender",
+      "artist": "Dolly Parton",
+      "artist_slug": "dolly-parton",
+      "plays": 1
+    },
+    {
+      "name": "In the Ghetto",
+      "artist": "Dolly Parton",
+      "artist_slug": "dolly-parton",
+      "plays": 1
+    },
+    {
+      "name": "I Believe",
+      "artist": "Dolly Parton",
+      "artist_slug": "dolly-parton",
+      "plays": 1
+    },
+    {
+      "name": "Why'd You Come in Here Lookin' Like That",
+      "artist": "Dolly Parton",
+      "artist_slug": "dolly-parton",
+      "plays": 1
+    },
+    {
+      "name": "Heartbreaker",
+      "artist": "Dolly Parton",
+      "artist_slug": "dolly-parton",
+      "plays": 1
+    },
+    {
+      "name": "Blue Smoke",
+      "artist": "Dolly Parton",
+      "artist_slug": "dolly-parton",
+      "plays": 1
+    },
+    {
+      "name": "Wrecking Ball",
+      "artist": "Dolly Parton",
+      "artist_slug": "dolly-parton",
+      "plays": 1
+    },
+    {
+      "name": "Here You Come Again",
+      "artist": "Dolly Parton",
+      "artist_slug": "dolly-parton",
+      "plays": 1
+    },
+    {
+      "name": "Coat of Many Colors",
+      "artist": "Dolly Parton",
+      "artist_slug": "dolly-parton",
+      "plays": 1
+    },
+    {
+      "name": "Let It Be",
+      "artist": "Dolly Parton",
+      "artist_slug": "dolly-parton",
+      "plays": 1
+    },
+    {
+      "name": "If You Hadn’t Been There",
+      "artist": "Dolly Parton",
+      "artist_slug": "dolly-parton",
+      "plays": 1
+    },
+    {
+      "name": "Islands in the Stream",
+      "artist": "Dolly Parton",
+      "artist_slug": "dolly-parton",
+      "plays": 1
+    },
+    {
+      "name": "I Will Always Love You",
+      "artist": "Dolly Parton",
+      "artist_slug": "dolly-parton",
+      "plays": 1
+    },
+    {
+      "name": "9 to 5",
+      "artist": "Dolly Parton",
+      "artist_slug": "dolly-parton",
+      "plays": 1
+    },
+    {
+      "name": "Love Is Like a Butterfly",
+      "artist": "Dolly Parton",
+      "artist_slug": "dolly-parton",
+      "plays": 1
+    },
+    {
+      "name": "Jolene",
+      "artist": "Dolly Parton",
+      "artist_slug": "dolly-parton",
+      "plays": 1
+    },
+    {
+      "name": "Lucifer",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 1
+    },
+    {
+      "name": "All You Got - skit",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 1
+    },
+    {
+      "name": "Evil",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 1
+    },
+    {
+      "name": "Brand New Dance",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 1
+    },
+    {
+      "name": "Trouble",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 1
+    },
+    {
+      "name": "Habits",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 1
+    },
+    {
+      "name": "Renaissance",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 1
+    },
+    {
+      "name": "A Farewell Theme",
+      "artist": "Sun Ra Arkestra",
+      "artist_slug": "sun-ra-arkestra",
+      "plays": 1
+    },
+    {
+      "name": "Oriental Mood",
+      "artist": "Sun Ra Arkestra",
+      "artist_slug": "sun-ra-arkestra",
+      "plays": 1
+    },
+    {
+      "name": "Dawn",
+      "artist": "Sun Ra Arkestra",
+      "artist_slug": "sun-ra-arkestra",
+      "plays": 1
+    },
+    {
+      "name": "Egypt Strut",
+      "artist": "Sun Ra Arkestra",
+      "artist_slug": "sun-ra-arkestra",
+      "plays": 1
+    }
+  ]
+}
