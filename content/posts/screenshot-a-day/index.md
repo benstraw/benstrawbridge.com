@@ -5,6 +5,15 @@ hideAsideBar = true
 summary = "Uptime monitoring tells you a site is up. It can't tell you when the hero image stopped rendering in Safari. So I built a self-hosted visual history for the sites I'm responsible for."
 description = "Uptime monitoring tells you a site is up. It can't tell you when the hero image stopped rendering in Safari. So I built a self-hosted visual history for the sites I'm responsible for."
 homeFeatureIcon = "fa-solid fa-camera"
+# Render this page's card with the project's own OG artwork wherever it is
+# listed. cardType picks layouts/partials/card-image.html (resolved per page by
+# utils/card-type.html); cardImage names the resource it draws.
+cardType = "-image"
+cardImage = "og.png"
+cardImageAlt = "The Screenshot-a-Day project card: \"A visual history you own\", beside three stacked browser captures of the same page dated June 04, July 19, and August 17, tagged 0.42% changed"
+# Share the project's own card rather than the generated title-on-base-image
+# default. get-featured-image.html resolves og_image from the page bundle.
+og_image = "og.png"
 tags = [
   "open-source",
   "self-hosted",
