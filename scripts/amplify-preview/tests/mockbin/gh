@@ -1,0 +1,46 @@
+#!/usr/bin/env bash
+# Mock gh CLI for the Amplify preview tests.
+set -uo pipefail
+args="$*"
+echo "gh $args" >>"$MOCK_STATE/calls.log"
+args="${args#api }"
+body="" ; [[ "$args" == *"--input -"* ]] && body="$(cat)"
+
+case "$args" in
+  *"/pulls/"*"/files"*)
+    printf '%s\n' "${MOCK_PR_FILES:-}"; exit 0 ;;
+  *"/pulls/"*)
+    jq -n --arg s "${MOCK_PR_STATE:-open}" --arg sha "${MOCK_PR_HEAD_SHA:-$HEAD_SHA}" \
+          --arg hr "${MOCK_HEAD_REPO:-$GITHUB_REPOSITORY}" --arg br "$GITHUB_REPOSITORY" \
+      '{state:$s, head:{sha:$sha, repo:{full_name:$hr}}, base:{repo:{full_name:$br}}}'; exit 0 ;;
+  *"/collaborators/"*"/permission")
+    [[ -z "${MOCK_ACTOR_ROLE:-}" ]] && { echo "gh: Not Found (HTTP 404)" >&2; exit 1; }
+    jq -n --arg r "$MOCK_ACTOR_ROLE" '{permission:(if $r=="admin" then "admin" elif $r=="write" or $r=="maintain" then "write" else "read" end), role_name:$r}'; exit 0 ;;
+  "--method DELETE repos/"*"/git/refs/heads/"*)
+    ref="${args##*/git/refs/heads/}"
+    [[ "${MOCK_DELETE_REF_FAILS:-0}" == 1 ]] && { echo "gh: Validation Failed (HTTP 422)" >&2; exit 1; }
+    grep -vxF "$ref" "$MOCK_STATE/git_branches" >"$MOCK_STATE/tmp" || true
+    mv "$MOCK_STATE/tmp" "$MOCK_STATE/git_branches"; exit 0 ;;
+  "--method PATCH repos/"*"/git/refs/heads/"*)
+    ref="${args%% --input -}"; ref="${ref##*/git/refs/heads/}"
+    echo "$body" | jq -r '.sha' >"$MOCK_STATE/ref_sha"; exit 0 ;;
+  "--method POST repos/"*"/git/refs "*)
+    echo "$body" | jq -r '.ref' | sed 's|^refs/heads/||' >>"$MOCK_STATE/git_branches"
+    echo "$body" | jq -r '.sha' >"$MOCK_STATE/ref_sha"; exit 0 ;;
+  "repos/"*"/git/ref/heads/"*)
+    ref="${args%% --jq*}"; ref="${ref##*/git/ref/heads/}"
+    grep -qxF "$ref" "$MOCK_STATE/git_branches" 2>/dev/null || { echo "gh: Not Found (HTTP 404)" >&2; exit 1; }
+    sha="$(cat "$MOCK_STATE/ref_sha" 2>/dev/null || echo "${HEAD_SHA:-}")"
+    if [[ "$args" == *"--jq"* ]]; then printf '%s\n' "$sha"; else jq -n --arg s "$sha" '{object:{sha:$s}}'; fi
+    exit 0 ;;
+  "--paginate repos/"*"/issues/"*"/comments")
+    if [[ -f "$MOCK_STATE/comment_body.md" ]]; then
+      jq -n --rawfile b "$MOCK_STATE/comment_body.md" '[{id:777, body:$b}]'
+    else echo '[]'; fi
+    exit 0 ;;
+  "--method POST repos/"*"/issues/"*"/comments --input -")
+    echo "$body" | jq -r '.body' >"$MOCK_STATE/comment_body.md"; echo "created" >>"$MOCK_STATE/comment_ops"; exit 0 ;;
+  "--method PATCH repos/"*"/issues/comments/"*)
+    echo "$body" | jq -r '.body' >"$MOCK_STATE/comment_body.md"; echo "patched" >>"$MOCK_STATE/comment_ops"; exit 0 ;;
+esac
+echo "unexpected gh invocation: $args" >&2; exit 99

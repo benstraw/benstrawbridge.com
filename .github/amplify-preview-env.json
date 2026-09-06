@@ -1,0 +1,12 @@
+{
+  "_documentation": "Audit of the Amplify app-level environment variables that on-demand preview builds inherit. See docs/amplify-preview-deployments.md. Every app-level variable must appear in 'inherit' (safe for a preview build) or in 'override' (replaced with a preview-safe value); an unclassified variable stops the deployment before any preview branch is created. Never put a secret in 'override' - this file is public.",
+  "inherit": [
+    "AMPLIFY_DIFF_DEPLOY",
+    "PUBLIC_POSTHOG_HOST",
+    "_BUILD_TIMEOUT",
+    "_LIVE_UPDATES"
+  ],
+  "override": {
+    "PUBLIC_POSTHOG_KEY": ""
+  }
+}

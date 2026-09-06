@@ -1,0 +1,49 @@
+#!/usr/bin/env bash
+# Mock AWS CLI for the Amplify preview tests.
+set -uo pipefail
+args="$*"
+echo "aws $args" >>"$MOCK_STATE/calls.log"
+
+branch_of() { # extract --branch-name value
+  local prev="" a
+  for a in "$@"; do
+    [[ "$prev" == "--branch-name" ]] && { printf '%s' "$a"; return; }
+    prev="$a"
+  done
+}
+
+case "$args" in
+  "amplify get-app "*"--query app.productionBranch.branchName"*)
+    jq -r '.app.productionBranch.branchName // "None"' "$MOCK_STATE/app.json"; exit 0 ;;
+  "amplify get-app "*"--query app.defaultDomain"*)
+    jq -r '.app.defaultDomain' "$MOCK_STATE/app.json"; exit 0 ;;
+  "amplify get-app "*)
+    [[ "${MOCK_GET_APP_FAILS:-0}" == 1 ]] && { echo "AccessDeniedException" >&2; exit 254; }
+    cat "$MOCK_STATE/app.json"; exit 0 ;;
+  "amplify get-branch "*)
+    b="$(branch_of "$@")"
+    grep -qxF "$b" "$MOCK_STATE/amplify_branches" 2>/dev/null && {
+      jq -n --arg b "$b" --arg f "${MOCK_PROD_FRAMEWORK:-}" --arg s "${MOCK_PROD_BUILDSPEC:-}" \
+        '{branch:{branchName:$b, framework:(if $f=="" then null else $f end), buildSpec:(if $s=="" then null else $s end)}}'
+      exit 0; }
+    echo "An error occurred (NotFoundException)" >&2; exit 254 ;;
+  "amplify create-branch "*)
+    b="$(branch_of "$@")"; echo "$b" >>"$MOCK_STATE/amplify_branches"; echo '{}'; exit 0 ;;
+  "amplify update-branch "*) echo '{}'; exit 0 ;;
+  "amplify start-job "*)
+    [[ "${MOCK_START_JOB_FAILS:-0}" == 1 ]] && { echo "LimitExceededException" >&2; exit 254; }
+    printf '%s\n' "${MOCK_JOB_ID:-42}"; exit 0 ;;
+  "amplify get-job "*)
+    s="$(head -n 1 "$MOCK_STATE/job_statuses")"
+    if [[ "$(wc -l <"$MOCK_STATE/job_statuses")" -gt 1 ]]; then
+      tail -n +2 "$MOCK_STATE/job_statuses" >"$MOCK_STATE/job_statuses.next"
+      mv "$MOCK_STATE/job_statuses.next" "$MOCK_STATE/job_statuses"
+    fi
+    jq -n --arg s "$s" --arg c "${MOCK_BUILT_COMMIT:-$HEAD_SHA}" '{job:{summary:{status:$s, commitId:$c}}}'; exit 0 ;;
+  "amplify delete-branch "*)
+    b="$(branch_of "$@")"
+    [[ "${MOCK_DELETE_BRANCH_FAILS:-0}" == 1 ]] && { echo "An error occurred (LimitExceededException) when calling DeleteBranch" >&2; exit 254; }
+    grep -vxF "$b" "$MOCK_STATE/amplify_branches" >"$MOCK_STATE/tmp" || true
+    mv "$MOCK_STATE/tmp" "$MOCK_STATE/amplify_branches"; echo '{}'; exit 0 ;;
+esac
+echo "unexpected aws invocation: $args" >&2; exit 99

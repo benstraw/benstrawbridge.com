@@ -1,0 +1,92 @@
+name: Amplify preview (on demand)
+
+run-name: Amplify preview · PR #${{ inputs.pr_number || github.event.pull_request.number }}
+
+on:
+  # Requested deployments only. There is deliberately no `opened`, `reopened` or
+  # `synchronize` trigger: a new commit must not rebuild an existing preview
+  # until the label is re-applied or the workflow is dispatched again.
+  pull_request_target:
+    types: [labeled]
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: Pull request number to deploy (digits only)
+        required: true
+        type: string
+
+concurrency:
+  group: amplify-preview-pr-${{ inputs.pr_number || github.event.pull_request.number }}
+  cancel-in-progress: true
+
+# Declared per job instead of once at the top level, so the authorisation job
+# runs read-only and only the deployment job can reach AWS or write to the
+# repository. The union is: contents: write, pull-requests: write, id-token: write.
+permissions: {}
+
+jobs:
+  # Resolves and authorises the request. No AWS credentials are configured here,
+  # so a fork pull request or an unauthorised user never reaches the deploy job.
+  guard:
+    if: github.event_name == 'workflow_dispatch' || github.event.label.name == 'deploy-preview'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: read
+    outputs:
+      pr_number: ${{ steps.resolve.outputs.pr_number }}
+      head_sha: ${{ steps.resolve.outputs.head_sha }}
+      short_sha: ${{ steps.resolve.outputs.short_sha }}
+    steps:
+      - name: Check out the base branch
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
+        with:
+          persist-credentials: false
+
+      - name: Resolve and authorise the pull request
+        id: resolve
+        env:
+          GH_TOKEN: ${{ github.token }}
+          EVENT_NAME: ${{ github.event_name }}
+          EVENT_PR_NUMBER: ${{ github.event.pull_request.number }}
+          INPUT_PR_NUMBER: ${{ inputs.pr_number }}
+          REQUEST_ACTOR: ${{ github.actor }}
+        run: scripts/amplify-preview/resolve-pr.sh
+
+  deploy:
+    needs: guard
+    runs-on: ubuntu-latest
+    # Scopes the OIDC subject claim to repo:<owner>/<repo>:environment:amplify-preview.
+    environment:
+      name: amplify-preview
+      url: ${{ steps.deploy.outputs.preview_url }}
+    permissions:
+      contents: write # create/force-update the temporary preview branch
+      pull-requests: write # maintain the single status comment
+      id-token: write # request the OIDC token used to assume the AWS role
+    steps:
+      # The base branch only. The pull request head is never checked out: it is
+      # untrusted code, and it must not be able to replace the scripts or the
+      # environment-variable policy that this job runs.
+      - name: Check out the base branch
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
+        with:
+          persist-credentials: false
+
+      - name: Assume the preview deployment role
+        uses: aws-actions/configure-aws-credentials@cbe3b392738ccf3f987d68400dafcf4b0624a56c # v6.2.4
+        with:
+          role-to-assume: ${{ vars.AWS_PREVIEW_ROLE_ARN }}
+          aws-region: ${{ vars.AWS_REGION }}
+          role-session-name: amplify-preview-pr-${{ needs.guard.outputs.pr_number }}
+
+      - name: Deploy the preview
+        id: deploy
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_NUMBER: ${{ needs.guard.outputs.pr_number }}
+          HEAD_SHA: ${{ needs.guard.outputs.head_sha }}
+          AMPLIFY_APP_ID: ${{ vars.AMPLIFY_APP_ID }}
+          AWS_REGION: ${{ vars.AWS_REGION }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: scripts/amplify-preview/deploy.sh

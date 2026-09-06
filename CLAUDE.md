@@ -457,6 +457,42 @@ matter — so `git checkout content/trails/` afterwards.
 No CSP change is involved: tiles are fetched by the screenshotter at generation
 time, never by a visitor, and the `og:image` itself is same-origin.
 
+## On-demand Amplify previews
+
+Pull requests get a preview build **only when one is requested** — the
+`deploy-preview` label or a manual run of *Amplify preview (on demand)*. Opening a
+PR, pushing to it, or reopening it deploys nothing, and Amplify's native
+*Pull request previews* setting stays off. Closing the PR removes the preview.
+
+`docs/amplify-preview-deployments.md` is the full reference: setup, IAM policies,
+the preview URL format, security limits and manual cleanup. Three things worth
+knowing before touching `.github/workflows/amplify-preview*.yml`:
+
+- **The PR head is never checked out.** Both workflows run on
+  `pull_request_target`, so they hold a writable token in base-repo context. That
+  is only safe because no step executes PR-authored code: the temporary branch is
+  created through the GitHub refs API, and the scripts and the env policy always
+  come from the base branch. Do not add a checkout of the head SHA, and do not add
+  a build/install/lint step.
+- **An Amplify branch is a Git branch.** The Amplify branch is
+  `amplify-preview/pr-N`, same as the temporary Git branch; the `pr-N` URL prefix
+  comes from the branch's `displayName`. A RELEASE job builds whatever that Git
+  branch points at.
+- **App-level Amplify environment variables are inherited by previews.** Every one
+  of them must be classified in `.github/amplify-preview-env.json` or the
+  deployment stops before creating anything.
+- **The `amplify-preview` GitHub environment must allow only `main`.** The OIDC
+  subject names the environment rather than the workflow ref, so the environment's
+  selected-branch rule is what prevents a workflow on another branch from assuming
+  the preview role.
+- **PRs that modify `.github/workflows/**` are not previewable.** GitHub can require
+  the separate Workflows permission to create a ref at such a commit, and
+  `GITHUB_TOKEN` cannot receive it; the authorisation guard rejects these requests.
+
+`npm run test:amplify-preview` exercises the deploy, cleanup and authorisation
+scripts against mock `aws`/`gh` binaries — no AWS account, no throwaway PR.
+
+
 ## Notes
 
 - Theme is a git submodule; changes to theme should be made in the upstream repo
