@@ -7,6 +7,8 @@ args="${args#api }"
 body="" ; [[ "$args" == *"--input -"* ]] && body="$(cat)"
 
 case "$args" in
+  *"/pulls/"*"/files"*)
+    printf '%s\n' "${MOCK_PR_FILES:-}"; exit 0 ;;
   *"/pulls/"*)
     jq -n --arg s "${MOCK_PR_STATE:-open}" --arg sha "${MOCK_PR_HEAD_SHA:-$HEAD_SHA}" \
           --arg hr "${MOCK_HEAD_REPO:-$GITHUB_REPOSITORY}" --arg br "$GITHUB_REPOSITORY" \

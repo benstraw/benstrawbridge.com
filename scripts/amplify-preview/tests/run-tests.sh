@@ -178,6 +178,12 @@ export INPUT_PR_NUMBER=12 MOCK_ACTOR_ROLE=write GITHUB_OUTPUT="$MOCK_STATE/out2"
 out="$(scripts/amplify-preview/resolve-pr.sh 2>&1)"; rc=$?
 check t11 "valid manual dispatch is allowed" 0 "$rc"
 
+export MOCK_PR_FILES='.github/workflows/untrusted.yml'
+out="$(scripts/amplify-preview/resolve-pr.sh 2>&1)"; rc=$?
+check t11 "PRs that change workflow files are rejected" 1 "$rc"
+check t11 "workflow-file rejection is explained" yes "$(contains "$out" 'cannot be granted the required Workflows permission')"
+unset MOCK_PR_FILES
+
 export MOCK_ACTOR_ROLE=maintain
 out="$(scripts/amplify-preview/resolve-pr.sh 2>&1)"; rc=$?
 check t11 "maintainer is allowed" 0 "$rc"

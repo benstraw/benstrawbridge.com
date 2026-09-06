@@ -57,6 +57,18 @@ if [[ -z "$head_repo" || "$head_repo" != "$base_repo" ]]; then
   reject "Pull request #${pr_number} comes from a fork (\`${head_repo:-unknown}\`). On-demand previews are limited to branches in \`${base_repo}\`; no AWS credentials were issued."
 fi
 
+# GitHub can require the separate Workflows permission when a ref is created or
+# updated to a commit that changes .github/workflows. GITHUB_TOKEN deliberately
+# cannot receive that permission, so reject those PRs explicitly instead of
+# failing later with an opaque "Resource not accessible by integration" error.
+workflow_file="$(
+  gh api --paginate "repos/${GITHUB_REPOSITORY}/pulls/${pr_number}/files" --jq '.[].filename' \
+    | awk '/^\.github\/workflows\// && !found { print; found=1 }'
+)" || reject "The changed-file list for pull request #${pr_number} could not be read from the GitHub API."
+if [[ -n "$workflow_file" ]]; then
+  reject "Pull request #${pr_number} changes \`${workflow_file}\`. On-demand previews cannot create a temporary ref for commits that change GitHub workflow files, because \`GITHUB_TOKEN\` cannot be granted the required Workflows permission."
+fi
+
 # The requester must be able to push to this repository. Label events can be
 # triggered by anyone with triage access, which is not enough.
 perm_json="$(gh api "repos/${GITHUB_REPOSITORY}/collaborators/${REQUEST_ACTOR}/permission" 2>/dev/null)" \

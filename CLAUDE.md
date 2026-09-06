@@ -481,6 +481,13 @@ knowing before touching `.github/workflows/amplify-preview*.yml`:
 - **App-level Amplify environment variables are inherited by previews.** Every one
   of them must be classified in `.github/amplify-preview-env.json` or the
   deployment stops before creating anything.
+- **The `amplify-preview` GitHub environment must allow only `main`.** The OIDC
+  subject names the environment rather than the workflow ref, so the environment's
+  selected-branch rule is what prevents a workflow on another branch from assuming
+  the preview role.
+- **PRs that modify `.github/workflows/**` are not previewable.** GitHub can require
+  the separate Workflows permission to create a ref at such a commit, and
+  `GITHUB_TOKEN` cannot receive it; the authorisation guard rejects these requests.
 
 `npm run test:amplify-preview` exercises the deploy, cleanup and authorisation
 scripts against mock `aws`/`gh` binaries — no AWS account, no throwaway PR.

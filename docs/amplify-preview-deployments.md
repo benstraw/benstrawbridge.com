@@ -88,8 +88,9 @@ it, and no AWS access key is ever created for it.
 ```
 
 The `sub` condition pins the role to this repository **and** to the
-`amplify-preview` GitHub environment. Both jobs that touch AWS declare that
-environment, so no other workflow, branch, or repository can assume the role.
+`amplify-preview` GitHub environment. The environment's deployment-branch rule
+below restricts it to `main`; both controls are required to prevent a workflow
+on another branch or repository from assuming the role.
 
 **Permissions policy** (replace `<ACCOUNT_ID>`, `<REGION>`, `<APP_ID>`,
 `<PRODUCTION_BRANCH>`):
@@ -138,8 +139,18 @@ by IAM, not only by the scripts.
 
 ### 3. GitHub: environment
 
-Create an environment named `amplify-preview` (Settings → Environments). It exists
-so the OIDC subject claim can be pinned; it needs no secrets.
+Create an environment named `amplify-preview` (Settings → Environments). Under
+**Deployment branches and tags**, choose **Selected branches and tags** and add
+one branch rule: `main`. Do not choose **Protected branches only** unless `main`
+actually has branch protection; when a repository has no protected branches,
+GitHub treats that option as allowing every branch. The environment needs no
+secrets.
+
+This branch rule is part of the OIDC security boundary. A manual
+`workflow_dispatch` can run the version of a workflow stored on the selected
+ref, while an environment-based OIDC subject contains the environment name
+instead of the ref. Without the `main` rule, a modified workflow on another
+branch could use this environment to request the AWS role.
 
 Adding **required reviewers** gives manual approval before each preview build — but
 the cleanup workflow uses the same environment, so cleanup would then wait for an
@@ -163,10 +174,12 @@ Create a label named exactly `deploy-preview`.
 
 ### 6. Merge to the default branch
 
-`pull_request_target` and `workflow_dispatch` both read the workflow from the
-**default branch**. Until these files are on `main`, adding the label does nothing
-and the workflow does not appear in the Actions tab. This is the one setup step
-that cannot be tested from a feature branch.
+`pull_request_target` reads the workflow from the **default branch**, and the
+manual **Run workflow** button appears only after the workflow exists there.
+Until these files are on `main`, adding the label does nothing and the workflow
+does not appear in the Actions tab. When dispatching manually, leave the selected
+workflow ref on `main`; the environment's deployment-branch rule rejects other
+refs. This is the one setup step that cannot be tested from a feature branch.
 
 ### 7. Classify the inherited environment variables
 
@@ -200,16 +213,19 @@ Amplify preview cleanup*, and is safe to run when nothing is left to delete.
    with triage access).
 3. Reads the head SHA **from the API** — a branch or SHA typed into the manual
    input is never trusted; the input is a pull-request number and must be digits.
-4. Creates or force-updates `amplify-preview/pr-N` to exactly that SHA, then reads
+4. Rejects the request if the pull request changes `.github/workflows/**`, because
+   `GITHUB_TOKEN` cannot receive the Workflows permission GitHub can require when
+   creating a ref at such a commit.
+5. Creates or force-updates `amplify-preview/pr-N` to exactly that SHA, then reads
    the ref back to confirm it landed.
-5. Reads the Amplify app: default domain, production branch, connected repository,
+6. Reads the Amplify app: default domain, production branch, connected repository,
    platform, branch auto-detection, environment variables.
-6. Creates the Amplify branch when absent — auto-build off, stage `PULL_REQUEST`,
+7. Creates the Amplify branch when absent — auto-build off, stage `PULL_REQUEST`,
    native PR previews off, framework copied from the production branch — or
    converges those same settings when it already exists.
-7. Starts one explicit `RELEASE` job and polls that job id until it reaches
+8. Starts one explicit `RELEASE` job and polls that job id until it reaches
    `SUCCEED`, `FAILED` or `CANCELLED`, or until the 30-minute timeout.
-8. Publishes the result to the pull request comment and the job summary.
+9. Publishes the result to the pull request comment and the job summary.
 
 The workflow fails when the Amplify job fails, is cancelled, or times out.
 
@@ -229,6 +245,13 @@ and the environment-variable policy always come from the base branch. Do not add
 step that checks out `github.event.pull_request.head.sha`, and do not add a build,
 install, or lint step to these workflows.
 
+**Pull requests that change GitHub workflows are refused.** Creating or updating
+a Git ref can require GitHub's separate Workflows permission when the target
+commit changes `.github/workflows/**`. The workflow uses `GITHUB_TOKEN`, which
+cannot be granted that permission. The guard detects this case before AWS
+credentials are issued and explains the limitation instead of failing later
+while creating the temporary branch.
+
 **Least-privilege AWS access** — see the permissions policy above.
 
 **Previews are public.** `https://pr-N.<default domain>` is reachable by anyone who
@@ -246,8 +269,15 @@ variable:
 
 ```json
 {
-  "inherit": ["_LIVE_UPDATES"],
-  "override": {}
+  "inherit": [
+    "AMPLIFY_DIFF_DEPLOY",
+    "PUBLIC_POSTHOG_HOST",
+    "_BUILD_TIMEOUT",
+    "_LIVE_UPDATES"
+  ],
+  "override": {
+    "PUBLIC_POSTHOG_KEY": ""
+  }
 }
 ```
 
@@ -259,10 +289,11 @@ variable:
 A variable that appears in neither list stops the deployment **before** any branch
 is created or any credential reaches a build, and the failure names it. That is
 deliberate: it forces the audit to happen against the app's real configuration
-rather than an assumption. `_LIVE_UPDATES` is pre-classified because Amplify writes
-it itself to pin build-tool versions (it is a package/version list, not a secret) —
-confirm its value before the first run and remove it from `inherit` if it holds
-anything else.
+rather than an assumption. The current app's build controls
+(`AMPLIFY_DIFF_DEPLOY`, `_BUILD_TIMEOUT`, and `_LIVE_UPDATES`) and public PostHog
+host are safe to inherit. `PUBLIC_POSTHOG_KEY` is deliberately overridden with
+an empty value so visits to previews do not enter production analytics. Move it
+to `inherit` only if that traffic is intentional.
 
 To see the current list without deploying:
 
@@ -321,6 +352,7 @@ git ls-remote --heads origin 'refs/heads/amplify-preview/*'
 | `Could not read Amplify app` | `AMPLIFY_APP_ID` / `AWS_REGION` wrong, or the role lacks `amplify:GetApp` |
 | `not authorized to perform sts:AssumeRoleWithWebIdentity` | Trust policy `sub` does not match `repo:benstraw/benstrawbridge.com:environment:amplify-preview`, or the job is missing `id-token: write` |
 | `comes from a fork` | Expected — fork previews are out of scope |
+| `changes .github/workflows/...` | Expected — workflow-changing PRs cannot be previewed with `GITHUB_TOKEN` |
 | `at least write access is required` | The person who added the label has triage or read access |
 | `is connected to <other repo>` | `AMPLIFY_APP_ID` points at a different application |
 | `branch auto-detection ... matches` | The app would auto-create a branch for the preview ref; narrow the pattern or disable auto-detection |

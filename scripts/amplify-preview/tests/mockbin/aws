@@ -35,7 +35,10 @@ case "$args" in
     printf '%s\n' "${MOCK_JOB_ID:-42}"; exit 0 ;;
   "amplify get-job "*)
     s="$(head -n 1 "$MOCK_STATE/job_statuses")"
-    [[ "$(wc -l <"$MOCK_STATE/job_statuses")" -gt 1 ]] && sed -i '1d' "$MOCK_STATE/job_statuses"
+    if [[ "$(wc -l <"$MOCK_STATE/job_statuses")" -gt 1 ]]; then
+      tail -n +2 "$MOCK_STATE/job_statuses" >"$MOCK_STATE/job_statuses.next"
+      mv "$MOCK_STATE/job_statuses.next" "$MOCK_STATE/job_statuses"
+    fi
     jq -n --arg s "$s" --arg c "${MOCK_BUILT_COMMIT:-$HEAD_SHA}" '{job:{summary:{status:$s, commitId:$c}}}'; exit 0 ;;
   "amplify delete-branch "*)
     b="$(branch_of "$@")"
