@@ -7664,9 +7664,9 @@
     "id": "34EP7KEpOjXcM2TCat1ISk",
     "name": "Wu-Tang Clan",
     "spotify_url": "https://open.spotify.com/artist/34EP7KEpOjXcM2TCat1ISk",
-    "total_plays": 18,
+    "total_plays": 19,
     "first_seen": "2026-02-26",
-    "last_seen": "2026-08-11",
+    "last_seen": "2026-09-03",
     "genres": [
       "old school hip hop",
       "east coast hip hop",
@@ -7693,15 +7693,15 @@
     ],
     "top_tracks": [
       {
-        "name": "C.R.E.A.M. (Cash Rules Everything Around Me)",
-        "album": "Enter The Wu-Tang (36 Chambers) [Expanded Edition]",
-        "spotify_url": "https://open.spotify.com/track/119c93MHjrDLJTApCVGpvx",
-        "plays": 3
-      },
-      {
         "name": "Sound The Horns",
         "album": "Chamber Music",
         "spotify_url": "https://open.spotify.com/track/234QpD9ilHoJjnhCVd2fOW",
+        "plays": 4
+      },
+      {
+        "name": "C.R.E.A.M. (Cash Rules Everything Around Me)",
+        "album": "Enter The Wu-Tang (36 Chambers) [Expanded Edition]",
+        "spotify_url": "https://open.spotify.com/track/119c93MHjrDLJTApCVGpvx",
         "plays": 3
       },
       {
@@ -7928,9 +7928,9 @@
     "id": "03r4iKL2g2442PT9n2UKsx",
     "name": "Beastie Boys",
     "spotify_url": "https://open.spotify.com/artist/03r4iKL2g2442PT9n2UKsx",
-    "total_plays": 172,
+    "total_plays": 199,
     "first_seen": "2026-02-26",
-    "last_seen": "2026-07-11",
+    "last_seen": "2026-09-04",
     "genres": [
       "rap rock",
       "old school hip hop",
@@ -7964,7 +7964,7 @@
         "name": "Three MC's And One DJ - Remastered 2009",
         "album": "Hello Nasty (Deluxe Edition/Remastered)",
         "spotify_url": "https://open.spotify.com/track/6nGUcW4caAW7Wx5oAcSIJZ",
-        "plays": 4
+        "plays": 5
       },
       {
         "name": "And Me - Remastered 2009",
@@ -7979,9 +7979,27 @@
         "plays": 3
       },
       {
+        "name": "Shake Your Rump",
+        "album": "Paul's Boutique (20th Anniversary Edition / Remastered)",
+        "spotify_url": "https://open.spotify.com/track/2qq0RYYIuQxXcOxQKN0drC",
+        "plays": 3
+      },
+      {
+        "name": "Root Down",
+        "album": "Ill Communication",
+        "spotify_url": "https://open.spotify.com/track/18tgx070tbAM4TKxEwzWaG",
+        "plays": 3
+      },
+      {
         "name": "Rhymin & Stealin",
         "album": "Licensed To Ill",
         "spotify_url": "https://open.spotify.com/track/6yKldTTcSa2BdpKPEtdYp3",
+        "plays": 3
+      },
+      {
+        "name": "So What'Cha Want - Remastered 2009",
+        "album": "Check Your Head (Deluxe Edition/Remastered/2009)",
+        "spotify_url": "https://open.spotify.com/track/0gmGBCJ5XhOmoNR37MmxEE",
         "plays": 3
       },
       {
@@ -7991,15 +8009,15 @@
         "plays": 3
       },
       {
+        "name": "An Open Letter To NYC (Andy Wallace Mix) - Radio Edit",
+        "album": "To The 5 Boroughs (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/26YRIxc8E6111heII7EwZB",
+        "plays": 3
+      },
+      {
         "name": "Don't Play No Game That I Can't Win",
         "album": "Hot Sauce Committee (Pt. 2)",
         "spotify_url": "https://open.spotify.com/track/7BKEIdzH1EuGoDxhyxHL9V",
-        "plays": 2
-      },
-      {
-        "name": "Shake Your Rump",
-        "album": "Paul's Boutique (20th Anniversary Edition / Remastered)",
-        "spotify_url": "https://open.spotify.com/track/2qq0RYYIuQxXcOxQKN0drC",
         "plays": 2
       },
       {
@@ -8039,6 +8057,102 @@
         "plays": 2
       },
       {
+        "name": "Do It",
+        "album": "Ill Communication",
+        "spotify_url": "https://open.spotify.com/track/38b7Ci0QH9WxvJmADYXqPB",
+        "plays": 2
+      },
+      {
+        "name": "RRNN: Straight Outta Shibuya",
+        "album": "To The 5 Boroughs (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/07zINtdkgKPD6wgKPZUhd9",
+        "plays": 2
+      },
+      {
+        "name": "MTL Reppin' For The 514",
+        "album": "To The 5 Boroughs (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/15HFhLi5jn8SVZjwKVJCGP",
+        "plays": 2
+      },
+      {
+        "name": "Rizzle Rizzle Nizzle Nizzle",
+        "album": "To The 5 Boroughs (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/2nOwlGi7SSe6ZPrNmKsxm5",
+        "plays": 2
+      },
+      {
+        "name": "Triple Trouble - Graham Coxon Remix",
+        "album": "To The 5 Boroughs (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/6nKuuu731KpcfYOwrm4Gex",
+        "plays": 2
+      },
+      {
+        "name": "Triple Trouble (Dexter's Triple Decollte Situation)",
+        "album": "To The 5 Boroughs (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/0ln3GVFZHBklSRVrPJkf6V",
+        "plays": 2
+      },
+      {
+        "name": "Triple Trouble - J. Wizzle Remix",
+        "album": "To The 5 Boroughs (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/41u44qih0I6B5sjCiGeSjv",
+        "plays": 2
+      },
+      {
+        "name": "Triple Trouble - Brainpower Remix",
+        "album": "To The 5 Boroughs (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/7x7CRUDUDBn5LOBQaHEVe6",
+        "plays": 2
+      },
+      {
+        "name": "Ch-Check It Out - Just Blaze Remix",
+        "album": "To The 5 Boroughs (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/0LrIz4fV8dev8IFAcDSb3H",
+        "plays": 2
+      },
+      {
+        "name": "Now Get Busy",
+        "album": "To The 5 Boroughs (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/4KWJSntOozXF3Gh6tpMVyn",
+        "plays": 2
+      },
+      {
+        "name": "And Then I",
+        "album": "To The 5 Boroughs (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/0hofLI4ReTPNvXuzLtRwV4",
+        "plays": 2
+      },
+      {
+        "name": "Brrrr Stick Em",
+        "album": "To The 5 Boroughs (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/1w70b6GgjNWLWbmWtCAqC8",
+        "plays": 2
+      },
+      {
+        "name": "We Got The",
+        "album": "To The 5 Boroughs (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/1LPxDhouDfAUOyL8XXdCGU",
+        "plays": 2
+      },
+      {
+        "name": "The Brouhaha",
+        "album": "To The 5 Boroughs (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/4pnkupa8BTk44WcIQMHmUS",
+        "plays": 2
+      },
+      {
+        "name": "Crawlspace",
+        "album": "To The 5 Boroughs (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/1UJydxSIq3D1mKVoFsaMG5",
+        "plays": 2
+      },
+      {
+        "name": "An Open Letter To NYC",
+        "album": "To The 5 Boroughs (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/12C2LsAn4jHPHDRRjJCitR",
+        "plays": 2
+      },
+      {
         "name": "Oh Word?",
         "album": "To The 5 Boroughs (Deluxe Edition)",
         "spotify_url": "https://open.spotify.com/track/0LaOYdQTxgyP3u4nIzpiVG",
@@ -8066,12 +8180,6 @@
         "name": "The New Style",
         "album": "Licensed To Ill",
         "spotify_url": "https://open.spotify.com/track/0Mu1MYdE414HeybYSms5KK",
-        "plays": 1
-      },
-      {
-        "name": "Root Down",
-        "album": "Ill Communication",
-        "spotify_url": "https://open.spotify.com/track/18tgx070tbAM4TKxEwzWaG",
         "plays": 1
       },
       {
@@ -8399,12 +8507,6 @@
         "plays": 1
       },
       {
-        "name": "Do It",
-        "album": "Ill Communication",
-        "spotify_url": "https://open.spotify.com/track/38b7Ci0QH9WxvJmADYXqPB",
-        "plays": 1
-      },
-      {
         "name": "Flute Loop",
         "album": "Ill Communication",
         "spotify_url": "https://open.spotify.com/track/1yUl2G3VJdkidTqXWBt2UD",
@@ -8534,12 +8636,6 @@
         "name": "The Biz Vs. The Nuge - Remastered 2009",
         "album": "Check Your Head (Deluxe Edition/Remastered/2009)",
         "spotify_url": "https://open.spotify.com/track/6NMrxmuxMrHLMpnvjjBXQm",
-        "plays": 1
-      },
-      {
-        "name": "So What'Cha Want - Remastered 2009",
-        "album": "Check Your Head (Deluxe Edition/Remastered/2009)",
-        "spotify_url": "https://open.spotify.com/track/0gmGBCJ5XhOmoNR37MmxEE",
         "plays": 1
       },
       {
@@ -8699,102 +8795,6 @@
         "plays": 1
       },
       {
-        "name": "An Open Letter To NYC (Andy Wallace Mix) - Radio Edit",
-        "album": "To The 5 Boroughs (Deluxe Edition)",
-        "spotify_url": "https://open.spotify.com/track/26YRIxc8E6111heII7EwZB",
-        "plays": 1
-      },
-      {
-        "name": "RRNN: Straight Outta Shibuya",
-        "album": "To The 5 Boroughs (Deluxe Edition)",
-        "spotify_url": "https://open.spotify.com/track/07zINtdkgKPD6wgKPZUhd9",
-        "plays": 1
-      },
-      {
-        "name": "MTL Reppin' For The 514",
-        "album": "To The 5 Boroughs (Deluxe Edition)",
-        "spotify_url": "https://open.spotify.com/track/15HFhLi5jn8SVZjwKVJCGP",
-        "plays": 1
-      },
-      {
-        "name": "Rizzle Rizzle Nizzle Nizzle",
-        "album": "To The 5 Boroughs (Deluxe Edition)",
-        "spotify_url": "https://open.spotify.com/track/2nOwlGi7SSe6ZPrNmKsxm5",
-        "plays": 1
-      },
-      {
-        "name": "Triple Trouble - Graham Coxon Remix",
-        "album": "To The 5 Boroughs (Deluxe Edition)",
-        "spotify_url": "https://open.spotify.com/track/6nKuuu731KpcfYOwrm4Gex",
-        "plays": 1
-      },
-      {
-        "name": "Triple Trouble (Dexter's Triple Decollte Situation)",
-        "album": "To The 5 Boroughs (Deluxe Edition)",
-        "spotify_url": "https://open.spotify.com/track/0ln3GVFZHBklSRVrPJkf6V",
-        "plays": 1
-      },
-      {
-        "name": "Triple Trouble - J. Wizzle Remix",
-        "album": "To The 5 Boroughs (Deluxe Edition)",
-        "spotify_url": "https://open.spotify.com/track/41u44qih0I6B5sjCiGeSjv",
-        "plays": 1
-      },
-      {
-        "name": "Triple Trouble - Brainpower Remix",
-        "album": "To The 5 Boroughs (Deluxe Edition)",
-        "spotify_url": "https://open.spotify.com/track/7x7CRUDUDBn5LOBQaHEVe6",
-        "plays": 1
-      },
-      {
-        "name": "Ch-Check It Out - Just Blaze Remix",
-        "album": "To The 5 Boroughs (Deluxe Edition)",
-        "spotify_url": "https://open.spotify.com/track/0LrIz4fV8dev8IFAcDSb3H",
-        "plays": 1
-      },
-      {
-        "name": "Now Get Busy",
-        "album": "To The 5 Boroughs (Deluxe Edition)",
-        "spotify_url": "https://open.spotify.com/track/4KWJSntOozXF3Gh6tpMVyn",
-        "plays": 1
-      },
-      {
-        "name": "And Then I",
-        "album": "To The 5 Boroughs (Deluxe Edition)",
-        "spotify_url": "https://open.spotify.com/track/0hofLI4ReTPNvXuzLtRwV4",
-        "plays": 1
-      },
-      {
-        "name": "Brrrr Stick Em",
-        "album": "To The 5 Boroughs (Deluxe Edition)",
-        "spotify_url": "https://open.spotify.com/track/1w70b6GgjNWLWbmWtCAqC8",
-        "plays": 1
-      },
-      {
-        "name": "We Got The",
-        "album": "To The 5 Boroughs (Deluxe Edition)",
-        "spotify_url": "https://open.spotify.com/track/1LPxDhouDfAUOyL8XXdCGU",
-        "plays": 1
-      },
-      {
-        "name": "The Brouhaha",
-        "album": "To The 5 Boroughs (Deluxe Edition)",
-        "spotify_url": "https://open.spotify.com/track/4pnkupa8BTk44WcIQMHmUS",
-        "plays": 1
-      },
-      {
-        "name": "Crawlspace",
-        "album": "To The 5 Boroughs (Deluxe Edition)",
-        "spotify_url": "https://open.spotify.com/track/1UJydxSIq3D1mKVoFsaMG5",
-        "plays": 1
-      },
-      {
-        "name": "An Open Letter To NYC",
-        "album": "To The 5 Boroughs (Deluxe Edition)",
-        "spotify_url": "https://open.spotify.com/track/12C2LsAn4jHPHDRRjJCitR",
-        "plays": 1
-      },
-      {
         "name": "Shazam!",
         "album": "To The 5 Boroughs (Deluxe Edition)",
         "spotify_url": "https://open.spotify.com/track/19V9Rt2j3oplK4BXzgH1Fh",
@@ -8855,15 +8855,27 @@
         "plays": 1
       },
       {
-        "name": "Super Disco Breakin' - Remastered 2009",
-        "album": "Hello Nasty (Deluxe Edition/Remastered)",
-        "spotify_url": "https://open.spotify.com/track/1k4lRM7YrGxJerGbf9VzXk",
-        "plays": 2
+        "name": "Alive",
+        "album": "Alive",
+        "spotify_url": "https://open.spotify.com/track/1ZPGcRnal0aR40Z3cb16gm",
+        "plays": 1
       },
       {
         "name": "Sure Shot",
         "album": "Ill Communication",
         "spotify_url": "https://open.spotify.com/track/21REQ1bCUWphT2QK3bLWYQ",
+        "plays": 1
+      },
+      {
+        "name": "So What'Cha Want",
+        "album": "Anthology: The Sounds Of Science",
+        "spotify_url": "https://open.spotify.com/track/25pl7kV4OxafIc9wPAggYf",
+        "plays": 1
+      },
+      {
+        "name": "Super Disco Breakin' - Remastered 2009",
+        "album": "Hello Nasty (Deluxe Edition/Remastered)",
+        "spotify_url": "https://open.spotify.com/track/1k4lRM7YrGxJerGbf9VzXk",
         "plays": 2
       },
       {
@@ -8906,12 +8918,6 @@
         "name": "Make Some Noise",
         "album": "Hot Sauce Committee (Pt. 2)",
         "spotify_url": "https://open.spotify.com/track/2Bz2Q1JNwwPj40T9AvzE7f",
-        "plays": 1
-      },
-      {
-        "name": "So What'Cha Want",
-        "album": "Anthology: The Sounds Of Science",
-        "spotify_url": "https://open.spotify.com/track/25pl7kV4OxafIc9wPAggYf",
         "plays": 1
       },
       {
@@ -27393,9 +27399,9 @@
     "id": "3vbKDsSS70ZX9D2OcvbZmS",
     "name": "Beck",
     "spotify_url": "https://open.spotify.com/artist/3vbKDsSS70ZX9D2OcvbZmS",
-    "total_plays": 3,
+    "total_plays": 4,
     "first_seen": "2026-05-02",
-    "last_seen": "2026-05-28",
+    "last_seen": "2026-09-03",
     "genres": [
       "anti-folk"
     ],
@@ -27436,6 +27442,12 @@
         "plays": 1
       },
       {
+        "name": "Where It's At",
+        "album": "Odelay",
+        "spotify_url": "https://open.spotify.com/track/0myfUjrUP8kMrk48nOXAY0",
+        "plays": 1
+      },
+      {
         "name": "E-Pro",
         "album": "Guero",
         "spotify_url": "https://open.spotify.com/track/01MBhRpvFkbeRwAp7gcF2W",
@@ -27458,12 +27470,6 @@
         "album": "Social Cues",
         "spotify_url": "https://open.spotify.com/track/0wSmZykDgah7GfaUNZUZCb",
         "plays": 2
-      },
-      {
-        "name": "Where It's At",
-        "album": "Odelay",
-        "spotify_url": "https://open.spotify.com/track/0myfUjrUP8kMrk48nOXAY0",
-        "plays": 1
       },
       {
         "name": "Burnt Orange Peel",
@@ -28766,9 +28772,9 @@
     "id": "2d0hyoQ5ynDBnkvAbJKORj",
     "name": "Rage Against The Machine",
     "spotify_url": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj",
-    "total_plays": 1,
+    "total_plays": 7,
     "first_seen": "2026-04-29",
-    "last_seen": "2026-04-29",
+    "last_seen": "2026-09-03",
     "genres": [
       "rap metal",
       "rap rock",
@@ -28794,9 +28800,39 @@
     ],
     "top_tracks": [
       {
+        "name": "Pistol Grip Pump",
+        "album": "Renegades",
+        "spotify_url": "https://open.spotify.com/track/0lsDJ0EkccufmSM43P28TQ",
+        "plays": 2
+      },
+      {
         "name": "Sleep Now In the Fire",
         "album": "The Battle Of Los Angeles",
         "spotify_url": "https://open.spotify.com/track/1MQTmpYOZ6fcMQc56Hdo7T",
+        "plays": 1
+      },
+      {
+        "name": "People of the Sun",
+        "album": "Evil Empire",
+        "spotify_url": "https://open.spotify.com/track/3QjQp2bfAvLTCSi8Zhzqis",
+        "plays": 1
+      },
+      {
+        "name": "Bombtrack",
+        "album": "Rage Against The Machine - XX (20th Anniversary Special Edition)",
+        "spotify_url": "https://open.spotify.com/track/2rBHnIxbhkMGLpqmsNX91M",
+        "plays": 1
+      },
+      {
+        "name": "Bulls On Parade",
+        "album": "Evil Empire",
+        "spotify_url": "https://open.spotify.com/track/0tZ3mElWcr74OOhKEiNz1x",
+        "plays": 1
+      },
+      {
+        "name": "Renegades Of Funk",
+        "album": "Renegades",
+        "spotify_url": "https://open.spotify.com/track/5YBVDvTSSSiqv7KZDeUlXA",
         "plays": 1
       }
     ]
@@ -28805,9 +28841,9 @@
     "id": "02NfyD6AlLA12crYzw5YcR",
     "name": "Jane's Addiction",
     "spotify_url": "https://open.spotify.com/artist/02NfyD6AlLA12crYzw5YcR",
-    "total_plays": 2,
+    "total_plays": 3,
     "first_seen": "2026-04-29",
-    "last_seen": "2026-07-08",
+    "last_seen": "2026-09-03",
     "genres": [
       "funk rock",
       "grunge"
@@ -28843,6 +28879,12 @@
         "plays": 1
       },
       {
+        "name": "Been Caught Stealing",
+        "album": "Ritual De Lo Habitual",
+        "spotify_url": "https://open.spotify.com/track/51Gkc1TxvyQ9K8y0pQRmQM",
+        "plays": 1
+      },
+      {
         "name": "Up the Beach",
         "album": "Nothing's Shocking",
         "spotify_url": "https://open.spotify.com/track/7CByzrzR4LCBxVI7lM8Ggv",
@@ -28872,9 +28914,9 @@
     "id": "0L8ExT028jH3ddEcZwqJJ5",
     "name": "Red Hot Chili Peppers",
     "spotify_url": "https://open.spotify.com/artist/0L8ExT028jH3ddEcZwqJJ5",
-    "total_plays": 21,
+    "total_plays": 22,
     "first_seen": "2026-04-29",
-    "last_seen": "2026-04-29",
+    "last_seen": "2026-09-03",
     "genres": [
       "funk rock",
       "alternative rock",
@@ -29016,6 +29058,12 @@
         "name": "The Power of Equality",
         "album": "Blood Sugar Sex Magik (Deluxe Edition)",
         "spotify_url": "https://open.spotify.com/track/0eX5QY6o5cb9W72zVmWWjV",
+        "plays": 1
+      },
+      {
+        "name": "Sikamikanico",
+        "album": "Wayne's World (Music From The Motion Picture)",
+        "spotify_url": "https://open.spotify.com/track/5al5Ixvr06j5pIgJZRMMkV",
         "plays": 1
       }
     ]
@@ -32974,9 +33022,9 @@
     "id": "62BcWP4fzR8axESibNQEhs",
     "name": "Butthole Surfers",
     "spotify_url": "https://open.spotify.com/artist/62BcWP4fzR8axESibNQEhs",
-    "total_plays": 43,
+    "total_plays": 44,
     "first_seen": "2026-05-27",
-    "last_seen": "2026-07-29",
+    "last_seen": "2026-09-04",
     "genres": [
       "noise rock"
     ],
@@ -33007,7 +33055,7 @@
         "name": "Who Was In My Room Last Night?",
         "album": "Independent Worm Saloon",
         "spotify_url": "https://open.spotify.com/track/6DVNQXL9LRzKq8zjyFEuTC",
-        "plays": 5
+        "plays": 6
       },
       {
         "name": "Alcohol",
@@ -33676,9 +33724,9 @@
     "id": "3WPKDlucMsXH6FC1XaclZC",
     "name": "Suicidal Tendencies",
     "spotify_url": "https://open.spotify.com/artist/3WPKDlucMsXH6FC1XaclZC",
-    "total_plays": 1,
+    "total_plays": 2,
     "first_seen": "2026-05-28",
-    "last_seen": "2026-05-28",
+    "last_seen": "2026-09-03",
     "genres": [
       "thrash metal",
       "hardcore punk",
@@ -33708,6 +33756,12 @@
         "name": "Institutionalized",
         "album": "Suicidal Tendencies",
         "spotify_url": "https://open.spotify.com/track/7G83ZwD2msTtFaBQExc8QB",
+        "plays": 1
+      },
+      {
+        "name": "Cyco Vision",
+        "album": "Freedumb",
+        "spotify_url": "https://open.spotify.com/track/3I9K8tSZRsAw7bRYfbhJEA",
         "plays": 1
       }
     ]
@@ -34593,9 +34647,9 @@
     "id": "64mPnRMMeudAet0E62ypkx",
     "name": "Primus",
     "spotify_url": "https://open.spotify.com/artist/64mPnRMMeudAet0E62ypkx",
-    "total_plays": 2,
+    "total_plays": 3,
     "first_seen": "2026-06-02",
-    "last_seen": "2026-07-08",
+    "last_seen": "2026-09-03",
     "genres": [
       "funk rock",
       "alternative metal",
@@ -34630,6 +34684,12 @@
         "name": "Those Damned Blue-Collar Tweekers",
         "album": "Sailing The Seas Of Cheese",
         "spotify_url": "https://open.spotify.com/track/7sIjZxhdIOKB92n8oaZ4hK",
+        "plays": 1
+      },
+      {
+        "name": "My Name Is Mud",
+        "album": "Pork Soda",
+        "spotify_url": "https://open.spotify.com/track/5c6gkexa2eWCCBmEb0zXCZ",
         "plays": 1
       }
     ]
@@ -46549,6 +46609,390 @@
       }
     ]
   },
+  "handsome-boy-modeling-school": {
+    "id": "3pkmfqaBNsMqnXus05PNfP",
+    "name": "Handsome Boy Modeling School",
+    "spotify_url": "https://open.spotify.com/artist/3pkmfqaBNsMqnXus05PNfP",
+    "total_plays": 3,
+    "first_seen": "2026-09-03",
+    "last_seen": "2026-09-05",
+    "genres": [
+      "trip hop",
+      "jazz rap"
+    ],
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab6761610000e5ebeb049e8fe237761c3ca58fcf",
+        "width": 640
+      },
+      {
+        "height": 320,
+        "url": "https://i.scdn.co/image/ab67616100005174eb049e8fe237761c3ca58fcf",
+        "width": 320
+      },
+      {
+        "height": 160,
+        "url": "https://i.scdn.co/image/ab6761610000f178eb049e8fe237761c3ca58fcf",
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "The Projects (PJays)",
+        "album": "So...How's Your Girl?",
+        "spotify_url": "https://open.spotify.com/track/17qflbNqdCQuH9hHC4vw6n",
+        "plays": 2
+      },
+      {
+        "name": "Rock N' Roll (Could Never Hip Hop Like This)",
+        "album": "So...How's Your Girl?",
+        "spotify_url": "https://open.spotify.com/track/7aEqKbgMuj92pKHDEJe4wO",
+        "plays": 1
+      },
+      {
+        "name": "The Truth",
+        "album": "So...How's Your Girl?",
+        "spotify_url": "https://open.spotify.com/track/5l7icgnicl7JToRxPkSXyy",
+        "plays": 2
+      },
+      {
+        "name": "Dating Game - Skit",
+        "album": "White People",
+        "spotify_url": "https://open.spotify.com/track/3VrYZAZ15KND446zjTLKLc",
+        "plays": 2
+      },
+      {
+        "name": "Metaphysical (A Good Day)",
+        "album": "So...How's Your Girl?",
+        "spotify_url": "https://open.spotify.com/track/6ujsTHtmA0BLUuUCexBjLf",
+        "plays": 2
+      },
+      {
+        "name": "Once Again (Here To Kick One For You)",
+        "album": "So...How's Your Girl?",
+        "spotify_url": "https://open.spotify.com/track/70noJcB30eoUxdZ66Rzq0r",
+        "plays": 2
+      },
+      {
+        "name": "If It Wasn't for You",
+        "album": "White People",
+        "spotify_url": "https://open.spotify.com/track/0Xws0Br1emNO2BspOjddcJ",
+        "plays": 1
+      },
+      {
+        "name": "The World's Gone Mad",
+        "album": "White People",
+        "spotify_url": "https://open.spotify.com/track/6B0iSIh2HfXeBtRiwjDIms",
+        "plays": 1
+      },
+      {
+        "name": "Intro - Skit",
+        "album": "White People",
+        "spotify_url": "https://open.spotify.com/track/0l1IUi7vJ4yWOQf7ZSahqR",
+        "plays": 1
+      },
+      {
+        "name": "Are You Down with It",
+        "album": "White People",
+        "spotify_url": "https://open.spotify.com/track/0MTYxQyO1YQDWv6DzpImL2",
+        "plays": 1
+      },
+      {
+        "name": "Breakdown",
+        "album": "White People",
+        "spotify_url": "https://open.spotify.com/track/0jd1UdOKdZqrmzbjq0k1be",
+        "plays": 1
+      },
+      {
+        "name": "I've Been Thinking",
+        "album": "White People",
+        "spotify_url": "https://open.spotify.com/track/1fkzveZvT3aROlm6BJrp69",
+        "plays": 1
+      },
+      {
+        "name": "Modeling Sucks",
+        "album": "So...How's Your Girl?",
+        "spotify_url": "https://open.spotify.com/track/6tQDkU2JWlcBBNmYv472b3",
+        "plays": 1
+      },
+      {
+        "name": "Rock and Roll (Could Never Hip Hop Like This) Part 2",
+        "album": "White People",
+        "spotify_url": "https://open.spotify.com/track/0ORaN2QUEu8qsN3WnkGnVn",
+        "plays": 1
+      },
+      {
+        "name": "Holy Calamity [Bear Witness II]",
+        "album": "So...How's Your Girl?",
+        "spotify_url": "https://open.spotify.com/track/0loZR2EE3Dlevzr4CVmq6S",
+        "plays": 1
+      },
+      {
+        "name": "It's Like That",
+        "album": "White People",
+        "spotify_url": "https://open.spotify.com/track/1nEy2FGXWrRYyXq7kFBAW0",
+        "plays": 1
+      }
+    ]
+  },
+  "iggy-pop": {
+    "id": "33EUXrFKGjpUSGacqEHhU4",
+    "name": "Iggy Pop",
+    "spotify_url": "https://open.spotify.com/artist/33EUXrFKGjpUSGacqEHhU4",
+    "total_plays": 1,
+    "first_seen": "2026-09-03",
+    "last_seen": "2026-09-03",
+    "genres": [
+      "proto-punk",
+      "glam rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb21e6d14c3d8aab9887380d00",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517421e6d14c3d8aab9887380d00",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17821e6d14c3d8aab9887380d00",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Candy",
+        "album": "Brick By Brick",
+        "spotify_url": "https://open.spotify.com/track/6sFpmdsk4UDMcDWdy4T1Kc",
+        "plays": 1
+      }
+    ]
+  },
+  "zack-de-la-rocha": {
+    "id": "1jKpNUjiz4KXgaAZD5FI9S",
+    "name": "Zack De La Rocha",
+    "spotify_url": "https://open.spotify.com/artist/1jKpNUjiz4KXgaAZD5FI9S",
+    "total_plays": 1,
+    "first_seen": "2026-09-03",
+    "last_seen": "2026-09-03",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebc4f9d35a3fec310067c3afea",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174c4f9d35a3fec310067c3afea",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178c4f9d35a3fec310067c3afea",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "digging for windows",
+        "album": "digging for windows",
+        "spotify_url": "https://open.spotify.com/track/10I6vYepbEON5Q01Xgs0gb",
+        "plays": 1
+      }
+    ]
+  },
+  "house-of-pain": {
+    "id": "0AuW7OCyKfFrsMbtHrYgIV",
+    "name": "House Of Pain",
+    "spotify_url": "https://open.spotify.com/artist/0AuW7OCyKfFrsMbtHrYgIV",
+    "total_plays": 3,
+    "first_seen": "2026-09-03",
+    "last_seen": "2026-09-03",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/8a7bfc19ffcd5384221a81b3394c8b0c4959feaa",
+        "height": 673,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/73f3ac2a491313e4c25ac1347bef11ad143f6bd4",
+        "height": 430,
+        "width": 639
+      },
+      {
+        "url": "https://i.scdn.co/image/bcb5cc5c77c311effe1436cb6909433cc8c6575d",
+        "height": 135,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/2c0ab6b48e317a5160028e2032869f8a7650eace",
+        "height": 43,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "I'm A Swing It",
+        "album": "Same As It Ever Was",
+        "spotify_url": "https://open.spotify.com/track/1qB61CUkHHalhxapCrvMsE",
+        "plays": 1
+      },
+      {
+        "name": "Shamrocks and Shenanigans",
+        "album": "House of Pain (Fine Malt Lyrics)",
+        "spotify_url": "https://open.spotify.com/track/35wnjozNOs9gIqcDypNRMZ",
+        "plays": 1
+      },
+      {
+        "name": "Top O' the Morning to Ya",
+        "album": "House of Pain (Fine Malt Lyrics)",
+        "spotify_url": "https://open.spotify.com/track/4EFxQ2V4NhYkN46eslYEWs",
+        "plays": 1
+      }
+    ]
+  },
+  "toadies": {
+    "id": "2QMMktUMtwMSwUZATX1cRO",
+    "name": "Toadies",
+    "spotify_url": "https://open.spotify.com/artist/2QMMktUMtwMSwUZATX1cRO",
+    "total_plays": 1,
+    "first_seen": "2026-09-03",
+    "last_seen": "2026-09-03",
+    "genres": [
+      "grunge",
+      "alternative rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb3f457f1e7d36c62213b04ec1",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051743f457f1e7d36c62213b04ec1",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1783f457f1e7d36c62213b04ec1",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "I Come From The Water",
+        "album": "Rubberneck",
+        "spotify_url": "https://open.spotify.com/track/0eaioDQLdGKlYMmj73I89R",
+        "plays": 1
+      },
+      {
+        "name": "Mexican Hairless",
+        "album": "Rubberneck",
+        "spotify_url": "https://open.spotify.com/track/6wPA3Eplol740Hftfbu3nY",
+        "plays": 1
+      }
+    ]
+  },
+  "young-mc": {
+    "id": "5n30a5V4ftXNMHCHChmK2h",
+    "name": "Young MC",
+    "spotify_url": "https://open.spotify.com/artist/5n30a5V4ftXNMHCHChmK2h",
+    "total_plays": 1,
+    "first_seen": "2026-09-03",
+    "last_seen": "2026-09-03",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb3bc6296a4b7d1bff83a14553",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051743bc6296a4b7d1bff83a14553",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1783bc6296a4b7d1bff83a14553",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Non Stop",
+        "album": "Stone Cold Rhymin'",
+        "spotify_url": "https://open.spotify.com/track/6WSmGLe8gFNnbymOMumLpc",
+        "plays": 1
+      },
+      {
+        "name": "Stone Cold Buggin'",
+        "album": "Stone Cold Rhymin' (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/62e1EedTFPmrdwjWMfRBuM",
+        "plays": 1
+      }
+    ]
+  },
+  "chali-2na": {
+    "id": "1ZJlXFkFDBsjSuYyjVcMkk",
+    "name": "Chali 2na",
+    "spotify_url": "https://open.spotify.com/artist/1ZJlXFkFDBsjSuYyjVcMkk",
+    "total_plays": 1,
+    "first_seen": "2026-09-03",
+    "last_seen": "2026-09-03",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb6131b2a2e2603da3c5b17a65",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051746131b2a2e2603da3c5b17a65",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1786131b2a2e2603da3c5b17a65",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Comin' Thru",
+        "album": "Fish Outta Water",
+        "spotify_url": "https://open.spotify.com/track/6xuqSVEcGlOO5ynyfs6YzW",
+        "plays": 1
+      },
+      {
+        "name": "Work My Mind",
+        "album": "Die Cut",
+        "spotify_url": "https://open.spotify.com/track/7n42rBe67tAHIjXys7m5EU",
+        "plays": 2
+      },
+      {
+        "name": "Join The Dots",
+        "album": "Run Come Save Me",
+        "spotify_url": "https://open.spotify.com/track/60z5YKvOHe3Hzph7Tk7tnb",
+        "plays": 1
+      },
+      {
+        "name": "What Dudes Do",
+        "album": "Fish Outta Water",
+        "spotify_url": "https://open.spotify.com/track/4nklXxaujbfmXNoUAt0PQi",
+        "plays": 1
+      }
+    ]
+  },
   "ahmad-jamal": {
     "id": "6gc6oo3u2f7SqTd4mhe81O",
     "name": "Ahmad Jamal",
@@ -50825,133 +51269,6 @@
         "name": "Box Elder",
         "album": "Westing (By Musket And Sextant)",
         "spotify_url": "https://open.spotify.com/track/7MEfh3l4TT8GGNQHFwXdhw",
-        "plays": 1
-      }
-    ]
-  },
-  "handsome-boy-modeling-school": {
-    "id": "3pkmfqaBNsMqnXus05PNfP",
-    "name": "Handsome Boy Modeling School",
-    "spotify_url": "https://open.spotify.com/artist/3pkmfqaBNsMqnXus05PNfP",
-    "total_plays": 21,
-    "first_seen": "",
-    "last_seen": "",
-    "genres": [
-      "alternative hip hop",
-      "trip hop"
-    ],
-    "images": [
-      {
-        "height": 640,
-        "url": "https://i.scdn.co/image/ab6761610000e5ebeb049e8fe237761c3ca58fcf",
-        "width": 640
-      },
-      {
-        "height": 320,
-        "url": "https://i.scdn.co/image/ab67616100005174eb049e8fe237761c3ca58fcf",
-        "width": 320
-      },
-      {
-        "height": 160,
-        "url": "https://i.scdn.co/image/ab6761610000f178eb049e8fe237761c3ca58fcf",
-        "width": 160
-      }
-    ],
-    "top_tracks": [
-      {
-        "name": "The Truth",
-        "album": "So...How's Your Girl?",
-        "spotify_url": "https://open.spotify.com/track/5l7icgnicl7JToRxPkSXyy",
-        "plays": 2
-      },
-      {
-        "name": "Dating Game - Skit",
-        "album": "White People",
-        "spotify_url": "https://open.spotify.com/track/3VrYZAZ15KND446zjTLKLc",
-        "plays": 2
-      },
-      {
-        "name": "Metaphysical (A Good Day)",
-        "album": "So...How's Your Girl?",
-        "spotify_url": "https://open.spotify.com/track/6ujsTHtmA0BLUuUCexBjLf",
-        "plays": 2
-      },
-      {
-        "name": "Once Again (Here To Kick One For You)",
-        "album": "So...How's Your Girl?",
-        "spotify_url": "https://open.spotify.com/track/70noJcB30eoUxdZ66Rzq0r",
-        "plays": 2
-      },
-      {
-        "name": "Rock N' Roll (Could Never Hip Hop Like This)",
-        "album": "So...How's Your Girl?",
-        "spotify_url": "https://open.spotify.com/track/7aEqKbgMuj92pKHDEJe4wO",
-        "plays": 2
-      },
-      {
-        "name": "If It Wasn't for You",
-        "album": "White People",
-        "spotify_url": "https://open.spotify.com/track/0Xws0Br1emNO2BspOjddcJ",
-        "plays": 1
-      },
-      {
-        "name": "The World's Gone Mad",
-        "album": "White People",
-        "spotify_url": "https://open.spotify.com/track/6B0iSIh2HfXeBtRiwjDIms",
-        "plays": 1
-      },
-      {
-        "name": "Intro - Skit",
-        "album": "White People",
-        "spotify_url": "https://open.spotify.com/track/0l1IUi7vJ4yWOQf7ZSahqR",
-        "plays": 1
-      },
-      {
-        "name": "Are You Down with It",
-        "album": "White People",
-        "spotify_url": "https://open.spotify.com/track/0MTYxQyO1YQDWv6DzpImL2",
-        "plays": 1
-      },
-      {
-        "name": "Breakdown",
-        "album": "White People",
-        "spotify_url": "https://open.spotify.com/track/0jd1UdOKdZqrmzbjq0k1be",
-        "plays": 1
-      },
-      {
-        "name": "I've Been Thinking",
-        "album": "White People",
-        "spotify_url": "https://open.spotify.com/track/1fkzveZvT3aROlm6BJrp69",
-        "plays": 1
-      },
-      {
-        "name": "Modeling Sucks",
-        "album": "So...How's Your Girl?",
-        "spotify_url": "https://open.spotify.com/track/6tQDkU2JWlcBBNmYv472b3",
-        "plays": 1
-      },
-      {
-        "name": "Rock and Roll (Could Never Hip Hop Like This) Part 2",
-        "album": "White People",
-        "spotify_url": "https://open.spotify.com/track/0ORaN2QUEu8qsN3WnkGnVn",
-        "plays": 1
-      },
-      {
-        "name": "Holy Calamity [Bear Witness II]",
-        "album": "So...How's Your Girl?",
-        "spotify_url": "https://open.spotify.com/track/0loZR2EE3Dlevzr4CVmq6S",
-        "plays": 1
-      },
-      {
-        "name": "The Projects (PJays)",
-        "album": "So...How's Your Girl?",
-        "spotify_url": "https://open.spotify.com/track/17qflbNqdCQuH9hHC4vw6n",
-        "plays": 1
-      },
-      {
-        "name": "It's Like That",
-        "album": "White People",
-        "spotify_url": "https://open.spotify.com/track/1nEy2FGXWrRYyXq7kFBAW0",
         "plays": 1
       }
     ]

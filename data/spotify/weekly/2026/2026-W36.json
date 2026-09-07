@@ -1,0 +1,722 @@
+{
+  "week": "2026-W36",
+  "title": "Week of Aug 31, 2026",
+  "year": 2026,
+  "week_num": 36,
+  "date_start": "2026-08-31",
+  "date_end": "2026-09-06",
+  "total_plays": 51,
+  "unique_artists": 16,
+  "topArtistName": "Beastie Boys",
+  "topArtistImages": [
+    {
+      "height": 771,
+      "url": "https://i.scdn.co/image/705bcd56dc5dbf9ebc578a3ba8094e6d622862c2",
+      "width": 1000
+    },
+    {
+      "height": 494,
+      "url": "https://i.scdn.co/image/060ef251f0e12353057c36fe94724b688b963dac",
+      "width": 640
+    },
+    {
+      "height": 154,
+      "url": "https://i.scdn.co/image/eb9a69f247e84b9e9ce8b03f1ab5cca399b49cbc",
+      "width": 200
+    },
+    {
+      "height": 49,
+      "url": "https://i.scdn.co/image/b6fafee2c4c169dadf039c2066ab77beb4c82b3e",
+      "width": 64
+    }
+  ],
+  "top_genres": [
+    {
+      "name": "rap rock",
+      "plays": 33
+    },
+    {
+      "name": "old school hip hop",
+      "plays": 28
+    },
+    {
+      "name": "east coast hip hop",
+      "plays": 28
+    },
+    {
+      "name": "hip hop",
+      "plays": 28
+    },
+    {
+      "name": "alternative metal",
+      "plays": 7
+    },
+    {
+      "name": "nu metal",
+      "plays": 7
+    },
+    {
+      "name": "rap metal",
+      "plays": 6
+    },
+    {
+      "name": "trip hop",
+      "plays": 3
+    },
+    {
+      "name": "jazz rap",
+      "plays": 3
+    },
+    {
+      "name": "alternative rock",
+      "plays": 3
+    }
+  ],
+  "top_artists": [
+    {
+      "slug": "beastie-boys",
+      "name": "Beastie Boys",
+      "plays": 27,
+      "images": [
+        {
+          "height": 771,
+          "url": "https://i.scdn.co/image/705bcd56dc5dbf9ebc578a3ba8094e6d622862c2",
+          "width": 1000
+        },
+        {
+          "height": 494,
+          "url": "https://i.scdn.co/image/060ef251f0e12353057c36fe94724b688b963dac",
+          "width": 640
+        },
+        {
+          "height": 154,
+          "url": "https://i.scdn.co/image/eb9a69f247e84b9e9ce8b03f1ab5cca399b49cbc",
+          "width": 200
+        },
+        {
+          "height": 49,
+          "url": "https://i.scdn.co/image/b6fafee2c4c169dadf039c2066ab77beb4c82b3e",
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "rage-against-the-machine",
+      "name": "Rage Against The Machine",
+      "plays": 6,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebda4bd2b213cae330e2a4a901",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174da4bd2b213cae330e2a4a901",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178da4bd2b213cae330e2a4a901",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "handsome-boy-modeling-school",
+      "name": "Handsome Boy Modeling School",
+      "plays": 3,
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebeb049e8fe237761c3ca58fcf",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174eb049e8fe237761c3ca58fcf",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178eb049e8fe237761c3ca58fcf",
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "house-of-pain",
+      "name": "House Of Pain",
+      "plays": 3,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/8a7bfc19ffcd5384221a81b3394c8b0c4959feaa",
+          "height": 673,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/73f3ac2a491313e4c25ac1347bef11ad143f6bd4",
+          "height": 430,
+          "width": 639
+        },
+        {
+          "url": "https://i.scdn.co/image/bcb5cc5c77c311effe1436cb6909433cc8c6575d",
+          "height": 135,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/2c0ab6b48e317a5160028e2032869f8a7650eace",
+          "height": 43,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "butthole-surfers",
+      "name": "Butthole Surfers",
+      "plays": 1,
+      "images": [
+        {
+          "height": 665,
+          "url": "https://i.scdn.co/image/dabd2920676f2ae15862ed8dfcf89a8ddb9d11ee",
+          "width": 1000
+        },
+        {
+          "height": 425,
+          "url": "https://i.scdn.co/image/4136eafc38bb9a7e6db382c5e027380e6a527be1",
+          "width": 639
+        },
+        {
+          "height": 133,
+          "url": "https://i.scdn.co/image/13fb78d8c965a8a3637a659442fead75890e1c07",
+          "width": 200
+        },
+        {
+          "height": 43,
+          "url": "https://i.scdn.co/image/b18f1417a0d867c8af95ec56c810e02176d86500",
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "iggy-pop",
+      "name": "Iggy Pop",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb21e6d14c3d8aab9887380d00",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517421e6d14c3d8aab9887380d00",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17821e6d14c3d8aab9887380d00",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "beck",
+      "name": "Beck",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebca0e2c67ba619791fec07dfa",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174ca0e2c67ba619791fec07dfa",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178ca0e2c67ba619791fec07dfa",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "zack-de-la-rocha",
+      "name": "Zack De La Rocha",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebc4f9d35a3fec310067c3afea",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174c4f9d35a3fec310067c3afea",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178c4f9d35a3fec310067c3afea",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "suicidal-tendencies",
+      "name": "Suicidal Tendencies",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb34e9707779175a2453a1d786",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517434e9707779175a2453a1d786",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17834e9707779175a2453a1d786",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "toadies",
+      "name": "Toadies",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb3f457f1e7d36c62213b04ec1",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051743f457f1e7d36c62213b04ec1",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1783f457f1e7d36c62213b04ec1",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "primus",
+      "name": "Primus",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb54ed648a0c70ed8910840f4a",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517454ed648a0c70ed8910840f4a",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17854ed648a0c70ed8910840f4a",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "red-hot-chili-peppers",
+      "name": "Red Hot Chili Peppers",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebc33cc15260b767ddec982ce8",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174c33cc15260b767ddec982ce8",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178c33cc15260b767ddec982ce8",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "janes-addiction",
+      "name": "Jane's Addiction",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb6181668c9b31f2505039ba33",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051746181668c9b31f2505039ba33",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1786181668c9b31f2505039ba33",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "young-mc",
+      "name": "Young MC",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb3bc6296a4b7d1bff83a14553",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051743bc6296a4b7d1bff83a14553",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1783bc6296a4b7d1bff83a14553",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "wu-tang-clan",
+      "name": "Wu-Tang Clan",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebe60866298962b71792b2bf1a",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174e60866298962b71792b2bf1a",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178e60866298962b71792b2bf1a",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "chali-2na",
+      "name": "Chali 2na",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb6131b2a2e2603da3c5b17a65",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051746131b2a2e2603da3c5b17a65",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1786131b2a2e2603da3c5b17a65",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    }
+  ],
+  "top_tracks": [
+    {
+      "name": "The Projects (PJays)",
+      "artist": "Handsome Boy Modeling School",
+      "artist_slug": "handsome-boy-modeling-school",
+      "plays": 2
+    },
+    {
+      "name": "So What'Cha Want - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 2
+    },
+    {
+      "name": "Root Down",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 2
+    },
+    {
+      "name": "Pistol Grip Pump",
+      "artist": "Rage Against The Machine",
+      "artist_slug": "rage-against-the-machine",
+      "plays": 2
+    },
+    {
+      "name": "An Open Letter To NYC (Andy Wallace Mix) - Radio Edit",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 2
+    },
+    {
+      "name": "Who Was In My Room Last Night?",
+      "artist": "Butthole Surfers",
+      "artist_slug": "butthole-surfers",
+      "plays": 1
+    },
+    {
+      "name": "Alive",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Do It",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Candy",
+      "artist": "Iggy Pop",
+      "artist_slug": "iggy-pop",
+      "plays": 1
+    },
+    {
+      "name": "Where It's At",
+      "artist": "Beck",
+      "artist_slug": "beck",
+      "plays": 1
+    },
+    {
+      "name": "digging for windows",
+      "artist": "Zack De La Rocha",
+      "artist_slug": "zack-de-la-rocha",
+      "plays": 1
+    },
+    {
+      "name": "I'm A Swing It",
+      "artist": "House Of Pain",
+      "artist_slug": "house-of-pain",
+      "plays": 1
+    },
+    {
+      "name": "People of the Sun",
+      "artist": "Rage Against The Machine",
+      "artist_slug": "rage-against-the-machine",
+      "plays": 1
+    },
+    {
+      "name": "Cyco Vision",
+      "artist": "Suicidal Tendencies",
+      "artist_slug": "suicidal-tendencies",
+      "plays": 1
+    },
+    {
+      "name": "Shake Your Rump",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "I Come From The Water",
+      "artist": "Toadies",
+      "artist_slug": "toadies",
+      "plays": 1
+    },
+    {
+      "name": "My Name Is Mud",
+      "artist": "Primus",
+      "artist_slug": "primus",
+      "plays": 1
+    },
+    {
+      "name": "Bombtrack",
+      "artist": "Rage Against The Machine",
+      "artist_slug": "rage-against-the-machine",
+      "plays": 1
+    },
+    {
+      "name": "Shamrocks and Shenanigans",
+      "artist": "House Of Pain",
+      "artist_slug": "house-of-pain",
+      "plays": 1
+    },
+    {
+      "name": "Sikamikanico",
+      "artist": "Red Hot Chili Peppers",
+      "artist_slug": "red-hot-chili-peppers",
+      "plays": 1
+    },
+    {
+      "name": "Sure Shot",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Bulls On Parade",
+      "artist": "Rage Against The Machine",
+      "artist_slug": "rage-against-the-machine",
+      "plays": 1
+    },
+    {
+      "name": "Top O' the Morning to Ya",
+      "artist": "House Of Pain",
+      "artist_slug": "house-of-pain",
+      "plays": 1
+    },
+    {
+      "name": "Been Caught Stealing",
+      "artist": "Jane's Addiction",
+      "artist_slug": "janes-addiction",
+      "plays": 1
+    },
+    {
+      "name": "So What'Cha Want",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Renegades Of Funk",
+      "artist": "Rage Against The Machine",
+      "artist_slug": "rage-against-the-machine",
+      "plays": 1
+    },
+    {
+      "name": "Rock N' Roll (Could Never Hip Hop Like This)",
+      "artist": "Handsome Boy Modeling School",
+      "artist_slug": "handsome-boy-modeling-school",
+      "plays": 1
+    },
+    {
+      "name": "Non Stop",
+      "artist": "Young MC",
+      "artist_slug": "young-mc",
+      "plays": 1
+    },
+    {
+      "name": "Sound The Horns",
+      "artist": "Wu-Tang Clan",
+      "artist_slug": "wu-tang-clan",
+      "plays": 1
+    },
+    {
+      "name": "Comin' Thru",
+      "artist": "Chali 2na",
+      "artist_slug": "chali-2na",
+      "plays": 1
+    },
+    {
+      "name": "Three MC's And One DJ - Remastered 2009",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "RRNN: Straight Outta Shibuya",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "MTL Reppin' For The 514",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Rizzle Rizzle Nizzle Nizzle",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Triple Trouble - Graham Coxon Remix",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Triple Trouble (Dexter's Triple Decollte Situation)",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Triple Trouble - J. Wizzle Remix",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Triple Trouble - Brainpower Remix",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Ch-Check It Out - Just Blaze Remix",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Now Get Busy",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "And Then I",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Brrrr Stick Em",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "We Got The",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "The Brouhaha",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "Crawlspace",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    },
+    {
+      "name": "An Open Letter To NYC",
+      "artist": "Beastie Boys",
+      "artist_slug": "beastie-boys",
+      "plays": 1
+    }
+  ]
+}
