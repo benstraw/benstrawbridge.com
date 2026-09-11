@@ -51,7 +51,7 @@ git add themes/ryder
 ## Architecture
 
 ### Theme Structure
-- **Theme**: Uses the Ryder theme (git submodule at `themes/ryder`, pinned to v0.4.3)
+- **Theme**: Uses the Ryder theme (git submodule at `themes/ryder`, pinned to `af27204` — the unreleased v0.5.0 on arts-link/ryder#109; moves to the tag once v0.5.0 ships)
 - **Theme config**: Set in `config/_default/hugo.toml` as `theme = 'ryder'`, matching production
 - **Layout overrides**: Root-level `layouts/` directory overrides theme layouts for custom sections
 - **Assets**: Root-level `assets/` directory contains site-specific JS, images, and extended functionality
@@ -74,11 +74,16 @@ Content follows Hugo's section-based structure with custom taxonomies:
 - **Excluded from homepage**: Sections listed in `params.excludedSections` and categories in `params.excludedCategories` won't appear on homepage list
 
 ### Section Titles
-Content sections use `sectionTitle` cascade parameter in `_index.md` frontmatter to customize the `<title>` tag format. Example:
+The `<title>` suffix resolves per-page `sectionTitle` → `params.titleShort` →
+`site.Title`. `titleShort = "Ben Strawbridge"` is the site-wide default, so a
+section only needs a `sectionTitle` cascade when it wants a *different* suffix:
+
 ```toml
 [cascade]
-  sectionTitle = "Recipes on BenStrawbridge.com"
+  sectionTitle = "Benstraw's Music Brain"
 ```
+
+Setting one equal to `titleShort` is redundant — see **SEO invariants**.
 
 ### Styling & Frontend
 - **Tailwind CSS**: Configured via `tailwind.config.js` with custom theme extensions
@@ -323,16 +328,35 @@ HTML**, not templates — several of these are decided by fallback chains.
   sitemap pointer at all against a ~2,000-URL sitemap. If you touch that file,
   keep the `Sitemap:` directive.
 - **Taxonomy and term pages are `["HTML"]` only.** Hugo's default adds RSS,
-  which generated 787 near-empty `index.xml` feeds. Nothing ever linked them.
-  Re-adding RSS to either kind brings all 787 back.
-- **`sectionTitle` is the SERP title suffix**, via `{{ .Title }} | {{ sectionTitle | default site.Title }}`.
-  `site.Title` is 34 characters, so any section without a `sectionTitle` cascade
-  truncates in results. Keep new values short.
-- **One `<h1>` per page.** Currently **violated site-wide**: the theme wraps the
-  wordmark in `<h1>` (`themes/ryder/layouts/partials/logo.html`), so every page
-  with its own title ships two, and the home page's only `<h1>` is the site name.
-  Fixing it is a theme change — do not paper over it by demoting a page title to
-  `<h2>`, which is how the home page ended up with no real heading.
+  which generated 825 near-empty `index.xml` feeds across `musical-genres`,
+  `tags`, `categories` and `ingredients`. Nothing ever linked them. Re-adding
+  RSS to either kind brings all 825 back.
+- **`params.taxonomyDescription` is what keeps term pages from sharing one
+  description** (Ryder v0.5.0+). Term pages have neither a `description` nor a
+  summary; without this table all 821 of them fall through to
+  `params.description` — measured as 819 identical meta descriptions on v0.4.3.
+  Keys are the taxonomy's **singular** name from `[taxonomies]`, and each value
+  needs **exactly one `%s`**: Go appends `%!(EXTRA string=…)` to a format string
+  with no verb, and that lands in a meta description. Term pages only; `/tags/`
+  itself keeps the site description by design.
+- **`params.titleShort` is the SERP title suffix.** Precedence is per-page
+  `sectionTitle`, then `titleShort`, then `site.Title`. `site.Title` is 34
+  characters and truncated nearly every title, so `titleShort` is the default
+  for every section. Only set a `sectionTitle` cascade where a section wants a
+  genuinely different suffix — `listening` and `musical-genres` use
+  "Benstraw's Music Brain", `trails` uses "benstrawbridge.com". A `sectionTitle`
+  equal to `titleShort` is redundant; four were removed when `titleShort` landed.
+- **One `<h1>` per page**, and it is the page title, never the wordmark. Ryder
+  v0.5.0 made the wordmark a `<span>` and promoted the home page title to
+  `<h1>`; `showHomeTitle = true` is what renders that title, so unsetting it
+  leaves the home page with no heading at all. Verified across the built tree:
+  2,158 pages with exactly one, 0 with two. The 847 with none are Hugo's
+  meta-refresh stubs (pager `/page/N/` and `aliases`) plus two pre-existing
+  cases — `/tanda-light/`, a hand-written static passthrough that no layout
+  touches, and `/projects/pick-a-square-game/grid-basic/`, which uses the
+  scratch `layouts/grid-basic/baseof.html`.
+  Do not paper over a missing heading by demoting a page title to `<h2>` —
+  that is how the home page ended up with no real heading before v0.5.0.
 - **Search Console exports live in `docs/search-console/`** and must stay out of
   `assets/`, which Hugo mounts. See that directory's README before comparing two
   exports — the date window is an export filter, not a property of the data.

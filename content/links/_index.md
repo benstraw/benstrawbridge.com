@@ -21,7 +21,6 @@ TocOpen = true
 [cascade]
   showCardLinkOverlay = false
   homeFeatureIcon = "fa-solid fa-link"
-  sectionTitle = "Ben Strawbridge"
   logo_tagline = "LINK GRAVEYARD"
   cardCategoryColorsDefault = "bg-gradient-to-bl from-pink-600 to-red-600"
   [cascade.twClasses]

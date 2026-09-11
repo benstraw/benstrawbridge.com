@@ -43,6 +43,13 @@ copyright = '<i class="fa-regular fa-copyright"></i>  2026 benstrawbridge.com'
 [params]
   showDate = true
   description = 'My place to work on my online projects and experiment with the web.'
+  # The <title> suffix, via Ryder's sectionTitle -> titleShort -> site.Title
+  # precedence. site.Title is 34 chars and truncated nearly every SERP title.
+  titleShort = "Ben Strawbridge"
+  # Renders content/_index.md's title as the home page's <h1>. Ryder v0.5.0
+  # stopped wrapping the wordmark in <h1>, so without this the home page has
+  # no heading at all.
+  showHomeTitle = true
   TocOpen = true
   loadLeaflet = false
   # UseHugoToc = true
@@ -114,6 +121,21 @@ logo_firstWord = 'Ben'
     # 29 (19+) — see the table in CLAUDE.md.
     minCount = 10
     maxTerms = 34
+  # Meta descriptions for taxonomy TERM pages (Ryder v0.5.0+). Keyed by the
+  # taxonomy's SINGULAR name, as declared in [taxonomies]. Without these, every
+  # term page falls through to params.description above — 819 pages sharing one
+  # sentence, measured on the v0.4.3 build.
+  #
+  # Each value is a printf template rendered with the term title and needs
+  # EXACTLY ONE %s: Go appends %!(EXTRA string=...) to a format string with no
+  # verb, and that would land in a meta description. Term pages only — the
+  # theme does not apply these to /tags/ itself, where the singular key is
+  # still "tag" but the title is "Tags".
+  [params.taxonomyDescription]
+    tag = "Everything on benstrawbridge.com tagged \u201C%s\u201D."
+    category = "Posts and projects filed under \u201C%s\u201D on benstrawbridge.com."
+    musical-genre = "Artists in Ben Strawbridge's Spotify listening tagged \u201C%s\u201D \u2014 play counts, top tracks and links."
+    ingredient = "Recipes on benstrawbridge.com that use %s."
   [params.schema]
     # Site-wide JSON-LD entity type. Theme default is Organization; this is a
     # personal site. Per-page structured data lives in

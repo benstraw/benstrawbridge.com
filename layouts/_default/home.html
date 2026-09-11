@@ -1,30 +1,36 @@
 {{/* Override of themes/ryder/layouts/_default/home.html
-     Rebased onto theme v0.3.2. Six site-specific changes, all marked SITE below:
+     Rebased onto theme v0.5.0. Five site-specific changes, all marked SITE below:
        1. Featured loop skips /links pages that have no link_url.
        2. Feed loop skips /links pages with no link_url, and keeps link pages
           that do have one even when they have no summary.
        3. home-links-module partial inserted between Featured and Latest Stuff.
-       4. Card wrapper gated on its contents rather than on `or .Title .Content`.
-       5. home-listening-module partial inserted after the links module.
-       6. Card partial resolved per page via utils/card-type.html instead of once
+       4. home-listening-module partial inserted after the links module.
+       5. Card partial resolved per page via utils/card-type.html instead of once
           per grid, so a section or a category can opt into its own card. The
           theme's homeListCardType / homeFeatureListCardType still supply the
-          default for pages that do not. */}}
+          default for pages that do not.
+
+     Was six: the old delta 4 gated the card wrapper on its contents rather than
+     on `or .Title .Content`. Ryder v0.5.0 carries that fix, so the code below is
+     now verbatim theme and is no longer a deviation. */}}
 {{- define "main" }}
 <div class="p-2 max-w-screen-lg mx-auto ">
-  {{/*  SITE: the theme gates this card on `or .Title .Content`, but the title
-        inside it also requires showHomeTitle. This home page has a title, no
-        body, and showHomeTitle unset, so the theme's condition renders an empty
-        bordered card. Gate on what actually gets emitted instead.  */}}
+  {{- /* The card wrapper is gated on what actually renders inside it, not on
+         `or .Title .Content`. The title needs showHomeTitle as well as a title,
+         so a home page with a title, no body and showHomeTitle unset used to
+         render an empty bordered card. */ -}}
   {{- $showHomeTitle := and .Title site.Params.showHomeTitle }}
   {{- if or $showHomeTitle .Content }}
   <div class="my-4 rounded-xl border border-neutral-200 dark:border-neutral-700 bg-white dark:bg-neutral-800 shadow-sm overflow-hidden">
     {{- if $showHomeTitle }}
     <div class="px-6 pt-6 pb-2 border-b border-neutral-100 dark:border-neutral-700">
-      <h2 itemprop="headline" class="text-2xl font-bold flex items-center gap-3 text-neutral-800 dark:text-neutral-100">
+      {{- /* <h1>, not <h2>: with the wordmark no longer a heading this is the
+             home page's only <h1>. Tag only — the explicit text-2xl font-bold
+             already carried the sizing, so nothing changes visually. */ -}}
+      <h1 itemprop="headline" class="text-2xl font-bold flex items-center gap-3 text-neutral-800 dark:text-neutral-100">
         {{- if .Params.homeFeatureIcon }}<i class="{{ .Params.homeFeatureIcon }} text-2xl opacity-70"></i>{{- end }}
         {{- .Title }}
-      </h2>
+      </h1>
     </div>
     {{- end }}
     {{- if .Content }}
@@ -109,7 +115,7 @@
       <h2 class="flex p-3 items-center mb-2 text-3xl uppercase font-bold tracking-wide border-b border-neutral-300 dark:border-neutral-700">{{ $featureHeader }}</h2>
     {{- end }}
     <div class="p-2 mx-auto grid md:grid-cols-2 gap-6 mb-5">
-    {{/*  SITE: see delta 6 in the header comment.  */}}
+    {{/*  SITE: see delta 5 in the header comment.  */}}
     {{ $homeFeatureListCardType := .Param "homeFeatureListCardType" | default "-category-color" }}
     {{- range $visibleFeatures }}
       {{- $cardType := partial "utils/card-type.html" (dict "page" . "default" $homeFeatureListCardType) -}}
@@ -132,7 +138,7 @@
     {{- $feedHeader := default "Latest stuff" (site.Params.homePageFeedHeader) }}
     <div class="md:grid-cols-2 p-2 mx-auto grid grid-cols-1 gap-6 mb-5">
       <h2 class="md:col-span-2 flex my-2 items-center mb-2 text-3xl uppercase font-bold tracking-wide border-b border-neutral-300 dark:border-neutral-700">{{ $feedHeader }}</h2>
-      {{/*  SITE: see delta 6 in the header comment.  */}}
+      {{/*  SITE: see delta 5 in the header comment.  */}}
       {{ $homeListCardType := .Param "homeListCardType" | default "-category-color" }}
       {{- range $paginator.Pages -}}
         {{- $cardType := partial "utils/card-type.html" (dict "page" . "default" $homeListCardType) -}}

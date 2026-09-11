@@ -10,7 +10,6 @@ tags = ["ingredients"]
 # showTOC = true
 
 [cascade]
-  sectionTitle = "Ben Strawbridge"
   homeFeatureIcon = "fa-solid fa-wheat-awn"
 +++
 
