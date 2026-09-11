@@ -19,9 +19,10 @@ copyright = '<i class="fa-regular fa-copyright"></i>  2026 benstrawbridge.com'
 # is never written.
 [outputs]
   home = ["HTML", "RSS", "LLMSTxt"]
-  # Hugo defaults taxonomy and term to ["HTML", "RSS"], which generated 787
-  # near-empty index.xml feeds across musical-genres and tags. Nothing linked
-  # them: no page emitted a rel="alternate" application/rss+xml for a term.
+  # Hugo defaults taxonomy and term to ["HTML", "RSS"], which generated 825
+  # near-empty index.xml feeds across musical-genres, tags, categories and
+  # ingredients. Nothing linked them: no page emitted a rel="alternate"
+  # application/rss+xml for a term.
   taxonomy = ["HTML"]
   term = ["HTML"]
 
