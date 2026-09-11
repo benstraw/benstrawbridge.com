@@ -1,0 +1,70 @@
+{{- /*
+SITE FORK of themes/ryder/layouts/_default/list.html.
+
+Identical to the theme template except for the card lookup in the grid below.
+Diff it against the submodule on every Ryder bump — see CLAUDE.md > "Forked
+theme partials".
+
+Why it exists: the theme reads `listCardType` once, outside the range, and
+renders every page in the grid with it. That is a container-level setting —
+"what card does this grid use" — so a page's own `cardType` was never consulted
+on a section list. The home feed does not have this problem, because
+layouts/_default/home.html already resolves the card per page through
+utils/card-type.html. The result was one feed disagreeing with another about
+the same page: a post carrying `cardType = "-image"` drew its lead image on the
+home page and a plain category-colour card on /posts/.
+
+The fix is to call the same helper the home feed calls, inside the range, with
+the container's `listCardType` passed in as the fallback. That keeps the
+container setting authoritative for pages that express no preference — a
+section can still put every card in one style — while letting an individual
+page opt into its own. utils/card-type.html also carries the `Kind == "page"`
+guard that stops a section's own `_index.md` from drawing an item card when a
+[cascade] puts `cardType` on it.
+
+This is a candidate for upstreaming, along with the helper it calls; doing so
+retires this fork.
+*/ -}}
+{{- define "main" -}}
+<div class="p-2 max-w-screen-lg mx-auto">
+  {{- $headerClass := "" -}}
+  {{- with .Param "twClasses.headerBackgroundFrameOuter" -}}{{- $headerClass = . -}}{{- end -}}
+  <header class="max-w-screen-xl">
+    <h1 class="{{ $headerClass }} rounded-t-lg p-3 flex items-center">
+      {{- if .Params.homeFeatureIcon -}}<i class="{{ .Params.homeFeatureIcon }} mr-2 text-4xl"></i>{{- end -}}
+      {{- .Title -}}
+    </h1>
+  </header>
+  <div class="mt-2 prose w-full max-w-max-screen-xl min-w-full lg:prose-lg dark:prose-invert">
+    {{- .Content -}}
+  </div>
+  {{- if eq .Kind "taxonomy" -}}
+    <div class="m-2">
+      {{- partial "taxonomy-cloud.html" . -}}
+    </div>
+  {{- else }}
+    {{- $myCollection := .Pages -}}
+    {{- if eq .Params.listRecursive true -}}
+      {{- $myCollection = .RegularPagesRecursive -}}
+    {{- end -}}
+    {{- $sortBy := .Param "listSortBy" | default "Date" }}
+    {{- $sortOrder := .Param "listSortOrder" | default "desc" }}
+    {{- $paginator := .Paginate (sort $myCollection $sortBy $sortOrder) }}
+    {{- if eq (len $paginator.Pages) 0 -}}
+      {{- /* Nothing to page through. Rendering the grid and the pagination
+             controls anyway leaves a blank page with a dead pager on it. */ -}}
+      {{- partial "utils/empty-state.html" . -}}
+    {{- else -}}
+    <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6 m-2">
+      {{ $listCardType := .Param "listCardType" | default "-category-color" }}
+      {{- range $paginator.Pages -}}
+        {{- /* SITE: resolved per page rather than once per grid. */ -}}
+        {{- $cardType := partial "utils/card-type.html" (dict "page" . "default" $listCardType) -}}
+        {{- partial (printf "card%s.html" $cardType) . -}}
+      {{- end -}}
+    </div>
+    {{- template "_internal/pagination.html" . -}}
+    {{- end -}}
+  {{- end -}}
+</div>
+{{- end -}}

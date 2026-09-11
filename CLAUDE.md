@@ -116,7 +116,7 @@ Root-level `layouts/` contains section-specific overrides:
 
 ### Forked theme partials — reconcile these on every Ryder bump
 
-Three partials are **deliberate forks** of theme files, not new site-only
+Four templates are **deliberate forks** of theme files, not new site-only
 templates. A theme bump that changes the upstream versions will not touch them,
 so diff them against the submodule when upgrading:
 
@@ -125,6 +125,7 @@ so diff them against the submodule when upgrading:
 | `layouts/partials/utils/taxonomy-string.html` | `themes/ryder/layouts/partials/utils/taxonomy-string.html` |
 | `layouts/partials/taxonomy-cloud.html` | `themes/ryder/layouts/partials/taxonomy-cloud.html` |
 | `layouts/partials/card-image.html` | `themes/ryder/layouts/partials/card-category-color.html` |
+| `layouts/_default/list.html` | `themes/ryder/layouts/_default/list.html` |
 
 The first two exist because `musical-genres` is built from Spotify data — 512
 terms, 243 of them (47%) applying to exactly one artist — and the theme renders
@@ -258,7 +259,29 @@ Two things to preserve when touching this fork:
   has the same count, and removes the theme's latent divide-by-zero on a
   single-term taxonomy.
 
-The right long-term fix is upstreaming both to Ryder, which retires the forks.
+#### List: `list.html`
+
+The theme reads `listCardType` **once, outside the range**, and renders every
+page in the grid with it. That is a container-level setting, so a page's own
+`cardType` was never consulted on a section list, and two feeds could disagree
+about the same page: a post carrying `cardType = "-image"` drew its lead image
+on the home page — which resolves per page through `utils/card-type.html` —
+and a plain category-colour card on `/posts/`.
+
+The fork calls that same helper inside the range, passing the container's
+`listCardType` in as the fallback. The container setting stays authoritative
+for pages that express no preference, so `/projects/` (`listCardType =
+"-image"`) and `/trails/` (`"-trail"`) are unchanged; only a page that asks for
+its own card gets one. The helper's `Kind == "page"` guard is what keeps a
+section's own `_index.md` from drawing an item card when a `[cascade]` puts
+`cardType` on it.
+
+The diff against the theme file is three lines inside the `range`. Everything
+else is verbatim, so reconciling it on a bump is a matter of re-applying that
+one hunk.
+
+The right long-term fix is upstreaming all of these to Ryder, which retires the
+forks. `utils/card-type.html` has to go up with `list.html` — the fork calls it.
 
 ### Asset Management
 - **Images**: Stored in `assets/images/` with subdirectories by project/section
