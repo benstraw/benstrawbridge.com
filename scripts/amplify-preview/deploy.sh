@@ -152,6 +152,29 @@ if [[ -n "$unclassified" ]]; then
 fi
 
 override_json="$(jq -c '.override // {}' "$ENV_POLICY_FILE")"
+
+# Build the preview against its own hostname.
+#
+# baseURL in config/_default/hugo.toml is the production domain, and the theme's
+# image render hook emits absolute URLs (.Permalink, not .RelPermalink) for both
+# the <source srcset> and the <img src>. A preview that inherits that baseURL
+# therefore points every asset at www.benstrawbridge.com. Assets already live on
+# production resolve, which hides the problem; an asset added by the pull request
+# does not exist there yet and 404s — so previews could never show the one thing
+# they were opened to review. Observed on PR #111, where all 17 new images were
+# built correctly on the preview host and every one of them was requested from
+# production instead.
+#
+# Hugo maps HUGO_<KEY> onto the matching config key, so this overrides baseURL
+# for the preview build only. It is injected here rather than declared in
+# $ENV_POLICY_FILE because the value is per-pull-request; the policy file is a
+# static audit of app-level variables. Injecting after the audit above also keeps
+# it out of that comparison, which concerns variables the *app* already carries.
+#
+# Trailing slash matches the convention in hugo.toml.
+override_json="$(jq -c --arg u "${PREVIEW_URL}/" '. + {HUGO_BASEURL: $u}' <<<"$override_json")" \
+  || fail "Could not add \`HUGO_BASEURL\` to the preview environment variables."
+log "Preview build baseURL: ${PREVIEW_URL}/"
 inherited_names="$(jq -r '(.app.environmentVariables // {} | keys) | join(", ")' <<<"$app_json")"
 log "Audited app environment variables: ${inherited_names:-none}"
 
@@ -290,6 +313,13 @@ if [[ "$PROBE_PREVIEW_URL" == "true" ]]; then
     code="$(probe "$fallback_url")"
     if [[ "$code" =~ ^[123] ]]; then
       warn "Preview served from ${fallback_url}; the displayName prefix did not take effect."
+      # HUGO_BASEURL was baked in before the build from the displayName-based
+      # URL, so absolute asset and canonical URLs in the built output still
+      # point at ${PREVIEW_URL}. The pages render, but their images will not
+      # load from this host. Re-requesting the preview does not help while
+      # displayName keeps failing to apply.
+      warn "Assets were built for ${PREVIEW_URL} and will not load from ${fallback_url}."
+      url_note="> The preview is served from a different hostname than the one it was built for, so images and other absolute URLs will not load. See the workflow logs."
       PREVIEW_URL="$fallback_url"
       reachable="$fallback_url"
     fi
