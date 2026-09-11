@@ -1,7 +1,7 @@
 +++
+description = "Every musical genre in Ben Strawbridge's recent Spotify listening, from the well-known to the delightfully obscure."
 title = 'Musical Genres'
 date = 2024-06-26T12:50:56-07:00
-paginate = 720
 # categories = [""]
 tags = ["musical-genres"]
 # showTOC = true

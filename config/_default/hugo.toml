@@ -10,7 +10,6 @@ theme = 'ryder'
 timeZone = "America/Los_Angeles"
 refLinksErrorLevel = "WARNING"
 title = "Ben Strawbridge Dot Com Consulting"
-description = 'My place to work on my online projects and experiment with the web.'
 copyright = '<i class="fa-regular fa-copyright"></i>  2026 benstrawbridge.com'
 [imaging]
   autoOrient = true
@@ -20,6 +19,11 @@ copyright = '<i class="fa-regular fa-copyright"></i>  2026 benstrawbridge.com'
 # is never written.
 [outputs]
   home = ["HTML", "RSS", "LLMSTxt"]
+  # Hugo defaults taxonomy and term to ["HTML", "RSS"], which generated 787
+  # near-empty index.xml feeds across musical-genres and tags. Nothing linked
+  # them: no page emitted a rel="alternate" application/rss+xml for a term.
+  taxonomy = ["HTML"]
+  term = ["HTML"]
 
 # Source document for the trail social cards. Rendered by
 # layouts/trails/single.ogcard.html to /trails/<slug>/og-card.html, screenshotted
@@ -37,7 +41,7 @@ copyright = '<i class="fa-regular fa-copyright"></i>  2026 benstrawbridge.com'
   date = ["date"]
 [params]
   showDate = true
-  description = 'Dot Com Consulting'
+  description = 'My place to work on my online projects and experiment with the web.'
   TocOpen = true
   loadLeaflet = false
   # UseHugoToc = true
@@ -137,9 +141,6 @@ logo_firstWord = 'Ben'
   musical-genre = 'musical-genres'
   tag = 'tags'
   category = 'categories'
-[permalinks]
-  post = "/:year/:month/:title/"
-  
 [menu]
 [[menu.recipes]]
     name = 'Why?'

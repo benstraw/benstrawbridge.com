@@ -1,4 +1,5 @@
 +++
+description = 'Case studies of professional work and personal explorations online and off — some open source, some monetised, all written up.'
 title = "Projects"
 date = 2024-02-12T15:16:41-08:00
 # draft = true
@@ -9,7 +10,7 @@ date = 2024-02-12T15:16:41-08:00
 # only the projects that declare one.
 listCardType = "-image"
 [cascade]
-  sectionTitle = "Projects on BenStrawbridge.com"
+  sectionTitle = "Ben Strawbridge"
   showToc = true
   homeFeatureIcon = "fa-solid fa-diagram-project"
   cardCategoryColorsDefault = "bg-gradient-to-r from-green-300 to-sky-300 dark:text-neutral-900"

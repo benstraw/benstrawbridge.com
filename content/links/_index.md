@@ -1,4 +1,5 @@
 +++
+description = "The link graveyard: where Ben Strawbridge remembers what he found on the web — things learned, things stumbled upon, and friends' sites."
 title = 'Link Graveyard'
 date = 2024-01-18T11:50:06-08:00
 # draft = true
@@ -20,7 +21,7 @@ TocOpen = true
 [cascade]
   showCardLinkOverlay = false
   homeFeatureIcon = "fa-solid fa-link"
-  sectionTitle = "Link Graveyard on BenStrawbridge.com"
+  sectionTitle = "Ben Strawbridge"
   logo_tagline = "LINK GRAVEYARD"
   cardCategoryColorsDefault = "bg-gradient-to-bl from-pink-600 to-red-600"
   [cascade.twClasses]
