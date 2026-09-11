@@ -32,13 +32,13 @@ The idea is not new around here. It has been sitting on this site [as a sketch](
 
 <!--more-->
 
-It is a self-hosted visual history for websites—a Wayback Machine for the sites you are actually responsible for. It captures on a schedule in Chromium, Firefox, and WebKit, compares any two moments, publishes galleries and GIF/WebM timelines, and never asks you to hand your archive to anyone else.
+It is a self-hosted visual history for websites, a Wayback Machine for the sites you are responsible for. It captures on a schedule in Chromium, Firefox, and WebKit, compares any two moments, publishes galleries and GIF/WebM timelines, and never asks you to hand your archive to anyone else.
 
 ## Knowing a site is up is not knowing how it changed
 
 I maintain sites for other people. Through Arts-Link I look after work for artists and independent makers, plus a family archive and my own things. The failure mode I kept hitting was never downtime—uptime monitoring solves downtime. It was the quieter kind above: a rendering regression that no probe is watching for, in a browser I don't use daily, discovered long after the commit that caused it.
 
-I now run an instance with the home page of every Arts-Link client site on it, capturing daily. That archive isn't really for me. It is so that when someone asks what their site looked like before the redesign, or whether something has been broken since March, there is an actual answer instead of my recollection.
+I now run an instance for the Arts-Link clients who asked for it, capturing their home page daily. That archive isn't really for me. It is so that when someone asks what their site looked like before the redesign, or whether something has been broken since March, there is an actual answer instead of my recollection.
 
 The two obvious options didn't fit.
 
@@ -46,7 +46,7 @@ The two obvious options didn't fit.
 
 **The commercial option: [Visualping](https://visualping.io/).** Polished, hosted, low-friction, and the retention and check frequency I'd want live in the upper tiers of a subscription—multiplied by every site I watch, forever. More to the point, it means the visual record of my clients' sites lives in someone else's account, on someone else's retention policy, with headers and cookies for authenticated pages sitting in their vault. For a portfolio site that's a shrug. For work I'm accountable for, it isn't.
 
-So: an archive, not an alarm. Cross-browser. On my hardware. Priced at electricity.
+So: an archive, not an alarm. Cross-browser. On my hardware.
 
 ## Ten ADRs before any real code
 
@@ -102,7 +102,7 @@ It is AGPL-3.0-or-later, distributed as two multi-arch images on GHCR with prove
 
 ## It runs on my hardware, and it stays there
 
-That is the entire point. My instance watches the home page of every Arts-Link client site. The home server holds the archive, the SQLite database, and the encrypted secrets, and it never takes an inbound connection from the public internet. When I want galleries public, the renderer builds a static site locally and pushes it to hosting I already pay for.
+That is the entire point. My instance watches the home pages of the clients who asked for it. The home server holds the archive, the SQLite database, and the encrypted secrets, and it never takes an inbound connection from the public internet. When I want galleries public, the renderer builds a static site locally and pushes it to hosting I already pay for.
 
 [The demo](https://screenshots.arts-link.com/) is exactly that: static output from a private deployment. There is no admin UI, API, or worker behind it, because there is nothing there to reach.
 
