@@ -1,0 +1,80 @@
+{{- /*
+A tall screenshot in a browser-window frame, scrollable in place, clickable to
+open the full-resolution file.
+
+Exists because the image render hook (themes/ryder/layouts/_default/_markup/
+render-image.html) sends every body image through `Fit "1000x1000"`, which caps
+the LONGEST side. On a full-page screenshot the longest side is the height, so
+a 3200x8670 capture is delivered at 369x1000 — a ribbon roughly a third the
+width of the prose column. Hugo is doing exactly what it was asked; `Fit` is
+simply the wrong operation for an image taller than it is wide.
+
+So this shortcode does its own processing: `Resize "<width>x"` sets the width
+and lets the height follow, which is what a page capture actually wants. The
+frame then caps the *displayed* height and scrolls the overflow, so the reader
+sees a browser window showing the top of a long page and can scroll the rest
+without leaving the article.
+
+The theme's imageGallery lightbox is deliberately not used here. Its modal image
+is `max-h-full object-contain`, which fits the whole image inside the viewport —
+for a 1:2.7 capture that means scaling it down until it is narrower on screen
+than the inline version, so "open the big one" would make it smaller. A plain
+link to the file is better: the browser's own image viewer zooms and pans, and
+it works with JavaScript off.
+
+@param src      page-bundle resource, e.g. "full-page-config.png"
+@param alt      alt text (required — this is documentary UI, describe it)
+@param caption  figcaption; optional
+@param label    text in the window title bar, e.g. a URL; optional
+@param height   max displayed height in px before it scrolls; default 560
+@param width    processing width in px; default 1400
+*/ -}}
+
+{{- $src := .Get "src" -}}
+{{- if not $src -}}{{- errorf "framed-shot: src is required (%s)" .Position -}}{{- end -}}
+
+{{- $img := $.Page.Resources.Get $src -}}
+{{- if not $img -}}
+  {{- errorf "framed-shot: %q not found in the page bundle for %s" $src $.Page.RelPermalink -}}
+{{- end -}}
+
+{{- $width := int (.Get "width" | default 1400) -}}
+{{- $height := int (.Get "height" | default 560) -}}
+{{- $alt := .Get "alt" -}}
+{{- $caption := .Get "caption" -}}
+{{- $label := .Get "label" -}}
+
+{{- /* Never upscale: a capture narrower than $width would be blown up and go
+       soft for no reason. */ -}}
+{{- if lt $img.Width $width -}}{{- $width = $img.Width -}}{{- end -}}
+{{- $shot := $img.Resize (printf "%dx webp" $width) -}}
+
+<figure class="not-prose my-8">
+  <div class="overflow-hidden rounded-lg border border-neutral-300 shadow-sm dark:border-neutral-700">
+    <div class="flex items-center gap-2 border-b border-neutral-300 bg-neutral-200 px-3 py-2 dark:border-neutral-700 dark:bg-neutral-800">
+      <span class="h-3 w-3 rounded-full bg-neutral-400 dark:bg-neutral-600"></span>
+      <span class="h-3 w-3 rounded-full bg-neutral-400 dark:bg-neutral-600"></span>
+      <span class="h-3 w-3 rounded-full bg-neutral-400 dark:bg-neutral-600"></span>
+      {{- with $label }}
+      <span class="ml-2 truncate text-xs text-neutral-600 dark:text-neutral-400">{{ . }}</span>
+      {{- end }}
+      <a href="{{ $shot.RelPermalink }}" target="_blank" rel="noopener"
+         class="ml-auto shrink-0 text-xs text-neutral-600 underline hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-neutral-100">
+        Open full size
+      </a>
+    </div>
+    {{- /* Inline max-height: the value is a shortcode parameter, so a Tailwind
+           arbitrary-value class would have to be assembled by interpolation and
+           the JIT pass would never see it. */ -}}
+    <div class="overflow-y-auto bg-white dark:bg-neutral-900" style="max-height: {{ $height }}px">
+      <a href="{{ $shot.RelPermalink }}" target="_blank" rel="noopener">
+        <img src="{{ $shot.RelPermalink }}" alt="{{ $alt }}" loading="lazy"
+             width="{{ $shot.Width }}" height="{{ $shot.Height }}"
+             class="block h-auto w-full cursor-zoom-in">
+      </a>
+    </div>
+  </div>
+  {{- with $caption }}
+  <figcaption class="mt-2 text-center text-sm text-neutral-600 dark:text-neutral-400">{{ . | markdownify }}</figcaption>
+  {{- end }}
+</figure>

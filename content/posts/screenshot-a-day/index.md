@@ -32,11 +32,15 @@ The idea is not new around here. It has been sitting on this site [as a sketch](
 
 <!--more-->
 
+![The Screenshot-a-Day marketing site: the headline "A Wayback Machine for the sites you own" beside a stack of dated captures of the same page](marketing-site.png)
+
 It is a self-hosted visual history for websites, a Wayback Machine for the sites you are responsible for. It captures on a schedule in Chromium, Firefox, and WebKit, compares any two moments, publishes galleries and GIF/WebM timelines, and never asks you to hand your archive to anyone else.
 
 ## Knowing a site is up is not knowing how it changed
 
 I maintain sites for other people. Through Arts-Link I look after work for artists and independent makers, plus a family archive and my own things. The failure mode I kept hitting was never downtime—uptime monitoring solves downtime. It was the quieter kind above: a rendering regression that no probe is watching for, in a browser I don't use daily, discovered long after the commit that caused it.
+
+![The projects dashboard listing four sites under watch, each with a recent capture and an indexable badge](your-projects-home.png)
 
 I now run an instance for the Arts-Link clients who asked for it, capturing their home page daily. That archive isn't really for me. It is so that when someone asks what their site looked like before the redesign, or whether something has been broken since March, there is an actual answer instead of my recollection.
 
@@ -81,7 +85,16 @@ Coming from someone who builds Hugo sites and maintains a Hugo theme, that delet
 
 Splitting each project into focused Compare and Configuration workspaces instead of one settings soup. Real comparison modes—side-by-side, split, overlay, and a pixel heatmap—with keyboard-operable controls. Making the manual capture button admit what it is doing instead of returning instantly and looking broken. Making schedule saves show unmistakably whether the thing is enabled and when it fires next.
 
+![The compare workspace in side-by-side mode, showing captures of the same page two days apart](side-by-side.png)
+
 Individually small; collectively the difference between a demo and something I'll still be running in a year.
+
+{{< framed-shot
+  src="full-page-config.png"
+  label="Configuration workspace"
+  height="560"
+  alt="The full configuration page for a project, running from publishing and visibility at the top through capture profiles, schedule and retention, webhooks and target credentials, to the delete-project section at the bottom"
+  caption="The Configuration workspace end to end. Scroll inside the frame, or open it full size." >}}
 
 Two things landed late and I'm glad they did. An [experimental MCP endpoint](https://github.com/arts-link/screenshot-a-day/blob/main/docs/api/README.md), so an agent with a scoped bearer token can list projects, inspect capture history, and queue a capture—same permission boundary as the REST API, no side door. And an automated release-evidence run: a guarded backup/restore rehearsal into isolated volumes that records readiness, SQLite integrity, a retained-image digest, and a fresh three-browser batch. If I'm going to tell people to trust their archive to this, I should be able to prove the restore path works, on demand, without deleting the original.
 
@@ -100,11 +113,15 @@ The individual features aren't novel. The combination is the part that wasn't av
 
 It is AGPL-3.0-or-later, distributed as two multi-arch images on GHCR with provenance and SBOM attestations attached to each digest.
 
+![The same comparison in heatmap mode, with changed pixels marked in red over a desaturated capture](heatmap.png)
+
 ## It runs on my hardware, and it stays there
 
 That is the entire point. My instance watches the home pages of the clients who asked for it. The home server holds the archive, the SQLite database, and the encrypted secrets, and it never takes an inbound connection from the public internet. When I want galleries public, the renderer builds a static site locally and pushes it to hosting I already pay for.
 
 [The demo](https://screenshots.arts-link.com/) is exactly that: static output from a private deployment. There is no admin UI, API, or worker behind it, because there is nothing there to reach.
+
+![The published demo gallery, a static site listing the archived sites with their most recent captures](demo-site-home.png)
 
 So: is there a hosted service? The 2024 sketch on this site says there should be, with a price on it. Two years later I think that page had the product backwards: the value is a durable archive you control, and a subscription is the one shape that puts an expiry date on it.
 
