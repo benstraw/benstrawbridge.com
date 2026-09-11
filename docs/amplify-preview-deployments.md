@@ -223,9 +223,12 @@ Amplify preview cleanup*, and is safe to run when nothing is left to delete.
 7. Creates the Amplify branch when absent — auto-build off, stage `PULL_REQUEST`,
    native PR previews off, framework copied from the production branch — or
    converges those same settings when it already exists.
-8. Starts one explicit `RELEASE` job and polls that job id until it reaches
+8. Injects `HUGO_BASEURL` for the preview hostname, so the build does not emit
+   production URLs — see [Building against the preview
+   hostname](#building-against-the-preview-hostname).
+9. Starts one explicit `RELEASE` job and polls that job id until it reaches
    `SUCCEED`, `FAILED` or `CANCELLED`, or until the 30-minute timeout.
-9. Publishes the result to the pull request comment and the job summary.
+10. Publishes the result to the pull request comment and the job summary.
 
 The workflow fails when the Amplify job fails, is cancelled, or times out.
 
@@ -306,6 +309,43 @@ If a production-only secret turns up that a preview build genuinely needs, stop:
 either give the preview a non-production value through `override`, or do not deploy
 previews of that build.
 
+### Building against the preview hostname
+
+`deploy.sh` adds one variable that is **not** in the policy file:
+
+```
+HUGO_BASEURL=https://pr-N.<app-default-domain>/
+```
+
+`baseURL` in `config/_default/hugo.toml` is the production domain, and the
+theme's image render hook emits *absolute* URLs — `.Permalink`, not
+`.RelPermalink` — for both the `<source srcset>` and the `<img src>`. A preview
+that inherits the production `baseURL` therefore asks the browser for every
+asset from `www.benstrawbridge.com`.
+
+Assets that already exist on production resolve, which hides the problem
+completely. An asset added *by the pull request* does not exist there yet and
+404s — so a preview could never show the one thing it was opened to review.
+This was observed on PR #111: all 17 new images were built correctly on the
+preview host, and every one of them was requested from production instead.
+
+Hugo maps `HUGO_<KEY>` onto the matching config key, so this overrides `baseURL`
+for the preview build only. It is injected in `deploy.sh` rather than declared
+in `.github/amplify-preview-env.json` because the value is per-pull-request,
+while the policy file is a static audit of *app-level* variables. It is added
+after the audit for the same reason, so it never appears in that comparison.
+
+Two consequences worth knowing:
+
+* Canonical URLs, Open Graph tags and JSON-LD on a preview reference the preview
+  host rather than production. That is correct for a preview, but it means those
+  values are not byte-identical to what production will emit.
+* The preview URL is derived from `displayName` *before* the build. In the rare
+  case where that prefix does not take effect and the site is served from the
+  `amplify-preview-pr-N` fallback host, the built assets still point at the
+  `pr-N` host and will not load. `deploy.sh` warns and says so in the pull
+  request comment rather than presenting a half-broken preview as ready.
+
 ## Concurrency
 
 Both workflows use the group `amplify-preview-pr-<N>` with
@@ -349,6 +389,7 @@ git ls-remote --heads origin 'refs/heads/amplify-preview/*'
 | --- | --- |
 | Adding the label does nothing | The workflow is not on the default branch yet, or the label is not exactly `deploy-preview` |
 | `Unaudited Amplify environment variables` | Classify them in `.github/amplify-preview-env.json` |
+| Images on a preview 404, or resolve to `www.benstrawbridge.com` | The build did not receive `HUGO_BASEURL`. Check the `Preview build baseURL:` line in the run log — see [Building against the preview hostname](#building-against-the-preview-hostname) |
 | `Could not read Amplify app` | `AMPLIFY_APP_ID` / `AWS_REGION` wrong, or the role lacks `amplify:GetApp` |
 | `not authorized to perform sts:AssumeRoleWithWebIdentity` | Trust policy `sub` does not match `repo:benstraw/benstrawbridge.com:environment:amplify-preview`, or the job is missing `id-token: write` |
 | `comes from a fork` | Expected — fork previews are out of scope |
