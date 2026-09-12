@@ -1,4 +1,5 @@
 +++
+description = 'Writing from Ben Strawbridge on the web, Hugo, photography, music and living in Los Angeles.'
 title = 'Posts'
 date = 2024-02-11T22:54:22-08:00
 # draft = true

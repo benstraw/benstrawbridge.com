@@ -51,7 +51,7 @@ git add themes/ryder
 ## Architecture
 
 ### Theme Structure
-- **Theme**: Uses the Ryder theme (git submodule at `themes/ryder`, pinned to v0.4.3)
+- **Theme**: Uses the Ryder theme (git submodule at `themes/ryder`, pinned to tag `v0.5.0`)
 - **Theme config**: Set in `config/_default/hugo.toml` as `theme = 'ryder'`, matching production
 - **Layout overrides**: Root-level `layouts/` directory overrides theme layouts for custom sections
 - **Assets**: Root-level `assets/` directory contains site-specific JS, images, and extended functionality
@@ -74,11 +74,16 @@ Content follows Hugo's section-based structure with custom taxonomies:
 - **Excluded from homepage**: Sections listed in `params.excludedSections` and categories in `params.excludedCategories` won't appear on homepage list
 
 ### Section Titles
-Content sections use `sectionTitle` cascade parameter in `_index.md` frontmatter to customize the `<title>` tag format. Example:
+The `<title>` suffix resolves per-page `sectionTitle` → `params.titleShort` →
+`site.Title`. `titleShort = "Ben Strawbridge"` is the site-wide default, so a
+section only needs a `sectionTitle` cascade when it wants a *different* suffix:
+
 ```toml
 [cascade]
-  sectionTitle = "Recipes on BenStrawbridge.com"
+  sectionTitle = "Benstraw's Music Brain"
 ```
+
+Setting one equal to `titleShort` is redundant — see **SEO invariants**.
 
 ### Styling & Frontend
 - **Tailwind CSS**: Configured via `tailwind.config.js` with custom theme extensions
@@ -116,7 +121,7 @@ Root-level `layouts/` contains section-specific overrides:
 
 ### Forked theme partials — reconcile these on every Ryder bump
 
-Four templates are **deliberate forks** of theme files, not new site-only
+Five templates are **deliberate forks** of theme files, not new site-only
 templates. A theme bump that changes the upstream versions will not touch them,
 so diff them against the submodule when upgrading:
 
@@ -126,6 +131,7 @@ so diff them against the submodule when upgrading:
 | `layouts/partials/taxonomy-cloud.html` | `themes/ryder/layouts/partials/taxonomy-cloud.html` |
 | `layouts/partials/card-image.html` | `themes/ryder/layouts/partials/card-category-color.html` |
 | `layouts/_default/list.html` | `themes/ryder/layouts/_default/list.html` |
+| `layouts/_default/home.html` | `themes/ryder/layouts/_default/home.html` |
 
 The first two exist because `musical-genres` is built from Spotify data — 512
 terms, 243 of them (47%) applying to exactly one artist — and the theme renders
@@ -280,8 +286,80 @@ The diff against the theme file is three lines inside the `range`. Everything
 else is verbatim, so reconciling it on a bump is a matter of re-applying that
 one hunk.
 
+#### Home: `home.html`
+
+Six deltas against the theme, all marked `SITE:` in the file's own header
+comment — read that first, it is the authoritative list. In short:
+
+| # | Delta | Retirable? |
+| --- | --- | --- |
+| 1, 2 | `/links` pages with no `link_url` are skipped in the feature and feed loops; link pages that have one are kept even with no summary | No — `link_url` is a site-only concept |
+| 3, 5 | `home-links-module.html` and `home-listening-module.html` injected between the bands | Only once Ryder grows an extension point for it |
+| 4 | Card wrapper gated on what actually renders, not `or .Title .Content` | **Theme bug.** The theme renders an empty bordered card when a page has a title but `showHomeTitle` is false. Upstream it |
+| 6 | Card partial resolved per page via `utils/card-type.html` | Same fix as `list.html` above; goes up with it |
+
+Deltas 4 and 6 are theme bugs rather than site preferences, so they should go
+upstream with the `list.html` work below and stop being deltas at all. That
+leaves 1/2/3/5, which are genuinely about this site's content.
+
+Note the heading level: the home page title here is the page's `<h1>`. Do not
+demote it to `<h2>` to avoid clashing with the wordmark — see **SEO invariants**.
+
 The right long-term fix is upstreaming all of these to Ryder, which retires the
 forks. `utils/card-type.html` has to go up with `list.html` — the fork calls it.
+
+### SEO invariants
+
+Things that are easy to break and expensive to notice. Verify against **built
+HTML**, not templates — several of these are decided by fallback chains.
+
+- **Meta descriptions resolve `.Description` → `.Summary` → `params.description`.**
+  A root-level `description` key in `hugo.toml` is **silently discarded** by
+  Hugo; only the one under `[params]` is read. That last fallback is what every
+  page with no front-matter `description` and no summary lands on, so it must
+  read as a real sentence — it was the 19-character `'Dot Com Consulting'` on
+  1,091 of 3,005 built pages until 2026-09.
+  Taxonomy **term** pages (512 genres, 263 tags) have neither a description nor
+  a summary, so they all still share that one fallback. Giving them templated
+  per-taxonomy descriptions needs a change in the theme's
+  `common-partials/head-seo.html`.
+- **`layouts/robots.txt` exists solely to emit the `Sitemap:` line.** `enableRobotsTXT`
+  alone gets you Hugo's stub, which is `User-agent: *` and nothing else — no
+  sitemap pointer at all against a ~2,000-URL sitemap. If you touch that file,
+  keep the `Sitemap:` directive.
+- **Taxonomy and term pages are `["HTML"]` only.** Hugo's default adds RSS,
+  which generated 825 near-empty `index.xml` feeds across `musical-genres`,
+  `tags`, `categories` and `ingredients`. Nothing ever linked them. Re-adding
+  RSS to either kind brings all 825 back.
+- **`params.taxonomyDescription` is what keeps term pages from sharing one
+  description** (Ryder v0.5.0+). Term pages have neither a `description` nor a
+  summary; without this table all 821 of them fall through to
+  `params.description` — measured as 819 identical meta descriptions on v0.4.3.
+  Keys are the taxonomy's **singular** name from `[taxonomies]`, and each value
+  needs **exactly one `%s`**: Go appends `%!(EXTRA string=…)` to a format string
+  with no verb, and that lands in a meta description. Term pages only; `/tags/`
+  itself keeps the site description by design.
+- **`params.titleShort` is the SERP title suffix.** Precedence is per-page
+  `sectionTitle`, then `titleShort`, then `site.Title`. `site.Title` is 34
+  characters and truncated nearly every title, so `titleShort` is the default
+  for every section. Only set a `sectionTitle` cascade where a section wants a
+  genuinely different suffix — `listening` and `musical-genres` use
+  "Benstraw's Music Brain", `trails` uses "benstrawbridge.com". A `sectionTitle`
+  equal to `titleShort` is redundant; four were removed when `titleShort` landed.
+- **One `<h1>` per page**, and it is the page title, never the wordmark. Ryder
+  v0.5.0 made the wordmark a `<span>` and promoted the home page title to
+  `<h1>`; `showHomeTitle = true` is what renders that title, so unsetting it
+  leaves the home page with no heading at all. Verified across the built tree:
+  2,158 pages with exactly one, 0 with two. The 847 with none are Hugo's
+  meta-refresh stubs (pager `/page/N/` and `aliases`) plus two pre-existing
+  cases — `/tanda-light/`, a hand-written static passthrough that no layout
+  touches, and `/projects/pick-a-square-game/grid-basic/`, which uses the
+  scratch `layouts/grid-basic/baseof.html`.
+  Do not paper over a missing heading by demoting a page title to `<h2>` —
+  that is how the home page ended up with no real heading before v0.5.0.
+- **Search Console exports live in `docs/search-console/`** and must stay out of
+  `assets/`, which Hugo mounts. See that directory's README before comparing two
+  exports — the date window is an export filter, not a property of the data.
 
 ### Asset Management
 - **Images**: Stored in `assets/images/` with subdirectories by project/section

@@ -1,4 +1,5 @@
 +++
+description = 'API integration, product management and full stack development consulting — from securing infrastructure with Auth0, Okta and AWS to building scalable public and internal APIs.'
 title = 'Consulting'
 date = 2024-02-14T15:16:41-08:00
 # draft = true

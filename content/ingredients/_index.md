@@ -1,7 +1,7 @@
 +++
+description = 'Browse recipes by ingredient — every ingredient used across the recipe collection, from pantry staples to seasonal produce.'
 title = 'Featured Ingredients'
 date = 2024-05-29T22:58:56-07:00
-paginate = 72
 # draft = true
 # summary = ""
 # categories = [""]
@@ -10,7 +10,6 @@ tags = ["ingredients"]
 # showTOC = true
 
 [cascade]
-  sectionTitle = "Recipe Ingredients on BenStrawbridge.com"
   homeFeatureIcon = "fa-solid fa-wheat-awn"
 +++
 
