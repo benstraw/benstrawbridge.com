@@ -51,7 +51,7 @@ git add themes/ryder
 ## Architecture
 
 ### Theme Structure
-- **Theme**: Uses the Ryder theme (git submodule at `themes/ryder`, pinned to `af27204` — the unreleased v0.5.0 on arts-link/ryder#109; moves to the tag once v0.5.0 ships)
+- **Theme**: Uses the Ryder theme (git submodule at `themes/ryder`, pinned to tag `v0.5.0`)
 - **Theme config**: Set in `config/_default/hugo.toml` as `theme = 'ryder'`, matching production
 - **Layout overrides**: Root-level `layouts/` directory overrides theme layouts for custom sections
 - **Assets**: Root-level `assets/` directory contains site-specific JS, images, and extended functionality
