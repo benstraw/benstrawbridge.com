@@ -37,11 +37,23 @@ cp "$BACKUP" "$REAL"
 out="$("$CHECK" --print 2>&1)"; rc=$?
 check "real amplify-redirects.json passes validation" 0 "$rc"
 check "emits a bare array, annotations stripped" no "$(contains "$out" '$why')"
+canonical="$(jq -c '.[0]' <<<"$out")"
+check "canonical-host redirect stays first" \
+  '{"source":"https://benstrawbridge.com","target":"https://www.benstrawbridge.com","status":"301"}' \
+  "$canonical"
 
 echo "── 2. Validators reject malformed rules"
 fixture '[{"source":"no-slash/","target":"/b/","status":"301"}]'
 out="$("$CHECK" --print 2>&1)"; check "missing leading slash is rejected" 1 "$?"
-check "  …and says why" yes "$(contains "$out" 'must start with')"
+check "  …and says why" yes "$(contains "$out" 'path starting with')"
+
+fixture '[{"source":"https://example.com","target":"https://www.example.com","status":"301"}]'
+"$CHECK" --print >/dev/null 2>&1; check "HTTPS origin redirect is accepted" 0 "$?"
+
+# Amplify ignores domain sources containing paths without reporting an error.
+fixture '[{"source":"https://example.com/a/","target":"https://www.example.com/a/","status":"301"}]'
+out="$("$CHECK" --print 2>&1)"; check "domain source with a path is rejected" 1 "$?"
+check "  …and explains that only the origin is valid" yes "$(contains "$out" 'HTTPS origin with no path')"
 
 fixture '[{"source":"/a/","target":"/b/","status":"307"}]'
 "$CHECK" --print >/dev/null 2>&1; check "unsupported status is rejected" 1 "$?"

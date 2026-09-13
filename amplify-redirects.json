@@ -28,6 +28,13 @@
 
   "rules": [
     {
+      "$why": "Canonical-host redirect. Hugo builds absolute asset URLs on www, so serving the same HTML from the apex makes CSP 'self' reject those assets. Amplify appends the original path and query string to a domain-only source automatically.",
+      "source": "https://benstrawbridge.com",
+      "target": "https://www.benstrawbridge.com",
+      "status": "301"
+    },
+
+    {
       "$why": "Retired Spotify content adaptor. Ported from netlify.toml, which the site has never read — it deploys via Amplify.",
       "source": "/projects/content-adaptors/spotify/",
       "target": "/listening/artists/",

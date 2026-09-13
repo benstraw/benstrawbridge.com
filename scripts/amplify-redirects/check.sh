@@ -47,8 +47,8 @@ while IFS= read -r problem; do
   errs=$((errs + 1))
 done < <(jq -r '
   [ .rules[]
-    | select((.source | startswith("/")) | not)
-    | "source must start with \"/\": \(.source)"
+    | select((.source | test("^/|^https://[^/?#]+$")) | not)
+    | "source must be a path starting with \"/\" or an HTTPS origin with no path: \(.source)"
   ] + [ .rules[]
     | select(.status | test("^(200|301|302|404|404-200)$") | not)
     | "status must be 200, 301, 302, 404 or 404-200: \(.source) -> \(.status)"
