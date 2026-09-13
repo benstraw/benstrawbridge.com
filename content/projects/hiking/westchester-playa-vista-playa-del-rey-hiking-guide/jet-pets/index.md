@@ -1,6 +1,9 @@
 +++
 title = 'Jet Pets'
 date = 2024-04-15T14:21:28-07:00
+cardImage = "jet-pets_featured.webp"
+cardImageAlt = "The fenced green field at Jet Pets near LAX"
+cardImagePosition = "center"
 tags = [
   "westchester",
   "easy",
@@ -44,5 +47,4 @@ Jet Pets is an animal transportation company located in Playa Del Rey very close
 Jet Pets   
 9111 Falmouth Avenue  
 Playa del Rey, CA 90293  
-
 

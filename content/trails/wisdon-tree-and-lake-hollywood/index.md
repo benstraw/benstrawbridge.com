@@ -3,7 +3,6 @@ title = "Wisdom Tree and Lake Hollywood"
 date = 2026-04-01
 description = ""
 gpx = "Wisdom Tree and Lake Hollywood.gpx"
-og_image = "og-cover.jpg"
 tour = true
 tourType = "Hiking Tour"
 

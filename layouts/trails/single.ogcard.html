@@ -3,7 +3,7 @@
 
   Rendered to /trails/<slug>/og-card.html by the OGCard output format
   (config/_default/hugo.toml) and screenshotted to og-cover.png by
-  scripts/generate-trail-og.mjs. Nothing links here and nothing on the site
+  scripts/generate-og.mjs. Nothing links here and nothing on the site
   loads it — it exists only to be photographed, at exactly 1200x630.
 
   The map mirrors layouts/shortcodes/tour-map.html: same local Leaflet, same
@@ -12,7 +12,11 @@
 */ -}}
 {{- $isHike := eq (.Params.tourType | default "Walking Tour") "Hiking Tour" -}}
 {{- $page := .OutputFormats.Get "html" -}}
-{{- $gpxURL := printf "%s%s" $page.RelPermalink .Params.gpx -}}
+{{- $canonical := $page.RelPermalink -}}
+{{- $gpxResource := .Resources.Get .Params.gpx -}}
+{{- if not $gpxResource }}{{ errorf "trail %s cannot generate an OG card: GPX %q was not found" $canonical .Params.gpx }}{{ end -}}
+{{- $gpxResource = $gpxResource | fingerprint "sha256" -}}
+{{- $gpxURL := $gpxResource.RelPermalink -}}
 {{- $title := .Param "ogTitleText" | default .Title -}}
 {{- $font := resources.Get "common-partials/opengraph/TitilliumWeb-Regular.ttf" -}}
 
@@ -158,6 +162,12 @@
     left: 44px;
     right: 44px;
     bottom: 44px;
+    padding: 22px 28px 24px;
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    border-radius: 18px;
+    background: rgba(8, 26, 18, 0.78);
+    box-shadow: 0 12px 42px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(16px);
     color: #ffffff;
   }
 
@@ -194,7 +204,7 @@
 </style>
 </head>
 <body>
-<div id="og-card">
+<div id="og-card" data-og-eligible="true" data-og-canonical="{{ $canonical }}" data-og-section="trails" data-og-layout="trail" data-og-source="{{ $gpxResource.Data.Integrity }}">
   <div id="og-map"></div>
   <div id="og-scrim"></div>
 
@@ -262,7 +272,7 @@
   );
   baseLayer.addTo(map);
 
-  // Readiness handshake for scripts/generate-trail-og.mjs. The screenshot is
+  // Readiness handshake for scripts/generate-og.mjs. The screenshot is
   // only worth taking once the track is drawn AND real tiles are on screen, so
   // this waits for a quiet period after the last tile event rather than a fixed
   // sleep.

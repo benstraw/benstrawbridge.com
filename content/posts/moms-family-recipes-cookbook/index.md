@@ -1,6 +1,9 @@
 +++
 title = "Mom's Family Recipes Cookbook"
 date = 2024-02-22T00:39:21-08:00
+cardImage = "images/moms-family-recipes-cookbook/family_recipes_12.webp"
+cardImageAlt = "Mom's handmade family recipe cookbook open to a decorated page"
+cardImageFit = "contain"
 # draft = true
 hideAsideBar = true
 categories = ["recipes"]

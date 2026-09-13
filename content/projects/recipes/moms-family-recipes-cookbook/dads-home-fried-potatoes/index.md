@@ -1,6 +1,9 @@
 +++
 title = 'Dads Home Fried Potatoes'
 date = 2024-05-06T14:38:54-07:00
+cardImage = "images/moms-family-recipes-cookbook/family_recipes_07.webp"
+cardImageAlt = "Handwritten family cookbook page for Dad's home fried potatoes"
+cardImageFit = "contain"
 # draft = true
 hideAsideBar = true
 categories = ['recipes']

@@ -1,6 +1,9 @@
 +++
 title = 'Ironcove Solutions Orchestration Engine'
 date = 2024-03-05T14:00:47-08:00
+cardImage = "orchestration-engine-okta-zendesk-zoom-microsoft-google-workspace-slack-cloud-application-workflow.png"
+cardImageAlt = "Diagram of the Ironcove onboarding orchestration workflow"
+cardImageFit = "contain"
 # draft = true
 tags = [
   "workforce-onboarding",

@@ -1,6 +1,9 @@
 +++
 title = 'Lemon Chia Granola'
 date = 2024-04-29T13:44:16-07:00
+cardImage = "images/recipes/granola/granola_fini_lemon_chia_seed.webp"
+cardImageAlt = "Finished lemon chia granola in a glass jar"
+cardImagePosition = "center"
 # draft = true
 categories = ['recipes']
 tags = [
@@ -84,4 +87,3 @@ recipeIngredients = [
 ## Enjoy
 
 Enjoy alone, or mixed with fruit and yogurt, or milk as cereal
-

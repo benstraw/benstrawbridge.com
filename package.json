@@ -5,7 +5,11 @@
     "test:fa-icons": "node scripts/check-fa-icons.mjs",
     "test:amplify-preview": "bash scripts/amplify-preview/tests/run-tests.sh",
     "test:amplify-redirects": "bash scripts/amplify-redirects/tests/run-tests.sh",
-    "og:trails": "node scripts/generate-trail-og.mjs",
+    "og:generate": "node scripts/generate-og.mjs",
+    "og:check": "node scripts/generate-og.mjs --check",
+    "og:test": "node --test scripts/og.test.mjs",
+    "og:trails": "node scripts/generate-og.mjs --section trails",
+    "test:list-cards": "node scripts/check-list-cards.mjs",
     "card:shot": "node scripts/screenshot-card.mjs"
   },
   "repository": {

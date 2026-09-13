@@ -4,8 +4,8 @@ the title bar and the summary. Everything else — wrapper, gradient ring,
 homeFeatureWide span, .link-overlay, summary meta — is that card verbatim, so a
 feed can mix the two without the grid noticing.
 
-The image comes from `cardImage` in front matter, naming a resource in the
-page's own bundle:
+The image comes from `cardImage` in front matter, naming either a resource in
+the page's own bundle or an assets/-relative shared resource:
 
     cardImage = "chill-dogs-homepage.png"
 
@@ -19,22 +19,30 @@ title-on-template OG image — so every image-less page in the section would gro
 a card visual it never asked for. It also drives og:image, and a card visual and
 a social preview are not the same crop.
 
-@param cardImage  page-bundle resource to render, e.g. a screenshot
-@param cardImageAlt  alt text; falls back to the page description, then the title
+@param cardImage  page-bundle or assets/-relative resource to render
+@param cardImageAlt  required descriptive alt text
+@param cardImageFit  cover (default) or contain
+@param cardImagePosition  top (compatibility default), center, or bottom
 */ -}}
 {{- $m := partial "utils/card-meta.html" . -}}
 
 {{- $img := "" -}}
 {{- with .Params.cardImage -}}
   {{- $name := strings.TrimPrefix "/" . -}}
-  {{- with $.Resources.Get $name -}}
-    {{- $img = . -}}
-  {{- else -}}
-    {{- errorf "cardImage %q not found in the page bundle for %s" $name $.RelPermalink -}}
-  {{- end -}}
+  {{- $img = $.Resources.Get $name -}}
+  {{- if not $img }}{{ $img = resources.Get $name }}{{ end -}}
+  {{- if not $img }}{{ errorf "cardImage %q not found in the page bundle or assets/ for %s" $name $.RelPermalink }}{{ end -}}
 {{- end -}}
+{{- $alt := .Params.cardImageAlt | default "" -}}
+{{- if and $img (not $alt) }}{{ errorf "cardImageAlt is required when cardImage is set for %s" .RelPermalink }}{{ end -}}
+{{- $fit := .Params.cardImageFit | default "cover" -}}
+{{- if not (in (slice "cover" "contain") $fit) }}{{ errorf "invalid cardImageFit %q for %s" $fit .RelPermalink }}{{ end -}}
+{{- $position := .Params.cardImagePosition | default "top" -}}
+{{- if not (in (slice "top" "center" "bottom") $position) }}{{ errorf "invalid cardImagePosition %q for %s" $position .RelPermalink }}{{ end -}}
+{{- $fitClass := cond (eq $fit "contain") "object-contain" "object-cover" -}}
+{{- $positionClass := printf "object-%s" $position -}}
 
-<div itemscope="" itemtype="http://schema.org/Article" class="article {{ with .Param "homeFeatureWide" }}md:col-span-2 md:order-first{{ end }}">
+<div itemscope="" itemtype="http://schema.org/Article" data-card-kind="image" class="article {{ with .Param "homeFeatureWide" }}md:col-span-2 md:order-first{{ end }}">
   <div class="article-content relative p-1 rounded-xl {{ $m.headerStyle }}">
     <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-800 dark:text-neutral-100">
       {{- if $m.showCardLinkOverlay }}
@@ -49,6 +57,13 @@ a social preview are not the same crop.
         {{- if not $m.showCardLinkOverlay }}</a>{{- end }}
       </h2>
       {{- with $img }}
+        <div class="w-full aspect-video overflow-hidden bg-neutral-200 dark:bg-neutral-900">
+        {{- if eq .MediaType.SubType "svg" -}}
+          <img src="{{ .RelPermalink }}"
+               alt="{{ $alt }}"
+               loading="lazy" decoding="async"
+               class="block w-full h-full {{ $fitClass }} {{ $positionClass }}">
+        {{- else -}}
         {{- /* Widest a card gets is the home feature grid's md:grid-cols-2 inside
                max-w-screen-xl (~630px); /projects/ goes to xl:grid-cols-3, which
                is narrower. 1200w covers both at 2x. */ -}}
@@ -62,9 +77,11 @@ a social preview are not the same crop.
              srcset="{{ $small.RelPermalink }} 480w, {{ $mid.RelPermalink }} 760w, {{ $large.RelPermalink }} 1200w"
              sizes="(min-width: 768px) 630px, 100vw"
              width="{{ $large.Width }}" height="{{ $large.Height }}"
-             alt="{{ or $.Params.cardImageAlt $.Description $.Title }}"
+             alt="{{ $alt }}"
              loading="lazy" decoding="async"
-             class="block w-full h-auto aspect-video object-cover object-top">
+             class="block w-full h-full {{ $fitClass }} {{ $positionClass }}">
+        {{- end -}}
+        </div>
       {{- end }}
       <div class="{{- if .Param "homeFeature" }}{{ $m.featuredArticleBackgroundStyle }}{{- else }}{{ $m.articleBackgroundStyle }}{{- end }}">
         {{- if and $m.showSummaryMeta (or $m.articleSection .Site.Params.showDate $m.showAuthor) }}

@@ -1,6 +1,9 @@
 +++
 title = "Aunt Mary's Creamed Corn"
 date = 2024-05-14T15:58:00-07:00
+cardImage = "images/moms-family-recipes-cookbook/family_recipes_09.webp"
+cardImageAlt = "Handwritten family cookbook page for Aunt Mary's creamed corn"
+cardImageFit = "contain"
 # draft = true
 hideAsideBar = true
 categories = ["recipes"]
@@ -53,4 +56,3 @@ BUT, if you buy extra, cut the corn off the cob, put directly into plastic conta
 {{< recipe-howto-steps-list >}}
 
 {{< alert-wrapper alertType="info" alertTitle="View the Full Book" alertMessage="Check out every page of the cookbook over at the original post." alertCTA="/posts/moms-family-recipes-cookbook/" >}}
-

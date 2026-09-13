@@ -1,0 +1,119 @@
+{{- $page := . -}}
+{{- $resource := false -}}
+{{- $remote := false -}}
+{{- $width := 0 -}}
+{{- $height := 0 -}}
+{{- $identity := "" -}}
+
+{{- /* Data-generated listening pages deliberately choose their own art before
+      inherited page parameters are considered. */ -}}
+{{- if eq $page.Type "listening-artist" -}}
+  {{- with $page.Params.spotifyImages -}}
+    {{- $chosen := index . 0 -}}
+    {{- $remote = $chosen.url -}}
+    {{- $width = $chosen.width | default 0 -}}
+    {{- $height = $chosen.height | default 0 -}}
+    {{- $identity = printf "spotify:%s:%vx%v" $remote $width $height -}}
+  {{- end -}}
+{{- else if eq $page.Type "listening-weekly" -}}
+  {{- with $page.Params.topArtistImages -}}
+    {{- $chosen := index . 0 -}}
+    {{- $remote = $chosen.url -}}
+    {{- $width = $chosen.width | default 0 -}}
+    {{- $height = $chosen.height | default 0 -}}
+    {{- $identity = printf "spotify:%s:%vx%v" $remote $width $height -}}
+  {{- end -}}
+{{- else if and (eq $page.Kind "term") (eq $page.Section "musical-genres") -}}
+  {{- range ($page.Pages.ByParam "total_plays").Reverse -}}
+    {{- if not $remote -}}
+      {{- with .Params.spotifyImages -}}
+        {{- $chosen := index . 0 -}}
+        {{- $remote = $chosen.url -}}
+        {{- $width = $chosen.width | default 0 -}}
+        {{- $height = $chosen.height | default 0 -}}
+        {{- $identity = printf "spotify:%s:%vx%v" $remote $width $height -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if not $remote -}}
+  {{- with $page.Params.og_source_image -}}
+    {{- if not (or (hasPrefix . "https://") (hasPrefix . "http://")) -}}
+      {{- $explicitName := strings.TrimPrefix "/" . -}}
+      {{- if not (or ($page.Resources.Get $explicitName) (resources.Get $explicitName)) -}}
+        {{- errorf "og_source_image %q not found in the page bundle or assets/ for %s" $explicitName $page.RelPermalink -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $candidates := slice -}}
+  {{- with $page.Params.og_source_image }}{{ $candidates = $candidates | append . }}{{ end -}}
+  {{- with $page.Params.featured_image }}{{ $candidates = $candidates | append . }}{{ end -}}
+  {{- with $page.Params.images }}{{ with index . 0 }}{{ $candidates = $candidates | append . }}{{ end }}{{ end -}}
+  {{- with $page.Params.cardImage }}{{ $candidates = $candidates | append . }}{{ end -}}
+
+  {{- range $candidates -}}
+    {{- if not $resource -}}
+      {{- $name := strings.TrimPrefix "/" . -}}
+      {{- if or (hasPrefix . "https://") (hasPrefix . "http://") -}}
+        {{- $remote = . -}}
+        {{- $identity = printf "remote:%s" . -}}
+      {{- else -}}
+        {{- $resource = $page.Resources.Get $name -}}
+        {{- if not $resource }}{{ $resource = resources.Get $name }}{{ end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- if and (not $resource) (not $remote) -}}
+    {{- $images := $page.Resources.ByType "image" -}}
+    {{- $resource = $images.GetMatch "*feature*" -}}
+    {{- if not $resource }}{{ $resource = $images.GetMatch "{*cover*,*thumbnail*}" }}{{ end -}}
+  {{- end -}}
+
+  {{- /* Finally inspect the authored body in a stable order, covering
+        picture/figure shortcodes, HTML, and Markdown image syntax. */ -}}
+  {{- if and (not $resource) (not $remote) -}}
+    {{- $bodyCandidates := slice -}}
+    {{- range (findRESubmatch `(?i)\bsrc\s*=\s*["']([^"']+\.(?:jpe?g|png|webp|gif|svg|avif))["']` $page.RawContent) -}}
+      {{- $bodyCandidates = $bodyCandidates | append (index . 1) -}}
+    {{- end -}}
+    {{- range (findRESubmatch `(?i)!\[[^]]*\]\(([^ )]+\.(?:jpe?g|png|webp|gif|svg|avif))` $page.RawContent) -}}
+      {{- $bodyCandidates = $bodyCandidates | append (index . 1) -}}
+    {{- end -}}
+    {{- range $bodyCandidates -}}
+      {{- if and (not $resource) (not $remote) -}}
+        {{- $name := strings.TrimPrefix "/" . -}}
+        {{- $lower := lower $name -}}
+        {{- if not (or (in $lower "og-cover") (in $lower "og-card") (in $lower "bs_full_wordmark")) -}}
+          {{- if or (hasPrefix . "https://") (hasPrefix . "http://") -}}
+            {{- $remote = . -}}
+            {{- $identity = printf "remote:%s" . -}}
+          {{- else -}}
+            {{- $resource = $page.Resources.Get $name -}}
+            {{- if not $resource }}{{ $resource = resources.Get $name }}{{ end -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $result := false -}}
+{{- if $resource -}}
+  {{- $fingerprinted := $resource | fingerprint "sha256" -}}
+  {{- if eq $resource.MediaType.SubType "svg" -}}
+    {{- /* SVG resources do not expose Width/Height through Hugo. Treat them
+         as square so auto layout chooses the contained split treatment. */ -}}
+    {{- $width = 1 -}}
+    {{- $height = 1 -}}
+  {{- else -}}
+    {{- $width = $resource.Width | default 0 -}}
+    {{- $height = $resource.Height | default 0 -}}
+  {{- end -}}
+  {{- $identity = $fingerprinted.Data.Integrity | default $fingerprinted.RelPermalink -}}
+  {{- $result = dict "url" $fingerprinted.RelPermalink "width" $width "height" $height "identity" $identity "remote" false -}}
+{{- else if $remote -}}
+  {{- $result = dict "url" $remote "width" $width "height" $height "identity" $identity "remote" true -}}
+{{- end -}}
+{{- return $result -}}

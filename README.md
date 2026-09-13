@@ -31,6 +31,15 @@ This repository is the source for
 [benstrawbridge.com](https://www.benstrawbridge.com/)—my consulting home,
 project notebook, link garden, and ongoing excuse to experiment with the web.
 
+## Open Graph cards
+
+Social cards are committed JPEGs generated from compact Hugo HTML templates.
+Run `npm run og:generate` to create only missing or stale cards, add `-- --force`
+to rebuild everything, or target one page with `-- --only /canonical/path/`.
+`npm run og:trails` is the compatibility command for Trail cards, and
+`npm run og:check` performs the screenshot-free freshness and integrity check
+used by Amplify before deployment.
+
 ## What I build
 
 ### Websites with a point of view

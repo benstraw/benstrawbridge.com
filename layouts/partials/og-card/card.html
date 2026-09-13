@@ -1,0 +1,86 @@
+{{- $page := . -}}
+{{- $htmlOutput := $page.OutputFormats.Get "html" -}}
+{{- $canonical := $htmlOutput.RelPermalink | default $page.RelPermalink -}}
+{{- $filePath := "" -}}
+{{- with $page.File }}{{ $filePath = .Path }}{{ end -}}
+{{- $authored := hasSuffix $filePath ".md" -}}
+{{- $musicGenerated := or (eq $page.Type "listening-artist") (eq $page.Type "listening-weekly") (and (eq $page.Kind "term") (eq $page.Section "musical-genres")) -}}
+{{- $excluded := or (in $canonical "/test/") (eq ($page.Param "og_generate") false) -}}
+{{- $manual := and $page.Params.og_image (not (and (eq $page.Section "trails") (eq $page.Params.og_image "og-cover.jpg"))) -}}
+{{- $eligible := and (or $authored $musicGenerated) (not $excluded) (not $manual) -}}
+{{- $title := $page.Param "ogTitleText" | default $page.Title | default site.Title -}}
+{{- $logoFirst := $page.Param "logo_firstWord" | default "Ben" -}}
+{{- $logoLast := $page.Param "logo_lastWord" | default "Strawbridge" -}}
+{{- $tagline := $page.Param "logo_tagline" | default "DOT COM CONSULTING" -}}
+{{- $source := partial "og-card/source-image.html" $page -}}
+{{- $layout := $page.Param "og_layout" | default "auto" -}}
+{{- if not (in (slice "auto" "full" "split" "abstract") $layout) }}{{ errorf "invalid og_layout %q for %s" $layout $canonical }}{{ end -}}
+{{- if eq $layout "auto" -}}
+  {{- $layout = "abstract" -}}
+  {{- with $source -}}
+    {{- $ratio := 0.0 -}}
+    {{- if gt .height 0 }}{{ $ratio = div (float .width) (float .height) }}{{ end -}}
+    {{- $layout = cond (ge $ratio 1.35) "full" "split" -}}
+  {{- end -}}
+{{- end -}}
+{{- $position := $page.Param "og_position" | default "center" -}}
+{{- $section := $page.Section | default "other" -}}
+{{- if or (eq $page.Type "listening-artist") (eq $page.Type "listening-weekly") (eq $page.Section "musical-genres") }}{{ $section = "listening" }}{{ end -}}
+{{- if in ($page.Params.categories | default slice) "recipes" }}{{ $section = "recipes" }}{{ end -}}
+{{- $palette := dict "one" "#075985" "two" "#3f6212" "three" "#0f172a" "paper" "#f5f5f4" -}}
+{{- if eq $section "posts" }}{{ $palette = dict "one" "#9f1239" "two" "#ea580c" "three" "#fef3c7" "paper" "#fff7ed" }}
+{{- else if eq $section "projects" }}{{ $palette = dict "one" "#2563eb" "two" "#7c3aed" "three" "#06b6d4" "paper" "#eff6ff" }}
+{{- else if eq $section "trails" }}{{ $palette = dict "one" "#166534" "two" "#0f766e" "three" "#a3e635" "paper" "#f0fdf4" }}
+{{- else if eq $section "recipes" }}{{ $palette = dict "one" "#b45309" "two" "#be123c" "three" "#fde68a" "paper" "#fffbeb" }}
+{{- else if eq $section "links" }}{{ $palette = dict "one" "#0f172a" "two" "#0369a1" "three" "#84cc16" "paper" "#f8fafc" }}
+{{- else if eq $section "listening" }}{{ $palette = dict "one" "#052e16" "two" "#15803d" "three" "#4f46e5" "paper" "#ecfdf5" }}
+{{- end -}}
+{{- $variant := mod (len $canonical) 4 -}}
+{{- $font := resources.Get "common-partials/opengraph/TitilliumWeb-Regular.ttf" | fingerprint "sha256" -}}
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex,nofollow">
+<title>{{ $title }} — OG card source</title>
+<style>
+@font-face{font-family:OGTitillium;src:url("{{ $font.RelPermalink }}") format("truetype");font-display:block}
+*{box-sizing:border-box}html,body{margin:0;width:1200px;height:630px;overflow:hidden;font-family:OGTitillium,"Titillium Web",Arial,sans-serif;background:{{ $palette.paper }}}
+#og-card{position:relative;width:1200px;height:630px;overflow:hidden;background:linear-gradient(135deg,{{ $palette.paper }},{{ $palette.three }})}
+.media{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:{{ $position }}}
+.abstract{position:absolute;inset:0;background:radial-gradient(circle at {{ if eq $variant 0 }}18% 22%{{ else if eq $variant 1 }}78% 18%{{ else if eq $variant 2 }}24% 78%{{ else }}74% 72%{{ end }},{{ $palette.three }} 0 15%,transparent 42%),radial-gradient(circle at {{ if eq $variant 0 }}82% 70%{{ else if eq $variant 1 }}20% 78%{{ else if eq $variant 2 }}78% 24%{{ else }}22% 20%{{ end }},{{ $palette.two }} 0 18%,transparent 48%),linear-gradient(128deg,{{ $palette.one }},{{ $palette.paper }})}
+.abstract:after{content:"";position:absolute;inset:0;opacity:.19;background-image:linear-gradient(rgba(255,255,255,.35) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.35) 1px,transparent 1px);background-size:44px 44px}
+.wordmark{position:absolute;z-index:4;top:36px;left:44px;padding:13px 19px 11px;border-radius:12px;background:rgba(245,245,244,.94);box-shadow:0 8px 28px rgba(0,0,0,.2)}
+.words{font-size:43px;line-height:1;white-space:nowrap}.first{color:#075985}.last{color:#3f6212}.tagline{display:block;margin-top:-1px;font-size:12px;font-weight:700;letter-spacing:.38em;color:#1c1917;white-space:nowrap}
+.title-panel{position:absolute;z-index:4;left:44px;right:44px;bottom:42px;padding:24px 28px 25px;border:1px solid rgba(255,255,255,.2);border-radius:18px;background:rgba(8,15,25,.79);box-shadow:0 12px 42px rgba(0,0,0,.3);backdrop-filter:blur(16px);color:white}
+.title{margin:0;max-height:238px;overflow:hidden;font-size:76px;line-height:1.02;letter-spacing:-.025em;text-wrap:balance;text-shadow:0 2px 10px rgba(0,0,0,.3)}
+.split .media-frame{position:absolute;z-index:1;top:38px;right:38px;bottom:38px;width:49%;padding:17px;border-radius:22px;background:rgba(255,255,255,.72);box-shadow:0 20px 60px rgba(0,0,0,.35);transform:rotate({{ if or (eq $variant 0) (eq $variant 2) }}1.2deg{{ else }}-1.2deg{{ end }})}
+.split .media-frame .media{position:static;border-radius:12px;object-fit:contain;background:{{ $palette.paper }}}
+.split .wordmark{max-width:520px}.split .title-panel{right:auto;width:54%;bottom:42px}.split .title{font-size:68px}
+.full:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.05),rgba(0,0,0,.12) 42%,rgba(0,0,0,.42));z-index:2}
+</style>
+</head>
+<body>
+{{- if not $eligible }}
+<div id="og-card" data-og-eligible="false" data-og-canonical="{{ $canonical }}"></div>
+{{- else }}
+<div id="og-card" class="{{ $layout }}" data-og-eligible="true" data-og-canonical="{{ $canonical }}" data-og-section="{{ $section }}" data-og-layout="{{ $layout }}" data-og-source="{{ with $source }}{{ .identity }}{{ end }}">
+  {{- if eq $layout "abstract" }}<div class="abstract"></div>{{ end -}}
+  {{- with $source }}
+    {{- if eq $layout "split" }}<div class="media-frame"><img class="media" src="{{ .url }}" alt=""></div>
+    {{- else }}<img class="media" src="{{ .url }}" alt="">{{ end -}}
+  {{- end }}
+  <div class="wordmark"><div class="words"><span class="first">{{ $logoFirst }}</span> <span class="last">{{ $logoLast }}</span></div><span class="tagline">{{ $tagline }}</span></div>
+  <div class="title-panel"><h1 class="title">{{ $title }}</h1></div>
+</div>
+<script>
+(function(){
+  window.__ogCardReady=false;window.__ogCardError=null;
+  function fit(){var el=document.querySelector('.title');if(!el)return;var size=parseFloat(getComputedStyle(el).fontSize),limit=240;while(el.scrollHeight>limit&&size>38){size-=2;el.style.fontSize=size+'px'}if(el.scrollHeight>limit)throw new Error('title does not fit ('+el.scrollHeight+'px at '+size+'px)')}
+  Promise.all(Array.from(document.images).map(function(img){return img.decode().catch(function(){throw new Error('image failed: '+img.src)})}))
+    .then(function(){return document.fonts.ready}).then(function(){fit();window.__ogCardReady=true})
+    .catch(function(err){window.__ogCardError=err.message;window.__ogCardReady=true});
+}());
+</script>
+{{- end }}
+</body></html>

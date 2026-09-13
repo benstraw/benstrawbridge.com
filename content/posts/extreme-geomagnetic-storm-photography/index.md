@@ -1,6 +1,9 @@
 +++
 title = 'Extreme Geomagnetic Storm Photography'
 date = 2024-05-20T17:02:40-07:00
+cardImage = "1-artist-date_feature.webp"
+cardImageAlt = "A long-exposure night photograph at the Marina del Rey breakwater"
+cardImagePosition = "center"
 # draft = true
 foo = 'bar'
 tags = [

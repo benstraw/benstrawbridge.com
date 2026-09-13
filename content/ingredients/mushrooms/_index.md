@@ -1,6 +1,9 @@
 +++
 title = 'Mushrooms'
 date = 2024-05-29T23:24:31-07:00
+cardImage = "oyster_feature.jpg"
+cardImageAlt = "A cluster of pale oyster mushrooms"
+cardImagePosition = "center"
 # draft = true
 # summary = ""
 # categories = [""]

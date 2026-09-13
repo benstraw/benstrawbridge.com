@@ -1,6 +1,9 @@
 +++
 title = 'Recipe Template for Ryder Theme'
 date = 2024-05-29T23:37:29-07:00
+cardImage = "test-results.png"
+cardImageAlt = "Google Rich Results Test showing valid recipe structured data"
+cardImageFit = "contain"
 # draft = true
 # summary = ""
 # categories = [""]

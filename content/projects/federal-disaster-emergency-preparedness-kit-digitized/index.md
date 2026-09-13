@@ -1,6 +1,9 @@
 +++
 title = 'Federal Disaster Emergency Preparedness Kit Digitized'
 date = 2024-06-08T11:57:29-07:00
+cardImage = "fema-logo-blue.svg"
+cardImageAlt = "Federal Emergency Management Agency logo"
+cardImageFit = "contain"
 # draft = true
 # summary = ""
 # categories = [""]
@@ -56,4 +59,4 @@ Options:
 
 ## Digital Wallet
 
-You can optionally include a offline digital wallet on your device to store any digital assets you may own securely, and off-chain, completely unreachable and therefore unhackable. 
+You can optionally include a offline digital wallet on your device to store any digital assets you may own securely, and off-chain, completely unreachable and therefore unhackable.

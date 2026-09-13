@@ -1,6 +1,9 @@
 +++
 title = 'Adding Leaflet to Ryder Theme'
 date = 2024-05-10T14:19:38-07:00
+cardImage = "ryder-theme-og_feature.jpg"
+cardImageAlt = "A Ryder theme page displaying an interactive Leaflet map"
+cardImageFit = "contain"
 homeFeatureIcon = "fa-solid fa-map-location-dot"
 loadLeaflet = true
 tags = [

@@ -34,6 +34,15 @@ listCardType / homeListCardType are for.
 */ -}}
 {{- $page := .page -}}
 {{- $type := .default -}}
+{{- $filePath := "" -}}
+{{- with $page.File }}{{ $filePath = .Path }}{{ end -}}
+
+{{- /* An authored page deliberately declaring cardImage gets the image card
+       in every feed. Data-generated music records have no .md source file and
+       therefore cannot opt in accidentally. */ -}}
+{{- if and (ne $page.Kind "page") (hasSuffix $filePath ".md") $page.Params.cardImage -}}
+  {{- $type = "-image" -}}
+{{- end -}}
 
 {{- /* Single top-level return: Hugo rejects a second one, including an early
        return nested inside an if. */ -}}
@@ -45,6 +54,10 @@ listCardType / homeListCardType are for.
         {{- $type = . -}}
       {{- end -}}
     {{- end -}}
+  {{- end -}}
+
+  {{- if and (hasSuffix $filePath ".md") $page.Params.cardImage -}}
+    {{- $type = "-image" -}}
   {{- end -}}
 
   {{- with $page.Params.cardType -}}

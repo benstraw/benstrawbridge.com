@@ -1,6 +1,9 @@
 +++
 title = 'The Ryder Theme for Hugo'
 date = 2024-02-19T22:19:09-08:00
+cardImage = "ryder-theme-og.jpg"
+cardImageAlt = "The Ryder Hugo theme wordmark with a portrait of Ryder"
+cardImagePosition = "center"
 # draft = true
 tags = [
   "ryder-theme",

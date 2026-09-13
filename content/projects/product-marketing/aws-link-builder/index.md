@@ -1,6 +1,9 @@
 +++
 title = "Referral links tool kit"
 date = 2024-05-19T12:28:06-04:00
+cardImage = "amazon-asin-location.webp"
+cardImageAlt = "A browser address bar highlighting where to find an Amazon ASIN"
+cardImageFit = "contain"
 tags = ["referral-links", "amazon-associates-program", "affiliate-marketing"]
 url = "/link-builder"
 +++
@@ -27,5 +30,4 @@ Our site participates in the Amazon Services LLC Associates Program, an affiliat
 We only recommend products and services that we believe will add value to our readers. The opinions expressed here are our own and are not influenced by any affiliate partnerships.  
 
 Thank you for your support!  
-
 

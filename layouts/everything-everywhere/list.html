@@ -46,14 +46,16 @@
   {{ if $paged }}
     {{ $paginator := .Paginate $pages }}
     {{ range $paginator.Pages }}
-      {{- partial "card-category-color.html" . }}
+      {{- $cardType := partial "utils/card-type.html" (dict "page" . "default" "-category-color") -}}
+      {{- partial (printf "card%s.html" $cardType) . -}}
     {{- end }}
     <div class="lg:col-span-2 xl:col-span-4">
       {{ template "_internal/pagination.html" . }}
     </div>
   {{ else }}
     {{ range $pages }}
-      {{- partial "card-category-color.html" . }}
+      {{- $cardType := partial "utils/card-type.html" (dict "page" . "default" "-category-color") -}}
+      {{- partial (printf "card%s.html" $cardType) . -}}
     {{- end }}
   {{- end }}
 </div>

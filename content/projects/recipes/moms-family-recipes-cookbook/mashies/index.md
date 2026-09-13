@@ -1,6 +1,9 @@
 +++
 title = 'Mashies'
 date = 2024-05-06T14:43:16-07:00
+cardImage = "images/moms-family-recipes-cookbook/family_recipes_07.webp"
+cardImageAlt = "Handwritten family cookbook page for Mashies"
+cardImageFit = "contain"
 # draft = true
 hideAsideBar = true
 categories = ['recipes']

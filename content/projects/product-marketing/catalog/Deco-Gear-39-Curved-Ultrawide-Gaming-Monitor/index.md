@@ -1,6 +1,9 @@
 +++
 title = "Deco Gear 39 Curved Ultrawide Gaming Monitor"
 date = 2024-04-02T02:28:06-04:00
+cardImage = "dece-gear.jpg"
+cardImageAlt = "Deco Gear 39-inch curved ultrawide gaming monitor"
+cardImageFit = "contain"
 tags = [
   "electronics",
   "gaming",

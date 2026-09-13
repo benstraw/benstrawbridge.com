@@ -7,7 +7,7 @@
  * the shot at 16:9 in the first place: the browser viewport is the crop, which
  * means what you see in the file is what the card shows.
  *
- * Unlike generate-trail-og.mjs this touches no front matter and builds nothing.
+ * Unlike generate-og.mjs this touches no front matter and builds nothing.
  * It writes one image. Pointing a page at it — `cardImage` in front matter — is
  * a separate, deliberate step.
  *
@@ -35,7 +35,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const REPO_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-/* Same escape hatch generate-trail-og.mjs uses: the container ships one
+/* Same escape hatch generate-og.mjs uses: the container ships one
    Chromium under PLAYWRIGHT_BROWSERS_PATH and npm may resolve a playwright
    that wants a different build. This symlink sidesteps the version registry. */
 const PREINSTALLED_CHROMIUM = '/opt/pw-browsers/chromium';
@@ -99,7 +99,7 @@ async function loadPlaywright() {
 
 /* Try the browser playwright expects first, and only reach for the container's
  * preinstalled one when that is genuinely absent — same reasoning as
- * generate-trail-og.mjs, so a Chromium bump in the image keeps working.
+ * generate-og.mjs, so a Chromium bump in the image keeps working.
  */
 async function launchChromium(chromium) {
   /* Chromium does not pick up HTTPS_PROXY the way curl does; left alone in a
@@ -125,7 +125,7 @@ async function main() {
   const { chromium } = await loadPlaywright();
   const browser = await launchChromium(chromium);
 
-  /* The blank-card guard. generate-trail-og.mjs learned this the hard way:
+  /* The blank-card guard. generate-og.mjs learned this the hard way:
      when tile requests hang rather than error, the page looks "loaded" and you
      ship a photograph of an empty map without noticing. Counting images that
      actually arrived turns that silence into a failure. */

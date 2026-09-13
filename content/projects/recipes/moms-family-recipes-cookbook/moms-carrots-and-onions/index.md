@@ -1,6 +1,9 @@
 +++
 title = "Mom's Carrots and Onions"
 date = 2024-05-14T15:50:33-07:00
+cardImage = "images/moms-family-recipes-cookbook/family_recipes_08.webp"
+cardImageAlt = "Handwritten family cookbook page for Mom's carrots and onions"
+cardImageFit = "contain"
 # draft = true
 hideAsideBar = true
 categories = ['recipes']

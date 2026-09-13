@@ -1,6 +1,9 @@
 +++
 title = 'Tarragon Beets Salad'
 date = 2023-08-04T11:56:15-08:00
+cardImage = "images/recipes/tarragon-beets-salad/beets-salad.jpg"
+cardImageAlt = "Finished tarragon beet salad with mushrooms, celery, grains, and seeds"
+cardImagePosition = "center"
 # draft = true
 tags = [
   "healthy",
@@ -105,4 +108,3 @@ Makes about 4 qts. Lasts for over a week in the fridge.
 
 ## Method
 {{< recipe-howto-steps-list >}}
-

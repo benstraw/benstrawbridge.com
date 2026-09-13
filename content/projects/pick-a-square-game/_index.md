@@ -1,6 +1,9 @@
 +++
 title = 'Pick a Square Game'
 date = 2024-02-13T10:51:24-08:00
+cardImage = "feature_pick-a-square.jpg"
+cardImageAlt = "A colorful Pick-a-Square game board and scoreboard"
+cardImageFit = "contain"
 aliases = ['/pick-a-square-game/']
 # homeFeature = true
 homeFeatureIcon = "fa-solid fa-table-cells"

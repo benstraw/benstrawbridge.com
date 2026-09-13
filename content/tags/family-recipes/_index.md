@@ -1,6 +1,9 @@
 +++
 title = 'Family Recipe Book'
 date = 2024-05-29T23:24:31-07:00
+cardImage = "images/moms-family-recipes-cookbook/family_recipes_12.webp"
+cardImageAlt = "A handmade family recipe cookbook open on a kitchen counter"
+cardImageFit = "contain"
 # draft = true
 # summary = ""
 # # categories = [""]

@@ -1,6 +1,9 @@
 +++
 title = 'Github Action to Create New Content in Hugo'
 date = 2024-01-19T21:54:43-08:00
+cardImage = "github-actions-workflow-button_feature.png"
+cardImageAlt = "The GitHub Actions interface showing a Run workflow button"
+cardImageFit = "contain"
 # draft = true
 showToc = true
 tags = [

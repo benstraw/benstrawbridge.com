@@ -1,6 +1,9 @@
 +++
 title = 'Original Granola'
 date = 2024-04-29T13:44:16-07:00
+cardImage = "images/recipes/granola/granola_fini_cacao.webp"
+cardImageAlt = "Finished cacao granola with nuts and dried fruit"
+cardImagePosition = "center"
 # draft = true
 categories = ['recipes']
 tags = [

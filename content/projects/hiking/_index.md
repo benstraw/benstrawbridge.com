@@ -1,6 +1,9 @@
 +++
 title = 'Hiking'
 date = 2024-03-13T11:21:29-07:00
+cardImage = "ben-rhys-bishop-peak.jpg"
+cardImageAlt = "Ben and Rhys at the top of Bishop Peak"
+cardImagePosition = "center"
 listRecursive = true
 [cascade]
   loadLeaflet = true

@@ -1,6 +1,9 @@
 +++
 title = 'Book Store Sample Data'
 date = 2024-05-17T13:36:56-07:00
+cardImage = "books-section-with-content-adaptor_feature.jpg"
+cardImageAlt = "A sample bookstore page generated with a Hugo content adapter"
+cardImageFit = "contain"
 # draft = true
 tags = [
   "content-adaptors",

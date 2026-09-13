@@ -18,17 +18,19 @@ copyright = '<i class="fa-regular fa-copyright"></i>  2026 benstrawbridge.com'
 # this block Hugo falls back to its own default of ["html", "rss"] and /llms.txt
 # is never written.
 [outputs]
-  home = ["HTML", "RSS", "LLMSTxt"]
+  home = ["HTML", "RSS", "LLMSTxt", "OGCard"]
+  page = ["HTML", "OGCard"]
+  section = ["HTML", "OGCard"]
   # Hugo defaults taxonomy and term to ["HTML", "RSS"], which generated 825
   # near-empty index.xml feeds across musical-genres, tags, categories and
   # ingredients. Nothing linked them: no page emitted a rel="alternate"
   # application/rss+xml for a term.
-  taxonomy = ["HTML"]
-  term = ["HTML"]
+  taxonomy = ["HTML", "OGCard"]
+  term = ["HTML", "OGCard"]
 
-# Source document for the trail social cards. Rendered by
-# layouts/trails/single.ogcard.html to /trails/<slug>/og-card.html, screenshotted
-# by scripts/generate-trail-og.mjs, never linked from the site — hence
+# Source documents for generated social cards. Rendered by the OGCard templates
+# to <canonical-path>/og-card.html, screenshotted by scripts/generate-og.mjs,
+# and never linked from the site — hence
 # notAlternative, and a `noindex` meta in the template itself. The distinct
 # baseName is what keeps it from colliding with the page's real HTML output.
 [outputFormats.OGCard]

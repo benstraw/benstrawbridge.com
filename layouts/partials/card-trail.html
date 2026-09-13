@@ -36,7 +36,7 @@ same gradient ring, same .link-overlay.
        a literal "Year&rsquo;s" once Hugo re-escaped the ampersand on output. */ -}}
 {{- $blurb := or .Description .Summary | plainify | htmlUnescape | strings.TrimSpace | truncate 180 -}}
 
-<div itemscope="" itemtype="http://schema.org/Article" class="article {{ with .Param "homeFeatureWide" }}md:col-span-2 md:order-first{{ end }}">
+<div itemscope="" itemtype="http://schema.org/Article" data-card-kind="trail" class="article {{ with .Param "homeFeatureWide" }}md:col-span-2 md:order-first{{ end }}">
   <div class="article-content relative p-1 rounded-xl {{ $m.headerStyle }}">
     <div class="w-full h-full rounded-lg overflow-hidden bg-neutral-100 text-neutral-900 dark:bg-neutral-800 dark:text-neutral-100">
       {{- if $m.showCardLinkOverlay }}

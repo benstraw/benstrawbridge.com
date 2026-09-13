@@ -1,6 +1,9 @@
 +++
 title = "Nitecore Headlamp"
 date = 2024-04-02T02:28:06-04:00
+cardImage = "nitecore-nu25-400ul.jpg"
+cardImageAlt = "Nitecore NU25 400 UL rechargeable headlamp"
+cardImageFit = "contain"
 tags = [
   "outdoor",
   "fitness",
@@ -28,7 +31,4 @@ The mighty [little headlamp that could](https://amzn.to/49qmrVD) is the super li
 - Press and hold the power button for a few seconds to turn it off.  
 - Press and hold both buttons for 5 seconds to enter or exit lockout mode.  
 - When in lockout mode, the light works as a signalling light as any press on any button triggers a brief flash.  
-
-
-
 

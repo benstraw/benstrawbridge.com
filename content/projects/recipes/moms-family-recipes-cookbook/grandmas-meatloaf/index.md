@@ -1,6 +1,9 @@
 +++
 title = "Grandma Kreider's Meatloaf"
 date = 2024-05-06T14:24:29-07:00
+cardImage = "images/moms-family-recipes-cookbook/family_recipes_06.webp"
+cardImageAlt = "Handwritten family cookbook page for Grandma Kreider's meatloaf"
+cardImageFit = "contain"
 # draft = true
 hideAsideBar = true
 homeFeatureIcon = "fa-solid fa-bread-slice"

@@ -1,6 +1,9 @@
 +++
 title = 'Midori MD Dot Square Notebook'
 date = 2024-06-03T10:25:04-07:00
+cardImage = "dot-notebook.jpeg"
+cardImageAlt = "Midori MD Dot Square Notebook"
+cardImageFit = "contain"
 # draft = true
 # summary = ""
 # # categories = [""]

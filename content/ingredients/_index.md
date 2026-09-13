@@ -2,6 +2,9 @@
 description = 'Browse recipes by ingredient — every ingredient used across the recipe collection, from pantry staples to seasonal produce.'
 title = 'Featured Ingredients'
 date = 2024-05-29T22:58:56-07:00
+cardImage = "smorgasboard_feature.jpg"
+cardImageAlt = "A summer bounty of vegetables, fruit, mushrooms, and bread"
+cardImagePosition = "center"
 # draft = true
 # summary = ""
 # categories = [""]
@@ -23,4 +26,3 @@ tags = ["ingredients"]
 Ingredients that have been tagged in recipes as featured ingredients are listed below. Find all of the recipes using these ingredients on each page. See photographs and learn more about these items.
 
 <!--more-->
-

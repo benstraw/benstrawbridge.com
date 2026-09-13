@@ -1,6 +1,9 @@
 +++
 title = 'Tuna Noodle Bake'
 date = 2024-04-24T23:41:16-07:00
+cardImage = "images/moms-family-recipes-cookbook/family_recipes_04.webp"
+cardImageAlt = "Handwritten family cookbook page for tuna noodle bake"
+cardImageFit = "contain"
 # draft = true
 hideAsideBar = true
 homeFeatureIcon = "fa-solid fa-fish-fins"

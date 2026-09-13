@@ -1,6 +1,9 @@
 +++
 title = "Aunt Mary's LemonMint"
 date = 2024-04-24T23:15:52-07:00
+cardImage = "images/moms-family-recipes-cookbook/family_recipes_03.webp"
+cardImageAlt = "Handwritten family cookbook page for Aunt Mary's LemonMint"
+cardImageFit = "contain"
 # draft = true
 hideAsideBar = true
 homeFeatureIcon = "fa-brands fa-pagelines"
