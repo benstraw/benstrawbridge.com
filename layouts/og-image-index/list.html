@@ -1,12 +1,18 @@
 {{- $manifestResource := resources.Get "images/og/generated/manifest.json" -}}
 {{- if not $manifestResource }}{{ errorf "OG image index could not find the generated-card manifest" }}{{ end -}}
 {{- $manifest := $manifestResource.Content | transform.Unmarshal -}}
+{{- $mode := .Params.og_index_mode | default "main" -}}
+{{- $listeningOnly := eq $mode "listening" -}}
 
 {{- /* Build one collection so generated, authored overrides, and the static
       Tanda card can be grouped together by their real site section. */ -}}
 {{- $items := slice -}}
+{{- $listeningCount := 0 -}}
 {{- range $canonical, $card := $manifest.cards -}}
-  {{- if ne $card.layout "abstract" -}}
+  {{- $isListening := eq $card.section "listening" -}}
+  {{- if and $isListening (ne $card.layout "abstract") }}{{ $listeningCount = add $listeningCount 1 }}{{ end -}}
+  {{- $include := cond $listeningOnly $isListening (not $isListening) -}}
+  {{- if and $include (ne $card.layout "abstract") -}}
     {{- $image := resources.Get (printf "images/og/generated/%s" $card.output) -}}
     {{- if not $image }}{{ errorf "OG image index could not resolve %q" $card.output }}{{ end -}}
     {{- $title := strings.Trim (strings.TrimSuffix "/" $canonical) "/" | path.Base | humanize | title -}}
@@ -21,27 +27,29 @@
   {{- end -}}
 {{- end -}}
 
-{{- range site.RegularPages -}}
-  {{- $page := . -}}
-  {{- with $page.Params.og_image -}}
-    {{- $image := partial "common-partials/opengraph/get-featured-image.html" $page -}}
-    {{- $items = $items | append (dict
-      "canonical" $page.RelPermalink
-      "image" $image.RelPermalink
-      "layout" "manual"
-      "section" ($page.Section | default "other")
-      "title" $page.Title
-    ) -}}
+{{- if not $listeningOnly -}}
+  {{- range site.RegularPages -}}
+    {{- $page := . -}}
+    {{- with $page.Params.og_image -}}
+      {{- $image := partial "common-partials/opengraph/get-featured-image.html" $page -}}
+      {{- $items = $items | append (dict
+        "canonical" $page.RelPermalink
+        "image" $image.RelPermalink
+        "layout" "manual"
+        "section" ($page.Section | default "other")
+        "title" $page.Title
+      ) -}}
+    {{- end -}}
   {{- end -}}
-{{- end -}}
 
-{{- $items = $items | append (dict
-  "canonical" "/tanda-light/"
-  "image" "/tanda-light/tanda-og.png"
-  "layout" "manual"
-  "section" "tanda-light"
-  "title" "Tanda Light"
-) -}}
+  {{- $items = $items | append (dict
+    "canonical" "/tanda-light/"
+    "image" "/tanda-light/tanda-og.png"
+    "layout" "manual"
+    "section" "tanda-light"
+    "title" "Tanda Light"
+  ) -}}
+{{- end -}}
 {{- $items = sort $items "canonical" -}}
 
 {{- $sections := slice -}}
@@ -67,7 +75,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex,nofollow">
   {{- partial "head/csp.html" . }}
-  <title>OG Image Index · Ben Strawbridge</title>
+  <title>{{ cond $listeningOnly "Listening OG Image Index" "OG Image Index" }} · Ben Strawbridge</title>
   <style>
     :root {
       color-scheme: light;
@@ -153,8 +161,13 @@
   <header class="masthead">
     <div class="shell">
       <p class="wordmark"><span>Ben</span> <span>Strawbridge</span></p>
-      <h1>OG image review</h1>
-      <p class="lede">Every image-driven and custom social card, grouped by site section. The generic template is represented once for each of its seven color schemes.</p>
+      {{- if $listeningOnly }}
+        <h1>Listening OG images</h1>
+        <p class="lede">Artist and weekly listening social cards, collected separately from the main review index.</p>
+      {{- else }}
+        <h1>OG image review</h1>
+        <p class="lede">Every image-driven and custom social card outside listening, grouped by site section. The generic template is represented once for each of its seven color schemes.</p>
+      {{- end }}
     </div>
   </header>
 
@@ -162,10 +175,15 @@
     <div class="shell">
       <div class="tool-row">
         <label><input id="search" type="search" placeholder="Filter by page title, path, section, or layout…" autocomplete="off"></label>
-        <span class="count"><strong id="visible-count">{{ len $items }}</strong> / {{ len $items }} image cards</span>
+        <span class="count"><strong id="visible-count">{{ len $items }}</strong> / {{ len $items }} {{ cond $listeningOnly "listening cards" "image cards" }}</span>
       </div>
       <nav class="jump-links" aria-label="Jump to section">
-        <a href="#color-schemes">Color schemes</a>
+        {{- if $listeningOnly }}
+          <a href="/og-image-index/">← Other sections and palettes</a>
+        {{- else }}
+          <a href="#color-schemes">Color schemes</a>
+          <a href="/og-image-index/listening/">Listening · {{ $listeningCount }}</a>
+        {{- end }}
         {{- range $sections }}
           {{- $sectionItems := where $items "section" . }}
           <a href="#section-{{ . | anchorize }}">{{ . | humanize | title }} · {{ len $sectionItems }}</a>
@@ -175,23 +193,25 @@
   </div>
 
   <main class="shell">
-    <section class="scheme-section" id="color-schemes">
-      <div class="section-heading">
-        <h2>Generic color schemes</h2>
-        <span class="section-total">one abstract example each</span>
-      </div>
-      <div class="schemes">
-        {{- range $schemes -}}
-          {{- $card := index $manifest.cards .canonical -}}
-          {{- if not $card }}{{ errorf "OG image index scheme example %q is missing from the manifest" .canonical }}{{ end -}}
-          {{- $image := resources.Get (printf "images/og/generated/%s" $card.output) -}}
-          <article class="review-card">
-            <a class="image-link" href="{{ $image.RelPermalink }}"><img src="{{ $image.RelPermalink }}" width="1200" height="630" alt="{{ .name }} generic Open Graph card color scheme" decoding="async"></a>
-            <div class="caption"><div><strong>{{ .name }}</strong><small>{{ .canonical }}</small></div><span class="badge">abstract</span></div>
-          </article>
-        {{- end }}
-      </div>
-    </section>
+    {{- if not $listeningOnly }}
+      <section class="scheme-section" id="color-schemes">
+        <div class="section-heading">
+          <h2>Generic color schemes</h2>
+          <span class="section-total">one abstract example each</span>
+        </div>
+        <div class="schemes">
+          {{- range $schemes -}}
+            {{- $card := index $manifest.cards .canonical -}}
+            {{- if not $card }}{{ errorf "OG image index scheme example %q is missing from the manifest" .canonical }}{{ end -}}
+            {{- $image := resources.Get (printf "images/og/generated/%s" $card.output) -}}
+            <article class="review-card">
+              <a class="image-link" href="{{ $image.RelPermalink }}"><img src="{{ $image.RelPermalink }}" width="1200" height="630" alt="{{ .name }} generic Open Graph card color scheme" decoding="async"></a>
+              <div class="caption"><div><strong>{{ .name }}</strong><small>{{ .canonical }}</small></div><span class="badge">abstract</span></div>
+            </article>
+          {{- end }}
+        </div>
+      </section>
+    {{- end }}
 
     {{- range $sections }}
       {{- $section := . -}}
