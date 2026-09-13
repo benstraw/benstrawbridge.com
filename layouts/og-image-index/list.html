@@ -1,0 +1,222 @@
+{{- $manifestResource := resources.Get "images/og/generated/manifest.json" -}}
+{{- if not $manifestResource }}{{ errorf "OG image index could not find the generated-card manifest" }}{{ end -}}
+{{- $manifest := $manifestResource.Content | transform.Unmarshal -}}
+
+{{- /* Build one collection so generated, authored overrides, and the static
+      Tanda card can be grouped together by their real site section. */ -}}
+{{- $items := slice -}}
+{{- range $canonical, $card := $manifest.cards -}}
+  {{- if ne $card.layout "abstract" -}}
+    {{- $image := resources.Get (printf "images/og/generated/%s" $card.output) -}}
+    {{- if not $image }}{{ errorf "OG image index could not resolve %q" $card.output }}{{ end -}}
+    {{- $title := strings.Trim (strings.TrimSuffix "/" $canonical) "/" | path.Base | humanize | title -}}
+    {{- with site.GetPage $canonical }}{{ $title = .Title }}{{ end -}}
+    {{- $items = $items | append (dict
+      "canonical" $canonical
+      "image" $image.RelPermalink
+      "layout" $card.layout
+      "section" $card.section
+      "title" $title
+    ) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- range site.RegularPages -}}
+  {{- $page := . -}}
+  {{- with $page.Params.og_image -}}
+    {{- $image := partial "common-partials/opengraph/get-featured-image.html" $page -}}
+    {{- $items = $items | append (dict
+      "canonical" $page.RelPermalink
+      "image" $image.RelPermalink
+      "layout" "manual"
+      "section" ($page.Section | default "other")
+      "title" $page.Title
+    ) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $items = $items | append (dict
+  "canonical" "/tanda-light/"
+  "image" "/tanda-light/tanda-og.png"
+  "layout" "manual"
+  "section" "tanda-light"
+  "title" "Tanda Light"
+) -}}
+{{- $items = sort $items "canonical" -}}
+
+{{- $sections := slice -}}
+{{- range $items -}}
+  {{- if not (in $sections .section) }}{{ $sections = $sections | append .section }}{{ end -}}
+{{- end -}}
+{{- $sections = sort $sections -}}
+
+{{- $schemes := slice
+  (dict "name" "Posts" "canonical" "/posts/")
+  (dict "name" "Projects" "canonical" "/projects/")
+  (dict "name" "Trails" "canonical" "/trails/")
+  (dict "name" "Recipes" "canonical" "/projects/recipes/")
+  (dict "name" "Links" "canonical" "/links/")
+  (dict "name" "Listening & genres" "canonical" "/listening/")
+  (dict "name" "Fine print & miscellaneous" "canonical" "/fineprint/")
+-}}
+{{- $indexScript := resources.Get "js/og-image-index.js" | js.Build | minify | fingerprint "sha256" -}}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  {{- partial "head/csp.html" . }}
+  <title>OG Image Index · Ben Strawbridge</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #172033;
+      --muted: #667085;
+      --line: #dfe3e8;
+      --paper: #f6f3ec;
+      --card: #fff;
+      --blue: #075985;
+      --green: #3f6212;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      font: 16px/1.45 ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    a { color: inherit; }
+    .shell { width: min(1720px, calc(100% - 40px)); margin: 0 auto; }
+    .masthead {
+      padding: 42px 0 26px;
+      border-bottom: 1px solid var(--line);
+      background: rgba(246, 243, 236, .94);
+    }
+    .wordmark { margin: 0 0 18px; font-size: clamp(25px, 3vw, 42px); line-height: 1; }
+    .wordmark span:first-child { color: var(--blue); }
+    .wordmark span:last-child { color: var(--green); }
+    h1 { max-width: 900px; margin: 0; font-size: clamp(38px, 6vw, 78px); line-height: .96; letter-spacing: -.045em; }
+    .lede { max-width: 850px; margin: 20px 0 0; color: var(--muted); font-size: clamp(17px, 2vw, 21px); }
+    .tools {
+      position: sticky;
+      z-index: 10;
+      top: 0;
+      padding: 14px 0;
+      border-bottom: 1px solid var(--line);
+      background: rgba(246, 243, 236, .94);
+      backdrop-filter: blur(14px);
+    }
+    .tool-row { display: flex; gap: 12px; align-items: center; }
+    label { flex: 1; }
+    input {
+      width: 100%; min-height: 44px; padding: 10px 14px;
+      border: 1px solid #c8ced6; border-radius: 10px; background: white;
+      color: var(--ink); font: inherit;
+    }
+    .count { white-space: nowrap; color: var(--muted); font-variant-numeric: tabular-nums; }
+    .jump-links { display: flex; gap: 8px; margin-top: 10px; overflow-x: auto; scrollbar-width: thin; }
+    .jump-links a {
+      flex: none; padding: 5px 10px; border: 1px solid var(--line); border-radius: 999px;
+      background: white; color: #344054; text-decoration: none; font-size: 13px;
+    }
+    main { padding: 30px 0 80px; }
+    .scheme-section { margin-bottom: 68px; }
+    .section-heading { display: flex; gap: 12px; align-items: baseline; margin: 0 0 18px; }
+    h2 { margin: 0; font-size: clamp(28px, 4vw, 48px); letter-spacing: -.035em; }
+    .section-total { color: var(--muted); font-size: 14px; }
+    .schemes, .gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr)); gap: 18px; }
+    .review-card {
+      min-width: 0; overflow: hidden; border: 1px solid var(--line); border-radius: 14px;
+      background: var(--card); box-shadow: 0 4px 18px rgba(23, 32, 51, .06);
+      content-visibility: auto; contain-intrinsic-size: auto 260px;
+    }
+    .image-link { display: block; aspect-ratio: 1200 / 630; overflow: hidden; background: #e7e9ec; }
+    .image-link img { display: block; width: 100%; height: 100%; object-fit: cover; }
+    .caption { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 12px; align-items: start; padding: 11px 12px 12px; }
+    .caption strong { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 14px; }
+    .caption small { display: block; overflow: hidden; margin-top: 3px; color: var(--muted); text-overflow: ellipsis; white-space: nowrap; font-size: 11px; }
+    .badge { padding: 3px 7px; border-radius: 999px; background: #eef2f6; color: #475467; font-size: 10px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
+    .image-section { margin: 0 0 64px; scroll-margin-top: 116px; }
+    .empty { display: none; padding: 24px; border: 1px dashed #aab2bd; border-radius: 12px; color: var(--muted); text-align: center; }
+    body.is-filtering .empty.visible { display: block; }
+    @media (max-width: 640px) {
+      .shell { width: min(100% - 24px, 1720px); }
+      .masthead { padding-top: 28px; }
+      .tools { padding-top: 10px; }
+      .gallery, .schemes { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header class="masthead">
+    <div class="shell">
+      <p class="wordmark"><span>Ben</span> <span>Strawbridge</span></p>
+      <h1>OG image review</h1>
+      <p class="lede">Every image-driven and custom social card, grouped by site section. The generic template is represented once for each of its seven color schemes.</p>
+    </div>
+  </header>
+
+  <div class="tools">
+    <div class="shell">
+      <div class="tool-row">
+        <label><input id="search" type="search" placeholder="Filter by page title, path, section, or layout…" autocomplete="off"></label>
+        <span class="count"><strong id="visible-count">{{ len $items }}</strong> / {{ len $items }} image cards</span>
+      </div>
+      <nav class="jump-links" aria-label="Jump to section">
+        <a href="#color-schemes">Color schemes</a>
+        {{- range $sections }}
+          {{- $sectionItems := where $items "section" . }}
+          <a href="#section-{{ . | anchorize }}">{{ . | humanize | title }} · {{ len $sectionItems }}</a>
+        {{- end }}
+      </nav>
+    </div>
+  </div>
+
+  <main class="shell">
+    <section class="scheme-section" id="color-schemes">
+      <div class="section-heading">
+        <h2>Generic color schemes</h2>
+        <span class="section-total">one abstract example each</span>
+      </div>
+      <div class="schemes">
+        {{- range $schemes -}}
+          {{- $card := index $manifest.cards .canonical -}}
+          {{- if not $card }}{{ errorf "OG image index scheme example %q is missing from the manifest" .canonical }}{{ end -}}
+          {{- $image := resources.Get (printf "images/og/generated/%s" $card.output) -}}
+          <article class="review-card">
+            <a class="image-link" href="{{ $image.RelPermalink }}"><img src="{{ $image.RelPermalink }}" width="1200" height="630" alt="{{ .name }} generic Open Graph card color scheme" decoding="async"></a>
+            <div class="caption"><div><strong>{{ .name }}</strong><small>{{ .canonical }}</small></div><span class="badge">abstract</span></div>
+          </article>
+        {{- end }}
+      </div>
+    </section>
+
+    {{- range $sections }}
+      {{- $section := . -}}
+      {{- $sectionItems := where $items "section" $section -}}
+      <section class="image-section" id="section-{{ $section | anchorize }}" data-gallery-section>
+        <div class="section-heading">
+          <h2>{{ $section | humanize | title }}</h2>
+          <span class="section-total">{{ len $sectionItems }} cards</span>
+        </div>
+        <div class="gallery">
+          {{- range $sectionItems }}
+            <article class="review-card" data-review-card data-search="{{ printf "%s %s %s %s" .title .canonical .section .layout | lower }}">
+              <a class="image-link" href="{{ .image }}"><img src="{{ .image }}" width="1200" height="630" alt="{{ .title }} Open Graph card" loading="lazy" decoding="async"></a>
+              <div class="caption">
+                <div><strong><a href="{{ .canonical }}">{{ .title }}</a></strong><small>{{ .canonical }}</small></div>
+                <span class="badge">{{ .layout }}</span>
+              </div>
+            </article>
+          {{- end }}
+        </div>
+        <p class="empty">No cards in this section match the current filter.</p>
+      </section>
+    {{- end }}
+  </main>
+
+  <script defer src="{{ $indexScript.RelPermalink }}" integrity="{{ $indexScript.Data.Integrity }}"></script>
+</body>
+</html>
