@@ -10,6 +10,52 @@
     {{ $summary = printf "%d plays · %s" $plays $genreStr }}
   {{ end }}
 
+  {{/* Meta description. Explicitly set rather than left to the theme's
+       .Description -> .Summary -> site description chain, because $summary above
+       is the page *body* and reads "1 plays" on the 326 artists heard once — 86
+       pages shipped that as their entire description.
+
+       The body is kept as-is: nothing renders it (listening-artist/single.html
+       never outputs .Content, card-artist.html builds its own body, and
+       "listening" is in excludedSections), so it has no consumer left once
+       .Description wins the chain. Leaving it keeps this change revertible on
+       its own.
+
+       Deliberately NOT led by play count. Measured over six months of Search
+       Console, artists heard once convert best (0.65% CTR vs 0.36% for 10+
+       plays) — play count tracks listening, not search demand, so the artist
+       name and genres go first.
+
+       Genres and tracks are comma-joined, never with "and": three genres
+       ("rock and roll", "rhythm and blues", "stomp and holler") and 42 top-track
+       titles contain the word, so an "x and y" join is ambiguous. One track for
+       the same reason. */}}
+  {{ $trackName := "" }}
+  {{ with $artist.top_tracks }}
+    {{ $t := (index . 0).name }}
+    {{/* Strip Spotify's edition suffixes: "Michelle - Remastered 2009". */}}
+    {{ $t = replaceRE `\s+-\s+(Remaster|Remastered|Live|Mono|Stereo|Single|Radio|Album|[0-9]{4}).*$` "" $t }}
+    {{ $t = replaceRE `\s*[\(\[]feat\..*?[\)\]]` "" $t }}
+    {{ $trackName = trim $t " " }}
+  {{ end }}
+
+  {{/* Longest form that fits 160 chars: shed genres, then the track. */}}
+  {{ $description := "" }}
+  {{ range $attempt := (slice (dict "g" 3 "t" true) (dict "g" 2 "t" true) (dict "g" 1 "t" true) (dict "g" 3 "t" false) (dict "g" 2 "t" false) (dict "g" 1 "t" false) (dict "g" 0 "t" false)) }}
+    {{ if not $description }}
+      {{ $d := printf "%s on Ben Strawbridge's listening log" $artist.name }}
+      {{ $g := first (math.Min $attempt.g (len $artist.genres)) $artist.genres }}
+      {{ with $g }}{{ $d = printf "%s — %s" $d (delimit . ", ") }}{{ end }}
+      {{ $d = printf "%s." $d }}
+      {{ if and $attempt.t $trackName }}
+        {{/* No trailing period when the title already ends in one. */}}
+        {{ $tail := cond (in (slice "!" "?" ".") (substr $trackName -1)) "" "." }}
+        {{ $d = printf "%s Most played: %s%s" $d $trackName $tail }}
+      {{ end }}
+      {{ if le (len $d) 160 }}{{ $description = $d }}{{ end }}
+    {{ end }}
+  {{ end }}
+
   {{ $params := dict
     "hideAsideBar" true
     "musicalGenres" $artist.genres
@@ -22,7 +68,13 @@
     "spotifyImages" $artist.images
     "topTracks" $artist.top_tracks
   }}
+  {{/* Top level of the page dict, NOT inside $params: .Description is a reserved
+       page field, and the theme's head-seo.html reads .Description. A
+       "description" key in params lands on .Params.description only, which
+       .Description does not read — the meta tag silently keeps falling through
+       to .Summary. Verified both ways against built HTML. */}}
   {{ $page := dict
+    "description" $description
     "content" (dict "mediaType" "text/markdown" "value" $summary)
     "kind" "page"
     "title" $artist.name
