@@ -35,7 +35,10 @@ project notebook, link garden, and ongoing excuse to experiment with the web.
 
 Social cards are committed JPEGs generated from compact Hugo HTML templates.
 Run `npm run og:generate` to create only missing or stale cards, add `-- --force`
-to rebuild everything, or target one page with `-- --only /canonical/path/`.
+to rebuild everything, or target pages by repeating
+`-- --only /canonical/path/`. An explicit `og_source_image` wins; otherwise a
+section home page uses its effective header background image before the normal
+featured-image and content-image fallbacks.
 `npm run og:trails` is the compatibility command for Trail cards, and
 `npm run og:check` performs the screenshot-free freshness and integrity check
 used by Amplify before deployment.

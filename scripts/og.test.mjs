@@ -41,10 +41,11 @@ test('eligibility includes authored and generated music while honoring exclusion
 });
 
 test('source selection uses the documented priority', () => {
-  const values = { ogSourceImage: 'explicit.jpg', featuredImage: 'feature.jpg', images: ['first.jpg'], cardImage: 'card.jpg', namedResource: 'cover.jpg', contentImage: 'body.jpg' };
+  const values = { ogSourceImage: 'explicit.jpg', headerImage: 'header.jpg', isSectionRoot: true, featuredImage: 'feature.jpg', images: ['first.jpg'], cardImage: 'card.jpg', namedResource: 'cover.jpg', contentImage: 'body.jpg' };
   assert.equal(selectSourcePriority(values), 'explicit.jpg');
-  assert.equal(selectSourcePriority({ ...values, ogSourceImage: null }), 'feature.jpg');
-  assert.equal(selectSourcePriority({ ...values, ogSourceImage: null, featuredImage: null }), 'first.jpg');
+  assert.equal(selectSourcePriority({ ...values, ogSourceImage: null }), 'header.jpg');
+  assert.equal(selectSourcePriority({ ...values, ogSourceImage: null, isSectionRoot: false }), 'feature.jpg');
+  assert.equal(selectSourcePriority({ ...values, ogSourceImage: null, isSectionRoot: false, featuredImage: null }), 'first.jpg');
   assert.equal(selectSourcePriority({ cardImage: 'card.jpg', namedResource: 'cover.jpg' }), 'card.jpg');
 });
 
@@ -66,12 +67,14 @@ test('manifest classification finds missing, stale, and orphaned cards', () => {
 });
 
 test('CLI filters normalize paths and select exact page or section', () => {
-  const page = parseOgArgs(['--only', 'posts/a', '--force', '--jobs', '2']);
+  const page = parseOgArgs(['--only', 'posts/a', '--only', '/posts/b/', '--force', '--jobs', '2']);
   assert.equal(page.only, '/posts/a/');
+  assert.deepEqual(page.onlyPaths, ['/posts/a/', '/posts/b/']);
   assert.equal(page.force, true);
   assert.equal(page.jobs, 2);
   assert.equal(matchesFilters({ canonical: '/posts/a/', section: 'posts' }, page), true);
-  assert.equal(matchesFilters({ canonical: '/posts/b/', section: 'posts' }, page), false);
+  assert.equal(matchesFilters({ canonical: '/posts/b/', section: 'posts' }, page), true);
+  assert.equal(matchesFilters({ canonical: '/posts/c/', section: 'posts' }, page), false);
   const section = parseOgArgs(['--section', 'trails']);
   assert.equal(matchesFilters({ canonical: '/trails/a/', section: 'trails' }, section), true);
   assert.throws(() => parseOgArgs(['--wat']), /unknown argument/);

@@ -1,0 +1,38 @@
+{{- $page := . -}}
+{{- $image := "" -}}
+
+{{- /* A section's visible header is the most intentional image for its root
+      social card. Taxonomies, terms, regular pages, and home deliberately
+      retain the normal source priority. */ -}}
+{{- if eq $page.Kind "section" -}}
+  {{- with $page.Param "twClasses.headerBackgroundImage" -}}
+    {{- $image = . -}}
+  {{- end -}}
+
+  {{- $classes := $page.Param "twClasses.headerBackgroundFrameInner" | default "" -}}
+  {{- if and (not $image) $classes -}}
+    {{- with findRESubmatch `bg-\[url\(['"]?([^'")]+)['"]?\)\]` $classes -}}
+      {{- $image = index (index . 0) 1 -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- /* Tailwind's named background classes carry their URL in JS config,
+        outside Hugo's resource graph. Keep the small, site-owned set explicit
+        here so the generator can fingerprint the actual file contents. */ -}}
+  {{- if and (not $image) $classes -}}
+    {{- $namedImages := slice
+      (dict "class" "bg-header-sunset-sf-coke" "path" "/images/header-bg/sf-sunset-coke-sign.webp")
+      (dict "class" "bg-header-artist-date-one" "path" "/images/header-bg/artist-date-one-night.webp")
+      (dict "class" "bg-header-artist-date-two" "path" "/images/header-bg/artist-date-two-night.webp")
+      (dict "class" "bg-header-mdr-channel" "path" "/images/header-bg/mdr-channel-md.webp")
+      (dict "class" "bg-header-sunset-italy" "path" "/images/header-bg/sunset-italy.webp")
+      (dict "class" "bg-header-sunset-mb" "path" "/images/header-bg/sunset-mission-bay_hu6f04b8530673b6e2cc009e9b6d51ea4d_1824404_1024x768_resize_q100_h2_box.webp")
+      (dict "class" "bg-header-sunset" "path" "/images/header-bg/sunset-playa-1.jpg")
+    -}}
+    {{- range $namedImages -}}
+      {{- if and (not $image) (in $classes .class) }}{{ $image = .path }}{{ end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- return $image -}}

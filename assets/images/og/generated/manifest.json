@@ -27,20 +27,20 @@
     },
     "/consulting/": {
       "output": "consulting.jpg",
-      "fingerprint": "bf4fd80bd8d92da207074ef972f576de376e34ae3b98ee09a49193c459a51554",
-      "layout": "abstract",
+      "fingerprint": "00990c2e54eb2fb4b16ad932f44f746ca4fab431a2a92c9d80367d93e3ed068a",
+      "layout": "full",
       "section": "consulting"
     },
     "/everything-everywhere/": {
       "output": "everything-everywhere.jpg",
-      "fingerprint": "723475b46fa3e3b9bb140b7ad8f30d2ad34c69c4604d28cf064792178de49d05",
-      "layout": "abstract",
+      "fingerprint": "8cd9c3ce6624c9963d06a2338130f402c6919fb74d43065d1e19fa617423ec78",
+      "layout": "full",
       "section": "everything-everywhere"
     },
     "/fineprint/": {
       "output": "fineprint.jpg",
-      "fingerprint": "22f38a22c5112bc3fac8d12eaec02ed6fe81b461a940d262d49f818e118ec02b",
-      "layout": "abstract",
+      "fingerprint": "a1e56ba2efea9debe84e6792cc9f30bc760bb34f345e13c7f68e3868a6765fb9",
+      "layout": "full",
       "section": "fineprint"
     },
     "/fineprint/amazon-affiliate-disclosure/": {
@@ -945,14 +945,14 @@
     },
     "/listening/": {
       "output": "listening.jpg",
-      "fingerprint": "f2184b4da020aa69f3ae19b60a11cb459730020971c6d740947e3768ac78d370",
-      "layout": "abstract",
+      "fingerprint": "be96d0d1886436f97cab238d5cd9811358d48417d251360eef784befb52c5a85",
+      "layout": "full",
       "section": "listening"
     },
     "/listening/artists/": {
       "output": "listening/artists.jpg",
-      "fingerprint": "7e4f4330bfdbf264c68179a8a4dcd6becb6c1f650c9f357af349071fee1d715d",
-      "layout": "abstract",
+      "fingerprint": "daac7bf0d2b1ef32330ef0675184555ed535a93e3bcaa112d6d9c0e70797cb1d",
+      "layout": "full",
       "section": "listening"
     },
     "/listening/artists/10-ft-ganja-plant/": {
@@ -6483,8 +6483,8 @@
     },
     "/listening/weekly/": {
       "output": "listening/weekly.jpg",
-      "fingerprint": "fc636e5f5201055e732c8379681fe16f27156a2aea2672cfa1650b06e813ab43",
-      "layout": "abstract",
+      "fingerprint": "79a0dd77c1e2b371ea7e2bf24370d2bbb0fac385a062e9d3f7c16e2bc49d03dd",
+      "layout": "full",
       "section": "listening"
     },
     "/listening/weekly/2026-w07/": {
@@ -9765,8 +9765,8 @@
     },
     "/posts/": {
       "output": "posts.jpg",
-      "fingerprint": "7371a9360aba076cfad9d556f1e2bd32112a1bd3f7ce6d94703f22213abc4ed7",
-      "layout": "abstract",
+      "fingerprint": "bd5f19cb0c3e441a0415da1764044f2e000b1851761218ed7cd633863bd6af0b",
+      "layout": "full",
       "section": "posts"
     },
     "/posts/a-theme-meets-a-stranger/": {
@@ -9885,8 +9885,8 @@
     },
     "/projects/": {
       "output": "projects.jpg",
-      "fingerprint": "bb4f824500f13a178da9f943defcf58b067607585f82fe77cf65d3805a479418",
-      "layout": "abstract",
+      "fingerprint": "200d4809f44c5a73f855591a65e80e16d84b01de2180a9b4820eefa0d389628a",
+      "layout": "full",
       "section": "projects"
     },
     "/projects/arts-link/": {
@@ -9903,8 +9903,8 @@
     },
     "/projects/content-adaptors/": {
       "output": "projects/content-adaptors.jpg",
-      "fingerprint": "cebd56113a0880dee66c54430da044ffbffe25ba60dfb6b70e7994dcf03fb51a",
-      "layout": "abstract",
+      "fingerprint": "05ddfa34e752a372e1bb4dc41e5c2c1bae72bd2292597935415bd9830cd1421a",
+      "layout": "full",
       "section": "projects"
     },
     "/projects/content-adaptors/books/": {
@@ -9927,8 +9927,8 @@
     },
     "/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/": {
       "output": "projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide.jpg",
-      "fingerprint": "edd83c7a820934e0688842f3c93971948fc8569e26a5aa3d68b776e59a4bd403",
-      "layout": "abstract",
+      "fingerprint": "1aeb941174949d5bfb6dc52c4857f1beab4e27405b923fd89df78d2d15580d1d",
+      "layout": "full",
       "section": "projects"
     },
     "/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/ballona-creek-bike-path/": {
@@ -9993,14 +9993,14 @@
     },
     "/projects/product-marketing/": {
       "output": "projects/product-marketing.jpg",
-      "fingerprint": "9c2410062fba26dc43252c9424b45ae163d6f89c3ec722993a34c7f18420d062",
-      "layout": "abstract",
+      "fingerprint": "ac14d647983eceae7c27fcfb8fca1b8a9907f4e636bee0e851fe65df5fe1d34e",
+      "layout": "full",
       "section": "projects"
     },
     "/projects/product-marketing/catalog/": {
       "output": "projects/product-marketing/catalog.jpg",
-      "fingerprint": "ffb84e0a548c8dd64cb4d26db445b5f09bc626357a6048ba111e1b8291fb9e8b",
-      "layout": "abstract",
+      "fingerprint": "f97364dfa3373cec82369128311f80c17ffac277f868e74d8d9d997b2004578b",
+      "layout": "full",
       "section": "projects"
     },
     "/projects/product-marketing/catalog/all-purpose-epoxy-putty-stick/": {
@@ -10047,8 +10047,8 @@
     },
     "/projects/recipes/": {
       "output": "projects/recipes.jpg",
-      "fingerprint": "7c5739ff0cf573b4671021d06e216d356fc84190646df186c95e7f87777f1c38",
-      "layout": "abstract",
+      "fingerprint": "2b2d9d6edae48f0f626f58c0bc14e7f2529c1f38be7f326c2a85767117d207e8",
+      "layout": "full",
       "section": "recipes"
     },
     "/projects/recipes/granola/": {
@@ -10155,8 +10155,8 @@
     },
     "/trails/": {
       "output": "trails.jpg",
-      "fingerprint": "0dc9f3d7316dd70239c76853e5caa8e6bcbde4ec0a7615f86e089e3bdf693435",
-      "layout": "abstract",
+      "fingerprint": "64c7171e5933c738afe81aa7cd5104aad64c113a9d5d3c6f0185429c946ec453",
+      "layout": "full",
       "section": "trails"
     },
     "/trails/arizona-hotspring-canyon-trail/": {

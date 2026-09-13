@@ -46,8 +46,52 @@
       {{- end -}}
     {{- end -}}
   {{- end -}}
+
+  {{- /* An explicit generator source remains the final say. */ -}}
+  {{- $explicitCandidates := slice -}}
+  {{- with $page.Params.og_source_image }}{{ $explicitCandidates = $explicitCandidates | append . }}{{ end -}}
+  {{- range $explicitCandidates -}}
+    {{- if not $resource -}}
+      {{- $name := strings.TrimPrefix "/" . -}}
+      {{- if or (hasPrefix . "https://") (hasPrefix . "http://") -}}
+        {{- $remote = . -}}
+        {{- $identity = printf "remote:%s" . -}}
+      {{- else -}}
+        {{- $resource = $page.Resources.Get $name -}}
+        {{- if not $resource }}{{ $resource = resources.Get $name }}{{ end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- /* Section roots prefer the image visitors actually see in the page
+        header. Header assets commonly live under static/, so include
+        their bytes and dimensions directly in the render fingerprint. */ -}}
+  {{- if and (not $resource) (not $remote) -}}
+    {{- with partial "og-card/header-image.html" $page -}}
+      {{- if or (hasPrefix . "https://") (hasPrefix . "http://") -}}
+        {{- $remote = . -}}
+        {{- $width = 16 -}}
+        {{- $height = 9 -}}
+        {{- $identity = printf "header-remote:%s" . -}}
+      {{- else -}}
+        {{- $name := strings.TrimPrefix "/" . -}}
+        {{- $resource = $page.Resources.Get $name -}}
+        {{- if not $resource }}{{ $resource = resources.Get $name }}{{ end -}}
+        {{- if not $resource -}}
+          {{- $staticPath := printf "static/%s" $name -}}
+          {{- if not (os.FileExists $staticPath) }}{{ errorf "header image %q not found for %s" . $page.RelPermalink }}{{ end -}}
+          {{- with images.Config $staticPath -}}
+            {{- $width = .Width -}}
+            {{- $height = .Height -}}
+          {{- end -}}
+          {{- $remote = printf "/%s" $name -}}
+          {{- $identity = printf "header-static:%s:%s" $name (crypto.SHA256 (os.ReadFile $staticPath)) -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+
   {{- $candidates := slice -}}
-  {{- with $page.Params.og_source_image }}{{ $candidates = $candidates | append . }}{{ end -}}
   {{- with $page.Params.featured_image }}{{ $candidates = $candidates | append . }}{{ end -}}
   {{- with $page.Params.images }}{{ with index . 0 }}{{ $candidates = $candidates | append . }}{{ end }}{{ end -}}
   {{- with $page.Params.cardImage }}{{ $candidates = $candidates | append . }}{{ end -}}

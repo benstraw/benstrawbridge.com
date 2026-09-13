@@ -7,12 +7,16 @@ export const JPEG_QUALITY = 84;
 export const RENDERER_VERSION = 1;
 
 export function parseOgArgs(argv) {
-  const opts = { check: false, force: false, only: null, section: null, skipBuild: false, stubTiles: false, jobs: 4 };
+  const opts = { check: false, force: false, only: null, onlyPaths: [], section: null, skipBuild: false, stubTiles: false, jobs: 4 };
   for (let i = 0; i < argv.length; i++) {
     const arg = argv[i];
     if (arg === '--check') opts.check = true;
     else if (arg === '--force') opts.force = true;
-    else if (arg === '--only') opts.only = normalizeCanonical(argv[++i]);
+    else if (arg === '--only') {
+      const canonical = normalizeCanonical(argv[++i]);
+      opts.only ??= canonical;
+      opts.onlyPaths.push(canonical);
+    }
     else if (arg === '--section') opts.section = argv[++i];
     else if (arg === '--skip-build') opts.skipBuild = true;
     else if (arg === '--stub-tiles') opts.stubTiles = true;
@@ -24,7 +28,8 @@ export function parseOgArgs(argv) {
 }
 
 export function matchesFilters(card, opts) {
-  return (!opts.only || card.canonical === opts.only) && (!opts.section || card.section === opts.section);
+  const onlyPaths = opts.onlyPaths?.length ? opts.onlyPaths : (opts.only ? [opts.only] : []);
+  return (!onlyPaths.length || onlyPaths.includes(card.canonical)) && (!opts.section || card.section === opts.section);
 }
 
 export function isEligibleCard({ filePath = '', type = '', kind = '', section = '', canonical = '/', ogGenerate = true, ogImage = '' }) {
@@ -34,8 +39,8 @@ export function isEligibleCard({ filePath = '', type = '', kind = '', section = 
   return (authored || generatedMusic) && !canonical.includes('/test/') && ogGenerate !== false && (!ogImage || legacyTrail);
 }
 
-export function selectSourcePriority({ ogSourceImage, featuredImage, images = [], cardImage, namedResource, contentImage } = {}) {
-  return [ogSourceImage, featuredImage, images[0], cardImage, namedResource, contentImage].find(Boolean) || null;
+export function selectSourcePriority({ ogSourceImage, headerImage, isSectionRoot = false, featuredImage, images = [], cardImage, namedResource, contentImage } = {}) {
+  return [ogSourceImage, isSectionRoot ? headerImage : null, featuredImage, images[0], cardImage, namedResource, contentImage].find(Boolean) || null;
 }
 
 export function selectMetadataImage({ manual, generated, fallback } = {}) {

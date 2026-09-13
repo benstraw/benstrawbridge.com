@@ -88,7 +88,11 @@ async function discoverCards(opts) {
     cards.push(card);
   }
   cards.sort((a, b) => a.canonical.localeCompare(b.canonical));
-  if (opts.only && cards.length === 0) throw new Error(`no eligible card for ${opts.only}`);
+  if (opts.onlyPaths?.length) {
+    const found = new Set(cards.map((card) => card.canonical));
+    const missing = opts.onlyPaths.filter((canonical) => !found.has(canonical));
+    if (missing.length) throw new Error(`no eligible card for ${missing.join(', ')}`);
+  } else if (opts.only && cards.length === 0) throw new Error(`no eligible card for ${opts.only}`);
   if (opts.section && cards.length === 0) throw new Error(`no eligible cards in section ${opts.section}`);
   return cards;
 }
