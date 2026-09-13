@@ -4,26 +4,47 @@
 {{- $mode := .Params.og_index_mode | default "main" -}}
 {{- $listeningOnly := eq $mode "listening" -}}
 
-{{- /* Build one collection so generated, authored overrides, and the static
-      Tanda card can be grouped together by their real site section. */ -}}
-{{- $items := slice -}}
-{{- $listeningCount := 0 -}}
+{{- /* Group by the seven palette families used by the renderer. Sections that
+      share the default blue/green palette belong to the misc review group. */ -}}
+{{- $paletteGroups := slice "posts" "projects" "trails" "recipes" "links" "listening" -}}
+{{- $groupLabels := dict
+  "posts" "Posts"
+  "projects" "Projects"
+  "trails" "Trails"
+  "recipes" "Recipes"
+  "links" "Links"
+  "listening" "Listening & genres"
+  "misc" "Fine print & miscellaneous"
+-}}
+{{- $imageItems := slice -}}
+{{- $genericItems := slice -}}
+{{- $listeningImageCount := 0 -}}
+{{- $listeningGenericCount := 0 -}}
 {{- range $canonical, $card := $manifest.cards -}}
-  {{- $isListening := eq $card.section "listening" -}}
-  {{- if and $isListening (ne $card.layout "abstract") }}{{ $listeningCount = add $listeningCount 1 }}{{ end -}}
+  {{- $group := $card.section -}}
+  {{- if not (in $paletteGroups $group) }}{{ $group = "misc" }}{{ end -}}
+  {{- $isListening := eq $group "listening" -}}
+  {{- if and $isListening (ne $card.layout "abstract") }}{{ $listeningImageCount = add $listeningImageCount 1 }}{{ end -}}
+  {{- if and $isListening (eq $card.layout "abstract") }}{{ $listeningGenericCount = add $listeningGenericCount 1 }}{{ end -}}
   {{- $include := cond $listeningOnly $isListening (not $isListening) -}}
-  {{- if and $include (ne $card.layout "abstract") -}}
+  {{- if $include -}}
     {{- $image := resources.Get (printf "images/og/generated/%s" $card.output) -}}
     {{- if not $image }}{{ errorf "OG image index could not resolve %q" $card.output }}{{ end -}}
     {{- $title := strings.Trim (strings.TrimSuffix "/" $canonical) "/" | path.Base | humanize | title -}}
     {{- with site.GetPage $canonical }}{{ $title = .Title }}{{ end -}}
-    {{- $items = $items | append (dict
+    {{- $item := dict
       "canonical" $canonical
+      "group" $group
       "image" $image.RelPermalink
       "layout" $card.layout
       "section" $card.section
       "title" $title
-    ) -}}
+    -}}
+    {{- if eq $card.layout "abstract" -}}
+      {{- $genericItems = $genericItems | append $item -}}
+    {{- else -}}
+      {{- $imageItems = $imageItems | append $item -}}
+    {{- end -}}
   {{- end -}}
 {{- end -}}
 
@@ -32,8 +53,11 @@
     {{- $page := . -}}
     {{- with $page.Params.og_image -}}
       {{- $image := partial "common-partials/opengraph/get-featured-image.html" $page -}}
-      {{- $items = $items | append (dict
+      {{- $group := $page.Section -}}
+      {{- if not (in $paletteGroups $group) }}{{ $group = "misc" }}{{ end -}}
+      {{- $imageItems = $imageItems | append (dict
         "canonical" $page.RelPermalink
+        "group" $group
         "image" $image.RelPermalink
         "layout" "manual"
         "section" ($page.Section | default "other")
@@ -42,31 +66,26 @@
     {{- end -}}
   {{- end -}}
 
-  {{- $items = $items | append (dict
+  {{- $imageItems = $imageItems | append (dict
     "canonical" "/tanda-light/"
+    "group" "misc"
     "image" "/tanda-light/tanda-og.png"
     "layout" "manual"
     "section" "tanda-light"
     "title" "Tanda Light"
   ) -}}
 {{- end -}}
-{{- $items = sort $items "canonical" -}}
-
-{{- $sections := slice -}}
-{{- range $items -}}
-  {{- if not (in $sections .section) }}{{ $sections = $sections | append .section }}{{ end -}}
+{{- $imageItems = sort $imageItems "canonical" -}}
+{{- $genericItems = sort $genericItems "canonical" -}}
+{{- if not $listeningOnly -}}
+  {{- /* Keep the home page first in the complete generic-page listing even if
+        future path or sort behavior changes. */ -}}
+  {{- $homeItems := where $genericItems "canonical" "/" -}}
+  {{- $otherGenericItems := where $genericItems "canonical" "ne" "/" -}}
+  {{- $genericItems = $homeItems | append $otherGenericItems -}}
 {{- end -}}
-{{- $sections = sort $sections -}}
-
-{{- $schemes := slice
-  (dict "name" "Posts" "canonical" "/posts/")
-  (dict "name" "Projects" "canonical" "/projects/")
-  (dict "name" "Trails" "canonical" "/trails/")
-  (dict "name" "Recipes" "canonical" "/projects/recipes/")
-  (dict "name" "Links" "canonical" "/links/")
-  (dict "name" "Listening & genres" "canonical" "/listening/")
-  (dict "name" "Fine print & miscellaneous" "canonical" "/fineprint/")
--}}
+{{- $groups := cond $listeningOnly (slice "listening") (slice "posts" "projects" "trails" "recipes" "links" "misc") -}}
+{{- $entryCount := add (len $imageItems) (len $genericItems) -}}
 {{- $indexScript := resources.Get "js/og-image-index.js" | js.Build | minify | fingerprint "sha256" -}}
 <!doctype html>
 <html lang="en">
@@ -130,11 +149,12 @@
       background: white; color: #344054; text-decoration: none; font-size: 13px;
     }
     main { padding: 30px 0 80px; }
-    .scheme-section { margin-bottom: 68px; }
     .section-heading { display: flex; gap: 12px; align-items: baseline; margin: 0 0 18px; }
     h2 { margin: 0; font-size: clamp(28px, 4vw, 48px); letter-spacing: -.035em; }
+    h3 { margin: 0 0 14px; font-size: 19px; letter-spacing: -.015em; }
+    h4 { margin: 24px 0 10px; font-size: 15px; }
     .section-total { color: var(--muted); font-size: 14px; }
-    .schemes, .gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr)); gap: 18px; }
+    .gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr)); gap: 18px; }
     .review-card {
       min-width: 0; overflow: hidden; border: 1px solid var(--line); border-radius: 14px;
       background: var(--card); box-shadow: 0 4px 18px rgba(23, 32, 51, .06);
@@ -146,14 +166,24 @@
     .caption strong { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 14px; }
     .caption small { display: block; overflow: hidden; margin-top: 3px; color: var(--muted); text-overflow: ellipsis; white-space: nowrap; font-size: 11px; }
     .badge { padding: 3px 7px; border-radius: 999px; background: #eef2f6; color: #475467; font-size: 10px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
-    .image-section { margin: 0 0 64px; scroll-margin-top: 116px; }
+    .image-section { margin: 0 0 76px; scroll-margin-top: 116px; }
+    .generic-block { margin-top: 34px; padding-top: 28px; border-top: 1px solid var(--line); }
+    .generic-example { width: min(100%, 520px); }
+    .generic-list {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 330px), 1fr));
+      gap: 7px 28px; margin: 0; padding: 0; list-style: none;
+    }
+    .generic-list li { min-width: 0; padding: 7px 0; border-bottom: 1px solid rgba(223, 227, 232, .8); }
+    .generic-list a { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 14px; font-weight: 650; }
+    .generic-list small { display: block; overflow: hidden; margin-top: 2px; color: var(--muted); text-overflow: ellipsis; white-space: nowrap; font-size: 11px; }
+    [hidden] { display: none !important; }
     .empty { display: none; padding: 24px; border: 1px dashed #aab2bd; border-radius: 12px; color: var(--muted); text-align: center; }
     body.is-filtering .empty.visible { display: block; }
     @media (max-width: 640px) {
       .shell { width: min(100% - 24px, 1720px); }
       .masthead { padding-top: 28px; }
       .tools { padding-top: 10px; }
-      .gallery, .schemes { grid-template-columns: 1fr; }
+      .gallery, .generic-list { grid-template-columns: 1fr; }
     }
   </style>
 </head>
@@ -163,10 +193,10 @@
       <p class="wordmark"><span>Ben</span> <span>Strawbridge</span></p>
       {{- if $listeningOnly }}
         <h1>Listening OG images</h1>
-        <p class="lede">Artist and weekly listening social cards, collected separately from the main review index.</p>
+        <p class="lede">Image-driven artist cards first, followed by the listening palette and every page using its generic template.</p>
       {{- else }}
         <h1>OG image review</h1>
-        <p class="lede">Every image-driven and custom social card outside listening, grouped by site section. The generic template is represented once for each of its seven color schemes.</p>
+        <p class="lede">Each section starts with its image-driven and custom cards, then shows the generic color scheme and every page that uses it.</p>
       {{- end }}
     </div>
   </header>
@@ -174,64 +204,68 @@
   <div class="tools">
     <div class="shell">
       <div class="tool-row">
-        <label><input id="search" type="search" placeholder="Filter by page title, path, section, or layout…" autocomplete="off"></label>
-        <span class="count"><strong id="visible-count">{{ len $items }}</strong> / {{ len $items }} {{ cond $listeningOnly "listening cards" "image cards" }}</span>
+        <label><input id="search" type="search" placeholder="Filter pages by title, path, section, or layout…" autocomplete="off"></label>
+        <span class="count"><strong id="visible-count">{{ $entryCount }}</strong> / {{ $entryCount }} pages</span>
       </div>
       <nav class="jump-links" aria-label="Jump to section">
         {{- if $listeningOnly }}
           <a href="/og-image-index/">← Other sections and palettes</a>
         {{- else }}
-          <a href="#color-schemes">Color schemes</a>
-          <a href="/og-image-index/listening/">Listening · {{ $listeningCount }}</a>
+          <a href="/og-image-index/listening/">Listening & genres · {{ add $listeningImageCount $listeningGenericCount }}</a>
         {{- end }}
-        {{- range $sections }}
-          {{- $sectionItems := where $items "section" . }}
-          <a href="#section-{{ . | anchorize }}">{{ . | humanize | title }} · {{ len $sectionItems }}</a>
+        {{- range $groups }}
+          {{- $groupImageItems := where $imageItems "group" . }}
+          {{- $groupGenericItems := where $genericItems "group" . }}
+          <a href="#section-{{ . | anchorize }}">{{ index $groupLabels . }} · {{ add (len $groupImageItems) (len $groupGenericItems) }}</a>
         {{- end }}
       </nav>
     </div>
   </div>
 
   <main class="shell">
-    {{- if not $listeningOnly }}
-      <section class="scheme-section" id="color-schemes">
+    {{- range $groups }}
+      {{- $group := . -}}
+      {{- $groupImageItems := where $imageItems "group" $group -}}
+      {{- $groupGenericItems := where $genericItems "group" $group -}}
+      <section class="image-section" id="section-{{ $group | anchorize }}" data-gallery-section>
         <div class="section-heading">
-          <h2>Generic color schemes</h2>
-          <span class="section-total">one abstract example each</span>
+          <h2>{{ index $groupLabels $group }}</h2>
+          <span class="section-total">{{ len $groupImageItems }} image cards · {{ len $groupGenericItems }} generic pages</span>
         </div>
-        <div class="schemes">
-          {{- range $schemes -}}
-            {{- $card := index $manifest.cards .canonical -}}
-            {{- if not $card }}{{ errorf "OG image index scheme example %q is missing from the manifest" .canonical }}{{ end -}}
-            {{- $image := resources.Get (printf "images/og/generated/%s" $card.output) -}}
-            <article class="review-card">
-              <a class="image-link" href="{{ $image.RelPermalink }}"><img src="{{ $image.RelPermalink }}" width="1200" height="630" alt="{{ .name }} generic Open Graph card color scheme" decoding="async"></a>
-              <div class="caption"><div><strong>{{ .name }}</strong><small>{{ .canonical }}</small></div><span class="badge">abstract</span></div>
+        {{- with $groupImageItems }}
+          <div data-review-subsection>
+            <h3>Image-driven and custom cards</h3>
+            <div class="gallery">
+              {{- range . }}
+                <article class="review-card" data-review-entry data-search="{{ printf "%s %s %s %s %s" .title .canonical .section .group .layout | lower }}">
+                  <a class="image-link" href="{{ .image }}"><img src="{{ .image }}" width="1200" height="630" alt="{{ .title }} Open Graph card" loading="lazy" decoding="async"></a>
+                  <div class="caption">
+                    <div><strong><a href="{{ .canonical }}">{{ .title }}</a></strong><small>{{ .canonical }}</small></div>
+                    <span class="badge">{{ .layout }}</span>
+                  </div>
+                </article>
+              {{- end }}
+            </div>
+          </div>
+        {{- end }}
+        {{- with $groupGenericItems }}
+          {{- $example := index . 0 -}}
+          <div class="generic-block" data-review-subsection>
+            <h3>Generic template</h3>
+            <article class="review-card generic-example">
+              <a class="image-link" href="{{ $example.image }}"><img src="{{ $example.image }}" width="1200" height="630" alt="{{ index $groupLabels $group }} generic Open Graph card color scheme" loading="lazy" decoding="async"></a>
+              <div class="caption"><div><strong>{{ $example.title }}</strong><small>{{ $example.canonical }}</small></div><span class="badge">abstract</span></div>
             </article>
-          {{- end }}
-        </div>
-      </section>
-    {{- end }}
-
-    {{- range $sections }}
-      {{- $section := . -}}
-      {{- $sectionItems := where $items "section" $section -}}
-      <section class="image-section" id="section-{{ $section | anchorize }}" data-gallery-section>
-        <div class="section-heading">
-          <h2>{{ $section | humanize | title }}</h2>
-          <span class="section-total">{{ len $sectionItems }} cards</span>
-        </div>
-        <div class="gallery">
-          {{- range $sectionItems }}
-            <article class="review-card" data-review-card data-search="{{ printf "%s %s %s %s" .title .canonical .section .layout | lower }}">
-              <a class="image-link" href="{{ .image }}"><img src="{{ .image }}" width="1200" height="630" alt="{{ .title }} Open Graph card" loading="lazy" decoding="async"></a>
-              <div class="caption">
-                <div><strong><a href="{{ .canonical }}">{{ .title }}</a></strong><small>{{ .canonical }}</small></div>
-                <span class="badge">{{ .layout }}</span>
-              </div>
-            </article>
-          {{- end }}
-        </div>
+            <h4>Every page using this template · {{ len . }}</h4>
+            <ul class="generic-list">
+              {{- range . }}
+                <li data-review-entry data-search="{{ printf "%s %s %s %s abstract" .title .canonical .section .group | lower }}">
+                  <a href="{{ .canonical }}">{{ .title }}</a><small>{{ .canonical }}</small>
+                </li>
+              {{- end }}
+            </ul>
+          </div>
+        {{- end }}
         <p class="empty">No cards in this section match the current filter.</p>
       </section>
     {{- end }}
