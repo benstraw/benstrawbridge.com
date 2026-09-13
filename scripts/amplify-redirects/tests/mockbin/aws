@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Mock `aws` for the redirect checker tests. Only supports the one read-only
+# call check.sh makes: amplify get-app --query 'app.customRules'.
+set -euo pipefail
+if [[ "${1:-}" == "amplify" && "${2:-}" == "get-app" ]]; then
+  cat "${MOCK_STATE}/custom_rules.json" 2>/dev/null || echo '[]'
+  exit 0
+fi
+echo "mock aws: unsupported call: $*" >&2
+exit 1

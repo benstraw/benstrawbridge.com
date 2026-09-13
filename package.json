@@ -4,6 +4,7 @@
   "scripts": {
     "test:fa-icons": "node scripts/check-fa-icons.mjs",
     "test:amplify-preview": "bash scripts/amplify-preview/tests/run-tests.sh",
+    "test:amplify-redirects": "bash scripts/amplify-redirects/tests/run-tests.sh",
     "og:trails": "node scripts/generate-trail-og.mjs",
     "card:shot": "node scripts/screenshot-card.mjs"
   },

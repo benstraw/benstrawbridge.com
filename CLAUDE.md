@@ -593,6 +593,49 @@ knowing before touching `.github/workflows/amplify-preview*.yml`:
 `npm run test:amplify-preview` exercises the deploy, cleanup and authorisation
 scripts against mock `aws`/`gh` binaries — no AWS account, no throwaway PR.
 
+## Redirects
+
+**Hugo `aliases` are not redirects.** They emit a meta-refresh page, and this
+site has proof they do not consolidate ranking signals: the content at
+`/projects/hiking/…/bluff-creek-trail/` was deleted in `ae0f1ee` so its alias
+would fire, and five months later Google still indexed the stub and ranked it at
+position **6.26 — above the real page at 6.74**, taking 15 clicks and 814
+impressions with it. Use a real 301 for anything that has ever ranked.
+
+**Amplify has no repo-level redirect file.** `customHttp.yml` sets headers only;
+redirects live in the app's `customRules`. So `amplify-redirects.json` at the
+repo root is the source of truth, and applying it is a deliberate manual step:
+
+```bash
+AMPLIFY_APP_ID=… AWS_REGION=… ./scripts/amplify-redirects/check.sh
+```
+
+It is **read-only** — it needs only the `amplify:GetApp` the preview role
+already holds. It validates the file, diffs it against the live rules, writes
+the apply-ready array with the `$comment`/`$why` annotations stripped, and
+prints the `aws amplify update-app` command to run.
+
+Three things to know before touching it:
+
+- **Applying REPLACES the entire rule set.** Any rule that exists live but is
+  not in the file is deleted. The checker lists exactly which rules that would
+  be, under a `DELETE` heading — read it.
+- **This is not automated on purpose.** `amplify:UpdateApp` also confers control
+  of the build spec and environment variables, and the preview role is scoped
+  read-only at app level precisely so a PR-triggered workflow cannot reach
+  production config. A handful of rules that change a few times a year does not
+  justify that escalation. Do not add `UpdateApp` to the preview role.
+- **Amplify wildcards are `<*>`, not Netlify's `:splat`.** A `<*>` in the source
+  with no `<*>` in the target collapses every match onto one URL. The checker
+  rejects both mistakes, along with a missing leading `/` and any status outside
+  200 / 301 / 302 / 404 / 404-200.
+
+`netlify.toml` used to hold the only redirects in the repo and was never read —
+the site deploys via Amplify. Its two Spotify rules are now in
+`amplify-redirects.json` and the file is gone.
+
+`npm run test:amplify-redirects` covers the validators and the live-vs-declared
+diff against a mock `aws`.
 
 ## Notes
 
