@@ -1,0 +1,1258 @@
+{
+  "week": "2026-W37",
+  "title": "Week of Sep 7, 2026",
+  "year": 2026,
+  "week_num": 37,
+  "date_start": "2026-09-07",
+  "date_end": "2026-09-13",
+  "total_plays": 110,
+  "unique_artists": 26,
+  "topArtistName": "Sublime",
+  "topArtistImages": [
+    {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab6761610000e5ebe726280500259dbdb97a8be4",
+      "width": 640
+    },
+    {
+      "height": 320,
+      "url": "https://i.scdn.co/image/ab67616100005174e726280500259dbdb97a8be4",
+      "width": 320
+    },
+    {
+      "height": 160,
+      "url": "https://i.scdn.co/image/ab6761610000f178e726280500259dbdb97a8be4",
+      "width": 160
+    }
+  ],
+  "top_genres": [
+    {
+      "name": "reggae rock",
+      "plays": 45
+    },
+    {
+      "name": "ska punk",
+      "plays": 45
+    },
+    {
+      "name": "ska",
+      "plays": 45
+    },
+    {
+      "name": "power pop",
+      "plays": 15
+    },
+    {
+      "name": "alt country",
+      "plays": 15
+    },
+    {
+      "name": "country",
+      "plays": 12
+    },
+    {
+      "name": "red dirt",
+      "plays": 11
+    },
+    {
+      "name": "americana",
+      "plays": 9
+    },
+    {
+      "name": "outlaw country",
+      "plays": 7
+    },
+    {
+      "name": "bluegrass",
+      "plays": 6
+    }
+  ],
+  "top_artists": [
+    {
+      "slug": "sublime",
+      "name": "Sublime",
+      "plays": 45,
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebe726280500259dbdb97a8be4",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174e726280500259dbdb97a8be4",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178e726280500259dbdb97a8be4",
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "stephen-wilson-jr",
+      "name": "Stephen Wilson Jr.",
+      "plays": 21,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb2e25871e208b1befa79b4c44",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051742e25871e208b1befa79b4c44",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1782e25871e208b1befa79b4c44",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "elvis-costello",
+      "name": "Elvis Costello",
+      "plays": 15,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebbd95594d3201ab9c7b0349e6",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174bd95594d3201ab9c7b0349e6",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178bd95594d3201ab9c7b0349e6",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "sturgill-simpson",
+      "name": "Sturgill Simpson",
+      "plays": 3,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb1791f31121a24318e91cbda3",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051741791f31121a24318e91cbda3",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1781791f31121a24318e91cbda3",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "drayton-farley",
+      "name": "Drayton Farley",
+      "plays": 3,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb4db2ec048eafac84c65ff116",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051744db2ec048eafac84c65ff116",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1784db2ec048eafac84c65ff116",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "johnny-blue-skies",
+      "name": "Johnny Blue Skies",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebf69a05334162fa60d57f6349",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174f69a05334162fa60d57f6349",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178f69a05334162fa60d57f6349",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "luke-grimes",
+      "name": "Luke Grimes",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb2bde1b8ff7bf95e45cfcc988",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051742bde1b8ff7bf95e45cfcc988",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1782bde1b8ff7bf95e45cfcc988",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "warren-zevon",
+      "name": "Warren Zevon",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebcb844c45233a84f9f81c9ec4",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174cb844c45233a84f9f81c9ec4",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178cb844c45233a84f9f81c9ec4",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "witchdoctor",
+      "name": "Witchdoctor",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000b2736faef92b639f23f0d6897c87",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00001e026faef92b639f23f0d6897c87",
+          "height": 300,
+          "width": 300
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d000048516faef92b639f23f0d6897c87",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "49-winchester",
+      "name": "49 Winchester",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebbda8d3adad1c4034aea0e01d",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174bda8d3adad1c4034aea0e01d",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178bda8d3adad1c4034aea0e01d",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "the-steeldrivers",
+      "name": "The Steeldrivers",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebdc908a34abcbb9b335b94c14",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174dc908a34abcbb9b335b94c14",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178dc908a34abcbb9b335b94c14",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "mumford-sons",
+      "name": "Mumford & Sons",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb00fe341805b27976b4302be0",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517400fe341805b27976b4302be0",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17800fe341805b27976b4302be0",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "paul-cauthen",
+      "name": "Paul Cauthen",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb55a0c2894538b55e74ca6899",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517455a0c2894538b55e74ca6899",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17855a0c2894538b55e74ca6899",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "pony-bradshaw",
+      "name": "Pony Bradshaw",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eba486ba0bea16de7004222172",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174a486ba0bea16de7004222172",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178a486ba0bea16de7004222172",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "charlie-worsham",
+      "name": "Charlie Worsham",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb623eebb3503bb9c3441d5720",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174623eebb3503bb9c3441d5720",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178623eebb3503bb9c3441d5720",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "clay-street-unit",
+      "name": "Clay Street Unit",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb211198c0da499141cc08f454",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174211198c0da499141cc08f454",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178211198c0da499141cc08f454",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "jackson-dean",
+      "name": "Jackson Dean",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb4ef9b5ad92ac8f2abc49550a",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051744ef9b5ad92ac8f2abc49550a",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1784ef9b5ad92ac8f2abc49550a",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "turnpike-troubadours",
+      "name": "Turnpike Troubadours",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebefef937e4fbe2faf0e47350d",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174efef937e4fbe2faf0e47350d",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178efef937e4fbe2faf0e47350d",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "telander",
+      "name": "Telander",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb97b2eb8728931f1b7521c608",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517497b2eb8728931f1b7521c608",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17897b2eb8728931f1b7521c608",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "the-red-clay-strays",
+      "name": "The Red Clay Strays",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb96d3777ed36716905b24f1ae",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517496d3777ed36716905b24f1ae",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17896d3777ed36716905b24f1ae",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "charley-crockett",
+      "name": "Charley Crockett",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb1ee3021c55376818b43f80f7",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051741ee3021c55376818b43f80f7",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1781ee3021c55376818b43f80f7",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "watchhouse",
+      "name": "Watchhouse",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebbf832300f2032e64d42fe763",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174bf832300f2032e64d42fe763",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178bf832300f2032e64d42fe763",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "dierks-bentley",
+      "name": "Dierks Bentley",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebc3552e14b485998e7bbba38b",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174c3552e14b485998e7bbba38b",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178c3552e14b485998e7bbba38b",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "lori-mckenna",
+      "name": "Lori McKenna",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb84e4f84f23c7e087cf67422a",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517484e4f84f23c7e087cf67422a",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17884e4f84f23c7e087cf67422a",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "hardy",
+      "name": "HARDY",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebaed339624606affc06966a92",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174aed339624606affc06966a92",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178aed339624606affc06966a92",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "shaboozey",
+      "name": "Shaboozey",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebeb786bf6ceec60d49c2f39f0",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174eb786bf6ceec60d49c2f39f0",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178eb786bf6ceec60d49c2f39f0",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    }
+  ],
+  "top_tracks": [
+    {
+      "name": "Miami - Rarities Version",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 3
+    },
+    {
+      "name": "(The Angels Wanna Wear My) Red Shoes",
+      "artist": "Elvis Costello",
+      "artist_slug": "elvis-costello",
+      "plays": 2
+    },
+    {
+      "name": "Smoke Two Joints - Rarities Version",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 2
+    },
+    {
+      "name": "Turtles All the Way Down",
+      "artist": "Sturgill Simpson",
+      "artist_slug": "sturgill-simpson",
+      "plays": 2
+    },
+    {
+      "name": "Clay Pigeons",
+      "artist": "Luke Grimes",
+      "artist_slug": "luke-grimes",
+      "plays": 2
+    },
+    {
+      "name": "Tonight, Tonight",
+      "artist": "Stephen Wilson Jr.",
+      "artist_slug": "stephen-wilson-jr",
+      "plays": 2
+    },
+    {
+      "name": "Hardwired (feat. Miranda Lambert)",
+      "artist": "Stephen Wilson Jr.",
+      "artist_slug": "stephen-wilson-jr",
+      "plays": 2
+    },
+    {
+      "name": "Excitable Boy",
+      "artist": "Warren Zevon",
+      "artist_slug": "warren-zevon",
+      "plays": 1
+    },
+    {
+      "name": "Veronica",
+      "artist": "Elvis Costello",
+      "artist_slug": "elvis-costello",
+      "plays": 1
+    },
+    {
+      "name": "Watching The Detectives - Single Version",
+      "artist": "Elvis Costello",
+      "artist_slug": "elvis-costello",
+      "plays": 1
+    },
+    {
+      "name": "Waiting For The End Of The World",
+      "artist": "Elvis Costello",
+      "artist_slug": "elvis-costello",
+      "plays": 1
+    },
+    {
+      "name": "I'm Not Angry",
+      "artist": "Elvis Costello",
+      "artist_slug": "elvis-costello",
+      "plays": 1
+    },
+    {
+      "name": "Pay It Back",
+      "artist": "Elvis Costello",
+      "artist_slug": "elvis-costello",
+      "plays": 1
+    },
+    {
+      "name": "Mystery Dance",
+      "artist": "Elvis Costello",
+      "artist_slug": "elvis-costello",
+      "plays": 1
+    },
+    {
+      "name": "Less Than Zero",
+      "artist": "Elvis Costello",
+      "artist_slug": "elvis-costello",
+      "plays": 1
+    },
+    {
+      "name": "Sneaky Feelings",
+      "artist": "Elvis Costello",
+      "artist_slug": "elvis-costello",
+      "plays": 1
+    },
+    {
+      "name": "Alison",
+      "artist": "Elvis Costello",
+      "artist_slug": "elvis-costello",
+      "plays": 1
+    },
+    {
+      "name": "Blame It On Cain",
+      "artist": "Elvis Costello",
+      "artist_slug": "elvis-costello",
+      "plays": 1
+    },
+    {
+      "name": "No Dancing",
+      "artist": "Elvis Costello",
+      "artist_slug": "elvis-costello",
+      "plays": 1
+    },
+    {
+      "name": "Miracle Man",
+      "artist": "Elvis Costello",
+      "artist_slug": "elvis-costello",
+      "plays": 1
+    },
+    {
+      "name": "Welcome To The Working Week",
+      "artist": "Elvis Costello",
+      "artist_slug": "elvis-costello",
+      "plays": 1
+    },
+    {
+      "name": "7th Floor/The Serengetti",
+      "artist": "Witchdoctor",
+      "artist_slug": "witchdoctor",
+      "plays": 1
+    },
+    {
+      "name": "Paddle Out - Rarities Version Ruff Mix",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Marley Medley - Rarities Version",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Prophet - Rarities Version",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Forman Freestyle - Rarities Version",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "All You Need - Rarities Version",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "5446 - Rarities Version",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Legalize It - Rarities Version",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "WBCN Interview / Minor Threat - 1995/Live On WBCN, Boston",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Saw Red - 1995/Live On WBCN, Boston",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "WBCN Interview - 1995/Live On WBCN, Boston",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Great Stone - Rarities Version",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "We're Only Gonna Die - Live At Kommotion, San Francisco, 1994",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "House Of Suffering - Rarities Version",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Badfish - Rarities Version",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "STP - Rarities Version",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Pawn Dub - Rarities Version",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Jailhouse - 1994/Live At The Barn, Riverside",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "New Thrash - 1994/Live At The Barn, Riverside",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Right Back - 1994/Live At The Barn, Riverside",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Scarlet Begonias - 1994/Live On KUCI, Irvine",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Youth Are Getting Restless - Live On KUCI, Irvine, 1994",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Voodoo (Part 2) - Rarities Version",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Greatest Hits - Extended Rarities Version",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Lou Makes Friends - Rarities Version",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "One Cup Of Coffee / Judge Not - Rarities Version",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Farther I Go - Rarities Version",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Mic Control - Rarities Version",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Angelo - Rarities Version",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Get Out! - Acoustic Version",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Shame In Dem Game - Rarities Version",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "D.J.'s - Live",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "KXLU Interview - Live On The Air/1991",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "91 Freestyle - Rarities Version",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "I'm Not A Loser - Rarities Version",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Johnny Too Bad Freestyle - Rarities Version",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Perfect World - Rarities Version",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Date Rape Stylee - Rarities Version",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Ball And Chain - Demo",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Ebennz Change - Demo",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Roots Of Creation - Demo",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Russell County Line",
+      "artist": "49 Winchester",
+      "artist_slug": "49-winchester",
+      "plays": 1
+    },
+    {
+      "name": "Clark Gable",
+      "artist": "Stephen Wilson Jr.",
+      "artist_slug": "stephen-wilson-jr",
+      "plays": 1
+    },
+    {
+      "name": "Who I Am",
+      "artist": "Johnny Blue Skies",
+      "artist_slug": "johnny-blue-skies",
+      "plays": 1
+    },
+    {
+      "name": "Evergreen Eyes (OurVinyl Live EP)",
+      "artist": "Drayton Farley",
+      "artist_slug": "drayton-farley",
+      "plays": 1
+    },
+    {
+      "name": "Where Rainbows Never Die",
+      "artist": "The Steeldrivers",
+      "artist_slug": "the-steeldrivers",
+      "plays": 1
+    },
+    {
+      "name": "American Gothic",
+      "artist": "Stephen Wilson Jr.",
+      "artist_slug": "stephen-wilson-jr",
+      "plays": 1
+    },
+    {
+      "name": "Here (with Chris Stapleton)",
+      "artist": "Mumford & Sons",
+      "artist_slug": "mumford-sons",
+      "plays": 1
+    },
+    {
+      "name": "Country as Fuck",
+      "artist": "Paul Cauthen",
+      "artist_slug": "paul-cauthen",
+      "plays": 1
+    },
+    {
+      "name": "Sawtoothed Jericho",
+      "artist": "Pony Bradshaw",
+      "artist_slug": "pony-bradshaw",
+      "plays": 1
+    },
+    {
+      "name": "Long White Line",
+      "artist": "Sturgill Simpson",
+      "artist_slug": "sturgill-simpson",
+      "plays": 1
+    },
+    {
+      "name": "Year to Be Young 1994 (Unplugged)",
+      "artist": "Stephen Wilson Jr.",
+      "artist_slug": "stephen-wilson-jr",
+      "plays": 1
+    },
+    {
+      "name": "Years Go By",
+      "artist": "Charlie Worsham",
+      "artist_slug": "charlie-worsham",
+      "plays": 1
+    },
+    {
+      "name": "Let's Get Stoned",
+      "artist": "Clay Street Unit",
+      "artist_slug": "clay-street-unit",
+      "plays": 1
+    },
+    {
+      "name": "Dreamer (OurVinyl Live EP)",
+      "artist": "Drayton Farley",
+      "artist_slug": "drayton-farley",
+      "plays": 1
+    },
+    {
+      "name": "Mint Tea",
+      "artist": "Johnny Blue Skies",
+      "artist_slug": "johnny-blue-skies",
+      "plays": 1
+    },
+    {
+      "name": "Calico Creek - Acoustic",
+      "artist": "Stephen Wilson Jr.",
+      "artist_slug": "stephen-wilson-jr",
+      "plays": 1
+    },
+    {
+      "name": "Heavens To Betsy",
+      "artist": "Jackson Dean",
+      "artist_slug": "jackson-dean",
+      "plays": 1
+    },
+    {
+      "name": "Heaven Passing Through",
+      "artist": "Turnpike Troubadours",
+      "artist_slug": "turnpike-troubadours",
+      "plays": 1
+    },
+    {
+      "name": "Stay",
+      "artist": "Telander",
+      "artist_slug": "telander",
+      "plays": 1
+    },
+    {
+      "name": "Demons In Your Choir",
+      "artist": "The Red Clay Strays",
+      "artist_slug": "the-red-clay-strays",
+      "plays": 1
+    },
+    {
+      "name": "Gary (Live At CMA Fest 2026)",
+      "artist": "Stephen Wilson Jr.",
+      "artist_slug": "stephen-wilson-jr",
+      "plays": 1
+    },
+    {
+      "name": "Crucified Son",
+      "artist": "Charley Crockett",
+      "artist_slug": "charley-crockett",
+      "plays": 1
+    },
+    {
+      "name": "Wildfire",
+      "artist": "Watchhouse",
+      "artist_slug": "watchhouse",
+      "plays": 1
+    },
+    {
+      "name": "Cold Beer Can (feat. Stephen Wilson Jr.)",
+      "artist": "Dierks Bentley",
+      "artist_slug": "dierks-bentley",
+      "plays": 1
+    },
+    {
+      "name": "Pitchin' Fits (OurVinyl Live EP)",
+      "artist": "Drayton Farley",
+      "artist_slug": "drayton-farley",
+      "plays": 1
+    },
+    {
+      "name": "billy",
+      "artist": "Stephen Wilson Jr.",
+      "artist_slug": "stephen-wilson-jr",
+      "plays": 1
+    },
+    {
+      "name": "Preacher’s Kid",
+      "artist": "Stephen Wilson Jr.",
+      "artist_slug": "stephen-wilson-jr",
+      "plays": 1
+    },
+    {
+      "name": "Dig A Hole",
+      "artist": "Stephen Wilson Jr.",
+      "artist_slug": "stephen-wilson-jr",
+      "plays": 1
+    },
+    {
+      "name": "The Tunnel",
+      "artist": "Lori McKenna",
+      "artist_slug": "lori-mckenna",
+      "plays": 1
+    },
+    {
+      "name": "Hunger Strike",
+      "artist": "Stephen Wilson Jr.",
+      "artist_slug": "stephen-wilson-jr",
+      "plays": 1
+    },
+    {
+      "name": "Something In The Way",
+      "artist": "Stephen Wilson Jr.",
+      "artist_slug": "stephen-wilson-jr",
+      "plays": 1
+    },
+    {
+      "name": "Bedrooms In The Sky (feat. Stephen Wilson Jr.)",
+      "artist": "HARDY",
+      "artist_slug": "hardy",
+      "plays": 1
+    },
+    {
+      "name": "the devil",
+      "artist": "Stephen Wilson Jr.",
+      "artist_slug": "stephen-wilson-jr",
+      "plays": 1
+    },
+    {
+      "name": "Cuckoo",
+      "artist": "Stephen Wilson Jr.",
+      "artist_slug": "stephen-wilson-jr",
+      "plays": 1
+    },
+    {
+      "name": "patches",
+      "artist": "Stephen Wilson Jr.",
+      "artist_slug": "stephen-wilson-jr",
+      "plays": 1
+    },
+    {
+      "name": "Took A Walk - from \"The Long Walk\"",
+      "artist": "Shaboozey",
+      "artist_slug": "shaboozey",
+      "plays": 1
+    },
+    {
+      "name": "Father's Søn",
+      "artist": "Stephen Wilson Jr.",
+      "artist_slug": "stephen-wilson-jr",
+      "plays": 1
+    },
+    {
+      "name": "Year to Be Young 1994",
+      "artist": "Stephen Wilson Jr.",
+      "artist_slug": "stephen-wilson-jr",
+      "plays": 1
+    },
+    {
+      "name": "I'm A Song - Live at The Print Shop",
+      "artist": "Stephen Wilson Jr.",
+      "artist_slug": "stephen-wilson-jr",
+      "plays": 1
+    },
+    {
+      "name": "Gary",
+      "artist": "Stephen Wilson Jr.",
+      "artist_slug": "stephen-wilson-jr",
+      "plays": 1
+    }
+  ]
+}
