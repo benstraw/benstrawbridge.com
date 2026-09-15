@@ -37,7 +37,8 @@ Social cards are committed JPEGs generated from compact Hugo HTML templates.
 They are currently published for review while
 `params.generated_og_metadata_enabled = false` keeps them out of real-page OG,
 Twitter, and schema metadata. Explicit manual artwork and the existing Ryder
-fallback chain remain active. Set the flag to `true` only after approval.
+fallback chain remain active, as do the established individual Trail map cards.
+Set the flag to `true` only after approval.
 Run `npm run og:generate` to create only missing or stale cards, add `-- --force`
 to rebuild everything, or target pages by repeating
 `-- --only /canonical/path/`. An explicit `og_source_image` wins; otherwise a
