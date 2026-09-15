@@ -967,6 +967,12 @@
       "layout": "split",
       "section": "listening"
     },
+    "/listening/artists/49-winchester/": {
+      "output": "listening/artists/49-winchester.jpg",
+      "fingerprint": "9fa809d478319dfa9e1c1425e6023895898542307dd316a7bae35b7940b3a984",
+      "layout": "split",
+      "section": "listening"
+    },
     "/listening/artists/50-cent/": {
       "output": "listening/artists/50-cent.jpg",
       "fingerprint": "aef699a019924eaccab344232bedcba00f5fcaed0959eb9ef89ad4c601b38df9",
@@ -1855,6 +1861,12 @@
       "layout": "split",
       "section": "listening"
     },
+    "/listening/artists/charlie-worsham/": {
+      "output": "listening/artists/charlie-worsham.jpg",
+      "fingerprint": "c9d5d4f604c93217365bbc62f0c8cc9758fb1f238e595b8fcc82faf1da3f5a63",
+      "layout": "split",
+      "section": "listening"
+    },
     "/listening/artists/charlotte-cornfield/": {
       "output": "listening/artists/charlotte-cornfield.jpg",
       "fingerprint": "992a6477319183c8bbccda037642777929fae3512b9acb0d285b31022f055935",
@@ -1936,6 +1948,12 @@
     "/listening/artists/claude-debussy/": {
       "output": "listening/artists/claude-debussy.jpg",
       "fingerprint": "4f6f1af0cf6c857a9126eac6b5e18d6eebf167957a936e1c72ac7f00c14697ed",
+      "layout": "split",
+      "section": "listening"
+    },
+    "/listening/artists/clay-street-unit/": {
+      "output": "listening/artists/clay-street-unit.jpg",
+      "fingerprint": "4609643d8fc885f7cd46220bddb04e477a84833767cbc69e20359f4d829eecf8",
       "layout": "split",
       "section": "listening"
     },
@@ -2272,6 +2290,12 @@
     "/listening/artists/dexter-gordon/": {
       "output": "listening/artists/dexter-gordon.jpg",
       "fingerprint": "f5c6adc7db4d4f7b529a59a0f7451e022b7730604aada4f45d0de175876e356d",
+      "layout": "split",
+      "section": "listening"
+    },
+    "/listening/artists/dierks-bentley/": {
+      "output": "listening/artists/dierks-bentley.jpg",
+      "fingerprint": "a90bebce25672b87ce1bbd23b9a8d8fd5dea5931a80422e883db9b51958f3526",
       "layout": "split",
       "section": "listening"
     },
@@ -3229,6 +3253,12 @@
       "layout": "split",
       "section": "listening"
     },
+    "/listening/artists/jackson-dean/": {
+      "output": "listening/artists/jackson-dean.jpg",
+      "fingerprint": "e6d608b368ea44625917a6f5a585f5f91cace03f1b5aa04cdb950ef5c931a99c",
+      "layout": "split",
+      "section": "listening"
+    },
     "/listening/artists/jaco-jaco/": {
       "output": "listening/artists/jaco-jaco.jpg",
       "fingerprint": "d9aad3f0660cc16f0faec9fb8a42d22654166fe8f1d542ffd6fafb8cedb7fde6",
@@ -4009,6 +4039,12 @@
       "layout": "split",
       "section": "listening"
     },
+    "/listening/artists/luke-grimes/": {
+      "output": "listening/artists/luke-grimes.jpg",
+      "fingerprint": "349eb2d002471c4119b65d4dc1a9bd31027cbf0de5e60b1823731955bfac4c36",
+      "layout": "split",
+      "section": "listening"
+    },
     "/listening/artists/luther-dickinson/": {
       "output": "listening/artists/luther-dickinson.jpg",
       "fingerprint": "b0f4bd829d7cc27ec61270d8593c4b4c2516ca8c19798211be1733feee6b66f8",
@@ -4639,6 +4675,12 @@
       "layout": "split",
       "section": "listening"
     },
+    "/listening/artists/paul-cauthen/": {
+      "output": "listening/artists/paul-cauthen.jpg",
+      "fingerprint": "21cfa31f8eafb46cbed73c930b41ce7f87acedca16ef650563300286c6fe7b2d",
+      "layout": "split",
+      "section": "listening"
+    },
     "/listening/artists/paul-chambers/": {
       "output": "listening/artists/paul-chambers.jpg",
       "fingerprint": "c52007b9c33cd3bee625bd7668f2d81d0265e3b973cf35f0884269503578958c",
@@ -4774,6 +4816,12 @@
     "/listening/artists/polvo/": {
       "output": "listening/artists/polvo.jpg",
       "fingerprint": "78212fb9252e8cf69da633dca4e92ea14db712c3c702d8e4855886692e31218f",
+      "layout": "split",
+      "section": "listening"
+    },
+    "/listening/artists/pony-bradshaw/": {
+      "output": "listening/artists/pony-bradshaw.jpg",
+      "fingerprint": "c6d8b012d894547621d0c06f63dd3510b387516d1a04899601ac1f154d5a215b",
       "layout": "split",
       "section": "listening"
     },
@@ -5503,6 +5551,12 @@
       "layout": "split",
       "section": "listening"
     },
+    "/listening/artists/telander/": {
+      "output": "listening/artists/telander.jpg",
+      "fingerprint": "57abc4195343b1cc10b93cc71c07dfcd4cc2caff5c4bbb924ee6e8921eda2fc0",
+      "layout": "split",
+      "section": "listening"
+    },
     "/listening/artists/terrace-martin/": {
       "output": "listening/artists/terrace-martin.jpg",
       "fingerprint": "eddfac79f471b683db5a9c4522effda29dd1174c278b618460183a95ae199495",
@@ -6103,6 +6157,12 @@
       "layout": "split",
       "section": "listening"
     },
+    "/listening/artists/turnpike-troubadours/": {
+      "output": "listening/artists/turnpike-troubadours.jpg",
+      "fingerprint": "fbe709991c3ffffa0509f30a876af80a8bd2c279f68d70236b841f8d9d064866",
+      "layout": "split",
+      "section": "listening"
+    },
     "/listening/artists/twiddle/": {
       "output": "listening/artists/twiddle.jpg",
       "fingerprint": "9b04743df2ac3626ef77dfe683e7d1d66f4f4ff77b82ef1cabe8df700ae141de",
@@ -6340,6 +6400,12 @@
     "/listening/artists/wire/": {
       "output": "listening/artists/wire.jpg",
       "fingerprint": "57e1ac3c39633abbb0b9f9dea9cb962fa4b675d2d94b7a8f7035816b0c5486f6",
+      "layout": "split",
+      "section": "listening"
+    },
+    "/listening/artists/witchdoctor/": {
+      "output": "listening/artists/witchdoctor.jpg",
+      "fingerprint": "cb7118695894c92c8a5901435307d7e50a94d7ede5f0717a5890b69b18332bbc",
       "layout": "split",
       "section": "listening"
     },
@@ -6664,6 +6730,12 @@
     "/listening/weekly/2026-w36/": {
       "output": "listening/weekly/2026-w36.jpg",
       "fingerprint": "443e60b519474ed2574676e0ec146ee507bab6bfc4a58322cbf8436de21cdbc7",
+      "layout": "split",
+      "section": "listening"
+    },
+    "/listening/weekly/2026-w37/": {
+      "output": "listening/weekly/2026-w37.jpg",
+      "fingerprint": "7369f4fc23b8fa4d33fb6812ce74e9b1ad99e61c0ea53027f78f233a6109d564",
       "layout": "split",
       "section": "listening"
     },
