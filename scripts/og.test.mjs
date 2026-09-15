@@ -52,6 +52,8 @@ test('source selection uses the documented priority', () => {
 test('manual metadata overrides generated artwork and fallback', () => {
   assert.equal(selectMetadataImage({ manual: 'manual.jpg', generated: 'generated.jpg', fallback: 'fallback.jpg' }), 'manual.jpg');
   assert.equal(selectMetadataImage({ generated: 'generated.jpg', fallback: 'fallback.jpg' }), 'generated.jpg');
+  assert.equal(selectMetadataImage({ generated: 'generated.jpg', fallback: 'fallback.jpg', generatedEnabled: false }), 'fallback.jpg');
+  assert.equal(selectMetadataImage({ manual: 'manual.jpg', generated: 'generated.jpg', fallback: 'fallback.jpg', generatedEnabled: false }), 'manual.jpg');
 });
 
 test('manifest classification finds missing, stale, and orphaned cards', () => {
@@ -89,6 +91,12 @@ test('render fingerprints ignore non-visual Hugo generator versions', () => {
   const local = '<!doctype html>\n<meta name="generator" content="Hugo 0.146.2">\n<p>card</p>';
   const amplify = '<!doctype html>\n<meta name="generator" content="Hugo 0.148.2">\n<p>card</p>';
   assert.equal(fingerprintHtml(local), fingerprintHtml(amplify));
+});
+
+test('metadata review gate does not stale the visual fingerprint', () => {
+  const enabled = '<div id="og-card" data-og-metadata-enabled="true"><p>card</p></div>';
+  const disabled = '<div id="og-card" data-og-metadata-enabled="false"><p>card</p></div>';
+  assert.equal(fingerprintHtml(enabled), fingerprintHtml(disabled));
 });
 
 test('JPEG reader returns dimensions and rejects other files', () => {

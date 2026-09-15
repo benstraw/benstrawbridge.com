@@ -1,0 +1,7 @@
+{{- /* Calling RelPermalink publishes each committed card from assets/ even
+       while the metadata resolver is intentionally gated off for review. */ -}}
+{{- range resources.Match "images/og/generated/**" -}}
+  {{- if eq .MediaType.MainType "image" -}}
+    {{- $published := .RelPermalink -}}
+  {{- end -}}
+{{- end -}}

@@ -8,6 +8,7 @@
 {{- $excluded := or (in $canonical "/test/") (eq ($page.Param "og_generate") false) -}}
 {{- $manual := and $page.Params.og_image (not (and (eq $page.Section "trails") (eq $page.Params.og_image "og-cover.jpg"))) -}}
 {{- $eligible := and (or $authored $musicGenerated) (not $excluded) (not $manual) -}}
+{{- $metadataEnabled := site.Params.generated_og_metadata_enabled | default false -}}
 {{- $title := $page.Param "ogTitleText" | default $page.Title | default site.Title -}}
 {{- $logoFirst := $page.Param "logo_firstWord" | default "Ben" -}}
 {{- $logoLast := $page.Param "logo_lastWord" | default "Strawbridge" -}}
@@ -64,7 +65,7 @@
 {{- if not $eligible }}
 <div id="og-card" data-og-eligible="false" data-og-canonical="{{ $canonical }}"></div>
 {{- else }}
-<div id="og-card" class="{{ $layout }}" data-og-eligible="true" data-og-canonical="{{ $canonical }}" data-og-section="{{ $section }}" data-og-layout="{{ $layout }}" data-og-source="{{ with $source }}{{ .identity }}{{ end }}">
+<div id="og-card" class="{{ $layout }}" data-og-eligible="true" data-og-canonical="{{ $canonical }}" data-og-section="{{ $section }}" data-og-layout="{{ $layout }}" data-og-source="{{ with $source }}{{ .identity }}{{ end }}" data-og-metadata-enabled="{{ $metadataEnabled }}">
   {{- if eq $layout "abstract" }}<div class="abstract"></div>{{ end -}}
   {{- with $source }}
     {{- if eq $layout "split" }}<div class="media-frame"><img class="media" src="{{ .url }}" alt=""></div>
