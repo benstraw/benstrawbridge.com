@@ -33,8 +33,8 @@ const MIME = {
 };
 
 function build() {
-  console.log('› hugo build --environment development');
-  execFileSync('hugo', ['build', '--environment', 'development'], { cwd: REPO_ROOT, stdio: 'inherit' });
+  console.log('› hugo build --cleanDestinationDir --environment development');
+  execFileSync('hugo', ['build', '--cleanDestinationDir', '--environment', 'development'], { cwd: REPO_ROOT, stdio: 'inherit' });
 }
 
 async function walk(dir, name, found = []) {
@@ -82,6 +82,7 @@ async function discoverCards(opts) {
       sourceUrl: `/${path.relative(PUBLIC_DIR, sourceFile).split(path.sep).join('/')}`,
       html,
       fingerprint: fingerprintHtml(html),
+      metadataEnabled: attr['metadata-enabled'] === 'true',
       outputRel: outputRelative(canonical),
     };
     if (!matchesFilters(card, opts)) continue;
@@ -220,7 +221,11 @@ async function checkMetadata(cards) {
     try {
       const html = await fs.readFile(htmlPath, 'utf8');
       const expected = `/images/og/generated/${card.outputRel}`;
-      if (!html.includes(expected)) failures.push(`${card.canonical}: metadata does not reference ${expected}`);
+      if (card.metadataEnabled && !html.includes(expected)) {
+        failures.push(`${card.canonical}: metadata does not reference ${expected}`);
+      } else if (!card.metadataEnabled && html.includes(expected)) {
+        failures.push(`${card.canonical}: generated metadata is disabled but references ${expected}`);
+      }
     } catch (error) { failures.push(`${card.canonical}: page HTML missing (${error.message})`); }
   }
   return failures;

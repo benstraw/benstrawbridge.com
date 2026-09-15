@@ -34,6 +34,10 @@ project notebook, link garden, and ongoing excuse to experiment with the web.
 ## Open Graph cards
 
 Social cards are committed JPEGs generated from compact Hugo HTML templates.
+They are currently published for review while
+`params.generated_og_metadata_enabled = false` keeps them out of real-page OG,
+Twitter, and schema metadata. Explicit manual artwork and the existing Ryder
+fallback chain remain active. Set the flag to `true` only after approval.
 Run `npm run og:generate` to create only missing or stale cards, add `-- --force`
 to rebuild everything, or target pages by repeating
 `-- --only /canonical/path/`. An explicit `og_source_image` wins; otherwise a
@@ -46,9 +50,8 @@ used by Amplify before deployment.
 The committed raw review pages live under `/og-tests/`. After a Hugo build,
 run `npm run og:gallery` to refresh the main, listening, and no-image-template
 galleries from the manifest; `npm run og:gallery:check` verifies they are
-current without rewriting them. PR 122 uses a branch-scoped Amplify staging
-command for these review files because the full generated site exceeds the
-preview host's current packaging envelope; production builds are unchanged.
+current without rewriting them. The generated JPEGs are explicitly published
+from `assets/` so those raw galleries work even while metadata selection is off.
 
 ## What I build
 

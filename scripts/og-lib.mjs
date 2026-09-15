@@ -43,8 +43,8 @@ export function selectSourcePriority({ ogSourceImage, headerImage, isSectionRoot
   return [ogSourceImage, isSectionRoot ? headerImage : null, featuredImage, images[0], cardImage, namedResource, contentImage].find(Boolean) || null;
 }
 
-export function selectMetadataImage({ manual, generated, fallback } = {}) {
-  return manual || generated || fallback || null;
+export function selectMetadataImage({ manual, generated, fallback, generatedEnabled = true } = {}) {
+  return manual || (generatedEnabled ? generated : null) || fallback || null;
 }
 
 export function classifyManifest(cards, manifestCards, existingOutputs) {
@@ -77,13 +77,19 @@ export function outputRelative(canonical) {
 }
 
 export function fingerprintHtml(html) {
+  // Hugo injects its own version into the home-page document. That metadata
+  // does not affect the screenshot, and local/Amplify Hugo patch versions can
+  // differ, so exclude it from the visual freshness fingerprint.
+  const visualHtml = html
+    .replace(/<meta\s+name=["']generator["']\s+content=["']Hugo\s+[^"']+["']\s*\/?>\s*/gi, '')
+    .replace(/\sdata-og-metadata-enabled=["'](?:true|false)["']/gi, '');
   const renderer = JSON.stringify({
     width: WIDTH,
     height: HEIGHT,
     quality: JPEG_QUALITY,
     rendererVersion: RENDERER_VERSION,
   });
-  return createHash('sha256').update(renderer).update('\0').update(html).digest('hex');
+  return createHash('sha256').update(renderer).update('\0').update(visualHtml).digest('hex');
 }
 
 export function parseCardDocument(html, sourceFile) {
@@ -106,6 +112,7 @@ export function parseCardDocument(html, sourceFile) {
     section: attributes.section || '',
     layout: attributes.layout || '',
     source: attributes.source || '',
+    metadataEnabled: attributes['metadata-enabled'] === 'true',
   };
 }
 

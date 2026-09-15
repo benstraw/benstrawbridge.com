@@ -8,3 +8,6 @@
   <meta name="ICBM" content="{{ .lat }}, {{ .lon }}" />
   {{- end }}
 {{- end }}
+{{- if site.Params.publish_generated_og_assets }}
+  {{- partialCached "og-card/publish-generated-assets.html" site "generated-og-assets" -}}
+{{- end }}
