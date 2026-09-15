@@ -37,6 +37,9 @@ export POLL_INTERVAL_SECONDS=0 DEPLOY_TIMEOUT_SECONDS=60
 export ENV_POLICY_FILE="$REPO_ROOT/.github/amplify-preview-env.json"
 cd "$REPO_ROOT"
 
+echo "── 0. Production build artifact hygiene"
+check t0 "cleans development output before the deploy build" yes "$(contains "$(cat amplify.yml)" 'hugo --cleanDestinationDir --gc --minify')"
+
 echo "── 1. First deployment: branch absent, build succeeds"
 export PR_NUMBER=12
 setup "" "" PENDING RUNNING SUCCEED
