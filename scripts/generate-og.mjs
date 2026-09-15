@@ -33,8 +33,8 @@ const MIME = {
 };
 
 function build() {
-  console.log('› hugo build --environment development');
-  execFileSync('hugo', ['build', '--environment', 'development'], { cwd: REPO_ROOT, stdio: 'inherit' });
+  console.log('› hugo build --cleanDestinationDir --environment development');
+  execFileSync('hugo', ['build', '--cleanDestinationDir', '--environment', 'development'], { cwd: REPO_ROOT, stdio: 'inherit' });
 }
 
 async function walk(dir, name, found = []) {

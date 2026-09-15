@@ -85,6 +85,12 @@ test('render fingerprints change with rendered inputs', () => {
   assert.notEqual(fingerprintHtml('<p>a</p>'), fingerprintHtml('<p>b</p>'));
 });
 
+test('render fingerprints ignore non-visual Hugo generator versions', () => {
+  const local = '<!doctype html>\n<meta name="generator" content="Hugo 0.146.2">\n<p>card</p>';
+  const amplify = '<!doctype html>\n<meta name="generator" content="Hugo 0.148.2">\n<p>card</p>';
+  assert.equal(fingerprintHtml(local), fingerprintHtml(amplify));
+});
+
 test('JPEG reader returns dimensions and rejects other files', () => {
   const jpeg = Buffer.from([
     0xff, 0xd8,
