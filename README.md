@@ -46,7 +46,9 @@ used by Amplify before deployment.
 The committed raw review pages live under `/og-tests/`. After a Hugo build,
 run `npm run og:gallery` to refresh the main, listening, and no-image-template
 galleries from the manifest; `npm run og:gallery:check` verifies they are
-current without rewriting them.
+current without rewriting them. PR 122 uses a branch-scoped Amplify staging
+command for these review files because the full generated site exceeds the
+preview host's current packaging envelope; production builds are unchanged.
 
 ## What I build
 

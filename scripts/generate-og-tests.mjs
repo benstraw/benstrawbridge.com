@@ -10,6 +10,7 @@ const CONTENT = path.join(ROOT, 'content');
 const MANIFEST = path.join(ROOT, 'assets', 'images', 'og', 'generated', 'manifest.json');
 const OUTPUT = path.join(ROOT, 'static', 'og-tests');
 const CHECK = process.argv.includes('--check');
+const SITE = 'https://www.benstrawbridge.com';
 
 const PALETTE_GROUPS = new Set(['posts', 'projects', 'trails', 'recipes', 'links', 'listening']);
 const GROUP_LABELS = {
@@ -127,19 +128,23 @@ function searchText(item) {
   return `${item.title} ${item.canonical} ${item.section} ${item.group} ${item.layout}`.toLowerCase();
 }
 
+function pageHref(canonical) {
+  return new URL(canonical, SITE).href;
+}
+
 function imageCard(item, { generic = false } = {}) {
   const variant = (Buffer.byteLength(item.canonical) % 4) + 1;
   const badge = generic ? `field ${variant}` : item.layout;
   return `<article class="review-card" data-review-entry data-search="${escapeHtml(searchText(item))}">
   <a class="image-link" href="${escapeHtml(item.image)}"><img src="${escapeHtml(item.image)}" width="1200" height="630" alt="${escapeHtml(item.title)} Open Graph card" loading="lazy" decoding="async"></a>
-  <div class="caption"><div><strong><a href="${escapeHtml(item.canonical)}">${escapeHtml(item.title)}</a></strong><small>${escapeHtml(item.canonical)}</small></div><span class="badge">${escapeHtml(badge)}</span></div>
+  <div class="caption"><div><strong><a href="${escapeHtml(pageHref(item.canonical))}">${escapeHtml(item.title)}</a></strong><small>${escapeHtml(item.canonical)}</small></div><span class="badge">${escapeHtml(badge)}</span></div>
 </article>`;
 }
 
 function genericBlock(items, group) {
   if (!items.length) return '';
   const example = items[0];
-  const links = items.map((item) => `<li data-review-entry data-search="${escapeHtml(searchText(item))}"><a href="${escapeHtml(item.canonical)}">${escapeHtml(item.title)}</a><small>${escapeHtml(item.canonical)}</small></li>`).join('\n');
+  const links = items.map((item) => `<li data-review-entry data-search="${escapeHtml(searchText(item))}"><a href="${escapeHtml(pageHref(item.canonical))}">${escapeHtml(item.title)}</a><small>${escapeHtml(item.canonical)}</small></li>`).join('\n');
   return `<div class="generic-block">
   <h3>Generic no-image template</h3>
   <article class="review-card generic-example">

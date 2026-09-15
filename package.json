@@ -10,6 +10,7 @@
     "og:test": "node --test scripts/og.test.mjs",
     "og:gallery": "node scripts/generate-og-tests.mjs",
     "og:gallery:check": "node scripts/generate-og-tests.mjs --check",
+    "og:review-preview": "node scripts/build-og-review-preview.mjs",
     "og:trails": "node scripts/generate-og.mjs --section trails",
     "test:list-cards": "node scripts/check-list-cards.mjs",
     "card:shot": "node scripts/screenshot-card.mjs"
