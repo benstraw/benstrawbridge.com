@@ -25,8 +25,11 @@
 {{ end }}
 
 {{/* Deterministic generated cards sit behind explicit artwork and ahead of
-     all legacy fallbacks. Their assets/ paths mirror canonical page paths. */}}
-{{ if and (not $featured) ($.Site.Params.generated_og_metadata_enabled | default false) }}
+     all legacy fallbacks. Individual Trail map cards predate the review gate
+     and remain active; the site flag controls every newer generated card. */}}
+{{ $trailMapCard := and (eq $.Section "trails") $.IsPage }}
+{{ $generatedMetadataEnabled := or ($.Site.Params.generated_og_metadata_enabled | default false) $trailMapCard }}
+{{ if and (not $featured) $generatedMetadataEnabled }}
   {{ $canonical := .RelPermalink }}
   {{ with .OutputFormats.Get "html" }}{{ $canonical = .RelPermalink }}{{ end }}
   {{ $generatedPath := "images/og/generated/home.jpg" }}
