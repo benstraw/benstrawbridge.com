@@ -3,7 +3,7 @@ const entries = [...document.querySelectorAll("[data-review-entry]")];
 const sections = [...document.querySelectorAll("[data-gallery-section]")];
 const visibleCount = document.querySelector("#visible-count");
 
-input.addEventListener("input", () => {
+input?.addEventListener("input", () => {
   const query = input.value.trim().toLowerCase();
   document.body.classList.toggle("is-filtering", Boolean(query));
 
@@ -15,10 +15,20 @@ input.addEventListener("input", () => {
   }
 
   for (const section of sections) {
-    const hasMatch = [...section.querySelectorAll("[data-review-entry]")].some(
-      (entry) => !entry.hidden,
-    );
-    section.querySelector(".empty").classList.toggle("visible", !hasMatch);
+    const sectionEntries = [...section.querySelectorAll("[data-review-entry]")];
+    const hasMatch = sectionEntries.some((entry) => !entry.hidden);
+    section.hidden = Boolean(query) && !hasMatch;
+    section.querySelector(".empty")?.classList.toggle("visible", !hasMatch);
+
+    for (const details of section.querySelectorAll("details")) {
+      if (query) {
+        details.open = [...details.querySelectorAll("[data-review-entry]")].some(
+          (entry) => !entry.hidden,
+        );
+      } else {
+        details.open = false;
+      }
+    }
   }
 
   visibleCount.textContent = visible.toLocaleString();

@@ -43,6 +43,11 @@ featured-image and content-image fallbacks.
 `npm run og:check` performs the screenshot-free freshness and integrity check
 used by Amplify before deployment.
 
+The committed raw review pages live under `/og-tests/`. After a Hugo build,
+run `npm run og:gallery` to refresh the main, listening, and no-image-template
+galleries from the manifest; `npm run og:gallery:check` verifies they are
+current without rewriting them.
+
 ## What I build
 
 ### Websites with a point of view
