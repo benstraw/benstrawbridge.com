@@ -36,6 +36,22 @@ hugo new content --kind recipe projects/recipes/recipe-name.md
 
 **Link ordering convention**: When adding new links to any section (e.g., `/links/the-web/`), always add them to the **top** of the list, not the bottom. This keeps the most recent additions visible first.
 
+**New content is usually eligible for an OG card.** Almost every authored
+`.md` page site-wide — not just `/trails/` — can get a generated Open Graph
+card, tracked in `assets/images/og/generated/manifest.json`. After adding new
+content, generate its card before committing:
+
+```bash
+npm run og:generate -- --only /section/new-page-slug/
+```
+
+Unlike trail cards (see "Trail OG cards" below), this works fine in a cloud
+session — non-trail cards don't fetch map tiles, so there's nothing for the
+agent proxy to break. `npm run og:check` (which Amplify runs as the first
+build step, before Hugo itself) warns instead of failing on a missing or
+stale card — a page without one just falls through to the generic branded OG
+image — but the warning is worth fixing rather than ignoring.
+
 ### Theme & Submodules
 ```bash
 # Initialize theme submodule (first-time setup)
