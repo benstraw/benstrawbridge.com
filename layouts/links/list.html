@@ -67,7 +67,7 @@
       {{- end -}}
       <div class="flex items-end">
         <button
-          @click="search = ''; selectedTag = ''"
+          @click="clear()"
           x-show="search || selectedTag"
           style="display:none"
           class="px-4 py-2 bg-rose-600 text-white rounded-md hover:bg-rose-700 text-sm"
@@ -126,7 +126,7 @@
       <i class="fa-solid fa-magnifying-glass text-4xl mb-4 block"></i>
       <p class="text-lg">No links match your filters.</p>
       <button
-        @click="search = ''; selectedTag = ''"
+        @click="clear()"
         class="mt-4 text-rose-600 hover:underline text-sm"
       >Clear filters</button>
     </div>

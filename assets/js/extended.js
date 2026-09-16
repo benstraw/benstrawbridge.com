@@ -159,6 +159,14 @@ const registerLinksPage = (alpine) => alpine.data('linksPage', () => ({
       )
     })
   },
+  // Named method, not an inline `search = ''; selectedTag = ''`: the CSP-Alpine
+  // parser only accepts a single statement per expression (one trailing `;` is
+  // tolerated, a second statement after it throws "Unexpected token"), so the
+  // two-assignment inline version silently failed to clear either field.
+  clear() {
+    this.search = ''
+    this.selectedTag = ''
+  },
 }))
 
 registerLinksPage(Alpine)
