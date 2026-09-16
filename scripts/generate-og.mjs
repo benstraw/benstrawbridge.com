@@ -239,16 +239,29 @@ async function main() {
   const problems = await statusFor(cards, manifest);
 
   if (opts.check) {
+    // A missing or stale card is a cosmetic gap, not a broken page:
+    // get-featured-image.html falls through to the generic branded OG image
+    // (see CLAUDE.md's "Replace the generic OG fallback image" issue) when it
+    // can't find a generated one, so this has never been safe to let block an
+    // entire deploy. Warn loudly — still worth fixing — but never fail the
+    // build over it. `main().catch()` below is what makes the process exit
+    // non-zero, so as long as this branch returns instead of throwing, a
+    // caller like `npm run og:check` in amplify.yml's build phase continues
+    // past it.
     const desired = new Set(cards.map((card) => card.canonical));
     const orphans = (opts.only || opts.section) ? [] : Object.keys(manifest.cards).filter((key) => !desired.has(key));
     const assetOrphans = (opts.only || opts.section) ? [] : await orphanedAssets(cards);
     const metadata = await checkMetadata(cards.filter((card) => !problems.some((p) => p.card.canonical === card.canonical)));
-    for (const problem of problems) console.error(`✗ ${problem.card.canonical} — ${problem.reason}`);
-    for (const orphan of orphans) console.error(`✗ ${orphan} — orphaned generated card`);
-    for (const orphan of assetOrphans) console.error(`✗ ${orphan} — orphaned generated image file`);
-    for (const failure of metadata) console.error(`✗ ${failure}`);
-    if (problems.length || orphans.length || assetOrphans.length || metadata.length) throw new Error(`${problems.length + orphans.length + assetOrphans.length + metadata.length} OG card problem(s); run npm run og:generate`);
-    console.log(`✓ ${cards.length} OG cards are current, valid, and referenced`);
+    const total = problems.length + orphans.length + assetOrphans.length + metadata.length;
+    for (const problem of problems) console.warn(`⚠ ${problem.card.canonical} — ${problem.reason}`);
+    for (const orphan of orphans) console.warn(`⚠ ${orphan} — orphaned generated card`);
+    for (const orphan of assetOrphans) console.warn(`⚠ ${orphan} — orphaned generated image file`);
+    for (const failure of metadata) console.warn(`⚠ ${failure}`);
+    if (total) {
+      console.warn(`⚠ ${total} OG card issue(s) — affected pages will use the generic fallback card until you run npm run og:generate`);
+    } else {
+      console.log(`✓ ${cards.length} OG cards are current, valid, and referenced`);
+    }
     return;
   }
 
