@@ -18,7 +18,7 @@ TocOpen = true
   name = "Links"
   weight = 100
   identifier = 'links'
-[cascade]
+[[cascade]]
   showCardLinkOverlay = false
   homeFeatureIcon = "fa-solid fa-link"
   logo_tagline = "LINK GRAVEYARD"
@@ -26,6 +26,27 @@ TocOpen = true
   [cascade.twClasses]
     headerBackgroundFrameOuter = "bg-gradient-to-r from-rose-500 to-rose-800 text-neutral-100"
     headerBackgroundFrameInner = ""
+
+# Individual link entries are bookmark data for this list page, not content
+# worth indexing on their own. `_target.kind = "page"` scopes this rule to
+# the entries themselves (Kind "page"), not this _index.md (Kind "section")
+# — an untargeted cascade applies to the defining page too, which silently
+# noindexed /links/ itself and dropped it from the sitemap on the first pass.
+# robotsNoIndex adds the noindex meta (see
+# themes/ryder/layouts/partials/head.html); outputs drops the OGCard build
+# output entirely (og_generate=false alone only blanks its contents, it
+# doesn't stop Hugo from writing the file — see layouts/partials/og-card/card.html);
+# sitemap.disable drops entries from sitemap.xml, since a noindex page has no
+# business being listed there. Tags stay live (no `_build` change), so
+# entries still show up on /tags/.
+[[cascade]]
+  robotsNoIndex = true
+  og_generate = false
+  outputs = ["HTML"]
+  [cascade.sitemap]
+    disable = true
+  [cascade._target]
+    kind = "page"
 
 +++
 
