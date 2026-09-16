@@ -1,9 +1,9 @@
 +++
-title = "TheFocus/AI Distill the signal from the noise"
+title = "TheFocus.AI"
 date = 2026-01-07T13:44:50-08:00
 draft = false
 link_url = "https://thefocus.ai/"
-description = "TheFocus.AI is a company that helps teams adopt AI within their existing workflows, and also publishes research on generative AI applications. A related product, TheFocus, brings AI text processing (translate, rewrite, summarize) into any app via a keyboard shortcut."
+description = "TheFocus.AI is a Brooklyn-based AI consulting studio that works alongside client teams under a Strategy/Build/Teach model — finding where AI fits, building it into real workflows, and teaching the team to keep it running. Its product, Habitats, is a shared workspace where a team's AI work is visible and reusable."
 tags = ["ai", "general"]
 legacy_sections = ["general"]
 legacy_source = "content/links/machine-learning-and-artificial-intelligence/index.md"
