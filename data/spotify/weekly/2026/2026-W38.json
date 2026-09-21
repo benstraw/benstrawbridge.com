@@ -1,0 +1,667 @@
+{
+  "week": "2026-W38",
+  "title": "Week of Sep 14, 2026",
+  "year": 2026,
+  "week_num": 38,
+  "date_start": "2026-09-14",
+  "date_end": "2026-09-20",
+  "total_plays": 39,
+  "unique_artists": 16,
+  "topArtistName": "Ol' Dirty Bastard",
+  "topArtistImages": [
+    {
+      "url": "https://i.scdn.co/image/cdcf0ecd5b041452681badedca98f7d3b8494c52",
+      "height": 693,
+      "width": 1000
+    },
+    {
+      "url": "https://i.scdn.co/image/e3e39e2ee5b5929aed7d2b33791f0d8089217954",
+      "height": 443,
+      "width": 640
+    },
+    {
+      "url": "https://i.scdn.co/image/459d62eea68686dd2fe8be21173f9cd1e448eb83",
+      "height": 139,
+      "width": 200
+    },
+    {
+      "url": "https://i.scdn.co/image/c073d8d9f384061615625887756c771f2bab4209",
+      "height": 44,
+      "width": 64
+    }
+  ],
+  "top_genres": [
+    {
+      "name": "east coast hip hop",
+      "plays": 22
+    },
+    {
+      "name": "old school hip hop",
+      "plays": 21
+    },
+    {
+      "name": "hardcore hip hop",
+      "plays": 21
+    },
+    {
+      "name": "power pop",
+      "plays": 4
+    },
+    {
+      "name": "singer-songwriter",
+      "plays": 3
+    },
+    {
+      "name": "new wave",
+      "plays": 2
+    },
+    {
+      "name": "folk rock",
+      "plays": 2
+    },
+    {
+      "name": "yacht rock",
+      "plays": 2
+    },
+    {
+      "name": "post-punk",
+      "plays": 1
+    },
+    {
+      "name": "folk",
+      "plays": 1
+    }
+  ],
+  "top_artists": [
+    {
+      "slug": "ol-dirty-bastard",
+      "name": "Ol' Dirty Bastard",
+      "plays": 21,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/cdcf0ecd5b041452681badedca98f7d3b8494c52",
+          "height": 693,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/e3e39e2ee5b5929aed7d2b33791f0d8089217954",
+          "height": 443,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/459d62eea68686dd2fe8be21173f9cd1e448eb83",
+          "height": 139,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/c073d8d9f384061615625887756c771f2bab4209",
+          "height": 44,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "elvis-costello",
+      "name": "Elvis Costello",
+      "plays": 3,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebbd95594d3201ab9c7b0349e6",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174bd95594d3201ab9c7b0349e6",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178bd95594d3201ab9c7b0349e6",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "charlie-brown",
+      "name": "Charlie Brown",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000b27372bb04a148af4647b45fdf75",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00001e0272bb04a148af4647b45fdf75",
+          "height": 300,
+          "width": 300
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000485172bb04a148af4647b45fdf75",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "busta-rhymes",
+      "name": "Busta Rhymes",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb7b31aba081ef084510cde4e3",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051747b31aba081ef084510cde4e3",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1787b31aba081ef084510cde4e3",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "talking-heads",
+      "name": "Talking Heads",
+      "plays": 1,
+      "images": [
+        {
+          "height": 500,
+          "url": "https://i.scdn.co/image/e4c5b04fce8706c87663357b1f78522a3a5c641b",
+          "width": 500
+        },
+        {
+          "height": 200,
+          "url": "https://i.scdn.co/image/60bfd4ad01d8d9142d88c3c0b73cea36bf327ea7",
+          "width": 200
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/4056b1eaa81255de0865ebe4fdbe61246205153c",
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "squeeze",
+      "name": "Squeeze",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebcd4eb927451b24bef67728d1",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174cd4eb927451b24bef67728d1",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178cd4eb927451b24bef67728d1",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "nick-drake",
+      "name": "Nick Drake",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/d364b498f85ae764cd278fbba9a8ed7f00c3e434",
+          "height": 1484,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/087fb05851e498c2791ca99000acf35b0fd49f19",
+          "height": 950,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/9a74a7d885abe5da94ac812546d0146cfe4a1ceb",
+          "height": 297,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/267080662cf3c019ea8020a4e0e8dd5a7be4d909",
+          "height": 95,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "the-beatles",
+      "name": "The Beatles",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebe9348cc01ff5d55971b22433",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174e9348cc01ff5d55971b22433",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178e9348cc01ff5d55971b22433",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "crosby-stills-nash",
+      "name": "Crosby, Stills & Nash",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/b9c086901cca94cab20e8fcdc35bd79c7b39526a",
+          "height": 619,
+          "width": 999
+        },
+        {
+          "url": "https://i.scdn.co/image/7d26d42a2969e495d8917b077501e02fca5da5e0",
+          "height": 396,
+          "width": 639
+        },
+        {
+          "url": "https://i.scdn.co/image/8ee7e65ec865603c08b0f6af1eeb0dc944d7872d",
+          "height": 124,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/f10a24a75fe763187b870479c4c2df81ce2923f8",
+          "height": 40,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "rem",
+      "name": "R.E.M.",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb6334ab6a83196f36475ada7f",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051746334ab6a83196f36475ada7f",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1786334ab6a83196f36475ada7f",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "lou-reed",
+      "name": "Lou Reed",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/2e1e9a6fe696b536a1f9e6a27fc1ed23d2c97099",
+          "height": 1006,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/49b8173759e47ed5e74d1c7c11a932e4dc6a91f9",
+          "height": 644,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/bb3e155f456d2f3533b753417cf586408c00fff0",
+          "height": 201,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/cf74e6ba4644f8f5a552060f40d3864aeb6a4311",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "traveling-wilburys",
+      "name": "Traveling Wilburys",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebabde33de707730af52c01bb0",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174abde33de707730af52c01bb0",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178abde33de707730af52c01bb0",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "joan-armatrading",
+      "name": "Joan Armatrading",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eba4f5e2f801a142e2b462b241",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174a4f5e2f801a142e2b462b241",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178a4f5e2f801a142e2b462b241",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "jackson-browne",
+      "name": "Jackson Browne",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebef4b0122d50775167339c7c2",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174ef4b0122d50775167339c7c2",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178ef4b0122d50775167339c7c2",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "robert-plant",
+      "name": "Robert Plant",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebfa79a501274aae1d9de3a201",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174fa79a501274aae1d9de3a201",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178fa79a501274aae1d9de3a201",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "the-jayhawks",
+      "name": "The Jayhawks",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb2b2a373eabe78fd76ff30831",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051742b2a373eabe78fd76ff30831",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1782b2a373eabe78fd76ff30831",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    }
+  ],
+  "top_tracks": [
+    {
+      "name": "Nuttin But Flavor",
+      "artist": "Charlie Brown",
+      "artist_slug": "charlie-brown",
+      "plays": 2
+    },
+    {
+      "name": "Hip Hop Drunkies",
+      "artist": "Ol' Dirty Bastard",
+      "artist_slug": "ol-dirty-bastard",
+      "plays": 2
+    },
+    {
+      "name": "Thirsty",
+      "artist": "Ol' Dirty Bastard",
+      "artist_slug": "ol-dirty-bastard",
+      "plays": 2
+    },
+    {
+      "name": "You Don't Want to Fuck with Me",
+      "artist": "Ol' Dirty Bastard",
+      "artist_slug": "ol-dirty-bastard",
+      "plays": 1
+    },
+    {
+      "name": "Dirty Run",
+      "artist": "Ol' Dirty Bastard",
+      "artist_slug": "ol-dirty-bastard",
+      "plays": 1
+    },
+    {
+      "name": "Rollin' Wit You",
+      "artist": "Ol' Dirty Bastard",
+      "artist_slug": "ol-dirty-bastard",
+      "plays": 1
+    },
+    {
+      "name": "Pop Sh*t (feat. Pharrell)",
+      "artist": "Ol' Dirty Bastard",
+      "artist_slug": "ol-dirty-bastard",
+      "plays": 1
+    },
+    {
+      "name": "Dirty Dirty",
+      "artist": "Ol' Dirty Bastard",
+      "artist_slug": "ol-dirty-bastard",
+      "plays": 1
+    },
+    {
+      "name": "Nigga Please",
+      "artist": "Ol' Dirty Bastard",
+      "artist_slug": "ol-dirty-bastard",
+      "plays": 1
+    },
+    {
+      "name": "Slow Flow",
+      "artist": "Busta Rhymes",
+      "artist_slug": "busta-rhymes",
+      "plays": 1
+    },
+    {
+      "name": "High In The Clouds",
+      "artist": "Ol' Dirty Bastard",
+      "artist_slug": "ol-dirty-bastard",
+      "plays": 1
+    },
+    {
+      "name": "Pop Shots - produced by DJ Premier",
+      "artist": "Ol' Dirty Bastard",
+      "artist_slug": "ol-dirty-bastard",
+      "plays": 1
+    },
+    {
+      "name": "Damage",
+      "artist": "Ol' Dirty Bastard",
+      "artist_slug": "ol-dirty-bastard",
+      "plays": 1
+    },
+    {
+      "name": "Raw Hide",
+      "artist": "Ol' Dirty Bastard",
+      "artist_slug": "ol-dirty-bastard",
+      "plays": 1
+    },
+    {
+      "name": "Baby C'mon",
+      "artist": "Ol' Dirty Bastard",
+      "artist_slug": "ol-dirty-bastard",
+      "plays": 1
+    },
+    {
+      "name": "Proteck Ya Neck II the Zoo",
+      "artist": "Ol' Dirty Bastard",
+      "artist_slug": "ol-dirty-bastard",
+      "plays": 1
+    },
+    {
+      "name": "Hippa to da Hoppa",
+      "artist": "Ol' Dirty Bastard",
+      "artist_slug": "ol-dirty-bastard",
+      "plays": 1
+    },
+    {
+      "name": "Intoxicated (feat. Raekwon, Method Man & Macy Gray)",
+      "artist": "Ol' Dirty Bastard",
+      "artist_slug": "ol-dirty-bastard",
+      "plays": 1
+    },
+    {
+      "name": "Brooklyn Zoo",
+      "artist": "Ol' Dirty Bastard",
+      "artist_slug": "ol-dirty-bastard",
+      "plays": 1
+    },
+    {
+      "name": "Shimmy Shimmy Ya",
+      "artist": "Ol' Dirty Bastard",
+      "artist_slug": "ol-dirty-bastard",
+      "plays": 1
+    },
+    {
+      "name": "Got Your Money (feat. Kelis)",
+      "artist": "Ol' Dirty Bastard",
+      "artist_slug": "ol-dirty-bastard",
+      "plays": 1
+    },
+    {
+      "name": "Road to Nowhere",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 1
+    },
+    {
+      "name": "Tempted",
+      "artist": "Squeeze",
+      "artist_slug": "squeeze",
+      "plays": 1
+    },
+    {
+      "name": "Northern Sky",
+      "artist": "Nick Drake",
+      "artist_slug": "nick-drake",
+      "plays": 1
+    },
+    {
+      "name": "Norwegian Wood (This Bird Has Flown) - Remastered 2009",
+      "artist": "The Beatles",
+      "artist_slug": "the-beatles",
+      "plays": 1
+    },
+    {
+      "name": "Brilliant Mistake",
+      "artist": "Elvis Costello",
+      "artist_slug": "elvis-costello",
+      "plays": 1
+    },
+    {
+      "name": "Helplessly Hoping - 2005 Remaster",
+      "artist": "Crosby, Stills & Nash",
+      "artist_slug": "crosby-stills-nash",
+      "plays": 1
+    },
+    {
+      "name": "Man On The Moon",
+      "artist": "R.E.M.",
+      "artist_slug": "rem",
+      "plays": 1
+    },
+    {
+      "name": "Walk On the Wild Side",
+      "artist": "Lou Reed",
+      "artist_slug": "lou-reed",
+      "plays": 1
+    },
+    {
+      "name": "Handle With Care",
+      "artist": "Traveling Wilburys",
+      "artist_slug": "traveling-wilburys",
+      "plays": 1
+    },
+    {
+      "name": "She",
+      "artist": "Elvis Costello",
+      "artist_slug": "elvis-costello",
+      "plays": 1
+    },
+    {
+      "name": "Down To Zero",
+      "artist": "Joan Armatrading",
+      "artist_slug": "joan-armatrading",
+      "plays": 1
+    },
+    {
+      "name": "These Days - Remastered",
+      "artist": "Jackson Browne",
+      "artist_slug": "jackson-browne",
+      "plays": 1
+    },
+    {
+      "name": "Please Read The Letter",
+      "artist": "Robert Plant",
+      "artist_slug": "robert-plant",
+      "plays": 1
+    },
+    {
+      "name": "Blue",
+      "artist": "The Jayhawks",
+      "artist_slug": "the-jayhawks",
+      "plays": 1
+    },
+    {
+      "name": "Don't Let Me Be Misunderstood",
+      "artist": "Elvis Costello",
+      "artist_slug": "elvis-costello",
+      "plays": 1
+    }
+  ]
+}

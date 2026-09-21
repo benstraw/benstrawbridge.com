@@ -3,9 +3,9 @@
     "id": "3WrFJ7ztbogyGnTHbHJFl2",
     "name": "The Beatles",
     "spotify_url": "https://open.spotify.com/artist/3WrFJ7ztbogyGnTHbHJFl2",
-    "total_plays": 13,
+    "total_plays": 14,
     "first_seen": "2026-02-13",
-    "last_seen": "2026-05-02",
+    "last_seen": "2026-09-14",
     "genres": [
       "classic rock",
       "psychedelic rock"
@@ -90,9 +90,9 @@
       },
       {
         "name": "Norwegian Wood (This Bird Has Flown) - Remastered 2009",
-        "album": "Rubber Soul (Remastered)",
+        "album": "Rubber Soul (Remastered 2009)",
         "spotify_url": "https://open.spotify.com/track/1H7gMYGykdtwZOV6s1N0by",
-        "plays": 2
+        "plays": 1
       },
       {
         "name": "Being For The Benefit Of Mr. Kite! - Remastered 2009",
@@ -3671,9 +3671,9 @@
     "id": "2x9SpqnPi8rlE9pjHBwmSC",
     "name": "Talking Heads",
     "spotify_url": "https://open.spotify.com/artist/2x9SpqnPi8rlE9pjHBwmSC",
-    "total_plays": 12,
+    "total_plays": 13,
     "first_seen": "2026-03-01",
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-09-14",
     "genres": [
       "new wave",
       "post-punk"
@@ -3709,6 +3709,12 @@
         "plays": 2
       },
       {
+        "name": "Road to Nowhere",
+        "album": "Little Creatures",
+        "spotify_url": "https://open.spotify.com/track/5gS8whHdcpbkdz0qonQZF8",
+        "plays": 2
+      },
+      {
         "name": "Once in a Lifetime",
         "album": "Remain in Light",
         "spotify_url": "https://open.spotify.com/track/1Tr4K5MU5XYE44umXGDndd",
@@ -3724,12 +3730,6 @@
         "name": "Don't Worry About the Government",
         "album": "Talking Heads '77",
         "spotify_url": "https://open.spotify.com/track/7pAAeToDaCaFROvuu8pZ92",
-        "plays": 1
-      },
-      {
-        "name": "Road to Nowhere",
-        "album": "Little Creatures",
-        "spotify_url": "https://open.spotify.com/track/5gS8whHdcpbkdz0qonQZF8",
         "plays": 1
       },
       {
@@ -11608,9 +11608,9 @@
     "id": "1YfEcTuGvBQ8xSD1f53UnK",
     "name": "Busta Rhymes",
     "spotify_url": "https://open.spotify.com/artist/1YfEcTuGvBQ8xSD1f53UnK",
-    "total_plays": 3,
+    "total_plays": 4,
     "first_seen": "2026-03-06",
-    "last_seen": "2026-04-05",
+    "last_seen": "2026-09-19",
     "genres": [
       "east coast hip hop"
     ],
@@ -11642,6 +11642,12 @@
         "name": "Calm Down (feat. Eminem)",
         "album": "Extinction Level Event 2: The Wrath of God (Reloaded)",
         "spotify_url": "https://open.spotify.com/track/3pZhyAO8XNWuv27MXk0HNM",
+        "plays": 1
+      },
+      {
+        "name": "Slow Flow",
+        "album": "Extinction Level Event 2: The Wrath of God",
+        "spotify_url": "https://open.spotify.com/track/6E2uPAR0i6CSKbOmeRWiDN",
         "plays": 1
       },
       {
@@ -20074,9 +20080,9 @@
     "id": "42TFhl7WlMRXiNqzSrnzPL",
     "name": "Lou Reed",
     "spotify_url": "https://open.spotify.com/artist/42TFhl7WlMRXiNqzSrnzPL",
-    "total_plays": 1,
+    "total_plays": 2,
     "first_seen": "2026-03-29",
-    "last_seen": "2026-03-29",
+    "last_seen": "2026-09-14",
     "genres": [
       "glam rock",
       "proto-punk"
@@ -20108,6 +20114,12 @@
         "name": "Perfect Day",
         "album": "Transformer",
         "spotify_url": "https://open.spotify.com/track/4TOMI010Sd4ZAX4aZ5TS85",
+        "plays": 1
+      },
+      {
+        "name": "Walk On the Wild Side",
+        "album": "Transformer",
+        "spotify_url": "https://open.spotify.com/track/5p3JunprHCxClJjOmcLV8G",
         "plays": 1
       },
       {
@@ -20461,9 +20473,9 @@
     "id": "5c3GLXai8YOMid29ZEuR9y",
     "name": "Nick Drake",
     "spotify_url": "https://open.spotify.com/artist/5c3GLXai8YOMid29ZEuR9y",
-    "total_plays": 2,
+    "total_plays": 3,
     "first_seen": "2026-03-29",
-    "last_seen": "2026-05-02",
+    "last_seen": "2026-09-14",
     "genres": [
       "folk",
       "singer-songwriter"
@@ -20492,15 +20504,15 @@
     ],
     "top_tracks": [
       {
-        "name": "Pink Moon",
-        "album": "Pink Moon",
-        "spotify_url": "https://open.spotify.com/track/4KROoGIaPaR1pBHPnR3bwC",
-        "plays": 1
-      },
-      {
         "name": "Northern Sky",
         "album": "Bryter Layter",
         "spotify_url": "https://open.spotify.com/track/7pdmBld4yW3WIUkrxHyb5r",
+        "plays": 2
+      },
+      {
+        "name": "Pink Moon",
+        "album": "Pink Moon",
+        "spotify_url": "https://open.spotify.com/track/4KROoGIaPaR1pBHPnR3bwC",
         "plays": 1
       },
       {
@@ -20677,9 +20689,9 @@
     "id": "5lkiCO9UQ8B23dZ1o0UV4m",
     "name": "Jackson Browne",
     "spotify_url": "https://open.spotify.com/artist/5lkiCO9UQ8B23dZ1o0UV4m",
-    "total_plays": 4,
+    "total_plays": 5,
     "first_seen": "2026-03-28",
-    "last_seen": "2026-03-28",
+    "last_seen": "2026-09-14",
     "genres": [
       "yacht rock",
       "soft rock",
@@ -20726,6 +20738,12 @@
         "name": "Doctor My Eyes - 1997 Remaster",
         "album": "The Next Voice You Hear - The Best Of Jackson Browne",
         "spotify_url": "https://open.spotify.com/track/5OuaAMBmGjjJMK7yXpaFAK",
+        "plays": 1
+      },
+      {
+        "name": "These Days - Remastered",
+        "album": "For Everyman (Remastered)",
+        "spotify_url": "https://open.spotify.com/track/5XOUUp8Vx0O0zy9bp7o4di",
         "plays": 1
       },
       {
@@ -20971,9 +20989,9 @@
     "id": "2pdvghEHZJtgSXZ7cvNLou",
     "name": "Crosby, Stills & Nash",
     "spotify_url": "https://open.spotify.com/artist/2pdvghEHZJtgSXZ7cvNLou",
-    "total_plays": 5,
+    "total_plays": 6,
     "first_seen": "2026-03-28",
-    "last_seen": "2026-03-28",
+    "last_seen": "2026-09-14",
     "genres": [
       "folk rock",
       "yacht rock"
@@ -21035,7 +21053,7 @@
         "name": "Helplessly Hoping - 2005 Remaster",
         "album": "Crosby, Stills & Nash",
         "spotify_url": "https://open.spotify.com/track/1UKobFsdqNXQb8OthimCKe",
-        "plays": 2
+        "plays": 1
       }
     ]
   },
@@ -38832,9 +38850,9 @@
     "id": "50NoVNy9GU1lCrDV8iGpyu",
     "name": "Ol' Dirty Bastard",
     "spotify_url": "https://open.spotify.com/artist/50NoVNy9GU1lCrDV8iGpyu",
-    "total_plays": 4,
+    "total_plays": 25,
     "first_seen": "2026-07-10",
-    "last_seen": "2026-08-11",
+    "last_seen": "2026-09-20",
     "genres": [
       "east coast hip hop",
       "old school hip hop",
@@ -38867,19 +38885,115 @@
         "name": "Hippa to da Hoppa",
         "album": "Return to the 36 Chambers: The Dirty Version",
         "spotify_url": "https://open.spotify.com/track/3cFT8G5sU4ind7VmAPsV5d",
-        "plays": 3
+        "plays": 4
       },
       {
         "name": "Baby C'mon",
         "album": "Return to the 36 Chambers: The Dirty Version",
         "spotify_url": "https://open.spotify.com/track/1z8yXYruBCYvudpel8ZZYe",
+        "plays": 2
+      },
+      {
+        "name": "Hip Hop Drunkies",
+        "album": "Wu-Tang Collective",
+        "spotify_url": "https://open.spotify.com/track/74fmf46mttLY9u4sVOBXdj",
+        "plays": 2
+      },
+      {
+        "name": "Thirsty",
+        "album": "Blade Trinity (Original Motion Picture Soundtrack)",
+        "spotify_url": "https://open.spotify.com/track/5pGm5AyUkdJhZaGGg0rIA9",
+        "plays": 2
+      },
+      {
+        "name": "You Don't Want to Fuck with Me",
+        "album": "Nigga Please",
+        "spotify_url": "https://open.spotify.com/track/3pVymCC8y0Grp93nlhR768",
+        "plays": 1
+      },
+      {
+        "name": "Dirty Run",
+        "album": "Osirus - The Official Mixtape",
+        "spotify_url": "https://open.spotify.com/track/71fA3RKObk01gmEYpyTtHS",
+        "plays": 1
+      },
+      {
+        "name": "Rollin' Wit You",
+        "album": "Nigga Please",
+        "spotify_url": "https://open.spotify.com/track/2cEFpGcTc5ojejit2pemXU",
+        "plays": 1
+      },
+      {
+        "name": "Pop Sh*t (feat. Pharrell)",
+        "album": "The Neptunes Present... Clones",
+        "spotify_url": "https://open.spotify.com/track/7a16rYbFZejylfwjwYVJ5P",
+        "plays": 1
+      },
+      {
+        "name": "Dirty Dirty",
+        "album": "Osirus - The Official Mixtape",
+        "spotify_url": "https://open.spotify.com/track/4mABKPPoHQLSesP4u3yE1a",
+        "plays": 1
+      },
+      {
+        "name": "Nigga Please",
+        "album": "Nigga Please",
+        "spotify_url": "https://open.spotify.com/track/5uXL8s94VazyTlgVj51HvF",
+        "plays": 1
+      },
+      {
+        "name": "High In The Clouds",
+        "album": "Osirus - The Official Mixtape",
+        "spotify_url": "https://open.spotify.com/track/1VfXNr7Sc6eBFurUGLxBX8",
+        "plays": 1
+      },
+      {
+        "name": "Pop Shots - produced by DJ Premier",
+        "album": "Osirus - The Official Mixtape",
+        "spotify_url": "https://open.spotify.com/track/1CTlQdXKObMSy382YHNPRC",
+        "plays": 1
+      },
+      {
+        "name": "Damage",
+        "album": "Return to the 36 Chambers: The Dirty Version",
+        "spotify_url": "https://open.spotify.com/track/6cfvxVx2PZFSFeghhmciy6",
+        "plays": 1
+      },
+      {
+        "name": "Raw Hide",
+        "album": "Return to the 36 Chambers: The Dirty Version",
+        "spotify_url": "https://open.spotify.com/track/5bY54Wk5IjGwK91Hv8ukbw",
+        "plays": 1
+      },
+      {
+        "name": "Proteck Ya Neck II the Zoo",
+        "album": "Return to the 36 Chambers: The Dirty Version",
+        "spotify_url": "https://open.spotify.com/track/3sWWQgNhOEDUGFMqASMcC5",
+        "plays": 1
+      },
+      {
+        "name": "Intoxicated (feat. Raekwon, Method Man & Macy Gray)",
+        "album": "Intoxicated (feat. Raekwon, Method Man & Macy Gray)",
+        "spotify_url": "https://open.spotify.com/track/14yv7I9fU2jZSpYxsU1YEN",
+        "plays": 1
+      },
+      {
+        "name": "Brooklyn Zoo",
+        "album": "Return to the 36 Chambers: The Dirty Version",
+        "spotify_url": "https://open.spotify.com/track/2FWmKZ3kNbVsKGhuNHsltW",
         "plays": 1
       },
       {
         "name": "Shimmy Shimmy Ya",
         "album": "Return to the 36 Chambers: The Dirty Version",
         "spotify_url": "https://open.spotify.com/track/3ABG1UQTk0eLYUAeWkmfMi",
-        "plays": 2
+        "plays": 1
+      },
+      {
+        "name": "Got Your Money (feat. Kelis)",
+        "album": "Nigga Please",
+        "spotify_url": "https://open.spotify.com/track/6YYd5MLpu45J0uLrMdivF7",
+        "plays": 1
       },
       {
         "name": "As High as Wu-Tang Get (feat. Ol' Dirty Bastard, GZA & Method Man)",
@@ -47093,9 +47207,9 @@
     "id": "2BGRfQgtzikz1pzAD0kaEn",
     "name": "Elvis Costello",
     "spotify_url": "https://open.spotify.com/artist/2BGRfQgtzikz1pzAD0kaEn",
-    "total_plays": 15,
+    "total_plays": 18,
     "first_seen": "2026-09-13",
-    "last_seen": "2026-09-13",
+    "last_seen": "2026-09-14",
     "genres": [
       "power pop"
     ],
@@ -47199,6 +47313,24 @@
         "name": "Welcome To The Working Week",
         "album": "My Aim Is True",
         "spotify_url": "https://open.spotify.com/track/39rkLB2TEENIvhwAlRC5ae",
+        "plays": 1
+      },
+      {
+        "name": "Brilliant Mistake",
+        "album": "King Of America",
+        "spotify_url": "https://open.spotify.com/track/2qwEONOmbIC7zoUwr9bIPE",
+        "plays": 1
+      },
+      {
+        "name": "She",
+        "album": "In Motion Pictures",
+        "spotify_url": "https://open.spotify.com/track/31Tp5iKrVUayn65qhg06nE",
+        "plays": 1
+      },
+      {
+        "name": "Don't Let Me Be Misunderstood",
+        "album": "King Of America",
+        "spotify_url": "https://open.spotify.com/track/1ahrChnrh6tiVodmvmYacN",
         "plays": 1
       },
       {
@@ -47629,6 +47761,342 @@
         "name": "Cold Beer Can (feat. Stephen Wilson Jr.)",
         "album": "Broken Branches",
         "spotify_url": "https://open.spotify.com/track/1ZFousk15pOB9oYAh3G51p",
+        "plays": 1
+      }
+    ]
+  },
+  "charlie-brown": {
+    "id": "536pTabXNhaK7O7VfjOk7P",
+    "name": "Charlie Brown",
+    "spotify_url": "https://open.spotify.com/artist/536pTabXNhaK7O7VfjOk7P",
+    "total_plays": 2,
+    "first_seen": "2026-09-19",
+    "last_seen": "2026-09-20",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b27372bb04a148af4647b45fdf75",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e0272bb04a148af4647b45fdf75",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000485172bb04a148af4647b45fdf75",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Nuttin But Flavor",
+        "album": "Box Of Tapes 3",
+        "spotify_url": "https://open.spotify.com/track/4HQTtg9Z0lLm8yneOiMofA",
+        "plays": 2
+      }
+    ]
+  },
+  "squeeze": {
+    "id": "6Jrj26oAY96EEC2lqC6fua",
+    "name": "Squeeze",
+    "spotify_url": "https://open.spotify.com/artist/6Jrj26oAY96EEC2lqC6fua",
+    "total_plays": 1,
+    "first_seen": "2026-09-14",
+    "last_seen": "2026-09-14",
+    "genres": [
+      "power pop",
+      "new wave"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebcd4eb927451b24bef67728d1",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174cd4eb927451b24bef67728d1",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178cd4eb927451b24bef67728d1",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Tempted",
+        "album": "East Side Story",
+        "spotify_url": "https://open.spotify.com/track/5r2z0FHOoFI06GZEVGDjzM",
+        "plays": 1
+      }
+    ]
+  },
+  "rem": {
+    "id": "4KWTAlx2RvbpseOGMEmROg",
+    "name": "R.E.M.",
+    "spotify_url": "https://open.spotify.com/artist/4KWTAlx2RvbpseOGMEmROg",
+    "total_plays": 1,
+    "first_seen": "2026-09-14",
+    "last_seen": "2026-09-14",
+    "genres": [
+      "jangle pop",
+      "alternative rock",
+      "rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb6334ab6a83196f36475ada7f",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051746334ab6a83196f36475ada7f",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1786334ab6a83196f36475ada7f",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Man On The Moon",
+        "album": "Automatic For The People",
+        "spotify_url": "https://open.spotify.com/track/4jLv3tDBu8ww2R07DvL12s",
+        "plays": 1
+      },
+      {
+        "name": "The Wrong Child - Remastered",
+        "album": "Green (Remastered)",
+        "spotify_url": "https://open.spotify.com/track/0iUfm46sMRas6TeNuMx8kh",
+        "plays": 2
+      },
+      {
+        "name": "Find The River",
+        "album": "Automatic For The People",
+        "spotify_url": "https://open.spotify.com/track/1e3Q7gE5TRUklXOlZFKIrv",
+        "plays": 2
+      },
+      {
+        "name": "Shiny Happy People",
+        "album": "Out Of Time (25th Anniversary Edition)",
+        "spotify_url": "https://open.spotify.com/track/1v2zyAJrChw5JnfafSkwkJ",
+        "plays": 2
+      },
+      {
+        "name": "Pop Song 89 - Remastered",
+        "album": "Green (Remastered)",
+        "spotify_url": "https://open.spotify.com/track/0pxpo14jvnN33Ej7xHV8TK",
+        "plays": 1
+      },
+      {
+        "name": "Orange Crush - Remastered 2013",
+        "album": "Green (Remastered)",
+        "spotify_url": "https://open.spotify.com/track/7sNhXWrg9eW3qRqeuePaIC",
+        "plays": 1
+      },
+      {
+        "name": "Stand - Remastered 2013",
+        "album": "Green (Remastered)",
+        "spotify_url": "https://open.spotify.com/track/22UhQSbYimuCnvI0Y07gFX",
+        "plays": 1
+      },
+      {
+        "name": "You Are The Everything - Remastered",
+        "album": "Green (Remastered)",
+        "spotify_url": "https://open.spotify.com/track/3Hjq2D8zxEmwqhsBB6uIzQ",
+        "plays": 1
+      },
+      {
+        "name": "Get Up - Remastered",
+        "album": "Green (Remastered)",
+        "spotify_url": "https://open.spotify.com/track/4XFYYi6pd05OhYkkDiEmZv",
+        "plays": 1
+      },
+      {
+        "name": "World Leader Pretend - Remastered",
+        "album": "Green (Remastered)",
+        "spotify_url": "https://open.spotify.com/track/60ZtAossxFnTXZ4E5lZhfC",
+        "plays": 1
+      }
+    ]
+  },
+  "traveling-wilburys": {
+    "id": "2hO4YtXUFJiUYS2uYFvHNK",
+    "name": "Traveling Wilburys",
+    "spotify_url": "https://open.spotify.com/artist/2hO4YtXUFJiUYS2uYFvHNK",
+    "total_plays": 1,
+    "first_seen": "2026-09-14",
+    "last_seen": "2026-09-14",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebabde33de707730af52c01bb0",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174abde33de707730af52c01bb0",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178abde33de707730af52c01bb0",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Handle With Care",
+        "album": "The Traveling Wilburys, Vol. 1",
+        "spotify_url": "https://open.spotify.com/track/1G0ku3TLCGwrAHj9WPudKX",
+        "plays": 1
+      }
+    ]
+  },
+  "joan-armatrading": {
+    "id": "1bdAJUX6JPsnYHbTl5jbk6",
+    "name": "Joan Armatrading",
+    "spotify_url": "https://open.spotify.com/artist/1bdAJUX6JPsnYHbTl5jbk6",
+    "total_plays": 1,
+    "first_seen": "2026-09-14",
+    "last_seen": "2026-09-14",
+    "genres": [
+      "singer-songwriter"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eba4f5e2f801a142e2b462b241",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174a4f5e2f801a142e2b462b241",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178a4f5e2f801a142e2b462b241",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Down To Zero",
+        "album": "Joan Armatrading",
+        "spotify_url": "https://open.spotify.com/track/7G4T7qkB0Wp32ItIvxBCw5",
+        "plays": 1
+      },
+      {
+        "name": "Love And Affection",
+        "album": "Joan Armatrading",
+        "spotify_url": "https://open.spotify.com/track/6Mnne5V9ZifNID59dswUcZ",
+        "plays": 3
+      },
+      {
+        "name": "Visionary Mountains - 2015 Remastered Version",
+        "album": "Whatever's For Us (2015 Remaster)",
+        "spotify_url": "https://open.spotify.com/track/0sufANIhWkA0I1GCXKA6Ki",
+        "plays": 2
+      },
+      {
+        "name": "Warm Love",
+        "album": "Show Some Emotion",
+        "spotify_url": "https://open.spotify.com/track/4LxZ1TJesGgztOcsJLHcJP",
+        "plays": 1
+      },
+      {
+        "name": "Woncha Come On Home",
+        "album": "Show Some Emotion",
+        "spotify_url": "https://open.spotify.com/track/5ToYFbGSkzTk2oLlCfR3Yp",
+        "plays": 1
+      }
+    ]
+  },
+  "robert-plant": {
+    "id": "1OwarW4LEHnoep20ixRA0y",
+    "name": "Robert Plant",
+    "spotify_url": "https://open.spotify.com/artist/1OwarW4LEHnoep20ixRA0y",
+    "total_plays": 1,
+    "first_seen": "2026-09-14",
+    "last_seen": "2026-09-14",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebfa79a501274aae1d9de3a201",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174fa79a501274aae1d9de3a201",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178fa79a501274aae1d9de3a201",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Please Read The Letter",
+        "album": "Raising Sand",
+        "spotify_url": "https://open.spotify.com/track/1m5N9YCZL4BXuSXdYmhRaj",
+        "plays": 1
+      },
+      {
+        "name": "Killing the Blues",
+        "album": "Raising Sand",
+        "spotify_url": "https://open.spotify.com/track/3KIoiyLwNxqHMfmlPFgDEG",
+        "plays": 2
+      }
+    ]
+  },
+  "the-jayhawks": {
+    "id": "2UDplVRprMbazU74Hq8OLl",
+    "name": "The Jayhawks",
+    "spotify_url": "https://open.spotify.com/artist/2UDplVRprMbazU74Hq8OLl",
+    "total_plays": 1,
+    "first_seen": "2026-09-14",
+    "last_seen": "2026-09-14",
+    "genres": [
+      "alt country",
+      "americana",
+      "roots rock",
+      "country rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb2b2a373eabe78fd76ff30831",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051742b2a373eabe78fd76ff30831",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1782b2a373eabe78fd76ff30831",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Blue",
+        "album": "Tomorrow The Green Grass",
+        "spotify_url": "https://open.spotify.com/track/5cDfI3KOa64zbuUgD6a4hG",
         "plays": 1
       }
     ]
@@ -56974,93 +57442,6 @@
         "name": "Halfway Home",
         "album": "In Tune And On Time",
         "spotify_url": "https://open.spotify.com/track/4xY2pw62Iz4682QQfIHaa2",
-        "plays": 1
-      }
-    ]
-  },
-  "rem": {
-    "id": "4KWTAlx2RvbpseOGMEmROg",
-    "name": "R.E.M.",
-    "spotify_url": "https://open.spotify.com/artist/4KWTAlx2RvbpseOGMEmROg",
-    "total_plays": 12,
-    "first_seen": "",
-    "last_seen": "",
-    "genres": [
-      "alternative rock",
-      "athens indie",
-      "permanent wave",
-      "rock"
-    ],
-    "images": [
-      {
-        "height": 640,
-        "url": "https://i.scdn.co/image/ab6761610000e5eb6334ab6a83196f36475ada7f",
-        "width": 640
-      },
-      {
-        "height": 320,
-        "url": "https://i.scdn.co/image/ab676161000051746334ab6a83196f36475ada7f",
-        "width": 320
-      },
-      {
-        "height": 160,
-        "url": "https://i.scdn.co/image/ab6761610000f1786334ab6a83196f36475ada7f",
-        "width": 160
-      }
-    ],
-    "top_tracks": [
-      {
-        "name": "The Wrong Child - Remastered",
-        "album": "Green (Remastered)",
-        "spotify_url": "https://open.spotify.com/track/0iUfm46sMRas6TeNuMx8kh",
-        "plays": 2
-      },
-      {
-        "name": "Find The River",
-        "album": "Automatic For The People",
-        "spotify_url": "https://open.spotify.com/track/1e3Q7gE5TRUklXOlZFKIrv",
-        "plays": 2
-      },
-      {
-        "name": "Shiny Happy People",
-        "album": "Out Of Time (25th Anniversary Edition)",
-        "spotify_url": "https://open.spotify.com/track/1v2zyAJrChw5JnfafSkwkJ",
-        "plays": 2
-      },
-      {
-        "name": "Pop Song 89 - Remastered",
-        "album": "Green (Remastered)",
-        "spotify_url": "https://open.spotify.com/track/0pxpo14jvnN33Ej7xHV8TK",
-        "plays": 1
-      },
-      {
-        "name": "Orange Crush - Remastered 2013",
-        "album": "Green (Remastered)",
-        "spotify_url": "https://open.spotify.com/track/7sNhXWrg9eW3qRqeuePaIC",
-        "plays": 1
-      },
-      {
-        "name": "Stand - Remastered 2013",
-        "album": "Green (Remastered)",
-        "spotify_url": "https://open.spotify.com/track/22UhQSbYimuCnvI0Y07gFX",
-        "plays": 1
-      },
-      {
-        "name": "You Are The Everything - Remastered",
-        "album": "Green (Remastered)",
-        "spotify_url": "https://open.spotify.com/track/3Hjq2D8zxEmwqhsBB6uIzQ",
-        "plays": 1
-      },
-      {
-        "name": "Get Up - Remastered",
-        "album": "Green (Remastered)",
-        "spotify_url": "https://open.spotify.com/track/4XFYYi6pd05OhYkkDiEmZv",
-        "plays": 1
-      },
-      {
-        "name": "World Leader Pretend - Remastered",
-        "album": "Green (Remastered)",
-        "spotify_url": "https://open.spotify.com/track/60ZtAossxFnTXZ4E5lZhfC",
         "plays": 1
       }
     ]
@@ -67037,67 +67418,6 @@
         "name": "La boîte à joujoux, L. 128: III. La bergerie à vendre",
         "album": "Jeux, La Boite A Joujoux, Prelude A L'Apres Midi D'Un Faune",
         "spotify_url": "https://open.spotify.com/track/2vqpvRc2fOowGpcMoauBY1",
-        "plays": 1
-      }
-    ]
-  },
-  "joan-armatrading": {
-    "id": "1bdAJUX6JPsnYHbTl5jbk6",
-    "name": "Joan Armatrading",
-    "spotify_url": "https://open.spotify.com/artist/1bdAJUX6JPsnYHbTl5jbk6",
-    "total_plays": 8,
-    "first_seen": "",
-    "last_seen": "",
-    "genres": [
-      "folk",
-      "singer-songwriter"
-    ],
-    "images": [
-      {
-        "height": 640,
-        "url": "https://i.scdn.co/image/ab6761610000e5ebbf005ac8d9ce2f3499079ea1",
-        "width": 640
-      },
-      {
-        "height": 320,
-        "url": "https://i.scdn.co/image/ab67616100005174bf005ac8d9ce2f3499079ea1",
-        "width": 320
-      },
-      {
-        "height": 160,
-        "url": "https://i.scdn.co/image/ab6761610000f178bf005ac8d9ce2f3499079ea1",
-        "width": 160
-      }
-    ],
-    "top_tracks": [
-      {
-        "name": "Love And Affection",
-        "album": "Joan Armatrading",
-        "spotify_url": "https://open.spotify.com/track/6Mnne5V9ZifNID59dswUcZ",
-        "plays": 3
-      },
-      {
-        "name": "Visionary Mountains - 2015 Remastered Version",
-        "album": "Whatever's For Us (2015 Remaster)",
-        "spotify_url": "https://open.spotify.com/track/0sufANIhWkA0I1GCXKA6Ki",
-        "plays": 2
-      },
-      {
-        "name": "Warm Love",
-        "album": "Show Some Emotion",
-        "spotify_url": "https://open.spotify.com/track/4LxZ1TJesGgztOcsJLHcJP",
-        "plays": 1
-      },
-      {
-        "name": "Down To Zero",
-        "album": "Joan Armatrading",
-        "spotify_url": "https://open.spotify.com/track/7G4T7qkB0Wp32ItIvxBCw5",
-        "plays": 1
-      },
-      {
-        "name": "Woncha Come On Home",
-        "album": "Show Some Emotion",
-        "spotify_url": "https://open.spotify.com/track/5ToYFbGSkzTk2oLlCfR3Yp",
         "plays": 1
       }
     ]
