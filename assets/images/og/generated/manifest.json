@@ -985,6 +985,12 @@
       "layout": "split",
       "section": "listening"
     },
+    "/listening/artists/charlie-brown/": {
+      "output": "listening/artists/charlie-brown.jpg",
+      "fingerprint": "fcacc7268a7f987c62964290bdf3c28ac0aeeba667ad60bdf819e151ccf1cf72",
+      "layout": "split",
+      "section": "listening"
+    },
     "/listening/artists/charlie-parker-and-his-orchestra/": {
       "output": "listening/artists/charlie-parker-and-his-orchestra.jpg",
       "fingerprint": "9b3f8332baa24f4b21d63316a0ebbc27d701d52ccaa61ce9c87d371578cbdbf0",
@@ -2541,7 +2547,7 @@
     },
     "/listening/artists/joan-armatrading/": {
       "output": "listening/artists/joan-armatrading.jpg",
-      "fingerprint": "5c336dfeca8f52ae228a3f06da3090ac47fc0e790012987c677c00f50fb4a261",
+      "fingerprint": "fe694b9e25fbad8db3eace623b1859eb9211c85b4e9881d756c6f1e39647ef3c",
       "layout": "split",
       "section": "listening"
     },
@@ -4147,6 +4153,12 @@
       "layout": "split",
       "section": "listening"
     },
+    "/listening/artists/robert-plant/": {
+      "output": "listening/artists/robert-plant.jpg",
+      "fingerprint": "f78290ca09223b12ab802582a17f47b468521cb0816914e4ae7f33e90dff3e17",
+      "layout": "split",
+      "section": "listening"
+    },
     "/listening/artists/robert-schumann/": {
       "output": "listening/artists/robert-schumann.jpg",
       "fingerprint": "d62662d7c2cd44eb654cdd23b2d19f4e44d90bb1e92dd1b43df4ec7e34ae4635",
@@ -4504,6 +4516,12 @@
     "/listening/artists/spoonbeats/": {
       "output": "listening/artists/spoonbeats.jpg",
       "fingerprint": "4b061f861a1e22569064e1e2dbda945489f40c41152a30c3bbc091f315203e9b",
+      "layout": "split",
+      "section": "listening"
+    },
+    "/listening/artists/squeeze/": {
+      "output": "listening/artists/squeeze.jpg",
+      "fingerprint": "b6e4ab50e8e06be1d1120343e873847b4f6ac1c2ff8aa3b055d5e85cc5d430c2",
       "layout": "split",
       "section": "listening"
     },
@@ -4933,6 +4951,12 @@
       "layout": "full",
       "section": "listening"
     },
+    "/listening/artists/the-jayhawks/": {
+      "output": "listening/artists/the-jayhawks.jpg",
+      "fingerprint": "f709a8ad66542eea1d722191288d716a93cdd146325a49f475e115da315e1dd4",
+      "layout": "split",
+      "section": "listening"
+    },
     "/listening/artists/the-kingsmen/": {
       "output": "listening/artists/the-kingsmen.jpg",
       "fingerprint": "06f6db0197e95af25daa1d8d049d7ad625f5dd1ecb37e89dca3358ba27982ae3",
@@ -5284,6 +5308,12 @@
     "/listening/artists/trampled-by-turtles/": {
       "output": "listening/artists/trampled-by-turtles.jpg",
       "fingerprint": "68746da384aa6ffe836fea19a2a44841bc6e29f6f4574515c77fc5d344ba93c4",
+      "layout": "split",
+      "section": "listening"
+    },
+    "/listening/artists/traveling-wilburys/": {
+      "output": "listening/artists/traveling-wilburys.jpg",
+      "fingerprint": "12a111e2616ed8f2ae36b0091a062454ecf23486e20340728be504c5b3ac3218",
       "layout": "split",
       "section": "listening"
     },
@@ -5881,6 +5911,12 @@
       "layout": "split",
       "section": "listening"
     },
+    "/listening/weekly/2026-w38/": {
+      "output": "listening/weekly/2026-w38.jpg",
+      "fingerprint": "4ba852f319591d821b9f6f575df059205692aa99446366e6fde4566f9a0ba054",
+      "layout": "full",
+      "section": "listening"
+    },
     "/musical-genres/": {
       "output": "musical-genres.jpg",
       "fingerprint": "73ad4307e5acb62d8bc1e767dfcab4458a5ad4e1f2c661d6ac857e98e0edd5d7",
@@ -6117,7 +6153,7 @@
     },
     "/musical-genres/athens-indie/": {
       "output": "musical-genres/athens-indie.jpg",
-      "fingerprint": "a961d315c6fd32acb3d894f028ecc1683652cb0a8369474af4bd7bb085118e44",
+      "fingerprint": "e6877f5cda0f026f4aaf9a097401e030d915b0053853fcc1bcf0fbfff27287a5",
       "layout": "split",
       "section": "listening"
     },
@@ -7227,8 +7263,8 @@
     },
     "/musical-genres/hardcore-hip-hop/": {
       "output": "musical-genres/hardcore-hip-hop.jpg",
-      "fingerprint": "01cd5d9699a6a441ce542b01525b3644e22f74b502c17daded1fbd36a2d7bcd9",
-      "layout": "split",
+      "fingerprint": "9d391b7dab79041074c8bf0f5d70cdd4a7a7462cebda65db8283fb004af3f0da",
+      "layout": "full",
       "section": "listening"
     },
     "/musical-genres/hardcore-punk/": {
@@ -7450,6 +7486,12 @@
     "/musical-genres/jamaican-ska/": {
       "output": "musical-genres/jamaican-ska.jpg",
       "fingerprint": "5baeceed99f3b293dc757067df61a3c5230d073503e6d43347a8ac1eda6e6fed",
+      "layout": "split",
+      "section": "listening"
+    },
+    "/musical-genres/jangle-pop/": {
+      "output": "musical-genres/jangle-pop.jpg",
+      "fingerprint": "1fbb87852eb164254a7a3c91ccd185b475d47b0160f6ef1a7331266452d9022e",
       "layout": "split",
       "section": "listening"
     },
