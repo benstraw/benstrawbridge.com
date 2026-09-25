@@ -55,7 +55,11 @@
         >
       </div>
       {{- if $allTags -}}
-      <div x-effect="if (selectedTag && !availableTags.includes(selectedTag)) selectedTag = ''">
+      {{- /* No x-effect guarding selectedTag here: an `if (…) …` statement is not
+             an expression, and the CSP-Alpine parser throws "Unexpected token"
+             on it, aborting the component. init() in assets/js/extended.js
+             already drops an unknown ?tag=, and links never change after init. */}}
+      <div>
         <label class="block text-xs text-neutral-500 dark:text-neutral-400 mb-1">Tag</label>
         <select x-model="selectedTag" class="px-3 py-2 border border-neutral-300 dark:border-neutral-600 rounded-md bg-white dark:bg-neutral-700 dark:text-neutral-100 text-sm">
           <option value="">All Tags</option>
