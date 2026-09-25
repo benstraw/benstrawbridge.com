@@ -475,8 +475,10 @@ the failure and degrade:
   `placeholder = true`.
 - **Code samples** — handled by the **theme** as of Ryder v0.3.2: the shortcode
   warns and renders a link to the file on GitHub instead of the highlighted
-  source. `params.highlightGithubStrict = true` in `config/production` keeps the
-  hard failure on Cloudflare builds. The site override that used to do this was deleted
+  source. `params.highlightGithubStrict = false` in `config/production` makes
+  production degrade the same way: the calls are unauthenticated, Cloudflare's
+  build machines share egress IPs, and GitHub's 60/hour-per-IP limit would
+  otherwise fail deploys over other people's traffic. The site override that used to do this was deleted
   when the submodule moved to v0.3.2 — do not reintroduce it.
 
 Both wrap the call in `try`. This matters: a blocked host raises a *hard
@@ -486,8 +488,7 @@ resource was removed in Hugo 0.141, below this repo's 0.146 floor, so reading
 it is always a build-aborting error — `try` is the only way to see either
 failure. `$attempt.Err` (the `try` result) is a different thing and is correct.
 
-The books fallback applies only when `hugo.Environment` is not `production`;
-the shortcode draws the same distinction through `highlightGithubStrict`.
+The books fallback applies only when `hugo.Environment` is not `production`.
 Cloudflare Workers Builds runs with open network, so a failed fetch there is
 real and still stops the build — verified: the same cover fetch logs `WARN` under
 `--environment development` and `ERROR` under `--environment production`.
@@ -585,7 +586,7 @@ Workers Builds from this repo. It used to be an AWS Amplify app; see
 | Deploy / preview commands | `npx wrangler deploy` / `npx wrangler versions upload` |
 | Worker config | `wrangler.jsonc`: serves `public/`, `auto-trailing-slash`, `404-page` |
 | Path redirects | `static/_redirects` |
-| Response headers | `_headers`, currently only the theme's `themes/ryder/static/_headers` |
+| Response headers | `static/_headers`, shadowing the theme's `themes/ryder/static/_headers` |
 | Apex → www | A Cloudflare **Redirect Rule** on the zone, not in the repo |
 | Build variables | Cloudflare dashboard: `HUGO_VERSION`, `PUBLIC_POSTHOG_KEY`, `PUBLIC_POSTHOG_HOST` |
 
@@ -609,7 +610,10 @@ header, so nothing about hosting changes it. The theme ships a Netlify-style
 `static/_headers` cache policy that Amplify ignored and Cloudflare honours.
 Its catch-all `/*` rule overlaps the `/css/*`, `/js/*` and `/images/*` rules,
 and Cloudflare joins the values of a header set by more than one matching rule.
-Fix that upstream in Ryder, or shadow it with a site `static/_headers`.
+`/images/*` also marks unfingerprinted files immutable. The site's
+`static/_headers` shadows it with non-overlapping rules (`:file` matches one
+path segment) until arts-link/ryder#115 ships; removing it is tracked in #128. Keep rules non-overlapping for
+any one header when editing it.
 
 **Testing the build in a cloud session** hits the autoprefixer/browserslist
 filesystem restriction described above, since `cf:build` builds in the

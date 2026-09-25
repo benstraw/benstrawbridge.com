@@ -4,13 +4,14 @@ enableGitInfo = false
 [params]
   env = "production"
 
-  # Ryder v0.3.2 made highlight-github warn and degrade to a link instead of
-  # killing the build, which is what a cloud session needs — api.github.com is
-  # unreachable there no matter how the network is configured. Cloudflare
-  # Workers Builds runs with open network, so a failure here is real and should still stop the
-  # build. This replaces the site-level shortcode override that used to draw
-  # the same distinction with `hugo.Environment`.
-  highlightGithubStrict = true
+  # highlight-github (4 uses, up to 8 calls per build) hits api.github.com with
+  # no token; the theme gives it nowhere to put one. Cloudflare's build
+  # machines share egress IPs, and GitHub allows 60 unauthenticated requests
+  # per hour per IP, so a rate limit there is someone else's traffic, not a
+  # real failure. With strict off the shortcode warns in the build log and
+  # renders a link to the file on GitHub instead of failing the deploy.
+  # Revisit once Ryder can send a token.
+  highlightGithubStrict = false
   analytics_provider = "posthog"
   posthog_host = "https://t.benstrawbridge.com"
   posthog_ui_host = "https://us.posthog.com"
