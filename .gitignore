@@ -52,3 +52,9 @@ themes/benstraw/assets/fontawesome/js/solid.min.js
 themes/benstraw/assets/fontawesome/js/v4-shims.js
 themes/benstraw/assets/fontawesome/js/v4-shims.min.js
 *.mp4
+
+# Cloudflare
+.wrangler/
+
+# scripts/aws-teardown.sh inventory snapshots
+/aws-teardown-backup/

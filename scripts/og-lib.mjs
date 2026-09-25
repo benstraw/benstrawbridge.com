@@ -78,7 +78,7 @@ export function outputRelative(canonical) {
 
 export function fingerprintHtml(html) {
   // Hugo injects its own version into the home-page document. That metadata
-  // does not affect the screenshot, and local/Amplify Hugo patch versions can
+  // does not affect the screenshot, and local/CI Hugo patch versions can
   // differ, so exclude it from the visual freshness fingerprint.
   const visualHtml = html
     .replace(/<meta\s+name=["']generator["']\s+content=["']Hugo\s+[^"']+["']\s*\/?>\s*/gi, '')

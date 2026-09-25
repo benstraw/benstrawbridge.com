@@ -1,0 +1,17 @@
+# Cloudflare Workers static-asset redirects. Wrangler reads this from public/
+# (Hugo copies it out of static/). Path rules only: the apex -> www host
+# redirect cannot be expressed here and lives in a Cloudflare Redirect Rule on
+# the zone. See "Cloudflare deploy" in CLAUDE.md.
+#
+# Rules are evaluated top to bottom, first match wins, so specific rules go
+# above the wildcards that would otherwise swallow them.
+
+# Retired Spotify content adaptor, and the per-artist pages beneath it.
+/projects/content-adaptors/spotify/ /listening/artists/ 301
+/projects/content-adaptors/spotify/* /listening/artists/:splat 301
+
+# Old hiking-guide URL. It used to be only a Hugo alias (meta refresh), and
+# Google kept the stub indexed five months on, ranking it at 6.26, above the
+# real page at 6.74. Leave the alias in content/trails/bluff-creek-trail/index.md
+# until this rule is confirmed live; drop it only after that.
+/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/bluff-creek-trail/ /trails/bluff-creek-trail/ 301

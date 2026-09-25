@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# Mock `curl`: HEAD of the live site, and DNS-over-HTTPS NS lookups.
+#   $MOCK_STATE/serving   "cloudflare" (default) or "cloudfront"
+#   $MOCK_STATE/ns        "cloudflare" (default) or "aws"
+set -euo pipefail
+if [[ " $* " == *" -sSI "* ]]; then
+  if [ "$(cat "$MOCK_STATE/serving" 2>/dev/null || echo cloudflare)" = cloudfront ]; then
+    printf 'HTTP/2 200\r\nServer: AmazonS3\r\nVia: 1.1 abc.cloudfront.net (CloudFront)\r\nX-Amz-Cf-Pop: LAX50\r\n\r\n'
+  else
+    printf 'HTTP/2 200\r\nServer: cloudflare\r\nCF-Ray: 1\r\n\r\n'
+  fi
+  exit 0
+fi
+if [ "$(cat "$MOCK_STATE/ns" 2>/dev/null || echo cloudflare)" = aws ]; then
+  echo '{"Answer":[{"data":"ns-1.awsdns-01.org."}]}'
+else
+  echo '{"Answer":[{"data":"ada.ns.cloudflare.com."},{"data":"bob.ns.cloudflare.com."}]}'
+fi

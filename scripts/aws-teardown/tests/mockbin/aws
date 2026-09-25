@@ -1,0 +1,49 @@
+#!/usr/bin/env bash
+# Mock `aws` for the teardown tests. Logs every call to $MOCK_STATE/calls and
+# answers read calls from canned fixtures. Knobs (files in $MOCK_STATE):
+#   no-app            get-app fails, as if the app is already gone
+#   oidc-shared       another role trusts the GitHub OIDC provider
+set -euo pipefail
+echo "$*" >>"${MOCK_STATE}/calls"
+args=" $* "
+case "$1 $2" in
+  "amplify get-app")
+    [ -e "$MOCK_STATE/no-app" ] && { echo "NotFoundException" >&2; exit 254; }
+    echo '{"app":{"name":"benstrawbridge.com","defaultDomain":"d1abc.amplifyapp.com","environmentVariables":{"PUBLIC_POSTHOG_KEY":"phc_x"},"customRules":[{"source":"/a","target":"/b","status":"301"}]}}' ;;
+  "amplify list-apps") echo '{"apps":[{"appId":"d1abc","name":"benstrawbridge.com","defaultDomain":"d1abc.amplifyapp.com"}]}' ;;
+  "amplify list-branches") echo '{"branches":[{"branchName":"main"}]}' ;;
+  "amplify list-webhooks") echo '{"webhooks":[]}' ;;
+  "amplify list-domain-associations") echo '{"domainAssociations":[{"domainName":"benstrawbridge.com"}]}' ;;
+  "iam get-role") echo '{"Role":{"RoleName":"github-amplify-preview"}}' ;;
+  "iam list-role-policies") echo '{"PolicyNames":["amplify-preview"]}' ;;
+  "iam get-role-policy") echo '{"PolicyDocument":{}}' ;;
+  "iam list-attached-role-policies") echo '{"AttachedPolicies":[]}' ;;
+  "iam list-open-id-connect-providers")
+    echo '{"OpenIDConnectProviderList":[{"Arn":"arn:aws:iam::1:oidc-provider/token.actions.githubusercontent.com"}]}' ;;
+  "iam list-roles")
+    if [ -e "$MOCK_STATE/oidc-shared" ]; then
+      echo '{"Roles":[{"RoleName":"other-deployer","AssumeRolePolicyDocument":{"Statement":[{"Principal":{"Federated":"arn:aws:iam::1:oidc-provider/token.actions.githubusercontent.com"}}]}}]}'
+    else
+      echo '{"Roles":[{"RoleName":"github-amplify-preview","AssumeRolePolicyDocument":{"Statement":[{"Principal":{"Federated":"arn:aws:iam::1:oidc-provider/token.actions.githubusercontent.com"}}]}}]}'
+    fi ;;
+  "route53 list-hosted-zones-by-name")
+    echo '{"HostedZones":[{"Id":"/hostedzone/Z1","Name":"benstrawbridge.com."},{"Id":"/hostedzone/Z2","Name":"other.com."}]}' ;;
+  "route53 list-resource-record-sets")
+    echo '{"ResourceRecordSets":[{"Name":"benstrawbridge.com.","Type":"NS"},{"Name":"benstrawbridge.com.","Type":"SOA"},{"Name":"www.benstrawbridge.com.","Type":"CNAME"}]}' ;;
+  "acm list-certificates")
+    echo '{"CertificateSummaryList":[{"DomainName":"www.benstrawbridge.com","CertificateArn":"arn:cert-free"},{"DomainName":"example.org","CertificateArn":"arn:cert-other"}]}' ;;
+  "acm describe-certificate") echo '{"Certificate":{"InUseBy":[]}}' ;;
+  "s3api list-buckets") echo '{"Buckets":[{"Name":"benstraw-site"},{"Name":"unrelated-bucket"}]}' ;;
+  "s3api list-objects-v2") echo '{"Contents":[{"Key":"a"}]}' ;;
+  "s3api list-object-versions")
+    # One page of versions, then empty once delete-objects has run.
+    if grep -q '^s3api delete-objects' "$MOCK_STATE/calls"; then echo '{}';
+    else echo '{"Versions":[{"Key":"a","VersionId":"v1"}],"DeleteMarkers":[{"Key":"b","VersionId":"v2"}]}'; fi ;;
+  "cloudfront list-distributions")
+    echo '{"DistributionList":{"Items":[{"Id":"E1","Aliases":{"Items":["www.benstrawbridge.com"]}}]}}' ;;
+  *)
+    # Mutating calls just succeed; the tests assert on the log.
+    case "$2" in delete-*|detach-*|change-*) echo '{}' ;;
+      *) echo "mock aws: unsupported call: $*" >&2; exit 1 ;;
+    esac ;;
+esac

@@ -47,9 +47,8 @@ npm run og:generate -- --only /section/new-page-slug/
 
 Unlike trail cards (see "Trail OG cards" below), this works fine in a cloud
 session — non-trail cards don't fetch map tiles, so there's nothing for the
-agent proxy to break. `npm run og:check` (which Amplify runs as the first
-build step, before Hugo itself) warns instead of failing on a missing or
-stale card — a page without one just falls through to the generic branded OG
+agent proxy to break. `npm run og:check` warns instead of failing on a missing or stale card
+(deploys no longer run it, so run it yourself) — a page without one just falls through to the generic branded OG
 image — but the warning is worth fixing rather than ignoring.
 
 ### Theme & Submodules
@@ -422,7 +421,7 @@ walks above the repo root looking for config and trips the container's
 filesystem boundary (`ERR_ACCESS_DENIED / FileSystemRead`). A `.browserslistrc`
 does not fix it — the second lookup, for `browserslist-stats.json`, traverses
 regardless. Use `hugo build --environment development` in remote sessions; real
-production builds happen on AWS Amplify.
+production builds happen on Cloudflare Workers Builds.
 
 ### Build-time remote fetches
 Two call sites use `resources.GetRemote` *while building*. Both now degrade to a
@@ -476,8 +475,10 @@ the failure and degrade:
   `placeholder = true`.
 - **Code samples** — handled by the **theme** as of Ryder v0.3.2: the shortcode
   warns and renders a link to the file on GitHub instead of the highlighted
-  source. `params.highlightGithubStrict = true` in `config/production` keeps the
-  hard failure on Amplify. The site override that used to do this was deleted
+  source. `params.highlightGithubStrict = false` in `config/production` makes
+  production degrade the same way: the calls are unauthenticated, Cloudflare's
+  build machines share egress IPs, and GitHub's 60/hour-per-IP limit would
+  otherwise fail deploys over other people's traffic. The site override that used to do this was deleted
   when the submodule moved to v0.3.2 — do not reintroduce it.
 
 Both wrap the call in `try`. This matters: a blocked host raises a *hard
@@ -487,10 +488,9 @@ resource was removed in Hugo 0.141, below this repo's 0.146 floor, so reading
 it is always a build-aborting error — `try` is the only way to see either
 failure. `$attempt.Err` (the `try` result) is a different thing and is correct.
 
-The books fallback applies only when `hugo.Environment` is not `production`;
-the shortcode draws the same distinction through `highlightGithubStrict`.
-Amplify builds with open network, so a failed fetch there is real and still
-stops the build — verified: the same cover fetch logs `WARN` under
+The books fallback applies only when `hugo.Environment` is not `production`.
+Cloudflare Workers Builds runs with open network, so a failed fetch there is
+real and still stops the build — verified: the same cover fetch logs `WARN` under
 `--environment development` and `ERROR` under `--environment production`.
 Failures are always logged, so a degraded local build is never silent.
 
@@ -574,40 +574,71 @@ matter — so `git checkout content/trails/` afterwards.
 No CSP change is involved: tiles are fetched by the screenshotter at generation
 time, never by a visitor, and the `og:image` itself is same-origin.
 
-## On-demand Amplify previews
+## Cloudflare deploy
 
-Pull requests get a preview build **only when one is requested** — the
-`deploy-preview` label or a manual run of *Amplify preview (on demand)*. Opening a
-PR, pushing to it, or reopening it deploys nothing, and Amplify's native
-*Pull request previews* setting stays off. Closing the PR removes the preview.
+The site is a static-assets-only Cloudflare Worker, built and deployed by
+Workers Builds from this repo. It used to be an AWS Amplify app; see
+"Retiring AWS" below.
 
-`docs/amplify-preview-deployments.md` is the full reference: setup, IAM policies,
-the preview URL format, security limits and manual cleanup. Three things worth
-knowing before touching `.github/workflows/amplify-preview*.yml`:
+| Piece | Where |
+| --- | --- |
+| Build command | `npm run cf:build` → `scripts/cf-build.sh` |
+| Deploy / preview commands | `npx wrangler deploy` / `npx wrangler versions upload` |
+| Worker config | `wrangler.jsonc`: serves `public/`, `auto-trailing-slash`, `404-page` |
+| Path redirects | `static/_redirects` |
+| Response headers | `static/_headers`, shadowing the theme's `themes/ryder/static/_headers` |
+| Apex → www | A Cloudflare **Redirect Rule** on the zone, not in the repo |
+| Build variables | Cloudflare dashboard: `HUGO_VERSION`, `PUBLIC_POSTHOG_KEY`, `PUBLIC_POSTHOG_HOST` |
 
-- **The PR head is never checked out.** Both workflows run on
-  `pull_request_target`, so they hold a writable token in base-repo context. That
-  is only safe because no step executes PR-authored code: the temporary branch is
-  created through the GitHub refs API, and the scripts and the env policy always
-  come from the base branch. Do not add a checkout of the head SHA, and do not add
-  a build/install/lint step.
-- **An Amplify branch is a Git branch.** The Amplify branch is
-  `amplify-preview/pr-N`, same as the temporary Git branch; the `pr-N` URL prefix
-  comes from the branch's `displayName`. A RELEASE job builds whatever that Git
-  branch points at.
-- **App-level Amplify environment variables are inherited by previews.** Every one
-  of them must be classified in `.github/amplify-preview-env.json` or the
-  deployment stops before creating anything.
-- **The `amplify-preview` GitHub environment must allow only `main`.** The OIDC
-  subject names the environment rather than the workflow ref, so the environment's
-  selected-branch rule is what prevents a workflow on another branch from assuming
-  the preview role.
-- **PRs that modify `.github/workflows/**` are not previewable.** GitHub can require
-  the separate Workflows permission to create a ref at such a commit, and
-  `GITHUB_TOKEN` cannot receive it; the authorisation guard rejects these requests.
+**`cf:build`** fetches the theme submodule and checks for Hugo extended. Cloudflare
+installs Hugo from `HUGO_VERSION`, and that value has to name the extended
+build, not just the number. The script falls back to downloading the version
+number it finds in `HUGO_VERSION` (default `0.164.0`). It does **not** run
+`og:check`; run that locally when adding content.
 
-`npm run test:amplify-preview` exercises the deploy, cleanup and authorisation
-scripts against mock `aws`/`gh` binaries — no AWS account, no throwaway PR.
+**Previews are every non-`main` branch.** `WORKERS_CI_BRANCH` decides, and a
+preview build differs from production in three ways, all in `cf-build.sh`:
+
+- `PUBLIC_POSTHOG_KEY` is blanked, so preview traffic never reaches analytics.
+- `baseURL` is `/` (override with `CF_PREVIEW_BASEURL`). The production baseURL
+  makes Hugo emit absolute `www` asset URLs, which the CSP meta tag's `'self'`
+  rejects on a `*.workers.dev` host.
+- `X-Robots-Tag: noindex` is appended to `public/_headers`.
+
+**Headers.** The CSP is a `<meta>` tag rendered by the theme, not a response
+header, so nothing about hosting changes it. The theme ships a Netlify-style
+`static/_headers` cache policy that Amplify ignored and Cloudflare honours.
+Its catch-all `/*` rule overlaps the `/css/*`, `/js/*` and `/images/*` rules,
+and Cloudflare joins the values of a header set by more than one matching rule.
+`/images/*` also marks unfingerprinted files immutable. The site's
+`static/_headers` shadows it with non-overlapping rules (`:file` matches one
+path segment) until arts-link/ryder#115 ships; removing it is tracked in #128. Keep rules non-overlapping for
+any one header when editing it.
+
+**Testing the build in a cloud session** hits the autoprefixer/browserslist
+filesystem restriction described above, since `cf:build` builds in the
+production environment. Prefix it with `HUGO_ENVIRONMENT=development` to
+exercise the script. Add `WORKERS_CI_BRANCH=anything` for the preview path.
+`npx wrangler deploy --dry-run` validates `wrangler.jsonc` against `public/`
+without a Cloudflare login.
+
+### Cutover checklist
+
+1. After this lands on `main`, go to Workers & Pages → Create → Import a
+   repository → `benstraw/benstrawbridge.com`. Fill in:
+   - Name `benstrawbridge-com`, which must match `wrangler.jsonc`.
+   - Production branch `main`, with the commands and build variables above.
+   - `PUBLIC_POSTHOG_KEY` is the public `phc_…` project key: the Amplify app's
+     environment variables, or PostHog → Project settings.
+2. Check the `*.workers.dev` URL and one preview build.
+3. Add custom domains `www.benstrawbridge.com` and `benstrawbridge.com` to the
+   Worker. Cloudflare replaces the DNS records pointing at Amplify; this is the
+   cutover. Restoring those records rolls it back.
+4. Add a Redirect Rule: hostname equals `benstrawbridge.com` → dynamic
+   `concat("https://www.benstrawbridge.com", http.request.uri.path)`, 301,
+   preserve query string. Hugo builds absolute asset URLs on www, so serving
+   HTML from the apex makes CSP `'self'` reject its own assets.
+5. Once the checks under "Redirects" pass, retire AWS.
 
 ## Redirects
 
@@ -618,40 +649,48 @@ would fire, and five months later Google still indexed the stub and ranked it at
 position **6.26 — above the real page at 6.74**, taking 15 clicks and 814
 impressions with it. Use a real 301 for anything that has ever ranked.
 
-**Amplify has no repo-level redirect file.** `customHttp.yml` sets headers only;
-redirects live in the app's `customRules`. So `amplify-redirects.json` at the
-repo root is the source of truth, and applying it is a deliberate manual step:
+Path redirects live in **`static/_redirects`**, which Hugo copies to
+`public/_redirects` for Cloudflare. Syntax is `source target status`; wildcards
+are `*` in the source and `:splat` in the target. The first match wins, so
+specific rules go above wildcards. It matches paths only, which is why apex → www
+is a zone Redirect Rule instead.
+
+The bluff-creek alias in `content/trails/bluff-creek-trail/index.md` stays until
+the 301 is confirmed live on Cloudflare. Check:
 
 ```bash
-AMPLIFY_APP_ID=… AWS_REGION=… ./scripts/amplify-redirects/check.sh
+curl -sI https://benstrawbridge.com/trails/ | grep -i '^location'   # → https://www.benstrawbridge.com/trails/
+curl -sI https://www.benstrawbridge.com/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/bluff-creek-trail/ | grep -i '^location'
+curl -sI https://www.benstrawbridge.com/projects/content-adaptors/spotify/foo/ | grep -i '^location'
 ```
 
-It is **read-only** — it needs only the `amplify:GetApp` the preview role
-already holds. It validates the file, diffs it against the live rules, writes
-the apply-ready array with the `$comment`/`$why` annotations stripped, and
-prints the `aws amplify update-app` command to run.
+## Retiring AWS
 
-Three things to know before touching it:
+`scripts/aws-teardown/teardown.sh` removes what AWS hosted for the site:
 
-- **Applying REPLACES the entire rule set.** Any rule that exists live but is
-  not in the file is deleted. The checker lists exactly which rules that would
-  be, under a `DELETE` heading — read it.
-- **This is not automated on purpose.** `amplify:UpdateApp` also confers control
-  of the build spec and environment variables, and the preview role is scoped
-  read-only at app level precisely so a PR-triggered workflow cannot reach
-  production config. A handful of rules that change a few times a year does not
-  justify that escalation. Do not add `UpdateApp` to the preview role.
-- **Amplify wildcards are `<*>`, not Netlify's `:splat`.** A `<*>` in the source
-  with no `<*>` in the target collapses every match onto one URL. The checker
-  rejects both mistakes, along with a missing leading `/` and any status outside
-  200 / 301 / 302 / 404 / 404-200.
+- the Amplify app and its domain association
+- the `github-amplify-preview` IAM role
+- the GitHub OIDC provider, if nothing else trusts it
+- the Route 53 zone, once the public NS no longer point at awsdns
+- unused ACM certificates for the domain
+- S3 buckets whose name contains `benstraw`
 
-`netlify.toml` used to hold the only redirects in the repo and was never read —
-the site deploys via Amplify. Its two Spotify rules are now in
-`amplify-redirects.json` and the file is gone.
+```bash
+AWS_REGION=… scripts/aws-teardown/teardown.sh                      # lists Amplify apps
+AMPLIFY_APP_ID=… AWS_REGION=… scripts/aws-teardown/teardown.sh     # inventory, read-only
+AMPLIFY_APP_ID=… AWS_REGION=… scripts/aws-teardown/teardown.sh --apply
+```
 
-`npm run test:amplify-redirects` covers the validators and the live-vs-declared
-diff against a mock `aws`.
+Without `--apply` it changes nothing. It saves every resource's JSON, including
+Amplify's env vars and redirect rules, to `aws-teardown-backup/` (gitignored).
+`--apply` refuses while `www` still answers from CloudFront, requires typing the
+app name back, and asks for each bucket's name separately. CloudFront
+distributions are only printed, with the disable-then-delete commands. Written
+for macOS's bash 3.2. `npm run test:aws-teardown` runs it against mock `aws` and
+`curl`.
+
+After it runs, delete the GitHub side by hand: the `amplify-preview` environment,
+the `AWS_PREVIEW_ROLE_ARN` repository variable, and the `deploy-preview` label.
 
 ## Notes
 

@@ -1,2 +1,0 @@
-#!/usr/bin/env bash
-printf %s "${MOCK_HTTP_CODE:-200}"
