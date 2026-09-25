@@ -1,0 +1,17 @@
+// Cloudflare Workers config: a static-assets-only Worker serving Hugo's
+// public/. Built by `npm run cf:build` (scripts/cf-build.sh). See
+// "Cloudflare deploy" in CLAUDE.md.
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  // Must match the Worker's name in the Cloudflare dashboard.
+  "name": "benstrawbridge-com",
+  "compatibility_date": "2026-09-25",
+  "assets": {
+    "directory": "./public",
+    // Hugo writes pretty URLs as dir/index.html; serve them at dir/ and
+    // redirect the slashless form, as Amplify did.
+    "html_handling": "auto-trailing-slash",
+    // Serve the theme's public/404.html with a 404 status.
+    "not_found_handling": "404-page"
+  }
+}

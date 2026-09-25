@@ -6,8 +6,8 @@ enableGitInfo = false
 
   # Ryder v0.3.2 made highlight-github warn and degrade to a link instead of
   # killing the build, which is what a cloud session needs — api.github.com is
-  # unreachable there no matter how the network is configured. Amplify builds
-  # with open network, so a failure here is real and should still stop the
+  # unreachable there no matter how the network is configured. Cloudflare
+  # Workers Builds runs with open network, so a failure here is real and should still stop the
   # build. This replaces the site-level shortcode override that used to draw
   # the same distinction with `hugo.Environment`.
   highlightGithubStrict = true

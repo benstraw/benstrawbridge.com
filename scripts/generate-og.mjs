@@ -246,8 +246,7 @@ async function main() {
     // entire deploy. Warn loudly — still worth fixing — but never fail the
     // build over it. `main().catch()` below is what makes the process exit
     // non-zero, so as long as this branch returns instead of throwing, a
-    // caller like `npm run og:check` in amplify.yml's build phase continues
-    // past it.
+    // caller like `npm run og:check` in a build pipeline continues past it.
     const desired = new Set(cards.map((card) => card.canonical));
     const orphans = (opts.only || opts.section) ? [] : Object.keys(manifest.cards).filter((key) => !desired.has(key));
     const assetOrphans = (opts.only || opts.section) ? [] : await orphanedAssets(cards);

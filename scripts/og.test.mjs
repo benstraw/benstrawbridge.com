@@ -89,8 +89,8 @@ test('render fingerprints change with rendered inputs', () => {
 
 test('render fingerprints ignore non-visual Hugo generator versions', () => {
   const local = '<!doctype html>\n<meta name="generator" content="Hugo 0.146.2">\n<p>card</p>';
-  const amplify = '<!doctype html>\n<meta name="generator" content="Hugo 0.148.2">\n<p>card</p>';
-  assert.equal(fingerprintHtml(local), fingerprintHtml(amplify));
+  const ci = '<!doctype html>\n<meta name="generator" content="Hugo 0.148.2">\n<p>card</p>';
+  assert.equal(fingerprintHtml(local), fingerprintHtml(ci));
 });
 
 test('metadata review gate does not stale the visual fingerprint', () => {

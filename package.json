@@ -2,9 +2,8 @@
   "name": "benstrawbridge.com",
   "license": "ISC",
   "scripts": {
+    "cf:build": "bash scripts/cf-build.sh",
     "test:fa-icons": "node scripts/check-fa-icons.mjs",
-    "test:amplify-preview": "bash scripts/amplify-preview/tests/run-tests.sh",
-    "test:amplify-redirects": "bash scripts/amplify-redirects/tests/run-tests.sh",
     "og:generate": "node scripts/generate-og.mjs",
     "og:check": "node scripts/generate-og.mjs --check",
     "og:test": "node --test scripts/og.test.mjs",
@@ -13,7 +12,8 @@
     "og:review-preview": "node scripts/build-og-review-preview.mjs",
     "og:trails": "node scripts/generate-og.mjs --section trails",
     "test:list-cards": "node scripts/check-list-cards.mjs",
-    "card:shot": "node scripts/screenshot-card.mjs"
+    "card:shot": "node scripts/screenshot-card.mjs",
+    "test:aws-teardown": "bash scripts/aws-teardown/tests/run-tests.sh"
   },
   "repository": {
     "type": "git",
@@ -22,10 +22,11 @@
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.10",
     "autoprefixer": "^10.4.16",
-    "postcss": "^8.4.33",
     "playwright": "^1.56.1",
+    "postcss": "^8.4.33",
     "postcss-cli": "^11.0.0",
-    "tailwindcss": "^3.4.1"
+    "tailwindcss": "^3.4.1",
+    "wrangler": "4.140.0"
   },
   "dependencies": {
     "@alpinejs/csp": "^3.15.8",

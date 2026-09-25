@@ -55,7 +55,7 @@
       {{ end }}
     {{ end }}
 
-    {{/* Production builds run on Amplify with open network, so a failure there
+    {{/* Production builds run on Cloudflare Workers Builds with open network, so a failure there
     is real and must stop the build. Elsewhere — notably Claude Code on the web,
     where gohugo.io is not reachable through the proxy — fall back to a local
     placeholder so the site still builds and every other page can be checked. */}}

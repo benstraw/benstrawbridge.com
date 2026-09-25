@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://www.benstrawbridge.com/"><img alt="Website status" src="https://img.shields.io/website?url=https%3A%2F%2Fwww.benstrawbridge.com&amp;up_message=online&amp;down_message=probably%20fixing%20DNS&amp;style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white"></a>
-  <a href="https://aws.amazon.com/amplify/hosting/"><img alt="Deployed with AWS Amplify" src="https://img.shields.io/badge/deploys-AWS%20Amplify-FF9900?style=for-the-badge&amp;logo=awsamplify&amp;logoColor=white"></a>
+  <a href="https://workers.cloudflare.com/"><img alt="Deployed on Cloudflare Workers" src="https://img.shields.io/badge/deploys-Cloudflare%20Workers-F38020?style=for-the-badge&amp;logo=cloudflare&amp;logoColor=white"></a>
   <a href="https://www.benstrawbridge.com/consulting/"><img alt="Builds websites" src="https://img.shields.io/badge/builds-websites-2563EB?style=for-the-badge&amp;logo=html5&amp;logoColor=white"></a>
   <a href="https://www.benstrawbridge.com/consulting/"><img alt="Integrates APIs" src="https://img.shields.io/badge/integrates-APIs-7C3AED?style=for-the-badge&amp;logo=postman&amp;logoColor=white"></a>
 </p>
@@ -45,8 +45,8 @@ to rebuild everything, or target pages by repeating
 section home page uses its effective header background image before the normal
 featured-image and content-image fallbacks.
 `npm run og:trails` is the compatibility command for Trail cards, and
-`npm run og:check` performs the screenshot-free freshness and integrity check
-used by Amplify before deployment.
+`npm run og:check` performs the screenshot-free freshness and integrity check;
+run it locally before committing new content (deploys no longer run it).
 
 The committed raw review pages live under `/og-tests/`. After a Hugo build,
 run `npm run og:gallery` to refresh the main, listening, and no-image-template
