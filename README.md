@@ -33,12 +33,10 @@ project notebook, link garden, and ongoing excuse to experiment with the web.
 
 ## Open Graph cards
 
-Social cards are committed JPEGs generated from compact Hugo HTML templates.
-They are currently published for review while
-`params.generated_og_metadata_enabled = false` keeps them out of real-page OG,
-Twitter, and schema metadata. Explicit manual artwork and the existing Ryder
-fallback chain remain active, as do the established individual Trail map cards.
-Set the flag to `true` only after approval.
+Social cards are committed JPEGs generated from compact Hugo HTML templates,
+and `params.generated_og_metadata_enabled = true` selects them in real-page OG,
+Twitter, and schema metadata. Explicit manual artwork still wins, and pages
+without a card fall back to the existing Ryder chain.
 Run `npm run og:generate` to create only missing or stale cards, add `-- --force`
 to rebuild everything, or target pages by repeating
 `-- --only /canonical/path/`. An explicit `og_source_image` wins; otherwise a

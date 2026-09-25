@@ -66,10 +66,12 @@ copyright = '<i class="fa-regular fa-copyright"></i>  2026 benstrawbridge.com'
   showShareButtons = true
   showSummaryMeta = false
   og_image_default = '/images/og/og_image_default.jpg'
-  # Keep generated cards publicly reviewable without selecting them in page
-  # metadata. Flip generated_og_metadata_enabled only after visual approval.
+  # Generated cards (assets/images/og/generated/, reviewable at /og-tests/)
+  # are selected in page OG/Twitter/schema metadata. Approved 2026-09-25.
+  # Explicit og_image artwork still wins; setting this false restores the
+  # older fallback chain without deleting any cards.
   publish_generated_og_assets = true
-  generated_og_metadata_enabled = false
+  generated_og_metadata_enabled = true
 logo_firstWord = 'Ben'
   logo_lastWord = 'Strawbridge'
   logo_tagline = "DOT COM CONSULTING"
