@@ -414,14 +414,24 @@ working checkout, and that indirection has been removed. To test unreleased
 theme work, check the branch out inside `themes/ryder` rather than reintroducing
 a second theme path.
 
-### Build with `--environment development`
-`hugo build` defaults to the production environment, where `postcss.config.js`
-enables autoprefixer. Autoprefixer resolves targets through browserslist, which
-walks above the repo root looking for config and trips the container's
-filesystem boundary (`ERR_ACCESS_DENIED / FileSystemRead`). A `.browserslistrc`
-does not fix it — the second lookup, for `browserslist-stats.json`, traverses
-regardless. Use `hugo build --environment development` in remote sessions; real
-production builds happen on Cloudflare Workers Builds.
+### PostCSS and Node's permission model
+Hugo runs PostCSS under Node's permission model, which only allows file reads
+inside the project. In production `postcss.config.js` adds autoprefixer, whose
+browserslist would otherwise walk *above* the repo root twice: once for config
+(`package.json`, `.browserslistrc`), once for `browserslist-stats.json`. Either
+walk dies with `ERR_ACCESS_DENIED / FileSystemRead` on the parent directory's
+`package.json`. It happens everywhere, not only in cloud sessions: the first
+Cloudflare build failed on `/opt/buildhome/package.json`.
+
+The config passes `overrideBrowserslist: 'defaults'` and `stats: {}`, which skip
+both lookups. `'defaults'` is what browserslist fell back to anyway, and the
+prefixed output was verified byte-identical. So:
+
+- Production builds work in cloud sessions: `npm run cf:build`, or
+  `hugo --environment production`.
+- Do not add a `.browserslistrc` or a `browserslist` key in `package.json`
+  to change targets. Neither is read. Edit `overrideBrowserslist` in
+  `postcss.config.js` instead.
 
 ### Build-time remote fetches
 Two call sites use `resources.GetRemote` *while building*. Both now degrade to a
@@ -615,10 +625,9 @@ and Cloudflare joins the values of a header set by more than one matching rule.
 path segment) until arts-link/ryder#115 ships; removing it is tracked in #128. Keep rules non-overlapping for
 any one header when editing it.
 
-**Testing the build in a cloud session** hits the autoprefixer/browserslist
-filesystem restriction described above, since `cf:build` builds in the
-production environment. Prefix it with `HUGO_ENVIRONMENT=development` to
-exercise the script. Add `WORKERS_CI_BRANCH=anything` for the preview path.
+**Testing the build** works in a cloud session as is: `npm run cf:build`
+for production, and `WORKERS_CI_BRANCH=anything npm run cf:build` for the
+preview path.
 `npx wrangler deploy --dry-run` validates `wrangler.jsonc` against `public/`
 without a Cloudflare login.
 
