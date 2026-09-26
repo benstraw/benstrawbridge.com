@@ -1,0 +1,18 @@
+{{- /* SITE: fork of themes/ryder/layouts/404.html. The only delta is the
+       script below, which sends a `404` event to PostHog (assets/js/not-found.js).
+       Served from 'self' with SRI, so the CSP needs no change. */ -}}
+{{ define "main" }}
+  <div class="mx-6 my-12 text-center md:my-20">
+    <h1 class="mx-auto mt-6 max-w-screen-md font-semibold">404</h1>
+    <h2 class="my-6 text-3xl font-semibold dark:text-neutral-100 sm:text-5xl">{{ i18n "pageNotFound" }}</h2>
+    <div class="mx-6 my-12">
+      <a href="{{ .Site.Home.RelPermalink }}" class="font-semibold dark:text-neutral-100">
+        <span aria-hidden="true">←</span>
+        {{ i18n "toHomepage" }}
+      </a>
+    </div>
+  </div>
+  {{- with resources.Get "js/not-found.js" | js.Build (dict "minify" hugo.IsProduction) | fingerprint }}
+  <script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous" defer></script>
+  {{- end }}
+{{ end }}

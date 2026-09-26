@@ -136,7 +136,7 @@ Root-level `layouts/` contains section-specific overrides:
 
 ### Forked theme partials — reconcile these on every Ryder bump
 
-Five templates are **deliberate forks** of theme files, not new site-only
+Six templates are **deliberate forks** of theme files, not new site-only
 templates. A theme bump that changes the upstream versions will not touch them,
 so diff them against the submodule when upgrading:
 
@@ -147,6 +147,7 @@ so diff them against the submodule when upgrading:
 | `layouts/partials/card-image.html` | `themes/ryder/layouts/partials/card-category-color.html` |
 | `layouts/_default/list.html` | `themes/ryder/layouts/_default/list.html` |
 | `layouts/_default/home.html` | `themes/ryder/layouts/_default/home.html` |
+| `layouts/404.html` | `themes/ryder/layouts/404.html` |
 
 The first two exist because `musical-genres` is built from Spotify data — 512
 terms, 243 of them (47%) applying to exactly one artist — and the theme renders
@@ -322,6 +323,20 @@ demote it to `<h2>` to avoid clashing with the wordmark — see **SEO invariants
 
 The right long-term fix is upstreaming all of these to Ryder, which retires the
 forks. `utils/card-type.html` has to go up with `list.html` — the fork calls it.
+
+#### 404: `404.html`
+
+The markup is verbatim; the only delta is a script tag that loads
+`assets/js/not-found.js`, which sends a `404` event to PostHog with `path`
+(pathname plus query string) and `referrer` (`$direct` when the browser sends
+none). Cloudflare's `404-page` mode serves `404.html` at the requested URL
+without a redirect, so `location` is the missing page. The script is
+same-origin with SRI, so the CSP needs nothing, and it no-ops wherever PostHog
+isn't loaded (previews, local dev). Only browsers that run JS are counted, so
+scanner and bot 404s never reach PostHog — deliberately, to keep them off the
+event quota.
+
+On a bump, re-copy the theme's markup and keep the script block.
 
 ### SEO invariants
 
