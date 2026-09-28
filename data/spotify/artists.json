@@ -6993,9 +6993,9 @@
     "id": "7dGJo4pcD2V6oG8kP0tJRR",
     "name": "Eminem",
     "spotify_url": "https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR",
-    "total_plays": 90,
+    "total_plays": 100,
     "first_seen": "2026-02-26",
-    "last_seen": "2026-08-25",
+    "last_seen": "2026-09-23",
     "genres": [
       "rap",
       "hip hop"
@@ -7037,6 +7037,12 @@
         "plays": 4
       },
       {
+        "name": "Kill You",
+        "album": "The Marshall Mathers LP",
+        "spotify_url": "https://open.spotify.com/track/5eGEc27nnhtmcOh6RC890a",
+        "plays": 3
+      },
+      {
         "name": "Lucifer",
         "album": "The Death of Slim Shady (Coup De Grâce): Expanded Mourner’s Edition",
         "spotify_url": "https://open.spotify.com/track/7rmwxGeUylxyZtMielQEhu",
@@ -7070,6 +7076,12 @@
         "name": "Fuel",
         "album": "The Death of Slim Shady (Coup De Grâce)",
         "spotify_url": "https://open.spotify.com/track/5In8B6Om5OKrhwBMB4tXSi",
+        "plays": 3
+      },
+      {
+        "name": "Public Service Announcement 2000",
+        "album": "The Marshall Mathers LP",
+        "spotify_url": "https://open.spotify.com/track/1WopKLOG4Kud0H1r3xrCfT",
         "plays": 3
       },
       {
@@ -7199,12 +7211,6 @@
         "plays": 1
       },
       {
-        "name": "Kill You",
-        "album": "The Marshall Mathers LP",
-        "spotify_url": "https://open.spotify.com/track/5eGEc27nnhtmcOh6RC890a",
-        "plays": 1
-      },
-      {
         "name": "Brain Damage",
         "album": "The Slim Shady LP",
         "spotify_url": "https://open.spotify.com/track/099MPsZhn5HkEUNlpA89rK",
@@ -7319,6 +7325,36 @@
         "plays": 1
       },
       {
+        "name": "The Real Slim Shady",
+        "album": "The Marshall Mathers LP",
+        "spotify_url": "https://open.spotify.com/track/3yfqSUWxFvZELEM4PmlwIR",
+        "plays": 1
+      },
+      {
+        "name": "The Way I Am",
+        "album": "The Marshall Mathers LP",
+        "spotify_url": "https://open.spotify.com/track/23wfXwnsPZYe5A1xXRHb3J",
+        "plays": 1
+      },
+      {
+        "name": "Steve Berman",
+        "album": "The Marshall Mathers LP",
+        "spotify_url": "https://open.spotify.com/track/0DaZU7iKgXMelfXCkCOgBK",
+        "plays": 1
+      },
+      {
+        "name": "Who Knew",
+        "album": "The Marshall Mathers LP",
+        "spotify_url": "https://open.spotify.com/track/15joiMls8SpP1VtGivYh6i",
+        "plays": 1
+      },
+      {
+        "name": "Stan",
+        "album": "The Marshall Mathers LP",
+        "spotify_url": "https://open.spotify.com/track/3UmaczJpikHgJFyBTAJVoz",
+        "plays": 1
+      },
+      {
         "name": "Under The Influence",
         "album": "The Marshall Mathers LP",
         "spotify_url": "https://open.spotify.com/track/5H3B1WtZYGmyOYOXgQltKU",
@@ -7343,24 +7379,6 @@
         "plays": 2
       },
       {
-        "name": "Who Knew",
-        "album": "The Marshall Mathers LP",
-        "spotify_url": "https://open.spotify.com/track/15joiMls8SpP1VtGivYh6i",
-        "plays": 1
-      },
-      {
-        "name": "Stan",
-        "album": "The Marshall Mathers LP",
-        "spotify_url": "https://open.spotify.com/track/3UmaczJpikHgJFyBTAJVoz",
-        "plays": 1
-      },
-      {
-        "name": "Steve Berman",
-        "album": "The Marshall Mathers LP",
-        "spotify_url": "https://open.spotify.com/track/0DaZU7iKgXMelfXCkCOgBK",
-        "plays": 1
-      },
-      {
         "name": "Amityville",
         "album": "The Marshall Mathers LP",
         "spotify_url": "https://open.spotify.com/track/0erTM8A9ro5kzcNc962jHd",
@@ -7370,18 +7388,6 @@
         "name": "Kim",
         "album": "The Marshall Mathers LP",
         "spotify_url": "https://open.spotify.com/track/20oenBXlmwIfK0F3fQIjhM",
-        "plays": 1
-      },
-      {
-        "name": "The Way I Am",
-        "album": "The Marshall Mathers LP",
-        "spotify_url": "https://open.spotify.com/track/23wfXwnsPZYe5A1xXRHb3J",
-        "plays": 1
-      },
-      {
-        "name": "The Real Slim Shady",
-        "album": "The Marshall Mathers LP",
-        "spotify_url": "https://open.spotify.com/track/3yfqSUWxFvZELEM4PmlwIR",
         "plays": 1
       },
       {
@@ -18377,9 +18383,9 @@
     "id": "4F7Q5NV6h5TSwCainz8S5A",
     "name": "Duke Ellington",
     "spotify_url": "https://open.spotify.com/artist/4F7Q5NV6h5TSwCainz8S5A",
-    "total_plays": 3,
+    "total_plays": 5,
     "first_seen": "2026-03-11",
-    "last_seen": "2026-06-15",
+    "last_seen": "2026-09-23",
     "genres": [
       "jazz",
       "big band",
@@ -18411,6 +18417,12 @@
     ],
     "top_tracks": [
       {
+        "name": "In A Sentimental Mood",
+        "album": "Duke Ellington & John Coltrane",
+        "spotify_url": "https://open.spotify.com/track/0E8q2Fx2XuzXCO2NSAppkR",
+        "plays": 2
+      },
+      {
         "name": "Stevie",
         "album": "Duke Ellington & John Coltrane",
         "spotify_url": "https://open.spotify.com/track/6Ylpg33fqhQfJrXLwSxnzh",
@@ -18423,9 +18435,9 @@
         "plays": 1
       },
       {
-        "name": "In A Sentimental Mood",
+        "name": "My Little Brown Book",
         "album": "Duke Ellington & John Coltrane",
-        "spotify_url": "https://open.spotify.com/track/0E8q2Fx2XuzXCO2NSAppkR",
+        "spotify_url": "https://open.spotify.com/track/4rmCI9VWrwrJTJ8XQ80BMN",
         "plays": 1
       },
       {
@@ -18500,9 +18512,9 @@
     "id": "2hGh5VOeeqimQFxqXvfCUf",
     "name": "John Coltrane",
     "spotify_url": "https://open.spotify.com/artist/2hGh5VOeeqimQFxqXvfCUf",
-    "total_plays": 1,
+    "total_plays": 4,
     "first_seen": "2026-03-11",
-    "last_seen": "2026-03-11",
+    "last_seen": "2026-09-23",
     "genres": [
       "jazz",
       "hard bop",
@@ -18533,6 +18545,18 @@
         "name": "Naima - Mono",
         "album": "Giant Steps (Mono)",
         "spotify_url": "https://open.spotify.com/track/5cAwEKmadsW4nCYe9QUvgU",
+        "plays": 2
+      },
+      {
+        "name": "My Favorite Things",
+        "album": "My Favorite Things (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/2JOEPbuwVf0nafGnMSVEhH",
+        "plays": 1
+      },
+      {
+        "name": "My One And Only Love",
+        "album": "John Coltrane And Johnny Hartman",
+        "spotify_url": "https://open.spotify.com/track/0uPkCpuoERqrkBL06Art50",
         "plays": 1
       },
       {
@@ -18671,12 +18695,6 @@
         "name": "Like Someone In Love",
         "album": "Lush Life",
         "spotify_url": "https://open.spotify.com/track/7yo0ye0zCginW62iq21wXx",
-        "plays": 2
-      },
-      {
-        "name": "My Favorite Things",
-        "album": "My Favorite Things (Deluxe Edition)",
-        "spotify_url": "https://open.spotify.com/track/2JOEPbuwVf0nafGnMSVEhH",
         "plays": 2
       },
       {
@@ -18935,12 +18953,6 @@
         "name": "Giant Steps - Mono",
         "album": "Giant Steps (Mono)",
         "spotify_url": "https://open.spotify.com/track/6QvVTzCv70hwn4XyRnobGi",
-        "plays": 1
-      },
-      {
-        "name": "My One And Only Love",
-        "album": "John Coltrane And Johnny Hartman",
-        "spotify_url": "https://open.spotify.com/track/0uPkCpuoERqrkBL06Art50",
         "plays": 1
       },
       {
@@ -22572,9 +22584,9 @@
     "id": "1ZN1c1qWEGZNX1pGeKCPpf",
     "name": "Billy Strings",
     "spotify_url": "https://open.spotify.com/artist/1ZN1c1qWEGZNX1pGeKCPpf",
-    "total_plays": 35,
+    "total_plays": 40,
     "first_seen": "2026-03-28",
-    "last_seen": "2026-07-25",
+    "last_seen": "2026-09-26",
     "genres": [
       "bluegrass",
       "newgrass",
@@ -22729,6 +22741,36 @@
         "name": "Turmoil & Tinfoil",
         "album": "Turmoil & Tinfoil",
         "spotify_url": "https://open.spotify.com/track/3kipE3F3ghfvZHPxDvbNQF",
+        "plays": 1
+      },
+      {
+        "name": "Lucid Daydream",
+        "album": "So Much For Goodbyes",
+        "spotify_url": "https://open.spotify.com/track/5f6nwe1u8F6tWIlZuA1o9J",
+        "plays": 1
+      },
+      {
+        "name": "Lay Me Down",
+        "album": "So Much For Goodbyes",
+        "spotify_url": "https://open.spotify.com/track/1WCNwVVp5uaEETRVchqnNC",
+        "plays": 1
+      },
+      {
+        "name": "Carry Us Home",
+        "album": "So Much For Goodbyes",
+        "spotify_url": "https://open.spotify.com/track/6bOvkth6LOFrJbywr4JQJt",
+        "plays": 1
+      },
+      {
+        "name": "Burn the Other End",
+        "album": "So Much For Goodbyes",
+        "spotify_url": "https://open.spotify.com/track/5v0bNyyBlH1G95BIh6xt6P",
+        "plays": 1
+      },
+      {
+        "name": "I'm One of Those",
+        "album": "So Much For Goodbyes",
+        "spotify_url": "https://open.spotify.com/track/4VlTGxtLNeASX5fKmbRWne",
         "plays": 1
       }
     ]
@@ -38850,9 +38892,9 @@
     "id": "50NoVNy9GU1lCrDV8iGpyu",
     "name": "Ol' Dirty Bastard",
     "spotify_url": "https://open.spotify.com/artist/50NoVNy9GU1lCrDV8iGpyu",
-    "total_plays": 25,
+    "total_plays": 26,
     "first_seen": "2026-07-10",
-    "last_seen": "2026-09-20",
+    "last_seen": "2026-09-24",
     "genres": [
       "east coast hip hop",
       "old school hip hop",
@@ -38903,6 +38945,12 @@
         "name": "Thirsty",
         "album": "Blade Trinity (Original Motion Picture Soundtrack)",
         "spotify_url": "https://open.spotify.com/track/5pGm5AyUkdJhZaGGg0rIA9",
+        "plays": 2
+      },
+      {
+        "name": "Got Your Money (feat. Kelis)",
+        "album": "Nigga Please",
+        "spotify_url": "https://open.spotify.com/track/6YYd5MLpu45J0uLrMdivF7",
         "plays": 2
       },
       {
@@ -38987,12 +39035,6 @@
         "name": "Shimmy Shimmy Ya",
         "album": "Return to the 36 Chambers: The Dirty Version",
         "spotify_url": "https://open.spotify.com/track/3ABG1UQTk0eLYUAeWkmfMi",
-        "plays": 1
-      },
-      {
-        "name": "Got Your Money (feat. Kelis)",
-        "album": "Nigga Please",
-        "spotify_url": "https://open.spotify.com/track/6YYd5MLpu45J0uLrMdivF7",
         "plays": 1
       },
       {
@@ -48097,6 +48139,227 @@
         "name": "Blue",
         "album": "Tomorrow The Green Grass",
         "spotify_url": "https://open.spotify.com/track/5cDfI3KOa64zbuUgD6a4hG",
+        "plays": 1
+      }
+    ]
+  },
+  "seth-macfarlane": {
+    "id": "79D4dipwR6scV8AN3dm7gW",
+    "name": "Seth MacFarlane",
+    "spotify_url": "https://open.spotify.com/artist/79D4dipwR6scV8AN3dm7gW",
+    "total_plays": 6,
+    "first_seen": "2026-09-24",
+    "last_seen": "2026-09-24",
+    "genres": [
+      "christmas"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb28c2dea644b78257ccfb4520",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517428c2dea644b78257ccfb4520",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17828c2dea644b78257ccfb4520",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Right Where I Belong",
+        "album": "Seth MacFarlane Sings The Muppets",
+        "spotify_url": "https://open.spotify.com/track/0HOFJm1h2FVwbsAw3br7dQ",
+        "plays": 1
+      },
+      {
+        "name": "Hey, A Movie!",
+        "album": "Seth MacFarlane Sings The Muppets",
+        "spotify_url": "https://open.spotify.com/track/0V5xIQdXuUqHJCMseLwbr2",
+        "plays": 1
+      },
+      {
+        "name": "Bein’ Green",
+        "album": "Seth MacFarlane Sings The Muppets",
+        "spotify_url": "https://open.spotify.com/track/6APUQge69UrFtgTEV4wvRo",
+        "plays": 1
+      },
+      {
+        "name": "Couldn’t We Ride",
+        "album": "Seth MacFarlane Sings The Muppets",
+        "spotify_url": "https://open.spotify.com/track/0oLTncPjwAwA9NwdNY2BDF",
+        "plays": 1
+      },
+      {
+        "name": "Somebody’s Getting Married",
+        "album": "Seth MacFarlane Sings The Muppets",
+        "spotify_url": "https://open.spotify.com/track/6YaWOVSNKzep4YPxQirwAI",
+        "plays": 1
+      },
+      {
+        "name": "Together Again",
+        "album": "Seth MacFarlane Sings The Muppets",
+        "spotify_url": "https://open.spotify.com/track/2mqwaLRTXeUJAXJgFJUEiI",
+        "plays": 1
+      }
+    ]
+  },
+  "paul-bunyan-rosenberg": {
+    "id": "3k00aazgj6dYcmOCtFm3PG",
+    "name": "Paul \"Bunyan\" Rosenberg",
+    "spotify_url": "https://open.spotify.com/artist/3k00aazgj6dYcmOCtFm3PG",
+    "total_plays": 1,
+    "first_seen": "2026-09-23",
+    "last_seen": "2026-09-23",
+    "genres": [],
+    "top_tracks": [
+      {
+        "name": "Paul - Skit",
+        "album": "The Marshall Mathers LP",
+        "spotify_url": "https://open.spotify.com/track/2vDNkLviUQSxSxulGBFSqJ",
+        "plays": 1
+      }
+    ]
+  },
+  "waylon-wyatt": {
+    "id": "6Ff2omMMZOd8FWNqb980Ol",
+    "name": "Waylon Wyatt",
+    "spotify_url": "https://open.spotify.com/artist/6Ff2omMMZOd8FWNqb980Ol",
+    "total_plays": 19,
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-22",
+    "genres": [
+      "country"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb51e191838dca7d4729b268a2",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517451e191838dca7d4729b268a2",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17851e191838dca7d4729b268a2",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Box of Bones",
+        "album": "Dustpiles",
+        "spotify_url": "https://open.spotify.com/track/41lfDa7hvYHUyvEyrKRu2Y",
+        "plays": 2
+      },
+      {
+        "name": "Frostbite",
+        "album": "Frostbite",
+        "spotify_url": "https://open.spotify.com/track/1bJPV0YFBxytUqVWnwngq5",
+        "plays": 1
+      },
+      {
+        "name": "Riches To Rags",
+        "album": "Til The Sun Goes Down",
+        "spotify_url": "https://open.spotify.com/track/1aZS8593BjWfnJT5H76Obf",
+        "plays": 1
+      },
+      {
+        "name": "Old Habits",
+        "album": "Out Of The Blue",
+        "spotify_url": "https://open.spotify.com/track/4uIU4x2TFZCVLM4bFDIyF5",
+        "plays": 1
+      },
+      {
+        "name": "But There Was a Time",
+        "album": "Dustpiles",
+        "spotify_url": "https://open.spotify.com/track/1u4x9Xg36QWQO9Pq2CjUF4",
+        "plays": 1
+      },
+      {
+        "name": "Sunday Supper",
+        "album": "Jailbreak/Sunday Supper",
+        "spotify_url": "https://open.spotify.com/track/2cOgcpzQdlPdQCHwi28WWp",
+        "plays": 1
+      },
+      {
+        "name": "Pretty Little Liar",
+        "album": "Pretty Little Liar",
+        "spotify_url": "https://open.spotify.com/track/0ZHiaGvzx20AfiZychbcVN",
+        "plays": 1
+      },
+      {
+        "name": "Didn't Forget",
+        "album": "Didn't Forget",
+        "spotify_url": "https://open.spotify.com/track/291iqLtPRtZfr5Q8mhMxNX",
+        "plays": 1
+      },
+      {
+        "name": "Leave It Alone",
+        "album": "Dustpiles",
+        "spotify_url": "https://open.spotify.com/track/5EMEoo0904PHmUG18TjOze",
+        "plays": 1
+      },
+      {
+        "name": "I'd Be Delighted",
+        "album": "Smoke & Embers",
+        "spotify_url": "https://open.spotify.com/track/4P4WzKCb102YhRJ9fznwo4",
+        "plays": 1
+      },
+      {
+        "name": "Smoke & Embers",
+        "album": "Smoke & Embers",
+        "spotify_url": "https://open.spotify.com/track/5YAzhZWJfVWHsUmtCqwy1o",
+        "plays": 1
+      },
+      {
+        "name": "Your Whereabouts",
+        "album": "Til The Sun Goes Down",
+        "spotify_url": "https://open.spotify.com/track/6qckYwOT9gXlBldlbyXPAD",
+        "plays": 1
+      },
+      {
+        "name": "O.D.",
+        "album": "Til The Sun Goes Down",
+        "spotify_url": "https://open.spotify.com/track/2E6HksJPriDYu6thbR6xrV",
+        "plays": 1
+      },
+      {
+        "name": "I'm Sorry But I Love You",
+        "album": "I'm Sorry But I Love You",
+        "spotify_url": "https://open.spotify.com/track/7AkoEenAhW8P6ucYlQSE7E",
+        "plays": 1
+      },
+      {
+        "name": "Everything Under The Sun",
+        "album": "Til The Sun Goes Down",
+        "spotify_url": "https://open.spotify.com/track/3ChJvljTEUp9b7lEnKXl51",
+        "plays": 1
+      },
+      {
+        "name": "Jailbreak",
+        "album": "Jailbreak/Sunday Supper",
+        "spotify_url": "https://open.spotify.com/track/7tuReNLxWLJLJi7GJ4znzr",
+        "plays": 1
+      },
+      {
+        "name": "In Loving Melody",
+        "album": "Dustpiles",
+        "spotify_url": "https://open.spotify.com/track/6cxaI4HZgh9JpDKnzX8qQd",
+        "plays": 1
+      },
+      {
+        "name": "Arkansas Diamond",
+        "album": "Til The Sun Goes Down",
+        "spotify_url": "https://open.spotify.com/track/0yiW81qj0xsPPljEDAyhJ5",
         "plays": 1
       }
     ]

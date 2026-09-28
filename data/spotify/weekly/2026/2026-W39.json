@@ -1,0 +1,502 @@
+{
+  "week": "2026-W39",
+  "title": "Week of Sep 21, 2026",
+  "year": 2026,
+  "week_num": 39,
+  "date_start": "2026-09-21",
+  "date_end": "2026-09-27",
+  "total_plays": 47,
+  "unique_artists": 8,
+  "topArtistName": "Waylon Wyatt",
+  "topArtistImages": [
+    {
+      "url": "https://i.scdn.co/image/ab6761610000e5eb51e191838dca7d4729b268a2",
+      "height": 640,
+      "width": 640
+    },
+    {
+      "url": "https://i.scdn.co/image/ab6761610000517451e191838dca7d4729b268a2",
+      "height": 320,
+      "width": 320
+    },
+    {
+      "url": "https://i.scdn.co/image/ab6761610000f17851e191838dca7d4729b268a2",
+      "height": 160,
+      "width": 160
+    }
+  ],
+  "top_genres": [
+    {
+      "name": "country",
+      "plays": 19
+    },
+    {
+      "name": "rap",
+      "plays": 10
+    },
+    {
+      "name": "hip hop",
+      "plays": 10
+    },
+    {
+      "name": "christmas",
+      "plays": 6
+    },
+    {
+      "name": "bluegrass",
+      "plays": 5
+    },
+    {
+      "name": "newgrass",
+      "plays": 5
+    },
+    {
+      "name": "jam band",
+      "plays": 5
+    },
+    {
+      "name": "americana",
+      "plays": 5
+    },
+    {
+      "name": "jazz",
+      "plays": 5
+    },
+    {
+      "name": "jazz ballads",
+      "plays": 5
+    }
+  ],
+  "top_artists": [
+    {
+      "slug": "waylon-wyatt",
+      "name": "Waylon Wyatt",
+      "plays": 19,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb51e191838dca7d4729b268a2",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517451e191838dca7d4729b268a2",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17851e191838dca7d4729b268a2",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "eminem",
+      "name": "Eminem",
+      "plays": 10,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eba00b11c129b27a88fc72f36b",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174a00b11c129b27a88fc72f36b",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178a00b11c129b27a88fc72f36b",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "seth-macfarlane",
+      "name": "Seth MacFarlane",
+      "plays": 6,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb28c2dea644b78257ccfb4520",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517428c2dea644b78257ccfb4520",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17828c2dea644b78257ccfb4520",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "billy-strings",
+      "name": "Billy Strings",
+      "plays": 5,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb532fd0e6740fd3db38933afb",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174532fd0e6740fd3db38933afb",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178532fd0e6740fd3db38933afb",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "john-coltrane",
+      "name": "John Coltrane",
+      "plays": 3,
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb73c7f7505c1af82929ec41df",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab6761610000517473c7f7505c1af82929ec41df",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f17873c7f7505c1af82929ec41df",
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "duke-ellington",
+      "name": "Duke Ellington",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/1e24691a352233bbe989a311d921f17e7892a87e",
+          "height": 1154,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/c169af91bf56ac7d3962000f6ab237e1586d9732",
+          "height": 739,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/b6a297e56436a75ffcab7f594dafc46c9872f793",
+          "height": 231,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/2ac71fb8c2ff235d2484d40d274473767eaf07b5",
+          "height": 74,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "ol-dirty-bastard",
+      "name": "Ol' Dirty Bastard",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/cdcf0ecd5b041452681badedca98f7d3b8494c52",
+          "height": 693,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/e3e39e2ee5b5929aed7d2b33791f0d8089217954",
+          "height": 443,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/459d62eea68686dd2fe8be21173f9cd1e448eb83",
+          "height": 139,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/c073d8d9f384061615625887756c771f2bab4209",
+          "height": 44,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "paul-bunyan-rosenberg",
+      "name": "Paul \"Bunyan\" Rosenberg",
+      "plays": 1,
+      "images": []
+    }
+  ],
+  "top_tracks": [
+    {
+      "name": "Public Service Announcement 2000",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 3
+    },
+    {
+      "name": "Kill You",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 2
+    },
+    {
+      "name": "Box of Bones",
+      "artist": "Waylon Wyatt",
+      "artist_slug": "waylon-wyatt",
+      "plays": 2
+    },
+    {
+      "name": "Lucid Daydream",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 1
+    },
+    {
+      "name": "Lay Me Down",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 1
+    },
+    {
+      "name": "Carry Us Home",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 1
+    },
+    {
+      "name": "Burn the Other End",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 1
+    },
+    {
+      "name": "I'm One of Those",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 1
+    },
+    {
+      "name": "Got Your Money (feat. Kelis)",
+      "artist": "Ol' Dirty Bastard",
+      "artist_slug": "ol-dirty-bastard",
+      "plays": 1
+    },
+    {
+      "name": "Right Where I Belong",
+      "artist": "Seth MacFarlane",
+      "artist_slug": "seth-macfarlane",
+      "plays": 1
+    },
+    {
+      "name": "Hey, A Movie!",
+      "artist": "Seth MacFarlane",
+      "artist_slug": "seth-macfarlane",
+      "plays": 1
+    },
+    {
+      "name": "Bein’ Green",
+      "artist": "Seth MacFarlane",
+      "artist_slug": "seth-macfarlane",
+      "plays": 1
+    },
+    {
+      "name": "Couldn’t We Ride",
+      "artist": "Seth MacFarlane",
+      "artist_slug": "seth-macfarlane",
+      "plays": 1
+    },
+    {
+      "name": "Somebody’s Getting Married",
+      "artist": "Seth MacFarlane",
+      "artist_slug": "seth-macfarlane",
+      "plays": 1
+    },
+    {
+      "name": "Together Again",
+      "artist": "Seth MacFarlane",
+      "artist_slug": "seth-macfarlane",
+      "plays": 1
+    },
+    {
+      "name": "My Favorite Things",
+      "artist": "John Coltrane",
+      "artist_slug": "john-coltrane",
+      "plays": 1
+    },
+    {
+      "name": "Naima - Mono",
+      "artist": "John Coltrane",
+      "artist_slug": "john-coltrane",
+      "plays": 1
+    },
+    {
+      "name": "My Little Brown Book",
+      "artist": "Duke Ellington",
+      "artist_slug": "duke-ellington",
+      "plays": 1
+    },
+    {
+      "name": "My One And Only Love",
+      "artist": "John Coltrane",
+      "artist_slug": "john-coltrane",
+      "plays": 1
+    },
+    {
+      "name": "In A Sentimental Mood",
+      "artist": "Duke Ellington",
+      "artist_slug": "duke-ellington",
+      "plays": 1
+    },
+    {
+      "name": "The Real Slim Shady",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 1
+    },
+    {
+      "name": "The Way I Am",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 1
+    },
+    {
+      "name": "Steve Berman",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 1
+    },
+    {
+      "name": "Who Knew",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 1
+    },
+    {
+      "name": "Paul - Skit",
+      "artist": "Paul \"Bunyan\" Rosenberg",
+      "artist_slug": "paul-bunyan-rosenberg",
+      "plays": 1
+    },
+    {
+      "name": "Stan",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 1
+    },
+    {
+      "name": "Frostbite",
+      "artist": "Waylon Wyatt",
+      "artist_slug": "waylon-wyatt",
+      "plays": 1
+    },
+    {
+      "name": "Riches To Rags",
+      "artist": "Waylon Wyatt",
+      "artist_slug": "waylon-wyatt",
+      "plays": 1
+    },
+    {
+      "name": "Old Habits",
+      "artist": "Waylon Wyatt",
+      "artist_slug": "waylon-wyatt",
+      "plays": 1
+    },
+    {
+      "name": "But There Was a Time",
+      "artist": "Waylon Wyatt",
+      "artist_slug": "waylon-wyatt",
+      "plays": 1
+    },
+    {
+      "name": "Sunday Supper",
+      "artist": "Waylon Wyatt",
+      "artist_slug": "waylon-wyatt",
+      "plays": 1
+    },
+    {
+      "name": "Pretty Little Liar",
+      "artist": "Waylon Wyatt",
+      "artist_slug": "waylon-wyatt",
+      "plays": 1
+    },
+    {
+      "name": "Didn't Forget",
+      "artist": "Waylon Wyatt",
+      "artist_slug": "waylon-wyatt",
+      "plays": 1
+    },
+    {
+      "name": "Leave It Alone",
+      "artist": "Waylon Wyatt",
+      "artist_slug": "waylon-wyatt",
+      "plays": 1
+    },
+    {
+      "name": "I'd Be Delighted",
+      "artist": "Waylon Wyatt",
+      "artist_slug": "waylon-wyatt",
+      "plays": 1
+    },
+    {
+      "name": "Smoke & Embers",
+      "artist": "Waylon Wyatt",
+      "artist_slug": "waylon-wyatt",
+      "plays": 1
+    },
+    {
+      "name": "Your Whereabouts",
+      "artist": "Waylon Wyatt",
+      "artist_slug": "waylon-wyatt",
+      "plays": 1
+    },
+    {
+      "name": "O.D.",
+      "artist": "Waylon Wyatt",
+      "artist_slug": "waylon-wyatt",
+      "plays": 1
+    },
+    {
+      "name": "I'm Sorry But I Love You",
+      "artist": "Waylon Wyatt",
+      "artist_slug": "waylon-wyatt",
+      "plays": 1
+    },
+    {
+      "name": "Everything Under The Sun",
+      "artist": "Waylon Wyatt",
+      "artist_slug": "waylon-wyatt",
+      "plays": 1
+    },
+    {
+      "name": "Jailbreak",
+      "artist": "Waylon Wyatt",
+      "artist_slug": "waylon-wyatt",
+      "plays": 1
+    },
+    {
+      "name": "In Loving Melody",
+      "artist": "Waylon Wyatt",
+      "artist_slug": "waylon-wyatt",
+      "plays": 1
+    },
+    {
+      "name": "Arkansas Diamond",
+      "artist": "Waylon Wyatt",
+      "artist_slug": "waylon-wyatt",
+      "plays": 1
+    }
+  ]
+}

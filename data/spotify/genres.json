@@ -8232,6 +8232,11 @@
     ],
     "last_updated": "2026-05-06"
   },
+  "3k00aazgj6dYcmOCtFm3PG": {
+    "name": "Paul \"Bunyan\" Rosenberg",
+    "genres": [],
+    "last_updated": "2026-09-23"
+  },
   "3k3RY7kR8f0vp8Cq27P141": {
     "name": "berlioz",
     "genres": [
@@ -13181,6 +13186,30 @@
     ],
     "last_updated": "2026-08-08"
   },
+  "6Ff2omMMZOd8FWNqb980Ol": {
+    "name": "Waylon Wyatt",
+    "genres": [
+      "country"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb51e191838dca7d4729b268a2",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517451e191838dca7d4729b268a2",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17851e191838dca7d4729b268a2",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-09-22"
+  },
   "6FxuPrpa8phaP3Xn73emhT": {
     "name": "The Wood Brothers",
     "genres": [
@@ -15103,6 +15132,30 @@
       }
     ],
     "last_updated": "2026-03-28"
+  },
+  "79D4dipwR6scV8AN3dm7gW": {
+    "name": "Seth MacFarlane",
+    "genres": [
+      "christmas"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb28c2dea644b78257ccfb4520",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517428c2dea644b78257ccfb4520",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17828c2dea644b78257ccfb4520",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-09-24"
   },
   "79ylAPyLf0os9ZO6ZFiAvi": {
     "name": "Cran",
