@@ -2,6 +2,17 @@
 
 `bd` (beads) has been removed from this project. Do not use `bd` commands or assume a `.beads` database exists.
 
+## Deployment context
+
+- Production is a static-assets-only Cloudflare Worker. Cloudflare Workers Builds
+  deploys `main`; AWS Amplify is retired and must not be treated as an active
+  deployment path.
+- Every successful production build should receive the PostHog deploy marker
+  described in [`docs/runbooks/posthog-deploy-tracking.md`](docs/runbooks/posthog-deploy-tracking.md).
+- For build, preview, redirect, and Cloudflare configuration details, read the
+  **Cloudflare deploy** section of [`CLAUDE.md`](CLAUDE.md) before changing
+  hosting or deployment behavior.
+
 ## Landing the Plane (Session Completion)
 
 **When ending a work session**, you MUST complete ALL steps below. Work is NOT complete until `git push` succeeds.

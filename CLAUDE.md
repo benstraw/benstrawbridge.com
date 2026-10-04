@@ -602,8 +602,8 @@ time, never by a visitor, and the `og:image` itself is same-origin.
 ## Cloudflare deploy
 
 The site is a static-assets-only Cloudflare Worker, built and deployed by
-Workers Builds from this repo. It used to be an AWS Amplify app; see
-"Retiring AWS" below.
+Workers Builds from this repo. AWS Amplify has been retired; it is not a
+fallback deployment path.
 
 | Piece | Where |
 | --- | --- |
@@ -614,6 +614,12 @@ Workers Builds from this repo. It used to be an AWS Amplify app; see
 | Response headers | `static/_headers`, shadowing the theme's `themes/ryder/static/_headers` |
 | Apex → www | A Cloudflare **Redirect Rule** on the zone, not in the repo |
 | Build variables | Cloudflare dashboard: `HUGO_VERSION`, `PUBLIC_POSTHOG_KEY`, `PUBLIC_POSTHOG_HOST` |
+
+Every successful production build also creates a deduplicated PostHog deploy
+annotation through `.github/workflows/posthog-deploy-annotation.yml`. It listens
+for Cloudflare's `Workers Builds: benstrawbridge-com` check, then confirms that
+the commit is on `main`; previews are skipped. Setup and key rotation are in
+[`docs/runbooks/posthog-deploy-tracking.md`](docs/runbooks/posthog-deploy-tracking.md).
 
 **`cf:build`** fetches the theme submodule and checks for Hugo extended. Cloudflare
 installs Hugo from `HUGO_VERSION`, and that value has to name the extended
@@ -646,23 +652,19 @@ preview path.
 `npx wrangler deploy --dry-run` validates `wrangler.jsonc` against `public/`
 without a Cloudflare login.
 
-### Cutover checklist
+### Current production configuration
 
-1. After this lands on `main`, go to Workers & Pages → Create → Import a
-   repository → `benstraw/benstrawbridge.com`. Fill in:
-   - Name `benstrawbridge-com`, which must match `wrangler.jsonc`.
-   - Production branch `main`, with the commands and build variables above.
-   - `PUBLIC_POSTHOG_KEY` is the public `phc_…` project key: the Amplify app's
-     environment variables, or PostHog → Project settings.
-2. Check the `*.workers.dev` URL and one preview build.
-3. Add custom domains `www.benstrawbridge.com` and `benstrawbridge.com` to the
-   Worker. Cloudflare replaces the DNS records pointing at Amplify; this is the
-   cutover. Restoring those records rolls it back.
-4. Add a Redirect Rule: hostname equals `benstrawbridge.com` → dynamic
-   `concat("https://www.benstrawbridge.com", http.request.uri.path)`, 301,
-   preserve query string. Hugo builds absolute asset URLs on www, so serving
-   HTML from the apex makes CSP `'self'` reject its own assets.
-5. Once the checks under "Redirects" pass, retire AWS.
+- Worker name: `benstrawbridge-com` (must match `wrangler.jsonc`).
+- Production branch: `main`.
+- Custom domains: `www.benstrawbridge.com` and `benstrawbridge.com`.
+- Build variables: `HUGO_VERSION`, `PUBLIC_POSTHOG_KEY`, and
+  `PUBLIC_POSTHOG_HOST`. The PostHog project key is public (`phc_…`); the
+  deploy-annotation key is private and lives only in GitHub Actions.
+- Apex-to-www routing is a Cloudflare Redirect Rule: hostname
+  `benstrawbridge.com` → dynamic
+  `concat("https://www.benstrawbridge.com", http.request.uri.path)`, 301,
+  preserving the query string. Hugo builds absolute www URLs, so serving HTML
+  from the apex would make CSP `'self'` reject its own assets.
 
 ## Redirects
 
@@ -688,7 +690,11 @@ curl -sI https://www.benstrawbridge.com/projects/hiking/westchester-playa-vista-
 curl -sI https://www.benstrawbridge.com/projects/content-adaptors/spotify/foo/ | grep -i '^location'
 ```
 
-## Retiring AWS
+## Historical AWS teardown
+
+AWS Amplify has already been retired. The remaining `scripts/aws-teardown/`
+utility is retained only as a record of the one-time cleanup; do not run it
+against a new hosting setup. It can be removed in a future repository cleanup.
 
 `scripts/aws-teardown/teardown.sh` removes what AWS hosted for the site:
 

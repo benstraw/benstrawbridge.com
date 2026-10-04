@@ -1,0 +1,114 @@
+# Mark every successful Cloudflare production deploy on PostHog's charts.
+#
+# Workers Builds, not GitHub Actions, builds and deploys this Worker. It reports
+# the result as a check run named "Workers Builds: benstrawbridge-com". Waiting
+# for that completed check means a failed deploy is never annotated, and this
+# workflow cannot delay or affect the deployment itself.
+#
+# The same check name is used for previews. A production build is distinguished
+# by asking GitHub whether the built commit is reachable from the default branch:
+# `identical` and `behind` are production; `ahead` and `diverged` are previews.
+# GitHub runs check_run workflows from the default branch, so a pull request
+# cannot supply a modified workflow that receives the PostHog credential.
+name: PostHog deploy annotation
+
+on:
+  check_run:
+    types: [completed]
+
+permissions:
+  contents: read
+
+# Cloudflare retries and GitHub re-runs must not race beyond annotation dedupe.
+concurrency:
+  group: posthog-deploy-annotation-${{ github.event.check_run.head_sha }}
+  cancel-in-progress: false
+
+jobs:
+  annotate:
+    if: >-
+      github.event.check_run.name == 'Workers Builds: benstrawbridge-com' &&
+      github.event.check_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Confirm production deploy
+        id: meta
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          SHA: ${{ github.event.check_run.head_sha }}
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+          BUILD_URL: ${{ github.event.check_run.details_url }}
+          # Only tested for presence below; never printed.
+          HAS_KEY: ${{ secrets.POSTHOG_CI_API_KEY != '' }}
+          PROJECT_ID: ${{ vars.POSTHOG_PROJECT_ID }}
+        run: |
+          set -euo pipefail
+
+          # `compare/<main>...<sha>`: identical/behind means this exact commit
+          # is on main; ahead/diverged means a preview branch commit.
+          if ! status=$(gh api "repos/$REPO/compare/$DEFAULT_BRANCH...$SHA" --jq .status); then
+            echo "::warning title=PostHog deploy annotation skipped::Could not determine whether $SHA is on $DEFAULT_BRANCH, so no annotation was created."
+            echo "production=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "Commit $SHA vs $DEFAULT_BRANCH: $status"
+          echo "Cloudflare build: $BUILD_URL"
+          if [ "$status" != "identical" ] && [ "$status" != "behind" ]; then
+            echo "Preview build, not production. No annotation."
+            echo "production=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "production=true" >> "$GITHUB_OUTPUT"
+
+          if [ "$HAS_KEY" != "true" ] || [ -z "$PROJECT_ID" ]; then
+            echo "::notice title=PostHog deploy annotation not configured::Set POSTHOG_CI_API_KEY and POSTHOG_PROJECT_ID. The production deploy itself succeeded."
+            echo "configured=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "configured=true" >> "$GITHUB_OUTPUT"
+
+          # Commit text reaches the action as input, never as shell code.
+          subject=$(gh api "repos/$REPO/commits/$SHA" --jq '.commit.message' | head -n 1 | tr -d '\r' | cut -c 1-120)
+          key="benstrawbridge.com production deploy @ $SHA"
+          {
+            echo "dedupe_key=$key"
+            echo "content=$key · ${SHA:0:7} · $subject · https://github.com/$REPO/commit/$SHA"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Create PostHog annotation
+        id: annotate
+        if: steps.meta.outputs.production == 'true' && steps.meta.outputs.configured == 'true'
+        continue-on-error: true
+        # v1.3.0, pinned by commit because this step holds a credential.
+        uses: PostHog/posthog-github-action@9a6a19d360820ab4d95ecc4a5a7564062c895f84
+        with:
+          # With no `event`, this action creates only an annotation.
+          posthog-token: ${{ secrets.POSTHOG_CI_API_KEY }}
+          annotation: ${{ steps.meta.outputs.content }}
+          annotation-api-host: ${{ vars.POSTHOG_HOST || 'https://us.posthog.com' }}
+          annotation-project-id: ${{ vars.POSTHOG_PROJECT_ID }}
+          annotation-scope: project
+          annotation-dedupe: true
+          annotation-dedupe-key: ${{ steps.meta.outputs.dedupe_key }}
+
+      - name: Report PostHog failure
+        if: steps.annotate.outcome == 'failure'
+        run: |
+          echo "::warning title=PostHog annotation failed::Production deployed, but the PostHog annotation was not created."
+          echo "### ⚠️ PostHog annotation failed" >> "$GITHUB_STEP_SUMMARY"
+          echo "Production deployed. The deploy marker was not created; see the action log." >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Summary
+        if: steps.annotate.outcome == 'success'
+        env:
+          CONTENT: ${{ steps.meta.outputs.content }}
+        run: |
+          {
+            echo "### PostHog deploy annotation"
+            echo
+            echo "\`$CONTENT\`"
+            echo
+            echo "Created, or already present from an earlier run."
+          } >> "$GITHUB_STEP_SUMMARY"
