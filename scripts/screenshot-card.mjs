@@ -14,7 +14,7 @@
  * Needs the target reachable from the machine it runs on. Claude Code on the
  * web denies most origins at the proxy (`CONNECT tunnel failed, 403`) and
  * resets map-tile CDNs even when the origin is allowed, so a card of anything
- * with a live map has to be shot locally. See CLAUDE.md.
+ * with a live map has to be shot locally. See docs/seo/og-cards.md.
  *
  * Usage:
  *   npm run card:shot -- --url https://example.com/ --out content/projects/x/card.jpg

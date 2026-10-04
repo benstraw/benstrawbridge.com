@@ -241,7 +241,7 @@ async function main() {
   if (opts.check) {
     // A missing or stale card is a cosmetic gap, not a broken page:
     // get-featured-image.html falls through to the generic branded OG image
-    // (see CLAUDE.md's "Replace the generic OG fallback image" issue) when it
+    // (see docs/seo/og-cards.md) when it
     // can't find a generated one, so this has never been safe to let block an
     // entire deploy. Warn loudly — still worth fixing — but never fail the
     // build over it. `main().catch()` below is what makes the process exit

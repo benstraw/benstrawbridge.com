@@ -1,7 +1,7 @@
 # Cloudflare Workers static-asset redirects. Wrangler reads this from public/
 # (Hugo copies it out of static/). Path rules only: the apex -> www host
 # redirect cannot be expressed here and lives in a Cloudflare Redirect Rule on
-# the zone. See "Cloudflare deploy" in CLAUDE.md.
+# the zone. See docs/deployment/cloudflare.md.
 #
 # Rules are evaluated top to bottom, first match wins, so specific rules go
 # above the wildcards that would otherwise swallow them.

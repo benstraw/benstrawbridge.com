@@ -8,8 +8,8 @@ unreachable from a `benstraw/benstrawbridge.com` session. Filing it needs a
 session started with `arts-link/ryder` as the initial source.
 
 Once the issue exists, replace this file with a link to it, or delete it — the
-reasoning it carries is duplicated in the "Forked theme partials" section of
-`CLAUDE.md`, which is the copy that needs to stay accurate.
+reasoning it carries is duplicated in [`ryder-forks.md`](ryder-forks.md),
+which is the copy that needs to stay accurate.
 
 Scope note, because an earlier draft of this file said the opposite: what was
 tried on benstrawbridge.com and **reverted** was capping the cloud behind a
