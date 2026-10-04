@@ -366,7 +366,7 @@ Invoke in content as:
 
 ### Hugo front matter
 ```yaml
-tour: true      # triggers schema-tour.html partial via extend_head.html hook
+tour: true      # triggers head/schema-extra.html (JSON-LD) and extend_head.html (geo meta tags)
 geo:
   lat: {float}
   lon: {float}
@@ -376,7 +376,13 @@ geo:
 ```
 
 ### Schema injection
-`layouts/partials/extend_head.html` already exists and calls `schema-tour.html` when `tour: true`. No changes needed for new tours — just set the front matter.
+Two partials handle `tour: true` pages. No changes are needed for new tours — just set the front matter.
+
+- `layouts/partials/head/schema-extra.html` (Ryder's hook, called after the theme's `head/schema.html`) emits:
+  - a top-level `TouristTrip` built from `geo` (as `tripOrigin`: a `Place` with `GeoCoordinates` and `PostalAddress`) and `stops` (as an `itinerary` `ItemList`; each stop's `lat`/`lon` becomes its `geo`);
+  - a `FAQPage` when the front matter has a `faq` list (`question` / `answer` entries).
+  The theme's own `BlogPosting` remains the page-level entity; don't add a second `Article` for the same URL.
+- `layouts/partials/extend_head.html` emits the plain `geo.*` / `ICBM` meta tags from `geo`.
 
 ### On-page SEO rules
 - H1 must contain neighborhood name + "walking tour" or "trail guide"
@@ -403,8 +409,8 @@ These files exist and do not need to be recreated for new tours:
 - [x] `static/css/leaflet.1.9.4.css`
 - [x] `static/js/leaflet-gpx.1.7.0.js`
 - [x] `layouts/shortcodes/tour-map.html`
-- [x] `layouts/partials/extend_head.html` (theme hook for schema injection)
-- [x] `layouts/partials/schema-tour.html`
+- [x] `layouts/partials/extend_head.html` (geo meta tags)
+- [x] `layouts/partials/head/schema-extra.html` (TouristTrip and FAQPage JSON-LD)
 - [x] `layouts/trails/single.html`
 - [x] `content/trails/_index.md` (nav entry for Trails)
 
