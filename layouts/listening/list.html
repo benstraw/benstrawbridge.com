@@ -27,7 +27,7 @@
 
   {{- $artistPages := where .Site.RegularPages "Type" "listening-artist" -}}
   {{- $latestPlay := time.AsTime "1970-01-01T00:00:00Z" -}}
-  {{- range $year, $weeks := site.Data.spotify.plays -}}
+  {{- range $year, $weeks := hugo.Data.spotify.plays -}}
     {{- range $week, $plays := $weeks -}}
       {{- range $plays -}}
         {{- with .played_at -}}
@@ -42,12 +42,12 @@
   {{- $recentCutoff := $latestPlay.AddDate 0 -6 0 -}}
   {{- $recentScratch := newScratch -}}
   {{- $artistIDSlugs := newScratch -}}
-  {{- range $slug, $artist := site.Data.spotify.artists -}}
+  {{- range $slug, $artist := hugo.Data.spotify.artists -}}
     {{- with $artist.id -}}
       {{- $artistIDSlugs.Set . $slug -}}
     {{- end -}}
   {{- end -}}
-  {{- range $year, $weeks := site.Data.spotify.plays -}}
+  {{- range $year, $weeks := hugo.Data.spotify.plays -}}
     {{- range $week, $plays := $weeks -}}
       {{- range $plays -}}
         {{- $play := . -}}
@@ -62,7 +62,7 @@
                   {{- $artistSlug = . -}}
                 {{- end -}}
               {{- end -}}
-              {{- $artistData := index site.Data.spotify.artists $artistSlug | default dict -}}
+              {{- $artistData := index hugo.Data.spotify.artists $artistSlug | default dict -}}
               {{- $images := index $artistData "images" | default slice -}}
               {{- $current := $recentScratch.Get $artistSlug | default (dict "name" $artistName "slug" $artistSlug "plays" 0 "images" $images) -}}
               {{- $recentScratch.Set $artistSlug (dict
@@ -122,7 +122,7 @@
   {{- end -}}
 
   {{- $genreScratch := newScratch -}}
-  {{- range $artist := site.Data.spotify.artists -}}
+  {{- range $artist := hugo.Data.spotify.artists -}}
     {{- $plays := $artist.total_plays | int -}}
     {{- if gt $plays 0 -}}
       {{- range $artist.genres -}}

@@ -1,6 +1,6 @@
 {{/* TODO: artist pages have no "dates" key set, so they sort to the bottom of the home feed.
      Fix: derive date from $artist.last_seen and pass "dates" (dict "date" $date) in $page. */}}
-{{ $artists := site.Data.spotify.artists }}
+{{ $artists := hugo.Data.spotify.artists }}
 
 {{ range $slug, $artist := $artists }}
   {{ $genreStr := delimit $artist.genres " · " }}

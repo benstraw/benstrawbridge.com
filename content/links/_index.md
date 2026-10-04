@@ -28,7 +28,7 @@ TocOpen = true
     headerBackgroundFrameInner = ""
 
 # Individual link entries are bookmark data for this list page, not content
-# worth indexing on their own. `_target.kind = "page"` scopes this rule to
+# worth indexing on their own. `target.kind = "page"` scopes this rule to
 # the entries themselves (Kind "page"), not this _index.md (Kind "section")
 # — an untargeted cascade applies to the defining page too, which silently
 # noindexed /links/ itself and dropped it from the sitemap on the first pass.
@@ -45,7 +45,7 @@ TocOpen = true
   outputs = ["HTML"]
   [cascade.sitemap]
     disable = true
-  [cascade._target]
+  [cascade.target]
     kind = "page"
 
 +++

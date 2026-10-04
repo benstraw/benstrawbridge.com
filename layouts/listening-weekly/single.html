@@ -1,7 +1,7 @@
 {{ define "main" }}
 {{- $yearKey := .Params.yearDataKey -}}
 {{- $weekKey := .Params.weekDataKey -}}
-{{- $weekData := index (index site.Data.spotify.weekly $yearKey) $weekKey -}}
+{{- $weekData := index (index hugo.Data.spotify.weekly $yearKey) $weekKey -}}
 {{- $sorted := (.Site.GetPage "/listening/weekly").Pages.ByDate -}}
 {{- $current := . -}}
 {{- $prev := false -}}
