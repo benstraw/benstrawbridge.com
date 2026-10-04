@@ -1,7 +1,7 @@
 baseURL = 'https://www.benstrawbridge.com/'
 defaultContentLanguage = 'en'
 enableRobotsTXT = true
-languageCode = 'en-us'
+locale = 'en-us'
 summaryLength = 100
 timeout = "60s"
 enableEmoji = true

@@ -42,7 +42,7 @@ a social preview are not the same crop.
 {{- $fitClass := cond (eq $fit "contain") "object-contain" "object-cover" -}}
 {{- $positionClass := printf "object-%s" $position -}}
 
-<div itemscope="" itemtype="http://schema.org/Article" data-card-kind="image" class="article {{ with .Param "homeFeatureWide" }}md:col-span-2 md:order-first{{ end }}">
+<div itemscope="" itemtype="https://schema.org/Article" data-card-kind="image" class="article {{ with .Param "homeFeatureWide" }}md:col-span-2 md:order-first{{ end }}">
   <div class="article-content relative p-1 rounded-xl {{ $m.headerStyle }}">
     <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-800 dark:text-neutral-100">
       {{- if $m.showCardLinkOverlay }}
@@ -86,7 +86,7 @@ a social preview are not the same crop.
       <div class="{{- if .Param "homeFeature" }}{{ $m.featuredArticleBackgroundStyle }}{{- else }}{{ $m.articleBackgroundStyle }}{{- end }}">
         {{- if and $m.showSummaryMeta (or $m.articleSection .Site.Params.showDate $m.showAuthor) }}
         <span class="details pl-2 mt-4 inline-block">
-          <span class="{{ if not $m.showAuthor }}hidden{{ end }}" itemprop="author" itemscope="" itemtype="http://schema.org/Person">By <span class="author" itemprop="name">{{ .Site.Params.author.name }}</span></span>
+          <span class="{{ if not $m.showAuthor }}hidden{{ end }}" itemprop="author" itemscope="" itemtype="https://schema.org/Person">By <span class="author" itemprop="name">{{ .Site.Params.author.name }}</span></span>
           {{ with $m.articleSection }}In <a href="{{ site.BaseURL }}{{ $m.articleLink }}"><span itemprop="articleSection" class="relative z-10 source font-bold capitalize">{{ . }}</span></a>{{ end }}
           <span class="{{ if not $m.showDate }}hidden{{ end }}">On <time itemprop="datePublished" datetime="{{ $m.dateMachine }}">{{ $m.dateHuman }}</time></span>
         </span>

@@ -1,4 +1,4 @@
-{{ range $year, $weeks := site.Data.spotify.weekly }}
+{{ range $year, $weeks := hugo.Data.spotify.weekly }}
   {{ range $weekId, $week := $weeks }}
     {{ $date := time.AsTime (printf "%sT00:00:00Z" $week.date_start) }}
 

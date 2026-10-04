@@ -46,7 +46,7 @@
      the same week data the single layout reads. */}}
 {{- $weekData := dict -}}
 {{- with .Params.yearDataKey -}}
-  {{- with index site.Data.spotify.weekly . -}}
+  {{- with index hugo.Data.spotify.weekly . -}}
     {{- $weekData = index . ($page.Params.weekDataKey | string) | default dict -}}
   {{- end -}}
 {{- end -}}

@@ -13,37 +13,44 @@
   quoted string, which parses as a string rather than an object and is silently
   worthless as metadata.
 
-  Note the theme already emits BlogPosting (a subtype of Article) for these
-  pages. The Article block below is kept because it carries the TouristTrip
-  mainEntity, geo and address; if that duplication ever becomes a problem, the
-  TouristTrip can be promoted to a top-level block on its own.
+  The theme's BlogPosting is the page-level entity for these pages. This used
+  to wrap the TouristTrip in a second Article for the same URL, and with no
+  @id on either they never merged: consumers saw two unrelated entities
+  claiming the same page (issue #115). The TouristTrip is now its own
+  top-level block. Article had no geo/address properties anyway; the trailhead
+  location now sits on the trip as tripOrigin, which Trip does define.
 */ -}}
 
 {{- if .Params.tour }}
 
-  {{- $author := dict
-        "@type" "Person"
-        "name" "Ben Strawbridge"
-        "url" "https://www.benstrawbridge.com"
-  -}}
-
-  {{- $article := dict
-        "@context" "https://schema.org"
-        "@type" "Article"
-        "name" .Title
-        "description" .Description
-        "url" .Permalink
-        "author" $author
-        "datePublished" (.Date.Format "2006-01-02")
-        "dateModified" (.Lastmod.Format "2006-01-02")
-  -}}
-
   {{- with .Params.geo }}
     {{- $trip := dict
+          "@context" "https://schema.org"
           "@type" "TouristTrip"
           "name" $.Title
           "description" $.Description
+          "url" $.Permalink
           "touristType" (slice "Dog owners" "Hikers" "Families")
+          "provider" (dict
+            "@type" "Person"
+            "name" "Ben Strawbridge"
+            "url" "https://www.benstrawbridge.com"
+          )
+          "tripOrigin" (dict
+            "@type" "Place"
+            "name" (or .neighborhood .city)
+            "geo" (dict
+              "@type" "GeoCoordinates"
+              "latitude" (printf "%v" .lat)
+              "longitude" (printf "%v" .lon)
+            )
+            "address" (dict
+              "@type" "PostalAddress"
+              "addressLocality" .city
+              "addressRegion" .state
+              "addressCountry" "US"
+            )
+          )
     -}}
 
     {{- with $.Params.stops }}
@@ -70,23 +77,8 @@
       )) -}}
     {{- end }}
 
-    {{- $article = merge $article (dict
-          "mainEntity" $trip
-          "geo" (dict
-            "@type" "GeoCoordinates"
-            "latitude" (printf "%v" .lat)
-            "longitude" (printf "%v" .lon)
-          )
-          "address" (dict
-            "@type" "PostalAddress"
-            "addressLocality" .city
-            "addressRegion" .state
-            "addressCountry" "US"
-          )
-    ) -}}
+  <script type="application/ld+json">{{ $trip | jsonify | safeJS }}</script>
   {{- end }}
-
-  <script type="application/ld+json">{{ $article | jsonify | safeJS }}</script>
 
   {{- with .Params.faq }}
     {{- $questions := slice -}}
