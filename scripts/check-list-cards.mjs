@@ -86,7 +86,7 @@ async function walk(dir, result = []) {
 }
 
 function articleBlocks(html) {
-  const starts = [...html.matchAll(/<div itemscope="" itemtype="http:\/\/schema\.org\/Article"/g)].map((match) => match.index);
+  const starts = [...html.matchAll(/<div itemscope="" itemtype="https?:\/\/schema\.org\/Article"/g)].map((match) => match.index);
   return starts.map((start, index) => html.slice(start, starts[index + 1] ?? html.length));
 }
 
