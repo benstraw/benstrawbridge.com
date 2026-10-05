@@ -21,12 +21,9 @@
 {{ $minFont := 0.8 }}
 {{ $maxFont := 3.0 }}
 {{/* Phones get a gentler range (--fm): at 3rem the top pills leave no room for
-     the name and it truncates to "Ah…". Desktop range (--fs) applies from md.
-     On phones every pill is capped at half the row (so at least two fit), the
-     name wraps instead of truncating, and the pill stacks: image and count on
-     top, the full-width name below. From md it is the single-row pill. */}}
-{{ $minFontM := 0.95 }}
-{{ $maxFontM := 1.4 }}
+     the name and it truncates to "Ah…". Desktop range (--fs) applies from md. */}}
+{{ $minFontM := 0.75 }}
+{{ $maxFontM := 1.5 }}
 <div x-data="artistCloud">
   <div class="p-2 max-w-screen-lg mx-auto">
   <header class="prose lg:prose-xl dark:prose-invert">
@@ -47,7 +44,7 @@
   </div>
 
   {{/* Outside the max-w-screen-lg wrapper above so the pills use the full width. */}}
-  <div class="group/cloud mt-8 px-4 flex flex-wrap items-center justify-center gap-3 md:gap-4"
+  <div class="group/cloud mt-8 px-4 flex flex-wrap items-center justify-center gap-2"
        data-sort="plays" :data-sort="sort">
     {{ range $pages.ByTitle }}
       {{ $plays := .Params.total_plays | int }}
@@ -60,16 +57,16 @@
         {{ if and (le .width 160) (gt .width ($img.width | default 0)) }}{{ $img = . }}{{ end }}
       {{ end }}
       <a href="{{ .RelPermalink }}"
-         class="group grid grid-cols-[auto_1fr] md:inline-flex max-w-[calc(50%-0.375rem)] md:max-w-full items-center gap-x-[0.5em] gap-y-[0.25em] overflow-hidden rounded-[1.4em] md:rounded-full text-[length:var(--fm)] md:text-[length:var(--fs)] min-h-11 md:min-h-9 p-[0.5em] md:py-[0.35em] md:pl-[0.4em] md:pr-[0.8em] leading-tight no-underline ring-emerald-500 hover:ring-2 focus-visible:ring-2 group-data-[sort=plays]/cloud:[order:var(--oc)] bg-[hsl(var(--h)_60%_90%)] text-[hsl(var(--h)_50%_22%)] dark:bg-[hsl(var(--h)_30%_22%)] dark:text-[hsl(var(--h)_70%_82%)]"
+         class="group inline-flex max-w-full items-center gap-[0.35em] rounded-full text-[length:var(--fm)] md:text-[length:var(--fs)] py-[0.2em] pl-[0.25em] pr-[0.5em] leading-tight no-underline ring-emerald-500 hover:ring-2 focus-visible:ring-2 group-data-[sort=plays]/cloud:[order:var(--oc)] bg-[hsl(var(--h)_60%_90%)] text-[hsl(var(--h)_50%_22%)] dark:bg-[hsl(var(--h)_30%_22%)] dark:text-[hsl(var(--h)_70%_82%)]"
          style="--h:{{ $hue }}; --oc:{{ mul $plays -1 }}; --fs:{{ printf "%.2f" $font }}rem; --fm:{{ printf "%.2f" $fontM }}rem">
         {{- with $img.url -}}
         <img src="{{ . }}" width="{{ $img.width }}" height="{{ $img.height }}" alt="" loading="lazy" decoding="async"
-             class="col-start-1 row-start-1 h-[1.6em] w-[1.6em] md:h-[1.9em] md:w-[1.9em] shrink-0 rounded-full object-cover">
+             class="h-[1.9em] w-[1.9em] shrink-0 rounded-full object-cover">
         {{- else -}}
-        <span class="col-start-1 row-start-1 flex h-[1.6em] w-[1.6em] md:h-[1.9em] md:w-[1.9em] shrink-0 items-center justify-center rounded-full bg-emerald-500/20"><i class="fab fa-spotify text-emerald-500"></i></span>
+        <span class="flex h-[1.9em] w-[1.9em] shrink-0 items-center justify-center rounded-full bg-emerald-500/20"><i class="fab fa-spotify text-emerald-500"></i></span>
         {{- end -}}
-        <span class="col-span-2 row-start-2 min-w-0 break-words font-semibold md:col-auto md:row-auto md:truncate">{{ .Title }}</span>
-        <span class="col-start-2 row-start-1 justify-self-end shrink-0 rounded-full bg-black/10 px-[0.4em] text-[0.7em] md:text-[0.8em] font-semibold dark:bg-white/10">{{ $plays }}</span>
+        <span class="truncate font-semibold">{{ .Title }}</span>
+        <span class="shrink-0 rounded-full bg-black/10 px-[0.4em] text-[0.8em] font-semibold dark:bg-white/10">{{ $plays }}</span>
       </a>
     {{ end }}
   </div>
