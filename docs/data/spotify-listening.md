@@ -60,7 +60,8 @@ As of 2026-10-04: 940 artists, 7,354 total plays, weekly shards 2026-W07 →
   not a grid: artists with 2+ plays, font size scaled by log(plays), image +
   name + count. DOM is alphabetical; `--oc` (negated plays) reorders by CSS when
   `data-sort="plays"` (default). Artists heard once (a third of them) are not in
-  the cloud; their pages stay and are listed as links in a `<details>` under it.
+  the cloud; their pages stay, and `/listening/a-z/` (`layouts/listening-artist-az/`)
+  lists every artist A–Z, linked from the bottom of the cloud.
   Don't delete those pages: they're ranked URLs and carry genre terms. Sort
   control: `artistCloud` in `assets/js/extended.js`.
 - `content/listening/weekly/_content.gotmpl` → one page per ISO week at

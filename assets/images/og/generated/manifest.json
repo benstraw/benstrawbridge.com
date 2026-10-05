@@ -91,6 +91,12 @@
       "layout": "full",
       "section": "listening"
     },
+    "/listening/a-z/": {
+      "output": "listening/a-z.jpg",
+      "fingerprint": "801da51ba886e81f27bbe53096ddbddf1c6a57b9a581a27bb7ee993b3b17ce8a",
+      "layout": "full",
+      "section": "listening"
+    },
     "/listening/artists/": {
       "output": "listening/artists.jpg",
       "fingerprint": "daac7bf0d2b1ef32330ef0675184555ed535a93e3bcaa112d6d9c0e70797cb1d",

@@ -8,14 +8,13 @@
      in the DOM would make a size ramp, and the toggle only flips attributes via
      the artistCloud component (assets/js/extended.js).
 
-     Artists heard once are left out of the cloud (a wall of minimum-size pills)
-     and listed as plain links in the <details> below it. Their pages stay: they
-     convert well in Search Console (see content/listening/artists/_content.gotmpl)
-     and carry genre terms, and this list keeps them linked from here.
+     Artists heard once are left out of the cloud (a wall of minimum-size pills);
+     /listening/a-z/ lists every artist and keeps those pages linked. Their pages
+     stay: they convert well in Search Console (see
+     content/listening/artists/_content.gotmpl) and carry genre terms.
      Images are 160px, lazy. */}}
 {{ $all := .Pages }}
 {{ $pages := where $all "Params.total_plays" "gt" 1 }}
-{{ $singles := where $all "Params.total_plays" "le" 1 }}
 {{ $maxPlays := 2 }}
 {{ with index ($pages.ByParam "total_plays").Reverse 0 }}{{ $maxPlays = add (.Params.total_plays | int) 1 }}{{ end }}
 {{ $logMax := math.Log $maxPlays }}
@@ -72,13 +71,6 @@
     {{ end }}
   </div>
 
-  {{- with $singles }}
-  <details class="mx-auto mt-12 max-w-screen-lg px-4 text-sm">
-    <summary class="cursor-pointer font-semibold">{{ len . }} artists heard once</summary>
-    <p class="mt-3 leading-relaxed">
-      {{- range $i, $a := .ByTitle }}{{ if $i }} · {{ end }}<a href="{{ $a.RelPermalink }}" class="underline">{{ $a.Title }}</a>{{ end -}}
-    </p>
-  </details>
-  {{- end }}
+  <p class="mt-10 text-center"><a href="{{ relURL "listening/a-z/" }}" class="underline font-semibold">Full A–Z artist list</a></p>
 </div>
 {{ end }}
