@@ -34,3 +34,7 @@ Links live as individual markdown files in `content/links/`. Each link file uses
 - Theme: `themes/ryder` (git submodule)
 - Layout overrides: `layouts/`
 - Content sections: `content/posts/`, `content/projects/`, `content/links/`, `content/consulting/`
+
+## Knowledge base
+
+Full project documentation lives in `docs/` — start at `docs/README.md`. `AGENTS.md` is the agent entry point.

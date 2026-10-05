@@ -126,7 +126,7 @@ logo_firstWord = 'Ben'
     name = "musical-genres"
     title = "Musical Genres"
     # 34 = every genre with 16+ artists. Clean caps nearby: 39 (15+), 33 (17+),
-    # 29 (19+) — see the table in CLAUDE.md.
+    # 29 (19+) — see the table in docs/theme/ryder-forks.md.
     minCount = 10
     maxTerms = 34
   # Meta descriptions for taxonomy TERM pages (Ryder v0.5.0+). Keyed by the

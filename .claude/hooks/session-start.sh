@@ -15,7 +15,7 @@ fi
 
 cd "${CLAUDE_PROJECT_DIR:-$(git rev-parse --show-toplevel)}"
 
-# Keep at or above config/_default/module.toml's hugoVersion.min (0.146.0).
+# Keep at or above config/_default/module.toml's hugoVersion.min (0.158.0).
 # Checksum is for the linux-amd64 extended tarball of this exact version.
 HUGO_VERSION="0.164.0"
 HUGO_SHA256="fea17b8c076f950bb2e9f9486667bdaa29422883888d509d63931c73e8a9b3a4"

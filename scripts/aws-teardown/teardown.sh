@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #
 # Removes what AWS was hosting for benstrawbridge.com, once the site is served
-# by Cloudflare. See "Retiring AWS" in CLAUDE.md.
+# by Cloudflare. See docs/history/aws-teardown.md.
 #
 #   AMPLIFY_APP_ID=… AWS_REGION=… scripts/aws-teardown/teardown.sh           # inventory only
 #   AMPLIFY_APP_ID=… AWS_REGION=… scripts/aws-teardown/teardown.sh --apply   # delete

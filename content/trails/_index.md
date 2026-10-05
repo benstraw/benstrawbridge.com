@@ -13,7 +13,7 @@ listCardType = "-trail"
   identifier = "Trails"
 [cascade]
   # OGCard renders the social card source at /trails/<slug>/og-card.html.
-  # See scripts/generate-trail-og.mjs.
+  # See scripts/generate-og.mjs and docs/seo/og-cards.md.
   outputs = ["HTML", "OGCard"]
   # Each trail page renders as layouts/partials/card-trail.html wherever it is
   # listed. Resolved per page by layouts/partials/utils/card-type.html.

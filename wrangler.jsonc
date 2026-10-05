@@ -1,6 +1,6 @@
 // Cloudflare Workers config: a static-assets-only Worker serving Hugo's
 // public/. Built by `npm run cf:build` (scripts/cf-build.sh). See
-// "Cloudflare deploy" in CLAUDE.md.
+// docs/deployment/cloudflare.md.
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   // Must match the Worker's name in the Cloudflare dashboard.
