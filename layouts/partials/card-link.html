@@ -1,0 +1,52 @@
+{{- /*
+Feed card for /links/ pages. Selected per page by utils/card-type.html via
+`cardType = "-link"` in the content/links/_index.md page-targeted cascade.
+
+A link entry is front matter only: title, link_url, description, tags, and no
+body. The theme's card-category-color.html prints `.Summary`, which Hugo builds
+from the body, so on tag and category pages and the home feed every link drew
+as a bare title. This card prints the entry's `description` instead, falling
+back to `.Summary` for the few /links/<topic>/ landing pages that have a body
+but no description.
+
+Structure otherwise mirrors themes/ryder/layouts/partials/card-category-color.html
+so the card drops into the same grid. A fix to the shared markup there has to
+land here too — see docs/theme/ryder-forks.md.
+*/ -}}
+{{- $m := partial "utils/card-meta.html" . }}
+{{- /* Flattened like the theme card: .Summary is truncated rendered HTML
+       (see ryder#86), and plainify alone leaves Goldmark's entities behind. */ -}}
+{{- $blurb := or .Params.homeFeatureSummary .Description .Summary | plainify | htmlUnescape | strings.TrimSpace }}
+
+<div itemscope="" itemtype="http://schema.org/Article" data-card-kind="link" class="article {{ with .Param "homeFeatureWide" }}md:col-span-2 md:order-first{{ end }}">
+  <div class="article-content relative p-1 rounded-xl {{ $m.headerStyle }}">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-800 dark:text-neutral-100">
+      {{- if $m.showCardLinkOverlay }}
+      <a itemprop="url" aria-label="{{ .Title }}" href="{{ $m.cardURL }}" class="link-overlay"> </a>
+      {{- end }}
+      <h2 itemprop="headline" class="text-2xl p-3 {{ $m.headerStyle }}">
+        {{- if .Params.homeFeatureIcon }}
+          <i class="{{ .Params.homeFeatureIcon }} mr-2 text-3xl"></i>
+        {{- end }}
+        {{- if not $m.showCardLinkOverlay }}<a itemprop="url" href="{{ $m.cardURL }}" class="relative z-10">{{- end }}
+        {{- .Title }}
+        {{- if not $m.showCardLinkOverlay }}</a>{{- end }}
+      </h2>
+      <div class="{{- if .Param "homeFeature" }}{{ $m.featuredArticleBackgroundStyle }}{{- else }}{{ $m.articleBackgroundStyle }}{{- end }}">
+        {{- if and $m.showSummaryMeta (or $m.articleSection .Site.Params.showDate $m.showAuthor) }}
+        <span class="details pl-2 mt-4 inline-block">
+          <span class="{{ if not $m.showAuthor }}hidden{{ end }}" itemprop="author" itemscope="" itemtype="http://schema.org/Person">By <span class="author" itemprop="name">{{ .Site.Params.author.name }}</span></span>
+          {{ with $m.articleSection }}In <a href="{{ site.BaseURL }}{{ $m.articleLink }}"><span itemprop="articleSection" class="relative z-10 source font-bold capitalize">{{ . }}</span></a>{{ end }}
+          <span class="{{ if not $m.showDate }}hidden{{ end }}">On <time itemprop="datePublished" datetime="{{ $m.dateMachine }}">{{ $m.dateHuman }}</time></span>
+        </span>
+        {{- end }}
+        <div itemprop="articleBody" class="articleBody">
+          {{- $blurb }}
+          {{- if $m.showReadOn }}
+            {{- partial "utils/btn-read-on.html" . }}
+          {{- end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

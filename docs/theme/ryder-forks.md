@@ -41,9 +41,17 @@ re-parents every card that follows it. The fork has a **wider** blast radius
 than the theme partial: it is the section-wide `listCardType` on `/projects/`
 and a per-page card elsewhere.
 
-`card-trail.html`, `card-weekly.html` and `card-artist.html` also descend from
-this card but aren't forks: `card-trail.html` runs its blurb through `plainify`,
-and the other two build their own bodies without `.Summary`.
+`card-trail.html`, `card-link.html`, `card-weekly.html` and `card-artist.html`
+also descend from this card but aren't forks: `card-trail.html` and
+`card-link.html` run their blurbs through `plainify`, and the other two build
+their own bodies without `.Summary`.
+
+`card-link.html` exists because a `/links/` entry is front matter only — no
+body, so `.Summary` is empty and the theme card drew every link on a tag,
+category or home feed as a bare title. It prints `description` instead, and is
+picked by `cardType = "-link"` in the page-targeted cascade in
+`content/links/_index.md`. Its markup is otherwise the theme card's, so a change
+to `card-category-color.html` on a Ryder bump has to be copied into it.
 
 ## Footer: `taxonomy-string.html`
 

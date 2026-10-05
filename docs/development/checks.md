@@ -17,7 +17,7 @@ Then, depending on what changed:
 | Any new or edited `.md` page | `npm run og:generate -- --only /path/` then `npm run og:check` | The page has a fresh OG card. `og:check` warns rather than fails, and deploys don't run it — fix the warning anyway. |
 | OG templates or scripts | `npm run og:test`, `npm run og:check`, `npm run og:gallery:check` | Pure-function tests for `og-lib.mjs`; manifest freshness; `/og-tests/` galleries current |
 | A Font Awesome icon class anywhere | `npm run test:fa-icons` | Every `fa-*` class in templates/content is registered in `assets/js/extended.js` (`library.add`). An unregistered icon renders as nothing. |
-| Card partials, `utils/card-type.html`, `list.html`, `home.html` | `npm run test:list-cards` (after a build) | Per-page card selection: `cardImage` / `cardType` opt-ins, trail card precedence, generated pages can't opt in |
+| Card partials, `utils/card-type.html`, `list.html`, `home.html` | `npm run test:list-cards` (after a build) | Per-page card selection: `cardImage` / `cardType` opt-ins, trail card precedence, generated pages can't opt in, `/links/` entries render the link card with their description |
 | `.github/workflows/posthog-deploy-annotation.yml` | `npm run test:posthog-deploy` | Production-only filter, pinned action, `continue-on-error`, SHA dedupe prefix |
 | Any external host (script, image, tile, font, embed, analytics, fetch) | Inspect the rendered `<meta http-equiv="Content-Security-Policy">` | **Required.** See [deployment/csp.md](../deployment/csp.md). |
 | Titles, descriptions, headings, outputs, robots | Grep the built `public/` | [seo/invariants.md](../seo/invariants.md) |
