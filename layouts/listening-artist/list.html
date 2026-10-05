@@ -16,7 +16,8 @@
 {{ $logMax := math.Log $maxPlays }}
 {{ $minFont := 0.8 }}
 {{ $maxFont := 3.0 }}
-<div class="p-2 max-w-screen-lg mx-auto" x-data="artistCloud">
+<div x-data="artistCloud">
+  <div class="p-2 max-w-screen-lg mx-auto">
   <header class="prose lg:prose-xl dark:prose-invert">
     <h1 class="flex items-center">
       <i class="fab fa-spotify text-4xl text-emerald-500 mr-3"></i>
@@ -33,8 +34,10 @@
       <button type="button" @click="sortAlpha" :aria-pressed="isAlpha" aria-pressed="false" class="{{ $btn }}">Sort alphabetically</button>
     </span>
   </div>
+  </div>
 
-  <div class="group/cloud mt-8 flex flex-wrap items-center justify-center gap-2 [&[data-singles=hide]_[data-single]]:hidden"
+  {{/* Outside the max-w-screen-lg wrapper above so the pills use the full width. */}}
+  <div class="group/cloud mt-8 px-4 flex flex-wrap items-center justify-center gap-2 [&[data-singles=hide]_[data-single]]:hidden"
        data-sort="plays" :data-sort="sort" data-singles="hide" :data-singles="singles">
     {{ range $pages.ByTitle }}
       {{ $plays := .Params.total_plays | int }}
