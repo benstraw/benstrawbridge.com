@@ -41,7 +41,7 @@
   </div>
 
   {{/* Outside the max-w-screen-lg wrapper above so the pills use the full width. */}}
-  <div class="group/cloud mt-8 px-4 flex flex-wrap items-center justify-center gap-2 [&[data-singles=hide]_[data-single]]:hidden"
+  <div class="group/cloud mt-8 px-4 flex flex-wrap items-center justify-center gap-3 md:gap-4 [&[data-singles=hide]_[data-single]]:hidden"
        data-sort="plays" :data-sort="sort" data-singles="hide" :data-singles="singles">
     {{ range $pages.ByTitle }}
       {{ $plays := .Params.total_plays | int }}
@@ -55,7 +55,7 @@
       {{ end }}
       <a href="{{ .RelPermalink }}"
          {{- if le $plays 1 }} data-single{{ end }}
-         class="group inline-flex max-w-full items-center gap-[0.35em] rounded-full text-[length:var(--fm)] md:text-[length:var(--fs)] py-[0.2em] pl-[0.25em] pr-[0.5em] leading-tight no-underline ring-emerald-500 hover:ring-2 focus-visible:ring-2 group-data-[sort=plays]/cloud:[order:var(--oc)] bg-[hsl(var(--h)_60%_90%)] text-[hsl(var(--h)_50%_22%)] dark:bg-[hsl(var(--h)_30%_22%)] dark:text-[hsl(var(--h)_70%_82%)]"
+         class="group inline-flex max-w-full items-center gap-[0.5em] rounded-full text-[length:var(--fm)] md:text-[length:var(--fs)] min-h-11 md:min-h-9 py-[0.35em] pl-[0.4em] pr-[0.8em] leading-tight no-underline ring-emerald-500 hover:ring-2 focus-visible:ring-2 group-data-[sort=plays]/cloud:[order:var(--oc)] bg-[hsl(var(--h)_60%_90%)] text-[hsl(var(--h)_50%_22%)] dark:bg-[hsl(var(--h)_30%_22%)] dark:text-[hsl(var(--h)_70%_82%)]"
          style="--h:{{ $hue }}; --oc:{{ mul $plays -1 }}; --fs:{{ printf "%.2f" $font }}rem; --fm:{{ printf "%.2f" $fontM }}rem">
         {{- with $img.url -}}
         <img src="{{ . }}" width="{{ $img.width }}" height="{{ $img.height }}" alt="" loading="lazy" decoding="async"
