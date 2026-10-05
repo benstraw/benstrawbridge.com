@@ -19500,9 +19500,9 @@
     "id": "4DSDa4HvAWqvb3dMHUOAfd",
     "name": "Stephen Wilson Jr.",
     "spotify_url": "https://open.spotify.com/artist/4DSDa4HvAWqvb3dMHUOAfd",
-    "total_plays": 57,
+    "total_plays": 60,
     "first_seen": "2026-03-20",
-    "last_seen": "2026-09-08",
+    "last_seen": "2026-10-03",
     "genres": [],
     "images": [
       {
@@ -19619,6 +19619,12 @@
         "plays": 2
       },
       {
+        "name": "Cørnerman",
+        "album": "Cørnerman",
+        "spotify_url": "https://open.spotify.com/track/0TuXbHxORpTdkD1b1r6FL2",
+        "plays": 2
+      },
+      {
         "name": "Preacher’s Kid",
         "album": "Hardwired",
         "spotify_url": "https://open.spotify.com/track/2wBWtadwd0wQsTxnr66XOs",
@@ -19658,6 +19664,12 @@
         "name": "Something In The Way",
         "album": "Something In The Way",
         "spotify_url": "https://open.spotify.com/track/6mVU0hyCZt8pL1qqPAf32l",
+        "plays": 1
+      },
+      {
+        "name": "Hardwired (feat. Miranda Lambert)",
+        "album": "Cørnerman",
+        "spotify_url": "https://open.spotify.com/track/2VkjtI1R7BYFYctM3hVZzX",
         "plays": 1
       },
       {
@@ -22584,9 +22596,9 @@
     "id": "1ZN1c1qWEGZNX1pGeKCPpf",
     "name": "Billy Strings",
     "spotify_url": "https://open.spotify.com/artist/1ZN1c1qWEGZNX1pGeKCPpf",
-    "total_plays": 40,
+    "total_plays": 54,
     "first_seen": "2026-03-28",
-    "last_seen": "2026-09-26",
+    "last_seen": "2026-10-02",
     "genres": [
       "bluegrass",
       "newgrass",
@@ -22645,6 +22657,18 @@
         "name": "Shady Grove",
         "album": "Fiddle Tune X",
         "spotify_url": "https://open.spotify.com/track/79IQpK1vcYXZrYiFOOcy9K",
+        "plays": 2
+      },
+      {
+        "name": "Lucid Daydream",
+        "album": "So Much For Goodbyes",
+        "spotify_url": "https://open.spotify.com/track/5f6nwe1u8F6tWIlZuA1o9J",
+        "plays": 2
+      },
+      {
+        "name": "I Wish I Wanted To",
+        "album": "So Much For Goodbyes",
+        "spotify_url": "https://open.spotify.com/track/5hNPAsdz5MpN9WD5hbmrh5",
         "plays": 2
       },
       {
@@ -22744,12 +22768,6 @@
         "plays": 1
       },
       {
-        "name": "Lucid Daydream",
-        "album": "So Much For Goodbyes",
-        "spotify_url": "https://open.spotify.com/track/5f6nwe1u8F6tWIlZuA1o9J",
-        "plays": 1
-      },
-      {
         "name": "Lay Me Down",
         "album": "So Much For Goodbyes",
         "spotify_url": "https://open.spotify.com/track/1WCNwVVp5uaEETRVchqnNC",
@@ -22771,6 +22789,72 @@
         "name": "I'm One of Those",
         "album": "So Much For Goodbyes",
         "spotify_url": "https://open.spotify.com/track/4VlTGxtLNeASX5fKmbRWne",
+        "plays": 1
+      },
+      {
+        "name": "Love And Regret",
+        "album": "Renewal",
+        "spotify_url": "https://open.spotify.com/track/0BdSxc3R86Jw7wOToh19b8",
+        "plays": 1
+      },
+      {
+        "name": "Debra's Waltz",
+        "album": "So Much For Goodbyes",
+        "spotify_url": "https://open.spotify.com/track/1ay2JceoEFGCZVJp1KcAet",
+        "plays": 1
+      },
+      {
+        "name": "Wrestling an Angel",
+        "album": "So Much For Goodbyes",
+        "spotify_url": "https://open.spotify.com/track/0Lp1d05CuC37uHQdIWiiKz",
+        "plays": 1
+      },
+      {
+        "name": "Remember to Cry",
+        "album": "So Much For Goodbyes",
+        "spotify_url": "https://open.spotify.com/track/1f4GNncAgVf7yVUdBNrnYN",
+        "plays": 1
+      },
+      {
+        "name": "Still I Crash",
+        "album": "So Much For Goodbyes",
+        "spotify_url": "https://open.spotify.com/track/3OcsrSKSbAiS42wzy4yrxY",
+        "plays": 1
+      },
+      {
+        "name": "10,000 Miles From a Friend",
+        "album": "So Much For Goodbyes",
+        "spotify_url": "https://open.spotify.com/track/2ZrQ69bP6qenxfqaLcLQMe",
+        "plays": 1
+      },
+      {
+        "name": "I Like Train Songs",
+        "album": "So Much For Goodbyes",
+        "spotify_url": "https://open.spotify.com/track/2FHrK08KZC1k80Oqa1DadY",
+        "plays": 1
+      },
+      {
+        "name": "Light the Way",
+        "album": "So Much For Goodbyes",
+        "spotify_url": "https://open.spotify.com/track/113dqP5ioyBKkNW4GRupep",
+        "plays": 1
+      },
+      {
+        "name": "Bluewater Breakdown",
+        "album": "So Much For Goodbyes",
+        "spotify_url": "https://open.spotify.com/track/2d1CBxKh6hIQqH1ns7L9si",
+        "plays": 1
+      },
+      {
+        "name": "Live to Tell",
+        "album": "So Much For Goodbyes",
+        "spotify_url": "https://open.spotify.com/track/77R6say6YtK0Mnf8iPVeFS",
+        "plays": 1
+      },
+      {
+        "name": "Mill Town Flood",
+        "album": "So Much For Goodbyes",
+        "spotify_url": "https://open.spotify.com/track/45n4v0BSKMU4YnFClTSfux",
         "plays": 1
       }
     ]
@@ -33154,9 +33238,9 @@
     "id": "62BcWP4fzR8axESibNQEhs",
     "name": "Butthole Surfers",
     "spotify_url": "https://open.spotify.com/artist/62BcWP4fzR8axESibNQEhs",
-    "total_plays": 44,
+    "total_plays": 57,
     "first_seen": "2026-05-27",
-    "last_seen": "2026-09-04",
+    "last_seen": "2026-10-03",
     "genres": [
       "noise rock"
     ],
@@ -33187,7 +33271,7 @@
         "name": "Who Was In My Room Last Night?",
         "album": "Independent Worm Saloon",
         "spotify_url": "https://open.spotify.com/track/6DVNQXL9LRzKq8zjyFEuTC",
-        "plays": 6
+        "plays": 7
       },
       {
         "name": "Alcohol",
@@ -33244,6 +33328,18 @@
         "plays": 2
       },
       {
+        "name": "Birds",
+        "album": "Electriclarryland",
+        "spotify_url": "https://open.spotify.com/track/1z8Lb6r4KRHlT3iKj56alU",
+        "plays": 2
+      },
+      {
+        "name": "They Came In",
+        "album": "Weird Revolution",
+        "spotify_url": "https://open.spotify.com/track/1vHhLtMzDzp7LFgXDe0ThG",
+        "plays": 2
+      },
+      {
         "name": "Intelligent Guy - Astronaut Version",
         "album": "Intelligent Guy (Astronaut Version)",
         "spotify_url": "https://open.spotify.com/track/5Yahflz0je7OMkf0gr2Tck",
@@ -33292,12 +33388,6 @@
         "plays": 1
       },
       {
-        "name": "Birds",
-        "album": "Electriclarryland",
-        "spotify_url": "https://open.spotify.com/track/1z8Lb6r4KRHlT3iKj56alU",
-        "plays": 1
-      },
-      {
         "name": "Clean It Up",
         "album": "Independent Worm Saloon",
         "spotify_url": "https://open.spotify.com/track/0CaUeZ6zxKYNtzJLeq1g0c",
@@ -33340,6 +33430,60 @@
         "plays": 1
       },
       {
+        "name": "Pepper",
+        "album": "Electriclarryland",
+        "spotify_url": "https://open.spotify.com/track/1ng36571Iyov4HBxUClySn",
+        "plays": 1
+      },
+      {
+        "name": "Graveyard",
+        "album": "Locust Abortion Technician",
+        "spotify_url": "https://open.spotify.com/track/28KsI8BSW3onpvSr8dQBKg",
+        "plays": 1
+      },
+      {
+        "name": "Dance of the Cobras - Live",
+        "album": "Butthole Surfers + PCPpep",
+        "spotify_url": "https://open.spotify.com/track/3QqlvROkNZT7nazima5t9O",
+        "plays": 1
+      },
+      {
+        "name": "Underdog",
+        "album": "Saturday Morning Cartoons' Greatest Hits",
+        "spotify_url": "https://open.spotify.com/track/4IkZVgHv5y1OG5weLDvnxp",
+        "plays": 1
+      },
+      {
+        "name": "Imbuya",
+        "album": "After The Astronaut",
+        "spotify_url": "https://open.spotify.com/track/4Xf3CHm32H8BxwDsgb1i3a",
+        "plays": 1
+      },
+      {
+        "name": "Lonesome Bulldog III",
+        "album": "piouhgd + Widowermaker!",
+        "spotify_url": "https://open.spotify.com/track/2e8FlmTxszd7u110dhvY0P",
+        "plays": 1
+      },
+      {
+        "name": "TV Star",
+        "album": "Electriclarryland",
+        "spotify_url": "https://open.spotify.com/track/0uRHafBtI8bMupNdJRKh9X",
+        "plays": 1
+      },
+      {
+        "name": "1401 - Live",
+        "album": "Live at the Leather Fly",
+        "spotify_url": "https://open.spotify.com/track/2heX3kk3bDE2tpKMO9738w",
+        "plays": 1
+      },
+      {
+        "name": "Human Cannonball",
+        "album": "Locust Abortion Technician",
+        "spotify_url": "https://open.spotify.com/track/7mUG5LiaGuuAA45LGqqXNc",
+        "plays": 1
+      },
+      {
         "name": "Weber",
         "album": "Locust Abortion Technician",
         "spotify_url": "https://open.spotify.com/track/3Vz56GC6CSHCF9ez5doEkr",
@@ -33361,12 +33505,6 @@
         "name": "I Saw an X-Ray of a Girl Passing Gas",
         "album": "Hairway To Steven",
         "spotify_url": "https://open.spotify.com/track/0dYjJIrxPlMU0TuOWodDs9",
-        "plays": 2
-      },
-      {
-        "name": "TV Star",
-        "album": "Electriclarryland",
-        "spotify_url": "https://open.spotify.com/track/0uRHafBtI8bMupNdJRKh9X",
         "plays": 2
       },
       {
@@ -33424,12 +33562,6 @@
         "plays": 1
       },
       {
-        "name": "Graveyard",
-        "album": "Locust Abortion Technician",
-        "spotify_url": "https://open.spotify.com/track/28KsI8BSW3onpvSr8dQBKg",
-        "plays": 1
-      },
-      {
         "name": "Hay",
         "album": "Locust Abortion Technician",
         "spotify_url": "https://open.spotify.com/track/2S5z3soMtcMCdOQe1NyFIh",
@@ -33451,12 +33583,6 @@
         "name": "Pittsburgh to Lebanon",
         "album": "Locust Abortion Technician",
         "spotify_url": "https://open.spotify.com/track/7CQjhc4toRNg1N3wKq8EYx",
-        "plays": 1
-      },
-      {
-        "name": "Human Cannonball",
-        "album": "Locust Abortion Technician",
-        "spotify_url": "https://open.spotify.com/track/7mUG5LiaGuuAA45LGqqXNc",
         "plays": 1
       },
       {
@@ -48360,6 +48486,124 @@
         "name": "Arkansas Diamond",
         "album": "Til The Sun Goes Down",
         "spotify_url": "https://open.spotify.com/track/0yiW81qj0xsPPljEDAyhJ5",
+        "plays": 1
+      }
+    ]
+  },
+  "rheinzand": {
+    "id": "7gwnqVGT0C8MzeE7X1gU3o",
+    "name": "Rheinzand",
+    "spotify_url": "https://open.spotify.com/artist/7gwnqVGT0C8MzeE7X1gU3o",
+    "total_plays": 2,
+    "first_seen": "2026-10-04",
+    "last_seen": "2026-10-04",
+    "genres": [
+      "indie dance"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb0c8d0031d8d11e2a6c05df90",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051740c8d0031d8d11e2a6c05df90",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1780c8d0031d8d11e2a6c05df90",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Elefantasi (Dutch Version)",
+        "album": "Elefantasi",
+        "spotify_url": "https://open.spotify.com/track/2tQC5Nmsc8V8wyR3i1YY0z",
+        "plays": 1
+      },
+      {
+        "name": "Elefantasi (English Version)",
+        "album": "Elefantasi",
+        "spotify_url": "https://open.spotify.com/track/4pEih3fA9NuBOvD3jMghtl",
+        "plays": 1
+      }
+    ]
+  },
+  "geto-boys": {
+    "id": "3f5fB1YUbkUnW7cf7I0R48",
+    "name": "Geto Boys",
+    "spotify_url": "https://open.spotify.com/artist/3f5fB1YUbkUnW7cf7I0R48",
+    "total_plays": 6,
+    "first_seen": "2026-10-03",
+    "last_seen": "2026-10-03",
+    "genres": [
+      "old school hip hop",
+      "southern hip hop",
+      "gangster rap",
+      "g-funk",
+      "hardcore hip hop",
+      "horrorcore"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/9165a299c5518f696ae5ba3e9d83d867ea54323b",
+        "height": 1007,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/9641d9ef6e06c34d54548772f372b8c1d06354d1",
+        "height": 644,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/a24fe72b1ab30a8ff02bd4ca2efac183b1c95d7f",
+        "height": 201,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/57ae339612580193d4404c725b81d4dddd89f1ee",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "The World Is a Ghetto",
+        "album": "The Resurrection",
+        "spotify_url": "https://open.spotify.com/track/2f2VUWY3E3of9siBcd2MZn",
+        "plays": 1
+      },
+      {
+        "name": "Never Seen a Man Die",
+        "album": "Best of Geto Boys & Scarface",
+        "spotify_url": "https://open.spotify.com/track/6iX0ViY1aflUSCuCfWP2eF",
+        "plays": 1
+      },
+      {
+        "name": "Straight Gangstaism",
+        "album": "Till Death Do Us Part",
+        "spotify_url": "https://open.spotify.com/track/4vJpdSC11tktf5nQp56y8S",
+        "plays": 1
+      },
+      {
+        "name": "Mind Playin Tricks - Mixtape Version",
+        "album": "The Best of the Geto Boys (Mixtape Version)",
+        "spotify_url": "https://open.spotify.com/track/5reJz9E5CjBLdNuIuVdRxR",
+        "plays": 1
+      },
+      {
+        "name": "Still - Mixtape Version",
+        "album": "The Best of the Geto Boys (Mixtape Version)",
+        "spotify_url": "https://open.spotify.com/track/5gpSAjwRdlPaz7wzE2h2KZ",
+        "plays": 1
+      },
+      {
+        "name": "Fuck a War",
+        "album": "We Can't Be Stopped",
+        "spotify_url": "https://open.spotify.com/track/1NomfUwHq5sSY3dtdLYFty",
         "plays": 1
       }
     ]
