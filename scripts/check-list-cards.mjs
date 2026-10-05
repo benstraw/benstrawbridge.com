@@ -55,6 +55,8 @@ async function loadContentIndex() {
       cardImage: readScalarField(fm, 'cardImage'),
       cardImageAlt: readScalarField(fm, 'cardImageAlt'),
       listCardType: readScalarField(fm, 'listCardType'),
+      description: readScalarField(fm, 'description'),
+      linkUrl: readScalarField(fm, 'link_url'),
     });
   }
   return pages;
@@ -101,7 +103,8 @@ function decodeHtmlEntities(value) {
     .replace(/&quot;/g, '"')
     .replace(/&amp;/g, '&')
     .replace(/&lt;/g, '<')
-    .replace(/&gt;/g, '>');
+    .replace(/&gt;/g, '>')
+    .replace(/&#43;/g, '+');
 }
 
 function blockHasAttr(block, attr, value) {
@@ -128,6 +131,13 @@ try {
   }
 
   const cardsFor = (title) => blocks.filter(({ block }) => blockHasAttr(block, 'aria-label', title));
+  // /links/ cascades showCardLinkOverlay = false, so its cards carry no
+  // aria-label; match on the visible headline text instead.
+  const headlineText = (block) => {
+    const match = block.match(/itemprop="headline"[^>]*>([\s\S]*?)<\/h2>/);
+    return match ? decodeHtmlEntities(match[1].replace(/<[^>]*>/g, '')).trim() : '';
+  };
+  const headlineCardsFor = (title) => blocks.filter(({ block }) => headlineText(block) === title);
 
   // 1. Any authored page that opted into the image card via `cardImage`
   //    front matter renders as the image card everywhere it is listed, with
@@ -210,9 +220,25 @@ try {
     assert.doesNotMatch(block, /srcset=/, `an SVG-sourced card in ${file} unexpectedly rendered a srcset`);
   }
 
+  // 6. A /links/ entry is front matter only, so the theme card's .Summary is
+  //    empty. Every listed link entry must render the link card with its
+  //    description as the body, wherever it is listed (tag, category, home).
+  const linkPages = contentIndex.filter((p) => !p.draft && !p.isIndex && p.file.startsWith('content/links/') && p.linkUrl && p.description && p.title);
+  assert(linkPages.length > 0, 'no /links/ entry with link_url and description — the link card has nothing to test against');
+  let linkCardCount = 0;
+  for (const linkPage of linkPages) {
+    for (const { file, block } of headlineCardsFor(linkPage.title)) {
+      linkCardCount += 1;
+      assert.match(block, /data-card-kind="link"/, `${linkPage.title} (${linkPage.file}) did not use the link card in ${file}`);
+      const body = block.match(/class="articleBody">([\s\S]*?)<\/div>/);
+      assert(body && body[1].replace(/<[^>]*>/g, '').trim(), `${linkPage.title} rendered an empty card body in ${file}`);
+    }
+  }
+  assert(linkCardCount > 0, 'no /links/ entry was found in any rendered list');
+
   console.log(
     `✓ list-card behavior verified across ${files.length} rendered list pages ` +
-      `(${imageCardCount} image cards; used "${imageCardPage.title}", "${noImagePage.title}", and "${trailPage.title}" as this run's fixtures)`,
+      `(${imageCardCount} image cards, ${linkCardCount} link cards; used "${imageCardPage.title}", "${noImagePage.title}", and "${trailPage.title}" as this run's fixtures)`,
   );
 } finally {
   await fs.rm(destination, { recursive: true, force: true });

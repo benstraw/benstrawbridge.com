@@ -39,7 +39,12 @@ TocOpen = true
 # sitemap.disable drops entries from sitemap.xml, since a noindex page has no
 # business being listed there. Tags stay live (no `_build` change), so
 # entries still show up on /tags/.
+#
+# cardType picks layouts/partials/card-link.html in every feed (tag, category
+# and home pages), which shows the entry's description. The theme card shows
+# .Summary, which is empty for a body-less link entry.
 [[cascade]]
+  cardType = "-link"
   robotsNoIndex = true
   og_generate = false
   outputs = ["HTML"]
