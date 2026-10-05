@@ -16,6 +16,10 @@
 {{ $logMax := math.Log $maxPlays }}
 {{ $minFont := 0.8 }}
 {{ $maxFont := 3.0 }}
+{{/* Phones get a gentler range (--fm): at 3rem the top pills leave no room for
+     the name and it truncates to "Ah…". Desktop range (--fs) applies from md. */}}
+{{ $minFontM := 0.75 }}
+{{ $maxFontM := 1.5 }}
 <div x-data="artistCloud">
   <div class="p-2 max-w-screen-lg mx-auto">
   <header class="prose lg:prose-xl dark:prose-invert">
@@ -43,6 +47,7 @@
       {{ $plays := .Params.total_plays | int }}
       {{ $weight := div (math.Log (math.Max $plays 1)) $logMax }}
       {{ $font := add $minFont (mul (sub $maxFont $minFont) $weight) }}
+      {{ $fontM := add $minFontM (mul (sub $maxFontM $minFontM) $weight) }}
       {{ $hue := mod (hash.FNV32a .Title) 360 }}
       {{ $img := dict }}
       {{ range .Params.spotifyImages }}
@@ -50,8 +55,8 @@
       {{ end }}
       <a href="{{ .RelPermalink }}"
          {{- if le $plays 1 }} data-single{{ end }}
-         class="group inline-flex max-w-full items-center gap-[0.35em] rounded-full py-[0.2em] pl-[0.25em] pr-[0.5em] leading-tight no-underline ring-emerald-500 hover:ring-2 focus-visible:ring-2 group-data-[sort=plays]/cloud:[order:var(--oc)] bg-[hsl(var(--h)_60%_90%)] text-[hsl(var(--h)_50%_22%)] dark:bg-[hsl(var(--h)_30%_22%)] dark:text-[hsl(var(--h)_70%_82%)]"
-         style="--h:{{ $hue }}; --oc:{{ mul $plays -1 }}; font-size:{{ printf "%.2f" $font }}rem">
+         class="group inline-flex max-w-full items-center gap-[0.35em] rounded-full text-[length:var(--fm)] md:text-[length:var(--fs)] py-[0.2em] pl-[0.25em] pr-[0.5em] leading-tight no-underline ring-emerald-500 hover:ring-2 focus-visible:ring-2 group-data-[sort=plays]/cloud:[order:var(--oc)] bg-[hsl(var(--h)_60%_90%)] text-[hsl(var(--h)_50%_22%)] dark:bg-[hsl(var(--h)_30%_22%)] dark:text-[hsl(var(--h)_70%_82%)]"
+         style="--h:{{ $hue }}; --oc:{{ mul $plays -1 }}; --fs:{{ printf "%.2f" $font }}rem; --fm:{{ printf "%.2f" $fontM }}rem">
         {{- with $img.url -}}
         <img src="{{ . }}" width="{{ $img.width }}" height="{{ $img.height }}" alt="" loading="lazy" decoding="async"
              class="h-[1.9em] w-[1.9em] shrink-0 rounded-full object-cover">
