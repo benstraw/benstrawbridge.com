@@ -57,10 +57,12 @@ As of 2026-10-04: 940 artists, 7,354 total plays, weekly shards 2026-W07 →
   `musical-genres` terms. It sets an explicit meta description (the summary
   would read "1 plays" on single-play artists).
 - `/listening/artists/` (`layouts/listening-artist/list.html`) is a pill cloud,
-  not a grid: all artists, font size scaled by log(plays), image + name + count.
-  DOM is alphabetical; `--oc` (negated plays) reorders by CSS when
-  `data-sort="plays"` (default). Artists heard once are hidden by default
-  (`data-singles`). Controls: `artistCloud` in `assets/js/extended.js`.
+  not a grid: artists with 2+ plays, font size scaled by log(plays), image +
+  name + count. DOM is alphabetical; `--oc` (negated plays) reorders by CSS when
+  `data-sort="plays"` (default). Artists heard once (a third of them) are not in
+  the cloud; their pages stay and are listed as links in a `<details>` under it.
+  Don't delete those pages: they're ranked URLs and carry genre terms. Sort
+  control: `artistCloud` in `assets/js/extended.js`.
 - `content/listening/weekly/_content.gotmpl` → one page per ISO week at
   `/listening/weekly/<YYYY-Www>/`, `type = "listening-weekly"`, with
   `layouts/partials/weeknav.html` for prev/next.

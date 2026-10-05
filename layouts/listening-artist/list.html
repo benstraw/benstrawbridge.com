@@ -8,9 +8,14 @@
      in the DOM would make a size ramp, and the toggle only flips attributes via
      the artistCloud component (assets/js/extended.js).
 
-     Singles (326 of 942 artists were heard once) are hidden by default through
-     data-singles="hide"; with JS off they all show. Images are 160px, lazy. */}}
-{{ $pages := .Pages }}
+     Artists heard once are left out of the cloud (a wall of minimum-size pills)
+     and listed as plain links in the <details> below it. Their pages stay: they
+     convert well in Search Console (see content/listening/artists/_content.gotmpl)
+     and carry genre terms, and this list keeps them linked from here.
+     Images are 160px, lazy. */}}
+{{ $all := .Pages }}
+{{ $pages := where $all "Params.total_plays" "gt" 1 }}
+{{ $singles := where $all "Params.total_plays" "le" 1 }}
 {{ $maxPlays := 2 }}
 {{ with index ($pages.ByParam "total_plays").Reverse 0 }}{{ $maxPlays = add (.Params.total_plays | int) 1 }}{{ end }}
 {{ $logMax := math.Log $maxPlays }}
@@ -32,7 +37,6 @@
 
   {{- $btn := "rounded-full border-2 border-emerald-500 px-3 py-1 font-semibold focus:outline-none focus:ring-2 focus:ring-emerald-300 aria-pressed:bg-emerald-500 aria-pressed:text-white" }}
   <div x-cloak class="mt-4 flex flex-wrap items-center justify-center gap-3 text-sm">
-    <button type="button" @click="toggleSingles" :aria-pressed="isHidingSingles" aria-pressed="true" class="{{ $btn }}">Hide artists heard once</button>
     <span class="flex items-center gap-2">
       <button type="button" @click="sortPlays" :aria-pressed="isPlays" aria-pressed="true" class="{{ $btn }}">Sort by plays</button>
       <button type="button" @click="sortAlpha" :aria-pressed="isAlpha" aria-pressed="false" class="{{ $btn }}">Sort alphabetically</button>
@@ -41,8 +45,8 @@
   </div>
 
   {{/* Outside the max-w-screen-lg wrapper above so the pills use the full width. */}}
-  <div class="group/cloud mt-8 px-4 flex flex-wrap items-center justify-center gap-3 md:gap-4 [&[data-singles=hide]_[data-single]]:hidden"
-       data-sort="plays" :data-sort="sort" data-singles="hide" :data-singles="singles">
+  <div class="group/cloud mt-8 px-4 flex flex-wrap items-center justify-center gap-3 md:gap-4"
+       data-sort="plays" :data-sort="sort">
     {{ range $pages.ByTitle }}
       {{ $plays := .Params.total_plays | int }}
       {{ $weight := div (math.Log (math.Max $plays 1)) $logMax }}
@@ -54,7 +58,6 @@
         {{ if and (le .width 160) (gt .width ($img.width | default 0)) }}{{ $img = . }}{{ end }}
       {{ end }}
       <a href="{{ .RelPermalink }}"
-         {{- if le $plays 1 }} data-single{{ end }}
          class="group inline-flex max-w-full items-center gap-[0.5em] rounded-full text-[length:var(--fm)] md:text-[length:var(--fs)] min-h-11 md:min-h-9 py-[0.35em] pl-[0.4em] pr-[0.8em] leading-tight no-underline ring-emerald-500 hover:ring-2 focus-visible:ring-2 group-data-[sort=plays]/cloud:[order:var(--oc)] bg-[hsl(var(--h)_60%_90%)] text-[hsl(var(--h)_50%_22%)] dark:bg-[hsl(var(--h)_30%_22%)] dark:text-[hsl(var(--h)_70%_82%)]"
          style="--h:{{ $hue }}; --oc:{{ mul $plays -1 }}; --fs:{{ printf "%.2f" $font }}rem; --fm:{{ printf "%.2f" $fontM }}rem">
         {{- with $img.url -}}
@@ -68,5 +71,14 @@
       </a>
     {{ end }}
   </div>
+
+  {{- with $singles }}
+  <details class="mx-auto mt-12 max-w-screen-lg px-4 text-sm">
+    <summary class="cursor-pointer font-semibold">{{ len . }} artists heard once</summary>
+    <p class="mt-3 leading-relaxed">
+      {{- range $i, $a := .ByTitle }}{{ if $i }} · {{ end }}<a href="{{ $a.RelPermalink }}" class="underline">{{ $a.Title }}</a>{{ end -}}
+    </p>
+  </details>
+  {{- end }}
 </div>
 {{ end }}

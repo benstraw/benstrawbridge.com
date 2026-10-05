@@ -261,29 +261,21 @@ if (window.Alpine && window.Alpine !== Alpine) {
 
 // Controls for the artist cloud on /listening/artists/, used by
 // layouts/listening-artist/list.html. Like taxonomyCloudSort above it only
-// flips two attributes (data-sort, data-singles); the reordering and hiding are
-// CSS. Named methods and getters because the CSP build cannot evaluate inline
+// flips one attribute (data-sort); the reordering is CSS. Named methods and getters because the CSP build cannot evaluate inline
 // assignments.
 const registerArtistCloud = (alpine) => alpine.data('artistCloud', () => ({
   sort: 'plays',
-  singles: 'hide',
   sortAlpha() {
     this.sort = 'alpha'
   },
   sortPlays() {
     this.sort = 'plays'
   },
-  toggleSingles() {
-    this.singles = this.singles === 'hide' ? 'show' : 'hide'
-  },
   get isAlpha() {
     return this.sort === 'alpha'
   },
   get isPlays() {
     return this.sort === 'plays'
-  },
-  get isHidingSingles() {
-    return this.singles === 'hide'
   },
 }))
 
