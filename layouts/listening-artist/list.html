@@ -1,5 +1,22 @@
 {{ define "main" }}
-<div class="p-2 max-w-screen-lg mx-auto">
+{{/* Artist cloud, modelled on benstraw.com/topics/: one pill per artist with the
+     artist image, name and play count, font size scaled by log(plays).
+
+     Same two tricks as the genre cloud (partials/taxonomy-cloud.html): the DOM
+     is alphabetical, and each pill carries its negated play count in `--oc` so
+     data-sort="plays" can reorder it with CSS `order` alone. Ordering by plays
+     in the DOM would make a size ramp, and the toggle only flips attributes via
+     the artistCloud component (assets/js/extended.js).
+
+     Singles (326 of 942 artists were heard once) are hidden by default through
+     data-singles="hide"; with JS off they all show. Images are 160px, lazy. */}}
+{{ $pages := .Pages }}
+{{ $maxPlays := 2 }}
+{{ with index ($pages.ByParam "total_plays").Reverse 0 }}{{ $maxPlays = add (.Params.total_plays | int) 1 }}{{ end }}
+{{ $logMax := math.Log $maxPlays }}
+{{ $minFont := 0.8 }}
+{{ $maxFont := 3.0 }}
+<div class="p-2 max-w-screen-lg mx-auto" x-data="artistCloud">
   <header class="prose lg:prose-xl dark:prose-invert">
     <h1 class="flex items-center">
       <i class="fab fa-spotify text-4xl text-emerald-500 mr-3"></i>
@@ -7,13 +24,41 @@
     </h1>
     {{ .Content }}
   </header>
-  <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 gap-4 mt-4">
-    {{ $artists := (.Pages.ByParam "total_plays").Reverse }}
-    {{ $paginator := .Paginate $artists }}
-    {{ range $paginator.Pages }}
-      {{- partial "card-artist.html" . -}}
+
+  {{- $btn := "rounded-full border-2 border-emerald-500 px-3 py-1 font-semibold focus:outline-none focus:ring-2 focus:ring-emerald-300 aria-pressed:bg-emerald-500 aria-pressed:text-white" }}
+  <div x-cloak class="mt-4 flex flex-wrap items-center justify-center gap-3 text-sm">
+    <button type="button" @click="toggleSingles" :aria-pressed="isHidingSingles" aria-pressed="true" class="{{ $btn }}">Hide artists heard once</button>
+    <span class="flex items-center gap-2">
+      <button type="button" @click="sortPlays" :aria-pressed="isPlays" aria-pressed="true" class="{{ $btn }}">Sort by plays</button>
+      <button type="button" @click="sortAlpha" :aria-pressed="isAlpha" aria-pressed="false" class="{{ $btn }}">Sort alphabetically</button>
+    </span>
+  </div>
+
+  <div class="group/cloud mt-8 flex flex-wrap items-center justify-center gap-2 [&[data-singles=hide]_[data-single]]:hidden"
+       data-sort="plays" :data-sort="sort" data-singles="hide" :data-singles="singles">
+    {{ range $pages.ByTitle }}
+      {{ $plays := .Params.total_plays | int }}
+      {{ $weight := div (math.Log (math.Max $plays 1)) $logMax }}
+      {{ $font := add $minFont (mul (sub $maxFont $minFont) $weight) }}
+      {{ $hue := mod (hash.FNV32a .Title) 360 }}
+      {{ $img := dict }}
+      {{ range .Params.spotifyImages }}
+        {{ if and (le .width 160) (gt .width ($img.width | default 0)) }}{{ $img = . }}{{ end }}
+      {{ end }}
+      <a href="{{ .RelPermalink }}"
+         {{- if le $plays 1 }} data-single{{ end }}
+         class="group inline-flex max-w-full items-center gap-[0.35em] rounded-full py-[0.2em] pl-[0.25em] pr-[0.5em] leading-tight no-underline ring-emerald-500 hover:ring-2 focus-visible:ring-2 group-data-[sort=plays]/cloud:[order:var(--oc)] bg-[hsl(var(--h)_60%_90%)] text-[hsl(var(--h)_50%_22%)] dark:bg-[hsl(var(--h)_30%_22%)] dark:text-[hsl(var(--h)_70%_82%)]"
+         style="--h:{{ $hue }}; --oc:{{ mul $plays -1 }}; font-size:{{ printf "%.2f" $font }}rem">
+        {{- with $img.url -}}
+        <img src="{{ . }}" width="{{ $img.width }}" height="{{ $img.height }}" alt="" loading="lazy" decoding="async"
+             class="h-[1.9em] w-[1.9em] shrink-0 rounded-full object-cover">
+        {{- else -}}
+        <span class="flex h-[1.9em] w-[1.9em] shrink-0 items-center justify-center rounded-full bg-emerald-500/20"><i class="fab fa-spotify text-emerald-500"></i></span>
+        {{- end -}}
+        <span class="truncate font-semibold">{{ .Title }}</span>
+        <span class="shrink-0 rounded-full bg-black/10 px-[0.4em] text-[0.8em] font-semibold dark:bg-white/10">{{ $plays }}</span>
+      </a>
     {{ end }}
   </div>
-  {{ template "_internal/pagination.html" . }}
 </div>
 {{ end }}
