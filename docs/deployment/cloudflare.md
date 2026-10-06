@@ -92,7 +92,14 @@ confirmed live:
 curl -sI https://benstrawbridge.com/trails/ | grep -i '^location'   # → https://www.benstrawbridge.com/trails/
 curl -sI https://www.benstrawbridge.com/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/bluff-creek-trail/ | grep -i '^location'
 curl -sI https://www.benstrawbridge.com/projects/content-adaptors/spotify/foo/ | grep -i '^location'
+curl -sI https://www.benstrawbridge.com/listening/artists/page/2/ | grep -i '^location'   # → /listening/a-z/
 ```
+
+Placeholders work too: `/listening/artists/page/:n/` covers the retired
+paginated artist index (pages 2–40 and beyond) in one rule, so page counts never
+need listing. Placeholder and splat rules count against Cloudflare's 100
+dynamic-redirect limit; plain paths against the 2,000 static limit. To test
+locally, build and serve `public/` with `npx wrangler dev`, then `curl -I`.
 
 ## 404s
 

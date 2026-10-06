@@ -10,6 +10,16 @@
 /projects/content-adaptors/spotify/ /listening/artists/ 301
 /projects/content-adaptors/spotify/* /listening/artists/:splat 301
 
+# Retired paginated artist index. /listening/artists/ used to be a 24-per-page
+# grid (/listening/artists/page/2/ ... /page/40/) and is now a single cloud, so
+# those URLs no longer exist. :n matches one path segment, so this covers every
+# page number without listing them. No artist lives at /listening/artists/page/<x>/
+# (artist URLs have no sub-path), so nothing real can be caught. Page 1 only ever
+# duplicated the index root, so it goes there; deeper pages went to long-tail
+# artists, so they go to the full A-Z. Keep these: docs/seo/invariants.md.
+/listening/artists/page/1/ /listening/artists/ 301
+/listening/artists/page/:n/ /listening/a-z/ 301
+
 # Old hiking-guide URL. It used to be only a Hugo alias (meta refresh), and
 # Google kept the stub indexed five months on, ranking it at 6.26, above the
 # real page at 6.74. Leave the alias in content/trails/bluff-creek-trail/index.md
