@@ -264,15 +264,21 @@ if (window.Alpine && window.Alpine !== Alpine) {
 // flips one attribute (data-sort); the reordering is CSS. Named methods and getters because the CSP build cannot evaluate inline
 // assignments.
 const registerArtistCloud = (alpine) => alpine.data('artistCloud', () => ({
-  sort: 'plays',
+  sort: 'recent',
   sortAlpha() {
     this.sort = 'alpha'
+  },
+  sortRecent() {
+    this.sort = 'recent'
   },
   sortPlays() {
     this.sort = 'plays'
   },
   get isAlpha() {
     return this.sort === 'alpha'
+  },
+  get isRecent() {
+    return this.sort === 'recent'
   },
   get isPlays() {
     return this.sort === 'plays'

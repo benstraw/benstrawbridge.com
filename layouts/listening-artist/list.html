@@ -4,7 +4,8 @@
 
      Same two tricks as the genre cloud (partials/taxonomy-cloud.html): the DOM
      is alphabetical, and each pill carries its negated play count in `--oc` so
-     data-sort="plays" can reorder it with CSS `order` alone. Ordering by plays
+     data-sort="plays" (--oc) or "recent" (--ol, the default) reorder it with CSS
+     `order` alone. Ordering by plays
      in the DOM would make a size ramp, and the toggle only flips attributes via
      the artistCloud component (assets/js/extended.js).
 
@@ -37,7 +38,8 @@
   {{- $btn := "rounded-full border-2 border-emerald-500 px-3 py-1 font-semibold focus:outline-none focus:ring-2 focus:ring-emerald-300 aria-pressed:bg-emerald-500 aria-pressed:text-white" }}
   <div x-cloak class="mt-4 flex flex-wrap items-center justify-center gap-3 text-sm">
     <span class="flex items-center gap-2">
-      <button type="button" @click="sortPlays" :aria-pressed="isPlays" aria-pressed="true" class="{{ $btn }}">Sort by plays</button>
+      <button type="button" @click="sortRecent" :aria-pressed="isRecent" aria-pressed="true" class="{{ $btn }}">Sort by last played</button>
+      <button type="button" @click="sortPlays" :aria-pressed="isPlays" aria-pressed="false" class="{{ $btn }}">Sort by plays</button>
       <button type="button" @click="sortAlpha" :aria-pressed="isAlpha" aria-pressed="false" class="{{ $btn }}">Sort alphabetically</button>
     </span>
   </div>
@@ -45,20 +47,28 @@
 
   {{/* Outside the max-w-screen-lg wrapper above so the pills use the full width. */}}
   <div class="group/cloud mt-8 px-4 flex flex-wrap items-center justify-center gap-2"
-       data-sort="plays" :data-sort="sort">
+       data-sort="recent" :data-sort="sort">
     {{ range $pages.ByTitle }}
       {{ $plays := .Params.total_plays | int }}
       {{ $weight := div (math.Log (math.Max $plays 1)) $logMax }}
       {{ $font := add $minFont (mul (sub $maxFont $minFont) $weight) }}
       {{ $fontM := add $minFontM (mul (sub $maxFontM $minFontM) $weight) }}
+      {{/* Recency key for the "last played" order: whole days since the epoch,
+           times 1000, plus plays, so same-day artists put the most-played first.
+           Artists with no last_seen (311 of them predate the weekly play shards,
+           which start 2026-W07) get days = 0, so they land after every dated
+           artist, most-played first. Ascending `order` + negated key = newest
+           first. */}}
+      {{ $days := 0 }}
+      {{ with .Params.last_seen }}{{ $days = div (time.AsTime .).Unix 86400 }}{{ end }}
       {{ $hue := mod (hash.FNV32a .Title) 360 }}
       {{ $img := dict }}
       {{ range .Params.spotifyImages }}
         {{ if and (le .width 160) (gt .width ($img.width | default 0)) }}{{ $img = . }}{{ end }}
       {{ end }}
       <a href="{{ .RelPermalink }}"
-         class="group inline-flex max-w-full items-center gap-[0.35em] rounded-full text-[length:var(--fm)] md:text-[length:var(--fs)] py-[0.2em] pl-[0.25em] pr-[0.5em] leading-tight no-underline ring-emerald-500 hover:ring-2 focus-visible:ring-2 group-data-[sort=plays]/cloud:[order:var(--oc)] bg-[hsl(var(--h)_60%_90%)] text-[hsl(var(--h)_50%_22%)] dark:bg-[hsl(var(--h)_30%_22%)] dark:text-[hsl(var(--h)_70%_82%)]"
-         style="--h:{{ $hue }}; --oc:{{ mul $plays -1 }}; --fs:{{ printf "%.2f" $font }}rem; --fm:{{ printf "%.2f" $fontM }}rem">
+         class="group inline-flex max-w-full items-center gap-[0.35em] rounded-full text-[length:var(--fm)] md:text-[length:var(--fs)] py-[0.2em] pl-[0.25em] pr-[0.5em] leading-tight no-underline ring-emerald-500 hover:ring-2 focus-visible:ring-2 group-data-[sort=plays]/cloud:[order:var(--oc)] group-data-[sort=recent]/cloud:[order:var(--ol)] bg-[hsl(var(--h)_60%_90%)] text-[hsl(var(--h)_50%_22%)] dark:bg-[hsl(var(--h)_30%_22%)] dark:text-[hsl(var(--h)_70%_82%)]"
+         style="--h:{{ $hue }}; --oc:{{ mul $plays -1 }}; --ol:{{ mul -1 (add (mul $days 1000) $plays) }}; --fs:{{ printf "%.2f" $font }}rem; --fm:{{ printf "%.2f" $fontM }}rem">
         {{- with $img.url -}}
         <img src="{{ . }}" width="{{ $img.width }}" height="{{ $img.height }}" alt="" loading="lazy" decoding="async"
              class="h-[1.9em] w-[1.9em] shrink-0 rounded-full object-cover">
