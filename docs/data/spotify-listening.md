@@ -58,8 +58,10 @@ As of 2026-10-04: 940 artists, 7,354 total plays, weekly shards 2026-W07 →
   would read "1 plays" on single-play artists).
 - `/listening/artists/` (`layouts/listening-artist/list.html`) is a pill cloud,
   not a grid: artists with 2+ plays, font size scaled by log(plays), image +
-  name + count. DOM is alphabetical; `--oc` (negated plays) reorders by CSS when
-  `data-sort="plays"` (default). Artists heard once (a third of them) are not in
+  name + count. DOM is alphabetical; `--ol` (negated last-played day, then plays) reorders by
+  CSS when `data-sort="recent"` (default) and `--oc` (negated plays) when
+  `data-sort="plays"`. Artists with no `last_seen` (older than the weekly shards)
+  sort after all dated ones. Artists heard once (a third of them) are not in
   the cloud; their pages stay, and `/listening/a-z/` (`layouts/listening-artist-az/`)
   lists every artist A–Z, linked from the bottom of the cloud. The old
   paginated `/listening/artists/page/N/` URLs 301 to the cloud (page 1) or the
