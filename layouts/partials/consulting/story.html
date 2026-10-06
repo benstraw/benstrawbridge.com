@@ -1,0 +1,22 @@
+{{- /*
+One client story. The wrapper id lets hub teasers deep-link to #<id>.
+
+@param page  the rendering page (for RenderString)
+@param item  one [[stories]] entry
+*/ -}}
+{{- $item := .item -}}
+<div id="{{ $item.id }}" class="scroll-mt-4">
+  <h3>{{ $item.title }}</h3>
+  <p class="italic">{{ $item.role }}</p>
+  {{ .page.RenderString (dict "display" "block") $item.body }}
+  {{- with $item.bridge }}
+    <p class="italic">{{ . }}</p>
+  {{- end }}
+  {{- with $item.links }}
+    <ul>
+      {{- range . }}
+        <li><a href="{{ .url }}">{{ .label }}</a></li>
+      {{- end }}
+    </ul>
+  {{- end }}
+</div>

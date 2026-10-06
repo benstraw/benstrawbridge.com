@@ -1,0 +1,15 @@
+{{- /*
+Small uppercase label for an offering's mode: build, lead or advise.
+
+Three treatments that stay distinct in both themes: accent tint, brand tint,
+neutral outline. Theme color tokens only, never hex.
+
+@param string  mode id from data/consulting.toml (build | lead | advise)
+*/ -}}
+{{- $styles := dict
+  "build" "bg-ryder-accent-100 text-ryder-accent-900 border-ryder-accent-300 dark:bg-ryder-accent-950/60 dark:text-ryder-accent-200 dark:border-ryder-accent-800"
+  "lead" "bg-ryder-brand-alt-100 text-ryder-brand-alt-900 border-ryder-brand-alt-300 dark:bg-ryder-brand-alt-950/60 dark:text-ryder-brand-alt-200 dark:border-ryder-brand-alt-800"
+  "advise" "bg-transparent text-slate-700 border-slate-400 dark:text-slate-300 dark:border-slate-500"
+-}}
+{{- $label := . | title -}}
+<span class="inline-block rounded-full border px-2 py-0.5 text-xs font-semibold uppercase tracking-wide {{ index $styles . }}">{{ $label }}</span>

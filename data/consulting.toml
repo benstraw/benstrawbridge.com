@@ -1,0 +1,165 @@
+# Content for /consulting/. Rendered by layouts/consulting/ and
+# layouts/partials/consulting/. Copy rules: docs/content/writing-style.md.
+# This repo is public: no internal notes, rates or floors in this file.
+
+[[modes]]
+id = "build"
+name = "Build"
+summary = "Hands on the keyboard: prototypes, products, AI pipelines and integrations, built with modern coding agents."
+
+[[modes]]
+id = "lead"
+name = "Lead"
+summary = "Fractional or interim product and engineering leadership. Longer-term for the right team."
+
+[[modes]]
+id = "advise"
+name = "Advise"
+summary = "Fixed-scope assessments, roadmaps and architecture reviews, each ending in a written readout."
+
+# ---- Offerings -------------------------------------------------------------
+# door: founders | companies     mode: build | lead | advise
+
+[[offerings]]
+id = "idea-to-launch"
+door = "founders"
+mode = "build"
+name = "Idea to launch"
+summary = "Take an idea or a messy prototype to a working first product, focused on the one thing that matters most."
+price = ""
+
+[[offerings]]
+id = "focus-sprint"
+door = "founders"
+mode = "advise"
+name = "Focus sprint"
+summary = "A short, fixed-scope engagement that cuts a sprawling vision down to what to build first, with an architecture that won't need a rewrite after your next raise."
+price = ""
+
+[[offerings]]
+id = "fractional-product-tech-leader"
+door = "founders"
+mode = "lead"
+name = "Fractional product and tech leader"
+summary = "Run product and engineering until you're ready to hire, then help you hire the team."
+price = ""
+
+[[offerings]]
+id = "ai-readiness-assessment"
+door = "companies"
+mode = "advise"
+name = "AI readiness assessment"
+summary = "Two weeks and a written readout: where AI actually helps your business, what to build versus buy, and what to keep private."
+price = ""
+
+[[offerings]]
+id = "ai-on-your-documents"
+door = "companies"
+mode = "build"
+name = "AI on your documents and tools"
+summary = "Connect AI to your files, systems and data: searchable archives, assistants that know your documents, and unified data across the tools you already use."
+price = ""
+
+[[offerings]]
+id = "private-ai"
+door = "companies"
+mode = "build"
+name = "Private AI"
+summary = "Capable open-source models running on your own hardware or in your own cloud account, so sensitive documents and source code never go to an outside AI service. I've used a local vision model to read thousands of scanned pages, run coding agents on local models, and deployed a sentiment model on a startup's own Google Cloud infrastructure. Part of the job is knowing where open models are good enough and where a frontier model is worth paying for."
+price = ""
+
+[[offerings]]
+id = "ai-coding-tools"
+door = "companies"
+mode = "advise"
+name = "AI coding tools for your engineering team"
+summary = "Roll out modern coding agents with sensible guardrails, including setups that keep your code in-house."
+price = ""
+
+[[offerings]]
+id = "fractional-technology-leader"
+door = "companies"
+mode = "lead"
+name = "Fractional technology leader"
+summary = "For companies without a CTO that need someone senior to own technology decisions."
+price = ""
+
+# ---- Stories ---------------------------------------------------------------
+# doors: the door pages that show the full story. The hub teaser links to the
+# FIRST door listed, at #<id>.
+
+[[stories]]
+id = "zodaka"
+doors = ["founders"]
+title = "Zodaka: payments for cannabis businesses"
+role = "Head of Product, 2017–2019"
+teaser = "Payments for cannabis businesses, launched in under four months."
+body = """
+When I joined Zodaka, it was an idea and some code, with nothing live. Its customers were cannabis businesses, which were shut out of mainstream card processing. Working alongside the CTO, I designed the architecture, wrote code, ran code reviews, and grew the team from two people to more than five, launching a consumer mobile app and a merchant dashboard in under four months. Transaction volume then doubled every month for six straight months.
+"""
+bridge = ""
+
+[[stories]]
+id = "united-ctm"
+doors = ["founders", "companies"]
+title = "United CTM: from sprawling prototype to one working product"
+role = "Fractional CPO and engineer"
+teaser = "A sprawling prototype rebuilt into one working AI news pipeline."
+body = """
+United CTM had a huge vision for a financial platform: news aggregation, sentiment scoring, portfolios, trading and automated strategies. It also had a pile of prototypes, none of them working. I helped the founder start over and focus on one thing, the news service. We built an AI pipeline on Google Cloud that pulled in articles, summarized them with LLMs and scored them with a sentiment model. When it launched, it was a complete, complex system that ran smoothly end to end, and it became the foundation for a chat assistant that could answer questions about the news and the user's own portfolio.
+"""
+bridge = ""
+
+[[stories]]
+id = "gordon-landreth-photography"
+doors = ["companies"]
+title = "Gordon Landreth Photography: six decades of albums made searchable"
+role = "Personal project"
+teaser = "Six decades of photo albums made searchable with a local vision model."
+body = """
+My grandfather left 46 photo albums spanning 1931 to the 1990s: more than 3,400 scanned pages whose captions held every name, place and date, but only as pixels. I built a pipeline that finds the captions on each page and reads them with a vision model running locally, so the family's photos never left my machine. Standard OCR turned the handwritten notes into garbage, while the vision model made them readable and brought caption accuracy to about 95%. The result is instant search across the whole collection with no server or database to maintain, and family members are finding photos they'd forgotten existed.
+"""
+bridge = "The same approach applies to any archive of scanned documents a business can't search, from claim forms to decades of invoices."
+  [[stories.links]]
+  label = "Live search"
+  url = "https://gordon-landreth-photography.arts-link.com/search/"
+  [[stories.links]]
+  label = "How it was built"
+  url = "/projects/ocr-powered-search-photo-gallery/"
+
+# ---- What I build and run --------------------------------------------------
+# url is optional; an item without one renders without a link.
+
+[[lab]]
+name = "Screenshot-a-Day"
+url = "https://github.com/arts-link/screenshot-a-day"
+summary = "An open-source, self-hosted tool that captures websites on a schedule, compares changes over time and publishes visual timelines. AI agents can connect to it directly to look through its history or trigger new captures."
+
+[[lab]]
+name = "AI workspace"
+url = ""
+summary = "I work daily with the major coding agents, including Claude Code, Codex, GitHub Copilot and OpenCode, and use whichever fits the job, with reusable workflows I've built for everything from consulting to personal projects."
+
+[[lab]]
+name = "Obsidian data tools"
+url = ""
+summary = "Open-source Go tools that pull data from the WHOOP and Spotify APIs into my notes, with rolling summaries written by AI. Shared with the Obsidian community."
+
+[[lab]]
+name = "Chill Dogs"
+url = "https://chill-dogs.com"
+summary = "A dog-products commerce site I built with Astro, with analytics that connect Google search rankings to affiliate clicks on each page."
+
+[[lab]]
+name = "Arts-Link"
+url = "https://www.arts-link.com"
+summary = "My web studio for artists, including rescuing sites from failing hosts and building static sites that are free to host."
+
+# ---- Testimonials ----------------------------------------------------------
+# Empty until Ben has one. Templates render nothing when this array is empty.
+# Shape, when filled:
+# [[testimonials]]
+# quote = "…"
+# name = "…"
+# role = "…"
+# doors = ["founders"]   # hub shows all; door pages filter by door

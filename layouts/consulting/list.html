@@ -1,0 +1,74 @@
+{{- /*
+Consulting hub. Site-only template; replaces layout = "list-plain" on
+content/consulting/_index.md. Copy is front matter on the section page plus
+data/consulting.toml. The headline is a paragraph, not a heading: the page title
+is the only h1 (docs/seo/invariants.md).
+*/ -}}
+{{- define "main" -}}
+{{- $page := . -}}
+<div class="p-2 max-w-screen-lg mx-auto">
+  {{- $headerClass := "" -}}
+  {{- with .Param "twClasses.headerBackgroundFrameOuter" -}}{{- $headerClass = . -}}{{- end -}}
+  <header class="max-w-screen-xl">
+    <h1 class="{{ $headerClass }} rounded-t-lg p-3 flex items-center">
+      {{- if .Params.homeFeatureIcon -}}<i class="{{ .Params.homeFeatureIcon }} mr-2 text-4xl"></i>{{- end -}}
+      {{- .Title -}}
+    </h1>
+  </header>
+
+  <p class="mt-6 text-3xl sm:text-4xl font-bold text-balance">{{ .Params.headline }}</p>
+  <div class="mt-2 prose w-full max-w-max-screen-xl min-w-full lg:prose-lg dark:prose-invert">
+    {{ .Content }}
+    {{ partial "consulting/cta.html" (dict "page" . "placement" "hero") }}
+
+    <h2>Who I work with</h2>
+    <div class="not-prose grid grid-cols-1 md:grid-cols-2 gap-6">
+      {{- range .Pages.ByWeight -}}
+        {{- $door := .Params.door -}}
+        <div class="rounded-lg border border-slate-200 dark:border-slate-700 p-4 flex flex-col">
+          <h3 class="text-xl font-semibold">{{ .LinkTitle }}</h3>
+          <p class="mt-2">{{ .Params.doorSummary }}</p>
+          <ul class="mt-3 list-disc pl-5">
+            {{- range site.Data.consulting.offerings -}}
+              {{- if eq .door $door }}<li>{{ .name }}</li>{{ end -}}
+            {{- end }}
+          </ul>
+          <p class="mt-auto pt-4"><a class="font-semibold underline" href="{{ .RelPermalink }}">{{ .Params.doorLinkLabel }}</a></p>
+        </div>
+      {{- end -}}
+    </div>
+
+    <h2>How I work</h2>
+    <div class="not-prose grid grid-cols-1 md:grid-cols-3 gap-6">
+      {{- range site.Data.consulting.modes }}
+        <div>
+          <h3 class="text-xl font-semibold">{{ .name }}</h3>
+          <p class="mt-1">{{ .summary }}</p>
+        </div>
+      {{- end }}
+    </div>
+
+    <h2>Selected work</h2>
+    <ul>
+      {{- range site.Data.consulting.stories }}
+        {{- $first := site.GetPage (printf "/consulting/%s" (index .doors 0)) }}
+        {{- $parts := split .title ":" }}
+        <li><a href="{{ $first.RelPermalink }}#{{ .id }}"><strong>{{ index $parts 0 }}</strong></a>: {{ .teaser }}</li>
+      {{- end }}
+    </ul>
+    <p class="text-sm text-slate-600 dark:text-slate-300">{{ .Params.credibility }}</p>
+    {{ partial "consulting/testimonials.html" (dict "page" .) }}
+
+    <h2>What I build and run</h2>
+    <p>{{ .Params.labIntro }}</p>
+    <ul>
+      {{- range site.Data.consulting.lab }}
+        <li><strong>{{ if .url }}<a href="{{ .url }}">{{ .name }}</a>{{ else }}{{ .name }}{{ end }}</strong>: {{ $page.RenderString .summary }}</li>
+      {{- end }}
+    </ul>
+
+    <p>{{ .Params.closing }}</p>
+    {{ partial "consulting/cta.html" (dict "page" . "placement" "closing") }}
+  </div>
+</div>
+{{- end -}}

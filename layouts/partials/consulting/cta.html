@@ -1,0 +1,25 @@
+{{- /*
+"Book a call" button, tracked as booking_link_click.
+
+href is params.consulting.bookingURL; when empty it falls back to a mailto: so
+the button never dead-ends (the expected state until the booking page exists,
+see docs/runbooks/consulting-booking.md). A navigation link needs no CSP change.
+
+@param page       the page the button sits on
+@param placement  hero | closing | door-top | door-bottom
+*/ -}}
+{{- $url := site.Params.consulting.bookingURL | default "" -}}
+{{- $kind := "calendar" -}}
+{{- $href := $url -}}
+{{- if not $url -}}
+  {{- $kind = "email" -}}
+  {{- $href = printf "mailto:%s?subject=Consulting%%20call" site.Params.author.email -}}
+{{- end -}}
+<p class="not-prose">
+  <a href="{{ $href }}"
+     {{- if eq $kind "calendar" }} target="_blank" rel="noopener"{{ end }}
+     class="{{ partial "utils/cta-class.html" .page }}"
+     x-data="ryderTrack" @click="track"
+     data-track-event="booking_link_click"
+     data-track-props='{{ dict "page" .page.RelPermalink "placement" .placement "target" $kind | jsonify }}'>Book a call</a>
+</p>

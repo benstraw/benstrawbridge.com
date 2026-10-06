@@ -1,0 +1,16 @@
+{{- /*
+Testimonial blockquotes. Renders nothing while [[testimonials]] is empty.
+
+@param page  the rendering page
+@param door  optional door id; entries are shown when their doors contain it
+             (an entry with no doors shows everywhere)
+*/ -}}
+{{- $door := .door | default "" -}}
+{{- range site.Data.consulting.testimonials -}}
+  {{- if or (not $door) (not .doors) (in .doors $door) }}
+<figure class="not-prose my-6 border-l-4 border-ryder-accent-500 pl-4">
+  <blockquote class="italic">{{ .quote }}</blockquote>
+  <figcaption class="mt-2 text-sm text-slate-600 dark:text-slate-300">{{ .name }}{{ with .role }}, {{ . }}{{ end }}</figcaption>
+</figure>
+  {{- end -}}
+{{- end -}}
