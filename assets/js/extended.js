@@ -259,6 +259,31 @@ if (window.Alpine && window.Alpine !== Alpine) {
   registerTaxonomyCloudSort(window.Alpine)
 }
 
+// Controls for the artist cloud on /listening/artists/, used by
+// layouts/listening-artist/list.html. Like taxonomyCloudSort above it only
+// flips one attribute (data-sort); the reordering is CSS. Named methods and getters because the CSP build cannot evaluate inline
+// assignments.
+const registerArtistCloud = (alpine) => alpine.data('artistCloud', () => ({
+  sort: 'plays',
+  sortAlpha() {
+    this.sort = 'alpha'
+  },
+  sortPlays() {
+    this.sort = 'plays'
+  },
+  get isAlpha() {
+    return this.sort === 'alpha'
+  },
+  get isPlays() {
+    return this.sort === 'plays'
+  },
+}))
+
+registerArtistCloud(Alpine)
+if (window.Alpine && window.Alpine !== Alpine) {
+  registerArtistCloud(window.Alpine)
+}
+
 // Check if the changeBackgroundImage function exists before calling it
 if (typeof changeBackgroundImage === "function") {
   changeBackgroundImage([

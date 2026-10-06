@@ -46,6 +46,17 @@ not templates — several are decided by fallback chains.
 - **`/llms.txt`** is a home output format (`LLMSTxt`). Keep it in
   `[outputs] home` — outputs aren't inherited from the theme.
 
+- **Artist crawl paths must stay server-rendered links.** `/listening/artists/`
+  (the cloud) links every artist with 2+ plays; its "Full A–Z artist list" link
+  goes to `/listening/a-z/`, which links all of them, including the ~⅓ heard
+  once that the cloud omits. Alpine only sets `data-sort`; it is not needed to
+  discover a URL. One-play artist pages are kept on purpose (best CTR in Search
+  Console, and they carry genre terms) — don't delete them or hide the A–Z link.
+- **Retired `/listening/artists/page/N/` URLs are 301s, not 404s.** The index
+  used to paginate 24 per page (pages 1–40). Rules in `static/_redirects` send
+  `page/1/` to `/listening/artists/` and every other `page/:n/` to
+  `/listening/a-z/`. Don't remove them when "cleaning up" the redirects file.
+
 ## Redirects vs aliases
 
 **Hugo `aliases` are not redirects.** They emit a meta-refresh page, and this

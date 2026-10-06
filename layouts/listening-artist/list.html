@@ -1,5 +1,31 @@
 {{ define "main" }}
-<div class="p-2 max-w-screen-lg mx-auto">
+{{/* Artist cloud, modelled on benstraw.com/topics/: one pill per artist with the
+     artist image, name and play count, font size scaled by log(plays).
+
+     Same two tricks as the genre cloud (partials/taxonomy-cloud.html): the DOM
+     is alphabetical, and each pill carries its negated play count in `--oc` so
+     data-sort="plays" can reorder it with CSS `order` alone. Ordering by plays
+     in the DOM would make a size ramp, and the toggle only flips attributes via
+     the artistCloud component (assets/js/extended.js).
+
+     Artists heard once are left out of the cloud (a wall of minimum-size pills);
+     /listening/a-z/ lists every artist and keeps those pages linked. Their pages
+     stay: they convert well in Search Console (see
+     content/listening/artists/_content.gotmpl) and carry genre terms.
+     Images are 160px, lazy. */}}
+{{ $all := .Pages }}
+{{ $pages := where $all "Params.total_plays" "gt" 1 }}
+{{ $maxPlays := 2 }}
+{{ with index ($pages.ByParam "total_plays").Reverse 0 }}{{ $maxPlays = add (.Params.total_plays | int) 1 }}{{ end }}
+{{ $logMax := math.Log $maxPlays }}
+{{ $minFont := 0.8 }}
+{{ $maxFont := 3.0 }}
+{{/* Phones get a gentler range (--fm): at 3rem the top pills leave no room for
+     the name and it truncates to "Ah…". Desktop range (--fs) applies from md. */}}
+{{ $minFontM := 0.75 }}
+{{ $maxFontM := 1.5 }}
+<div x-data="artistCloud">
+  <div class="p-2 max-w-screen-lg mx-auto">
   <header class="prose lg:prose-xl dark:prose-invert">
     <h1 class="flex items-center">
       <i class="fab fa-spotify text-4xl text-emerald-500 mr-3"></i>
@@ -7,13 +33,44 @@
     </h1>
     {{ .Content }}
   </header>
-  <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 gap-4 mt-4">
-    {{ $artists := (.Pages.ByParam "total_plays").Reverse }}
-    {{ $paginator := .Paginate $artists }}
-    {{ range $paginator.Pages }}
-      {{- partial "card-artist.html" . -}}
+
+  {{- $btn := "rounded-full border-2 border-emerald-500 px-3 py-1 font-semibold focus:outline-none focus:ring-2 focus:ring-emerald-300 aria-pressed:bg-emerald-500 aria-pressed:text-white" }}
+  <div x-cloak class="mt-4 flex flex-wrap items-center justify-center gap-3 text-sm">
+    <span class="flex items-center gap-2">
+      <button type="button" @click="sortPlays" :aria-pressed="isPlays" aria-pressed="true" class="{{ $btn }}">Sort by plays</button>
+      <button type="button" @click="sortAlpha" :aria-pressed="isAlpha" aria-pressed="false" class="{{ $btn }}">Sort alphabetically</button>
+    </span>
+  </div>
+  </div>
+
+  {{/* Outside the max-w-screen-lg wrapper above so the pills use the full width. */}}
+  <div class="group/cloud mt-8 px-4 flex flex-wrap items-center justify-center gap-2"
+       data-sort="plays" :data-sort="sort">
+    {{ range $pages.ByTitle }}
+      {{ $plays := .Params.total_plays | int }}
+      {{ $weight := div (math.Log (math.Max $plays 1)) $logMax }}
+      {{ $font := add $minFont (mul (sub $maxFont $minFont) $weight) }}
+      {{ $fontM := add $minFontM (mul (sub $maxFontM $minFontM) $weight) }}
+      {{ $hue := mod (hash.FNV32a .Title) 360 }}
+      {{ $img := dict }}
+      {{ range .Params.spotifyImages }}
+        {{ if and (le .width 160) (gt .width ($img.width | default 0)) }}{{ $img = . }}{{ end }}
+      {{ end }}
+      <a href="{{ .RelPermalink }}"
+         class="group inline-flex max-w-full items-center gap-[0.35em] rounded-full text-[length:var(--fm)] md:text-[length:var(--fs)] py-[0.2em] pl-[0.25em] pr-[0.5em] leading-tight no-underline ring-emerald-500 hover:ring-2 focus-visible:ring-2 group-data-[sort=plays]/cloud:[order:var(--oc)] bg-[hsl(var(--h)_60%_90%)] text-[hsl(var(--h)_50%_22%)] dark:bg-[hsl(var(--h)_30%_22%)] dark:text-[hsl(var(--h)_70%_82%)]"
+         style="--h:{{ $hue }}; --oc:{{ mul $plays -1 }}; --fs:{{ printf "%.2f" $font }}rem; --fm:{{ printf "%.2f" $fontM }}rem">
+        {{- with $img.url -}}
+        <img src="{{ . }}" width="{{ $img.width }}" height="{{ $img.height }}" alt="" loading="lazy" decoding="async"
+             class="h-[1.9em] w-[1.9em] shrink-0 rounded-full object-cover">
+        {{- else -}}
+        <span class="flex h-[1.9em] w-[1.9em] shrink-0 items-center justify-center rounded-full bg-emerald-500/20"><i class="fab fa-spotify text-emerald-500"></i></span>
+        {{- end -}}
+        <span class="truncate font-semibold">{{ .Title }}</span>
+        <span class="shrink-0 rounded-full bg-black/10 px-[0.4em] text-[0.8em] font-semibold dark:bg-white/10">{{ $plays }}</span>
+      </a>
     {{ end }}
   </div>
-  {{ template "_internal/pagination.html" . }}
+
+  <p class="mt-10 text-center"><a href="{{ relURL "listening/a-z/" }}" class="underline font-semibold">Full A–Z artist list</a></p>
 </div>
 {{ end }}

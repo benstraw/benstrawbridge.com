@@ -1,0 +1,37 @@
+{{ define "main" }}
+{{/* Full A–Z index of every artist page, including those heard once that the
+     cloud at /listening/artists/ leaves out. One page, grouped by first letter;
+     digits and symbols go under "#". */}}
+{{ $artists := where .Site.RegularPages "Type" "listening-artist" }}
+{{ $letters := slice }}
+{{ range $artists.ByTitle }}
+  {{ $l := upper (substr .Title 0 1) }}
+  {{ if not (findRE `^[A-Z]$` $l) }}{{ $l = "#" }}{{ end }}
+  {{ if not (in $letters $l) }}{{ $letters = $letters | append $l }}{{ end }}
+{{ end }}
+<div class="p-2 max-w-screen-lg mx-auto">
+  <header class="prose lg:prose-xl dark:prose-invert">
+    <h1 class="flex items-center">
+      <i class="fab fa-spotify text-4xl text-emerald-500 mr-3"></i>
+      {{ .Title }}
+    </h1>
+    {{ .Content }}
+  </header>
+  <nav class="mt-4 flex flex-wrap gap-2 text-sm font-semibold" aria-label="Jump to letter">
+    {{ range $letters }}<a href="#letter-{{ if eq . "#" }}other{{ else }}{{ lower . }}{{ end }}" class="rounded-full border-2 border-emerald-500 px-3 py-1 no-underline">{{ . }}</a>{{ end }}
+  </nav>
+  {{ $current := "" }}
+  {{ range $artists.ByTitle }}
+    {{ $l := upper (substr .Title 0 1) }}
+    {{ if not (findRE `^[A-Z]$` $l) }}{{ $l = "#" }}{{ end }}
+    {{ if ne $l $current }}
+      {{ if $current }}</ul>{{ end }}
+      <h2 id="letter-{{ if eq $l "#" }}other{{ else }}{{ lower $l }}{{ end }}" class="mt-8 mb-2 text-2xl font-bold">{{ $l }}</h2>
+      <ul class="columns-1 sm:columns-2 lg:columns-3 gap-6">
+      {{ $current = $l }}
+    {{ end }}
+    <li class="break-inside-avoid py-1"><a href="{{ .RelPermalink }}" class="underline">{{ .Title }}</a> <span class="text-sm opacity-60">{{ .Params.total_plays | int }}</span></li>
+  {{ end }}
+  </ul>
+</div>
+{{ end }}
