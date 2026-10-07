@@ -2,8 +2,9 @@
 
 **"Book a call" on `/consulting/` is a plain outbound link to a Google Calendar
 appointment schedule.** No widget is embedded, so there is no CSP change. Until
-`params.consulting.bookingURL` is set, every button falls back to a `mailto:`
-link to `params.author.email`, so it never dead-ends.
+`params.consulting.bookingURL` is set, the buttons are **not rendered**: there is
+deliberately no `mailto:` fallback (one was tried and rejected). The closing
+panel still shows its line without a button.
 
 ## Set it up
 
@@ -34,5 +35,5 @@ separate change and needs a CSP review for `form-action`
 ## Measure
 
 `booking_link_click` in PostHog, broken down by `placement` and `target`
-([analytics/posthog.md](../analytics/posthog.md)). `target` is `email` while the
-fallback is live, `calendar` once the URL is set.
+([analytics/posthog.md](../analytics/posthog.md)). `target` is always
+`calendar` today; it stays on the event so a second booking target can be told apart.

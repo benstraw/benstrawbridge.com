@@ -50,7 +50,7 @@ Seen in the last 30 days as of 2026-10-04:
 | `$web_vitals` | posthog-js (project setting) | LCP / FCP / INP / CLS, spread across events |
 | `$rageclick` | autocapture | standard |
 | `404` | `assets/js/not-found.js` | `path` (pathname + query), `referrer` (`$direct` if none) |
-| `booking_link_click` | `layouts/partials/consulting/cta.html` | `page`, `placement` (`hero`/`closing`/`door-top`/`door-bottom`), `target` (`calendar`/`email`) |
+| `booking_link_click` | `layouts/partials/consulting/cta.html` | `page`, `placement` (`hero`/`closing`/`door-top`/`door-bottom`), `target` (`calendar`) |
 | `photo_viewed` | **not emitted by this repo or Ryder v0.5.0** — likely another site or an old build sharing the project. Check before relying on it. | — |
 
 ### 404 tracking
