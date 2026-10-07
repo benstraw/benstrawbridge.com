@@ -84,8 +84,8 @@ logo_firstWord = 'Ben'
     networks = [ "email", "linkedin" ]
   # Booking link for every "Book a call" button on /consulting/.
   # A Google Calendar appointment schedule; setup in
-  # docs/runbooks/consulting-booking.md. Empty falls back to a mailto: link
-  # (params.author.email) so the button never dead-ends.
+  # docs/runbooks/consulting-booking.md. While empty, the buttons are not
+  # rendered at all: there is deliberately no mailto: fallback.
   [params.consulting]
     bookingURL = ""
   [params.author]

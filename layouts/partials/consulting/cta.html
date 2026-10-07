@@ -1,25 +1,24 @@
 {{- /*
-"Book a call" button, tracked as booking_link_click.
-
-href is params.consulting.bookingURL; when empty it falls back to a mailto: so
-the button never dead-ends (the expected state until the booking page exists,
-see docs/runbooks/consulting-booking.md). A navigation link needs no CSP change.
+"Book a call" button, tracked as booking_link_click. Renders only when
+params.consulting.bookingURL is set: there is deliberately no fallback link
+(a mailto: was tried and rejected). A navigation link needs no CSP change.
+Setup: docs/runbooks/consulting-booking.md.
 
 @param page       the page the button sits on
 @param placement  hero | closing | door-top | door-bottom
+@param tone       optional; "inverse" for use on a dark panel
 */ -}}
-{{- $url := site.Params.consulting.bookingURL | default "" -}}
-{{- $kind := "calendar" -}}
-{{- $href := $url -}}
-{{- if not $url -}}
-  {{- $kind = "email" -}}
-  {{- $href = printf "mailto:%s?subject=Consulting%%20call" site.Params.author.email -}}
+{{- with site.Params.consulting.bookingURL -}}
+{{- $base := "inline-flex items-center gap-2 rounded-lg border-2 px-6 py-3 text-base font-semibold no-underline transition focus:outline-none focus:ring-2 focus:ring-offset-2" -}}
+{{- $look := "border-ryder-accent-600 bg-slate-900 text-white hover:border-ryder-accent-500 hover:bg-slate-800 focus:ring-ryder-accent-300 dark:bg-slate-700 dark:hover:bg-slate-600 dark:focus:ring-offset-slate-900" -}}
+{{- if eq $.tone "inverse" -}}
+  {{- $look = "border-white bg-white text-slate-900 hover:bg-emerald-50 focus:ring-white focus:ring-offset-slate-900" -}}
 {{- end -}}
-<p class="not-prose">
-  <a href="{{ $href }}"
-     {{- if eq $kind "calendar" }} target="_blank" rel="noopener"{{ end }}
-     class="{{ partial "utils/cta-class.html" .page }}"
+<p class="not-prose mt-6 mb-0">
+  <a href="{{ . }}" target="_blank" rel="noopener"
+     class="{{ $base }} {{ $look }}"
      x-data="ryderTrack" @click="track"
      data-track-event="booking_link_click"
-     data-track-props='{{ dict "page" .page.RelPermalink "placement" .placement "target" $kind | jsonify }}'>Book a call</a>
+     data-track-props='{{ dict "page" $.page.RelPermalink "placement" $.placement "target" "calendar" | jsonify }}'>Book a call <span aria-hidden="true">&rarr;</span></a>
 </p>
+{{- end -}}
