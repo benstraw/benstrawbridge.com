@@ -87,7 +87,7 @@ logo_firstWord = 'Ben'
   # docs/runbooks/consulting-booking.md. While empty, the buttons are not
   # rendered at all: there is deliberately no mailto: fallback.
   [params.consulting]
-    bookingURL = ""
+    bookingURL = "https://calendar.app.google/3bFok9szFdMgd95x9"
   [params.author]
     email = 'ben@benstrawbridge.com'
     name = 'Ben Strawbridge'
