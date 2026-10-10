@@ -18,6 +18,7 @@ labIntro = "I build my own tools and release many of them as open source, so wha
 # noise on a service page. footer.tagCloud is read per page by the theme footer;
 # [cascade] covers the door pages, this line covers the hub itself.
 footer = { tagCloud = false }
+individualsNote = "Artist or individual? I build for you through [Arts-Link](https://www.arts-link.com), my web studio."
 closing = "Tell me what you're working on. Answer four quick questions, then pick a time that works for you."
 [cascade]
   categories = ["consulting"]

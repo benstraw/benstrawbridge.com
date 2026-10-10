@@ -35,6 +35,9 @@ is the only h1 (docs/seo/invariants.md).
       </div>
     {{- end -}}
   </div>
+  {{- with .Params.individualsNote }}
+  <p class="mt-6 rounded-lg border border-dashed border-slate-300 px-4 py-3 text-slate-700 dark:border-slate-600 dark:text-slate-300">{{ $page.RenderString . }}</p>
+  {{- end }}
 
   {{ partial "consulting/section-heading.html" "How I work" }}
   <div class="not-prose grid grid-cols-1 gap-6 md:grid-cols-3">
