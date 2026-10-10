@@ -82,6 +82,12 @@ logo_firstWord = 'Ben'
   # cardCategoryColorsDefault = "bg-indigo-200"
   [params.shareButtons]
     networks = [ "email", "linkedin" ]
+  # Booking link for every "Book a call" button on /consulting/.
+  # A Google Calendar appointment schedule; setup in
+  # docs/runbooks/consulting-booking.md. While empty, the buttons are not
+  # rendered at all: there is deliberately no mailto: fallback.
+  [params.consulting]
+    bookingURL = "https://calendar.app.google/3bFok9szFdMgd95x9"
   [params.author]
     email = 'ben@benstrawbridge.com'
     name = 'Ben Strawbridge'

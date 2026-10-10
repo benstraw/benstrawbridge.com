@@ -31,6 +31,18 @@
       "layout": "full",
       "section": "consulting"
     },
+    "/consulting/companies/": {
+      "output": "consulting/companies.jpg",
+      "fingerprint": "33bdea4fb9d7fbc6d4ec75b25b1b14b58d694502cb84487537d79cfdf9f4bd12",
+      "layout": "abstract",
+      "section": "consulting"
+    },
+    "/consulting/founders/": {
+      "output": "consulting/founders.jpg",
+      "fingerprint": "a1178e93bc2329798b87af7c1be47b307a4fcc241129cbdc80ea323e40e37a58",
+      "layout": "abstract",
+      "section": "consulting"
+    },
     "/everything-everywhere/": {
       "output": "everything-everywhere.jpg",
       "fingerprint": "8cd9c3ce6624c9963d06a2338130f402c6919fb74d43065d1e19fa617423ec78",

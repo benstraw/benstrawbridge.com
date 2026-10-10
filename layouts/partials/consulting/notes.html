@@ -1,0 +1,18 @@
+{{- /*
+Short Q&A asides for one slot on one page. Deliberately not styled or headed as
+an FAQ; see data/consulting.toml. Renders nothing when the slot has no entries.
+
+@param page  the rendering page (for RenderString)
+@param key   "hub" or the door id
+@param slot  doors | modes | offerings | stories | closing
+*/ -}}
+{{- $slot := .slot -}}
+{{- $page := .page -}}
+{{- $items := where (partial "consulting/faq-items.html" .key) "slot" $slot -}}
+{{- with $items }}
+<div class="not-prose mt-6 space-y-3 border-l-2 border-slate-300 pl-4 text-slate-700 dark:border-slate-600 dark:text-slate-300">
+  {{- range . }}
+  <p class="m-0 leading-relaxed"><strong class="text-slate-900 dark:text-white">{{ .q }}</strong> {{ $page.RenderString .a }}</p>
+  {{- end }}
+</div>
+{{- end -}}

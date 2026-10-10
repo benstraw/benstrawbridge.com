@@ -1,0 +1,37 @@
+{{- /*
+Consulting door page (founders, companies). Site-only template: not a fork of
+the theme's single.html, which prints a publish date a service page shouldn't
+carry. Content lives in data/consulting.toml; see docs/content/sections.md.
+*/ -}}
+{{- define "main" -}}
+{{- $door := .Params.door -}}
+{{- $page := . -}}
+<div class="mx-auto max-w-screen-lg px-3 py-2 md:px-8 lg:px-12">
+  {{ partial "consulting/header.html" . }}
+
+  <section class="rounded-xl border border-slate-200 bg-gradient-to-br from-emerald-50 via-white to-sky-50 p-6 dark:border-slate-700/70 dark:from-emerald-950/40 dark:via-slate-900 dark:to-slate-900 sm:p-10">
+    <div class="prose prose-lg max-w-none dark:prose-invert prose-p:my-0 sm:prose-xl">{{ .Content }}</div>
+    {{ partial "consulting/cta.html" (dict "page" . "placement" "door-top") }}
+  </section>
+
+  {{ partial "consulting/section-heading.html" .Params.offersHeading }}
+  <div class="space-y-4">
+    {{- range site.Data.consulting.offerings -}}
+      {{- if eq .door $door }}{{ partial "consulting/offering.html" (dict "page" $page "item" .) }}{{ end -}}
+    {{- end }}
+  </div>
+
+  {{ partial "consulting/notes.html" (dict "page" . "key" $door "slot" "offerings") }}
+
+  {{ partial "consulting/section-heading.html" "Work I've done" }}
+  <div class="space-y-6">
+    {{- range site.Data.consulting.stories -}}
+      {{- if in .doors $door }}{{ partial "consulting/story.html" (dict "page" $page "item" .) }}{{ end -}}
+    {{- end }}
+  </div>
+  {{ partial "consulting/notes.html" (dict "page" . "key" $door "slot" "stories") }}
+
+  {{ partial "consulting/notes.html" (dict "page" . "key" $door "slot" "closing") }}
+  {{ partial "consulting/closing.html" (dict "page" . "placement" "door-bottom") }}
+</div>
+{{- end -}}

@@ -1,0 +1,3 @@
+{{- /* Small uppercase label for a mode id. See mode-style.html. */ -}}
+{{- $s := partial "consulting/mode-style.html" . -}}
+<span class="inline-block rounded-full border px-2.5 py-0.5 text-xs font-semibold uppercase tracking-wider {{ $s.tag }}">{{ . | title }}</span>

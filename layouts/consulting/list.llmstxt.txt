@@ -1,0 +1,66 @@
+{{- /*
+/consulting/llms.txt: one plain-text digest of the whole consulting cluster for
+LLM crawlers, generated from the hub front matter and data/consulting.toml so it
+can't drift from the pages. Output is enabled on the hub with
+outputs = [..., "LLMSTxt"]. Site-wide /llms.txt is the theme's home template.
+*/ -}}
+{{- $d := site.Data.consulting -}}
+{{- $hub := . -}}
+# Ben Strawbridge: Consulting
+
+> {{ .Description }}
+
+{{ .Params.credibility }}
+
+{{ .Content | plainify | htmlUnescape | chomp }}
+
+Book a 30-minute intro call: {{ with site.Params.consulting.bookingURL }}{{ . }}{{ else }}{{ $hub.Permalink }}{{ end }}
+
+## Pages
+
+- [{{ .Title }}]({{ .Permalink }}): {{ .Description }}
+{{- range .Pages.ByWeight }}
+- [{{ .Title }}]({{ .Permalink }}): {{ .Description }}
+{{- end }}
+
+## Who I work with
+{{ range .Pages.ByWeight }}
+### {{ .LinkTitle }}
+
+{{ .Params.doorSummary }}
+{{- $door := .Params.door }}
+{{ range $d.offerings }}{{ if eq .door $door }}
+- {{ .name }} ({{ .mode | title }}): {{ .summary }}{{ with .price }} Price: {{ . }}.{{ end }}
+{{- end }}{{ end }}
+{{ end }}
+{{- with .Params.individualsNote }}
+{{ . }}
+{{ end }}
+## How I work
+{{ range $d.modes }}
+- {{ .name }}: {{ .summary }}
+{{- end }}
+
+## Selected work
+{{ range $d.stories }}
+### {{ .title }}
+
+{{ .role }}. {{ .body | chomp }}
+{{- with .bridge }} {{ . }}{{ end }}
+{{- with .links }}
+{{ range . }}
+- [{{ .label }}]({{ if hasPrefix .url "/" }}{{ site.BaseURL | strings.TrimSuffix "/" }}{{ .url }}{{ else }}{{ .url }}{{ end }})
+{{- end }}
+{{- end }}
+{{ end }}
+## What I build and run
+
+{{ .Params.labIntro }}
+{{ range $d.lab }}
+- {{ if .url }}[{{ .name }}]({{ .url }}){{ else }}{{ .name }}{{ end }}: {{ .summary }}
+{{- end }}
+
+## Questions and answers
+{{ range $d.faq }}
+**{{ .q }}** {{ .a }}
+{{ end }}

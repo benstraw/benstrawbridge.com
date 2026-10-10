@@ -1,0 +1,9 @@
+{{- /*
+Dark closing panel: the hub's `closing` line and a CTA.
+@param page, placement  as cta.html
+*/ -}}
+{{- $hub := site.GetPage "/consulting" -}}
+<section class="not-prose mt-16 overflow-hidden rounded-xl bg-gradient-to-br from-slate-900 via-slate-900 to-emerald-900 p-6 text-white shadow-sm sm:p-10">
+  <p class="m-0 max-w-2xl text-2xl font-bold leading-snug tracking-tight text-balance sm:text-3xl">{{ $hub.Params.closing }}</p>
+  {{ partial "consulting/cta.html" (dict "page" .page "placement" .placement "tone" "inverse") }}
+</section>

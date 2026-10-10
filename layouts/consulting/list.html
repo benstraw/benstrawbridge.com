@@ -1,0 +1,80 @@
+{{- /*
+Consulting hub. Site-only template; replaces layout = "list-plain" on
+content/consulting/_index.md. Copy is front matter on the section page plus
+data/consulting.toml. The headline is a paragraph, not a heading: the page title
+is the only h1 (docs/seo/invariants.md).
+*/ -}}
+{{- define "main" -}}
+{{- $page := . -}}
+{{- $doorBars := dict "founders" "bg-emerald-500" "companies" "bg-sky-500" -}}
+<div class="mx-auto max-w-screen-lg px-3 py-2 md:px-8 lg:px-12">
+  {{ partial "consulting/header.html" . }}
+
+  <section class="rounded-xl border border-slate-200 bg-gradient-to-br from-emerald-50 via-white to-sky-50 p-6 dark:border-slate-700/70 dark:from-emerald-950/40 dark:via-slate-900 dark:to-slate-900 sm:p-10">
+    <p class="m-0 text-4xl font-extrabold leading-tight tracking-tight text-slate-900 text-balance dark:text-white sm:text-5xl">{{ .Params.headline }}</p>
+    <div class="prose prose-lg mt-5 max-w-none dark:prose-invert prose-p:my-0 sm:prose-xl">{{ .Content }}</div>
+    {{ partial "consulting/cta.html" (dict "page" . "placement" "hero") }}
+  </section>
+
+  {{ partial "consulting/section-heading.html" "Who I work with" }}
+  <div class="not-prose grid grid-cols-1 gap-6 md:grid-cols-2">
+    {{- range .Pages.ByWeight -}}
+      {{- $door := .Params.door -}}
+      <div class="flex flex-col overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm dark:border-slate-700/70 dark:bg-slate-900/70">
+        <div class="h-1.5 {{ index $doorBars $door }}"></div>
+        <div class="flex flex-1 flex-col p-6">
+          <h3 class="m-0 text-2xl font-bold tracking-tight text-slate-900 dark:text-white">{{ .LinkTitle }}</h3>
+          <p class="mb-0 mt-3 leading-relaxed text-slate-700 dark:text-slate-300">{{ .Params.doorSummary }}</p>
+          <ul class="m-0 mt-5 list-none space-y-2 p-0">
+            {{- range site.Data.consulting.offerings -}}
+              {{- if eq .door $door }}<li class="flex gap-2 text-slate-800 dark:text-slate-200"><span class="font-bold text-emerald-600 dark:text-emerald-400" aria-hidden="true">&check;</span><span>{{ .name }}</span></li>{{ end -}}
+            {{- end }}
+          </ul>
+          <p class="mb-0 mt-auto pt-6"><a class="inline-flex items-center gap-2 rounded-lg border border-slate-300 px-4 py-2 font-semibold text-slate-900 no-underline hover:border-emerald-500 hover:text-emerald-700 dark:border-slate-600 dark:text-slate-100 dark:hover:text-emerald-300" href="{{ .RelPermalink }}">{{ .Params.doorLinkLabel }} <span aria-hidden="true">&rarr;</span></a></p>
+        </div>
+      </div>
+    {{- end -}}
+  </div>
+  {{ partial "consulting/notes.html" (dict "page" . "key" "hub" "slot" "doors") }}
+
+  {{ partial "consulting/section-heading.html" "How I work" }}
+  <div class="not-prose grid grid-cols-1 gap-6 md:grid-cols-3">
+    {{- range $m := site.Data.consulting.modes }}
+      <div class="rounded-xl border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-700/70 dark:bg-slate-900/70">
+        <h3 class="m-0 text-xl font-bold tracking-tight text-slate-900 dark:text-white">{{ $m.name }}</h3>
+        <p class="mb-0 mt-2 leading-relaxed text-slate-700 dark:text-slate-300">{{ $m.summary }}</p>
+      </div>
+    {{- end }}
+  </div>
+
+  {{ partial "consulting/notes.html" (dict "page" . "key" "hub" "slot" "modes") }}
+
+  {{ partial "consulting/section-heading.html" "Selected work" }}
+  <div class="not-prose grid grid-cols-1 gap-6 md:grid-cols-3">
+    {{- range site.Data.consulting.stories }}
+      {{- $first := site.GetPage (printf "/consulting/%s" (index .doors 0)) }}
+      <div class="group relative flex flex-col rounded-xl border border-slate-200 bg-white p-6 shadow-sm transition hover:border-emerald-500 dark:border-slate-700/70 dark:bg-slate-900/70">
+        <p class="m-0 text-xs font-semibold uppercase tracking-wider text-emerald-700 dark:text-emerald-400">{{ .role }}</p>
+        <h3 class="mb-0 mt-2 text-xl font-bold tracking-tight text-slate-900 dark:text-white"><a class="no-underline after:absolute after:inset-0" href="{{ $first.RelPermalink }}#{{ .id }}">{{ index (split .title ":") 0 }}</a></h3>
+        <p class="mb-0 mt-2 flex-1 leading-relaxed text-slate-700 dark:text-slate-300">{{ .teaser }}</p>
+        <p class="mb-0 mt-4 text-sm font-semibold text-emerald-700 dark:text-emerald-400" aria-hidden="true">Read the story &rarr;</p>
+      </div>
+    {{- end }}
+  </div>
+  <p class="mt-6 border-l-4 border-slate-300 pl-4 text-slate-600 dark:border-slate-600 dark:text-slate-300">{{ .Params.credibility }}</p>
+
+  {{ partial "consulting/section-heading.html" "What I build and run" }}
+  <p class="mb-6 max-w-3xl text-lg leading-relaxed text-slate-700 dark:text-slate-300">{{ .Params.labIntro }}</p>
+  <div class="not-prose grid grid-cols-1 gap-4 md:grid-cols-2">
+    {{- range site.Data.consulting.lab }}
+      <div class="rounded-xl border border-slate-200 bg-white p-5 shadow-sm dark:border-slate-700/70 dark:bg-slate-900/70">
+        <h3 class="m-0 text-lg font-bold tracking-tight text-slate-900 dark:text-white">{{ if .url }}<a class="no-underline hover:text-emerald-700 dark:hover:text-emerald-300" href="{{ .url }}">{{ .name }} <span aria-hidden="true">&nearr;</span></a>{{ else }}{{ .name }}{{ end }}</h3>
+        <div class="mt-2 leading-relaxed text-slate-700 dark:text-slate-300">{{ $page.RenderString .summary }}</div>
+      </div>
+    {{- end }}
+  </div>
+
+  {{ partial "consulting/notes.html" (dict "page" . "key" "hub" "slot" "closing") }}
+  {{ partial "consulting/closing.html" (dict "page" . "placement" "closing") }}
+</div>
+{{- end -}}

@@ -1,0 +1,16 @@
+{{- /*
+The Q&A entries for one consulting page, in data order.
+
+Single source for both the visible notes (consulting/notes.html) and the
+FAQPage JSON-LD (head/schema-extra.html): the two must stay identical because
+Google requires marked-up Q&A to be visible on the page.
+
+@param string  page key: "hub", or the door id (founders | companies)
+@returns slice of [[faq]] entries
+*/ -}}
+{{- $key := . -}}
+{{- $out := slice -}}
+{{- range site.Data.consulting.faq -}}
+  {{- if in .pages $key }}{{ $out = $out | append . }}{{ end -}}
+{{- end -}}
+{{- return $out -}}

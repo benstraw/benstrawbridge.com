@@ -21,6 +21,25 @@
   location now sits on the trip as tripOrigin, which Trip does define.
 */ -}}
 
+{{- /* Consulting cluster: FAQPage built from the same data/consulting.toml
+       entries that consulting/notes.html prints on the page, so the markup
+       always matches the visible text. See docs/seo/invariants.md. */ -}}
+{{- if eq .Section "consulting" }}
+  {{- $items := partial "consulting/faq-items.html" (.Params.door | default "hub") }}
+  {{- if $items }}
+    {{- $page := . -}}
+    {{- $questions := slice -}}
+    {{- range $items }}
+      {{- $questions = $questions | append (dict
+            "@type" "Question"
+            "name" .q
+            "acceptedAnswer" (dict "@type" "Answer" "text" ($page.RenderString .a | plainify | htmlUnescape))
+      ) -}}
+    {{- end }}
+  <script type="application/ld+json">{{ dict "@context" "https://schema.org" "@type" "FAQPage" "mainEntity" $questions | jsonify | safeJS }}</script>
+  {{- end }}
+{{- end }}
+
 {{- if .Params.tour }}
 
   {{- with .Params.geo }}
