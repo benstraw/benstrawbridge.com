@@ -113,7 +113,7 @@ bridge = ""
 [[stories]]
 id = "gordon-landreth-photography"
 doors = ["companies"]
-title = "Gordon Landreth Photography: six decades of albums made searchable"
+title = "Gordon Landreth Photography: six decades of photo archives made searchable"
 role = "Personal project"
 teaser = "Six decades of photo albums made searchable with a local vision model."
 body = """

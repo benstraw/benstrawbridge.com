@@ -11,14 +11,20 @@ homeFeatureWide = true
 homeFeatureIcon = "fa-solid fa-jedi"
 homeFeatureSummary = "Senior technical leadership without the full-time hire, for founders and for companies outside tech putting AI to work."
 weight = 1
-headline = "Senior technical leadership, without the full-time hire."
+headline = "Senior technical leadership, when you need it."
 credibility = "Engineer at Splunk (now part of Cisco) and Beats Music (now Apple Music). Independent consultant since 2000."
-labIntro = "I use the tools I bring to clients on my own projects first, so I know where they hold up and where they break."
+labIntro = "I build my own tools and release many of them as open source, so what I bring to clients keeps getting better."
+# The footer tag and genre clouds are site-wide taxonomy navigation and read as
+# noise on a service page. footer.tagCloud is read per page by the theme footer;
+# [cascade] covers the door pages, this line covers the hub itself.
+footer = { tagCloud = false }
 closing = "Tell me what you're working on. Answer four quick questions, then pick a time that works for you."
 [cascade]
   categories = ["consulting"]
   cardCategoryColorsDefault = "bg-gradient-to-r from-emerald-500 to-emerald-700"
   [cascade.params]
+    [cascade.params.footer]
+      tagCloud = false
     [cascade.params.twClasses]
       headerBackgroundFrameInner = "bg-header-sunset-sf-coke h-[200px] sm:h-[250px] bg-cover bg-bottom"
 [menu]

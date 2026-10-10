@@ -1,6 +1,6 @@
 +++
 title = 'Consulting for companies outside tech'
-linkTitle = 'For companies outside tech'
+linkTitle = 'Companies outside tech'
 description = 'Put AI to work on your own documents, data and tools, with private options that keep sensitive information in-house. Senior, vendor-neutral and hands-on.'
 date = 2026-10-06T00:00:00-07:00
 weight = 2
