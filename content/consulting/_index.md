@@ -8,7 +8,6 @@ lastmod = 2026-10-06T00:00:00-07:00
 # See docs/content/sections.md.
 homeFeature = true
 homeFeatureWide = true
-homeFeatureIcon = "fa-solid fa-jedi"
 homeFeatureSummary = "Senior technical leadership without the full-time hire, for founders and for companies outside tech putting AI to work."
 weight = 1
 # Adds /consulting/llms.txt (layouts/consulting/list.llmstxt.txt). Outputs are
@@ -17,18 +16,12 @@ outputs = ["HTML", "OGCard", "LLMSTxt"]
 headline = "Senior technical leadership, when you need it."
 credibility = "Engineer at Splunk (now part of Cisco) and Beats Music (now Apple Music). Independent consultant since 2000."
 labIntro = "I build my own tools and release many of them as open source, so what I bring to clients keeps getting better."
-# The footer tag and genre clouds are site-wide taxonomy navigation and read as
-# noise on a service page. footer.tagCloud is read per page by the theme footer;
-# [cascade] covers the door pages, this line covers the hub itself.
-footer = { tagCloud = false }
 individualsNote = "Artist or individual? I build for you through [Arts-Link](https://www.arts-link.com), my web studio."
 closing = "Tell me what you're working on. Answer four quick questions, then pick a time that works for you."
 [cascade]
   categories = ["consulting"]
   cardCategoryColorsDefault = "bg-gradient-to-r from-emerald-500 to-emerald-700"
   [cascade.params]
-    [cascade.params.footer]
-      tagCloud = false
     [cascade.params.twClasses]
       headerBackgroundFrameInner = "bg-header-sunset-sf-coke h-[200px] sm:h-[250px] bg-cover bg-bottom"
 [menu]

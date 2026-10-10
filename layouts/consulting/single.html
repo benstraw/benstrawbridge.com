@@ -30,7 +30,6 @@ carry. Content lives in data/consulting.toml; see docs/content/sections.md.
     {{- end }}
   </div>
   {{ partial "consulting/notes.html" (dict "page" . "key" $door "slot" "stories") }}
-  {{ partial "consulting/testimonials.html" (dict "page" . "door" $door) }}
 
   {{ partial "consulting/notes.html" (dict "page" . "key" $door "slot" "closing") }}
   {{ partial "consulting/closing.html" (dict "page" . "placement" "door-bottom") }}

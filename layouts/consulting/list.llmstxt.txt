@@ -30,7 +30,7 @@ Book a 30-minute intro call: {{ with site.Params.consulting.bookingURL }}{{ . }}
 {{ .Params.doorSummary }}
 {{- $door := .Params.door }}
 {{ range $d.offerings }}{{ if eq .door $door }}
-- {{ .name }} ({{ .mode | title }}): {{ .summary }} Price: {{ .price | default "scoped on a call" }}.
+- {{ .name }} ({{ .mode | title }}): {{ .summary }}{{ with .price }} Price: {{ . }}.{{ end }}
 {{- end }}{{ end }}
 {{ end }}
 {{- with .Params.individualsNote }}
@@ -64,10 +64,3 @@ Book a 30-minute intro call: {{ with site.Params.consulting.bookingURL }}{{ . }}
 {{ range $d.faq }}
 **{{ .q }}** {{ .a }}
 {{ end }}
-{{- with $d.testimonials }}
-## Testimonials
-{{ range . }}
-> {{ .quote }}
-> {{ .name }}{{ with .role }}, {{ . }}{{ end }}
-{{ end }}
-{{- end }}

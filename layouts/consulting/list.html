@@ -36,20 +36,12 @@ is the only h1 (docs/seo/invariants.md).
     {{- end -}}
   </div>
   {{ partial "consulting/notes.html" (dict "page" . "key" "hub" "slot" "doors") }}
-  {{- with .Params.individualsNote }}
-  <p class="mt-6 rounded-lg border border-dashed border-slate-300 px-4 py-3 text-slate-700 dark:border-slate-600 dark:text-slate-300">{{ $page.RenderString . }}</p>
-  {{- end }}
 
   {{ partial "consulting/section-heading.html" "How I work" }}
   <div class="not-prose grid grid-cols-1 gap-6 md:grid-cols-3">
-    {{- range $i, $m := site.Data.consulting.modes }}
-      {{- $s := partial "consulting/mode-style.html" $m.id }}
+    {{- range $m := site.Data.consulting.modes }}
       <div class="rounded-xl border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-700/70 dark:bg-slate-900/70">
-        <div class="flex items-center justify-between">
-          {{ partial "consulting/mode-tag.html" $m.id }}
-          <span class="text-3xl font-extrabold text-slate-200 dark:text-slate-700" aria-hidden="true">0{{ add $i 1 }}</span>
-        </div>
-        <h3 class="mb-0 mt-4 text-xl font-bold tracking-tight text-slate-900 dark:text-white">{{ $m.name }}</h3>
+        <h3 class="m-0 text-xl font-bold tracking-tight text-slate-900 dark:text-white">{{ $m.name }}</h3>
         <p class="mb-0 mt-2 leading-relaxed text-slate-700 dark:text-slate-300">{{ $m.summary }}</p>
       </div>
     {{- end }}
@@ -70,7 +62,6 @@ is the only h1 (docs/seo/invariants.md).
     {{- end }}
   </div>
   <p class="mt-6 border-l-4 border-slate-300 pl-4 text-slate-600 dark:border-slate-600 dark:text-slate-300">{{ .Params.credibility }}</p>
-  {{ partial "consulting/testimonials.html" (dict "page" .) }}
 
   {{ partial "consulting/section-heading.html" "What I build and run" }}
   <p class="mb-6 max-w-3xl text-lg leading-relaxed text-slate-700 dark:text-slate-300">{{ .Params.labIntro }}</p>

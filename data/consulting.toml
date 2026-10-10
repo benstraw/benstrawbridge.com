@@ -181,20 +181,6 @@ q = "Do you only work with startups?"
 a = "No. Founders are one half of the work. The other half is companies outside tech that want to put AI to work on their own documents and tools, with options that keep sensitive information in-house."
 
 [[faq]]
-id = "cto-first"
-pages = ["founders"]
-slot = "offerings"
-q = "Do I need a CTO before I can build?"
-a = "Not to get a first version built. I bring product judgment and hands-on building in one person, and I can run product and engineering until you're ready to hire, then help you hire the team."
-
-[[faq]]
-id = "rewrite"
-pages = ["founders"]
-slot = "offerings"
-q = "Will we have to rewrite everything after we raise?"
-a = "The focus sprint exists to prevent that. It cuts a sprawling vision down to what to build first, with an architecture that won't need a rewrite after your next raise."
-
-[[faq]]
 id = "how-long"
 pages = ["founders"]
 slot = "stories"
@@ -216,13 +202,6 @@ q = "Do you sell an AI product?"
 a = "No. I'm a senior, vendor-neutral builder: I work out where AI actually helps your business, then build it."
 
 [[faq]]
-id = "readiness"
-pages = ["companies"]
-slot = "offerings"
-q = "What do I get from an AI readiness assessment?"
-a = "Two weeks and a written readout covering where AI actually helps your business, what to build versus buy, and what to keep private."
-
-[[faq]]
 id = "scanned-paper"
 pages = ["companies"]
 slot = "stories"
@@ -242,12 +221,3 @@ pages = ["hub", "founders", "companies"]
 slot = "closing"
 q = "What happens on the call?"
 a = "It's 30 minutes over Google Meet. You answer four quick questions when you book, so I can come prepared, and we talk through what you're working on."
-
-# ---- Testimonials ----------------------------------------------------------
-# Empty until Ben has one. Templates render nothing when this array is empty.
-# Shape, when filled:
-# [[testimonials]]
-# quote = "…"
-# name = "…"
-# role = "…"
-# doors = ["founders"]   # hub shows all; door pages filter by door

@@ -1,7 +1,6 @@
 {{- /*
-One offering card: mode bar, name and mode tag, summary, price slot. The slot is
-a dashed placeholder Ben fills in data/consulting.toml; empty reads
-"Scoped on our call".
+One offering card: mode bar, name and mode tag, summary, and a price box that
+renders only when `price` is set in data/consulting.toml.
 
 @param page  the rendering page (for RenderString)
 @param item  one [[offerings]] entry
@@ -17,7 +16,9 @@ a dashed placeholder Ben fills in data/consulting.toml; empty reads
     </div>
     <div class="mt-3 leading-relaxed text-slate-700 dark:text-slate-300">{{ .page.RenderString $item.summary }}</div>
   </div>
+  {{- with $item.price }}
   <div class="mt-4 md:mt-0 md:w-48 md:shrink-0">
-    <div class="rounded-lg border border-dashed border-slate-400 px-3 py-2 text-sm text-slate-600 dark:border-slate-500 dark:text-slate-300">{{ $item.price | default "Scoped on our call" }}</div>
+    <div class="rounded-lg border border-slate-300 px-3 py-2 text-sm text-slate-700 dark:border-slate-500 dark:text-slate-300">{{ . }}</div>
   </div>
+  {{- end }}
 </div>
