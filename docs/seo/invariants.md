@@ -45,6 +45,18 @@ not templates — several are decided by fallback chains.
   Validate with Google's Rich Results test after changing it.
 - **`/llms.txt`** is a home output format (`LLMSTxt`). Keep it in
   `[outputs] home` — outputs aren't inherited from the theme.
+- **`/consulting/llms.txt`** is a second `LLMSTxt` output, switched on for that one
+  page by `outputs = ["HTML", "OGCard", "LLMSTxt"]` in the hub's front matter and
+  rendered by `layouts/consulting/list.llmstxt.txt` from `data/consulting.toml`.
+  The hub `<head>` links it (`extend_head.html`). Don't widen `[outputs] section`
+  for it: that would emit an empty `llms.txt` for every section.
+- **Consulting `FAQPage` JSON-LD must match visible text.** The `[[faq]]` entries in
+  `data/consulting.toml` feed the inline notes (`partials/consulting/notes.html`),
+  the JSON-LD (`head/schema-extra.html`) and `/consulting/llms.txt` from one list.
+  Google requires marked-up Q&A to be on the page, and restricts FAQ rich results
+  to government and health sites (since 2023), so this is for other consumers, not
+  a SERP feature. Keep answers to facts already on the page. Verify: every
+  `name`/`text` in the built JSON-LD appears verbatim in the page body.
 
 - **Artist crawl paths must stay server-rendered links.** `/listening/artists/`
   (the cloud) links every artist with 2+ plays; its "Full A–Z artist list" link

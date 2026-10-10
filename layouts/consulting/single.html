@@ -21,14 +21,18 @@ carry. Content lives in data/consulting.toml; see docs/content/sections.md.
     {{- end }}
   </div>
 
+  {{ partial "consulting/notes.html" (dict "page" . "key" $door "slot" "offerings") }}
+
   {{ partial "consulting/section-heading.html" "Work I've done" }}
   <div class="space-y-6">
     {{- range site.Data.consulting.stories -}}
       {{- if in .doors $door }}{{ partial "consulting/story.html" (dict "page" $page "item" .) }}{{ end -}}
     {{- end }}
   </div>
+  {{ partial "consulting/notes.html" (dict "page" . "key" $door "slot" "stories") }}
   {{ partial "consulting/testimonials.html" (dict "page" . "door" $door) }}
 
+  {{ partial "consulting/notes.html" (dict "page" . "key" $door "slot" "closing") }}
   {{ partial "consulting/closing.html" (dict "page" . "placement" "door-bottom") }}
 </div>
 {{- end -}}

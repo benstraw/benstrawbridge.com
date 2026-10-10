@@ -155,6 +155,94 @@ name = "Arts-Link"
 url = "https://www.arts-link.com"
 summary = "My web studio for artists, including rescuing sites from failing hosts and building static sites that are free to host."
 
+# ---- Questions and answers -------------------------------------------------
+# Rendered inline as short notes under the section named by `slot`, and emitted
+# as FAQPage JSON-LD and in /consulting/llms.txt from this same list, so the
+# markup can never drift from the visible text (Google requires marked-up Q&A to
+# be visible on the page). No FAQ heading, no accordion: they read as asides.
+# pages: hub | founders | companies
+# slot:  hub        doors | modes | closing
+#        door pages offerings | stories | closing
+# `a` is Markdown but keep it plain text: it is also flattened into JSON-LD.
+# Answers only restate facts already on the page; don't add claims here first.
+
+[[faq]]
+id = "fractional"
+pages = ["hub"]
+slot = "modes"
+q = "What does fractional mean?"
+a = "Part-time senior leadership. I run product and engineering for you without a full-time hire, for a set period or longer term when it's the right fit for the team."
+
+[[faq]]
+id = "only-startups"
+pages = ["hub"]
+slot = "doors"
+q = "Do you only work with startups?"
+a = "No. Founders are one half of the work. The other half is companies outside tech that want to put AI to work on their own documents and tools, with options that keep sensitive information in-house."
+
+[[faq]]
+id = "cto-first"
+pages = ["founders"]
+slot = "offerings"
+q = "Do I need a CTO before I can build?"
+a = "Not to get a first version built. I bring product judgment and hands-on building in one person, and I can run product and engineering until you're ready to hire, then help you hire the team."
+
+[[faq]]
+id = "rewrite"
+pages = ["founders"]
+slot = "offerings"
+q = "Will we have to rewrite everything after we raise?"
+a = "The focus sprint exists to prevent that. It cuts a sprawling vision down to what to build first, with an architecture that won't need a rewrite after your next raise."
+
+[[faq]]
+id = "how-long"
+pages = ["founders"]
+slot = "stories"
+q = "How long does a first product take?"
+a = "It depends on the scope. At Zodaka, a consumer mobile app and a merchant dashboard launched in under four months, starting from an idea and some code with nothing live."
+
+[[faq]]
+id = "private-documents"
+pages = ["companies"]
+slot = "offerings"
+q = "Can we use AI without sending our documents to an outside service?"
+a = "Yes. Capable open-source models can run on your own hardware or in your own cloud account, so sensitive documents and source code stay in-house. Part of the job is knowing where open models are good enough and where a frontier model is worth paying for."
+
+[[faq]]
+id = "vendor"
+pages = ["companies"]
+slot = "offerings"
+q = "Do you sell an AI product?"
+a = "No. I'm a senior, vendor-neutral builder: I work out where AI actually helps your business, then build it."
+
+[[faq]]
+id = "readiness"
+pages = ["companies"]
+slot = "offerings"
+q = "What do I get from an AI readiness assessment?"
+a = "Two weeks and a written readout covering where AI actually helps your business, what to build versus buy, and what to keep private."
+
+[[faq]]
+id = "scanned-paper"
+pages = ["companies"]
+slot = "stories"
+q = "Can AI help with a pile of scanned paper?"
+a = "Yes. For my grandfather's photo archive, a vision model running locally read the handwritten captions on more than 3,400 scanned pages at about 95% accuracy, where standard OCR failed, and the whole collection became searchable. The same approach applies to claim forms or decades of invoices."
+
+[[faq]]
+id = "cost"
+pages = ["hub", "founders", "companies"]
+slot = "closing"
+q = "What does it cost?"
+a = "Every engagement is scoped on a call, so the price fits the work."
+
+[[faq]]
+id = "the-call"
+pages = ["hub", "founders", "companies"]
+slot = "closing"
+q = "What happens on the call?"
+a = "It's 30 minutes over Google Meet. You answer four quick questions when you book, so I can come prepared, and we talk through what you're working on."
+
 # ---- Testimonials ----------------------------------------------------------
 # Empty until Ben has one. Templates render nothing when this array is empty.
 # Shape, when filled:

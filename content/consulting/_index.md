@@ -11,6 +11,9 @@ homeFeatureWide = true
 homeFeatureIcon = "fa-solid fa-jedi"
 homeFeatureSummary = "Senior technical leadership without the full-time hire, for founders and for companies outside tech putting AI to work."
 weight = 1
+# Adds /consulting/llms.txt (layouts/consulting/list.llmstxt.txt). Outputs are
+# set per kind in hugo.toml; this widens them for this one page.
+outputs = ["HTML", "OGCard", "LLMSTxt"]
 headline = "Senior technical leadership, when you need it."
 credibility = "Engineer at Splunk (now part of Cisco) and Beats Music (now Apple Music). Independent consultant since 2000."
 labIntro = "I build my own tools and release many of them as open source, so what I bring to clients keeps getting better."

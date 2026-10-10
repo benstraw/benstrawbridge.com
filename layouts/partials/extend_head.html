@@ -11,3 +11,8 @@
 {{- if site.Params.publish_generated_og_assets }}
   {{- partialCached "og-card/publish-generated-assets.html" site "generated-og-assets" -}}
 {{- end }}
+{{- /* Discovery for the cluster's own llms.txt (the LLMSTxt output is
+       notAlternative, so Hugo adds no link of its own). */ -}}
+{{- if and .IsSection (eq .Section "consulting") }}
+  <link rel="alternate" type="text/plain" title="Consulting (llms.txt)" href="{{ .RelPermalink }}llms.txt" />
+{{- end }}
