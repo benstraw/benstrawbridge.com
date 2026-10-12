@@ -1,0 +1,562 @@
+{
+  "week": "2026-W41",
+  "title": "Week of Oct 5, 2026",
+  "year": 2026,
+  "week_num": 41,
+  "date_start": "2026-10-05",
+  "date_end": "2026-10-11",
+  "total_plays": 26,
+  "unique_artists": 15,
+  "topArtistName": "Art Blakey & The Jazz Messengers",
+  "topArtistImages": [
+    {
+      "url": "https://i.scdn.co/image/ab6761610000e5eb9b3c987329c5ae6f4c586bb0",
+      "height": 640,
+      "width": 640
+    },
+    {
+      "url": "https://i.scdn.co/image/ab676161000051749b3c987329c5ae6f4c586bb0",
+      "height": 320,
+      "width": 320
+    },
+    {
+      "url": "https://i.scdn.co/image/ab6761610000f1789b3c987329c5ae6f4c586bb0",
+      "height": 160,
+      "width": 160
+    }
+  ],
+  "top_genres": [
+    {
+      "name": "new wave",
+      "plays": 8
+    },
+    {
+      "name": "post-punk",
+      "plays": 8
+    },
+    {
+      "name": "hard bop",
+      "plays": 6
+    },
+    {
+      "name": "jazz",
+      "plays": 6
+    },
+    {
+      "name": "bebop",
+      "plays": 6
+    },
+    {
+      "name": "cool jazz",
+      "plays": 6
+    },
+    {
+      "name": "rock",
+      "plays": 3
+    },
+    {
+      "name": "proto-punk",
+      "plays": 3
+    },
+    {
+      "name": "classic rock",
+      "plays": 2
+    },
+    {
+      "name": "alternative dance",
+      "plays": 2
+    }
+  ],
+  "top_artists": [
+    {
+      "slug": "art-blakey-the-jazz-messengers",
+      "name": "Art Blakey & The Jazz Messengers",
+      "plays": 6,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb9b3c987329c5ae6f4c586bb0",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051749b3c987329c5ae6f4c586bb0",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1789b3c987329c5ae6f4c586bb0",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "talking-heads",
+      "name": "Talking Heads",
+      "plays": 4,
+      "images": [
+        {
+          "height": 500,
+          "url": "https://i.scdn.co/image/e4c5b04fce8706c87663357b1f78522a3a5c641b",
+          "width": 500
+        },
+        {
+          "height": 200,
+          "url": "https://i.scdn.co/image/60bfd4ad01d8d9142d88c3c0b73cea36bf327ea7",
+          "width": 200
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/4056b1eaa81255de0865ebe4fdbe61246205153c",
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "the-rolling-stones",
+      "name": "The Rolling Stones",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebe4cea917b68726aadb4854b8",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174e4cea917b68726aadb4854b8",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178e4cea917b68726aadb4854b8",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "lcd-soundsystem",
+      "name": "LCD Soundsystem",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb6a0838a408f8c9cf82915ac8",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051746a0838a408f8c9cf82915ac8",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1786a0838a408f8c9cf82915ac8",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "the-fall",
+      "name": "The Fall",
+      "plays": 2,
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb9f414fc8dc3f76cb637f8f11",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab676161000051749f414fc8dc3f76cb637f8f11",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f1789f414fc8dc3f76cb637f8f11",
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "pretenders",
+      "name": "Pretenders",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebe1e579234621464c62c08f63",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174e1e579234621464c62c08f63",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178e1e579234621464c62c08f63",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "the-clash",
+      "name": "The Clash",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb2fc4d22f2e060511db2ae971",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051742fc4d22f2e060511db2ae971",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1782fc4d22f2e060511db2ae971",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "devo",
+      "name": "DEVO",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6772690000c46c75067632f15daff7ae86e32b",
+          "height": 1000,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6772690000dd2275067632f15daff7ae86e32b",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6772690000bac375067632f15daff7ae86e32b",
+          "height": 200,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67726900008f7475067632f15daff7ae86e32b",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "rem",
+      "name": "R.E.M.",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb6334ab6a83196f36475ada7f",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051746334ab6a83196f36475ada7f",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1786334ab6a83196f36475ada7f",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "buffalo-springfield",
+      "name": "Buffalo Springfield",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/b701ba75981d0b9aeef036b9fab4e3c96609e364",
+          "height": 1000,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/52e254506bdba02418c836d1272f8de58933d7c6",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/f4ea5031036120db540cf8efdf24a8bace04f475",
+          "height": 200,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/a42b8b61115ab656d136976e32cc1b67448aae60",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "joy-division",
+      "name": "Joy Division",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/5eeddd733170399db794d2c430a8d2cde7ae1425",
+          "height": 658,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/d3c6bcb07a5ecddf86e791fa901bf3792fe6e6c7",
+          "height": 421,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/d384ebd3d3fda0ad219fed6b9014a59e65fbb385",
+          "height": 132,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/1b5195d5e9b5aac07fb0c801deb1926138222036",
+          "height": 42,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "beck",
+      "name": "Beck",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebca0e2c67ba619791fec07dfa",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174ca0e2c67ba619791fec07dfa",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178ca0e2c67ba619791fec07dfa",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "pixies",
+      "name": "Pixies",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb419ffe5eb82b7460c76a986a",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174419ffe5eb82b7460c76a986a",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178419ffe5eb82b7460c76a986a",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "stevie-wonder",
+      "name": "Stevie Wonder",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/c59faacbed7aa770266bad048660810eca204108",
+          "height": 1008,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/37c7875911b1d8195b05d40061a86bd01908a0d9",
+          "height": 645,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/3b24b51bf11404089c4d66acd0c612539c77e7e7",
+          "height": 202,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/05489744160e3f6f94f707fa1e2a6d4bbd14a298",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "iggy-pop",
+      "name": "Iggy Pop",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb21e6d14c3d8aab9887380d00",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517421e6d14c3d8aab9887380d00",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17821e6d14c3d8aab9887380d00",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    }
+  ],
+  "top_tracks": [
+    {
+      "name": "Gimme Shelter",
+      "artist": "The Rolling Stones",
+      "artist_slug": "the-rolling-stones",
+      "plays": 2
+    },
+    {
+      "name": "Dance Yrself Clean",
+      "artist": "LCD Soundsystem",
+      "artist_slug": "lcd-soundsystem",
+      "plays": 2
+    },
+    {
+      "name": "High Tension Line",
+      "artist": "The Fall",
+      "artist_slug": "the-fall",
+      "plays": 2
+    },
+    {
+      "name": "Once in a Lifetime",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 1
+    },
+    {
+      "name": "Mystery Achievement - 2006 Remaster",
+      "artist": "Pretenders",
+      "artist_slug": "pretenders",
+      "plays": 1
+    },
+    {
+      "name": "Rock the Casbah - Remastered",
+      "artist": "The Clash",
+      "artist_slug": "the-clash",
+      "plays": 1
+    },
+    {
+      "name": "This Must Be the Place (Naive Melody) - 2005 Remaster",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 1
+    },
+    {
+      "name": "Gates of Steel",
+      "artist": "DEVO",
+      "artist_slug": "devo",
+      "plays": 1
+    },
+    {
+      "name": "Radio Free Europe",
+      "artist": "R.E.M.",
+      "artist_slug": "rem",
+      "plays": 1
+    },
+    {
+      "name": "For What It's Worth",
+      "artist": "Buffalo Springfield",
+      "artist_slug": "buffalo-springfield",
+      "plays": 1
+    },
+    {
+      "name": "Love Will Tear Us Apart - 2020 Remaster",
+      "artist": "Joy Division",
+      "artist_slug": "joy-division",
+      "plays": 1
+    },
+    {
+      "name": "Road to Nowhere",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 1
+    },
+    {
+      "name": "Loser",
+      "artist": "Beck",
+      "artist_slug": "beck",
+      "plays": 1
+    },
+    {
+      "name": "Wave of Mutilation",
+      "artist": "Pixies",
+      "artist_slug": "pixies",
+      "plays": 1
+    },
+    {
+      "name": "Higher Ground",
+      "artist": "Stevie Wonder",
+      "artist_slug": "stevie-wonder",
+      "plays": 1
+    },
+    {
+      "name": "Candy",
+      "artist": "Iggy Pop",
+      "artist_slug": "iggy-pop",
+      "plays": 1
+    },
+    {
+      "name": "Take Me to the River",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 1
+    },
+    {
+      "name": "Are You Real",
+      "artist": "Art Blakey & The Jazz Messengers",
+      "artist_slug": "art-blakey-the-jazz-messengers",
+      "plays": 1
+    },
+    {
+      "name": "Lost And Found - Digital Remaster/1999",
+      "artist": "Art Blakey & The Jazz Messengers",
+      "artist_slug": "art-blakey-the-jazz-messengers",
+      "plays": 1
+    },
+    {
+      "name": "Quick Trick",
+      "artist": "Art Blakey & The Jazz Messengers",
+      "artist_slug": "art-blakey-the-jazz-messengers",
+      "plays": 1
+    },
+    {
+      "name": "What's New - Live At Cafe Bohemia, NY/1955 / Rudy Van Gelder Edition/2001",
+      "artist": "Art Blakey & The Jazz Messengers",
+      "artist_slug": "art-blakey-the-jazz-messengers",
+      "plays": 1
+    },
+    {
+      "name": "Alone Together - Live At Cafe Bohemia, NY/1955 / Rudy Van Gelder Edition/2001",
+      "artist": "Art Blakey & The Jazz Messengers",
+      "artist_slug": "art-blakey-the-jazz-messengers",
+      "plays": 1
+    },
+    {
+      "name": "The Theme - Live",
+      "artist": "Art Blakey & The Jazz Messengers",
+      "artist_slug": "art-blakey-the-jazz-messengers",
+      "plays": 1
+    }
+  ]
+}

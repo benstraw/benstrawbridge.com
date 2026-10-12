@@ -3671,9 +3671,9 @@
     "id": "2x9SpqnPi8rlE9pjHBwmSC",
     "name": "Talking Heads",
     "spotify_url": "https://open.spotify.com/artist/2x9SpqnPi8rlE9pjHBwmSC",
-    "total_plays": 13,
+    "total_plays": 17,
     "first_seen": "2026-03-01",
-    "last_seen": "2026-09-14",
+    "last_seen": "2026-10-10",
     "genres": [
       "new wave",
       "post-punk"
@@ -3697,6 +3697,12 @@
     ],
     "top_tracks": [
       {
+        "name": "Road to Nowhere",
+        "album": "Little Creatures",
+        "spotify_url": "https://open.spotify.com/track/5gS8whHdcpbkdz0qonQZF8",
+        "plays": 3
+      },
+      {
         "name": "Crosseyed and Painless - 2005 Remaster",
         "album": "Remain in Light (Deluxe Version)",
         "spotify_url": "https://open.spotify.com/track/0yhwdmbgkKdE1plV8xWdrd",
@@ -3709,22 +3715,16 @@
         "plays": 2
       },
       {
-        "name": "Road to Nowhere",
-        "album": "Little Creatures",
-        "spotify_url": "https://open.spotify.com/track/5gS8whHdcpbkdz0qonQZF8",
-        "plays": 2
-      },
-      {
         "name": "Once in a Lifetime",
         "album": "Remain in Light",
         "spotify_url": "https://open.spotify.com/track/1Tr4K5MU5XYE44umXGDndd",
-        "plays": 1
+        "plays": 2
       },
       {
         "name": "This Must Be the Place (Naive Melody) - 2005 Remaster",
         "album": "Speaking in Tongues (Deluxe Version)",
         "spotify_url": "https://open.spotify.com/track/6aBUnkXuCEQQHAlTokv9or",
-        "plays": 1
+        "plays": 2
       },
       {
         "name": "Don't Worry About the Government",
@@ -3754,6 +3754,12 @@
         "name": "Psycho Killer",
         "album": "Talking Heads '77",
         "spotify_url": "https://open.spotify.com/track/7dSCxR4LqkmxoBrq9MzVSD",
+        "plays": 1
+      },
+      {
+        "name": "Take Me to the River",
+        "album": "More Songs About Buildings and Food",
+        "spotify_url": "https://open.spotify.com/track/1auuYcOrua5hrsGCS7idun",
         "plays": 1
       },
       {
@@ -12097,9 +12103,9 @@
     "id": "3eskO5m0H4yiF64vRySBjr",
     "name": "Buffalo Springfield",
     "spotify_url": "https://open.spotify.com/artist/3eskO5m0H4yiF64vRySBjr",
-    "total_plays": 8,
+    "total_plays": 9,
     "first_seen": "2026-03-03",
-    "last_seen": "2026-03-28",
+    "last_seen": "2026-10-10",
     "genres": [
       "folk rock",
       "country rock"
@@ -12131,7 +12137,7 @@
         "name": "For What It's Worth",
         "album": "Buffalo Springfield",
         "spotify_url": "https://open.spotify.com/track/1qRA5BS78u3gME0loMl9AA",
-        "plays": 2
+        "plays": 3
       },
       {
         "name": "Expecting to Fly",
@@ -21815,9 +21821,9 @@
     "id": "22bE4uQ6baNwSHPVcDxLCe",
     "name": "The Rolling Stones",
     "spotify_url": "https://open.spotify.com/artist/22bE4uQ6baNwSHPVcDxLCe",
-    "total_plays": 36,
+    "total_plays": 38,
     "first_seen": "2026-03-28",
-    "last_seen": "2026-07-12",
+    "last_seen": "2026-10-10",
     "genres": [
       "classic rock",
       "rock"
@@ -21841,6 +21847,12 @@
     ],
     "top_tracks": [
       {
+        "name": "Gimme Shelter",
+        "album": "Let It Bleed",
+        "spotify_url": "https://open.spotify.com/track/6H3kDe7CGoWYBabAeVWGiD",
+        "plays": 3
+      },
+      {
         "name": "Dancing In The Light",
         "album": "Exile On Main Street (Deluxe Version)",
         "spotify_url": "https://open.spotify.com/track/0c1g0H2Kky6iBg2WkjGaOI",
@@ -21862,12 +21874,6 @@
         "name": "You Can't Always Get What You Want",
         "album": "Let It Bleed",
         "spotify_url": "https://open.spotify.com/track/6lFZbCc7pn6Lme1NP7qQqQ",
-        "plays": 1
-      },
-      {
-        "name": "Gimme Shelter",
-        "album": "Let It Bleed",
-        "spotify_url": "https://open.spotify.com/track/6H3kDe7CGoWYBabAeVWGiD",
         "plays": 1
       },
       {
@@ -24673,9 +24679,9 @@
     "id": "7guDJrEfX3qb6FEbdPA5qi",
     "name": "Stevie Wonder",
     "spotify_url": "https://open.spotify.com/artist/7guDJrEfX3qb6FEbdPA5qi",
-    "total_plays": 12,
+    "total_plays": 13,
     "first_seen": "2026-03-31",
-    "last_seen": "2026-07-25",
+    "last_seen": "2026-10-10",
     "genres": [
       "motown",
       "classic soul",
@@ -24704,6 +24710,12 @@
       }
     ],
     "top_tracks": [
+      {
+        "name": "Higher Ground",
+        "album": "Innervisions",
+        "spotify_url": "https://open.spotify.com/track/0dMd4rilfd6gPbXaLpNYhu",
+        "plays": 2
+      },
       {
         "name": "Isn't She Lovely",
         "album": "Songs In The Key Of Life",
@@ -24768,12 +24780,6 @@
         "name": "Love's In Need Of Love Today",
         "album": "Songs In The Key Of Life",
         "spotify_url": "https://open.spotify.com/track/39sdlCugrGBsoC4Flos0HO",
-        "plays": 1
-      },
-      {
-        "name": "Higher Ground",
-        "album": "Innervisions",
-        "spotify_url": "https://open.spotify.com/track/0dMd4rilfd6gPbXaLpNYhu",
         "plays": 1
       }
     ]
@@ -27615,9 +27621,9 @@
     "id": "3vbKDsSS70ZX9D2OcvbZmS",
     "name": "Beck",
     "spotify_url": "https://open.spotify.com/artist/3vbKDsSS70ZX9D2OcvbZmS",
-    "total_plays": 4,
+    "total_plays": 5,
     "first_seen": "2026-05-02",
-    "last_seen": "2026-09-03",
+    "last_seen": "2026-10-10",
     "genres": [
       "anti-folk"
     ],
@@ -27640,6 +27646,12 @@
     ],
     "top_tracks": [
       {
+        "name": "Loser",
+        "album": "Mellow Gold",
+        "spotify_url": "https://open.spotify.com/track/5PntSbMHC1ud6Vvl8x56qd",
+        "plays": 2
+      },
+      {
         "name": "Ride Lonesome",
         "album": "Ride Lonesome",
         "spotify_url": "https://open.spotify.com/track/4ZNjYG7CW4ogsOtIB36h1j",
@@ -27649,12 +27661,6 @@
         "name": "Que' Onda Guero",
         "album": "Guero",
         "spotify_url": "https://open.spotify.com/track/5txrJzhPIrRqfvtnvZGcbX",
-        "plays": 1
-      },
-      {
-        "name": "Loser",
-        "album": "Mellow Gold",
-        "spotify_url": "https://open.spotify.com/track/5PntSbMHC1ud6Vvl8x56qd",
         "plays": 1
       },
       {
@@ -29986,9 +29992,9 @@
     "id": "6zvul52xwTWzilBZl6BUbT",
     "name": "Pixies",
     "spotify_url": "https://open.spotify.com/artist/6zvul52xwTWzilBZl6BUbT",
-    "total_plays": 3,
+    "total_plays": 4,
     "first_seen": "2026-05-06",
-    "last_seen": "2026-07-04",
+    "last_seen": "2026-10-10",
     "genres": [
       "alternative rock"
     ],
@@ -30015,6 +30021,12 @@
         "album": "Surfer Rosa (2007 Remaster)",
         "spotify_url": "https://open.spotify.com/track/7wCmS9TTVUcIhRalDYFgPy",
         "plays": 3
+      },
+      {
+        "name": "Wave of Mutilation",
+        "album": "Doolittle",
+        "spotify_url": "https://open.spotify.com/track/51Z2IzJvLCnZaIpBV0IYRr",
+        "plays": 1
       },
       {
         "name": "Hey",
@@ -47118,9 +47130,9 @@
     "id": "33EUXrFKGjpUSGacqEHhU4",
     "name": "Iggy Pop",
     "spotify_url": "https://open.spotify.com/artist/33EUXrFKGjpUSGacqEHhU4",
-    "total_plays": 1,
+    "total_plays": 2,
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-03",
+    "last_seen": "2026-10-10",
     "genres": [
       "proto-punk",
       "glam rock"
@@ -47147,7 +47159,7 @@
         "name": "Candy",
         "album": "Brick By Brick",
         "spotify_url": "https://open.spotify.com/track/6sFpmdsk4UDMcDWdy4T1Kc",
-        "plays": 1
+        "plays": 2
       }
     ]
   },
@@ -48008,9 +48020,9 @@
     "id": "4KWTAlx2RvbpseOGMEmROg",
     "name": "R.E.M.",
     "spotify_url": "https://open.spotify.com/artist/4KWTAlx2RvbpseOGMEmROg",
-    "total_plays": 1,
+    "total_plays": 2,
     "first_seen": "2026-09-14",
-    "last_seen": "2026-09-14",
+    "last_seen": "2026-10-10",
     "genres": [
       "jangle pop",
       "alternative rock",
@@ -48038,6 +48050,12 @@
         "name": "Man On The Moon",
         "album": "Automatic For The People",
         "spotify_url": "https://open.spotify.com/track/4jLv3tDBu8ww2R07DvL12s",
+        "plays": 1
+      },
+      {
+        "name": "Radio Free Europe",
+        "album": "Murmur",
+        "spotify_url": "https://open.spotify.com/track/46dGFTD918NMz1IP1rPJXO",
         "plays": 1
       },
       {
@@ -48604,6 +48622,1275 @@
         "name": "Fuck a War",
         "album": "We Can't Be Stopped",
         "spotify_url": "https://open.spotify.com/track/1NomfUwHq5sSY3dtdLYFty",
+        "plays": 1
+      }
+    ]
+  },
+  "pretenders": {
+    "id": "0GByy3DcfbQwDvXGCWmzv9",
+    "name": "Pretenders",
+    "spotify_url": "https://open.spotify.com/artist/0GByy3DcfbQwDvXGCWmzv9",
+    "total_plays": 1,
+    "first_seen": "2026-10-10",
+    "last_seen": "2026-10-10",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebe1e579234621464c62c08f63",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174e1e579234621464c62c08f63",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178e1e579234621464c62c08f63",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Mystery Achievement - 2006 Remaster",
+        "album": "Pretenders",
+        "spotify_url": "https://open.spotify.com/track/2xTk109VtSva8rmQvb2Esn",
+        "plays": 1
+      }
+    ]
+  },
+  "the-clash": {
+    "id": "3RGLhK1IP9jnYFH4BRFJBS",
+    "name": "The Clash",
+    "spotify_url": "https://open.spotify.com/artist/3RGLhK1IP9jnYFH4BRFJBS",
+    "total_plays": 1,
+    "first_seen": "2026-10-10",
+    "last_seen": "2026-10-10",
+    "genres": [
+      "punk"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb2fc4d22f2e060511db2ae971",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051742fc4d22f2e060511db2ae971",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1782fc4d22f2e060511db2ae971",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Rock the Casbah - Remastered",
+        "album": "Combat Rock (Remastered)",
+        "spotify_url": "https://open.spotify.com/track/56KqaFSGTb7ifpt16t5Y1N",
+        "plays": 1
+      }
+    ]
+  },
+  "lcd-soundsystem": {
+    "id": "066X20Nz7iquqkkCW6Jxy6",
+    "name": "LCD Soundsystem",
+    "spotify_url": "https://open.spotify.com/artist/066X20Nz7iquqkkCW6Jxy6",
+    "total_plays": 2,
+    "first_seen": "2026-10-10",
+    "last_seen": "2026-10-10",
+    "genres": [
+      "alternative dance",
+      "new rave"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb6a0838a408f8c9cf82915ac8",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051746a0838a408f8c9cf82915ac8",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1786a0838a408f8c9cf82915ac8",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Dance Yrself Clean",
+        "album": "This Is Happening",
+        "spotify_url": "https://open.spotify.com/track/2cmRpmO04TLaKPzmAzySYZ",
+        "plays": 2
+      }
+    ]
+  },
+  "devo": {
+    "id": "0UKfenbZb15sqhfPC6zbt3",
+    "name": "DEVO",
+    "spotify_url": "https://open.spotify.com/artist/0UKfenbZb15sqhfPC6zbt3",
+    "total_plays": 1,
+    "first_seen": "2026-10-10",
+    "last_seen": "2026-10-10",
+    "genres": [
+      "new wave",
+      "post-punk",
+      "synthpop"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6772690000c46c75067632f15daff7ae86e32b",
+        "height": 1000,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6772690000dd2275067632f15daff7ae86e32b",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6772690000bac375067632f15daff7ae86e32b",
+        "height": 200,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67726900008f7475067632f15daff7ae86e32b",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Gates of Steel",
+        "album": "Freedom of Choice",
+        "spotify_url": "https://open.spotify.com/track/65Z7fRcwn29IKCXpRS7CGk",
+        "plays": 1
+      },
+      {
+        "name": "Space Junk",
+        "album": "Q: Are We Not Men? A: We Are Devo!",
+        "spotify_url": "https://open.spotify.com/track/3ALpXGwDQpUQfUDWqub5Cf",
+        "plays": 2
+      },
+      {
+        "name": "Praying Hands",
+        "album": "Q: Are We Not Men? A: We Are Devo!",
+        "spotify_url": "https://open.spotify.com/track/2SyWSu87uLSV5HH6wdsfQ7",
+        "plays": 1
+      },
+      {
+        "name": "(I Can't Get No) Satisfaction",
+        "album": "Q: Are We Not Men? A: We Are Devo!",
+        "spotify_url": "https://open.spotify.com/track/5FzBxhIsZBFXDTVGWtV4IQ",
+        "plays": 1
+      }
+    ]
+  },
+  "joy-division": {
+    "id": "432R46LaYsJZV2Gmc4jUV5",
+    "name": "Joy Division",
+    "spotify_url": "https://open.spotify.com/artist/432R46LaYsJZV2Gmc4jUV5",
+    "total_plays": 1,
+    "first_seen": "2026-10-10",
+    "last_seen": "2026-10-10",
+    "genres": [
+      "post-punk",
+      "gothic rock",
+      "new wave",
+      "darkwave",
+      "cold wave"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/5eeddd733170399db794d2c430a8d2cde7ae1425",
+        "height": 658,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/d3c6bcb07a5ecddf86e791fa901bf3792fe6e6c7",
+        "height": 421,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/d384ebd3d3fda0ad219fed6b9014a59e65fbb385",
+        "height": 132,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/1b5195d5e9b5aac07fb0c801deb1926138222036",
+        "height": 42,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Love Will Tear Us Apart - 2020 Remaster",
+        "album": "Love Will Tear Us Apart",
+        "spotify_url": "https://open.spotify.com/track/34iOH7LY3vme5rQxsVILZ4",
+        "plays": 1
+      },
+      {
+        "name": "No Love Lost - 2010 Remaster",
+        "album": "Substance",
+        "spotify_url": "https://open.spotify.com/track/3DGl2F6Rw8EZV35H4K9sgz",
+        "plays": 1
+      }
+    ]
+  },
+  "art-blakey-the-jazz-messengers": {
+    "id": "6ykfXAed2KOLOMI3R0TZdz",
+    "name": "Art Blakey & The Jazz Messengers",
+    "spotify_url": "https://open.spotify.com/artist/6ykfXAed2KOLOMI3R0TZdz",
+    "total_plays": 6,
+    "first_seen": "2026-10-06",
+    "last_seen": "2026-10-06",
+    "genres": [
+      "hard bop",
+      "jazz",
+      "bebop",
+      "cool jazz"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb9b3c987329c5ae6f4c586bb0",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051749b3c987329c5ae6f4c586bb0",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1789b3c987329c5ae6f4c586bb0",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Are You Real",
+        "album": "Late Night Art Blakey",
+        "spotify_url": "https://open.spotify.com/track/1LJrbwO8OZPYofz1aOmL4u",
+        "plays": 1
+      },
+      {
+        "name": "Lost And Found - Digital Remaster/1999",
+        "album": "Late Night Art Blakey",
+        "spotify_url": "https://open.spotify.com/track/33UmGIqx38wBor8lD1d5ru",
+        "plays": 1
+      },
+      {
+        "name": "Quick Trick",
+        "album": "Late Night Art Blakey",
+        "spotify_url": "https://open.spotify.com/track/0zsyeK7jGDsIPhrWKcZHBZ",
+        "plays": 1
+      },
+      {
+        "name": "What's New - Live At Cafe Bohemia, NY/1955 / Rudy Van Gelder Edition/2001",
+        "album": "Late Night Art Blakey",
+        "spotify_url": "https://open.spotify.com/track/1HNQvLmQQgueXbvGkhmXTS",
+        "plays": 1
+      },
+      {
+        "name": "Alone Together - Live At Cafe Bohemia, NY/1955 / Rudy Van Gelder Edition/2001",
+        "album": "Late Night Art Blakey",
+        "spotify_url": "https://open.spotify.com/track/2o6bgiYBXkuGFxFtTOCRhm",
+        "plays": 1
+      },
+      {
+        "name": "The Theme - Live",
+        "album": "Late Night Art Blakey",
+        "spotify_url": "https://open.spotify.com/track/20EQOrOGYBYUqij22uKnhi",
+        "plays": 1
+      },
+      {
+        "name": "I Mean You (with Thelonious Monk) - 2022 Remaster",
+        "album": "Art Blakey's Jazz Messengers (with Thelonious Monk)",
+        "spotify_url": "https://open.spotify.com/track/4BxfRqGhDUwAWVQPwBz7EI",
+        "plays": 2
+      },
+      {
+        "name": "Blues March",
+        "album": "The Best Of Art Blakey",
+        "spotify_url": "https://open.spotify.com/track/0LJHbAzQGrL1tdX9bd1YSm",
+        "plays": 2
+      },
+      {
+        "name": "Are You Real",
+        "album": "Moanin' (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/1OGwtlps3T1Fo70q6zZUAs",
+        "plays": 2
+      },
+      {
+        "name": "Ping Pong",
+        "album": "Roots And Herbs",
+        "spotify_url": "https://open.spotify.com/track/1cjVMCYoLlzZ6AeC6fUvZJ",
+        "plays": 2
+      },
+      {
+        "name": "Quick Trick",
+        "album": "Just Coolin'",
+        "spotify_url": "https://open.spotify.com/track/2EW1mFJaikQh0vxOoB7uGp",
+        "plays": 2
+      },
+      {
+        "name": "Petty Larceny",
+        "album": "The Freedom Rider",
+        "spotify_url": "https://open.spotify.com/track/0EVGwICUNwPZolrklaiByV",
+        "plays": 2
+      },
+      {
+        "name": "M&M",
+        "album": "Just Coolin'",
+        "spotify_url": "https://open.spotify.com/track/0bltnlB9GUky3FkAOEDYR1",
+        "plays": 2
+      },
+      {
+        "name": "Politely - Remastered 2005",
+        "album": "The Big Beat (The Rudy Van Gelder Edition)",
+        "spotify_url": "https://open.spotify.com/track/24sPnwR3JGG4d7wpwhf5JA",
+        "plays": 2
+      },
+      {
+        "name": "Along Came Betty - Remastered 2013",
+        "album": "Late Night Art Blakey",
+        "spotify_url": "https://open.spotify.com/track/2Vk4VQBjUoRpxPPXDT4PuX",
+        "plays": 2
+      },
+      {
+        "name": "Deciphering the Message",
+        "album": "The Jazz Messengers",
+        "spotify_url": "https://open.spotify.com/track/2bsP9KCIRT4krLc9VfWYgq",
+        "plays": 2
+      },
+      {
+        "name": "Lester Left Town - Remastered 2005",
+        "album": "The Big Beat (The Rudy Van Gelder Edition)",
+        "spotify_url": "https://open.spotify.com/track/2gezUgQGPcgKwReH1Wb87V",
+        "plays": 2
+      },
+      {
+        "name": "Down Under - Remastered 2005",
+        "album": "Mosaic (The Rudy Van Gelder Edition)",
+        "spotify_url": "https://open.spotify.com/track/3tWM2WHbrvwopXi30udCy3",
+        "plays": 2
+      },
+      {
+        "name": "Close Your Eyes",
+        "album": "Just Coolin'",
+        "spotify_url": "https://open.spotify.com/track/3vlX5kFfQHDloPDV1cGENX",
+        "plays": 2
+      },
+      {
+        "name": "Doodlin'",
+        "album": "Late Night Art Blakey",
+        "spotify_url": "https://open.spotify.com/track/4BPhJbT4KKkqQNHr4dkUA0",
+        "plays": 2
+      },
+      {
+        "name": "Rhythm-A-Ning",
+        "album": "Hard Bop Classics",
+        "spotify_url": "https://open.spotify.com/track/4pLR2469rofagcWJhVLeNT",
+        "plays": 2
+      },
+      {
+        "name": "The Theme",
+        "album": "Buttercorn Lady",
+        "spotify_url": "https://open.spotify.com/track/53ZweoNGM7Dtx0jNhd9qnJ",
+        "plays": 2
+      },
+      {
+        "name": "Dat Dere - Remastered 2005",
+        "album": "The Big Beat (The Rudy Van Gelder Edition)",
+        "spotify_url": "https://open.spotify.com/track/0fYXEHGIJqfimplx8Y4683",
+        "plays": 1
+      },
+      {
+        "name": "The Drum Thunder Suite",
+        "album": "Moanin' (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/3oVxiRYsdchd7Avi3Xx0Bu",
+        "plays": 1
+      },
+      {
+        "name": "Come Rain Or Come Shine",
+        "album": "Moanin' (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/4nrQ0ohqu5sXqMg2p4YzkE",
+        "plays": 1
+      },
+      {
+        "name": "Mosaic - 2005 Remaster",
+        "album": "Mosaic (The Rudy Van Gelder Edition)",
+        "spotify_url": "https://open.spotify.com/track/7fX1jZuluhiOhVx5HKzIBA",
+        "plays": 1
+      },
+      {
+        "name": "Alamode",
+        "album": "Art Blakey & The Jazz Messengers",
+        "spotify_url": "https://open.spotify.com/track/3Wglt4wIgeXIBp8nDTh7mQ",
+        "plays": 1
+      },
+      {
+        "name": "Along Came Betty",
+        "album": "Moanin' (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/3Ysj0cl3Jlb6Ysp6um8QI7",
+        "plays": 1
+      },
+      {
+        "name": "Moanin'",
+        "album": "The Best Of Art Blakey",
+        "spotify_url": "https://open.spotify.com/track/4Tq2fWpX1nLCkMSOPkYb1Y",
+        "plays": 1
+      },
+      {
+        "name": "My Romance",
+        "album": "Buttercorn Lady",
+        "spotify_url": "https://open.spotify.com/track/1aVcXUUrwxwtaF0WQhANkl",
+        "plays": 1
+      },
+      {
+        "name": "Hipsippy Blues",
+        "album": "Just Coolin'",
+        "spotify_url": "https://open.spotify.com/track/3iFlfQ0CXc9URaAvai8VUe",
+        "plays": 1
+      },
+      {
+        "name": "Buttercorn Lady",
+        "album": "Buttercorn Lady",
+        "spotify_url": "https://open.spotify.com/track/4nN4PysMbf4wekr28Z9m3J",
+        "plays": 1
+      },
+      {
+        "name": "Sleeping Dancer Sleep On",
+        "album": "Like Someone In Love",
+        "spotify_url": "https://open.spotify.com/track/5GXJ4YrXUORAsB5IsCZIL6",
+        "plays": 1
+      },
+      {
+        "name": "It's You or No One",
+        "album": "The Jazz Messengers",
+        "spotify_url": "https://open.spotify.com/track/5XVsNByeqX0YN2VBpw0dVW",
+        "plays": 1
+      },
+      {
+        "name": "The Chess Players - Remastered 2005",
+        "album": "The Big Beat (The Rudy Van Gelder Edition)",
+        "spotify_url": "https://open.spotify.com/track/63Ko3TB1r09NYmWr8T3VH9",
+        "plays": 1
+      },
+      {
+        "name": "Backstage Sally - Remastered 2003/Rudy Van Gelder Edition",
+        "album": "Buhaina's Delight (Rudy Van Gelder Edition / Remastered)",
+        "spotify_url": "https://open.spotify.com/track/69k61OD5QalC2EcDgzjA8f",
+        "plays": 1
+      },
+      {
+        "name": "A Night In Tunisia - Remastered 2005",
+        "album": "A Night In Tunisia (Remaster)",
+        "spotify_url": "https://open.spotify.com/track/6DH9qxj2GJi0lU2Y5FDHky",
+        "plays": 1
+      },
+      {
+        "name": "Jimerick",
+        "album": "Just Coolin'",
+        "spotify_url": "https://open.spotify.com/track/7np05Igk9mz2aIfrWw7uKa",
+        "plays": 1
+      },
+      {
+        "name": "Kozo's Waltz",
+        "album": "A Night In Tunisia (Remaster)",
+        "spotify_url": "https://open.spotify.com/track/71RQEIdMfA97b6w3813ji8",
+        "plays": 1
+      }
+    ]
+  },
+  "the-fall": {
+    "id": "6WoTvA9qinpHtSRJuldYh6",
+    "name": "The Fall",
+    "spotify_url": "https://open.spotify.com/artist/6WoTvA9qinpHtSRJuldYh6",
+    "total_plays": 2,
+    "first_seen": "2026-10-05",
+    "last_seen": "2026-10-06",
+    "genres": [
+      "post-punk",
+      "new wave",
+      "deathrock",
+      "proto-punk"
+    ],
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab6761610000e5eb9f414fc8dc3f76cb637f8f11",
+        "width": 640
+      },
+      {
+        "height": 320,
+        "url": "https://i.scdn.co/image/ab676161000051749f414fc8dc3f76cb637f8f11",
+        "width": 320
+      },
+      {
+        "height": 160,
+        "url": "https://i.scdn.co/image/ab6761610000f1789f414fc8dc3f76cb637f8f11",
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "High Tension Line",
+        "album": "50,000 Fall Fans Can't Be Wrong (39 Golden Greats)",
+        "spotify_url": "https://open.spotify.com/track/3Sd39JcOWpEmccKwjWJGhs",
+        "plays": 2
+      },
+      {
+        "name": "Paranoia Man in Cheap Shit Room",
+        "album": "The Infotainment Scan",
+        "spotify_url": "https://open.spotify.com/track/59ErdC0bgl4FuL53Def0zg",
+        "plays": 2
+      },
+      {
+        "name": "The Man Whose Head Expanded",
+        "album": "50,000 Fall Fans Can't Be Wrong (39 Golden Greats)",
+        "spotify_url": "https://open.spotify.com/track/5Xb45lrr8YqP3VDORKFEc8",
+        "plays": 2
+      },
+      {
+        "name": "Why Are People Grudgeful?",
+        "album": "The Infotainment Scan",
+        "spotify_url": "https://open.spotify.com/track/5wGcamFFZm5XRTj8BxPRL6",
+        "plays": 2
+      },
+      {
+        "name": "Victoria",
+        "album": "The Frenz Experiment",
+        "spotify_url": "https://open.spotify.com/track/5ziTj3HGli0fqGevKgThlE",
+        "plays": 2
+      },
+      {
+        "name": "The Chiselers",
+        "album": "50,000 Fall Fans Can't Be Wrong (39 Golden Greats)",
+        "spotify_url": "https://open.spotify.com/track/61TxURBB4V5M00MYvs6BhV",
+        "plays": 2
+      },
+      {
+        "name": "The League of Bald-Headed Men",
+        "album": "The Infotainment Scan",
+        "spotify_url": "https://open.spotify.com/track/6n8RvNSQQOgDdcpaYnRcfK",
+        "plays": 2
+      },
+      {
+        "name": "Light / Fireworks",
+        "album": "The Infotainment Scan",
+        "spotify_url": "https://open.spotify.com/track/6vGdELgydxLeVYO2Z4M0md",
+        "plays": 2
+      },
+      {
+        "name": "Leave the Capitol",
+        "album": "13",
+        "spotify_url": "https://open.spotify.com/track/1fTxk0wcs9g81Hm9VpeNBN",
+        "plays": 2
+      },
+      {
+        "name": "No Bulbs 3",
+        "album": "45 84 89 : A Sides",
+        "spotify_url": "https://open.spotify.com/track/1m1RrHFv1aVVK3hqsUnFEM",
+        "plays": 2
+      },
+      {
+        "name": "The Steak Place",
+        "album": "The Frenz Experiment",
+        "spotify_url": "https://open.spotify.com/track/2dWQdBFK0AzQfDxOCI5ouv",
+        "plays": 2
+      },
+      {
+        "name": "U.S. 80's - 90's",
+        "album": "Bend Sinister",
+        "spotify_url": "https://open.spotify.com/track/3TYthlxY3dq9iBkwTpuNrb",
+        "plays": 2
+      },
+      {
+        "name": "2nd Dark Age - Bonus Track",
+        "album": "Dragnet (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/3a6xb1pR4ivA3M9p50JVVc",
+        "plays": 2
+      },
+      {
+        "name": "In These Times",
+        "album": "The Frenz Experiment",
+        "spotify_url": "https://open.spotify.com/track/3iR6fHi7iFIHoZF12Ee1P8",
+        "plays": 2
+      },
+      {
+        "name": "Bill Is Dead",
+        "album": "Extricate (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/3kMTqc2WNl8ufebsOU2RCb",
+        "plays": 2
+      },
+      {
+        "name": "The Re-Mixer - Single Version",
+        "album": "The Infotainment Scan",
+        "spotify_url": "https://open.spotify.com/track/5PDbVWnAPZDrSuw7rP7acV",
+        "plays": 2
+      },
+      {
+        "name": "Hip Priest",
+        "album": "Hex Enduction Hour (Expanded Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/5W6KzqvWELcjW9iyPwAx0M",
+        "plays": 2
+      },
+      {
+        "name": "Victoria",
+        "album": "45 84 89 : A Sides",
+        "spotify_url": "https://open.spotify.com/track/5dizU4Sasy0J2KcGTzI2Dj",
+        "plays": 2
+      },
+      {
+        "name": "There's a Ghost in My House",
+        "album": "45 84 89 : A Sides",
+        "spotify_url": "https://open.spotify.com/track/5fkEqq2ThFQVfhnUgRnR0m",
+        "plays": 2
+      },
+      {
+        "name": "Hilary",
+        "album": "Extricate (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/5gmPf13RFGwT8LWpB2WjxB",
+        "plays": 2
+      },
+      {
+        "name": "Fiery Jack",
+        "album": "50,000 Fall Fans Can't Be Wrong (39 Golden Greats)",
+        "spotify_url": "https://open.spotify.com/track/5haGXU25kv9q5lwQVIs0iJ",
+        "plays": 2
+      },
+      {
+        "name": "Glam Racket - Instrumental Demo",
+        "album": "The Infotainment Scan",
+        "spotify_url": "https://open.spotify.com/track/6y2a2J4268HSI8rrEPvax4",
+        "plays": 2
+      },
+      {
+        "name": "Shoulder Pads 2#",
+        "album": "Bend Sinister",
+        "spotify_url": "https://open.spotify.com/track/72cG9ceYgFD4QEwo2VchXp",
+        "plays": 2
+      },
+      {
+        "name": "15 Ways - Live, John Peel Session #16, 13/3/93",
+        "album": "The Infotainment Scan",
+        "spotify_url": "https://open.spotify.com/track/76VDxqrUd8qx6BznpC0oho",
+        "plays": 2
+      },
+      {
+        "name": "Strychnine - Live, John Peel Session #16, 13/3/93",
+        "album": "The Infotainment Scan",
+        "spotify_url": "https://open.spotify.com/track/77jE3WfC3SHnC47FLfCAOr",
+        "plays": 2
+      },
+      {
+        "name": "English Scheme",
+        "album": "Grotesque (After the Gramme) [Expanded Edition]",
+        "spotify_url": "https://open.spotify.com/track/7GhEVuPusRzepTdMv3bWVZ",
+        "plays": 2
+      },
+      {
+        "name": "A Past Gone Mad - Live, John Peel Session #16, 13/3/93",
+        "album": "The Infotainment Scan",
+        "spotify_url": "https://open.spotify.com/track/7MKXOzpT8tTBtKOShkMEOA",
+        "plays": 2
+      },
+      {
+        "name": "Crop-Dust",
+        "album": "50,000 Fall Fans Can't Be Wrong (39 Golden Greats)",
+        "spotify_url": "https://open.spotify.com/track/7giP461pYGXMDa43qQ5pPq",
+        "plays": 2
+      },
+      {
+        "name": "Auto-Tech Pilot",
+        "album": "Bend Sinister",
+        "spotify_url": "https://open.spotify.com/track/0YUzwMJebgn9TiE6NqLKRu",
+        "plays": 2
+      },
+      {
+        "name": "Bremen Nacht Alternative",
+        "album": "The Frenz Experiment",
+        "spotify_url": "https://open.spotify.com/track/0YjltEhzLKub34xxowuUKA",
+        "plays": 2
+      },
+      {
+        "name": "C.R.E.E.P.",
+        "album": "45 84 89 : A Sides",
+        "spotify_url": "https://open.spotify.com/track/2VFinC3whb3SJKwnMqTKFF",
+        "plays": 2
+      },
+      {
+        "name": "Green Eyed Loco-Man",
+        "album": "50,000 Fall Fans Can't Be Wrong (39 Golden Greats)",
+        "spotify_url": "https://open.spotify.com/track/4ARXBrU1RLYEaJWzvGFhhn",
+        "plays": 2
+      },
+      {
+        "name": "The Classical",
+        "album": "50,000 Fall Fans Can't Be Wrong (39 Golden Greats)",
+        "spotify_url": "https://open.spotify.com/track/7atDCbxJwaoxLJlFZ5lVYp",
+        "plays": 2
+      },
+      {
+        "name": "British People In Hot Weather",
+        "album": "Extricate (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/7nHA8OtJDBhf4lCTkacjGJ",
+        "plays": 2
+      },
+      {
+        "name": "Medical Acceptance Gate",
+        "album": "Slates",
+        "spotify_url": "https://open.spotify.com/track/7yC0qPC40mdIlTvzCnmUkN",
+        "plays": 2
+      },
+      {
+        "name": "Mr. Pharmacist",
+        "album": "Bend Sinister",
+        "spotify_url": "https://open.spotify.com/track/6MgVM4mi2kczVWNseFXXD5",
+        "plays": 1
+      },
+      {
+        "name": "R.O.D.",
+        "album": "Bend Sinister",
+        "spotify_url": "https://open.spotify.com/track/0JkicWA5ZqI6T3zZRR4yb6",
+        "plays": 1
+      },
+      {
+        "name": "Big New Prinz",
+        "album": "45 84 89 : A Sides",
+        "spotify_url": "https://open.spotify.com/track/2JfSle3vWGxois2jgX7Vpl",
+        "plays": 1
+      },
+      {
+        "name": "Middle Mass",
+        "album": "Slates",
+        "spotify_url": "https://open.spotify.com/track/6ggHD3f866Z1eqWVXhA5BM",
+        "plays": 1
+      },
+      {
+        "name": "Jerusalem",
+        "album": "45 84 89 : A Sides",
+        "spotify_url": "https://open.spotify.com/track/2wHSoGf3z4yQsVZ1PBMDlG",
+        "plays": 1
+      },
+      {
+        "name": "Gross Chapel - British Grenadiers",
+        "album": "Bend Sinister",
+        "spotify_url": "https://open.spotify.com/track/4UuwfUHCbZoTczwbS6DtuJ",
+        "plays": 1
+      },
+      {
+        "name": "The Man Whose Head Exploded",
+        "album": "Backdrop",
+        "spotify_url": "https://open.spotify.com/track/09W4PQLOOhy9tFPsLWUYjm",
+        "plays": 1
+      },
+      {
+        "name": "Ladybird (Green Grass)",
+        "album": "The Infotainment Scan",
+        "spotify_url": "https://open.spotify.com/track/0Pwc7NN7PPZ7EB8S7l9QWG",
+        "plays": 1
+      },
+      {
+        "name": "U.S. 80's - 90's",
+        "album": "50,000 Fall Fans Can't Be Wrong (39 Golden Greats)",
+        "spotify_url": "https://open.spotify.com/track/0zw9SbIM4aVka8qlXDz4ar",
+        "plays": 1
+      },
+      {
+        "name": "Get a Hotel",
+        "album": "The Frenz Experiment",
+        "spotify_url": "https://open.spotify.com/track/5aFLGU477dGZN8XrWSGNcc",
+        "plays": 1
+      },
+      {
+        "name": "Gut Of The Quantifier",
+        "album": "This Nation's Saving Grace",
+        "spotify_url": "https://open.spotify.com/track/3EWfO6ItksyJGD1aIP0g4M",
+        "plays": 1
+      },
+      {
+        "name": "Jawbone and the Air-Rifle",
+        "album": "Hex Enduction Hour (Expanded Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/75eqxSV6GoWJcmXAkUkIhh",
+        "plays": 1
+      },
+      {
+        "name": "Prole Art Threat",
+        "album": "Slates",
+        "spotify_url": "https://open.spotify.com/track/0UxVAKrMCRSJx4iT6AYFI2",
+        "plays": 1
+      },
+      {
+        "name": "Past Gone Mad",
+        "album": "The Infotainment Scan",
+        "spotify_url": "https://open.spotify.com/track/0oXMvnlHugkkropJWyRDlS",
+        "plays": 1
+      },
+      {
+        "name": "I'm Going to Spain",
+        "album": "The Infotainment Scan",
+        "spotify_url": "https://open.spotify.com/track/1UlPqirB4sdHS2mm4N8Fzl",
+        "plays": 1
+      },
+      {
+        "name": "An Older Lover etc.",
+        "album": "Slates",
+        "spotify_url": "https://open.spotify.com/track/1ZgvXpDMATo2xaQf2kZcV0",
+        "plays": 1
+      },
+      {
+        "name": "It's a Curse",
+        "album": "The Infotainment Scan",
+        "spotify_url": "https://open.spotify.com/track/3LYkBDhOy0pdtFbO5cGW64",
+        "plays": 1
+      },
+      {
+        "name": "Lie Dream Of A Casino Soul",
+        "album": "50,000 Fall Fans Can't Be Wrong (39 Golden Greats)",
+        "spotify_url": "https://open.spotify.com/track/452xo132AFiBGNJ92oqwDH",
+        "plays": 1
+      },
+      {
+        "name": "Glam-Racket",
+        "album": "The Infotainment Scan",
+        "spotify_url": "https://open.spotify.com/track/4F3WcrrqUK7Y2sdYRsUOa6",
+        "plays": 1
+      },
+      {
+        "name": "Hard Life in the Country",
+        "album": "Room to Live",
+        "spotify_url": "https://open.spotify.com/track/4JryTTXPThG53cIEYRWLYP",
+        "plays": 1
+      },
+      {
+        "name": "In My Area - Bonus Track",
+        "album": "Dragnet (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/4MmWVFt94F0cpCQxbZVcMU",
+        "plays": 1
+      },
+      {
+        "name": "Sing! Harpy",
+        "album": "Extricate (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/4RgL3qFKB7jIL5IsFJbB0T",
+        "plays": 1
+      },
+      {
+        "name": "Rowche Rumble",
+        "album": "50,000 Fall Fans Can't Be Wrong (39 Golden Greats)",
+        "spotify_url": "https://open.spotify.com/track/4S77M9rFyct8u4QXz8C9lI",
+        "plays": 1
+      },
+      {
+        "name": "Pay Your Rates",
+        "album": "Grotesque (After the Gramme) [Expanded Edition]",
+        "spotify_url": "https://open.spotify.com/track/4WX0pRkYVGjYeBDH5hRoa1",
+        "plays": 1
+      },
+      {
+        "name": "Fit and Working Again",
+        "album": "Slates",
+        "spotify_url": "https://open.spotify.com/track/4YxWkLHQBNuu8QkO0xvEWw",
+        "plays": 1
+      },
+      {
+        "name": "Lost in Music",
+        "album": "The Infotainment Scan",
+        "spotify_url": "https://open.spotify.com/track/4a4GUIjeimOUlmwHG0vDfI",
+        "plays": 1
+      },
+      {
+        "name": "Frenz",
+        "album": "The Frenz Experiment",
+        "spotify_url": "https://open.spotify.com/track/4e8MTYppLa3V47dijeBtaU",
+        "plays": 1
+      },
+      {
+        "name": "Service",
+        "album": "The Infotainment Scan",
+        "spotify_url": "https://open.spotify.com/track/4nhzjDOzGpMdmPbsBMhBKX",
+        "plays": 1
+      },
+      {
+        "name": "The Classical",
+        "album": "Hex Enduction Hour (Expanded Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/4o6zRzcfbwoaXqGYcntCTW",
+        "plays": 1
+      },
+      {
+        "name": "Fantastic Life",
+        "album": "Slates",
+        "spotify_url": "https://open.spotify.com/track/4s7EggmgguY7Nyz1JM39cj",
+        "plays": 1
+      },
+      {
+        "name": "L.A.",
+        "album": "45 84 89 : A Sides",
+        "spotify_url": "https://open.spotify.com/track/4uM81kkZcFdu04CEQXN8NY",
+        "plays": 1
+      },
+      {
+        "name": "Edinburgh Man",
+        "album": "Shift Work",
+        "spotify_url": "https://open.spotify.com/track/35RLTyXeAvKJZlJZQP6Tt7",
+        "plays": 1
+      },
+      {
+        "name": "League Moon Monkey Mix",
+        "album": "The Infotainment Scan",
+        "spotify_url": "https://open.spotify.com/track/7bB5HQDNOscCzlLKll2NQ2",
+        "plays": 1
+      },
+      {
+        "name": "Impression of J. Temperence",
+        "album": "Grotesque (After the Gramme) [Expanded Edition]",
+        "spotify_url": "https://open.spotify.com/track/0Oi4GahLXrtLpIHvmLvfyo",
+        "plays": 1
+      },
+      {
+        "name": "A Past Gone Mad - Alternate Version",
+        "album": "The Infotainment Scan",
+        "spotify_url": "https://open.spotify.com/track/0PqDoBKF12R7rxra8Bni7b",
+        "plays": 1
+      },
+      {
+        "name": "Shoulder Pads 1#",
+        "album": "Bend Sinister",
+        "spotify_url": "https://open.spotify.com/track/0TKMmeyJmq5Uap4fMht2Il",
+        "plays": 1
+      },
+      {
+        "name": "Popcorn Double Feature",
+        "album": "Extricate (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/0g2wm0M4cVRTuaUGq0VW3v",
+        "plays": 1
+      },
+      {
+        "name": "How I Wrote 'Elastic Man'",
+        "album": "50,000 Fall Fans Can't Be Wrong (39 Golden Greats)",
+        "spotify_url": "https://open.spotify.com/track/0gFZj517wQbjixIfgBBx4Y",
+        "plays": 1
+      },
+      {
+        "name": "Paranoia Man in Cheap Shit Room - Live, John Peel Session #16, 13/3/93",
+        "album": "The Infotainment Scan",
+        "spotify_url": "https://open.spotify.com/track/0j614LWD7UrAkBDM9RbNzY",
+        "plays": 1
+      },
+      {
+        "name": "Glam Racket - Single Version",
+        "album": "The Infotainment Scan",
+        "spotify_url": "https://open.spotify.com/track/13t3LwvI2Il8PyF3U4LNLG",
+        "plays": 1
+      },
+      {
+        "name": "Lost in Music - Single Version",
+        "album": "The Infotainment Scan",
+        "spotify_url": "https://open.spotify.com/track/1BTtI31VD00GViacIiW7Ob",
+        "plays": 1
+      },
+      {
+        "name": "Telephone Thing - Unedited Version",
+        "album": "Extricate (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/1Q40rTgqiZl64u3VnXCgL7",
+        "plays": 1
+      },
+      {
+        "name": "Carry Bag Man",
+        "album": "The Frenz Experiment",
+        "spotify_url": "https://open.spotify.com/track/1ahfsVb7zfTRQsI0W9MebN",
+        "plays": 1
+      },
+      {
+        "name": "Instrumental Outtake",
+        "album": "The Infotainment Scan",
+        "spotify_url": "https://open.spotify.com/track/27jhcZitblGpHK3U9LDjbr",
+        "plays": 1
+      },
+      {
+        "name": "Living Too Late",
+        "album": "45 84 89 : A Sides",
+        "spotify_url": "https://open.spotify.com/track/2Eo69o0B4WKMwcNQAAW006",
+        "plays": 1
+      },
+      {
+        "name": "Powder Keg",
+        "album": "50,000 Fall Fans Can't Be Wrong (39 Golden Greats)",
+        "spotify_url": "https://open.spotify.com/track/2Fm5i6UZFK3lTA5BOO8HYo",
+        "plays": 1
+      },
+      {
+        "name": "The Container Drivers",
+        "album": "Grotesque (After the Gramme) [Expanded Edition]",
+        "spotify_url": "https://open.spotify.com/track/2Y0BOHo4CDbnmYUJA63CBw",
+        "plays": 1
+      },
+      {
+        "name": "Bournemouth Runner",
+        "album": "Bend Sinister",
+        "spotify_url": "https://open.spotify.com/track/2jlPebdYc7uSPEb1KE6VW0",
+        "plays": 1
+      },
+      {
+        "name": "How I Wrote Elastic Man",
+        "album": "Grotesque (After the Gramme) [Expanded Edition]",
+        "spotify_url": "https://open.spotify.com/track/2qnqfI9kJtbIjn5CG648By",
+        "plays": 1
+      },
+      {
+        "name": "Mr. Pharmacist",
+        "album": "45 84 89 : A Sides",
+        "spotify_url": "https://open.spotify.com/track/34cvdxys4TOLwpB66rJ1px",
+        "plays": 1
+      },
+      {
+        "name": "War - Live, John Peel Session #16, 13/3/93",
+        "album": "The Infotainment Scan",
+        "spotify_url": "https://open.spotify.com/track/35CwutTfUolezQ05OdZiyP",
+        "plays": 1
+      },
+      {
+        "name": "Terry Waite Sez",
+        "album": "Bend Sinister",
+        "spotify_url": "https://open.spotify.com/track/3EIy5p0KUBAH1ONT7vt5s4",
+        "plays": 1
+      },
+      {
+        "name": "Ladybird (Green Grass) - Live, John Peel Session #16, 13/3/93",
+        "album": "The Infotainment Scan",
+        "spotify_url": "https://open.spotify.com/track/3FGYKuiIEer1y9XA7HsT0c",
+        "plays": 1
+      },
+      {
+        "name": "Lost in Music - Mix 3",
+        "album": "The Infotainment Scan",
+        "spotify_url": "https://open.spotify.com/track/3HqQIE5OXfxKVJ7UbDPIR9",
+        "plays": 1
+      },
+      {
+        "name": "The Littlest Rebel",
+        "album": "Extricate (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/3IRLMHyKvalZoRnvMfFth4",
+        "plays": 1
+      },
+      {
+        "name": "DKTR. Faustus",
+        "album": "Bend Sinister",
+        "spotify_url": "https://open.spotify.com/track/3tI7va5iwB8QLF4HJGJ5R1",
+        "plays": 1
+      },
+      {
+        "name": "C 'n' C-S Mithering",
+        "album": "Grotesque (After the Gramme) [Expanded Edition]",
+        "spotify_url": "https://open.spotify.com/track/3x4y3XMivoNBLeDDnFXnQ0",
+        "plays": 1
+      },
+      {
+        "name": "WMC-Blob 59",
+        "album": "Grotesque (After the Gramme) [Expanded Edition]",
+        "spotify_url": "https://open.spotify.com/track/3yty8UBCMn6FzuqQvz6MHA",
+        "plays": 1
+      },
+      {
+        "name": "Masquerade",
+        "album": "50,000 Fall Fans Can't Be Wrong (39 Golden Greats)",
+        "spotify_url": "https://open.spotify.com/track/43YUCFxgtNdiRHwm5nElDh",
+        "plays": 1
+      },
+      {
+        "name": "Psykick Dance Hall - Number 2",
+        "album": "Dragnet (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/47VT9cGt7mgcHxkjUuCm8n",
+        "plays": 1
+      },
+      {
+        "name": "Fiery Jack - Bonus Track",
+        "album": "Dragnet (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/4EOKJntCkNc4vbuSQg4doy",
+        "plays": 1
+      },
+      {
+        "name": "And Therein ...",
+        "album": "Extricate (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/4KYsLfEFXN1SNoBd97c2Ry",
+        "plays": 1
+      },
+      {
+        "name": "Slags, Slates Etc.",
+        "album": "Slates",
+        "spotify_url": "https://open.spotify.com/track/4KnKSAxmRNaXmnwZXXhUeG",
+        "plays": 1
+      },
+      {
+        "name": "Totally Wired",
+        "album": "Grotesque (After the Gramme) [Expanded Edition]",
+        "spotify_url": "https://open.spotify.com/track/4MW3570CIk1qrWr7qBfrCg",
+        "plays": 1
+      },
+      {
+        "name": "In the Park",
+        "album": "Grotesque (After the Gramme) [Expanded Edition]",
+        "spotify_url": "https://open.spotify.com/track/4NCiaJ7Pl3rZ6Ul8j7QFPu",
+        "plays": 1
+      },
+      {
+        "name": "New Face In Hell",
+        "album": "Grotesque (After the Gramme) [Expanded Edition]",
+        "spotify_url": "https://open.spotify.com/track/4aBlNDKRUNcd4Nzmq8wQrF",
+        "plays": 1
+      },
+      {
+        "name": "Service - Instrumental Demo",
+        "album": "The Infotainment Scan",
+        "spotify_url": "https://open.spotify.com/track/4kKKN2yS9NioMzkPrO6Lq2",
+        "plays": 1
+      },
+      {
+        "name": "Totally Wired",
+        "album": "50,000 Fall Fans Can't Be Wrong (39 Golden Greats)",
+        "spotify_url": "https://open.spotify.com/track/4mhZBZCuYEgmzM5d2u5Ye6",
+        "plays": 1
+      },
+      {
+        "name": "Chicago Now",
+        "album": "Extricate (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/4pUDd3RGzmg8B2hoTVkY1L",
+        "plays": 1
+      },
+      {
+        "name": "Telephone Dub",
+        "album": "Extricate (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/4ztzBRI0Eyy7vkDBkgo1y5",
+        "plays": 1
+      },
+      {
+        "name": "Telephone Thing",
+        "album": "Extricate (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/55tXJfiSGbpHpnW7IYnVCx",
+        "plays": 1
+      },
+      {
+        "name": "Susan Vs Youthclub",
+        "album": "50,000 Fall Fans Can't Be Wrong (39 Golden Greats)",
+        "spotify_url": "https://open.spotify.com/track/5nStJvcJqRCCvk7gfr27yV",
+        "plays": 1
+      },
+      {
+        "name": "Black Monk Theme - Part 1",
+        "album": "Extricate (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/5xWXNoxBbZd0p0NWOn7YCX",
+        "plays": 1
+      },
+      {
+        "name": "The NWRA",
+        "album": "Grotesque (After the Gramme) [Expanded Edition]",
+        "spotify_url": "https://open.spotify.com/track/5z2SfWrAqY2HHOjcjF0YN6",
+        "plays": 1
+      },
+      {
+        "name": "Hey! Luciani",
+        "album": "45 84 89 : A Sides",
+        "spotify_url": "https://open.spotify.com/track/67MoB9SDE6pM1pVQQCaXl0",
+        "plays": 1
+      },
+      {
+        "name": "Wrong Place, Right Time No. 2",
+        "album": "45 84 89 : A Sides",
+        "spotify_url": "https://open.spotify.com/track/68dpn39e7emqQ2zVMcBYdK",
+        "plays": 1
+      },
+      {
+        "name": "Service - Live, John Peel Session #16, 13/3/93",
+        "album": "The Infotainment Scan",
+        "spotify_url": "https://open.spotify.com/track/69FZ3kVR5y5DLp5YeVilXN",
+        "plays": 1
+      },
+      {
+        "name": "Riddler!",
+        "album": "Bend Sinister",
+        "spotify_url": "https://open.spotify.com/track/6HKlabb721Azk9VFIrVl4R",
+        "plays": 1
+      },
+      {
+        "name": "Gramme Friday",
+        "album": "Grotesque (After the Gramme) [Expanded Edition]",
+        "spotify_url": "https://open.spotify.com/track/6TVtkLdKWlnUFcYS3SWR4i",
+        "plays": 1
+      },
+      {
+        "name": "Living Too Late",
+        "album": "Bend Sinister",
+        "spotify_url": "https://open.spotify.com/track/6kp2FEbTBLeVZtFBXeg8q5",
+        "plays": 1
+      },
+      {
+        "name": "Glam Racket - Live, John Peel Session #16, 13/3/93",
+        "album": "The Infotainment Scan",
+        "spotify_url": "https://open.spotify.com/track/6lKxsbXScNDqPQZicd87GI",
+        "plays": 1
+      },
+      {
+        "name": "Lost in Music - Mix 7",
+        "album": "The Infotainment Scan",
+        "spotify_url": "https://open.spotify.com/track/6r25DAesafGfjLvq4r0LKC",
+        "plays": 1
+      },
+      {
+        "name": "Why Are People so Grudgeful? - Single Version",
+        "album": "The Infotainment Scan",
+        "spotify_url": "https://open.spotify.com/track/7lRnjuG7Q0QkVSX3vAw2gG",
+        "plays": 1
+      },
+      {
+        "name": "Hit the North Part 1",
+        "album": "45 84 89 : A Sides",
+        "spotify_url": "https://open.spotify.com/track/7w7m9joesrTrcZLcJMWaP2",
+        "plays": 1
+      },
+      {
+        "name": "English Scheme",
+        "album": "Totally Wired - The Rough Trade Anthology",
+        "spotify_url": "https://open.spotify.com/track/4J68M23AbXTsfumwWYMAlk",
+        "plays": 1
+      },
+      {
+        "name": "Putta Block (Single Version)",
+        "album": "Grotesque (After the Gramme) [Expanded Edition]",
+        "spotify_url": "https://open.spotify.com/track/4ogLiIzUUAbersrPUJUDRk",
+        "plays": 1
+      },
+      {
+        "name": "Fortress / Deer Park",
+        "album": "Hex Enduction Hour (Expanded Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/5GjZ1ill7r02zzO4Z7Ftqs",
+        "plays": 1
+      },
+      {
+        "name": "Lost in Music - Mix 14",
+        "album": "The Infotainment Scan",
+        "spotify_url": "https://open.spotify.com/track/5S3PCzztZpC0wwYWBa4vpQ",
+        "plays": 1
+      },
+      {
+        "name": "Dead Beat Descendant",
+        "album": "45 84 89 : A Sides",
+        "spotify_url": "https://open.spotify.com/track/5ma0yU0Vu3nKjpxnPAKimB",
+        "plays": 1
+      },
+      {
+        "name": "The Man Whose Head Expanded - Live, Mainstreet, Auckland, New Zealand, 21 August 1982",
+        "album": "1982",
+        "spotify_url": "https://open.spotify.com/track/1e6t2M9VteIvfOGpP9QJ3C",
         "plays": 1
       }
     ]
@@ -49657,791 +50944,6 @@
         "name": "Rhumba No. 2",
         "album": "Happy Moods",
         "spotify_url": "https://open.spotify.com/track/4v35SX13TAT7FMO3HUOs8d",
-        "plays": 1
-      }
-    ]
-  },
-  "the-fall": {
-    "id": "6WoTvA9qinpHtSRJuldYh6",
-    "name": "The Fall",
-    "spotify_url": "https://open.spotify.com/artist/6WoTvA9qinpHtSRJuldYh6",
-    "total_plays": 159,
-    "first_seen": "",
-    "last_seen": "",
-    "genres": [
-      "alternative rock",
-      "art punk",
-      "madchester",
-      "post-punk",
-      "shoegaze",
-      "uk post-punk"
-    ],
-    "images": [
-      {
-        "height": 640,
-        "url": "https://i.scdn.co/image/ab6761610000e5eb9f414fc8dc3f76cb637f8f11",
-        "width": 640
-      },
-      {
-        "height": 320,
-        "url": "https://i.scdn.co/image/ab676161000051749f414fc8dc3f76cb637f8f11",
-        "width": 320
-      },
-      {
-        "height": 160,
-        "url": "https://i.scdn.co/image/ab6761610000f1789f414fc8dc3f76cb637f8f11",
-        "width": 160
-      }
-    ],
-    "top_tracks": [
-      {
-        "name": "Paranoia Man in Cheap Shit Room",
-        "album": "The Infotainment Scan",
-        "spotify_url": "https://open.spotify.com/track/59ErdC0bgl4FuL53Def0zg",
-        "plays": 2
-      },
-      {
-        "name": "The Man Whose Head Expanded",
-        "album": "50,000 Fall Fans Can't Be Wrong (39 Golden Greats)",
-        "spotify_url": "https://open.spotify.com/track/5Xb45lrr8YqP3VDORKFEc8",
-        "plays": 2
-      },
-      {
-        "name": "Why Are People Grudgeful?",
-        "album": "The Infotainment Scan",
-        "spotify_url": "https://open.spotify.com/track/5wGcamFFZm5XRTj8BxPRL6",
-        "plays": 2
-      },
-      {
-        "name": "Victoria",
-        "album": "The Frenz Experiment",
-        "spotify_url": "https://open.spotify.com/track/5ziTj3HGli0fqGevKgThlE",
-        "plays": 2
-      },
-      {
-        "name": "The Chiselers",
-        "album": "50,000 Fall Fans Can't Be Wrong (39 Golden Greats)",
-        "spotify_url": "https://open.spotify.com/track/61TxURBB4V5M00MYvs6BhV",
-        "plays": 2
-      },
-      {
-        "name": "The League of Bald-Headed Men",
-        "album": "The Infotainment Scan",
-        "spotify_url": "https://open.spotify.com/track/6n8RvNSQQOgDdcpaYnRcfK",
-        "plays": 2
-      },
-      {
-        "name": "Light / Fireworks",
-        "album": "The Infotainment Scan",
-        "spotify_url": "https://open.spotify.com/track/6vGdELgydxLeVYO2Z4M0md",
-        "plays": 2
-      },
-      {
-        "name": "Leave the Capitol",
-        "album": "13",
-        "spotify_url": "https://open.spotify.com/track/1fTxk0wcs9g81Hm9VpeNBN",
-        "plays": 2
-      },
-      {
-        "name": "No Bulbs 3",
-        "album": "45 84 89 : A Sides",
-        "spotify_url": "https://open.spotify.com/track/1m1RrHFv1aVVK3hqsUnFEM",
-        "plays": 2
-      },
-      {
-        "name": "The Steak Place",
-        "album": "The Frenz Experiment",
-        "spotify_url": "https://open.spotify.com/track/2dWQdBFK0AzQfDxOCI5ouv",
-        "plays": 2
-      },
-      {
-        "name": "U.S. 80's - 90's",
-        "album": "Bend Sinister",
-        "spotify_url": "https://open.spotify.com/track/3TYthlxY3dq9iBkwTpuNrb",
-        "plays": 2
-      },
-      {
-        "name": "2nd Dark Age - Bonus Track",
-        "album": "Dragnet (Deluxe Edition)",
-        "spotify_url": "https://open.spotify.com/track/3a6xb1pR4ivA3M9p50JVVc",
-        "plays": 2
-      },
-      {
-        "name": "In These Times",
-        "album": "The Frenz Experiment",
-        "spotify_url": "https://open.spotify.com/track/3iR6fHi7iFIHoZF12Ee1P8",
-        "plays": 2
-      },
-      {
-        "name": "Bill Is Dead",
-        "album": "Extricate (Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/3kMTqc2WNl8ufebsOU2RCb",
-        "plays": 2
-      },
-      {
-        "name": "The Re-Mixer - Single Version",
-        "album": "The Infotainment Scan",
-        "spotify_url": "https://open.spotify.com/track/5PDbVWnAPZDrSuw7rP7acV",
-        "plays": 2
-      },
-      {
-        "name": "Hip Priest",
-        "album": "Hex Enduction Hour (Expanded Deluxe Edition)",
-        "spotify_url": "https://open.spotify.com/track/5W6KzqvWELcjW9iyPwAx0M",
-        "plays": 2
-      },
-      {
-        "name": "Victoria",
-        "album": "45 84 89 : A Sides",
-        "spotify_url": "https://open.spotify.com/track/5dizU4Sasy0J2KcGTzI2Dj",
-        "plays": 2
-      },
-      {
-        "name": "There's a Ghost in My House",
-        "album": "45 84 89 : A Sides",
-        "spotify_url": "https://open.spotify.com/track/5fkEqq2ThFQVfhnUgRnR0m",
-        "plays": 2
-      },
-      {
-        "name": "Hilary",
-        "album": "Extricate (Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/5gmPf13RFGwT8LWpB2WjxB",
-        "plays": 2
-      },
-      {
-        "name": "Fiery Jack",
-        "album": "50,000 Fall Fans Can't Be Wrong (39 Golden Greats)",
-        "spotify_url": "https://open.spotify.com/track/5haGXU25kv9q5lwQVIs0iJ",
-        "plays": 2
-      },
-      {
-        "name": "Glam Racket - Instrumental Demo",
-        "album": "The Infotainment Scan",
-        "spotify_url": "https://open.spotify.com/track/6y2a2J4268HSI8rrEPvax4",
-        "plays": 2
-      },
-      {
-        "name": "Shoulder Pads 2#",
-        "album": "Bend Sinister",
-        "spotify_url": "https://open.spotify.com/track/72cG9ceYgFD4QEwo2VchXp",
-        "plays": 2
-      },
-      {
-        "name": "15 Ways - Live, John Peel Session #16, 13/3/93",
-        "album": "The Infotainment Scan",
-        "spotify_url": "https://open.spotify.com/track/76VDxqrUd8qx6BznpC0oho",
-        "plays": 2
-      },
-      {
-        "name": "Strychnine - Live, John Peel Session #16, 13/3/93",
-        "album": "The Infotainment Scan",
-        "spotify_url": "https://open.spotify.com/track/77jE3WfC3SHnC47FLfCAOr",
-        "plays": 2
-      },
-      {
-        "name": "English Scheme",
-        "album": "Grotesque (After the Gramme) [Expanded Edition]",
-        "spotify_url": "https://open.spotify.com/track/7GhEVuPusRzepTdMv3bWVZ",
-        "plays": 2
-      },
-      {
-        "name": "A Past Gone Mad - Live, John Peel Session #16, 13/3/93",
-        "album": "The Infotainment Scan",
-        "spotify_url": "https://open.spotify.com/track/7MKXOzpT8tTBtKOShkMEOA",
-        "plays": 2
-      },
-      {
-        "name": "Crop-Dust",
-        "album": "50,000 Fall Fans Can't Be Wrong (39 Golden Greats)",
-        "spotify_url": "https://open.spotify.com/track/7giP461pYGXMDa43qQ5pPq",
-        "plays": 2
-      },
-      {
-        "name": "Auto-Tech Pilot",
-        "album": "Bend Sinister",
-        "spotify_url": "https://open.spotify.com/track/0YUzwMJebgn9TiE6NqLKRu",
-        "plays": 2
-      },
-      {
-        "name": "Bremen Nacht Alternative",
-        "album": "The Frenz Experiment",
-        "spotify_url": "https://open.spotify.com/track/0YjltEhzLKub34xxowuUKA",
-        "plays": 2
-      },
-      {
-        "name": "C.R.E.E.P.",
-        "album": "45 84 89 : A Sides",
-        "spotify_url": "https://open.spotify.com/track/2VFinC3whb3SJKwnMqTKFF",
-        "plays": 2
-      },
-      {
-        "name": "Green Eyed Loco-Man",
-        "album": "50,000 Fall Fans Can't Be Wrong (39 Golden Greats)",
-        "spotify_url": "https://open.spotify.com/track/4ARXBrU1RLYEaJWzvGFhhn",
-        "plays": 2
-      },
-      {
-        "name": "The Classical",
-        "album": "50,000 Fall Fans Can't Be Wrong (39 Golden Greats)",
-        "spotify_url": "https://open.spotify.com/track/7atDCbxJwaoxLJlFZ5lVYp",
-        "plays": 2
-      },
-      {
-        "name": "British People In Hot Weather",
-        "album": "Extricate (Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/7nHA8OtJDBhf4lCTkacjGJ",
-        "plays": 2
-      },
-      {
-        "name": "Medical Acceptance Gate",
-        "album": "Slates",
-        "spotify_url": "https://open.spotify.com/track/7yC0qPC40mdIlTvzCnmUkN",
-        "plays": 2
-      },
-      {
-        "name": "Mr. Pharmacist",
-        "album": "Bend Sinister",
-        "spotify_url": "https://open.spotify.com/track/6MgVM4mi2kczVWNseFXXD5",
-        "plays": 1
-      },
-      {
-        "name": "R.O.D.",
-        "album": "Bend Sinister",
-        "spotify_url": "https://open.spotify.com/track/0JkicWA5ZqI6T3zZRR4yb6",
-        "plays": 1
-      },
-      {
-        "name": "Big New Prinz",
-        "album": "45 84 89 : A Sides",
-        "spotify_url": "https://open.spotify.com/track/2JfSle3vWGxois2jgX7Vpl",
-        "plays": 1
-      },
-      {
-        "name": "Middle Mass",
-        "album": "Slates",
-        "spotify_url": "https://open.spotify.com/track/6ggHD3f866Z1eqWVXhA5BM",
-        "plays": 1
-      },
-      {
-        "name": "Jerusalem",
-        "album": "45 84 89 : A Sides",
-        "spotify_url": "https://open.spotify.com/track/2wHSoGf3z4yQsVZ1PBMDlG",
-        "plays": 1
-      },
-      {
-        "name": "Gross Chapel - British Grenadiers",
-        "album": "Bend Sinister",
-        "spotify_url": "https://open.spotify.com/track/4UuwfUHCbZoTczwbS6DtuJ",
-        "plays": 1
-      },
-      {
-        "name": "The Man Whose Head Exploded",
-        "album": "Backdrop",
-        "spotify_url": "https://open.spotify.com/track/09W4PQLOOhy9tFPsLWUYjm",
-        "plays": 1
-      },
-      {
-        "name": "Ladybird (Green Grass)",
-        "album": "The Infotainment Scan",
-        "spotify_url": "https://open.spotify.com/track/0Pwc7NN7PPZ7EB8S7l9QWG",
-        "plays": 1
-      },
-      {
-        "name": "U.S. 80's - 90's",
-        "album": "50,000 Fall Fans Can't Be Wrong (39 Golden Greats)",
-        "spotify_url": "https://open.spotify.com/track/0zw9SbIM4aVka8qlXDz4ar",
-        "plays": 1
-      },
-      {
-        "name": "Get a Hotel",
-        "album": "The Frenz Experiment",
-        "spotify_url": "https://open.spotify.com/track/5aFLGU477dGZN8XrWSGNcc",
-        "plays": 1
-      },
-      {
-        "name": "Gut Of The Quantifier",
-        "album": "This Nation's Saving Grace",
-        "spotify_url": "https://open.spotify.com/track/3EWfO6ItksyJGD1aIP0g4M",
-        "plays": 1
-      },
-      {
-        "name": "Jawbone and the Air-Rifle",
-        "album": "Hex Enduction Hour (Expanded Deluxe Edition)",
-        "spotify_url": "https://open.spotify.com/track/75eqxSV6GoWJcmXAkUkIhh",
-        "plays": 1
-      },
-      {
-        "name": "Prole Art Threat",
-        "album": "Slates",
-        "spotify_url": "https://open.spotify.com/track/0UxVAKrMCRSJx4iT6AYFI2",
-        "plays": 1
-      },
-      {
-        "name": "Past Gone Mad",
-        "album": "The Infotainment Scan",
-        "spotify_url": "https://open.spotify.com/track/0oXMvnlHugkkropJWyRDlS",
-        "plays": 1
-      },
-      {
-        "name": "I'm Going to Spain",
-        "album": "The Infotainment Scan",
-        "spotify_url": "https://open.spotify.com/track/1UlPqirB4sdHS2mm4N8Fzl",
-        "plays": 1
-      },
-      {
-        "name": "An Older Lover etc.",
-        "album": "Slates",
-        "spotify_url": "https://open.spotify.com/track/1ZgvXpDMATo2xaQf2kZcV0",
-        "plays": 1
-      },
-      {
-        "name": "It's a Curse",
-        "album": "The Infotainment Scan",
-        "spotify_url": "https://open.spotify.com/track/3LYkBDhOy0pdtFbO5cGW64",
-        "plays": 1
-      },
-      {
-        "name": "Lie Dream Of A Casino Soul",
-        "album": "50,000 Fall Fans Can't Be Wrong (39 Golden Greats)",
-        "spotify_url": "https://open.spotify.com/track/452xo132AFiBGNJ92oqwDH",
-        "plays": 1
-      },
-      {
-        "name": "Glam-Racket",
-        "album": "The Infotainment Scan",
-        "spotify_url": "https://open.spotify.com/track/4F3WcrrqUK7Y2sdYRsUOa6",
-        "plays": 1
-      },
-      {
-        "name": "Hard Life in the Country",
-        "album": "Room to Live",
-        "spotify_url": "https://open.spotify.com/track/4JryTTXPThG53cIEYRWLYP",
-        "plays": 1
-      },
-      {
-        "name": "In My Area - Bonus Track",
-        "album": "Dragnet (Deluxe Edition)",
-        "spotify_url": "https://open.spotify.com/track/4MmWVFt94F0cpCQxbZVcMU",
-        "plays": 1
-      },
-      {
-        "name": "Sing! Harpy",
-        "album": "Extricate (Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/4RgL3qFKB7jIL5IsFJbB0T",
-        "plays": 1
-      },
-      {
-        "name": "Rowche Rumble",
-        "album": "50,000 Fall Fans Can't Be Wrong (39 Golden Greats)",
-        "spotify_url": "https://open.spotify.com/track/4S77M9rFyct8u4QXz8C9lI",
-        "plays": 1
-      },
-      {
-        "name": "Pay Your Rates",
-        "album": "Grotesque (After the Gramme) [Expanded Edition]",
-        "spotify_url": "https://open.spotify.com/track/4WX0pRkYVGjYeBDH5hRoa1",
-        "plays": 1
-      },
-      {
-        "name": "Fit and Working Again",
-        "album": "Slates",
-        "spotify_url": "https://open.spotify.com/track/4YxWkLHQBNuu8QkO0xvEWw",
-        "plays": 1
-      },
-      {
-        "name": "Lost in Music",
-        "album": "The Infotainment Scan",
-        "spotify_url": "https://open.spotify.com/track/4a4GUIjeimOUlmwHG0vDfI",
-        "plays": 1
-      },
-      {
-        "name": "Frenz",
-        "album": "The Frenz Experiment",
-        "spotify_url": "https://open.spotify.com/track/4e8MTYppLa3V47dijeBtaU",
-        "plays": 1
-      },
-      {
-        "name": "Service",
-        "album": "The Infotainment Scan",
-        "spotify_url": "https://open.spotify.com/track/4nhzjDOzGpMdmPbsBMhBKX",
-        "plays": 1
-      },
-      {
-        "name": "The Classical",
-        "album": "Hex Enduction Hour (Expanded Deluxe Edition)",
-        "spotify_url": "https://open.spotify.com/track/4o6zRzcfbwoaXqGYcntCTW",
-        "plays": 1
-      },
-      {
-        "name": "Fantastic Life",
-        "album": "Slates",
-        "spotify_url": "https://open.spotify.com/track/4s7EggmgguY7Nyz1JM39cj",
-        "plays": 1
-      },
-      {
-        "name": "L.A.",
-        "album": "45 84 89 : A Sides",
-        "spotify_url": "https://open.spotify.com/track/4uM81kkZcFdu04CEQXN8NY",
-        "plays": 1
-      },
-      {
-        "name": "Edinburgh Man",
-        "album": "Shift Work",
-        "spotify_url": "https://open.spotify.com/track/35RLTyXeAvKJZlJZQP6Tt7",
-        "plays": 1
-      },
-      {
-        "name": "High Tension Line",
-        "album": "50,000 Fall Fans Can't Be Wrong (39 Golden Greats)",
-        "spotify_url": "https://open.spotify.com/track/3Sd39JcOWpEmccKwjWJGhs",
-        "plays": 1
-      },
-      {
-        "name": "League Moon Monkey Mix",
-        "album": "The Infotainment Scan",
-        "spotify_url": "https://open.spotify.com/track/7bB5HQDNOscCzlLKll2NQ2",
-        "plays": 1
-      },
-      {
-        "name": "Impression of J. Temperence",
-        "album": "Grotesque (After the Gramme) [Expanded Edition]",
-        "spotify_url": "https://open.spotify.com/track/0Oi4GahLXrtLpIHvmLvfyo",
-        "plays": 1
-      },
-      {
-        "name": "A Past Gone Mad - Alternate Version",
-        "album": "The Infotainment Scan",
-        "spotify_url": "https://open.spotify.com/track/0PqDoBKF12R7rxra8Bni7b",
-        "plays": 1
-      },
-      {
-        "name": "Shoulder Pads 1#",
-        "album": "Bend Sinister",
-        "spotify_url": "https://open.spotify.com/track/0TKMmeyJmq5Uap4fMht2Il",
-        "plays": 1
-      },
-      {
-        "name": "Popcorn Double Feature",
-        "album": "Extricate (Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/0g2wm0M4cVRTuaUGq0VW3v",
-        "plays": 1
-      },
-      {
-        "name": "How I Wrote 'Elastic Man'",
-        "album": "50,000 Fall Fans Can't Be Wrong (39 Golden Greats)",
-        "spotify_url": "https://open.spotify.com/track/0gFZj517wQbjixIfgBBx4Y",
-        "plays": 1
-      },
-      {
-        "name": "Paranoia Man in Cheap Shit Room - Live, John Peel Session #16, 13/3/93",
-        "album": "The Infotainment Scan",
-        "spotify_url": "https://open.spotify.com/track/0j614LWD7UrAkBDM9RbNzY",
-        "plays": 1
-      },
-      {
-        "name": "Glam Racket - Single Version",
-        "album": "The Infotainment Scan",
-        "spotify_url": "https://open.spotify.com/track/13t3LwvI2Il8PyF3U4LNLG",
-        "plays": 1
-      },
-      {
-        "name": "Lost in Music - Single Version",
-        "album": "The Infotainment Scan",
-        "spotify_url": "https://open.spotify.com/track/1BTtI31VD00GViacIiW7Ob",
-        "plays": 1
-      },
-      {
-        "name": "Telephone Thing - Unedited Version",
-        "album": "Extricate (Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/1Q40rTgqiZl64u3VnXCgL7",
-        "plays": 1
-      },
-      {
-        "name": "Carry Bag Man",
-        "album": "The Frenz Experiment",
-        "spotify_url": "https://open.spotify.com/track/1ahfsVb7zfTRQsI0W9MebN",
-        "plays": 1
-      },
-      {
-        "name": "Instrumental Outtake",
-        "album": "The Infotainment Scan",
-        "spotify_url": "https://open.spotify.com/track/27jhcZitblGpHK3U9LDjbr",
-        "plays": 1
-      },
-      {
-        "name": "Living Too Late",
-        "album": "45 84 89 : A Sides",
-        "spotify_url": "https://open.spotify.com/track/2Eo69o0B4WKMwcNQAAW006",
-        "plays": 1
-      },
-      {
-        "name": "Powder Keg",
-        "album": "50,000 Fall Fans Can't Be Wrong (39 Golden Greats)",
-        "spotify_url": "https://open.spotify.com/track/2Fm5i6UZFK3lTA5BOO8HYo",
-        "plays": 1
-      },
-      {
-        "name": "The Container Drivers",
-        "album": "Grotesque (After the Gramme) [Expanded Edition]",
-        "spotify_url": "https://open.spotify.com/track/2Y0BOHo4CDbnmYUJA63CBw",
-        "plays": 1
-      },
-      {
-        "name": "Bournemouth Runner",
-        "album": "Bend Sinister",
-        "spotify_url": "https://open.spotify.com/track/2jlPebdYc7uSPEb1KE6VW0",
-        "plays": 1
-      },
-      {
-        "name": "How I Wrote Elastic Man",
-        "album": "Grotesque (After the Gramme) [Expanded Edition]",
-        "spotify_url": "https://open.spotify.com/track/2qnqfI9kJtbIjn5CG648By",
-        "plays": 1
-      },
-      {
-        "name": "Mr. Pharmacist",
-        "album": "45 84 89 : A Sides",
-        "spotify_url": "https://open.spotify.com/track/34cvdxys4TOLwpB66rJ1px",
-        "plays": 1
-      },
-      {
-        "name": "War - Live, John Peel Session #16, 13/3/93",
-        "album": "The Infotainment Scan",
-        "spotify_url": "https://open.spotify.com/track/35CwutTfUolezQ05OdZiyP",
-        "plays": 1
-      },
-      {
-        "name": "Terry Waite Sez",
-        "album": "Bend Sinister",
-        "spotify_url": "https://open.spotify.com/track/3EIy5p0KUBAH1ONT7vt5s4",
-        "plays": 1
-      },
-      {
-        "name": "Ladybird (Green Grass) - Live, John Peel Session #16, 13/3/93",
-        "album": "The Infotainment Scan",
-        "spotify_url": "https://open.spotify.com/track/3FGYKuiIEer1y9XA7HsT0c",
-        "plays": 1
-      },
-      {
-        "name": "Lost in Music - Mix 3",
-        "album": "The Infotainment Scan",
-        "spotify_url": "https://open.spotify.com/track/3HqQIE5OXfxKVJ7UbDPIR9",
-        "plays": 1
-      },
-      {
-        "name": "The Littlest Rebel",
-        "album": "Extricate (Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/3IRLMHyKvalZoRnvMfFth4",
-        "plays": 1
-      },
-      {
-        "name": "DKTR. Faustus",
-        "album": "Bend Sinister",
-        "spotify_url": "https://open.spotify.com/track/3tI7va5iwB8QLF4HJGJ5R1",
-        "plays": 1
-      },
-      {
-        "name": "C 'n' C-S Mithering",
-        "album": "Grotesque (After the Gramme) [Expanded Edition]",
-        "spotify_url": "https://open.spotify.com/track/3x4y3XMivoNBLeDDnFXnQ0",
-        "plays": 1
-      },
-      {
-        "name": "WMC-Blob 59",
-        "album": "Grotesque (After the Gramme) [Expanded Edition]",
-        "spotify_url": "https://open.spotify.com/track/3yty8UBCMn6FzuqQvz6MHA",
-        "plays": 1
-      },
-      {
-        "name": "Masquerade",
-        "album": "50,000 Fall Fans Can't Be Wrong (39 Golden Greats)",
-        "spotify_url": "https://open.spotify.com/track/43YUCFxgtNdiRHwm5nElDh",
-        "plays": 1
-      },
-      {
-        "name": "Psykick Dance Hall - Number 2",
-        "album": "Dragnet (Deluxe Edition)",
-        "spotify_url": "https://open.spotify.com/track/47VT9cGt7mgcHxkjUuCm8n",
-        "plays": 1
-      },
-      {
-        "name": "Fiery Jack - Bonus Track",
-        "album": "Dragnet (Deluxe Edition)",
-        "spotify_url": "https://open.spotify.com/track/4EOKJntCkNc4vbuSQg4doy",
-        "plays": 1
-      },
-      {
-        "name": "And Therein ...",
-        "album": "Extricate (Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/4KYsLfEFXN1SNoBd97c2Ry",
-        "plays": 1
-      },
-      {
-        "name": "Slags, Slates Etc.",
-        "album": "Slates",
-        "spotify_url": "https://open.spotify.com/track/4KnKSAxmRNaXmnwZXXhUeG",
-        "plays": 1
-      },
-      {
-        "name": "Totally Wired",
-        "album": "Grotesque (After the Gramme) [Expanded Edition]",
-        "spotify_url": "https://open.spotify.com/track/4MW3570CIk1qrWr7qBfrCg",
-        "plays": 1
-      },
-      {
-        "name": "In the Park",
-        "album": "Grotesque (After the Gramme) [Expanded Edition]",
-        "spotify_url": "https://open.spotify.com/track/4NCiaJ7Pl3rZ6Ul8j7QFPu",
-        "plays": 1
-      },
-      {
-        "name": "New Face In Hell",
-        "album": "Grotesque (After the Gramme) [Expanded Edition]",
-        "spotify_url": "https://open.spotify.com/track/4aBlNDKRUNcd4Nzmq8wQrF",
-        "plays": 1
-      },
-      {
-        "name": "Service - Instrumental Demo",
-        "album": "The Infotainment Scan",
-        "spotify_url": "https://open.spotify.com/track/4kKKN2yS9NioMzkPrO6Lq2",
-        "plays": 1
-      },
-      {
-        "name": "Totally Wired",
-        "album": "50,000 Fall Fans Can't Be Wrong (39 Golden Greats)",
-        "spotify_url": "https://open.spotify.com/track/4mhZBZCuYEgmzM5d2u5Ye6",
-        "plays": 1
-      },
-      {
-        "name": "Chicago Now",
-        "album": "Extricate (Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/4pUDd3RGzmg8B2hoTVkY1L",
-        "plays": 1
-      },
-      {
-        "name": "Telephone Dub",
-        "album": "Extricate (Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/4ztzBRI0Eyy7vkDBkgo1y5",
-        "plays": 1
-      },
-      {
-        "name": "Telephone Thing",
-        "album": "Extricate (Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/55tXJfiSGbpHpnW7IYnVCx",
-        "plays": 1
-      },
-      {
-        "name": "Susan Vs Youthclub",
-        "album": "50,000 Fall Fans Can't Be Wrong (39 Golden Greats)",
-        "spotify_url": "https://open.spotify.com/track/5nStJvcJqRCCvk7gfr27yV",
-        "plays": 1
-      },
-      {
-        "name": "Black Monk Theme - Part 1",
-        "album": "Extricate (Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/5xWXNoxBbZd0p0NWOn7YCX",
-        "plays": 1
-      },
-      {
-        "name": "The NWRA",
-        "album": "Grotesque (After the Gramme) [Expanded Edition]",
-        "spotify_url": "https://open.spotify.com/track/5z2SfWrAqY2HHOjcjF0YN6",
-        "plays": 1
-      },
-      {
-        "name": "Hey! Luciani",
-        "album": "45 84 89 : A Sides",
-        "spotify_url": "https://open.spotify.com/track/67MoB9SDE6pM1pVQQCaXl0",
-        "plays": 1
-      },
-      {
-        "name": "Wrong Place, Right Time No. 2",
-        "album": "45 84 89 : A Sides",
-        "spotify_url": "https://open.spotify.com/track/68dpn39e7emqQ2zVMcBYdK",
-        "plays": 1
-      },
-      {
-        "name": "Service - Live, John Peel Session #16, 13/3/93",
-        "album": "The Infotainment Scan",
-        "spotify_url": "https://open.spotify.com/track/69FZ3kVR5y5DLp5YeVilXN",
-        "plays": 1
-      },
-      {
-        "name": "Riddler!",
-        "album": "Bend Sinister",
-        "spotify_url": "https://open.spotify.com/track/6HKlabb721Azk9VFIrVl4R",
-        "plays": 1
-      },
-      {
-        "name": "Gramme Friday",
-        "album": "Grotesque (After the Gramme) [Expanded Edition]",
-        "spotify_url": "https://open.spotify.com/track/6TVtkLdKWlnUFcYS3SWR4i",
-        "plays": 1
-      },
-      {
-        "name": "Living Too Late",
-        "album": "Bend Sinister",
-        "spotify_url": "https://open.spotify.com/track/6kp2FEbTBLeVZtFBXeg8q5",
-        "plays": 1
-      },
-      {
-        "name": "Glam Racket - Live, John Peel Session #16, 13/3/93",
-        "album": "The Infotainment Scan",
-        "spotify_url": "https://open.spotify.com/track/6lKxsbXScNDqPQZicd87GI",
-        "plays": 1
-      },
-      {
-        "name": "Lost in Music - Mix 7",
-        "album": "The Infotainment Scan",
-        "spotify_url": "https://open.spotify.com/track/6r25DAesafGfjLvq4r0LKC",
-        "plays": 1
-      },
-      {
-        "name": "Why Are People so Grudgeful? - Single Version",
-        "album": "The Infotainment Scan",
-        "spotify_url": "https://open.spotify.com/track/7lRnjuG7Q0QkVSX3vAw2gG",
-        "plays": 1
-      },
-      {
-        "name": "Hit the North Part 1",
-        "album": "45 84 89 : A Sides",
-        "spotify_url": "https://open.spotify.com/track/7w7m9joesrTrcZLcJMWaP2",
-        "plays": 1
-      },
-      {
-        "name": "English Scheme",
-        "album": "Totally Wired - The Rough Trade Anthology",
-        "spotify_url": "https://open.spotify.com/track/4J68M23AbXTsfumwWYMAlk",
-        "plays": 1
-      },
-      {
-        "name": "Putta Block (Single Version)",
-        "album": "Grotesque (After the Gramme) [Expanded Edition]",
-        "spotify_url": "https://open.spotify.com/track/4ogLiIzUUAbersrPUJUDRk",
-        "plays": 1
-      },
-      {
-        "name": "Fortress / Deer Park",
-        "album": "Hex Enduction Hour (Expanded Deluxe Edition)",
-        "spotify_url": "https://open.spotify.com/track/5GjZ1ill7r02zzO4Z7Ftqs",
-        "plays": 1
-      },
-      {
-        "name": "Lost in Music - Mix 14",
-        "album": "The Infotainment Scan",
-        "spotify_url": "https://open.spotify.com/track/5S3PCzztZpC0wwYWBa4vpQ",
-        "plays": 1
-      },
-      {
-        "name": "Dead Beat Descendant",
-        "album": "45 84 89 : A Sides",
-        "spotify_url": "https://open.spotify.com/track/5ma0yU0Vu3nKjpxnPAKimB",
-        "plays": 1
-      },
-      {
-        "name": "The Man Whose Head Expanded - Live, Mainstreet, Auckland, New Zealand, 21 August 1982",
-        "album": "1982",
-        "spotify_url": "https://open.spotify.com/track/1e6t2M9VteIvfOGpP9QJ3C",
         "plays": 1
       }
     ]
@@ -56435,243 +56937,6 @@
         "name": "Spectrum",
         "album": "Extrapolation",
         "spotify_url": "https://open.spotify.com/track/6zB6ueDyZZQuyA8ZqACbaI",
-        "plays": 1
-      }
-    ]
-  },
-  "art-blakey-the-jazz-messengers": {
-    "id": "6ykfXAed2KOLOMI3R0TZdz",
-    "name": "Art Blakey & The Jazz Messengers",
-    "spotify_url": "https://open.spotify.com/artist/6ykfXAed2KOLOMI3R0TZdz",
-    "total_plays": 51,
-    "first_seen": "",
-    "last_seen": "",
-    "genres": [
-      "bebop",
-      "hard bop",
-      "jazz",
-      "jazz drums"
-    ],
-    "images": [
-      {
-        "height": 640,
-        "url": "https://i.scdn.co/image/ab6761610000e5eb9b3c987329c5ae6f4c586bb0",
-        "width": 640
-      },
-      {
-        "height": 320,
-        "url": "https://i.scdn.co/image/ab676161000051749b3c987329c5ae6f4c586bb0",
-        "width": 320
-      },
-      {
-        "height": 160,
-        "url": "https://i.scdn.co/image/ab6761610000f1789b3c987329c5ae6f4c586bb0",
-        "width": 160
-      }
-    ],
-    "top_tracks": [
-      {
-        "name": "I Mean You (with Thelonious Monk) - 2022 Remaster",
-        "album": "Art Blakey's Jazz Messengers (with Thelonious Monk)",
-        "spotify_url": "https://open.spotify.com/track/4BxfRqGhDUwAWVQPwBz7EI",
-        "plays": 2
-      },
-      {
-        "name": "Blues March",
-        "album": "The Best Of Art Blakey",
-        "spotify_url": "https://open.spotify.com/track/0LJHbAzQGrL1tdX9bd1YSm",
-        "plays": 2
-      },
-      {
-        "name": "Are You Real",
-        "album": "Moanin' (Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/1OGwtlps3T1Fo70q6zZUAs",
-        "plays": 2
-      },
-      {
-        "name": "Ping Pong",
-        "album": "Roots And Herbs",
-        "spotify_url": "https://open.spotify.com/track/1cjVMCYoLlzZ6AeC6fUvZJ",
-        "plays": 2
-      },
-      {
-        "name": "Quick Trick",
-        "album": "Just Coolin'",
-        "spotify_url": "https://open.spotify.com/track/2EW1mFJaikQh0vxOoB7uGp",
-        "plays": 2
-      },
-      {
-        "name": "Petty Larceny",
-        "album": "The Freedom Rider",
-        "spotify_url": "https://open.spotify.com/track/0EVGwICUNwPZolrklaiByV",
-        "plays": 2
-      },
-      {
-        "name": "M&M",
-        "album": "Just Coolin'",
-        "spotify_url": "https://open.spotify.com/track/0bltnlB9GUky3FkAOEDYR1",
-        "plays": 2
-      },
-      {
-        "name": "Are You Real",
-        "album": "Late Night Art Blakey",
-        "spotify_url": "https://open.spotify.com/track/1LJrbwO8OZPYofz1aOmL4u",
-        "plays": 2
-      },
-      {
-        "name": "Politely - Remastered 2005",
-        "album": "The Big Beat (The Rudy Van Gelder Edition)",
-        "spotify_url": "https://open.spotify.com/track/24sPnwR3JGG4d7wpwhf5JA",
-        "plays": 2
-      },
-      {
-        "name": "Along Came Betty - Remastered 2013",
-        "album": "Late Night Art Blakey",
-        "spotify_url": "https://open.spotify.com/track/2Vk4VQBjUoRpxPPXDT4PuX",
-        "plays": 2
-      },
-      {
-        "name": "Deciphering the Message",
-        "album": "The Jazz Messengers",
-        "spotify_url": "https://open.spotify.com/track/2bsP9KCIRT4krLc9VfWYgq",
-        "plays": 2
-      },
-      {
-        "name": "Lester Left Town - Remastered 2005",
-        "album": "The Big Beat (The Rudy Van Gelder Edition)",
-        "spotify_url": "https://open.spotify.com/track/2gezUgQGPcgKwReH1Wb87V",
-        "plays": 2
-      },
-      {
-        "name": "Down Under - Remastered 2005",
-        "album": "Mosaic (The Rudy Van Gelder Edition)",
-        "spotify_url": "https://open.spotify.com/track/3tWM2WHbrvwopXi30udCy3",
-        "plays": 2
-      },
-      {
-        "name": "Close Your Eyes",
-        "album": "Just Coolin'",
-        "spotify_url": "https://open.spotify.com/track/3vlX5kFfQHDloPDV1cGENX",
-        "plays": 2
-      },
-      {
-        "name": "Doodlin'",
-        "album": "Late Night Art Blakey",
-        "spotify_url": "https://open.spotify.com/track/4BPhJbT4KKkqQNHr4dkUA0",
-        "plays": 2
-      },
-      {
-        "name": "Rhythm-A-Ning",
-        "album": "Hard Bop Classics",
-        "spotify_url": "https://open.spotify.com/track/4pLR2469rofagcWJhVLeNT",
-        "plays": 2
-      },
-      {
-        "name": "The Theme",
-        "album": "Buttercorn Lady",
-        "spotify_url": "https://open.spotify.com/track/53ZweoNGM7Dtx0jNhd9qnJ",
-        "plays": 2
-      },
-      {
-        "name": "Dat Dere - Remastered 2005",
-        "album": "The Big Beat (The Rudy Van Gelder Edition)",
-        "spotify_url": "https://open.spotify.com/track/0fYXEHGIJqfimplx8Y4683",
-        "plays": 1
-      },
-      {
-        "name": "The Drum Thunder Suite",
-        "album": "Moanin' (Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/3oVxiRYsdchd7Avi3Xx0Bu",
-        "plays": 1
-      },
-      {
-        "name": "Come Rain Or Come Shine",
-        "album": "Moanin' (Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/4nrQ0ohqu5sXqMg2p4YzkE",
-        "plays": 1
-      },
-      {
-        "name": "Mosaic - 2005 Remaster",
-        "album": "Mosaic (The Rudy Van Gelder Edition)",
-        "spotify_url": "https://open.spotify.com/track/7fX1jZuluhiOhVx5HKzIBA",
-        "plays": 1
-      },
-      {
-        "name": "Alamode",
-        "album": "Art Blakey & The Jazz Messengers",
-        "spotify_url": "https://open.spotify.com/track/3Wglt4wIgeXIBp8nDTh7mQ",
-        "plays": 1
-      },
-      {
-        "name": "Along Came Betty",
-        "album": "Moanin' (Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/3Ysj0cl3Jlb6Ysp6um8QI7",
-        "plays": 1
-      },
-      {
-        "name": "Moanin'",
-        "album": "The Best Of Art Blakey",
-        "spotify_url": "https://open.spotify.com/track/4Tq2fWpX1nLCkMSOPkYb1Y",
-        "plays": 1
-      },
-      {
-        "name": "My Romance",
-        "album": "Buttercorn Lady",
-        "spotify_url": "https://open.spotify.com/track/1aVcXUUrwxwtaF0WQhANkl",
-        "plays": 1
-      },
-      {
-        "name": "Hipsippy Blues",
-        "album": "Just Coolin'",
-        "spotify_url": "https://open.spotify.com/track/3iFlfQ0CXc9URaAvai8VUe",
-        "plays": 1
-      },
-      {
-        "name": "Buttercorn Lady",
-        "album": "Buttercorn Lady",
-        "spotify_url": "https://open.spotify.com/track/4nN4PysMbf4wekr28Z9m3J",
-        "plays": 1
-      },
-      {
-        "name": "Sleeping Dancer Sleep On",
-        "album": "Like Someone In Love",
-        "spotify_url": "https://open.spotify.com/track/5GXJ4YrXUORAsB5IsCZIL6",
-        "plays": 1
-      },
-      {
-        "name": "It's You or No One",
-        "album": "The Jazz Messengers",
-        "spotify_url": "https://open.spotify.com/track/5XVsNByeqX0YN2VBpw0dVW",
-        "plays": 1
-      },
-      {
-        "name": "The Chess Players - Remastered 2005",
-        "album": "The Big Beat (The Rudy Van Gelder Edition)",
-        "spotify_url": "https://open.spotify.com/track/63Ko3TB1r09NYmWr8T3VH9",
-        "plays": 1
-      },
-      {
-        "name": "Backstage Sally - Remastered 2003/Rudy Van Gelder Edition",
-        "album": "Buhaina's Delight (Rudy Van Gelder Edition / Remastered)",
-        "spotify_url": "https://open.spotify.com/track/69k61OD5QalC2EcDgzjA8f",
-        "plays": 1
-      },
-      {
-        "name": "A Night In Tunisia - Remastered 2005",
-        "album": "A Night In Tunisia (Remaster)",
-        "spotify_url": "https://open.spotify.com/track/6DH9qxj2GJi0lU2Y5FDHky",
-        "plays": 1
-      },
-      {
-        "name": "Jimerick",
-        "album": "Just Coolin'",
-        "spotify_url": "https://open.spotify.com/track/7np05Igk9mz2aIfrWw7uKa",
-        "plays": 1
-      },
-      {
-        "name": "Kozo's Waltz",
-        "album": "A Night In Tunisia (Remaster)",
-        "spotify_url": "https://open.spotify.com/track/71RQEIdMfA97b6w3813ji8",
         "plays": 1
       }
     ]
@@ -72011,68 +72276,6 @@
         "name": "Preludes: Le nombre leger (The Light Number)",
         "album": "Messiaen: Preludes / 4 Rhythmic Studies / Canteyodjaya",
         "spotify_url": "https://open.spotify.com/track/4o8eGxtEm4WqR39jI3Gv4e",
-        "plays": 1
-      }
-    ]
-  },
-  "devo": {
-    "id": "0UKfenbZb15sqhfPC6zbt3",
-    "name": "DEVO",
-    "spotify_url": "https://open.spotify.com/artist/0UKfenbZb15sqhfPC6zbt3",
-    "total_plays": 4,
-    "first_seen": "",
-    "last_seen": "",
-    "genres": [
-      "alternative rock",
-      "art punk",
-      "dance rock",
-      "new romantic",
-      "new wave",
-      "new wave pop",
-      "post-punk",
-      "synth punk",
-      "synthpop",
-      "zolo"
-    ],
-    "images": [
-      {
-        "height": 658,
-        "url": "https://i.scdn.co/image/39a7e5e551639397c9ee7801e0e1755cf2affd1c",
-        "width": 999
-      },
-      {
-        "height": 421,
-        "url": "https://i.scdn.co/image/00a4ec73cbde700b0d45d558b9a98a6bb8f9f2d7",
-        "width": 639
-      },
-      {
-        "height": 132,
-        "url": "https://i.scdn.co/image/0ba95675f8943fee4246336bb428b32103ece647",
-        "width": 200
-      },
-      {
-        "height": 42,
-        "url": "https://i.scdn.co/image/6a608b023610f59d2bf0a7e77433eb365ffc4df9",
-        "width": 64
-      }
-    ],
-    "top_tracks": [
-      {
-        "name": "Space Junk",
-        "album": "Q: Are We Not Men? A: We Are Devo!",
-        "spotify_url": "https://open.spotify.com/track/3ALpXGwDQpUQfUDWqub5Cf",
-        "plays": 2
-      },
-      {
-        "name": "Praying Hands",
-        "album": "Q: Are We Not Men? A: We Are Devo!",
-        "spotify_url": "https://open.spotify.com/track/2SyWSu87uLSV5HH6wdsfQ7",
-        "plays": 1
-      },
-      {
-        "name": "(I Can't Get No) Satisfaction",
-        "album": "Q: Are We Not Men? A: We Are Devo!",
-        "spotify_url": "https://open.spotify.com/track/5FzBxhIsZBFXDTVGWtV4IQ",
         "plays": 1
       }
     ]
