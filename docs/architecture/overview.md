@@ -72,7 +72,7 @@ comes from front matter, falling back to `date`).
 | Kind | Outputs |
 | --- | --- |
 | home | HTML, RSS, `LLMSTxt` (`/llms.txt`), `OGCard` |
-| page, section | HTML, `OGCard` |
+| page, section | HTML, `OGCard` (the `/consulting/` hub adds `LLMSTxt` via its own front matter) |
 | taxonomy, term | HTML, `OGCard` — **no RSS**, deliberately ([seo/invariants.md](../seo/invariants.md)) |
 
 `OGCard` renders `<path>/og-card.html`, a `noindex` source document that the OG
