@@ -60,7 +60,3 @@ Book a 30-minute intro call: {{ with site.Params.consulting.bookingURL }}{{ . }}
 - {{ if .url }}[{{ .name }}]({{ .url }}){{ else }}{{ .name }}{{ end }}: {{ .summary }}
 {{- end }}
 
-## Questions and answers
-{{ range $d.faq }}
-**{{ .q }}** {{ .a }}
-{{ end }}
