@@ -33,13 +33,13 @@
     },
     "/consulting/companies/": {
       "output": "consulting/companies.jpg",
-      "fingerprint": "33bdea4fb9d7fbc6d4ec75b25b1b14b58d694502cb84487537d79cfdf9f4bd12",
+      "fingerprint": "21fddadacb0e84ca9e0170948fe5aefc10ae74241776a526db624993404ba9f9",
       "layout": "abstract",
       "section": "consulting"
     },
     "/consulting/founders/": {
       "output": "consulting/founders.jpg",
-      "fingerprint": "a1178e93bc2329798b87af7c1be47b307a4fcc241129cbdc80ea323e40e37a58",
+      "fingerprint": "946b30864e06bd58a9a68c1861a4c63b40107ea049e70276a1388c835a0c96ad",
       "layout": "abstract",
       "section": "consulting"
     },

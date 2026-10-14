@@ -1,5 +1,5 @@
 +++
-title = 'Consulting for founders'
+title = 'Fractional CPO and CTO for startups'
 linkTitle = 'Founders'
 description = 'Fractional product and engineering help for founders: take an idea or a messy prototype to a working first product, built on an architecture that lasts.'
 date = 2026-10-06T00:00:00-07:00
