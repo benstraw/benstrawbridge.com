@@ -50,6 +50,12 @@ not templates — several are decided by fallback chains.
   rendered by `layouts/consulting/list.llmstxt.txt` from `data/consulting.toml`.
   The hub `<head>` links it (`extend_head.html`). Don't widen `[outputs] section`
   for it: that would emit an empty `llms.txt` for every section.
+- **Consulting pages carry a `Service` block beside the theme's `BlogPosting`.**
+  `head/schema-extra.html` builds it from the page title, description and
+  `[[offerings]]` in `data/consulting.toml` (offer names and summaries, no
+  prices), with the author as `provider`. The theme's `BlogPosting` stays: only
+  Ryder can drop it, so a per-page schema type belongs upstream, not in a forked
+  `schema.html`. Keep the block free of claims that aren't on the page.
 - **Artist crawl paths must stay server-rendered links.** `/listening/artists/`
   (the cloud) links every artist with 2+ plays; its "Full A–Z artist list" link
   goes to `/listening/a-z/`, which links all of them, including the ~⅓ heard
