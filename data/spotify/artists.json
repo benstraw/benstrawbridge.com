@@ -3671,9 +3671,9 @@
     "id": "2x9SpqnPi8rlE9pjHBwmSC",
     "name": "Talking Heads",
     "spotify_url": "https://open.spotify.com/artist/2x9SpqnPi8rlE9pjHBwmSC",
-    "total_plays": 17,
+    "total_plays": 50,
     "first_seen": "2026-03-01",
-    "last_seen": "2026-10-10",
+    "last_seen": "2026-10-14",
     "genres": [
       "new wave",
       "post-punk"
@@ -3727,6 +3727,24 @@
         "plays": 2
       },
       {
+        "name": "With Our Love (Live at Entermedia Theatre, New York, NY, 8/10/1978) - 2025 Remaster",
+        "album": "More Songs About Buildings And Food (Super Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/1AfwozhDnXzd8dWBmEQbfp",
+        "plays": 2
+      },
+      {
+        "name": "The Good Thing (Alternate Version) - 2025 Remaster",
+        "album": "More Songs About Buildings And Food (Super Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/21mkHvSTWaV1tb1pOljbJ3",
+        "plays": 2
+      },
+      {
+        "name": "With Our Love (Alternate Version) - 2025 Remaster",
+        "album": "More Songs About Buildings And Food (Super Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/7a7F0S02btsa6EieDhE9ug",
+        "plays": 2
+      },
+      {
         "name": "Don't Worry About the Government",
         "album": "Talking Heads '77",
         "spotify_url": "https://open.spotify.com/track/7pAAeToDaCaFROvuu8pZ92",
@@ -3760,6 +3778,168 @@
         "name": "Take Me to the River",
         "album": "More Songs About Buildings and Food",
         "spotify_url": "https://open.spotify.com/track/1auuYcOrua5hrsGCS7idun",
+        "plays": 1
+      },
+      {
+        "name": "Uh-Oh, Love Comes to Town (Live at Entermedia Theatre, New York, NY, 8/10/1978) - 2025 Remaster",
+        "album": "More Songs About Buildings And Food (Super Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/63mZdI5bJVzRokpHByBxUk",
+        "plays": 1
+      },
+      {
+        "name": "The Girls Want to Be with the Girls (Live at Entermedia Theatre, New York, NY, 8/10/1978) - 2025 Remaster",
+        "album": "More Songs About Buildings And Food (Super Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/0VQoB1BHEdP62foqqbY4mq",
+        "plays": 1
+      },
+      {
+        "name": "Artists Only (Live at Entermedia Theatre, New York, NY, 8/10/1978) - 2025 Remaster",
+        "album": "More Songs About Buildings And Food (Super Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/4799qmhMow3oBKDMUlwaV1",
+        "plays": 1
+      },
+      {
+        "name": "Stay Hungry (Live at Entermedia Theatre, New York, NY, 8/10/1978) - 2025 Remaster",
+        "album": "More Songs About Buildings And Food (Super Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/6T8zmekEbSuHQrpfVMs8jr",
+        "plays": 1
+      },
+      {
+        "name": "The Book I Read (Live at Entermedia Theatre, New York, NY, 8/10/1978) - 2025 Remaster",
+        "album": "More Songs About Buildings And Food (Super Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/32EjQprvMhrctDNTAZ6xXt",
+        "plays": 1
+      },
+      {
+        "name": "Warning Sign (Live at Entermedia Theatre, New York, NY, 8/10/1978) - 2025 Remaster",
+        "album": "More Songs About Buildings And Food (Super Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/7K4kR7gt2pdv2XKm0bM2Ry",
+        "plays": 1
+      },
+      {
+        "name": "No Compassion (Live at Entermedia Theatre, New York, NY, 8/10/1978) - 2025 Remaster",
+        "album": "More Songs About Buildings And Food (Super Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/1elMdLmKcklN3zIjYbNPZ3",
+        "plays": 1
+      },
+      {
+        "name": "Thank You for Sending Me an Angel (\"Country Angel\" Version) - 2025 Remaster",
+        "album": "More Songs About Buildings And Food (Super Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/2Do1vkRyWIQb46xlSTdI0F",
+        "plays": 1
+      },
+      {
+        "name": "The Big Country (Alternate Version) - 2025 Remaster",
+        "album": "More Songs About Buildings And Food (Super Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/2HPA60Ws2lws2gMUGXWoq6",
+        "plays": 1
+      },
+      {
+        "name": "Artists Only (Alternate Version) - 2025 Remaster",
+        "album": "More Songs About Buildings And Food (Super Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/0l9f1MLmTzKl43fEmClDjO",
+        "plays": 1
+      },
+      {
+        "name": "I'm Not in Love (Alternate Version) - 2025 Remaster",
+        "album": "More Songs About Buildings And Food (Super Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/6Z82ArKgWGMILmEnkdTWwB",
+        "plays": 1
+      },
+      {
+        "name": "The Girls Want to Be with the Girls (Alternate Version) - 2025 Remaster",
+        "album": "More Songs About Buildings And Food (Super Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/1yjyVpgO3nLCDVNWT0hQpE",
+        "plays": 1
+      },
+      {
+        "name": "Electricity (Instrumental) - 2025 Remaster",
+        "album": "More Songs About Buildings And Food (Super Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/2qglDVoXzghbdgNa0WcA3J",
+        "plays": 1
+      },
+      {
+        "name": "Warning Sign (Alternate Version) - 2025 Remaster",
+        "album": "More Songs About Buildings And Food (Super Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/2ipUFHDyNeAdYX8LczQAzC",
+        "plays": 1
+      },
+      {
+        "name": "Found a Job (Alternate Version) - 2025 Remaster",
+        "album": "More Songs About Buildings And Food (Super Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/2UFFlRfKeftturUdY8fG94",
+        "plays": 1
+      },
+      {
+        "name": "Thank You for Sending Me an Angel (Alternate Version) - 2025 Remaster",
+        "album": "More Songs About Buildings And Food (Super Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/2CwrMjaG3Vc2LKrHUrYnnR",
+        "plays": 1
+      },
+      {
+        "name": "The Big Country - 2025 Remaster",
+        "album": "More Songs About Buildings And Food (Super Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/0QJlXOaIC305tgvZ26OrDQ",
+        "plays": 1
+      },
+      {
+        "name": "Take Me to the River - 2025 Remaster",
+        "album": "More Songs About Buildings And Food (Super Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/06JDIgKzxiMg5ni2HAnjJa",
+        "plays": 1
+      },
+      {
+        "name": "Stay Hungry - 2025 Remaster",
+        "album": "More Songs About Buildings And Food (Super Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/5WcblUK9dwrdMoz0OFyCDq",
+        "plays": 1
+      },
+      {
+        "name": "I'm Not in Love - 2025 Remaster",
+        "album": "More Songs About Buildings And Food (Super Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/7upYtlelp8tB8ygTQ3pghm",
+        "plays": 1
+      },
+      {
+        "name": "Artists Only - 2025 Remaster",
+        "album": "More Songs About Buildings And Food (Super Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/2r3X3XjapN9aVdpBGeMOVe",
+        "plays": 1
+      },
+      {
+        "name": "Found a Job - 2025 Remaster",
+        "album": "More Songs About Buildings And Food (Super Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/3b4uQLlivB4uFVTuHlJrnN",
+        "plays": 1
+      },
+      {
+        "name": "The Girls Want to Be with the Girls - 2025 Remaster",
+        "album": "More Songs About Buildings And Food (Super Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/7fWAcHMWGuG6cMspw0XNuJ",
+        "plays": 1
+      },
+      {
+        "name": "Warning Sign - 2025 Remaster",
+        "album": "More Songs About Buildings And Food (Super Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/56yoWnpiFvXQwkuy21zY1Z",
+        "plays": 1
+      },
+      {
+        "name": "The Good Thing - 2025 Remaster",
+        "album": "More Songs About Buildings And Food (Super Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/7f4DUVS8jHvWB2qFOJrnx3",
+        "plays": 1
+      },
+      {
+        "name": "With Our Love - 2025 Remaster",
+        "album": "More Songs About Buildings And Food (Super Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/3UQhYvenUio6502fguonJJ",
+        "plays": 1
+      },
+      {
+        "name": "Thank You for Sending Me an Angel - 2025 Remaster",
+        "album": "More Songs About Buildings And Food (Super Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/1d6xMBCXNDRgw3CGyH5hMd",
         "plays": 1
       },
       {
@@ -5206,9 +5386,9 @@
     "id": "5wTAi7QkpP6kp8a54lmTOq",
     "name": "Johannes Brahms",
     "spotify_url": "https://open.spotify.com/artist/5wTAi7QkpP6kp8a54lmTOq",
-    "total_plays": 7,
+    "total_plays": 12,
     "first_seen": "2026-03-01",
-    "last_seen": "2026-08-08",
+    "last_seen": "2026-10-17",
     "genres": [
       "classical",
       "classical piano",
@@ -5237,25 +5417,25 @@
         "name": "Intermezzo No. 2 in B-Flat Minor, Op. 117 - Andante non troppo e con molta espressione - Remastered",
         "album": "Brahms: 10 Intermezzi for Piano (Gould Remastered)",
         "spotify_url": "https://open.spotify.com/track/3IioJBugNl60myrfwIm1sz",
-        "plays": 2
+        "plays": 3
       },
       {
         "name": "Intermezzo No. 2 in A Major, Op. 118 - Andante teneramente - Remastered",
         "album": "Brahms: 10 Intermezzi for Piano (Gould Remastered)",
         "spotify_url": "https://open.spotify.com/track/7tmzbgv2LN2eW0r8Lt5W7B",
-        "plays": 1
+        "plays": 2
       },
       {
         "name": "Intermezzo No. 1 in E-Flat Major, Op. 117 - Andante moderato - Remastered",
         "album": "Brahms: 10 Intermezzi for Piano (Gould Remastered)",
         "spotify_url": "https://open.spotify.com/track/2wP269aoVYeJU7Klzm2BC7",
-        "plays": 1
+        "plays": 2
       },
       {
         "name": "4 Ballades, Op. 10: No. 4 in B Major. Andante con molto",
         "album": "Brahms: 4 Ballades, 2 Rhapsodies & Intermezzi",
         "spotify_url": "https://open.spotify.com/track/6U2bkhwmb8u1fDEgxGPETv",
-        "plays": 1
+        "plays": 2
       },
       {
         "name": "Intermezzo No. 7 in A Minor, Op. 76 - Moderato semplice - Remastered",
@@ -5267,6 +5447,12 @@
         "name": "Brahms: Academic Festival Overture, Op. 80",
         "album": "Popular Orchestral Favourites",
         "spotify_url": "https://open.spotify.com/track/55MxE2rrAorGKVZZfdyVsq",
+        "plays": 1
+      },
+      {
+        "name": "3 Intermezzi, Op. 117: No. 1 in E-Flat Major. Andante moderato",
+        "album": "Brahms: Piano Pieces, Opp.117, 118, 119",
+        "spotify_url": "https://open.spotify.com/track/1o2hofTzvDlrJZ0CCKeHpR",
         "plays": 1
       },
       {
@@ -5476,9 +5662,9 @@
     "id": "5aIqB5nVVvmFsvSdExz408",
     "name": "Johann Sebastian Bach",
     "spotify_url": "https://open.spotify.com/artist/5aIqB5nVVvmFsvSdExz408",
-    "total_plays": 43,
+    "total_plays": 79,
     "first_seen": "2026-02-28",
-    "last_seen": "2026-05-14",
+    "last_seen": "2026-10-17",
     "genres": [
       "baroque",
       "classical",
@@ -5505,21 +5691,207 @@
     ],
     "top_tracks": [
       {
+        "name": "Partita No. 1 in B-Flat Major, BWV 825: IV. Sarabande",
+        "album": "Glenn Gould plays Bach: 6 Partitas BWV 825-830; Chromatic Fantasy BWV 903; Italian Concerto BWV 971; The Art of the Fugue BWV 1080 (excerpts); Preludes, Fugues & Fantasies",
+        "spotify_url": "https://open.spotify.com/track/73xACzrJ509NZ3jq8Z5WV4",
+        "plays": 3
+      },
+      {
         "name": "Prelude & Fugue No. 2 in C Minor, BWV 847: Prelude",
         "album": "Glenn Gould plays Bach: The Well-Tempered Clavier Books I & II, BWV 846-893",
         "spotify_url": "https://open.spotify.com/track/4AMJBOgveh7OVHJKTZPwVh",
         "plays": 2
       },
       {
-        "name": "Partita No. 1 in B-Flat Major, BWV 825: IV. Sarabande",
-        "album": "Glenn Gould plays Bach: 6 Partitas BWV 825-830; Chromatic Fantasy BWV 903; Italian Concerto BWV 971; The Art of the Fugue BWV 1080 (excerpts); Preludes, Fugues & Fantasies",
-        "spotify_url": "https://open.spotify.com/track/73xACzrJ509NZ3jq8Z5WV4",
-        "plays": 2
-      },
-      {
         "name": "Der Himmel lacht! Die Erde jubiliert, BWV 31: No. 4, Fürst des Lebens! starker Streiter - Live",
         "album": "J.S. Bach: Der Himmel lacht! Die Erde jubiliert, BWV 31 (Live)",
         "spotify_url": "https://open.spotify.com/track/6ORIEgFjR7h1YBWmGyTf3C",
+        "plays": 2
+      },
+      {
+        "name": "Goldberg Variations, BWV 988: Variation 2 a 1 Clav.",
+        "album": "Bach: The Goldberg Variations, BWV 988 (1981 Gould Remaster)",
+        "spotify_url": "https://open.spotify.com/track/2mXVCqoNE6otHBcmRz4IHv",
+        "plays": 2
+      },
+      {
+        "name": "Goldberg Variations, BWV 988: Aria da capo",
+        "album": "Bach: The Goldberg Variations, BWV 988 (1981 Gould Remaster)",
+        "spotify_url": "https://open.spotify.com/track/172J2JqVRzR74ILc2eBvta",
+        "plays": 2
+      },
+      {
+        "name": "Partita No. 2 in C Minor, BWV 826: V. Rondeaux",
+        "album": "Glenn Gould plays Bach: 6 Partitas BWV 825-830; Chromatic Fantasy BWV 903; Italian Concerto BWV 971; The Art of the Fugue BWV 1080 (excerpts); Preludes, Fugues & Fantasies",
+        "spotify_url": "https://open.spotify.com/track/2WUUW2XRpSKT3EbmWIkViW",
+        "plays": 2
+      },
+      {
+        "name": "Keyboard Concerto No. 2 in E Major, BWV 1053: II. Siciliano",
+        "album": "Glenn Gould plays Bach: Piano Concertos Nos. 1 - 5 BWV 1052-1056 & No. 7 BWV 1058",
+        "spotify_url": "https://open.spotify.com/track/0DabrWLd9QeXGQdzZvZXQf",
+        "plays": 2
+      },
+      {
+        "name": "Goldberg Variations, BWV 988: Variation 1 a 1 Clav.",
+        "album": "Bach: The Goldberg Variations, BWV 988 (1981 Gould Remaster)",
+        "spotify_url": "https://open.spotify.com/track/14V6VqJXHZ08pM6Fu3vUsO",
+        "plays": 2
+      },
+      {
+        "name": "Prelude and Fugue No. 1 in C Major, BWV 846: Prelude",
+        "album": "Bach: The Well-Tempered Clavier, Book I, Preludes & Fugues Nos. 1-8, BWV 846-853 (Gould Remastered)",
+        "spotify_url": "https://open.spotify.com/track/0eKd2VfI5EzrlgVH202x1i",
+        "plays": 2
+      },
+      {
+        "name": "Keyboard Concerto No. 1 in D Minor, BWV 1052: I. Allegro",
+        "album": "Glenn Gould plays Bach: Piano Concertos Nos. 1 - 5 BWV 1052-1056 & No. 7 BWV 1058",
+        "spotify_url": "https://open.spotify.com/track/6RLW5pntyL4yNlmv4OcDnC",
+        "plays": 2
+      },
+      {
+        "name": "Goldberg Variations, BWV 988: Variation 6 a 1 Clav. Canone alla Seconda",
+        "album": "Bach: The Goldberg Variations, BWV 988 (1981 Gould Remaster)",
+        "spotify_url": "https://open.spotify.com/track/0L5cUf2OgB2GeVzxwGJv3q",
+        "plays": 2
+      },
+      {
+        "name": "Goldberg Variations, BWV 988: Variation 3 a 1 Clav. Canone all' Unisuono",
+        "album": "Bach: The Goldberg Variations, BWV 988 (1955 Gould Remaster)",
+        "spotify_url": "https://open.spotify.com/track/2eENRuubJAWA1yjWW5xuWc",
+        "plays": 2
+      },
+      {
+        "name": "Prelude & Fugue No. 3 in C-Sharp Major, BWV 848: Fugue No. 3 in C-Sharp Major, BWV 848",
+        "album": "Glenn Gould plays Bach: The Well-Tempered Clavier Books I & II, BWV 846-893",
+        "spotify_url": "https://open.spotify.com/track/5dn5bAnHGie6rsoTvd9Cd0",
+        "plays": 2
+      },
+      {
+        "name": "The Well-Tempered Clavier, Book 1: Prelude No. 4 in C-Sharp Minor, BWV 849",
+        "album": "Glenn Gould plays Bach: The Well-Tempered Clavier Books I & II, BWV 846-893",
+        "spotify_url": "https://open.spotify.com/track/1K03QHUU2ukAn6MBeeoDtR",
+        "plays": 2
+      },
+      {
+        "name": "Partita No. 1 in B-Flat Major, BWV 825: V. Minuetts I & II",
+        "album": "Glenn Gould plays Bach: 6 Partitas BWV 825-830; Chromatic Fantasy BWV 903; Italian Concerto BWV 971; The Art of the Fugue BWV 1080 (excerpts); Preludes, Fugues & Fantasies",
+        "spotify_url": "https://open.spotify.com/track/11z9FpLK2kWPvVABF5J6iH",
+        "plays": 2
+      },
+      {
+        "name": "Partita No. 1 in B-Flat Major, BWV 825: II. Allemande",
+        "album": "Glenn Gould plays Bach: 6 Partitas BWV 825-830; Chromatic Fantasy BWV 903; Italian Concerto BWV 971; The Art of the Fugue BWV 1080 (excerpts); Preludes, Fugues & Fantasies",
+        "spotify_url": "https://open.spotify.com/track/3BjZbyyhx7JbVq5CYVZTaa",
+        "plays": 2
+      },
+      {
+        "name": "Prelude & Fugue No. 3 in C-Sharp Major, BWV 848: Prelude",
+        "album": "Glenn Gould plays Bach: The Well-Tempered Clavier Books I & II, BWV 846-893",
+        "spotify_url": "https://open.spotify.com/track/5X8VLh5mIKCxviE52GHBXu",
+        "plays": 2
+      },
+      {
+        "name": "The Well-Tempered Clavier, Book 2: Fugue No. 14 in F-Sharp Minor, BWV 883",
+        "album": "Bach: Goldberg Variations, BWV 988",
+        "spotify_url": "https://open.spotify.com/track/3X4hAOrcPEEkyz1jncZkXp",
+        "plays": 2
+      },
+      {
+        "name": "French Suite No. 1 in D Minor, BWV 812: I. Allemande",
+        "album": "Bach: The French Suites Nos. 1-4, BWV 812-815 (Gould Remastered)",
+        "spotify_url": "https://open.spotify.com/track/5PxqLl0Avh8Dvl6SUgFpCg",
+        "plays": 2
+      },
+      {
+        "name": "Keyboard Concerto No. 1 in D Minor, BWV 1052: III. Allegro",
+        "album": "Glenn Gould plays Bach: Piano Concertos Nos. 1 - 5 BWV 1052-1056 & No. 7 BWV 1058",
+        "spotify_url": "https://open.spotify.com/track/4sl20vttMgIMfnuBfRYNQo",
+        "plays": 2
+      },
+      {
+        "name": "Goldberg Variations, BWV 988: Variation 7 a 1 ovvero 2 Clav.",
+        "album": "Bach: The Goldberg Variations, BWV 988 (1981 Gould Remaster)",
+        "spotify_url": "https://open.spotify.com/track/4w3aG0qWqCQKhvsQYzX3nY",
+        "plays": 2
+      },
+      {
+        "name": "The Well-Tempered Clavier, Book 2: Fugue No. 9 in E Major, BWV 878",
+        "album": "Bach: Goldberg Variations, BWV 988",
+        "spotify_url": "https://open.spotify.com/track/5hsvHSuBT5QyUogOqRtie9",
+        "plays": 2
+      },
+      {
+        "name": "Goldberg Variations, BWV 988: Variation 5 a 1 ovvero 2 Clav.",
+        "album": "Bach: The Goldberg Variations, BWV 988 (1981 Gould Remaster)",
+        "spotify_url": "https://open.spotify.com/track/325xUomC1NKDerrKIn0zfD",
+        "plays": 2
+      },
+      {
+        "name": "The Well-Tempered Clavier, Book 1: Prelude No. 5 in D Major, BWV 850",
+        "album": "Glenn Gould plays Bach: The Well-Tempered Clavier Books I & II, BWV 846-893",
+        "spotify_url": "https://open.spotify.com/track/7uhvsd6vSlgjYtPQ2twAYV",
+        "plays": 2
+      },
+      {
+        "name": "Keyboard Concerto No. 5 in F Minor, BWV 1056: II. Largo",
+        "album": "Glenn Gould plays Bach: Piano Concertos Nos. 1 - 5 BWV 1052-1056 & No. 7 BWV 1058",
+        "spotify_url": "https://open.spotify.com/track/504wsV4Br1jy9xUvWzpAog",
+        "plays": 2
+      },
+      {
+        "name": "Goldberg Variations, BWV 988: Aria",
+        "album": "Bach: The Goldberg Variations, BWV 988 (1981 Gould Remaster)",
+        "spotify_url": "https://open.spotify.com/track/5bu9A6uphPWg39RC3ZKeku",
+        "plays": 2
+      },
+      {
+        "name": "Goldberg Variations, BWV 988: Variation 9 a 1 Clav. Canone alla Terza",
+        "album": "Bach: The Goldberg Variations, BWV 988 (1981 Gould Remaster)",
+        "spotify_url": "https://open.spotify.com/track/3DRZuYDArzcoTniRTkaax4",
+        "plays": 2
+      },
+      {
+        "name": "Partita No. 1 in B-Flat Major, BWV 825: VI. Gigue",
+        "album": "Glenn Gould plays Bach: 6 Partitas BWV 825-830; Chromatic Fantasy BWV 903; Italian Concerto BWV 971; The Art of the Fugue BWV 1080 (excerpts); Preludes, Fugues & Fantasies",
+        "spotify_url": "https://open.spotify.com/track/0PSdHe7MuFgxYe63O3KlQV",
+        "plays": 2
+      },
+      {
+        "name": "Goldberg Variations, BWV 988: Variation 3 a 1 Clav. Canone all'Unisono",
+        "album": "Bach: The Goldberg Variations, BWV 988 (1981 Gould Remaster)",
+        "spotify_url": "https://open.spotify.com/track/5SJFZnECoKeTLy7PPVLLbF",
+        "plays": 2
+      },
+      {
+        "name": "Partita No. 2 in C Minor, BWV 826: IV. Sarabande",
+        "album": "Glenn Gould plays Bach: 6 Partitas BWV 825-830; Chromatic Fantasy BWV 903; Italian Concerto BWV 971; The Art of the Fugue BWV 1080 (excerpts); Preludes, Fugues & Fantasies",
+        "spotify_url": "https://open.spotify.com/track/0g0Z2EVHb84n7LP6uo3Ygn",
+        "plays": 2
+      },
+      {
+        "name": "Keyboard Concerto No. 2 in E Major, BWV 1053: I. ?",
+        "album": "Glenn Gould plays Bach: Piano Concertos Nos. 1 - 5 BWV 1052-1056 & No. 7 BWV 1058",
+        "spotify_url": "https://open.spotify.com/track/0qw5GdovyXGf6tK4RGIUNZ",
+        "plays": 2
+      },
+      {
+        "name": "The Well-Tempered Clavier, Book 1: Prelude No. 6 in D Minor, BWV 851",
+        "album": "Glenn Gould plays Bach: The Well-Tempered Clavier Books I & II, BWV 846-893",
+        "spotify_url": "https://open.spotify.com/track/0utaDpYTrP5l9SjqzYK8Ps",
+        "plays": 2
+      },
+      {
+        "name": "Invention No. 14 in B-Flat Major, BWV 785",
+        "album": "Bach: Inventions & Sinfonias, BWV 772-801 & Toccatas BWV 910-916",
+        "spotify_url": "https://open.spotify.com/track/7Kl0Izq64TwgnVMPkhkefI",
+        "plays": 2
+      },
+      {
+        "name": "Goldberg Variations, BWV 988: Variation 4 a 1 Clav.",
+        "album": "Bach: The Goldberg Variations, BWV 988 (1981 Gould Remaster)",
+        "spotify_url": "https://open.spotify.com/track/14lyZKpPu1ECQpfXhgrip6",
         "plays": 2
       },
       {
@@ -5535,153 +5907,9 @@
         "plays": 1
       },
       {
-        "name": "Goldberg Variations, BWV 988: Variation 2 a 1 Clav.",
-        "album": "Bach: The Goldberg Variations, BWV 988 (1981 Gould Remaster)",
-        "spotify_url": "https://open.spotify.com/track/2mXVCqoNE6otHBcmRz4IHv",
-        "plays": 1
-      },
-      {
-        "name": "Goldberg Variations, BWV 988: Aria da capo",
-        "album": "Bach: The Goldberg Variations, BWV 988 (1981 Gould Remaster)",
-        "spotify_url": "https://open.spotify.com/track/172J2JqVRzR74ILc2eBvta",
-        "plays": 1
-      },
-      {
-        "name": "Partita No. 2 in C Minor, BWV 826: V. Rondeaux",
-        "album": "Glenn Gould plays Bach: 6 Partitas BWV 825-830; Chromatic Fantasy BWV 903; Italian Concerto BWV 971; The Art of the Fugue BWV 1080 (excerpts); Preludes, Fugues & Fantasies",
-        "spotify_url": "https://open.spotify.com/track/2WUUW2XRpSKT3EbmWIkViW",
-        "plays": 1
-      },
-      {
-        "name": "Keyboard Concerto No. 2 in E Major, BWV 1053: II. Siciliano",
-        "album": "Glenn Gould plays Bach: Piano Concertos Nos. 1 - 5 BWV 1052-1056 & No. 7 BWV 1058",
-        "spotify_url": "https://open.spotify.com/track/0DabrWLd9QeXGQdzZvZXQf",
-        "plays": 1
-      },
-      {
-        "name": "Goldberg Variations, BWV 988: Variation 1 a 1 Clav.",
-        "album": "Bach: The Goldberg Variations, BWV 988 (1981 Gould Remaster)",
-        "spotify_url": "https://open.spotify.com/track/14V6VqJXHZ08pM6Fu3vUsO",
-        "plays": 1
-      },
-      {
-        "name": "Prelude and Fugue No. 1 in C Major, BWV 846: Prelude",
-        "album": "Bach: The Well-Tempered Clavier, Book I, Preludes & Fugues Nos. 1-8, BWV 846-853 (Gould Remastered)",
-        "spotify_url": "https://open.spotify.com/track/0eKd2VfI5EzrlgVH202x1i",
-        "plays": 1
-      },
-      {
-        "name": "Keyboard Concerto No. 1 in D Minor, BWV 1052: I. Allegro",
-        "album": "Glenn Gould plays Bach: Piano Concertos Nos. 1 - 5 BWV 1052-1056 & No. 7 BWV 1058",
-        "spotify_url": "https://open.spotify.com/track/6RLW5pntyL4yNlmv4OcDnC",
-        "plays": 1
-      },
-      {
-        "name": "Goldberg Variations, BWV 988: Variation 6 a 1 Clav. Canone alla Seconda",
-        "album": "Bach: The Goldberg Variations, BWV 988 (1981 Gould Remaster)",
-        "spotify_url": "https://open.spotify.com/track/0L5cUf2OgB2GeVzxwGJv3q",
-        "plays": 1
-      },
-      {
-        "name": "Goldberg Variations, BWV 988: Variation 3 a 1 Clav. Canone all' Unisuono",
-        "album": "Bach: The Goldberg Variations, BWV 988 (1955 Gould Remaster)",
-        "spotify_url": "https://open.spotify.com/track/2eENRuubJAWA1yjWW5xuWc",
-        "plays": 1
-      },
-      {
-        "name": "Prelude & Fugue No. 3 in C-Sharp Major, BWV 848: Fugue No. 3 in C-Sharp Major, BWV 848",
-        "album": "Glenn Gould plays Bach: The Well-Tempered Clavier Books I & II, BWV 846-893",
-        "spotify_url": "https://open.spotify.com/track/5dn5bAnHGie6rsoTvd9Cd0",
-        "plays": 1
-      },
-      {
         "name": "Invention No. 10 in G Major, BVW 781 - Remastered",
         "album": "Bach: The Two and Three Part Inventions, BWV 772-801 (Gould Remastered)",
         "spotify_url": "https://open.spotify.com/track/2zzPdyKmyxU3TRh1CcT6sP",
-        "plays": 1
-      },
-      {
-        "name": "The Well-Tempered Clavier, Book 1: Prelude No. 4 in C-Sharp Minor, BWV 849",
-        "album": "Glenn Gould plays Bach: The Well-Tempered Clavier Books I & II, BWV 846-893",
-        "spotify_url": "https://open.spotify.com/track/1K03QHUU2ukAn6MBeeoDtR",
-        "plays": 1
-      },
-      {
-        "name": "Partita No. 1 in B-Flat Major, BWV 825: V. Minuetts I & II",
-        "album": "Glenn Gould plays Bach: 6 Partitas BWV 825-830; Chromatic Fantasy BWV 903; Italian Concerto BWV 971; The Art of the Fugue BWV 1080 (excerpts); Preludes, Fugues & Fantasies",
-        "spotify_url": "https://open.spotify.com/track/11z9FpLK2kWPvVABF5J6iH",
-        "plays": 1
-      },
-      {
-        "name": "Partita No. 1 in B-Flat Major, BWV 825: II. Allemande",
-        "album": "Glenn Gould plays Bach: 6 Partitas BWV 825-830; Chromatic Fantasy BWV 903; Italian Concerto BWV 971; The Art of the Fugue BWV 1080 (excerpts); Preludes, Fugues & Fantasies",
-        "spotify_url": "https://open.spotify.com/track/3BjZbyyhx7JbVq5CYVZTaa",
-        "plays": 1
-      },
-      {
-        "name": "Prelude & Fugue No. 3 in C-Sharp Major, BWV 848: Prelude",
-        "album": "Glenn Gould plays Bach: The Well-Tempered Clavier Books I & II, BWV 846-893",
-        "spotify_url": "https://open.spotify.com/track/5X8VLh5mIKCxviE52GHBXu",
-        "plays": 1
-      },
-      {
-        "name": "The Well-Tempered Clavier, Book 2: Fugue No. 14 in F-Sharp Minor, BWV 883",
-        "album": "Bach: Goldberg Variations, BWV 988",
-        "spotify_url": "https://open.spotify.com/track/3X4hAOrcPEEkyz1jncZkXp",
-        "plays": 1
-      },
-      {
-        "name": "French Suite No. 1 in D Minor, BWV 812: I. Allemande",
-        "album": "Bach: The French Suites Nos. 1-4, BWV 812-815 (Gould Remastered)",
-        "spotify_url": "https://open.spotify.com/track/5PxqLl0Avh8Dvl6SUgFpCg",
-        "plays": 1
-      },
-      {
-        "name": "Keyboard Concerto No. 1 in D Minor, BWV 1052: III. Allegro",
-        "album": "Glenn Gould plays Bach: Piano Concertos Nos. 1 - 5 BWV 1052-1056 & No. 7 BWV 1058",
-        "spotify_url": "https://open.spotify.com/track/4sl20vttMgIMfnuBfRYNQo",
-        "plays": 1
-      },
-      {
-        "name": "Goldberg Variations, BWV 988: Variation 7 a 1 ovvero 2 Clav.",
-        "album": "Bach: The Goldberg Variations, BWV 988 (1981 Gould Remaster)",
-        "spotify_url": "https://open.spotify.com/track/4w3aG0qWqCQKhvsQYzX3nY",
-        "plays": 1
-      },
-      {
-        "name": "The Well-Tempered Clavier, Book 2: Fugue No. 9 in E Major, BWV 878",
-        "album": "Bach: Goldberg Variations, BWV 988",
-        "spotify_url": "https://open.spotify.com/track/5hsvHSuBT5QyUogOqRtie9",
-        "plays": 1
-      },
-      {
-        "name": "Goldberg Variations, BWV 988: Variation 5 a 1 ovvero 2 Clav.",
-        "album": "Bach: The Goldberg Variations, BWV 988 (1981 Gould Remaster)",
-        "spotify_url": "https://open.spotify.com/track/325xUomC1NKDerrKIn0zfD",
-        "plays": 1
-      },
-      {
-        "name": "The Well-Tempered Clavier, Book 1: Prelude No. 5 in D Major, BWV 850",
-        "album": "Glenn Gould plays Bach: The Well-Tempered Clavier Books I & II, BWV 846-893",
-        "spotify_url": "https://open.spotify.com/track/7uhvsd6vSlgjYtPQ2twAYV",
-        "plays": 1
-      },
-      {
-        "name": "Keyboard Concerto No. 5 in F Minor, BWV 1056: II. Largo",
-        "album": "Glenn Gould plays Bach: Piano Concertos Nos. 1 - 5 BWV 1052-1056 & No. 7 BWV 1058",
-        "spotify_url": "https://open.spotify.com/track/504wsV4Br1jy9xUvWzpAog",
-        "plays": 1
-      },
-      {
-        "name": "Goldberg Variations, BWV 988: Aria",
-        "album": "Bach: The Goldberg Variations, BWV 988 (1981 Gould Remaster)",
-        "spotify_url": "https://open.spotify.com/track/5bu9A6uphPWg39RC3ZKeku",
-        "plays": 1
-      },
-      {
-        "name": "Goldberg Variations, BWV 988: Variation 9 a 1 Clav. Canone alla Terza",
-        "album": "Bach: The Goldberg Variations, BWV 988 (1981 Gould Remaster)",
-        "spotify_url": "https://open.spotify.com/track/3DRZuYDArzcoTniRTkaax4",
         "plays": 1
       },
       {
@@ -5691,33 +5919,9 @@
         "plays": 1
       },
       {
-        "name": "Partita No. 1 in B-Flat Major, BWV 825: VI. Gigue",
-        "album": "Glenn Gould plays Bach: 6 Partitas BWV 825-830; Chromatic Fantasy BWV 903; Italian Concerto BWV 971; The Art of the Fugue BWV 1080 (excerpts); Preludes, Fugues & Fantasies",
-        "spotify_url": "https://open.spotify.com/track/0PSdHe7MuFgxYe63O3KlQV",
-        "plays": 1
-      },
-      {
-        "name": "Goldberg Variations, BWV 988: Variation 3 a 1 Clav. Canone all'Unisono",
-        "album": "Bach: The Goldberg Variations, BWV 988 (1981 Gould Remaster)",
-        "spotify_url": "https://open.spotify.com/track/5SJFZnECoKeTLy7PPVLLbF",
-        "plays": 1
-      },
-      {
-        "name": "Partita No. 2 in C Minor, BWV 826: IV. Sarabande",
-        "album": "Glenn Gould plays Bach: 6 Partitas BWV 825-830; Chromatic Fantasy BWV 903; Italian Concerto BWV 971; The Art of the Fugue BWV 1080 (excerpts); Preludes, Fugues & Fantasies",
-        "spotify_url": "https://open.spotify.com/track/0g0Z2EVHb84n7LP6uo3Ygn",
-        "plays": 1
-      },
-      {
         "name": "Invention No. 1 in C Major, BWV 772",
         "album": "Bach: Inventions & Sinfonias, BWV 772-801 & Toccatas BWV 910-916",
         "spotify_url": "https://open.spotify.com/track/2q0YuWctbdBzQ7jYhqvZTy",
-        "plays": 1
-      },
-      {
-        "name": "Keyboard Concerto No. 2 in E Major, BWV 1053: I. ?",
-        "album": "Glenn Gould plays Bach: Piano Concertos Nos. 1 - 5 BWV 1052-1056 & No. 7 BWV 1058",
-        "spotify_url": "https://open.spotify.com/track/0qw5GdovyXGf6tK4RGIUNZ",
         "plays": 1
       },
       {
@@ -5727,21 +5931,27 @@
         "plays": 1
       },
       {
-        "name": "The Well-Tempered Clavier, Book 1: Prelude No. 6 in D Minor, BWV 851",
-        "album": "Glenn Gould plays Bach: The Well-Tempered Clavier Books I & II, BWV 846-893",
-        "spotify_url": "https://open.spotify.com/track/0utaDpYTrP5l9SjqzYK8Ps",
-        "plays": 1
-      },
-      {
-        "name": "Invention No. 14 in B-Flat Major, BWV 785",
-        "album": "Bach: Inventions & Sinfonias, BWV 772-801 & Toccatas BWV 910-916",
-        "spotify_url": "https://open.spotify.com/track/7Kl0Izq64TwgnVMPkhkefI",
-        "plays": 1
-      },
-      {
-        "name": "Goldberg Variations, BWV 988: Variation 4 a 1 Clav.",
+        "name": "Goldberg Variations, BWV 988: Variation 24 Canone all' Ottava a 1 Clav.",
         "album": "Bach: The Goldberg Variations, BWV 988 (1981 Gould Remaster)",
-        "spotify_url": "https://open.spotify.com/track/14lyZKpPu1ECQpfXhgrip6",
+        "spotify_url": "https://open.spotify.com/track/3ibPePT3mJfjgcjwg2lSuG",
+        "plays": 1
+      },
+      {
+        "name": "Invention No. 10 in G Major, BWV 781",
+        "album": "Bach: Inventions & Sinfonias, BWV 772-801 & Toccatas BWV 910-916",
+        "spotify_url": "https://open.spotify.com/track/32LGh6whqtQK4V1j6gF5fc",
+        "plays": 1
+      },
+      {
+        "name": "Keyboard Concerto No. 7 in G Minor, BWV 1058: I. -",
+        "album": "Glenn Gould plays Bach: Piano Concertos Nos. 1 - 5 BWV 1052-1056 & No. 7 BWV 1058",
+        "spotify_url": "https://open.spotify.com/track/5NnL9HdUbj6NueQvkRGUgg",
+        "plays": 1
+      },
+      {
+        "name": "The Well-Tempered Clavier, Book 1: Fugue No. 5 in D Major, BWV 850",
+        "album": "Glenn Gould plays Bach: The Well-Tempered Clavier Books I & II, BWV 846-893",
+        "spotify_url": "https://open.spotify.com/track/3WQu9cgltS2A5zdNPYxobk",
         "plays": 1
       },
       {
@@ -5760,12 +5970,6 @@
         "name": "Variation 25 a 2 Clav.",
         "album": "Bach: The Goldberg Variations, BWV 988 (1955 Gould Remaster)",
         "spotify_url": "https://open.spotify.com/track/7eRkb1pJeLZ9jJNNbvVzl8",
-        "plays": 2
-      },
-      {
-        "name": "The Well-Tempered Clavier, Book 1: Fugue No. 5 in D Major, BWV 850",
-        "album": "Glenn Gould plays Bach: The Well-Tempered Clavier Books I & II, BWV 846-893",
-        "spotify_url": "https://open.spotify.com/track/3WQu9cgltS2A5zdNPYxobk",
         "plays": 2
       },
       {
@@ -6054,12 +6258,6 @@
         "name": "Goldberg Variations, BWV 988: Variation 17 a 2 Clav.",
         "album": "Bach: The Goldberg Variations, BWV 988 (1981 Gould Remaster)",
         "spotify_url": "https://open.spotify.com/track/3c7s2PsmdNUqGaOd3zHDxb",
-        "plays": 2
-      },
-      {
-        "name": "Goldberg Variations, BWV 988: Variation 24 Canone all' Ottava a 1 Clav.",
-        "album": "Bach: The Goldberg Variations, BWV 988 (1981 Gould Remaster)",
-        "spotify_url": "https://open.spotify.com/track/3ibPePT3mJfjgcjwg2lSuG",
         "plays": 2
       },
       {
@@ -12342,9 +12540,9 @@
     "id": "0EdvGhlC1FkGItLOWQzG4J",
     "name": "Sublime",
     "spotify_url": "https://open.spotify.com/artist/0EdvGhlC1FkGItLOWQzG4J",
-    "total_plays": 105,
+    "total_plays": 114,
     "first_seen": "2026-03-03",
-    "last_seen": "2026-09-12",
+    "last_seen": "2026-10-19",
     "genres": [
       "reggae rock",
       "ska punk",
@@ -12369,15 +12567,27 @@
     ],
     "top_tracks": [
       {
+        "name": "Roots Of Creation - Demo",
+        "album": "Everything Under The Sun",
+        "spotify_url": "https://open.spotify.com/track/385maNWgHJ675jVKHFbobw",
+        "plays": 7
+      },
+      {
         "name": "Right Back",
         "album": "40oz. To Freedom",
         "spotify_url": "https://open.spotify.com/track/6BukIakKj13FZWCugXCCda",
         "plays": 4
       },
       {
-        "name": "Roots Of Creation - Demo",
+        "name": "Smoke Two Joints - Rarities Version",
         "album": "Everything Under The Sun",
-        "spotify_url": "https://open.spotify.com/track/385maNWgHJ675jVKHFbobw",
+        "spotify_url": "https://open.spotify.com/track/4ZvDkzuSwDOAlbHCgVRBfW",
+        "plays": 4
+      },
+      {
+        "name": "Date Rape Stylee - Rarities Version",
+        "album": "Everything Under The Sun",
+        "spotify_url": "https://open.spotify.com/track/64PPPpJW9zoDajIXja8OSy",
         "plays": 4
       },
       {
@@ -12393,9 +12603,21 @@
         "plays": 3
       },
       {
-        "name": "Smoke Two Joints - Rarities Version",
+        "name": "Johnny Too Bad Freestyle - Rarities Version",
         "album": "Everything Under The Sun",
-        "spotify_url": "https://open.spotify.com/track/4ZvDkzuSwDOAlbHCgVRBfW",
+        "spotify_url": "https://open.spotify.com/track/02JkRMZZkbkghL6w4Jb0aO",
+        "plays": 3
+      },
+      {
+        "name": "Perfect World - Rarities Version",
+        "album": "Everything Under The Sun",
+        "spotify_url": "https://open.spotify.com/track/6QHLY8aRGTpAN0L3xUMCmP",
+        "plays": 3
+      },
+      {
+        "name": "Ball And Chain - Demo",
+        "album": "Everything Under The Sun",
+        "spotify_url": "https://open.spotify.com/track/4CFrcvpTt9np8GNsAKMMkH",
         "plays": 3
       },
       {
@@ -12546,30 +12768,6 @@
         "name": "I'm Not A Loser - Rarities Version",
         "album": "Everything Under The Sun",
         "spotify_url": "https://open.spotify.com/track/7qVMEia7vEwDlyUMYDBljv",
-        "plays": 2
-      },
-      {
-        "name": "Johnny Too Bad Freestyle - Rarities Version",
-        "album": "Everything Under The Sun",
-        "spotify_url": "https://open.spotify.com/track/02JkRMZZkbkghL6w4Jb0aO",
-        "plays": 2
-      },
-      {
-        "name": "Perfect World - Rarities Version",
-        "album": "Everything Under The Sun",
-        "spotify_url": "https://open.spotify.com/track/6QHLY8aRGTpAN0L3xUMCmP",
-        "plays": 2
-      },
-      {
-        "name": "Date Rape Stylee - Rarities Version",
-        "album": "Everything Under The Sun",
-        "spotify_url": "https://open.spotify.com/track/64PPPpJW9zoDajIXja8OSy",
-        "plays": 2
-      },
-      {
-        "name": "Ball And Chain - Demo",
-        "album": "Everything Under The Sun",
-        "spotify_url": "https://open.spotify.com/track/4CFrcvpTt9np8GNsAKMMkH",
         "plays": 2
       },
       {
@@ -14919,9 +15117,9 @@
     "id": "5ihY290YPGc3aY2xTyx7Gy",
     "name": "Edvard Grieg",
     "spotify_url": "https://open.spotify.com/artist/5ihY290YPGc3aY2xTyx7Gy",
-    "total_plays": 1,
+    "total_plays": 3,
     "first_seen": "2026-03-03",
-    "last_seen": "2026-03-03",
+    "last_seen": "2026-10-17",
     "genres": [
       "classical",
       "classical piano"
@@ -14949,6 +15147,12 @@
       }
     ],
     "top_tracks": [
+      {
+        "name": "Piano Concerto in A minor, Op. 16: II. Adagio - Live",
+        "album": "Wonderland - Edvard Grieg: Piano Concerto, Lyric Pieces",
+        "spotify_url": "https://open.spotify.com/track/48ncsTkxc9KlRZEG0PC2rZ",
+        "plays": 2
+      },
       {
         "name": "Lyric Pieces, Book 7, Op. 62: No. 4, Brooklet",
         "album": "Grieg: Lyric Pieces",
@@ -22602,9 +22806,9 @@
     "id": "1ZN1c1qWEGZNX1pGeKCPpf",
     "name": "Billy Strings",
     "spotify_url": "https://open.spotify.com/artist/1ZN1c1qWEGZNX1pGeKCPpf",
-    "total_plays": 54,
+    "total_plays": 110,
     "first_seen": "2026-03-28",
-    "last_seen": "2026-10-02",
+    "last_seen": "2026-10-16",
     "genres": [
       "bluegrass",
       "newgrass",
@@ -22633,30 +22837,84 @@
         "name": "Gild the Lily",
         "album": "Highway Prayers",
         "spotify_url": "https://open.spotify.com/track/181YsWsKwhTmoHYZ4xtiuZ",
-        "plays": 6
+        "plays": 7
       },
       {
         "name": "Watch It Fall",
         "album": "Home",
         "spotify_url": "https://open.spotify.com/track/348k0fvTj8lMXdkUR7mJZ4",
-        "plays": 5
+        "plays": 6
+      },
+      {
+        "name": "Carry Us Home",
+        "album": "So Much For Goodbyes",
+        "spotify_url": "https://open.spotify.com/track/6bOvkth6LOFrJbywr4JQJt",
+        "plays": 4
       },
       {
         "name": "Away From The Mire",
         "album": "Home",
         "spotify_url": "https://open.spotify.com/track/6oPDKGwBri4OLQX5IYu02T",
-        "plays": 2
+        "plays": 3
       },
       {
         "name": "My Alice",
         "album": "Highway Prayers",
         "spotify_url": "https://open.spotify.com/track/3FuaU7DREr1IxW2mdVL2er",
-        "plays": 2
+        "plays": 3
       },
       {
         "name": "Must Be Seven",
         "album": "Home",
         "spotify_url": "https://open.spotify.com/track/6l7VxGCmqeseT0K0L9tRXh",
+        "plays": 3
+      },
+      {
+        "name": "Lucid Daydream",
+        "album": "So Much For Goodbyes",
+        "spotify_url": "https://open.spotify.com/track/5f6nwe1u8F6tWIlZuA1o9J",
+        "plays": 3
+      },
+      {
+        "name": "Lay Me Down",
+        "album": "So Much For Goodbyes",
+        "spotify_url": "https://open.spotify.com/track/1WCNwVVp5uaEETRVchqnNC",
+        "plays": 3
+      },
+      {
+        "name": "Burn the Other End",
+        "album": "So Much For Goodbyes",
+        "spotify_url": "https://open.spotify.com/track/5v0bNyyBlH1G95BIh6xt6P",
+        "plays": 3
+      },
+      {
+        "name": "I'm One of Those",
+        "album": "So Much For Goodbyes",
+        "spotify_url": "https://open.spotify.com/track/4VlTGxtLNeASX5fKmbRWne",
+        "plays": 3
+      },
+      {
+        "name": "I Wish I Wanted To",
+        "album": "So Much For Goodbyes",
+        "spotify_url": "https://open.spotify.com/track/5hNPAsdz5MpN9WD5hbmrh5",
+        "plays": 3
+      },
+      {
+        "name": "I Like Train Songs",
+        "album": "So Much For Goodbyes",
+        "spotify_url": "https://open.spotify.com/track/2FHrK08KZC1k80Oqa1DadY",
+        "plays": 3
+      },
+      {
+        "name": "Mill Town Flood",
+        "album": "So Much For Goodbyes",
+        "spotify_url": "https://open.spotify.com/track/45n4v0BSKMU4YnFClTSfux",
+        "plays": 3
+      },
+      {
+        "name": "Secrets",
+        "album": "Renewal",
+        "spotify_url": "https://open.spotify.com/track/2DSIadh6CVBzQoRZ9VzKVL",
         "plays": 2
       },
       {
@@ -22666,28 +22924,124 @@
         "plays": 2
       },
       {
-        "name": "Lucid Daydream",
-        "album": "So Much For Goodbyes",
-        "spotify_url": "https://open.spotify.com/track/5f6nwe1u8F6tWIlZuA1o9J",
-        "plays": 2
-      },
-      {
-        "name": "I Wish I Wanted To",
-        "album": "So Much For Goodbyes",
-        "spotify_url": "https://open.spotify.com/track/5hNPAsdz5MpN9WD5hbmrh5",
-        "plays": 2
-      },
-      {
-        "name": "Secrets",
-        "album": "Renewal",
-        "spotify_url": "https://open.spotify.com/track/2DSIadh6CVBzQoRZ9VzKVL",
-        "plays": 1
-      },
-      {
         "name": "Taking Water",
         "album": "Home",
         "spotify_url": "https://open.spotify.com/track/6CFWS3OAIybkmUQHOZt33S",
-        "plays": 1
+        "plays": 2
+      },
+      {
+        "name": "All the Luck in the World",
+        "album": "All the Luck in the World",
+        "spotify_url": "https://open.spotify.com/track/4UwLmn135R9BREeNP5H1JP",
+        "plays": 2
+      },
+      {
+        "name": "Meet Me at the Creek",
+        "album": "Turmoil & Tinfoil",
+        "spotify_url": "https://open.spotify.com/track/3OQMICEnoXIsMD4jYtOC7F",
+        "plays": 2
+      },
+      {
+        "name": "Running",
+        "album": "Home",
+        "spotify_url": "https://open.spotify.com/track/6BxesBP5yRhtNwfOLHG3lG",
+        "plays": 2
+      },
+      {
+        "name": "Red Daisy",
+        "album": "Renewal",
+        "spotify_url": "https://open.spotify.com/track/3jvF2n2YG3t9UVR6yofeDv",
+        "plays": 2
+      },
+      {
+        "name": "While I'm Waiting Here",
+        "album": "Turmoil & Tinfoil",
+        "spotify_url": "https://open.spotify.com/track/2AHa3IJtKoe0pvO5ZX1WU8",
+        "plays": 2
+      },
+      {
+        "name": "Know It All",
+        "album": "Renewal",
+        "spotify_url": "https://open.spotify.com/track/687SHqnUp3yGfGiuwgE2WG",
+        "plays": 2
+      },
+      {
+        "name": "Slow Train",
+        "album": "Billy Strings - EP",
+        "spotify_url": "https://open.spotify.com/track/3PG4uLlLl8AyRMFTFjqAot",
+        "plays": 2
+      },
+      {
+        "name": "If You're Gonna Be Dumb, You Gotta Be Tough (from jackass: best and last)",
+        "album": "If You're Gonna Be Dumb, You Gotta Be Tough (from jackass: best and last)",
+        "spotify_url": "https://open.spotify.com/track/4fDZIUFr4ntAQvqCHCvl3k",
+        "plays": 2
+      },
+      {
+        "name": "Turmoil & Tinfoil",
+        "album": "Turmoil & Tinfoil",
+        "spotify_url": "https://open.spotify.com/track/3kipE3F3ghfvZHPxDvbNQF",
+        "plays": 2
+      },
+      {
+        "name": "Love And Regret",
+        "album": "Renewal",
+        "spotify_url": "https://open.spotify.com/track/0BdSxc3R86Jw7wOToh19b8",
+        "plays": 2
+      },
+      {
+        "name": "Debra's Waltz",
+        "album": "So Much For Goodbyes",
+        "spotify_url": "https://open.spotify.com/track/1ay2JceoEFGCZVJp1KcAet",
+        "plays": 2
+      },
+      {
+        "name": "Wrestling an Angel",
+        "album": "So Much For Goodbyes",
+        "spotify_url": "https://open.spotify.com/track/0Lp1d05CuC37uHQdIWiiKz",
+        "plays": 2
+      },
+      {
+        "name": "Remember to Cry",
+        "album": "So Much For Goodbyes",
+        "spotify_url": "https://open.spotify.com/track/1f4GNncAgVf7yVUdBNrnYN",
+        "plays": 2
+      },
+      {
+        "name": "Still I Crash",
+        "album": "So Much For Goodbyes",
+        "spotify_url": "https://open.spotify.com/track/3OcsrSKSbAiS42wzy4yrxY",
+        "plays": 2
+      },
+      {
+        "name": "10,000 Miles From a Friend",
+        "album": "So Much For Goodbyes",
+        "spotify_url": "https://open.spotify.com/track/2ZrQ69bP6qenxfqaLcLQMe",
+        "plays": 2
+      },
+      {
+        "name": "Light the Way",
+        "album": "So Much For Goodbyes",
+        "spotify_url": "https://open.spotify.com/track/113dqP5ioyBKkNW4GRupep",
+        "plays": 2
+      },
+      {
+        "name": "Bluewater Breakdown",
+        "album": "So Much For Goodbyes",
+        "spotify_url": "https://open.spotify.com/track/2d1CBxKh6hIQqH1ns7L9si",
+        "plays": 2
+      },
+      {
+        "name": "Live to Tell",
+        "album": "So Much For Goodbyes",
+        "spotify_url": "https://open.spotify.com/track/77R6say6YtK0Mnf8iPVeFS",
+        "plays": 2
+      },
+      {
+        "name": "On the Line",
+        "album": "Turmoil & Tinfoil",
+        "spotify_url": "https://open.spotify.com/track/6MVWwC4zKmJssfWo2mBxpy",
+        "plays": 2
       },
       {
         "name": "Highway Hypnosis",
@@ -22702,27 +23056,9 @@
         "plays": 1
       },
       {
-        "name": "All the Luck in the World",
-        "album": "All the Luck in the World",
-        "spotify_url": "https://open.spotify.com/track/4UwLmn135R9BREeNP5H1JP",
-        "plays": 1
-      },
-      {
-        "name": "Meet Me at the Creek",
-        "album": "Turmoil & Tinfoil",
-        "spotify_url": "https://open.spotify.com/track/3OQMICEnoXIsMD4jYtOC7F",
-        "plays": 1
-      },
-      {
         "name": "Everything's The Same",
         "album": "Home",
         "spotify_url": "https://open.spotify.com/track/5VWLiNRQcx6s4nfTvBaj4L",
-        "plays": 1
-      },
-      {
-        "name": "Running",
-        "album": "Home",
-        "spotify_url": "https://open.spotify.com/track/6BxesBP5yRhtNwfOLHG3lG",
         "plays": 1
       },
       {
@@ -22732,135 +23068,93 @@
         "plays": 1
       },
       {
-        "name": "Red Daisy",
-        "album": "Renewal",
-        "spotify_url": "https://open.spotify.com/track/3jvF2n2YG3t9UVR6yofeDv",
-        "plays": 1
-      },
-      {
-        "name": "While I'm Waiting Here",
-        "album": "Turmoil & Tinfoil",
-        "spotify_url": "https://open.spotify.com/track/2AHa3IJtKoe0pvO5ZX1WU8",
-        "plays": 1
-      },
-      {
         "name": "Hollow Heart",
         "album": "Home",
         "spotify_url": "https://open.spotify.com/track/1G6hd0NSi7BoC9ko1gVGkg",
         "plays": 1
       },
       {
-        "name": "Know It All",
+        "name": "This Old World",
         "album": "Renewal",
-        "spotify_url": "https://open.spotify.com/track/687SHqnUp3yGfGiuwgE2WG",
-        "plays": 1
-      },
-      {
-        "name": "Slow Train",
-        "album": "Billy Strings - EP",
-        "spotify_url": "https://open.spotify.com/track/3PG4uLlLl8AyRMFTFjqAot",
-        "plays": 1
-      },
-      {
-        "name": "If You're Gonna Be Dumb, You Gotta Be Tough (from jackass: best and last)",
-        "album": "If You're Gonna Be Dumb, You Gotta Be Tough (from jackass: best and last)",
-        "spotify_url": "https://open.spotify.com/track/4fDZIUFr4ntAQvqCHCvl3k",
-        "plays": 1
-      },
-      {
-        "name": "Turmoil & Tinfoil",
-        "album": "Turmoil & Tinfoil",
-        "spotify_url": "https://open.spotify.com/track/3kipE3F3ghfvZHPxDvbNQF",
-        "plays": 1
-      },
-      {
-        "name": "Lay Me Down",
-        "album": "So Much For Goodbyes",
-        "spotify_url": "https://open.spotify.com/track/1WCNwVVp5uaEETRVchqnNC",
-        "plays": 1
-      },
-      {
-        "name": "Carry Us Home",
-        "album": "So Much For Goodbyes",
-        "spotify_url": "https://open.spotify.com/track/6bOvkth6LOFrJbywr4JQJt",
-        "plays": 1
-      },
-      {
-        "name": "Burn the Other End",
-        "album": "So Much For Goodbyes",
-        "spotify_url": "https://open.spotify.com/track/5v0bNyyBlH1G95BIh6xt6P",
-        "plays": 1
-      },
-      {
-        "name": "I'm One of Those",
-        "album": "So Much For Goodbyes",
-        "spotify_url": "https://open.spotify.com/track/4VlTGxtLNeASX5fKmbRWne",
-        "plays": 1
-      },
-      {
-        "name": "Love And Regret",
-        "album": "Renewal",
-        "spotify_url": "https://open.spotify.com/track/0BdSxc3R86Jw7wOToh19b8",
-        "plays": 1
-      },
-      {
-        "name": "Debra's Waltz",
-        "album": "So Much For Goodbyes",
-        "spotify_url": "https://open.spotify.com/track/1ay2JceoEFGCZVJp1KcAet",
-        "plays": 1
-      },
-      {
-        "name": "Wrestling an Angel",
-        "album": "So Much For Goodbyes",
-        "spotify_url": "https://open.spotify.com/track/0Lp1d05CuC37uHQdIWiiKz",
-        "plays": 1
-      },
-      {
-        "name": "Remember to Cry",
-        "album": "So Much For Goodbyes",
-        "spotify_url": "https://open.spotify.com/track/1f4GNncAgVf7yVUdBNrnYN",
-        "plays": 1
-      },
-      {
-        "name": "Still I Crash",
-        "album": "So Much For Goodbyes",
-        "spotify_url": "https://open.spotify.com/track/3OcsrSKSbAiS42wzy4yrxY",
-        "plays": 1
-      },
-      {
-        "name": "10,000 Miles From a Friend",
-        "album": "So Much For Goodbyes",
-        "spotify_url": "https://open.spotify.com/track/2ZrQ69bP6qenxfqaLcLQMe",
-        "plays": 1
-      },
-      {
-        "name": "I Like Train Songs",
-        "album": "So Much For Goodbyes",
-        "spotify_url": "https://open.spotify.com/track/2FHrK08KZC1k80Oqa1DadY",
-        "plays": 1
-      },
-      {
-        "name": "Light the Way",
-        "album": "So Much For Goodbyes",
-        "spotify_url": "https://open.spotify.com/track/113dqP5ioyBKkNW4GRupep",
-        "plays": 1
-      },
-      {
-        "name": "Bluewater Breakdown",
-        "album": "So Much For Goodbyes",
-        "spotify_url": "https://open.spotify.com/track/2d1CBxKh6hIQqH1ns7L9si",
-        "plays": 1
-      },
-      {
-        "name": "Live to Tell",
-        "album": "So Much For Goodbyes",
-        "spotify_url": "https://open.spotify.com/track/77R6say6YtK0Mnf8iPVeFS",
+        "spotify_url": "https://open.spotify.com/track/1sZKHoO0aMlFsjdlIcyn9M",
         "plays": 1
       },
       {
         "name": "Mill Town Flood",
-        "album": "So Much For Goodbyes",
-        "spotify_url": "https://open.spotify.com/track/45n4v0BSKMU4YnFClTSfux",
+        "album": "Mill Town Flood",
+        "spotify_url": "https://open.spotify.com/track/4EDeHbHaPI7iO6X0i0Meh8",
+        "plays": 1
+      },
+      {
+        "name": "California Sober (feat. Willie Nelson)",
+        "album": "California Sober (feat. Willie Nelson)",
+        "spotify_url": "https://open.spotify.com/track/0zfEBDdtB0TPV64JcvF7E5",
+        "plays": 1
+      },
+      {
+        "name": "In The Morning Light",
+        "album": "Renewal",
+        "spotify_url": "https://open.spotify.com/track/094CEqqfSyUyMygzZNcfJC",
+        "plays": 1
+      },
+      {
+        "name": "Walk On Boy",
+        "album": "Fiddle Tune X",
+        "spotify_url": "https://open.spotify.com/track/3W0RB4YCkHBSHzsxr60mrt",
+        "plays": 1
+      },
+      {
+        "name": "Red Rocking Chair",
+        "album": "Billy Strings - EP",
+        "spotify_url": "https://open.spotify.com/track/3Qwu14ZhD55gWivYsFBKnb",
+        "plays": 1
+      },
+      {
+        "name": "Doin' things Right",
+        "album": "Turmoil & Tinfoil",
+        "spotify_url": "https://open.spotify.com/track/7IhoO9Dfv3KKM7qtvKwsjn",
+        "plays": 1
+      },
+      {
+        "name": "Seven Weeks In County",
+        "album": "Highway Prayers",
+        "spotify_url": "https://open.spotify.com/track/11QaIfFgR5UABW4BkKEoeL",
+        "plays": 1
+      },
+      {
+        "name": "Enough To Leave",
+        "album": "Home",
+        "spotify_url": "https://open.spotify.com/track/5lTtP7bCPxFbOdqoVja1WT",
+        "plays": 1
+      },
+      {
+        "name": "The Fire On My Tongue",
+        "album": "Renewal",
+        "spotify_url": "https://open.spotify.com/track/51FYCQLmuBsg4KFjDOC33e",
+        "plays": 1
+      },
+      {
+        "name": "In the Clear",
+        "album": "Highway Prayers",
+        "spotify_url": "https://open.spotify.com/track/1OHUFbsydldp8XYYgl11zk",
+        "plays": 1
+      },
+      {
+        "name": "Dust in a Baggie",
+        "album": "Billy Strings - EP",
+        "spotify_url": "https://open.spotify.com/track/2Lk8XTulavagQOrYqFpGB8",
+        "plays": 1
+      },
+      {
+        "name": "Leaning on a Travelin' Song",
+        "album": "Highway Prayers",
+        "spotify_url": "https://open.spotify.com/track/0Frqa2RKGM1D3JfOlIK133",
+        "plays": 1
+      },
+      {
+        "name": "Richard Petty",
+        "album": "Highway Prayers",
+        "spotify_url": "https://open.spotify.com/track/77vfp7HY2M3d1KZTPgFBfF",
         "plays": 1
       }
     ]
@@ -27775,9 +28069,9 @@
     "id": "70kkdajctXSbqSMJbQO424",
     "name": "Kacey Musgraves",
     "spotify_url": "https://open.spotify.com/artist/70kkdajctXSbqSMJbQO424",
-    "total_plays": 18,
+    "total_plays": 19,
     "first_seen": "2026-05-01",
-    "last_seen": "2026-07-25",
+    "last_seen": "2026-10-15",
     "genres": [],
     "images": [
       {
@@ -27798,15 +28092,15 @@
     ],
     "top_tracks": [
       {
-        "name": "Horses and Divorces (feat. Miranda Lambert)",
-        "album": "Middle of Nowhere",
-        "spotify_url": "https://open.spotify.com/track/44tr6kkaMRgd2UVG44wqv7",
-        "plays": 2
-      },
-      {
         "name": "Everybody Wants To Be A Cowboy (feat. Billy Strings)",
         "album": "Middle of Nowhere",
         "spotify_url": "https://open.spotify.com/track/6ULjjAbwB2BoTZthQKv1Q2",
+        "plays": 3
+      },
+      {
+        "name": "Horses and Divorces (feat. Miranda Lambert)",
+        "album": "Middle of Nowhere",
+        "spotify_url": "https://open.spotify.com/track/44tr6kkaMRgd2UVG44wqv7",
         "plays": 2
       },
       {
@@ -30871,9 +31165,9 @@
     "id": "0Kekt6CKSo0m5mivKcoH51",
     "name": "Sergei Rachmaninoff",
     "spotify_url": "https://open.spotify.com/artist/0Kekt6CKSo0m5mivKcoH51",
-    "total_plays": 1,
+    "total_plays": 2,
     "first_seen": "2026-05-14",
-    "last_seen": "2026-05-14",
+    "last_seen": "2026-10-17",
     "genres": [
       "classical",
       "classical piano",
@@ -30906,6 +31200,12 @@
         "name": "12 Songs, Op. 21: V. Lilacs (Transcr. Rachmaninoff for Solo Piano)",
         "album": "Rachmaninoff: Préludes; Études-Tableaux; Moments musicaux",
         "spotify_url": "https://open.spotify.com/track/4ObQ0m7VUtrgdEwpFeCKua",
+        "plays": 1
+      },
+      {
+        "name": "13 Preludes, Op. 32: No. 5 in G Major: Moderato",
+        "album": "Rachmaninoff: 24 Préludes",
+        "spotify_url": "https://open.spotify.com/track/6XKRviJmS09jtkrE1KBe7X",
         "plays": 1
       },
       {
@@ -30980,9 +31280,9 @@
     "id": "13dkPjqmbcchm8cXjEJQeP",
     "name": "Glenn Gould",
     "spotify_url": "https://open.spotify.com/artist/13dkPjqmbcchm8cXjEJQeP",
-    "total_plays": 4,
+    "total_plays": 9,
     "first_seen": "2026-05-14",
-    "last_seen": "2026-05-14",
+    "last_seen": "2026-10-17",
     "genres": [
       "classical piano",
       "classical",
@@ -31007,27 +31307,39 @@
     ],
     "top_tracks": [
       {
+        "name": "Three-Part Inventions (Sinfonias), BWV 787-801: Sinfonia No. 3 in D Major, BWV 789",
+        "album": "The Young Maverick",
+        "spotify_url": "https://open.spotify.com/track/015jWmnyvqR07BXNWl2XjB",
+        "plays": 2
+      },
+      {
+        "name": "Three-Part Inventions (Sinfonias), BWV 787-801: Sinfonia No. 2 in C Minor, BWV 788",
+        "album": "The Young Maverick",
+        "spotify_url": "https://open.spotify.com/track/6AeFOnXDqRvomaZUpTOELh",
+        "plays": 2
+      },
+      {
+        "name": "Italian Concerto in F Major, BWV 971: I. Allegro",
+        "album": "The Young Maverick",
+        "spotify_url": "https://open.spotify.com/track/3TSeguUFT5vKJDOqzFCFZB",
+        "plays": 2
+      },
+      {
         "name": "String Quartet, Op. 1 - Remastered",
         "album": "Gould: String Quartet, Op. 1 (Gould Remastered)",
         "spotify_url": "https://open.spotify.com/track/7MizXOsUcCReBdRXPx9s8V",
         "plays": 1
       },
       {
-        "name": "Three-Part Inventions (Sinfonias), BWV 787-801: Sinfonia No. 3 in D Major, BWV 789",
+        "name": "Partita No. 5 in G Major, BWV 829: V. Menuet",
         "album": "The Young Maverick",
-        "spotify_url": "https://open.spotify.com/track/015jWmnyvqR07BXNWl2XjB",
+        "spotify_url": "https://open.spotify.com/track/00mCdnkUJrsGLATUbnQczw",
         "plays": 1
       },
       {
-        "name": "Three-Part Inventions (Sinfonias), BWV 787-801: Sinfonia No. 2 in C Minor, BWV 788",
+        "name": "Partita No. 5 in G Major, BWV 829: II. Allemande",
         "album": "The Young Maverick",
-        "spotify_url": "https://open.spotify.com/track/6AeFOnXDqRvomaZUpTOELh",
-        "plays": 1
-      },
-      {
-        "name": "Italian Concerto in F Major, BWV 971: I. Allegro",
-        "album": "The Young Maverick",
-        "spotify_url": "https://open.spotify.com/track/3TSeguUFT5vKJDOqzFCFZB",
+        "spotify_url": "https://open.spotify.com/track/5Tm5UlrEu6jQyIRYHtOox7",
         "plays": 1
       },
       {
@@ -31972,9 +32284,9 @@
     "id": "2wOqMjp9TyABvtHdOSOTUS",
     "name": "Ludwig van Beethoven",
     "spotify_url": "https://open.spotify.com/artist/2wOqMjp9TyABvtHdOSOTUS",
-    "total_plays": 4,
+    "total_plays": 6,
     "first_seen": "2026-05-14",
-    "last_seen": "2026-05-14",
+    "last_seen": "2026-10-17",
     "genres": [
       "classical",
       "classical piano",
@@ -32004,21 +32316,21 @@
     ],
     "top_tracks": [
       {
-        "name": "Piano Sonata No. 1 in F Minor, Op. 2 No. 1: III. Menuetto. Allegretto",
-        "album": "Glenn Gould plays Beethoven: Piano Sonatas Nos. 1-3; 5-10; 12-14; 15-18; 23; 30-32",
-        "spotify_url": "https://open.spotify.com/track/6AttfCxKkvsSCJvrsZ2sDo",
-        "plays": 1
-      },
-      {
         "name": "Sonata No. 8 in C Minor, Op. 13 \"Pathétique\": II. Adagio cantabile - Remastered",
         "album": "Beethoven: Piano Sonatas Nos. 8-10 (Gould Remastered)",
         "spotify_url": "https://open.spotify.com/track/3XIGtjlniVGZgYuvZ1A9CF",
-        "plays": 1
+        "plays": 2
       },
       {
         "name": "Piano Concerto No. 5 in E-Flat Major, Op. 73 \"Emperor\": II. Adagio un poco mosso",
         "album": "Beethoven: The 5 Piano Concertos",
         "spotify_url": "https://open.spotify.com/track/75w6tkmyGfzuhK5caXRXdK",
+        "plays": 2
+      },
+      {
+        "name": "Piano Sonata No. 1 in F Minor, Op. 2 No. 1: III. Menuetto. Allegretto",
+        "album": "Glenn Gould plays Beethoven: Piano Sonatas Nos. 1-3; 5-10; 12-14; 15-18; 23; 30-32",
+        "spotify_url": "https://open.spotify.com/track/6AttfCxKkvsSCJvrsZ2sDo",
         "plays": 1
       },
       {
@@ -32201,9 +32513,9 @@
     "id": "0mFblCBw0GcoY7zY1P8tzE",
     "name": "Domenico Scarlatti",
     "spotify_url": "https://open.spotify.com/artist/0mFblCBw0GcoY7zY1P8tzE",
-    "total_plays": 2,
+    "total_plays": 3,
     "first_seen": "2026-05-14",
-    "last_seen": "2026-05-14",
+    "last_seen": "2026-10-17",
     "genres": [
       "baroque",
       "classical piano",
@@ -32233,15 +32545,15 @@
     ],
     "top_tracks": [
       {
-        "name": "Sonata in D Minor, L. 413 - Remastered",
-        "album": "The Glenn Gould Silver Jubilee Album (Gould Remastered)",
-        "spotify_url": "https://open.spotify.com/track/5Sd0K3aRw6L9JpXhnOLHp3",
-        "plays": 1
-      },
-      {
         "name": "Sonata in G Major, K 13 (L 486)",
         "album": "Glenn Gould plays Renaissance & Baroque Music: Byrd; Gibbons; Sweelinck; Handel: Suites for Harpsichord Nos. 1-4 HWV 426-429; D. Scarlatti: Sonatas K. 9, 13, 430; C.P.E. Bach: \"Württembergische Sonate\" No. 1",
         "spotify_url": "https://open.spotify.com/track/6uTCvFRE00RsW3AUf39Evn",
+        "plays": 2
+      },
+      {
+        "name": "Sonata in D Minor, L. 413 - Remastered",
+        "album": "The Glenn Gould Silver Jubilee Album (Gould Remastered)",
+        "spotify_url": "https://open.spotify.com/track/5Sd0K3aRw6L9JpXhnOLHp3",
         "plays": 1
       },
       {
@@ -32274,9 +32586,9 @@
     "id": "6MF58APd3YV72Ln2eVg710",
     "name": "Felix Mendelssohn",
     "spotify_url": "https://open.spotify.com/artist/6MF58APd3YV72Ln2eVg710",
-    "total_plays": 1,
+    "total_plays": 2,
     "first_seen": "2026-05-14",
-    "last_seen": "2026-05-14",
+    "last_seen": "2026-10-17",
     "genres": [
       "chamber music",
       "classical",
@@ -32305,7 +32617,7 @@
         "name": "Songs Without Words, Book 1, Op. 19b: No. 1 in E Major, MWV U 86",
         "album": "Chopin: Piano Sonata No. 3 - Mendelssohn: Songs Without Words",
         "spotify_url": "https://open.spotify.com/track/707Fx5xwN0oSmuGpRtQW4i",
-        "plays": 1
+        "plays": 2
       },
       {
         "name": "Lieder ohne Worte (Songs without Words), Book 6, Op. 67: No. 32 in F-Sharp Minor, Op. 67, No. 2",
@@ -32433,9 +32745,9 @@
     "id": "4NJhFmfw43RLBLjQvxDuRS",
     "name": "Wolfgang Amadeus Mozart",
     "spotify_url": "https://open.spotify.com/artist/4NJhFmfw43RLBLjQvxDuRS",
-    "total_plays": 1,
+    "total_plays": 3,
     "first_seen": "2026-05-14",
-    "last_seen": "2026-05-14",
+    "last_seen": "2026-10-17",
     "genres": [
       "classical",
       "classical piano",
@@ -32465,6 +32777,12 @@
         "name": "Piano Sonata No. 8 in A Minor, K. 310: II. Andante cantabile con espressione",
         "album": "Glenn Gould plays Mozart: The Piano Sonatas (No. 10: Recordings of 1958 & 1970); Fantasias K. 397 & K. 475; Fantasia & Fugue K. 394; Piano Concerto No. 24 K. 491",
         "spotify_url": "https://open.spotify.com/track/6mdMPlvsPL7q899LvFpOj8",
+        "plays": 2
+      },
+      {
+        "name": "Piano Sonata No. 12 in F Major, K. 332: II. Adagio",
+        "album": "Glenn Gould plays Mozart: The Piano Sonatas (No. 10: Recordings of 1958 & 1970); Fantasias K. 397 & K. 475; Fantasia & Fugue K. 394; Piano Concerto No. 24 K. 491",
+        "spotify_url": "https://open.spotify.com/track/37MnLC3cIPnavdI3ANEFWk",
         "plays": 1
       },
       {
@@ -36902,9 +37220,9 @@
     "id": "3oVcF3VdpMuvMvLLyHPT4t",
     "name": "Sierra Ferrell",
     "spotify_url": "https://open.spotify.com/artist/3oVcF3VdpMuvMvLLyHPT4t",
-    "total_plays": 2,
+    "total_plays": 3,
     "first_seen": "2026-06-17",
-    "last_seen": "2026-06-23",
+    "last_seen": "2026-10-16",
     "genres": [
       "americana",
       "bluegrass",
@@ -36929,15 +37247,15 @@
     ],
     "top_tracks": [
       {
-        "name": "Hey Me, Hey Mama",
-        "album": "Hey Me, Hey Mama",
-        "spotify_url": "https://open.spotify.com/track/4MeXcqcyx5vMVUJAKTqKRv",
-        "plays": 1
-      },
-      {
         "name": "I Could Drive You Crazy",
         "album": "Trail Of Flowers",
         "spotify_url": "https://open.spotify.com/track/6xgCx5NI5sE0yQ7Of1rkFo",
+        "plays": 2
+      },
+      {
+        "name": "Hey Me, Hey Mama",
+        "album": "Hey Me, Hey Mama",
+        "spotify_url": "https://open.spotify.com/track/4MeXcqcyx5vMVUJAKTqKRv",
         "plays": 1
       },
       {
@@ -49895,6 +50213,881 @@
       }
     ]
   },
+  "maurice-ravel": {
+    "id": "17hR0sYHpx7VYTMRfFUOmY",
+    "name": "Maurice Ravel",
+    "spotify_url": "https://open.spotify.com/artist/17hR0sYHpx7VYTMRfFUOmY",
+    "total_plays": 2,
+    "first_seen": "2026-10-17",
+    "last_seen": "2026-10-17",
+    "genres": [
+      "impressionism",
+      "classical",
+      "classical piano",
+      "neoclassical"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/0d8f2b3e9ab748e7767fd31ff9386e06e5834e2b",
+        "height": 276,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/4404ed7696076fd8f990cecdfbbbd4971f370e0f",
+        "height": 88,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Ravel: String Quartet, M. 35: II. Assez vif - Très rythmé",
+        "album": "Maurice Ravel - A Portrait",
+        "spotify_url": "https://open.spotify.com/track/0i3FN1oOdIwVUbknq3KsGC",
+        "plays": 1
+      },
+      {
+        "name": "Piano Concerto in G Major, M. 83: II. Adagio assai",
+        "album": "Ravel: Piano Concertos; Valses nobles et sentimentales",
+        "spotify_url": "https://open.spotify.com/track/4ju98rvX917EwXLKLnRbQ2",
+        "plays": 1
+      },
+      {
+        "name": "A la manière de. . . Chabrier",
+        "album": "Ravel: Complete Music for Piano Solo/Piano Concertos",
+        "spotify_url": "https://open.spotify.com/track/0MvyO1DgIlbK4DPoAs1xlE",
+        "plays": 2
+      },
+      {
+        "name": "Ravel: Sonatine, M. 40: II. Mouvement de menuet",
+        "album": "Ravel: Complete Works for Solo Piano",
+        "spotify_url": "https://open.spotify.com/track/1KfM3JMnBVaXTdEcSrLkXs",
+        "plays": 2
+      },
+      {
+        "name": "Prélude in A Minor",
+        "album": "Ravel",
+        "spotify_url": "https://open.spotify.com/track/5z2MvbhEpzZT1LCSwgc00O",
+        "plays": 2
+      },
+      {
+        "name": "Menuet in C-Sharp Minor, M. 42",
+        "album": "Classical Composure: Piano Works",
+        "spotify_url": "https://open.spotify.com/track/62zM4YH63ClNviIpUddpB1",
+        "plays": 1
+      },
+      {
+        "name": "Ma mère l'oye, M. 62: Apothéose: Le jardin féerique. Lent et grave",
+        "album": "Ravel: Ma Mère L'Oye; Boléro etc.",
+        "spotify_url": "https://open.spotify.com/track/6xEBSvLDWaFinm8v3NZQCX",
+        "plays": 1
+      },
+      {
+        "name": "Prélude",
+        "album": "Ravel: Miroirs, Jeux D'Eau, Pavane Pour Une Infante Défunte",
+        "spotify_url": "https://open.spotify.com/track/3ZWAtpmC9UdjIZtiZ2dwp0",
+        "plays": 1
+      },
+      {
+        "name": "Ma mère l'oye, M. 62: II. Pavane de la Belle au bois dormant.Lent - Allegro - Mouvement de Valse modéré",
+        "album": "Ravel: Ma Mère L'Oye; Boléro etc.",
+        "spotify_url": "https://open.spotify.com/track/3hg1WzJyWSQmLPcRa0tT7x",
+        "plays": 1
+      },
+      {
+        "name": "Le tombeau de Couperin (version for orchestra): No. 3. Menuet",
+        "album": "Ravel: Orchestral Works, Vol. 2",
+        "spotify_url": "https://open.spotify.com/track/5ATGY2d2oulmn7eZQ1EIUu",
+        "plays": 1
+      }
+    ]
+  },
+  "franz-liszt": {
+    "id": "1385hLNbrnbCJGokfH2ac2",
+    "name": "Franz Liszt",
+    "spotify_url": "https://open.spotify.com/artist/1385hLNbrnbCJGokfH2ac2",
+    "total_plays": 1,
+    "first_seen": "2026-10-17",
+    "last_seen": "2026-10-17",
+    "genres": [
+      "classical piano",
+      "classical"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/9ec531e3712e68c72ae3cf06f17e4055a615c4bf",
+        "height": 1210,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/7717301df596ae1ae992cfb6de694cb3577969bb",
+        "height": 774,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/73ca423532a8eb9b88a1a9c20e39f1331fa6e873",
+        "height": 242,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/7d014d4680e419b3f7e4427b1c43f5c5bba21a28",
+        "height": 77,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "3 Études de Concert, S. 144: No. 3 in D-Flat Major \"Un sospiro\"",
+        "album": "Transcendental - Daniil Trifonov Plays Franz Liszt (Etudes S. 139, S. 141, S. 144, S. 145)",
+        "spotify_url": "https://open.spotify.com/track/6Y2ID5LrizFmT8FL0BQEgG",
+        "plays": 1
+      },
+      {
+        "name": "6 Chants polonais, S. 480: No. 2, Frühling (Wiosna, Spring) [After Chopin's Op. 74]",
+        "album": "Liszt Complete Piano Music, Vol. 6: Complete Song Transcriptions of Chopin, Mendelssohn and Robert & Clara Schumann",
+        "spotify_url": "https://open.spotify.com/track/7jBaUnodzhFJCMaPRC4cD7",
+        "plays": 2
+      },
+      {
+        "name": "6 Consolations, S. 172: No. 4 in D-Flat Major (Quasi Adagio)",
+        "album": "Liszt: Dreams of Love; Consolations; Sonnets of Petrarca; Rigoletto Paraphrase",
+        "spotify_url": "https://open.spotify.com/track/0cJx212jbecobvnwBlIlfI",
+        "plays": 2
+      },
+      {
+        "name": "6 Consolations, S. 172: No. 3 in D-Flat Major (Lento, placido)",
+        "album": "Liszt: Dreams of Love; Consolations; Sonnets of Petrarca; Rigoletto Paraphrase",
+        "spotify_url": "https://open.spotify.com/track/1L4NadMj3Jj7YgGaikyhfr",
+        "plays": 2
+      },
+      {
+        "name": "6 Consolations, S. 172: No. 1 in E Major (Andante con moto)",
+        "album": "Liszt: Dreams of Love; Consolations; Sonnets of Petrarca; Rigoletto Paraphrase",
+        "spotify_url": "https://open.spotify.com/track/3SOhl8UQ6vwMYptJ5AYuiH",
+        "plays": 2
+      },
+      {
+        "name": "6 Grandes études de Paganini, S. 141: No. 3 in A-Flat Minor \"La campanella\"",
+        "album": "Liszt Complete Piano Music, Vol. 42: Paganini Studies",
+        "spotify_url": "https://open.spotify.com/track/6CxNvUMx58ZucUpBVCzrdk",
+        "plays": 2
+      },
+      {
+        "name": "La Campanella",
+        "album": "Vivy -Fluorite Eye's Song- Original Soundtrack",
+        "spotify_url": "https://open.spotify.com/track/3L3PYGeOmc09PCxMZHsk6b",
+        "plays": 1
+      }
+    ]
+  },
+  "arcangelo-corelli": {
+    "id": "5dmMpIyAVaH6b9FLFgWPrF",
+    "name": "Arcangelo Corelli",
+    "spotify_url": "https://open.spotify.com/artist/5dmMpIyAVaH6b9FLFgWPrF",
+    "total_plays": 1,
+    "first_seen": "2026-10-17",
+    "last_seen": "2026-10-17",
+    "genres": [
+      "baroque",
+      "classical",
+      "concerto"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/53d4319bb9f9621d8ad12a6228c42c1433070d2d",
+        "height": 1000,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/0ae0253fe36151eea5dc09fb5731004c416c7a23",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/f1fdbb55f74fb6967e894ddd3d4070b5d81c15b7",
+        "height": 200,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/c88dd3c3f0f3214c551a3fd2f0b13c8e58e8b310",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Corelli: Concerto grosso in D Major, Op. 6 No. 4: II. Adagio (Arr. Diluka for Piano)",
+        "album": "Winter Adagios",
+        "spotify_url": "https://open.spotify.com/track/21fNsp4O7fFplyjiY5b6Wl",
+        "plays": 1
+      },
+      {
+        "name": "Concerto Grosso In D Major, Op. 6, No. 1 : IV. Allegro",
+        "album": "Corelli: Concerti Grossi, Op. 6, Nos. 1-6",
+        "spotify_url": "https://open.spotify.com/track/2GBPhbK8skoBvczwq2Uwc2",
+        "plays": 2
+      },
+      {
+        "name": "Concerto Grosso In D Major, Op. 6, No. 1 : I. Largo",
+        "album": "Corelli: Concerti Grossi, Op. 6, Nos. 1-6",
+        "spotify_url": "https://open.spotify.com/track/2LYHlX00s7NTqWVrKu7xOE",
+        "plays": 2
+      },
+      {
+        "name": "Concerto Grosso In B Flat Major, Op. 6, No. 11: VI. Giga: Vivace",
+        "album": "Concerto Grossos Op. 6, Nos. 7-12",
+        "spotify_url": "https://open.spotify.com/track/09fElLeZa8KUS7u6szRgif",
+        "plays": 2
+      },
+      {
+        "name": "Oboe Concerto in A Major (arr. J. Barbirolli): V. Giga",
+        "album": "Italian Oboe Concertos, Vol. 1",
+        "spotify_url": "https://open.spotify.com/track/7D7TY6esMqM8quGtjxTOpH",
+        "plays": 2
+      },
+      {
+        "name": "Concerto Grosso In D Major, Op. 6, No. 1 : II. Allegro",
+        "album": "Corelli: Concerti Grossi, Op. 6, Nos. 1-6",
+        "spotify_url": "https://open.spotify.com/track/4bVgxlsGp0a2lbr3piIfAf",
+        "plays": 1
+      },
+      {
+        "name": "Concerto Grosso In F Major, Op. 6, No. 2: II. Allegro",
+        "album": "Corelli: Concerti Grossi, Op. 6, Nos. 1-6",
+        "spotify_url": "https://open.spotify.com/track/4nwYZU6RV1EuYVBGuX5ZFy",
+        "plays": 1
+      },
+      {
+        "name": "Concerto Grosso In D Major, Op. 6, No. 1 : VII. Allegro",
+        "album": "Corelli: Concerti Grossi, Op. 6, Nos. 1-6",
+        "spotify_url": "https://open.spotify.com/track/3eVWlhbK78JSpNEQYP7lFY",
+        "plays": 1
+      },
+      {
+        "name": "Concerto Grosso In D Major, Op. 6, No. 1 : III. Largo",
+        "album": "Corelli: Concerti Grossi, Op. 6, Nos. 1-6",
+        "spotify_url": "https://open.spotify.com/track/3tnQbjgGJoeYjuXcM89bCz",
+        "plays": 1
+      },
+      {
+        "name": "Concerto Grosso In F Major, Op. 6, No. 2: IV. Allegro",
+        "album": "Corelli: Concerti Grossi, Op. 6, Nos. 1-6",
+        "spotify_url": "https://open.spotify.com/track/3vJaNqXPmdHRESCmzP9cy4",
+        "plays": 1
+      },
+      {
+        "name": "Sonata in C Major, No. 3: IV. Allegro",
+        "album": "Corelli: Violin Sonatas Nos. 1-6, Op. 5",
+        "spotify_url": "https://open.spotify.com/track/4ghuuQoeBVcBSXzpN3iyMX",
+        "plays": 1
+      },
+      {
+        "name": "Concerto Grosso In C Minor, Op. 6, No. 3 : III. Grave",
+        "album": "Corelli: Concerti Grossi, Op. 6, Nos. 1-6",
+        "spotify_url": "https://open.spotify.com/track/5NiFJ4fKkReA3X8e4Le1kS",
+        "plays": 1
+      }
+    ]
+  },
+  "franz-schubert": {
+    "id": "2p0UyoPfYfI76PCStuXfOP",
+    "name": "Franz Schubert",
+    "spotify_url": "https://open.spotify.com/artist/2p0UyoPfYfI76PCStuXfOP",
+    "total_plays": 1,
+    "first_seen": "2026-10-17",
+    "last_seen": "2026-10-17",
+    "genres": [
+      "chamber music",
+      "classical",
+      "classical piano"
+    ],
+    "images": [
+      {
+        "height": 1229,
+        "url": "https://i.scdn.co/image/ffd1ed5399935c49e9c34ba3681a899104998299",
+        "width": 1000
+      },
+      {
+        "height": 787,
+        "url": "https://i.scdn.co/image/87eea77169f443e253f96c06dd98a631db96b356",
+        "width": 640
+      },
+      {
+        "height": 246,
+        "url": "https://i.scdn.co/image/b2fb7dbe6300466d49d81501828cc89a062d411d",
+        "width": 200
+      },
+      {
+        "height": 79,
+        "url": "https://i.scdn.co/image/168779da16912766ecdea068c5e53c946e5db485",
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Die Nacht, D. deest (Arr. Lechner/Márquez for Cello & Guitar)",
+        "album": "Schubert: Die Nacht (Arr. for Cello and Guitar by Anja Lechner and Pablo Márquez)",
+        "spotify_url": "https://open.spotify.com/track/5s8B58Hj2GlkAoo5V658bU",
+        "plays": 1
+      },
+      {
+        "name": "12 Ländler, D. 790: No. 3 in D Major",
+        "album": "Classical Composure: Piano Works",
+        "spotify_url": "https://open.spotify.com/track/6B37az1P4hthFEPw5maEex",
+        "plays": 2
+      },
+      {
+        "name": "12 German Dances, D790: No. 11",
+        "album": "Classical Composure: Piano Works",
+        "spotify_url": "https://open.spotify.com/track/70Ce40YMIDTT5Ze49CuPP9",
+        "plays": 2
+      },
+      {
+        "name": "16 German Dances, D. 783: No. 5 in B Minor",
+        "album": "Classical Composure: Piano Works",
+        "spotify_url": "https://open.spotify.com/track/3YXFcgVtmhQ3RDhYDG0Zca",
+        "plays": 2
+      },
+      {
+        "name": "Six German Dances, D820: No. 2",
+        "album": "A Dawn of Spring",
+        "spotify_url": "https://open.spotify.com/track/5I4wHpT1VRPPk6ZIAeAUEz",
+        "plays": 2
+      },
+      {
+        "name": "12 German Dances, D790: No. 11",
+        "album": "Schubert: Piano Sonatas D664, D537 etc",
+        "spotify_url": "https://open.spotify.com/track/1y6KsuRDtv102fZXHmFxvD",
+        "plays": 2
+      },
+      {
+        "name": "Six German Dances, D.820: No. 4",
+        "album": "Schubert: Impromptus; Moments Musicaux",
+        "spotify_url": "https://open.spotify.com/track/2YY5IH1K9YimWJJDAfOZTG",
+        "plays": 2
+      },
+      {
+        "name": "16 German Dances, D. 783: No. 5 in B Minor",
+        "album": "A Concert of Pianists",
+        "spotify_url": "https://open.spotify.com/track/6uZc0NIQEAixMoVPdST4qD",
+        "plays": 2
+      },
+      {
+        "name": "12 Ländler, D. 790: No. 3 in D Major",
+        "album": "A Concert of Pianists",
+        "spotify_url": "https://open.spotify.com/track/7lxBRu27sfVAlKpTFcX56C",
+        "plays": 2
+      },
+      {
+        "name": "Waltz, D. 1/14, \"Kupelwieser-Walzer\"",
+        "album": "Schubert: Piano Works",
+        "spotify_url": "https://open.spotify.com/track/0w5HZnzDgV3WgpIRZG1U6U",
+        "plays": 2
+      },
+      {
+        "name": "Six German Dances, D820: No. 2",
+        "album": "Classical Composure: Piano Works",
+        "spotify_url": "https://open.spotify.com/track/2H3PoMe275ZAPzAeXO6vjc",
+        "plays": 1
+      },
+      {
+        "name": "34 Valses sentimentales, D. 779: No. 2 in C Major",
+        "album": "Classical Composure: Piano Works",
+        "spotify_url": "https://open.spotify.com/track/4V8aA6hm7PUbmAseM2V2Zv",
+        "plays": 1
+      },
+      {
+        "name": "Six German Dances, D.820: No. 4",
+        "album": "Classical Composure: Piano Works",
+        "spotify_url": "https://open.spotify.com/track/4rHVWChKKYXxlfWwAuywMJ",
+        "plays": 1
+      },
+      {
+        "name": "12 German Dances, D790: No. 6",
+        "album": "Classical Composure: Piano Works",
+        "spotify_url": "https://open.spotify.com/track/3vqLviwwxCyuBNQXB8A24h",
+        "plays": 1
+      },
+      {
+        "name": "16 German Dances, D. 783: No. 1 in A Major",
+        "album": "Classical Composure: Piano Works",
+        "spotify_url": "https://open.spotify.com/track/0ki2Yfgpr6iUGDMlmV7czi",
+        "plays": 1
+      },
+      {
+        "name": "12 German Dances, D790: No. 9",
+        "album": "Classical Composure: Piano Works",
+        "spotify_url": "https://open.spotify.com/track/1kOiTSJpxN9OREvPQmJ2d6",
+        "plays": 1
+      },
+      {
+        "name": "34 Valses sentimentales, D. 779: No. 1 in C Major",
+        "album": "Classical Composure: Piano Works",
+        "spotify_url": "https://open.spotify.com/track/1l3hShuSE78l2EvIG1bppq",
+        "plays": 1
+      },
+      {
+        "name": "12 German Dances, D790: No. 4",
+        "album": "Classical Composure: Piano Works",
+        "spotify_url": "https://open.spotify.com/track/2fiuIaL0xlIuHz2btBSTa2",
+        "plays": 1
+      },
+      {
+        "name": "12 German Dances, D790: No. 10",
+        "album": "Classical Composure: Piano Works",
+        "spotify_url": "https://open.spotify.com/track/4S2r3dqLLasyJ6PtKLkSBA",
+        "plays": 1
+      },
+      {
+        "name": "Winterreise, Op. 89, D. 911: No. 21, Tauschung (Arr. T. Zimmermann and H. Holl)",
+        "album": "Schubert, F.: Winterreise",
+        "spotify_url": "https://open.spotify.com/track/47Q17d4BITY1CdBg9sRxfx",
+        "plays": 1
+      },
+      {
+        "name": "Introduction et variations sur La belle meunière in E Minor, Op. 160, D. 802: III. Var. I",
+        "album": "Schubert: Introduction et variations D. 802, Sonate D. 821, sonatine D. 385",
+        "spotify_url": "https://open.spotify.com/track/7d1oU5OMjpiCxN8MV3tkIs",
+        "plays": 1
+      },
+      {
+        "name": "Meeres Stille, Op. 3 No. 2, D. 216 (Arr. for Cello and Guitar by Anja Lechner and Pablo Márquez)",
+        "album": "Schubert: Die Nacht",
+        "spotify_url": "https://open.spotify.com/track/3tR0iLQgHU6Uucyx9eEck1",
+        "plays": 1
+      }
+    ]
+  },
+  "philip-glass": {
+    "id": "69lxxQvsfAIoQbB20bEPFC",
+    "name": "Philip Glass",
+    "spotify_url": "https://open.spotify.com/artist/69lxxQvsfAIoQbB20bEPFC",
+    "total_plays": 1,
+    "first_seen": "2026-10-17",
+    "last_seen": "2026-10-17",
+    "genres": [
+      "minimalism",
+      "contemporary classical",
+      "classical",
+      "neoclassical"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb6165e2f3712049f0b05f36a0",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051746165e2f3712049f0b05f36a0",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1786165e2f3712049f0b05f36a0",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "The Hours: An Unwelcome Friend (Arr. M. Riesman & N. Muhly for Solo Piano)",
+        "album": "Philip Glass: Glassworlds, Vol. 4 – On Love",
+        "spotify_url": "https://open.spotify.com/track/1BEgpDaPq9szOIxeMjmhAt",
+        "plays": 1
+      },
+      {
+        "name": "The Hours: An Unwelcome Friend (From \"The Hours\")",
+        "album": "Philip Glass: Glassworlds, Vol. 4 – On Love",
+        "spotify_url": "https://open.spotify.com/track/2GnYCy70I8cR4oEA2wsSDx",
+        "plays": 2
+      },
+      {
+        "name": "The Truman Show: Truman Sleeps - Short Version",
+        "album": "Valentina Lisitsa Plays Philip Glass",
+        "spotify_url": "https://open.spotify.com/track/3x5paczEO2SQyOVAcHpLGa",
+        "plays": 1
+      }
+    ]
+  },
+  "gabriel-faure": {
+    "id": "2gClsBep1tt1rv1CN210SO",
+    "name": "Gabriel Fauré",
+    "spotify_url": "https://open.spotify.com/artist/2gClsBep1tt1rv1CN210SO",
+    "total_plays": 1,
+    "first_seen": "2026-10-17",
+    "last_seen": "2026-10-17",
+    "genres": [
+      "classical",
+      "impressionism",
+      "classical piano"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/965d539c15af1d86ec4875f05ec21d32414c3e64",
+        "height": 745,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/c0ee11a2481b76687afca183384b45a081eb7993",
+        "height": 477,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/b628adc617b1cb96963c9f41c9fd46f840a65e48",
+        "height": 149,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/779d55b7389b4ec732343e193f8a01442bb6ce8b",
+        "height": 48,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "3 Romances sans paroles, Op. 17: No. 3 in A-Flat Major. Andante moderato",
+        "album": "Fauré: Piano Music",
+        "spotify_url": "https://open.spotify.com/track/4myyfMmDd7wTkgq8Ci7VfF",
+        "plays": 1
+      },
+      {
+        "name": "Fantaisie, Op. 79 (version for flute and piano): I. Andantino",
+        "album": "C.P.E. Bach, Ferroud, Fauré, Ferneyhough & Prokofiev: Flötenmusik",
+        "spotify_url": "https://open.spotify.com/track/0iTfe4Z26ihBKx9Hnh0ycW",
+        "plays": 2
+      },
+      {
+        "name": "Pelleas et Melisande, Op. 80 (arr. C. Koechlin): III. Andante moderato",
+        "album": "Magicien orchestrateur",
+        "spotify_url": "https://open.spotify.com/track/6xKYMiIeGvGhsWYqF0hNcT",
+        "plays": 1
+      },
+      {
+        "name": "Dolly Suite, Op. 56: I. Berceuse",
+        "album": "Fauré: Dolly Suite; Nocturnes; Barcarolles; Impromptus",
+        "spotify_url": "https://open.spotify.com/track/3NbAsIxDL0fVgNuCLD152P",
+        "plays": 1
+      },
+      {
+        "name": "Pelleas et Melisande, Op. 80 (arr. C. Koechlin): II. Andante",
+        "album": "Magicien orchestrateur",
+        "spotify_url": "https://open.spotify.com/track/59VeobBHtgMLtJGsDPDrZF",
+        "plays": 1
+      },
+      {
+        "name": "Berceuse, Op. 16",
+        "album": "FAURE: Orchestral Music",
+        "spotify_url": "https://open.spotify.com/track/2YIARMf9VvyOQroBU1Z7KX",
+        "plays": 1
+      },
+      {
+        "name": "Fauré: Nocturne No. 1 in E-Flat Minor, Op. 33 No. 1",
+        "album": "Fauré: Piano Works, Chamber Music, Orchestral Works & Requiem",
+        "spotify_url": "https://open.spotify.com/track/4qSVe6WdzsBFpxSHtjU7oE",
+        "plays": 1
+      }
+    ]
+  },
+  "frederic-chopin": {
+    "id": "7y97mc3bZRFXzT2szRM4L4",
+    "name": "Frédéric Chopin",
+    "spotify_url": "https://open.spotify.com/artist/7y97mc3bZRFXzT2szRM4L4",
+    "total_plays": 1,
+    "first_seen": "2026-10-17",
+    "last_seen": "2026-10-17",
+    "genres": [
+      "classical piano",
+      "classical"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebe55372097569b7b56b439365",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174e55372097569b7b56b439365",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178e55372097569b7b56b439365",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "24 Preludes, Op. 28: No. 15 in D-Flat Major \"Raindrop Prelude\"",
+        "album": "Chopin Compact Edition 1991: 24 Préludes Op. 28; Prélude Op. 45; Prélude Op. posth.; 3 Mazurkas Op. 59; Scherzo Op. 39",
+        "spotify_url": "https://open.spotify.com/track/3ASXyQRBejH92wA5LCeyF7",
+        "plays": 1
+      },
+      {
+        "name": "Mazurka in D Major, Op. posth.",
+        "album": "Classical Composure: Piano Works",
+        "spotify_url": "https://open.spotify.com/track/77nbZOmgevAYV21eSd011Z",
+        "plays": 2
+      },
+      {
+        "name": "Mazurka No. 52 In B Flat (1826)",
+        "album": "Classical Composure: Piano Works",
+        "spotify_url": "https://open.spotify.com/track/7Dkz3OYwqaodkCWCRvZewX",
+        "plays": 2
+      },
+      {
+        "name": "Wiosna, B117 (arr. from Op. 74/2)",
+        "album": "Classical Composure: Piano Works",
+        "spotify_url": "https://open.spotify.com/track/7DscZhqm6UwyqtoqCrpHzE",
+        "plays": 2
+      },
+      {
+        "name": "Preludes, Op. 28: No. 3 in G Major, Vivace",
+        "album": "Chopin: 24 Preludes, Op. 28",
+        "spotify_url": "https://open.spotify.com/track/2VfVjSd4Sva5Tcn24e7O1Y",
+        "plays": 2
+      },
+      {
+        "name": "Mazurka No. 44 In G Op. 67 No. 1",
+        "album": "Chopin: Mazurkas",
+        "spotify_url": "https://open.spotify.com/track/00QxrbnrWMTDKnDs7F5c3i",
+        "plays": 2
+      },
+      {
+        "name": "24 Préludes, Op. 28: 19. In E Flat Major",
+        "album": "Chopin: Preludes Op.28",
+        "spotify_url": "https://open.spotify.com/track/03TgYUOVo7j3D42xeGyKeh",
+        "plays": 2
+      },
+      {
+        "name": "Wiosna, B117 (arr. from Op. 74/2)",
+        "album": "Chopin: The Piano Works",
+        "spotify_url": "https://open.spotify.com/track/1sl86K0yREeXmtDwHgKq8R",
+        "plays": 2
+      },
+      {
+        "name": "24 Préludes, Op. 28: 12. In G Sharp Minor",
+        "album": "Chopin: Preludes Op.28",
+        "spotify_url": "https://open.spotify.com/track/5U7qgkp4g3EL7aTRtjkxsB",
+        "plays": 2
+      },
+      {
+        "name": "12 Études, Op. 25: No. 9 in G-Flat Major",
+        "album": "Chopin: Études",
+        "spotify_url": "https://open.spotify.com/track/6h88Nxm0k15u5q5CdBXgcj",
+        "plays": 2
+      },
+      {
+        "name": "Cantabile in B-Flat Major",
+        "album": "Chopin: Ballades / Berceuse Op. 57 / Fantasie Op. 49",
+        "spotify_url": "https://open.spotify.com/track/16OWr7l8ifV69Hb1FL6UZL",
+        "plays": 2
+      },
+      {
+        "name": "12 Études, Op. 25: No. 1 in A-Flat Major",
+        "album": "A Dawn of Spring",
+        "spotify_url": "https://open.spotify.com/track/0mMbyygjLmH24QgpmbiBF1",
+        "plays": 1
+      },
+      {
+        "name": "Waltz No. 12 in F Minor, Op. 70 No. 2",
+        "album": "Classical Composure: Piano Works",
+        "spotify_url": "https://open.spotify.com/track/2EujSGNBIXz4IYUk58j1Lh",
+        "plays": 1
+      },
+      {
+        "name": "Mazurka No. 54 in D: Allegro non troppo",
+        "album": "Classical Composure: Piano Works",
+        "spotify_url": "https://open.spotify.com/track/6aQER2nkNaJhT5lXJvK9VU",
+        "plays": 1
+      },
+      {
+        "name": "Mazurka No. 4 in E flat minor Op. 6 No. 4",
+        "album": "Classical Composure: Piano Works",
+        "spotify_url": "https://open.spotify.com/track/4TNzdtfP0M4ICZmbRL8EOc",
+        "plays": 1
+      },
+      {
+        "name": "Mazurka No. 44 In G Op. 67 No. 1",
+        "album": "Classical Composure: Piano Works",
+        "spotify_url": "https://open.spotify.com/track/0SVejc13dFuFNH3gr2kCuc",
+        "plays": 1
+      },
+      {
+        "name": "Three Ecossaises Op. Post 72, No. 3 - 1, 2 + 3: No. 1 In D Major",
+        "album": "Classical Composure: Piano Works",
+        "spotify_url": "https://open.spotify.com/track/3JMFT88zDiltzlE2jWQA8O",
+        "plays": 1
+      },
+      {
+        "name": "Mazurka No. 4 in E flat minor Op. 6 No. 4",
+        "album": "Classical Composure: Piano Works",
+        "spotify_url": "https://open.spotify.com/track/47czX4u4YZy3ffyuEfuQhR",
+        "plays": 1
+      },
+      {
+        "name": "24 Préludes, Op. 28 - Arr. Franchomme: No. 7 - Andante",
+        "album": "Classical Composure: Piano Works",
+        "spotify_url": "https://open.spotify.com/track/4DaCVdndbHWOFqNBrHMCyT",
+        "plays": 1
+      },
+      {
+        "name": "Ecossaise No. 1 in D Major, Op. 72 No. 3: Vivace",
+        "album": "Classical Composure: Piano Works",
+        "spotify_url": "https://open.spotify.com/track/4F8VTqnR9UiETLZIHQP9nL",
+        "plays": 1
+      },
+      {
+        "name": "24 Préludes, Op. 28, C. 166-189: 18 in F Minor",
+        "album": "Classical Composure: Piano Works",
+        "spotify_url": "https://open.spotify.com/track/4n1YUY6gUOTrvSNwET7MD8",
+        "plays": 1
+      },
+      {
+        "name": "Mazurka No. 54 in D: Allegro non troppo",
+        "album": "A Dawn of Spring",
+        "spotify_url": "https://open.spotify.com/track/4xAQ0Eo9kjYc4MgKZ8mIxX",
+        "plays": 1
+      },
+      {
+        "name": "Mazurka No. 19 In B Minor, Op. 30 No. 2",
+        "album": "Classical Composure: Piano Works",
+        "spotify_url": "https://open.spotify.com/track/50gosbbUgjXqZgEKCh6uby",
+        "plays": 1
+      },
+      {
+        "name": "Waltz No. 12 in F Minor, Op. 70 No. 2",
+        "album": "A Dawn of Spring",
+        "spotify_url": "https://open.spotify.com/track/7lJjzIntxyM8xBEAutnZ7f",
+        "plays": 1
+      },
+      {
+        "name": "Preludes, Op. 28: No. 23 in F Major, Moderato",
+        "album": "Chopin: 24 Preludes, Op. 28",
+        "spotify_url": "https://open.spotify.com/track/1VOGTJtwY8hblRUI1KViOY",
+        "plays": 1
+      },
+      {
+        "name": "Waltzes, Op. 64: No. 1 in D-Flat Major. Molto vivace \"Minute\"",
+        "album": "Chopin: Complete Waltzes",
+        "spotify_url": "https://open.spotify.com/track/4Gjn2xoEw001ZaYKz76s7T",
+        "plays": 1
+      }
+    ]
+  },
+  "brad-mehldau": {
+    "id": "2vI9KFm0fwSfPrpEgOeIbq",
+    "name": "Brad Mehldau",
+    "spotify_url": "https://open.spotify.com/artist/2vI9KFm0fwSfPrpEgOeIbq",
+    "total_plays": 1,
+    "first_seen": "2026-10-17",
+    "last_seen": "2026-10-17",
+    "genres": [
+      "jazz",
+      "jazz ballads",
+      "cool jazz"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb5eb18a5b8ff727a97d81dbbe",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051745eb18a5b8ff727a97d81dbbe",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1785eb18a5b8ff727a97d81dbbe",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Prelude No. 3 in C# Major from The Well-Tempered Clavier Book I, BWV 848",
+        "album": "After Bach",
+        "spotify_url": "https://open.spotify.com/track/5AN4uYKJbDAuL0efAodEbF",
+        "plays": 1
+      },
+      {
+        "name": "Blackbird",
+        "album": "The Art of the Trio, Vol. 1",
+        "spotify_url": "https://open.spotify.com/track/6PtZaHjsx2Pnk3x9O92bB2",
+        "plays": 3
+      }
+    ]
+  },
+  "post-malone": {
+    "id": "246dkjvS1zLTtiykXe5h60",
+    "name": "Post Malone",
+    "spotify_url": "https://open.spotify.com/artist/246dkjvS1zLTtiykXe5h60",
+    "total_plays": 1,
+    "first_seen": "2026-10-15",
+    "last_seen": "2026-10-15",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebe17c0aa1714a03d62b5ce4e0",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174e17c0aa1714a03d62b5ce4e0",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178e17c0aa1714a03d62b5ce4e0",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "M-E-X-I-C-O (Feat. Billy Strings)",
+        "album": "F-1 Trillion",
+        "spotify_url": "https://open.spotify.com/track/3It5ZyIlvFxgrxAkiQLGBR",
+        "plays": 1
+      }
+    ]
+  },
+  "luke-combs": {
+    "id": "718COspgdWOnwOFpJHRZHS",
+    "name": "Luke Combs",
+    "spotify_url": "https://open.spotify.com/artist/718COspgdWOnwOFpJHRZHS",
+    "total_plays": 1,
+    "first_seen": "2026-10-15",
+    "last_seen": "2026-10-15",
+    "genres": [
+      "country"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb147f54ed9d9d5f98efdfddd2",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174147f54ed9d9d5f98efdfddd2",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178147f54ed9d9d5f98efdfddd2",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "The Great Divide",
+        "album": "The Great Divide",
+        "spotify_url": "https://open.spotify.com/track/3q3lSbfT5BnQlIvGwahgAD",
+        "plays": 1
+      }
+    ]
+  },
   "ahmad-jamal": {
     "id": "6gc6oo3u2f7SqTd4mhe81O",
     "name": "Ahmad Jamal",
@@ -54112,169 +55305,6 @@
         "name": "Plaster Casts Of Everything",
         "album": "Liars",
         "spotify_url": "https://open.spotify.com/track/6waW4VXaAD4KGNGMAVP1vf",
-        "plays": 1
-      }
-    ]
-  },
-  "franz-schubert": {
-    "id": "2p0UyoPfYfI76PCStuXfOP",
-    "name": "Franz Schubert",
-    "spotify_url": "https://open.spotify.com/artist/2p0UyoPfYfI76PCStuXfOP",
-    "total_plays": 30,
-    "first_seen": "",
-    "last_seen": "",
-    "genres": [
-      "classical",
-      "classical era",
-      "early romantic era"
-    ],
-    "images": [
-      {
-        "height": 1229,
-        "url": "https://i.scdn.co/image/ffd1ed5399935c49e9c34ba3681a899104998299",
-        "width": 1000
-      },
-      {
-        "height": 787,
-        "url": "https://i.scdn.co/image/87eea77169f443e253f96c06dd98a631db96b356",
-        "width": 640
-      },
-      {
-        "height": 246,
-        "url": "https://i.scdn.co/image/b2fb7dbe6300466d49d81501828cc89a062d411d",
-        "width": 200
-      },
-      {
-        "height": 79,
-        "url": "https://i.scdn.co/image/168779da16912766ecdea068c5e53c946e5db485",
-        "width": 64
-      }
-    ],
-    "top_tracks": [
-      {
-        "name": "12 Ländler, D. 790: No. 3 in D Major",
-        "album": "Classical Composure: Piano Works",
-        "spotify_url": "https://open.spotify.com/track/6B37az1P4hthFEPw5maEex",
-        "plays": 2
-      },
-      {
-        "name": "12 German Dances, D790: No. 11",
-        "album": "Classical Composure: Piano Works",
-        "spotify_url": "https://open.spotify.com/track/70Ce40YMIDTT5Ze49CuPP9",
-        "plays": 2
-      },
-      {
-        "name": "16 German Dances, D. 783: No. 5 in B Minor",
-        "album": "Classical Composure: Piano Works",
-        "spotify_url": "https://open.spotify.com/track/3YXFcgVtmhQ3RDhYDG0Zca",
-        "plays": 2
-      },
-      {
-        "name": "Six German Dances, D820: No. 2",
-        "album": "A Dawn of Spring",
-        "spotify_url": "https://open.spotify.com/track/5I4wHpT1VRPPk6ZIAeAUEz",
-        "plays": 2
-      },
-      {
-        "name": "12 German Dances, D790: No. 11",
-        "album": "Schubert: Piano Sonatas D664, D537 etc",
-        "spotify_url": "https://open.spotify.com/track/1y6KsuRDtv102fZXHmFxvD",
-        "plays": 2
-      },
-      {
-        "name": "Six German Dances, D.820: No. 4",
-        "album": "Schubert: Impromptus; Moments Musicaux",
-        "spotify_url": "https://open.spotify.com/track/2YY5IH1K9YimWJJDAfOZTG",
-        "plays": 2
-      },
-      {
-        "name": "16 German Dances, D. 783: No. 5 in B Minor",
-        "album": "A Concert of Pianists",
-        "spotify_url": "https://open.spotify.com/track/6uZc0NIQEAixMoVPdST4qD",
-        "plays": 2
-      },
-      {
-        "name": "12 Ländler, D. 790: No. 3 in D Major",
-        "album": "A Concert of Pianists",
-        "spotify_url": "https://open.spotify.com/track/7lxBRu27sfVAlKpTFcX56C",
-        "plays": 2
-      },
-      {
-        "name": "Waltz, D. 1/14, \"Kupelwieser-Walzer\"",
-        "album": "Schubert: Piano Works",
-        "spotify_url": "https://open.spotify.com/track/0w5HZnzDgV3WgpIRZG1U6U",
-        "plays": 2
-      },
-      {
-        "name": "Six German Dances, D820: No. 2",
-        "album": "Classical Composure: Piano Works",
-        "spotify_url": "https://open.spotify.com/track/2H3PoMe275ZAPzAeXO6vjc",
-        "plays": 1
-      },
-      {
-        "name": "34 Valses sentimentales, D. 779: No. 2 in C Major",
-        "album": "Classical Composure: Piano Works",
-        "spotify_url": "https://open.spotify.com/track/4V8aA6hm7PUbmAseM2V2Zv",
-        "plays": 1
-      },
-      {
-        "name": "Six German Dances, D.820: No. 4",
-        "album": "Classical Composure: Piano Works",
-        "spotify_url": "https://open.spotify.com/track/4rHVWChKKYXxlfWwAuywMJ",
-        "plays": 1
-      },
-      {
-        "name": "12 German Dances, D790: No. 6",
-        "album": "Classical Composure: Piano Works",
-        "spotify_url": "https://open.spotify.com/track/3vqLviwwxCyuBNQXB8A24h",
-        "plays": 1
-      },
-      {
-        "name": "16 German Dances, D. 783: No. 1 in A Major",
-        "album": "Classical Composure: Piano Works",
-        "spotify_url": "https://open.spotify.com/track/0ki2Yfgpr6iUGDMlmV7czi",
-        "plays": 1
-      },
-      {
-        "name": "12 German Dances, D790: No. 9",
-        "album": "Classical Composure: Piano Works",
-        "spotify_url": "https://open.spotify.com/track/1kOiTSJpxN9OREvPQmJ2d6",
-        "plays": 1
-      },
-      {
-        "name": "34 Valses sentimentales, D. 779: No. 1 in C Major",
-        "album": "Classical Composure: Piano Works",
-        "spotify_url": "https://open.spotify.com/track/1l3hShuSE78l2EvIG1bppq",
-        "plays": 1
-      },
-      {
-        "name": "12 German Dances, D790: No. 4",
-        "album": "Classical Composure: Piano Works",
-        "spotify_url": "https://open.spotify.com/track/2fiuIaL0xlIuHz2btBSTa2",
-        "plays": 1
-      },
-      {
-        "name": "12 German Dances, D790: No. 10",
-        "album": "Classical Composure: Piano Works",
-        "spotify_url": "https://open.spotify.com/track/4S2r3dqLLasyJ6PtKLkSBA",
-        "plays": 1
-      },
-      {
-        "name": "Winterreise, Op. 89, D. 911: No. 21, Tauschung (Arr. T. Zimmermann and H. Holl)",
-        "album": "Schubert, F.: Winterreise",
-        "spotify_url": "https://open.spotify.com/track/47Q17d4BITY1CdBg9sRxfx",
-        "plays": 1
-      },
-      {
-        "name": "Introduction et variations sur La belle meunière in E Minor, Op. 160, D. 802: III. Var. I",
-        "album": "Schubert: Introduction et variations D. 802, Sonate D. 821, sonatine D. 385",
-        "spotify_url": "https://open.spotify.com/track/7d1oU5OMjpiCxN8MV3tkIs",
-        "plays": 1
-      },
-      {
-        "name": "Meeres Stille, Op. 3 No. 2, D. 216 (Arr. for Cello and Guitar by Anja Lechner and Pablo Márquez)",
-        "album": "Schubert: Die Nacht",
-        "spotify_url": "https://open.spotify.com/track/3tR0iLQgHU6Uucyx9eEck1",
         "plays": 1
       }
     ]
@@ -60800,110 +61830,6 @@
         "name": "Crepuscule With Nellie (Take 6)",
         "album": "Monk's Music [Original Jazz Classics Remasters]",
         "spotify_url": "https://open.spotify.com/track/2pOUGLAJPgpKZbhwZX50H3",
-        "plays": 1
-      }
-    ]
-  },
-  "arcangelo-corelli": {
-    "id": "5dmMpIyAVaH6b9FLFgWPrF",
-    "name": "Arcangelo Corelli",
-    "spotify_url": "https://open.spotify.com/artist/5dmMpIyAVaH6b9FLFgWPrF",
-    "total_plays": 15,
-    "first_seen": "",
-    "last_seen": "",
-    "genres": [
-      "baroque",
-      "classical",
-      "early music",
-      "italian baroque"
-    ],
-    "images": [
-      {
-        "height": 1000,
-        "url": "https://i.scdn.co/image/53d4319bb9f9621d8ad12a6228c42c1433070d2d",
-        "width": 1000
-      },
-      {
-        "height": 640,
-        "url": "https://i.scdn.co/image/0ae0253fe36151eea5dc09fb5731004c416c7a23",
-        "width": 640
-      },
-      {
-        "height": 200,
-        "url": "https://i.scdn.co/image/f1fdbb55f74fb6967e894ddd3d4070b5d81c15b7",
-        "width": 200
-      },
-      {
-        "height": 64,
-        "url": "https://i.scdn.co/image/c88dd3c3f0f3214c551a3fd2f0b13c8e58e8b310",
-        "width": 64
-      }
-    ],
-    "top_tracks": [
-      {
-        "name": "Concerto Grosso In D Major, Op. 6, No. 1 : IV. Allegro",
-        "album": "Corelli: Concerti Grossi, Op. 6, Nos. 1-6",
-        "spotify_url": "https://open.spotify.com/track/2GBPhbK8skoBvczwq2Uwc2",
-        "plays": 2
-      },
-      {
-        "name": "Concerto Grosso In D Major, Op. 6, No. 1 : I. Largo",
-        "album": "Corelli: Concerti Grossi, Op. 6, Nos. 1-6",
-        "spotify_url": "https://open.spotify.com/track/2LYHlX00s7NTqWVrKu7xOE",
-        "plays": 2
-      },
-      {
-        "name": "Concerto Grosso In B Flat Major, Op. 6, No. 11: VI. Giga: Vivace",
-        "album": "Concerto Grossos Op. 6, Nos. 7-12",
-        "spotify_url": "https://open.spotify.com/track/09fElLeZa8KUS7u6szRgif",
-        "plays": 2
-      },
-      {
-        "name": "Oboe Concerto in A Major (arr. J. Barbirolli): V. Giga",
-        "album": "Italian Oboe Concertos, Vol. 1",
-        "spotify_url": "https://open.spotify.com/track/7D7TY6esMqM8quGtjxTOpH",
-        "plays": 2
-      },
-      {
-        "name": "Concerto Grosso In D Major, Op. 6, No. 1 : II. Allegro",
-        "album": "Corelli: Concerti Grossi, Op. 6, Nos. 1-6",
-        "spotify_url": "https://open.spotify.com/track/4bVgxlsGp0a2lbr3piIfAf",
-        "plays": 1
-      },
-      {
-        "name": "Concerto Grosso In F Major, Op. 6, No. 2: II. Allegro",
-        "album": "Corelli: Concerti Grossi, Op. 6, Nos. 1-6",
-        "spotify_url": "https://open.spotify.com/track/4nwYZU6RV1EuYVBGuX5ZFy",
-        "plays": 1
-      },
-      {
-        "name": "Concerto Grosso In D Major, Op. 6, No. 1 : VII. Allegro",
-        "album": "Corelli: Concerti Grossi, Op. 6, Nos. 1-6",
-        "spotify_url": "https://open.spotify.com/track/3eVWlhbK78JSpNEQYP7lFY",
-        "plays": 1
-      },
-      {
-        "name": "Concerto Grosso In D Major, Op. 6, No. 1 : III. Largo",
-        "album": "Corelli: Concerti Grossi, Op. 6, Nos. 1-6",
-        "spotify_url": "https://open.spotify.com/track/3tnQbjgGJoeYjuXcM89bCz",
-        "plays": 1
-      },
-      {
-        "name": "Concerto Grosso In F Major, Op. 6, No. 2: IV. Allegro",
-        "album": "Corelli: Concerti Grossi, Op. 6, Nos. 1-6",
-        "spotify_url": "https://open.spotify.com/track/3vJaNqXPmdHRESCmzP9cy4",
-        "plays": 1
-      },
-      {
-        "name": "Sonata in C Major, No. 3: IV. Allegro",
-        "album": "Corelli: Violin Sonatas Nos. 1-6, Op. 5",
-        "spotify_url": "https://open.spotify.com/track/4ghuuQoeBVcBSXzpN3iyMX",
-        "plays": 1
-      },
-      {
-        "name": "Concerto Grosso In C Minor, Op. 6, No. 3 : III. Grave",
-        "album": "Corelli: Concerti Grossi, Op. 6, Nos. 1-6",
-        "spotify_url": "https://open.spotify.com/track/5NiFJ4fKkReA3X8e4Le1kS",
         "plays": 1
       }
     ]

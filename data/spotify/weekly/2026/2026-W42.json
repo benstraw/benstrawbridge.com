@@ -1,0 +1,1525 @@
+{
+  "week": "2026-W42",
+  "title": "Week of Oct 12, 2026",
+  "year": 2026,
+  "week_num": 42,
+  "date_start": "2026-10-12",
+  "date_end": "2026-10-18",
+  "total_plays": 162,
+  "unique_artists": 24,
+  "topArtistName": "Billy Strings",
+  "topArtistImages": [
+    {
+      "url": "https://i.scdn.co/image/ab6761610000e5eb532fd0e6740fd3db38933afb",
+      "height": 640,
+      "width": 640
+    },
+    {
+      "url": "https://i.scdn.co/image/ab67616100005174532fd0e6740fd3db38933afb",
+      "height": 320,
+      "width": 320
+    },
+    {
+      "url": "https://i.scdn.co/image/ab6761610000f178532fd0e6740fd3db38933afb",
+      "height": 160,
+      "width": 160
+    }
+  ],
+  "top_genres": [
+    {
+      "name": "classical",
+      "plays": 63
+    },
+    {
+      "name": "classical piano",
+      "plays": 61
+    },
+    {
+      "name": "bluegrass",
+      "plays": 57
+    },
+    {
+      "name": "americana",
+      "plays": 57
+    },
+    {
+      "name": "newgrass",
+      "plays": 56
+    },
+    {
+      "name": "jam band",
+      "plays": 56
+    },
+    {
+      "name": "baroque",
+      "plays": 43
+    },
+    {
+      "name": "concerto",
+      "plays": 40
+    },
+    {
+      "name": "early music",
+      "plays": 36
+    },
+    {
+      "name": "new wave",
+      "plays": 33
+    }
+  ],
+  "top_artists": [
+    {
+      "slug": "billy-strings",
+      "name": "Billy Strings",
+      "plays": 56,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb532fd0e6740fd3db38933afb",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174532fd0e6740fd3db38933afb",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178532fd0e6740fd3db38933afb",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "johann-sebastian-bach",
+      "name": "Johann Sebastian Bach",
+      "plays": 36,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/a2ec08fe69ecec2748fbc764aede8f1b03ae8f88",
+          "height": 479,
+          "width": 479
+        },
+        {
+          "url": "https://i.scdn.co/image/53ec9642cf116eca56d88284c40bb1497585e28e",
+          "height": 200,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/438b280a22e63f994fd39feb031683fb861a31cb",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "talking-heads",
+      "name": "Talking Heads",
+      "plays": 33,
+      "images": [
+        {
+          "height": 500,
+          "url": "https://i.scdn.co/image/e4c5b04fce8706c87663357b1f78522a3a5c641b",
+          "width": 500
+        },
+        {
+          "height": 200,
+          "url": "https://i.scdn.co/image/60bfd4ad01d8d9142d88c3c0b73cea36bf327ea7",
+          "width": 200
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/4056b1eaa81255de0865ebe4fdbe61246205153c",
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "sublime",
+      "name": "Sublime",
+      "plays": 5,
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebe726280500259dbdb97a8be4",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174e726280500259dbdb97a8be4",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178e726280500259dbdb97a8be4",
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "johannes-brahms",
+      "name": "Johannes Brahms",
+      "plays": 5,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/d5c6af18beb1411ab49c2976647e0d370bf66a88",
+          "height": 752,
+          "width": 514
+        },
+        {
+          "url": "https://i.scdn.co/image/841b4adc1a4e66906d99229aaaec26306d6aed92",
+          "height": 293,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/39d3c79df7fed6b4c597babaa24586d40fa44a45",
+          "height": 94,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "glenn-gould",
+      "name": "Glenn Gould",
+      "plays": 5,
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebae1364cd7533a53776d8ae43",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174ae1364cd7533a53776d8ae43",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178ae1364cd7533a53776d8ae43",
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "edvard-grieg",
+      "name": "Edvard Grieg",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/a5dc4df4f87b534afc7b21116bc7680492210656",
+          "height": 1000,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/d9d8fdedfd9e68b36e0028d9997f6a9065c09481",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/9dc1d187b3c797c0f36258faacbc1e723e7c2858",
+          "height": 315,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/3a1c45a348e4f7115f10f2df6d553e2203882722",
+          "height": 101,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "maurice-ravel",
+      "name": "Maurice Ravel",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/0d8f2b3e9ab748e7767fd31ff9386e06e5834e2b",
+          "height": 276,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/4404ed7696076fd8f990cecdfbbbd4971f370e0f",
+          "height": 88,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "wolfgang-amadeus-mozart",
+      "name": "Wolfgang Amadeus Mozart",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb7fa9108c6dadb8c3ec21da88",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051747fa9108c6dadb8c3ec21da88",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1787fa9108c6dadb8c3ec21da88",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "ludwig-van-beethoven",
+      "name": "Ludwig van Beethoven",
+      "plays": 2,
+      "images": [
+        {
+          "height": 750,
+          "url": "https://i.scdn.co/image/db022999443da6f89e250086329d98b17399b346",
+          "width": 1000
+        },
+        {
+          "height": 480,
+          "url": "https://i.scdn.co/image/693030b2c7ee75d1fc095d9e6a7fe391a6b10f27",
+          "width": 640
+        },
+        {
+          "height": 150,
+          "url": "https://i.scdn.co/image/348252c0e6722a55a05484b052ef010e71ca30ce",
+          "width": 200
+        },
+        {
+          "height": 48,
+          "url": "https://i.scdn.co/image/621f978b2a436b0392478baccb8778d3a9842e38",
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "franz-liszt",
+      "name": "Franz Liszt",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/9ec531e3712e68c72ae3cf06f17e4055a615c4bf",
+          "height": 1210,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/7717301df596ae1ae992cfb6de694cb3577969bb",
+          "height": 774,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/73ca423532a8eb9b88a1a9c20e39f1331fa6e873",
+          "height": 242,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/7d014d4680e419b3f7e4427b1c43f5c5bba21a28",
+          "height": 77,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "arcangelo-corelli",
+      "name": "Arcangelo Corelli",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/53d4319bb9f9621d8ad12a6228c42c1433070d2d",
+          "height": 1000,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/0ae0253fe36151eea5dc09fb5731004c416c7a23",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/f1fdbb55f74fb6967e894ddd3d4070b5d81c15b7",
+          "height": 200,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/c88dd3c3f0f3214c551a3fd2f0b13c8e58e8b310",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "franz-schubert",
+      "name": "Franz Schubert",
+      "plays": 1,
+      "images": [
+        {
+          "height": 1229,
+          "url": "https://i.scdn.co/image/ffd1ed5399935c49e9c34ba3681a899104998299",
+          "width": 1000
+        },
+        {
+          "height": 787,
+          "url": "https://i.scdn.co/image/87eea77169f443e253f96c06dd98a631db96b356",
+          "width": 640
+        },
+        {
+          "height": 246,
+          "url": "https://i.scdn.co/image/b2fb7dbe6300466d49d81501828cc89a062d411d",
+          "width": 200
+        },
+        {
+          "height": 79,
+          "url": "https://i.scdn.co/image/168779da16912766ecdea068c5e53c946e5db485",
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "philip-glass",
+      "name": "Philip Glass",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb6165e2f3712049f0b05f36a0",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051746165e2f3712049f0b05f36a0",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1786165e2f3712049f0b05f36a0",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "gabriel-faure",
+      "name": "Gabriel Fauré",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/965d539c15af1d86ec4875f05ec21d32414c3e64",
+          "height": 745,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/c0ee11a2481b76687afca183384b45a081eb7993",
+          "height": 477,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/b628adc617b1cb96963c9f41c9fd46f840a65e48",
+          "height": 149,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/779d55b7389b4ec732343e193f8a01442bb6ce8b",
+          "height": 48,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "sergei-rachmaninoff",
+      "name": "Sergei Rachmaninoff",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/463e3c5c3e814761532f554913cf2af456bcba59",
+          "height": 1205,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/774dbc0919edd260d091aace2787caf4a8e59448",
+          "height": 771,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/fccf9d0d652d13bb34b1cd8a5f6aa37f839a2a27",
+          "height": 241,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/b8330117c874452738ae70abd12561af07c9867f",
+          "height": 77,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "frederic-chopin",
+      "name": "Frédéric Chopin",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebe55372097569b7b56b439365",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174e55372097569b7b56b439365",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178e55372097569b7b56b439365",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "brad-mehldau",
+      "name": "Brad Mehldau",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb5eb18a5b8ff727a97d81dbbe",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051745eb18a5b8ff727a97d81dbbe",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1785eb18a5b8ff727a97d81dbbe",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "domenico-scarlatti",
+      "name": "Domenico Scarlatti",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/02dc4bf883736095757701dfb28acc40f5df8216",
+          "height": 1263,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/4ab7244c869ea68adf7fc45d5c650eea4361afa3",
+          "height": 808,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/24555ded3f83f0a86ddae3c637ae256794e4d54a",
+          "height": 253,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/1236427a95ffd921ab90d155dc6b87171bb0edbc",
+          "height": 81,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "felix-mendelssohn",
+      "name": "Felix Mendelssohn",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/32bf53aa73dbb81c615a91324efea0bcfff4b440",
+          "height": 508,
+          "width": 443
+        },
+        {
+          "url": "https://i.scdn.co/image/7f30d9306a73a4233125a3e6ef7680f18b7f6b15",
+          "height": 229,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/b7fd64d9cab12bfc120453780ee6bad0202fc05a",
+          "height": 73,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "sierra-ferrell",
+      "name": "Sierra Ferrell",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb871c90e9904cac69a6c31697",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174871c90e9904cac69a6c31697",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178871c90e9904cac69a6c31697",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "post-malone",
+      "name": "Post Malone",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebe17c0aa1714a03d62b5ce4e0",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174e17c0aa1714a03d62b5ce4e0",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178e17c0aa1714a03d62b5ce4e0",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "luke-combs",
+      "name": "Luke Combs",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb147f54ed9d9d5f98efdfddd2",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174147f54ed9d9d5f98efdfddd2",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178147f54ed9d9d5f98efdfddd2",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "kacey-musgraves",
+      "name": "Kacey Musgraves",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb81a4837fda8c9e356bfb6252",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517481a4837fda8c9e356bfb6252",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17881a4837fda8c9e356bfb6252",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    }
+  ],
+  "top_tracks": [
+    {
+      "name": "Roots Of Creation - Demo",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 3
+    },
+    {
+      "name": "Carry Us Home",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 3
+    },
+    {
+      "name": "Piano Concerto in A minor, Op. 16: II. Adagio - Live",
+      "artist": "Edvard Grieg",
+      "artist_slug": "edvard-grieg",
+      "plays": 2
+    },
+    {
+      "name": "I Like Train Songs",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 2
+    },
+    {
+      "name": "Mill Town Flood",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 2
+    },
+    {
+      "name": "Lay Me Down",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 2
+    },
+    {
+      "name": "Burn the Other End",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 2
+    },
+    {
+      "name": "I'm One of Those",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 2
+    },
+    {
+      "name": "On the Line",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 2
+    },
+    {
+      "name": "With Our Love (Live at Entermedia Theatre, New York, NY, 8/10/1978) - 2025 Remaster",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 2
+    },
+    {
+      "name": "The Good Thing (Alternate Version) - 2025 Remaster",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 2
+    },
+    {
+      "name": "With Our Love (Alternate Version) - 2025 Remaster",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 2
+    },
+    {
+      "name": "Date Rape Stylee - Rarities Version",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Ball And Chain - Demo",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Ravel: String Quartet, M. 35: II. Assez vif - Très rythmé",
+      "artist": "Maurice Ravel",
+      "artist_slug": "maurice-ravel",
+      "plays": 1
+    },
+    {
+      "name": "3 Études de Concert, S. 144: No. 3 in D-Flat Major \"Un sospiro\"",
+      "artist": "Franz Liszt",
+      "artist_slug": "franz-liszt",
+      "plays": 1
+    },
+    {
+      "name": "Corelli: Concerto grosso in D Major, Op. 6 No. 4: II. Adagio (Arr. Diluka for Piano)",
+      "artist": "Arcangelo Corelli",
+      "artist_slug": "arcangelo-corelli",
+      "plays": 1
+    },
+    {
+      "name": "Die Nacht, D. deest (Arr. Lechner/Márquez for Cello & Guitar)",
+      "artist": "Franz Schubert",
+      "artist_slug": "franz-schubert",
+      "plays": 1
+    },
+    {
+      "name": "The Hours: An Unwelcome Friend (Arr. M. Riesman & N. Muhly for Solo Piano)",
+      "artist": "Philip Glass",
+      "artist_slug": "philip-glass",
+      "plays": 1
+    },
+    {
+      "name": "3 Romances sans paroles, Op. 17: No. 3 in A-Flat Major. Andante moderato",
+      "artist": "Gabriel Fauré",
+      "artist_slug": "gabriel-faure",
+      "plays": 1
+    },
+    {
+      "name": "13 Preludes, Op. 32: No. 5 in G Major: Moderato",
+      "artist": "Sergei Rachmaninoff",
+      "artist_slug": "sergei-rachmaninoff",
+      "plays": 1
+    },
+    {
+      "name": "Goldberg Variations, BWV 988: Variation 24 Canone all' Ottava a 1 Clav.",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "3 Intermezzi, Op. 117: No. 1 in E-Flat Major. Andante moderato",
+      "artist": "Johannes Brahms",
+      "artist_slug": "johannes-brahms",
+      "plays": 1
+    },
+    {
+      "name": "24 Preludes, Op. 28: No. 15 in D-Flat Major \"Raindrop Prelude\"",
+      "artist": "Frédéric Chopin",
+      "artist_slug": "frederic-chopin",
+      "plays": 1
+    },
+    {
+      "name": "Prelude No. 3 in C# Major from The Well-Tempered Clavier Book I, BWV 848",
+      "artist": "Brad Mehldau",
+      "artist_slug": "brad-mehldau",
+      "plays": 1
+    },
+    {
+      "name": "Piano Concerto in G Major, M. 83: II. Adagio assai",
+      "artist": "Maurice Ravel",
+      "artist_slug": "maurice-ravel",
+      "plays": 1
+    },
+    {
+      "name": "Partita No. 5 in G Major, BWV 829: V. Menuet",
+      "artist": "Glenn Gould",
+      "artist_slug": "glenn-gould",
+      "plays": 1
+    },
+    {
+      "name": "Invention No. 10 in G Major, BWV 781",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Keyboard Concerto No. 1 in D Minor, BWV 1052: III. Allegro",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Italian Concerto in F Major, BWV 971: I. Allegro",
+      "artist": "Glenn Gould",
+      "artist_slug": "glenn-gould",
+      "plays": 1
+    },
+    {
+      "name": "Prelude and Fugue No. 1 in C Major, BWV 846: Prelude",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "The Well-Tempered Clavier, Book 2: Fugue No. 9 in E Major, BWV 878",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Keyboard Concerto No. 2 in E Major, BWV 1053: II. Siciliano",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Intermezzo No. 2 in B-Flat Minor, Op. 117 - Andante non troppo e con molta espressione - Remastered",
+      "artist": "Johannes Brahms",
+      "artist_slug": "johannes-brahms",
+      "plays": 1
+    },
+    {
+      "name": "French Suite No. 1 in D Minor, BWV 812: I. Allemande",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Three-Part Inventions (Sinfonias), BWV 787-801: Sinfonia No. 3 in D Major, BWV 789",
+      "artist": "Glenn Gould",
+      "artist_slug": "glenn-gould",
+      "plays": 1
+    },
+    {
+      "name": "Keyboard Concerto No. 1 in D Minor, BWV 1052: I. Allegro",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Piano Sonata No. 12 in F Major, K. 332: II. Adagio",
+      "artist": "Wolfgang Amadeus Mozart",
+      "artist_slug": "wolfgang-amadeus-mozart",
+      "plays": 1
+    },
+    {
+      "name": "Intermezzo No. 1 in E-Flat Major, Op. 117 - Andante moderato - Remastered",
+      "artist": "Johannes Brahms",
+      "artist_slug": "johannes-brahms",
+      "plays": 1
+    },
+    {
+      "name": "The Well-Tempered Clavier, Book 2: Fugue No. 14 in F-Sharp Minor, BWV 883",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Keyboard Concerto No. 7 in G Minor, BWV 1058: I. -",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Partita No. 5 in G Major, BWV 829: II. Allemande",
+      "artist": "Glenn Gould",
+      "artist_slug": "glenn-gould",
+      "plays": 1
+    },
+    {
+      "name": "Intermezzo No. 2 in A Major, Op. 118 - Andante teneramente - Remastered",
+      "artist": "Johannes Brahms",
+      "artist_slug": "johannes-brahms",
+      "plays": 1
+    },
+    {
+      "name": "Partita No. 1 in B-Flat Major, BWV 825: II. Allemande",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Sonata in G Major, K 13 (L 486)",
+      "artist": "Domenico Scarlatti",
+      "artist_slug": "domenico-scarlatti",
+      "plays": 1
+    },
+    {
+      "name": "The Well-Tempered Clavier, Book 1: Prelude No. 4 in C-Sharp Minor, BWV 849",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Partita No. 1 in B-Flat Major, BWV 825: IV. Sarabande",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "4 Ballades, Op. 10: No. 4 in B Major. Andante con molto",
+      "artist": "Johannes Brahms",
+      "artist_slug": "johannes-brahms",
+      "plays": 1
+    },
+    {
+      "name": "The Well-Tempered Clavier, Book 1: Fugue No. 5 in D Major, BWV 850",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Keyboard Concerto No. 2 in E Major, BWV 1053: I. ?",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Partita No. 1 in B-Flat Major, BWV 825: VI. Gigue",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Prelude & Fugue No. 3 in C-Sharp Major, BWV 848: Prelude",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Invention No. 14 in B-Flat Major, BWV 785",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Partita No. 2 in C Minor, BWV 826: V. Rondeaux",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "The Well-Tempered Clavier, Book 1: Prelude No. 6 in D Minor, BWV 851",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Three-Part Inventions (Sinfonias), BWV 787-801: Sinfonia No. 2 in C Minor, BWV 788",
+      "artist": "Glenn Gould",
+      "artist_slug": "glenn-gould",
+      "plays": 1
+    },
+    {
+      "name": "Partita No. 1 in B-Flat Major, BWV 825: V. Minuetts I & II",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Prelude & Fugue No. 3 in C-Sharp Major, BWV 848: Fugue No. 3 in C-Sharp Major, BWV 848",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Sonata No. 8 in C Minor, Op. 13 \"Pathétique\": II. Adagio cantabile - Remastered",
+      "artist": "Ludwig van Beethoven",
+      "artist_slug": "ludwig-van-beethoven",
+      "plays": 1
+    },
+    {
+      "name": "Partita No. 2 in C Minor, BWV 826: IV. Sarabande",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "The Well-Tempered Clavier, Book 1: Prelude No. 5 in D Major, BWV 850",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Songs Without Words, Book 1, Op. 19b: No. 1 in E Major, MWV U 86",
+      "artist": "Felix Mendelssohn",
+      "artist_slug": "felix-mendelssohn",
+      "plays": 1
+    },
+    {
+      "name": "Goldberg Variations, BWV 988: Variation 3 a 1 Clav. Canone all' Unisuono",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Piano Sonata No. 8 in A Minor, K. 310: II. Andante cantabile con espressione",
+      "artist": "Wolfgang Amadeus Mozart",
+      "artist_slug": "wolfgang-amadeus-mozart",
+      "plays": 1
+    },
+    {
+      "name": "Piano Concerto No. 5 in E-Flat Major, Op. 73 \"Emperor\": II. Adagio un poco mosso",
+      "artist": "Ludwig van Beethoven",
+      "artist_slug": "ludwig-van-beethoven",
+      "plays": 1
+    },
+    {
+      "name": "Keyboard Concerto No. 5 in F Minor, BWV 1056: II. Largo",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Goldberg Variations, BWV 988: Variation 9 a 1 Clav. Canone alla Terza",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Goldberg Variations, BWV 988: Variation 6 a 1 Clav. Canone alla Seconda",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Goldberg Variations, BWV 988: Variation 4 a 1 Clav.",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Goldberg Variations, BWV 988: Variation 7 a 1 ovvero 2 Clav.",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Goldberg Variations, BWV 988: Variation 5 a 1 ovvero 2 Clav.",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Goldberg Variations, BWV 988: Variation 2 a 1 Clav.",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Goldberg Variations, BWV 988: Aria da capo",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Goldberg Variations, BWV 988: Variation 1 a 1 Clav.",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Goldberg Variations, BWV 988: Variation 3 a 1 Clav. Canone all'Unisono",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "Goldberg Variations, BWV 988: Aria",
+      "artist": "Johann Sebastian Bach",
+      "artist_slug": "johann-sebastian-bach",
+      "plays": 1
+    },
+    {
+      "name": "I Could Drive You Crazy",
+      "artist": "Sierra Ferrell",
+      "artist_slug": "sierra-ferrell",
+      "plays": 1
+    },
+    {
+      "name": "This Old World",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 1
+    },
+    {
+      "name": "Debra's Waltz",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 1
+    },
+    {
+      "name": "Wrestling an Angel",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 1
+    },
+    {
+      "name": "Remember to Cry",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 1
+    },
+    {
+      "name": "I Wish I Wanted To",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 1
+    },
+    {
+      "name": "Still I Crash",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 1
+    },
+    {
+      "name": "10,000 Miles From a Friend",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 1
+    },
+    {
+      "name": "Light the Way",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 1
+    },
+    {
+      "name": "Bluewater Breakdown",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 1
+    },
+    {
+      "name": "Live to Tell",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 1
+    },
+    {
+      "name": "Mill Town Flood",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 1
+    },
+    {
+      "name": "Lucid Daydream",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 1
+    },
+    {
+      "name": "If You're Gonna Be Dumb, You Gotta Be Tough (from jackass: best and last)",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 1
+    },
+    {
+      "name": "California Sober (feat. Willie Nelson)",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 1
+    },
+    {
+      "name": "Running",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 1
+    },
+    {
+      "name": "Know It All",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 1
+    },
+    {
+      "name": "In The Morning Light",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 1
+    },
+    {
+      "name": "While I'm Waiting Here",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 1
+    },
+    {
+      "name": "M-E-X-I-C-O (Feat. Billy Strings)",
+      "artist": "Post Malone",
+      "artist_slug": "post-malone",
+      "plays": 1
+    },
+    {
+      "name": "Meet Me at the Creek",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 1
+    },
+    {
+      "name": "Slow Train",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 1
+    },
+    {
+      "name": "Walk On Boy",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 1
+    },
+    {
+      "name": "My Alice",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 1
+    },
+    {
+      "name": "Red Rocking Chair",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 1
+    },
+    {
+      "name": "Doin' things Right",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 1
+    },
+    {
+      "name": "Seven Weeks In County",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 1
+    },
+    {
+      "name": "Enough To Leave",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 1
+    },
+    {
+      "name": "All the Luck in the World",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 1
+    },
+    {
+      "name": "The Great Divide",
+      "artist": "Luke Combs",
+      "artist_slug": "luke-combs",
+      "plays": 1
+    },
+    {
+      "name": "Gild the Lily",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 1
+    },
+    {
+      "name": "Turmoil & Tinfoil",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 1
+    },
+    {
+      "name": "Must Be Seven",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 1
+    },
+    {
+      "name": "Away From The Mire",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 1
+    },
+    {
+      "name": "Love And Regret",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 1
+    },
+    {
+      "name": "The Fire On My Tongue",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 1
+    },
+    {
+      "name": "Everybody Wants To Be A Cowboy (feat. Billy Strings)",
+      "artist": "Kacey Musgraves",
+      "artist_slug": "kacey-musgraves",
+      "plays": 1
+    },
+    {
+      "name": "In the Clear",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 1
+    },
+    {
+      "name": "Dust in a Baggie",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 1
+    },
+    {
+      "name": "Secrets",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 1
+    },
+    {
+      "name": "Red Daisy",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 1
+    },
+    {
+      "name": "Leaning on a Travelin' Song",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 1
+    },
+    {
+      "name": "Watch It Fall",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 1
+    },
+    {
+      "name": "Richard Petty",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 1
+    },
+    {
+      "name": "Taking Water",
+      "artist": "Billy Strings",
+      "artist_slug": "billy-strings",
+      "plays": 1
+    },
+    {
+      "name": "Uh-Oh, Love Comes to Town (Live at Entermedia Theatre, New York, NY, 8/10/1978) - 2025 Remaster",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 1
+    },
+    {
+      "name": "The Girls Want to Be with the Girls (Live at Entermedia Theatre, New York, NY, 8/10/1978) - 2025 Remaster",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 1
+    },
+    {
+      "name": "Artists Only (Live at Entermedia Theatre, New York, NY, 8/10/1978) - 2025 Remaster",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 1
+    },
+    {
+      "name": "Stay Hungry (Live at Entermedia Theatre, New York, NY, 8/10/1978) - 2025 Remaster",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 1
+    },
+    {
+      "name": "The Book I Read (Live at Entermedia Theatre, New York, NY, 8/10/1978) - 2025 Remaster",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 1
+    },
+    {
+      "name": "Warning Sign (Live at Entermedia Theatre, New York, NY, 8/10/1978) - 2025 Remaster",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 1
+    },
+    {
+      "name": "No Compassion (Live at Entermedia Theatre, New York, NY, 8/10/1978) - 2025 Remaster",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 1
+    },
+    {
+      "name": "Thank You for Sending Me an Angel (\"Country Angel\" Version) - 2025 Remaster",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 1
+    },
+    {
+      "name": "The Big Country (Alternate Version) - 2025 Remaster",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 1
+    },
+    {
+      "name": "Artists Only (Alternate Version) - 2025 Remaster",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 1
+    },
+    {
+      "name": "I'm Not in Love (Alternate Version) - 2025 Remaster",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 1
+    },
+    {
+      "name": "The Girls Want to Be with the Girls (Alternate Version) - 2025 Remaster",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 1
+    },
+    {
+      "name": "Electricity (Instrumental) - 2025 Remaster",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 1
+    },
+    {
+      "name": "Warning Sign (Alternate Version) - 2025 Remaster",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 1
+    },
+    {
+      "name": "Found a Job (Alternate Version) - 2025 Remaster",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 1
+    },
+    {
+      "name": "Thank You for Sending Me an Angel (Alternate Version) - 2025 Remaster",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 1
+    },
+    {
+      "name": "The Big Country - 2025 Remaster",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 1
+    },
+    {
+      "name": "Take Me to the River - 2025 Remaster",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 1
+    },
+    {
+      "name": "Stay Hungry - 2025 Remaster",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 1
+    },
+    {
+      "name": "I'm Not in Love - 2025 Remaster",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 1
+    },
+    {
+      "name": "Artists Only - 2025 Remaster",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 1
+    },
+    {
+      "name": "Found a Job - 2025 Remaster",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 1
+    },
+    {
+      "name": "The Girls Want to Be with the Girls - 2025 Remaster",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 1
+    },
+    {
+      "name": "Warning Sign - 2025 Remaster",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 1
+    },
+    {
+      "name": "The Good Thing - 2025 Remaster",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 1
+    },
+    {
+      "name": "With Our Love - 2025 Remaster",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 1
+    },
+    {
+      "name": "Thank You for Sending Me an Angel - 2025 Remaster",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 1
+    }
+  ]
+}

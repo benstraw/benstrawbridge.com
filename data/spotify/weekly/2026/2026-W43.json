@@ -1,0 +1,92 @@
+{
+  "week": "2026-W43",
+  "title": "Week of Oct 19, 2026",
+  "year": 2026,
+  "week_num": 43,
+  "date_start": "2026-10-19",
+  "date_end": "2026-10-25",
+  "total_plays": 4,
+  "unique_artists": 1,
+  "topArtistName": "Sublime",
+  "topArtistImages": [
+    {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab6761610000e5ebe726280500259dbdb97a8be4",
+      "width": 640
+    },
+    {
+      "height": 320,
+      "url": "https://i.scdn.co/image/ab67616100005174e726280500259dbdb97a8be4",
+      "width": 320
+    },
+    {
+      "height": 160,
+      "url": "https://i.scdn.co/image/ab6761610000f178e726280500259dbdb97a8be4",
+      "width": 160
+    }
+  ],
+  "top_genres": [
+    {
+      "name": "reggae rock",
+      "plays": 4
+    },
+    {
+      "name": "ska punk",
+      "plays": 4
+    },
+    {
+      "name": "ska",
+      "plays": 4
+    }
+  ],
+  "top_artists": [
+    {
+      "slug": "sublime",
+      "name": "Sublime",
+      "plays": 4,
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebe726280500259dbdb97a8be4",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174e726280500259dbdb97a8be4",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178e726280500259dbdb97a8be4",
+          "width": 160
+        }
+      ]
+    }
+  ],
+  "top_tracks": [
+    {
+      "name": "Smoke Two Joints - Rarities Version",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Johnny Too Bad Freestyle - Rarities Version",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Perfect World - Rarities Version",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    },
+    {
+      "name": "Date Rape Stylee - Rarities Version",
+      "artist": "Sublime",
+      "artist_slug": "sublime",
+      "plays": 1
+    }
+  ]
+}
