@@ -5,27 +5,59 @@
   "week_num": 43,
   "date_start": "2026-10-19",
   "date_end": "2026-10-25",
-  "total_plays": 4,
-  "unique_artists": 1,
-  "topArtistName": "Sublime",
+  "total_plays": 57,
+  "unique_artists": 23,
+  "topArtistName": "Stephen Wilson Jr.",
   "topArtistImages": [
     {
+      "url": "https://i.scdn.co/image/ab6761610000e5eb2e25871e208b1befa79b4c44",
       "height": 640,
-      "url": "https://i.scdn.co/image/ab6761610000e5ebe726280500259dbdb97a8be4",
       "width": 640
     },
     {
+      "url": "https://i.scdn.co/image/ab676161000051742e25871e208b1befa79b4c44",
       "height": 320,
-      "url": "https://i.scdn.co/image/ab67616100005174e726280500259dbdb97a8be4",
       "width": 320
     },
     {
+      "url": "https://i.scdn.co/image/ab6761610000f1782e25871e208b1befa79b4c44",
       "height": 160,
-      "url": "https://i.scdn.co/image/ab6761610000f178e726280500259dbdb97a8be4",
       "width": 160
     }
   ],
   "top_genres": [
+    {
+      "name": "avant-garde",
+      "plays": 9
+    },
+    {
+      "name": "funk rock",
+      "plays": 8
+    },
+    {
+      "name": "new wave",
+      "plays": 7
+    },
+    {
+      "name": "post-punk",
+      "plays": 7
+    },
+    {
+      "name": "jazz",
+      "plays": 6
+    },
+    {
+      "name": "jazz ballads",
+      "plays": 6
+    },
+    {
+      "name": "cool jazz",
+      "plays": 5
+    },
+    {
+      "name": "vocal jazz",
+      "plays": 4
+    },
     {
       "name": "reggae rock",
       "plays": 4
@@ -33,13 +65,97 @@
     {
       "name": "ska punk",
       "plays": 4
-    },
-    {
-      "name": "ska",
-      "plays": 4
     }
   ],
   "top_artists": [
+    {
+      "slug": "stephen-wilson-jr",
+      "name": "Stephen Wilson Jr.",
+      "plays": 15,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb2e25871e208b1befa79b4c44",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051742e25871e208b1befa79b4c44",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1782e25871e208b1befa79b4c44",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "mr-bungle",
+      "name": "Mr. Bungle",
+      "plays": 8,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb57889458cd1c95a01dba403a",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517457889458cd1c95a01dba403a",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17857889458cd1c95a01dba403a",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "talking-heads",
+      "name": "Talking Heads",
+      "plays": 7,
+      "images": [
+        {
+          "height": 500,
+          "url": "https://i.scdn.co/image/e4c5b04fce8706c87663357b1f78522a3a5c641b",
+          "width": 500
+        },
+        {
+          "height": 200,
+          "url": "https://i.scdn.co/image/60bfd4ad01d8d9142d88c3c0b73cea36bf327ea7",
+          "width": 200
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/4056b1eaa81255de0865ebe4fdbe61246205153c",
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "chet-baker",
+      "name": "Chet Baker",
+      "plays": 4,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebabde819fe640d69f899e7844",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174abde819fe640d69f899e7844",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178abde819fe640d69f899e7844",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
     {
       "slug": "sublime",
       "name": "Sublime",
@@ -61,9 +177,743 @@
           "width": 160
         }
       ]
+    },
+    {
+      "slug": "shirley-caesar",
+      "name": "Shirley Caesar",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb462119660d07447a7f88ce65",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174462119660d07447a7f88ce65",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178462119660d07447a7f88ce65",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "clarence-gatemouth-brown",
+      "name": "Clarence \"Gatemouth\" Brown",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/5244a9032eefbe742d9d53a4cafb98ddda1c469e",
+          "height": 1324,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/5ba4b402922322916539cde0a7651c3fa11c8bb5",
+          "height": 848,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/e1d63ed7b1a43e32fc777cee661481232bd99856",
+          "height": 265,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/caf65031db81c5165938a93c436c3b49bd6b11aa",
+          "height": 85,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "poncho-sanchez",
+      "name": "Poncho Sanchez",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebf123a16c70476e2bf272e4a9",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174f123a16c70476e2bf272e4a9",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178f123a16c70476e2bf272e4a9",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "horace-silver",
+      "name": "Horace Silver",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb394ae6ab2a11993b46b232b2",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174394ae6ab2a11993b46b232b2",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178394ae6ab2a11993b46b232b2",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "peter-pupping",
+      "name": "Peter Pupping",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000b27309226a95ee38752aef5afd7e",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00001e0209226a95ee38752aef5afd7e",
+          "height": 300,
+          "width": 300
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000485109226a95ee38752aef5afd7e",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "eddie-harris",
+      "name": "Eddie Harris",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/5b35264bab5bfa389e5b4c76bb45a1a3a248383f",
+          "height": 649,
+          "width": 638
+        },
+        {
+          "url": "https://i.scdn.co/image/f9c7d17b8b134c9a91d806467588230a094ad313",
+          "height": 203,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/cac93be762c6f1eb60b87195bc829600db24ca8b",
+          "height": 65,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "lata-mangeshkar",
+      "name": "Lata Mangeshkar",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eba0199b159c0c5a9f62333d32",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174a0199b159c0c5a9f62333d32",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178a0199b159c0c5a9f62333d32",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "the-ojays",
+      "name": "The O'Jays",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb56ff1993c2aa3ca2c31b7a83",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517456ff1993c2aa3ca2c31b7a83",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17856ff1993c2aa3ca2c31b7a83",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "101-strings-orchestra",
+      "name": "101 Strings Orchestra",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebf458711200ddf25ef28cee95",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174f458711200ddf25ef28cee95",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178f458711200ddf25ef28cee95",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "nino-rota",
+      "name": "Nino Rota",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/052de04a5c66dfd07db0b04e46208cc9af16b9fd",
+          "height": 1000,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/69526c8aa78690c8730ac50906e1770e101c0413",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/452ee9f78bc397dc43a32063d8fd89a216f19a13",
+          "height": 200,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/3b8da466bf72173e2564fdfb3d4324ab95003782",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "fugees",
+      "name": "Fugees",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/dd757e1fca99ac0a3da9aa6c2969bc696cc672ce",
+          "height": 1000,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/52bae8b59a21ec1ee6bc07a1e08382333bea27d6",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/40c72b016b1b8c88cd92de52ee6150b3fa4377c5",
+          "height": 200,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/e67c9e63857baf63fc06d8b06ac286d98ef20af1",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "cece-winans",
+      "name": "CeCe Winans",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb572e0f70b3990fb63129077a",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174572e0f70b3990fb63129077a",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178572e0f70b3990fb63129077a",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "butthole-surfers",
+      "name": "Butthole Surfers",
+      "plays": 1,
+      "images": [
+        {
+          "height": 665,
+          "url": "https://i.scdn.co/image/dabd2920676f2ae15862ed8dfcf89a8ddb9d11ee",
+          "width": 1000
+        },
+        {
+          "height": 425,
+          "url": "https://i.scdn.co/image/4136eafc38bb9a7e6db382c5e027380e6a527be1",
+          "width": 639
+        },
+        {
+          "height": 133,
+          "url": "https://i.scdn.co/image/13fb78d8c965a8a3637a659442fead75890e1c07",
+          "width": 200
+        },
+        {
+          "height": 43,
+          "url": "https://i.scdn.co/image/b18f1417a0d867c8af95ec56c810e02176d86500",
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "tomahawk",
+      "name": "Tomahawk",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb61b4f35a9fe31c80d89573fa",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517461b4f35a9fe31c80d89573fa",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17861b4f35a9fe31c80d89573fa",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "clutch",
+      "name": "Clutch",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb02a3b5802998a3d537f8f1fb",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517402a3b5802998a3d537f8f1fb",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17802a3b5802998a3d537f8f1fb",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "probot",
+      "name": "Probot",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000b2736fc4c5ab07bf18082e44832a",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00001e026fc4c5ab07bf18082e44832a",
+          "height": 300,
+          "width": 300
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d000048516fc4c5ab07bf18082e44832a",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "melvins",
+      "name": "Melvins",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb7c310dd6a7f9b800b2fb8728",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051747c310dd6a7f9b800b2fb8728",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1787c310dd6a7f9b800b2fb8728",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "eminem",
+      "name": "Eminem",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eba00b11c129b27a88fc72f36b",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174a00b11c129b27a88fc72f36b",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178a00b11c129b27a88fc72f36b",
+          "height": 160,
+          "width": 160
+        }
+      ]
     }
   ],
   "top_tracks": [
+    {
+      "name": "Going Back To Louisiana",
+      "artist": "Clarence \"Gatemouth\" Brown",
+      "artist_slug": "clarence-gatemouth-brown",
+      "plays": 1
+    },
+    {
+      "name": "Subway Harry",
+      "artist": "Poncho Sanchez",
+      "artist_slug": "poncho-sanchez",
+      "plays": 1
+    },
+    {
+      "name": "Cookin' At The Continental",
+      "artist": "Horace Silver",
+      "artist_slug": "horace-silver",
+      "plays": 1
+    },
+    {
+      "name": "Shadow of Your Smile",
+      "artist": "Peter Pupping",
+      "artist_slug": "peter-pupping",
+      "plays": 1
+    },
+    {
+      "name": "Drunk Man",
+      "artist": "Eddie Harris",
+      "artist_slug": "eddie-harris",
+      "plays": 1
+    },
+    {
+      "name": "Zindagi Har Kadam Ek Nai Jung Hai - Duet",
+      "artist": "Lata Mangeshkar",
+      "artist_slug": "lata-mangeshkar",
+      "plays": 1
+    },
+    {
+      "name": "I Love Music",
+      "artist": "The O'Jays",
+      "artist_slug": "the-ojays",
+      "plays": 1
+    },
+    {
+      "name": "Begin the Beguine",
+      "artist": "101 Strings Orchestra",
+      "artist_slug": "101-strings-orchestra",
+      "plays": 1
+    },
+    {
+      "name": "Parla piu piano (Thème du Parrain)",
+      "artist": "Nino Rota",
+      "artist_slug": "nino-rota",
+      "plays": 1
+    },
+    {
+      "name": "Killing Me Softly with His Song",
+      "artist": "Fugees",
+      "artist_slug": "fugees",
+      "plays": 1
+    },
+    {
+      "name": "I Remember Mama",
+      "artist": "Shirley Caesar",
+      "artist_slug": "shirley-caesar",
+      "plays": 1
+    },
+    {
+      "name": "Jesus, I Love Calling Your Name",
+      "artist": "Shirley Caesar",
+      "artist_slug": "shirley-caesar",
+      "plays": 1
+    },
+    {
+      "name": "Come Jesus Come",
+      "artist": "CeCe Winans",
+      "artist_slug": "cece-winans",
+      "plays": 1
+    },
+    {
+      "name": "Dust Devil",
+      "artist": "Butthole Surfers",
+      "artist_slug": "butthole-surfers",
+      "plays": 1
+    },
+    {
+      "name": "God Hates a Coward",
+      "artist": "Tomahawk",
+      "artist_slug": "tomahawk",
+      "plays": 1
+    },
+    {
+      "name": "A Shogun Named Marcus",
+      "artist": "Clutch",
+      "artist_slug": "clutch",
+      "plays": 1
+    },
+    {
+      "name": "Red War (feat. Max Cavalera)",
+      "artist": "Probot",
+      "artist_slug": "probot",
+      "plays": 1
+    },
+    {
+      "name": "Honey Bucket",
+      "artist": "Melvins",
+      "artist_slug": "melvins",
+      "plays": 1
+    },
+    {
+      "name": "Retrovertigo",
+      "artist": "Mr. Bungle",
+      "artist_slug": "mr-bungle",
+      "plays": 1
+    },
+    {
+      "name": "Sudden Death",
+      "artist": "Mr. Bungle",
+      "artist_slug": "mr-bungle",
+      "plays": 1
+    },
+    {
+      "name": "Glutton For Punishment",
+      "artist": "Mr. Bungle",
+      "artist_slug": "mr-bungle",
+      "plays": 1
+    },
+    {
+      "name": "Loss For Words",
+      "artist": "Mr. Bungle",
+      "artist_slug": "mr-bungle",
+      "plays": 1
+    },
+    {
+      "name": "Spreading The Thighs of Death",
+      "artist": "Mr. Bungle",
+      "artist_slug": "mr-bungle",
+      "plays": 1
+    },
+    {
+      "name": "Eracist",
+      "artist": "Mr. Bungle",
+      "artist_slug": "mr-bungle",
+      "plays": 1
+    },
+    {
+      "name": "Methematics",
+      "artist": "Mr. Bungle",
+      "artist_slug": "mr-bungle",
+      "plays": 1
+    },
+    {
+      "name": "Bungle Grind",
+      "artist": "Mr. Bungle",
+      "artist_slug": "mr-bungle",
+      "plays": 1
+    },
+    {
+      "name": "billy",
+      "artist": "Stephen Wilson Jr.",
+      "artist_slug": "stephen-wilson-jr",
+      "plays": 1
+    },
+    {
+      "name": "Cuckoo",
+      "artist": "Stephen Wilson Jr.",
+      "artist_slug": "stephen-wilson-jr",
+      "plays": 1
+    },
+    {
+      "name": "the devil",
+      "artist": "Stephen Wilson Jr.",
+      "artist_slug": "stephen-wilson-jr",
+      "plays": 1
+    },
+    {
+      "name": "I'm A Song - Live at The Print Shop",
+      "artist": "Stephen Wilson Jr.",
+      "artist_slug": "stephen-wilson-jr",
+      "plays": 1
+    },
+    {
+      "name": "Stand By Me - Live at The Print Shop",
+      "artist": "Stephen Wilson Jr.",
+      "artist_slug": "stephen-wilson-jr",
+      "plays": 1
+    },
+    {
+      "name": "the devil - Acoustic",
+      "artist": "Stephen Wilson Jr.",
+      "artist_slug": "stephen-wilson-jr",
+      "plays": 1
+    },
+    {
+      "name": "Dig A Hole",
+      "artist": "Stephen Wilson Jr.",
+      "artist_slug": "stephen-wilson-jr",
+      "plays": 1
+    },
+    {
+      "name": "Calico Creek",
+      "artist": "Stephen Wilson Jr.",
+      "artist_slug": "stephen-wilson-jr",
+      "plays": 1
+    },
+    {
+      "name": "Gary",
+      "artist": "Stephen Wilson Jr.",
+      "artist_slug": "stephen-wilson-jr",
+      "plays": 1
+    },
+    {
+      "name": "Gary",
+      "artist": "Stephen Wilson Jr.",
+      "artist_slug": "stephen-wilson-jr",
+      "plays": 1
+    },
+    {
+      "name": "preacher's kid",
+      "artist": "Stephen Wilson Jr.",
+      "artist_slug": "stephen-wilson-jr",
+      "plays": 1
+    },
+    {
+      "name": "Hardwired",
+      "artist": "Stephen Wilson Jr.",
+      "artist_slug": "stephen-wilson-jr",
+      "plays": 1
+    },
+    {
+      "name": "Cørnerman",
+      "artist": "Stephen Wilson Jr.",
+      "artist_slug": "stephen-wilson-jr",
+      "plays": 1
+    },
+    {
+      "name": "Exorcisms on the Weekend",
+      "artist": "Stephen Wilson Jr.",
+      "artist_slug": "stephen-wilson-jr",
+      "plays": 1
+    },
+    {
+      "name": "yellow brick home",
+      "artist": "Stephen Wilson Jr.",
+      "artist_slug": "stephen-wilson-jr",
+      "plays": 1
+    },
+    {
+      "name": "Tis Autumn",
+      "artist": "Chet Baker",
+      "artist_slug": "chet-baker",
+      "plays": 1
+    },
+    {
+      "name": "It Never Entered My Mind",
+      "artist": "Chet Baker",
+      "artist_slug": "chet-baker",
+      "plays": 1
+    },
+    {
+      "name": "How High The Moon",
+      "artist": "Chet Baker",
+      "artist_slug": "chet-baker",
+      "plays": 1
+    },
+    {
+      "name": "Alone Together",
+      "artist": "Chet Baker",
+      "artist_slug": "chet-baker",
+      "plays": 1
+    },
+    {
+      "name": "My Fault",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 1
+    },
+    {
+      "name": "Artists Only - 2025 Remaster",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 1
+    },
+    {
+      "name": "Found a Job - 2025 Remaster",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 1
+    },
+    {
+      "name": "The Girls Want to Be with the Girls - 2025 Remaster",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 1
+    },
+    {
+      "name": "Warning Sign - 2025 Remaster",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 1
+    },
+    {
+      "name": "The Good Thing - 2025 Remaster",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 1
+    },
+    {
+      "name": "With Our Love - 2025 Remaster",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 1
+    },
+    {
+      "name": "Thank You for Sending Me an Angel - 2025 Remaster",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 1
+    },
     {
       "name": "Smoke Two Joints - Rarities Version",
       "artist": "Sublime",

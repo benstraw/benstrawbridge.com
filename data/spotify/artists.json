@@ -3671,9 +3671,9 @@
     "id": "2x9SpqnPi8rlE9pjHBwmSC",
     "name": "Talking Heads",
     "spotify_url": "https://open.spotify.com/artist/2x9SpqnPi8rlE9pjHBwmSC",
-    "total_plays": 50,
+    "total_plays": 57,
     "first_seen": "2026-03-01",
-    "last_seen": "2026-10-14",
+    "last_seen": "2026-10-19",
     "genres": [
       "new wave",
       "post-punk"
@@ -3742,6 +3742,48 @@
         "name": "With Our Love (Alternate Version) - 2025 Remaster",
         "album": "More Songs About Buildings And Food (Super Deluxe Edition)",
         "spotify_url": "https://open.spotify.com/track/7a7F0S02btsa6EieDhE9ug",
+        "plays": 2
+      },
+      {
+        "name": "Artists Only - 2025 Remaster",
+        "album": "More Songs About Buildings And Food (Super Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/2r3X3XjapN9aVdpBGeMOVe",
+        "plays": 2
+      },
+      {
+        "name": "Found a Job - 2025 Remaster",
+        "album": "More Songs About Buildings And Food (Super Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/3b4uQLlivB4uFVTuHlJrnN",
+        "plays": 2
+      },
+      {
+        "name": "The Girls Want to Be with the Girls - 2025 Remaster",
+        "album": "More Songs About Buildings And Food (Super Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/7fWAcHMWGuG6cMspw0XNuJ",
+        "plays": 2
+      },
+      {
+        "name": "Warning Sign - 2025 Remaster",
+        "album": "More Songs About Buildings And Food (Super Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/56yoWnpiFvXQwkuy21zY1Z",
+        "plays": 2
+      },
+      {
+        "name": "The Good Thing - 2025 Remaster",
+        "album": "More Songs About Buildings And Food (Super Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/7f4DUVS8jHvWB2qFOJrnx3",
+        "plays": 2
+      },
+      {
+        "name": "With Our Love - 2025 Remaster",
+        "album": "More Songs About Buildings And Food (Super Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/3UQhYvenUio6502fguonJJ",
+        "plays": 2
+      },
+      {
+        "name": "Thank You for Sending Me an Angel - 2025 Remaster",
+        "album": "More Songs About Buildings And Food (Super Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/1d6xMBCXNDRgw3CGyH5hMd",
         "plays": 2
       },
       {
@@ -3898,48 +3940,6 @@
         "name": "I'm Not in Love - 2025 Remaster",
         "album": "More Songs About Buildings And Food (Super Deluxe Edition)",
         "spotify_url": "https://open.spotify.com/track/7upYtlelp8tB8ygTQ3pghm",
-        "plays": 1
-      },
-      {
-        "name": "Artists Only - 2025 Remaster",
-        "album": "More Songs About Buildings And Food (Super Deluxe Edition)",
-        "spotify_url": "https://open.spotify.com/track/2r3X3XjapN9aVdpBGeMOVe",
-        "plays": 1
-      },
-      {
-        "name": "Found a Job - 2025 Remaster",
-        "album": "More Songs About Buildings And Food (Super Deluxe Edition)",
-        "spotify_url": "https://open.spotify.com/track/3b4uQLlivB4uFVTuHlJrnN",
-        "plays": 1
-      },
-      {
-        "name": "The Girls Want to Be with the Girls - 2025 Remaster",
-        "album": "More Songs About Buildings And Food (Super Deluxe Edition)",
-        "spotify_url": "https://open.spotify.com/track/7fWAcHMWGuG6cMspw0XNuJ",
-        "plays": 1
-      },
-      {
-        "name": "Warning Sign - 2025 Remaster",
-        "album": "More Songs About Buildings And Food (Super Deluxe Edition)",
-        "spotify_url": "https://open.spotify.com/track/56yoWnpiFvXQwkuy21zY1Z",
-        "plays": 1
-      },
-      {
-        "name": "The Good Thing - 2025 Remaster",
-        "album": "More Songs About Buildings And Food (Super Deluxe Edition)",
-        "spotify_url": "https://open.spotify.com/track/7f4DUVS8jHvWB2qFOJrnx3",
-        "plays": 1
-      },
-      {
-        "name": "With Our Love - 2025 Remaster",
-        "album": "More Songs About Buildings And Food (Super Deluxe Edition)",
-        "spotify_url": "https://open.spotify.com/track/3UQhYvenUio6502fguonJJ",
-        "plays": 1
-      },
-      {
-        "name": "Thank You for Sending Me an Angel - 2025 Remaster",
-        "album": "More Songs About Buildings And Food (Super Deluxe Edition)",
-        "spotify_url": "https://open.spotify.com/track/1d6xMBCXNDRgw3CGyH5hMd",
         "plays": 1
       },
       {
@@ -7197,9 +7197,9 @@
     "id": "7dGJo4pcD2V6oG8kP0tJRR",
     "name": "Eminem",
     "spotify_url": "https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR",
-    "total_plays": 100,
+    "total_plays": 101,
     "first_seen": "2026-02-26",
-    "last_seen": "2026-09-23",
+    "last_seen": "2026-10-19",
     "genres": [
       "rap",
       "hip hop"
@@ -7556,6 +7556,12 @@
         "name": "Stan",
         "album": "The Marshall Mathers LP",
         "spotify_url": "https://open.spotify.com/track/3UmaczJpikHgJFyBTAJVoz",
+        "plays": 1
+      },
+      {
+        "name": "My Fault",
+        "album": "The Slim Shady LP",
+        "spotify_url": "https://open.spotify.com/track/3CNbDbMHxYHxEgrPGf89yc",
         "plays": 1
       },
       {
@@ -19710,9 +19716,9 @@
     "id": "4DSDa4HvAWqvb3dMHUOAfd",
     "name": "Stephen Wilson Jr.",
     "spotify_url": "https://open.spotify.com/artist/4DSDa4HvAWqvb3dMHUOAfd",
-    "total_plays": 60,
+    "total_plays": 75,
     "first_seen": "2026-03-20",
-    "last_seen": "2026-10-03",
+    "last_seen": "2026-10-22",
     "genres": [],
     "images": [
       {
@@ -19733,6 +19739,12 @@
     ],
     "top_tracks": [
       {
+        "name": "the devil",
+        "album": "søn of dad (deluxe)",
+        "spotify_url": "https://open.spotify.com/track/6Dj9AtyawJc4YS3xjFnv5b",
+        "plays": 5
+      },
+      {
         "name": "Father's Søn",
         "album": "søn of dad (deluxe)",
         "spotify_url": "https://open.spotify.com/track/6BqroNusompVGz4QVjj2SZ",
@@ -19745,33 +19757,33 @@
         "plays": 5
       },
       {
+        "name": "Cuckoo",
+        "album": "søn of dad (deluxe)",
+        "spotify_url": "https://open.spotify.com/track/28YtdreXdwCSYDWUadCfOu",
+        "plays": 5
+      },
+      {
+        "name": "I'm A Song - Live at The Print Shop",
+        "album": "søn of dad (deluxe)",
+        "spotify_url": "https://open.spotify.com/track/6YrkatdanWuKHmF4mBxX2i",
+        "plays": 5
+      },
+      {
+        "name": "Stand By Me - Live at The Print Shop",
+        "album": "søn of dad (deluxe)",
+        "spotify_url": "https://open.spotify.com/track/72RX8sK4OKFnUX2MBDOdBD",
+        "plays": 4
+      },
+      {
         "name": "Gary",
         "album": "Gary",
         "spotify_url": "https://open.spotify.com/track/5HMmz01XM5IYaGP0KSsDvQ",
         "plays": 4
       },
       {
-        "name": "the devil",
-        "album": "søn of dad (deluxe)",
-        "spotify_url": "https://open.spotify.com/track/6Dj9AtyawJc4YS3xjFnv5b",
-        "plays": 4
-      },
-      {
-        "name": "Cuckoo",
-        "album": "søn of dad (deluxe)",
-        "spotify_url": "https://open.spotify.com/track/28YtdreXdwCSYDWUadCfOu",
-        "plays": 4
-      },
-      {
-        "name": "I'm A Song - Live at The Print Shop",
-        "album": "søn of dad (deluxe)",
-        "spotify_url": "https://open.spotify.com/track/6YrkatdanWuKHmF4mBxX2i",
-        "plays": 4
-      },
-      {
-        "name": "Stand By Me - Live at The Print Shop",
-        "album": "søn of dad (deluxe)",
-        "spotify_url": "https://open.spotify.com/track/72RX8sK4OKFnUX2MBDOdBD",
+        "name": "Dig A Hole",
+        "album": "Dig A Hole",
+        "spotify_url": "https://open.spotify.com/track/5hBTLtFdMIEcv0MB5fOPPY",
         "plays": 3
       },
       {
@@ -19793,10 +19805,10 @@
         "plays": 3
       },
       {
-        "name": "Dig A Hole",
-        "album": "Dig A Hole",
-        "spotify_url": "https://open.spotify.com/track/5hBTLtFdMIEcv0MB5fOPPY",
-        "plays": 2
+        "name": "billy",
+        "album": "søn of dad (deluxe)",
+        "spotify_url": "https://open.spotify.com/track/0DV8bAff6bqe6ur3XFpDsw",
+        "plays": 3
       },
       {
         "name": "Clark Gable",
@@ -19814,12 +19826,6 @@
         "name": "American Gothic",
         "album": "søn of dad (deluxe)",
         "spotify_url": "https://open.spotify.com/track/4zf6vFQIjMrzMcjLtWQeyS",
-        "plays": 2
-      },
-      {
-        "name": "billy",
-        "album": "søn of dad (deluxe)",
-        "spotify_url": "https://open.spotify.com/track/0DV8bAff6bqe6ur3XFpDsw",
         "plays": 2
       },
       {
@@ -19880,6 +19886,60 @@
         "name": "Hardwired (feat. Miranda Lambert)",
         "album": "Cørnerman",
         "spotify_url": "https://open.spotify.com/track/2VkjtI1R7BYFYctM3hVZzX",
+        "plays": 1
+      },
+      {
+        "name": "the devil - Acoustic",
+        "album": "søn of dad (deluxe)",
+        "spotify_url": "https://open.spotify.com/track/17xfTAoQe7NKbn7qBJUuDg",
+        "plays": 1
+      },
+      {
+        "name": "Calico Creek",
+        "album": "søn of dad (deluxe)",
+        "spotify_url": "https://open.spotify.com/track/1DllWwmc6AnAlr9xwBkr6I",
+        "plays": 1
+      },
+      {
+        "name": "Gary",
+        "album": "Gary",
+        "spotify_url": "https://open.spotify.com/track/2tjjaNvHBeZTTDsvDkMhk6",
+        "plays": 1
+      },
+      {
+        "name": "Gary",
+        "album": "yellow brick home // Exorcisms on the Weekend",
+        "spotify_url": "https://open.spotify.com/track/7DsAu3TsithTppwXOH662x",
+        "plays": 1
+      },
+      {
+        "name": "preacher's kid",
+        "album": "yellow brick home // Exorcisms on the Weekend",
+        "spotify_url": "https://open.spotify.com/track/680840fHoUE6CnlFTdOhae",
+        "plays": 1
+      },
+      {
+        "name": "Hardwired",
+        "album": "yellow brick home // Exorcisms on the Weekend",
+        "spotify_url": "https://open.spotify.com/track/0gS9QgwLV1L01YElcbMrWr",
+        "plays": 1
+      },
+      {
+        "name": "Cørnerman",
+        "album": "yellow brick home // Exorcisms on the Weekend",
+        "spotify_url": "https://open.spotify.com/track/6hmXvyXFpCd2rVRKjvX42F",
+        "plays": 1
+      },
+      {
+        "name": "Exorcisms on the Weekend",
+        "album": "yellow brick home // Exorcisms on the Weekend",
+        "spotify_url": "https://open.spotify.com/track/4wzdEek9izkNvVQF2vU0If",
+        "plays": 1
+      },
+      {
+        "name": "yellow brick home",
+        "album": "yellow brick home // Exorcisms on the Weekend",
+        "spotify_url": "https://open.spotify.com/track/0fCuaJ36HxeeuMtHTTiwWq",
         "plays": 1
       },
       {
@@ -33568,9 +33628,9 @@
     "id": "62BcWP4fzR8axESibNQEhs",
     "name": "Butthole Surfers",
     "spotify_url": "https://open.spotify.com/artist/62BcWP4fzR8axESibNQEhs",
-    "total_plays": 57,
+    "total_plays": 58,
     "first_seen": "2026-05-27",
-    "last_seen": "2026-10-03",
+    "last_seen": "2026-10-22",
     "genres": [
       "noise rock"
     ],
@@ -33664,6 +33724,12 @@
         "plays": 2
       },
       {
+        "name": "Dust Devil",
+        "album": "Independent Worm Saloon",
+        "spotify_url": "https://open.spotify.com/track/4cp8e8FMZXEXsOBZjaTdm5",
+        "plays": 2
+      },
+      {
         "name": "They Came In",
         "album": "Weird Revolution",
         "spotify_url": "https://open.spotify.com/track/1vHhLtMzDzp7LFgXDe0ThG",
@@ -33739,12 +33805,6 @@
         "name": "Leave Me Alone",
         "album": "Independent Worm Saloon",
         "spotify_url": "https://open.spotify.com/track/4QA9JrLSvhW36kpPDuiMSn",
-        "plays": 1
-      },
-      {
-        "name": "Dust Devil",
-        "album": "Independent Worm Saloon",
-        "spotify_url": "https://open.spotify.com/track/4cp8e8FMZXEXsOBZjaTdm5",
         "plays": 1
       },
       {
@@ -40481,9 +40541,9 @@
     "id": "6aVjo0xHSiuW5hkasoYSR3",
     "name": "Melvins",
     "spotify_url": "https://open.spotify.com/artist/6aVjo0xHSiuW5hkasoYSR3",
-    "total_plays": 2,
+    "total_plays": 3,
     "first_seen": "2026-07-08",
-    "last_seen": "2026-07-08",
+    "last_seen": "2026-10-22",
     "genres": [
       "sludge metal",
       "grunge",
@@ -40516,7 +40576,7 @@
         "name": "Honey Bucket",
         "album": "Houdini",
         "spotify_url": "https://open.spotify.com/track/5oABn2E9jiDrmhDdiNWbKS",
-        "plays": 1
+        "plays": 2
       },
       {
         "name": "Revolve",
@@ -46970,9 +47030,9 @@
     "id": "2WKdxPFRD7IqZvlIAvhMgY",
     "name": "Fugees",
     "spotify_url": "https://open.spotify.com/artist/2WKdxPFRD7IqZvlIAvhMgY",
-    "total_plays": 12,
+    "total_plays": 13,
     "first_seen": "2026-08-27",
-    "last_seen": "2026-08-27",
+    "last_seen": "2026-10-24",
     "genres": [
       "east coast hip hop"
     ],
@@ -47000,6 +47060,12 @@
     ],
     "top_tracks": [
       {
+        "name": "Killing Me Softly with His Song",
+        "album": "The Score",
+        "spotify_url": "https://open.spotify.com/track/0EKow7JeCxHtweqQyVy5ko",
+        "plays": 2
+      },
+      {
         "name": "No Woman, No Cry",
         "album": "The Score",
         "spotify_url": "https://open.spotify.com/track/42sOV8ZNuHmUymO6UNrWOv",
@@ -47021,12 +47087,6 @@
         "name": "The Score (feat. Diamond D)",
         "album": "The Score",
         "spotify_url": "https://open.spotify.com/track/37X1fXbkwsD2Qb6TFQzLR6",
-        "plays": 1
-      },
-      {
-        "name": "Killing Me Softly with His Song",
-        "album": "The Score",
-        "spotify_url": "https://open.spotify.com/track/0EKow7JeCxHtweqQyVy5ko",
         "plays": 1
       },
       {
@@ -51084,6 +51144,777 @@
         "name": "The Great Divide",
         "album": "The Great Divide",
         "spotify_url": "https://open.spotify.com/track/3q3lSbfT5BnQlIvGwahgAD",
+        "plays": 1
+      }
+    ]
+  },
+  "clarence-gatemouth-brown": {
+    "id": "4aoS04mCVj1CMam1LiHngo",
+    "name": "Clarence \"Gatemouth\" Brown",
+    "spotify_url": "https://open.spotify.com/artist/4aoS04mCVj1CMam1LiHngo",
+    "total_plays": 1,
+    "first_seen": "2026-10-24",
+    "last_seen": "2026-10-24",
+    "genres": [
+      "classic blues",
+      "blues",
+      "modern blues",
+      "zydeco",
+      "blues rock",
+      "cajun",
+      "boogie-woogie"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/5244a9032eefbe742d9d53a4cafb98ddda1c469e",
+        "height": 1324,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/5ba4b402922322916539cde0a7651c3fa11c8bb5",
+        "height": 848,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/e1d63ed7b1a43e32fc777cee661481232bd99856",
+        "height": 265,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/caf65031db81c5165938a93c436c3b49bd6b11aa",
+        "height": 85,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Going Back To Louisiana",
+        "album": "Back To Bogalusa",
+        "spotify_url": "https://open.spotify.com/track/5JHcdhriOeUkjXlgEIO1o4",
+        "plays": 1
+      },
+      {
+        "name": "I Got My Mojo Working",
+        "album": "Standing My Ground",
+        "spotify_url": "https://open.spotify.com/track/3GlWQKV9uiSui0AoOZ8PaM",
+        "plays": 2
+      },
+      {
+        "name": "Born In Louisiana",
+        "album": "Standing My Ground",
+        "spotify_url": "https://open.spotify.com/track/1Fdor7JL8x8ZQzQ01zD59n",
+        "plays": 1
+      }
+    ]
+  },
+  "poncho-sanchez": {
+    "id": "7wIvJyLDNfkgdKFVxJl5tL",
+    "name": "Poncho Sanchez",
+    "spotify_url": "https://open.spotify.com/artist/7wIvJyLDNfkgdKFVxJl5tL",
+    "total_plays": 1,
+    "first_seen": "2026-10-24",
+    "last_seen": "2026-10-24",
+    "genres": [
+      "latin jazz",
+      "afro-cuban jazz",
+      "cha cha cha",
+      "son cubano",
+      "salsa",
+      "mambo"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebf123a16c70476e2bf272e4a9",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174f123a16c70476e2bf272e4a9",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178f123a16c70476e2bf272e4a9",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Subway Harry",
+        "album": "Afro-Cuban Fantasy",
+        "spotify_url": "https://open.spotify.com/track/3Imm66sYUEhfGnt7eLeh4t",
+        "plays": 1
+      }
+    ]
+  },
+  "horace-silver": {
+    "id": "5ZATfKurLqflrBhv2FLht5",
+    "name": "Horace Silver",
+    "spotify_url": "https://open.spotify.com/artist/5ZATfKurLqflrBhv2FLht5",
+    "total_plays": 1,
+    "first_seen": "2026-10-24",
+    "last_seen": "2026-10-24",
+    "genres": [
+      "hard bop",
+      "jazz",
+      "bebop",
+      "cool jazz",
+      "soul jazz",
+      "jazz ballads"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb394ae6ab2a11993b46b232b2",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174394ae6ab2a11993b46b232b2",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178394ae6ab2a11993b46b232b2",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Cookin' At The Continental",
+        "album": "The Best Of Horace Silver",
+        "spotify_url": "https://open.spotify.com/track/1U1vBvFOfGJP2MLwj1OmOH",
+        "plays": 1
+      },
+      {
+        "name": "Airegin - RVG Remaster",
+        "album": "Bags' Groove (Rudy Van Gelder Remaster)",
+        "spotify_url": "https://open.spotify.com/track/6KvK5mvFIx4JjfVU0gjl7j",
+        "plays": 2
+      },
+      {
+        "name": "Safari - Remastered",
+        "album": "Horace Silver Trio",
+        "spotify_url": "https://open.spotify.com/track/1W1prVwAYQ6XnM9g15o43G",
+        "plays": 2
+      },
+      {
+        "name": "Summer In Central Park - Remastered",
+        "album": "In Pursuit Of The 27th Man",
+        "spotify_url": "https://open.spotify.com/track/20ZALyUySircoAOgNfp3Cs",
+        "plays": 2
+      },
+      {
+        "name": "Opus De Funk - Remastered 1998/Rudy Van Gelder Edition",
+        "album": "Horace Silver Trio (Remastered / Rudy Van Gelder Edition)",
+        "spotify_url": "https://open.spotify.com/track/3213dsixhwk0e8s9CfBzT3",
+        "plays": 1
+      },
+      {
+        "name": "Doxy - RVG Remaster",
+        "album": "Bags' Groove (Rudy Van Gelder Remaster)",
+        "spotify_url": "https://open.spotify.com/track/3vZIYc2V9Ql80jWI2ZApEC",
+        "plays": 1
+      },
+      {
+        "name": "Calcutta Cutie - Rudy Van Gelder Edition/1999 Digital Remaster",
+        "album": "Song For My Father",
+        "spotify_url": "https://open.spotify.com/track/1R32Fy8FO0sn3o7AOLxliA",
+        "plays": 1
+      },
+      {
+        "name": "The Jody Grind",
+        "album": "The Jody Grind",
+        "spotify_url": "https://open.spotify.com/track/2gK90iDN9ggQoECv4494mb",
+        "plays": 1
+      },
+      {
+        "name": "Sighin' And Cryin' - Rudy Van Gelder Edition/1999 Digital Remaster",
+        "album": "Song For My Father",
+        "spotify_url": "https://open.spotify.com/track/5CvfVzXQoz56KtJO1hBMlX",
+        "plays": 1
+      },
+      {
+        "name": "Que Pasa - Rudy Van Gelder Edition/1999 Digital Remaster",
+        "album": "Song For My Father",
+        "spotify_url": "https://open.spotify.com/track/5L9FnDSIEc8WaqLZjgYZda",
+        "plays": 1
+      }
+    ]
+  },
+  "peter-pupping": {
+    "id": "0wlLKNzqcGTkGjWrlBLAGb",
+    "name": "Peter Pupping",
+    "spotify_url": "https://open.spotify.com/artist/0wlLKNzqcGTkGjWrlBLAGb",
+    "total_plays": 1,
+    "first_seen": "2026-10-24",
+    "last_seen": "2026-10-24",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b27309226a95ee38752aef5afd7e",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e0209226a95ee38752aef5afd7e",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000485109226a95ee38752aef5afd7e",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Shadow of Your Smile",
+        "album": "The Very Thought of You",
+        "spotify_url": "https://open.spotify.com/track/7dMglOPEUXn8hnXbrOVa32",
+        "plays": 1
+      }
+    ]
+  },
+  "eddie-harris": {
+    "id": "0bcDOCWIbvWApEIB7l1uZ4",
+    "name": "Eddie Harris",
+    "spotify_url": "https://open.spotify.com/artist/0bcDOCWIbvWApEIB7l1uZ4",
+    "total_plays": 1,
+    "first_seen": "2026-10-24",
+    "last_seen": "2026-10-24",
+    "genres": [
+      "soul jazz",
+      "jazz funk",
+      "hard bop",
+      "jazz",
+      "jazz ballads"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/5b35264bab5bfa389e5b4c76bb45a1a3a248383f",
+        "height": 649,
+        "width": 638
+      },
+      {
+        "url": "https://i.scdn.co/image/f9c7d17b8b134c9a91d806467588230a094ad313",
+        "height": 203,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/cac93be762c6f1eb60b87195bc829600db24ca8b",
+        "height": 65,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Drunk Man",
+        "album": "Excursions",
+        "spotify_url": "https://open.spotify.com/track/29Aevn8Np9NYNJuuPFiNZS",
+        "plays": 1
+      }
+    ]
+  },
+  "lata-mangeshkar": {
+    "id": "61JrslREXq98hurYL2hYoc",
+    "name": "Lata Mangeshkar",
+    "spotify_url": "https://open.spotify.com/artist/61JrslREXq98hurYL2hYoc",
+    "total_plays": 1,
+    "first_seen": "2026-10-24",
+    "last_seen": "2026-10-24",
+    "genres": [
+      "ghazal",
+      "bollywood",
+      "hindi pop",
+      "bhajan",
+      "marathi pop"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eba0199b159c0c5a9f62333d32",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174a0199b159c0c5a9f62333d32",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178a0199b159c0c5a9f62333d32",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Zindagi Har Kadam Ek Nai Jung Hai - Duet",
+        "album": "Meri Jung",
+        "spotify_url": "https://open.spotify.com/track/6axlpXHDbImU5sT0n77HsF",
+        "plays": 1
+      }
+    ]
+  },
+  "the-ojays": {
+    "id": "38h03gA85YYPeDPd9ER9rT",
+    "name": "The O'Jays",
+    "spotify_url": "https://open.spotify.com/artist/38h03gA85YYPeDPd9ER9rT",
+    "total_plays": 1,
+    "first_seen": "2026-10-24",
+    "last_seen": "2026-10-24",
+    "genres": [
+      "philly soul",
+      "classic soul",
+      "motown",
+      "quiet storm",
+      "soul"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb56ff1993c2aa3ca2c31b7a83",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517456ff1993c2aa3ca2c31b7a83",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17856ff1993c2aa3ca2c31b7a83",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "I Love Music",
+        "album": "Family Reunion (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/222TScMmzaZ0IdkvbLoin2",
+        "plays": 1
+      }
+    ]
+  },
+  "101-strings-orchestra": {
+    "id": "1sLpCr5xThZkGHLw4H0mNE",
+    "name": "101 Strings Orchestra",
+    "spotify_url": "https://open.spotify.com/artist/1sLpCr5xThZkGHLw4H0mNE",
+    "total_plays": 1,
+    "first_seen": "2026-10-24",
+    "last_seen": "2026-10-24",
+    "genres": [
+      "exotica",
+      "orchestral",
+      "easy listening"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebf458711200ddf25ef28cee95",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174f458711200ddf25ef28cee95",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178f458711200ddf25ef28cee95",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Begin the Beguine",
+        "album": "Million Seller Hit Songs of the 30s (Remastered from the Original Master Tapes)",
+        "spotify_url": "https://open.spotify.com/track/0rXhvC1lPwCZAjSuFYLOsj",
+        "plays": 1
+      }
+    ]
+  },
+  "nino-rota": {
+    "id": "0RYyGExpy57GLGa1GtFoVo",
+    "name": "Nino Rota",
+    "spotify_url": "https://open.spotify.com/artist/0RYyGExpy57GLGa1GtFoVo",
+    "total_plays": 1,
+    "first_seen": "2026-10-24",
+    "last_seen": "2026-10-24",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/052de04a5c66dfd07db0b04e46208cc9af16b9fd",
+        "height": 1000,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/69526c8aa78690c8730ac50906e1770e101c0413",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/452ee9f78bc397dc43a32063d8fd89a216f19a13",
+        "height": 200,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/3b8da466bf72173e2564fdfb3d4324ab95003782",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Parla piu piano (Thème du Parrain)",
+        "album": "Sicilien",
+        "spotify_url": "https://open.spotify.com/track/1FjHYiyN34dh9V6mrWq3mo",
+        "plays": 1
+      }
+    ]
+  },
+  "shirley-caesar": {
+    "id": "5hrUVXJsPParZB87QtAz1R",
+    "name": "Shirley Caesar",
+    "spotify_url": "https://open.spotify.com/artist/5hrUVXJsPParZB87QtAz1R",
+    "total_plays": 2,
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "genres": [
+      "gospel",
+      "traditional gospel"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb462119660d07447a7f88ce65",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174462119660d07447a7f88ce65",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178462119660d07447a7f88ce65",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "I Remember Mama",
+        "album": "I Remember Mama",
+        "spotify_url": "https://open.spotify.com/track/1tqxg3dZ16BSRvm0xbkuYG",
+        "plays": 1
+      },
+      {
+        "name": "Jesus, I Love Calling Your Name",
+        "album": "Shirley Caesar: Her Very Best",
+        "spotify_url": "https://open.spotify.com/track/6xeJNGD98zIGTbOAhngzJe",
+        "plays": 1
+      }
+    ]
+  },
+  "cece-winans": {
+    "id": "3qfrrrSO7utFdJkM2tvMRb",
+    "name": "CeCe Winans",
+    "spotify_url": "https://open.spotify.com/artist/3qfrrrSO7utFdJkM2tvMRb",
+    "total_plays": 1,
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "genres": [
+      "gospel",
+      "worship",
+      "christian"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb572e0f70b3990fb63129077a",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174572e0f70b3990fb63129077a",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178572e0f70b3990fb63129077a",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Come Jesus Come",
+        "album": "More Than This (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/0APvRnAmUVOxZssyEMR6Oh",
+        "plays": 1
+      }
+    ]
+  },
+  "tomahawk": {
+    "id": "6yyZgcrQ10gThrJxzqogiP",
+    "name": "Tomahawk",
+    "spotify_url": "https://open.spotify.com/artist/6yyZgcrQ10gThrJxzqogiP",
+    "total_plays": 1,
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "genres": [
+      "avant-garde",
+      "alternative metal",
+      "noise rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb61b4f35a9fe31c80d89573fa",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517461b4f35a9fe31c80d89573fa",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17861b4f35a9fe31c80d89573fa",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "God Hates a Coward",
+        "album": "Tomahawk",
+        "spotify_url": "https://open.spotify.com/track/1NBDw1o8zu1D2bcmdspvpG",
+        "plays": 1
+      }
+    ]
+  },
+  "clutch": {
+    "id": "161AC1AVRkIGIMxyj5djFQ",
+    "name": "Clutch",
+    "spotify_url": "https://open.spotify.com/artist/161AC1AVRkIGIMxyj5djFQ",
+    "total_plays": 1,
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "genres": [
+      "stoner rock",
+      "stoner metal",
+      "sludge metal"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb02a3b5802998a3d537f8f1fb",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517402a3b5802998a3d537f8f1fb",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17802a3b5802998a3d537f8f1fb",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "A Shogun Named Marcus",
+        "album": "Transnational Speedway League: Anthems, Anecdotes And Undeniable Truths",
+        "spotify_url": "https://open.spotify.com/track/721rIZISwm9BCoyT5whonp",
+        "plays": 1
+      }
+    ]
+  },
+  "probot": {
+    "id": "3up7wqUGMUTm0184V57RTH",
+    "name": "Probot",
+    "spotify_url": "https://open.spotify.com/artist/3up7wqUGMUTm0184V57RTH",
+    "total_plays": 1,
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b2736fc4c5ab07bf18082e44832a",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e026fc4c5ab07bf18082e44832a",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d000048516fc4c5ab07bf18082e44832a",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Red War (feat. Max Cavalera)",
+        "album": "Probot",
+        "spotify_url": "https://open.spotify.com/track/50yNzFihIICERxWKYg9UQU",
+        "plays": 1
+      }
+    ]
+  },
+  "mr-bungle": {
+    "id": "2zq0uqN9Wq12tqrQQt1ozw",
+    "name": "Mr. Bungle",
+    "spotify_url": "https://open.spotify.com/artist/2zq0uqN9Wq12tqrQQt1ozw",
+    "total_plays": 8,
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "genres": [
+      "avant-garde",
+      "funk rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb57889458cd1c95a01dba403a",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517457889458cd1c95a01dba403a",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17857889458cd1c95a01dba403a",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Retrovertigo",
+        "album": "California",
+        "spotify_url": "https://open.spotify.com/track/6JQRJMPZvqlN0LexXFmhgY",
+        "plays": 1
+      },
+      {
+        "name": "Sudden Death",
+        "album": "The Raging Wrath Of The Easter Bunny Demo",
+        "spotify_url": "https://open.spotify.com/track/3lx3dZQOQ3Vc6FEgEo74Ki",
+        "plays": 1
+      },
+      {
+        "name": "Glutton For Punishment",
+        "album": "The Raging Wrath Of The Easter Bunny Demo",
+        "spotify_url": "https://open.spotify.com/track/3M4AIdBUbyU9Z0AYJ3vale",
+        "plays": 1
+      },
+      {
+        "name": "Loss For Words",
+        "album": "The Raging Wrath Of The Easter Bunny Demo",
+        "spotify_url": "https://open.spotify.com/track/2835ieuodim1nRUlBjkL2B",
+        "plays": 1
+      },
+      {
+        "name": "Spreading The Thighs of Death",
+        "album": "The Raging Wrath Of The Easter Bunny Demo",
+        "spotify_url": "https://open.spotify.com/track/6Xe4BuihAYeOOPhyKHtkv7",
+        "plays": 1
+      },
+      {
+        "name": "Eracist",
+        "album": "The Raging Wrath Of The Easter Bunny Demo",
+        "spotify_url": "https://open.spotify.com/track/2LzhySG2p5W7hcMAG9q6Dw",
+        "plays": 1
+      },
+      {
+        "name": "Methematics",
+        "album": "The Raging Wrath Of The Easter Bunny Demo",
+        "spotify_url": "https://open.spotify.com/track/41mTdmoqQmLBiv4ZPZ70Sb",
+        "plays": 1
+      },
+      {
+        "name": "Bungle Grind",
+        "album": "The Raging Wrath Of The Easter Bunny Demo",
+        "spotify_url": "https://open.spotify.com/track/3guoTpm3ZI9Pin2v9kh97u",
+        "plays": 1
+      }
+    ]
+  },
+  "chet-baker": {
+    "id": "3rxeQlsv0Sc2nyYaZ5W71T",
+    "name": "Chet Baker",
+    "spotify_url": "https://open.spotify.com/artist/3rxeQlsv0Sc2nyYaZ5W71T",
+    "total_plays": 4,
+    "first_seen": "2026-10-20",
+    "last_seen": "2026-10-20",
+    "genres": [
+      "jazz",
+      "cool jazz",
+      "vocal jazz",
+      "jazz ballads"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebabde819fe640d69f899e7844",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174abde819fe640d69f899e7844",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178abde819fe640d69f899e7844",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Tis Autumn",
+        "album": "Chet (Keepnews Collection)",
+        "spotify_url": "https://open.spotify.com/track/6g82W4awZ4ZqSs2jUT5goS",
+        "plays": 1
+      },
+      {
+        "name": "It Never Entered My Mind",
+        "album": "Chet (Keepnews Collection)",
+        "spotify_url": "https://open.spotify.com/track/14ahpcc73FbLDHBOJvWk1m",
+        "plays": 1
+      },
+      {
+        "name": "How High The Moon",
+        "album": "Chet (Keepnews Collection)",
+        "spotify_url": "https://open.spotify.com/track/1qagJUT7uzS8eAkDJmO8QG",
+        "plays": 1
+      },
+      {
+        "name": "Alone Together",
+        "album": "Chet (Keepnews Collection)",
+        "spotify_url": "https://open.spotify.com/track/41TfF8i4DzToDOuOJ92Fka",
+        "plays": 1
+      },
+      {
+        "name": "That Old Feeling",
+        "album": "Chet Baker Sings",
+        "spotify_url": "https://open.spotify.com/track/2d64G7VaZdHQuAquz5HQNu",
+        "plays": 2
+      },
+      {
+        "name": "Stardust",
+        "album": "Reunion With Chet Baker",
+        "spotify_url": "https://open.spotify.com/track/2g1iBv7SXxiXX0IEG4lz2k",
+        "plays": 1
+      },
+      {
+        "name": "There Will Never Be Another You - Vocal Version",
+        "album": "Chet Baker Sings",
+        "spotify_url": "https://open.spotify.com/track/2zPANzQTt5Nbkg0eBPb7HI",
         "plays": 1
       }
     ]
@@ -61088,93 +61919,6 @@
         "name": "Suits and Ski Masks",
         "album": "Bass Chalice",
         "spotify_url": "https://open.spotify.com/track/7E3R6IjpkX8I4ofd9a3Qex",
-        "plays": 1
-      }
-    ]
-  },
-  "horace-silver": {
-    "id": "5ZATfKurLqflrBhv2FLht5",
-    "name": "Horace Silver",
-    "spotify_url": "https://open.spotify.com/artist/5ZATfKurLqflrBhv2FLht5",
-    "total_plays": 12,
-    "first_seen": "",
-    "last_seen": "",
-    "genres": [
-      "bebop",
-      "hard bop",
-      "jazz",
-      "jazz piano"
-    ],
-    "images": [
-      {
-        "height": 640,
-        "url": "https://i.scdn.co/image/ab6761610000e5eb394ae6ab2a11993b46b232b2",
-        "width": 640
-      },
-      {
-        "height": 320,
-        "url": "https://i.scdn.co/image/ab67616100005174394ae6ab2a11993b46b232b2",
-        "width": 320
-      },
-      {
-        "height": 160,
-        "url": "https://i.scdn.co/image/ab6761610000f178394ae6ab2a11993b46b232b2",
-        "width": 160
-      }
-    ],
-    "top_tracks": [
-      {
-        "name": "Airegin - RVG Remaster",
-        "album": "Bags' Groove (Rudy Van Gelder Remaster)",
-        "spotify_url": "https://open.spotify.com/track/6KvK5mvFIx4JjfVU0gjl7j",
-        "plays": 2
-      },
-      {
-        "name": "Safari - Remastered",
-        "album": "Horace Silver Trio",
-        "spotify_url": "https://open.spotify.com/track/1W1prVwAYQ6XnM9g15o43G",
-        "plays": 2
-      },
-      {
-        "name": "Summer In Central Park - Remastered",
-        "album": "In Pursuit Of The 27th Man",
-        "spotify_url": "https://open.spotify.com/track/20ZALyUySircoAOgNfp3Cs",
-        "plays": 2
-      },
-      {
-        "name": "Opus De Funk - Remastered 1998/Rudy Van Gelder Edition",
-        "album": "Horace Silver Trio (Remastered / Rudy Van Gelder Edition)",
-        "spotify_url": "https://open.spotify.com/track/3213dsixhwk0e8s9CfBzT3",
-        "plays": 1
-      },
-      {
-        "name": "Doxy - RVG Remaster",
-        "album": "Bags' Groove (Rudy Van Gelder Remaster)",
-        "spotify_url": "https://open.spotify.com/track/3vZIYc2V9Ql80jWI2ZApEC",
-        "plays": 1
-      },
-      {
-        "name": "Calcutta Cutie - Rudy Van Gelder Edition/1999 Digital Remaster",
-        "album": "Song For My Father",
-        "spotify_url": "https://open.spotify.com/track/1R32Fy8FO0sn3o7AOLxliA",
-        "plays": 1
-      },
-      {
-        "name": "The Jody Grind",
-        "album": "The Jody Grind",
-        "spotify_url": "https://open.spotify.com/track/2gK90iDN9ggQoECv4494mb",
-        "plays": 1
-      },
-      {
-        "name": "Sighin' And Cryin' - Rudy Van Gelder Edition/1999 Digital Remaster",
-        "album": "Song For My Father",
-        "spotify_url": "https://open.spotify.com/track/5CvfVzXQoz56KtJO1hBMlX",
-        "plays": 1
-      },
-      {
-        "name": "Que Pasa - Rudy Van Gelder Edition/1999 Digital Remaster",
-        "album": "Song For My Father",
-        "spotify_url": "https://open.spotify.com/track/5L9FnDSIEc8WaqLZjgYZda",
         "plays": 1
       }
     ]
