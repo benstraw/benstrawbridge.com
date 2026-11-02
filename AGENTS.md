@@ -1,7 +1,7 @@
 # Agent Instructions
 
 benstrawbridge.com is a Hugo static site on the Ryder theme (git submodule at
-`themes/ryder`, pinned to `v0.5.0`), styled with Tailwind, made interactive
+`themes/ryder`, pinned to `v0.5.1`), styled with Tailwind, made interactive
 with the Alpine.js **CSP build**, served as a static-assets-only Cloudflare
 Worker, and measured with PostHog and Google Search Console.
 

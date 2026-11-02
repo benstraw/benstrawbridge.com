@@ -12,7 +12,7 @@ retired and is not a fallback ([history/aws-teardown.md](../history/aws-teardown
 | Deploy / preview commands | `npx wrangler deploy` / `npx wrangler versions upload` (run by Workers Builds) |
 | Worker config | `wrangler.jsonc`: name `benstrawbridge-com`, serves `./public`, `html_handling: auto-trailing-slash`, `not_found_handling: 404-page` |
 | Path redirects | `static/_redirects` |
-| Response headers | `static/_headers` (shadows `themes/ryder/static/_headers`) |
+| Response headers | `themes/ryder/static/_headers` (no site copy) |
 | Apex → www | Cloudflare **Redirect Rule** on the zone (not in the repo) |
 | Build variables | Cloudflare dashboard: `HUGO_VERSION`, `PUBLIC_POSTHOG_KEY`, `PUBLIC_POSTHOG_HOST` |
 | Deploy marker | `.github/workflows/posthog-deploy-annotation.yml` — [runbook](../runbooks/posthog-deploy-tracking.md) |
@@ -65,15 +65,18 @@ npx wrangler deploy --dry-run
 The CSP is a `<meta>` tag rendered by the theme, **not** a response header, so
 hosting doesn't change it ([csp.md](csp.md)).
 
-The theme ships a Netlify-style `_headers` whose catch-all `/*` rule overlaps
-`/css/*`, `/js/*` and `/images/*`, and Cloudflare **joins** values of a header set
-by more than one matching rule (fingerprinted CSS would ship as "…immutable,
-public, max-age=0, must-revalidate"). Its `/images/*` rule also marks
-unfingerprinted files immutable. The site's `static/_headers` shadows it with
-non-overlapping rules (`:file` matches one segment) until
-[arts-link/ryder#115](https://github.com/arts-link/ryder/issues/115) ships;
-removal is tracked in
-[benstraw/benstrawbridge.com#128](https://github.com/benstraw/benstrawbridge.com/issues/128).
+Response headers come from the theme's `static/_headers`, which Cloudflare
+reads from `public/_headers`. Cloudflare **joins** the values of a header set by
+more than one matching rule, so overlapping rules ship contradictory values
+("…immutable, public, max-age=0, must-revalidate"). Ryder's file had that
+problem until v0.5.1
+([arts-link/ryder#115](https://github.com/arts-link/ryder/issues/115)), and
+until then the site shadowed it with its own `static/_headers`. That copy is
+gone. If you need a site-specific header rule, copy the theme's whole file to
+`static/_headers`, because a site file replaces the theme's rather than adding
+to it. Ryder's `tests/unit/headers.test.js` checks for overlaps; `:file`
+matches one path segment, `*` matches across `/`.
+
 **Keep rules non-overlapping for any one header.**
 
 ## Redirects
