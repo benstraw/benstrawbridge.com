@@ -10,7 +10,7 @@ PostHog (through a first-party proxy).
 | Layer | What | Where it's configured |
 | --- | --- | --- |
 | Generator | Hugo **extended**, `0.164.0` pinned in CI and cloud sessions; floor `0.158.0` | `config/_default/module.toml` (`[hugoVersion]`), `scripts/cf-build.sh`, `.claude/hooks/session-start.sh` |
-| Theme | Ryder, git submodule at `themes/ryder`, pinned to **`v0.5.1`** (until that tag exists, the head of [arts-link/ryder#122](https://github.com/arts-link/ryder/pull/122); re-pin to the tag before merging to `main`) | `.gitmodules`, `theme = 'ryder'` in both config environments |
+| Theme | Ryder, git submodule at `themes/ryder`, pinned to tag **`v0.5.1`** | `.gitmodules`, `theme = 'ryder'` in both config environments |
 | CSS | Tailwind 3 with Ryder's preset, `@tailwindcss/typography`, PostCSS + autoprefixer | `tailwind.config.js`, `postcss.config.js` |
 | JS | Alpine.js **CSP build** (`@alpinejs/csp`) + `@alpinejs/focus`, Font Awesome SVG core, Leaflet 1.9.4 + leaflet-gpx (vendored in `static/`) | `assets/js/extended.js`, theme `assets/js/main.js` |
 | Hosting | Cloudflare Worker, static assets only, deployed by Workers Builds from `main` | `wrangler.jsonc` — see [deployment/cloudflare.md](../deployment/cloudflare.md) |
