@@ -59,7 +59,7 @@ Archetypes create `draft = true`. Then, before committing:
 | --- | --- |
 | `title`, `date`, `draft`, `description`, `tags` | The basics. `lastmod` falls back to `date`. |
 | `summary` | Overrides the `<!--more-->` / 100-word summary. |
-| `hideAsideBar`, `showTOC` / `TocOpen` | Layout: full width, table of contents. |
+| `hideAsideBar`, `showTOC` / `TocOpen` | Layout. `hideAsideBar = true` drops the whole aside, so the article is full width and its tags render below it (Ryder v0.5.1+; before that it only hid the TOC). |
 | `homeFeature`, `homeFeatureWide`, `homeFeatureIcon` | Promote to the home page's feature band; icon is a Font Awesome class (must be registered). |
 | `cardType`, `cardImage` (+ `cardImageAlt`, `cardImagePosition`) | Per-page card in every feed. Precedence documented in `layouts/partials/utils/card-type.html`. |
 | `featured_image`, `og_image`, `og_source_image` | Imagery and OG card source; see [seo/og-cards.md](../seo/og-cards.md). |
