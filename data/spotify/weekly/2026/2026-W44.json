@@ -1,0 +1,817 @@
+{
+  "week": "2026-W44",
+  "title": "Week of Oct 26, 2026",
+  "year": 2026,
+  "week_num": 44,
+  "date_start": "2026-10-26",
+  "date_end": "2026-11-01",
+  "total_plays": 50,
+  "unique_artists": 20,
+  "topArtistName": "Eminem",
+  "topArtistImages": [
+    {
+      "url": "https://i.scdn.co/image/ab6761610000e5eba00b11c129b27a88fc72f36b",
+      "height": 640,
+      "width": 640
+    },
+    {
+      "url": "https://i.scdn.co/image/ab67616100005174a00b11c129b27a88fc72f36b",
+      "height": 320,
+      "width": 320
+    },
+    {
+      "url": "https://i.scdn.co/image/ab6761610000f178a00b11c129b27a88fc72f36b",
+      "height": 160,
+      "width": 160
+    }
+  ],
+  "top_genres": [
+    {
+      "name": "hip hop",
+      "plays": 40
+    },
+    {
+      "name": "rap",
+      "plays": 26
+    },
+    {
+      "name": "old school hip hop",
+      "plays": 21
+    },
+    {
+      "name": "east coast hip hop",
+      "plays": 19
+    },
+    {
+      "name": "gangster rap",
+      "plays": 14
+    },
+    {
+      "name": "hardcore hip hop",
+      "plays": 8
+    },
+    {
+      "name": "g-funk",
+      "plays": 5
+    },
+    {
+      "name": "west coast hip hop",
+      "plays": 5
+    },
+    {
+      "name": "boom bap",
+      "plays": 3
+    },
+    {
+      "name": "underground hip hop",
+      "plays": 2
+    }
+  ],
+  "top_artists": [
+    {
+      "slug": "eminem",
+      "name": "Eminem",
+      "plays": 23,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eba00b11c129b27a88fc72f36b",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174a00b11c129b27a88fc72f36b",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178a00b11c129b27a88fc72f36b",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "the-notorious-big",
+      "name": "The Notorious B.I.G.",
+      "plays": 4,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/1b4858fbd24046a81cace5ee18d19c868262b91f",
+          "height": 1250,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/9bb42de208edcb69653a8e7951fa93b13f598cdd",
+          "height": 800,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/e56612ae56c9007e99ab36b83efd4faf6401260d",
+          "height": 250,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/fc074d287739cca12a89c76fd338ff7d4aa4acee",
+          "height": 80,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "wu-tang-clan",
+      "name": "Wu-Tang Clan",
+      "plays": 3,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebe60866298962b71792b2bf1a",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174e60866298962b71792b2bf1a",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178e60866298962b71792b2bf1a",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "dr-dre",
+      "name": "Dr. Dre",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6772690000c46c250b3af4b06e1fcf538d398b",
+          "height": 1000,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6772690000dd22250b3af4b06e1fcf538d398b",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6772690000bac3250b3af4b06e1fcf538d398b",
+          "height": 200,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67726900008f74250b3af4b06e1fcf538d398b",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "mobb-deep",
+      "name": "Mobb Deep",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebf85a8db4c66d84f796d2afe5",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174f85a8db4c66d84f796d2afe5",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178f85a8db4c66d84f796d2afe5",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "big-l",
+      "name": "Big L",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eba4f78bbc847304a2bc118e10",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174a4f78bbc847304a2bc118e10",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178a4f78bbc847304a2bc118e10",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "d12",
+      "name": "D12",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb1d3ee14bc0e0b14dac6b1b0c",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051741d3ee14bc0e0b14dac6b1b0c",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1781d3ee14bc0e0b14dac6b1b0c",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "spice-1",
+      "name": "Spice 1",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb7787918d4436490eb7ff3996",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051747787918d4436490eb7ff3996",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1787787918d4436490eb7ff3996",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "busta-rhymes",
+      "name": "Busta Rhymes",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb7b31aba081ef084510cde4e3",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051747b31aba081ef084510cde4e3",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1787b31aba081ef084510cde4e3",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "warren-g",
+      "name": "Warren G",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb5c9383166226bbe48213b064",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051745c9383166226bbe48213b064",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1785c9383166226bbe48213b064",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "gang-starr",
+      "name": "Gang Starr",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb85ee94998a936ef47231db39",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517485ee94998a936ef47231db39",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17885ee94998a936ef47231db39",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "50-cent",
+      "name": "50 Cent",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/dd031b9c5d1b6eba4a691cd89c954255aae787f2",
+          "height": 977,
+          "width": 781
+        },
+        {
+          "url": "https://i.scdn.co/image/6f0da41419b31d9d2ba55d2df212f59ad0668118",
+          "height": 801,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/df73c0cebe56cafe705ffdba5085ccbd5680bd16",
+          "height": 250,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/1a44043542c997ef835c89e185f0cf79d7402153",
+          "height": 80,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "immortal-technique",
+      "name": "Immortal Technique",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb3ef26ad9da922d14fa7b1ff6",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051743ef26ad9da922d14fa7b1ff6",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1783ef26ad9da922d14fa7b1ff6",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "naughty-by-nature",
+      "name": "Naughty By Nature",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb4cfb4db377be25e51eecc324",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051744cfb4db377be25e51eecc324",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1784cfb4db377be25e51eecc324",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "ice-cube",
+      "name": "Ice Cube",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb650e79afafd00492e33d7b8c",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174650e79afafd00492e33d7b8c",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178650e79afafd00492e33d7b8c",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "the-high-mighty",
+      "name": "The High & Mighty",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000b27356d7e325a73cedb8eec16f0d",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00001e026a19be29a77ce4771edd93ed",
+          "height": 300,
+          "width": 300
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000485156d7e325a73cedb8eec16f0d",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "jay-z",
+      "name": "JAŸ-Z",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb219724d177787df4dc9d8614",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174219724d177787df4dc9d8614",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178219724d177787df4dc9d8614",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "outkast",
+      "name": "Outkast",
+      "plays": 1,
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb0cb3f95b9f8f7337e135a925",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab676161000051740cb3f95b9f8f7337e135a925",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f1780cb3f95b9f8f7337e135a925",
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "pharoahe-monch",
+      "name": "Pharoahe Monch",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb8569e668d97d93d6df2c2716",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051748569e668d97d93d6df2c2716",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1788569e668d97d93d6df2c2716",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "ll-cool-j",
+      "name": "LL COOL J",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebfdfbad2b88a64e661a6e6400",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174fdfbad2b88a64e661a6e6400",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178fdfbad2b88a64e661a6e6400",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    }
+  ],
+  "top_tracks": [
+    {
+      "name": "Gravel Pit (feat. RZA, Method Man, Ghostface Killah, Raekwon & U-God)",
+      "artist": "Wu-Tang Clan",
+      "artist_slug": "wu-tang-clan",
+      "plays": 2
+    },
+    {
+      "name": "Party And Bullshit",
+      "artist": "The Notorious B.I.G.",
+      "artist_slug": "the-notorious-big",
+      "plays": 2
+    },
+    {
+      "name": "Purple Pills",
+      "artist": "D12",
+      "artist_slug": "d12",
+      "plays": 1
+    },
+    {
+      "name": "I Got Five On It Remix",
+      "artist": "Spice 1",
+      "artist_slug": "spice-1",
+      "plays": 1
+    },
+    {
+      "name": "Notorious Thugs - 2014 Remaster",
+      "artist": "The Notorious B.I.G.",
+      "artist_slug": "the-notorious-big",
+      "plays": 1
+    },
+    {
+      "name": "I Know What You Want (feat. Flipmode Squad)",
+      "artist": "Busta Rhymes",
+      "artist_slug": "busta-rhymes",
+      "plays": 1
+    },
+    {
+      "name": "Rain Man",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 1
+    },
+    {
+      "name": "Regulate",
+      "artist": "Warren G",
+      "artist_slug": "warren-g",
+      "plays": 1
+    },
+    {
+      "name": "Battle",
+      "artist": "Gang Starr",
+      "artist_slug": "gang-starr",
+      "plays": 1
+    },
+    {
+      "name": "Forgot About Dre",
+      "artist": "Dr. Dre",
+      "artist_slug": "dr-dre",
+      "plays": 1
+    },
+    {
+      "name": "Survival of the Fittest",
+      "artist": "Mobb Deep",
+      "artist_slug": "mobb-deep",
+      "plays": 1
+    },
+    {
+      "name": "If I Can't",
+      "artist": "50 Cent",
+      "artist_slug": "50-cent",
+      "plays": 1
+    },
+    {
+      "name": "Dance With The Devil",
+      "artist": "Immortal Technique",
+      "artist_slug": "immortal-technique",
+      "plays": 1
+    },
+    {
+      "name": "The Enemy (feat. Fat Joe)",
+      "artist": "Big L",
+      "artist_slug": "big-l",
+      "plays": 1
+    },
+    {
+      "name": "Preservation",
+      "artist": "Wu-Tang Clan",
+      "artist_slug": "wu-tang-clan",
+      "plays": 1
+    },
+    {
+      "name": "Yoke the Joker",
+      "artist": "Naughty By Nature",
+      "artist_slug": "naughty-by-nature",
+      "plays": 1
+    },
+    {
+      "name": "Just Don't Give A Fuck",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 1
+    },
+    {
+      "name": "You Can Do It",
+      "artist": "Ice Cube",
+      "artist_slug": "ice-cube",
+      "plays": 1
+    },
+    {
+      "name": "The Last Hit",
+      "artist": "The High & Mighty",
+      "artist_slug": "the-high-mighty",
+      "plays": 1
+    },
+    {
+      "name": "Renegade",
+      "artist": "JAŸ-Z",
+      "artist_slug": "jay-z",
+      "plays": 1
+    },
+    {
+      "name": "Shook Ones, Pt. II",
+      "artist": "Mobb Deep",
+      "artist_slug": "mobb-deep",
+      "plays": 1
+    },
+    {
+      "name": "The Watcher",
+      "artist": "Dr. Dre",
+      "artist_slug": "dr-dre",
+      "plays": 1
+    },
+    {
+      "name": "ATLiens",
+      "artist": "Outkast",
+      "artist_slug": "outkast",
+      "plays": 1
+    },
+    {
+      "name": "Ebonics (Criminal Slang)",
+      "artist": "Big L",
+      "artist_slug": "big-l",
+      "plays": 1
+    },
+    {
+      "name": "Gimme the Loot - 2005 Remaster",
+      "artist": "The Notorious B.I.G.",
+      "artist_slug": "the-notorious-big",
+      "plays": 1
+    },
+    {
+      "name": "Simon Says",
+      "artist": "Pharoahe Monch",
+      "artist_slug": "pharoahe-monch",
+      "plays": 1
+    },
+    {
+      "name": "Murdergram Deux (feat. Eminem)",
+      "artist": "LL COOL J",
+      "artist_slug": "ll-cool-j",
+      "plays": 1
+    },
+    {
+      "name": "Criminal",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 1
+    },
+    {
+      "name": "Curtains Close",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 1
+    },
+    {
+      "name": "My Dad's Gone Crazy",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 1
+    },
+    {
+      "name": "Till I Collapse",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 1
+    },
+    {
+      "name": "Say What You Say",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 1
+    },
+    {
+      "name": "When The Music Stops",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 1
+    },
+    {
+      "name": "Steve Berman - Skit",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 1
+    },
+    {
+      "name": "Hailie's Song",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 1
+    },
+    {
+      "name": "Superman",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 1
+    },
+    {
+      "name": "Sing For The Moment",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 1
+    },
+    {
+      "name": "Paul Rosenberg - Skit",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 1
+    },
+    {
+      "name": "Without Me",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 1
+    },
+    {
+      "name": "Drips",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 1
+    },
+    {
+      "name": "Say Goodbye Hollywood",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 1
+    },
+    {
+      "name": "Soldier",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 1
+    },
+    {
+      "name": "The Kiss - Skit",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 1
+    },
+    {
+      "name": "Square Dance",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 1
+    },
+    {
+      "name": "Cleanin' Out My Closet",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 1
+    },
+    {
+      "name": "Business",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 1
+    },
+    {
+      "name": "White America",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 1
+    },
+    {
+      "name": "Curtains Up - Skit",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 1
+    }
+  ]
+}

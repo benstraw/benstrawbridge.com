@@ -7197,9 +7197,9 @@
     "id": "7dGJo4pcD2V6oG8kP0tJRR",
     "name": "Eminem",
     "spotify_url": "https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR",
-    "total_plays": 101,
+    "total_plays": 124,
     "first_seen": "2026-02-26",
-    "last_seen": "2026-10-19",
+    "last_seen": "2026-10-27",
     "genres": [
       "rap",
       "hip hop"
@@ -7301,6 +7301,30 @@
         "plays": 2
       },
       {
+        "name": "Business",
+        "album": "The Eminem Show",
+        "spotify_url": "https://open.spotify.com/track/0x60P5taxdI5pcGbqbap6S",
+        "plays": 2
+      },
+      {
+        "name": "Just Don't Give A Fuck",
+        "album": "The Slim Shady LP",
+        "spotify_url": "https://open.spotify.com/track/2MEvYNn2tRvFDAucAtAKVq",
+        "plays": 2
+      },
+      {
+        "name": "Criminal",
+        "album": "The Marshall Mathers LP",
+        "spotify_url": "https://open.spotify.com/track/18ohWhzbMCynq5QJ68ifkW",
+        "plays": 2
+      },
+      {
+        "name": "Square Dance",
+        "album": "The Eminem Show",
+        "spotify_url": "https://open.spotify.com/track/27mgDrExPa3obPAYXd3yQg",
+        "plays": 2
+      },
+      {
         "name": "Kyrie & Luka",
         "album": "The Death of Slim Shady (Coup De Grâce): Expanded Mourner’s Edition",
         "spotify_url": "https://open.spotify.com/track/6AgMzkvClobScVCFOyxGDD",
@@ -7385,12 +7409,6 @@
         "plays": 1
       },
       {
-        "name": "Business",
-        "album": "The Eminem Show",
-        "spotify_url": "https://open.spotify.com/track/0x60P5taxdI5pcGbqbap6S",
-        "plays": 1
-      },
-      {
         "name": "Still Don't Give A Fuck",
         "album": "The Slim Shady LP",
         "spotify_url": "https://open.spotify.com/track/1F4lm7DxvpNvXfT3cGuJCb",
@@ -7409,27 +7427,9 @@
         "plays": 1
       },
       {
-        "name": "Just Don't Give A Fuck",
-        "album": "The Slim Shady LP",
-        "spotify_url": "https://open.spotify.com/track/2MEvYNn2tRvFDAucAtAKVq",
-        "plays": 1
-      },
-      {
         "name": "Brain Damage",
         "album": "The Slim Shady LP",
         "spotify_url": "https://open.spotify.com/track/099MPsZhn5HkEUNlpA89rK",
-        "plays": 1
-      },
-      {
-        "name": "Criminal",
-        "album": "The Marshall Mathers LP",
-        "spotify_url": "https://open.spotify.com/track/18ohWhzbMCynq5QJ68ifkW",
-        "plays": 1
-      },
-      {
-        "name": "Square Dance",
-        "album": "The Eminem Show",
-        "spotify_url": "https://open.spotify.com/track/27mgDrExPa3obPAYXd3yQg",
         "plays": 1
       },
       {
@@ -7565,6 +7565,120 @@
         "plays": 1
       },
       {
+        "name": "Rain Man",
+        "album": "Encore (Deluxe Version)",
+        "spotify_url": "https://open.spotify.com/track/2AuU35arXZdYoscOIxHWSc",
+        "plays": 1
+      },
+      {
+        "name": "Curtains Close",
+        "album": "The Eminem Show",
+        "spotify_url": "https://open.spotify.com/track/51LeDAMy6nWqKdjVo7jK4j",
+        "plays": 1
+      },
+      {
+        "name": "My Dad's Gone Crazy",
+        "album": "The Eminem Show",
+        "spotify_url": "https://open.spotify.com/track/3F14hbIqy1JKKLTb1mzdYV",
+        "plays": 1
+      },
+      {
+        "name": "Till I Collapse",
+        "album": "The Eminem Show",
+        "spotify_url": "https://open.spotify.com/track/4xkOaSrkexMciUUogZKVTS",
+        "plays": 1
+      },
+      {
+        "name": "Say What You Say",
+        "album": "The Eminem Show",
+        "spotify_url": "https://open.spotify.com/track/4EQkcrSLF3QdlwNca7sMXY",
+        "plays": 1
+      },
+      {
+        "name": "When The Music Stops",
+        "album": "The Eminem Show",
+        "spotify_url": "https://open.spotify.com/track/73qINA7ccO03wxD8nsJalr",
+        "plays": 1
+      },
+      {
+        "name": "Steve Berman - Skit",
+        "album": "The Eminem Show",
+        "spotify_url": "https://open.spotify.com/track/5ZxX55HFfi4aofGTxMp58x",
+        "plays": 1
+      },
+      {
+        "name": "Hailie's Song",
+        "album": "The Eminem Show",
+        "spotify_url": "https://open.spotify.com/track/6Db8IlZ7YY1pfIjJllejyH",
+        "plays": 1
+      },
+      {
+        "name": "Superman",
+        "album": "The Eminem Show",
+        "spotify_url": "https://open.spotify.com/track/4woTEX1wYOTGDqNXuavlRC",
+        "plays": 1
+      },
+      {
+        "name": "Sing For The Moment",
+        "album": "The Eminem Show",
+        "spotify_url": "https://open.spotify.com/track/3CpoeW0cZSDzIRv5z34F87",
+        "plays": 1
+      },
+      {
+        "name": "Paul Rosenberg - Skit",
+        "album": "The Eminem Show",
+        "spotify_url": "https://open.spotify.com/track/0EgkVzDidmq4MP57jZFeik",
+        "plays": 1
+      },
+      {
+        "name": "Without Me",
+        "album": "The Eminem Show",
+        "spotify_url": "https://open.spotify.com/track/7lQ8MOhq6IN2w8EYcFNSUk",
+        "plays": 1
+      },
+      {
+        "name": "Drips",
+        "album": "The Eminem Show",
+        "spotify_url": "https://open.spotify.com/track/7io19rjxOFu3pGuZgBI6Pk",
+        "plays": 1
+      },
+      {
+        "name": "Say Goodbye Hollywood",
+        "album": "The Eminem Show",
+        "spotify_url": "https://open.spotify.com/track/288e3FhmVuCqPmNEfAH0h6",
+        "plays": 1
+      },
+      {
+        "name": "Soldier",
+        "album": "The Eminem Show",
+        "spotify_url": "https://open.spotify.com/track/5QD28FqaM3jTfsqWwvRZwv",
+        "plays": 1
+      },
+      {
+        "name": "The Kiss - Skit",
+        "album": "The Eminem Show",
+        "spotify_url": "https://open.spotify.com/track/2J3CYFUn6eAuHz5S9IKape",
+        "plays": 1
+      },
+      {
+        "name": "Cleanin' Out My Closet",
+        "album": "The Eminem Show",
+        "spotify_url": "https://open.spotify.com/track/7BMO7O7ImjV8HNTH74Tshv",
+        "plays": 1
+      },
+      {
+        "name": "White America",
+        "album": "The Eminem Show",
+        "spotify_url": "https://open.spotify.com/track/15qrWkkYCfmtu1uRpGf48L",
+        "plays": 1
+      },
+      {
+        "name": "Curtains Up - Skit",
+        "album": "The Eminem Show",
+        "spotify_url": "https://open.spotify.com/track/0ttF21hZCPw2merE3GsHcP",
+        "plays": 1
+      },
+      {
         "name": "Under The Influence",
         "album": "The Marshall Mathers LP",
         "spotify_url": "https://open.spotify.com/track/5H3B1WtZYGmyOYOXgQltKU",
@@ -7616,12 +7730,6 @@
         "name": "Lace It (with Eminem & benny blanco)",
         "album": "Lace It (with Eminem & benny blanco)",
         "spotify_url": "https://open.spotify.com/track/4qmG24ebshLXtKu9HIShBP",
-        "plays": 1
-      },
-      {
-        "name": "Curtains Close",
-        "album": "The Eminem Show",
-        "spotify_url": "https://open.spotify.com/track/51LeDAMy6nWqKdjVo7jK4j",
         "plays": 1
       }
     ]
@@ -7740,9 +7848,9 @@
     "id": "5me0Irg2ANcsgc93uaYrpb",
     "name": "The Notorious B.I.G.",
     "spotify_url": "https://open.spotify.com/artist/5me0Irg2ANcsgc93uaYrpb",
-    "total_plays": 22,
+    "total_plays": 26,
     "first_seen": "2026-02-26",
-    "last_seen": "2026-07-10",
+    "last_seen": "2026-10-27",
     "genres": [
       "old school hip hop",
       "gangster rap",
@@ -7785,9 +7893,27 @@
         "plays": 3
       },
       {
+        "name": "Party And Bullshit",
+        "album": "Whos The Man ? Soundtrack",
+        "spotify_url": "https://open.spotify.com/track/5mqPg2dyqb1gBNyg9ycGcT",
+        "plays": 3
+      },
+      {
         "name": "Things Done Changed - 2005 Remaster",
         "album": "Ready to Die (The Remaster)",
         "spotify_url": "https://open.spotify.com/track/7hdOchAKFm6FwzyevcQ56y",
+        "plays": 2
+      },
+      {
+        "name": "Notorious Thugs - 2014 Remaster",
+        "album": "Life After Death (2014 Remastered Edition)",
+        "spotify_url": "https://open.spotify.com/track/19FsxX4RthRMZGfXkImdCb",
+        "plays": 2
+      },
+      {
+        "name": "Gimme the Loot - 2005 Remaster",
+        "album": "Ready to Die (The Remaster)",
+        "spotify_url": "https://open.spotify.com/track/1xIxMz1sNQ4b6svH1GuTtF",
         "plays": 2
       },
       {
@@ -7827,24 +7953,6 @@
         "plays": 1
       },
       {
-        "name": "Party And Bullshit",
-        "album": "Whos The Man ? Soundtrack",
-        "spotify_url": "https://open.spotify.com/track/5mqPg2dyqb1gBNyg9ycGcT",
-        "plays": 1
-      },
-      {
-        "name": "Notorious Thugs - 2014 Remaster",
-        "album": "Life After Death (2014 Remastered Edition)",
-        "spotify_url": "https://open.spotify.com/track/19FsxX4RthRMZGfXkImdCb",
-        "plays": 1
-      },
-      {
-        "name": "Gimme the Loot - 2005 Remaster",
-        "album": "Ready to Die (The Remaster)",
-        "spotify_url": "https://open.spotify.com/track/1xIxMz1sNQ4b6svH1GuTtF",
-        "plays": 1
-      },
-      {
         "name": "Ready to Die - 2005 Remaster",
         "album": "Ready to Die (The Remaster)",
         "spotify_url": "https://open.spotify.com/track/3UQAKY0SUEonxneROvv4jy",
@@ -7880,9 +7988,9 @@
     "id": "34EP7KEpOjXcM2TCat1ISk",
     "name": "Wu-Tang Clan",
     "spotify_url": "https://open.spotify.com/artist/34EP7KEpOjXcM2TCat1ISk",
-    "total_plays": 19,
+    "total_plays": 22,
     "first_seen": "2026-02-26",
-    "last_seen": "2026-09-03",
+    "last_seen": "2026-10-27",
     "genres": [
       "old school hip hop",
       "east coast hip hop",
@@ -7939,6 +8047,12 @@
         "plays": 2
       },
       {
+        "name": "Gravel Pit (feat. RZA, Method Man, Ghostface Killah, Raekwon & U-God)",
+        "album": "Gravel Pit",
+        "spotify_url": "https://open.spotify.com/track/5ATV1iQtlQThdBBbb7srw8",
+        "plays": 2
+      },
+      {
         "name": "Triumph (feat. Ol' Dirty Bastard, Inspectah Deck, Method Man, Cappadonna, U-God, RZA, GZA, Masta Killa, Ghostface Killah & Raekwon)",
         "album": "Wu-Tang Forever",
         "spotify_url": "https://open.spotify.com/track/3glqlA5qY3bbo8UaUDGPnw",
@@ -7966,6 +8080,12 @@
         "name": "Wu-Tang: 7th Chamber",
         "album": "Enter The Wu-Tang (36 Chambers) [Expanded Edition]",
         "spotify_url": "https://open.spotify.com/track/5wcY4XgawQ2se8VjDLhedQ",
+        "plays": 1
+      },
+      {
+        "name": "Preservation",
+        "album": "Wu-Tang Meets The Indie Culture",
+        "spotify_url": "https://open.spotify.com/track/2kNLkA4bzGRmOOottVl6IE",
         "plays": 1
       },
       {
@@ -10752,9 +10872,9 @@
     "id": "1G9G7WwrXka3Z1r7aIDjI7",
     "name": "Outkast",
     "spotify_url": "https://open.spotify.com/artist/1G9G7WwrXka3Z1r7aIDjI7",
-    "total_plays": 3,
+    "total_plays": 4,
     "first_seen": "2026-03-06",
-    "last_seen": "2026-07-04",
+    "last_seen": "2026-10-27",
     "genres": [
       "southern hip hop",
       "hip hop"
@@ -10793,6 +10913,12 @@
         "name": "B.O.B. - Bombs Over Baghdad",
         "album": "Stankonia",
         "spotify_url": "https://open.spotify.com/track/3WibbMr6canxRJXhNtAvLU",
+        "plays": 1
+      },
+      {
+        "name": "ATLiens",
+        "album": "ATLiens",
+        "spotify_url": "https://open.spotify.com/track/2vfvGlqCB7oertO5VLE0sz",
         "plays": 1
       },
       {
@@ -10859,12 +10985,6 @@
         "name": "Two Dope Boyz (In a Cadillac)",
         "album": "ATLiens",
         "spotify_url": "https://open.spotify.com/track/2q8lHMMso6wx6pb5uwqzOs",
-        "plays": 1
-      },
-      {
-        "name": "ATLiens",
-        "album": "ATLiens",
-        "spotify_url": "https://open.spotify.com/track/2vfvGlqCB7oertO5VLE0sz",
         "plays": 1
       },
       {
@@ -11824,9 +11944,9 @@
     "id": "1YfEcTuGvBQ8xSD1f53UnK",
     "name": "Busta Rhymes",
     "spotify_url": "https://open.spotify.com/artist/1YfEcTuGvBQ8xSD1f53UnK",
-    "total_plays": 4,
+    "total_plays": 5,
     "first_seen": "2026-03-06",
-    "last_seen": "2026-09-19",
+    "last_seen": "2026-10-27",
     "genres": [
       "east coast hip hop"
     ],
@@ -11867,6 +11987,12 @@
         "plays": 1
       },
       {
+        "name": "I Know What You Want (feat. Flipmode Squad)",
+        "album": "It Ain't Safe No More. . .",
+        "spotify_url": "https://open.spotify.com/track/0YImOCkIJ2PWhCXaURCZnY",
+        "plays": 1
+      },
+      {
         "name": "Put Your Hands Where My Eyes Could See (feat. Jamal)",
         "album": "When Disaster Strikes...",
         "spotify_url": "https://open.spotify.com/track/1NHwvBmrUje4L1dxfWnXCH",
@@ -11890,9 +12016,9 @@
     "id": "6DPYiyq5kWVQS4RGwxzPC7",
     "name": "Dr. Dre",
     "spotify_url": "https://open.spotify.com/artist/6DPYiyq5kWVQS4RGwxzPC7",
-    "total_plays": 10,
+    "total_plays": 12,
     "first_seen": "2026-03-06",
-    "last_seen": "2026-08-11",
+    "last_seen": "2026-10-27",
     "genres": [
       "old school hip hop",
       "g-funk",
@@ -11931,6 +12057,18 @@
         "plays": 2
       },
       {
+        "name": "Forgot About Dre",
+        "album": "2001",
+        "spotify_url": "https://open.spotify.com/track/7iXF2W9vKmDoGAhlHdpyIa",
+        "plays": 2
+      },
+      {
+        "name": "The Watcher",
+        "album": "2001",
+        "spotify_url": "https://open.spotify.com/track/1iQ5E4z6CJ38dIzvMI9Wdo",
+        "plays": 2
+      },
+      {
         "name": "Still D.R.E.",
         "album": "2001",
         "spotify_url": "https://open.spotify.com/track/503OTo2dSqe7qk76rgsbep",
@@ -11943,12 +12081,6 @@
         "plays": 1
       },
       {
-        "name": "Forgot About Dre",
-        "album": "2001",
-        "spotify_url": "https://open.spotify.com/track/7iXF2W9vKmDoGAhlHdpyIa",
-        "plays": 1
-      },
-      {
         "name": "What's The Difference",
         "album": "2001",
         "spotify_url": "https://open.spotify.com/track/1SWVDBtw6h3tm9OehOkDhv",
@@ -11958,12 +12090,6 @@
         "name": "Gospel (with Eminem)",
         "album": "Gospel (with Eminem)",
         "spotify_url": "https://open.spotify.com/track/3a2jFwnts4Cf0OwJbK61SL",
-        "plays": 1
-      },
-      {
-        "name": "The Watcher",
-        "album": "2001",
-        "spotify_url": "https://open.spotify.com/track/1iQ5E4z6CJ38dIzvMI9Wdo",
         "plays": 1
       },
       {
@@ -15985,9 +16111,9 @@
     "id": "3q7HBObVc0L8jNeTe5Gofh",
     "name": "50 Cent",
     "spotify_url": "https://open.spotify.com/artist/3q7HBObVc0L8jNeTe5Gofh",
-    "total_plays": 6,
+    "total_plays": 7,
     "first_seen": "2026-03-03",
-    "last_seen": "2026-04-05",
+    "last_seen": "2026-10-27",
     "genres": [
       "old school hip hop",
       "east coast hip hop"
@@ -16016,6 +16142,12 @@
     ],
     "top_tracks": [
       {
+        "name": "If I Can't",
+        "album": "Get Rich Or Die Tryin'",
+        "spotify_url": "https://open.spotify.com/track/7JeKXMQKm6GoLGTkNy2jZ0",
+        "plays": 2
+      },
+      {
         "name": "We Up",
         "album": "We Up",
         "spotify_url": "https://open.spotify.com/track/4VnYL2m6J9kWrBSw22CXwx",
@@ -16037,12 +16169,6 @@
         "name": "Many Men (Wish Death)",
         "album": "Get Rich Or Die Tryin'",
         "spotify_url": "https://open.spotify.com/track/2I9foKseoFQh07p6sD2voE",
-        "plays": 1
-      },
-      {
-        "name": "If I Can't",
-        "album": "Get Rich Or Die Tryin'",
-        "spotify_url": "https://open.spotify.com/track/7JeKXMQKm6GoLGTkNy2jZ0",
         "plays": 1
       },
       {
@@ -16600,9 +16726,9 @@
     "id": "30fiiwr2EeZp1tAhzYCmyM",
     "name": "Big L",
     "spotify_url": "https://open.spotify.com/artist/30fiiwr2EeZp1tAhzYCmyM",
-    "total_plays": 1,
+    "total_plays": 3,
     "first_seen": "2026-03-03",
-    "last_seen": "2026-03-03",
+    "last_seen": "2026-10-27",
     "genres": [
       "east coast hip hop",
       "old school hip hop",
@@ -16632,6 +16758,18 @@
         "name": "MVP",
         "album": "Lifestylez Ov Da Poor & Dangerous",
         "spotify_url": "https://open.spotify.com/track/5LN1B9uVAVleCZ2euGarvi",
+        "plays": 1
+      },
+      {
+        "name": "The Enemy (feat. Fat Joe)",
+        "album": "The Big Picture",
+        "spotify_url": "https://open.spotify.com/track/2EpUHz5TqbAAQ8iweD75p6",
+        "plays": 1
+      },
+      {
+        "name": "Ebonics (Criminal Slang)",
+        "album": "The Big Picture",
+        "spotify_url": "https://open.spotify.com/track/7tdVuvf3bFIWADewXfTtK5",
         "plays": 1
       }
     ]
@@ -18488,9 +18626,9 @@
     "id": "3nFkdlSjzX9mRTtwJOzDYB",
     "name": "JAŸ-Z",
     "spotify_url": "https://open.spotify.com/artist/3nFkdlSjzX9mRTtwJOzDYB",
-    "total_plays": 5,
+    "total_plays": 6,
     "first_seen": "2026-03-11",
-    "last_seen": "2026-06-10",
+    "last_seen": "2026-10-27",
     "genres": [
       "hip hop",
       "east coast hip hop",
@@ -18515,6 +18653,12 @@
     ],
     "top_tracks": [
       {
+        "name": "Renegade",
+        "album": "The Blueprint (Explicit Version)",
+        "spotify_url": "https://open.spotify.com/track/0eK5y1c7WDyWwx6k9SFjbT",
+        "plays": 2
+      },
+      {
         "name": "DEAD PRESIDENTS (ALBUM VERSION)",
         "album": "Dead Presidents",
         "spotify_url": "https://open.spotify.com/track/0nzLXQufkRxo1aslz36gJp",
@@ -18530,12 +18674,6 @@
         "name": "Hard Knock Life (Ghetto Anthem)",
         "album": "Vol.2... Hard Knock Life",
         "spotify_url": "https://open.spotify.com/track/5Tl0HJvynZtKdSUMKbFVVX",
-        "plays": 1
-      },
-      {
-        "name": "Renegade",
-        "album": "The Blueprint (Explicit Version)",
-        "spotify_url": "https://open.spotify.com/track/0eK5y1c7WDyWwx6k9SFjbT",
         "plays": 1
       },
       {
@@ -24616,9 +24754,9 @@
     "id": "1P8IfcNKwrkQP5xJWuhaOC",
     "name": "LL COOL J",
     "spotify_url": "https://open.spotify.com/artist/1P8IfcNKwrkQP5xJWuhaOC",
-    "total_plays": 2,
+    "total_plays": 3,
     "first_seen": "2026-04-05",
-    "last_seen": "2026-05-27",
+    "last_seen": "2026-10-27",
     "genres": [
       "old school hip hop",
       "east coast hip hop"
@@ -24645,7 +24783,7 @@
         "name": "Murdergram Deux (feat. Eminem)",
         "album": "THE FORCE",
         "spotify_url": "https://open.spotify.com/track/4Fhph8yWRNFeIoI7iXQL4W",
-        "plays": 1
+        "plays": 2
       },
       {
         "name": "I'm Bad",
@@ -39565,9 +39703,9 @@
     "id": "4Otx4bRLSfpah5kX8hdgDC",
     "name": "Naughty By Nature",
     "spotify_url": "https://open.spotify.com/artist/4Otx4bRLSfpah5kX8hdgDC",
-    "total_plays": 2,
+    "total_plays": 3,
     "first_seen": "2026-07-10",
-    "last_seen": "2026-08-11",
+    "last_seen": "2026-10-27",
     "genres": [
       "old school hip hop",
       "east coast hip hop"
@@ -39591,15 +39729,15 @@
     ],
     "top_tracks": [
       {
-        "name": "Feel Me Flow",
-        "album": "Poverty's Paradise (25th Anniversary - Remastered)",
-        "spotify_url": "https://open.spotify.com/track/4dbZObCjUs95HtmEHfKbnU",
-        "plays": 1
-      },
-      {
         "name": "Yoke the Joker",
         "album": "Naughty By Nature",
         "spotify_url": "https://open.spotify.com/track/4Aujn3OS6bSqprR2UVGlfy",
+        "plays": 2
+      },
+      {
+        "name": "Feel Me Flow",
+        "album": "Poverty's Paradise (25th Anniversary - Remastered)",
+        "spotify_url": "https://open.spotify.com/track/4dbZObCjUs95HtmEHfKbnU",
         "plays": 1
       }
     ]
@@ -39722,9 +39860,9 @@
     "id": "5cMgGlA1xGyeAB2ctYlRdZ",
     "name": "Gang Starr",
     "spotify_url": "https://open.spotify.com/artist/5cMgGlA1xGyeAB2ctYlRdZ",
-    "total_plays": 1,
+    "total_plays": 2,
     "first_seen": "2026-07-10",
-    "last_seen": "2026-07-10",
+    "last_seen": "2026-10-27",
     "genres": [
       "east coast hip hop",
       "old school hip hop",
@@ -39753,6 +39891,12 @@
         "name": "Work",
         "album": "Moment Of Truth",
         "spotify_url": "https://open.spotify.com/track/1EiLrPd8JMTcQUr1aLEUKi",
+        "plays": 1
+      },
+      {
+        "name": "Battle",
+        "album": "8 Mile (Music From And Inspired By The Motion Picture)",
+        "spotify_url": "https://open.spotify.com/track/4Ix8BBZ5b2V61R2kABW4Hy",
         "plays": 1
       },
       {
@@ -39795,12 +39939,6 @@
         "name": "Mass Appeal",
         "album": "Hard To Earn",
         "spotify_url": "https://open.spotify.com/track/3lGBvPUgO7MJltUnBlOpe9",
-        "plays": 1
-      },
-      {
-        "name": "Battle",
-        "album": "8 Mile (Music From And Inspired By The Motion Picture)",
-        "spotify_url": "https://open.spotify.com/track/4Ix8BBZ5b2V61R2kABW4Hy",
         "plays": 1
       },
       {
@@ -51915,6 +52053,387 @@
         "name": "There Will Never Be Another You - Vocal Version",
         "album": "Chet Baker Sings",
         "spotify_url": "https://open.spotify.com/track/2zPANzQTt5Nbkg0eBPb7HI",
+        "plays": 1
+      }
+    ]
+  },
+  "d12": {
+    "id": "5Qi4Bb7a8C0a00NZcA77L0",
+    "name": "D12",
+    "spotify_url": "https://open.spotify.com/artist/5Qi4Bb7a8C0a00NZcA77L0",
+    "total_plays": 1,
+    "first_seen": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb1d3ee14bc0e0b14dac6b1b0c",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051741d3ee14bc0e0b14dac6b1b0c",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1781d3ee14bc0e0b14dac6b1b0c",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Purple Pills",
+        "album": "Devils Night",
+        "spotify_url": "https://open.spotify.com/track/5IweeQZdY5XEzStLzUJG5t",
+        "plays": 1
+      },
+      {
+        "name": "Under The Influence",
+        "album": "The Marshall Mathers LP",
+        "spotify_url": "https://open.spotify.com/track/5H3B1WtZYGmyOYOXgQltKU",
+        "plays": 2
+      }
+    ]
+  },
+  "spice-1": {
+    "id": "4TqmaFJYM8SvuhrunxpmT3",
+    "name": "Spice 1",
+    "spotify_url": "https://open.spotify.com/artist/4TqmaFJYM8SvuhrunxpmT3",
+    "total_plays": 1,
+    "first_seen": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "genres": [
+      "west coast hip hop",
+      "g-funk",
+      "old school hip hop",
+      "gangster rap"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb7787918d4436490eb7ff3996",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051747787918d4436490eb7ff3996",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1787787918d4436490eb7ff3996",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "I Got Five On It Remix",
+        "album": "Hits II",
+        "spotify_url": "https://open.spotify.com/track/5nHtgUvx4k3FLYDHx7NAs7",
+        "plays": 1
+      }
+    ]
+  },
+  "warren-g": {
+    "id": "2B4ZHz4QDWJTXPFPgO5peE",
+    "name": "Warren G",
+    "spotify_url": "https://open.spotify.com/artist/2B4ZHz4QDWJTXPFPgO5peE",
+    "total_plays": 1,
+    "first_seen": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "genres": [
+      "g-funk",
+      "west coast hip hop",
+      "old school hip hop",
+      "gangster rap"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb5c9383166226bbe48213b064",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051745c9383166226bbe48213b064",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1785c9383166226bbe48213b064",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Regulate",
+        "album": "Regulate...G Funk Era (20th Anniversary)",
+        "spotify_url": "https://open.spotify.com/track/4uIKHABS2ixy0AW0Y31rj4",
+        "plays": 1
+      },
+      {
+        "name": "And Ya Don't Stop",
+        "album": "Regulate… G Funk Era",
+        "spotify_url": "https://open.spotify.com/track/7HqVEwaOpxbcjKlmftAyUu",
+        "plays": 1
+      },
+      {
+        "name": "i shot the sheriff - lofi",
+        "album": "lofi chill vibes with warren g (deluxe)",
+        "spotify_url": "https://open.spotify.com/track/0kaL68UgvT9lPFCixgQ5C6",
+        "plays": 1
+      },
+      {
+        "name": "and ya don't stop - lofi",
+        "album": "lofi chill vibes with warren g (deluxe)",
+        "spotify_url": "https://open.spotify.com/track/2V5OvQqgOTgVMBphk7nfk9",
+        "plays": 1
+      },
+      {
+        "name": "and you know that - lofi",
+        "album": "lofi chill vibes with warren g (deluxe)",
+        "spotify_url": "https://open.spotify.com/track/4uOCsNyd4bb6ocnVVwgiqX",
+        "plays": 1
+      },
+      {
+        "name": "keep on hustlin' - lofi",
+        "album": "lofi chill vibes with warren g (deluxe)",
+        "spotify_url": "https://open.spotify.com/track/4vKAoXS3WYklhWmHUuHyYq",
+        "plays": 1
+      },
+      {
+        "name": "if we give you a chance - lofi",
+        "album": "lofi chill vibes with warren g (deluxe)",
+        "spotify_url": "https://open.spotify.com/track/59JGoFlk5TjqXeZ3XsJCSG",
+        "plays": 1
+      },
+      {
+        "name": "dope beat - lofi",
+        "album": "lofi chill vibes with warren g (deluxe)",
+        "spotify_url": "https://open.spotify.com/track/7FyBJ28YnwqacIX5jajH6X",
+        "plays": 1
+      }
+    ]
+  },
+  "mobb-deep": {
+    "id": "6O2zJ0tId7g07yzHtX0yap",
+    "name": "Mobb Deep",
+    "spotify_url": "https://open.spotify.com/artist/6O2zJ0tId7g07yzHtX0yap",
+    "total_plays": 2,
+    "first_seen": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "genres": [
+      "old school hip hop",
+      "east coast hip hop",
+      "hardcore hip hop",
+      "hip hop",
+      "gangster rap"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebf85a8db4c66d84f796d2afe5",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174f85a8db4c66d84f796d2afe5",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178f85a8db4c66d84f796d2afe5",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Survival of the Fittest",
+        "album": "The Infamous",
+        "spotify_url": "https://open.spotify.com/track/7N1Vjtzr1lmmCW9iasQ8YO",
+        "plays": 1
+      },
+      {
+        "name": "Shook Ones, Pt. II",
+        "album": "The Infamous",
+        "spotify_url": "https://open.spotify.com/track/33ZXjLCpiINn8eQIDYEPTD",
+        "plays": 1
+      }
+    ]
+  },
+  "immortal-technique": {
+    "id": "7h8ja4JSORo2sXJPmCXRxa",
+    "name": "Immortal Technique",
+    "spotify_url": "https://open.spotify.com/artist/7h8ja4JSORo2sXJPmCXRxa",
+    "total_plays": 1,
+    "first_seen": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "genres": [
+      "hardcore hip hop",
+      "underground hip hop",
+      "east coast hip hop"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb3ef26ad9da922d14fa7b1ff6",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051743ef26ad9da922d14fa7b1ff6",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1783ef26ad9da922d14fa7b1ff6",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Dance With The Devil",
+        "album": "Revolutionary, Vol. 1",
+        "spotify_url": "https://open.spotify.com/track/4LCzEYKPFcd2FCOmZdVDnM",
+        "plays": 1
+      }
+    ]
+  },
+  "ice-cube": {
+    "id": "3Mcii5XWf6E0lrY3Uky4cA",
+    "name": "Ice Cube",
+    "spotify_url": "https://open.spotify.com/artist/3Mcii5XWf6E0lrY3Uky4cA",
+    "total_plays": 1,
+    "first_seen": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "genres": [
+      "old school hip hop",
+      "gangster rap",
+      "west coast hip hop",
+      "g-funk",
+      "hip hop"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb650e79afafd00492e33d7b8c",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174650e79afafd00492e33d7b8c",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178650e79afafd00492e33d7b8c",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "You Can Do It",
+        "album": "War & Peace Vol. 2 (The Peace Disc)",
+        "spotify_url": "https://open.spotify.com/track/4NTn0Yo8hTGW5tbBANBzfh",
+        "plays": 1
+      },
+      {
+        "name": "Ain't That Funkin' Kinda Hard on You? - We Ain't Neva Gonna Stop Remix",
+        "album": "Ain't That Funkin' Kinda Hard on You? (We Ain't Neva Gonna Stop Remix) [feat. Kendrick Lamar & Ice Cube] - Single",
+        "spotify_url": "https://open.spotify.com/track/6SgQIoLn8kpu8J4wfwGWy8",
+        "plays": 3
+      },
+      {
+        "name": "Foe Life",
+        "album": "Mack 10",
+        "spotify_url": "https://open.spotify.com/track/28SF0lKRqso9SSTDpbv991",
+        "plays": 2
+      },
+      {
+        "name": "Hoo-Bangin'",
+        "album": "Best Of Mack 10",
+        "spotify_url": "https://open.spotify.com/track/7azG6CLuWpm0YHNTFG6WSa",
+        "plays": 2
+      },
+      {
+        "name": "Big Subwoofer (feat. Snoop Dogg, Ice Cube, E-40 & Too $hort ) - Single Version",
+        "album": "Big Subwoofer",
+        "spotify_url": "https://open.spotify.com/track/5GPm7PsMQwceQvfYlGXcCt",
+        "plays": 1
+      }
+    ]
+  },
+  "the-high-mighty": {
+    "id": "4hJpETVqz3jIrAH1WUzGEj",
+    "name": "The High & Mighty",
+    "spotify_url": "https://open.spotify.com/artist/4hJpETVqz3jIrAH1WUzGEj",
+    "total_plays": 1,
+    "first_seen": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "genres": [
+      "underground hip hop"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b27356d7e325a73cedb8eec16f0d",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e026a19be29a77ce4771edd93ed",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000485156d7e325a73cedb8eec16f0d",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "The Last Hit",
+        "album": "Home Field Advantage",
+        "spotify_url": "https://open.spotify.com/track/6ZK357j22DuGv2O7z0GRbA",
+        "plays": 1
+      }
+    ]
+  },
+  "pharoahe-monch": {
+    "id": "5DKuVtlpDH0agZQUFDy8O7",
+    "name": "Pharoahe Monch",
+    "spotify_url": "https://open.spotify.com/artist/5DKuVtlpDH0agZQUFDy8O7",
+    "total_plays": 1,
+    "first_seen": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "genres": [
+      "east coast hip hop",
+      "old school hip hop"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb8569e668d97d93d6df2c2716",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051748569e668d97d93d6df2c2716",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1788569e668d97d93d6df2c2716",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Simon Says",
+        "album": "Internal Affairs",
+        "spotify_url": "https://open.spotify.com/track/62l1ZGNoUlJlVwhwMKu2T6",
         "plays": 1
       }
     ]
@@ -67686,87 +68205,6 @@
         "name": "Time (Bonus Track) - 2017 Remastered Version",
         "album": "Breaking Atoms (2017 Remastered)",
         "spotify_url": "https://open.spotify.com/track/63ePCO5r1kdRbNSQ5jZqBj",
-        "plays": 1
-      }
-    ]
-  },
-  "warren-g": {
-    "id": "2B4ZHz4QDWJTXPFPgO5peE",
-    "name": "Warren G",
-    "spotify_url": "https://open.spotify.com/artist/2B4ZHz4QDWJTXPFPgO5peE",
-    "total_plays": 7,
-    "first_seen": "",
-    "last_seen": "",
-    "genres": [
-      "g funk",
-      "gangster rap",
-      "hardcore hip hop",
-      "hip hop",
-      "west coast rap"
-    ],
-    "images": [
-      {
-        "height": 1415,
-        "url": "https://i.scdn.co/image/b4e391e4baf471b23cbb34ca6a7fdfb972f01177",
-        "width": 1000
-      },
-      {
-        "height": 905,
-        "url": "https://i.scdn.co/image/504a16559393702b641beeee6bec8b2fbeaecc9d",
-        "width": 640
-      },
-      {
-        "height": 283,
-        "url": "https://i.scdn.co/image/28c4009b0e086d6c5e4f2d3cbe44a5dce692beaa",
-        "width": 200
-      },
-      {
-        "height": 91,
-        "url": "https://i.scdn.co/image/a957aa25534e73b6ccc20df16710f98adb91333c",
-        "width": 64
-      }
-    ],
-    "top_tracks": [
-      {
-        "name": "And Ya Don't Stop",
-        "album": "Regulate… G Funk Era",
-        "spotify_url": "https://open.spotify.com/track/7HqVEwaOpxbcjKlmftAyUu",
-        "plays": 1
-      },
-      {
-        "name": "i shot the sheriff - lofi",
-        "album": "lofi chill vibes with warren g (deluxe)",
-        "spotify_url": "https://open.spotify.com/track/0kaL68UgvT9lPFCixgQ5C6",
-        "plays": 1
-      },
-      {
-        "name": "and ya don't stop - lofi",
-        "album": "lofi chill vibes with warren g (deluxe)",
-        "spotify_url": "https://open.spotify.com/track/2V5OvQqgOTgVMBphk7nfk9",
-        "plays": 1
-      },
-      {
-        "name": "and you know that - lofi",
-        "album": "lofi chill vibes with warren g (deluxe)",
-        "spotify_url": "https://open.spotify.com/track/4uOCsNyd4bb6ocnVVwgiqX",
-        "plays": 1
-      },
-      {
-        "name": "keep on hustlin' - lofi",
-        "album": "lofi chill vibes with warren g (deluxe)",
-        "spotify_url": "https://open.spotify.com/track/4vKAoXS3WYklhWmHUuHyYq",
-        "plays": 1
-      },
-      {
-        "name": "if we give you a chance - lofi",
-        "album": "lofi chill vibes with warren g (deluxe)",
-        "spotify_url": "https://open.spotify.com/track/59JGoFlk5TjqXeZ3XsJCSG",
-        "plays": 1
-      },
-      {
-        "name": "dope beat - lofi",
-        "album": "lofi chill vibes with warren g (deluxe)",
-        "spotify_url": "https://open.spotify.com/track/7FyBJ28YnwqacIX5jajH6X",
         "plays": 1
       }
     ]
