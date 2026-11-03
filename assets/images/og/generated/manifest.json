@@ -9049,6 +9049,12 @@
       "layout": "abstract",
       "section": "posts"
     },
+    "/posts/benstraw-com-redesign/": {
+      "output": "posts/benstraw-com-redesign.jpg",
+      "fingerprint": "21564f8e91e5e07bf1018d0e4c99393cdbb6d57a3089673f2f66018803f71ef5",
+      "layout": "full",
+      "section": "posts"
+    },
     "/posts/extreme-geomagnetic-storm-photography/": {
       "output": "posts/extreme-geomagnetic-storm-photography.jpg",
       "fingerprint": "e7b134da7cf2d907d630b525bdf0eaf95435fcfd5ccae74a53635cbce4386670",
