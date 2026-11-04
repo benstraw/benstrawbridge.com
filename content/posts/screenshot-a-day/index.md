@@ -28,9 +28,9 @@ A theme update breaks a hero image on Safari. A hosting provider changes a defau
 
 I have given that shrug more than once. This week I shipped [Screenshot-a-Day v0.1.0](https://github.com/arts-link/screenshot-a-day) so I would stop having to.
 
-The idea is not new around here. It has been sitting on this site [as a sketch](/projects/screenshot-a-day/) since May 2024, back when I assumed the answer was a $10/year SaaS running Puppeteer on a Lambda. What actually shipped went the other direction on almost every one of those assumptions, and the reasons are the interesting part.
-
 <!--more-->
+
+The idea is not new around here. It has been sitting on this site [as a sketch](/projects/screenshot-a-day/) since May 2024, back when I assumed the answer was a $10/year SaaS running Puppeteer on a Lambda. What actually shipped went the other direction on almost every one of those assumptions, and the reasons are the interesting part.
 
 ![The Screenshot-a-Day marketing site: the headline "A Wayback Machine for the sites you own" beside a stack of dated captures of the same page](marketing-site.png)
 

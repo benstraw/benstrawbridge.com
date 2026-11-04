@@ -18,9 +18,9 @@ I clicked the “Latest release” badge in Ryder’s README and landed on `v0.0
 
 That would have been unremarkable if it were the latest release. It wasn’t. Ryder had shipped `v0.1.0` through `v0.2.4`, but the release workflow marked every automated release as a prerelease. GitHub excludes prereleases from that badge, so two years of releases were present, downloadable, and effectively invisible from the project’s front door.
 
-<!--more-->
-
 Nothing had crashed. The workflow ran, the releases existed, and the badge linked to a valid page. Every component did something reasonable on its own, and together they told a lie.
+
+<!--more-->
 
 I only found it because someone else finally had a reason to look. That is the short version of what taking the [Ryder Hugo theme](https://github.com/arts-link/ryder) from `v0.2.3` to [`v0.3.0`](https://github.com/arts-link/ryder/releases/tag/v0.3.0) taught me: a project gets honest the moment a stranger starts using it. Someone who doesn’t already know how it works can’t unconsciously route around the parts that don’t. Everything below came out of that one change in circumstance, and the theme is considerably better for it.
 
