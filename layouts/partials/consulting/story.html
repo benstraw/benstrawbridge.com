@@ -1,0 +1,22 @@
+{{- /*
+One client story card. The wrapper id lets hub teasers deep-link to #<id>.
+
+@param page  the rendering page (for RenderString)
+@param item  one [[stories]] entry
+*/ -}}
+{{- $item := .item -}}
+<article id="{{ $item.id }}" class="not-prose scroll-mt-6 rounded-xl border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-700/70 dark:bg-slate-900/70 sm:p-8">
+  <p class="m-0 text-xs font-semibold uppercase tracking-wider text-emerald-700 dark:text-emerald-400">{{ $item.role }}</p>
+  <h3 class="mb-0 mt-2 text-xl font-bold tracking-tight text-slate-900 dark:text-white sm:text-2xl">{{ $item.title }}</h3>
+  <div class="prose prose-lg mt-4 max-w-none dark:prose-invert prose-p:my-0">{{ .page.RenderString (dict "display" "block") $item.body }}</div>
+  {{- with $item.bridge }}
+    <p class="mb-0 mt-5 rounded-lg border-l-4 border-emerald-500 bg-emerald-50 px-4 py-3 italic text-slate-800 dark:bg-emerald-950/40 dark:text-slate-200">{{ . }}</p>
+  {{- end }}
+  {{- with $item.links }}
+    <div class="mt-5 flex flex-wrap gap-3">
+      {{- range . }}
+        <a href="{{ .url }}" class="rounded-lg border border-slate-300 px-4 py-2 text-sm font-semibold text-slate-800 no-underline hover:border-emerald-500 hover:text-emerald-700 dark:border-slate-600 dark:text-slate-100 dark:hover:text-emerald-300">{{ .label }} <span aria-hidden="true">&rarr;</span></a>
+      {{- end }}
+    </div>
+  {{- end }}
+</article>

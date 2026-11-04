@@ -43,7 +43,7 @@ on the site, and as a careful engineer in the repo.
 | Links | **Neutral third person**, 1–2 sentences: what the thing is and why it's useful. | "Anthropic's product page for Claude Code, an agentic coding tool that runs in the terminal or an IDE." No first person, no hype. Tags lowercase-kebab. |
 | Recipes | Warm, family-voiced headnote, then the structured recipe. | Ingredients and steps live in front matter for schema.org; the body is story and tips. |
 | Listening | Generated. Don't hand-write. | — |
-| Consulting | Direct, client-facing, outcomes over buzzwords. | Name real tools (Auth0, Okta, AWS) rather than categories. |
+| Consulting | Direct, client-facing, outcomes over buzzwords. | Lead with the buyer's problem and what changed; tools appear as evidence inside stories, not as lists. No prices or rates unless Ben provides them. Offerings, stories and the lab list live in `data/consulting.toml`. |
 
 ### Images
 
