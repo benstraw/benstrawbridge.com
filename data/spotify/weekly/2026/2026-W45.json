@@ -1,0 +1,500 @@
+{
+  "week": "2026-W45",
+  "title": "Week of Nov 2, 2026",
+  "year": 2026,
+  "week_num": 45,
+  "date_start": "2026-11-02",
+  "date_end": "2026-11-08",
+  "total_plays": 41,
+  "unique_artists": 8,
+  "topArtistName": "Elvis Costello",
+  "topArtistImages": [
+    {
+      "url": "https://i.scdn.co/image/ab6761610000e5ebbd95594d3201ab9c7b0349e6",
+      "height": 640,
+      "width": 640
+    },
+    {
+      "url": "https://i.scdn.co/image/ab67616100005174bd95594d3201ab9c7b0349e6",
+      "height": 320,
+      "width": 320
+    },
+    {
+      "url": "https://i.scdn.co/image/ab6761610000f178bd95594d3201ab9c7b0349e6",
+      "height": 160,
+      "width": 160
+    }
+  ],
+  "top_genres": [
+    {
+      "name": "power pop",
+      "plays": 32
+    },
+    {
+      "name": "new wave",
+      "plays": 6
+    },
+    {
+      "name": "jazz",
+      "plays": 4
+    },
+    {
+      "name": "hard bop",
+      "plays": 3
+    },
+    {
+      "name": "free jazz",
+      "plays": 3
+    },
+    {
+      "name": "bebop",
+      "plays": 3
+    },
+    {
+      "name": "jazz ballads",
+      "plays": 3
+    },
+    {
+      "name": "cool jazz",
+      "plays": 3
+    },
+    {
+      "name": "folk rock",
+      "plays": 2
+    },
+    {
+      "name": "folk",
+      "plays": 2
+    }
+  ],
+  "top_artists": [
+    {
+      "slug": "elvis-costello",
+      "name": "Elvis Costello",
+      "plays": 26,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebbd95594d3201ab9c7b0349e6",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174bd95594d3201ab9c7b0349e6",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178bd95594d3201ab9c7b0349e6",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "elvis-costello-the-attractions",
+      "name": "Elvis Costello & The Attractions",
+      "plays": 6,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6772690000c46c29483131546114b6fe07b0b5",
+          "height": 1000,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6772690000dd2229483131546114b6fe07b0b5",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6772690000bac329483131546114b6fe07b0b5",
+          "height": 200,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67726900008f7429483131546114b6fe07b0b5",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "john-coltrane",
+      "name": "John Coltrane",
+      "plays": 3,
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb73c7f7505c1af82929ec41df",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab6761610000517473c7f7505c1af82929ec41df",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f17873c7f7505c1af82929ec41df",
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "bob-dylan",
+      "name": "Bob Dylan",
+      "plays": 2,
+      "images": [
+        {
+          "height": 1000,
+          "url": "https://i.scdn.co/image/ab6772690000c46cd7064356b04a156664a37c4f",
+          "width": 1000
+        },
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6772690000dd22d7064356b04a156664a37c4f",
+          "width": 640
+        },
+        {
+          "height": 200,
+          "url": "https://i.scdn.co/image/ab6772690000bac3d7064356b04a156664a37c4f",
+          "width": 200
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/ab67726900008f74d7064356b04a156664a37c4f",
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "tricky",
+      "name": "Tricky",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb4d984aa9a0e818883be927fa",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051744d984aa9a0e818883be927fa",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1784d984aa9a0e818883be927fa",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "gitkin",
+      "name": "Gitkin",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb3f71c246024b50cb1f66a234",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051743f71c246024b50cb1f66a234",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1783f71c246024b50cb1f66a234",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "stacey-kent",
+      "name": "Stacey Kent",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb0cf0b98f2ed4b8df9906958b",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051740cf0b98f2ed4b8df9906958b",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1780cf0b98f2ed4b8df9906958b",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "christopher-cross",
+      "name": "Christopher Cross",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eba2e75d072e19a6150744f924",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174a2e75d072e19a6150744f924",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178a2e75d072e19a6150744f924",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    }
+  ],
+  "top_tracks": [
+    {
+      "name": "I Hear A Melody - Demo",
+      "artist": "Elvis Costello",
+      "artist_slug": "elvis-costello",
+      "plays": 2
+    },
+    {
+      "name": "Thing in D Flat - Live from The Tiberi Tapes",
+      "artist": "John Coltrane",
+      "artist_slug": "john-coltrane",
+      "plays": 1
+    },
+    {
+      "name": "Giant Steps - 262 bpm – Live from The Tiberi Tapes",
+      "artist": "John Coltrane",
+      "artist_slug": "john-coltrane",
+      "plays": 1
+    },
+    {
+      "name": "Giant Steps - 226 bpm – Live from The Tiberi Tapes",
+      "artist": "John Coltrane",
+      "artist_slug": "john-coltrane",
+      "plays": 1
+    },
+    {
+      "name": "Black Steel",
+      "artist": "Tricky",
+      "artist_slug": "tricky",
+      "plays": 1
+    },
+    {
+      "name": "Safe Passage",
+      "artist": "Gitkin",
+      "artist_slug": "gitkin",
+      "plays": 1
+    },
+    {
+      "name": "I Wish I Could Go Travelling Again",
+      "artist": "Stacey Kent",
+      "artist_slug": "stacey-kent",
+      "plays": 1
+    },
+    {
+      "name": "Arthur's Theme",
+      "artist": "Christopher Cross",
+      "artist_slug": "christopher-cross",
+      "plays": 1
+    },
+    {
+      "name": "Can't Help Falling in Love",
+      "artist": "Bob Dylan",
+      "artist_slug": "bob-dylan",
+      "plays": 1
+    },
+    {
+      "name": "Lily of the West",
+      "artist": "Bob Dylan",
+      "artist_slug": "bob-dylan",
+      "plays": 1
+    },
+    {
+      "name": "Night Rally - Live at The Nashville Rooms, London, UK / August 7th, 1977",
+      "artist": "Elvis Costello & The Attractions",
+      "artist_slug": "elvis-costello-the-attractions",
+      "plays": 1
+    },
+    {
+      "name": "Waiting For The End Of The World - Live at The Nashville Rooms, London, UK / August 7th, 1977",
+      "artist": "Elvis Costello & The Attractions",
+      "artist_slug": "elvis-costello-the-attractions",
+      "plays": 1
+    },
+    {
+      "name": "No Dancing - Live at The Nashville Rooms, London, UK / August 7th, 1977",
+      "artist": "Elvis Costello & The Attractions",
+      "artist_slug": "elvis-costello-the-attractions",
+      "plays": 1
+    },
+    {
+      "name": "Blame It On Cain - Live at The Nashville Rooms, London, UK / August 7th, 1977",
+      "artist": "Elvis Costello & The Attractions",
+      "artist_slug": "elvis-costello-the-attractions",
+      "plays": 1
+    },
+    {
+      "name": "Welcome To The Working Week - Live at The Nashville Rooms, London, UK / August 7th, 1977",
+      "artist": "Elvis Costello & The Attractions",
+      "artist_slug": "elvis-costello-the-attractions",
+      "plays": 1
+    },
+    {
+      "name": "Introduction By Dave Robinson - Live at The Nashville Rooms, London, UK / August 7th, 1977",
+      "artist": "Elvis Costello & The Attractions",
+      "artist_slug": "elvis-costello-the-attractions",
+      "plays": 1
+    },
+    {
+      "name": "I Don't Want To Go Home - Demo",
+      "artist": "Elvis Costello",
+      "artist_slug": "elvis-costello",
+      "plays": 1
+    },
+    {
+      "name": "(The Angels Wanna Wear My) Red Shoes - Demo",
+      "artist": "Elvis Costello",
+      "artist_slug": "elvis-costello",
+      "plays": 1
+    },
+    {
+      "name": "Call On Me - Demo",
+      "artist": "Elvis Costello",
+      "artist_slug": "elvis-costello",
+      "plays": 1
+    },
+    {
+      "name": "Waiting For The End Of The World - Demo",
+      "artist": "Elvis Costello",
+      "artist_slug": "elvis-costello",
+      "plays": 1
+    },
+    {
+      "name": "Miracle Man - Demo",
+      "artist": "Elvis Costello",
+      "artist_slug": "elvis-costello",
+      "plays": 1
+    },
+    {
+      "name": "Blue Minute - Demo",
+      "artist": "Elvis Costello",
+      "artist_slug": "elvis-costello",
+      "plays": 1
+    },
+    {
+      "name": "Welcome To The Working Week - Demo",
+      "artist": "Elvis Costello",
+      "artist_slug": "elvis-costello",
+      "plays": 1
+    },
+    {
+      "name": "Stranger In The House - Outtake",
+      "artist": "Elvis Costello",
+      "artist_slug": "elvis-costello",
+      "plays": 1
+    },
+    {
+      "name": "Radio Sweetheart - Outtake",
+      "artist": "Elvis Costello",
+      "artist_slug": "elvis-costello",
+      "plays": 1
+    },
+    {
+      "name": "Living In Paradise - Early Version",
+      "artist": "Elvis Costello",
+      "artist_slug": "elvis-costello",
+      "plays": 1
+    },
+    {
+      "name": "No Action - Early Version",
+      "artist": "Elvis Costello",
+      "artist_slug": "elvis-costello",
+      "plays": 1
+    },
+    {
+      "name": "Watching The Detectives",
+      "artist": "Elvis Costello",
+      "artist_slug": "elvis-costello",
+      "plays": 1
+    },
+    {
+      "name": "Waiting For The End Of The World",
+      "artist": "Elvis Costello",
+      "artist_slug": "elvis-costello",
+      "plays": 1
+    },
+    {
+      "name": "I'm Not Angry",
+      "artist": "Elvis Costello",
+      "artist_slug": "elvis-costello",
+      "plays": 1
+    },
+    {
+      "name": "Pay It Back",
+      "artist": "Elvis Costello",
+      "artist_slug": "elvis-costello",
+      "plays": 1
+    },
+    {
+      "name": "Mystery Dance",
+      "artist": "Elvis Costello",
+      "artist_slug": "elvis-costello",
+      "plays": 1
+    },
+    {
+      "name": "Less Than Zero",
+      "artist": "Elvis Costello",
+      "artist_slug": "elvis-costello",
+      "plays": 1
+    },
+    {
+      "name": "(The Angels Wanna Wear My) Red Shoes",
+      "artist": "Elvis Costello",
+      "artist_slug": "elvis-costello",
+      "plays": 1
+    },
+    {
+      "name": "Sneaky Feelings",
+      "artist": "Elvis Costello",
+      "artist_slug": "elvis-costello",
+      "plays": 1
+    },
+    {
+      "name": "Alison",
+      "artist": "Elvis Costello",
+      "artist_slug": "elvis-costello",
+      "plays": 1
+    },
+    {
+      "name": "Blame It On Cain",
+      "artist": "Elvis Costello",
+      "artist_slug": "elvis-costello",
+      "plays": 1
+    },
+    {
+      "name": "No Dancing",
+      "artist": "Elvis Costello",
+      "artist_slug": "elvis-costello",
+      "plays": 1
+    },
+    {
+      "name": "Miracle Man",
+      "artist": "Elvis Costello",
+      "artist_slug": "elvis-costello",
+      "plays": 1
+    },
+    {
+      "name": "Welcome To The Working Week",
+      "artist": "Elvis Costello",
+      "artist_slug": "elvis-costello",
+      "plays": 1
+    }
+  ]
+}

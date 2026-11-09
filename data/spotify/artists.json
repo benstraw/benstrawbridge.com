@@ -17317,9 +17317,9 @@
     "id": "74ASZWbe4lXaubB36ztrGX",
     "name": "Bob Dylan",
     "spotify_url": "https://open.spotify.com/artist/74ASZWbe4lXaubB36ztrGX",
-    "total_plays": 4,
+    "total_plays": 6,
     "first_seen": "2026-03-03",
-    "last_seen": "2026-05-02",
+    "last_seen": "2026-11-04",
     "genres": [
       "folk rock",
       "folk",
@@ -17359,6 +17359,18 @@
         "name": "Tangled up in Blue",
         "album": "Blood On The Tracks",
         "spotify_url": "https://open.spotify.com/track/6Vcwr9tb3ZLO63F8DL8cqu",
+        "plays": 1
+      },
+      {
+        "name": "Can't Help Falling in Love",
+        "album": "Dylan (1973)",
+        "spotify_url": "https://open.spotify.com/track/368OHaaG7tnjVqD9hRIXhL",
+        "plays": 1
+      },
+      {
+        "name": "Lily of the West",
+        "album": "Dylan (1973)",
+        "spotify_url": "https://open.spotify.com/track/4FzjmZXggX5L2pro52kHeq",
         "plays": 1
       },
       {
@@ -18103,9 +18115,9 @@
     "id": "4qmHkMxr6pTWh5Zo74odpH",
     "name": "Elvis Costello & The Attractions",
     "spotify_url": "https://open.spotify.com/artist/4qmHkMxr6pTWh5Zo74odpH",
-    "total_plays": 20,
+    "total_plays": 26,
     "first_seen": "2026-03-13",
-    "last_seen": "2026-06-29",
+    "last_seen": "2026-11-03",
     "genres": [
       "new wave",
       "power pop"
@@ -18239,6 +18251,42 @@
         "name": "Oliver's Army",
         "album": "Armed Forces (Super Deluxe Edition)",
         "spotify_url": "https://open.spotify.com/track/1fK4o91ATUTpvBCOZ2GKDh",
+        "plays": 1
+      },
+      {
+        "name": "Night Rally - Live at The Nashville Rooms, London, UK / August 7th, 1977",
+        "album": "My Aim Is True",
+        "spotify_url": "https://open.spotify.com/track/5jiuNetyQXBuxyjspdsrLh",
+        "plays": 1
+      },
+      {
+        "name": "Waiting For The End Of The World - Live at The Nashville Rooms, London, UK / August 7th, 1977",
+        "album": "My Aim Is True",
+        "spotify_url": "https://open.spotify.com/track/6IcSYxa0OXvdp0ttIDKpOx",
+        "plays": 1
+      },
+      {
+        "name": "No Dancing - Live at The Nashville Rooms, London, UK / August 7th, 1977",
+        "album": "My Aim Is True",
+        "spotify_url": "https://open.spotify.com/track/3KgE2CoNNfOBANOxfRfctn",
+        "plays": 1
+      },
+      {
+        "name": "Blame It On Cain - Live at The Nashville Rooms, London, UK / August 7th, 1977",
+        "album": "My Aim Is True",
+        "spotify_url": "https://open.spotify.com/track/0ai8RGMPKYu89shFC18XYF",
+        "plays": 1
+      },
+      {
+        "name": "Welcome To The Working Week - Live at The Nashville Rooms, London, UK / August 7th, 1977",
+        "album": "My Aim Is True",
+        "spotify_url": "https://open.spotify.com/track/5aQ2OQni5sFZmgCzWyWQAD",
+        "plays": 1
+      },
+      {
+        "name": "Introduction By Dave Robinson - Live at The Nashville Rooms, London, UK / August 7th, 1977",
+        "album": "My Aim Is True",
+        "spotify_url": "https://open.spotify.com/track/19gOPeP3tuzmwlLQ8KwkAM",
         "plays": 1
       }
     ]
@@ -18866,9 +18914,9 @@
     "id": "2hGh5VOeeqimQFxqXvfCUf",
     "name": "John Coltrane",
     "spotify_url": "https://open.spotify.com/artist/2hGh5VOeeqimQFxqXvfCUf",
-    "total_plays": 4,
+    "total_plays": 7,
     "first_seen": "2026-03-11",
-    "last_seen": "2026-09-23",
+    "last_seen": "2026-11-08",
     "genres": [
       "jazz",
       "hard bop",
@@ -18911,6 +18959,24 @@
         "name": "My One And Only Love",
         "album": "John Coltrane And Johnny Hartman",
         "spotify_url": "https://open.spotify.com/track/0uPkCpuoERqrkBL06Art50",
+        "plays": 1
+      },
+      {
+        "name": "Thing in D Flat - Live from The Tiberi Tapes",
+        "album": "The Tiberi Tapes (Live)",
+        "spotify_url": "https://open.spotify.com/track/3rZeN9PJBnZRXK493VscwD",
+        "plays": 1
+      },
+      {
+        "name": "Giant Steps - 262 bpm – Live from The Tiberi Tapes",
+        "album": "The Tiberi Tapes (Live)",
+        "spotify_url": "https://open.spotify.com/track/2pjSO1Yn2ilN9Dz7A04VuB",
+        "plays": 1
+      },
+      {
+        "name": "Giant Steps - 226 bpm – Live from The Tiberi Tapes",
+        "album": "The Tiberi Tapes (Live)",
+        "spotify_url": "https://open.spotify.com/track/0oTTt5IwQVChM6X0Es2nV6",
         "plays": 1
       },
       {
@@ -47903,9 +47969,9 @@
     "id": "2BGRfQgtzikz1pzAD0kaEn",
     "name": "Elvis Costello",
     "spotify_url": "https://open.spotify.com/artist/2BGRfQgtzikz1pzAD0kaEn",
-    "total_plays": 18,
+    "total_plays": 44,
     "first_seen": "2026-09-13",
-    "last_seen": "2026-09-14",
+    "last_seen": "2026-11-03",
     "genres": [
       "power pop"
     ],
@@ -47931,6 +47997,12 @@
         "name": "(The Angels Wanna Wear My) Red Shoes",
         "album": "My Aim Is True",
         "spotify_url": "https://open.spotify.com/track/0GmLrYUBXDC5vti77zBZfJ",
+        "plays": 2
+      },
+      {
+        "name": "I Hear A Melody - Demo",
+        "album": "My Aim Is True",
+        "spotify_url": "https://open.spotify.com/track/6VPAIBZfusAU7F6UKcdMi5",
         "plays": 2
       },
       {
@@ -48027,6 +48099,150 @@
         "name": "Don't Let Me Be Misunderstood",
         "album": "King Of America",
         "spotify_url": "https://open.spotify.com/track/1ahrChnrh6tiVodmvmYacN",
+        "plays": 1
+      },
+      {
+        "name": "I Don't Want To Go Home - Demo",
+        "album": "My Aim Is True",
+        "spotify_url": "https://open.spotify.com/track/668kZNTg9t0PNdCPuf7FbR",
+        "plays": 1
+      },
+      {
+        "name": "(The Angels Wanna Wear My) Red Shoes - Demo",
+        "album": "My Aim Is True",
+        "spotify_url": "https://open.spotify.com/track/5y6EcWspJ7y0QDwAMTHhG6",
+        "plays": 1
+      },
+      {
+        "name": "Call On Me - Demo",
+        "album": "My Aim Is True",
+        "spotify_url": "https://open.spotify.com/track/2Eb4OQxvX8IH3JPYhUIlXC",
+        "plays": 1
+      },
+      {
+        "name": "Waiting For The End Of The World - Demo",
+        "album": "My Aim Is True",
+        "spotify_url": "https://open.spotify.com/track/7iY5yravRGuYssKj4lYtLP",
+        "plays": 1
+      },
+      {
+        "name": "Miracle Man - Demo",
+        "album": "My Aim Is True",
+        "spotify_url": "https://open.spotify.com/track/2jQBjhNYf2TLGVnOpm3Pg2",
+        "plays": 1
+      },
+      {
+        "name": "Blue Minute - Demo",
+        "album": "My Aim Is True",
+        "spotify_url": "https://open.spotify.com/track/3zYnS7iTQy6hfURdMHc7Vr",
+        "plays": 1
+      },
+      {
+        "name": "Welcome To The Working Week - Demo",
+        "album": "My Aim Is True",
+        "spotify_url": "https://open.spotify.com/track/67L78GEMIuSp3CSs5q2Sr7",
+        "plays": 1
+      },
+      {
+        "name": "Stranger In The House - Outtake",
+        "album": "My Aim Is True",
+        "spotify_url": "https://open.spotify.com/track/5CRzsFxNDz2xG7dsOcBXpF",
+        "plays": 1
+      },
+      {
+        "name": "Radio Sweetheart - Outtake",
+        "album": "My Aim Is True",
+        "spotify_url": "https://open.spotify.com/track/1k1OrdEKOPXSrvRv89adaz",
+        "plays": 1
+      },
+      {
+        "name": "Living In Paradise - Early Version",
+        "album": "My Aim Is True",
+        "spotify_url": "https://open.spotify.com/track/2ShopK3zbzhfxBOatBYIio",
+        "plays": 1
+      },
+      {
+        "name": "No Action - Early Version",
+        "album": "My Aim Is True",
+        "spotify_url": "https://open.spotify.com/track/6MBPJza4hLsIUuSRViMGlB",
+        "plays": 1
+      },
+      {
+        "name": "Watching The Detectives",
+        "album": "My Aim Is True",
+        "spotify_url": "https://open.spotify.com/track/1r453bo3yToA356T5H0LoP",
+        "plays": 1
+      },
+      {
+        "name": "Waiting For The End Of The World",
+        "album": "My Aim Is True",
+        "spotify_url": "https://open.spotify.com/track/0Yp9hUhGsLsKkfZShbpmUH",
+        "plays": 1
+      },
+      {
+        "name": "I'm Not Angry",
+        "album": "My Aim Is True",
+        "spotify_url": "https://open.spotify.com/track/6IicYKDzPBN2VDClsjxR9x",
+        "plays": 1
+      },
+      {
+        "name": "Pay It Back",
+        "album": "My Aim Is True",
+        "spotify_url": "https://open.spotify.com/track/6E6M7i9MO5u4cgQuMRxJPS",
+        "plays": 1
+      },
+      {
+        "name": "Mystery Dance",
+        "album": "My Aim Is True",
+        "spotify_url": "https://open.spotify.com/track/72SeIJejsAdE8fPRWHW2T0",
+        "plays": 1
+      },
+      {
+        "name": "Less Than Zero",
+        "album": "My Aim Is True",
+        "spotify_url": "https://open.spotify.com/track/0ShiEZmOLzqwhjOZs3c5ml",
+        "plays": 1
+      },
+      {
+        "name": "(The Angels Wanna Wear My) Red Shoes",
+        "album": "My Aim Is True",
+        "spotify_url": "https://open.spotify.com/track/4ir0D5ByZsfAFaIaditt6O",
+        "plays": 1
+      },
+      {
+        "name": "Sneaky Feelings",
+        "album": "My Aim Is True",
+        "spotify_url": "https://open.spotify.com/track/5H2s8XZ93h06pdyfEXIaT3",
+        "plays": 1
+      },
+      {
+        "name": "Alison",
+        "album": "My Aim Is True",
+        "spotify_url": "https://open.spotify.com/track/2HcE0UBhTeY1LYj4VcseJZ",
+        "plays": 1
+      },
+      {
+        "name": "Blame It On Cain",
+        "album": "My Aim Is True",
+        "spotify_url": "https://open.spotify.com/track/2PpVIhFaWO8KgUSLjj6gLJ",
+        "plays": 1
+      },
+      {
+        "name": "No Dancing",
+        "album": "My Aim Is True",
+        "spotify_url": "https://open.spotify.com/track/14r89rqsgq4GG32KBMTsRX",
+        "plays": 1
+      },
+      {
+        "name": "Miracle Man",
+        "album": "My Aim Is True",
+        "spotify_url": "https://open.spotify.com/track/4Dl0VcIcjjN5oh3jYr7qO0",
+        "plays": 1
+      },
+      {
+        "name": "Welcome To The Working Week",
+        "album": "My Aim Is True",
+        "spotify_url": "https://open.spotify.com/track/3ReSHpzDOMeKKBJ0STvOmv",
         "plays": 1
       },
       {
@@ -52434,6 +52650,154 @@
         "name": "Simon Says",
         "album": "Internal Affairs",
         "spotify_url": "https://open.spotify.com/track/62l1ZGNoUlJlVwhwMKu2T6",
+        "plays": 1
+      }
+    ]
+  },
+  "tricky": {
+    "id": "6hhA8TKRNryM8FNzqCqdDO",
+    "name": "Tricky",
+    "spotify_url": "https://open.spotify.com/artist/6hhA8TKRNryM8FNzqCqdDO",
+    "total_plays": 1,
+    "first_seen": "2026-11-06",
+    "last_seen": "2026-11-06",
+    "genres": [
+      "trip hop",
+      "downtempo"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb4d984aa9a0e818883be927fa",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051744d984aa9a0e818883be927fa",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1784d984aa9a0e818883be927fa",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Black Steel",
+        "album": "Maxinquaye (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/1xMkhItFUSLUlCxn3VbMT8",
+        "plays": 1
+      }
+    ]
+  },
+  "gitkin": {
+    "id": "2vNxFvF7ceoR0WeryGVhxt",
+    "name": "Gitkin",
+    "spotify_url": "https://open.spotify.com/artist/2vNxFvF7ceoR0WeryGVhxt",
+    "total_plays": 1,
+    "first_seen": "2026-11-05",
+    "last_seen": "2026-11-05",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb3f71c246024b50cb1f66a234",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051743f71c246024b50cb1f66a234",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1783f71c246024b50cb1f66a234",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Safe Passage",
+        "album": "Safe Passage",
+        "spotify_url": "https://open.spotify.com/track/2w2satp627rirKf6IQ0Jmh",
+        "plays": 1
+      }
+    ]
+  },
+  "stacey-kent": {
+    "id": "03EYBMnqSchCMp5D9qmFXi",
+    "name": "Stacey Kent",
+    "spotify_url": "https://open.spotify.com/artist/03EYBMnqSchCMp5D9qmFXi",
+    "total_plays": 1,
+    "first_seen": "2026-11-05",
+    "last_seen": "2026-11-05",
+    "genres": [
+      "french jazz",
+      "vocal jazz",
+      "jazz",
+      "bossa nova",
+      "smooth jazz"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb0cf0b98f2ed4b8df9906958b",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051740cf0b98f2ed4b8df9906958b",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1780cf0b98f2ed4b8df9906958b",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "I Wish I Could Go Travelling Again",
+        "album": "Breakfast on the Morning Tram (Bonus Edition)",
+        "spotify_url": "https://open.spotify.com/track/1xtCLEj1zKqkrz7k9jJWBr",
+        "plays": 1
+      }
+    ]
+  },
+  "christopher-cross": {
+    "id": "695W5F2Ih8dYahLdjVOIoH",
+    "name": "Christopher Cross",
+    "spotify_url": "https://open.spotify.com/artist/695W5F2Ih8dYahLdjVOIoH",
+    "total_plays": 1,
+    "first_seen": "2026-11-05",
+    "last_seen": "2026-11-05",
+    "genres": [
+      "yacht rock",
+      "soft rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eba2e75d072e19a6150744f924",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174a2e75d072e19a6150744f924",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178a2e75d072e19a6150744f924",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Arthur's Theme",
+        "album": "The Café Carlyle Sessions",
+        "spotify_url": "https://open.spotify.com/track/2Nmvk20c1hbvth5l9wvPSQ",
         "plays": 1
       }
     ]
