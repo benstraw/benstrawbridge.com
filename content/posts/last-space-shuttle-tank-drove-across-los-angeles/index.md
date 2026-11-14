@@ -103,7 +103,7 @@ The straight stretches were slow. The corners were slower. Coming through Aviati
 
 ![The tank's domed nose fills the intersection as the Emmert tractor pulls it through the turn, with crew crouched under the frame watching the wheels](et94-nose-on-aviation.jpg)
 
-Getting around the corner took a long series of moves, forward a little, back a little, the front and back ends adjusted separately, over and over. On one side it came within what looked like inches of the trees. I didn't keep count. Every corner on the route was a job, but this one looked like one of the hardest on the stretch I saw.
+Getting around the corner took a long series of moves, forward a little, back a little, the front and back ends adjusted separately, over and over. On one side it came within what looked like inches of the trees. I didn't keep count. Every corner on the route was a job, but this one looked like one of the hardest on the stretch I saw. A minute after this photo I took the frame I like best from that morning; it's [on my photo site](https://www.benstraw.com/photos/the-last-shuttle-tank-at-aviation-and-arbor-vitae/).
 
 Up close the tank isn't smooth. The orange is spray-on foam insulation, dimpled like the skin of an orange, with seams where the sections were joined.
 
