@@ -24,13 +24,6 @@ cardImageAlt = "Spectators on Arbor Vitae Street watch the orange space shuttle 
 
 <!--more-->
 
-<!--
-DRAFT NOTES — delete this block before publishing.
-- Every [BEN: …] marker needs your memory or a fact only you have.
-- Facts marked "verify" came from 2016 news coverage; numbers vary a little
-  between sources (16 vs 16.5 miles, 65,000–69,000 lb, 18 vs 19 hours).
--->
-
 *This post is written from memory and from my photographs, nearly ten years after the day. The numbers come from the news coverage at the time.*
 
 On November 13, 2026, the California Science Center opened the Samuel Oschin Air and Space Center. Inside, Space Shuttle Endeavour stands upright, bolted to two solid rocket boosters and an orange external tank, posed as if it were about to launch. No other museum in the world shows a complete shuttle stack this way.
@@ -51,7 +44,7 @@ Three weeks later it crawled through the streets of Los Angeles to the Science C
 
 ## How a 154-foot tank gets to Los Angeles
 
-The tank is called ET-94. It is about 154 feet long and 27 feet across, and it weighs roughly 66,000 pounds empty. <!-- verify diameter --> It was built at NASA's Michoud Assembly Facility in New Orleans for a shuttle flight that never happened, and it is the last flight tank still in existence. Every tank that did fly broke up over the ocean after launch. <!-- verify -->
+The tank is called ET-94. It is about 154 feet long and 27 feet across, and it weighs roughly 66,000 pounds empty. It was built at NASA's Michoud Assembly Facility in New Orleans for a shuttle flight that never happened, and it is the last flight tank still in existence. Every tank that did fly broke up over the ocean after launch.
 
 In April 2016 it was loaded onto a barge, the *Gulfmaster I*, and towed across the Gulf of Mexico, through the Panama Canal and up the Pacific coast, more than 4,400 nautical miles. It came ashore at Marina del Rey on May 18.
 
@@ -70,8 +63,6 @@ The route, as published by the Science Center:
 5. Vermont Avenue to Martin Luther King Jr. Boulevard, and into Exposition Park
 
 It arrived at the Science Center around 6:15 that evening, about 19 hours after it started.
-
-<!-- BEN: idea for later — a tour-map of the route, like the trails use. -->
 
 ## Aviation and Arbor Vitae
 
@@ -108,6 +99,8 @@ The straight stretches were slow. The corners were slower. Coming through Aviati
 Getting around the corner took a long series of moves, forward a little, back a little, the front and back ends adjusted separately, over and over. On one side it came within what looked like inches of the trees. I didn't keep count. Every corner on the route was a job, but this one looked like one of the hardest on the stretch I saw. That frame is my favorite from the morning; it's also [on my photo site](https://www.benstraw.com/photos/the-last-shuttle-tank-at-aviation-and-arbor-vitae/).
 
 Up close the tank isn't smooth. The orange is spray-on foam insulation, dimpled like the skin of an orange, with seams where the sections were joined.
+
+![A woman checks her phone and a girl in pink stands beside the transporter, under the dimpled orange foam of the tank, with a truckload of traffic cones alongside](et94-foam-close-up.jpg)
 
 Even with the signal arms gone, it cleared the remaining signal heads by what looked like a few feet.
 
