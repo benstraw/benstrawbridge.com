@@ -4,7 +4,7 @@ date = 2026-11-13T20:00:00-08:00
 draft = false
 slug = 'last-space-shuttle-tank-drove-across-los-angeles'
 description = "Photos and a firsthand account of May 21, 2016, when space shuttle tank ET-94 crawled 16.5 miles across Los Angeles to join Endeavour."
-summary = "In May 2016 the last space shuttle external tank rolled 16.5 miles through Los Angeles at a walking pace. I chased it down early that Saturday morning with my phone. This week it went on display, standing upright beside Endeavour."
+summary = "In May 2016 the last space shuttle external tank rolled 16.5 miles through Los Angeles at a walking pace. I grabbed my phone and chased it down early that Saturday morning. This week it went on display, standing upright beside Endeavour."
 tags = [
   "space-shuttle",
   "endeavour",
@@ -20,7 +20,7 @@ cardImage = "et94-crowd-arbor-vitae.jpg"
 cardImageAlt = "Spectators on Arbor Vitae Street watch the orange space shuttle external tank pass on its transporter, Los Angeles, May 2016"
 +++
 
-> In May 2016 the last space shuttle external tank rolled 16.5 miles through Los Angeles at a walking pace. I chased it down early that Saturday morning with my phone. This week it went on display, standing upright beside Endeavour.
+> In May 2016 the last space shuttle external tank rolled 16.5 miles through Los Angeles at a walking pace. I grabbed my phone and chased it down early that Saturday morning. This week it went on display, standing upright beside Endeavour.
 
 <!--more-->
 
