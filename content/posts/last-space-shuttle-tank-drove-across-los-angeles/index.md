@@ -108,10 +108,19 @@ By 8:50 it was through, rolling east on Arbor Vitae behind a Highway Patrol truc
 
 The tank waited at the Science Center for years while the new building was planned. In 2024 it was lifted upright with the boosters, and Endeavour was hoisted on and mated to it. The building was then finished around the stack, which is the part I still find hard to picture: a museum built around a spacecraft, not the other way round.
 
-I haven't been inside the new center yet. It opened on November 13, and I haven't made it there. I did visit Endeavour in its earlier home, the pavilion where it sat horizontally for years, and even lying down it's enormous. It barely seemed to fit in that building.
+I haven't been inside the new center yet. It opened on November 13, and I haven't made it there.
 
-<!-- BEN: 3-4 photos of Endeavour from the earlier pavilion go here. Name them
-     endeavour-pavilion-1.jpg etc. and they'll get alt text when they arrive. -->
+I have visited Endeavour in its earlier home, the Samuel Oschin Pavilion, a hangar-like building next to the Science Center where it sat horizontally on yellow steel supports for about a decade. Even lying down it's enormous: you walk under the wing and it feels more like a building than an aircraft.
+
+![Space Shuttle Endeavour displayed horizontally on yellow supports in the Samuel Oschin Pavilion, with visitors walking beneath it](endeavour-pavilion-side.jpg)
+
+Up close you can see where it has been. The black heat-shield tiles on its belly and nose are scorched and patched, each tile a slightly different shade, from twenty-five trips through reentry.
+
+![The nose of Endeavour up close, its black heat-shield tiles scorched and uneven, with the name Endeavour on the white fuselage](endeavour-pavilion-nose.jpg)
+
+From underneath, looking back at the three main engine bells and the tail, you get a sense of what all that fuel in the tank was for.
+
+![Looking up from beneath Endeavour's wing at its three main engine bells and tail inside the pavilion](endeavour-pavilion-engines.jpg)
 
 Standing upright, the full stack is nearly 20 stories tall. Visitors ride a gantry-style elevator about 140 feet up the stack and come back down a slide. When I finally go, I'll be looking for the tank I watched inch around a corner by the ARCO.
 
