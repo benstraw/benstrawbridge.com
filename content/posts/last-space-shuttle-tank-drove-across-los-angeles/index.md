@@ -115,6 +115,8 @@ By 8:50 it was through, rolling east on Arbor Vitae behind a Highway Patrol truc
 
 ![Spectators on the corner of Arbor Vitae Street watch and photograph the orange tank passing on its Emmert transporter, hung with sponsor banners and a California Science Center sign](et94-crowd-arbor-vitae.jpg)
 
+![The orange tank rolls away down Arbor Vitae Street behind a California Highway Patrol truck with its lights flashing, as spectators watch from the corner](et94-down-arbor-vitae.jpg)
+
 ## Standing it up
 
 The tank waited at the Science Center for years while the new building was planned. In 2024 it was lifted upright with the boosters, and Endeavour was hoisted on and mated to it. The building was then finished around the stack, which is the part I still find hard to picture: a museum built around a spacecraft, not the other way round.
