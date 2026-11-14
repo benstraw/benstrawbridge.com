@@ -95,6 +95,8 @@ By 8:40 the intersection was clear: signal arms down, a line of crew in hard hat
 
 It felt like watching a marathon: no stands or stage, just people lined up along both sides of the street for as far as I could see. It was a Saturday, and it looked like half the neighborhood had come out. Nobody quite knew what to expect, and there was some real tension in the crowd while the crews worked. People cheered at the small victories, like a signal arm swinging clear, and again when the tank finally started to move.
 
+![Spectators fill the sidewalk and spill into Aviation Boulevard by a Metro bus stop, watching crews in the intersection, with the orange tank just visible beyond the traffic signal](et94-crowd-metro-corner.jpg)
+
 ## The turn
 
 The straight stretches were slow. The corners were slower. Coming through Aviation and Arbor Vitae, the tank rode on two sets of wheeled dollies, one under each end, with crew walking beside each set and crouching under the frame to watch the wheels.
