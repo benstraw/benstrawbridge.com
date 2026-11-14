@@ -14,15 +14,10 @@ tags = [
 ]
 hideAsideBar = true
 homeFeatureIcon = "fa-solid fa-camera"
-# PREVIEW: four tank photos are still cropped phone screenshots standing in
-# for originals: et94-signal-arm-crane, et94-nose-on-aviation,
-# et94-foam-close-up and et94-down-arbor-vitae. Replace them (same names)
-# before merging, then rerun
-#   npm run og:generate -- --only /posts/last-space-shuttle-tank-drove-across-los-angeles/
-og_image = "et94-signal-arm-crane.jpg"
+og_image = "et94-crowd-arbor-vitae.jpg"
 cardType = "-image"
-cardImage = "et94-signal-arm-crane.jpg"
-cardImageAlt = "A crane truck lifts a traffic signal arm off its pole so the space shuttle tank can pass, Los Angeles, May 2016"
+cardImage = "et94-crowd-arbor-vitae.jpg"
+cardImageAlt = "Spectators on Arbor Vitae Street watch the orange space shuttle external tank pass on its transporter, Los Angeles, May 2016"
 +++
 
 > In May 2016 the last space shuttle external tank rolled 16.5 miles through Los Angeles at a walking pace. I chased it down early that Saturday morning with my phone. This week it went on display, standing upright beside Endeavour.
@@ -32,7 +27,6 @@ cardImageAlt = "A crane truck lifts a traffic signal arm off its pole so the spa
 <!--
 DRAFT NOTES — delete this block before publishing.
 - Every [BEN: …] marker needs your memory or a fact only you have.
-- Photos: four tank photos are still screenshots (see the front matter).
 - Facts marked "verify" came from 2016 news coverage; numbers vary a little
   between sources (16 vs 16.5 miles, 65,000–69,000 lb, 18 vs 19 hours).
 -->
@@ -89,8 +83,6 @@ Finding it was the hard part. Every road near the route was closed, and from a c
 
 At 8:19 in the morning, a crane truck was lifting a traffic signal arm off its pole on the corner by the ARCO. Regular was $3.27 a gallon.
 
-![A crane truck lifts a traffic signal arm off its pole at Aviation Boulevard and Arbor Vitae Street, beside an ARCO sign showing $3.27 a gallon, May 21, 2016](et94-signal-arm-crane.jpg)
-
 By 8:40 the intersection was clear: signal arms down, a line of crew in hard hats and safety vests across Aviation, and the tank waiting a few blocks down the street.
 
 ![Crew in safety vests line up across an empty Aviation Boulevard as the orange tank waits several blocks behind them](et94-waiting-on-aviation.jpg)
@@ -101,13 +93,11 @@ It felt like watching a marathon: no stands or stage, just people lined up along
 
 The straight stretches were slow. The corners were slower. Coming through Aviation and Arbor Vitae, the tank rode on two sets of wheeled dollies, one under each end, with crew walking beside each set and crouching under the frame to watch the wheels.
 
-![The tank's domed nose fills the intersection as the Emmert tractor pulls it through the turn, with crew crouched under the frame watching the wheels](et94-nose-on-aviation.jpg)
+![The domed nose of the orange tank fills the intersection on its red and yellow Emmert transporter, crew crouched under the frame watching the wheels, a worker in an orange vest in front and a crew member in a bucket lift beside a traffic signal](et94-turn-head-on.jpg)
 
-Getting around the corner took a long series of moves, forward a little, back a little, the front and back ends adjusted separately, over and over. On one side it came within what looked like inches of the trees. I didn't keep count. Every corner on the route was a job, but this one looked like one of the hardest on the stretch I saw. A minute after this photo I took the frame I like best from that morning; it's [on my photo site](https://www.benstraw.com/photos/the-last-shuttle-tank-at-aviation-and-arbor-vitae/).
+Getting around the corner took a long series of moves, forward a little, back a little, the front and back ends adjusted separately, over and over. On one side it came within what looked like inches of the trees. I didn't keep count. Every corner on the route was a job, but this one looked like one of the hardest on the stretch I saw. That frame is my favorite from the morning; it's also [on my photo site](https://www.benstraw.com/photos/the-last-shuttle-tank-at-aviation-and-arbor-vitae/).
 
 Up close the tank isn't smooth. The orange is spray-on foam insulation, dimpled like the skin of an orange, with seams where the sections were joined.
-
-![A woman checks her phone and a girl in pink stands beside the transporter, under the curved orange foam of the tank](et94-foam-close-up.jpg)
 
 Even with the signal arms gone, it cleared the remaining signal heads by what looked like a few feet.
 
@@ -116,8 +106,6 @@ Even with the signal arms gone, it cleared the remaining signal heads by what lo
 By 8:50 it was through, rolling east on Arbor Vitae behind a Highway Patrol truck, and the crane trucks were already moving on. As it went, people on the curb high-fived the crew and handed out bottles of water, and for a few minutes the corner felt like a block party.
 
 ![Spectators on the corner of Arbor Vitae Street watch and photograph the orange tank passing on its Emmert transporter, hung with sponsor banners and a California Science Center sign](et94-crowd-arbor-vitae.jpg)
-
-![The tank heads down Arbor Vitae Street behind a California Highway Patrol truck, with spectators on the corner](et94-down-arbor-vitae.jpg)
 
 ## Standing it up
 
