@@ -36,7 +36,7 @@ It wasn't the first piece of it I'd seen.
 
 On Friday, September 21, 2012, Endeavour made its last flight, riding on the back of NASA's 747 from Edwards Air Force Base on a farewell loop of California: over Sacramento, over San Francisco and the Golden Gate Bridge, down the Peninsula, and on to Los Angeles, where it landed at LAX.
 
-I was living in San Francisco then and working at Splunk, whose office was right on the Embarcadero by South Beach Harbor. When word went around that it was coming, people streamed out of the buildings along the waterfront, and I went down in front of the office with everyone else: a crowd of office workers in dress shirts, all holding up their phones. My phone was not up to it: the shuttle is a white speck between the towers of the Bay Bridge. But everyone in this picture is looking at it.
+I was living in San Francisco then and working at Splunk, whose office was right on the Embarcadero by South Beach Harbor. When word went around that it was coming, people streamed out of the buildings along the waterfront, and I went down in front of the office with everyone else. My phone was not up to it: the shuttle is a white speck between the towers of the Bay Bridge. But everyone in this picture is looking at it.
 
 ![A crowd on the Embarcadero waterfront in San Francisco looks and points phones toward the Bay Bridge as the 747 carrying Space Shuttle Endeavour flies past, September 21, 2012](endeavour-flyover-embarcadero.jpg)
 
