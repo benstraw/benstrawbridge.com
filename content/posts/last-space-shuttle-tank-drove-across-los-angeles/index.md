@@ -53,8 +53,6 @@ I was living in San Francisco then and working at Splunk, whose office was right
 
 ![A crowd on the Embarcadero waterfront in San Francisco looks and points phones toward the Bay Bridge as the 747 carrying Space Shuttle Endeavour flies past, September 21, 2012](endeavour-flyover-embarcadero.jpg)
 
-![Enlarged detail: the 747 with Endeavour mounted on top, small against the sky near a Bay Bridge tower](endeavour-flyover-detail.jpg)
-
 Three weeks later it crawled through the streets of Los Angeles to the Science Center. Four years after that, its tank followed.
 
 ## How a 154-foot tank gets to Los Angeles
