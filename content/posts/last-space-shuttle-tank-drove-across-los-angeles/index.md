@@ -92,8 +92,6 @@ It felt like watching a marathon: no stands or stage, just people lined up along
 
 The straight stretches were slow. The corners were slower. Coming through Aviation and Arbor Vitae, the tank rode on two sets of wheeled dollies, one under each end, with crew walking beside each set and crouching under the frame to watch the wheels.
 
-![The orange tank comes at the camera on its yellow and red Emmert transporter, pulled by a red Emmert tractor flying US and California flags, crew crouched beside the wheels at Aviation Boulevard](et94-emmert-head-on.jpg)
-
 ![The domed nose of the orange tank fills the intersection on its red and yellow Emmert transporter, crew crouched under the frame watching the wheels, a worker in an orange vest in front and a crew member in a bucket lift beside a traffic signal](et94-turn-head-on.jpg)
 
 Getting around the corner took a long series of moves, forward a little, back a little, the front and back ends adjusted separately, over and over. On one side it came within what looked like inches of the trees. I didn't keep count. Every corner on the route was a job, but this one looked like one of the hardest on the stretch I saw. That frame is my favorite from the morning; it's also [on my photo site](https://www.benstraw.com/photos/the-last-shuttle-tank-at-aviation-and-arbor-vitae/).
