@@ -1,7 +1,7 @@
 +++
 title = 'The Day the Last Space Shuttle Tank Drove Across Los Angeles'
-date = 2026-11-14T00:00:00-08:00
-draft = true
+date = 2026-11-13T20:00:00-08:00
+draft = false
 slug = 'last-space-shuttle-tank-drove-across-los-angeles'
 description = "Photos and a firsthand account of May 21, 2016, when space shuttle tank ET-94 crawled 16.5 miles across Los Angeles to join Endeavour."
 summary = "In May 2016 the last space shuttle external tank rolled 16.5 miles through Los Angeles at walking pace. I spent the day on the street with a camera. This week it opened to the public, standing upright beside Endeavour."
@@ -14,13 +14,13 @@ tags = [
 ]
 hideAsideBar = true
 homeFeatureIcon = "fa-solid fa-camera"
-# BEN: once the photos are in this folder, uncomment and point these at the
-# lead photograph, then run
+# PREVIEW: the JPGs here are cropped phone screenshots standing in for the
+# originals. Replace them (same names) before merging, then rerun
 #   npm run og:generate -- --only /posts/last-space-shuttle-tank-drove-across-los-angeles/
-# og_image = "et94-signal-arm-crane.jpg"
-# cardType = "-image"
-# cardImage = "et94-signal-arm-crane.jpg"
-# cardImageAlt = "A crane truck lifts a traffic signal arm off its pole so the space shuttle tank can pass, Los Angeles, May 2016"
+og_image = "et94-signal-arm-crane.jpg"
+cardType = "-image"
+cardImage = "et94-signal-arm-crane.jpg"
+cardImageAlt = "A crane truck lifts a traffic signal arm off its pole so the space shuttle tank can pass, Los Angeles, May 2016"
 +++
 
 > In May 2016 the last space shuttle external tank rolled 16.5 miles through Los Angeles at walking pace. I spent the day on the street with a camera. This week it opened to the public, standing upright beside Endeavour.
