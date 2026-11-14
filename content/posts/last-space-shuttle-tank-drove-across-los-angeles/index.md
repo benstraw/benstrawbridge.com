@@ -14,8 +14,10 @@ tags = [
 ]
 hideAsideBar = true
 homeFeatureIcon = "fa-solid fa-camera"
-# PREVIEW: the JPGs here are cropped phone screenshots standing in for the
-# originals. Replace them (same names) before merging, then rerun
+# PREVIEW: four tank photos are still cropped phone screenshots standing in
+# for originals: et94-signal-arm-crane, et94-nose-on-aviation,
+# et94-foam-close-up and et94-down-arbor-vitae. Replace them (same names)
+# before merging, then rerun
 #   npm run og:generate -- --only /posts/last-space-shuttle-tank-drove-across-los-angeles/
 og_image = "et94-signal-arm-crane.jpg"
 cardType = "-image"
@@ -30,8 +32,7 @@ cardImageAlt = "A crane truck lifts a traffic signal arm off its pole so the spa
 <!--
 DRAFT NOTES — delete this block before publishing.
 - Every [BEN: …] marker needs your memory or a fact only you have.
-- Photos: the six image lines below are named and have alt text. Drop the
-  ORIGINAL JPGs (not phone screenshots) into this folder under those names.
+- Photos: four tank photos are still screenshots (see the front matter).
 - Facts marked "verify" came from 2016 news coverage; numbers vary a little
   between sources (16 vs 16.5 miles, 65,000–69,000 lb, 18 vs 19 hours).
 -->
@@ -48,7 +49,7 @@ It wasn't the first piece of it I'd seen.
 
 On Friday, September 21, 2012, Endeavour made its last flight, riding on the back of NASA's 747 from Edwards Air Force Base on a farewell loop of California: over Sacramento, over San Francisco and the Golden Gate Bridge, down the Peninsula, and on to Los Angeles, where it landed at LAX.
 
-I was living in San Francisco then and working at Splunk, a few blocks from the water. When word went around that it was coming, people streamed out of the offices to watch. I ended up on the Embarcadero by South Beach Harbor, in a crowd of office workers in dress shirts holding up their phones. My phone was not up to it: the shuttle is a white speck between the towers of the Bay Bridge. But everyone in this picture is looking at it.
+I was living in San Francisco then and working at Splunk, whose office was right on the Embarcadero by South Beach Harbor. When word went around that it was coming, people streamed out of the buildings along the waterfront, and I went down in front of the office with everyone else: a crowd of office workers in dress shirts, all holding up their phones. My phone was not up to it: the shuttle is a white speck between the towers of the Bay Bridge. But everyone in this picture is looking at it.
 
 ![A crowd on the Embarcadero waterfront in San Francisco looks and points phones toward the Bay Bridge as the 747 carrying Space Shuttle Endeavour flies past, September 21, 2012](endeavour-flyover-embarcadero.jpg)
 
@@ -115,6 +116,8 @@ Even with the signal arms gone, it cleared the remaining signal heads by what lo
 ![The ribbed middle section of the tank passes just under a traffic signal on its yellow-and-red Emmert transporter](et94-signal-clearance.jpg)
 
 By 8:50 it was through, rolling east on Arbor Vitae behind a Highway Patrol truck, and the crane trucks were already moving on. As it went, people on the curb high-fived the crew and handed out bottles of water, and for a few minutes the corner felt like a block party.
+
+![Spectators on the corner of Arbor Vitae Street watch and photograph the orange tank passing on its Emmert transporter, hung with sponsor banners and a California Science Center sign](et94-crowd-arbor-vitae.jpg)
 
 ![The tank heads down Arbor Vitae Street behind a California Highway Patrol truck, with spectators on the corner](et94-down-arbor-vitae.jpg)
 
