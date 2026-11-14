@@ -42,6 +42,20 @@ On November 13, 2026, the California Science Center opened the Samuel Oschin Air
 
 The biggest piece of that stack is the tank. I watched it come through the city.
 
+It wasn't the first piece of it I'd seen.
+
+## September 2012: Endeavour over the Bay
+
+On Friday, September 21, 2012, Endeavour made its last flight, riding on the back of NASA's 747 from Edwards Air Force Base on a farewell loop of California: over Sacramento, over San Francisco and the Golden Gate Bridge, down the Peninsula, and on to Los Angeles, where it landed at LAX.
+
+I was living in San Francisco then and working at Splunk, a few blocks from the water. When word went around that it was coming, people streamed out of the offices to watch. I ended up on the Embarcadero by South Beach Harbor, in a crowd of office workers in dress shirts holding up their phones. My phone was not up to it: the shuttle is a white speck between the towers of the Bay Bridge. But everyone in this picture is looking at it.
+
+![A crowd on the Embarcadero waterfront in San Francisco looks and points phones toward the Bay Bridge as the 747 carrying Space Shuttle Endeavour flies past, September 21, 2012](endeavour-flyover-embarcadero.jpg)
+
+![Enlarged detail: the 747 with Endeavour mounted on top, small against the sky near a Bay Bridge tower](endeavour-flyover-detail.jpg)
+
+Three weeks later it crawled through the streets of Los Angeles to the Science Center. Four years after that, its tank followed.
+
 ## How a 154-foot tank gets to Los Angeles
 
 The tank is called ET-94. It is about 154 feet long and 27 feet across, and it weighs roughly 66,000 pounds empty. <!-- verify diameter --> It was built at NASA's Michoud Assembly Facility in New Orleans for a shuttle flight that never happened, and it is the last flight tank still in existence. Every tank that did fly broke up over the ocean after launch. <!-- verify -->
@@ -135,4 +149,5 @@ The Samuel Oschin Air and Space Center opened November 13, 2026, at the Californ
 - NASA JPL, ["Navigating L.A. with 65,000 pounds of NASA space shuttle history"](https://jpl.nasa.gov/edu/news/2016/5/18/navigating-la-with-65-000-pounds-of-nasa-space-shuttle-history) (May 18, 2016)
 - Culver City News, ["ET-94 arrives in Marina; to journey across LA Saturday"](https://www.culvercitynews.org/?p=7873) (route)
 - PR Newswire, ["Space Shuttle Endeavour Is Now Fully Stacked and Mated"](https://prnewswire.com/news-releases/space-shuttle-endeavour-is-now-fully-stacked-and-mated-completing-worlds-only-ready-to-launch-space-shuttle-display-302050052.html)
+- Associated Press via the Washington Times, ["Endeavour flies by Golden Gate Bridge, other sites"](https://www.washingtontimes.com/news/2012/sep/21/endeavour-flies-by-golden-gate-bridge-other-sites/) (September 21, 2012)
 - Time Out Los Angeles, ["Here's how you can reserve your time to see Space Shuttle Endeavour in its ready-to-launch position"](https://www.timeout.com/los-angeles/news/heres-how-you-can-reserve-your-time-to-see-space-shuttle-endeavour-in-its-ready-to-launch-position-101526) (admission and reservations)
