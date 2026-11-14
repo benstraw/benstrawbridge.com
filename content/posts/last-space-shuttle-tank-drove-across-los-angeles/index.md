@@ -15,12 +15,12 @@ tags = [
 hideAsideBar = true
 homeFeatureIcon = "fa-solid fa-camera"
 # BEN: once the photos are in this folder, uncomment and point these at the
-# lead photograph (probably the light-pole shot), then run
+# lead photograph, then run
 #   npm run og:generate -- --only /posts/last-space-shuttle-tank-drove-across-los-angeles/
-# og_image = "et94-light-poles.jpg"
+# og_image = "et94-signal-arm-crane.jpg"
 # cardType = "-image"
-# cardImage = "et94-light-poles.jpg"
-# cardImageAlt = "Crews removing a street light so the space shuttle external tank can pass, Los Angeles, May 2016"
+# cardImage = "et94-signal-arm-crane.jpg"
+# cardImageAlt = "A crane truck lifts a traffic signal arm off its pole so the space shuttle tank can pass, Los Angeles, May 2016"
 +++
 
 > In May 2016 the last space shuttle external tank rolled 16.5 miles through Los Angeles at walking pace. I spent the day on the street with a camera. This week it opened to the public, standing upright beside Endeavour.
@@ -30,8 +30,8 @@ homeFeatureIcon = "fa-solid fa-camera"
 <!--
 DRAFT NOTES — delete this block before publishing.
 - Every [BEN: …] marker needs your memory or a fact only you have.
-- Photos: drop the JPGs into this folder and fix the filenames in the
-  image lines below. Every image needs real alt text (what it shows).
+- Photos: the six image lines below are named and have alt text. Drop the
+  ORIGINAL JPGs (not phone screenshots) into this folder under those names.
 - Facts marked "verify" came from 2016 news coverage; numbers vary a little
   between sources (16 vs 16.5 miles, 65,000–69,000 lb, 18 vs 19 hours).
 -->
@@ -66,25 +66,41 @@ It arrived at the Science Center around 6:15 that evening, about 19 hours after 
 
 <!-- BEN: idea for later — a tour-map of the route, like the trails use. -->
 
-## Taking the street apart
+## Aviation and Arbor Vitae
 
 A tank that size doesn't fit through a city built for cars. Crews went ahead of it closing streets, trimming trees, swinging traffic signals out of the way and lifting utility wires.
 
-[BEN: where were you? Which intersection, what time, how did you hear about it, who were you with?]
+I caught up with it at Aviation Boulevard and Arbor Vitae Street, just east of LAX. [BEN: how you heard about it, who you were with, how you got there.]
 
-![BEN: alt text — what the photo shows, e.g. "A utility crew in a bucket truck removes a street light as the orange shuttle tank waits behind them on Manchester Boulevard"](et94-light-poles.jpg)
+At 8:19 in the morning, a crane truck was lifting a traffic signal arm off its pole on the corner by the ARCO. Regular was $3.27 a gallon.
 
-[BEN: what you saw — the crew, how long it took, the crowd, the sound. Did they put the poles back right behind it?]
+![A crane truck lifts a traffic signal arm off its pole at Aviation Boulevard and Arbor Vitae Street, beside an ARCO sign showing $3.27 a gallon, May 21, 2016](et94-signal-arm-crane.jpg)
+
+By 8:40 the intersection was clear: signal arms down, a line of crew in hard hats and safety vests across Aviation, and the tank waiting a few blocks down the street.
+
+![Crew in safety vests line up across an empty Aviation Boulevard as the orange tank waits several blocks behind them](et94-waiting-on-aviation.jpg)
+
+[BEN: what it was like waiting — the crowd, the sound, whether anyone cheered.]
 
 ## The turn
 
-The straight stretches went quickly. The corners didn't.
+The straight stretches went quickly. The corners didn't. Coming through Aviation and Arbor Vitae, the tank rode on two sets of wheeled dollies, one under each end, with crew walking beside each set and crouching under the frame to watch the wheels.
 
-[BEN: which corner. Describe the back-and-forth: how many tries, the spotters, how close it came to the curb, trees or buildings. If you counted 18 moves, say so — it's your count and it's the best detail in the post.]
+![The tank's domed nose fills the intersection as the Emmert tractor pulls it through the turn, with crew crouched under the frame watching the wheels](et94-nose-on-aviation.jpg)
 
-![BEN: alt text for turn photo 1](et94-turn-1.jpg)
+[BEN: describe the back-and-forth — how many tries, the spotters, how close it came to the curb. If you counted 18 moves, say so; it's your count and the best detail in the post.]
 
-![BEN: alt text for turn photo 2](et94-turn-2.jpg)
+Up close the tank isn't smooth. The orange is spray-on foam insulation, dimpled like the skin of an orange, with seams where the sections were joined.
+
+![A woman checks her phone and a girl in pink stands beside the transporter, under the curved orange foam of the tank](et94-foam-close-up.jpg)
+
+Even with the signal arms gone, it cleared the remaining signal heads by what looked like a few feet.
+
+![The ribbed middle section of the tank passes just under a traffic signal on its yellow-and-red Emmert transporter](et94-signal-clearance.jpg)
+
+By 8:50 it was through, rolling east on Arbor Vitae behind a Highway Patrol truck, and the crane trucks were already moving on.
+
+![The tank heads down Arbor Vitae Street behind a California Highway Patrol truck, with spectators on the corner](et94-down-arbor-vitae.jpg)
 
 ## Standing it up
 
