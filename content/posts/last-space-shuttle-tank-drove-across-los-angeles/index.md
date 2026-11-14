@@ -85,6 +85,10 @@ At 8:19 in the morning, a crane truck was lifting a traffic signal arm off its p
 
 ![A crane truck lifts a traffic signal arm off its pole at Aviation Boulevard and Arbor Vitae Street while a worker in a bucket lift unhooks it, beside an ARCO sign showing $3.27 a gallon, May 21, 2016](et94-signal-arm-crane.jpg)
 
+By 8:31 the arm was lying in the street and the crews were regrouping. Far down Aviation, past the trucks, the tank had come into view.
+
+![A crane truck sets a signal arm down on Aviation Boulevard as crews in hard hats gather in the intersection, with the orange tank visible far down the street](et94-signal-arm-down.jpg)
+
 By 8:40 the intersection was clear: signal arms down, a line of crew in hard hats and safety vests across Aviation, and the tank waiting a few blocks down the street.
 
 ![Crew in safety vests line up across an empty Aviation Boulevard as the orange tank waits several blocks behind them](et94-waiting-on-aviation.jpg)
