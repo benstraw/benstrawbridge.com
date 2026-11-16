@@ -1,0 +1,130 @@
+{
+  "week": "2026-W47",
+  "title": "Week of Nov 16, 2026",
+  "year": 2026,
+  "week_num": 47,
+  "date_start": "2026-11-16",
+  "date_end": "2026-11-22",
+  "total_plays": 11,
+  "unique_artists": 1,
+  "topArtistName": "Mr. Bungle",
+  "topArtistImages": [
+    {
+      "url": "https://i.scdn.co/image/ab6761610000e5eb57889458cd1c95a01dba403a",
+      "height": 640,
+      "width": 640
+    },
+    {
+      "url": "https://i.scdn.co/image/ab6761610000517457889458cd1c95a01dba403a",
+      "height": 320,
+      "width": 320
+    },
+    {
+      "url": "https://i.scdn.co/image/ab6761610000f17857889458cd1c95a01dba403a",
+      "height": 160,
+      "width": 160
+    }
+  ],
+  "top_genres": [
+    {
+      "name": "avant-garde",
+      "plays": 11
+    },
+    {
+      "name": "funk rock",
+      "plays": 11
+    }
+  ],
+  "top_artists": [
+    {
+      "slug": "mr-bungle",
+      "name": "Mr. Bungle",
+      "plays": 11,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb57889458cd1c95a01dba403a",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517457889458cd1c95a01dba403a",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17857889458cd1c95a01dba403a",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    }
+  ],
+  "top_tracks": [
+    {
+      "name": "Carry Stress in the Jaw",
+      "artist": "Mr. Bungle",
+      "artist_slug": "mr-bungle",
+      "plays": 1
+    },
+    {
+      "name": "Dead Goon",
+      "artist": "Mr. Bungle",
+      "artist_slug": "mr-bungle",
+      "plays": 1
+    },
+    {
+      "name": "Love Is a Fist",
+      "artist": "Mr. Bungle",
+      "artist_slug": "mr-bungle",
+      "plays": 1
+    },
+    {
+      "name": "The Girls of Porn",
+      "artist": "Mr. Bungle",
+      "artist_slug": "mr-bungle",
+      "plays": 1
+    },
+    {
+      "name": "My Ass Is on Fire",
+      "artist": "Mr. Bungle",
+      "artist_slug": "mr-bungle",
+      "plays": 1
+    },
+    {
+      "name": "Stubb - A Dub",
+      "artist": "Mr. Bungle",
+      "artist_slug": "mr-bungle",
+      "plays": 1
+    },
+    {
+      "name": "Egg",
+      "artist": "Mr. Bungle",
+      "artist_slug": "mr-bungle",
+      "plays": 1
+    },
+    {
+      "name": "Carousel",
+      "artist": "Mr. Bungle",
+      "artist_slug": "mr-bungle",
+      "plays": 1
+    },
+    {
+      "name": "Squeeze Me Macaroni",
+      "artist": "Mr. Bungle",
+      "artist_slug": "mr-bungle",
+      "plays": 1
+    },
+    {
+      "name": "Slowly Growing Deaf",
+      "artist": "Mr. Bungle",
+      "artist_slug": "mr-bungle",
+      "plays": 1
+    },
+    {
+      "name": "Quote Unquote",
+      "artist": "Mr. Bungle",
+      "artist_slug": "mr-bungle",
+      "plays": 1
+    }
+  ]
+}

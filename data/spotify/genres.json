@@ -234,6 +234,31 @@
     ],
     "last_updated": "2026-03-18"
   },
+  "07VmOvmuBp9G0gb8BTrpn0": {
+    "name": "Mike Jones",
+    "genres": [
+      "southern hip hop",
+      "crunk"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebfafdf9520195ad3273e3b9ca",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174fafdf9520195ad3273e3b9ca",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178fafdf9520195ad3273e3b9ca",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-11-13"
+  },
   "08GQAI4eElDnROBrJRGE0X": {
     "name": "Fleetwood Mac",
     "genres": [
@@ -486,6 +511,30 @@
       }
     ],
     "last_updated": "2026-03-18"
+  },
+  "0EeQBlQJFiAfJeVN2vT9s0": {
+    "name": "Nipsey Hussle",
+    "genres": [
+      "west coast hip hop"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb1a6039ad49508f2840d939e2",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051741a6039ad49508f2840d939e2",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1781a6039ad49508f2840d939e2",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-11-13"
   },
   "0F3Aew9DSd6fb6192K1K0Y": {
     "name": "Keith Jarrett",
@@ -2410,6 +2459,28 @@
     ],
     "last_updated": "2026-07-15"
   },
+  "0y9JScMVVW8sk3UoLZA3hj": {
+    "name": "Chef Boy",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb3b9bd6868cda50d501baa707",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051743b9bd6868cda50d501baa707",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1783b9bd6868cda50d501baa707",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-11-12"
+  },
   "0zzKEeF2bAVKrWeKc9CyJV": {
     "name": "Florence Road",
     "genres": [],
@@ -2431,6 +2502,30 @@
       }
     ],
     "last_updated": "2026-08-08"
+  },
+  "10R4IEMALwGnHJVPEoumW5": {
+    "name": "Cousin Fik",
+    "genres": [
+      "hyphy"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb66c97539abab3ffcb44d6d86",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517466c97539abab3ffcb44d6d86",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17866c97539abab3ffcb44d6d86",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-11-12"
   },
   "11zHPjHnZN0ACA50rSnTcy": {
     "name": "Nada Surf",
@@ -2477,6 +2572,28 @@
       }
     ],
     "last_updated": "2026-06-30"
+  },
+  "137W8MRPWKqSmrBGDBFSop": {
+    "name": "Wiz Khalifa",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebc66b0a8c3268f0b6556f64a8",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174c66b0a8c3268f0b6556f64a8",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178c66b0a8c3268f0b6556f64a8",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-11-11"
   },
   "1385hLNbrnbCJGokfH2ac2": {
     "name": "Franz Liszt",
@@ -3358,6 +3475,35 @@
     ],
     "last_updated": "2026-05-29"
   },
+  "1W8TbFzNS15VwsempfY12H": {
+    "name": "Charles Mingus",
+    "genres": [
+      "jazz",
+      "hard bop",
+      "bebop",
+      "free jazz",
+      "cool jazz",
+      "jazz ballads"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebe43b629d257d42a86c71323d",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174e43b629d257d42a86c71323d",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178e43b629d257d42a86c71323d",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-11-12"
+  },
   "1W9qOBYRTfP7HcizWN43G1": {
     "name": "Slick Rick",
     "genres": [
@@ -4152,6 +4298,36 @@
     ],
     "last_updated": "2026-08-07"
   },
+  "1nJvji2KIlWSseXRSlNYsC": {
+    "name": "The Velvet Underground",
+    "genres": [
+      "proto-punk",
+      "art rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/d69c2cf10323bf08443c7d122f3a1824a760ab57",
+        "height": 1236,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/24e7531935f88f55744cc8c9ed2528f466cba276",
+        "height": 791,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/fedcb6f64de6571e2c208a21fc16b9e05e38cf2f",
+        "height": 247,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/0fda1f46337398e35d5c7c672ddc77beb68a8f93",
+        "height": 79,
+        "width": 64
+      }
+    ],
+    "last_updated": "2026-11-11"
+  },
   "1nYvElumwIjMkOczb985bq": {
     "name": "Charlie Worsham",
     "genres": [
@@ -4804,6 +4980,35 @@
     ],
     "last_updated": "2026-08-01"
   },
+  "26opZSJcXshCmCwxgZQmBc": {
+    "name": "Whiskey Myers",
+    "genres": [
+      "red dirt",
+      "texas country",
+      "southern rock",
+      "country",
+      "outlaw country",
+      "country rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb55725bcabcb716077626bd97",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517455725bcabcb716077626bd97",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17855725bcabcb716077626bd97",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-11-15"
+  },
   "27WVFBOddxovimxMmBN4fb": {
     "name": "Naomi Sharon",
     "genres": [
@@ -4916,6 +5121,30 @@
       }
     ],
     "last_updated": "2026-03-18"
+  },
+  "2ApaG60P4r0yhBoDCGD8YG": {
+    "name": "Elliott Smith",
+    "genres": [
+      "singer-songwriter"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb079739b801ab3f105866b76f",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174079739b801ab3f105866b76f",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178079739b801ab3f105866b76f",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-11-11"
   },
   "2B4ZHz4QDWJTXPFPgO5peE": {
     "name": "Warren G",
@@ -5062,6 +5291,30 @@
       }
     ],
     "last_updated": "2026-08-15"
+  },
+  "2Ew91UUE0bjzHWCEnA8cHy": {
+    "name": "Cole Phillips",
+    "genres": [
+      "country"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebbe0f4682170ef8ff09660eb3",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174be0f4682170ef8ff09660eb3",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178be0f4682170ef8ff09660eb3",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-11-15"
   },
   "2FMZn5P3WATd7Il6FgPJNu": {
     "name": "Buck Owens",
@@ -5239,6 +5492,28 @@
     ],
     "last_updated": "2026-05-06"
   },
+  "2MPe4h9blynt1CfCkMku6j": {
+    "name": "Kashus Culpepper",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb8d20594388766b355527009e",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051748d20594388766b355527009e",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1788d20594388766b355527009e",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-11-15"
+  },
   "2NkIVq5pAfIojxXjuaRVes": {
     "name": "Orlando Gibbons",
     "genres": [
@@ -5301,6 +5576,30 @@
       }
     ],
     "last_updated": "2026-06-11"
+  },
+  "2QLM9IFaHBtB16b8ZDaA3A": {
+    "name": "P-Lo",
+    "genres": [
+      "hyphy"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebb375040bbfeb2d3361abba4e",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174b375040bbfeb2d3361abba4e",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178b375040bbfeb2d3361abba4e",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-11-12"
   },
   "2QMMktUMtwMSwUZATX1cRO": {
     "name": "Toadies",
@@ -5692,6 +5991,28 @@
       }
     ],
     "last_updated": "2026-08-27"
+  },
+  "2XnnxQzxFZG8qEPjakokPM": {
+    "name": "Obie Trice",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebf833f42719a887175125aa6b",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174f833f42719a887175125aa6b",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178f833f42719a887175125aa6b",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-11-13"
   },
   "2YZyLoL8N0Wb9xBt1NhZWg": {
     "name": "Kendrick Lamar",
@@ -7449,6 +7770,28 @@
     ],
     "last_updated": "2026-03-28"
   },
+  "3AEyWNe4qhvSdT3ggMPdHq": {
+    "name": "Noah James",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb00bb0342bfff5bccd8495d8b",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517400bb0342bfff5bccd8495d8b",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17800bb0342bfff5bccd8495d8b",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-11-15"
+  },
   "3AaY5O1qS0tcNPHwwMwplt": {
     "name": "Jeff Parker",
     "genres": [
@@ -7600,6 +7943,30 @@
       }
     ],
     "last_updated": "2026-04-05"
+  },
+  "3DELNHPLdJgXkDHOTt3ok8": {
+    "name": "MOUNT WESTMORE",
+    "genres": [
+      "west coast hip hop"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebbfb7b405a8e585a93a7f911f",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174bfb7b405a8e585a93a7f911f",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178bfb7b405a8e585a93a7f911f",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-11-11"
   },
   "3E7aH1Yv84NoaP9JWcrMpE": {
     "name": "Ed O'Brien",
@@ -8576,6 +8943,33 @@
     ],
     "last_updated": "2026-06-30"
   },
+  "3crnzLy8R4lVwaigKEOz7V": {
+    "name": "E-40",
+    "genres": [
+      "hyphy",
+      "west coast hip hop",
+      "old school hip hop",
+      "g-funk"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb8ca18cf65fbe696a56d9cfda",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051748ca18cf65fbe696a56d9cfda",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1788ca18cf65fbe696a56d9cfda",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-11-12"
+  },
   "3cwVFmQ6mcUoGR6ZvIPuZ4": {
     "name": "Nicholas Payton",
     "genres": [
@@ -8871,6 +9265,28 @@
       }
     ],
     "last_updated": "2026-06-17"
+  },
+  "3m3H5WsWpUQ0pp2csvmcE8": {
+    "name": "Twin Fin",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb157d01c066528fbe49ce1752",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174157d01c066528fbe49ce1752",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178157d01c066528fbe49ce1752",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-11-15"
   },
   "3mSAqBoXQgdlpwzWsIgBzL": {
     "name": "Merle Haggard \u0026 The Strangers",
@@ -10141,6 +10557,28 @@
     ],
     "last_updated": "2026-07-10"
   },
+  "4Ew8VmfE06siL2THiMBwPP": {
+    "name": "GRIP",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebed899015858bb67477bc719c",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174ed899015858bb67477bc719c",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178ed899015858bb67477bc719c",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-11-13"
+  },
   "4F7Q5NV6h5TSwCainz8S5A": {
     "name": "Duke Ellington",
     "genres": [
@@ -11399,6 +11837,34 @@
     ],
     "last_updated": "2026-03-18"
   },
+  "4sb7rZNN93BSS6Gqgepo4v": {
+    "name": "Too $hort",
+    "genres": [
+      "hyphy",
+      "west coast hip hop",
+      "g-funk",
+      "old school hip hop",
+      "gangster rap"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebe1000f5b1cde8889cf4dc44b",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174e1000f5b1cde8889cf4dc44b",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178e1000f5b1cde8889cf4dc44b",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-11-11"
+  },
   "4tlnuBsCPe8BHUuADPvUSL": {
     "name": "Dave Rawlings Machine",
     "genres": [
@@ -11538,6 +12004,28 @@
       }
     ],
     "last_updated": "2026-03-28"
+  },
+  "4xRYI6VqpkE3UwrDrAZL8L": {
+    "name": "Logic",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb4309e7be1610df9a1fd34793",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051744309e7be1610df9a1fd34793",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1784309e7be1610df9a1fd34793",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-11-13"
   },
   "50NoVNy9GU1lCrDV8iGpyu": {
     "name": "Ol' Dirty Bastard",
@@ -12337,6 +12825,28 @@
     ],
     "last_updated": "2026-07-24"
   },
+  "5SXuuuRpukkTvsLuUknva1": {
+    "name": "Baby Keem",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebe45a6e4cee2ef5f4c0fec713",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174e45a6e4cee2ef5f4c0fec713",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178e45a6e4cee2ef5f4c0fec713",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-11-11"
+  },
   "5SbkVQYYzlw1kte75QIabH": {
     "name": "Gnarls Barkley",
     "genres": [],
@@ -12831,6 +13341,28 @@
     ],
     "last_updated": "2026-10-22"
   },
+  "5iZ49r3ayCqsUesaetPDcr": {
+    "name": "Max Alan",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebf968f3313a611956e6f324dd",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174f968f3313a611956e6f324dd",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178f968f3313a611956e6f324dd",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-11-15"
+  },
   "5ihY290YPGc3aY2xTyx7Gy": {
     "name": "Edvard Grieg",
     "genres": [
@@ -12860,6 +13392,31 @@
       }
     ],
     "last_updated": "2026-03-18"
+  },
+  "5jG6uRqinuI83luutMpW6y": {
+    "name": "Gavin Adcock",
+    "genres": [
+      "country",
+      "red dirt"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebc5ee8bfe5570f052b7ec85ae",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174c5ee8bfe5570f052b7ec85ae",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178c5ee8bfe5570f052b7ec85ae",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-11-15"
   },
   "5l8VQNuIg0turYE1VtM9zV": {
     "name": "Leonard Cohen",
@@ -14047,6 +14604,28 @@
     ],
     "last_updated": "2026-05-19"
   },
+  "6C1ohJrd5VydigQtaGy5Wa": {
+    "name": "Joyner Lucas",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebf94c47d61b62caf79c57b091",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174f94c47d61b62caf79c57b091",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178f94c47d61b62caf79c57b091",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-11-13"
+  },
   "6D6k2ClWxVpnpsXtIdWTNu": {
     "name": "Frankie White",
     "genres": [
@@ -14763,6 +15342,30 @@
     ],
     "last_updated": "2026-03-18"
   },
+  "6UBA15slIuadJ8h2lPRPos": {
+    "name": "Tech N9ne",
+    "genres": [
+      "horrorcore"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb8b1697a78fbe50647333a84f",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051748b1697a78fbe50647333a84f",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1788b1697a78fbe50647333a84f",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-11-13"
+  },
   "6UL7BodGc5iVmQGlMwHR0g": {
     "name": "Steel Pulse",
     "genres": [
@@ -15004,6 +15607,31 @@
       }
     ],
     "last_updated": "2026-03-28"
+  },
+  "6cwlhbT6PnscdmUYCLUJsa": {
+    "name": "Bone Crusher",
+    "genres": [
+      "crunk",
+      "southern hip hop"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b273acbfd4c24f2793ca070626c1",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e02acbfd4c24f2793ca070626c1",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00004851acbfd4c24f2793ca070626c1",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "last_updated": "2026-11-13"
   },
   "6dAtGAnHCQ1ujMUZ9Ep82k": {
     "name": "Grant Green",
@@ -15386,6 +16014,30 @@
       }
     ],
     "last_updated": "2026-06-13"
+  },
+  "6l3HvQ5sa6mXTsMTB19rO5": {
+    "name": "J. Cole",
+    "genres": [
+      "rap"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebc401ea77e86ee984b1ba9fc2",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174c401ea77e86ee984b1ba9fc2",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178c401ea77e86ee984b1ba9fc2",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-11-13"
   },
   "6l40OFJhuTbHQ9V12evc9K": {
     "name": "Gerry Mulligan",
@@ -15815,6 +16467,32 @@
       }
     ],
     "last_updated": "2026-06-12"
+  },
+  "6xyaria4AcxjRuJZLkWvMW": {
+    "name": "Guru",
+    "genres": [
+      "jazz rap",
+      "acid jazz",
+      "east coast hip hop"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eba52ca5ab39f130ff72647ebb",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174a52ca5ab39f130ff72647ebb",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178a52ca5ab39f130ff72647ebb",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-11-12"
   },
   "6yHM0XQEdu9sIlbILMaKBp": {
     "name": "Paul Cauthen",
@@ -16616,6 +17294,28 @@
     ],
     "last_updated": "2026-03-26"
   },
+  "7Hw6prEoT6M58ChR8A1Rlz": {
+    "name": "The Jack Wharff Band",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb4fe196d077f84cef581856f4",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051744fe196d077f84cef581856f4",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1784fe196d077f84cef581856f4",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-11-15"
+  },
   "7KkUirCiJZhgRN3NbgG98L": {
     "name": "Ottorino Respighi",
     "genres": [
@@ -17360,6 +18060,28 @@
     ],
     "last_updated": "2026-03-28"
   },
+  "7vTyZmNA6LC0WRDg7V6yle": {
+    "name": "King Iso",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb547b11269457d73ba9f3417e",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174547b11269457d73ba9f3417e",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178547b11269457d73ba9f3417e",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-11-12"
+  },
   "7wCjDgV6nqBsHguQXPAaIM": {
     "name": "Waylon Jennings",
     "genres": [
@@ -17440,6 +18162,33 @@
       }
     ],
     "last_updated": "2026-09-08"
+  },
+  "7xTKLpo7UCzXSnlH7fOIoM": {
+    "name": "Redman",
+    "genres": [
+      "east coast hip hop",
+      "old school hip hop",
+      "hip hop",
+      "hardcore hip hop"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebb3abe39a345181d9ec8f985f",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174b3abe39a345181d9ec8f985f",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178b3abe39a345181d9ec8f985f",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "last_updated": "2026-11-13"
   },
   "7xY48N1Fs8R9DDKcUrevke": {
     "name": "Zach Webb",

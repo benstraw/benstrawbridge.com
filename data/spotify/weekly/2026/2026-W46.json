@@ -1,0 +1,2058 @@
+{
+  "week": "2026-W46",
+  "title": "Week of Nov 9, 2026",
+  "year": 2026,
+  "week_num": 46,
+  "date_start": "2026-11-09",
+  "date_end": "2026-11-15",
+  "total_plays": 140,
+  "unique_artists": 54,
+  "topArtistName": "MOUNT WESTMORE",
+  "topArtistImages": [
+    {
+      "url": "https://i.scdn.co/image/ab6761610000e5ebbfb7b405a8e585a93a7f911f",
+      "height": 640,
+      "width": 640
+    },
+    {
+      "url": "https://i.scdn.co/image/ab67616100005174bfb7b405a8e585a93a7f911f",
+      "height": 320,
+      "width": 320
+    },
+    {
+      "url": "https://i.scdn.co/image/ab6761610000f178bfb7b405a8e585a93a7f911f",
+      "height": 160,
+      "width": 160
+    }
+  ],
+  "top_genres": [
+    {
+      "name": "west coast hip hop",
+      "plays": 48
+    },
+    {
+      "name": "old school hip hop",
+      "plays": 29
+    },
+    {
+      "name": "g-funk",
+      "plays": 26
+    },
+    {
+      "name": "hyphy",
+      "plays": 24
+    },
+    {
+      "name": "singer-songwriter",
+      "plays": 19
+    },
+    {
+      "name": "folk",
+      "plays": 17
+    },
+    {
+      "name": "folk rock",
+      "plays": 15
+    },
+    {
+      "name": "roots rock",
+      "plays": 13
+    },
+    {
+      "name": "jazz",
+      "plays": 12
+    },
+    {
+      "name": "hard bop",
+      "plays": 12
+    }
+  ],
+  "top_artists": [
+    {
+      "slug": "mount-westmore",
+      "name": "MOUNT WESTMORE",
+      "plays": 21,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebbfb7b405a8e585a93a7f911f",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174bfb7b405a8e585a93a7f911f",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178bfb7b405a8e585a93a7f911f",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "e-40",
+      "name": "E-40",
+      "plays": 19,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb8ca18cf65fbe696a56d9cfda",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051748ca18cf65fbe696a56d9cfda",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1788ca18cf65fbe696a56d9cfda",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "bob-dylan",
+      "name": "Bob Dylan",
+      "plays": 13,
+      "images": [
+        {
+          "height": 1000,
+          "url": "https://i.scdn.co/image/ab6772690000c46cd7064356b04a156664a37c4f",
+          "width": 1000
+        },
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6772690000dd22d7064356b04a156664a37c4f",
+          "width": 640
+        },
+        {
+          "height": 200,
+          "url": "https://i.scdn.co/image/ab6772690000bac3d7064356b04a156664a37c4f",
+          "width": 200
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/ab67726900008f74d7064356b04a156664a37c4f",
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "john-coltrane",
+      "name": "John Coltrane",
+      "plays": 7,
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb73c7f7505c1af82929ec41df",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab6761610000517473c7f7505c1af82929ec41df",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f17873c7f7505c1af82929ec41df",
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "guru",
+      "name": "Guru",
+      "plays": 6,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eba52ca5ab39f130ff72647ebb",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174a52ca5ab39f130ff72647ebb",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178a52ca5ab39f130ff72647ebb",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "charles-mingus",
+      "name": "Charles Mingus",
+      "plays": 5,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebe43b629d257d42a86c71323d",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174e43b629d257d42a86c71323d",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178e43b629d257d42a86c71323d",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "talking-heads",
+      "name": "Talking Heads",
+      "plays": 4,
+      "images": [
+        {
+          "height": 500,
+          "url": "https://i.scdn.co/image/e4c5b04fce8706c87663357b1f78522a3a5c641b",
+          "width": 500
+        },
+        {
+          "height": 200,
+          "url": "https://i.scdn.co/image/60bfd4ad01d8d9142d88c3c0b73cea36bf327ea7",
+          "width": 200
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/4056b1eaa81255de0865ebe4fdbe61246205153c",
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "ludwig-van-beethoven",
+      "name": "Ludwig van Beethoven",
+      "plays": 4,
+      "images": [
+        {
+          "height": 750,
+          "url": "https://i.scdn.co/image/db022999443da6f89e250086329d98b17399b346",
+          "width": 1000
+        },
+        {
+          "height": 480,
+          "url": "https://i.scdn.co/image/693030b2c7ee75d1fc095d9e6a7fe391a6b10f27",
+          "width": 640
+        },
+        {
+          "height": 150,
+          "url": "https://i.scdn.co/image/348252c0e6722a55a05484b052ef010e71ca30ce",
+          "width": 200
+        },
+        {
+          "height": 48,
+          "url": "https://i.scdn.co/image/621f978b2a436b0392478baccb8778d3a9842e38",
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "waylon-wyatt",
+      "name": "Waylon Wyatt",
+      "plays": 3,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb51e191838dca7d4729b268a2",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517451e191838dca7d4729b268a2",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17851e191838dca7d4729b268a2",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "the-jack-wharff-band",
+      "name": "The Jack Wharff Band",
+      "plays": 3,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb4fe196d077f84cef581856f4",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051744fe196d077f84cef581856f4",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1784fe196d077f84cef581856f4",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "flatland-cavalry",
+      "name": "Flatland Cavalry",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb9cc3d15a6faca6dc785649fc",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051749cc3d15a6faca6dc785649fc",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1789cc3d15a6faca6dc785649fc",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "tech-n9ne",
+      "name": "Tech N9ne",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb8b1697a78fbe50647333a84f",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051748b1697a78fbe50647333a84f",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1788b1697a78fbe50647333a84f",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "obie-trice",
+      "name": "Obie Trice",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebf833f42719a887175125aa6b",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174f833f42719a887175125aa6b",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178f833f42719a887175125aa6b",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "dr-dre",
+      "name": "Dr. Dre",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6772690000c46c250b3af4b06e1fcf538d398b",
+          "height": 1000,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6772690000dd22250b3af4b06e1fcf538d398b",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6772690000bac3250b3af4b06e1fcf538d398b",
+          "height": 200,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67726900008f74250b3af4b06e1fcf538d398b",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "eminem",
+      "name": "Eminem",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eba00b11c129b27a88fc72f36b",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174a00b11c129b27a88fc72f36b",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178a00b11c129b27a88fc72f36b",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "joyner-lucas",
+      "name": "Joyner Lucas",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebf94c47d61b62caf79c57b091",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174f94c47d61b62caf79c57b091",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178f94c47d61b62caf79c57b091",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "p-lo",
+      "name": "P-Lo",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebb375040bbfeb2d3361abba4e",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174b375040bbfeb2d3361abba4e",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178b375040bbfeb2d3361abba4e",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "chef-boy",
+      "name": "Chef Boy",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb3b9bd6868cda50d501baa707",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051743b9bd6868cda50d501baa707",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1783b9bd6868cda50d501baa707",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "spice-1",
+      "name": "Spice 1",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb7787918d4436490eb7ff3996",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051747787918d4436490eb7ff3996",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1787787918d4436490eb7ff3996",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "too-hort",
+      "name": "Too $hort",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebe1000f5b1cde8889cf4dc44b",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174e1000f5b1cde8889cf4dc44b",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178e1000f5b1cde8889cf4dc44b",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "john-prine",
+      "name": "John Prine",
+      "plays": 2,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebf109851845669becdc5c63f6",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174f109851845669becdc5c63f6",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178f109851845669becdc5c63f6",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "kashus-culpepper",
+      "name": "Kashus Culpepper",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb8d20594388766b355527009e",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051748d20594388766b355527009e",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1788d20594388766b355527009e",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "cole-phillips",
+      "name": "Cole Phillips",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebbe0f4682170ef8ff09660eb3",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174be0f4682170ef8ff09660eb3",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178be0f4682170ef8ff09660eb3",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "gavin-adcock",
+      "name": "Gavin Adcock",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebc5ee8bfe5570f052b7ec85ae",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174c5ee8bfe5570f052b7ec85ae",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178c5ee8bfe5570f052b7ec85ae",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "charles-wesley-godwin",
+      "name": "Charles Wesley Godwin",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebbf4f605fc86259ad71b45794",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174bf4f605fc86259ad71b45794",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178bf4f605fc86259ad71b45794",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "noah-james",
+      "name": "Noah James",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb00bb0342bfff5bccd8495d8b",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517400bb0342bfff5bccd8495d8b",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17800bb0342bfff5bccd8495d8b",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "twin-fin",
+      "name": "Twin Fin",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb157d01c066528fbe49ce1752",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174157d01c066528fbe49ce1752",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178157d01c066528fbe49ce1752",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "max-alan",
+      "name": "Max Alan",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebf968f3313a611956e6f324dd",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174f968f3313a611956e6f324dd",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178f968f3313a611956e6f324dd",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "whiskey-myers",
+      "name": "Whiskey Myers",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb55725bcabcb716077626bd97",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517455725bcabcb716077626bd97",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17855725bcabcb716077626bd97",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "the-red-clay-strays",
+      "name": "The Red Clay Strays",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb96d3777ed36716905b24f1ae",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517496d3777ed36716905b24f1ae",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17896d3777ed36716905b24f1ae",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "j-cole",
+      "name": "J. Cole",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebc401ea77e86ee984b1ba9fc2",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174c401ea77e86ee984b1ba9fc2",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178c401ea77e86ee984b1ba9fc2",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "grip",
+      "name": "GRIP",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebed899015858bb67477bc719c",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174ed899015858bb67477bc719c",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178ed899015858bb67477bc719c",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "redman",
+      "name": "Redman",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebb3abe39a345181d9ec8f985f",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174b3abe39a345181d9ec8f985f",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178b3abe39a345181d9ec8f985f",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "50-cent",
+      "name": "50 Cent",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/dd031b9c5d1b6eba4a691cd89c954255aae787f2",
+          "height": 977,
+          "width": 781
+        },
+        {
+          "url": "https://i.scdn.co/image/6f0da41419b31d9d2ba55d2df212f59ad0668118",
+          "height": 801,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/df73c0cebe56cafe705ffdba5085ccbd5680bd16",
+          "height": 250,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/1a44043542c997ef835c89e185f0cf79d7402153",
+          "height": 80,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "ice-cube",
+      "name": "Ice Cube",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb650e79afafd00492e33d7b8c",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174650e79afafd00492e33d7b8c",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178650e79afafd00492e33d7b8c",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "bone-crusher",
+      "name": "Bone Crusher",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000b273acbfd4c24f2793ca070626c1",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00001e02acbfd4c24f2793ca070626c1",
+          "height": 300,
+          "width": 300
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00004851acbfd4c24f2793ca070626c1",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "nipsey-hussle",
+      "name": "Nipsey Hussle",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb1a6039ad49508f2840d939e2",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051741a6039ad49508f2840d939e2",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1781a6039ad49508f2840d939e2",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "mike-jones",
+      "name": "Mike Jones",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebfafdf9520195ad3273e3b9ca",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174fafdf9520195ad3273e3b9ca",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178fafdf9520195ad3273e3b9ca",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "nas",
+      "name": "Nas",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb153198caeef9e3bda92f9285",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174153198caeef9e3bda92f9285",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178153198caeef9e3bda92f9285",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "logic",
+      "name": "Logic",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb4309e7be1610df9a1fd34793",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051744309e7be1610df9a1fd34793",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1784309e7be1610df9a1fd34793",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "king-iso",
+      "name": "King Iso",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb547b11269457d73ba9f3417e",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174547b11269457d73ba9f3417e",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178547b11269457d73ba9f3417e",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "cousin-fik",
+      "name": "Cousin Fik",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb66c97539abab3ffcb44d6d86",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517466c97539abab3ffcb44d6d86",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17866c97539abab3ffcb44d6d86",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "prof",
+      "name": "Prof",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb81e05e7a236808eab01ed737",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517481e05e7a236808eab01ed737",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17881e05e7a236808eab01ed737",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "wiz-khalifa",
+      "name": "Wiz Khalifa",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebc66b0a8c3268f0b6556f64a8",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174c66b0a8c3268f0b6556f64a8",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178c66b0a8c3268f0b6556f64a8",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "baby-keem",
+      "name": "Baby Keem",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebe45a6e4cee2ef5f4c0fec713",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174e45a6e4cee2ef5f4c0fec713",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178e45a6e4cee2ef5f4c0fec713",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "iggy-pop",
+      "name": "Iggy Pop",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb21e6d14c3d8aab9887380d00",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517421e6d14c3d8aab9887380d00",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17821e6d14c3d8aab9887380d00",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "the-clash",
+      "name": "The Clash",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb2fc4d22f2e060511db2ae971",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051742fc4d22f2e060511db2ae971",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1782fc4d22f2e060511db2ae971",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "faces",
+      "name": "Faces",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/228b37f3fd1bb220f6d1922ca179bc1d933adc37",
+          "height": 1000,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/d63030262e9b5452cedecd885c55d4162b839f46",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/3912a6e66a69441e993c2073e22faaa7ceccae0e",
+          "height": 200,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/e348cb3082d6c559a1715d392d8ab2b2e6fb31c7",
+          "height": 64,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "nick-drake",
+      "name": "Nick Drake",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/d364b498f85ae764cd278fbba9a8ed7f00c3e434",
+          "height": 1484,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/087fb05851e498c2791ca99000acf35b0fd49f19",
+          "height": 950,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/9a74a7d885abe5da94ac812546d0146cfe4a1ceb",
+          "height": 297,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/267080662cf3c019ea8020a4e0e8dd5a7be4d909",
+          "height": 95,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "david-bowie",
+      "name": "David Bowie",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebb78f77c5583ae99472dd4a49",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174b78f77c5583ae99472dd4a49",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178b78f77c5583ae99472dd4a49",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "van-morrison",
+      "name": "Van Morrison",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb61978f04a57032e5fec7819f",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517461978f04a57032e5fec7819f",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17861978f04a57032e5fec7819f",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "the-velvet-underground",
+      "name": "The Velvet Underground",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/d69c2cf10323bf08443c7d122f3a1824a760ab57",
+          "height": 1236,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/24e7531935f88f55744cc8c9ed2528f466cba276",
+          "height": 791,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/fedcb6f64de6571e2c208a21fc16b9e05e38cf2f",
+          "height": 247,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/0fda1f46337398e35d5c7c672ddc77beb68a8f93",
+          "height": 79,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "slug": "elliott-smith",
+      "name": "Elliott Smith",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb079739b801ab3f105866b76f",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174079739b801ab3f105866b76f",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178079739b801ab3f105866b76f",
+          "height": 160,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "slug": "jim-croce",
+      "name": "Jim Croce",
+      "plays": 1,
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/9f9b40704e3361c93ea8a8b7a86a5d9ee755466e",
+          "height": 990,
+          "width": 1000
+        },
+        {
+          "url": "https://i.scdn.co/image/a231c19bbf27417afaf99cad6ef372054b38da28",
+          "height": 634,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/f2374db73b0a0722f78b84ff88d26ab32472938b",
+          "height": 198,
+          "width": 200
+        },
+        {
+          "url": "https://i.scdn.co/image/ac6acaf00e9a2201a9a9785a1bd83d1419545f1f",
+          "height": 63,
+          "width": 64
+        }
+      ]
+    }
+  ],
+  "top_tracks": [
+    {
+      "name": "Big Subwoofer (feat. Snoop Dogg, Ice Cube, E-40 & Too $hort ) - Single Version",
+      "artist": "MOUNT WESTMORE",
+      "artist_slug": "mount-westmore",
+      "plays": 3
+    },
+    {
+      "name": "Never Comin' Back",
+      "artist": "Flatland Cavalry",
+      "artist_slug": "flatland-cavalry",
+      "plays": 2
+    },
+    {
+      "name": "Sriracha",
+      "artist": "Tech N9ne",
+      "artist_slug": "tech-n9ne",
+      "plays": 2
+    },
+    {
+      "name": "I Stand On That (feat. Joyner Lucas & T.I.)",
+      "artist": "E-40",
+      "artist_slug": "e-40",
+      "plays": 2
+    },
+    {
+      "name": "Again",
+      "artist": "P-Lo",
+      "artist_slug": "p-lo",
+      "plays": 2
+    },
+    {
+      "name": "Gang Gang Gangland (feat. YG & Mozzy)",
+      "artist": "Chef Boy",
+      "artist_slug": "chef-boy",
+      "plays": 2
+    },
+    {
+      "name": "U and Dat (feat. T. Pain & Kandi Girl)",
+      "artist": "E-40",
+      "artist_slug": "e-40",
+      "plays": 2
+    },
+    {
+      "name": "I Got Five On It Remix",
+      "artist": "Spice 1",
+      "artist_slug": "spice-1",
+      "plays": 2
+    },
+    {
+      "name": "Lace You Up",
+      "artist": "MOUNT WESTMORE",
+      "artist_slug": "mount-westmore",
+      "plays": 2
+    },
+    {
+      "name": "I Got Pull",
+      "artist": "MOUNT WESTMORE",
+      "artist_slug": "mount-westmore",
+      "plays": 2
+    },
+    {
+      "name": "Heaven - 2005 Remaster",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 2
+    },
+    {
+      "name": "Sarah Jane",
+      "artist": "Bob Dylan",
+      "artist_slug": "bob-dylan",
+      "plays": 2
+    },
+    {
+      "name": "Impressions - Live from The Tiberi Tapes",
+      "artist": "John Coltrane",
+      "artist_slug": "john-coltrane",
+      "plays": 2
+    },
+    {
+      "name": "Out Of My Mind",
+      "artist": "Kashus Culpepper",
+      "artist_slug": "kashus-culpepper",
+      "plays": 1
+    },
+    {
+      "name": "Jailbreak",
+      "artist": "Waylon Wyatt",
+      "artist_slug": "waylon-wyatt",
+      "plays": 1
+    },
+    {
+      "name": "Good Guy",
+      "artist": "Cole Phillips",
+      "artist_slug": "cole-phillips",
+      "plays": 1
+    },
+    {
+      "name": "Workin' Man",
+      "artist": "Gavin Adcock",
+      "artist_slug": "gavin-adcock",
+      "plays": 1
+    },
+    {
+      "name": "Saved",
+      "artist": "The Jack Wharff Band",
+      "artist_slug": "the-jack-wharff-band",
+      "plays": 1
+    },
+    {
+      "name": "Saved",
+      "artist": "The Jack Wharff Band",
+      "artist_slug": "the-jack-wharff-band",
+      "plays": 1
+    },
+    {
+      "name": "Hey There Son (feat. Wyatt Flores)",
+      "artist": "Charles Wesley Godwin",
+      "artist_slug": "charles-wesley-godwin",
+      "plays": 1
+    },
+    {
+      "name": "Coming Home Again",
+      "artist": "Noah James",
+      "artist_slug": "noah-james",
+      "plays": 1
+    },
+    {
+      "name": "I'm Sorry But I Love You",
+      "artist": "Waylon Wyatt",
+      "artist_slug": "waylon-wyatt",
+      "plays": 1
+    },
+    {
+      "name": "Gasoline",
+      "artist": "Twin Fin",
+      "artist_slug": "twin-fin",
+      "plays": 1
+    },
+    {
+      "name": "Love When We Were Young",
+      "artist": "Max Alan",
+      "artist_slug": "max-alan",
+      "plays": 1
+    },
+    {
+      "name": "Virginia Can I Stay Awhile",
+      "artist": "The Jack Wharff Band",
+      "artist_slug": "the-jack-wharff-band",
+      "plays": 1
+    },
+    {
+      "name": "Heart of Stone",
+      "artist": "Whiskey Myers",
+      "artist_slug": "whiskey-myers",
+      "plays": 1
+    },
+    {
+      "name": "Wanna Be Loved",
+      "artist": "The Red Clay Strays",
+      "artist_slug": "the-red-clay-strays",
+      "plays": 1
+    },
+    {
+      "name": "Copperhead Road - Live from Cain's Ballroom",
+      "artist": "Waylon Wyatt",
+      "artist_slug": "waylon-wyatt",
+      "plays": 1
+    },
+    {
+      "name": "No Choice (feat. James Too Cold)",
+      "artist": "E-40",
+      "artist_slug": "e-40",
+      "plays": 1
+    },
+    {
+      "name": "9 5 . s o u t h",
+      "artist": "J. Cole",
+      "artist_slug": "j-cole",
+      "plays": 1
+    },
+    {
+      "name": "We All Die One Day",
+      "artist": "Obie Trice",
+      "artist_slug": "obie-trice",
+      "plays": 1
+    },
+    {
+      "name": "Walkthrough! (feat. Eminem)",
+      "artist": "GRIP",
+      "artist_slug": "grip",
+      "plays": 1
+    },
+    {
+      "name": "80 BARZ",
+      "artist": "Redman",
+      "artist_slug": "redman",
+      "plays": 1
+    },
+    {
+      "name": "Don't Push Me",
+      "artist": "50 Cent",
+      "artist_slug": "50-cent",
+      "plays": 1
+    },
+    {
+      "name": "Medicine Man",
+      "artist": "Dr. Dre",
+      "artist_slug": "dr-dre",
+      "plays": 1
+    },
+    {
+      "name": "Lock It Up (feat. Anderson .Paak)",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 1
+    },
+    {
+      "name": "Isis (feat. Logic)",
+      "artist": "Joyner Lucas",
+      "artist_slug": "joyner-lucas",
+      "plays": 1
+    },
+    {
+      "name": "Chase The Money (feat. Quavo, Roddy Rich, A$AP Ferg & ScHoolboy Q)",
+      "artist": "E-40",
+      "artist_slug": "e-40",
+      "plays": 1
+    },
+    {
+      "name": "Act My Age",
+      "artist": "Ice Cube",
+      "artist_slug": "ice-cube",
+      "plays": 1
+    },
+    {
+      "name": "Never Scared (feat. Killer Mike & T.I.) - Club Mix",
+      "artist": "Bone Crusher",
+      "artist_slug": "bone-crusher",
+      "plays": 1
+    },
+    {
+      "name": "Hussle & Motivate",
+      "artist": "Nipsey Hussle",
+      "artist_slug": "nipsey-hussle",
+      "plays": 1
+    },
+    {
+      "name": "Shit Hits The Fan",
+      "artist": "Obie Trice",
+      "artist_slug": "obie-trice",
+      "plays": 1
+    },
+    {
+      "name": "Back Then",
+      "artist": "Mike Jones",
+      "artist_slug": "mike-jones",
+      "plays": 1
+    },
+    {
+      "name": "Spicy (feat. Fivio Foreign & A$AP Ferg)",
+      "artist": "Nas",
+      "artist_slug": "nas",
+      "plays": 1
+    },
+    {
+      "name": "Homicide (feat. Eminem)",
+      "artist": "Logic",
+      "artist_slug": "logic",
+      "plays": 1
+    },
+    {
+      "name": "Gospel (with Eminem)",
+      "artist": "Dr. Dre",
+      "artist_slug": "dr-dre",
+      "plays": 1
+    },
+    {
+      "name": "Gnat",
+      "artist": "Eminem",
+      "artist_slug": "eminem",
+      "plays": 1
+    },
+    {
+      "name": "Zim Zimma",
+      "artist": "Joyner Lucas",
+      "artist_slug": "joyner-lucas",
+      "plays": 1
+    },
+    {
+      "name": "Imma Find Out",
+      "artist": "E-40",
+      "artist_slug": "e-40",
+      "plays": 1
+    },
+    {
+      "name": "Better Git It in Your Soul",
+      "artist": "Charles Mingus",
+      "artist_slug": "charles-mingus",
+      "plays": 1
+    },
+    {
+      "name": "Track A- Solo Dancer",
+      "artist": "Charles Mingus",
+      "artist_slug": "charles-mingus",
+      "plays": 1
+    },
+    {
+      "name": "Moanin'",
+      "artist": "Charles Mingus",
+      "artist_slug": "charles-mingus",
+      "plays": 1
+    },
+    {
+      "name": "Mood Indigo",
+      "artist": "Charles Mingus",
+      "artist_slug": "charles-mingus",
+      "plays": 1
+    },
+    {
+      "name": "Goodbye Pork Pie Hat",
+      "artist": "Charles Mingus",
+      "artist_slug": "charles-mingus",
+      "plays": 1
+    },
+    {
+      "name": "No Time To Play",
+      "artist": "Guru",
+      "artist_slug": "guru",
+      "plays": 1
+    },
+    {
+      "name": "When You're Near",
+      "artist": "Guru",
+      "artist_slug": "guru",
+      "plays": 1
+    },
+    {
+      "name": "Look to the Sun",
+      "artist": "Guru",
+      "artist_slug": "guru",
+      "plays": 1
+    },
+    {
+      "name": "Feel The Music",
+      "artist": "Guru",
+      "artist_slug": "guru",
+      "plays": 1
+    },
+    {
+      "name": "Lifesaver",
+      "artist": "Guru",
+      "artist_slug": "guru",
+      "plays": 1
+    },
+    {
+      "name": "Loungin'",
+      "artist": "Guru",
+      "artist_slug": "guru",
+      "plays": 1
+    },
+    {
+      "name": "Crash Out",
+      "artist": "King Iso",
+      "artist_slug": "king-iso",
+      "plays": 1
+    },
+    {
+      "name": "19 Dolla Lapdance (feat. Suga Free)",
+      "artist": "E-40",
+      "artist_slug": "e-40",
+      "plays": 1
+    },
+    {
+      "name": "Game Been Missing",
+      "artist": "E-40",
+      "artist_slug": "e-40",
+      "plays": 1
+    },
+    {
+      "name": "Thangin",
+      "artist": "Cousin Fik",
+      "artist_slug": "cousin-fik",
+      "plays": 1
+    },
+    {
+      "name": "Sprinkle Me (feat. Suga-T)",
+      "artist": "E-40",
+      "artist_slug": "e-40",
+      "plays": 1
+    },
+    {
+      "name": "Sumn Ain't Right",
+      "artist": "E-40",
+      "artist_slug": "e-40",
+      "plays": 1
+    },
+    {
+      "name": "Yay Area",
+      "artist": "E-40",
+      "artist_slug": "e-40",
+      "plays": 1
+    },
+    {
+      "name": "Function - feat. YG, IAMSU! & Problem",
+      "artist": "E-40",
+      "artist_slug": "e-40",
+      "plays": 1
+    },
+    {
+      "name": "Night In The Bay",
+      "artist": "E-40",
+      "artist_slug": "e-40",
+      "plays": 1
+    },
+    {
+      "name": "Brrrr (with E-40)",
+      "artist": "Prof",
+      "artist_slug": "prof",
+      "plays": 1
+    },
+    {
+      "name": "B*tch (feat. Too $hort)",
+      "artist": "E-40",
+      "artist_slug": "e-40",
+      "plays": 1
+    },
+    {
+      "name": "My Shit Bang",
+      "artist": "E-40",
+      "artist_slug": "e-40",
+      "plays": 1
+    },
+    {
+      "name": "Choices (Yup)",
+      "artist": "E-40",
+      "artist_slug": "e-40",
+      "plays": 1
+    },
+    {
+      "name": "Tell Me When to Go (feat. Keak da Sneak)",
+      "artist": "E-40",
+      "artist_slug": "e-40",
+      "plays": 1
+    },
+    {
+      "name": "Captain Save a Hoe (feat. The Click, D-Shot, B-Legit & Suga T)",
+      "artist": "E-40",
+      "artist_slug": "e-40",
+      "plays": 1
+    },
+    {
+      "name": "Mash",
+      "artist": "MOUNT WESTMORE",
+      "artist_slug": "mount-westmore",
+      "plays": 1
+    },
+    {
+      "name": "On Camera",
+      "artist": "MOUNT WESTMORE",
+      "artist_slug": "mount-westmore",
+      "plays": 1
+    },
+    {
+      "name": "Tribal",
+      "artist": "MOUNT WESTMORE",
+      "artist_slug": "mount-westmore",
+      "plays": 1
+    },
+    {
+      "name": "Do My Best",
+      "artist": "MOUNT WESTMORE",
+      "artist_slug": "mount-westmore",
+      "plays": 1
+    },
+    {
+      "name": "Up & Down",
+      "artist": "MOUNT WESTMORE",
+      "artist_slug": "mount-westmore",
+      "plays": 1
+    },
+    {
+      "name": "How Many",
+      "artist": "MOUNT WESTMORE",
+      "artist_slug": "mount-westmore",
+      "plays": 1
+    },
+    {
+      "name": "California",
+      "artist": "MOUNT WESTMORE",
+      "artist_slug": "mount-westmore",
+      "plays": 1
+    },
+    {
+      "name": "Motto",
+      "artist": "MOUNT WESTMORE",
+      "artist_slug": "mount-westmore",
+      "plays": 1
+    },
+    {
+      "name": "Free Game",
+      "artist": "MOUNT WESTMORE",
+      "artist_slug": "mount-westmore",
+      "plays": 1
+    },
+    {
+      "name": "Activated",
+      "artist": "MOUNT WESTMORE",
+      "artist_slug": "mount-westmore",
+      "plays": 1
+    },
+    {
+      "name": "Have A Nice Day",
+      "artist": "MOUNT WESTMORE",
+      "artist_slug": "mount-westmore",
+      "plays": 1
+    },
+    {
+      "name": "Too Big",
+      "artist": "MOUNT WESTMORE",
+      "artist_slug": "mount-westmore",
+      "plays": 1
+    },
+    {
+      "name": "Big Subwoofer",
+      "artist": "MOUNT WESTMORE",
+      "artist_slug": "mount-westmore",
+      "plays": 1
+    },
+    {
+      "name": "Ghetto Gutter",
+      "artist": "MOUNT WESTMORE",
+      "artist_slug": "mount-westmore",
+      "plays": 1
+    },
+    {
+      "name": "Gettin' It (feat. Parliament Funkadelic)",
+      "artist": "Too $hort",
+      "artist_slug": "too-hort",
+      "plays": 1
+    },
+    {
+      "name": "On My Level (feat. Too $hort)",
+      "artist": "Wiz Khalifa",
+      "artist_slug": "wiz-khalifa",
+      "plays": 1
+    },
+    {
+      "name": "$ex Appeal (feat. Too $hort)",
+      "artist": "Baby Keem",
+      "artist_slug": "baby-keem",
+      "plays": 1
+    },
+    {
+      "name": "Blow the Whistle",
+      "artist": "Too $hort",
+      "artist_slug": "too-hort",
+      "plays": 1
+    },
+    {
+      "name": "The Man in Me",
+      "artist": "Bob Dylan",
+      "artist_slug": "bob-dylan",
+      "plays": 1
+    },
+    {
+      "name": "Lust For Life",
+      "artist": "Iggy Pop",
+      "artist_slug": "iggy-pop",
+      "plays": 1
+    },
+    {
+      "name": "Straight to Hell - Remastered",
+      "artist": "The Clash",
+      "artist_slug": "the-clash",
+      "plays": 1
+    },
+    {
+      "name": "Ooh La La",
+      "artist": "Faces",
+      "artist_slug": "faces",
+      "plays": 1
+    },
+    {
+      "name": "Pink Moon",
+      "artist": "Nick Drake",
+      "artist_slug": "nick-drake",
+      "plays": 1
+    },
+    {
+      "name": "Take Me to the River - 2025 Remaster",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 1
+    },
+    {
+      "name": "Pretty Good",
+      "artist": "John Prine",
+      "artist_slug": "john-prine",
+      "plays": 1
+    },
+    {
+      "name": "Sound and Vision - 2017 Remaster",
+      "artist": "David Bowie",
+      "artist_slug": "david-bowie",
+      "plays": 1
+    },
+    {
+      "name": "Into the Mystic - 2013 Remaster",
+      "artist": "Van Morrison",
+      "artist_slug": "van-morrison",
+      "plays": 1
+    },
+    {
+      "name": "Sweet Jane - Full Length Version; 2015 Remaster",
+      "artist": "The Velvet Underground",
+      "artist_slug": "the-velvet-underground",
+      "plays": 1
+    },
+    {
+      "name": "Waltz #2 (XO)",
+      "artist": "Elliott Smith",
+      "artist_slug": "elliott-smith",
+      "plays": 1
+    },
+    {
+      "name": "Positively 4th Street",
+      "artist": "Bob Dylan",
+      "artist_slug": "bob-dylan",
+      "plays": 1
+    },
+    {
+      "name": "Thank You for Sending Me an Angel - 2025 Remaster",
+      "artist": "Talking Heads",
+      "artist_slug": "talking-heads",
+      "plays": 1
+    },
+    {
+      "name": "Angel from Montgomery",
+      "artist": "John Prine",
+      "artist_slug": "john-prine",
+      "plays": 1
+    },
+    {
+      "name": "Tomorrow’s Gonna Be a Brighter Day",
+      "artist": "Jim Croce",
+      "artist_slug": "jim-croce",
+      "plays": 1
+    },
+    {
+      "name": "It's All Over Now, Baby Blue",
+      "artist": "Bob Dylan",
+      "artist_slug": "bob-dylan",
+      "plays": 1
+    },
+    {
+      "name": "Spanish Is the Loving Tongue",
+      "artist": "Bob Dylan",
+      "artist_slug": "bob-dylan",
+      "plays": 1
+    },
+    {
+      "name": "A Fool Such As I",
+      "artist": "Bob Dylan",
+      "artist_slug": "bob-dylan",
+      "plays": 1
+    },
+    {
+      "name": "Big Yellow Taxi",
+      "artist": "Bob Dylan",
+      "artist_slug": "bob-dylan",
+      "plays": 1
+    },
+    {
+      "name": "Mary Ann",
+      "artist": "Bob Dylan",
+      "artist_slug": "bob-dylan",
+      "plays": 1
+    },
+    {
+      "name": "Mr. Bojangles",
+      "artist": "Bob Dylan",
+      "artist_slug": "bob-dylan",
+      "plays": 1
+    },
+    {
+      "name": "The Ballad of Ira Hayes",
+      "artist": "Bob Dylan",
+      "artist_slug": "bob-dylan",
+      "plays": 1
+    },
+    {
+      "name": "Can't Help Falling in Love",
+      "artist": "Bob Dylan",
+      "artist_slug": "bob-dylan",
+      "plays": 1
+    },
+    {
+      "name": "Lily of the West",
+      "artist": "Bob Dylan",
+      "artist_slug": "bob-dylan",
+      "plays": 1
+    },
+    {
+      "name": "String Quartet No. 7 in F Major, Op. 59 No. 1 \"Razumovsky No. 1\": IV. Thème russe. Allegro",
+      "artist": "Ludwig van Beethoven",
+      "artist_slug": "ludwig-van-beethoven",
+      "plays": 1
+    },
+    {
+      "name": "String Quartet No. 7 in F Major, Op. 59 No. 1 \"Razumovsky No. 1\": III. Adagio molto e mesto",
+      "artist": "Ludwig van Beethoven",
+      "artist_slug": "ludwig-van-beethoven",
+      "plays": 1
+    },
+    {
+      "name": "String Quartet No. 7 in F Major, Op. 59 No. 1 \"Razumovsky No. 1\": II. Allegretto vivace e sempre scherzando",
+      "artist": "Ludwig van Beethoven",
+      "artist_slug": "ludwig-van-beethoven",
+      "plays": 1
+    },
+    {
+      "name": "String Quartet No. 7 in F Major, Op. 59 No. 1 \"Razumovsky No. 1\": I. Allegro",
+      "artist": "Ludwig van Beethoven",
+      "artist_slug": "ludwig-van-beethoven",
+      "plays": 1
+    },
+    {
+      "name": "Satellite - Live from The Tiberi Tapes",
+      "artist": "John Coltrane",
+      "artist_slug": "john-coltrane",
+      "plays": 1
+    },
+    {
+      "name": "Untitled Original in F Minor - Live from The Tiberi Tapes",
+      "artist": "John Coltrane",
+      "artist_slug": "john-coltrane",
+      "plays": 1
+    },
+    {
+      "name": "West 42nd St. - Live from The Tiberi Tapes",
+      "artist": "John Coltrane",
+      "artist_slug": "john-coltrane",
+      "plays": 1
+    },
+    {
+      "name": "Lover - Live from The Tiberi Tapes",
+      "artist": "John Coltrane",
+      "artist_slug": "john-coltrane",
+      "plays": 1
+    },
+    {
+      "name": "Thing in D Flat - Live from The Tiberi Tapes",
+      "artist": "John Coltrane",
+      "artist_slug": "john-coltrane",
+      "plays": 1
+    }
+  ]
+}
