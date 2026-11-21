@@ -1,0 +1,17 @@
+{{- /*
+Page header shared by every /consulting/ page: the theme's article-header
+band, minus the date meta. The hub used to reuse list-plain's flat header while
+the door pages used this one, so the three pages disagreed on spacing.
+*/ -}}
+{{- $headerClass := "" -}}
+{{- with .Param "twClasses.headerBackgroundFrameOuter" -}}{{- $headerClass = . -}}{{- end -}}
+<header class="article-header">
+  <div class="article-header-shell">
+    <div class="article-header-band {{ $headerClass }}">
+      <div class="article-header-title-row">
+        {{- if .Params.homeFeatureIcon }}<i class="{{ .Params.homeFeatureIcon }} article-header-icon"></i>{{ end }}
+        <h1 class="article-header-title">{{ .Title }}</h1>
+      </div>
+    </div>
+  </div>
+</header>

@@ -1,52 +1,35 @@
 +++
-description = 'API integration, product management and full stack development consulting — from securing infrastructure with Auth0, Okta and AWS to building scalable public and internal APIs.'
 title = 'Consulting'
+description = 'Senior technical leadership without the full-time hire. I help founders build their first product and help companies outside tech put AI to work.'
 date = 2024-02-14T15:16:41-08:00
-# draft = true
-# Prose section with no child pages — list.html would paginate an empty
-# collection and render the "Nothing here yet" empty state below the copy.
-layout = "list-plain"
+lastmod = 2026-10-06T00:00:00-07:00
+# homeFeature* and weight sit on the page, not in [cascade]: a cascade would
+# make every child page a second feature card on the home page.
+# See docs/content/sections.md.
+homeFeature = true
+homeFeatureWide = true
+homeFeatureSummary = "Senior technical leadership without the full-time hire, for founders and for companies outside tech putting AI to work."
+weight = 1
+# Adds /consulting/llms.txt (layouts/consulting/list.llmstxt.txt). Outputs are
+# set per kind in hugo.toml; this widens them for this one page.
+outputs = ["HTML", "OGCard", "LLMSTxt"]
+headline = "Senior technical leadership, when you need it."
+credibility = "Engineer at Splunk (now part of Cisco) and Beats Music (now Apple Music). Independent consultant since 2000."
+labIntro = "I build my own tools and release many of them as open source, so what I bring to clients keeps getting better."
+individualsNote = "Artist or individual? I build for you through [Arts-Link](https://www.arts-link.com), my web studio."
+closing = "Tell me what you're working on. Answer four quick questions, then pick a time that works for you."
 [cascade]
   categories = ["consulting"]
-  homeFeatureIcon = "fa-solid fa-jedi"
   cardCategoryColorsDefault = "bg-gradient-to-r from-emerald-500 to-emerald-700"
-  homeFeatureWide = true
-  homeFeature = true
-  # homeFeatureSummary = "Offering comprehensive consulting services including API integration projects, product management, and full stack application development, tailored to solve complex problems and enhance business operations efficiently and effectively."
-  weight = 1
   [cascade.params]
     [cascade.params.twClasses]
       headerBackgroundFrameInner = "bg-header-sunset-sf-coke h-[200px] sm:h-[250px] bg-cover bg-bottom"
 [menu]
- [menu.main]
-  weight = 1
-  identifier = "consulting"
+  [menu.main]
+    weight = 1
+    identifier = "consulting"
 +++
 
-## API Integration projects
-
-Offering comprehensive consulting services including API integration projects, product management, and full stack application development, tailored to solve complex problems and enhance business operations efficiently and effectively.
+I'm Ben Strawbridge. I've spent 25 years building software: as an engineer at Splunk and Beats Music, as head of product at startups, and as an independent consultant since 2000. Today I help founders get from idea to a working product, and I help companies outside tech put AI to work on their own documents and tools, privately and without hiring a big consultancy.
 
 <!--more-->
-
-Do you have a complex problem that can be solved by pulling data from a wide variety of public and private APIs? Do you need to create a secure and scalable internal or public API? I can help you create the best API integration for the solution you need.
-
-### Popular solutions I love working with include
-
-- [Auth0](https://auth0.com/), [Okta](https://developer.okta.com/docs/reference/core-okta-api/) and [AWS](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html),  for securing access to your infrastructure
-- [Twillio](https://www.twilio.com/en-us/messaging), [Sendgrid](https://sendgrid.com/en-us) and [Slack](https://api.slack.com/) for all forms of communications
-- [Square](https://developer.squareup.com/us/en/case-studies/index) and [Stripe](https://docs.stripe.com/api) for all things commerce, e-commerce and in-person.
-- [Plaid](https://plaid.com/docs/) for banking integration and customer verification 
-- [postman](https://www.postman.com/) for testing and automating APIs
-
-These are just a few of the APIs I have worked with in the past, I am open to learning and integrating with any API you have in mind.
-
-
-### Product Management
-
-If you or your business are in the early stage of thinking about creating a digital product and you need help planning from your initial idea through a live production application, then you need a product manager. In the product manager role, I will help plan out all the features you need and ensure your product is complete and well tested.  
-
-### Full Stack Application development
-
-Do you already have a product you want to refactor, or a fully formed idea you need to implement? I can help with that too.
-

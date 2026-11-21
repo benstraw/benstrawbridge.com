@@ -21,6 +21,34 @@
   location now sits on the trip as tripOrigin, which Trip does define.
 */ -}}
 
+{{- /* Consulting cluster: a Service block beside the theme's BlogPosting, which
+       stays because only the theme can drop it (docs/seo/invariants.md). Every
+       value comes from the page and data/consulting.toml: no prices, no
+       claims that are not already on the page. */ -}}
+{{- if eq .Section "consulting" }}
+  {{- $door := .Params.door -}}
+  {{- $offers := slice -}}
+  {{- range site.Data.consulting.offerings }}
+    {{- if or (not $door) (eq .door $door) }}
+      {{- $offers = $offers | append (dict
+            "@type" "Offer"
+            "itemOffered" (dict "@type" "Service" "name" .name "description" (plainify .summary))
+      ) -}}
+    {{- end }}
+  {{- end }}
+  {{- $author := site.Params.author | default dict -}}
+  {{- $service := dict
+        "@context" "https://schema.org"
+        "@type" "Service"
+        "name" .Title
+        "url" .Permalink
+        "description" (.Description | plainify)
+        "provider" (dict "@type" "Person" "name" ($author.name | default site.Title) "url" site.BaseURL)
+        "hasOfferCatalog" (dict "@type" "OfferCatalog" "name" .Title "itemListElement" $offers)
+  -}}
+  <script type="application/ld+json">{{ $service | jsonify | safeJS }}</script>
+{{- end }}
+
 {{- if .Params.tour }}
 
   {{- with .Params.geo }}
