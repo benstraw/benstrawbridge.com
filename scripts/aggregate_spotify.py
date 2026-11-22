@@ -7,7 +7,7 @@ import re
 import sys
 import unicodedata
 from collections import defaultdict
-from datetime import datetime
+from datetime import datetime, timezone
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 REPO_ROOT = os.path.dirname(SCRIPT_DIR)
@@ -30,6 +30,12 @@ def iso_week_start(year, week):
 
 def iso_week_end(year, week):
     return datetime.fromisocalendar(int(year), int(week), 7).strftime("%Y-%m-%d")
+
+
+def current_iso_week_id(now=None):
+    """ISO week id (YYYY-Www, UTC) of the week in progress. Shards are keyed by UTC."""
+    year, week, _ = (now or datetime.now(timezone.utc)).isocalendar()
+    return f"{year}-W{week:02d}"
 
 
 def load_genres():
@@ -109,6 +115,10 @@ def aggregate():
     artist_tracks: dict = defaultdict(dict)
     # "YYYY-WNN" → weekly summary
     weekly_data: dict = {}
+    # Only completed weeks are published. The week in progress is left for the
+    # next sync, so the newest weekly page is always the week that just ended.
+    cutoff_week = os.environ.get("SPOTIFY_CUTOFF_WEEK") or current_iso_week_id()
+    print(f"Aggregating weeks before {cutoff_week}")
 
     for year_dir in sorted(os.listdir(plays_dir)):
         year_path = os.path.join(plays_dir, year_dir)
@@ -122,6 +132,9 @@ def aggregate():
             if not m:
                 continue
             year_num, week_num = m.group(1), m.group(2)
+            if week_id >= cutoff_week:
+                print(f"Skipping {week_id}: week not finished")
+                continue
 
             week_path = os.path.join(year_path, week_file)
             with open(week_path) as f:
@@ -371,6 +384,17 @@ def aggregate():
         with open(week_path, "w") as f:
             json.dump(week_data, f, indent=2, ensure_ascii=False)
     print(f"Wrote {len(weekly_data)} weekly shards → {weekly_dir}/")
+
+    # Prune weekly shards with no completed play week behind them (e.g. a
+    # partial week written by an older sync).
+    for year_name in sorted(os.listdir(weekly_dir)):
+        year_dir = os.path.join(weekly_dir, year_name)
+        if not os.path.isdir(year_dir):
+            continue
+        for name in sorted(os.listdir(year_dir)):
+            if name.endswith(".json") and name[:-5] not in weekly_data:
+                os.remove(os.path.join(year_dir, name))
+                print(f"Removed stale weekly shard {name}")
 
     # Remove legacy weekly.json if it exists (replaced by shards)
     legacy_weekly = os.path.join(SPOTIFY_DATA_DIR, "weekly.json")

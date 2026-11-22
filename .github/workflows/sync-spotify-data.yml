@@ -2,7 +2,9 @@ name: Sync Spotify Data
 
 on:
   schedule:
-    # Every Monday at 06:00 UTC (Sunday night Pacific)
+    # Every Monday at 06:00 UTC (Sunday night Pacific), just after the ISO week
+    # (UTC) ends. The sync publishes only finished weeks, so this run adds the
+    # week that just ended and holds back the one that started at 00:00 UTC.
     - cron: "0 6 * * 1"
   workflow_dispatch:
 
