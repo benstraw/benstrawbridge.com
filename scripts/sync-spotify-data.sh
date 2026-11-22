@@ -19,9 +19,14 @@ fi
 
 mkdir -p "${SPOTIFY_DATA}"
 
-# Sync weekly play shards
-echo "Syncing plays/..."
-rsync -av --delete "${GARDEN_DIR}/data/plays/" "${SPOTIFY_DATA}/plays/"
+# Sync weekly play shards, except the week still in progress (ISO week, UTC).
+# Only finished weeks are published; the current week's shard is picked up by
+# the next sync once it has ended. The aggregator applies the same cutoff.
+CURRENT_WEEK="$(date -u +%G-W%V)"
+export SPOTIFY_CUTOFF_WEEK="${CURRENT_WEEK}"
+echo "Syncing plays/ (holding back ${CURRENT_WEEK}, still in progress)..."
+rsync -av --delete --exclude "${CURRENT_WEEK}.json" \
+  "${GARDEN_DIR}/data/plays/" "${SPOTIFY_DATA}/plays/"
 
 # Sync genres cache
 echo "Syncing genres.json..."

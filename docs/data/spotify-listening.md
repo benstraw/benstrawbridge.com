@@ -21,6 +21,16 @@ data/spotify/genres.json                    copied genre cache, keyed by artist 
 Workers Builds deploys ──▶ content adaptors render the pages
 ```
 
+**Only finished weeks are published.** Shards are ISO weeks keyed by UTC
+(Monday 00:00 → Sunday 23:59 UTC). The sync holds back the week in progress:
+`sync-spotify-data.sh` excludes its plays shard from the rsync, and
+`aggregate_spotify.py` skips any week at or after the cutoff
+(`SPOTIFY_CUTOFF_WEEK`, defaulting to the current UTC ISO week) and prunes
+weekly shards with no finished week behind them. So the Monday run adds the
+week that just ended, and the newest `/listening/weekly/` page, the home-page
+card and the artist counts all describe that week, never a stub of a few hours
+of the new one. The held-back plays arrive with the following Monday's sync.
+
 The workflow checks out `benstraw/obsidian-music-garden` with the
 `GARDEN_REPO_TOKEN` secret, runs the sync with Python 3.11, and commits only if
 `data/spotify/` changed. Because it pushes to `main`, every sync is a production
