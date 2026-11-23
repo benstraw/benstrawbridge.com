@@ -4242,9 +4242,9 @@
     "id": "0kbYTNQb4Pb1rPbbaF0pT4",
     "name": "Miles Davis",
     "spotify_url": "https://open.spotify.com/artist/0kbYTNQb4Pb1rPbbaF0pT4",
-    "total_plays": 14,
+    "total_plays": 24,
     "first_seen": "2026-02-26",
-    "last_seen": "2026-06-01",
+    "last_seen": "2026-11-19",
     "genres": [
       "jazz",
       "cool jazz",
@@ -4290,6 +4290,30 @@
         "plays": 5
       },
       {
+        "name": "All Blues (feat. John Coltrane, Cannonball Adderley & Bill Evans)",
+        "album": "Kind Of Blue",
+        "spotify_url": "https://open.spotify.com/track/0TUa7gBg7LJH6B8dkNVioU",
+        "plays": 2
+      },
+      {
+        "name": "Blue in Green (feat. John Coltrane & Bill Evans)",
+        "album": "Kind Of Blue",
+        "spotify_url": "https://open.spotify.com/track/6bP4GyrKNbcKPMDqWJqpxI",
+        "plays": 2
+      },
+      {
+        "name": "Freddie Freeloader (feat. John Coltrane, Cannonball Adderley, Wynton Kelly & Paul Chambers)",
+        "album": "Kind Of Blue",
+        "spotify_url": "https://open.spotify.com/track/3NvYPUNu6nwQgN31UnoDbn",
+        "plays": 2
+      },
+      {
+        "name": "So What (feat. John Coltrane, Cannonball Adderley & Bill Evans)",
+        "album": "Kind Of Blue",
+        "spotify_url": "https://open.spotify.com/track/7q3kkfAVpmcZ8g6JUThi3o",
+        "plays": 2
+      },
+      {
         "name": "Red China Blues",
         "album": "Get Up With It",
         "spotify_url": "https://open.spotify.com/track/0AEXHSEdAohlHhYIt6tcUf",
@@ -4311,6 +4335,18 @@
         "name": "Doxy",
         "album": "The Classic Prestige Sessions, 1951-1956",
         "spotify_url": "https://open.spotify.com/track/5vrxWkxKThc7UIEuj3KyrS",
+        "plays": 1
+      },
+      {
+        "name": "Boplicity",
+        "album": "Birth Of The Cool",
+        "spotify_url": "https://open.spotify.com/track/0Wz6DLq8NBoi1viEqrdH9B",
+        "plays": 1
+      },
+      {
+        "name": "Flamenco Sketches (feat. John Coltrane, Cannonball Adderley & Bill Evans)",
+        "album": "Kind Of Blue",
+        "spotify_url": "https://open.spotify.com/track/3R3fcrKaeBr3U6s9R2belr",
         "plays": 1
       },
       {
@@ -4395,12 +4431,6 @@
         "name": "I Thought About You (feat. Hank Mobley, Wynton Kelly, Paul Chambers & Jimmy Cobb) - Mono Version",
         "album": "Someday My Prince Will Come (Mono Version)",
         "spotify_url": "https://open.spotify.com/track/0E0KBhvk0DQeV9aSapK17L",
-        "plays": 2
-      },
-      {
-        "name": "Boplicity",
-        "album": "Birth Of The Cool",
-        "spotify_url": "https://open.spotify.com/track/0Wz6DLq8NBoi1viEqrdH9B",
         "plays": 2
       },
       {
@@ -7197,9 +7227,9 @@
     "id": "7dGJo4pcD2V6oG8kP0tJRR",
     "name": "Eminem",
     "spotify_url": "https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR",
-    "total_plays": 126,
+    "total_plays": 128,
     "first_seen": "2026-02-26",
-    "last_seen": "2026-11-13",
+    "last_seen": "2026-11-17",
     "genres": [
       "rap",
       "hip hop"
@@ -7691,6 +7721,18 @@
         "plays": 1
       },
       {
+        "name": "From The D 2 The LBC (with Snoop Dogg)",
+        "album": "From The D 2 The LBC (with Snoop Dogg)",
+        "spotify_url": "https://open.spotify.com/track/7My9ca9QEIR8MvIOdIrTWA",
+        "plays": 1
+      },
+      {
+        "name": "Killer (feat. Jack Harlow & Cordae) - Remix",
+        "album": "Killer (feat. Jack Harlow & Cordae) [Remix]",
+        "spotify_url": "https://open.spotify.com/track/7zl7kehxesNEo2pYkKXTSe",
+        "plays": 1
+      },
+      {
         "name": "Under The Influence",
         "album": "The Marshall Mathers LP",
         "spotify_url": "https://open.spotify.com/track/5H3B1WtZYGmyOYOXgQltKU",
@@ -7866,9 +7908,9 @@
     "id": "5me0Irg2ANcsgc93uaYrpb",
     "name": "The Notorious B.I.G.",
     "spotify_url": "https://open.spotify.com/artist/5me0Irg2ANcsgc93uaYrpb",
-    "total_plays": 26,
+    "total_plays": 27,
     "first_seen": "2026-02-26",
-    "last_seen": "2026-10-27",
+    "last_seen": "2026-11-17",
     "genres": [
       "old school hip hop",
       "gangster rap",
@@ -7923,6 +7965,12 @@
         "plays": 2
       },
       {
+        "name": "Ten Crack Commandments - 2014 Remaster",
+        "album": "Life After Death (2014 Remastered Edition)",
+        "spotify_url": "https://open.spotify.com/track/1Z7C8ClE8UEaH70jCCeJH2",
+        "plays": 2
+      },
+      {
         "name": "Notorious Thugs - 2014 Remaster",
         "album": "Life After Death (2014 Remastered Edition)",
         "spotify_url": "https://open.spotify.com/track/19FsxX4RthRMZGfXkImdCb",
@@ -7965,12 +8013,6 @@
         "plays": 1
       },
       {
-        "name": "Ten Crack Commandments - 2014 Remaster",
-        "album": "Life After Death (2014 Remastered Edition)",
-        "spotify_url": "https://open.spotify.com/track/1Z7C8ClE8UEaH70jCCeJH2",
-        "plays": 1
-      },
-      {
         "name": "Ready to Die - 2005 Remaster",
         "album": "Ready to Die (The Remaster)",
         "spotify_url": "https://open.spotify.com/track/3UQAKY0SUEonxneROvv4jy",
@@ -8006,9 +8048,9 @@
     "id": "34EP7KEpOjXcM2TCat1ISk",
     "name": "Wu-Tang Clan",
     "spotify_url": "https://open.spotify.com/artist/34EP7KEpOjXcM2TCat1ISk",
-    "total_plays": 22,
+    "total_plays": 52,
     "first_seen": "2026-02-26",
-    "last_seen": "2026-10-27",
+    "last_seen": "2026-11-22",
     "genres": [
       "old school hip hop",
       "east coast hip hop",
@@ -8038,61 +8080,73 @@
         "name": "Sound The Horns",
         "album": "Chamber Music",
         "spotify_url": "https://open.spotify.com/track/234QpD9ilHoJjnhCVd2fOW",
-        "plays": 4
+        "plays": 5
       },
       {
         "name": "C.R.E.A.M. (Cash Rules Everything Around Me)",
         "album": "Enter The Wu-Tang (36 Chambers) [Expanded Edition]",
         "spotify_url": "https://open.spotify.com/track/119c93MHjrDLJTApCVGpvx",
-        "plays": 3
+        "plays": 4
       },
       {
         "name": "Protect Ya Neck",
         "album": "Enter The Wu-Tang (36 Chambers) [Expanded Edition]",
         "spotify_url": "https://open.spotify.com/track/1Sgj10byiGzPpI2IrXSFEn",
-        "plays": 3
+        "plays": 4
       },
       {
         "name": "Shame On a Nigga",
         "album": "Enter The Wu-Tang (36 Chambers) [Expanded Edition]",
         "spotify_url": "https://open.spotify.com/track/7IwURvEfVcdxUCjLKUu6sv",
-        "plays": 2
+        "plays": 3
       },
       {
         "name": "Wu-Tang Clan Ain't Nuthing ta F' Wit",
         "album": "Enter The Wu-Tang (36 Chambers) [Expanded Edition]",
         "spotify_url": "https://open.spotify.com/track/24vNw0Z0srb4zYXwrakw8E",
-        "plays": 2
+        "plays": 3
       },
       {
         "name": "Gravel Pit (feat. RZA, Method Man, Ghostface Killah, Raekwon & U-God)",
         "album": "Gravel Pit",
         "spotify_url": "https://open.spotify.com/track/5ATV1iQtlQThdBBbb7srw8",
-        "plays": 2
+        "plays": 3
       },
       {
         "name": "Triumph (feat. Ol' Dirty Bastard, Inspectah Deck, Method Man, Cappadonna, U-God, RZA, GZA, Masta Killa, Ghostface Killah & Raekwon)",
         "album": "Wu-Tang Forever",
         "spotify_url": "https://open.spotify.com/track/3glqlA5qY3bbo8UaUDGPnw",
-        "plays": 1
+        "plays": 2
       },
       {
         "name": "Da Mystery of Chessboxin'",
         "album": "Enter The Wu-Tang (36 Chambers) [Expanded Edition]",
         "spotify_url": "https://open.spotify.com/track/4xOTVtbCPcfxMs2hSt9D6i",
-        "plays": 1
+        "plays": 2
       },
       {
         "name": "Reunited (feat. GZA, Ol' Dirty Bastard, RZA & Method Man)",
         "album": "Wu-Tang Forever",
         "spotify_url": "https://open.spotify.com/track/2CxOJwC4jqWfPQdahEX9oH",
-        "plays": 1
+        "plays": 2
       },
       {
         "name": "Bring Da Ruckus",
         "album": "Enter The Wu-Tang (36 Chambers) [Expanded Edition]",
         "spotify_url": "https://open.spotify.com/track/1v5cgIyffYtfEx0swttdoE",
-        "plays": 1
+        "plays": 2
+      },
+      {
+        "name": "Preservation",
+        "album": "Wu-Tang Meets The Indie Culture",
+        "spotify_url": "https://open.spotify.com/track/2kNLkA4bzGRmOOottVl6IE",
+        "plays": 2
+      },
+      {
+        "name": "Mandingo",
+        "album": "Mandingo",
+        "spotify_url": "https://open.spotify.com/track/0JvDcQ2LAzuhV1HujQrAHR",
+        "plays": 2
       },
       {
         "name": "Wu-Tang: 7th Chamber",
@@ -8101,9 +8155,105 @@
         "plays": 1
       },
       {
-        "name": "Preservation",
+        "name": "Frozen (feat. Method Man, Killa Priest and Chris Rivers)",
+        "album": "The Saga Continues",
+        "spotify_url": "https://open.spotify.com/track/32WLytuvV4HDsdPqzfdqSs",
+        "plays": 1
+      },
+      {
+        "name": "Kill Too Hard",
+        "album": "Chamber Music",
+        "spotify_url": "https://open.spotify.com/track/1CVFSvO7aHpeF222FlvBjV",
+        "plays": 1
+      },
+      {
+        "name": "After the Laughter Comes Tears - Tearz Vocal",
+        "album": "Protect Ya Neck",
+        "spotify_url": "https://open.spotify.com/track/5JlvSLbV6uFjNrPQ3PLOrs",
+        "plays": 1
+      },
+      {
+        "name": "Can It Be All so Simple",
+        "album": "The Essential Wu-Tang Clan",
+        "spotify_url": "https://open.spotify.com/track/6OCYTygzbVwil2UFkREQiD",
+        "plays": 1
+      },
+      {
+        "name": "If Time Is Money (Fly Navigation) [feat. Method Man]",
+        "album": "The Saga Continues",
+        "spotify_url": "https://open.spotify.com/track/2YnpLWTd9lSCkqEa5VcRu9",
+        "plays": 1
+      },
+      {
+        "name": "Biochemical Equation",
         "album": "Wu-Tang Meets The Indie Culture",
-        "spotify_url": "https://open.spotify.com/track/2kNLkA4bzGRmOOottVl6IE",
+        "spotify_url": "https://open.spotify.com/track/04Xo101VJWBcnbdVFk7M8T",
+        "plays": 1
+      },
+      {
+        "name": "It's Yourz (feat. Raekwon, U-God, RZA, Inspectah Deck & Ghostface Killah)",
+        "album": "Wu-Tang Forever",
+        "spotify_url": "https://open.spotify.com/track/31GUM30kjMPY93SrVh1InN",
+        "plays": 1
+      },
+      {
+        "name": "Drunk Tongue (feat. Killa Sin)",
+        "album": "Legendary Weapons",
+        "spotify_url": "https://open.spotify.com/track/5vC0vikIbrm6sOTmH73cOl",
+        "plays": 1
+      },
+      {
+        "name": "For Heavens Sake (feat. Inspectah Deck, Masta Killa & Cappadonna)",
+        "album": "Wu-Tang Forever",
+        "spotify_url": "https://open.spotify.com/track/5JF2C8MdEonfb2ryeZ9Bxe",
+        "plays": 1
+      },
+      {
+        "name": "Radiant Jewels",
+        "album": "Chamber Music",
+        "spotify_url": "https://open.spotify.com/track/1PhRtx4g43AtMKpVTJEVO1",
+        "plays": 1
+      },
+      {
+        "name": "People Say (feat. Redman)",
+        "album": "The Saga Continues",
+        "spotify_url": "https://open.spotify.com/track/3ayt5T0vDvOZMwhpP1NtJj",
+        "plays": 1
+      },
+      {
+        "name": "Visionz (feat. Method Man, Raekwon, Masta Killa, Inspectah Deck & Ghostface Killah)",
+        "album": "Wu-Tang Forever",
+        "spotify_url": "https://open.spotify.com/track/3cuy0jpSxGAoTuJE0KORoR",
+        "plays": 1
+      },
+      {
+        "name": "Skit",
+        "album": "Wu-Tang Meets The Indie Culture",
+        "spotify_url": "https://open.spotify.com/track/1mcD9SHsK76e7rZKB0JnHq",
+        "plays": 1
+      },
+      {
+        "name": "As High as Wu-Tang Get (feat. Ol' Dirty Bastard, GZA & Method Man)",
+        "album": "Wu-Tang Forever",
+        "spotify_url": "https://open.spotify.com/track/1XbqOF6nx3tJsyQjXRh9ux",
+        "plays": 1
+      },
+      {
+        "name": "Meteor Hammer (feat. Ghostface, Action Bronson, & Termanology)",
+        "album": "Legendary Weapons",
+        "spotify_url": "https://open.spotify.com/track/4fsw3eygwkl9qGVmD6QY1R",
+        "plays": 1
+      },
+      {
+        "name": "Method Man",
+        "album": "Enter The Wu-Tang (36 Chambers) [Expanded Edition]",
+        "spotify_url": "https://open.spotify.com/track/5XLC8xoqyua4U7wJiZAWik",
+        "plays": 1
+      },
+      {
+        "name": "C.R.E.A.M. - Call of Duty: Modern Warfare 4 Remix",
+        "album": "C.R.E.A.M. (Call of Duty: Modern Warfare 4 Remix)",
+        "spotify_url": "https://open.spotify.com/track/3vMJu8ZXevRbVNUb5fDLLZ",
         "plays": 1
       },
       {
@@ -8116,12 +8266,6 @@
         "name": "Preservation",
         "album": "Preservation",
         "spotify_url": "https://open.spotify.com/track/124DjfCOxrqEXpHD04Hk8i",
-        "plays": 1
-      },
-      {
-        "name": "As High as Wu-Tang Get (feat. Ol' Dirty Bastard, GZA & Method Man)",
-        "album": "Wu-Tang Forever",
-        "spotify_url": "https://open.spotify.com/track/1XbqOF6nx3tJsyQjXRh9ux",
         "plays": 1
       }
     ]
@@ -9783,9 +9927,9 @@
     "id": "09hVIj6vWgoCDtT03h8ZCa",
     "name": "A Tribe Called Quest",
     "spotify_url": "https://open.spotify.com/artist/09hVIj6vWgoCDtT03h8ZCa",
-    "total_plays": 30,
+    "total_plays": 38,
     "first_seen": "2026-02-26",
-    "last_seen": "2026-06-10",
+    "last_seen": "2026-11-18",
     "genres": [
       "jazz rap",
       "east coast hip hop",
@@ -9817,15 +9961,15 @@
         "plays": 8
       },
       {
-        "name": "Electric Relaxation",
-        "album": "The Anthology",
-        "spotify_url": "https://open.spotify.com/track/0eEXcw3JLVXcRxYrVYMy68",
-        "plays": 3
-      },
-      {
         "name": "Buggin' Out",
         "album": "The Low End Theory",
         "spotify_url": "https://open.spotify.com/track/6GAemDMWAXa8wZOBkO1gar",
+        "plays": 4
+      },
+      {
+        "name": "Electric Relaxation",
+        "album": "The Anthology",
+        "spotify_url": "https://open.spotify.com/track/0eEXcw3JLVXcRxYrVYMy68",
         "plays": 3
       },
       {
@@ -9841,33 +9985,39 @@
         "plays": 2
       },
       {
+        "name": "Vibes and Stuff",
+        "album": "The Low End Theory",
+        "spotify_url": "https://open.spotify.com/track/4MdEYuoGhG2RTG3erOiu2H",
+        "plays": 2
+      },
+      {
+        "name": "Electric Relaxation",
+        "album": "Midnight Marauders",
+        "spotify_url": "https://open.spotify.com/track/32WDVNZXIAuu7EqncTTKjH",
+        "plays": 2
+      },
+      {
+        "name": "Verses from the Abstract (feat. Vinia Mojica & Ron Carter)",
+        "album": "The Low End Theory",
+        "spotify_url": "https://open.spotify.com/track/6zrsmzrMoxNkXEQLubCWtA",
+        "plays": 2
+      },
+      {
+        "name": "Excursions",
+        "album": "The Low End Theory",
+        "spotify_url": "https://open.spotify.com/track/4tEaytMs86hIaOSsiGoLcP",
+        "plays": 2
+      },
+      {
         "name": "Oh My God (feat. Busta Rhymes)",
         "album": "Midnight Marauders",
         "spotify_url": "https://open.spotify.com/track/6FI3RJ58Ztl0X1VtA6pVs9",
         "plays": 1
       },
       {
-        "name": "Vibes and Stuff",
-        "album": "The Low End Theory",
-        "spotify_url": "https://open.spotify.com/track/4MdEYuoGhG2RTG3erOiu2H",
-        "plays": 1
-      },
-      {
-        "name": "Electric Relaxation",
-        "album": "Midnight Marauders",
-        "spotify_url": "https://open.spotify.com/track/32WDVNZXIAuu7EqncTTKjH",
-        "plays": 1
-      },
-      {
         "name": "Scenario (feat. Busta Rhymes, Dinco D & Charlie Brown) - LP Mix",
         "album": "The Low End Theory",
         "spotify_url": "https://open.spotify.com/track/0301nLjG0ti26rx5ZmfqtP",
-        "plays": 1
-      },
-      {
-        "name": "Verses from the Abstract (feat. Vinia Mojica & Ron Carter)",
-        "album": "The Low End Theory",
-        "spotify_url": "https://open.spotify.com/track/6zrsmzrMoxNkXEQLubCWtA",
         "plays": 1
       },
       {
@@ -9880,12 +10030,6 @@
         "name": "Steve Biko (Stir It Up)",
         "album": "Midnight Marauders",
         "spotify_url": "https://open.spotify.com/track/671sDyeE398eD0sdGuVbZU",
-        "plays": 1
-      },
-      {
-        "name": "Excursions",
-        "album": "The Low End Theory",
-        "spotify_url": "https://open.spotify.com/track/4tEaytMs86hIaOSsiGoLcP",
         "plays": 1
       },
       {
@@ -9907,10 +10051,22 @@
         "plays": 1
       },
       {
+        "name": "Show Business (feat. Diamond D, Lord Jamar & Sadat X)",
+        "album": "The Low End Theory",
+        "spotify_url": "https://open.spotify.com/track/2wS1PObRyCywHdmog5eOWW",
+        "plays": 1
+      },
+      {
         "name": "Butter",
         "album": "The Low End Theory",
         "spotify_url": "https://open.spotify.com/track/758mQT4zzlvBhy9PvNePwC",
-        "plays": 2
+        "plays": 1
+      },
+      {
+        "name": "Rap Promoter",
+        "album": "The Low End Theory",
+        "spotify_url": "https://open.spotify.com/track/6CCIqr8xROr3jTnXf4GI3B",
+        "plays": 1
       },
       {
         "name": "4 Moms (feat. Spanky)",
@@ -9931,12 +10087,6 @@
         "plays": 1
       },
       {
-        "name": "Show Business (feat. Diamond D, Lord Jamar & Sadat X)",
-        "album": "The Low End Theory",
-        "spotify_url": "https://open.spotify.com/track/2wS1PObRyCywHdmog5eOWW",
-        "plays": 1
-      },
-      {
         "name": "Everything Is Fair",
         "album": "The Low End Theory",
         "spotify_url": "https://open.spotify.com/track/33d7n0d2Ou4wQ5AcLrLTav",
@@ -9952,12 +10102,6 @@
         "name": "Infamous Date Rape",
         "album": "The Low End Theory",
         "spotify_url": "https://open.spotify.com/track/4hozY0uWh4hxvH2mP6EmSL",
-        "plays": 1
-      },
-      {
-        "name": "Rap Promoter",
-        "album": "The Low End Theory",
-        "spotify_url": "https://open.spotify.com/track/6CCIqr8xROr3jTnXf4GI3B",
         "plays": 1
       },
       {
@@ -11763,9 +11907,9 @@
     "id": "7hJcb9fa4alzcOq3EaNPoG",
     "name": "Snoop Dogg",
     "spotify_url": "https://open.spotify.com/artist/7hJcb9fa4alzcOq3EaNPoG",
-    "total_plays": 5,
+    "total_plays": 7,
     "first_seen": "2026-03-06",
-    "last_seen": "2026-04-05",
+    "last_seen": "2026-11-17",
     "genres": [
       "g-funk",
       "west coast hip hop",
@@ -11814,6 +11958,18 @@
         "name": "Gunz N Smoke (feat. 50 Cent & Eminem)",
         "album": "Missionary",
         "spotify_url": "https://open.spotify.com/track/2GiJpAxK7T6JddAmEVreKT",
+        "plays": 1
+      },
+      {
+        "name": "Bitch Please",
+        "album": "No Limit Top Dogg",
+        "spotify_url": "https://open.spotify.com/track/5Sm1X46tna50RstHZvw072",
+        "plays": 1
+      },
+      {
+        "name": "Vato",
+        "album": "Tha Blue Carpet Treatment",
+        "spotify_url": "https://open.spotify.com/track/2TgPHDU8zPgAvkSLXkHKXR",
         "plays": 1
       },
       {
@@ -12034,9 +12190,9 @@
     "id": "6DPYiyq5kWVQS4RGwxzPC7",
     "name": "Dr. Dre",
     "spotify_url": "https://open.spotify.com/artist/6DPYiyq5kWVQS4RGwxzPC7",
-    "total_plays": 14,
+    "total_plays": 15,
     "first_seen": "2026-03-06",
-    "last_seen": "2026-11-13",
+    "last_seen": "2026-11-17",
     "genres": [
       "old school hip hop",
       "g-funk",
@@ -12126,6 +12282,12 @@
         "name": "Medicine Man",
         "album": "Compton",
         "spotify_url": "https://open.spotify.com/track/3hZnp7n8WI3UnnURw1i1DF",
+        "plays": 1
+      },
+      {
+        "name": "Nuthin' But A \"G\" Thang",
+        "album": "The Chronic",
+        "spotify_url": "https://open.spotify.com/track/5Tbpp3OLLClPJF8t1DmrFD",
         "plays": 1
       },
       {
@@ -15887,9 +16049,9 @@
     "id": "39NR3AUhpbbqKM33vWn2fp",
     "name": "Brothers Osborne",
     "spotify_url": "https://open.spotify.com/artist/39NR3AUhpbbqKM33vWn2fp",
-    "total_plays": 1,
+    "total_plays": 2,
     "first_seen": "2026-03-03",
-    "last_seen": "2026-03-03",
+    "last_seen": "2026-11-21",
     "genres": [
       "country",
       "country rock"
@@ -15916,6 +16078,12 @@
         "name": "Younger Me",
         "album": "Younger Me",
         "spotify_url": "https://open.spotify.com/track/5vyONuW3HK0kJQBkrSp25B",
+        "plays": 1
+      },
+      {
+        "name": "Doors - SELLOUT EDIT",
+        "album": "Watertown",
+        "spotify_url": "https://open.spotify.com/track/48S8QuW5Cz2YOkSPRaylQg",
         "plays": 1
       },
       {
@@ -16593,9 +16761,9 @@
     "id": "0oSGxfWSnnOXhD2fKuz2Gy",
     "name": "David Bowie",
     "spotify_url": "https://open.spotify.com/artist/0oSGxfWSnnOXhD2fKuz2Gy",
-    "total_plays": 27,
+    "total_plays": 30,
     "first_seen": "2026-03-03",
-    "last_seen": "2026-11-11",
+    "last_seen": "2026-11-18",
     "genres": [
       "glam rock",
       "art rock"
@@ -16646,6 +16814,12 @@
         "name": "Five Years - 2012 Remaster",
         "album": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars (2012 Remaster)",
         "spotify_url": "https://open.spotify.com/track/1JIzFhI9Lt5FyslawmHCBi",
+        "plays": 2
+      },
+      {
+        "name": "Starman - 2012 Remaster",
+        "album": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars (2012 Remaster)",
+        "spotify_url": "https://open.spotify.com/track/0pQskrTITgmCMyr85tb9qq",
         "plays": 2
       },
       {
@@ -16709,12 +16883,6 @@
         "plays": 1
       },
       {
-        "name": "Starman - 2012 Remaster",
-        "album": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars (2012 Remaster)",
-        "spotify_url": "https://open.spotify.com/track/0pQskrTITgmCMyr85tb9qq",
-        "plays": 1
-      },
-      {
         "name": "Moonage Daydream - 2012 Remaster",
         "album": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars (2012 Remaster)",
         "spotify_url": "https://open.spotify.com/track/6mib3N4E8PZHAGQ3xy7bho",
@@ -16742,6 +16910,18 @@
         "name": "Sound and Vision - 2017 Remaster",
         "album": "Low (2017 Remaster)",
         "spotify_url": "https://open.spotify.com/track/1vP2JEXRsGrFbwOZ0foOQ5",
+        "plays": 1
+      },
+      {
+        "name": "Changes - 2015 Remaster",
+        "album": "Hunky Dory (2015 Remaster)",
+        "spotify_url": "https://open.spotify.com/track/0LrwgdLsFaWh9VXIjBRe8t",
+        "plays": 1
+      },
+      {
+        "name": "\"Heroes\" - 2017 Remaster",
+        "album": "\"Heroes\" (2017 Remaster)",
+        "spotify_url": "https://open.spotify.com/track/7Jh1bpe76CNTCgdgAdBw4Z",
         "plays": 1
       },
       {
@@ -17169,9 +17349,9 @@
     "id": "3gd8FJtBJtkRxdfbTu19U2",
     "name": "Mumford & Sons",
     "spotify_url": "https://open.spotify.com/artist/3gd8FJtBJtkRxdfbTu19U2",
-    "total_plays": 2,
+    "total_plays": 3,
     "first_seen": "2026-03-03",
-    "last_seen": "2026-09-08",
+    "last_seen": "2026-11-21",
     "genres": [
       "folk",
       "indie folk",
@@ -17196,15 +17376,15 @@
     ],
     "top_tracks": [
       {
-        "name": "Forever",
-        "album": "Delta",
-        "spotify_url": "https://open.spotify.com/track/5VemD3t5rwdj4zZlpiX8xh",
-        "plays": 1
-      },
-      {
         "name": "Here (with Chris Stapleton)",
         "album": "Prizefighter",
         "spotify_url": "https://open.spotify.com/track/5ovPv5nkmtM7fCPvr3OOE6",
+        "plays": 2
+      },
+      {
+        "name": "Forever",
+        "album": "Delta",
+        "spotify_url": "https://open.spotify.com/track/5VemD3t5rwdj4zZlpiX8xh",
         "plays": 1
       }
     ]
@@ -17353,9 +17533,9 @@
     "id": "74ASZWbe4lXaubB36ztrGX",
     "name": "Bob Dylan",
     "spotify_url": "https://open.spotify.com/artist/74ASZWbe4lXaubB36ztrGX",
-    "total_plays": 19,
+    "total_plays": 20,
     "first_seen": "2026-03-03",
-    "last_seen": "2026-11-11",
+    "last_seen": "2026-11-18",
     "genres": [
       "folk rock",
       "folk",
@@ -17461,6 +17641,12 @@
         "name": "The Ballad of Ira Hayes",
         "album": "Dylan (1973)",
         "spotify_url": "https://open.spotify.com/track/13IzCtdrVF2W5oNwb1iSuA",
+        "plays": 1
+      },
+      {
+        "name": "Like a Rolling Stone",
+        "album": "Highway 61 Revisited",
+        "spotify_url": "https://open.spotify.com/track/3AhXZa8sUQht0UEdBJgpGc",
         "plays": 1
       },
       {
@@ -17679,9 +17865,9 @@
     "id": "6IkfE2JyVoKwBZXvuytKX3",
     "name": "Oliver Anthony Music",
     "spotify_url": "https://open.spotify.com/artist/6IkfE2JyVoKwBZXvuytKX3",
-    "total_plays": 1,
+    "total_plays": 3,
     "first_seen": "2026-03-03",
-    "last_seen": "2026-03-03",
+    "last_seen": "2026-11-20",
     "genres": [
       "country"
     ],
@@ -17707,6 +17893,18 @@
         "name": "Rich Men North of Richmond",
         "album": "Rich Men North of Richmond",
         "spotify_url": "https://open.spotify.com/track/78Du4CMFgnhdlG33gblkiP",
+        "plays": 1
+      },
+      {
+        "name": "Only God Can Save Us Now",
+        "album": "Only God Can Save Us Now",
+        "spotify_url": "https://open.spotify.com/track/3KLcbe7apNJXA7B0U8FSlG",
+        "plays": 1
+      },
+      {
+        "name": "Scornful Woman",
+        "album": "Scornful Woman",
+        "spotify_url": "https://open.spotify.com/track/5scSQflwXhtc2lbyOlGA3s",
         "plays": 1
       }
     ]
@@ -18764,9 +18962,9 @@
     "id": "3nFkdlSjzX9mRTtwJOzDYB",
     "name": "JAŸ-Z",
     "spotify_url": "https://open.spotify.com/artist/3nFkdlSjzX9mRTtwJOzDYB",
-    "total_plays": 6,
+    "total_plays": 7,
     "first_seen": "2026-03-11",
-    "last_seen": "2026-10-27",
+    "last_seen": "2026-11-17",
     "genres": [
       "hip hop",
       "east coast hip hop",
@@ -18818,6 +19016,12 @@
         "name": "Otis",
         "album": "Watch The Throne",
         "spotify_url": "https://open.spotify.com/track/14I61w6cyYUHiV2n28IYdP",
+        "plays": 1
+      },
+      {
+        "name": "Can I Get A...",
+        "album": "Vol.2... Hard Knock Life",
+        "spotify_url": "https://open.spotify.com/track/4LGMSdeKOUoy5Wf75Je0Hl",
         "plays": 1
       },
       {
@@ -18875,9 +19079,9 @@
     "id": "4F7Q5NV6h5TSwCainz8S5A",
     "name": "Duke Ellington",
     "spotify_url": "https://open.spotify.com/artist/4F7Q5NV6h5TSwCainz8S5A",
-    "total_plays": 5,
+    "total_plays": 6,
     "first_seen": "2026-03-11",
-    "last_seen": "2026-09-23",
+    "last_seen": "2026-11-19",
     "genres": [
       "jazz",
       "big band",
@@ -18912,7 +19116,7 @@
         "name": "In A Sentimental Mood",
         "album": "Duke Ellington & John Coltrane",
         "spotify_url": "https://open.spotify.com/track/0E8q2Fx2XuzXCO2NSAppkR",
-        "plays": 2
+        "plays": 3
       },
       {
         "name": "Stevie",
@@ -19004,9 +19208,9 @@
     "id": "2hGh5VOeeqimQFxqXvfCUf",
     "name": "John Coltrane",
     "spotify_url": "https://open.spotify.com/artist/2hGh5VOeeqimQFxqXvfCUf",
-    "total_plays": 14,
+    "total_plays": 15,
     "first_seen": "2026-03-11",
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-19",
     "genres": [
       "jazz",
       "hard bop",
@@ -19097,6 +19301,12 @@
         "name": "Lover - Live from The Tiberi Tapes",
         "album": "The Tiberi Tapes (Live)",
         "spotify_url": "https://open.spotify.com/track/6Of3aAmCSyskGMss0uksvs",
+        "plays": 1
+      },
+      {
+        "name": "Equinox",
+        "album": "Coltrane's Sound",
+        "spotify_url": "https://open.spotify.com/track/1OtISG0K02k06m1BENey4H",
         "plays": 1
       },
       {
@@ -20040,9 +20250,9 @@
     "id": "4DSDa4HvAWqvb3dMHUOAfd",
     "name": "Stephen Wilson Jr.",
     "spotify_url": "https://open.spotify.com/artist/4DSDa4HvAWqvb3dMHUOAfd",
-    "total_plays": 75,
+    "total_plays": 114,
     "first_seen": "2026-03-20",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "genres": [],
     "images": [
       {
@@ -20063,45 +20273,75 @@
     ],
     "top_tracks": [
       {
-        "name": "the devil",
+        "name": "Cuckoo",
         "album": "søn of dad (deluxe)",
-        "spotify_url": "https://open.spotify.com/track/6Dj9AtyawJc4YS3xjFnv5b",
-        "plays": 5
-      },
-      {
-        "name": "Father's Søn",
-        "album": "søn of dad (deluxe)",
-        "spotify_url": "https://open.spotify.com/track/6BqroNusompVGz4QVjj2SZ",
-        "plays": 5
+        "spotify_url": "https://open.spotify.com/track/28YtdreXdwCSYDWUadCfOu",
+        "plays": 9
       },
       {
         "name": "patches",
         "album": "søn of dad (deluxe)",
         "spotify_url": "https://open.spotify.com/track/6SARKgR2JIcVu7XcM1JIOT",
-        "plays": 5
+        "plays": 8
       },
       {
-        "name": "Cuckoo",
+        "name": "the devil",
         "album": "søn of dad (deluxe)",
-        "spotify_url": "https://open.spotify.com/track/28YtdreXdwCSYDWUadCfOu",
-        "plays": 5
+        "spotify_url": "https://open.spotify.com/track/6Dj9AtyawJc4YS3xjFnv5b",
+        "plays": 7
       },
       {
         "name": "I'm A Song - Live at The Print Shop",
         "album": "søn of dad (deluxe)",
         "spotify_url": "https://open.spotify.com/track/6YrkatdanWuKHmF4mBxX2i",
-        "plays": 5
+        "plays": 7
       },
       {
         "name": "Stand By Me - Live at The Print Shop",
         "album": "søn of dad (deluxe)",
         "spotify_url": "https://open.spotify.com/track/72RX8sK4OKFnUX2MBDOdBD",
-        "plays": 4
+        "plays": 6
+      },
+      {
+        "name": "Father's Søn",
+        "album": "søn of dad (deluxe)",
+        "spotify_url": "https://open.spotify.com/track/6BqroNusompVGz4QVjj2SZ",
+        "plays": 6
+      },
+      {
+        "name": "billy",
+        "album": "søn of dad (deluxe)",
+        "spotify_url": "https://open.spotify.com/track/0DV8bAff6bqe6ur3XFpDsw",
+        "plays": 6
       },
       {
         "name": "Gary",
         "album": "Gary",
         "spotify_url": "https://open.spotify.com/track/5HMmz01XM5IYaGP0KSsDvQ",
+        "plays": 5
+      },
+      {
+        "name": "Year to Be Young 1994",
+        "album": "søn of dad (deluxe)",
+        "spotify_url": "https://open.spotify.com/track/4zHap579Bjo01DMtsat8GH",
+        "plays": 4
+      },
+      {
+        "name": "American Gothic",
+        "album": "søn of dad (deluxe)",
+        "spotify_url": "https://open.spotify.com/track/4zf6vFQIjMrzMcjLtWQeyS",
+        "plays": 4
+      },
+      {
+        "name": "Calico Creek - Acoustic",
+        "album": "søn of dad (deluxe)",
+        "spotify_url": "https://open.spotify.com/track/06WgZrTGIET3rMzZ1dwubT",
+        "plays": 4
+      },
+      {
+        "name": "Cørnerman",
+        "album": "Cørnerman",
+        "spotify_url": "https://open.spotify.com/track/0TuXbHxORpTdkD1b1r6FL2",
         "plays": 4
       },
       {
@@ -20123,15 +20363,15 @@
         "plays": 3
       },
       {
-        "name": "Year to Be Young 1994",
+        "name": "Mighty Beast",
         "album": "søn of dad (deluxe)",
-        "spotify_url": "https://open.spotify.com/track/4zHap579Bjo01DMtsat8GH",
+        "spotify_url": "https://open.spotify.com/track/1SeluntXpvf0hnBFZwg5PL",
         "plays": 3
       },
       {
-        "name": "billy",
+        "name": "Werewolf",
         "album": "søn of dad (deluxe)",
-        "spotify_url": "https://open.spotify.com/track/0DV8bAff6bqe6ur3XFpDsw",
+        "spotify_url": "https://open.spotify.com/track/3edwO3E4ZsyEekW7UNC3ep",
         "plays": 3
       },
       {
@@ -20141,27 +20381,15 @@
         "plays": 2
       },
       {
-        "name": "Mighty Beast",
-        "album": "søn of dad (deluxe)",
-        "spotify_url": "https://open.spotify.com/track/1SeluntXpvf0hnBFZwg5PL",
-        "plays": 2
-      },
-      {
-        "name": "American Gothic",
-        "album": "søn of dad (deluxe)",
-        "spotify_url": "https://open.spotify.com/track/4zf6vFQIjMrzMcjLtWQeyS",
-        "plays": 2
-      },
-      {
         "name": "Tonight, Tonight",
         "album": "Blankets",
         "spotify_url": "https://open.spotify.com/track/130TbbLfE1ffUMkvvF1nWJ",
         "plays": 2
       },
       {
-        "name": "Cørnerman",
-        "album": "Cørnerman",
-        "spotify_url": "https://open.spotify.com/track/0TuXbHxORpTdkD1b1r6FL2",
+        "name": "Calico Creek",
+        "album": "søn of dad (deluxe)",
+        "spotify_url": "https://open.spotify.com/track/1DllWwmc6AnAlr9xwBkr6I",
         "plays": 2
       },
       {
@@ -20171,21 +20399,9 @@
         "plays": 1
       },
       {
-        "name": "Werewolf",
-        "album": "søn of dad (deluxe)",
-        "spotify_url": "https://open.spotify.com/track/3edwO3E4ZsyEekW7UNC3ep",
-        "plays": 1
-      },
-      {
         "name": "Year to Be Young 1994 (Unplugged)",
         "album": "Year to Be Young 1994 (Unplugged)",
         "spotify_url": "https://open.spotify.com/track/51KPnH3eYGhRHm5PNovhBM",
-        "plays": 1
-      },
-      {
-        "name": "Calico Creek - Acoustic",
-        "album": "søn of dad (deluxe)",
-        "spotify_url": "https://open.spotify.com/track/06WgZrTGIET3rMzZ1dwubT",
         "plays": 1
       },
       {
@@ -20216,12 +20432,6 @@
         "name": "the devil - Acoustic",
         "album": "søn of dad (deluxe)",
         "spotify_url": "https://open.spotify.com/track/17xfTAoQe7NKbn7qBJUuDg",
-        "plays": 1
-      },
-      {
-        "name": "Calico Creek",
-        "album": "søn of dad (deluxe)",
-        "spotify_url": "https://open.spotify.com/track/1DllWwmc6AnAlr9xwBkr6I",
         "plays": 1
       },
       {
@@ -20264,6 +20474,60 @@
         "name": "yellow brick home",
         "album": "yellow brick home // Exorcisms on the Weekend",
         "spotify_url": "https://open.spotify.com/track/0fCuaJ36HxeeuMtHTTiwWq",
+        "plays": 1
+      },
+      {
+        "name": "Father's Søn",
+        "album": "søn of dad",
+        "spotify_url": "https://open.spotify.com/track/6HpX1vw7fklrHFrHkWUQIT",
+        "plays": 1
+      },
+      {
+        "name": "Father’s Søn - Acoustic",
+        "album": "søn of dad (deluxe)",
+        "spotify_url": "https://open.spotify.com/track/3ZMIozrnoYr0wrHpBpM9aX",
+        "plays": 1
+      },
+      {
+        "name": "patches",
+        "album": "søn of dad",
+        "spotify_url": "https://open.spotify.com/track/0YofiEuDlQQdV5ScKEwi2X",
+        "plays": 1
+      },
+      {
+        "name": "Hunger Strike - Live from Ohana Fest / 2026",
+        "album": "Hunger Strike (Live from Ohana Fest / 2026)",
+        "spotify_url": "https://open.spotify.com/track/4j3MfshlTT9PnxCvor4jwJ",
+        "plays": 1
+      },
+      {
+        "name": "Holler from the Holler",
+        "album": "søn of dad (deluxe)",
+        "spotify_url": "https://open.spotify.com/track/4mO7kNrNYmfUtRpf4nDRgc",
+        "plays": 1
+      },
+      {
+        "name": "Hang in There",
+        "album": "søn of dad (deluxe)",
+        "spotify_url": "https://open.spotify.com/track/3koXqjCSU8ZwINcg85SMZ1",
+        "plays": 1
+      },
+      {
+        "name": "Grief is Only Love",
+        "album": "søn of dad (deluxe)",
+        "spotify_url": "https://open.spotify.com/track/6ALqNuQS6RaJzcjDvU21g0",
+        "plays": 1
+      },
+      {
+        "name": "twisted",
+        "album": "søn of dad (deluxe)",
+        "spotify_url": "https://open.spotify.com/track/54GdeYvLfm8YbOoUg1yK1v",
+        "plays": 1
+      },
+      {
+        "name": "I'm a Song (feat. Chris Stapleton)",
+        "album": "I'm a Song",
+        "spotify_url": "https://open.spotify.com/track/0v9ZnTzTMTkl4hkJT8yVGE",
         "plays": 1
       },
       {
@@ -25001,9 +25265,9 @@
     "id": "63BuZ8jcRTEc8SLZdGlXQy",
     "name": "Emily Nenni",
     "spotify_url": "https://open.spotify.com/artist/63BuZ8jcRTEc8SLZdGlXQy",
-    "total_plays": 1,
+    "total_plays": 2,
     "first_seen": "2026-04-04",
-    "last_seen": "2026-04-04",
+    "last_seen": "2026-11-18",
     "genres": [
       "honky tonk",
       "americana",
@@ -25031,6 +25295,12 @@
         "name": "If This Is Just a Game",
         "album": "Long Game",
         "spotify_url": "https://open.spotify.com/track/6nnjjgVbWSEFHZ5zRSs97Z",
+        "plays": 1
+      },
+      {
+        "name": "Long Game",
+        "album": "Long Game",
+        "spotify_url": "https://open.spotify.com/track/0fE8J2qGiRxq2ybixfBygG",
         "plays": 1
       }
     ]
@@ -28005,9 +28275,9 @@
     "id": "3vDpQbGnzRbRVirXlfQagB",
     "name": "Sturgill Simpson",
     "spotify_url": "https://open.spotify.com/artist/3vDpQbGnzRbRVirXlfQagB",
-    "total_plays": 26,
+    "total_plays": 28,
     "first_seen": "2026-05-03",
-    "last_seen": "2026-09-08",
+    "last_seen": "2026-11-21",
     "genres": [
       "outlaw country",
       "alt country",
@@ -28054,22 +28324,22 @@
         "plays": 3
       },
       {
-        "name": "Paradise",
-        "album": "Broken Hearts & Dirty Windows: Songs of John Prine, Vol. 2",
-        "spotify_url": "https://open.spotify.com/track/1ZS3ON442UGUMg87rNdo8v",
-        "plays": 2
-      },
-      {
         "name": "Long White Line",
         "album": "Metamodern Sounds in Country Music",
         "spotify_url": "https://open.spotify.com/track/5JT14Or1FWUDQq4danqHs5",
-        "plays": 2
+        "plays": 3
       },
       {
         "name": "In Bloom",
         "album": "A Sailor's Guide to Earth",
         "spotify_url": "https://open.spotify.com/track/5StrN0F4XI5e0BHP32THhl",
-        "plays": 1
+        "plays": 2
+      },
+      {
+        "name": "Paradise",
+        "album": "Broken Hearts & Dirty Windows: Songs of John Prine, Vol. 2",
+        "spotify_url": "https://open.spotify.com/track/1ZS3ON442UGUMg87rNdo8v",
+        "plays": 2
       },
       {
         "name": "A Little Light",
@@ -30676,9 +30946,9 @@
     "id": "6zvul52xwTWzilBZl6BUbT",
     "name": "Pixies",
     "spotify_url": "https://open.spotify.com/artist/6zvul52xwTWzilBZl6BUbT",
-    "total_plays": 4,
+    "total_plays": 5,
     "first_seen": "2026-05-06",
-    "last_seen": "2026-10-10",
+    "last_seen": "2026-11-18",
     "genres": [
       "alternative rock"
     ],
@@ -30704,7 +30974,7 @@
         "name": "Where Is My Mind? - 2007 Remaster",
         "album": "Surfer Rosa (2007 Remaster)",
         "spotify_url": "https://open.spotify.com/track/7wCmS9TTVUcIhRalDYFgPy",
-        "plays": 3
+        "plays": 4
       },
       {
         "name": "Wave of Mutilation",
@@ -34907,9 +35177,9 @@
     "id": "6IKlXZEFOvk9itrP1s0knJ",
     "name": "The Red Clay Strays",
     "spotify_url": "https://open.spotify.com/artist/6IKlXZEFOvk9itrP1s0knJ",
-    "total_plays": 3,
+    "total_plays": 6,
     "first_seen": "2026-05-26",
-    "last_seen": "2026-11-15",
+    "last_seen": "2026-11-21",
     "genres": [
       "country"
     ],
@@ -34933,20 +35203,32 @@
     "top_tracks": [
       {
         "name": "Demons In Your Choir",
-        "album": "Demons In Your Choir",
-        "spotify_url": "https://open.spotify.com/track/39Ra5S4b4srNRbPScFDKo7",
-        "plays": 1
+        "album": "Grateful",
+        "spotify_url": "https://open.spotify.com/track/2ZI3xzWyItan5Yu75mpx88",
+        "plays": 2
       },
       {
         "name": "Demons In Your Choir",
-        "album": "Grateful",
-        "spotify_url": "https://open.spotify.com/track/2ZI3xzWyItan5Yu75mpx88",
+        "album": "Demons In Your Choir",
+        "spotify_url": "https://open.spotify.com/track/39Ra5S4b4srNRbPScFDKo7",
         "plays": 1
       },
       {
         "name": "Wanna Be Loved",
         "album": "Made by These Moments",
         "spotify_url": "https://open.spotify.com/track/0htNDNNRkFmQuESkq4eoqj",
+        "plays": 1
+      },
+      {
+        "name": "People Hatin'",
+        "album": "Grateful",
+        "spotify_url": "https://open.spotify.com/track/2L8fPEM1Hhizt5LnkNECca",
+        "plays": 1
+      },
+      {
+        "name": "Ramblin' (feat. Dave Cobb) - Live from Brooklyn Bowl",
+        "album": "Ramblin' (feat. Dave Cobb) [Live from Brooklyn Bowl]",
+        "spotify_url": "https://open.spotify.com/track/1GLLAiOHFNXCKvUUc211es",
         "plays": 1
       }
     ]
@@ -37172,9 +37454,9 @@
     "id": "7yk35uHNQclPXFGFoTU44w",
     "name": "The Pharcyde",
     "spotify_url": "https://open.spotify.com/artist/7yk35uHNQclPXFGFoTU44w",
-    "total_plays": 1,
+    "total_plays": 5,
     "first_seen": "2026-06-10",
-    "last_seen": "2026-06-10",
+    "last_seen": "2026-11-18",
     "genres": [
       "jazz rap",
       "west coast hip hop",
@@ -37205,6 +37487,12 @@
     ],
     "top_tracks": [
       {
+        "name": "Drop",
+        "album": "Labcabincalifornia (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/7sT3O2PXs1o12XnCKlv204",
+        "plays": 2
+      },
+      {
         "name": "Runnin'",
         "album": "Labcabincalifornia (Deluxe Edition)",
         "spotify_url": "https://open.spotify.com/track/0XgpiStoxq1IJncYlPrvZ5",
@@ -37214,7 +37502,13 @@
         "name": "Passin' Me By",
         "album": "Bizarre Ride II The Pharcyde",
         "spotify_url": "https://open.spotify.com/track/4G3dZN9o3o2X4VKwt4CLts",
-        "plays": 2
+        "plays": 1
+      },
+      {
+        "name": "Pack The Pipe",
+        "album": "Bizarre Ride II The Pharcyde (25th Anniversary Edition)",
+        "spotify_url": "https://open.spotify.com/track/4u2qZpP5i5zee5P42hZRt2",
+        "plays": 1
       },
       {
         "name": "Moment In Time",
@@ -37298,12 +37592,6 @@
         "name": "Let It Go (feat. The Pharcyde) - Regrind 09",
         "album": "Raiding the Vaults",
         "spotify_url": "https://open.spotify.com/track/6xpQMq4xTYKJp1mxdCIOvT",
-        "plays": 1
-      },
-      {
-        "name": "Drop",
-        "album": "Labcabincalifornia (Deluxe Edition)",
-        "spotify_url": "https://open.spotify.com/track/7sT3O2PXs1o12XnCKlv204",
         "plays": 1
       }
     ]
@@ -37640,9 +37928,9 @@
     "id": "3oVcF3VdpMuvMvLLyHPT4t",
     "name": "Sierra Ferrell",
     "spotify_url": "https://open.spotify.com/artist/3oVcF3VdpMuvMvLLyHPT4t",
-    "total_plays": 3,
+    "total_plays": 4,
     "first_seen": "2026-06-17",
-    "last_seen": "2026-10-16",
+    "last_seen": "2026-11-21",
     "genres": [
       "americana",
       "bluegrass",
@@ -37676,6 +37964,12 @@
         "name": "Hey Me, Hey Mama",
         "album": "Hey Me, Hey Mama",
         "spotify_url": "https://open.spotify.com/track/4MeXcqcyx5vMVUJAKTqKRv",
+        "plays": 1
+      },
+      {
+        "name": "American Dreaming",
+        "album": "Trail Of Flowers",
+        "spotify_url": "https://open.spotify.com/track/00cGNx0otxcMeD4GZHAJtq",
         "plays": 1
       },
       {
@@ -38362,9 +38656,9 @@
     "id": "2ErsJAz6qJ5cqjoVAvfvaC",
     "name": "Charles Wesley Godwin",
     "spotify_url": "https://open.spotify.com/artist/2ErsJAz6qJ5cqjoVAvfvaC",
-    "total_plays": 53,
+    "total_plays": 54,
     "first_seen": "2026-06-23",
-    "last_seen": "2026-11-15",
+    "last_seen": "2026-11-21",
     "genres": [
       "red dirt",
       "country"
@@ -38391,7 +38685,7 @@
         "name": "Hey There Son (feat. Wyatt Flores)",
         "album": "Christian Name",
         "spotify_url": "https://open.spotify.com/track/2PkFUhJ7YsNKZJyL8Golyf",
-        "plays": 3
+        "plays": 4
       },
       {
         "name": "Crooked Teeth (Live From The Church)",
@@ -39768,9 +40062,9 @@
     "id": "50NoVNy9GU1lCrDV8iGpyu",
     "name": "Ol' Dirty Bastard",
     "spotify_url": "https://open.spotify.com/artist/50NoVNy9GU1lCrDV8iGpyu",
-    "total_plays": 26,
+    "total_plays": 27,
     "first_seen": "2026-07-10",
-    "last_seen": "2026-09-24",
+    "last_seen": "2026-11-17",
     "genres": [
       "east coast hip hop",
       "old school hip hop",
@@ -39806,6 +40100,12 @@
         "plays": 4
       },
       {
+        "name": "Got Your Money (feat. Kelis)",
+        "album": "Nigga Please",
+        "spotify_url": "https://open.spotify.com/track/6YYd5MLpu45J0uLrMdivF7",
+        "plays": 3
+      },
+      {
         "name": "Baby C'mon",
         "album": "Return to the 36 Chambers: The Dirty Version",
         "spotify_url": "https://open.spotify.com/track/1z8yXYruBCYvudpel8ZZYe",
@@ -39821,12 +40121,6 @@
         "name": "Thirsty",
         "album": "Blade Trinity (Original Motion Picture Soundtrack)",
         "spotify_url": "https://open.spotify.com/track/5pGm5AyUkdJhZaGGg0rIA9",
-        "plays": 2
-      },
-      {
-        "name": "Got Your Money (feat. Kelis)",
-        "album": "Nigga Please",
-        "spotify_url": "https://open.spotify.com/track/6YYd5MLpu45J0uLrMdivF7",
         "plays": 2
       },
       {
@@ -40082,9 +40376,9 @@
     "id": "5cMgGlA1xGyeAB2ctYlRdZ",
     "name": "Gang Starr",
     "spotify_url": "https://open.spotify.com/artist/5cMgGlA1xGyeAB2ctYlRdZ",
-    "total_plays": 2,
+    "total_plays": 4,
     "first_seen": "2026-07-10",
-    "last_seen": "2026-10-27",
+    "last_seen": "2026-11-18",
     "genres": [
       "east coast hip hop",
       "old school hip hop",
@@ -40122,6 +40416,18 @@
         "plays": 1
       },
       {
+        "name": "Code Of The Streets",
+        "album": "Hard To Earn",
+        "spotify_url": "https://open.spotify.com/track/2mLjLAlChZXZpIZfyPF8Le",
+        "plays": 1
+      },
+      {
+        "name": "DWYCK",
+        "album": "Hard To Earn",
+        "spotify_url": "https://open.spotify.com/track/7vcepKD1pjulQvPOkiQmUe",
+        "plays": 1
+      },
+      {
         "name": "What I'm Here 4",
         "album": "Moment Of Truth",
         "spotify_url": "https://open.spotify.com/track/6NjXLhejj5dVjTyeU8SbVM",
@@ -40149,12 +40455,6 @@
         "name": "Full Clip",
         "album": "Full Clip: A Decade Of Gang Starr",
         "spotify_url": "https://open.spotify.com/track/30oTS7bm0aH3p7lqjEIu8q",
-        "plays": 1
-      },
-      {
-        "name": "Code Of The Streets",
-        "album": "Hard To Earn",
-        "spotify_url": "https://open.spotify.com/track/2mLjLAlChZXZpIZfyPF8Le",
         "plays": 1
       },
       {
@@ -42723,9 +43023,9 @@
     "id": "0FeWKiZSwBRdGzqeCdlH1a",
     "name": "Marcus King",
     "spotify_url": "https://open.spotify.com/artist/0FeWKiZSwBRdGzqeCdlH1a",
-    "total_plays": 1,
+    "total_plays": 2,
     "first_seen": "2026-07-25",
-    "last_seen": "2026-07-25",
+    "last_seen": "2026-11-21",
     "genres": [
       "modern blues",
       "blues rock"
@@ -42752,6 +43052,12 @@
         "name": "Dirt (feat. Billy Strings) - Nashville version",
         "album": "Darling Blue",
         "spotify_url": "https://open.spotify.com/track/6JWRyzC0GrtxO3D2TNoGsL",
+        "plays": 1
+      },
+      {
+        "name": "Heartlands",
+        "album": "Darling Blue / No Room For Blue",
+        "spotify_url": "https://open.spotify.com/track/62P15grFfTwC8tZ7PZB8iV",
         "plays": 1
       }
     ]
@@ -42858,9 +43164,9 @@
     "id": "5W5bDNCqJ1jbCgTxDD0Cb3",
     "name": "Willie Nelson",
     "spotify_url": "https://open.spotify.com/artist/5W5bDNCqJ1jbCgTxDD0Cb3",
-    "total_plays": 4,
+    "total_plays": 5,
     "first_seen": "2026-08-02",
-    "last_seen": "2026-08-26",
+    "last_seen": "2026-11-21",
     "genres": [
       "outlaw country",
       "classic country",
@@ -42907,6 +43213,12 @@
         "name": "From Here to the Moon and Back (feat. Dolly Parton)",
         "album": "To All The Girls...",
         "spotify_url": "https://open.spotify.com/track/1SG91Ocs6KjP8DQlPmITgU",
+        "plays": 1
+      },
+      {
+        "name": "Just Breathe",
+        "album": "Heroes",
+        "spotify_url": "https://open.spotify.com/track/3rIgqH7rTzpB7Gtvo6oDsA",
         "plays": 1
       }
     ]
@@ -44093,9 +44405,9 @@
     "id": "31z9f9AyPawiq0qlBO1M3i",
     "name": "Ryan Bingham",
     "spotify_url": "https://open.spotify.com/artist/31z9f9AyPawiq0qlBO1M3i",
-    "total_plays": 2,
+    "total_plays": 5,
     "first_seen": "2026-08-08",
-    "last_seen": "2026-08-08",
+    "last_seen": "2026-11-21",
     "genres": [
       "red dirt",
       "texas country",
@@ -44132,6 +44444,24 @@
         "name": "Southside Of Heaven",
         "album": "Mescalito",
         "spotify_url": "https://open.spotify.com/track/0qCQg5TkfBfkTsQP3IhAmC",
+        "plays": 1
+      },
+      {
+        "name": "Southside of Heaven - Live at Red Rocks",
+        "album": "Live at Red Rocks",
+        "spotify_url": "https://open.spotify.com/track/0NZCtdrVuiu58x6ItuWumj",
+        "plays": 1
+      },
+      {
+        "name": "Let the Big Dog Eat",
+        "album": "They Call Us The Lucky Ones",
+        "spotify_url": "https://open.spotify.com/track/6ElsMCwZ6b7uc7niDLHMn8",
+        "plays": 1
+      },
+      {
+        "name": "Nobody Knows My Trouble",
+        "album": "Fear and Saturday Night",
+        "spotify_url": "https://open.spotify.com/track/5qyIIrOLV5CCi4YzicRdwT",
         "plays": 1
       }
     ]
@@ -44925,9 +45255,9 @@
     "id": "3y2cIKLjiOlp1Np37WiUdH",
     "name": "Shaboozey",
     "spotify_url": "https://open.spotify.com/artist/3y2cIKLjiOlp1Np37WiUdH",
-    "total_plays": 3,
+    "total_plays": 4,
     "first_seen": "2026-08-06",
-    "last_seen": "2026-09-08",
+    "last_seen": "2026-11-21",
     "genres": [],
     "images": [
       {
@@ -44952,6 +45282,12 @@
         "album": "Took A Walk (from \"The Long Walk\")",
         "spotify_url": "https://open.spotify.com/track/6nKaT12DSliz1PcbVT1Rb4",
         "plays": 3
+      },
+      {
+        "name": "Burn It Down (feat. Leon Bridges)",
+        "album": "The Outlaw Cherie Lee & Other Western Tales",
+        "spotify_url": "https://open.spotify.com/track/4JgdqbekoGGNFMM4cImJ9p",
+        "plays": 1
       }
     ]
   },
@@ -46691,9 +47027,9 @@
     "id": "0wyMPXGfOuQzNR54ujR9Ix",
     "name": "Caamp",
     "spotify_url": "https://open.spotify.com/artist/0wyMPXGfOuQzNR54ujR9Ix",
-    "total_plays": 1,
+    "total_plays": 2,
     "first_seen": "2026-08-15",
-    "last_seen": "2026-08-15",
+    "last_seen": "2026-11-16",
     "genres": [
       "indie folk",
       "folk"
@@ -46720,6 +47056,12 @@
         "name": "Shade",
         "album": "Copper Changes Color",
         "spotify_url": "https://open.spotify.com/track/2GeDQomXVliYZl9Uw7gFAU",
+        "plays": 1
+      },
+      {
+        "name": "By and By",
+        "album": "By and By",
+        "spotify_url": "https://open.spotify.com/track/2HQsCNZ50sGTMQFPJeiHMu",
         "plays": 1
       }
     ]
@@ -46938,9 +47280,9 @@
     "id": "4VmEWwd8y9MCLwexFMdpwt",
     "name": "Method Man",
     "spotify_url": "https://open.spotify.com/artist/4VmEWwd8y9MCLwexFMdpwt",
-    "total_plays": 1,
+    "total_plays": 2,
     "first_seen": "2026-08-11",
-    "last_seen": "2026-08-11",
+    "last_seen": "2026-11-17",
     "genres": [
       "east coast hip hop",
       "old school hip hop",
@@ -46974,6 +47316,12 @@
         "name": "Bring The Pain",
         "album": "Tical",
         "spotify_url": "https://open.spotify.com/track/3F3R4uyTMkX9jRCEVVmdz6",
+        "plays": 1
+      },
+      {
+        "name": "Da Rockwilder",
+        "album": "Blackout!",
+        "spotify_url": "https://open.spotify.com/track/4anqYZt4APNlFwQixpbdZR",
         "plays": 1
       },
       {
@@ -48131,9 +48479,9 @@
     "id": "2BGRfQgtzikz1pzAD0kaEn",
     "name": "Elvis Costello",
     "spotify_url": "https://open.spotify.com/artist/2BGRfQgtzikz1pzAD0kaEn",
-    "total_plays": 44,
+    "total_plays": 46,
     "first_seen": "2026-09-13",
-    "last_seen": "2026-11-03",
+    "last_seen": "2026-11-18",
     "genres": [
       "power pop"
     ],
@@ -48156,6 +48504,12 @@
     ],
     "top_tracks": [
       {
+        "name": "Less Than Zero",
+        "album": "My Aim Is True",
+        "spotify_url": "https://open.spotify.com/track/3AaPC1M5Vsvt8AcpVlHpsL",
+        "plays": 2
+      },
+      {
         "name": "(The Angels Wanna Wear My) Red Shoes",
         "album": "My Aim Is True",
         "spotify_url": "https://open.spotify.com/track/0GmLrYUBXDC5vti77zBZfJ",
@@ -48165,6 +48519,12 @@
         "name": "I Hear A Melody - Demo",
         "album": "My Aim Is True",
         "spotify_url": "https://open.spotify.com/track/6VPAIBZfusAU7F6UKcdMi5",
+        "plays": 2
+      },
+      {
+        "name": "Call On Me - Demo",
+        "album": "My Aim Is True",
+        "spotify_url": "https://open.spotify.com/track/2Eb4OQxvX8IH3JPYhUIlXC",
         "plays": 2
       },
       {
@@ -48201,12 +48561,6 @@
         "name": "Mystery Dance",
         "album": "My Aim Is True",
         "spotify_url": "https://open.spotify.com/track/0IkinTXRKs9CXkOncy4ZKZ",
-        "plays": 1
-      },
-      {
-        "name": "Less Than Zero",
-        "album": "My Aim Is True",
-        "spotify_url": "https://open.spotify.com/track/3AaPC1M5Vsvt8AcpVlHpsL",
         "plays": 1
       },
       {
@@ -48273,12 +48627,6 @@
         "name": "(The Angels Wanna Wear My) Red Shoes - Demo",
         "album": "My Aim Is True",
         "spotify_url": "https://open.spotify.com/track/5y6EcWspJ7y0QDwAMTHhG6",
-        "plays": 1
-      },
-      {
-        "name": "Call On Me - Demo",
-        "album": "My Aim Is True",
-        "spotify_url": "https://open.spotify.com/track/2Eb4OQxvX8IH3JPYhUIlXC",
         "plays": 1
       },
       {
@@ -48461,9 +48809,9 @@
     "id": "1JWMpIl0nhqFJNdO3IOQ20",
     "name": "49 Winchester",
     "spotify_url": "https://open.spotify.com/artist/1JWMpIl0nhqFJNdO3IOQ20",
-    "total_plays": 1,
+    "total_plays": 2,
     "first_seen": "2026-09-08",
-    "last_seen": "2026-09-08",
+    "last_seen": "2026-11-21",
     "genres": [
       "red dirt",
       "country",
@@ -48494,6 +48842,12 @@
         "plays": 1
       },
       {
+        "name": "Leavin’ This Holler",
+        "album": "Leavin’ This Holler",
+        "spotify_url": "https://open.spotify.com/track/6L58j7GjHqdGkGChmXnQG7",
+        "plays": 1
+      },
+      {
         "name": "All I Need",
         "album": "Fortune Favors the Bold",
         "spotify_url": "https://open.spotify.com/track/5cMNnlrWypFvTPnZpF1MA8",
@@ -48511,9 +48865,9 @@
     "id": "7Cezk2wEDBPfYCwEuKum1Y",
     "name": "Luke Grimes",
     "spotify_url": "https://open.spotify.com/artist/7Cezk2wEDBPfYCwEuKum1Y",
-    "total_plays": 2,
+    "total_plays": 3,
     "first_seen": "2026-09-08",
-    "last_seen": "2026-09-08",
+    "last_seen": "2026-11-21",
     "genres": [
       "country"
     ],
@@ -48540,6 +48894,12 @@
         "album": "Clay Pigeons",
         "spotify_url": "https://open.spotify.com/track/4wRaxwESUculLyFFXJIGNg",
         "plays": 2
+      },
+      {
+        "name": "Hold On",
+        "album": "Luke Grimes",
+        "spotify_url": "https://open.spotify.com/track/2A3zwswlFF2Kd5f9DhJB4G",
+        "plays": 1
       }
     ]
   },
@@ -48732,9 +49092,9 @@
     "id": "1YSA4byX5AL1zoTsSTlB03",
     "name": "Turnpike Troubadours",
     "spotify_url": "https://open.spotify.com/artist/1YSA4byX5AL1zoTsSTlB03",
-    "total_plays": 1,
+    "total_plays": 2,
     "first_seen": "2026-09-08",
-    "last_seen": "2026-09-08",
+    "last_seen": "2026-11-21",
     "genres": [
       "red dirt",
       "texas country",
@@ -48766,6 +49126,12 @@
         "album": "The Price of Admission",
         "spotify_url": "https://open.spotify.com/track/66Mk4Rd6A08oa6bF27uQxj",
         "plays": 1
+      },
+      {
+        "name": "Feelin' Good Again",
+        "album": "Feelin' Good Again",
+        "spotify_url": "https://open.spotify.com/track/7ur3BWiEDGPx7V9QkAwGBx",
+        "plays": 1
       }
     ]
   },
@@ -48773,9 +49139,9 @@
     "id": "6Pe957QMENAWMZF7ityC81",
     "name": "Telander",
     "spotify_url": "https://open.spotify.com/artist/6Pe957QMENAWMZF7ityC81",
-    "total_plays": 1,
+    "total_plays": 2,
     "first_seen": "2026-09-08",
-    "last_seen": "2026-09-08",
+    "last_seen": "2026-11-21",
     "genres": [],
     "images": [
       {
@@ -48800,6 +49166,12 @@
         "album": "Stay",
         "spotify_url": "https://open.spotify.com/track/15M3426xmXduNuR1sbW3np",
         "plays": 1
+      },
+      {
+        "name": "Feeling This",
+        "album": "Feeling This",
+        "spotify_url": "https://open.spotify.com/track/20yScojqpZONyMQFBt91x7",
+        "plays": 1
       }
     ]
   },
@@ -48807,9 +49179,9 @@
     "id": "7x8nK0m0cP2ksQf0mjWdPS",
     "name": "Dierks Bentley",
     "spotify_url": "https://open.spotify.com/artist/7x8nK0m0cP2ksQf0mjWdPS",
-    "total_plays": 1,
+    "total_plays": 2,
     "first_seen": "2026-09-08",
-    "last_seen": "2026-09-08",
+    "last_seen": "2026-11-21",
     "genres": [
       "country"
     ],
@@ -48835,7 +49207,7 @@
         "name": "Cold Beer Can (feat. Stephen Wilson Jr.)",
         "album": "Broken Branches",
         "spotify_url": "https://open.spotify.com/track/1ZFousk15pOB9oYAh3G51p",
-        "plays": 1
+        "plays": 2
       }
     ]
   },
@@ -49412,9 +49784,9 @@
     "id": "7gwnqVGT0C8MzeE7X1gU3o",
     "name": "Rheinzand",
     "spotify_url": "https://open.spotify.com/artist/7gwnqVGT0C8MzeE7X1gU3o",
-    "total_plays": 2,
+    "total_plays": 3,
     "first_seen": "2026-10-04",
-    "last_seen": "2026-10-04",
+    "last_seen": "2026-11-18",
     "genres": [
       "indie dance"
     ],
@@ -49437,15 +49809,15 @@
     ],
     "top_tracks": [
       {
-        "name": "Elefantasi (Dutch Version)",
-        "album": "Elefantasi",
-        "spotify_url": "https://open.spotify.com/track/2tQC5Nmsc8V8wyR3i1YY0z",
-        "plays": 1
-      },
-      {
         "name": "Elefantasi (English Version)",
         "album": "Elefantasi",
         "spotify_url": "https://open.spotify.com/track/4pEih3fA9NuBOvD3jMghtl",
+        "plays": 2
+      },
+      {
+        "name": "Elefantasi (Dutch Version)",
+        "album": "Elefantasi",
+        "spotify_url": "https://open.spotify.com/track/2tQC5Nmsc8V8wyR3i1YY0z",
         "plays": 1
       }
     ]
@@ -52297,9 +52669,9 @@
     "id": "2zq0uqN9Wq12tqrQQt1ozw",
     "name": "Mr. Bungle",
     "spotify_url": "https://open.spotify.com/artist/2zq0uqN9Wq12tqrQQt1ozw",
-    "total_plays": 8,
+    "total_plays": 19,
     "first_seen": "2026-10-22",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-16",
     "genres": [
       "avant-garde",
       "funk rock"
@@ -52368,6 +52740,72 @@
         "name": "Bungle Grind",
         "album": "The Raging Wrath Of The Easter Bunny Demo",
         "spotify_url": "https://open.spotify.com/track/3guoTpm3ZI9Pin2v9kh97u",
+        "plays": 1
+      },
+      {
+        "name": "Carry Stress in the Jaw",
+        "album": "Disco Volante",
+        "spotify_url": "https://open.spotify.com/track/3pnnQ8JI4hK6By6t07ci0k",
+        "plays": 1
+      },
+      {
+        "name": "Dead Goon",
+        "album": "Mr. Bungle",
+        "spotify_url": "https://open.spotify.com/track/5l90MDQRwkQLJ8i7fCZzQp",
+        "plays": 1
+      },
+      {
+        "name": "Love Is a Fist",
+        "album": "Mr. Bungle",
+        "spotify_url": "https://open.spotify.com/track/5GONn0oGFaTm9Xs0XPZaK5",
+        "plays": 1
+      },
+      {
+        "name": "The Girls of Porn",
+        "album": "Mr. Bungle",
+        "spotify_url": "https://open.spotify.com/track/40A9ldu5cwbq9oxdrb4dLp",
+        "plays": 1
+      },
+      {
+        "name": "My Ass Is on Fire",
+        "album": "Mr. Bungle",
+        "spotify_url": "https://open.spotify.com/track/1Ybrwa7iKUp0kbLlcuwMma",
+        "plays": 1
+      },
+      {
+        "name": "Stubb - A Dub",
+        "album": "Mr. Bungle",
+        "spotify_url": "https://open.spotify.com/track/1hqn7xHdZZcywgSfdUSyet",
+        "plays": 1
+      },
+      {
+        "name": "Egg",
+        "album": "Mr. Bungle",
+        "spotify_url": "https://open.spotify.com/track/4eBw2cQdGQYy8g42mpehwA",
+        "plays": 1
+      },
+      {
+        "name": "Carousel",
+        "album": "Mr. Bungle",
+        "spotify_url": "https://open.spotify.com/track/03AuvQVLAKUJGb5CTxhT3G",
+        "plays": 1
+      },
+      {
+        "name": "Squeeze Me Macaroni",
+        "album": "Mr. Bungle",
+        "spotify_url": "https://open.spotify.com/track/5Zdd3z9JsKy0DfONuj2hdG",
+        "plays": 1
+      },
+      {
+        "name": "Slowly Growing Deaf",
+        "album": "Mr. Bungle",
+        "spotify_url": "https://open.spotify.com/track/4hkKXtBibeHfWcsVic9Jc9",
+        "plays": 1
+      },
+      {
+        "name": "Quote Unquote",
+        "album": "Mr. Bungle",
+        "spotify_url": "https://open.spotify.com/track/3DwYlfZB847X3VMLJ4EBDX",
         "plays": 1
       }
     ]
@@ -52909,9 +53347,9 @@
     "id": "03EYBMnqSchCMp5D9qmFXi",
     "name": "Stacey Kent",
     "spotify_url": "https://open.spotify.com/artist/03EYBMnqSchCMp5D9qmFXi",
-    "total_plays": 1,
+    "total_plays": 3,
     "first_seen": "2026-11-05",
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-18",
     "genres": [
       "french jazz",
       "vocal jazz",
@@ -52941,6 +53379,12 @@
         "name": "I Wish I Could Go Travelling Again",
         "album": "Breakfast on the Morning Tram (Bonus Edition)",
         "spotify_url": "https://open.spotify.com/track/1xtCLEj1zKqkrz7k9jJWBr",
+        "plays": 2
+      },
+      {
+        "name": "Breakfast on the Morning Tram",
+        "album": "Breakfast on the Morning Tram (Bonus Edition)",
+        "spotify_url": "https://open.spotify.com/track/4eWhfe7XTOXNZoNuKMwtHf",
         "plays": 1
       }
     ]
@@ -52986,9 +53430,9 @@
     "id": "2MPe4h9blynt1CfCkMku6j",
     "name": "Kashus Culpepper",
     "spotify_url": "https://open.spotify.com/artist/2MPe4h9blynt1CfCkMku6j",
-    "total_plays": 1,
+    "total_plays": 3,
     "first_seen": "2026-11-15",
-    "last_seen": "2026-11-15",
+    "last_seen": "2026-11-21",
     "genres": [],
     "images": [
       {
@@ -53012,6 +53456,12 @@
         "name": "Out Of My Mind",
         "album": "Act I",
         "spotify_url": "https://open.spotify.com/track/6DkYad67mhhiGP0UxSUMso",
+        "plays": 2
+      },
+      {
+        "name": "Southern Man",
+        "album": "Act I",
+        "spotify_url": "https://open.spotify.com/track/2kcnL45FePWWwqSifGzxMm",
         "plays": 1
       }
     ]
@@ -53056,9 +53506,9 @@
     "id": "5jG6uRqinuI83luutMpW6y",
     "name": "Gavin Adcock",
     "spotify_url": "https://open.spotify.com/artist/5jG6uRqinuI83luutMpW6y",
-    "total_plays": 1,
+    "total_plays": 2,
     "first_seen": "2026-11-15",
-    "last_seen": "2026-11-15",
+    "last_seen": "2026-11-21",
     "genres": [
       "country",
       "red dirt"
@@ -53085,6 +53535,12 @@
         "name": "Workin' Man",
         "album": "The Day I Hang It Up",
         "spotify_url": "https://open.spotify.com/track/17g1Gi1NNs1RbFIDL9wKBc",
+        "plays": 1
+      },
+      {
+        "name": "Last One To Know",
+        "album": "Own Worst Enemy",
+        "spotify_url": "https://open.spotify.com/track/4JAmBKnHyq2avqNvJ81Mao",
         "plays": 1
       }
     ]
@@ -53241,9 +53697,9 @@
     "id": "26opZSJcXshCmCwxgZQmBc",
     "name": "Whiskey Myers",
     "spotify_url": "https://open.spotify.com/artist/26opZSJcXshCmCwxgZQmBc",
-    "total_plays": 1,
+    "total_plays": 2,
     "first_seen": "2026-11-15",
-    "last_seen": "2026-11-15",
+    "last_seen": "2026-11-20",
     "genres": [
       "red dirt",
       "texas country",
@@ -53274,7 +53730,7 @@
         "name": "Heart of Stone",
         "album": "Tornillo",
         "spotify_url": "https://open.spotify.com/track/7dHnVfXljNwvlLGlr6lMlc",
-        "plays": 1
+        "plays": 2
       }
     ]
   },
@@ -53477,9 +53933,9 @@
     "id": "6UBA15slIuadJ8h2lPRPos",
     "name": "Tech N9ne",
     "spotify_url": "https://open.spotify.com/artist/6UBA15slIuadJ8h2lPRPos",
-    "total_plays": 2,
+    "total_plays": 3,
     "first_seen": "2026-11-13",
-    "last_seen": "2026-11-13",
+    "last_seen": "2026-11-17",
     "genres": [
       "horrorcore"
     ],
@@ -53506,6 +53962,12 @@
         "album": "The Storm (Deluxe Edition)",
         "spotify_url": "https://open.spotify.com/track/7tof6xjzkgAQqBAHLa1r4r",
         "plays": 2
+      },
+      {
+        "name": "Like I Ain't",
+        "album": "N9NA",
+        "spotify_url": "https://open.spotify.com/track/5dqrgmHHBuUzwYKBXJuIm0",
+        "plays": 1
       }
     ]
   },
@@ -54323,9 +54785,9 @@
     "id": "4sb7rZNN93BSS6Gqgepo4v",
     "name": "Too $hort",
     "spotify_url": "https://open.spotify.com/artist/4sb7rZNN93BSS6Gqgepo4v",
-    "total_plays": 2,
+    "total_plays": 3,
     "first_seen": "2026-11-11",
-    "last_seen": "2026-11-11",
+    "last_seen": "2026-11-17",
     "genres": [
       "hyphy",
       "west coast hip hop",
@@ -54352,15 +54814,15 @@
     ],
     "top_tracks": [
       {
-        "name": "Gettin' It (feat. Parliament Funkadelic)",
-        "album": "Gettin' It (Album Number Ten)",
-        "spotify_url": "https://open.spotify.com/track/5K5dQsYdSdo2LKdepxbYAd",
-        "plays": 1
-      },
-      {
         "name": "Blow the Whistle",
         "album": "Blow The Whistle",
         "spotify_url": "https://open.spotify.com/track/2lMg3lCMOGistaWBNGjuT3",
+        "plays": 2
+      },
+      {
+        "name": "Gettin' It (feat. Parliament Funkadelic)",
+        "album": "Gettin' It (Album Number Ten)",
+        "spotify_url": "https://open.spotify.com/track/5K5dQsYdSdo2LKdepxbYAd",
         "plays": 1
       },
       {
@@ -54538,6 +55000,2461 @@
         "album": "Roman Candle",
         "spotify_url": "https://open.spotify.com/track/6CQrY94YLZVMYK6PU65SUR",
         "plays": 2
+      }
+    ]
+  },
+  "mathematics": {
+    "id": "6T7ap0aCwj4aJVj3bJ0EWh",
+    "name": "Mathematics",
+    "spotify_url": "https://open.spotify.com/artist/6T7ap0aCwj4aJVj3bJ0EWh",
+    "total_plays": 11,
+    "first_seen": "2026-11-21",
+    "last_seen": "2026-11-22",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b27386ab6e278a5caa308cb7c16c",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e0286ab6e278a5caa308cb7c16c",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000485186ab6e278a5caa308cb7c16c",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Hustle",
+        "album": "Black Samson: The Saga Continues",
+        "spotify_url": "https://open.spotify.com/track/1NdXa33GIawqasH3P4g512",
+        "plays": 2
+      },
+      {
+        "name": "Knowledge My Wisdom",
+        "album": "Knowledge My Wisdom",
+        "spotify_url": "https://open.spotify.com/track/1WejVhLvarq53i1urwGFvM",
+        "plays": 2
+      },
+      {
+        "name": "God Body",
+        "album": "God Body",
+        "spotify_url": "https://open.spotify.com/track/5XMdDjf5Xwhrqpvx08cZIa",
+        "plays": 2
+      },
+      {
+        "name": "Outro",
+        "album": "Black Samson: The Saga Continues",
+        "spotify_url": "https://open.spotify.com/track/7toXK2jWPX5KNy6eo8xc4P",
+        "plays": 1
+      },
+      {
+        "name": "Dominant Confidence",
+        "album": "Black Samson: The Saga Continues",
+        "spotify_url": "https://open.spotify.com/track/1gLCXfNCSYOCHkfxxBMlpX",
+        "plays": 1
+      },
+      {
+        "name": "Hennessy Pure",
+        "album": "Black Samson: The Saga Continues",
+        "spotify_url": "https://open.spotify.com/track/2KfZ28aa0VLmakPqSxA4J3",
+        "plays": 1
+      },
+      {
+        "name": "Choices",
+        "album": "Black Samson: The Saga Continues",
+        "spotify_url": "https://open.spotify.com/track/4602ssIzMXFlYQCfqpoEAO",
+        "plays": 1
+      },
+      {
+        "name": "Brolic",
+        "album": "Black Samson: The Saga Continues",
+        "spotify_url": "https://open.spotify.com/track/6dRYsxmtk5bjOVGBvuzQ8g",
+        "plays": 1
+      }
+    ]
+  },
+  "inspectah-deck": {
+    "id": "4OBbOrkD4geIjOLrICN3wO",
+    "name": "Inspectah Deck",
+    "spotify_url": "https://open.spotify.com/artist/4OBbOrkD4geIjOLrICN3wO",
+    "total_plays": 1,
+    "first_seen": "2026-11-21",
+    "last_seen": "2026-11-21",
+    "genres": [
+      "east coast hip hop"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebd01e38b99f3c894b4827524a",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174d01e38b99f3c894b4827524a",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178d01e38b99f3c894b4827524a",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Czariana Grande",
+        "album": "Czariana Grande",
+        "spotify_url": "https://open.spotify.com/track/6aCBwJkzFXCgzxLp8IuW3v",
+        "plays": 1
+      }
+    ]
+  },
+  "system-of-a-down": {
+    "id": "5eAWCfyUhZtHHtBdNk56l1",
+    "name": "System Of A Down",
+    "spotify_url": "https://open.spotify.com/artist/5eAWCfyUhZtHHtBdNk56l1",
+    "total_plays": 1,
+    "first_seen": "2026-11-21",
+    "last_seen": "2026-11-21",
+    "genres": [
+      "nu metal",
+      "metal",
+      "alternative metal",
+      "rap metal",
+      "rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb60063d3451ade8f9fab397c2",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517460063d3451ade8f9fab397c2",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17860063d3451ade8f9fab397c2",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Shame",
+        "album": "Loud Rocks",
+        "spotify_url": "https://open.spotify.com/track/44go3ZmDNtKdfCc15IseAx",
+        "plays": 1
+      },
+      {
+        "name": "Chop Suey!",
+        "album": "Toxicity",
+        "spotify_url": "https://open.spotify.com/track/2DlHlPMa4M17kufBvI2lEN",
+        "plays": 2
+      }
+    ]
+  },
+  "michael-bibi": {
+    "id": "4cvdQRyHmkSQSakUrW2oxv",
+    "name": "Michael Bibi",
+    "spotify_url": "https://open.spotify.com/artist/4cvdQRyHmkSQSakUrW2oxv",
+    "total_plays": 1,
+    "first_seen": "2026-11-21",
+    "last_seen": "2026-11-21",
+    "genres": [
+      "tech house",
+      "techno",
+      "house"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb5da9a30b4ebb31ba1212adb9",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051745da9a30b4ebb31ba1212adb9",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1785da9a30b4ebb31ba1212adb9",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "MYSTERY OF RAW",
+        "album": "MYSTERY OF RAW",
+        "spotify_url": "https://open.spotify.com/track/2v4NP088R6LUgFBDF9JqBg",
+        "plays": 1
+      }
+    ]
+  },
+  "nathaniel-rateliff": {
+    "id": "4qKpLkR911SUlnd4HAtF79",
+    "name": "Nathaniel Rateliff",
+    "spotify_url": "https://open.spotify.com/artist/4qKpLkR911SUlnd4HAtF79",
+    "total_plays": 2,
+    "first_seen": "2026-11-21",
+    "last_seen": "2026-11-21",
+    "genres": [
+      "indie folk",
+      "americana"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb300ea225eb9e436c6c4a0c54",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174300ea225eb9e436c6c4a0c54",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178300ea225eb9e436c6c4a0c54",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Flowers",
+        "album": "Flowers",
+        "spotify_url": "https://open.spotify.com/track/1VO8Kwv6w3Yk1O1NMwNlba",
+        "plays": 1
+      },
+      {
+        "name": "And It's Still Alright",
+        "album": "And It’s Still Alright",
+        "spotify_url": "https://open.spotify.com/track/2tRxHjEkdgGMv9kZbOyqOH",
+        "plays": 1
+      }
+    ]
+  },
+  "sons-of-legion": {
+    "id": "4WBCjNjq0MGPsvcXyOPWKW",
+    "name": "Sons of Legion",
+    "spotify_url": "https://open.spotify.com/artist/4WBCjNjq0MGPsvcXyOPWKW",
+    "total_plays": 1,
+    "first_seen": "2026-11-21",
+    "last_seen": "2026-11-21",
+    "genres": [
+      "country blues"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb751e5111c6b53d914c6e4673",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174751e5111c6b53d914c6e4673",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178751e5111c6b53d914c6e4673",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Stand By Me",
+        "album": "Stand By Me",
+        "spotify_url": "https://open.spotify.com/track/7JTwlb6hTew6z16enppiEr",
+        "plays": 1
+      }
+    ]
+  },
+  "lukas-nelson": {
+    "id": "1oK57qVDixqM7no13U1mK9",
+    "name": "Lukas Nelson",
+    "spotify_url": "https://open.spotify.com/artist/1oK57qVDixqM7no13U1mK9",
+    "total_plays": 2,
+    "first_seen": "2026-11-21",
+    "last_seen": "2026-11-21",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebe7193cc9102940359866b7d2",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174e7193cc9102940359866b7d2",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178e7193cc9102940359866b7d2",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Disappearing Light (with Stephen Wilson Jr.)",
+        "album": "American Romance",
+        "spotify_url": "https://open.spotify.com/track/5u7VFBKUWMmvUqsPV818Uz",
+        "plays": 1
+      },
+      {
+        "name": "Ain't Done",
+        "album": "American Romance",
+        "spotify_url": "https://open.spotify.com/track/0Q7lAbwDfS6JhEPZS0K7Om",
+        "plays": 1
+      }
+    ]
+  },
+  "nathaniel-rateliff-the-night-sweats": {
+    "id": "02seUFsFQP7TH4hLrTj77o",
+    "name": "Nathaniel Rateliff & The Night Sweats",
+    "spotify_url": "https://open.spotify.com/artist/02seUFsFQP7TH4hLrTj77o",
+    "total_plays": 1,
+    "first_seen": "2026-11-21",
+    "last_seen": "2026-11-21",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb2c539b323a31bd5fbaaa5834",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051742c539b323a31bd5fbaaa5834",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1782c539b323a31bd5fbaaa5834",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "South of Here",
+        "album": "South of Here",
+        "spotify_url": "https://open.spotify.com/track/6eEYejebuJbI9mKhNBdZAn",
+        "plays": 1
+      }
+    ]
+  },
+  "josiah-and-the-bonnevilles": {
+    "id": "3FMcVBx2TMq2f5gEPcUieC",
+    "name": "Josiah and the Bonnevilles",
+    "spotify_url": "https://open.spotify.com/artist/3FMcVBx2TMq2f5gEPcUieC",
+    "total_plays": 1,
+    "first_seen": "2026-11-21",
+    "last_seen": "2026-11-21",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb3a8a71f49d61ef77b1c831c6",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051743a8a71f49d61ef77b1c831c6",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1783a8a71f49d61ef77b1c831c6",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Going Gone",
+        "album": "As Is",
+        "spotify_url": "https://open.spotify.com/track/4gHcMyiyS97njefhzX3tRE",
+        "plays": 1
+      }
+    ]
+  },
+  "hunter-flynn": {
+    "id": "5j6t35Ik2EoS5efJDxOAS2",
+    "name": "Hunter Flynn",
+    "spotify_url": "https://open.spotify.com/artist/5j6t35Ik2EoS5efJDxOAS2",
+    "total_plays": 1,
+    "first_seen": "2026-11-21",
+    "last_seen": "2026-11-21",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb3da8387e3f323cabf648c8ad",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051743da8387e3f323cabf648c8ad",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1783da8387e3f323cabf648c8ad",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Dreams Keep Dying",
+        "album": "Roots",
+        "spotify_url": "https://open.spotify.com/track/1eB0myo7QcemaKfVzoqaTF",
+        "plays": 1
+      }
+    ]
+  },
+  "clayton-nile-young": {
+    "id": "1Pjj9uWZiJXloNcHIJzsNm",
+    "name": "Clayton Nile Young",
+    "spotify_url": "https://open.spotify.com/artist/1Pjj9uWZiJXloNcHIJzsNm",
+    "total_plays": 1,
+    "first_seen": "2026-11-21",
+    "last_seen": "2026-11-21",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eba59f3f9892b417f49e7c5aed",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174a59f3f9892b417f49e7c5aed",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178a59f3f9892b417f49e7c5aed",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Trails & a View",
+        "album": "Eddy",
+        "spotify_url": "https://open.spotify.com/track/2Q9koNpu0OdSm1TueWaoOA",
+        "plays": 1
+      }
+    ]
+  },
+  "the-band-loula": {
+    "id": "3BkvqhICmG3IyD4z9xGu7i",
+    "name": "The Band Loula",
+    "spotify_url": "https://open.spotify.com/artist/3BkvqhICmG3IyD4z9xGu7i",
+    "total_plays": 1,
+    "first_seen": "2026-11-21",
+    "last_seen": "2026-11-21",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebbbea9d2895d8bea8ab49e7a0",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174bbea9d2895d8bea8ab49e7a0",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178bbea9d2895d8bea8ab49e7a0",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Marshall County Man",
+        "album": "Marshall County Man",
+        "spotify_url": "https://open.spotify.com/track/4jwXjfTnFl2gwauP5lmsxd",
+        "plays": 1
+      }
+    ]
+  },
+  "chris-stapleton": {
+    "id": "4YLtscXsxbVgi031ovDDdh",
+    "name": "Chris Stapleton",
+    "spotify_url": "https://open.spotify.com/artist/4YLtscXsxbVgi031ovDDdh",
+    "total_plays": 2,
+    "first_seen": "2026-11-21",
+    "last_seen": "2026-11-21",
+    "genres": [
+      "country",
+      "outlaw country"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eba0c87c8f329b436eac8b9784",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174a0c87c8f329b436eac8b9784",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178a0c87c8f329b436eac8b9784",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Starting Over",
+        "album": "Starting Over",
+        "spotify_url": "https://open.spotify.com/track/3K07bGe8iljQ3mOKArHLDo",
+        "plays": 1
+      },
+      {
+        "name": "White Horse",
+        "album": "Higher",
+        "spotify_url": "https://open.spotify.com/track/1DgtQlVNotingln271ZKCx",
+        "plays": 1
+      },
+      {
+        "name": "Them Stems",
+        "album": "From A Room: Volume 1",
+        "spotify_url": "https://open.spotify.com/track/6vcFHirl6xkhzNLgZZH6QN",
+        "plays": 2
+      },
+      {
+        "name": "I Was Wrong",
+        "album": "From A Room: Volume 1",
+        "spotify_url": "https://open.spotify.com/track/7dUdMZqfGSIt0ZkmTOgRLA",
+        "plays": 2
+      },
+      {
+        "name": "Broken Halos",
+        "album": "From A Room: Volume 1",
+        "spotify_url": "https://open.spotify.com/track/06gD2ZtK3Dzc1BYqWExQJJ",
+        "plays": 1
+      },
+      {
+        "name": "Second One To Know",
+        "album": "From A Room: Volume 1",
+        "spotify_url": "https://open.spotify.com/track/0oTGa77jJ1H5joTG5SvxFj",
+        "plays": 1
+      },
+      {
+        "name": "Last Thing I Needed, First Thing This Morning",
+        "album": "From A Room: Volume 1",
+        "spotify_url": "https://open.spotify.com/track/3yju5QYFjndmGvaG2wVvPv",
+        "plays": 1
+      },
+      {
+        "name": "Up To No Good Livin'",
+        "album": "From A Room: Volume 1",
+        "spotify_url": "https://open.spotify.com/track/5v9e0mJg74D7cFfYxKDJH0",
+        "plays": 1
+      },
+      {
+        "name": "Without Your Love",
+        "album": "From A Room: Volume 1",
+        "spotify_url": "https://open.spotify.com/track/6Oexp3W6bv5LBzsS171iqN",
+        "plays": 1
+      },
+      {
+        "name": "Either Way",
+        "album": "From A Room: Volume 1",
+        "spotify_url": "https://open.spotify.com/track/6Wo5YxkdXgwzKQZbDg2r17",
+        "plays": 1
+      },
+      {
+        "name": "Death Row",
+        "album": "From A Room: Volume 1",
+        "spotify_url": "https://open.spotify.com/track/7sO969CnGNCZ7kDravLtPO",
+        "plays": 1
+      },
+      {
+        "name": "Hard Livin'",
+        "album": "From A Room: Volume 2",
+        "spotify_url": "https://open.spotify.com/track/6SYasTzcB2CZlJfkEO7ZrS",
+        "plays": 1
+      },
+      {
+        "name": "Devil Always Made Me Think Twice",
+        "album": "Starting Over",
+        "spotify_url": "https://open.spotify.com/track/3olGkpomYOWwRZsbFTZqiX",
+        "plays": 1
+      }
+    ]
+  },
+  "tyler-childers": {
+    "id": "13ZEDW6vyBF12HYcZRr4EV",
+    "name": "Tyler Childers",
+    "spotify_url": "https://open.spotify.com/artist/13ZEDW6vyBF12HYcZRr4EV",
+    "total_plays": 1,
+    "first_seen": "2026-11-21",
+    "last_seen": "2026-11-21",
+    "genres": [
+      "country",
+      "outlaw country",
+      "red dirt",
+      "alt country",
+      "bluegrass",
+      "texas country"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebf4e08c9a3cea561e8f3332a5",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174f4e08c9a3cea561e8f3332a5",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178f4e08c9a3cea561e8f3332a5",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "House Fire",
+        "album": "Country Squire",
+        "spotify_url": "https://open.spotify.com/track/1RJyToUKkGSEfJjavJHSsF",
+        "plays": 1
+      },
+      {
+        "name": "Rock Salt and Nails (Live)",
+        "album": "Live on Red Barn Radio I & II",
+        "spotify_url": "https://open.spotify.com/track/20dkebBtPR4AJ8vVos41Gw",
+        "plays": 2
+      }
+    ]
+  },
+  "kings-of-leon": {
+    "id": "2qk9voo8llSGYcZ6xrBzKx",
+    "name": "Kings of Leon",
+    "spotify_url": "https://open.spotify.com/artist/2qk9voo8llSGYcZ6xrBzKx",
+    "total_plays": 2,
+    "first_seen": "2026-11-21",
+    "last_seen": "2026-11-21",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb4e0be890b66350e999ffb4a1",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051744e0be890b66350e999ffb4a1",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1784e0be890b66350e999ffb4a1",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "We're Onto Something (feat. Zach Bryan)",
+        "album": "We're Onto Something (feat. Zach Bryan)",
+        "spotify_url": "https://open.spotify.com/track/3QTKTf9CGTzMKSu2NSoq8R",
+        "plays": 1
+      },
+      {
+        "name": "My Whole World",
+        "album": "O My Beloved",
+        "spotify_url": "https://open.spotify.com/track/5q13qp2aZFnN2S4m5NZU5R",
+        "plays": 1
+      }
+    ]
+  },
+  "the-revivalists": {
+    "id": "5kuJibJcwOC53s3OkoGMRA",
+    "name": "The Revivalists",
+    "spotify_url": "https://open.spotify.com/artist/5kuJibJcwOC53s3OkoGMRA",
+    "total_plays": 1,
+    "first_seen": "2026-11-21",
+    "last_seen": "2026-11-21",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb07d4cc3f54aa12827593e79b",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517407d4cc3f54aa12827593e79b",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17807d4cc3f54aa12827593e79b",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Heart Stop - Nashville Session",
+        "album": "Heart Stop (Nashville Session)",
+        "spotify_url": "https://open.spotify.com/track/6TAA3JIH9tJbjCumbsLCYz",
+        "plays": 1
+      }
+    ]
+  },
+  "the-marcus-king-band": {
+    "id": "0tgaHqkU1p7QhBUIzKXVU9",
+    "name": "The Marcus King Band",
+    "spotify_url": "https://open.spotify.com/artist/0tgaHqkU1p7QhBUIzKXVU9",
+    "total_plays": 1,
+    "first_seen": "2026-11-21",
+    "last_seen": "2026-11-21",
+    "genres": [
+      "modern blues",
+      "southern rock",
+      "blues rock",
+      "jam band",
+      "country blues"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebea228047308787c8c959f665",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174ea228047308787c8c959f665",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178ea228047308787c8c959f665",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Goodbye Carolina - Extended Version",
+        "album": "Carolina Confessions",
+        "spotify_url": "https://open.spotify.com/track/3dWZJWo0kVHb5ID7x3PgtR",
+        "plays": 1
+      }
+    ]
+  },
+  "cannonball-adderley": {
+    "id": "5v74mT11KGJqadf9sLw4dA",
+    "name": "Cannonball Adderley",
+    "spotify_url": "https://open.spotify.com/artist/5v74mT11KGJqadf9sLw4dA",
+    "total_plays": 1,
+    "first_seen": "2026-11-19",
+    "last_seen": "2026-11-19",
+    "genres": [
+      "hard bop",
+      "jazz",
+      "bebop",
+      "cool jazz",
+      "jazz ballads"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/c9ac5f2db563d4c6635882e09ab6373b871a7c7a",
+        "height": 1185,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/41bcf2271cb977ec8c5306c097fcfb6b843a580b",
+        "height": 759,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/07ccd083268212e427787bbc96a103465110c7ef",
+        "height": 237,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/18372840bc434abf72991aef75de17cbf8e011e0",
+        "height": 76,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Mercy, Mercy, Mercy",
+        "album": "Jazz Profile: Cannonball Adderley",
+        "spotify_url": "https://open.spotify.com/track/6NF8MZ2trxckVBr82pyyPt",
+        "plays": 1
+      },
+      {
+        "name": "Autumn Leaves",
+        "album": "Somethin' Else (Rudy Van Gelder Edition)",
+        "spotify_url": "https://open.spotify.com/track/0X5DcGkbxCXSadgj01ZXd7",
+        "plays": 2
+      },
+      {
+        "name": "Fran-Dance (feat. John Coltrane, Cannonball Adderley & Bill Evans)",
+        "album": "Kind Of Blue (Legacy Edition)",
+        "spotify_url": "https://open.spotify.com/track/6YCAJqpG0uSZSwidZODdjW",
+        "plays": 2
+      },
+      {
+        "name": "Milestones (feat. John Coltrane, Cannonball Adderley, Red Garland, Paul Chambers & Philly Joe Jones) - Alternate Take",
+        "album": "Milestones",
+        "spotify_url": "https://open.spotify.com/track/2NmeSFSnA8rKZosqkJu3jb",
+        "plays": 1
+      }
+    ]
+  },
+  "thelonious-monk": {
+    "id": "4PDpGtF16XpqvXxsrFwQnN",
+    "name": "Thelonious Monk",
+    "spotify_url": "https://open.spotify.com/artist/4PDpGtF16XpqvXxsrFwQnN",
+    "total_plays": 1,
+    "first_seen": "2026-11-19",
+    "last_seen": "2026-11-19",
+    "genres": [
+      "jazz",
+      "bebop",
+      "hard bop",
+      "cool jazz",
+      "free jazz"
+    ],
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab6761610000e5eb8238a10406dfbd483d13f908",
+        "width": 640
+      },
+      {
+        "height": 320,
+        "url": "https://i.scdn.co/image/ab676161000051748238a10406dfbd483d13f908",
+        "width": 320
+      },
+      {
+        "height": 160,
+        "url": "https://i.scdn.co/image/ab6761610000f1788238a10406dfbd483d13f908",
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "'Round Midnight",
+        "album": "Genius Of Modern Music (Vol.1, Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/1wl5b2lw3YagQtZiYZbQWP",
+        "plays": 1
+      },
+      {
+        "name": "Misterioso",
+        "album": "Genius Of Modern Music Volume One",
+        "spotify_url": "https://open.spotify.com/track/6NSkgbaPwvLc3VGuW7JUKN",
+        "plays": 3
+      },
+      {
+        "name": "Epistrophy - Alternate Take",
+        "album": "Thelonious Monk with John Coltrane (OJC Remaster)",
+        "spotify_url": "https://open.spotify.com/track/6UcmLLsVjdatOQcQKE9XdO",
+        "plays": 3
+      },
+      {
+        "name": "Straight, No Chaser",
+        "album": "Straight, No Chaser",
+        "spotify_url": "https://open.spotify.com/track/6YYu8qFzcY1ZyzzsJIQM12",
+        "plays": 2
+      },
+      {
+        "name": "Hornin' In - Alternate Take",
+        "album": "Late Night Thelonious Monk",
+        "spotify_url": "https://open.spotify.com/track/3aSPUJSCrb7H2Hrots0Mz3",
+        "plays": 2
+      },
+      {
+        "name": "Japanese Folk Song",
+        "album": "Straight, No Chaser",
+        "spotify_url": "https://open.spotify.com/track/5H91eWhSKcawShPDWN1Sxw",
+        "plays": 2
+      },
+      {
+        "name": "I Should Care - Rudy Van Gelder Edition",
+        "album": "Late Night Thelonious Monk",
+        "spotify_url": "https://open.spotify.com/track/5NnZHv9StUx7A9i0XAB01b",
+        "plays": 2
+      },
+      {
+        "name": "Raise Four",
+        "album": "Underground",
+        "spotify_url": "https://open.spotify.com/track/5anYdzYJguGLEcbgL6G2Qm",
+        "plays": 2
+      },
+      {
+        "name": "Rhythm-A-Ning",
+        "album": "Art Blakey's Jazz Messengers With Thelonious Monk (Deluxe Edition)",
+        "spotify_url": "https://open.spotify.com/track/7HVFWgrWwN63YLAjo0QBPz",
+        "plays": 2
+      },
+      {
+        "name": "Body and Soul",
+        "album": "Monk's Dream",
+        "spotify_url": "https://open.spotify.com/track/7IAFc5iQti2tzob7Uo7N1Y",
+        "plays": 2
+      },
+      {
+        "name": "I Mean You (with Thelonious Monk) - 2022 Remaster",
+        "album": "Art Blakey's Jazz Messengers (with Thelonious Monk)",
+        "spotify_url": "https://open.spotify.com/track/4BxfRqGhDUwAWVQPwBz7EI",
+        "plays": 2
+      },
+      {
+        "name": "Monk's Mood - Rudy Van Gelder 24-Bit Mastering / 2001 Digital Remaster",
+        "album": "Genius Of Modern Music (Vol.1, Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/00hoJAeDBiFd9SPBfw6rqI",
+        "plays": 2
+      },
+      {
+        "name": "Bluehawk",
+        "album": "Thelonious Alone In San Francisco",
+        "spotify_url": "https://open.spotify.com/track/1K4d8wa5NanzH425a42DMn",
+        "plays": 2
+      },
+      {
+        "name": "Ruby, My Dear",
+        "album": "Genius Of Modern Music (Vol.1, Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/1PjvmeUrBN4mHw6LVTvkuz",
+        "plays": 2
+      },
+      {
+        "name": "Four In One - Remastered 1998",
+        "album": "Genius Of Modern Music (Vol.2, Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/2ZvI5OOlgJLYIWNhVtvNIR",
+        "plays": 2
+      },
+      {
+        "name": "Solitude",
+        "album": "Plays Duke Ellington (Keepnews Collection)",
+        "spotify_url": "https://open.spotify.com/track/6b3C8Q2G11PXSA8LU5CGf6",
+        "plays": 2
+      },
+      {
+        "name": "I'm Confessin' (That I Love You)",
+        "album": "Solo Monk (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/6kLp24Op7cOu8iQkU46sBv",
+        "plays": 2
+      },
+      {
+        "name": "Ask Me Now - Remastered 1998",
+        "album": "Genius Of Modern Music (Vol.2, Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/6sAoHnYnV1n8eITgQVurTn",
+        "plays": 2
+      },
+      {
+        "name": "Rhythm-A-Ning",
+        "album": "Hard Bop Classics",
+        "spotify_url": "https://open.spotify.com/track/4pLR2469rofagcWJhVLeNT",
+        "plays": 2
+      },
+      {
+        "name": "Monk's Mood",
+        "album": "Thelonious Monk with John Coltrane (OJC Remaster)",
+        "spotify_url": "https://open.spotify.com/track/5cCmf7KIcClmNpmB2ADFMk",
+        "plays": 2
+      },
+      {
+        "name": "North Of The Sunset",
+        "album": "Solo Monk (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/0uy4Zg0yVfzMyqRG9bkRnK",
+        "plays": 1
+      },
+      {
+        "name": "Dinah (Take 2)",
+        "album": "Solo Monk (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/1XS5vGKquDNjxU6gLQcKd2",
+        "plays": 1
+      },
+      {
+        "name": "Tea for Two",
+        "album": "Criss-Cross (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/3SSDhknexqI9YrrLj3sof6",
+        "plays": 1
+      },
+      {
+        "name": "Just a Gigolo",
+        "album": "Monk's Dream",
+        "spotify_url": "https://open.spotify.com/track/3laCo1tj2egTZLFDEZjbMy",
+        "plays": 1
+      },
+      {
+        "name": "Monk's Point",
+        "album": "Solo Monk (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/4yaXmRVOjJP2pS0yycxcVO",
+        "plays": 1
+      },
+      {
+        "name": "Monk's Dream - Take 8",
+        "album": "Monk's Dream",
+        "spotify_url": "https://open.spotify.com/track/0488kXJ1YnLMrrM1ssJnev",
+        "plays": 1
+      },
+      {
+        "name": "Criss Cross - Remastered 1998",
+        "album": "Genius Of Modern Music (Vol.2, Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/0gxjUtBs6eFtmZAxQe1pWF",
+        "plays": 1
+      },
+      {
+        "name": "Off Minor - Remastered 2013",
+        "album": "Late Night Thelonious Monk",
+        "spotify_url": "https://open.spotify.com/track/0j7Sdz3I9lkgEjBoJ31Cti",
+        "plays": 1
+      },
+      {
+        "name": "Honeysuckle Rose",
+        "album": "The Very Best Of Thelonious Monk",
+        "spotify_url": "https://open.spotify.com/track/0qiDIFQ7Jc2pgQoI4VPmNc",
+        "plays": 1
+      },
+      {
+        "name": "Nutty",
+        "album": "Thelonious Monk with John Coltrane (OJC Remaster)",
+        "spotify_url": "https://open.spotify.com/track/0sWqnxofErf7mk8VKgbrXw",
+        "plays": 1
+      },
+      {
+        "name": "Relaxing With Lee - Take 6 / Take 3 / Master Take",
+        "album": "Bird And Diz (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/14DEfXQJTnx4VHxU5CI47e",
+        "plays": 1
+      },
+      {
+        "name": "Ruby, My Dear",
+        "album": "Thelonious Monk with John Coltrane (OJC Remaster)",
+        "spotify_url": "https://open.spotify.com/track/1BMirA3vwj2NLamWkJsVYq",
+        "plays": 1
+      },
+      {
+        "name": "Trust In Me",
+        "album": "The Complete Riverside Recordings",
+        "spotify_url": "https://open.spotify.com/track/1IzmzJqOsGhcfMqLbfUmif",
+        "plays": 1
+      },
+      {
+        "name": "Ba-Lue Bolivar Ba-Lues-Are",
+        "album": "Brilliant Corners",
+        "spotify_url": "https://open.spotify.com/track/1OjmEyEycmzJK3itBAq8EG",
+        "plays": 1
+      },
+      {
+        "name": "I Didn't Know About You",
+        "album": "Straight, No Chaser",
+        "spotify_url": "https://open.spotify.com/track/1RuaxunGLjFmlXtKgfvd5G",
+        "plays": 1
+      },
+      {
+        "name": "Willow Weep For Me - Remastered 1998",
+        "album": "Late Night Thelonious Monk",
+        "spotify_url": "https://open.spotify.com/track/1fOGgeLqd3X292iT2taAe8",
+        "plays": 1
+      },
+      {
+        "name": "Trinkle, Tinkle",
+        "album": "Thelonious Monk with John Coltrane (OJC Remaster)",
+        "spotify_url": "https://open.spotify.com/track/20Fjir47YvWiroyPIqqeuj",
+        "plays": 1
+      },
+      {
+        "name": "Nice Work If You Can Get It - Rudy Van Gelder 24-Bit Mastering / 1998 Digital Remaster",
+        "album": "Genius Of Modern Music (Vol.1, Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/23EHe5LvkELsGHr1INOATb",
+        "plays": 1
+      },
+      {
+        "name": "Liza (All The Clouds'll Roll Away)",
+        "album": "The Complete Riverside Recordings",
+        "spotify_url": "https://open.spotify.com/track/25LhCKJ3UcsrtM8rnTsuCv",
+        "plays": 1
+      },
+      {
+        "name": "Easy Street",
+        "album": "Underground",
+        "spotify_url": "https://open.spotify.com/track/26wtc0ywX3xT9PXEEct8JL",
+        "plays": 1
+      },
+      {
+        "name": "Blue Monk - Rudy Van Gelder Remaster",
+        "album": "Thelonious Monk",
+        "spotify_url": "https://open.spotify.com/track/2C3rh8eX5vltOmwrz9I78n",
+        "plays": 1
+      },
+      {
+        "name": "Crepuscule With Nellie - Live From Salle Pleyel, Paris, France/1969",
+        "album": "Late Night Thelonious Monk",
+        "spotify_url": "https://open.spotify.com/track/2vsO4gh1UtRXVxrB2XWbAX",
+        "plays": 1
+      },
+      {
+        "name": "Between the Devil and the Deep Blue Sea",
+        "album": "Straight, No Chaser",
+        "spotify_url": "https://open.spotify.com/track/33vcuPi3HWgf8APeJMYYoz",
+        "plays": 1
+      },
+      {
+        "name": "Straight No Chaser - Remastered 1998",
+        "album": "Genius Of Modern Music (Vol.2, Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/3A9yRjIhRGSZIeuV0MT7lB",
+        "plays": 1
+      },
+      {
+        "name": "Bemsha Swing",
+        "album": "The Very Best Of Thelonious Monk",
+        "spotify_url": "https://open.spotify.com/track/3JrdrfwOwmDrU8jMlr1nA7",
+        "plays": 1
+      },
+      {
+        "name": "Bright Mississippi - Take 1",
+        "album": "Monk's Dream",
+        "spotify_url": "https://open.spotify.com/track/3sjPOoHkVxlBE5USE2higm",
+        "plays": 1
+      },
+      {
+        "name": "Relaxing With Lee - Take 2 / Incomplete",
+        "album": "Bird And Diz (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/42wbar3MwSjbRwAn7vYDeR",
+        "plays": 1
+      },
+      {
+        "name": "Boo Boo's Birthday",
+        "album": "Underground",
+        "spotify_url": "https://open.spotify.com/track/48stcCjD6f2QyqYrF0RWCS",
+        "plays": 1
+      },
+      {
+        "name": "Bye-Ya",
+        "album": "Monk's Dream",
+        "spotify_url": "https://open.spotify.com/track/4BFCWGQsaNWmaDKLBxM8iX",
+        "plays": 1
+      },
+      {
+        "name": "An Oscar For Treadwell - Incomplete 411-1",
+        "album": "Unheard Bird: The Unissued Takes",
+        "spotify_url": "https://open.spotify.com/track/4KP5a2ykBXcP0q9QDOthqJ",
+        "plays": 1
+      },
+      {
+        "name": "Remember",
+        "album": "Thelonious Alone in San Francisco [Original Jazz Classics Remasters]",
+        "spotify_url": "https://open.spotify.com/track/4QPpGCyRdkhPehQ6LYQP9Y",
+        "plays": 1
+      },
+      {
+        "name": "Blue Bolivar Blues - Take 2",
+        "album": "Monk's Dream",
+        "spotify_url": "https://open.spotify.com/track/4XDDS2vmydUOxBi5SFW73M",
+        "plays": 1
+      },
+      {
+        "name": "Hackensack - RVG Remaster",
+        "album": "The Very Best Of Thelonious Monk",
+        "spotify_url": "https://open.spotify.com/track/4d0Ki9uhV0vxac1FrgdRyq",
+        "plays": 1
+      },
+      {
+        "name": "Locomotive",
+        "album": "Straight, No Chaser",
+        "spotify_url": "https://open.spotify.com/track/4jsgnWWPKM45CHfju35xqL",
+        "plays": 1
+      },
+      {
+        "name": "Suburban Eyes - Rudy Van Gelder 24-Bit Mastering / 2001 Digital Remaster",
+        "album": "Genius Of Modern Music (Vol.1, Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/5mxJNpzEr76NQKDmKt6pKr",
+        "plays": 1
+      },
+      {
+        "name": "This Is My Story, This Is My Song",
+        "album": "Straight, No Chaser",
+        "spotify_url": "https://open.spotify.com/track/5pBxREFmneTNhuEm8gB1du",
+        "plays": 1
+      },
+      {
+        "name": "Ugly Beauty",
+        "album": "Underground",
+        "spotify_url": "https://open.spotify.com/track/5xHPuSBWJKa0dsVTyaFeGl",
+        "plays": 1
+      },
+      {
+        "name": "Five Spot Blues",
+        "album": "Monk's Dream",
+        "spotify_url": "https://open.spotify.com/track/61ieytawm4bscc4GDE8nqq",
+        "plays": 1
+      },
+      {
+        "name": "Eronel",
+        "album": "Criss-Cross (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/67tnJf77mVKMIOVcR1SQ2F",
+        "plays": 1
+      },
+      {
+        "name": "Don't Blame Me (Retake 1)",
+        "album": "Criss-Cross (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/6E1mWJa8tjLvPOn47CTVeb",
+        "plays": 1
+      },
+      {
+        "name": "Well You Needn't - Alternate Take",
+        "album": "Late Night Thelonious Monk",
+        "spotify_url": "https://open.spotify.com/track/6Ka4Nkcto4IkALSNfx2vSB",
+        "plays": 1
+      },
+      {
+        "name": "Sweet And Lovely (Take 2)",
+        "album": "Solo Monk (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/6PuIn0KCYvtSpU3kgGsDuA",
+        "plays": 1
+      },
+      {
+        "name": "These Foolish Things (Remind Me Of You)",
+        "album": "Solo Monk (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/6ZBea1ayHLEaBQGBxkugmK",
+        "plays": 1
+      },
+      {
+        "name": "Friday The 13th",
+        "album": "Thelonious Monk and Sonny Rollins",
+        "spotify_url": "https://open.spotify.com/track/486WAd6LYDr98q6u0pCfrR",
+        "plays": 1
+      },
+      {
+        "name": "Caravan",
+        "album": "Plays Duke Ellington (Keepnews Collection)",
+        "spotify_url": "https://open.spotify.com/track/3VIXUEBg2YkGwBMpTPMBXa",
+        "plays": 1
+      },
+      {
+        "name": "Blue Monk",
+        "album": "Thelonious Alone in San Francisco [Original Jazz Classics Remasters]",
+        "spotify_url": "https://open.spotify.com/track/5q5XkroSpmvbRl6uRsSJiS",
+        "plays": 1
+      }
+    ]
+  },
+  "ayra-starr": {
+    "id": "3ZpEKRjHaHANcpk10u6Ntq",
+    "name": "Ayra Starr",
+    "spotify_url": "https://open.spotify.com/artist/3ZpEKRjHaHANcpk10u6Ntq",
+    "total_plays": 6,
+    "first_seen": "2026-11-18",
+    "last_seen": "2026-11-18",
+    "genres": [
+      "afrobeats",
+      "afrobeat",
+      "afropop",
+      "afro r&b",
+      "afropiano"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebc2074e9ac0e35662936cde67",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174c2074e9ac0e35662936cde67",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178c2074e9ac0e35662936cde67",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Who's Dat Girl (feat. Rema)",
+        "album": "Starrgirl",
+        "spotify_url": "https://open.spotify.com/track/0FiqCIYPHIACRKRNdX2wk2",
+        "plays": 2
+      },
+      {
+        "name": "Letter To God",
+        "album": "Starrgirl",
+        "spotify_url": "https://open.spotify.com/track/12rdodvyiBOTxhaoxX53VQ",
+        "plays": 1
+      },
+      {
+        "name": "Misunderstood",
+        "album": "Starrgirl",
+        "spotify_url": "https://open.spotify.com/track/7yxVQdvFEbjo9viqUuxxnP",
+        "plays": 1
+      },
+      {
+        "name": "Who’s Dat Girl",
+        "album": "Who’s Dat Girl",
+        "spotify_url": "https://open.spotify.com/track/41u00itxNGTutsrrquRQnP",
+        "plays": 1
+      },
+      {
+        "name": "Birds Sing of Money",
+        "album": "The Year I Turned 21",
+        "spotify_url": "https://open.spotify.com/track/1NpReyx5RDIbFnracbbHhy",
+        "plays": 1
+      }
+    ]
+  },
+  "the-smashing-pumpkins": {
+    "id": "40Yq4vzPs9VNUrIBG5Jr2i",
+    "name": "The Smashing Pumpkins",
+    "spotify_url": "https://open.spotify.com/artist/40Yq4vzPs9VNUrIBG5Jr2i",
+    "total_plays": 1,
+    "first_seen": "2026-11-18",
+    "last_seen": "2026-11-18",
+    "genres": [
+      "alternative rock",
+      "rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb2897dd777bbd8e3f23e49c99",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051742897dd777bbd8e3f23e49c99",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1782897dd777bbd8e3f23e49c99",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "1979",
+        "album": "Mellon Collie And The Infinite Sadness (30th Anniversary Edition)",
+        "spotify_url": "https://open.spotify.com/track/0jiEKj0fXevcv46JXUdcKh",
+        "plays": 1
+      }
+    ]
+  },
+  "das-efx": {
+    "id": "0auu2itHTxEdAMRHvx7CyG",
+    "name": "Das EFX",
+    "spotify_url": "https://open.spotify.com/artist/0auu2itHTxEdAMRHvx7CyG",
+    "total_plays": 1,
+    "first_seen": "2026-11-18",
+    "last_seen": "2026-11-18",
+    "genres": [
+      "east coast hip hop",
+      "old school hip hop",
+      "hardcore hip hop",
+      "hip hop",
+      "boom bap"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/7ae9c82726ca12f46bf8fd0b9df70922e21215e0",
+        "height": 1119,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/18875621eaffc0ab855d198e30dee3a9977f27e9",
+        "height": 716,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/82de7d2899b9751328d52a1a4ccf849a10edcd02",
+        "height": 224,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/9dc38d6fed9c6c3b86e1279a2136cff6f9f71b0b",
+        "height": 72,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Mic Checka",
+        "album": "Dead Serious",
+        "spotify_url": "https://open.spotify.com/track/5Zo9KsvmGsFHfwA1zlKv6M",
+        "plays": 1
+      }
+    ]
+  },
+  "frank-sinatra": {
+    "id": "1Mxqyy3pSjf8kZZL4QVxS0",
+    "name": "Frank Sinatra",
+    "spotify_url": "https://open.spotify.com/artist/1Mxqyy3pSjf8kZZL4QVxS0",
+    "total_plays": 1,
+    "first_seen": "2026-11-18",
+    "last_seen": "2026-11-18",
+    "genres": [
+      "christmas",
+      "big band",
+      "adult standards",
+      "swing music",
+      "jazz",
+      "vocal jazz"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/fc4e0f474fb4c4cb83617aa884dc9fd9822d4411",
+        "height": 650,
+        "width": 999
+      },
+      {
+        "url": "https://i.scdn.co/image/883de3e492364891543bc0313ffe516626778a16",
+        "height": 416,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/810f29651e05c9eae5a31f8151c2e05dc46390f9",
+        "height": 130,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/a283ecdc6252ae305c53d283846cae2e8b22e94c",
+        "height": 42,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "That's Life",
+        "album": "That's Life",
+        "spotify_url": "https://open.spotify.com/track/4FmCUATNIarCQh72JYdvnm",
+        "plays": 1
+      },
+      {
+        "name": "I've Got You Under My Skin - Live At The Sands Hotel And Casino, Las Vegas/1966 / Show 2",
+        "album": "Standing Room Only",
+        "spotify_url": "https://open.spotify.com/track/2DiKZXh31aHrOUTfNjVXpJ",
+        "plays": 2
+      },
+      {
+        "name": "High Hopes",
+        "album": "Sinatra 80th: All The Best",
+        "spotify_url": "https://open.spotify.com/track/0U5nbtNkT53aslTdEBjpkF",
+        "plays": 1
+      }
+    ]
+  },
+  "big-daddy-kane": {
+    "id": "6futYSDVulYR2PktBjTB5W",
+    "name": "Big Daddy Kane",
+    "spotify_url": "https://open.spotify.com/artist/6futYSDVulYR2PktBjTB5W",
+    "total_plays": 1,
+    "first_seen": "2026-11-18",
+    "last_seen": "2026-11-18",
+    "genres": [
+      "old school hip hop",
+      "east coast hip hop",
+      "hardcore hip hop",
+      "hip hop"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/2da75c6dfd341b1f7d2b89f7e0e7771c3913dd7a",
+        "height": 533,
+        "width": 410
+      },
+      {
+        "url": "https://i.scdn.co/image/fd4b17b1df24f01c65cd6dc0de60d4fa1f61071d",
+        "height": 260,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/2485d3a652006efef1fa58391b978e085b6c84ff",
+        "height": 83,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Ain't No Half-Steppin'",
+        "album": "Long Live The Kane",
+        "spotify_url": "https://open.spotify.com/track/0dNiLb9FEHrRK7VFDJctiR",
+        "plays": 1
+      }
+    ]
+  },
+  "epmd": {
+    "id": "3zpKjsMg2gw1St5WcWoUJN",
+    "name": "EPMD",
+    "spotify_url": "https://open.spotify.com/artist/3zpKjsMg2gw1St5WcWoUJN",
+    "total_plays": 3,
+    "first_seen": "2026-11-18",
+    "last_seen": "2026-11-18",
+    "genres": [
+      "old school hip hop",
+      "east coast hip hop",
+      "hip hop"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/05b891a72c523a052a810172525bd317693530e4",
+        "height": 1510,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/18ef780d08250c5ac8466b5f790cee5b1f2d1131",
+        "height": 966,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/b2ad2ea9f3a46d4877c12479a3a390fa7c346bbc",
+        "height": 302,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/d46fb9ee5b9df016a5a3e5a10f8cf633f3d24014",
+        "height": 97,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Let The Funk Flow",
+        "album": "Strictly Business",
+        "spotify_url": "https://open.spotify.com/track/50TUIpVIwQ2HoQ4TbzIqRB",
+        "plays": 2
+      },
+      {
+        "name": "So Wat Cha Sayin'",
+        "album": "Unfinished Business",
+        "spotify_url": "https://open.spotify.com/track/01CuCSqlNItevX7F1GcopF",
+        "plays": 1
+      },
+      {
+        "name": "Never Seen Before Remix",
+        "album": "Green Eyed Remixes 2",
+        "spotify_url": "https://open.spotify.com/track/56fD3NCRP1of3Ml7UPzux4",
+        "plays": 1
+      }
+    ]
+  },
+  "creedence-clearwater-revival": {
+    "id": "3IYUhFvPQItj6xySrBmZkd",
+    "name": "Creedence Clearwater Revival",
+    "spotify_url": "https://open.spotify.com/artist/3IYUhFvPQItj6xySrBmZkd",
+    "total_plays": 1,
+    "first_seen": "2026-11-18",
+    "last_seen": "2026-11-18",
+    "genres": [
+      "classic rock",
+      "southern rock",
+      "country rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebd2e2b04b7ba5d60b72f54506",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174d2e2b04b7ba5d60b72f54506",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178d2e2b04b7ba5d60b72f54506",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Have You Ever Seen The Rain",
+        "album": "Pendulum (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/2LawezPeJhN4AWuSB0GtAU",
+        "plays": 1
+      },
+      {
+        "name": "Green River",
+        "album": "Green River (Expanded Edition)",
+        "spotify_url": "https://open.spotify.com/track/11DjZQEZ69EXLo77HVj6yW",
+        "plays": 2
+      }
+    ]
+  },
+  "lords-of-the-underground": {
+    "id": "17Q9sCBpIyS6yM2YyaI6R4",
+    "name": "Lords Of The Underground",
+    "spotify_url": "https://open.spotify.com/artist/17Q9sCBpIyS6yM2YyaI6R4",
+    "total_plays": 1,
+    "first_seen": "2026-11-18",
+    "last_seen": "2026-11-18",
+    "genres": [
+      "east coast hip hop",
+      "old school hip hop",
+      "hip hop"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/c8630682d26ab7cc3aa94495b80d78d66531da6b",
+        "height": 1479,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/87aa705e86abd976c33e513ca541a062c71f394c",
+        "height": 947,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/fb8e9b91a6f104901e3b78762dd21faec4a6661a",
+        "height": 296,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/a353b0d6d6adb99ba2373db44bad002e6bb8949e",
+        "height": 95,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Chief Rocka",
+        "album": "Here Come The Lords",
+        "spotify_url": "https://open.spotify.com/track/34MRi5GRWHFUa731JBxFEl",
+        "plays": 1
+      },
+      {
+        "name": "Lord Jazz Hit Me One Time (Make It Funky)",
+        "album": "Here Come The Lords",
+        "spotify_url": "https://open.spotify.com/track/2vWaZmzwxRDNYySRGUdq3N",
+        "plays": 1
+      }
+    ]
+  },
+  "baby-berserk": {
+    "id": "6GNuFQWqw3NTNZ051qHoN6",
+    "name": "Baby Berserk",
+    "spotify_url": "https://open.spotify.com/artist/6GNuFQWqw3NTNZ051qHoN6",
+    "total_plays": 1,
+    "first_seen": "2026-11-18",
+    "last_seen": "2026-11-18",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb0838c51d2d43f1af1ac0558b",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051740838c51d2d43f1af1ac0558b",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1780838c51d2d43f1af1ac0558b",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Creeps",
+        "album": "Slightly Hysterical Girls with Pearls",
+        "spotify_url": "https://open.spotify.com/track/29HFR6N49ol9kkBuoqVHaG",
+        "plays": 1
+      }
+    ]
+  },
+  "jain": {
+    "id": "2HHmvvSQ44ePDH7IKVzgK0",
+    "name": "Jain",
+    "spotify_url": "https://open.spotify.com/artist/2HHmvvSQ44ePDH7IKVzgK0",
+    "total_plays": 1,
+    "first_seen": "2026-11-18",
+    "last_seen": "2026-11-18",
+    "genres": [
+      "french pop"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb3c7d342c4b9c913ac8f53b4e",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051743c7d342c4b9c913ac8f53b4e",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1783c7d342c4b9c913ac8f53b4e",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Makeba",
+        "album": "Zanaka (Deluxe)",
+        "spotify_url": "https://open.spotify.com/track/4TNFLwe6DhtR3Wn1JKMqMJ",
+        "plays": 1
+      }
+    ]
+  },
+  "summer-dean": {
+    "id": "33tSPgqoMQLTTJBn7LLLul",
+    "name": "Summer Dean",
+    "spotify_url": "https://open.spotify.com/artist/33tSPgqoMQLTTJBn7LLLul",
+    "total_plays": 1,
+    "first_seen": "2026-11-18",
+    "last_seen": "2026-11-18",
+    "genres": [
+      "texas country",
+      "honky tonk",
+      "outlaw country"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb047a57cb087fae74d8bf4e53",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174047a57cb087fae74d8bf4e53",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178047a57cb087fae74d8bf4e53",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Don't Talk to Me About Men",
+        "album": "It's All Her Fault a Tribute to Cindy Walker",
+        "spotify_url": "https://open.spotify.com/track/1OEmHXpn8XZQ77leaOyXuE",
+        "plays": 1
+      }
+    ]
+  },
+  "blue-swede": {
+    "id": "0UpuH5U4nZ3UGGUJi0Zfbp",
+    "name": "Blue Swede",
+    "spotify_url": "https://open.spotify.com/artist/0UpuH5U4nZ3UGGUJi0Zfbp",
+    "total_plays": 1,
+    "first_seen": "2026-11-18",
+    "last_seen": "2026-11-18",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/8128a8fc52288607eb2e4667a4c172432b3e03e1",
+        "height": 452,
+        "width": 566
+      },
+      {
+        "url": "https://i.scdn.co/image/06909e9d90752247c4ce27bed27e6a32b99e9875",
+        "height": 160,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/a6ea3e233add9bd6cffc84f3e0333de6be2303f1",
+        "height": 51,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Hooked On A Feeling",
+        "album": "Hooked on a Feeling - Remixes",
+        "spotify_url": "https://open.spotify.com/track/17pOLaBouf2EleJjsHfJSg",
+        "plays": 1
+      }
+    ]
+  },
+  "sex-pistols": {
+    "id": "1u7kkVrr14iBvrpYnZILJR",
+    "name": "Sex Pistols",
+    "spotify_url": "https://open.spotify.com/artist/1u7kkVrr14iBvrpYnZILJR",
+    "total_plays": 1,
+    "first_seen": "2026-11-18",
+    "last_seen": "2026-11-18",
+    "genres": [
+      "punk",
+      "proto-punk"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebd3fa01fd4baad1158dd2fd8b",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174d3fa01fd4baad1158dd2fd8b",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178d3fa01fd4baad1158dd2fd8b",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Holidays in the Sun",
+        "album": "Never Mind The Bollocks, Here's The Sex Pistols",
+        "spotify_url": "https://open.spotify.com/track/2e4RcQohKWo8oZIUfjxiGo",
+        "plays": 1
+      }
+    ]
+  },
+  "lil-kim": {
+    "id": "5tth2a3v0sWwV1C7bApBdX",
+    "name": "Lil' Kim",
+    "spotify_url": "https://open.spotify.com/artist/5tth2a3v0sWwV1C7bApBdX",
+    "total_plays": 1,
+    "first_seen": "2026-11-18",
+    "last_seen": "2026-11-18",
+    "genres": [
+      "east coast hip hop"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb44f424402a1933b745019107",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517444f424402a1933b745019107",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17844f424402a1933b745019107",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Queen Bitch",
+        "album": "Hard Core",
+        "spotify_url": "https://open.spotify.com/track/1LFqcpp3k7r9nHBH7Lsos4",
+        "plays": 1
+      }
+    ]
+  },
+  "the-killers": {
+    "id": "0C0XlULifJtAgn6ZNCW2eu",
+    "name": "The Killers",
+    "spotify_url": "https://open.spotify.com/artist/0C0XlULifJtAgn6ZNCW2eu",
+    "total_plays": 1,
+    "first_seen": "2026-11-18",
+    "last_seen": "2026-11-18",
+    "genres": [
+      "alternative rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb207b21f3ed0ee96adce3166a",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174207b21f3ed0ee96adce3166a",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178207b21f3ed0ee96adce3166a",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Mr. Brightside",
+        "album": "Rock 2000",
+        "spotify_url": "https://open.spotify.com/track/37SOcZLRdgn4onbbvGAdmD",
+        "plays": 1
+      }
+    ]
+  },
+  "sakshi-chopra": {
+    "id": "5cGdAbeKBEM4EpqckT4Sso",
+    "name": "Sakshi Chopra",
+    "spotify_url": "https://open.spotify.com/artist/5cGdAbeKBEM4EpqckT4Sso",
+    "total_plays": 2,
+    "first_seen": "2026-11-18",
+    "last_seen": "2026-11-18",
+    "genres": [
+      "malayalam hip hop"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb121cb9227863624ee3296949",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174121cb9227863624ee3296949",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178121cb9227863624ee3296949",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Indian Princess",
+        "album": "Indian Princess",
+        "spotify_url": "https://open.spotify.com/track/3lQz0AJdujCG2NSrw5kcVk",
+        "plays": 2
+      }
+    ]
+  },
+  "alex-malch": {
+    "id": "3KlhsPcUMwKRKTuj9lMpJo",
+    "name": "Alex Malch",
+    "spotify_url": "https://open.spotify.com/artist/3KlhsPcUMwKRKTuj9lMpJo",
+    "total_plays": 1,
+    "first_seen": "2026-11-18",
+    "last_seen": "2026-11-18",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebef71e04b32513521e130050f",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174ef71e04b32513521e130050f",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178ef71e04b32513521e130050f",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Disarray",
+        "album": "In a Landscape",
+        "spotify_url": "https://open.spotify.com/track/3bKlmuJWioIMj8cZDxT1F7",
+        "plays": 1
+      }
+    ]
+  },
+  "wanda-jackson": {
+    "id": "5ZKMPRDHc7qElVJFh3uRqB",
+    "name": "Wanda Jackson",
+    "spotify_url": "https://open.spotify.com/artist/5ZKMPRDHc7qElVJFh3uRqB",
+    "total_plays": 1,
+    "first_seen": "2026-11-18",
+    "last_seen": "2026-11-18",
+    "genres": [
+      "rockabilly",
+      "psychobilly",
+      "rock and roll"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/a34ce70c444e1f80d430f73bca610675e3832895",
+        "height": 997,
+        "width": 1000
+      },
+      {
+        "url": "https://i.scdn.co/image/9d3324e43f093816edb7f5d363e0569529742306",
+        "height": 638,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/fad09ba23b52caae02712450905f0c5573340279",
+        "height": 199,
+        "width": 200
+      },
+      {
+        "url": "https://i.scdn.co/image/4e20973c67816ed7071dd50e8aa8de125ad05c60",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Hot Dog! That Made Him Mad - Remastered",
+        "album": "Rockin' With Wanda",
+        "spotify_url": "https://open.spotify.com/track/1r0qsbI9hQu5v5aSCTTqJR",
+        "plays": 1
+      }
+    ]
+  },
+  "good-sad-happy-bad": {
+    "id": "3FPFQDA4cYbvO3O7O5rVWr",
+    "name": "Good Sad Happy Bad",
+    "spotify_url": "https://open.spotify.com/artist/3FPFQDA4cYbvO3O7O5rVWr",
+    "total_plays": 1,
+    "first_seen": "2026-11-18",
+    "last_seen": "2026-11-18",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebca07890c8f4e12971716aa40",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174ca07890c8f4e12971716aa40",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178ca07890c8f4e12971716aa40",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Twist The Handle",
+        "album": "All kinds of days",
+        "spotify_url": "https://open.spotify.com/track/5zK7nQgPtvD0WucLkDDyfp",
+        "plays": 1
+      }
+    ]
+  },
+  "pleasurewood": {
+    "id": "5haexMFUKK2AeHPjmo6SgN",
+    "name": "Pleasurewood",
+    "spotify_url": "https://open.spotify.com/artist/5haexMFUKK2AeHPjmo6SgN",
+    "total_plays": 1,
+    "first_seen": "2026-11-18",
+    "last_seen": "2026-11-18",
+    "genres": [
+      "jazz funk"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b273ccf14ea3cdd5ee08896ec6b4",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e02ccf14ea3cdd5ee08896ec6b4",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00004851ccf14ea3cdd5ee08896ec6b4",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Psycho 2000",
+        "album": "Psycho 2000 / White Spiritual",
+        "spotify_url": "https://open.spotify.com/track/29uLMx6LsFo8i2vkNtuBWR",
+        "plays": 1
+      }
+    ]
+  },
+  "jo-kondo": {
+    "id": "5Qf8KxuD6CmzMrX23xrpxq",
+    "name": "Jo Kondo",
+    "spotify_url": "https://open.spotify.com/artist/5Qf8KxuD6CmzMrX23xrpxq",
+    "total_plays": 1,
+    "first_seen": "2026-11-18",
+    "last_seen": "2026-11-18",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b273fb2c4f4cde8226946606b544",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e02fb2c4f4cde8226946606b544",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00004851fb2c4f4cde8226946606b544",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "PASS",
+        "album": "JO KONDO: SEN NO ONGAKU",
+        "spotify_url": "https://open.spotify.com/track/2M9nGr0FVVumPUH4wiVwMU",
+        "plays": 1
+      }
+    ]
+  },
+  "cybotron": {
+    "id": "5Mr6zawZ90BzjY14EROmSm",
+    "name": "Cybotron",
+    "spotify_url": "https://open.spotify.com/artist/5Mr6zawZ90BzjY14EROmSm",
+    "total_plays": 1,
+    "first_seen": "2026-11-18",
+    "last_seen": "2026-11-18",
+    "genres": [
+      "miami bass",
+      "acid house",
+      "electro",
+      "techno"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebdf94c2ba3d9c31c895345933",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174df94c2ba3d9c31c895345933",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178df94c2ba3d9c31c895345933",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Clear - Jose “Animal” Diaz Remix",
+        "album": "Clear",
+        "spotify_url": "https://open.spotify.com/track/5NKHUvpRs7zr0yOQjx8Exr",
+        "plays": 1
+      }
+    ]
+  },
+  "nduduzo-makhathini": {
+    "id": "6EvFcDtvFuVugEtZNslkft",
+    "name": "Nduduzo Makhathini",
+    "spotify_url": "https://open.spotify.com/artist/6EvFcDtvFuVugEtZNslkft",
+    "total_plays": 1,
+    "first_seen": "2026-11-18",
+    "last_seen": "2026-11-18",
+    "genres": [
+      "jazz"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eba37672460edefc38683e794d",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174a37672460edefc38683e794d",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178a37672460edefc38683e794d",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Libations: Omnyama",
+        "album": "uNomkhubulwane",
+        "spotify_url": "https://open.spotify.com/track/7zvN3xBoSiD2ryeuGMesPl",
+        "plays": 1
+      }
+    ]
+  },
+  "asha-puthli": {
+    "id": "6XS2GPyMwHEgAn0VspnhMf",
+    "name": "Asha Puthli",
+    "spotify_url": "https://open.spotify.com/artist/6XS2GPyMwHEgAn0VspnhMf",
+    "total_plays": 1,
+    "first_seen": "2026-11-18",
+    "last_seen": "2026-11-18",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb25b1256c27be772c5cec74b3",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517425b1256c27be772c5cec74b3",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17825b1256c27be772c5cec74b3",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Space Talk",
+        "album": "Late Night Tales Presents After Dark",
+        "spotify_url": "https://open.spotify.com/track/6PqiKLCDzV5UmzrnQyZB8z",
+        "plays": 1
+      }
+    ]
+  },
+  "lil-dicky": {
+    "id": "1tqhsYv8yBBdwANFNzHtcr",
+    "name": "Lil Dicky",
+    "spotify_url": "https://open.spotify.com/artist/1tqhsYv8yBBdwANFNzHtcr",
+    "total_plays": 1,
+    "first_seen": "2026-11-17",
+    "last_seen": "2026-11-17",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebfd1780645d82ecbc3b5253cb",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174fd1780645d82ecbc3b5253cb",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178fd1780645d82ecbc3b5253cb",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Professional Rapper (feat. Snoop Dogg)",
+        "album": "Professional Rapper",
+        "spotify_url": "https://open.spotify.com/track/5TlAXiBCBwiQnIZUAA4Jkg",
+        "plays": 1
+      }
+    ]
+  },
+  "jason-boland-the-stragglers": {
+    "id": "1sX1MkGoDKuMzzhaALPFyZ",
+    "name": "Jason Boland & The Stragglers",
+    "spotify_url": "https://open.spotify.com/artist/1sX1MkGoDKuMzzhaALPFyZ",
+    "total_plays": 23,
+    "first_seen": "2026-11-16",
+    "last_seen": "2026-11-16",
+    "genres": [
+      "red dirt",
+      "texas country",
+      "outlaw country",
+      "alt country"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb402542b8bd566805e6da3efe",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174402542b8bd566805e6da3efe",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178402542b8bd566805e6da3efe",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "The Light Saw Me",
+        "album": "The Light Saw Me",
+        "spotify_url": "https://open.spotify.com/track/7rOOMn14tYws0lxXSf5OzL",
+        "plays": 1
+      },
+      {
+        "name": "Outlaw Band",
+        "album": "High In The Rockies",
+        "spotify_url": "https://open.spotify.com/track/4sNTFdGsyQtjQf09M3CsXQ",
+        "plays": 1
+      },
+      {
+        "name": "No Reason Being Late",
+        "album": "Comal County Blue",
+        "spotify_url": "https://open.spotify.com/track/4pOQWMpQecfr4cnXQZEzFV",
+        "plays": 1
+      },
+      {
+        "name": "Mexico or Crazy",
+        "album": "Live and Lit at Billy Bob's Texas",
+        "spotify_url": "https://open.spotify.com/track/2zfTmVhYF4fI88wpnaGovk",
+        "plays": 1
+      },
+      {
+        "name": "If I Ever Get Back to Oklahoma",
+        "album": "Pearl Snaps",
+        "spotify_url": "https://open.spotify.com/track/5is21aKehkJyc0ycF2N45v",
+        "plays": 1
+      },
+      {
+        "name": "Bourbon Legend",
+        "album": "High In The Rockies",
+        "spotify_url": "https://open.spotify.com/track/49ntcs9gWfTJfvdi4IUcDX",
+        "plays": 1
+      },
+      {
+        "name": "Shot Full of Holes",
+        "album": "Truckstop Diaries",
+        "spotify_url": "https://open.spotify.com/track/70c3aDXhSVtIH2jto1SKBH",
+        "plays": 1
+      },
+      {
+        "name": "Tennessee Whiskey",
+        "album": "Live and Lit at Billy Bob's Texas",
+        "spotify_url": "https://open.spotify.com/track/5V7mTlzCvuhexGuSZRgJd2",
+        "plays": 1
+      },
+      {
+        "name": "Drinkin' Song",
+        "album": "Pearl Snaps",
+        "spotify_url": "https://open.spotify.com/track/4PelURNbQAA0FQBxYjGiOl",
+        "plays": 1
+      },
+      {
+        "name": "Lucky I Guess",
+        "album": "Dark & Dirty Mile",
+        "spotify_url": "https://open.spotify.com/track/1LKEs9VjqEtQGuaPJvI2ns",
+        "plays": 1
+      },
+      {
+        "name": "False Accuser's Lament",
+        "album": "Rancho Alto",
+        "spotify_url": "https://open.spotify.com/track/7KggUqxXwInhJckTwKiB2R",
+        "plays": 1
+      },
+      {
+        "name": "Falling With Style",
+        "album": "Live and Lit at Billy Bob's Texas",
+        "spotify_url": "https://open.spotify.com/track/0u7JQuX1E0M5TBayVtqm8c",
+        "plays": 1
+      },
+      {
+        "name": "Dark and Dirty Mile",
+        "album": "Dark & Dirty Mile",
+        "spotify_url": "https://open.spotify.com/track/7bPGQJdYhiIWRG4B4miJP2",
+        "plays": 1
+      },
+      {
+        "name": "Proud Souls",
+        "album": "Pearl Snaps",
+        "spotify_url": "https://open.spotify.com/track/0EqXLCfjJQNOQo2DN422Fi",
+        "plays": 1
+      },
+      {
+        "name": "When I'm Stoned",
+        "album": "Somewhere in the Middle",
+        "spotify_url": "https://open.spotify.com/track/32xpxaQUNHLvVn887yhnNK",
+        "plays": 1
+      },
+      {
+        "name": "Telephone Romeo",
+        "album": "Pearl Snaps",
+        "spotify_url": "https://open.spotify.com/track/0J1Ji33ZlQha4u5vClsngz",
+        "plays": 1
+      },
+      {
+        "name": "Proud Souls",
+        "album": "Live and Lit at Billy Bob's Texas",
+        "spotify_url": "https://open.spotify.com/track/6qveYjl8oCGRV1LVuk0qYZ",
+        "plays": 1
+      },
+      {
+        "name": "Gallo Del Cielo",
+        "album": "High In The Rockies",
+        "spotify_url": "https://open.spotify.com/track/1zNLZQS9lkbGtCxMF5WHq8",
+        "plays": 1
+      },
+      {
+        "name": "Tulsa Time",
+        "album": "High In The Rockies",
+        "spotify_url": "https://open.spotify.com/track/6qiyBVkWoHT1sFoGUQg7KO",
+        "plays": 1
+      },
+      {
+        "name": "Somewhere Down In Texas",
+        "album": "Live and Lit at Billy Bob's Texas",
+        "spotify_url": "https://open.spotify.com/track/0EUVq4RDETUahRKEDx57AJ",
+        "plays": 1
+      },
+      {
+        "name": "Comal County Blue",
+        "album": "Comal County Blue",
+        "spotify_url": "https://open.spotify.com/track/4i0JEc0x6y7aWPj6Avpe7G",
+        "plays": 1
+      },
+      {
+        "name": "Pearl Snaps",
+        "album": "Pearl Snaps",
+        "spotify_url": "https://open.spotify.com/track/04yO1WqGaIxTk3QJIVyncw",
+        "plays": 1
+      },
+      {
+        "name": "Somewhere Down in Texas",
+        "album": "Pearl Snaps",
+        "spotify_url": "https://open.spotify.com/track/1kRlt3v0NI6OLhyMkZZAee",
+        "plays": 1
+      }
+    ]
+  },
+  "logan-mac": {
+    "id": "1Hi2diSDw8tjSQXUHlhouA",
+    "name": "Logan Mac",
+    "spotify_url": "https://open.spotify.com/artist/1Hi2diSDw8tjSQXUHlhouA",
+    "total_plays": 1,
+    "first_seen": "2026-11-16",
+    "last_seen": "2026-11-16",
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb7c1655a87f3cd885618b0612",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051747c1655a87f3cd885618b0612",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1787c1655a87f3cd885618b0612",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "top_tracks": [
+      {
+        "name": "Dance Under Stars",
+        "album": "Dance Under Stars",
+        "spotify_url": "https://open.spotify.com/track/5eQUPTrXBzp2Ki51NFg3FL",
+        "plays": 1
       }
     ]
   },
@@ -57123,436 +60040,6 @@
         "name": "Mannequin - 2006 Remastered Version",
         "album": "Pink Flag (2006 Remastered Version)",
         "spotify_url": "https://open.spotify.com/track/5LEwYNnwG1RSVseSmMZQpo",
-        "plays": 1
-      }
-    ]
-  },
-  "thelonious-monk": {
-    "id": "4PDpGtF16XpqvXxsrFwQnN",
-    "name": "Thelonious Monk",
-    "spotify_url": "https://open.spotify.com/artist/4PDpGtF16XpqvXxsrFwQnN",
-    "total_plays": 88,
-    "first_seen": "",
-    "last_seen": "",
-    "genres": [
-      "bebop",
-      "contemporary post-bop",
-      "jazz",
-      "jazz piano",
-      "jazz trio"
-    ],
-    "images": [
-      {
-        "height": 640,
-        "url": "https://i.scdn.co/image/ab6761610000e5eb8238a10406dfbd483d13f908",
-        "width": 640
-      },
-      {
-        "height": 320,
-        "url": "https://i.scdn.co/image/ab676161000051748238a10406dfbd483d13f908",
-        "width": 320
-      },
-      {
-        "height": 160,
-        "url": "https://i.scdn.co/image/ab6761610000f1788238a10406dfbd483d13f908",
-        "width": 160
-      }
-    ],
-    "top_tracks": [
-      {
-        "name": "Misterioso",
-        "album": "Genius Of Modern Music Volume One",
-        "spotify_url": "https://open.spotify.com/track/6NSkgbaPwvLc3VGuW7JUKN",
-        "plays": 3
-      },
-      {
-        "name": "Epistrophy - Alternate Take",
-        "album": "Thelonious Monk with John Coltrane (OJC Remaster)",
-        "spotify_url": "https://open.spotify.com/track/6UcmLLsVjdatOQcQKE9XdO",
-        "plays": 3
-      },
-      {
-        "name": "Straight, No Chaser",
-        "album": "Straight, No Chaser",
-        "spotify_url": "https://open.spotify.com/track/6YYu8qFzcY1ZyzzsJIQM12",
-        "plays": 2
-      },
-      {
-        "name": "Hornin' In - Alternate Take",
-        "album": "Late Night Thelonious Monk",
-        "spotify_url": "https://open.spotify.com/track/3aSPUJSCrb7H2Hrots0Mz3",
-        "plays": 2
-      },
-      {
-        "name": "Japanese Folk Song",
-        "album": "Straight, No Chaser",
-        "spotify_url": "https://open.spotify.com/track/5H91eWhSKcawShPDWN1Sxw",
-        "plays": 2
-      },
-      {
-        "name": "I Should Care - Rudy Van Gelder Edition",
-        "album": "Late Night Thelonious Monk",
-        "spotify_url": "https://open.spotify.com/track/5NnZHv9StUx7A9i0XAB01b",
-        "plays": 2
-      },
-      {
-        "name": "Raise Four",
-        "album": "Underground",
-        "spotify_url": "https://open.spotify.com/track/5anYdzYJguGLEcbgL6G2Qm",
-        "plays": 2
-      },
-      {
-        "name": "Rhythm-A-Ning",
-        "album": "Art Blakey's Jazz Messengers With Thelonious Monk (Deluxe Edition)",
-        "spotify_url": "https://open.spotify.com/track/7HVFWgrWwN63YLAjo0QBPz",
-        "plays": 2
-      },
-      {
-        "name": "Body and Soul",
-        "album": "Monk's Dream",
-        "spotify_url": "https://open.spotify.com/track/7IAFc5iQti2tzob7Uo7N1Y",
-        "plays": 2
-      },
-      {
-        "name": "I Mean You (with Thelonious Monk) - 2022 Remaster",
-        "album": "Art Blakey's Jazz Messengers (with Thelonious Monk)",
-        "spotify_url": "https://open.spotify.com/track/4BxfRqGhDUwAWVQPwBz7EI",
-        "plays": 2
-      },
-      {
-        "name": "'Round Midnight",
-        "album": "Genius Of Modern Music (Vol.1, Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/1wl5b2lw3YagQtZiYZbQWP",
-        "plays": 2
-      },
-      {
-        "name": "Monk's Mood - Rudy Van Gelder 24-Bit Mastering / 2001 Digital Remaster",
-        "album": "Genius Of Modern Music (Vol.1, Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/00hoJAeDBiFd9SPBfw6rqI",
-        "plays": 2
-      },
-      {
-        "name": "Bluehawk",
-        "album": "Thelonious Alone In San Francisco",
-        "spotify_url": "https://open.spotify.com/track/1K4d8wa5NanzH425a42DMn",
-        "plays": 2
-      },
-      {
-        "name": "Ruby, My Dear",
-        "album": "Genius Of Modern Music (Vol.1, Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/1PjvmeUrBN4mHw6LVTvkuz",
-        "plays": 2
-      },
-      {
-        "name": "Four In One - Remastered 1998",
-        "album": "Genius Of Modern Music (Vol.2, Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/2ZvI5OOlgJLYIWNhVtvNIR",
-        "plays": 2
-      },
-      {
-        "name": "Solitude",
-        "album": "Plays Duke Ellington (Keepnews Collection)",
-        "spotify_url": "https://open.spotify.com/track/6b3C8Q2G11PXSA8LU5CGf6",
-        "plays": 2
-      },
-      {
-        "name": "I'm Confessin' (That I Love You)",
-        "album": "Solo Monk (Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/6kLp24Op7cOu8iQkU46sBv",
-        "plays": 2
-      },
-      {
-        "name": "Ask Me Now - Remastered 1998",
-        "album": "Genius Of Modern Music (Vol.2, Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/6sAoHnYnV1n8eITgQVurTn",
-        "plays": 2
-      },
-      {
-        "name": "Rhythm-A-Ning",
-        "album": "Hard Bop Classics",
-        "spotify_url": "https://open.spotify.com/track/4pLR2469rofagcWJhVLeNT",
-        "plays": 2
-      },
-      {
-        "name": "Monk's Mood",
-        "album": "Thelonious Monk with John Coltrane (OJC Remaster)",
-        "spotify_url": "https://open.spotify.com/track/5cCmf7KIcClmNpmB2ADFMk",
-        "plays": 2
-      },
-      {
-        "name": "North Of The Sunset",
-        "album": "Solo Monk (Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/0uy4Zg0yVfzMyqRG9bkRnK",
-        "plays": 1
-      },
-      {
-        "name": "Dinah (Take 2)",
-        "album": "Solo Monk (Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/1XS5vGKquDNjxU6gLQcKd2",
-        "plays": 1
-      },
-      {
-        "name": "Tea for Two",
-        "album": "Criss-Cross (Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/3SSDhknexqI9YrrLj3sof6",
-        "plays": 1
-      },
-      {
-        "name": "Just a Gigolo",
-        "album": "Monk's Dream",
-        "spotify_url": "https://open.spotify.com/track/3laCo1tj2egTZLFDEZjbMy",
-        "plays": 1
-      },
-      {
-        "name": "Monk's Point",
-        "album": "Solo Monk (Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/4yaXmRVOjJP2pS0yycxcVO",
-        "plays": 1
-      },
-      {
-        "name": "Monk's Dream - Take 8",
-        "album": "Monk's Dream",
-        "spotify_url": "https://open.spotify.com/track/0488kXJ1YnLMrrM1ssJnev",
-        "plays": 1
-      },
-      {
-        "name": "Criss Cross - Remastered 1998",
-        "album": "Genius Of Modern Music (Vol.2, Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/0gxjUtBs6eFtmZAxQe1pWF",
-        "plays": 1
-      },
-      {
-        "name": "Off Minor - Remastered 2013",
-        "album": "Late Night Thelonious Monk",
-        "spotify_url": "https://open.spotify.com/track/0j7Sdz3I9lkgEjBoJ31Cti",
-        "plays": 1
-      },
-      {
-        "name": "Honeysuckle Rose",
-        "album": "The Very Best Of Thelonious Monk",
-        "spotify_url": "https://open.spotify.com/track/0qiDIFQ7Jc2pgQoI4VPmNc",
-        "plays": 1
-      },
-      {
-        "name": "Nutty",
-        "album": "Thelonious Monk with John Coltrane (OJC Remaster)",
-        "spotify_url": "https://open.spotify.com/track/0sWqnxofErf7mk8VKgbrXw",
-        "plays": 1
-      },
-      {
-        "name": "Relaxing With Lee - Take 6 / Take 3 / Master Take",
-        "album": "Bird And Diz (Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/14DEfXQJTnx4VHxU5CI47e",
-        "plays": 1
-      },
-      {
-        "name": "Ruby, My Dear",
-        "album": "Thelonious Monk with John Coltrane (OJC Remaster)",
-        "spotify_url": "https://open.spotify.com/track/1BMirA3vwj2NLamWkJsVYq",
-        "plays": 1
-      },
-      {
-        "name": "Trust In Me",
-        "album": "The Complete Riverside Recordings",
-        "spotify_url": "https://open.spotify.com/track/1IzmzJqOsGhcfMqLbfUmif",
-        "plays": 1
-      },
-      {
-        "name": "Ba-Lue Bolivar Ba-Lues-Are",
-        "album": "Brilliant Corners",
-        "spotify_url": "https://open.spotify.com/track/1OjmEyEycmzJK3itBAq8EG",
-        "plays": 1
-      },
-      {
-        "name": "I Didn't Know About You",
-        "album": "Straight, No Chaser",
-        "spotify_url": "https://open.spotify.com/track/1RuaxunGLjFmlXtKgfvd5G",
-        "plays": 1
-      },
-      {
-        "name": "Willow Weep For Me - Remastered 1998",
-        "album": "Late Night Thelonious Monk",
-        "spotify_url": "https://open.spotify.com/track/1fOGgeLqd3X292iT2taAe8",
-        "plays": 1
-      },
-      {
-        "name": "Trinkle, Tinkle",
-        "album": "Thelonious Monk with John Coltrane (OJC Remaster)",
-        "spotify_url": "https://open.spotify.com/track/20Fjir47YvWiroyPIqqeuj",
-        "plays": 1
-      },
-      {
-        "name": "Nice Work If You Can Get It - Rudy Van Gelder 24-Bit Mastering / 1998 Digital Remaster",
-        "album": "Genius Of Modern Music (Vol.1, Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/23EHe5LvkELsGHr1INOATb",
-        "plays": 1
-      },
-      {
-        "name": "Liza (All The Clouds'll Roll Away)",
-        "album": "The Complete Riverside Recordings",
-        "spotify_url": "https://open.spotify.com/track/25LhCKJ3UcsrtM8rnTsuCv",
-        "plays": 1
-      },
-      {
-        "name": "Easy Street",
-        "album": "Underground",
-        "spotify_url": "https://open.spotify.com/track/26wtc0ywX3xT9PXEEct8JL",
-        "plays": 1
-      },
-      {
-        "name": "Blue Monk - Rudy Van Gelder Remaster",
-        "album": "Thelonious Monk",
-        "spotify_url": "https://open.spotify.com/track/2C3rh8eX5vltOmwrz9I78n",
-        "plays": 1
-      },
-      {
-        "name": "Crepuscule With Nellie - Live From Salle Pleyel, Paris, France/1969",
-        "album": "Late Night Thelonious Monk",
-        "spotify_url": "https://open.spotify.com/track/2vsO4gh1UtRXVxrB2XWbAX",
-        "plays": 1
-      },
-      {
-        "name": "Between the Devil and the Deep Blue Sea",
-        "album": "Straight, No Chaser",
-        "spotify_url": "https://open.spotify.com/track/33vcuPi3HWgf8APeJMYYoz",
-        "plays": 1
-      },
-      {
-        "name": "Straight No Chaser - Remastered 1998",
-        "album": "Genius Of Modern Music (Vol.2, Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/3A9yRjIhRGSZIeuV0MT7lB",
-        "plays": 1
-      },
-      {
-        "name": "Bemsha Swing",
-        "album": "The Very Best Of Thelonious Monk",
-        "spotify_url": "https://open.spotify.com/track/3JrdrfwOwmDrU8jMlr1nA7",
-        "plays": 1
-      },
-      {
-        "name": "Bright Mississippi - Take 1",
-        "album": "Monk's Dream",
-        "spotify_url": "https://open.spotify.com/track/3sjPOoHkVxlBE5USE2higm",
-        "plays": 1
-      },
-      {
-        "name": "Relaxing With Lee - Take 2 / Incomplete",
-        "album": "Bird And Diz (Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/42wbar3MwSjbRwAn7vYDeR",
-        "plays": 1
-      },
-      {
-        "name": "Boo Boo's Birthday",
-        "album": "Underground",
-        "spotify_url": "https://open.spotify.com/track/48stcCjD6f2QyqYrF0RWCS",
-        "plays": 1
-      },
-      {
-        "name": "Bye-Ya",
-        "album": "Monk's Dream",
-        "spotify_url": "https://open.spotify.com/track/4BFCWGQsaNWmaDKLBxM8iX",
-        "plays": 1
-      },
-      {
-        "name": "An Oscar For Treadwell - Incomplete 411-1",
-        "album": "Unheard Bird: The Unissued Takes",
-        "spotify_url": "https://open.spotify.com/track/4KP5a2ykBXcP0q9QDOthqJ",
-        "plays": 1
-      },
-      {
-        "name": "Remember",
-        "album": "Thelonious Alone in San Francisco [Original Jazz Classics Remasters]",
-        "spotify_url": "https://open.spotify.com/track/4QPpGCyRdkhPehQ6LYQP9Y",
-        "plays": 1
-      },
-      {
-        "name": "Blue Bolivar Blues - Take 2",
-        "album": "Monk's Dream",
-        "spotify_url": "https://open.spotify.com/track/4XDDS2vmydUOxBi5SFW73M",
-        "plays": 1
-      },
-      {
-        "name": "Hackensack - RVG Remaster",
-        "album": "The Very Best Of Thelonious Monk",
-        "spotify_url": "https://open.spotify.com/track/4d0Ki9uhV0vxac1FrgdRyq",
-        "plays": 1
-      },
-      {
-        "name": "Locomotive",
-        "album": "Straight, No Chaser",
-        "spotify_url": "https://open.spotify.com/track/4jsgnWWPKM45CHfju35xqL",
-        "plays": 1
-      },
-      {
-        "name": "Suburban Eyes - Rudy Van Gelder 24-Bit Mastering / 2001 Digital Remaster",
-        "album": "Genius Of Modern Music (Vol.1, Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/5mxJNpzEr76NQKDmKt6pKr",
-        "plays": 1
-      },
-      {
-        "name": "This Is My Story, This Is My Song",
-        "album": "Straight, No Chaser",
-        "spotify_url": "https://open.spotify.com/track/5pBxREFmneTNhuEm8gB1du",
-        "plays": 1
-      },
-      {
-        "name": "Ugly Beauty",
-        "album": "Underground",
-        "spotify_url": "https://open.spotify.com/track/5xHPuSBWJKa0dsVTyaFeGl",
-        "plays": 1
-      },
-      {
-        "name": "Five Spot Blues",
-        "album": "Monk's Dream",
-        "spotify_url": "https://open.spotify.com/track/61ieytawm4bscc4GDE8nqq",
-        "plays": 1
-      },
-      {
-        "name": "Eronel",
-        "album": "Criss-Cross (Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/67tnJf77mVKMIOVcR1SQ2F",
-        "plays": 1
-      },
-      {
-        "name": "Don't Blame Me (Retake 1)",
-        "album": "Criss-Cross (Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/6E1mWJa8tjLvPOn47CTVeb",
-        "plays": 1
-      },
-      {
-        "name": "Well You Needn't - Alternate Take",
-        "album": "Late Night Thelonious Monk",
-        "spotify_url": "https://open.spotify.com/track/6Ka4Nkcto4IkALSNfx2vSB",
-        "plays": 1
-      },
-      {
-        "name": "Sweet And Lovely (Take 2)",
-        "album": "Solo Monk (Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/6PuIn0KCYvtSpU3kgGsDuA",
-        "plays": 1
-      },
-      {
-        "name": "These Foolish Things (Remind Me Of You)",
-        "album": "Solo Monk (Expanded Edition)",
-        "spotify_url": "https://open.spotify.com/track/6ZBea1ayHLEaBQGBxkugmK",
-        "plays": 1
-      },
-      {
-        "name": "Friday The 13th",
-        "album": "Thelonious Monk and Sonny Rollins",
-        "spotify_url": "https://open.spotify.com/track/486WAd6LYDr98q6u0pCfrR",
-        "plays": 1
-      },
-      {
-        "name": "Caravan",
-        "album": "Plays Duke Ellington (Keepnews Collection)",
-        "spotify_url": "https://open.spotify.com/track/3VIXUEBg2YkGwBMpTPMBXa",
-        "plays": 1
-      },
-      {
-        "name": "Blue Monk",
-        "album": "Thelonious Alone in San Francisco [Original Jazz Classics Remasters]",
-        "spotify_url": "https://open.spotify.com/track/5q5XkroSpmvbRl6uRsSJiS",
         "plays": 1
       }
     ]
@@ -61949,103 +64436,6 @@
         "name": "5 Little Preludes, BWV 939-943: Prelude In A Minor, BWV 942",
         "album": "J. S. Bach: Italian Concerto / Chromatic Fantasia And Fugue / 12 Little Preludes",
         "spotify_url": "https://open.spotify.com/track/6xxypuJ3g1Pg6OdnAFOXk5",
-        "plays": 1
-      }
-    ]
-  },
-  "chris-stapleton": {
-    "id": "4YLtscXsxbVgi031ovDDdh",
-    "name": "Chris Stapleton",
-    "spotify_url": "https://open.spotify.com/artist/4YLtscXsxbVgi031ovDDdh",
-    "total_plays": 13,
-    "first_seen": "",
-    "last_seen": "",
-    "genres": [
-      "contemporary country",
-      "outlaw country"
-    ],
-    "images": [
-      {
-        "height": 640,
-        "url": "https://i.scdn.co/image/ab6761610000e5eba0c87c8f329b436eac8b9784",
-        "width": 640
-      },
-      {
-        "height": 320,
-        "url": "https://i.scdn.co/image/ab67616100005174a0c87c8f329b436eac8b9784",
-        "width": 320
-      },
-      {
-        "height": 160,
-        "url": "https://i.scdn.co/image/ab6761610000f178a0c87c8f329b436eac8b9784",
-        "width": 160
-      }
-    ],
-    "top_tracks": [
-      {
-        "name": "Them Stems",
-        "album": "From A Room: Volume 1",
-        "spotify_url": "https://open.spotify.com/track/6vcFHirl6xkhzNLgZZH6QN",
-        "plays": 2
-      },
-      {
-        "name": "I Was Wrong",
-        "album": "From A Room: Volume 1",
-        "spotify_url": "https://open.spotify.com/track/7dUdMZqfGSIt0ZkmTOgRLA",
-        "plays": 2
-      },
-      {
-        "name": "Broken Halos",
-        "album": "From A Room: Volume 1",
-        "spotify_url": "https://open.spotify.com/track/06gD2ZtK3Dzc1BYqWExQJJ",
-        "plays": 1
-      },
-      {
-        "name": "Second One To Know",
-        "album": "From A Room: Volume 1",
-        "spotify_url": "https://open.spotify.com/track/0oTGa77jJ1H5joTG5SvxFj",
-        "plays": 1
-      },
-      {
-        "name": "Last Thing I Needed, First Thing This Morning",
-        "album": "From A Room: Volume 1",
-        "spotify_url": "https://open.spotify.com/track/3yju5QYFjndmGvaG2wVvPv",
-        "plays": 1
-      },
-      {
-        "name": "Up To No Good Livin'",
-        "album": "From A Room: Volume 1",
-        "spotify_url": "https://open.spotify.com/track/5v9e0mJg74D7cFfYxKDJH0",
-        "plays": 1
-      },
-      {
-        "name": "Without Your Love",
-        "album": "From A Room: Volume 1",
-        "spotify_url": "https://open.spotify.com/track/6Oexp3W6bv5LBzsS171iqN",
-        "plays": 1
-      },
-      {
-        "name": "Either Way",
-        "album": "From A Room: Volume 1",
-        "spotify_url": "https://open.spotify.com/track/6Wo5YxkdXgwzKQZbDg2r17",
-        "plays": 1
-      },
-      {
-        "name": "Death Row",
-        "album": "From A Room: Volume 1",
-        "spotify_url": "https://open.spotify.com/track/7sO969CnGNCZ7kDravLtPO",
-        "plays": 1
-      },
-      {
-        "name": "Hard Livin'",
-        "album": "From A Room: Volume 2",
-        "spotify_url": "https://open.spotify.com/track/6SYasTzcB2CZlJfkEO7ZrS",
-        "plays": 1
-      },
-      {
-        "name": "Devil Always Made Me Think Twice",
-        "album": "Starting Over",
-        "spotify_url": "https://open.spotify.com/track/3olGkpomYOWwRZsbFTZqiX",
         "plays": 1
       }
     ]
