@@ -15,8 +15,7 @@ tags = [
   "easy",
   "long-over-4mi",
   "paved",
-  "bike-path",
-  "dog-friendly"
+  "bike-path"
 ]
 keywords = ["Ballona Creek Bike Path", "Ballona Creek bike path map", "Marina del Rey to Culver City bike path", "Park to Playa Trail"]
 [geo]
@@ -37,7 +36,6 @@ The Ballona Creek Bike Path follows Ballona Creek and connects the Pacific Ocean
 
 **Route:** Out and back, about 13.5 miles round trip by the recorded track, or about 6.7 miles each way
 **Difficulty:** Easy and paved
-**Dog-friendly:** Yes
 
 ## Where It Connects
 
