@@ -96,6 +96,7 @@ curl -sI https://benstrawbridge.com/trails/ | grep -i '^location'   # → https:
 curl -sI https://www.benstrawbridge.com/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/bluff-creek-trail/ | grep -i '^location'
 curl -sI https://www.benstrawbridge.com/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/ | grep -i '^location'   # → /trails/
 curl -sI https://www.benstrawbridge.com/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/oberrieder-dog-park/ | grep -i '^location'   # → /trails/pv-tour/
+curl -sI https://www.benstrawbridge.com/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/bluff-trail/ | grep -i "^location"   # → /trails/bluff-trail/
 curl -sI https://www.benstrawbridge.com/projects/content-adaptors/spotify/foo/ | grep -i '^location'
 curl -sI https://www.benstrawbridge.com/listening/artists/page/2/ | grep -i '^location'   # → /listening/a-z/
 ```

@@ -35,7 +35,7 @@ The walks I do most often are around Westchester, Playa Vista, and Playa del Rey
 
 - [Bluff Creek Trail](/trails/bluff-creek-trail/): a 4-mile loop on the bluffs below LMU, with ocean and mountain views and three access points.
 - [Playa Vista Parks Walking Tour](/trails/pv-tour/): a self-guided loop through Playa Vista's parks and dog parks, including where to park for the Bluff Creek Trail.
-- [Bluff Trail](/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/bluff-trail/): the 1.5-mile path just west of LMU. It is a different trail from the Bluff Creek Trail.
+- [Bluff Trail](/trails/bluff-trail/): the short bluff path just west of LMU. It is a different trail from the Bluff Creek Trail.
 - [Ballona Creek Bike Path](/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/ballona-creek-bike-path/), [Ballona Wetlands](/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/ballona-wetlands/), and [Del Rey Lagoon](/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/del-rey-lagoon/): places to walk in Playa del Rey.
 
 ## Mountains and farther out

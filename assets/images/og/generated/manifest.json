@@ -9205,12 +9205,6 @@
       "layout": "abstract",
       "section": "projects"
     },
-    "/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/bluff-trail/": {
-      "output": "projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/bluff-trail.jpg",
-      "fingerprint": "0e9eca6cddb28c4d060b85c8202f939a927afdf34599e3a6ec80cc66a804dced",
-      "layout": "abstract",
-      "section": "projects"
-    },
     "/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/del-rey-lagoon/": {
       "output": "projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/del-rey-lagoon.jpg",
       "fingerprint": "15b846b05700c24e80a474e7351bd64610877dfb1a9cb6d26a388d4e9136f9ad",
@@ -9424,6 +9418,12 @@
     "/trails/bluff-creek-trail/": {
       "output": "trails/bluff-creek-trail.jpg",
       "fingerprint": "301db11c8f651733326cc8a54f821f2ce10e5a783eebdfd342c30b5944b25b5f",
+      "layout": "trail",
+      "section": "trails"
+    },
+    "/trails/bluff-trail/": {
+      "output": "trails/bluff-trail.jpg",
+      "fingerprint": "a56a4e6860191aa3df3313c51b243d886578c7dc0f7c08f0fc7a82d42d2185a9",
       "layout": "trail",
       "section": "trails"
     },
