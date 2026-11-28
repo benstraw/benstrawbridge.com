@@ -27,6 +27,7 @@ with PostHog and Google Search Console.
 | | [deployment/csp.md](deployment/csp.md) | adding **any** external host (required check) |
 | Analytics | [analytics/posthog.md](analytics/posthog.md) | adding events, changing PostHog config, reading traffic |
 | | [runbooks/posthog-deploy-tracking.md](runbooks/posthog-deploy-tracking.md) | deploy markers: setup, troubleshooting, key rotation |
+| | [runbooks/consulting-booking.md](runbooks/consulting-booking.md) | setting up or rewiring the consulting "Book a call" link |
 | Data | [data/spotify-listening.md](data/spotify-listening.md) | touching `data/spotify/` or the `/listening/` section |
 | Stats | [operations/site-stats.md](operations/site-stats.md) | quoting a page count or sizing a change |
 | Automation | [operations/ci-and-automation.md](operations/ci-and-automation.md) | editing GitHub workflows or Claude automation |
