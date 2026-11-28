@@ -22,6 +22,17 @@
 
 # Old hiking-guide URL. It used to be only a Hugo alias (meta refresh), and
 # Google kept the stub indexed five months on, ranking it at 6.26, above the
-# real page at 6.74. Leave the alias in content/trails/bluff-creek-trail/index.md
-# until this rule is confirmed live; drop it only after that.
+# real page at 6.74. The alias is gone from content/trails/bluff-creek-trail/.
 /projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/bluff-creek-trail/ /trails/bluff-creek-trail/ 301
+
+# Retired legacy hiking hub (issue #114). It competed with /trails/ for the same
+# queries (1,465 impressions, position 8, against /trails/ at 43.8 with no
+# clicks). Oberrieder is covered in depth in the Playa Vista tour. Bluff Trail,
+# Ballona Wetlands, Del Rey Lagoon and the Ballona Creek Bike Path each got a
+# GPX and moved into /trails/. Jet Pets (closed) keeps its URL.
+/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/ /trails/ 301
+/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/oberrieder-dog-park/ /trails/pv-tour/ 301
+/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/bluff-trail/ /trails/bluff-trail/ 301
+/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/ballona-wetlands/ /trails/ballona-wetlands/ 301
+/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/del-rey-lagoon/ /trails/del-rey-lagoon/ 301
+/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/ballona-creek-bike-path/ /trails/ballona-creek-bike-path/ 301

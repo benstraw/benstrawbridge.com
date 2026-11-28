@@ -66,7 +66,7 @@ I made this quick and easy shortcode to get started using leaflet.js in the [Ryd
 </script>
 <div>Debug Info: ID={{ .Get "id" }}, Lat={{ .Get "lat" }}, Lon={{ .Get "lon" }}, Zoom={{ .Get "zoom" }}</div>
 ```
-- I added the shortcode to my post about [westchester hiking]({{< ref "/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/" >}})
+- I added the shortcode to my post about westchester hiking
 
 {{< highlight go-html-template >}}
 {{</* leaflet id="map1" lat="33.966613" lon="-118.426178" zoom="13.5" markerLat="33.9716" markerLon="-118.4363" markerPopup="Green Space right by LAX!" */>}}

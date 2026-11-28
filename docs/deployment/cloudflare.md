@@ -88,12 +88,18 @@ match wins, so specific rules go above wildcards. Paths only — host redirects
 
 Use a 301 here, not a Hugo `alias`, for anything that has ever ranked
 ([seo/invariants.md](../seo/invariants.md#redirects-vs-aliases)). The bluff-creek
-alias in `content/trails/bluff-creek-trail/index.md` stays until its 301 is
-confirmed live:
+alias that used to sit in `content/trails/bluff-creek-trail/index.md` is gone;
+the 301 is the only redirect. After a deploy, confirm each one:
 
 ```bash
 curl -sI https://benstrawbridge.com/trails/ | grep -i '^location'   # → https://www.benstrawbridge.com/trails/
 curl -sI https://www.benstrawbridge.com/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/bluff-creek-trail/ | grep -i '^location'
+curl -sI https://www.benstrawbridge.com/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/ | grep -i '^location'   # → /trails/
+curl -sI https://www.benstrawbridge.com/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/oberrieder-dog-park/ | grep -i '^location'   # → /trails/pv-tour/
+curl -sI https://www.benstrawbridge.com/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/bluff-trail/ | grep -i "^location"   # → /trails/bluff-trail/
+curl -sI https://www.benstrawbridge.com/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/ballona-wetlands/ | grep -i '^location'   # → /trails/ballona-wetlands/
+curl -sI https://www.benstrawbridge.com/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/del-rey-lagoon/ | grep -i '^location'   # → /trails/del-rey-lagoon/
+curl -sI https://www.benstrawbridge.com/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/ballona-creek-bike-path/ | grep -i '^location'   # → /trails/ballona-creek-bike-path/
 curl -sI https://www.benstrawbridge.com/projects/content-adaptors/spotify/foo/ | grep -i '^location'
 curl -sI https://www.benstrawbridge.com/listening/artists/page/2/ | grep -i '^location'   # → /listening/a-z/
 ```

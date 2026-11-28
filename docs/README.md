@@ -23,6 +23,7 @@ with PostHog and Google Search Console.
 | SEO | [seo/invariants.md](seo/invariants.md) | changing titles, descriptions, headings, outputs, robots, redirects |
 | | [seo/og-cards.md](seo/og-cards.md) | adding content (it needs a card) or touching the OG pipeline |
 | | [search-console/README.md](search-console/README.md) | comparing Search Console exports |
+| | [seo/experiments/2026-11-trails-consolidation.md](seo/experiments/2026-11-trails-consolidation.md) | judging the #114 trails consolidation: baseline, cohorts, checks |
 | Deployment | [deployment/cloudflare.md](deployment/cloudflare.md) | changing hosting, headers, previews, redirects, build variables |
 | | [deployment/csp.md](deployment/csp.md) | adding **any** external host (required check) |
 | Analytics | [analytics/posthog.md](analytics/posthog.md) | adding events, changing PostHog config, reading traffic |

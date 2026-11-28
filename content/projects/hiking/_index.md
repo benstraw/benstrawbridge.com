@@ -16,6 +16,8 @@ listRecursive = true
     headerBackgroundFrameOuter = "bg-gradient-to-r from-blue-600 to-violet-600 text-neutral-200"
 +++
 
+> The trail guides have moved to [Trails](/trails/): maps, parking, and stop-by-stop walks, starting in Westchester and Playa Vista.
+
   {{< picture
     alt="Ben and Rhys on Bishop Peak"
     overlay="images/bs_full_wordmark.png"

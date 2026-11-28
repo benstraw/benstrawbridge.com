@@ -4,6 +4,8 @@ date = 2026-03-22
 lastmod = 2026-04-02
 description = "A self-guided walking tour of Playa Vista's best parks and green spaces — with maps, dog park reviews, parking tips, and the local's guide to parking for Bluff Creek Trail."
 tour = true
+area = "local"
+weight = 2
 gpx = "playa-vista-parks-walking-tour.gpx"
 # The full title wraps to two lines on the OG card and crowds the map.
 ogTitleText = "Playa Vista Parks Walking Tour"

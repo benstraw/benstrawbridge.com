@@ -1,0 +1,57 @@
+{{- /*
+Site override of themes/ryder/layouts/_default/list.html for the /trails/ landing
+page only. The theme renders the page body above one flat, date-sorted grid of
+every child. This page needs the grid split by area (local first, then widening
+out), so it reads an ordered `areas` list from content/trails/_index.md and
+renders one heading, intro line and card grid per area. See
+docs/theme/ryder-forks.md.
+
+Each child trail sets `area` in its front matter; `weight` orders cards inside an
+area (Hugo's default order puts weight 0 last, then newest first). An area with
+no trails renders nothing. A trail whose `area` matches no entry in `areas` is
+not shown, so the build fails loudly rather than hiding a page: see the errorf
+below.
+*/ -}}
+{{ define "main" }}
+<div class="p-2 max-w-screen-lg mx-auto">
+  {{- $headerClass := "" -}}
+  {{- with .Param "twClasses.headerBackgroundFrameOuter" -}}{{- $headerClass = . -}}{{- end -}}
+  <header class="max-w-screen-xl">
+    <h1 class="{{ $headerClass }} rounded-t-lg p-3 flex items-center">
+      {{- if .Params.homeFeatureIcon -}}<i class="{{ .Params.homeFeatureIcon }} mr-2 text-4xl"></i>{{- end -}}
+      {{- .Title -}}
+    </h1>
+  </header>
+  <div class="mt-2 prose w-full max-w-max-screen-xl min-w-full lg:prose-lg dark:prose-invert">
+    {{- .Content -}}
+  </div>
+
+  {{- $pages := .Pages -}}
+  {{- $listCardType := .Param "listCardType" | default "-trail" -}}
+  {{- $known := slice -}}
+  {{- range .Params.areas -}}{{- $known = $known | append .key -}}{{- end -}}
+  {{- range $pages -}}
+    {{- if not (in $known .Params.area) -}}
+      {{- errorf "trail %s has area %q, which is not listed in areas in content/trails/_index.md" .RelPermalink .Params.area -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- range .Params.areas -}}
+    {{- $key := .key -}}
+    {{- $inArea := where $pages "Params.area" $key -}}
+    {{- if $inArea }}
+    <section aria-labelledby="area-{{ $key }}" class="mt-6">
+      <div class="prose w-full max-w-max-screen-xl min-w-full lg:prose-lg dark:prose-invert m-2">
+        <h2 id="area-{{ $key }}">{{ .title }}</h2>
+        {{- with .intro }}<p>{{ . }}</p>{{ end }}
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6 m-2">
+        {{- range $inArea -}}
+          {{- partial (printf "card%s.html" $listCardType) . -}}
+        {{- end -}}
+      </div>
+    </section>
+    {{- end -}}
+  {{- end -}}
+</div>
+{{ end }}

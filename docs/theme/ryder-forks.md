@@ -165,3 +165,13 @@ wordmark — see [seo/invariants.md](../seo/invariants.md).
 Markup is verbatim; the only delta is a script tag for `assets/js/not-found.js`.
 See [analytics/posthog.md](../analytics/posthog.md#404-tracking). On a bump,
 re-copy the theme markup and keep the script block.
+
+### `/trails/` has its own list layout
+
+`layouts/trails/list.html` replaces the list layout for `/trails/` only. The
+flat, date-sorted grid is split into groups: `content/trails/_index.md` holds an
+ordered `[[areas]]` list (`key`, `title`, `intro`), each trail sets `area` to one
+of those keys, and `weight` orders cards inside a group. A trail whose `area`
+matches no key fails the build. There is no pagination. Cards still come from
+`listCardType` (`-trail`). When bumping Ryder, compare against the theme's
+`_default/list.html` header and prose block, which this file copies.

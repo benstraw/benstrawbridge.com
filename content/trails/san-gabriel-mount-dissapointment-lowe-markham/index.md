@@ -4,6 +4,7 @@ date = 2026-04-01
 description = ""
 gpx = "San_Gabriel_Mount_Disappointment_Lowe_Markham_via_Mt_Lowe_Motorway.gpx"
 tour = true
+area = "angeles"
 tourType = "Hiking Tour"
 
 [geo]
