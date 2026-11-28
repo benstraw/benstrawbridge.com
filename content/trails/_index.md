@@ -46,4 +46,4 @@ listCardType = "-trail"
   intro = "Trips outside the Los Angeles area."
 +++
 
-These are the trail guides I write after walking the route myself. Each one has a map, what to look for along the way, and the honest answer to where to park. They start close to home in Westchester, Playa del Rey and Playa Vista, then reach out across Los Angeles and into the mountains.
+These are the trail guides I write after walking the route myself. Each one has a map, what to look for along the way, and the best place to park. They start close to home in Westchester, Playa del Rey and Playa Vista, then reach out across Los Angeles and into the mountains.
