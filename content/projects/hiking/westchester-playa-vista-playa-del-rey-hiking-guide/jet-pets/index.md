@@ -22,3 +22,5 @@ Jet Pets is an animal transportation company at 9111 Falmouth Avenue in Playa de
 That field is gone. The property is being developed, so don't plan a dog walk here.
 
 For a dog-friendly walk nearby, the [Bluff Creek Trail](/trails/bluff-creek-trail/) connects to off-leash dog parks in Playa Vista, and the [Playa Vista Parks Walking Tour](/trails/pv-tour/) covers the dog parks along the way.
+
+> The trail guides have moved to [Trails](/trails/): maps, parking, and stop-by-stop walks, starting in Westchester and Playa Vista.
