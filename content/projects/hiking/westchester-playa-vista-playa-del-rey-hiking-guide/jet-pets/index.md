@@ -1,50 +1,24 @@
 +++
 title = 'Jet Pets'
 date = 2024-04-15T14:21:28-07:00
-cardImage = "jet-pets_featured.webp"
-cardImageAlt = "The fenced green field at Jet Pets near LAX"
-cardImagePosition = "center"
+description = "Jet Pets in Playa del Rey used to open its fenced field to dog walkers. The property is being developed and the field is no longer open."
+lastmod = 2026-11-28
 tags = [
   "westchester",
-  "easy",
-  "short-under-2mi",
   "dog-park",
   "dog-friendly"
 ]
 hideAsideBar = true
-# draft = true
 [maps]
 lat = "33.9575"
 lon = "-118.4340"
 +++
-## Private dog friendly open space
+## The field is closed
 
-{{< lat-long-box >}}
-
-{{< leaflet 
-  id="jetpets" 
-  lat="33.95295632099991" 
-  lon="-118.4365881451951" 
-  zoom="16.0" 
-  markerLat="33.95373035244248" 
-  markerLon="-118.43425235484004" 
-  markerPopup="Jet Pets entrance" 
-  divHeight="300px"
->}}
-
-Jet Pets is an animal transportation company located in Playa Del Rey very close to LAX. They have a large field on their property that is fenced in and they keep it open most days and allow you to walk your dog there.
+Jet Pets is an animal transportation company at 9111 Falmouth Avenue in Playa del Rey, close to LAX. For years they kept a large fenced field on their property open most days and let people walk their dogs there.
 
 <!--more-->
 
-{{< picture 
-  alt="The Jet Pets sign by the entrance"
-  src="jet-pets_featured.webp"
-  title="The Jet Pets sign by the entrance"
-  overlay="images/bs_full_wordmark.png"
- >}}
+That field is gone. The property is being developed, so don't plan a dog walk here.
 
-### Location
-Jet Pets   
-9111 Falmouth Avenue  
-Playa del Rey, CA 90293  
-
+For a dog-friendly walk nearby, the [Bluff Creek Trail](/trails/bluff-creek-trail/) connects to off-leash dog parks in Playa Vista, and the [Playa Vista Parks Walking Tour](/trails/pv-tour/) covers the dog parks along the way.

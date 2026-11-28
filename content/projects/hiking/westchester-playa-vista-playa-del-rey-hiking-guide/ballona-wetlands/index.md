@@ -1,6 +1,8 @@
 +++
 title = 'Ballona Wetlands'
 date = 2024-04-15T14:23:44-07:00
+description = "Ballona Wetlands is a protected ecological preserve in Playa del Rey. Most of it is closed, but trails on Lincoln and Jefferson give you a look."
+lastmod = 2026-11-28
 tags = [
   "playa-del-rey",
   "easy",

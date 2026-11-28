@@ -1,6 +1,8 @@
 +++
 title = 'Ballona Creek Bike Path'
 date = 2024-04-15T14:22:09-07:00
+description = "The Ballona Creek Bike Path follows the creek from Marina del Rey to Culver City and is part of the Park to Playa Trail."
+lastmod = 2026-11-28
 tags = [
   "playa-vista",
   "easy",

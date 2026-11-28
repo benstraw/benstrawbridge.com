@@ -22,6 +22,13 @@
 
 # Old hiking-guide URL. It used to be only a Hugo alias (meta refresh), and
 # Google kept the stub indexed five months on, ranking it at 6.26, above the
-# real page at 6.74. Leave the alias in content/trails/bluff-creek-trail/index.md
-# until this rule is confirmed live; drop it only after that.
+# real page at 6.74. The alias is gone from content/trails/bluff-creek-trail/.
 /projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/bluff-creek-trail/ /trails/bluff-creek-trail/ 301
+
+# Retired legacy hiking hub (issue #114). It competed with /trails/ for the same
+# queries (1,465 impressions, position 8, against /trails/ at 43.8 with no
+# clicks). Oberrieder is covered in depth in the Playa Vista tour. The stops
+# that stay (del-rey-lagoon, jet-pets, ballona-wetlands, ballona-creek-bike-path)
+# keep their own URLs.
+/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/ /trails/ 301
+/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/oberrieder-dog-park/ /trails/pv-tour/ 301

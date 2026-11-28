@@ -1,6 +1,8 @@
 +++
 title = 'Bluff Trail'
 date = 2024-04-15T14:20:45-07:00
+description = "The Bluff Trail is a 1.5-mile path just west of LMU, beside One Westbluff, with ocean, marina, and Ballona Wetlands views."
+lastmod = 2026-11-28
 tags = [
   "playa-del-rey",
   "moderate",

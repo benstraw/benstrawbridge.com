@@ -9193,12 +9193,6 @@
       "layout": "full",
       "section": "projects"
     },
-    "/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/": {
-      "output": "projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide.jpg",
-      "fingerprint": "1aeb941174949d5bfb6dc52c4857f1beab4e27405b923fd89df78d2d15580d1d",
-      "layout": "full",
-      "section": "projects"
-    },
     "/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/ballona-creek-bike-path/": {
       "output": "projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/ballona-creek-bike-path.jpg",
       "fingerprint": "258cc403d248fc4c7e706f0a8d7521a0800f0b344049a57b483f109c0a2a08fd",
@@ -9227,12 +9221,6 @@
       "output": "projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/jet-pets.jpg",
       "fingerprint": "c5e7f5c8c5d3e708c4a9fc3a7a17dbce8480e238d66106a368f4b0b85a071b10",
       "layout": "full",
-      "section": "projects"
-    },
-    "/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/oberrieder-dog-park/": {
-      "output": "projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/oberrieder-dog-park.jpg",
-      "fingerprint": "40abfce56038f9a6ec1665fb210fc93953b3d973b2c38672ab4c6f7bcedb3dc5",
-      "layout": "abstract",
       "section": "projects"
     },
     "/projects/ironcove-solutions-orchestration-engine/": {
@@ -9423,7 +9411,7 @@
     },
     "/trails/": {
       "output": "trails.jpg",
-      "fingerprint": "64c7171e5933c738afe81aa7cd5104aad64c113a9d5d3c6f0185429c946ec453",
+      "fingerprint": "2be55fb3909a4d44ad7a887237990983a76896b9f69c2a77664b822af2b3977a",
       "layout": "full",
       "section": "trails"
     },
