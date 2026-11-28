@@ -27,9 +27,12 @@
 
 # Retired legacy hiking hub (issue #114). It competed with /trails/ for the same
 # queries (1,465 impressions, position 8, against /trails/ at 43.8 with no
-# clicks). Oberrieder is covered in depth in the Playa Vista tour. The stops
-# that stay (del-rey-lagoon, jet-pets, ballona-wetlands, ballona-creek-bike-path)
-# keep their own URLs.
+# clicks). Oberrieder is covered in depth in the Playa Vista tour. Bluff Trail,
+# Ballona Wetlands, Del Rey Lagoon and the Ballona Creek Bike Path each got a
+# GPX and moved into /trails/. Jet Pets (closed) keeps its URL.
 /projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/ /trails/ 301
 /projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/oberrieder-dog-park/ /trails/pv-tour/ 301
 /projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/bluff-trail/ /trails/bluff-trail/ 301
+/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/ballona-wetlands/ /trails/ballona-wetlands/ 301
+/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/del-rey-lagoon/ /trails/del-rey-lagoon/ 301
+/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/ballona-creek-bike-path/ /trails/ballona-creek-bike-path/ 301

@@ -4,6 +4,7 @@ date = 2026-03-22
 description = "A challenging hike to the summit of Strawberry Peak."
 gpx = "strawbpk.gpx"
 tour = true
+area = "angeles"
 tourType = "Hiking Tour"
 
 [[stops]]

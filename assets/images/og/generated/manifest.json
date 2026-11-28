@@ -9193,24 +9193,6 @@
       "layout": "full",
       "section": "projects"
     },
-    "/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/ballona-creek-bike-path/": {
-      "output": "projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/ballona-creek-bike-path.jpg",
-      "fingerprint": "258cc403d248fc4c7e706f0a8d7521a0800f0b344049a57b483f109c0a2a08fd",
-      "layout": "abstract",
-      "section": "projects"
-    },
-    "/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/ballona-wetlands/": {
-      "output": "projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/ballona-wetlands.jpg",
-      "fingerprint": "2223999acd9693725336d5026e96ac323388ce426b0a614adc6f06da5ec19b68",
-      "layout": "abstract",
-      "section": "projects"
-    },
-    "/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/del-rey-lagoon/": {
-      "output": "projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/del-rey-lagoon.jpg",
-      "fingerprint": "15b846b05700c24e80a474e7351bd64610877dfb1a9cb6d26a388d4e9136f9ad",
-      "layout": "abstract",
-      "section": "projects"
-    },
     "/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/jet-pets/": {
       "output": "projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/jet-pets.jpg",
       "fingerprint": "c5e7f5c8c5d3e708c4a9fc3a7a17dbce8480e238d66106a368f4b0b85a071b10",
@@ -9415,6 +9397,18 @@
       "layout": "trail",
       "section": "trails"
     },
+    "/trails/ballona-creek-bike-path/": {
+      "output": "trails/ballona-creek-bike-path.jpg",
+      "fingerprint": "3f032fb51720dcc99dbc5f5c8e471afa29cdd7e807398c0c88612e2ef9b6f17c",
+      "layout": "trail",
+      "section": "trails"
+    },
+    "/trails/ballona-wetlands/": {
+      "output": "trails/ballona-wetlands.jpg",
+      "fingerprint": "c5692f7e42ffeb21e67cbc2e4c30dad142d582c631018b956797756ccf00b370",
+      "layout": "trail",
+      "section": "trails"
+    },
     "/trails/bluff-creek-trail/": {
       "output": "trails/bluff-creek-trail.jpg",
       "fingerprint": "301db11c8f651733326cc8a54f821f2ce10e5a783eebdfd342c30b5944b25b5f",
@@ -9424,6 +9418,12 @@
     "/trails/bluff-trail/": {
       "output": "trails/bluff-trail.jpg",
       "fingerprint": "a56a4e6860191aa3df3313c51b243d886578c7dc0f7c08f0fc7a82d42d2185a9",
+      "layout": "trail",
+      "section": "trails"
+    },
+    "/trails/del-rey-lagoon/": {
+      "output": "trails/del-rey-lagoon.jpg",
+      "fingerprint": "273b41c9fc29309cb4f5fca7449a3284962b98a60e0b962914bd08336e16847b",
       "layout": "trail",
       "section": "trails"
     },

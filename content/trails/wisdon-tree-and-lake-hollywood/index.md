@@ -4,6 +4,7 @@ date = 2026-04-01
 description = ""
 gpx = "Wisdom Tree and Lake Hollywood.gpx"
 tour = true
+area = "la"
 tourType = "Hiking Tour"
 
 [geo]
