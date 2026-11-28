@@ -28,6 +28,7 @@ The Bluff Trail is the short path along the bluff just west of LMU, beside the O
 **Route:** Out and back, about 0.9 miles round trip by the recorded track
 **Difficulty:** Easy, with only about 30 feet of elevation change
 **Dog-friendly:** Yes
+**Parking:** Street parking on One Westbluff, or the Sports Park lot in Playa Vista. The [parking section of the Playa Vista Parks Walking Tour](/trails/pv-tour/#where-to-park-for-bluff-creek-trail) covers the Sports Park in detail.
 
 ## Bluff Trail or Bluff Creek Trail?
 
