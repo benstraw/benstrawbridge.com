@@ -3,6 +3,7 @@ title = 'Jet Pets'
 date = 2024-04-15T14:21:28-07:00
 description = "Jet Pets in Playa del Rey used to open its fenced field to dog walkers. The property is being developed and the field is no longer open."
 lastmod = 2026-11-28
+hideFromHomeFeed = true
 tags = [
   "westchester",
   "dog-park",
