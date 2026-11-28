@@ -90,7 +90,7 @@
     color: #4ade80 !important; /* green-400 */
   }
 
-  /* ── "About This Tour" info card ─────────────────────────────────── */
+  /* ── "About This …" info card ─────────────────────────────────── */
   .trail-about-section {
     background-color: #f9fafb; /* neutral-50 */
     border: 1px solid #e5e7eb; /* neutral-200 */
@@ -396,7 +396,7 @@
     {{/*
       We post-process .Content with JS to:
         1. Wrap the "Where to Park" H2 + its content in .trail-parking-section
-        2. Wrap the "About This Tour" H2 + its content in .trail-about-section
+        2. Wrap the "About This …" H2 (Tour, Trail, Walk, Loop, Path) + its content in .trail-about-section
       This avoids duplicating logic in the template or requiring shortcodes.
     */}}
 
@@ -447,7 +447,7 @@
   // Wrap FAQ first so "Where to Park" h2 is still a direct child when parking wraps
   wrapSection('Frequently Asked Questions', 'trail-faq-section');
   wrapSection('Where to Park', 'trail-parking-section');
-  wrapSection('About This Tour', 'trail-about-section');
+  wrapSection('About This', 'trail-about-section');
 
   // ── Convert FAQ h3+p pairs into accordion items ──────────────────────
   var faqSection = content.querySelector('.trail-faq-section');
