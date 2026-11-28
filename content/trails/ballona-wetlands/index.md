@@ -15,8 +15,7 @@ tags = [
   "short-under-2mi",
   "wetlands",
   "nature",
-  "birdwatching",
-  "paved"
+  "birdwatching"
 ]
 keywords = ["Ballona Wetlands", "Ballona Wetlands trail", "Ballona Wetlands Ecological Reserve", "birdwatching Playa del Rey", "wetlands near LAX"]
 [geo]
@@ -37,7 +36,7 @@ Ballona is a protected ecological preserve, and most of it is closed to the publ
 
 **Route:** Out and back, about 1.4 miles round trip by the recorded track
 **Difficulty:** Easy and flat
-**Surface:** Paved
+**Surface:** Wood chips
 
 ## The Preserve
 
