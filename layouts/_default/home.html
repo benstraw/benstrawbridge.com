@@ -85,12 +85,6 @@
       {{- if and (eq .Section "links") (not (index .Params "link_url")) }}
         {{- continue }}
       {{- end }}
-      {{/*  SITE: hideFromHomeFeed = true keeps a page out of the feed. The feed sorts
-            by lastmod, so an edit to an old page would otherwise float it to the top;
-            this lets us keep an honest lastmod (sitemap, dateModified) without that.  */}}
-      {{- if .Params.hideFromHomeFeed }}
-        {{- continue }}
-      {{- end }}
       {{/*  SITE: link pages carry their payload in link_url, not in a summary, so
             only require a summary from everything else.  */}}
       {{- if and (not (index .Params "link_url")) (eq .Summary "") }}

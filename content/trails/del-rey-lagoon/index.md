@@ -1,8 +1,6 @@
 +++
 title = "Del Rey Lagoon"
 date = 2024-04-15T14:25:45-07:00
-lastmod = 2026-11-28
-hideFromHomeFeed = true
 description = "Del Rey Lagoon is a 14-acre park in Playa del Rey with a playground, ball fields, basketball courts, and a parking lot for visitors."
 gpx = "del-rey-lagoon-loop.gpx"
 tour = true

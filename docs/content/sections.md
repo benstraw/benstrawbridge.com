@@ -58,7 +58,6 @@ Archetypes create `draft = true`. Then, before committing:
 | Key | Effect |
 | --- | --- |
 | `title`, `date`, `draft`, `description`, `tags` | The basics. `lastmod` falls back to `date`. |
-| `hideFromHomeFeed` | `true` keeps the page out of the home feed. The feed sorts by `lastmod`, so use this when you edit an old page and don't want it to jump to the top. |
 | `summary` | Overrides the `<!--more-->` / 100-word summary. |
 | `hideAsideBar`, `showTOC` / `TocOpen` | Layout. `hideAsideBar = true` drops the whole aside, so the article is full width and its tags render below it (Ryder v0.5.1+; before that it only hid the TOC). |
 | `homeFeature`, `homeFeatureWide`, `homeFeatureIcon` | Promote to the home page's feature band; icon is a Font Awesome class (must be registered). |

@@ -1,8 +1,6 @@
 +++
 title = "Bluff Trail"
 date = 2024-04-15T14:20:45-07:00
-lastmod = 2026-11-28
-hideFromHomeFeed = true
 description = "The Bluff Trail is a short out-and-back path just west of LMU, beside One Westbluff, with ocean, marina, and Ballona Wetlands views."
 gpx = "bluff-trail.gpx"
 tour = true
